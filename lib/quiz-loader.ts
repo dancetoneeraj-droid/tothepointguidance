@@ -44,8 +44,9 @@ function normalizeLetterAnswerQuestions(
     E: 4,
   };
 
-  return questions
-    .map((question, index) => {
+  const normalized: Question[] = [];
+
+  questions.forEach((question, index) => {
       const letter = question.correctAnswer?.trim().toUpperCase();
       const mappedIndex = letterIndexMap[letter];
       const fallback = question.options[0];
@@ -53,18 +54,19 @@ function normalizeLetterAnswerQuestions(
       const options = question.options.filter(Boolean);
 
       if (!question.question || options.length < 2 || !correctAnswer) {
-        return null;
+        return;
       }
 
-      return {
+      normalized.push({
         id: `${prefix}_${String(index + 1).padStart(3, "0")}`,
         question: question.question,
         options,
         correctAnswer,
         explanation: question.explanation,
-      } satisfies Question;
-    })
-    .filter((question): question is Question => Boolean(question));
+      });
+    });
+
+  return normalized;
 }
 
 const MATHS_BANKS: Record<string, Question[]> = {
