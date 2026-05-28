@@ -182,6 +182,16 @@ export default function DayPage({
       url?: string
     ) => {
       if (!url) return;
+      const isExternal = /^https?:\/\//i.test(url);
+      if (!isExternal) {
+        const response = await fetch(url, { method: "HEAD" }).catch(() => null);
+        if (!response?.ok) {
+          window.alert(
+            "This PDF is not uploaded yet. Please use the available study resource for now."
+          );
+          return;
+        }
+      }
       window.open(url, "_blank", "noopener,noreferrer");
       await markEnglish(section);
     },
@@ -191,6 +201,16 @@ export default function DayPage({
   const openGkResource = useCallback(
     async (url?: string) => {
       if (!url) return;
+      const isExternal = /^https?:\/\//i.test(url);
+      if (!isExternal) {
+        const response = await fetch(url, { method: "HEAD" }).catch(() => null);
+        if (!response?.ok) {
+          window.alert(
+            "This file is not uploaded yet. Please use available notes for now."
+          );
+          return;
+        }
+      }
       window.open(url, "_blank", "noopener,noreferrer");
       await markGk();
     },
