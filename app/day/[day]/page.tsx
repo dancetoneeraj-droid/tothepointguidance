@@ -220,7 +220,7 @@ export default function DayPage({
   const tasks = useMemo<ExecutionTask[]>(() => {
     if (!plan || !dayProgress) return [];
 
-    const isDay1NounFlow = dayNum === 1 && plan.english.comprehensionQuiz === "noun";
+    const isDay1NounFlow = dayNum === 1 && plan.english.grammarQuiz === "noun";
 
     return [
       ...plan.maths.map((mathTopic, index) => ({
@@ -268,9 +268,11 @@ export default function DayPage({
       {
         id: "english-grammar",
         label: "English Grammar",
-        subtitle: plan.english.grammarMindmap
-          ? "Grammar PDF + mind map revision"
-          : "Grammar PDF notes",
+        subtitle: isDay1NounFlow
+          ? "NOUN basic PDF reading · 20-30 min read time"
+          : plan.english.grammarMindmap
+            ? "Grammar PDF + mind map revision"
+            : "Grammar PDF notes",
         kind: "reading",
         subject: "english",
         completed: dayProgress.english.grammar,
@@ -362,27 +364,27 @@ export default function DayPage({
             : []),
         ],
       },
-      ...(plan.english.comprehensionQuiz
+      ...(plan.english.grammarQuiz
         ? [
             {
-              id: `english-quiz-${plan.english.comprehensionQuiz}`,
+              id: `english-quiz-${plan.english.grammarQuiz}`,
               label: "English Quiz",
               subtitle:
-                plan.english.comprehensionQuiz === "noun"
+                plan.english.grammarQuiz === "noun"
                   ? "Noun quiz · 25 questions · 10 min"
-                  : `${formatTopic(plan.english.comprehensionQuiz)} quiz`,
+                  : `${formatTopic(plan.english.grammarQuiz)} quiz`,
               kind: "quiz" as const,
               subject: "english" as const,
-              completed: dayProgress.english.comprehension,
+              completed: dayProgress.english.grammar,
               actions: [
                 {
-                  id: `english-quiz-action-${plan.english.comprehensionQuiz}`,
-                  label: dayProgress.english.comprehension
+                  id: `english-quiz-action-${plan.english.grammarQuiz}`,
+                  label: dayProgress.english.grammar
                     ? "View result"
                     : "Start quiz",
                   onClick: () =>
                     router.push(
-                      `/quiz/english/${plan.english.comprehensionQuiz}?day=${dayNum}`
+                      `/quiz/english/${plan.english.grammarQuiz}?day=${dayNum}`
                     ),
                 },
               ],
@@ -517,7 +519,7 @@ export default function DayPage({
   const selectedSubjectTasks = tasks.filter(
     (task) => task.subject === selectedSubject
   );
-  const isDay1NounFlow = dayNum === 1 && plan?.english.comprehensionQuiz === "noun";
+  const isDay1NounFlow = dayNum === 1 && plan?.english.grammarQuiz === "noun";
 
   if (!progress || !studentId) return null;
 

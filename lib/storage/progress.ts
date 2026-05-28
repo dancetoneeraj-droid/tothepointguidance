@@ -252,7 +252,7 @@ export async function recordQuizCompletion(
     dayProgress.gk.revisionQuizCompleted = true;
     store.gkProgress[String(day)] = dayProgress.gk;
   } else {
-    dayProgress.english.comprehension = true;
+    dayProgress.english.grammar = true;
     store.englishProgress[String(day)] = dayProgress.english;
   }
 

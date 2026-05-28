@@ -24,6 +24,7 @@ export interface EnglishConfig {
   comprehensionPdf?: string;
   grammarMindmap?: string;
   vocabNotes?: string;
+  grammarQuiz?: string;
   comprehensionQuiz?: string;
 }
 
