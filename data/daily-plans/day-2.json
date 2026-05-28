@@ -1,0 +1,28 @@
+{
+  "day": 2,
+  "published": true,
+  "maths": [
+    { "topic": "percentage", "questions": 30, "duration": 30 },
+    { "topic": "algebra", "questions": 30, "duration": 30 },
+    { "topic": "profit-loss", "questions": 30, "duration": 30 },
+    { "topic": "number-system", "questions": 30, "duration": 30 },
+    { "topic": "simple-interest", "questions": 30, "duration": 30 }
+  ],
+  "english": {
+    "grammarPdf": "/content/english/day2-grammar.pdf",
+    "vocabPdf": "/content/english/day2-vocab.pdf",
+    "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+  },
+  "reasoning": {
+    "topic": "puzzle",
+    "questions": 50,
+    "duration": 45
+  },
+  "gk": {
+    "todayTopicPdf": "/content/gk/day2-geography.pdf",
+    "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+    "todayNotes": "/content/gk/day2-geography-notes.pdf",
+    "revisionQuiz": "revision",
+    "revisionTopic": "Day 1 Indian History"
+  }
+}

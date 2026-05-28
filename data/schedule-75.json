@@ -1,0 +1,3144 @@
+{
+  "programDays": 75,
+  "mathsQuiz": {
+    "questions": 25,
+    "duration": 25
+  },
+  "topicSessionsTarget": 11,
+  "plans": [
+    {
+      "day": 1,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "https://drive.google.com/file/d/1_yYMolzz5qdYnZNO6UDBi9JwUfIIyfAf/view?usp=drive_link",
+        "comprehensionQuiz": "noun",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf"
+      }
+    },
+    {
+      "day": 2,
+      "published": true,
+      "maths": [
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 1 GK revision"
+      }
+    },
+    {
+      "day": 3,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 2 GK revision"
+      }
+    },
+    {
+      "day": 4,
+      "published": true,
+      "maths": [
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 3 GK revision"
+      }
+    },
+    {
+      "day": 5,
+      "published": true,
+      "maths": [
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 4 GK revision"
+      }
+    },
+    {
+      "day": 6,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 5 GK revision"
+      }
+    },
+    {
+      "day": 7,
+      "published": true,
+      "maths": [
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 6 GK revision"
+      }
+    },
+    {
+      "day": 8,
+      "published": true,
+      "maths": [
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 7 GK revision"
+      }
+    },
+    {
+      "day": 9,
+      "published": true,
+      "maths": [
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 8 GK revision"
+      }
+    },
+    {
+      "day": 10,
+      "published": true,
+      "maths": [
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 9 GK revision"
+      }
+    },
+    {
+      "day": 11,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 10 GK revision"
+      }
+    },
+    {
+      "day": 12,
+      "published": true,
+      "maths": [
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 11 GK revision"
+      }
+    },
+    {
+      "day": 13,
+      "published": true,
+      "maths": [
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 12 GK revision"
+      }
+    },
+    {
+      "day": 14,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 13 GK revision"
+      }
+    },
+    {
+      "day": 15,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 14 GK revision"
+      }
+    },
+    {
+      "day": 16,
+      "published": true,
+      "maths": [
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 15 GK revision"
+      }
+    },
+    {
+      "day": 17,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 16 GK revision"
+      }
+    },
+    {
+      "day": 18,
+      "published": true,
+      "maths": [
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 17 GK revision"
+      }
+    },
+    {
+      "day": 19,
+      "published": true,
+      "maths": [
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 18 GK revision"
+      }
+    },
+    {
+      "day": 20,
+      "published": true,
+      "maths": [
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 19 GK revision"
+      }
+    },
+    {
+      "day": 21,
+      "published": true,
+      "maths": [
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 20 GK revision"
+      }
+    },
+    {
+      "day": 22,
+      "published": true,
+      "maths": [
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 21 GK revision"
+      }
+    },
+    {
+      "day": 23,
+      "published": true,
+      "maths": [
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 22 GK revision"
+      }
+    },
+    {
+      "day": 24,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 23 GK revision"
+      }
+    },
+    {
+      "day": 25,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 24 GK revision"
+      }
+    },
+    {
+      "day": 26,
+      "published": true,
+      "maths": [
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 25 GK revision"
+      }
+    },
+    {
+      "day": 27,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 26 GK revision"
+      }
+    },
+    {
+      "day": 28,
+      "published": true,
+      "maths": [
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 27 GK revision"
+      }
+    },
+    {
+      "day": 29,
+      "published": true,
+      "maths": [
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 28 GK revision"
+      }
+    },
+    {
+      "day": 30,
+      "published": true,
+      "maths": [
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 29 GK revision"
+      }
+    },
+    {
+      "day": 31,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 30 GK revision"
+      }
+    },
+    {
+      "day": 32,
+      "published": true,
+      "maths": [
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 31 GK revision"
+      }
+    },
+    {
+      "day": 33,
+      "published": true,
+      "maths": [
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 32 GK revision"
+      }
+    },
+    {
+      "day": 34,
+      "published": true,
+      "maths": [
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 33 GK revision"
+      }
+    },
+    {
+      "day": 35,
+      "published": true,
+      "maths": [
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 34 GK revision"
+      }
+    },
+    {
+      "day": 36,
+      "published": true,
+      "maths": [
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 35 GK revision"
+      }
+    },
+    {
+      "day": 37,
+      "published": true,
+      "maths": [
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 36 GK revision"
+      }
+    },
+    {
+      "day": 38,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 37 GK revision"
+      }
+    },
+    {
+      "day": 39,
+      "published": true,
+      "maths": [
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 38 GK revision"
+      }
+    },
+    {
+      "day": 40,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 39 GK revision"
+      }
+    },
+    {
+      "day": 41,
+      "published": true,
+      "maths": [
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 40 GK revision"
+      }
+    },
+    {
+      "day": 42,
+      "published": true,
+      "maths": [
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 41 GK revision"
+      }
+    },
+    {
+      "day": 43,
+      "published": true,
+      "maths": [
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 42 GK revision"
+      }
+    },
+    {
+      "day": 44,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 43 GK revision"
+      }
+    },
+    {
+      "day": 45,
+      "published": true,
+      "maths": [
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 44 GK revision"
+      }
+    },
+    {
+      "day": 46,
+      "published": true,
+      "maths": [
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 45 GK revision"
+      }
+    },
+    {
+      "day": 47,
+      "published": true,
+      "maths": [
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 46 GK revision"
+      }
+    },
+    {
+      "day": 48,
+      "published": true,
+      "maths": [
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 47 GK revision"
+      }
+    },
+    {
+      "day": 49,
+      "published": true,
+      "maths": [
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 48 GK revision"
+      }
+    },
+    {
+      "day": 50,
+      "published": true,
+      "maths": [
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 49 GK revision"
+      }
+    },
+    {
+      "day": 51,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 50 GK revision"
+      }
+    },
+    {
+      "day": 52,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 51 GK revision"
+      }
+    },
+    {
+      "day": 53,
+      "published": true,
+      "maths": [
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 52 GK revision"
+      }
+    },
+    {
+      "day": 54,
+      "published": true,
+      "maths": [
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 53 GK revision"
+      }
+    },
+    {
+      "day": 55,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 54 GK revision"
+      }
+    },
+    {
+      "day": 56,
+      "published": true,
+      "maths": [
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 55 GK revision"
+      }
+    },
+    {
+      "day": 57,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 56 GK revision"
+      }
+    },
+    {
+      "day": 58,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 57 GK revision"
+      }
+    },
+    {
+      "day": 59,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 58 GK revision"
+      }
+    },
+    {
+      "day": 60,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 59 GK revision"
+      }
+    },
+    {
+      "day": 61,
+      "published": true,
+      "maths": [
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 60 GK revision"
+      }
+    },
+    {
+      "day": 62,
+      "published": true,
+      "maths": [
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 61 GK revision"
+      }
+    },
+    {
+      "day": 63,
+      "published": true,
+      "maths": [
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 62 GK revision"
+      }
+    },
+    {
+      "day": 64,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 63 GK revision"
+      }
+    },
+    {
+      "day": 65,
+      "published": true,
+      "maths": [
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 64 GK revision"
+      }
+    },
+    {
+      "day": 66,
+      "published": true,
+      "maths": [
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 65 GK revision"
+      }
+    },
+    {
+      "day": 67,
+      "published": true,
+      "maths": [
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 66 GK revision"
+      }
+    },
+    {
+      "day": 68,
+      "published": true,
+      "maths": [
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "vocabPdf": "/content/english/day4-vocab.pdf",
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 67 GK revision"
+      }
+    },
+    {
+      "day": 69,
+      "published": true,
+      "maths": [
+        {
+          "topic": "geometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mensuration-2d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "algebra",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "number-system",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day5-grammar.pdf",
+        "vocabPdf": "/content/english/day5-vocab.pdf",
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 68 GK revision"
+      }
+    },
+    {
+      "day": 70,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mensuration-3d",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "di",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day6-grammar.pdf",
+        "vocabPdf": "/content/english/day6-vocab.pdf",
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 69 GK revision"
+      }
+    },
+    {
+      "day": 71,
+      "published": true,
+      "maths": [
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day7-grammar.pdf",
+        "vocabPdf": "/content/english/day7-vocab.pdf",
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 70 GK revision"
+      }
+    },
+    {
+      "day": 72,
+      "published": true,
+      "maths": [
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day8-grammar.pdf",
+        "vocabPdf": "/content/english/day8-vocab.pdf",
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 71 GK revision"
+      }
+    },
+    {
+      "day": 73,
+      "published": true,
+      "maths": [
+        {
+          "topic": "ratio-proportion",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-work",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "profit-loss",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day1-grammar.pdf",
+        "vocabPdf": "/content/english/day1-vocab.pdf",
+        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+      },
+      "reasoning": {
+        "topic": "coding-decoding",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+        "todayMindmap": "/content/gk/day1-history-mindmap.png",
+        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 72 GK revision"
+      }
+    },
+    {
+      "day": 74,
+      "published": true,
+      "maths": [
+        {
+          "topic": "percentage",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "average",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "partnership",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "time-speed-distance",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "vocabPdf": "/content/english/day2-vocab.pdf",
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "puzzle",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day2-geography.pdf",
+        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
+        "todayNotes": "/content/gk/day2-geography-notes.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 73 GK revision"
+      }
+    },
+    {
+      "day": 75,
+      "published": true,
+      "maths": [
+        {
+          "topic": "simple-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "trigonometry",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "compound-interest",
+          "questions": 25,
+          "duration": 25
+        },
+        {
+          "topic": "mixture-alligation",
+          "questions": 25,
+          "duration": 25
+        }
+      ],
+      "english": {
+        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "vocabPdf": "/content/english/day3-vocab.pdf",
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+      },
+      "reasoning": {
+        "topic": "analogy",
+        "questions": 50,
+        "duration": 45
+      },
+      "gk": {
+        "todayTopicPdf": "/content/gk/day3-polity.pdf",
+        "revisionQuiz": "revision",
+        "revisionTopic": "Day 74 GK revision"
+      }
+    }
+  ]
+}

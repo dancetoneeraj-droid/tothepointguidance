@@ -1,0 +1,26 @@
+{
+  "day": 3,
+  "published": true,
+  "maths": [
+    { "topic": "percentage", "questions": 30, "duration": 30 },
+    { "topic": "algebra", "questions": 30, "duration": 30 },
+    { "topic": "profit-loss", "questions": 30, "duration": 30 },
+    { "topic": "number-system", "questions": 30, "duration": 30 },
+    { "topic": "simple-interest", "questions": 30, "duration": 30 }
+  ],
+  "english": {
+    "grammarPdf": "/content/english/day3-grammar.pdf",
+    "vocabPdf": "/content/english/day3-vocab.pdf",
+    "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+  },
+  "reasoning": {
+    "topic": "analogy",
+    "questions": 50,
+    "duration": 45
+  },
+  "gk": {
+    "todayTopicPdf": "/content/gk/day3-polity.pdf",
+    "revisionQuiz": "revision",
+    "revisionTopic": "Day 2 Geography"
+  }
+}

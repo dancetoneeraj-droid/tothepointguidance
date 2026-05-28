@@ -1,0 +1,22 @@
+{
+  "day": 8,
+  "published": true,
+  "maths": [
+    { "topic": "percentage", "questions": 30, "duration": 30 },
+    { "topic": "algebra", "questions": 30, "duration": 30 },
+    { "topic": "profit-loss", "questions": 30, "duration": 30 },
+    { "topic": "number-system", "questions": 30, "duration": 30 },
+    { "topic": "simple-interest", "questions": 30, "duration": 30 }
+  ],
+  "english": {
+    "grammarPdf": "/content/english/day8-grammar.pdf",
+    "vocabPdf": "/content/english/day8-vocab.pdf",
+    "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+  },
+  "reasoning": { "topic": "puzzle", "questions": 50, "duration": 45 },
+  "gk": {
+    "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+    "revisionQuiz": "revision",
+    "revisionTopic": "Week 1 Combined GK"
+  }
+}

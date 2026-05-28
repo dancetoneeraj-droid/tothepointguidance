@@ -1,0 +1,22 @@
+{
+  "day": 6,
+  "published": true,
+  "maths": [
+    { "topic": "percentage", "questions": 30, "duration": 30 },
+    { "topic": "algebra", "questions": 30, "duration": 30 },
+    { "topic": "profit-loss", "questions": 30, "duration": 30 },
+    { "topic": "number-system", "questions": 30, "duration": 30 },
+    { "topic": "simple-interest", "questions": 30, "duration": 30 }
+  ],
+  "english": {
+    "grammarPdf": "/content/english/day6-grammar.pdf",
+    "vocabPdf": "/content/english/day6-vocab.pdf",
+    "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+  },
+  "reasoning": { "topic": "analogy", "questions": 50, "duration": 45 },
+  "gk": {
+    "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
+    "revisionQuiz": "revision",
+    "revisionTopic": "Day 5 Science"
+  }
+}

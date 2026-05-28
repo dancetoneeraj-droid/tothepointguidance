@@ -1,0 +1,28 @@
+{
+  "day": 1,
+  "published": true,
+  "maths": [
+    { "topic": "percentage", "questions": 30, "duration": 30 },
+    { "topic": "algebra", "questions": 30, "duration": 30 },
+    { "topic": "profit-loss", "questions": 30, "duration": 30 },
+    { "topic": "number-system", "questions": 30, "duration": 30 },
+    { "topic": "simple-interest", "questions": 30, "duration": 30 }
+  ],
+  "english": {
+    "grammarPdf": "/content/english/day1-grammar.pdf",
+    "vocabPdf": "/content/english/day1-vocab.pdf",
+    "comprehensionPdf": "/content/english/day1-comprehension.pdf",
+    "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
+    "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+  },
+  "reasoning": {
+    "topic": "coding-decoding",
+    "questions": 50,
+    "duration": 45
+  },
+  "gk": {
+    "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
+    "todayMindmap": "/content/gk/day1-history-mindmap.png",
+    "todayNotes": "/content/gk/day1-history-notes.pdf"
+  }
+}
