@@ -281,14 +281,24 @@ export default function DayPage({
             ? [
                 {
                   id: "english-grammar-pdf",
-                  label: "Open PDF",
+                  label: isDay1NounFlow ? "Noun PDF" : "Open PDF",
                   onClick: () =>
                     void openEnglishResource("grammar", plan.english.grammarPdf),
                   loading: loadingSection === "english-grammar",
                 },
               ]
             : []),
-          ...(plan.english.grammarMindmap
+          ...(isDay1NounFlow && plan.english.grammarQuiz
+            ? [
+                {
+                  id: `english-grammar-quiz-action-${plan.english.grammarQuiz}`,
+                  label: dayProgress.english.grammar ? "View Noun Quiz" : "Noun Quiz",
+                  onClick: () =>
+                    router.push(`/quiz/english/${plan.english.grammarQuiz}?day=${dayNum}`),
+                },
+              ]
+            : []),
+          ...(!isDay1NounFlow && plan.english.grammarMindmap
             ? [
                 {
                   id: "english-grammar-mindmap",
@@ -364,7 +374,7 @@ export default function DayPage({
             : []),
         ],
       },
-      ...(plan.english.grammarQuiz
+      ...(!isDay1NounFlow && plan.english.grammarQuiz
         ? [
             {
               id: `english-quiz-${plan.english.grammarQuiz}`,
