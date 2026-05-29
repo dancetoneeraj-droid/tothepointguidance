@@ -157,3 +157,34 @@ export interface PendingTask {
   label: string;
   type: "quiz" | "reading" | "revision";
 }
+
+export interface VocabWord {
+  id: string;
+  /** The day this word is first introduced (1-75). */
+  day: number;
+  word: string;
+  meaning: string;
+  synonym: string;
+  antonym: string;
+  example: string;
+  /** Hindi meaning. */
+  hindi: string;
+}
+
+/**
+ * Spaced-repetition state for a single vocabulary word.
+ * `circles` mirrors the student's "put a circle on it" revision method —
+ * each time a word can't be recalled, a circle (box level) is added and it
+ * stays due for revision until it is finally mastered.
+ */
+export interface VocabWordProgress {
+  wordId: string;
+  /** Number of circles (times the student failed to recall it). */
+  circles: number;
+  /** True once the student has confidently recalled it. */
+  mastered: boolean;
+  /** Day the word was first learned. */
+  learnedDay: number;
+  /** Day it was last reviewed. */
+  lastReviewedDay: number;
+}

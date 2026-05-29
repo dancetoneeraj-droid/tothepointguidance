@@ -5,6 +5,7 @@ import type {
   OverrideRecord,
   QuizReviewRecord,
   StudentProgress,
+  VocabWordProgress,
 } from "@/types";
 import { GUEST_STUDENT_ID } from "./constants";
 import {
@@ -40,6 +41,8 @@ function createDefaultStore(
     completedDays: [],
     completedQuizzes: [],
     quizReviewRecords: {},
+    vocabProgress: {},
+    vocabDaysCompleted: [],
     overrideHistory: [],
     mathsProgress: {},
     reasoningProgress: {},
@@ -59,6 +62,12 @@ function createDefaultStore(
 function ensureStoreCollections(store: LocalStudentStore): LocalStudentStore {
   if (!store.quizReviewRecords) {
     store.quizReviewRecords = {};
+  }
+  if (!store.vocabProgress) {
+    store.vocabProgress = {};
+  }
+  if (!store.vocabDaysCompleted) {
+    store.vocabDaysCompleted = [];
   }
   return store;
 }
@@ -291,6 +300,66 @@ export function hasCompletedQuiz(
   if (!store) return false;
   const quizId = quizCompletionId(day, subject, topic);
   return store.completedQuizzes.includes(quizId);
+}
+
+export function getVocabProgress(
+  studentId: string
+): Record<string, VocabWordProgress> {
+  const store = loadStore(studentId);
+  if (!store) return {};
+  return ensureStoreCollections(store).vocabProgress;
+}
+
+export function isVocabDayCompleted(studentId: string, day: number): boolean {
+  const store = loadStore(studentId);
+  if (!store) return false;
+  return ensureStoreCollections(store).vocabDaysCompleted.includes(day);
+}
+
+/**
+ * Records a single word review using the "circle" method:
+ * - `knew = true`  → word is mastered (removed from the daily revision pool).
+ * - `knew = false` → add a circle; it stays due for revision on later days.
+ */
+export function recordVocabReview(
+  studentId: string,
+  wordId: string,
+  knew: boolean,
+  day: number,
+  learnedDay: number
+): void {
+  const store = getStore(studentId);
+  const existing = store.vocabProgress[wordId];
+
+  const next: VocabWordProgress = {
+    wordId,
+    circles: existing?.circles ?? 0,
+    mastered: knew,
+    learnedDay: existing?.learnedDay ?? learnedDay,
+    lastReviewedDay: day,
+  };
+
+  if (!knew) {
+    next.circles = (existing?.circles ?? 0) + 1;
+  }
+
+  store.vocabProgress[wordId] = next;
+  saveStore(store);
+}
+
+export function markVocabDayCompleted(studentId: string, day: number): void {
+  const store = getStore(studentId);
+  if (!store.vocabDaysCompleted.includes(day)) {
+    store.vocabDaysCompleted.push(day);
+  }
+
+  // Reflect completion in the day's English vocabulary section.
+  const dayProgress = ensureDayInStore(store, day);
+  dayProgress.english.vocabulary = true;
+  store.englishProgress[String(day)] = dayProgress.english;
+  store.dayProgress[String(day)] = dayProgress;
+
+  saveStore(store);
 }
 
 export async function markEnglishSection(

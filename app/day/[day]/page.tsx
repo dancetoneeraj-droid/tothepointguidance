@@ -23,6 +23,7 @@ import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
 import { AppShell } from "@/components/layout/AppShell";
 import { getDailyPlan, isDayPublished, MAX_PUBLISHED_DAY } from "@/lib/daily-plans";
+import { hasVocabForDay } from "@/lib/vocab";
 import { formatTopic, getDayAccess, isDayFullyComplete } from "@/lib/day-system";
 import {
   getDayProgress,
@@ -317,13 +318,26 @@ export default function DayPage({
       {
         id: "english-vocabulary",
         label: "English Vocabulary",
-        subtitle: plan.english.vocabNotes
-          ? "Vocabulary PDF + concise notes"
-          : "Vocabulary PDF revision",
+        subtitle: hasVocabForDay(dayNum)
+          ? "30 new words + revise circled words (spaced repetition)"
+          : plan.english.vocabNotes
+            ? "Vocabulary PDF + concise notes"
+            : "Vocabulary PDF revision",
         kind: "reading",
         subject: "english",
         completed: dayProgress.english.vocabulary,
         actions: [
+          ...(hasVocabForDay(dayNum)
+            ? [
+                {
+                  id: "english-vocab-revision",
+                  label: dayProgress.english.vocabulary
+                    ? "Revise vocabulary"
+                    : "Start vocabulary",
+                  onClick: () => router.push(`/vocab/${dayNum}`),
+                },
+              ]
+            : []),
           ...(plan.english.vocabPdf
             ? [
                 {

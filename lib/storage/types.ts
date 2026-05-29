@@ -1,4 +1,9 @@
-import type { DayProgress, OverrideRecord, QuizReviewRecord } from "@/types";
+import type {
+  DayProgress,
+  OverrideRecord,
+  QuizReviewRecord,
+  VocabWordProgress,
+} from "@/types";
 
 /** Local-only student record (MVP). Firebase can sync this shape later. */
 export interface LocalStudentStore {
@@ -14,6 +19,10 @@ export interface LocalStudentStore {
   completedDays: number[];
   completedQuizzes: string[];
   quizReviewRecords: Record<string, QuizReviewRecord>;
+  /** Per-word vocabulary revision progress (keyed by word id). */
+  vocabProgress: Record<string, VocabWordProgress>;
+  /** Days on which the vocabulary task has been completed at least once. */
+  vocabDaysCompleted: number[];
   overrideHistory: OverrideRecord[];
   mathsProgress: Record<string, number>;
   reasoningProgress: Record<string, number>;
