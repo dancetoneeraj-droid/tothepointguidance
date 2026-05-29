@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useCallback, useEffect, useMemo } from "react";
+import { use, useCallback, useMemo, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -12,9 +12,11 @@ import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
 import { Card } from "@/components/ui/Card";
 import { canAccessDay } from "@/lib/premium-access";
 import {
+  clearActivePausedQuiz,
   getActivePausedQuiz,
   loadQuizDraft,
   setActivePausedQuiz,
+  unpauseQuizDraft,
 } from "@/lib/quiz/session-persistence";
 import { getDailyPlan } from "@/lib/daily-plans";
 import { formatTopic } from "@/lib/day-system";
@@ -163,20 +165,30 @@ export default function QuizPage({
     return getReviewQuestions(bank, storedReview.questionIds);
   }, [storedReview, subject, topic]);
 
-  useEffect(() => {
-    if (!frozenQuiz || frozenQuiz.sessionId === "loading" || hasOfficialAttempt) {
-      return;
-    }
-    const active = getActivePausedQuiz();
-    if (active?.sessionId !== frozenQuiz.sessionId) return;
+  // If this quiz has a paused draft, resume it in place instead of bouncing
+  // the student back to the dashboard. Done before the engine hydrates so it
+  // loads in an active (un-paused) state.
+  const resumedSessionRef = useRef<string | null>(null);
+  if (
+    typeof window !== "undefined" &&
+    frozenQuiz &&
+    frozenQuiz.sessionId !== "loading" &&
+    !hasOfficialAttempt &&
+    resumedSessionRef.current !== frozenQuiz.sessionId
+  ) {
     const draft = loadQuizDraft(
       frozenQuiz.sessionId,
       frozenQuiz.questions.map((q) => q.id)
     );
     if (draft?.isPaused) {
-      router.replace("/dashboard");
+      unpauseQuizDraft(frozenQuiz.sessionId);
     }
-  }, [frozenQuiz, hasOfficialAttempt, router]);
+    const active = getActivePausedQuiz();
+    if (active?.sessionId === frozenQuiz.sessionId) {
+      clearActivePausedQuiz();
+    }
+    resumedSessionRef.current = frozenQuiz.sessionId;
+  }
 
   const handleComplete = useCallback(
     async (result: QuizResult, answers: Record<string, string>) => {

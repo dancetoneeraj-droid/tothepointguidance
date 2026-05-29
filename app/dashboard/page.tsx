@@ -149,7 +149,7 @@ export default function DashboardPage() {
           <div>
             <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
               Day Selection Dashboard
-            </h1>
+        </h1>
             <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-400">
               Pick your day and move straight into execution. No extra analytics,
               no clutter, only the roadmap.
@@ -216,7 +216,7 @@ export default function DashboardPage() {
               Contact {PREMIUM_SUPPORT_NUMBER} to unlock all features.
             </p>
           </div>
-        </div>
+                </div>
       </Modal>
 
       <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
@@ -225,8 +225,8 @@ export default function DashboardPage() {
             key={card.day}
             card={card}
             onPremiumLockedClick={() => setSelectedLockedDay(card.day)}
-          />
-        ))}
+              />
+            ))}
       </section>
     </div>
   );
