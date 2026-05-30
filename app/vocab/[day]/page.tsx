@@ -2,6 +2,7 @@
 
 import { use, useMemo, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import {
   ArrowLeft,
   BookOpen,
@@ -19,13 +20,22 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { canAccessDay } from "@/lib/premium-access";
-import { getVocabDeckForDay, hasVocabForDay } from "@/lib/vocab";
+import {
+  CATEGORY_META,
+  getDeckForDay,
+  hasDeckForDay,
+  isStudyCategory,
+  type StudyCard,
+  type StudyCategory,
+} from "@/lib/study-decks";
 import {
   getVocabProgress,
   markVocabDayCompleted,
   recordVocabReview,
 } from "@/lib/storage";
-import type { VocabWord, VocabWordProgress } from "@/types";
+import type { VocabWordProgress } from "@/types";
+
+const CATEGORY_ORDER: StudyCategory[] = ["vocab", "idiom", "ows"];
 
 export default function VocabPage({
   params,
@@ -34,24 +44,33 @@ export default function VocabPage({
 }) {
   const { day: dayParam } = use(params);
   const dayNum = parseInt(dayParam, 10);
+  const searchParams = useSearchParams();
+  const typeParam = searchParams.get("type");
+  const category: StudyCategory = isStudyCategory(typeParam) ? typeParam : "vocab";
+  const meta = CATEGORY_META[category];
+
   const { studentId, progress, user } = useAuth();
 
   const [vocabProgress, setVocabProgress] = useState<
     Record<string, VocabWordProgress>
   >(() => (studentId ? getVocabProgress(studentId) : {}));
 
-  // The deck is frozen at mount so reviewing words mid-session does not
-  // re-order the cards under the student.
+  // The deck is frozen at mount (per category) so answering a card mid-session
+  // does not re-order the cards under the student.
   const deck = useMemo(() => {
-    const { reviewWords, newWords } = getVocabDeckForDay(dayNum, vocabProgress);
-    return [...reviewWords, ...newWords];
+    const { reviewCards, newCards } = getDeckForDay(
+      category,
+      dayNum,
+      vocabProgress
+    );
+    return [...reviewCards, ...newCards];
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dayNum]);
+  }, [dayNum, category]);
 
   const reviewCount = useMemo(() => {
-    return getVocabDeckForDay(dayNum, vocabProgress).reviewWords.length;
+    return getDeckForDay(category, dayNum, vocabProgress).reviewCards.length;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [dayNum]);
+  }, [dayNum, category]);
 
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -71,51 +90,51 @@ export default function VocabPage({
     );
   }
 
-  if (!hasVocabForDay(dayNum) || deck.length === 0) {
+  if (!hasDeckForDay(category, dayNum) || deck.length === 0) {
     return (
       <ProtectedRoute>
         <AppShell>
-          <Card className="mx-auto max-w-lg border-white/10 bg-white/[0.03] p-8 text-center">
-            <h1 className="text-xl font-semibold text-white">
-              Day {dayNum} Vocabulary
-            </h1>
-            <p className="mt-2 text-sm text-zinc-400">
-              Vocabulary words for this day are not added yet.
-            </p>
-            <Link
-              href={`/day/${dayNum}`}
-              className="mt-6 inline-block text-sm text-violet-400"
-            >
-              ← Back to Day {dayNum}
-            </Link>
-          </Card>
+          <div className="mx-auto max-w-2xl space-y-5">
+            <CategoryTabs day={dayNum} active={category} />
+            <Card className="border-white/10 bg-white/[0.03] p-8 text-center">
+              <h1 className="text-xl font-semibold text-white">
+                Day {dayNum} · {meta.label}
+              </h1>
+              <p className="mt-2 text-sm text-zinc-400">
+                {meta.label} for this day are not added yet.
+              </p>
+              <Link
+                href={`/day/${dayNum}`}
+                className="mt-6 inline-block text-sm text-violet-400"
+              >
+                ← Back to Day {dayNum}
+              </Link>
+            </Card>
+          </div>
         </AppShell>
       </ProtectedRoute>
     );
   }
 
   const total = deck.length;
-  const currentWord: VocabWord = deck[Math.min(index, total - 1)]!;
+  const currentCard: StudyCard = deck[Math.min(index, total - 1)]!;
   const isReviewCard = index < reviewCount;
-  const existingCircles = vocabProgress[currentWord.id]?.circles ?? 0;
+  const existingCircles = vocabProgress[currentCard.id]?.circles ?? 0;
   const completionPercent = Math.round((index / total) * 100);
+  const isLongFront = currentCard.front.length > 24;
 
   const handleAnswer = (knew: boolean) => {
-    recordVocabReview(
-      studentId,
-      currentWord.id,
-      knew,
-      dayNum,
-      currentWord.day
-    );
+    recordVocabReview(studentId, currentCard.id, knew, dayNum, currentCard.day);
 
     setVocabProgress((prev) => ({
       ...prev,
-      [currentWord.id]: {
-        wordId: currentWord.id,
-        circles: knew ? prev[currentWord.id]?.circles ?? 0 : existingCircles + 1,
+      [currentCard.id]: {
+        wordId: currentCard.id,
+        circles: knew
+          ? prev[currentCard.id]?.circles ?? 0
+          : existingCircles + 1,
         mastered: knew,
-        learnedDay: prev[currentWord.id]?.learnedDay ?? currentWord.day,
+        learnedDay: prev[currentCard.id]?.learnedDay ?? currentCard.day,
         lastReviewedDay: dayNum,
       },
     }));
@@ -143,21 +162,17 @@ export default function VocabPage({
                 <Trophy className="h-7 w-7" />
               </div>
               <h1 className="mt-5 text-2xl font-semibold text-white">
-                Day {dayNum} vocabulary done!
+                Day {dayNum} {meta.label.toLowerCase()} done!
               </h1>
               <p className="mt-2 text-sm text-zinc-400">
-                Circled words will come back for revision on your next day —
+                Circled cards will come back for revision on your next day —
                 exactly like your circle method.
               </p>
 
               <div className="mt-6 grid grid-cols-3 gap-3">
                 <SummaryStat label="Reviewed" value={total} tone="violet" />
                 <SummaryStat label="Knew it" value={knewCount} tone="emerald" />
-                <SummaryStat
-                  label="Circled"
-                  value={circledCount}
-                  tone="amber"
-                />
+                <SummaryStat label="Circled" value={circledCount} tone="amber" />
               </div>
 
               <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:justify-center">
@@ -200,10 +215,13 @@ export default function VocabPage({
               <ArrowLeft className="h-4 w-4" />
               Day {dayNum}
             </Link>
+
+            <CategoryTabs day={dayNum} active={category} />
+
             <div className="flex flex-wrap items-center gap-2">
               <span className="inline-flex items-center gap-2 rounded-full border border-violet-500/20 bg-violet-500/10 px-3 py-1 text-xs text-violet-200">
                 <Sparkles className="h-3.5 w-3.5" />
-                Day {dayNum} Vocabulary
+                Day {dayNum} {meta.label}
               </span>
               {reviewCount > 0 ? (
                 <span className="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-xs text-amber-200">
@@ -214,7 +232,7 @@ export default function VocabPage({
             </div>
             <ProgressBar
               value={completionPercent}
-              label={`Word ${index + 1} of ${total}`}
+              label={`Card ${index + 1} of ${total}`}
             />
           </header>
 
@@ -230,7 +248,7 @@ export default function VocabPage({
                     : "border-violet-500/20 bg-violet-500/10 text-violet-200"
                 }`}
               >
-                {isReviewCard ? "Revision" : "New word"}
+                {isReviewCard ? "Revision" : "New"}
               </span>
               {existingCircles > 0 ? (
                 <span className="inline-flex items-center gap-1 text-xs text-amber-300">
@@ -245,36 +263,37 @@ export default function VocabPage({
             </div>
 
             <div className="mt-6 text-center">
-              <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-                {currentWord.word}
+              <h2
+                className={`font-semibold tracking-tight text-white ${
+                  isLongFront
+                    ? "text-xl leading-relaxed sm:text-2xl"
+                    : "text-3xl sm:text-4xl"
+                }`}
+              >
+                {currentCard.front}
               </h2>
+              {currentCard.frontHint && !revealed ? (
+                <p className="mt-3 text-xs uppercase tracking-[0.2em] text-zinc-500">
+                  {currentCard.frontHint}
+                </p>
+              ) : null}
             </div>
 
             {revealed ? (
               <div className="mt-7 space-y-3 text-left animate-in">
-                <DetailRow label="Meaning" value={currentWord.meaning} />
-                <DetailRow label="Hindi" value={currentWord.hindi} />
-                <div className="grid gap-3 sm:grid-cols-2">
+                {currentCard.details.map((detail) => (
                   <DetailRow
-                    label="Synonym"
-                    value={currentWord.synonym}
-                    tone="emerald"
+                    key={detail.label}
+                    label={detail.label}
+                    value={detail.value}
+                    tone={detail.tone}
+                    italic={detail.italic}
                   />
-                  <DetailRow
-                    label="Antonym"
-                    value={currentWord.antonym}
-                    tone="rose"
-                  />
-                </div>
-                <DetailRow
-                  label="Example"
-                  value={currentWord.example}
-                  italic
-                />
+                ))}
               </div>
             ) : (
               <p className="mt-7 text-center text-sm text-zinc-500">
-                Try to recall the meaning, then reveal.
+                {meta.promptHint}
               </p>
             )}
 
@@ -286,7 +305,7 @@ export default function VocabPage({
                   onClick={() => setRevealed(true)}
                 >
                   <BookOpen className="h-4 w-4" />
-                  Reveal meaning
+                  Reveal answer
                 </Button>
               ) : (
                 <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -314,6 +333,35 @@ export default function VocabPage({
         </div>
       </AppShell>
     </ProtectedRoute>
+  );
+}
+
+function CategoryTabs({
+  day,
+  active,
+}: {
+  day: number;
+  active: StudyCategory;
+}) {
+  return (
+    <div className="flex flex-wrap gap-2">
+      {CATEGORY_ORDER.map((cat) => {
+        const isActive = cat === active;
+        return (
+          <Link
+            key={cat}
+            href={`/vocab/${day}?type=${cat}`}
+            className={`rounded-xl border px-3.5 py-1.5 text-xs font-medium transition ${
+              isActive
+                ? "border-violet-500/40 bg-violet-500/15 text-violet-100"
+                : "border-white/10 bg-white/[0.02] text-zinc-400 hover:border-white/20 hover:text-zinc-200"
+            }`}
+          >
+            {CATEGORY_META[cat].tabLabel}
+          </Link>
+        );
+      })}
+    </div>
   );
 }
 

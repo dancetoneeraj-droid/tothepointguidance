@@ -44,6 +44,14 @@
         "questions": 50,
         "duration": 45
       },
+      "reasoningQuizzes": [
+        {
+          "topic": "ns",
+          "questions": 25,
+          "duration": 20,
+          "label": "Number Series Quiz"
+        }
+      ],
       "gk": {
         "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
         "todayMindmap": "/content/gk/day1-history-mindmap.png",

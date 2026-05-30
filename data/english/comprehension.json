@@ -1,0 +1,164 @@
+{
+  "1": {
+    "rc": {
+      "title": "Reading Comprehension",
+      "directions": "Read the following passage carefully and answer the questions that follow. Choose the most appropriate option.",
+      "passage": "Of all the casualties of the digital age, the most quietly devastating is our capacity for sustained attention. A century ago, an educated reader could lose himself in a dense novel for hours; today, even the committed reader finds his eyes drifting after a few paragraphs, his hand reaching, almost involuntarily, for the glowing rectangle in his pocket. The problem is not that we read less — by some measures we read more than ever — but that we read shallowly, skating across the surface of a thousand fragments rather than diving into the depths of a single idea. Technology companies, it must be said, have engineered this restlessness deliberately; their profits depend on our distraction. Yet to blame the machines entirely would be too convenient. The deeper truth is that sustained attention has always been difficult, always demanded a discipline that most of us would rather avoid. The screen did not create our impatience; it merely gave it a permanent home.",
+      "questions": [
+        {
+          "question": "Q1. Which of the following best expresses the central idea of the passage?",
+          "options": [
+            "The financial success of technology companies in the digital age",
+            "The decline of our ability to concentrate deeply on a single idea",
+            "The superiority of old novels over modern forms of writing",
+            "The harmful physical effects of reading for too many hours"
+          ],
+          "answer": "The decline of our ability to concentrate deeply on a single idea",
+          "explanation": "The passage repeatedly returns to the loss of 'sustained attention' and the habit of reading 'shallowly'. The other options are details or distortions, not the main concern."
+        },
+        {
+          "question": "Q2. According to the author, the responsibility for our distraction:",
+          "options": [
+            "lies entirely with technology companies",
+            "lies entirely with individual readers and their laziness",
+            "is shared between technology and our own nature",
+            "cannot be determined from the available evidence"
+          ],
+          "answer": "is shared between technology and our own nature",
+          "explanation": "The author admits companies 'engineered this restlessness' but adds that 'to blame the machines entirely would be too convenient', since 'sustained attention has always been difficult'. So responsibility is shared."
+        },
+        {
+          "question": "Q3. As used in the first sentence, the word 'casualties' most nearly means:",
+          "options": [
+            "victims or losses",
+            "careless or informal attitudes",
+            "chance coincidences",
+            "minor accidents on the road"
+          ],
+          "answer": "victims or losses",
+          "explanation": "A 'casualty' is something destroyed or lost. The trap is confusing it with 'casual' (informal). The context — 'the most quietly devastating' — confirms the sense of loss."
+        },
+        {
+          "question": "Q4. The author states that the real problem with modern reading is that:",
+          "options": [
+            "people read far fewer books than they once did",
+            "people read shallowly rather than deeply",
+            "modern novels have become far too dense",
+            "technology has made reading almost impossible"
+          ],
+          "answer": "people read shallowly rather than deeply",
+          "explanation": "The passage explicitly says 'The problem is not that we read less ... but that we read shallowly.' Option (a) is directly contradicted."
+        },
+        {
+          "question": "Q5. The overall tone of the passage can best be described as:",
+          "options": [
+            "cheerfully optimistic",
+            "reflectively critical",
+            "angrily accusatory",
+            "coldly indifferent"
+          ],
+          "answer": "reflectively critical",
+          "explanation": "The author criticises the loss of attention but resists easy blame ('too convenient'), weighing both sides. That balance is reflective and critical, not purely angry or indifferent."
+        }
+      ]
+    },
+    "cloze": {
+      "title": "Cloze Test",
+      "directions": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. (SSC CGL 2024 PYQ)",
+      "passage": "The beginning of the story is (1)______ in its presentation but (2)______ the style eases out and becomes haunting in its simplicity. The author brings out the human elements in his story. This common element of sympathy and sacrifice is given a new (3)______ by the old artist who shows by his last desperate act that one can be a hero for one day if only one cares (4)______. O Henry's treatment of his material is balanced and controlled, a fine (5)______ of humour and pathos.",
+      "questions": [
+        {
+          "question": "Blank (1):",
+          "options": ["prone", "delectable", "quaint", "habitual"],
+          "answer": "quaint",
+          "explanation": "'Quaint' means charmingly old-fashioned or unusual, fitting a distinctive presentation. 'Prone/habitual' suggest tendency; 'delectable' means tasty — both off-context."
+        },
+        {
+          "question": "Blank (2):",
+          "options": ["hardly", "recently", "initially", "gradually"],
+          "answer": "gradually",
+          "explanation": "The style 'eases out' over time, so 'gradually' (slowly, over time) is correct."
+        },
+        {
+          "question": "Blank (3):",
+          "options": ["supervision", "condition", "dimension", "infection"],
+          "answer": "dimension",
+          "explanation": "A 'new dimension' means a new aspect or perspective added to the theme of sympathy and sacrifice."
+        },
+        {
+          "question": "Blank (4):",
+          "options": ["through", "though", "tough", "enough"],
+          "answer": "enough",
+          "explanation": "'cares enough' conveys sufficient concern to act heroically. The other words do not fit the idea of sufficiency."
+        },
+        {
+          "question": "Blank (5):",
+          "options": ["legend", "ascend", "blend", "amend"],
+          "answer": "blend",
+          "explanation": "'A fine blend of humour and pathos' means a smooth combination of the two — exactly the intended meaning."
+        }
+      ]
+    },
+    "parajumble": {
+      "title": "Para Jumbles",
+      "directions": "Each sentence has been split into four parts (P, Q, R, S) given in jumbled order. Select the option that arranges them into a meaningful sentence.",
+      "items": [
+        {
+          "parts": [
+            { "label": "P", "text": "is in fact the engine" },
+            { "label": "Q", "text": "far from being a distraction," },
+            { "label": "R", "text": "that drives every genuine discovery" },
+            { "label": "S", "text": "Curiosity," }
+          ],
+          "options": ["SQPR", "QSPR", "SPQR", "QPRS"],
+          "answer": "SQPR",
+          "explanation": "S (subject 'Curiosity,') → Q (the parenthetical 'far from being a distraction,') → P ('is in fact the engine') → R ('that drives every genuine discovery'). Reads: 'Curiosity, far from being a distraction, is in fact the engine that drives every genuine discovery.'"
+        },
+        {
+          "parts": [
+            { "label": "P", "text": "he chose instead" },
+            { "label": "Q", "text": "although he had every reason to despair," },
+            { "label": "R", "text": "to confront his misfortune" },
+            { "label": "S", "text": "with quiet dignity" }
+          ],
+          "options": ["QPRS", "PQRS", "QPSR", "PQSR"],
+          "answer": "QPRS",
+          "explanation": "Q (concession clause) → P ('he chose instead') → R ('to confront his misfortune') → S ('with quiet dignity'). The 'although' clause must open the sentence."
+        },
+        {
+          "parts": [
+            { "label": "P", "text": "which scholars had long believed lost," },
+            { "label": "Q", "text": "was discovered in the cellar" },
+            { "label": "R", "text": "The ancient manuscript," },
+            { "label": "S", "text": "of a crumbling monastery" }
+          ],
+          "options": ["RPQS", "PRQS", "RQPS", "RPSQ"],
+          "answer": "RPQS",
+          "explanation": "R (subject) → P (relative clause describing it) → Q (main verb 'was discovered in the cellar') → S ('of a crumbling monastery')."
+        },
+        {
+          "parts": [
+            { "label": "P", "text": "gradually harden into an addiction" },
+            { "label": "Q", "text": "can, if left unchecked," },
+            { "label": "R", "text": "What begins as a harmless habit" },
+            { "label": "S", "text": "that governs one's life" }
+          ],
+          "options": ["RQPS", "QRPS", "RPQS", "RQSP"],
+          "answer": "RQPS",
+          "explanation": "R (subject 'What begins as a harmless habit') → Q ('can, if left unchecked,') → P ('gradually harden into an addiction') → S ('that governs one's life')."
+        },
+        {
+          "parts": [
+            { "label": "P", "text": "does the reader realise" },
+            { "label": "Q", "text": "Not until the final page" },
+            { "label": "R", "text": "has been deceiving him all along" },
+            { "label": "S", "text": "that the unreliable narrator" }
+          ],
+          "options": ["QPSR", "QPRS", "PQSR", "QSPR"],
+          "answer": "QPSR",
+          "explanation": "Inverted structure: Q ('Not until the final page') → P ('does the reader realise') → S ('that the unreliable narrator') → R ('has been deceiving him all along')."
+        }
+      ]
+    }
+  }
+}

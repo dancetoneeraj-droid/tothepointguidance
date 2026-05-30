@@ -23,10 +23,12 @@ import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
 import { AppShell } from "@/components/layout/AppShell";
 import { getDailyPlan, isDayPublished, MAX_PUBLISHED_DAY } from "@/lib/daily-plans";
-import { hasVocabForDay } from "@/lib/vocab";
+import { hasAnyDeckForDay, hasDeckForDay } from "@/lib/study-decks";
+import { hasComprehensionForDay } from "@/lib/comprehension";
 import { formatTopic, getDayAccess, isDayFullyComplete } from "@/lib/day-system";
 import {
   getDayProgress,
+  hasCompletedQuiz,
   markEnglishSection,
   markGkMaterials,
   recordOverride,
@@ -258,14 +260,30 @@ export default function DayPage({
             id: "reasoning-action",
             label: dayProgress.reasoning.completed ? "View result" : "Start quiz",
             onClick: () =>
-              router.push(
-                dayProgress.reasoning.completed
-                  ? `/quiz/reasoning/${plan.reasoning.topic}?day=${dayNum}`
-                  : `/quiz/reasoning/${plan.reasoning.topic}?day=${dayNum}`
-              ),
+              router.push(`/quiz/reasoning/${plan.reasoning.topic}?day=${dayNum}`),
           },
         ],
       },
+      // Extra reasoning quizzes (e.g. Number Series) — each gets its own card.
+      ...(plan.reasoningQuizzes ?? []).map((rq) => {
+        const quizDone = hasCompletedQuiz(studentId, dayNum, "reasoning", rq.topic);
+        return {
+          id: `reasoning-${rq.topic}`,
+          label: rq.label ?? formatTopic(rq.topic),
+          subtitle: `${rq.questions} questions · ${rq.duration} min`,
+          kind: "quiz" as const,
+          subject: "reasoning" as const,
+          completed: quizDone,
+          actions: [
+            {
+              id: `reasoning-${rq.topic}-action`,
+              label: quizDone ? "View result" : "Start quiz",
+              onClick: () =>
+                router.push(`/quiz/reasoning/${rq.topic}?day=${dayNum}`),
+            },
+          ],
+        };
+      }),
       {
         id: "english-grammar",
         label: "English Grammar",
@@ -318,45 +336,39 @@ export default function DayPage({
       {
         id: "english-vocabulary",
         label: "English Vocabulary",
-        subtitle: hasVocabForDay(dayNum)
-          ? "30 new words + revise circled words (spaced repetition)"
-          : plan.english.vocabNotes
-            ? "Vocabulary PDF + concise notes"
-            : "Vocabulary PDF revision",
+        subtitle: hasAnyDeckForDay(dayNum)
+          ? "30 words, idioms & one-word — revise circled cards daily"
+          : "Vocabulary cards for this day are being added",
         kind: "reading",
         subject: "english",
         completed: dayProgress.english.vocabulary,
+        // Vocabulary is split into three spaced-repetition decks. No PDF or
+        // mindmap here — only the three card decks.
         actions: [
-          ...(hasVocabForDay(dayNum)
+          ...(hasDeckForDay("vocab", dayNum)
             ? [
                 {
-                  id: "english-vocab-revision",
-                  label: dayProgress.english.vocabulary
-                    ? "Revise vocabulary"
-                    : "Start vocabulary",
-                  onClick: () => router.push(`/vocab/${dayNum}`),
+                  id: "english-vocab-words",
+                  label: "View Vocab",
+                  onClick: () => router.push(`/vocab/${dayNum}?type=vocab`),
                 },
               ]
             : []),
-          ...(plan.english.vocabPdf
+          ...(hasDeckForDay("idiom", dayNum)
             ? [
                 {
-                  id: "english-vocab-pdf",
-                  label: "Open PDF",
-                  onClick: () =>
-                    void openEnglishResource("vocabulary", plan.english.vocabPdf),
-                  loading: loadingSection === "english-vocabulary",
+                  id: "english-vocab-idiom",
+                  label: "View Idiom",
+                  onClick: () => router.push(`/vocab/${dayNum}?type=idiom`),
                 },
               ]
             : []),
-          ...(plan.english.vocabNotes
+          ...(hasDeckForDay("ows", dayNum)
             ? [
                 {
-                  id: "english-vocab-notes",
-                  label: "Open Notes",
-                  onClick: () =>
-                    void openEnglishResource("vocabulary", plan.english.vocabNotes),
-                  loading: loadingSection === "english-vocabulary",
+                  id: "english-vocab-ows",
+                  label: "View One Word",
+                  onClick: () => router.push(`/vocab/${dayNum}?type=ows`),
                 },
               ]
             : []),
@@ -364,14 +376,25 @@ export default function DayPage({
       },
       {
         id: "english-comprehension",
-        label: "English Reading",
-        subtitle: isDay1NounFlow
-          ? "NOUN basic PDF reading · 20-30 min read time"
-          : "Comprehension reading and practice material",
+        label: "English Comprehension",
+        subtitle: hasComprehensionForDay(dayNum)
+          ? "RC + Cloze test + Para jumbles · daily practice"
+          : isDay1NounFlow
+            ? "NOUN basic PDF reading · 20-30 min read time"
+            : "Comprehension reading and practice material",
         kind: "reading",
         subject: "english",
         completed: dayProgress.english.comprehension,
         actions: [
+          ...(hasComprehensionForDay(dayNum)
+            ? [
+                {
+                  id: "english-comprehension-practice",
+                  label: "Comprehension Practice",
+                  onClick: () => router.push(`/comprehension/${dayNum}`),
+                },
+              ]
+            : []),
           ...(plan.english.comprehensionPdf
             ? [
                 {

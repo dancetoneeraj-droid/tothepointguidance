@@ -88,8 +88,11 @@ export default function QuizPage({
       questionCount = Math.min(ENGLISH_QUIZ_QUESTIONS, bank.length);
       durationMinutes = ENGLISH_QUIZ_DURATION;
     } else if (subject === "reasoning") {
-      questionCount = plan.reasoning.questions;
-      durationMinutes = plan.reasoning.duration;
+      // Primary reasoning topic OR any extra quiz from reasoningQuizzes[].
+      const extraCfg = plan.reasoningQuizzes?.find((q) => q.topic === topic);
+      const cfg = topic === plan.reasoning.topic ? plan.reasoning : (extraCfg ?? plan.reasoning);
+      questionCount = cfg.questions;
+      durationMinutes = cfg.duration;
     } else if (subject === "gk") {
       questionCount = 20;
       durationMinutes = 25;

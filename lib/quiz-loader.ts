@@ -21,6 +21,7 @@ import numberSystemQuestions from "@/data/maths/number-system.json";
 import codingDecodingQuestions from "@/data/reasoning/coding-decoding.json";
 import puzzleQuestions from "@/data/reasoning/puzzle.json";
 import analogyQuestions from "@/data/reasoning/analogy.json";
+import nsQuestionsRaw from "@/data/reasoning/ns.json";
 
 import gkRevisionQuestions from "@/data/gk/revision.json";
 import nounQuestionsRaw from "@/datas/maths/noun.json";
@@ -93,6 +94,10 @@ const REASONING_BANKS: Record<string, Question[]> = {
   "coding-decoding": codingDecodingQuestions as Question[],
   puzzle: puzzleQuestions as Question[],
   analogy: analogyQuestions as Question[],
+  ns: normalizeLetterAnswerQuestions(
+    nsQuestionsRaw as RawLetterBasedQuestion[],
+    "reasoning_ns"
+  ),
 };
 
 const GK_BANKS: Record<string, Question[]> = {

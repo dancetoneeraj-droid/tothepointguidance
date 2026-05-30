@@ -32,6 +32,8 @@ export interface ReasoningConfig {
   topic: string;
   questions: number;
   duration: number;
+  /** Optional display label (e.g. "Number Series Quiz"). Defaults to formatted topic name. */
+  label?: string;
 }
 
 export interface GkConfig {
@@ -48,6 +50,8 @@ export interface DailyPlan {
   maths: MathsQuizConfig[];
   english: EnglishConfig;
   reasoning: ReasoningConfig;
+  /** Optional extra reasoning quizzes shown as separate task cards on the day page. */
+  reasoningQuizzes?: ReasoningConfig[];
   gk: GkConfig;
 }
 
