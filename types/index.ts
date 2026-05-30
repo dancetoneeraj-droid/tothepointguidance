@@ -38,6 +38,7 @@ export interface ReasoningConfig {
 
 export interface GkConfig {
   todayTopicPdf?: string;
+  todayTopicPdf2?: string;
   todayMindmap?: string;
   todayNotes?: string;
   revisionQuiz?: string;

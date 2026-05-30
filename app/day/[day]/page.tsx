@@ -442,7 +442,8 @@ export default function DayPage({
         id: "gk-materials",
         label: "GK Revision PDF",
         subtitle: [
-          plan.gk.todayTopicPdf ? "PDF" : null,
+          plan.gk.todayTopicPdf ? "Lecture 1" : null,
+          plan.gk.todayTopicPdf2 ? "Lecture 2" : null,
           plan.gk.todayMindmap ? "Mindmap" : null,
           plan.gk.todayNotes ? "Notes" : null,
         ]
@@ -456,8 +457,18 @@ export default function DayPage({
             ? [
                 {
                   id: "gk-pdf",
-                  label: "Open PDF",
+                  label: "Lecture 1",
                   onClick: () => void openGkResource(plan.gk.todayTopicPdf),
+                  loading: loadingSection === "gk-materials",
+                },
+              ]
+            : []),
+          ...(plan.gk.todayTopicPdf2
+            ? [
+                {
+                  id: "gk-pdf2",
+                  label: "Lecture 2",
+                  onClick: () => void openGkResource(plan.gk.todayTopicPdf2),
                   loading: loadingSection === "gk-materials",
                 },
               ]
