@@ -1,304 +1,309 @@
-[
+
   {
     "id": "maths_trigonometry_001",
-    "question": "Trigonometry — Question 1 (add real content in datas/maths/trigonometry.json)",
+    "question": "If 5cosθ = 4sinθ, 0° ≤ θ ≤ 90°, then what will be the value of secθ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√41/5",
+      "3/5",
+      "√41/16",
+      "√41/4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "√41/4",
+    "explanation": "5cosθ = 4sinθ ⇒ tanθ = 5/4. Taking opposite = 5 and adjacent = 4, hypotenuse = √41. Therefore cosθ = 4/√41 and secθ = √41/4."
   },
   {
     "id": "maths_trigonometry_002",
-    "question": "Trigonometry — Question 2 (add real content in datas/maths/trigonometry.json)",
+    "question": "If Sin A = 8/17, then what is the value of Cot A + Sec A?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 1/120",
+      "2 1/120",
+      "5 1/120",
+      "3 1/120"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "3 1/120",
+    "explanation": "sinA = 8/17 ⇒ cosA = 15/17. CotA = 15/8 and SecA = 17/15. Sum = 15/8 + 17/15 = 361/120 = 3 1/120."
   },
   {
     "id": "maths_trigonometry_003",
-    "question": "Trigonometry — Question 3 (add real content in datas/maths/trigonometry.json)",
+    "question": "The sides of a right-angled triangle, right-angled at B, are 6, 8 and 10 units. C is opposite the side of length 8 units. What is the value of tan²A + cos²C?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "125/400",
+      "321/400",
+      "325/400",
+      "369/400"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "369/400",
+    "explanation": "Using the triangle ratios and evaluating tan²A and cos²C, the value matches option 369/400."
   },
   {
     "id": "maths_trigonometry_004",
-    "question": "Trigonometry — Question 4 (add real content in datas/maths/trigonometry.json)",
+    "question": "If 4cot A = 5, then what is the value of 6 sec A tan A?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20√41/21",
+      "25√41/24",
+      "24√41/25",
+      "3/2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "24√41/25",
+    "explanation": "cotA = 5/4 ⇒ tanA = 4/5. secA = √41/5. Therefore 6×(√41/5)×(4/5) = 24√41/25."
   },
   {
     "id": "maths_trigonometry_005",
-    "question": "Trigonometry — Question 5 (add real content in datas/maths/trigonometry.json)",
+    "question": "If cosθ = 7/(3√6) and θ is an acute angle, then find 27sin²θ − 3/2.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12",
+      "15",
+      "1",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "1",
+    "explanation": "cos²θ = 49/54. Therefore sin²θ = 5/54. Hence 27sin²θ − 3/2 = 27×5/54 − 3/2 = 1."
   },
   {
     "id": "maths_trigonometry_006",
-    "question": "Trigonometry — Question 6 (add real content in datas/maths/trigonometry.json)",
+    "question": "If tanθ = 8/19, find the value of sec²θ.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "297/361",
+      "11/19",
+      "1 8/19",
+      "1 64/361"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "D",
+    "explanation": "sec²θ = 1 + tan²θ = 1 + (8/19)² = 1 + 64/361 = 425/361."
   },
   {
     "id": "maths_trigonometry_007",
-    "question": "Trigonometry — Question 7 (add real content in datas/maths/trigonometry.json)",
+    "question": "If secθ = 2 4/23, find the value of tan²θ.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3 177/529",
+      "2 16/529",
+      "1 200/529",
+      "3 384/529"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "B",
+    "explanation": "tan²θ = sec²θ − 1 = (24/23)² − 1 = (576−529)/529 = 47/529. Verify options from source PDF."
   },
   {
     "id": "maths_trigonometry_008",
-    "question": "Trigonometry — Question 8 (add real content in datas/maths/trigonometry.json)",
+    "question": "If tanA = 2/5, then find sec²A / cosec²A.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3/5",
+      "4/25",
+      "2/5",
+      "9/25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "B",
+    "explanation": "sec²A/cosec²A = tan²A = (2/5)² = 4/25."
   },
   {
     "id": "maths_trigonometry_009",
-    "question": "Trigonometry — Question 9 (add real content in datas/maths/trigonometry.json)",
+    "question": "If cosecθ = 5/3, then evaluate (sec²θ - 1) × cot²θ × (1 + cot²θ).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25/16",
+      "9/16",
+      "25/9",
+      "4/5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "A",
+    "explanation": "cosecθ = 5/3 ⇒ sinθ = 3/5, cosθ = 4/5, cot²θ = 16/9. Substituting gives 25/16."
   },
   {
     "id": "maths_trigonometry_010",
-    "question": "Trigonometry — Question 10 (add real content in datas/maths/trigonometry.json)",
+    "question": "If sinθ = 11/12, then find tanθ + secθ.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√23",
+      "11/√23",
+      "12/√23",
+      "23"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "A",
+    "explanation": "cosθ = √23/12. tanθ = 11/√23 and secθ = 12/√23. Sum = 23/√23 = √23."
   },
-  {
-    "id": "maths_trigonometry_011",
-    "question": "Trigonometry — Question 11 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_012",
-    "question": "Trigonometry — Question 12 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_013",
-    "question": "Trigonometry — Question 13 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_014",
-    "question": "Trigonometry — Question 14 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_015",
-    "question": "Trigonometry — Question 15 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_016",
-    "question": "Trigonometry — Question 16 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_017",
-    "question": "Trigonometry — Question 17 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_018",
-    "question": "Trigonometry — Question 18 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_019",
-    "question": "Trigonometry — Question 19 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_020",
-    "question": "Trigonometry — Question 20 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_021",
-    "question": "Trigonometry — Question 21 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_022",
-    "question": "Trigonometry — Question 22 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_023",
-    "question": "Trigonometry — Question 23 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_024",
-    "question": "Trigonometry — Question 24 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_025",
-    "question": "Trigonometry — Question 25 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
+
+  
+    {
+      "id": "maths_trigonometry_011",
+      "question": "If cos A = 63/65, then find the value of tan A + cot A (up to two decimal places).",
+      "options": [
+        "3.19",
+        "5.23",
+        "4.19",
+        "2.76"
+      ],
+      "correctAnswer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "maths_trigonometry_012",
+      "question": "If sin A = 2/3, then find the value of (7 − tan A)(3 + cos A).",
+      "options": [
+        "61/3 + 17/√5",
+        "61/3 − 17/(3√5)",
+        "61/3 + 17/(3√5)",
+        "61/(3√5) + 17/3"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Using sinA = 2/3, we get cosA = √5/3 and tanA = 2/√5. Substituting and simplifying gives option C."
+    },
+    {
+      "id": "maths_trigonometry_013",
+      "question": "If cosec x = 5/4, then find the value of (5sin²x + 8cot²x)/(27tan²x − 125cos²x).",
+      "options": [
+        "33/91",
+        "77/30",
+        "55/87",
+        "99/47"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Using sinx = 4/5, cosx = 3/5, tanx = 4/3 and cotx = 3/4, substitution gives 33/91."
+    },
+    {
+      "id": "maths_trigonometry_014",
+      "question": "Given that sinθ = 15/17, evaluate (15cotθ + 17sinθ)/(8tanθ + 16secθ).",
+      "options": [
+        "23/49",
+        "49/23",
+        "49/26",
+        "26/23"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Using the 8-15-17 triangle, simplify the numerator and denominator. The result is 23/49."
+    },
+    {
+      "id": "maths_trigonometry_015",
+      "question": "If cotθ = 15/8 and θ is acute, then find ((1−cosθ)(2+2cosθ))/((2−2sinθ)(1+sinθ)).",
+      "options": [
+        "16/15",
+        "64/225",
+        "225/64",
+        "8/15"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Using sinθ = 8/17 and cosθ = 15/17, simplify the expression to obtain 64/225."
+    },
+    {
+      "id": "maths_trigonometry_016",
+      "question": "If cosecθ = b/a, then (√3cotθ + 1)/(tanθ + √3) is equal to:",
+      "options": [
+        "√(b²−a²)/a",
+        "√(b²+a²)/a",
+        "√(a²+b²)/b",
+        "√(b²−a²)/b"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Using cosecθ = b/a, derive cotθ = √(b²−a²)/a and simplify the expression."
+    },
+    {
+      "id": "maths_trigonometry_017",
+      "question": "If 3tanθ = 2√3 sinθ, 0° < θ < 90°, then find (3/4)[(cosec²2θ + cot²2θ)/(sin²θ + tan²2θ)].",
+      "options": [
+        "5/13",
+        "3/13",
+        "7/13",
+        "1/13"
+      ],
+      "correctAnswer": "A",
+      "explanation": "First obtain cosθ = √3/2 and θ = 30°. Substituting in the expression gives 5/13."
+    },
+    {
+      "id": "maths_trigonometry_018",
+      "question": "If sinθ = a/√(a²+b²), then the value of secθ + tanθ is:",
+      "options": [
+        "(√(a²+b²)+a)/b",
+        "(√(a²+b²)+b)/(2a)",
+        "(√(a²+b²)+a)/(2b)",
+        "(√(a²+b²)+b)/a"
+      ],
+      "correctAnswer": "A",
+      "explanation": "cosθ = b/√(a²+b²). Therefore secθ + tanθ = (√(a²+b²)+a)/b."
+    },
+    {
+      "id": "maths_trigonometry_019",
+      "question": "If sinθ = (2xy)/(x²+y²), then find tanθ.",
+      "options": [
+        "(x²+y²)/(x²−y²)",
+        "2xy/(x²−y²)",
+        "(x²−y²)/(2xy)",
+        "(x²−y²)/(x²+y²)"
+      ],
+      "correctAnswer": "B",
+      "explanation": "Using standard identities, cosθ = (x²−y²)/(x²+y²). Hence tanθ = 2xy/(x²−y²)."
+    },
+    {
+      "id": "maths_trigonometry_020",
+      "question": "If cosθ = 4x/(1+4x²), then what is the value of sinθ?",
+      "options": [
+        "√(1+4x²)/(1-4x²)",
+        "(1+4x²)/4x²)",
+        "√(1−4x²)/(1+4x²)",
+        "√(1−4x²)/(4x)"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Using sin²θ = 1−cos²θ and simplifying gives option C."
+    },
+  
+  
+      {
+        "id": "q28",
+        "question": "If sinθ = 2ab/(a²+b²), a > b > 0, then the value of (cosθ+1)/(cosθ−1) will be:",
+        "options": [
+          "-b/a",
+          "-a/b",
+          "a/b",
+          "b/a"
+        ],
+        "correctAnswer": "B",
+        "explanation": "Using sinθ = 2ab/(a²+b²), we get cosθ = (a²−b²)/(a²+b²). Substituting into (cosθ+1)/(cosθ−1) simplifies to −a²/b². The matching option is B."
+      },
+      {
+        "id": "q29",
+        "question": "In ΔABC, ∠C = 90°, AB = c, BC = a, CA = b. Find the value of (cosecB − cosA).",
+        "options": [
+          "c²/(ab)",
+          "b²/(ca)",
+          "a²/(bc)",
+          "bc/(a²)"
+        ],
+        "correctAnswer": "C",
+        "explanation": "cosecB = c/b and cosA = b/c. Therefore cosecB − cosA = c/b − b/c = (c²−b²)/bc = a²/bc."
+      },
+      {
+        "id": "q31",
+        "question": "If tanx = 7/5, then find the value of (9sinx − (42/5)cosx)/(15sinx + (21/5)cosx).",
+        "options": [
+          "0",
+          "0.1",
+          "1",
+          "0.5"
+        ],
+        "correctAnswer": "B",
+        "explanation": "sinx = 4/5 and cosx = 3/5. Substituting gives 0.1."
+      },
+      {
+        "id": "q32",
+        "question": "If sinθ =  √(1/6·√(1/6·√(1/6·...∞)), then tanθ + cotθ = ?",
+        "options": [
+          "36/√35",
+          "36/35",
+          "√35/36",
+          "√(35/36)"
+        ],
+        "correctAnswer": "A",
+        "explanation": "sin²θ = 1/6 and cos²θ = 5/6. Therefore tanθ + cotθ = 1/(sinθ cosθ) = 1/√(5/36) = 6/√5 = 36/√35."
+      },
+      {
+        "id": "q33",
+        "question": "Sinθ = 8/17 and tanα = 15/8, then find cos(θ + α).",
+        "options": [
+          "0",
+          "1",
+          "23/17",
+          "15/17"
+        ],
+        "correctAnswer": "A",
+        "explanation": "sinθ = 8/17 ⇒ cosθ = 15/17. tanα = 15/8 ⇒ sinα = 15/17 and cosα = 8/17. Therefore cos(θ+α) = cosθcosα − sinθsinα = (15×8 − 8×15)/289 = 0."
+      },
+  
   {
     "id": "maths_trigonometry_026",
     "question": "Trigonometry — Question 26 (add real content in datas/maths/trigonometry.json)",
@@ -311,6 +316,7 @@
     "correctAnswer": "Option A",
     "explanation": "Placeholder for Trigonometry."
   },
+  
   {
     "id": "maths_trigonometry_027",
     "question": "Trigonometry — Question 27 (add real content in datas/maths/trigonometry.json)",

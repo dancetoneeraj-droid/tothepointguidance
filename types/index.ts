@@ -16,6 +16,8 @@ export interface MathsQuizConfig {
   topic: string;
   questions: number;
   duration: number;
+  /** Fixed 0-based start index in the question bank. When set, ignores progressive stored index. */
+  from?: number;
 }
 
 export interface EnglishConfig {

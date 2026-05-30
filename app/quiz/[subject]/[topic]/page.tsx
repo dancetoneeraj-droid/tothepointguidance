@@ -84,6 +84,19 @@ export default function QuizPage({
       const cfg = plan.maths.find((m) => m.topic === topic);
       questionCount = cfg?.questions ?? MATHS_QUIZ_QUESTIONS;
       durationMinutes = cfg?.duration ?? MATHS_QUIZ_DURATION;
+      if (cfg?.from !== undefined) {
+        const slice = resolveQuizSlice(bank, cfg.from, questionCount);
+        return {
+          questions: slice.questions,
+          duration: durationMinutes,
+          count: questionCount,
+          setStart: slice.setStart,
+          storedIndex: cfg.from,
+          sessionId: buildSessionId(subject, topic, day, slice.setStart),
+          subjectLabel: "Mathematics",
+          isPartial: slice.isPartial,
+        };
+      }
     } else if (subject === "english") {
       questionCount = Math.min(ENGLISH_QUIZ_QUESTIONS, bank.length);
       durationMinutes = ENGLISH_QUIZ_DURATION;
