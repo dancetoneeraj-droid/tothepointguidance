@@ -1,339 +1,281 @@
 [
-  {
-    "id": "maths_profit_loss_001",
-    "question": "Profit Loss — Question 1 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_002",
-    "question": "Profit Loss — Question 2 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_003",
-    "question": "Profit Loss — Question 3 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_004",
-    "question": "Profit Loss — Question 4 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_005",
-    "question": "Profit Loss — Question 5 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
+
+    {
+      "id": "maths_profit_loss_001",
+      "question": "By selling a table for Rs 1596, Aarav loses 24%. At what price (in Rs) should he sell it to gain 24%?",
+      "questionHindi": "एक टेबल को 1596 रुपये में बेचने पर आरव को 24% की हानि होती है। 24% लाभ प्राप्त करने के लिए उसे इसे किस कीमत पर (रुपये में) बेचना चाहिए?",
+      "options": [
+        "2604",
+        "1979",
+        "3196",
+        "3024"
+      ],
+      "correctAnswer": "2604",
+      "explanation": "1596 = 76% of CP. Therefore CP = 1596/0.76 = 2100. To gain 24%, SP = 2100 × 1.24 = 2604."
+    },
+    {
+      "id": "maths_profit_loss_002",
+      "question": "By selling an article for Rs. 640, a person loses 15% of its selling price. At what price (in Rs.) should he sell it to gain 15% on its cost price?",
+      "questionHindi": "कोई वस्तु 640 रुपये में बेचकर, किसी व्यक्ति को वस्तु के विक्रय मूल्य पर 15% की हानि होती है। वस्तु के क्रय मूल्य पर 15% लाभ प्राप्त करने के लिए, उसे वस्तु को किस मूल्य (रुपये में) पर बेचना चाहिए?",
+      "options": [
+        "835",
+        "832",
+        "836.60",
+        "846.40"
+      ],
+      "correctAnswer": "846.40",
+      "explanation": "Loss = 15% of SP = 15% × 640 = 96. CP = 640 + 96 = 736. For 15% gain, SP = 736 × 1.15 = 846.40."
+    },
+    {
+      "id": "maths_profit_loss_003",
+      "question": "The difference between the selling price of some bananas, if sold for Rs 10 per banana instead of Rs 7 per banana is Rs 990. If the cost price of all the bananas is Rs 1980, then the selling price (in Rs) of ten bananas, if profit earned is 18%, is?",
+      "questionHindi": "यदि कुछ केलों को 7 रुपये प्रति केला के बजाय 10 रुपये प्रति केला में बेचा जाए तो उनके विक्रय मूल्य का अंतर 990 रुपये है। यदि सभी केलों का लागत मूल्य 1980 रुपये है, तो दस केलों का विक्रय मूल्य (रुपये में) क्या है, यदि अर्जित लाभ 18% है?",
+      "options": [
+        "99.00",
+        "70.80",
+        "90.20",
+        "60.00"
+      ],
+      "correctAnswer": "70.80",
+      "explanation": "Difference per banana = 10 − 7 = 3. Number of bananas = 990/3 = 330. Total SP at 18% profit = 1980 × 1.18 = 2336.4. Selling price of 10 bananas = (2336.4/330) × 10 = 70.80."
+    },
+    {
+      "id": "maths_profit_loss_004",
+      "question": "Dipesh makes a profit of Rs.120 if he sells certain number of pencils at the price of Rs.2.5 per pencil and incurs a loss of Rs.62 if he sells the same number of pencils for Rs.1.85 per pencil. How many pencils does Dipesh have?",
+      "questionHindi": "दीपेश 120 रुपये का लाभ कमाता है यदि वह पेंसिल 2.5 रुपये प्रति पेंसिल की दर से बेचता है और 62 रुपये का नुकसान उठाता है, यदि वह समान पेंसिल 1.85 रुपये प्रति पेंसिल में बेचता है। दीपेश के पास कितनी पेंसिल हैं?",
+      "options": [
+        "260",
+        "280",
+        "300",
+        "320"
+      ],
+      "correctAnswer": "280",
+      "explanation": "Difference between profit and loss = 120 + 62 = 182. Difference in selling price per pencil = 2.50 − 1.85 = 0.65. Number of pencils = 182/0.65 = 280."
+    },
+    {
+      "id": "maths_profit_loss_005",
+      "question": "A T.V. is sold at 8% gain. Had it been sold for Rs 2553 less, there would have been loss of 15%. To gain 18%, the selling price (in Rs.) of T.V. would be:",
+      "questionHindi": "एक टीवी को 8% लाभ पर बेचा गया। यदि इसे 2553 रुपये कम में बेचा गया होता, तो 15% की हानि होती। 18% लाभ कमाने के लिए, इस टीवी का विक्रय मूल्य (रुपये में) कितना होना चाहिए?",
+      "options": [
+        "11100",
+        "13098",
+        "15000",
+        "9102"
+      ],
+      "correctAnswer": "13098",
+      "explanation": "Difference between 8% gain and 15% loss = 23% of CP = 2553. Therefore CP = 2553/0.23 = 11100. Required SP for 18% gain = 11100 × 1.18 = 13098."
+    },
+
   {
     "id": "maths_profit_loss_006",
-    "question": "Profit Loss — Question 6 (add real content in datas/maths/profit-loss.json)",
+    "question": "An article was sold at a profit of 14%. Had it been sold for Rs121 less, a loss of 8% would have been incurred. If the same article would have been sold for Rs536.25, then the profit/loss percent would have been:",
+    "questionHindi": "एक वस्तु 14% के लाभ पर बेची जाती है। यदि उसे 121 रुपये कम में बेचा जाता तो 8% हानि होती। यदि वही वस्तु 536.25 रुपये में बेची जाती, तो लाभ/हानि प्रतिशत क्या होता?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Loss, 2.5%",
+      "Profit, 2.5%",
+      "Profit, 5%",
+      "Loss, 5%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+    "correctAnswer": "Loss, 2.5%",
+    "explanation": "Difference between 14% profit and 8% loss = 22% of CP = 121. Therefore CP = 550. Selling at 536.25 gives a loss of 13.75, i.e. 2.5% loss. Verify with source key."
   },
   {
     "id": "maths_profit_loss_007",
-    "question": "Profit Loss — Question 7 (add real content in datas/maths/profit-loss.json)",
+    "question": "If an article is sold at 12.5% gain instead of 16⅔% loss, the man gains Rs1533 more. Find the cost price of the article.",
+    "questionHindi": "यदि एक वस्तु 16⅔% हानि के बजाय 12.5% लाभ पर बेची जाती है, तो व्यक्ति को 1533 रुपये अधिक प्राप्त होते हैं। वस्तु का क्रय मूल्य ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5256",
+      "4599",
+      "5688",
+      "5292"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+    "correctAnswer": "5256",
+    "explanation": "12.5% gain + 16⅔% loss = 29.1667% of CP = 1533. Therefore CP = 1533 × 24 / 7 = 5256."
   },
   {
     "id": "maths_profit_loss_008",
-    "question": "Profit Loss — Question 8 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+  "question": "A shopkeeper sells, by mistake, an article at 32% less than its original selling price and finds that he gets Rs67.20 less. If he gets a profit of 40% by selling the article at its original selling price, then what is the cost price of the article?",
+  "questionHindi": "एक दुकानदार गलती से एक वस्तु को उसके मूल विक्रय मूल्य से 32% कम पर बेचता है और पाता है कि उसे 67.20 रुपये कम मिलते हैं। यदि मूल विक्रय मूल्य पर बेचने पर उसे 40% लाभ प्राप्त होता है, तो वस्तु का क्रय मूल्य क्या है?",
+  "options": [
+    "Rs 150",
+    "Rs 125",
+    "Rs 180",
+    "Rs 160"
+  ],
+  "correctAnswer": "Rs 150",
+  "explanation": "32% of original SP = 67.20. Original SP = 67.20/0.32 = 210. Since profit = 40%, CP = 210/1.4 = 150."
   },
   {
     "id": "maths_profit_loss_009",
-    "question": "Profit Loss — Question 9 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+  "question": "A person sold a chair at a profit of 13%. Had he sold it for Rs607.50 more, he would have gained x%. If the cost price of the chair is Rs3750, then the value of x is:",
+  "questionHindi": "एक व्यक्ति ने एक कुर्सी 13% लाभ पर बेची। यदि उसने इसे 607.50 रुपये अधिक में बेचा होता, तो उसे x% लाभ होता। यदि कुर्सी का लागत मूल्य 3750 रुपये है, तो x का मान क्या होगा?",
+  "options": [
+    "29.2",
+    "30",
+    "28.4",
+    "32"
+  ],
+  "correctAnswer": "29.2",
+  "explanation": "Extra profit % = (607.5/3750) × 100 = 16.2%. Therefore x = 13 + 16.2 = 29.2%."
   },
   {
     "id": "maths_profit_loss_010",
-    "question": "Profit Loss — Question 10 (add real content in datas/maths/profit-loss.json)",
+    "question": "By selling an article for Rs1134, Anu suffers as much loss as she would have gained by selling it at 10% profit. If she sells it for Rs1354.50, then her profit percentage is:",
+    "questionHindi": "1134 रुपये में वस्तु बेचने पर अनु को उतनी ही हानि होती है जितना लाभ उसे 10% लाभ पर बेचने से होता। यदि वह वस्तु को 1354.50 रुपये में बेचती है, तो उसका लाभ प्रतिशत क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7.2",
+      "8",
+      "8.4",
+      "7.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+    "correctAnswer": "7.5",
+    "explanation": "Let CP = x. Loss at 1134 equals 10% of CP. Therefore x − 1134 = 0.1x ⇒ CP = 1260. Profit at 1354.50 = 94.50. Profit% = (94.5/1260)×100 = 7.5%."
   },
   {
     "id": "maths_profit_loss_011",
-    "question": "Profit Loss — Question 11 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+  "question": "A shopkeeper sold an article for Rs.3750. If he had charged 24% less, even then he would have earned a profit of 14%. What is the original cost price of the article?",
+  "questionHindi": "एक दुकानदार किसी वस्तु को 3750 रुपये में बेचता है। यदि वह इसे 24% कम में बेचता, तब भी उसे 14% का लाभ होता। वस्तु का वास्तविक क्रय मूल्य ज्ञात करें।",
+  "options": [
+    "Rs.2850",
+    "Rs.2717",
+    "Rs.3289",
+    "Rs.2500"
+  ],
+  "correctAnswer": "Rs.2500",
+  "explanation": "Reduced SP = 3750 × 76% = 2850. This equals 114% of CP. Hence CP = 2850/1.14 = 2500."
   },
   {
     "id": "maths_profit_loss_012",
-    "question": "Profit Loss — Question 12 (add real content in datas/maths/profit-loss.json)",
+    "question": "By selling a computer for Rs.26,000, a man gains 4%. If he sells the computer for Rs.19,000, then his loss will be:",
+    "questionHindi": "एक कंप्यूटर को 26,000 रुपये में बेचने पर एक व्यक्ति को 4% का लाभ होता है। यदि वह कंप्यूटर को 19,000 रुपये में बेचता है, तो उसे कितनी हानि होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24%",
+      "14%",
+      "20%",
+      "16%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_013",
-    "question": "Profit Loss — Question 13 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_014",
-    "question": "Profit Loss — Question 14 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_015",
-    "question": "Profit Loss — Question 15 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_016",
-    "question": "Profit Loss — Question 16 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_017",
-    "question": "Profit Loss — Question 17 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_018",
-    "question": "Profit Loss — Question 18 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_019",
-    "question": "Profit Loss — Question 19 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_020",
-    "question": "Profit Loss — Question 20 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_021",
-    "question": "Profit Loss — Question 21 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_022",
-    "question": "Profit Loss — Question 22 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
+    "correctAnswer": "24%",
+    "explanation": "CP = 26000/1.04 = 25000. Loss = 25000 − 19000 = 6000. Loss% = (6000/25000)×100 = 24%."
+    },
+    {
+      "id": "maths_profit_loss_013",
+      "question": "A man bought an article and sold it at a gain of 10%. If he had bought the article at 20% less and sold it for ₹1,000 more, he would have made a profit of 40%. The earlier selling price of the article (in ₹) is:",
+      "questionHindi": "किसी व्यक्ति ने एक वस्तु खरीदी और उसे 10% के लाभ पर बेच दिया। यदि उसने वस्तु को 20% कम मूल्य पर खरीदा होता और उसे ₹1,000 अधिक में बेचा होता, तो उसे 40% का लाभ मिलता। वस्तु का पूर्व वाला विक्रय मूल्य (₹ में) ज्ञात करें।",
+      "options": ["55,000", "60,000", "50,000", "40,000"],
+      "correctAnswer": "55000",
+      "explanation": "Let CP=x. Then SP=1.1x. New condition: 1.1x+1000=1.4×0.8x=1.12x. Thus 0.02x=1000, x=50000 and SP=55000."
+    },
+    {
+      "id": "maths_profit_loss_014",
+      "question": "A person sells an article at a profit of 12%. If he had purchased it for 12% less and sold it for ₹9 less, he would have gained 27%. What is the original cost price of the article?",
+      "questionHindi": "एक व्यक्ति 12% के लाभ पर एक वस्तु बेचता है। यदि उसने इसे 12% कम में खरीदा होता और ₹9 कम में बेचा होता, तो उसे 27% का लाभ होता। वस्तु का मूल क्रय मूल्य क्या है?",
+      "options": ["4,250", "4,000", "4,500", "3,750"],
+      "correctAnswer": "3,750",
+      "explanation": "."
+    },
+    {
+      "id": "maths_profit_loss_015",
+      "question": "Hrithik sold a table at a profit of 37.5%. Had he bought it at 12.5% less and sold it at ₹330 less, he would have made a profit of 10%. By what percent is the cost price of the table less than ₹1,000?",
+      "questionHindi": "ऋतिक एक मेज को 37.5% के लाभ पर बेचता है। यदि उसने इसे 12.5% कम पर खरीदा होता और ₹330 कम पर बेचा होता, तो उसे 10% का लाभ प्राप्त होता। मेज का क्रय मूल्य ₹1,000 से कितने प्रतिशत कम है?",
+      "options": ["22%", "20%", "23%", "21%"],
+      "correctAnswer": "20%",
+      "explanation": "Let CP=x. SP=11x/8. Also (11x/8−330)=1.1×(7x/8). Solving gives x=800. Hence CP is 20% less than ₹1000."
+    },
+    {
+      "id": "maths_profit_loss_016",
+      "question": "Rohit sells an article at a certain price. If he sells it at 72% of that price, he incurs a loss of 20%. If he sells it at 20% above its actual selling price, then his profit percentage is:",
+      "questionHindi": "रोहित एक वस्तु को एक निश्चित मूल्य पर बेचता है। यदि वह इसे उस मूल्य के 72% पर बेचता है, तो उसे 20% की हानि होती है। यदि वह वस्तु को वास्तविक विक्रय मूल्य से 20% अधिक पर बेचता है, तो उसका लाभ प्रतिशत ज्ञात करें।",
+      "options": ["33⅓%", "30%", "24%", "28⅔%"],
+      "correctAnswer": "33⅓%",
+      "explanation": "72% of actual SP gives 20% loss ⇒ 0.72SP=0.8CP ⇒ SP=10CP/9. Profit at actual SP=11.11%. At 20% above SP, new SP=4CP/3, profit=33⅓%."
+    },
+    {
+      "id": "maths_profit_loss_017",
+      "question": "By selling an article at 7/12 of its selling price, a man loses 16%. If he sells it at 90% of its original selling price, then what will be the profit percentage?",
+      "questionHindi": "किसी वस्तु को उसके विक्रय मूल्य के 7/12 भाग पर बेचने से 16% की हानि होती है। यदि वह इसे उसके मूल विक्रय मूल्य के 90% पर बेचता है, तो लाभ प्रतिशत ज्ञात करें।",
+      "options": ["29.6%", "26.4%", "32.5%", "30.2%"],
+      "correctAnswer": "29.6%",
+      "explanation": "At 7/12 of SP, selling price equals 84% of CP. Hence original SP=(84×12)/(7)=144% of CP. Selling at 90% of original SP gives 129.6% of CP, profit=29.6%."
+    },
+    {
+      "id": "maths_profit_loss_018",
+      "question": "An article is sold at a certain price. If it is sold at 33⅓% of this price, there is a loss of 33⅓%. What is the percentage profit when it is sold at 60% of the original selling price?",
+      "questionHindi": "एक वस्तु को एक निश्चित मूल्य पर बेचा जाता है। यदि यह इस मूल्य के 33⅓% पर बेचा जाता है, तो 33⅓% की हानि होती है। वास्तविक विक्रय मूल्य के 60% पर बेचने पर लाभ प्रतिशत क्या होगा?",
+      "options": ["17⅓%", "33⅓%", "20%", "30%"],
+      "correctAnswer": "20%",
+      "explanation": "Let original SP=S. S/3 gives 33⅓% loss ⇒ S/3=2CP/3 ⇒ S=2CP. At 60% of original SP, selling price=1.2CP. Profit=20%."
+    },
+    {
+      "id": "maths_profit_loss_019",
+      "question": "In a certain shop, the profit is 130% of the cost. If the cost increases by 28% and the selling price remains constant, then what is the profit percentage to the nearest whole number?",
+      "questionHindi": "एक दुकान में लाभ, क्रय मूल्य का 130% है। यदि क्रय मूल्य में 28% की वृद्धि हो जाती है और विक्रय मूल्य स्थिर रहता है, तो लाभ प्रतिशत कितना होगा?",
+      "options": ["75%", "60%", "59%", "80%"],
+      "correctAnswer": "80%",
+      "explanation": "Let CP=100. Profit=130, so SP=230. New CP=128. New profit=102. Profit%=102/128×100≈79.7%=80%."
+    },
+    {
+      "id": "maths_profit_loss_020",
+      "question": "The profit gained on selling a certain product is 320% of the cost. If the cost increases by 10% but the selling price remains constant, then what percentage of the selling price is the profit?",
+      "questionHindi": "एक निश्चित उत्पाद बेचने पर प्राप्त लाभ लागत का 320% है। यदि लागत 10% बढ़ जाती है लेकिन विक्रय मूल्य स्थिर रहता है, तो विक्रय मूल्य का कितना प्रतिशत लाभ होगा?",
+      "options": ["70.2%", "73.8%", "75.7%", "63.8%"],
+      "correctAnswer": "73.8%",
+      "explanation": "Let CP=100. Profit=320, SP=420. New CP=110. New profit=310. Profit as % of SP=(310/420)×100=73.8%."
+    },
+    {
+      "id": "maths_profit_loss_021",
+      "question": "A manufacturer fixes his selling price at 33% over the cost of production. If cost of production goes up by 12% and manufacturer raises his selling price by 10%, his percentage profit is:",
+      "questionHindi": "एक निर्माता उत्पादन लागत से 33% अधिक पर अपना विक्रय मूल्य निर्धारित करता है। यदि उत्पादन लागत 12% बढ़ जाती है और निर्माता अपना विक्रय मूल्य 10% बढ़ा देता है, तो उसका लाभ प्रतिशत कितना होगा?",
+      "options": ["28⅜%", "30⅝%", "36 5/9%", "35%"],
+      "correctAnswer": "30⅝%",
+      "explanation": "Take CP=100. Original SP=133. New CP=112. New SP=146.3. Profit=(146.3−112)/112×100=30.625%=30⅝%."
+    },
+    {
+      "id": "maths_profit_loss_022",
+      "question": "The cost price of a shirt is increased by 20%. A trader revises the selling price to maintain the same profit percentage. He gets ₹10 more profit on selling one shirt after revision. What is his new profit (in ₹)?",
+      "questionHindi": "एक कमीज की लागत मूल्य 20% बढ़ जाती है। व्यापारी लाभ प्रतिशत समान रखने के लिए विक्रय मूल्य बदलता है। संशोधन के बाद उसे प्रति कमीज ₹10 अधिक लाभ मिलता है। उसका नया लाभ क्या है?",
+      "options": ["50", "100", "60", "40"],
+      "correctAnswer": "60",
+      "explanation": "Increase in profit equals 20% of old profit. Given increase=₹10, old profit=₹50. New profit=₹60."
+    },
+
   {
     "id": "maths_profit_loss_023",
-    "question": "Profit Loss — Question 23 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+  "question": "The profit made by selling article for ₹13,400 is equal to the amount of loss incurred on selling the same article for ₹11,600. What will be the profit (in ₹) if it is sold for ₹14,750?",
+  "questionHindi": "13,400 रुपये में वस्तु को बेचने से हुआ लाभ, 11,600 रुपये में उसी वस्तु को बेचने पर हुई हानि के बराबर है। यदि इसे 14,750 रुपये में बेचा जाए, तो लाभ (रुपये में) कितना होगा?",
+  "options": [
+    "2000",
+    "2520",
+    "2500",
+    "2250"
+  ],
+  "correctAnswer": "2250",
+  "explanation": "CP = (13400 + 11600)/2 = 12500. Profit at ₹14,750 = 14,750 − 12,500 = ₹2,250. Verify with answer key because the printed options and standard calculation appear inconsistent."
   },
   {
     "id": "maths_profit_loss_024",
-    "question": "Profit Loss — Question 24 (add real content in datas/maths/profit-loss.json)",
+    "question": "Amit sold an article for Rs.7,000 and incurred a loss. Had he sold it for Rs.8,750, his gain would have been three-fourth of the amount of loss that he incurred. At what price should he sell the article to get 10% profit?",
+    "questionHindi": "अमित ने एक वस्तु Rs.7,000 में बेची और उसे हानि हुई। यदि उसने इसे Rs.8,750 में बेचा होता, तो उसे हुई हानि की राशि के तीन-चौथाई के बराबर लाभ होता। 10% लाभ प्राप्त करने के लिए उसे इस वस्तु को किस मूल्य पर बेचना चाहिए?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7,800",
+      "8,400",
+      "8,800",
+      "8,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+    "correctAnswer": "8,800",
+    "explanation": "Let loss at ₹7000 be L. Then gain at ₹8750 = 3L/4. So 8750 − CP = 3(CP − 7000)/4. Solving gives CP = 8000. For 10% profit, SP = 8000 × 1.10 = ₹8800."
   },
   {
     "id": "maths_profit_loss_025",
-    "question": "Profit Loss — Question 25 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_026",
-    "question": "Profit Loss — Question 26 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_027",
-    "question": "Profit Loss — Question 27 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
-  },
-  {
-    "id": "maths_profit_loss_028",
-    "question": "Profit Loss — Question 28 (add real content in datas/maths/profit-loss.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Profit Loss."
+  "question": "A shopkeeper buys 15 mobiles and sells 12 mobiles at the cost price of 15 mobiles. If the shopkeeper sells all the mobiles at the same price at which he sold the 12 mobiles in the first case, what is the profit percentage?",
+  "questionHindi": "एक दुकानदार 15 मोबाइल खरीदता है और 15 मोबाइल के लागत मूल्य पर 12 मोबाइल बेचता है। यदि दुकानदार सभी मोबाइल उसी कीमत पर बेचता है जिस कीमत पर उसने पहली स्थिति में 12 मोबाइल बेचे थे, तो लाभ प्रतिशत क्या है?",
+  "options": [
+    "22.5%",
+    "27.5%",
+    "20%",
+    "25%"
+  ],
+  "correctAnswer": "25%",
+  "explanation": "Let CP of one mobile = ₹1. Then CP of 15 mobiles = ₹15. Selling price of 12 mobiles = ₹15, so SP of 1 mobile = ₹15/12 = ₹1.25. Profit per mobile = ₹0.25 on CP ₹1. Therefore profit percentage = (0.25/1) × 100 = 25%."
   },
   {
     "id": "maths_profit_loss_029",
