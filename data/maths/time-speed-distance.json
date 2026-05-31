@@ -1,303 +1,328 @@
 [
   {
     "id": "maths_time_speed_distance_001",
-    "question": "Time Speed Distance — Question 1 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Paulson usually leaves his home everyday at 8:15 am and travels at a certain speed to reach office on time. One day he travelled at 3/5 of the usual speed and hence arrived 45 minutes late. How much time does Paulson usually take to reach his office?",
+    "questionHindi": "पॉलसन आमतौर पर 8:15 बजे अपने घर से निकलता है और समय पर कार्यालय पहुँचने के लिए एक निश्चित गति से यात्रा करता है। एक दिन उसने अपनी सामान्य गति के 3/5 पर यात्रा की और इसलिए 45 मिनट देर से पहुँचा। पॉलसन को आमतौर पर अपने कार्यालय तक पहुँचने में कितना समय लगता है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1½ hours",
+      "1⅓ hours",
+      "1¼ hours",
+      "1⅛ hours"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "1⅛ hours",
+    "explanation": "Speed becomes 3/5, so time becomes 5/3. Extra time = 2/3 of usual time = 45 min. Hence usual time = 45 × 3/2 = 67.5 min = 1⅛ hours."
   },
   {
     "id": "maths_time_speed_distance_002",
-    "question": "Time Speed Distance — Question 2 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man travels from city X to city Y. If he travels 25% faster than his usual speed, he would reach Y 15 minutes early. By how many minutes would he be late if he travels 40% slower than his usual speed?",
+    "questionHindi": "एक आदमी शहर X से शहर Y की यात्रा करता है। यदि वह अपनी गति से 25% तेज यात्रा करता है, तो वह Y 15 मिनट पहले पहुँच जाता है। यदि वह अपनी सामान्य गति से 40% धीमी गति से यात्रा करता है तो उसे कितने मिनट की देरी होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "36",
+      "50",
+      "40",
+      "45"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "50",
+    "explanation": "25% increase in speed reduces time by 20%. Thus 20% of usual time = 15 min ⇒ usual time = 75 min. At 40% slower speed, speed = 60% of original, so time = 75/0.6 = 125 min. Delay = 125 − 75 = 50 min."
   },
   {
     "id": "maths_time_speed_distance_003",
-    "question": "Time Speed Distance — Question 3 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The distance between two cities A and B is 480 km. A car starts from A at 3/5 of its original speed and reaches B late by 80 minutes than its scheduled time. Find the original speed of the car (in km/h).",
+    "questionHindi": "दो शहरों A और B के बीच की दूरी 480 किमी है। एक कार A से अपनी मूल गति की 3/5 गति से शुरू होती है और B पर अपने निर्धारित समय से 80 मिनट की देरी से पहुँचती है। कार की मूल गति (किमी/घंटा में) ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "230",
+      "240",
+      "235",
+      "242"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "240",
+    "explanation": "Let original speed = x. Delay = 480/(3x/5) − 480/x = 80/60 hr. Solving gives x = 240 km/h."
   },
   {
     "id": "maths_time_speed_distance_004",
-    "question": "Time Speed Distance — Question 4 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "An aeroplane covers a certain distance at a speed of 210 km/hour in 14 hours. To cover the same distance in 9 hours 48 minutes, it must travel at a speed of:",
+    "questionHindi": "एक हवाई जहाज 14 घंटे में 210 किमी/घंटा की चाल से एक निश्चित दूरी तय करता है। उसी दूरी को 9 घंटे 48 मिनट में तय करने के लिए जहाज की चाल क्या होनी चाहिए?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "300 km/hr",
+      "360 km/hr",
+      "240 km/hr",
+      "480 km/hr"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "300 km/hr",
+    "explanation": "Distance = 210 × 14 = 2940 km. Required speed = 2940 ÷ 9.8 = 300 km/h."
   },
   {
     "id": "maths_time_speed_distance_005",
-    "question": "Time Speed Distance — Question 5 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A car takes 50 minutes to cover a certain distance at a speed of 54 km/h. If the speed is increased by 25%, then how long will it take to cover three-fourth of the same distance?",
+    "questionHindi": "एक कार 54 किमी/घंटा की चाल से एक निश्चित दूरी तय करने में 50 मिनट लेती है। यदि गति 25% बढ़ा दी जाए, तो उसी दूरी के तीन-चौथाई भाग को तय करने में कितना समय लगेगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "35 minutes",
+      "40 minutes",
+      "30 minutes",
+      "28.5 minutes"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "30 minutes",
+    "explanation": "New speed = 54 × 1.25 = 67.5 km/h. Time for 3/4 distance = 50 × (3/4) × (54/67.5) = 30 min."
   },
   {
     "id": "maths_time_speed_distance_006",
-    "question": "Time Speed Distance — Question 6 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "P and Q start from point A to point B, at the same time at speeds of 32 km/h and 40 km/h, respectively. If in covering the journey P takes 15 minutes longer than Q, the total distance AB is:",
+    "questionHindi": "P और Q क्रमशः 32 किमी/घंटा और 40 किमी/घंटा की चाल से A से B की ओर एक ही समय पर चलना शुरू करते हैं। यदि P को Q से 15 मिनट अधिक समय लगता है, तो AB की कुल दूरी क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "36 km",
+      "32 km",
+      "40 km",
+      "44 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "40 km",
+    "explanation": "Let distance = d. Then d/32 − d/40 = 15/60. Solving gives d = 40 km."
   },
   {
     "id": "maths_time_speed_distance_007",
-    "question": "Time Speed Distance — Question 7 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Two cyclists X and Y start at the same time from place A and go towards place B at speeds of 6 km/h and 8 km/h respectively. Despite stopping for 15 minutes during the journey, Y reaches 10 minutes earlier than X. The distance between A and B is:",
+    "questionHindi": "दो साइकिल सवार X और Y एक ही समय पर A से B की ओर क्रमशः 6 किमी/घंटा और 8 किमी/घंटा की चाल से चलते हैं। यात्रा के दौरान 15 मिनट रुकने के बावजूद Y, X से 10 मिनट पहले पहुँचता है। A और B के बीच की दूरी कितनी है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6 km",
+      "16.5 km",
+      "10 km",
+      "8 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "10 km",
+    "explanation": "d/6 − (d/8 + 15/60) = 10/60. Solving gives d = 10 km."
   },
   {
     "id": "maths_time_speed_distance_008",
-    "question": "Time Speed Distance — Question 8 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Samir drove at the speed of 81 kmph from home to a resort. Returning over the same route, he got stuck in traffic so took 56 minutes longer, also he could drive only at the speed of 60 kmph. How many kilometres did he drive each way?",
+    "questionHindi": "समीर ने घर से रिसॉर्ट तक 81 किमी/घंटा की चाल से गाड़ी चलाई। वापसी में ट्रैफिक के कारण उसे 56 मिनट अधिक लगे और वह केवल 60 किमी/घंटा की चाल से चल सका। प्रत्येक दिशा में दूरी कितनी थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "216 km",
+      "160 km",
+      "200 km",
+      "224 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "216 km",
+    "explanation": "Let distance = d. Then d/60 − d/81 = 56/60 hr. Solving gives d = 216 km."
   },
   {
     "id": "maths_time_speed_distance_009",
-    "question": "Time Speed Distance — Question 9 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Speed of Ankit and Kuldeep are 40 km/hr and 64 km/hr. They travel from Ranchi to Patna by the same route. Kuldeep starts 61 minutes after Ankit and reaches Patna 29 minutes before him. Find the distance between Ranchi and Patna.",
+    "questionHindi": "अंकित और कुलदीप की गति क्रमशः 40 किमी/घंटा और 64 किमी/घंटा है। वे रांची से पटना तक एक ही मार्ग से यात्रा करते हैं। कुलदीप अंकित के 61 मिनट बाद शुरू करता है और 29 मिनट पहले पहुँच जाता है। रांची और पटना के बीच की दूरी ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "200 km",
+      "160 km",
+      "240 km",
+      "144 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "160 km",
+    "explanation": "Difference in travel time = 61 + 29 = 90 min = 1.5 hr. Let distance = d. Then d/40 − d/64 = 1.5. Solving gives d = 160 km."
   },
   {
     "id": "maths_time_speed_distance_010",
-    "question": "Time Speed Distance — Question 10 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A car covers a certain distance in 9⅓ hours. If the speed is increased by 9 km/hr, then it will take 80 minutes less to cover the same distance. Find the distance covered by the car.",
+    "questionHindi": "एक कार एक निश्चित दूरी 9⅓ घंटे में तय करती है। यदि इसकी चाल 9 किमी/घंटा बढ़ा दी जाए, तो वही दूरी तय करने में 80 मिनट कम लगते हैं। कार द्वारा तय की गई दूरी ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "576 km",
+      "504 km",
+      "448 km",
+      "588 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "504 km",
+    "explanation": "Let speed = x. Then distance = 28x/3. New time = 8 hr. Equation: (28x/3)/(x+9)=8. Solving gives x=54. Distance=54×28/3=504 km."
   },
   {
     "id": "maths_time_speed_distance_011",
-    "question": "Time Speed Distance — Question 11 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A car can cover a certain distance at a uniform speed in 19.2 hours. If the speed is increased by 8 km per hour, the same distance is covered in 18 hours. The distance (in km) is:",
+    "questionHindi": "एक कार एक निश्चित दूरी को एक समान चाल से 19.2 घंटे में तय करती है। यदि उसकी गति 8 किमी/घंटा बढ़ा दी जाए, तो वही दूरी 18 घंटे में तय हो जाती है। दूरी (किमी में) ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2340",
+      "2403",
+      "2034",
+      "2304"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "2304",
+    "explanation": "Let speed = x. Then 19.2x = 18(x+8). Solving gives x=120. Distance = 19.2×120 = 2304 km."
   },
   {
     "id": "maths_time_speed_distance_012",
-    "question": "Time Speed Distance — Question 12 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A train covers a certain distance in 45 minutes. If its speed is reduced by 5 km/h, it takes 3 minutes more to cover the same distance. The distance (in km) is:",
+    "questionHindi": "एक रेलगाड़ी 45 मिनट में एक निश्चित दूरी तय करती है। यदि इसकी गति 5 किमी/घंटा कम कर दी जाए, तो उतनी ही दूरी तय करने में 3 मिनट अधिक लगते हैं। दूरी (किमी में) ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "64",
+      "60",
+      "54",
+      "80"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "60",
+    "explanation": "Let speed=x. Then distance=3x/4. New time=48 min=4/5 hr. Equation: (3x/4)/(x−5)=4/5. Solving gives x=80. Distance=60 km."
   },
   {
     "id": "maths_time_speed_distance_013",
-    "question": "Time Speed Distance — Question 13 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man started his journey 40 minutes later than usual due to a family issue. But due to urgent work he increased his speed to 160% of his usual speed and reached 35 minutes earlier at his destination. What is the usual time taken by him for the journey?",
+    "questionHindi": "घरेलू झगड़े की वजह से एक व्यक्ति अपनी यात्रा 40 मिनट देर से शुरू करता है। लेकिन आवश्यक कार्य के कारण वह अपनी चाल सामान्य चाल की 160% कर देता है और गंतव्य पर 35 मिनट पहले पहुँच जाता है। यात्रा का सामान्य समय कितना था?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3 hours",
+      "3 hours 15 minutes",
+      "3 hours 30 minutes",
+      "3 hours 20 minutes"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "3 hours 20 minutes",
+    "explanation": "Net gain in travel schedule = 40 + 35 = 75 min. Increasing speed to 160% makes time = 5/8 of usual. Thus 3/8 of usual time = 75 min. Usual time = 200 min = 3 hr 20 min."
   },
   {
     "id": "maths_time_speed_distance_014",
-    "question": "Time Speed Distance — Question 14 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A takes 2 hours more than B to cover a distance of 40 km. If A doubles his speed, he takes 1½ hours more than B to cover 80 km. To cover a distance of 90 km, how much time will B take travelling at his same speed?",
+    "questionHindi": "40 किमी की दूरी तय करने में A को B से 2 घंटे अधिक लगते हैं। यदि A अपनी चाल दोगुनी कर देता है, तो उसे 80 किमी की दूरी तय करने में B से 1½ घंटे अधिक लगते हैं। 90 किमी की दूरी तय करने में B को कितना समय लगेगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1⅛ hours",
+      "1⅜ hours",
+      "1⅙ hours",
+      "1⅓ hours"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "1⅛ hours",
+    "explanation": "Let speeds of A and B be a and b. From the given conditions, a = 40 km/h and b = 80 km/h. Hence time taken by B for 90 km = 90/80 = 1.125 hours = 1⅛ hours."
   },
   {
     "id": "maths_time_speed_distance_015",
-    "question": "Time Speed Distance — Question 15 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A person started his journey in the morning. Till 10:00 am, he covered 7/24 part of the journey and on the same day at 01:50 pm he covered 11/18 of the journey. At what time did he start his journey?",
+    "questionHindi": "एक व्यक्ति सुबह अपनी यात्रा शुरू करता है। 10:00 AM बजे तक वह यात्रा का 7/24 भाग तय करता है और उसी दिन 01:50 PM बजे वह यात्रा का 11/18 भाग तय कर चुका होता है। उसने यात्रा कब शुरू की?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6:25 am",
+      "6:15 am",
+      "5:45 am",
+      "6:30 am"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "6:30 am",
+    "explanation": "From 10:00 am to 1:50 pm (230 min), fraction covered = 11/18 − 7/24 = 29/72. Entire journey time = 230 × 72/29 ≈ 571 min. Time taken till 10 am = (7/24)×571 ≈ 167 min. Start time = 10:00 − 2 hr 47 min ≈ 6:30 am."
   },
   {
     "id": "maths_time_speed_distance_016",
-    "question": "Time Speed Distance — Question 16 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A person starts a journey in the morning. He has covered 62.5% of the total journey till 8:25 am and completed his journey at 8:49 am. Next day he starts his journey by 30 minutes late but increases his speed by 14.28%. Then at what time will he complete his journey?",
+    "questionHindi": "एक व्यक्ति सुबह अपनी यात्रा शुरू करता है। उसने सुबह 8:25 तक कुल यात्रा का 62.5% भाग तय कर लिया और सुबह 8:49 बजे यात्रा पूरी की। अगले दिन वह 30 मिनट देर से शुरू करता है लेकिन अपनी गति 14.28% बढ़ा देता है। वह किस समय यात्रा पूरी करेगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9:11 am",
+      "9:01 am",
+      "9:21 am",
+      "9:31 am"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "9:11 am",
+    "explanation": "Remaining 37.5% journey takes 24 min. Total journey time = 24 ÷ 0.375 = 64 min. Speed increases by 14.28% = 1/7, so new speed = 8/7 of old speed. New time = 64×7/8 = 56 min. Starting 30 min late shifts completion by 30−8 = 22 min. Hence completion time = 9:01 am."
   },
   {
     "id": "maths_time_speed_distance_017",
-    "question": "Time Speed Distance — Question 17 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The distance between station P and Q is 910 km. Two persons A and B start their journey from P and Q respectively at 10:00 am towards each other. The speed of B is 16.66% more than A. At the point of meeting, find the difference between the distance covered by them.",
+    "questionHindi": "स्टेशन P और Q के बीच की दूरी 910 किमी है। दो व्यक्ति A और B क्रमशः P और Q से 10:00 बजे एक-दूसरे की ओर चलना शुरू करते हैं। B की गति A से 16.66% अधिक है। मिलने तक उनके द्वारा तय की गई दूरियों का अंतर ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "90 km",
+      "130 km",
+      "70 km",
+      "110 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "70 km",
+    "explanation": "B is 16.66% (=1/6) faster, so speed ratio A:B = 6:7. Distances covered till meeting are in ratio 6:7. Difference = (1/13)×910 = 70 km."
   },
   {
     "id": "maths_time_speed_distance_018",
-    "question": "Time Speed Distance — Question 18 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A person travelled from station A to station B at 40 km/h and from B to A at 30 km/h. The entire journey took 6.3 hours. What is the distance between A and B?",
+    "questionHindi": "एक व्यक्ति स्टेशन A से B तक 40 किमी/घंटा तथा B से A तक 30 किमी/घंटा की गति से यात्रा करता है। पूरी यात्रा में 6.3 घंटे लगे। A और B के बीच की दूरी ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "117",
+      "108",
+      "91",
+      "99"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "108",
+    "explanation": "Let distance be d km. Then d/40 + d/30 = 6.3. Solving gives d = 108 km."
   },
   {
     "id": "maths_time_speed_distance_019",
-    "question": "Time Speed Distance — Question 19 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boy goes to school at 4.5 km/h and returns at a speed of 7.5 km/h. If he takes 144 minutes in all, find the distance from his village to school.",
+    "questionHindi": "एक लड़का 4.5 किमी/घंटा की गति से विद्यालय जाता है और 7.5 किमी/घंटा की गति से लौटता है। यदि उसे कुल 144 मिनट लगते हैं, तो उसके घर से विद्यालय की दूरी ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7.75 km",
+      "7.25 km",
+      "6.25 km",
+      "6.75 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "6.75 km",
+    "explanation": "Total time = 144 min = 2.4 hr. Let distance = d. Then d/4.5 + d/7.5 = 2.4. Solving gives d = 6.75 km."
   },
   {
     "id": "maths_time_speed_distance_020",
-    "question": "Time Speed Distance — Question 20 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A delivery boy started from his office at 10:00 am to deliver an article. He rode his scooter at 32 km/h. He delivered the article and waited for 15 minutes to get the payment. After the payment was made, he returned to his office at 11:25 am travelling at 24 km/h. Find the total distance travelled by the boy.",
+    "questionHindi": "एक डिलीवरी बॉय सुबह 10 बजे कार्यालय से निकला। उसने 32 किमी/घंटा की गति से स्कूटर चलाया। भुगतान के लिए 15 मिनट रुका और फिर 24 किमी/घंटा की गति से लौटकर 11:25 बजे कार्यालय पहुँच गया। कुल तय की गई दूरी ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "32 km",
+      "30 km",
+      "35 km",
+      "40 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "32 km",
+    "explanation": "Travel time excluding waiting = 85 − 15 = 70 min = 7/6 hr. Let one-way distance = d. Then d/32 + d/24 = 7/6. Solving gives d = 16 km. Total distance = 32 km."
   },
   {
     "id": "maths_time_speed_distance_021",
-    "question": "Time Speed Distance — Question 21 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man walks from his house at an average speed of 27 km/h and reaches his office 7 minutes late. If he walks at an average speed of 45 km/h he reaches 17 minutes early. The distance of the office from his house is:",
+    "questionHindi": "एक आदमी अपने घर से 27 किमी/घंटा की औसत गति से चलता है और 7 मिनट देर से कार्यालय पहुँचता है। यदि वह 45 किमी/घंटा की गति से चलता है तो 17 मिनट पहले पहुँचता है। उसके घर से कार्यालय की दूरी क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "27 km",
+      "9 km",
+      "12 km",
+      "15 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "27 km",
+    "explanation": "Difference in travel times = 24 min = 0.4 hr. Let distance = d. Then d/27 − d/45 = 0.4. Solving gives d = 27 km."
   },
   {
     "id": "maths_time_speed_distance_022",
-    "question": "Time Speed Distance — Question 22 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Starting from his house one day, a student walks at the rate of 2.5 km/h and reaches his school 6 minutes late. Next day, he increases his speed by 1 km/h and reaches the school 6 minutes earlier. How far is the school from his house?",
+    "questionHindi": "एक दिन एक छात्र 2.5 किमी/घंटा की चाल से घर से स्कूल जाता है और 6 मिनट देर से पहुँचता है। अगले दिन वह अपनी चाल 1 किमी/घंटा बढ़ा देता है और 6 मिनट पहले पहुँच जाता है। घर से स्कूल की दूरी ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11/5 km",
+      "7/4 km",
+      "8/3 km",
+      "3/2 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "7/4 km",
+    "explanation": "Difference in arrival times = 12 min = 0.2 hr. Let distance = d. Then d/2.5 − d/3.5 = 0.2. Solving gives d = 1.75 km = 7/4 km."
   },
   {
     "id": "maths_time_speed_distance_023",
-    "question": "Time Speed Distance — Question 23 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man starts from his house and travelling at 30 km/h, reaches his office 10 minutes late, and travelling at 24 km/h, reaches his office 18 minutes late. The distance from his house to his office is:",
+    "questionHindi": "एक आदमी अपने घर से 30 किमी/घंटा की गति से चलकर 10 मिनट देर से पहुँचता है और 24 किमी/घंटा की गति से चलकर 18 मिनट देर से पहुँचता है। उसके घर से कार्यालय की दूरी क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12",
+      "20",
+      "18",
+      "16"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "16",
+    "explanation": "Difference in journey times = 8 min = 2/15 hr. Let distance = d. Then d/24 − d/30 = 2/15. Solving gives d = 16 km. (Verify with sheet answer key if needed.)"
   },
   {
     "id": "maths_time_speed_distance_024",
-    "question": "Time Speed Distance — Question 24 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "If a train runs at 60 km/h, it reaches its destination 15 minutes late. But if it runs at 80 km/h, it is late by only 7 minutes. The right time for the train to cover the journey is:",
+    "questionHindi": "यदि कोई ट्रेन 60 किमी/घंटा की गति से चलती है तो 15 मिनट देर से पहुँचती है, और 80 किमी/घंटा की गति से चलने पर केवल 7 मिनट देर से पहुँचती है। यात्रा का सही समय क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18 minutes",
+      "17 minutes",
+      "20 minutes",
+      "21 minutes"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "17 minutes",
+    "explanation": "Difference in travel times = 8 min = 2/15 hr. Let distance = d. Then d/60 − d/80 = 2/15. Solving gives d = 640 km. Scheduled time = 640/80 − 7 min = 8 hr − 7 min = 7 hr 53 min."
   },
   {
     "id": "maths_time_speed_distance_025",
-    "question": "Time Speed Distance — Question 25 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "If a person travels in a car at a speed of 84 km/h, he reaches office one hour late. If he travels at a speed of 108 km/h, he reaches 20 minutes early. Find the speed at which he must travel to reach office on time.",
+    "questionHindi": "यदि एक व्यक्ति 84 किमी/घंटा की गति से कार्यालय जाता है तो 1 घंटा देर से पहुँचता है। यदि वह 108 किमी/घंटा की गति से जाता है तो 20 मिनट पहले पहुँचता है। समय पर पहुँचने के लिए उसे कितनी गति से यात्रा करनी चाहिए?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "94.60 km/h",
+      "108.40 km/h",
+      "100.80 km/h",
+      "102.80 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "100.80 km/h",
+    "explanation": "Difference in travel times = 80 min = 4/3 hr. Let distance = d. Then d/84 − d/108 = 4/3. Solving gives d = 504 km. Required time = 504/108 + 1/3 = 5 hr. Required speed = 504/5 = 100.8 km/h."
   },
   {
     "id": "maths_time_speed_distance_026",
