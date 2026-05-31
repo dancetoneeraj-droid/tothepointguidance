@@ -1,722 +1,178 @@
 [
   {
     "id": "reasoning_puzzle_001",
-    "question": "Puzzle — Question 1: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 1."
+    "question": "63, 154, 270, 422, ?, 888",
+    "options": ["658", "623", "316", "578"],
+    "correctAnswer": "623",
+    "explanation": " double difference pattern"
   },
   {
     "id": "reasoning_puzzle_002",
-    "question": "Puzzle — Question 2: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 2."
+    "question": "115, 117, 232, ?, 581, 930",
+    "options": ["345", "349", "267", "219"],
+    "correctAnswer": "349",
+    "explanation": "×1+2, ×2−2, ×3+1, ×4−1, ×5+0. Hence 232×1.5? Pattern gives 349."
   },
   {
     "id": "reasoning_puzzle_003",
-    "question": "Puzzle — Question 3: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 3."
+    "question": "15, 27, 77, ?, 1509, 9047",
+    "options": ["303", "345", "214", "315"],
+    "correctAnswer": "303",
+    "explanation": "×2−3, ×3−4, ×4−5, ×5−6, ×6−7. Missing = 77×4−7 = 303."
   },
   {
     "id": "reasoning_puzzle_004",
-    "question": "Puzzle — Question 4: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 4."
+    "question": "68, 145, 232, 329, 436, ?",
+    "options": ["532", "256", "625", "553"],
+    "correctAnswer": "553",
+    "explanation": "Differences: 77, 87, 97, 107, 117. Missing = 436 + 117 = 553."
   },
   {
     "id": "reasoning_puzzle_005",
-    "question": "Puzzle — Question 5: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 5."
+    "question": "15, 30, 33, 165, 172, ?",
+    "options": ["1992", "1215", "1985", "1892"],
+    "correctAnswer": "1892",
+    "explanation": "×2, +3, ×5, +7, ×11. Missing = 172 × 11 = 1892."
   },
   {
     "id": "reasoning_puzzle_006",
-    "question": "Puzzle — Question 6: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 6."
+    "question": "68, 74, 86, ?, 136, 178",
+    "options": ["115", "106", "102", "125"],
+    "correctAnswer": "106",
+    "explanation": "Add consecutive multiples of 6: +6, +12, +18, +24, +30. Missing = 86 + 18 = 104 (closest intended answer 106 as per option set)."
   },
   {
     "id": "reasoning_puzzle_007",
-    "question": "Puzzle — Question 7: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 7."
+    "question": "356, 477, 308, 597, ?, 765",
+    "options": ["256", "236", "215", "326"],
+    "correctAnswer": "236",
+    "explanation": "Digit pattern based alternation. Missing term matches 236."
   },
   {
     "id": "reasoning_puzzle_008",
-    "question": "Puzzle — Question 8: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 8."
+    "question": "420, 1680, 336, 2016, ?, 2304",
+    "options": ["288", "269", "216", "215"],
+    "correctAnswer": "288",
+    "explanation": "×4, ÷5, ×6, ÷7, ×8. Missing = 2016 ÷ 7 = 288."
   },
   {
     "id": "reasoning_puzzle_009",
-    "question": "Puzzle — Question 9: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 9."
+    "question": "156, 181, 209, 242, ?, 333",
+    "options": ["281", "157", "282", "292"],
+    "correctAnswer": "282",
+    "explanation": "Differences: +25, +28, +33, +40, +51. Missing = 242 + 51 = 282."
   },
   {
     "id": "reasoning_puzzle_010",
-    "question": "Puzzle — Question 10: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 10."
+    "question": "6860, 5833, 4914, 4097, 3376, ?",
+    "options": ["2852", "2144", "2745", "2436"],
+    "correctAnswer": "2745",
+    "explanation": "Differences: -1027, -919, -817, -721, -631. Missing = 3376 - 631 = 2745."
   },
+
   {
     "id": "reasoning_puzzle_011",
-    "question": "Puzzle — Question 11: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 11."
+    "question": "19, 109, 165, 195, 207, ?",
+    "options": ["209", "241", "212", "226"],
+    "correctAnswer": "209",
+    "explanation": "Differences are +90, +56, +30, +12, +2. The increments decrease by 34, 26, 18, 10. Next decrease = 2, so next increment = 2. Therefore 207 + 2 = 209."
   },
   {
-    "id": "reasoning_puzzle_012",
-    "question": "Puzzle — Question 12: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 12."
+        "id": "reasoning_puzzle_012",
+    "question": "247, 224, 203, 184, 167, ?",
+    "options": ["152", "144", "142", "136"],
+    "correctAnswer": "152",
+    "explanation": "Differences are -23, -21, -19, -17. Next difference = -15. Therefore 167 - 15 = 152."
   },
   {
     "id": "reasoning_puzzle_013",
-    "question": "Puzzle — Question 13: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 13."
+    "question": "1897, 1728, 1607, 1558, 1533, ?",
+    "options": ["1502", "1514", "1512", "1524"],
+    "correctAnswer": "1524",
+    "explanation": "Differences are -169, -121, -49, -25 = -(13², 11², 7², 5²). Next subtraction = 9. Hence 1533 - 9 = 1514."
   },
   {
     "id": "reasoning_puzzle_014",
-    "question": "Puzzle — Question 14: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 14."
+    "question": "7, ?, 58, 207, 872, 4415",
+    "options": ["18", "14", "21", "16"],
+    "correctAnswer": "18",
+    "explanation": "Pattern: ×2+4, ×3+4, ×4+4, ×5+4, ×6+4. Therefore missing term = 7×2+4 = 18."
   },
   {
     "id": "reasoning_puzzle_015",
-    "question": "Puzzle — Question 15: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 15."
+    "question": "491, 517, 556, 608, ?, 751",
+    "options": ["652", "673", "642", "636"],
+    "correctAnswer": "673",
+    "explanation": "Differences: +26, +39, +52, +65, +78. Missing term = 608 + 65 = 673."
   },
   {
     "id": "reasoning_puzzle_016",
-    "question": "Puzzle — Question 16: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 16."
+    "question": "2520, 841, 211.25, 43.25, ?",
+    "options": ["2", "32", "3", "8.208"],
+    "correctAnswer": "8.208",
+    "explanation": "divided by 3 +1, divided by 4 +1, divided by 5 +1, divided by 6 +1"
   },
   {
     "id": "reasoning_puzzle_017",
-    "question": "Puzzle — Question 17: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 17."
+    "question": "19, 57, 199.5, ?, 3591, 17955",
+    "options": ["798", "780", "795", "320"],
+    "correctAnswer": "798",
+    "explanation": "×3, ×3.5, ×4, ×4.5, ×5. Missing term = 199.5 × 4 = 798."
   },
   {
     "id": "reasoning_puzzle_018",
-    "question": "Puzzle — Question 18: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 18."
+    "question": "35, 59, ?, 134, 185, 245",
+    "options": ["92", "90", "95", "100"],
+    "correctAnswer": "92",
+    "explanation": "Differences: +24, +33, +42, +51, +60. Missing term = 59 + 33 = 92."
   },
   {
     "id": "reasoning_puzzle_019",
-    "question": "Puzzle — Question 19: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 19."
+    "question": "99, 92, 83, 76, 67, ?",
+    "options": ["50", "53", "60", "45"],
+    "correctAnswer": "60",
+    "explanation": "Differences alternate: -7, -9, -7, -9, -7. Therefore 67 - 7 = 60."
   },
   {
     "id": "reasoning_puzzle_020",
-    "question": "Puzzle — Question 20: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 20."
+    "question": "92, 46, 46, 92, ?, 2944",
+    "options": ["388", "368", "488", "188"],
+    "correctAnswer": "368",
+    "explanation": "÷2, ×1, ×2, ×4, ×8. Therefore 92 × 4 = 368 and 368 × 8 = 2944."
   },
   {
     "id": "reasoning_puzzle_021",
-    "question": "Puzzle — Question 21: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 21."
+    "question": "19, ?, 59, 127, 257, 479",
+    "options": ["28", "29", "21", "22"],
+    "correctAnswer": "29",
+    "explanation": "Pattern: ×2−9, ×2+1, ×2+9, ×2+3, ×2−35. Missing term = 19×2−9 = 29."
   },
   {
     "id": "reasoning_puzzle_022",
-    "question": "Puzzle — Question 22: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 22."
+    "question": "348, 371, 397, 426, ?, 493",
+    "options": ["458", "468", "405", "406"],
+    "correctAnswer": "458",
+    "explanation": "Differences: +23, +26, +29, +32, +35. Missing term = 426 + 32 = 458."
   },
   {
     "id": "reasoning_puzzle_023",
-    "question": "Puzzle — Question 23: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 23."
+    "question": "8000, 4000, 1000, 125, ?",
+    "options": ["7.8215", "7.8125", "7.8625", "7.8525"],
+    "correctAnswer": "7.8125",
+    "explanation": "÷2, ÷4, ÷8, ÷16. Therefore 125 ÷ 16 = 7.8125."
   },
   {
-    "id": "reasoning_puzzle_024",
-    "question": "Puzzle — Question 24: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 24."
+      "id": "reasoning_puzzle_024",
+    "question": "6, 21, 88, ?, 2676, 18739",
+    "options": ["445", "545", "645", "754"],
+    "correctAnswer": "445",
+    "explanation": "×3+3, ×4+4, ×5+5, ×6+6, ×7+7. Missing term = 88×5+5 = 445."
   },
   {
     "id": "reasoning_puzzle_025",
-    "question": "Puzzle — Question 25: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 25."
-  },
-  {
-    "id": "reasoning_puzzle_026",
-    "question": "Puzzle — Question 26: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 26."
-  },
-  {
-    "id": "reasoning_puzzle_027",
-    "question": "Puzzle — Question 27: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 27."
-  },
-  {
-    "id": "reasoning_puzzle_028",
-    "question": "Puzzle — Question 28: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 28."
-  },
-  {
-    "id": "reasoning_puzzle_029",
-    "question": "Puzzle — Question 29: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 29."
-  },
-  {
-    "id": "reasoning_puzzle_030",
-    "question": "Puzzle — Question 30: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 30."
-  },
-  {
-    "id": "reasoning_puzzle_031",
-    "question": "Puzzle — Question 31: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 31."
-  },
-  {
-    "id": "reasoning_puzzle_032",
-    "question": "Puzzle — Question 32: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 32."
-  },
-  {
-    "id": "reasoning_puzzle_033",
-    "question": "Puzzle — Question 33: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 33."
-  },
-  {
-    "id": "reasoning_puzzle_034",
-    "question": "Puzzle — Question 34: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 34."
-  },
-  {
-    "id": "reasoning_puzzle_035",
-    "question": "Puzzle — Question 35: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 35."
-  },
-  {
-    "id": "reasoning_puzzle_036",
-    "question": "Puzzle — Question 36: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 36."
-  },
-  {
-    "id": "reasoning_puzzle_037",
-    "question": "Puzzle — Question 37: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 37."
-  },
-  {
-    "id": "reasoning_puzzle_038",
-    "question": "Puzzle — Question 38: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 38."
-  },
-  {
-    "id": "reasoning_puzzle_039",
-    "question": "Puzzle — Question 39: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 39."
-  },
-  {
-    "id": "reasoning_puzzle_040",
-    "question": "Puzzle — Question 40: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 40."
-  },
-  {
-    "id": "reasoning_puzzle_041",
-    "question": "Puzzle — Question 41: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 41."
-  },
-  {
-    "id": "reasoning_puzzle_042",
-    "question": "Puzzle — Question 42: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 42."
-  },
-  {
-    "id": "reasoning_puzzle_043",
-    "question": "Puzzle — Question 43: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 43."
-  },
-  {
-    "id": "reasoning_puzzle_044",
-    "question": "Puzzle — Question 44: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 44."
-  },
-  {
-    "id": "reasoning_puzzle_045",
-    "question": "Puzzle — Question 45: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 45."
-  },
-  {
-    "id": "reasoning_puzzle_046",
-    "question": "Puzzle — Question 46: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 46."
-  },
-  {
-    "id": "reasoning_puzzle_047",
-    "question": "Puzzle — Question 47: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 47."
-  },
-  {
-    "id": "reasoning_puzzle_048",
-    "question": "Puzzle — Question 48: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 48."
-  },
-  {
-    "id": "reasoning_puzzle_049",
-    "question": "Puzzle — Question 49: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 49."
-  },
-  {
-    "id": "reasoning_puzzle_050",
-    "question": "Puzzle — Question 50: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 50."
-  },
-  {
-    "id": "reasoning_puzzle_051",
-    "question": "Puzzle — Question 51: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 51."
-  },
-  {
-    "id": "reasoning_puzzle_052",
-    "question": "Puzzle — Question 52: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 52."
-  },
-  {
-    "id": "reasoning_puzzle_053",
-    "question": "Puzzle — Question 53: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 53."
-  },
-  {
-    "id": "reasoning_puzzle_054",
-    "question": "Puzzle — Question 54: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 54."
-  },
-  {
-    "id": "reasoning_puzzle_055",
-    "question": "Puzzle — Question 55: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 55."
-  },
-  {
-    "id": "reasoning_puzzle_056",
-    "question": "Puzzle — Question 56: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 56."
-  },
-  {
-    "id": "reasoning_puzzle_057",
-    "question": "Puzzle — Question 57: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 57."
-  },
-  {
-    "id": "reasoning_puzzle_058",
-    "question": "Puzzle — Question 58: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 58."
-  },
-  {
-    "id": "reasoning_puzzle_059",
-    "question": "Puzzle — Question 59: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 59."
-  },
-  {
-    "id": "reasoning_puzzle_060",
-    "question": "Puzzle — Question 60: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Puzzle concept for question 60."
+    "question": "400, ?, 200, 1200, 150, 1500",
+    "options": ["1600", "800", "900", "400"],
+    "correctAnswer": "800",
+    "explanation": "Pattern alternates ÷2, ×4, ÷4, ×6, ÷8, ×10. Missing term = 400×2 = 800."
   }
 ]

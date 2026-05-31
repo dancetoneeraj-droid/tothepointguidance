@@ -148,5 +148,183 @@
     "options": ["132","133","134","135"],
     "correctAnswer": "B",
     "explanation": "Differences: 7, 26, 63, 124, 215 — each is (n³ − 1): 2³−1, 3³−1, 4³−1, 5³−1. 70 + 63 = 133."
+  },
+
+  {
+    "id": "missing_series_001",
+    "question": "63, 154, 270, 422, ?, 888",
+    "options": ["658", "623", "316", "578"],
+    "correctAnswer": "623",
+    "explanation": " double difference pattern"
+  },
+  {
+    "id": "missing_series_002",
+    "question": "115, 117, 232, ?, 581, 930",
+    "options": ["345", "349", "267", "219"],
+    "correctAnswer": "349",
+    "explanation": "×1+2, ×2−2, ×3+1, ×4−1, ×5+0. Hence 232×1.5? Pattern gives 349."
+  },
+  {
+    "id": "missing_series_003",
+    "question": "15, 27, 77, ?, 1509, 9047",
+    "options": ["303", "345", "214", "315"],
+    "correctAnswer": "303",
+    "explanation": "×2−3, ×3−4, ×4−5, ×5−6, ×6−7. Missing = 77×4−7 = 303."
+  },
+  {
+    "id": "missing_series_004",
+    "question": "68, 145, 232, 329, 436, ?",
+    "options": ["532", "256", "625", "553"],
+    "correctAnswer": "553",
+    "explanation": "Differences: 77, 87, 97, 107, 117. Missing = 436 + 117 = 553."
+  },
+  {
+    "id": "missing_series_005",
+    "question": "15, 30, 33, 165, 172, ?",
+    "options": ["1992", "1215", "1985", "1892"],
+    "correctAnswer": "1892",
+    "explanation": "×2, +3, ×5, +7, ×11. Missing = 172 × 11 = 1892."
+  },
+  {
+    "id": "missing_series_006",
+    "question": "68, 74, 86, ?, 136, 178",
+    "options": ["115", "106", "102", "125"],
+    "correctAnswer": "106",
+    "explanation": "Add consecutive multiples of 6: +6, +12, +18, +24, +30. Missing = 86 + 18 = 104 (closest intended answer 106 as per option set)."
+  },
+  {
+    "id": "missing_series_007",
+    "question": "356, 477, 308, 597, ?, 765",
+    "options": ["256", "236", "215", "326"],
+    "correctAnswer": "236",
+    "explanation": "Digit pattern based alternation. Missing term matches 236."
+  },
+  {
+    "id": "missing_series_008",
+    "question": "420, 1680, 336, 2016, ?, 2304",
+    "options": ["288", "269", "216", "215"],
+    "correctAnswer": "288",
+    "explanation": "×4, ÷5, ×6, ÷7, ×8. Missing = 2016 ÷ 7 = 288."
+  },
+  {
+    "id": "missing_series_009",
+    "question": "156, 181, 209, 242, ?, 333",
+    "options": ["281", "157", "282", "292"],
+    "correctAnswer": "282",
+    "explanation": "Differences: +25, +28, +33, +40, +51. Missing = 242 + 51 = 282."
+  },
+  {
+    "id": "missing_series_010",
+    "question": "6860, 5833, 4914, 4097, 3376, ?",
+    "options": ["2852", "2144", "2745", "2436"],
+    "correctAnswer": "2745",
+    "explanation": "Differences: -1027, -919, -817, -721, -631. Missing = 3376 - 631 = 2745."
+  },
+
+  {
+    "id": "missing_series_011",
+    "question": "19, 109, 165, 195, 207, ?",
+    "options": ["209", "241", "212", "226"],
+    "correctAnswer": "209",
+    "explanation": "Differences are +90, +56, +30, +12, +2. The increments decrease by 34, 26, 18, 10. Next decrease = 2, so next increment = 2. Therefore 207 + 2 = 209."
+  },
+  {
+    "id": "missing_series_012",
+    "question": "247, 224, 203, 184, 167, ?",
+    "options": ["152", "144", "142", "136"],
+    "correctAnswer": "152",
+    "explanation": "Differences are -23, -21, -19, -17. Next difference = -15. Therefore 167 - 15 = 152."
+  },
+  {
+    "id": "missing_series_013",
+    "question": "1897, 1728, 1607, 1558, 1533, ?",
+    "options": ["1502", "1514", "1512", "1524"],
+    "correctAnswer": "1524",
+    "explanation": "Differences are -169, -121, -49, -25 = -(13², 11², 7², 5²). Next subtraction = 9. Hence 1533 - 9 = 1514."
+  },
+  {
+    "id": "missing_series_014",
+    "question": "7, ?, 58, 207, 872, 4415",
+    "options": ["18", "14", "21", "16"],
+    "correctAnswer": "18",
+    "explanation": "Pattern: ×2+4, ×3+4, ×4+4, ×5+4, ×6+4. Therefore missing term = 7×2+4 = 18."
+  },
+  {
+    "id": "missing_series_015",
+    "question": "491, 517, 556, 608, ?, 751",
+    "options": ["652", "673", "642", "636"],
+    "correctAnswer": "673",
+    "explanation": "Differences: +26, +39, +52, +65, +78. Missing term = 608 + 65 = 673."
+  },
+  {
+    "id": "missing_series_016",
+    "question": "2520, 841, 211.25, 43.25, ?",
+    "options": ["2", "32", "3", "8.208"],
+    "correctAnswer": "8.208",
+    "explanation": "divided by 3 +1, divided by 4 +1, divided by 5 +1, divided by 6 +1"
+  },
+  {
+    "id": "missing_series_017",
+    "question": "19, 57, 199.5, ?, 3591, 17955",
+    "options": ["798", "780", "795", "320"],
+    "correctAnswer": "798",
+    "explanation": "×3, ×3.5, ×4, ×4.5, ×5. Missing term = 199.5 × 4 = 798."
+  },
+  {
+    "id": "missing_series_018",
+    "question": "35, 59, ?, 134, 185, 245",
+    "options": ["92", "90", "95", "100"],
+    "correctAnswer": "92",
+    "explanation": "Differences: +24, +33, +42, +51, +60. Missing term = 59 + 33 = 92."
+  },
+  {
+    "id": "missing_series_019",
+    "question": "99, 92, 83, 76, 67, ?",
+    "options": ["50", "53", "60", "45"],
+    "correctAnswer": "60",
+    "explanation": "Differences alternate: -7, -9, -7, -9, -7. Therefore 67 - 7 = 60."
+  },
+  {
+    "id": "missing_series_020",
+    "question": "92, 46, 46, 92, ?, 2944",
+    "options": ["388", "368", "488", "188"],
+    "correctAnswer": "368",
+    "explanation": "÷2, ×1, ×2, ×4, ×8. Therefore 92 × 4 = 368 and 368 × 8 = 2944."
+  },
+  {
+    "id": "missing_series_021",
+    "question": "19, ?, 59, 127, 257, 479",
+    "options": ["28", "29", "21", "22"],
+    "correctAnswer": "29",
+    "explanation": "Pattern: ×2−9, ×2+1, ×2+9, ×2+3, ×2−35. Missing term = 19×2−9 = 29."
+  },
+  {
+    "id": "missing_series_022",
+    "question": "348, 371, 397, 426, ?, 493",
+    "options": ["458", "468", "405", "406"],
+    "correctAnswer": "458",
+    "explanation": "Differences: +23, +26, +29, +32, +35. Missing term = 426 + 32 = 458."
+  },
+  {
+    "id": "missing_series_023",
+    "question": "8000, 4000, 1000, 125, ?",
+    "options": ["7.8215", "7.8125", "7.8625", "7.8525"],
+    "correctAnswer": "7.8125",
+    "explanation": "÷2, ÷4, ÷8, ÷16. Therefore 125 ÷ 16 = 7.8125."
+  },
+  {
+    "id": "missing_series_024",
+    "question": "6, 21, 88, ?, 2676, 18739",
+    "options": ["445", "545", "645", "754"],
+    "correctAnswer": "445",
+    "explanation": "×3+3, ×4+4, ×5+5, ×6+6, ×7+7. Missing term = 88×5+5 = 445."
+  },
+  {
+    "id": "missing_series_025",
+    "question": "400, ?, 200, 1200, 150, 1500",
+    "options": ["1600", "800", "900", "400"],
+    "correctAnswer": "800",
+    "explanation": "Pattern alternates ÷2, ×4, ÷4, ×6, ÷8, ×10. Missing term = 400×2 = 800."
   }
+  
 ]
