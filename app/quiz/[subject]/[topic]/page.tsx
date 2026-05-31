@@ -107,8 +107,8 @@ export default function QuizPage({
       questionCount = cfg.questions;
       durationMinutes = cfg.duration;
     } else if (subject === "gk") {
-      questionCount = 20;
-      durationMinutes = 25;
+      questionCount = 25;
+      durationMinutes = 20;
     }
 
     const slice = resolveQuizSlice(bank, storedIndex, questionCount);
