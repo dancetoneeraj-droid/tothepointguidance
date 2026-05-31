@@ -1,304 +1,186 @@
 [
-  {
-    "id": "gk_revision_001",
-    "question": "Revision — Question 1: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+
+    {
+    "id":"gk_revision_001",
+    "question":"With reference to the Regulating Act, 1773, consider the following statements:\n1. It created the office of Governor-General of Bengal.\n2. It established a Supreme Court at Calcutta.\n3. It introduced a system of open competition for civil services.\nWhich of the statements given above are correct?",
+    "options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],
+    "correctAnswer":"1 and 2 only",
+    "explanation":"Open competition for civil services came much later under the Charter Act of 1853."
+    },
+    {
+    "id":"gk_revision_002",
+    "question":"Which of the following were features of Pitt's India Act, 1784?\n1. Creation of Board of Control\n2. Establishment of Supreme Court at Calcutta\n3. Introduction of Dual Government\nSelect the correct answer.",
+    "options":["1 and 3 only","1 only","2 and 3 only","1, 2 and 3"],
+    "correctAnswer":"1 and 3 only",
+    "explanation":"The Supreme Court was established under the Regulating Act, 1773."
+    },
+    {
+    "id":"gk_revision_003",
+    "question":"Consider the following events:\n1. Charter Act, 1833\n2. Charter Act, 1813\n3. Charter Act, 1853\n4. Charter Act, 1793\nArrange them in chronological order.",
+    "options":["4-2-1-3","2-4-1-3","4-1-2-3","2-1-4-3"],
+    "correctAnswer":"4-2-1-3",
+    "explanation":"1793 → 1813 → 1833 → 1853."
+    },
+    {
+    "id":"gk_revision_004",
+    "question":"The Charter Act of 1833 is significant because it:\n1. Ended the East India Company's commercial activities.\n2. Made the Governor-General of Bengal the Governor-General of India.\n3. Introduced open competition for civil services.\nWhich statements are correct?",
+    "options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],
+    "correctAnswer":"1 and 2 only",
+    "explanation":"Open competition was introduced by the Charter Act of 1853."
+    },
+    {
+    "id":"gk_revision_005",
+    "question":"Which one of the following provisions was introduced by the Charter Act of 1853?",
+    "options":["Provincial Autonomy","Open Competition for Civil Services","Separate Electorates","Dyarchy"],
+    "correctAnswer":"Open Competition for Civil Services",
+    "explanation":"The Charter Act of 1853 introduced recruitment through competitive examinations."
+    },
+    {
+    "id":"gk_revision_006",
+    "question":"With reference to the Government of India Act, 1858, consider the following statements:\n1. It ended the rule of the East India Company.\n2. It created the office of Secretary of State for India.\n3. It introduced Provincial Autonomy.\nWhich of the statements are correct?",
+    "options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],
+    "correctAnswer":"1 and 2 only",
+    "explanation":"Provincial Autonomy came under the Government of India Act, 1935."
+    },
+    {
+    "id":"gk_revision_007",
+    "question":"Who among the following became the first Viceroy of India?",
+    "options":["Lord Canning","Lord Curzon","Lord Ripon","Warren Hastings"],
+    "correctAnswer":"Lord Canning",
+    "explanation":"After the Government of India Act, 1858, Lord Canning became the first Viceroy."
+    },
+    {
+    "id":"gk_revision_008",
+    "question":"The Portfolio System in India was introduced under:",
+    "options":["Indian Councils Act, 1861","Government of India Act, 1858","Indian Councils Act, 1892","Government of India Act, 1919"],
+    "correctAnswer":"Indian Councils Act, 1861",
+    "explanation":"It assigned specific departments to members of the Executive Council."
+    },
+    {
+    "id":"gk_revision_009",
+    "question":"Consider the following statements regarding the Indian Councils Act, 1892:\n1. It increased the number of legislative members.\n2. It allowed discussion of the budget.\n3. It introduced direct elections.\nWhich statements are correct?",
+    "options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],
+    "correctAnswer":"1 and 2 only",
+    "explanation":"It introduced indirect representation, not direct elections."
+    },
+    {
+    "id":"gk_revision_010",
+    "question":"Separate electorates were introduced for Muslims under:",
+    "options":["Indian Councils Act, 1892","Morley-Minto Reforms, 1909","Government of India Act, 1919","Government of India Act, 1935"],
+    "correctAnswer":"Morley-Minto Reforms, 1909",
+    "explanation":"A landmark feature of the 1909 reforms."
+    },
+    {
+    "id":"gk_revision_011",
+    "question":"Which of the following were features of the Government of India Act, 1919?\n1. Dyarchy in Provinces\n2. Direct Elections\n3. Bicameral Legislature at the Centre\nSelect the correct answer.",
+    "options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],
+    "correctAnswer":"1, 2 and 3",
+    "explanation":"All three were introduced under the Montagu-Chelmsford Reforms."
+    },
+    {
+      "id":"gk_revision_012",
+    "question":"Dyarchy introduced by the Government of India Act, 1919 divided provincial subjects into:",
+    "options":["Federal and Provincial","Transferred and Reserved","Union and State","Legislative and Executive"],
+    "correctAnswer":"Transferred and Reserved",
+    "explanation":"This was the essence of Dyarchy."
+    },
+    {
+    "id":"gk_revision_013",
+    "question":"Which of the following were introduced by the Government of India Act, 1935?\n1. Provincial Autonomy\n2. Federal Court\n3. RBI\nSelect the correct answer.",
+    "options":["1 and 2 only","2 and 3 only","1 and 3 only","1, 2 and 3"],
+    "correctAnswer":"1, 2 and 3",
+    "explanation":"All were outcomes of the 1935 constitutional framework."
+    },
+    {
+    "id":"gk_revision_014",
+    "question":"The Federal Court of India was established in:",
+    "options":["1935","1937","1940","1947"],
+    "correctAnswer":"1937",
+    "explanation":"It was created under the Government of India Act, 1935 and started functioning in 1937."
+    },
+    {
+    "id":"gk_revision_015",
+    "question":"Who first proposed the idea of a Constituent Assembly for India?",
+    "options":["Jawaharlal Nehru","M.N. Roy","B.R. Ambedkar","Rajendra Prasad"],
+    "correctAnswer":"M.N. Roy",
+    "explanation":"M.N. Roy proposed the idea in 1934."
+    },
+    {
+    "id":"gk_revision_016",
+    "question":"The Constituent Assembly was constituted under the recommendations of:",
+    "options":["Cabinet Mission Plan","Cripps Mission","August Offer","Simon Commission"],
+    "correctAnswer":"Cabinet Mission Plan",
+    "explanation":"The Cabinet Mission Plan of 1946 provided for the Constituent Assembly."
+    },
+    {
+    "id":"gk_revision_017",
+    "question":"Who moved the Objective Resolution in the Constituent Assembly?",
+    "options":["B.R. Ambedkar","Jawaharlal Nehru","Rajendra Prasad","Sardar Patel"],
+    "correctAnswer":"Jawaharlal Nehru",
+    "explanation":"The Objective Resolution later became the basis of the Preamble."
+    },
+    {
+    "id":"gk_revision_018",
+    "question":"The Constitutional Adviser to the Constituent Assembly was:",
+    "options":["B.N. Rau","K.M. Munshi","Alladi Krishnaswami Ayyar","T.T. Krishnamachari"],
+    "correctAnswer":"B.N. Rau",
+    "explanation":"He prepared the initial draft framework."
+    },
+    {
+    "id":"gk_revision_019",
+    "question":"Who was the Chairman of the Drafting Committee?",
+    "options":["Rajendra Prasad","Jawaharlal Nehru","B.R. Ambedkar","Sardar Patel"],
+    "correctAnswer":"B.R. Ambedkar",
+    "explanation":"Ambedkar chaired the Drafting Committee."
+    },
+    {
+    "id":"gk_revision_020",
+    "question":"After partition, the strength of the Constituent Assembly was reduced from 389 to:",
+    "options":["299","296","308","292"],
+    "correctAnswer":"299",
+    "explanation":"The membership declined due to partition."
+    },
+    {
+    "id":"gk_revision_021",
+    "question":"Which committee of the Constituent Assembly was chaired by Sardar Patel?",
+    "options":["Drafting Committee","Union Constitution Committee","Provincial Constitution Committee","Steering Committee"],
+    "correctAnswer":"Provincial Constitution Committee",
+    "explanation":"Patel chaired several important committees including the Provincial Constitution Committee."
+    },
+    {
+    "id":"gk_revision_022",
+    "question":"The Constitution of India was adopted on:",
+    "options":["26 January 1950","15 August 1947","26 November 1949","24 January 1950"],
+    "correctAnswer":"26 November 1949",
+    "explanation":"It was adopted on 26 November 1949 and came into force on 26 January 1950."
+    },
+    {
+    "id":"gk_revision_023",
+    "question":"At the time of adoption, the Constitution contained:",
+    "options":["395 Articles and 8 Schedules","448 Articles and 12 Schedules","395 Articles and 12 Schedules","389 Articles and 8 Schedules"],
+    "correctAnswer":"395 Articles and 8 Schedules",
+    "explanation":"This was the original structure of the Constitution."
+    },
+    {
+      "id":"gk_revision_024",
+    "question":"Consider the following sequence:\n1. Morley-Minto Reforms\n2. Government of India Act, 1919\n3. Government of India Act, 1935\n4. Indian Independence Act\nArrange them chronologically.",
+    "options":["1-2-3-4","2-1-3-4","1-3-2-4","2-3-1-4"],
+    "correctAnswer":"1-2-3-4",
+    "explanation":"1909 → 1919 → 1935 → 1947."
+    },
+    {
+    "id":"gk_revision_025",
+    "question":"Which one of the following statements is correct regarding the Constituent Assembly?",
+    "options":[
+    "It was elected through universal adult franchise.",
+    "It was a fully nominated body.",
+    "It was partly elected and partly nominated.",
+    "It was directly elected by all Indian citizens."
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 1."
-  },
-  {
-    "id": "gk_revision_002",
-    "question": "Revision — Question 2: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 2."
-  },
-  {
-    "id": "gk_revision_003",
-    "question": "Revision — Question 3: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 3."
-  },
-  {
-    "id": "gk_revision_004",
-    "question": "Revision — Question 4: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 4."
-  },
-  {
-    "id": "gk_revision_005",
-    "question": "Revision — Question 5: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 5."
-  },
-  {
-    "id": "gk_revision_006",
-    "question": "Revision — Question 6: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 6."
-  },
-  {
-    "id": "gk_revision_007",
-    "question": "Revision — Question 7: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 7."
-  },
-  {
-    "id": "gk_revision_008",
-    "question": "Revision — Question 8: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 8."
-  },
-  {
-    "id": "gk_revision_009",
-    "question": "Revision — Question 9: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 9."
-  },
-  {
-    "id": "gk_revision_010",
-    "question": "Revision — Question 10: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 10."
-  },
-  {
-    "id": "gk_revision_011",
-    "question": "Revision — Question 11: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 11."
-  },
-  {
-    "id": "gk_revision_012",
-    "question": "Revision — Question 12: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 12."
-  },
-  {
-    "id": "gk_revision_013",
-    "question": "Revision — Question 13: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 13."
-  },
-  {
-    "id": "gk_revision_014",
-    "question": "Revision — Question 14: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 14."
-  },
-  {
-    "id": "gk_revision_015",
-    "question": "Revision — Question 15: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 15."
-  },
-  {
-    "id": "gk_revision_016",
-    "question": "Revision — Question 16: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 16."
-  },
-  {
-    "id": "gk_revision_017",
-    "question": "Revision — Question 17: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 17."
-  },
-  {
-    "id": "gk_revision_018",
-    "question": "Revision — Question 18: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 18."
-  },
-  {
-    "id": "gk_revision_019",
-    "question": "Revision — Question 19: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 19."
-  },
-  {
-    "id": "gk_revision_020",
-    "question": "Revision — Question 20: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 20."
-  },
-  {
-    "id": "gk_revision_021",
-    "question": "Revision — Question 21: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 21."
-  },
-  {
-    "id": "gk_revision_022",
-    "question": "Revision — Question 22: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 22."
-  },
-  {
-    "id": "gk_revision_023",
-    "question": "Revision — Question 23: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 23."
-  },
-  {
-    "id": "gk_revision_024",
-    "question": "Revision — Question 24: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 24."
-  },
-  {
-    "id": "gk_revision_025",
-    "question": "Revision — Question 25: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 25."
-  },
+    "correctAnswer":"It was partly elected and partly nominated.",
+    "explanation":"Provincial representatives were elected indirectly, while princely state representatives were nominated."
+    },
+   
   {
     "id": "gk_revision_026",
     "question": "Revision — Question 26: What is the correct answer?",
