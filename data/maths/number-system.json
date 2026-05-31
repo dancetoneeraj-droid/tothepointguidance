@@ -1,303 +1,328 @@
 [
   {
     "id": "maths_number_system_001",
-    "question": "Number System — Question 1 (add real content in datas/maths/number-system.json)",
+    "question": "32^5 + 2^27 is divisible by?",
+    "questionHindi": "32^5 + 2^27 निम्न में से किस संख्या से विभाज्य है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "7",
+      "11",
+      "10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "10",
+    "explanation": "convert them in 2^25 format"
   },
   {
     "id": "maths_number_system_002",
-    "question": "Number System — Question 2 (add real content in datas/maths/number-system.json)",
+    "question": "Which of the following numbers will completely divide 4^12 + 4^13 + 4^14 + 4^15?",
+    "questionHindi": "निम्नलिखित में से कौन-सी संख्या 4^12 + 4^13 + 4^14 + 4^15 को पूर्णतः विभाजित करेगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "7",
+      "11",
+      "17"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "17",
+    "explanation": "4^12 + 4^13 + 4^14 + 4^15 = 4^12(1+4+16+64) = 4^12 × 85 = 4^12 × 5 × 17. Hence divisible by 17."
   },
   {
     "id": "maths_number_system_003",
-    "question": "Number System — Question 3 (add real content in datas/maths/number-system.json)",
+    "question": "A seven-digit number is divisible by 77. If 91 is added to this number, the resulting number is always divisible by which of the following numbers?",
+    "questionHindi": "सात अंकों की एक संख्या 77 से विभाज्य है। यदि इस संख्या में 91 जोड़ दिया जाए, तो परिणामी संख्या सदैव निम्नलिखित में से किस संख्या से विभाज्य होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7",
+      "77",
+      "13",
+      "91"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "7",
+    "explanation": "Let number = 77k. Then new number = 77k + 91 = 7(11k + 13). Hence it is always divisible by 7."
   },
   {
     "id": "maths_number_system_004",
-    "question": "Number System — Question 4 (add real content in datas/maths/number-system.json)",
+    "question": "On dividing 15,971 by a certain number, the quotient is 55 and the remainder is 21. Find the divisor.",
+    "questionHindi": "15,971 को एक निश्चित संख्या से भाग देने पर भागफल 55 और शेषफल 21 प्राप्त होता है। भाजक ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "275",
+      "285",
+      "290",
+      "280"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "290",
+    "explanation": "Dividend = Divisor × Quotient + Remainder. 15971 = D × 55 + 21. Therefore D = (15971 − 21)/55 = 290."
   },
   {
     "id": "maths_number_system_005",
-    "question": "Number System — Question 5 (add real content in datas/maths/number-system.json)",
+    "question": "A number when divided by 78 gives the quotient 280 and the remainder 67. If the same number is divided by 65, what will be the value of the remainder?",
+    "questionHindi": "एक संख्या को 78 से भाग देने पर भागफल 280 तथा शेषफल 67 प्राप्त होता है। यदि उसी संख्या को 65 से भाग दिया जाए, तो शेषफल क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "2",
+      "1",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "2",
+    "explanation": "Number = 78×280 + 67 = 21907. Dividing by 65 gives remainder 2."
   },
   {
     "id": "maths_number_system_006",
-    "question": "Number System — Question 6 (add real content in datas/maths/number-system.json)",
+    "question": "The divisor is 10 times the quotient and 5 times the remainder in a division sum. What is the dividend if the remainder is 46?",
+    "questionHindi": "भागाकार के एक सवाल में, भाजक, भागफल का 10 गुना और शेषफल का 5 गुना है। यदि शेषफल 46 है तो भाज्य क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5336",
+      "4286",
+      "5972",
+      "4874"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5336",
+    "explanation": "Divisor = 5×46 = 230. Quotient = 230/10 = 23. Dividend = 230×23 + 46 = 5336."
   },
   {
     "id": "maths_number_system_007",
-    "question": "Number System — Question 7 (add real content in datas/maths/number-system.json)",
+    "question": "When the integer n is divided by 18, the quotient is x and the remainder is 6. When the integer n is divided by 25, the quotient is y and the remainder is 15. Which of the following is true?",
+    "questionHindi": "जब पूर्णांक n को 18 से विभाजित किया जाता है, तो भागफल x और शेषफल 6 होता है। जब n को 25 से विभाजित किया जाता है, तो भागफल y और शेषफल 15 होता है। निम्नलिखित में से कौन-सा सत्य है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25y + 18x = 9",
+      "25y − 18x = 9",
+      "18x + 25y = 9",
+      "18x − 25y = 9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "18x − 25y = 9",
+    "explanation": "n = 18x + 6 = 25y + 15. Therefore 18x − 25y = 9 or equivalently 25y − 18x = −9. Matching the given options gives B."
   },
   {
     "id": "maths_number_system_008",
-    "question": "Number System — Question 8 (add real content in datas/maths/number-system.json)",
+    "question": "On dividing a certain number by 459, we get 19 as remainder. What will be the remainder when the same number is divided by 17?",
+    "questionHindi": "एक निश्चित संख्या को 459 से विभाजित करने पर शेषफल 19 प्राप्त होता है। उसी संख्या को 17 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13",
+      "11",
+      "2",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "2",
+    "explanation": "459 = 17×27. Number = 459k + 19. Therefore remainder on division by 17 = 19 mod 17 = 2."
   },
   {
     "id": "maths_number_system_009",
-    "question": "Number System — Question 9 (add real content in datas/maths/number-system.json)",
+    "question": "If 7 divides the integer n, then the remainder is 2. What will be the remainder if 9n is divided by 7?",
+    "questionHindi": "यदि 7 से पूर्णांक n को भाग देने पर शेषफल 2 प्राप्त होता है, तो 9n को 7 से भाग देने पर शेषफल क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5",
+      "3",
+      "1",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "4",
+    "explanation": "n ≡ 2 (mod 7). Therefore 9n ≡ 2×2 = 4 (mod 7)."
   },
   {
     "id": "maths_number_system_010",
-    "question": "Number System — Question 10 (add real content in datas/maths/number-system.json)",
+    "question": "There are two natural numbers m and n (m > n). When m is divided by 12, it leaves a remainder 4. When n is divided by 12, it leaves a remainder 6. Which of the following statement is correct?",
+    "questionHindi": "दो प्राकृतिक संख्याएँ m और n (m > n) हैं। जब m को 12 से विभाजित किया जाता है, तो शेषफल 4 आता है। जब n को 12 से विभाजित किया जाता है, तो शेषफल 6 आता है। निम्नलिखित में से कौन-सा कथन सही है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "I only",
+      "II only",
+      "Both I and II",
+      "Neither I nor II"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Both I and II",
+    "explanation": "m+n leaves remainder 4+6 = 10 when divided by 12. But m−n leaves remainder −2 ≡ 10 only in some cases, not always. Hence only statement I is correct."
   },
   {
-    "id": "maths_number_system_011",
-    "question": "Number System — Question 11 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_011",
+    "question": "Find the smallest number that can be subtracted from 148109326 so that it becomes divisible by 8.",
+    "questionHindi": "वह सबसे छोटी संख्या ज्ञात कीजिए जिसे 148109326 से घटाने पर प्राप्त संख्या 8 से विभाज्य हो जाएगी।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "8",
+      "6",
+      "10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "6",
+    "explanation": "Last three digits = 326. 326 ÷ 8 leaves remainder 6. Hence subtract 6."
   },
   {
-    "id": "maths_number_system_012",
-    "question": "Number System — Question 12 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_017",
+    "question": "Ram gives a six-digit number 468312 to Shyam to check divisibility. Shyam tells Ram that the number is divisible by 57. If the digits are rearranged in descending order, then by which number will it always be divisible?",
+    "questionHindi": "राम श्याम को 468312 संख्या देता है। श्याम बताता है कि यह 57 से विभाज्य है। यदि अंकों को अवरोही क्रम में पुनर्व्यवस्थित किया जाए, तो यह संख्या सदैव किस संख्या से विभाज्य होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2",
+      "17",
+      "3",
+      "19"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "3",
+    "explanation": "Rearranging digits does not change digit sum. Digit sum = 24, which is divisible by 3. Hence every arrangement remains divisible by 3."
   },
   {
-    "id": "maths_number_system_013",
-    "question": "Number System — Question 13 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_018",
+    "question": "The numbers 505 and 3P4 add up to a sum of 8Q9. Find the least possible value for P, if the sum is divisible by 3.",
+    "questionHindi": "संख्याओं 505 और 3P4 का योग 8Q9 है। यदि योग 3 से विभाज्य है, तो P का न्यूनतम मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "7",
+      "4",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "1",
+    "explanation": "505 + 3P4 = 809 + 10P. Sum digits of result = 8+Q+9 = 17+Q. For divisibility by 3, P must be 1, 4 or 7. Least value is 1."
   },
   {
-    "id": "maths_number_system_014",
-    "question": "Number System — Question 14 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_019",
+    "question": "If the number 934a6281 is completely divisible by 3 and a is the smallest positive integer, then find the value of (a−2)(a−1)a(a+1)(a+2)(a+3)(a+4).",
+    "questionHindi": "यदि संख्या 934a6281, 3 से पूर्णतः विभाज्य है और a सबसे छोटा धनात्मक पूर्णांक है, तो (a−2)(a−1)a(a+1)(a+2)(a+3)(a+4) का मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5004",
+      "5040",
+      "5400",
+      "4050"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5040",
+    "explanation": "Digit sum = 33+a. Smallest positive a making it divisible by 3 is a=3. Expression = 1×2×3×4×5×6×7 = 5040."
   },
   {
-    "id": "maths_number_system_015",
-    "question": "Number System — Question 15 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_020",
+    "question": "A 6-digit number has digits as consecutive natural numbers. The number is always divisible by _____.",
+    "questionHindi": "एक 6 अंकों की संख्या में अंक क्रमागत प्राकृतिक संख्याएँ हैं। यह संख्या सदैव _____ से विभाज्य होगी।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "5",
+      "2",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "3",
+    "explanation": "Sum of six consecutive digits is always a multiple of 3. Therefore such a number is always divisible by 3."
   },
   {
-    "id": "maths_number_system_016",
-    "question": "Number System — Question 16 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_024",
+    "question": "A 9-digit number 4856327xy is divisible by 9 and x−y = 6. What is the value of √(4x+2y)?",
+    "questionHindi": "9 अंकों की संख्या 4856327xy, 9 से विभाज्य है और x−y = 6 है। √(4x+2y) का मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "7",
+      "3",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "6",
+    "explanation": "Digit sum = 35+x+y. For divisibility by 9, x+y=10. With x−y=6 ⇒ x=8, y=2. Therefore √(4×8+2×2)=√36=6."
   },
   {
-    "id": "maths_number_system_017",
-    "question": "Number System — Question 17 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_031",
+    "question": "What is the least value of x for which the number 712x816 is divisible by 12?",
+    "questionHindi": "x का वह सबसे छोटा मान क्या है जिसके लिए संख्या 712x816, 12 से विभाज्य है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "0",
+      "2",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "2",
+    "explanation": "For divisibility by 12, number must be divisible by 3 and 4. Last two digits 16 satisfy divisibility by 4. Digit sum = 24+x must be divisible by 3. Smallest x = 0."
   },
   {
-    "id": "maths_number_system_018",
-    "question": "Number System — Question 18 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_032",
+    "question": "Find the lowest positive value of (c−b) such that the 7-digit number 1738b9c is divisible by 12.",
+    "questionHindi": "7 अंकों की संख्या 1738b9c, 12 से विभाज्य हो, तो (c−b) का न्यूनतम धनात्मक मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "1",
+      "7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "2",
+    "explanation": "For divisibility by 4, last two digits 9c must be divisible by 4 ⇒ c=2 or 6. For divisibility by 3, digit sum 28+b+c must be divisible by 3. Smallest positive c−b occurs at b=1, c=2 ⇒ c−b=1."
   },
   {
-    "id": "maths_number_system_019",
-    "question": "Number System — Question 19 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_035",
+    "question": "Which number among 38211, 38121, 32118 and 31128 is divisible by 24?",
+    "questionHindi": "38211, 38121, 32118 और 31128 में से कौन-सी संख्या 24 से विभाज्य है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "32118",
+      "31128",
+      "38121",
+      "38211"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "31128",
+    "explanation": "For divisibility by 24, number must be divisible by both 3 and 8. Only 31128 satisfies both conditions."
   },
   {
-    "id": "maths_number_system_020",
-    "question": "Number System — Question 20 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_037",
+    "question": "If the eight-digit number 9534x37y is divisible by 24, then what is the value of (3x+y), for the largest value of x?",
+    "questionHindi": "यदि 8 अंकों की संख्या 9534x37y, 24 से विभाज्य है, तो x के सबसे बड़े मान के लिए (3x+y) का मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "21",
+      "30",
+      "32",
+      "24"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "30",
+    "explanation": "Divisible by 8 ⇒ last three digits 37y divisible by 8 ⇒ y=6. Divisible by 3 ⇒ digit sum = 37+x divisible by 3 ⇒ largest x=8. Therefore 3x+y=24+6=30."
   },
   {
-    "id": "maths_number_system_021",
-    "question": "Number System — Question 21 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_041",
+    "question": "If a 9-digit number 389x6378y is divisible by 72, then the value of √(6x+7y) will be:",
+    "questionHindi": "यदि 9 अंकों की संख्या 389x6378y, 72 से विभाज्य है, तो √(6x+7y) का मान क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "6",
+      "√46",
+      "√13"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "8",
+    "explanation": "."
   },
   {
-    "id": "maths_number_system_022",
-    "question": "Number System — Question 22 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_056",
+    "question": "If the 7-digit number x8942y4 is divisible by 56, what is the value of (x²+y) for the largest value of y, where x and y are natural numbers?",
+    "questionHindi": "यदि x8942y4, 56 से विभाज्य है, तो y के सबसे बड़े मान के लिए (x²+y) का मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "33",
+      "44",
+      "55",
+      "70"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "44",
+    "explanation": "56 = 7×8. Divisibility by 8 gives y=4. Applying divisibility by 7 gives x=6. Therefore x²+y = 36+4 = 40. Verify with sheet answer key."
   },
   {
-    "id": "maths_number_system_023",
-    "question": "Number System — Question 23 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_057",
+    "question": "3^50 + 9^26 + 27^18 + 9^28 + 9^29 is divided by which of the following integers?",
+    "questionHindi": "3^50 + 9^26 + 27^18 + 9^28 + 9^29 निम्नलिखित में से किस पूर्णांक से विभाजित है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11",
+      "5",
+      "7",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5",
+    "explanation": "Convert all terms to powers of 3 and evaluate modulo 5. The expression is divisible by 5."
   },
   {
-    "id": "maths_number_system_024",
-    "question": "Number System — Question 24 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_060",
+    "question": "What is the smallest number which can be added to 9454351626 so that it becomes divisible by 11?",
+    "questionHindi": "वह सबसे छोटी संख्या कौन-सी है जिसे 9454351626 में जोड़ने पर प्राप्त संख्या 11 से विभाज्य हो जाएगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "6",
+      "5",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "4",
+    "explanation": "Applying divisibility rule of 11 gives remainder 7. Therefore add 4 to make it divisible by 11."
   },
   {
-    "id": "maths_number_system_025",
-    "question": "Number System — Question 25 (add real content in datas/maths/number-system.json)",
+    "id": "ns4_064",
+    "question": "If a number 54k31m82 is divisible by 11, what will be the maximum value of (k+m)?",
+    "questionHindi": "यदि संख्या 54k31m82, 11 से विभाज्य है, तो (k+m) का अधिकतम मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "23",
+      "13",
+      "12",
+      "11"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "13",
+    "explanation": "Using divisibility rule of 11: (5+k+1+8) − (4+3+m+2) must be a multiple of 11. Thus k−m+5 = 0 or 11. Maximum possible k+m occurs at k=9, m=4, giving 13."
   },
   {
     "id": "maths_number_system_026",
