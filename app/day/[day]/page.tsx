@@ -224,6 +224,7 @@ export default function DayPage({
     if (!plan || !dayProgress) return [];
 
     const isDay1NounFlow = dayNum === 1 && plan.english.grammarQuiz === "noun";
+    const hasInlineGrammarQuiz = !!plan.english.grammarQuiz;
 
     return [
       ...plan.maths.map((mathTopic, index) => ({
@@ -289,9 +290,11 @@ export default function DayPage({
         label: "English Grammar",
         subtitle: isDay1NounFlow
           ? "NOUN basic PDF reading · 20-30 min read time"
-          : plan.english.grammarMindmap
-            ? "Grammar PDF + mind map revision"
-            : "Grammar PDF notes",
+          : hasInlineGrammarQuiz
+            ? "Grammar PDF + Quiz · 25 questions · 10 min"
+            : plan.english.grammarMindmap
+              ? "Grammar PDF + mind map revision"
+              : "Grammar PDF notes",
         kind: "reading",
         subject: "english",
         completed: dayProgress.english.grammar,
@@ -307,11 +310,13 @@ export default function DayPage({
                 },
               ]
             : []),
-          ...(isDay1NounFlow && plan.english.grammarQuiz
+          ...(hasInlineGrammarQuiz && plan.english.grammarQuiz
             ? [
                 {
                   id: `english-grammar-quiz-action-${plan.english.grammarQuiz}`,
-                  label: dayProgress.english.grammar ? "View Noun Quiz" : "Noun Quiz",
+                  label: dayProgress.english.grammar
+                    ? "View Grammar Quiz"
+                    : "Grammar Quiz",
                   onClick: () =>
                     router.push(`/quiz/english/${plan.english.grammarQuiz}?day=${dayNum}`),
                 },
@@ -411,30 +416,16 @@ export default function DayPage({
             : []),
         ],
       },
-      ...(!isDay1NounFlow && plan.english.grammarQuiz
+      ...(false // grammar quiz is now inline inside the grammar card
         ? [
             {
-              id: `english-quiz-${plan.english.grammarQuiz}`,
+              id: `english-quiz-placeholder`,
               label: "English Quiz",
-              subtitle:
-                plan.english.grammarQuiz === "noun"
-                  ? "Noun quiz · 25 questions · 10 min"
-                  : `${formatTopic(plan.english.grammarQuiz)} quiz`,
+              subtitle: "",
               kind: "quiz" as const,
               subject: "english" as const,
-              completed: dayProgress.english.grammar,
-              actions: [
-                {
-                  id: `english-quiz-action-${plan.english.grammarQuiz}`,
-                  label: dayProgress.english.grammar
-                    ? "View result"
-                    : "Start quiz",
-                  onClick: () =>
-                    router.push(
-                      `/quiz/english/${plan.english.grammarQuiz}?day=${dayNum}`
-                    ),
-                },
-              ],
+              completed: false,
+              actions: [],
             },
           ]
         : []),
