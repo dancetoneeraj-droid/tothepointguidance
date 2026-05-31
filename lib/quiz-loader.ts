@@ -25,6 +25,7 @@ import nsQuestionsRaw from "@/data/reasoning/ns.json";
 
 import gkRevisionQuestions from "@/data/gk/revision.json";
 import nounQuestionsRaw from "@/datas/maths/noun.json";
+import noun2Questions from "@/data/english/noun2.json";
 
 type RawLetterBasedQuestion = {
   question: string;
@@ -109,6 +110,7 @@ const ENGLISH_BANKS: Record<string, Question[]> = {
     nounQuestionsRaw as RawLetterBasedQuestion[],
     "english_noun"
   ),
+  noun2: noun2Questions as Question[],
 };
 
 export function getQuestionBank(
