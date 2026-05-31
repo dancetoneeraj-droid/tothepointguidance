@@ -41,8 +41,8 @@ export interface ParajumbleSection {
 
 export interface ComprehensionDay {
   rc: RcSection;
-  cloze: ClozeSection;
-  parajumble: ParajumbleSection;
+  cloze?: ClozeSection;
+  parajumble?: ParajumbleSection;
 }
 
 /** SSC-style marking. */
@@ -68,10 +68,10 @@ export interface FlatQuestion {
 export function getFlatQuestions(set: ComprehensionDay): FlatQuestion[] {
   const flat: FlatQuestion[] = [];
   set.rc.questions.forEach((q, i) => flat.push({ key: `rc-${i}`, answer: q.answer }));
-  set.cloze.questions.forEach((q, i) =>
+  set.cloze?.questions.forEach((q, i) =>
     flat.push({ key: `cloze-${i}`, answer: q.answer })
   );
-  set.parajumble.items.forEach((item, i) =>
+  set.parajumble?.items.forEach((item, i) =>
     flat.push({ key: `pj-${i}`, answer: item.answer })
   );
   return flat;

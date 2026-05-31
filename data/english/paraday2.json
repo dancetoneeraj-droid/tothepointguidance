@@ -1,0 +1,66 @@
+{
+  "1": {
+    "rc": {
+      "title": "Reading Comprehension",
+      "directions": "Read the following passage carefully and answer the questions that follow. Choose the most appropriate option.",
+      "passage": "The Indian state has not infrequently used the colonial offence of sedition, codified under Section 124A of the Indian Penal Code (IPC), as a tool to quell dissent. In May 2022, the Supreme Court of India asked State and central governments to refrain from registering new first information reports and from taking coercive measures under Section 124A in S.G. Vombatkere vs Union of India while the Centre said it would reconsider the provision. When the Bharatiya Nyaya Sanhita (BNS) took effect in 2024, Parliament effectively replaced Section 124A with Section 152 and increased the minimum sentence to seven years. In May 2026, the Supreme Court clarified that if an accused person has no objection, courts may proceed with cases involving Section 124A. The author argues that such consent may not be truly voluntary because refusing consent could result in indefinite delay. The passage further contends that this situation may disproportionately affect poorer accused persons who cannot easily secure bail. It concludes that instead of resolving the constitutional question surrounding sedition, the Court has shifted the burden of uncertainty onto the accused.",
+      "questions": [
+        {
+          "question": "Q1. Which of the following best expresses the central idea of the passage?",
+          "options": [
+            "The history of sedition laws in colonial India",
+            "The Supreme Court's efforts to strengthen sedition laws",
+            "The concerns arising from allowing sedition trials to proceed based on the accused's consent",
+            "The need to increase punishment under the Bharatiya Nyaya Sanhita"
+          ],
+          "answer": "The concerns arising from allowing sedition trials to proceed based on the accused's consent",
+          "explanation": "The passage primarily discusses the Supreme Court's May 2026 clarification and argues that consent may not be genuinely voluntary, creating unfair consequences for accused persons."
+        },
+        {
+          "question": "Q2. Why does the author describe the accused person's situation as a 'Hobson's choice'?",
+          "options": [
+            "Because the accused has several equally attractive legal options",
+            "Because the accused must choose between consenting to trial or facing prolonged delay",
+            "Because the accused can challenge the law in multiple courts",
+            "Because the accused can avoid trial altogether"
+          ],
+          "answer": "Because the accused must choose between consenting to trial or facing prolonged delay",
+          "explanation": "The passage explains that refusal to consent may lead to indefinite delay, leaving the accused with only undesirable alternatives."
+        },
+        {
+          "question": "Q3. According to the passage, what was the purpose of the Supreme Court's 2022 stay on Section 124A?",
+          "options": [
+            "To permanently abolish sedition laws",
+            "To increase punishment for sedition",
+            "To pause the use of Section 124A while its constitutional validity was under review",
+            "To replace Section 124A with Section 152"
+          ],
+          "answer": "To pause the use of Section 124A while its constitutional validity was under review",
+          "explanation": "The passage states that the 2022 stay suspended the use of Section 124A pending a constitutional challenge."
+        },
+        {
+          "question": "Q4. Which of the following consequences does the author fear may result from the May 2026 clarification?",
+          "options": [
+            "All sedition cases will immediately be dismissed",
+            "Only wealthy citizens will be charged under sedition laws",
+            "Liberty may depend more on a person's ability to litigate than on legal principles",
+            "The constitutional challenge to sedition will end quickly"
+          ],
+          "answer": "Liberty may depend more on a person's ability to litigate than on legal principles",
+          "explanation": "The author argues that wealthier accused persons may secure bail and wait, while poorer accused persons may feel compelled to consent to trial."
+        },
+        {
+          "question": "Q5. What is the tone of the author in the passage?",
+          "options": [
+            "Supportive and optimistic",
+            "Critical and concerned",
+            "Neutral and descriptive",
+            "Humorous and sarcastic"
+          ],
+          "answer": "Critical and concerned",
+          "explanation": "The author criticizes the Court's approach, highlighting issues such as coerced consent, inequality, and unresolved constitutional uncertainty."
+        }
+      ]
+    }
+  }
+}

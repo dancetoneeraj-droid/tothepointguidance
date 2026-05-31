@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useMemo, useState } from "react";
+import { use, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -40,6 +40,42 @@ export default function ComprehensionPage({
 
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [result, setResult] = useState<ScoreResult | null>(null);
+
+  const DURATION = (set?.rc.questions.length ?? 5) <= 5 ? 5 * 60 : 20 * 60;
+  const [timeLeft, setTimeLeft] = useState(DURATION);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    if (result !== null) {
+      if (timerRef.current) clearInterval(timerRef.current);
+      return;
+    }
+    timerRef.current = setInterval(() => {
+      setTimeLeft((t) => {
+        if (t <= 1) {
+          clearInterval(timerRef.current!);
+          return 0;
+        }
+        return t - 1;
+      });
+    }, 1000);
+    return () => { if (timerRef.current) clearInterval(timerRef.current); };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [result]);
+
+  const timerExpired = timeLeft === 0 && result === null;
+  useEffect(() => {
+    if (timerExpired && set) {
+      const score = scoreComprehension(set, answers);
+      setResult(score);
+      void markEnglishSection(studentId ?? "", dayNum, "comprehension");
+      if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [timerExpired]);
+
+  const formatTime = (s: number) =>
+    `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
   if (!studentId || !progress) return null;
 
@@ -111,17 +147,31 @@ export default function ComprehensionPage({
               <ArrowLeft className="h-4 w-4" />
               Day {dayNum}
             </Link>
-            <div>
-              <h1 className="text-2xl font-semibold tracking-tight text-white">
-                Day {dayNum} · Comprehension Practice
-              </h1>
-              <p className="mt-1 text-sm text-zinc-400">
-                Reading comprehension, cloze test and para jumbles · SSC marking
-                +2 / −0.5 · {set.rc.questions.length +
-                  set.cloze.questions.length +
-                  set.parajumble.items.length}{" "}
-                questions
-              </p>
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <h1 className="text-2xl font-semibold tracking-tight text-white">
+                  Day {dayNum} · Comprehension Practice
+                </h1>
+                <p className="mt-1 text-sm text-zinc-400">
+                  {[
+                    set.rc.questions.length > 0 && "Reading Comprehension",
+                    set.cloze && "Cloze Test",
+                    set.parajumble && "Para Jumbles",
+                  ].filter(Boolean).join(" · ")}{" "}
+                  · SSC marking +2 / −0.5 ·{" "}
+                  {set.rc.questions.length +
+                    (set.cloze?.questions.length ?? 0) +
+                    (set.parajumble?.items.length ?? 0)}{" "}
+                  questions
+                </p>
+              </div>
+              {!result && (
+                <div className={`shrink-0 rounded-lg px-4 py-2 text-lg font-mono font-bold tabular-nums ${
+                  timeLeft <= 60 ? "bg-red-500/20 text-red-400" : "bg-white/5 text-white"
+                }`}>
+                  {formatTime(timeLeft)}
+                </div>
+              )}
             </div>
           </header>
 
@@ -149,33 +199,39 @@ export default function ComprehensionPage({
           ))}
 
           {/* Cloze Test */}
-          <SectionHeading
-            icon={<ScrollText className="h-4 w-4" />}
-            title={set.cloze.title}
-            directions={set.cloze.directions}
-          />
-          <Card className="border-white/10 bg-white/[0.03] p-6">
-            <p className="whitespace-pre-line text-[15px] leading-7 text-zinc-200">
-              {set.cloze.passage}
-            </p>
-          </Card>
-          {set.cloze.questions.map((q, i) => (
-            <QuestionBlock
-              key={`cloze-${i}`}
-              q={q}
-              selected={answers[`cloze-${i}`]}
-              submitted={submitted}
-              onSelect={(opt) => select(`cloze-${i}`, opt)}
-            />
-          ))}
+          {set.cloze && (
+            <>
+              <SectionHeading
+                icon={<ScrollText className="h-4 w-4" />}
+                title={set.cloze.title}
+                directions={set.cloze.directions}
+              />
+              <Card className="border-white/10 bg-white/[0.03] p-6">
+                <p className="whitespace-pre-line text-[15px] leading-7 text-zinc-200">
+                  {set.cloze.passage}
+                </p>
+              </Card>
+              {set.cloze.questions.map((q, i) => (
+                <QuestionBlock
+                  key={`cloze-${i}`}
+                  q={q}
+                  selected={answers[`cloze-${i}`]}
+                  submitted={submitted}
+                  onSelect={(opt) => select(`cloze-${i}`, opt)}
+                />
+              ))}
+            </>
+          )}
 
           {/* Para Jumbles */}
-          <SectionHeading
-            icon={<Shuffle className="h-4 w-4" />}
-            title={set.parajumble.title}
-            directions={set.parajumble.directions}
-          />
-          {set.parajumble.items.map((item, i) => (
+          {set.parajumble && (
+            <>
+              <SectionHeading
+                icon={<Shuffle className="h-4 w-4" />}
+                title={set.parajumble.title}
+                directions={set.parajumble.directions}
+              />
+              {set.parajumble.items.map((item, i) => (
             <div key={`pj-${i}`} className="space-y-3">
               <Card className="border-white/10 bg-white/[0.02] p-5">
                 <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-500">
@@ -205,6 +261,8 @@ export default function ComprehensionPage({
               />
             </div>
           ))}
+            </>
+          )}
 
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-end">
             {submitted ? (
@@ -227,8 +285,8 @@ export default function ComprehensionPage({
                 onClick={handleSubmit}
               >
                 Submit ({answeredCount}/{set.rc.questions.length +
-                  set.cloze.questions.length +
-                  set.parajumble.items.length}{" "}
+                  (set.cloze?.questions.length ?? 0) +
+                  (set.parajumble?.items.length ?? 0)}{" "}
                 answered)
               </Button>
             )}
