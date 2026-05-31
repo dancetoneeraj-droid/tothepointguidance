@@ -5,6 +5,8 @@ export interface Question {
   question: string;
   /** Hindi question text (Devanagari). */
   questionHi?: string;
+  /** Alias used in some JSON banks. */
+  questionHindi?: string;
   options: string[];
   optionsHi?: string[];
   correctAnswer: string;

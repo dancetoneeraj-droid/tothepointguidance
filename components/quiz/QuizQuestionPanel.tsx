@@ -86,7 +86,7 @@ export function QuizQuestionPanel({
           <p className="text-base sm:text-lg leading-relaxed text-zinc-100 whitespace-pre-wrap">
             {question.question}
           </p>
-          {question.questionHi ? (
+          {(question.questionHi ?? question.questionHindi) ? (
             <>
               <div className="border-t border-white/10 pt-3 mt-3">
                 <p className="text-[10px] font-semibold uppercase tracking-wider text-amber-400/80 mb-2">
@@ -96,7 +96,7 @@ export function QuizQuestionPanel({
                   className="text-base sm:text-lg leading-relaxed text-amber-50/95 whitespace-pre-wrap"
                   lang="hi"
                 >
-                  {question.questionHi}
+                  {question.questionHi ?? question.questionHindi}
                 </p>
               </div>
             </>
