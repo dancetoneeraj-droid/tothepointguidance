@@ -112,12 +112,14 @@
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "percentage",
@@ -128,7 +130,9 @@
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
+          
         }
       ],
       "english": {
