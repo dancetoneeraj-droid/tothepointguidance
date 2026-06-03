@@ -1,0 +1,303 @@
+    [   
+    {
+      "id": "pronoun_001",
+      "question": "He is a university professor but of his three sons neither has any merit.",
+      "options": [
+        "He is a university professor",
+        "but of his three sons",
+        "neither has any merit",
+        "No error"
+      ],
+      "correctAnswer": "neither has any merit",
+      "explanation": "Replace 'neither' with 'none' because 'neither' is used for only two persons/things, whereas 'none' is used for more than two."
+    },
+    {
+      "id": "pronoun_002",
+      "question": "The poor man poisoned him and his own children.",
+      "options": [
+        "The poor man",
+        "poisoned him",
+        "and his own children",
+        "No error"
+      ],
+      "correctAnswer": "poisoned him",
+      "explanation": "Replace 'him' with 'himself' because the action refers back to the subject."
+    },
+    {
+      "id": "pronoun_003",
+      "question": "She is one of the best mothers that has ever lived.",
+      "options": [
+        "She is one of the",
+        "best mothers",
+        "that has ever lived",
+        "No error"
+      ],
+      "correctAnswer": "that has ever lived",
+      "explanation": "Replace 'has' with 'have' because the antecedent of 'that' is 'mothers', which is plural."
+    },
+    {
+      "id": "pronoun_004",
+      "question": "John, I and Hari have finished our studies.",
+      "options": [
+        "John, I and Hari",
+        "have finished",
+        "our studies",
+        "No error"
+      ],
+      "correctAnswer": "John, I and Hari",
+      "explanation": "The correct order is 'John, Hari and I'. When multiple pronouns/nouns are used, the first person pronoun usually comes last."
+    },
+    {
+      "id": "pronoun_005",
+      "question": "I am your's affectionate son.",
+      "options": [
+        "I am",
+        "your's",
+        "affectionate son",
+        "No error"
+      ],
+      "correctAnswer": "your's",
+      "explanation": "Replace 'your's' with 'your'. 'Your's' is incorrect usage."
+    },
+    {
+      "id": "pronoun_006",
+      "question": "Both me and my sister went to a boarding school.",
+      "options": [
+        "Both me",
+        "and my sister",
+        "went to a boarding school",
+        "No error"
+      ],
+      "correctAnswer": "Both me",
+      "explanation": "Replace 'me' with 'I' because a subject requires the nominative case."
+    },
+    {
+      "id": "pronoun_007",
+      "question": "It was him who came running into the classroom.",
+      "options": [
+        "It was him",
+        "who came running",
+        "into the classroom",
+        "No error"
+      ],
+      "correctAnswer": "It was him",
+      "explanation": "Replace 'him' with 'he'. After 'It was', a subject pronoun is required."
+    },
+    {
+      "id": "pronoun_008",
+      "question": "May I know to who I am speaking?",
+      "options": [
+        "May I know",
+        "to who",
+        "I am speaking",
+        "No error"
+      ],
+      "correctAnswer": "to who",
+      "explanation": "Replace 'who' with 'whom'. After a preposition ('to'), the objective form 'whom' is used."
+    },
+    {
+      "id": "pronoun_009",
+      "question": "If your coming home tomorrow let me know at what time I can expect you.",
+      "options": [
+        "If your coming home tomorrow",
+        "let me know at what time",
+        "I can expect you",
+        "No error"
+      ],
+      "correctAnswer": "If your coming home tomorrow",
+      "explanation": "Replace 'your' with 'you are' or 'you're'."
+    },
+    {
+      "id": "pronoun_010",
+      "question": "He is fatter than me.",
+      "options": [
+        "He is",
+        "fatter",
+        "than me",
+        "No error"
+      ],
+      "correctAnswer": "than me",
+      "explanation": "Replace 'me' with 'I'. A nominative pronoun should be compared with another nominative pronoun."
+    },
+    {
+      "id": "pronoun_011",
+      "question": "I and him are very good friends.",
+      "options": [
+        "I and him",
+        "are",
+        "very good friends",
+        "No error"
+      ],
+      "correctAnswer": "I and him",
+      "explanation": "Replace 'him' with 'he' and write 'He and I' because pronouns serving the same function should be in the same form."
+    },
+    {
+      "id": "pronoun_012",
+      "question": "I and he have prepared the lesson thoroughly.",
+      "options": [
+        "I and he",
+        "have prepared",
+        "the lesson thoroughly",
+        "No error"
+      ],
+      "correctAnswer": "I and he",
+      "explanation": "The correct form is 'He and I'. When two pronouns are used together, the first person pronoun comes last."
+    },
+    {
+      "id": "pronoun_013",
+      "question": "The boy who studies hard he will pass with flying colours.",
+      "options": [
+        "The boy who studies hard",
+        "he will pass",
+        "with flying colours",
+        "No error"
+      ],
+      "correctAnswer": "he will pass",
+      "explanation": "Remove 'he'. A noun and a pronoun referring to the same subject should not be used together in this construction."
+    },
+        {
+          "id": "pronoun_014",
+          "question": "My uncle forced my friend and I to stay back.",
+          "options": [
+            "My uncle forced",
+            "my friend and I",
+            "to stay back",
+            "No error"
+          ],
+          "correctAnswer": "my friend and I",
+          "explanation": "Replace 'I' with 'me' because it is the object of the verb 'forced'."
+        },
+        {
+          "id": "pronoun_015",
+          "question": "Both science and religion are necessary for man and for their outer and inner self respectively.",
+          "options": [
+            "Both science and religion",
+            "are necessary for man and for their",
+            "outer and inner self respectively",
+            "No error"
+          ],
+          "correctAnswer": "are necessary for man and for their",
+          "explanation": "Replace 'their' with 'his' because 'man' is singular."
+        },
+        {
+          "id": "pronoun_016",
+          "question": "I and Tina will go to the market in the evening.",
+          "options": [
+            "I and Tina will",
+            "go to the market",
+            "in the evening",
+            "No error"
+          ],
+          "correctAnswer": "I and Tina will",
+          "explanation": "Replace 'I and Tina' with 'Tina and I'. The first-person pronoun should come last."
+        },
+        {
+          "id": "pronoun_017",
+          "question": "Rustam and myself saw the picture.",
+          "options": [
+            "Rustam and",
+            "myself saw",
+            "the picture",
+            "No error"
+          ],
+          "correctAnswer": "myself saw",
+          "explanation": "Replace 'myself' with 'I'. A reflexive pronoun cannot be used as the subject."
+        },
+        {
+          "id": "pronoun_018",
+          "question": "There is no agreement between you and I so we are free to go our way.",
+          "options": [
+            "There is no agreement",
+            "between you and I",
+            "so we are free to go our way",
+            "No error"
+          ],
+          "correctAnswer": "between you and I",
+          "explanation": "Replace 'I' with 'me' because a preposition ('between') is followed by an objective pronoun."
+        },
+        {
+          "id": "pronoun_019",
+          "question": "The ant who was nearby walked forward and bit the hunter sharply in the ankle.",
+          "options": [
+            "The ant who was nearby",
+            "walked forward and bit the hunter",
+            "sharply in the ankle",
+            "No error"
+          ],
+          "correctAnswer": "The ant who was nearby",
+          "explanation": "Replace 'who' with 'that' because 'who' is used for human beings."
+        },
+        {
+          "id": "pronoun_020",
+          "question": "Such rules do not apply to you and I.",
+          "options": [
+            "Such rules",
+            "do not apply to",
+            "you and I",
+            "No error"
+          ],
+          "correctAnswer": "you and I",
+          "explanation": "Replace 'I' with 'me' because the preposition 'to' requires the objective case."
+        },
+        {
+          "id": "pronoun_021",
+          "question": "One of the boys who always give the correct answer is Samuel.",
+          "options": [
+            "One of the boys",
+            "who always give the correct answer",
+            "is Samuel",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "No error. The relative pronoun 'who' refers to 'boys', which is plural, so 'give' is correct."
+        },
+        {
+          "id": "pronoun_022",
+          "question": "One should respect the religions of others as much as his own.",
+          "options": [
+            "One should respect",
+            "the religions of others",
+            "as much as his own",
+            "No error"
+          ],
+          "correctAnswer": "as much as his own",
+          "explanation": "Replace 'his' with 'one's'. When 'one' is the subject, the possessive form should also be 'one's'."
+        },
+        {
+          "id": "pronoun_023",
+          "question": "It is I who is responsible for the delay.",
+          "options": [
+            "It is I",
+            "who is responsible",
+            "for the delay",
+            "No error"
+          ],
+          "correctAnswer": "who is responsible",
+          "explanation": "Replace 'is' with 'am' because the antecedent of 'who' is 'I'."
+        },
+        {
+          "id": "pronoun_024",
+          "question": "The children which are assembled in the hall are the ones chosen for the field trip.",
+          "options": [
+            "The children which are assembled",
+            "in the hall are the ones",
+            "chosen for the field trip",
+            "No error"
+          ],
+          "correctAnswer": "The children which are assembled",
+          "explanation": "Replace 'which' with 'who' because 'children' refers to human beings."
+        },
+        {
+          "id": "pronoun_025",
+          "question": "Who do you think I met?",
+          "options": [
+            "Who",
+            "No error",
+            "do you think",
+            "I met"
+          ],
+          "correctAnswer": "Who",
+          "explanation": "Replace 'Who' with 'Whom' because it functions as the object of the verb 'met'."
+        }
+      
+]
