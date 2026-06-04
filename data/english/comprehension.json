@@ -334,5 +334,153 @@
         }
       ]
     }
-  }
+  },
+"3": { "parajumble": {
+      "title": "Para Jumbles",
+      "directions": "Each sentence has been split into four parts (P, Q, R, S) given in jumbled order. Select the option that arranges them into a meaningful sentence.",
+      "items": [
+        { 
+
+      "parts": [
+        {
+          "label": "P",
+          "text": "When it gave way on Saturday, the structure was undergoing more illegal construction."
+        },
+        {
+          "label": "Q",
+          "text": "Unauthorised floors, weak foundations, use of poor-quality materials and deviations from approved plans seem to have become commonplace in Delhi."
+        },
+        {
+          "label": "R",
+          "text": "The building collapse in Delhi's Saidulajab that claimed six lives evokes a sense of terrible déjà vu."
+        },
+        {
+          "label": "S",
+          "text": "The five-storey building shouldn't legally have had more than three floors."
+        }
+      ],
+      "options": [
+        "PQRS",
+        "RSPQ",
+        "RQPS",
+        "SRPQ"
+      ],
+      "answer": "RSPQ",
+      "explanation": "R introduces the incident. S describes the building involved. P explains what was happening when it collapsed. Q concludes with a broader observation about illegal construction practices in Delhi."
+    },
+    {
+      "parts": [
+        {
+          "label": "P",
+          "text": "Tesla has updated its panels to be about 10 percent more efficient, and has also lowered its prices."
+        },
+        {
+          "label": "Q",
+          "text": "The company also engineers, manufactures and installs solar panels -- both the traditional kind and modules that look like ordinary roof tiles."
+        },
+        {
+          "label": "R",
+          "text": "And while the latter seems like it could be a path to more mainstream adoption of renewable energy, the former is still the go-to solution for the solar industry."
+        },
+        {
+          "label": "S",
+          "text": "Tesla doesn't just make cars."
+        }
+      ],
+      "options": [
+        "PQSR",
+        "PSQR",
+        "SQRP",
+        "SRQP"
+      ],
+      "answer": "SQRP",
+      "explanation": "S introduces Tesla's broader business. Q explains its solar panel products. R refers to the 'former' and 'latter' products mentioned in Q. P adds information about improvements in Tesla's panels."
+    },
+    {
+      "parts": [
+        {
+          "label": "P",
+          "text": "The team of researchers in Nottingham refined the equation using new data and assumptions."
+        },
+        {
+          "label": "Q",
+          "text": "They found that there are likely between four and 211 civilizations capable of communicating with others, with 36 the most likely number."
+        },
+        {
+          "label": "R",
+          "text": "Our current technology makes it nearly impossible to detect or communicate with possible alien life."
+        },
+        {
+          "label": "S",
+          "text": "Finding these civilizations is another issue entirely — scientists said they would be thousands of light years away."
+        }
+      ],
+      "options": [
+        "PQSR",
+        "PSQR",
+        "SQRP",
+        "SRQP"
+      ],
+      "answer": "PQSR",
+      "explanation": "P introduces the research. Q presents the findings. S discusses the challenge of locating these civilizations. R concludes by explaining why current technology makes communication difficult."
+    },
+    {
+      "parts": [
+        {
+          "label": "P",
+          "text": "Considering the large volume of Bangladeshi migrants in the Middle East, secondary economic impacts through depressed demand and falling oil prices will also likely add strain to the flow of remittances."
+        },
+        {
+          "label": "Q",
+          "text": "But the COVID-19 pandemic is having an acute effect on Bangladeshi migrants abroad, who are largely concentrated in countries with strict lockdown measures."
+        },
+        {
+          "label": "R",
+          "text": "International remittances normally represent around 7% of Bangladesh's GDP."
+        },
+        {
+          "label": "S",
+          "text": "The economic importance of the more than 10 million migrants from Bangladesh who sent close to $18 billion in 2019 cannot be overstated."
+        }
+      ],
+      "options": [
+        "PQSR",
+        "PSQR",
+        "SQRP",
+        "SRQP"
+      ],
+      "answer": "SRQP",
+      "explanation": "S introduces the significance of migrant workers. R supports this with remittance statistics. Q introduces the impact of COVID-19. P elaborates on the economic consequences."
+    },
+    {
+      "parts": [
+        {
+          "label": "P",
+          "text": "Studies on small cats remain limited with carnivore research in India being skewed towards large cats."
+        },
+        {
+          "label": "Q",
+          "text": "Small cats are more specialized than their larger cousins in terms of resource selection."
+        },
+        {
+          "label": "R",
+          "text": "We estimated the abundance of two widespread small cats, the jungle cat and the rusty-spotted cat, and investigated their habitat associations based on camera trap captures from a central Indian tiger reserve."
+        },
+        {
+          "label": "S",
+          "text": "Studies on small cat population and habitat preference are critical to evaluate their status to ensure better management and conservation."
+        }
+      ],
+      "options": [
+        "PQSR",
+        "PSQR",
+        "SQRP",
+        "SRQP"
+      ],
+      "answer": "PQSR",
+      "explanation": "P introduces the research gap. Q highlights a characteristic of small cats. S explains why studying them is important. R concludes with the specific study undertaken."
+    }
+  ]
+}
+}
 }
