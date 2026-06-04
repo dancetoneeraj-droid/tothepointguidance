@@ -106,6 +106,19 @@ export default function QuizPage({
       const cfg = topic === plan.reasoning.topic ? plan.reasoning : (extraCfg ?? plan.reasoning);
       questionCount = cfg.questions;
       durationMinutes = cfg.duration;
+      if (cfg.from !== undefined) {
+        const slice = resolveQuizSlice(bank, cfg.from, questionCount);
+        return {
+          questions: slice.questions,
+          duration: durationMinutes,
+          count: questionCount,
+          setStart: slice.setStart,
+          storedIndex: cfg.from,
+          sessionId: buildSessionId(subject, topic, day, slice.setStart),
+          subjectLabel: "Reasoning",
+          isPartial: slice.isPartial,
+        };
+      }
     } else if (subject === "gk") {
       questionCount = 25;
       durationMinutes = 20;

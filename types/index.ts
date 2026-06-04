@@ -38,6 +38,8 @@ export interface ReasoningConfig {
   duration: number;
   /** Optional display label (e.g. "Number Series Quiz"). Defaults to formatted topic name. */
   label?: string;
+  /** Fixed 0-based start index in the question bank. When set, ignores progressive stored index. */
+  from?: number;
 }
 
 export interface GkConfig {
