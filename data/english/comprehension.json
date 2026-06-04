@@ -335,7 +335,48 @@
       ]
     }
   },
-"3": { "parajumble": {
+"3":{
+  "rc": {
+    "title": "Reading Comprehension",
+    "directions": "Read the following passage carefully and answer the questions that follow. Choose the most appropriate option.",
+    "passage": "As India’s energy demands scale rapidly alongside its urban expansion, the country finds itself at a critical crossroads regarding sustainability. While the rapid adoption of green technology is encouraging, the heavy reliance on imported fossil fuels remains a glaring vulnerability. Policymakers are now tasked with a difficult balancing act: they must support economic growth while simultaneously enforcing strict conservation measures. True progress will not stem from technological breakthroughs alone, but from a fundamental shift in our daily consumption habits and urban planning strategies. If citizens and industries fail to recognize the urgency of this transition, the resulting environmental and economic strain will only accelerate.",
+    "questions": [
+      {
+        "question": "Q1. What is the main idea of this passage?",
+        "options": [
+          "India has completely resolved its energy crisis through green technology.",
+          "Urban expansion is the only cause of environmental pollution in India.",
+          "India faces an urgent need to balance economic growth with sustainable energy and consumption habits.",
+          "The government should stop relying entirely on urban planning."
+        ],
+        "answer": "India faces an urgent need to balance economic growth with sustainable energy and consumption habits.",
+        "explanation": "The passage emphasizes the challenge of balancing economic growth with sustainability, conservation measures, and changes in consumption habits."
+      },
+      {
+        "question": "Q2. According to the author, what is considered a 'glaring vulnerability'?",
+        "options": [
+          "The slow adoption of green technology",
+          "The heavy reliance on imported fossil fuels",
+          "The lack of citizen awareness about climate change",
+          "The rising costs of urban real estate"
+        ],
+        "answer": "The heavy reliance on imported fossil fuels",
+        "explanation": "The passage explicitly states that the heavy reliance on imported fossil fuels remains a glaring vulnerability."
+      },
+      {
+        "question": "Q3. In the context of the passage, what does the word 'sustainability' mean?",
+        "options": [
+          "Using resources in a way that meets current needs without compromising the ability of future generations to meet theirs",
+          "The total halt of all industrial and manufacturing processes",
+          "Increasing the importation of fossil fuels to meet immediate demands",
+          "Completely rebuilding major cities to improve ventilation"
+        ],
+        "answer": "Using resources in a way that meets current needs without compromising the ability of future generations to meet theirs",
+        "explanation": "Sustainability refers to responsible resource use that supports present needs while preserving resources and opportunities for future generations."
+      }
+    ]
+  },
+  "parajumble": {
       "title": "Para Jumbles",
       "directions": "Each sentence has been split into four parts (P, Q, R, S) given in jumbled order. Select the option that arranges them into a meaningful sentence.",
       "items": [
