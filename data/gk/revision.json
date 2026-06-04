@@ -180,185 +180,305 @@
     "correctAnswer":"It was partly elected and partly nominated.",
     "explanation":"Provincial representatives were elected indirectly, while princely state representatives were nominated."
     },
-   
-  {
-    "id": "gk_revision_026",
-    "question": "Revision — Question 26: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 26."
-  },
-  {
-    "id": "gk_revision_027",
-    "question": "Revision — Question 27: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 27."
-  },
-  {
-    "id": "gk_revision_028",
-    "question": "Revision — Question 28: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 28."
-  },
-  {
-    "id": "gk_revision_029",
-    "question": "Revision — Question 29: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 29."
-  },
-  {
-    "id": "gk_revision_030",
-    "question": "Revision — Question 30: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 30."
-  },
-  {
-    "id": "gk_revision_031",
-    "question": "Revision — Question 31: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 31."
-  },
-  {
-    "id": "gk_revision_032",
-    "question": "Revision — Question 32: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 32."
-  },
-  {
-    "id": "gk_revision_033",
-    "question": "Revision — Question 33: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 33."
-  },
-  {
-    "id": "gk_revision_034",
-    "question": "Revision — Question 34: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 34."
-  },
-  {
-    "id": "gk_revision_035",
-    "question": "Revision — Question 35: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 35."
-  },
-  {
-    "id": "gk_revision_036",
-    "question": "Revision — Question 36: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 36."
-  },
-  {
-    "id": "gk_revision_037",
-    "question": "Revision — Question 37: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 37."
-  },
-  {
-    "id": "gk_revision_038",
-    "question": "Revision — Question 38: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 38."
-  },
-  {
-    "id": "gk_revision_039",
-    "question": "Revision — Question 39: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 39."
-  },
-  {
-    "id": "gk_revision_040",
-    "question": "Revision — Question 40: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Revision concept for question 40."
-  }
-]
+      {
+        "id": "gk_revision_026",
+        "question": "Consider the following statements regarding the Regulating Act of 1773:\n\n1. It subordinated the Governors of Bombay and Madras Presidencies under the Governor-General of Bengal.\n2. It established a Supreme Court at Calcutta comprising a Chief Justice and three other judges.\n3. It completely prohibited the servants of the Company from engaging in any private trade.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "All three statements are correct features introduced to regulate the East India Company's affairs."
+      },
+      {
+        "id": "gk_revision_027",
+        "question": "Consider the following statements regarding the Charter Act of 1833:\n\n1. It deprived the Governor-General of India of his legislative powers.\n2. It ended the activities of the East India Company as a commercial body, making it a purely administrative body.\n3. It attempted to introduce a system of open competition for the selection of civil servants.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "2 and 3 only",
+        "explanation": "Statement 1 is incorrect because the Act gave exclusive legislative powers for all British India to the Governor-General of India."
+      },
+      {
+        "id": "gk_revision_028",
+        "question": "With reference to the Charter Act of 1853, consider the following statements:\n\n1. It separated the legislative and executive functions of the Governor-General’s Council for the first time.\n2. It introduced local representation in the Indian (Central) Legislative Council.\n3. It successfully started the open competition system for civil services recruitment.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "All statements are features of the Charter Act of 1853."
+      },
+      {
+        "id": "gk_revision_029",
+        "question": "Consider the following statements regarding the Indian Councils Act of 1861:\n\n1. It initiated the process of decentralisation by restoring legislative powers to Bombay and Madras.\n2. It gave statutory recognition to the portfolio system introduced by Lord Canning.\n3. It empowered the Viceroy to issue ordinances during an emergency without the concurrence of the legislative council.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "The 1861 Act restored legislative powers, recognized the portfolio system, and allowed ordinance-making powers."
+      },
+      {
+        "id": "gk_revision_030",
+        "question": "Consider the following statements regarding the Indian Councils Act of 1909 (Morley-Minto Reforms):\n\n1. It introduced communal representation for Muslims through separate electorates.\n2. It allowed members to ask supplementary questions and move budget resolutions.\n3. It provided for the association of Indians with executive councils for the first time.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "All three statements correctly describe the Morley-Minto Reforms."
+      },
+      {
+        "id": "gk_revision_031",
+        "question": "With reference to the Government of India Act of 1919, consider the following statements:\n\n1. It divided provincial subjects into transferred and reserved categories.\n2. It introduced bicameralism and direct elections for the first time.\n3. It extended communal representation to Sikhs, Indian Christians, Anglo-Indians and Europeans.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "All three provisions were introduced under the Government of India Act, 1919."
+      },
+      {
+        "id": "gk_revision_032",
+        "question": "Consider the following statements regarding the Government of India Act of 1935:\n\n1. It provided for an All-India Federation.\n2. It abolished provincial diarchy and introduced provincial autonomy.\n3. It provided for the establishment of a Federal Court.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "All statements are correct features of the Government of India Act, 1935."
+      },
+      {
+        "id": "gk_revision_033",
+        "question": "Consider the following statements regarding the Cabinet Mission Plan of 1946:\n\n1. It rejected the demand for a fully sovereign Pakistan.\n2. It proposed a weak centre restricted to foreign affairs, defence and communications.\n3. It recommended direct election of the Constituent Assembly through adult franchise.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1 and 2 only",
+        "explanation": "Statement 3 is incorrect because the Constituent Assembly was to be elected indirectly."
+      },
+      {
+        "id": "gk_revision_034",
+        "question": "With reference to the Constituent Assembly of India, consider the following statements:\n\n1. The first meeting was held on December 9, 1946 and was boycotted by the Muslim League.\n2. Dr. Sachchidananda Sinha served as the temporary President.\n3. H.C. Mukherjee and V.T. Krishnamachari were elected Vice-Presidents.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "All statements are historically correct."
+      },
+      {
+        "id": "gk_revision_035",
+        "question": "Consider the following statements regarding the Objective Resolution:\n\n1. It was moved by Jawaharlal Nehru on December 13, 1946.\n2. It was unanimously adopted on January 26, 1950.\n3. Its modified version forms the Preamble.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1 and 3 only",
+        "explanation": "Statement 2 is incorrect because the Objective Resolution was adopted on January 22, 1947."
+      },
+      {
+        "id": "gk_revision_036",
+        "question": "Consider the following statements regarding the Drafting Committee:\n\n1. It was set up on August 29, 1947 under Dr. B.R. Ambedkar.\n2. It consisted of nine members.\n3. D.P. Khaitan was replaced by T.T. Krishnamachari after his death.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1 and 3 only",
+        "explanation": "Statement 2 is incorrect because the committee originally had seven members."
+      },
+      {
+            "id": "gk_revision_037",
+        "question": "With reference to the Committees of the Constituent Assembly, match the following:\n\n1. States Committee (Committee for Negotiating with States) — Jawaharlal Nehru\n2. Steering Committee — Dr. Rajendra Prasad\n3. Provincial Constitution Committee — Sardar Patel\n\nWhich of the pairs given above are correctly matched?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "All the committees are correctly matched with their chairpersons."
+      },
+      {
+        "id": "gk_revision_038",
+        "question": "Consider the following statements regarding the enactment and enforcement of the Constitution:\n\n1. The Constitution adopted on November 26, 1949 contained a Preamble, 395 Articles and 8 Schedules.\n2. Citizenship, elections and provisional parliament provisions came into force on November 26, 1949.\n3. The remaining provisions came into force on January 26, 1950.\n\nWhich of the statements given above are correct?",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": "1, 2 and 3",
+        "explanation": "All statements correctly describe the adoption and commencement timeline of the Constitution."
+      },
+        {
+          "id": "gk_revision_039",
+          "question": "Who among the following was appointed as the Constitutional Advisor (Legal Advisor) to the Constituent Assembly during its formation?",
+          "options": [
+            "Dr. B.R. Ambedkar",
+            "Sir B.N. Rau",
+            "K.M. Munshi",
+            "S.N. Mukherjee"
+          ],
+          "correctAnswer": "Sir B.N. Rau",
+          "explanation": "Sir Benegal Narsing Rau was appointed as the Constitutional Advisor and prepared the initial draft of the Constitution."
+        },
+        {
+          "id": "gk_revision_040",
+          "question": "Which historical act first introduced the element of election (though indirect) for non-official seats in the Central and Provincial Legislative Councils?",
+          "options": [
+            "Indian Councils Act, 1861",
+            "Indian Councils Act, 1892",
+            "Indian Councils Act, 1909",
+            "Government of India Act, 1919"
+          ],
+          "correctAnswer": "Indian Councils Act, 1892",
+          "explanation": "The 1892 Act introduced indirect elections through recommendations by certain bodies, though the term 'election' was not explicitly used."
+        },
+        {
+          "id": "gk_revision_041",
+          "question": "Who was the chairman of the Ad-hoc Committee on the National Flag in the Constituent Assembly?",
+          "options": [
+            "Jawaharlal Nehru",
+            "Dr. Rajendra Prasad",
+            "Sardar Vallabhbhai Patel",
+            "J.B. Kripalani"
+          ],
+          "correctAnswer": "Dr. Rajendra Prasad",
+          "explanation": "Dr. Rajendra Prasad headed the Ad-hoc Committee on the National Flag, which adopted the tricolour on July 22, 1947."
+        },
+        {
+          "id": "gk_revision_042",
+          "question": "Which Act officially changed the designation of 'Governor-General of Bengal' to 'Governor-General of India'?",
+          "options": [
+            "Regulating Act of 1773",
+            "Charter Act of 1813",
+            "Charter Act of 1833",
+            "Government of India Act, 1858"
+          ],
+          "correctAnswer": "Charter Act of 1833",
+          "explanation": "Lord William Bentinck became the first Governor-General of India under the Charter Act of 1833."
+        },
+        {
+          "id": "gk_revision_043",
+          "question": "Who was the Chairman of the Union Powers Committee of the Constituent Assembly?",
+          "options": [
+            "Sardar Vallabhbhai Patel",
+            "Dr. B.R. Ambedkar",
+            "Jawaharlal Nehru",
+            "J.B. Kripalani"
+          ],
+          "correctAnswer": "Jawaharlal Nehru",
+          "explanation": "Jawaharlal Nehru chaired both the Union Powers Committee and the Union Constitution Committee."
+        },
+        {
+          "id": "gk_revision_044",
+          "question": "By which historical Act was the system of Double Government (Board of Control and Court of Directors) completely abolished?",
+          "options": [
+            "Charter Act of 1853",
+            "Government of India Act, 1858",
+            "Indian Councils Act, 1861",
+            "Government of India Act, 1935"
+          ],
+          "correctAnswer": "Government of India Act, 1858",
+          "explanation": "The Act of 1858 ended the rule of the East India Company and abolished the dual control system established under Pitt's India Act of 1784."
+        },
+        {
+          "id": "gk_revision_045",
+          "question": "Which of the following statements best describes the structural adjustment made by the Government of India Act of 1935 regarding the division of legislative powers between the center and provinces?",
+          "options": [
+            "It introduced a unitary system with absolute central dominance while keeping provincial subjects subject to the absolute veto power of the Governor-General.",
+            "It created a three-fold division of legislative powers via Federal, Provincial, and Concurrent Lists, while vesting the crucial residuary powers in the hands of the Governor-General.",
+            "It completely eliminated the Concurrent List to avoid administrative friction between federal forces and regional princely state rules.",
+            "It allowed provinces to make laws on federal matters provided they received prior written permission from the British Crown directly."
+          ],
+          "correctAnswer": "It created a three-fold division of legislative powers via Federal, Provincial, and Concurrent Lists, while vesting the crucial residuary powers in the hands of the Governor-General.",
+          "explanation": "The Government of India Act, 1935 introduced Federal, Provincial and Concurrent Lists while residuary powers remained with the Governor-General."
+        },
+        {
+          "id": "gk_revision_046",
+          "question": "What was the exact nature of the voting criteria and representation system proposed under the Government of India Act of 1919 for electing members to the newly introduced bicameral central legislature?",
+          "options": [
+            "It established universal adult franchise for all citizens above 21 years irrespective of wealth or education.",
+            "It granted the right to vote to a limited franchise based strictly on properties, tax payments, or educational qualifications.",
+            "It allowed only nominated members from the princely states to vote, completely barring common provincial citizens from participating.",
+            "It restricted voting rights exclusively to land-owning zamindars and members of British commercial chambers."
+          ],
+          "correctAnswer": "It granted the right to vote to a limited franchise based strictly on properties, tax payments, or educational qualifications.",
+          "explanation": "The 1919 Act introduced direct elections but voting rights were restricted by property, tax and educational qualifications."
+        },
+        {
+          "id": "gk_revision_047",
+          "question": "How did the Indian Independence Act of 1947 alter the legal and functional status of the existing Constituent Assembly that had been formed under the Cabinet Mission Plan?",
+          "options": [
+            "It dissolved the assembly completely and ordered fresh national elections based on a joint electorate system.",
+            "It turned the assembly into a fully sovereign body capable of altering any law made by the British Parliament, while assigning it the dual role of a constituent and a provisional legislature.",
+            "It restricted the assembly from changing any basic boundary lines without direct sanction from the boundary commission headed by Cyril Radcliffe.",
+            "It separated the Drafting Committee from the main assembly and placed it under direct supervision of Lord Mountbatten."
+          ],
+          "correctAnswer": "It turned the assembly into a fully sovereign body capable of altering any law made by the British Parliament, while assigning it the dual role of a constituent and a provisional legislature.",
+          "explanation": "The Indian Independence Act, 1947 made the Constituent Assembly a sovereign body and gave it both constitution-making and legislative functions."
+        },
+        {
+          "id": "gk_revision_048",
+          "question": "Which of the following statements perfectly captures the compromise reached on the representation of the Indian Princely States within the structure of the Constituent Assembly?",
+          "options": [
+            "Princely states were completely barred from joining the assembly until the Constitution was formally signed in January 1950.",
+            "The representatives of the princely states were to be chosen through consultation between the assembly's committee and rulers, followed by nomination by the princes.",
+            "Every princely state was forced to hold direct local elections among its subjects to select representatives for the assembly seats.",
+            "Princely states were represented automatically by the British political agents residing in those specific regional capitals."
+          ],
+          "correctAnswer": "The representatives of the princely states were to be chosen through consultation between the assembly's committee and rulers, followed by nomination by the princes.",
+          "explanation": "The seats allotted to princely states were filled by nomination by the rulers after negotiations with the Constituent Assembly."
+        },
+        {
+                  "id": "gk_revision_049",
+          "question": "What specific legislative mechanism was introduced by Pitt’s India Act of 1784 to rectify the structural loopholes and commercial irregularities found in the working of the Regulating Act of 1773?",
+          "options": [
+            "It centralized all financial and executive decisions into a singular body called the Board of Revenue stationed at Madras.",
+            "It established a distinct political body called the Board of Control to supervise civil, military and revenue affairs separately from the Court of Directors.",
+            "It took away all territorial claims from the East India Company and handed them directly to the British Cabinet.",
+            "It appointed an independent audit committee to review the company's balance sheets every six months."
+          ],
+          "correctAnswer": "It established a distinct political body called the Board of Control to supervise civil, military and revenue affairs separately from the Court of Directors.",
+          "explanation": "Pitt’s India Act, 1784 created the Board of Control, leading to the system of Dual Government."
+        },
+        {
+          "id": "gk_revision_050",
+          "question": "Which statement accurately highlights the differentiation between the positions of the Union Constitution Committee and the Provincial Constitution Committee concerning the structural layout of power distribution during assembly deliberations?",
+          "options": [
+            "The Union Constitution Committee sought to weaken central federal structures, whereas the Provincial Committee demanded complete assimilation into a unitary model.",
+            "The Union Constitution Committee under Nehru focused on drafting federal powers and central provisions, whereas the Provincial Constitution Committee under Patel dealt with provincial structures and governance.",
+            "Both committees were headed by Dr. B.R. Ambedkar to avoid conflict between central and provincial frameworks.",
+            "The Union Committee dealt only with financial matters, while the Provincial Committee focused entirely on minority rights."
+          ],
+          "correctAnswer": "The Union Constitution Committee under Nehru focused on drafting federal powers and central provisions, whereas the Provincial Constitution Committee under Patel dealt with provincial structures and governance.",
+          "explanation": "Jawaharlal Nehru chaired the Union Constitution Committee while Sardar Patel chaired the Provincial Constitution Committee."
+        }
+      ]
+    

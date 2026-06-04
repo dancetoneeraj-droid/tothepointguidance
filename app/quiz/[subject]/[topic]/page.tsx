@@ -109,6 +109,19 @@ export default function QuizPage({
     } else if (subject === "gk") {
       questionCount = 25;
       durationMinutes = 20;
+      if (plan.gk.from !== undefined) {
+        const slice = resolveQuizSlice(bank, plan.gk.from, questionCount);
+        return {
+          questions: slice.questions,
+          duration: durationMinutes,
+          count: questionCount,
+          setStart: slice.setStart,
+          storedIndex: plan.gk.from,
+          sessionId: buildSessionId(subject, topic, day, slice.setStart),
+          subjectLabel: "General Knowledge",
+          isPartial: slice.isPartial,
+        };
+      }
     }
 
     const slice = resolveQuizSlice(bank, storedIndex, questionCount);

@@ -47,6 +47,8 @@ export interface GkConfig {
   todayNotes?: string;
   revisionQuiz?: string;
   revisionTopic?: string;
+  /** Fixed 0-based start index in the revision bank. When set, ignores progressive stored index. */
+  from?: number;
 }
 
 export interface DailyPlan {
