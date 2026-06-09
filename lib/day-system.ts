@@ -1,5 +1,5 @@
 import type { DailyPlan, DayProgress, PendingTask, StudentProgress } from "@/types";
-import { canAccessDay, FREE_ACCESS_DAYS } from "@/lib/premium-access";
+import { canAccessDay, FREE_ACCESS_DAYS, isPremiumEmail } from "@/lib/premium-access";
 import { getDailyPlan, isDayPublished, MAX_PUBLISHED_DAY } from "./daily-plans";
 import { formatMathsTopic, getMathsTopic } from "./maths-topics";
 
@@ -44,6 +44,15 @@ export function getDayAccess(
   }
 
   if (day <= FREE_ACCESS_DAYS) {
+    return {
+      status: "available",
+      canAccess: true,
+      requiresOverride: false,
+    };
+  }
+
+  // Premium users bypass sequential unlock — all published days are open.
+  if (isPremiumEmail(userEmail)) {
     return {
       status: "available",
       canAccess: true,

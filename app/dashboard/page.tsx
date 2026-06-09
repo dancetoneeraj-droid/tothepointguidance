@@ -49,8 +49,9 @@ export default function DashboardPage() {
       const premiumDay = isPremiumOnlyDay(day);
       const premiumAccess = canAccessDay(day, userEmail);
       const freeDay = day <= FREE_ACCESS_DAYS;
-      const unlocked = published && premiumAccess && day <= progress.unlockedDay;
-      const nextUp = published && premiumAccess && day === progress.unlockedDay + 1;
+      // Premium users bypass sequential unlock — all published days are accessible.
+      const unlocked = published && premiumAccess && (isPremium || day <= progress.unlockedDay);
+      const nextUp = published && premiumAccess && !isPremium && day === progress.unlockedDay + 1;
       const current = day === progress.currentDay && (unlocked || nextUp);
 
       if (!published) {
