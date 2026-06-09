@@ -3,5 +3,5 @@
  * Premium users get full access to all published days.
  */
 export const premiumUsers: string[] = [
-  // "student@gmail.com",
+  "dancetoneeraj@gmail.com",
 ];
