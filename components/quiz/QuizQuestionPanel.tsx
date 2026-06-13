@@ -25,7 +25,7 @@ const optionLabels = ["A", "B", "C", "D"];
 function resolveImageUrl(url: string): string {
   const match = /\/file\/d\/([^/]+)/.exec(url);
   if (match?.[1]) {
-    return `https://drive.google.com/uc?export=view&id=${match[1]}`;
+    return `https://lh3.googleusercontent.com/d/${match[1]}`;
   }
   return url;
 }
