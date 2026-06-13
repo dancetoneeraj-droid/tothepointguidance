@@ -1,5 +1,38 @@
 import type { Question, Subject } from "@/types";
 
+type RawPuzzleQuestion = {
+  question: string;
+  options: string[];
+  correctAnswer: string;
+  explanation?: string;
+};
+
+type RawPuzzleSet = {
+  id: string;
+  passage: string;
+  questions: RawPuzzleQuestion[];
+};
+
+function flattenPuzzleSets(sets: RawPuzzleSet[]): Question[] {
+  const questions: Question[] = [];
+  sets.forEach((set) => {
+    const total = set.questions.length;
+    set.questions.forEach((q, qIdx) => {
+      questions.push({
+        id: `${set.id}_q${qIdx + 1}`,
+        question: q.question,
+        options: q.options,
+        correctAnswer: q.correctAnswer,
+        explanation: q.explanation,
+        passage: set.passage,
+        passageIndex: qIdx + 1,
+        passageTotal: total,
+      });
+    });
+  });
+  return questions;
+}
+
 import percentageQuestions from "@/data/maths/percentage.json";
 import ratioProportionQuestions from "@/data/maths/ratio-proportion.json";
 import profitLossQuestions from "@/data/maths/profit-loss.json";
@@ -19,7 +52,7 @@ import geometryQuestions from "@/data/maths/geometry.json";
 import numberSystemQuestions from "@/data/maths/number-system.json";
 
 import codingDecodingQuestions from "@/data/reasoning/coding-decoding.json";
-import puzzleQuestions from "@/data/reasoning/puzzle.json";
+import puzzleRaw from "@/data/reasoning/puzzle.json";
 import analogyQuestions from "@/data/reasoning/analogy.json";
 import nsQuestionsRaw from "@/data/reasoning/ns.json";
 
@@ -94,7 +127,7 @@ const MATHS_BANKS: Record<string, Question[]> = {
 
 const REASONING_BANKS: Record<string, Question[]> = {
   "coding-decoding": codingDecodingQuestions as Question[],
-  puzzle: puzzleQuestions as Question[],
+  puzzle: flattenPuzzleSets(puzzleRaw as RawPuzzleSet[]),
   analogy: analogyQuestions as Question[],
   ns: normalizeLetterAnswerQuestions(
     nsQuestionsRaw as RawLetterBasedQuestion[],
