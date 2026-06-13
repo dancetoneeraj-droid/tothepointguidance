@@ -7,6 +7,8 @@ export interface Question {
   questionHi?: string;
   /** Alias used in some JSON banks. */
   questionHindi?: string;
+  /** Optional figure/diagram image URL (Google Drive share link or direct URL). */
+  image?: string;
   options: string[];
   optionsHi?: string[];
   correctAnswer: string;
@@ -35,6 +37,8 @@ export interface EnglishConfig {
   grammarMindmap?: string;
   vocabNotes?: string;
   grammarQuiz?: string;
+  /** Fixed 0-based start index in the grammar question bank. When set, ignores progressive stored index. */
+  grammarQuizFrom?: number;
   comprehensionQuiz?: string;
 }
 

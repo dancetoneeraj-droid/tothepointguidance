@@ -143,6 +143,51 @@ export default function DayPage({
     await refreshProgress();
   }, [dayNum, refreshProgress, resolvedStudentId]);
 
+  // Auto-mark sections that have no resources so they don't block day completion.
+  useEffect(() => {
+    if (!dayProgress || !plan || !resolvedStudentId) return;
+
+    const hasGrammarActions =
+      !!plan.english.grammarPdf ||
+      !!plan.english.grammarQuiz ||
+      !!plan.english.grammarMindmap;
+    if (!hasGrammarActions && !dayProgress.english.grammar) {
+      void markEnglishSection(resolvedStudentId, dayNum, "grammar").then(
+        () => void refreshDayState()
+      );
+    }
+
+    const hasVocabActions =
+      hasDeckForDay("vocab", dayNum) ||
+      hasDeckForDay("idiom", dayNum) ||
+      hasDeckForDay("ows", dayNum);
+    if (!hasVocabActions && !dayProgress.english.vocabulary) {
+      void markEnglishSection(resolvedStudentId, dayNum, "vocabulary").then(
+        () => void refreshDayState()
+      );
+    }
+
+    const hasComprehensionActions =
+      hasComprehensionForDay(dayNum) || !!plan.english.comprehensionPdf;
+    if (!hasComprehensionActions && !dayProgress.english.comprehension) {
+      void markEnglishSection(resolvedStudentId, dayNum, "comprehension").then(
+        () => void refreshDayState()
+      );
+    }
+
+    const hasGkMaterialsActions = !!(
+      plan.gk.todayTopicPdf ||
+      plan.gk.todayTopicPdf2 ||
+      plan.gk.todayMindmap ||
+      plan.gk.todayNotes
+    );
+    if (!hasGkMaterialsActions && !dayProgress.gk.materialsCompleted) {
+      void markGkMaterials(resolvedStudentId, dayNum).then(
+        () => void refreshDayState()
+      );
+    }
+  }, [dayNum, dayProgress, plan, resolvedStudentId, refreshDayState]);
+
   const handleUnlockNext = async () => {
     setUnlocking(true);
     await unlockNextDay(resolvedStudentId, dayNum);
@@ -253,8 +298,8 @@ export default function DayPage({
         id: "reasoning",
         label: "Reasoning Practice",
         subtitle: `${formatTopic(plan.reasoning.topic)} · ${plan.reasoning.questions} questions · ${plan.reasoning.duration} min`,
-        kind: "quiz",
-        subject: "reasoning",
+        kind: "quiz" as const,
+        subject: "reasoning" as const,
         completed: dayProgress.reasoning.completed,
         actions: [
           {
@@ -295,8 +340,8 @@ export default function DayPage({
             : plan.english.grammarMindmap
               ? "Grammar PDF + mind map revision"
               : "Grammar PDF notes",
-        kind: "reading",
-        subject: "english",
+        kind: "reading" as const,
+        subject: "english" as const,
         completed: dayProgress.english.grammar,
         actions: [
           ...(plan.english.grammarPdf
@@ -344,8 +389,8 @@ export default function DayPage({
         subtitle: hasAnyDeckForDay(dayNum)
           ? "30 words, idioms & one-word — revise circled cards daily"
           : "Vocabulary cards for this day are being added",
-        kind: "reading",
-        subject: "english",
+        kind: "reading" as const,
+        subject: "english" as const,
         completed: dayProgress.english.vocabulary,
         // Vocabulary is split into three spaced-repetition decks. No PDF or
         // mindmap here — only the three card decks.
@@ -387,8 +432,8 @@ export default function DayPage({
           : isDay1NounFlow
             ? "NOUN basic PDF reading · 20-30 min read time"
             : "Comprehension reading and practice material",
-        kind: "reading",
-        subject: "english",
+        kind: "reading" as const,
+        subject: "english" as const,
         completed: dayProgress.english.comprehension,
         actions: [
           ...(hasComprehensionForDay(dayNum)
@@ -440,8 +485,8 @@ export default function DayPage({
         ]
           .filter(Boolean)
           .join(" + "),
-        kind: "reading",
-        subject: "gk",
+        kind: "reading" as const,
+        subject: "gk" as const,
         completed: dayProgress.gk.materialsCompleted,
         actions: [
           ...(plan.gk.todayTopicPdf
@@ -512,7 +557,7 @@ export default function DayPage({
             },
           ]
         : []),
-    ];
+    ].filter((task) => task.actions.length > 0);
   }, [
     dayNum,
     dayProgress,

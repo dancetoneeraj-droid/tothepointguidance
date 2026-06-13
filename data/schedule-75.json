@@ -33,11 +33,7 @@
       ],
       "english": {
         "grammarPdf": "https://drive.google.com/file/d/1_yYMolzz5qdYnZNO6UDBi9JwUfIIyfAf/view?usp=drive_link",
-        "vocabPdf": "/content/english/day1-vocab.pdf",
-        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
-        "grammarQuiz": "noun",
-        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+        "grammarQuiz": "noun"
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -88,8 +84,6 @@
       ],
       "english": {
         "grammarPdf": "https://drive.google.com/file/d/1_yYMolzz5qdYnZNO6UDBi9JwUfIIyfAf/view?usp=drive_link",
-        "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
         "grammarQuiz": "noun2"
       },
       "reasoning": {
@@ -98,9 +92,6 @@
         "duration": 25
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day2-geography.pdf",
-        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
-        "todayNotes": "/content/gk/day2-geography-notes.pdf",
         "revisionQuiz": "revision",
         "revisionTopic": "Day 1 GK revision",
         "from": 0
@@ -138,8 +129,6 @@
       ],
       "english": {
         "grammarPdf": "https://drive.google.com/file/d/1U4Af9cSK3WwCaYOal8d4QIE_vRbPKcnY/view?usp=drive_link",
-        "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf",
         "grammarQuiz": "pronoun"
       },
       "reasoning": {
@@ -185,14 +174,14 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day4-grammar.pdf",
-        "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "grammarQuiz": "pronoun",
+        "grammarQuizFrom": 25
       },
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 30,
-        "duration": 30
+        "duration": 30,
+        "from": 0
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1IAjm8eWpEsV45i9Mj2lQ4IDJgnx44ETQ/view?usp=drive_link",

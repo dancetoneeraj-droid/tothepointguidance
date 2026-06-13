@@ -100,6 +100,19 @@ export default function QuizPage({
     } else if (subject === "english") {
       questionCount = Math.min(ENGLISH_QUIZ_QUESTIONS, bank.length);
       durationMinutes = ENGLISH_QUIZ_DURATION;
+      if (plan.english.grammarQuizFrom !== undefined) {
+        const slice = resolveQuizSlice(bank, plan.english.grammarQuizFrom, questionCount);
+        return {
+          questions: slice.questions,
+          duration: durationMinutes,
+          count: questionCount,
+          setStart: slice.setStart,
+          storedIndex: plan.english.grammarQuizFrom,
+          sessionId: buildSessionId(subject, topic, day, slice.setStart),
+          subjectLabel: "English",
+          isPartial: slice.isPartial,
+        };
+      }
     } else if (subject === "reasoning") {
       // Primary reasoning topic OR any extra quiz from reasoningQuizzes[].
       const extraCfg = plan.reasoningQuizzes?.find((q) => q.topic === topic);

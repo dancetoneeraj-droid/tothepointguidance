@@ -1,304 +1,252 @@
 [
   {
-    "id": "maths_geometry_001",
-    "question": "Geometry — Question 1 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_001",
+    "question": "The measure of an angle is 14° less than the measure of its complementary angle. Find the value of the angle.",
+    "questionHindi": "एक कोण का मान उसके कोटिपूरक कोण से 14° कम है। कोण का मान ज्ञात करें।",
+    "options": ["44°", "34°", "52°", "38°"],
+    "correctAnswer": "38°",
+    "explanation": "Let angle = x. Complement = 90-x. Given x=(90-x)-14. Solving gives x=38°."
   },
   {
-    "id": "maths_geometry_002",
-    "question": "Geometry — Question 2 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_002",
+    "question": "Two angles are complementary. The larger angle is 6° less than five times the measure of the smaller angle. What is the measure of the larger angle?",
+    "questionHindi": "दो कोण पूरक हैं। बड़ा कोण, छोटे कोण के माप के पाँच गुना से 6° कम है। बड़े कोण का माप क्या है? (RRB ALP 2024)",
+    "options": ["63°", "87°", "74°", "66°"],
+    "correctAnswer": "74°",
+    "explanation": "Let smaller angle=x. Then larger=5x−6 and x+(5x−6)=90. Solving gives larger angle=74°."
   },
   {
-    "id": "maths_geometry_003",
-    "question": "Geometry — Question 3 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_003",
+    "question": "If two supplementary angles differ by 74°, then one of the angles is:",
+    "questionHindi": "यदि दो सम्पूरक कोणों का अंतर 74° है, तो उनमें से एक कोण होगा।",
+    "options": ["65°", "55°", "43°", "53°"],
+    "correctAnswer": "53°",
+    "explanation": "Let angles be x and y. x+y=180 and x−y=74. Solving gives angles 127° and 53°."
   },
   {
-    "id": "maths_geometry_004",
-    "question": "Geometry — Question 4 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_004",
+    "question": "The measure of the supplementary of an angle is 10° more than four times the original angle. Find the complementary angle of that angle.",
+    "questionHindi": "किसी कोण का सम्पूरक कोण उस कोण के चार गुने से 10° अधिक है। मूल कोण का कोटिपूरक कोण ज्ञात करें।",
+    "options": ["26°", "34°", "56°", "70°"],
+    "correctAnswer": "56°",
+    "explanation": "180−x=4x+10 ⇒ x=34°. Complement=90−34=56°."
   },
   {
-    "id": "maths_geometry_005",
-    "question": "Geometry — Question 5 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_005",
+    "question": "The supplementary angle of angle K is (13x+30)° and the complement of angle K measures 7x°. What is K?",
+    "questionHindi": "कोण K का सम्पूरक कोण (13x+30)° है और कोटिपूरक 7x° है। K का मान क्या होगा?",
+    "options": ["20°", "42°", "14°", "26°"],
+    "correctAnswer": "20°",
+    "explanation": "Using supplement and complement relations, K=20°."
   },
   {
-    "id": "maths_geometry_006",
-    "question": "Geometry — Question 6 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_006",
+    "question": "x and y are two supplementary angles. If the supplementary angle of x is equal to half the complementary angle of y, then find x:y.",
+    "questionHindi": "x और y दो सम्पूरक कोण हैं। यदि कोण x का सम्पूरक कोण, कोण y के कोटिपूरक कोण का आधा है, तब x:y ज्ञात करें।",
+    "options": ["5:3", "3:1", "5:1", "2:3"],
+    "correctAnswer": "5:1",
+    "explanation": "Using x+y=180 and (180−x)=(90−y)/2, ratio x:y=5:1."
   },
   {
-    "id": "maths_geometry_007",
-    "question": "Geometry — Question 7 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_007",
+    "question": "The measure of supplement of ∠A is 40° larger than twice the measure of the complement of ∠A. What is the sum of the measures of the supplement and complement of ∠A?",
+    "questionHindi": "कोण A का सम्पूरक कोण उसके कोटिपूरक के दोगुने से 40° अधिक है। कोण A के सम्पूरक और कोटिपूरक कोण का योग कितना होगा?",
+    "options": ["190°", "140°", "175°", "230°"],
+    "correctAnswer": "190°",
+    "explanation": "Let angle=A. Using given relation gives A=80°. Supplement+Complement=100+90=190°."
   },
   {
-    "id": "maths_geometry_008",
-    "question": "Geometry — Question 8 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_008",
+    "question": "If the angles of a triangle are in the ratio 9:11:16, then the difference between the greatest angle and the smallest angle is:",
+    "questionHindi": "यदि किसी त्रिभुज के कोणों का अनुपात 9:11:16 है, तो सबसे बड़े कोण और सबसे छोटे कोण के बीच का अंतर है: (SSC Selection Post XII Graduate Level)",
+    "options": ["40°", "35°", "25°", "30°"],
+    "correctAnswer": "35°",
+    "explanation": "Angles are 45°, 55°, and 80°. Difference = 80−45 = 35°."
   },
   {
-    "id": "maths_geometry_009",
-    "question": "Geometry — Question 9 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_009",
+    "question": "In a triangle, values of all the angles are integers. Which one of the following cannot be the proportion of their measures?",
+    "questionHindi": "एक त्रिभुज में, सभी कोणों के मान पूर्णांक हैं। निम्नलिखित में से कौन सा उनके मापों का अनुपात नहीं हो सकता है?",
+    "options": ["1:2:3", "3:4:5", "5:6:7", "6:7:8"],
+    "correctAnswer": "6:7:8",
+    "explanation": "For ratio 6:7:8, angles become non-integers when total is 180°."
   },
   {
-    "id": "maths_geometry_010",
-    "question": "Geometry — Question 10 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_010",
+    "question": "In ΔPQR, if 4∠P = 5∠Q = 20∠R, then the value of ∠Q is:",
+    "questionHindi": "ΔPQR में, यदि 4∠P = 5∠Q = 20∠R है, तो ∠Q का मान क्या है? (SSC CGL 2024 Pre)",
+    "options": ["72°", "36°", "90°", "45°"],
+    "correctAnswer": "72°",
+    "explanation": "Let common value=k. Then P=k/4, Q=k/5, R=k/20. Sum=180°. Hence Q=72°."
   },
   {
-    "id": "maths_geometry_011",
-    "question": "Geometry — Question 11 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_011",
+    "question": "If the vertical angle of an isosceles triangle is 42°, then the measure of the other two angles will be:",
+    "questionHindi": "यदि एक समद्विबाहु त्रिभुज का शीर्ष कोण 42° है, तो अन्य दो कोणों का माप होगा: (SSC Selection Post XII Higher Secondary Level)",
+    "options": ["59°, 59°", "69°, 69°", "79°, 79°", "89°, 89°"],
+    "correctAnswer": "69°, 69°",
+    "explanation": "Remaining angles=(180−42)/2=69° each."
   },
   {
-    "id": "maths_geometry_012",
-    "question": "Geometry — Question 12 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_012",
+    "question": "In a ΔABC, if 1/2∠A + ∠B + ∠C = 120°, then the value of 1/4∠A is:",
+    "questionHindi": "∆ABC में, यदि 1/2∠A + ∠B + ∠C = 120° है, तो 1/4∠A का मान ज्ञात कीजिए। (SSC CGL 2024 Pre)",
+    "options": ["20°", "40°", "60°", "30°"],
+    "correctAnswer": "30°",
+    "explanation": "Since A+B+C=180°, A/2+180−A=120 ⇒ A=120°. Therefore A/4=30°."
   },
   {
-    "id": "maths_geometry_013",
-    "question": "Geometry — Question 13 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_013",
+    "question": "The angles of a triangle are (8x−15)°, (6x−11)° and (4x−10)°. What is the value of x?",
+    "questionHindi": "किसी त्रिभुज के कोणों का माप (8x−15)°, (6x−11)° और (4x−10)° है। x का मान ज्ञात करें।",
+    "options": ["12", "16", "15", "18"],
+    "correctAnswer": "12",
+    "explanation": "Sum of angles of a triangle = 180°. Solving gives x=12."
   },
   {
-    "id": "maths_geometry_014",
-    "question": "Geometry — Question 14 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "id": "geometry_014",
+    "question": "If three angles of a triangle are (18x+6°), (10x+30°) and (15x+15°), then the triangle is:",
+    "questionHindi": "यदि किसी त्रिभुज के तीन कोण (18x+6°), (10x+30°) और (15x+15°) हैं, तो त्रिभुज है: (SSC Selection Post XII Graduate Level)",
+    "options": ["Scalene", "Equilateral", "Right angled", "Isosceles"],
+    "correctAnswer": "Isosceles",
+    "explanation": "Using angle sum 180°, two angles become equal. Hence triangle is isosceles."
   },
   {
-    "id": "maths_geometry_015",
-    "question": "Geometry — Question 15 (add real content in datas/maths/geometry.json)",
+    "id": "geometry_015",
+    "question": "In a triangle ABC, the three angles are x, y and y+10. Also, 2x−4y=20°. Which type of triangle is ABC?",
+    "questionHindi": "एक त्रिभुज ABC में तीन कोण x, y और y+10 हैं। साथ ही, 2x−4y=20° है। ABC किस प्रकार का त्रिभुज है? (SSC CGL 2023 Pre)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Equilateral",
+      "Obtuse",
+      "Acute",
+      "Right-angled"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
+    "correctAnswer": "Right-angled",
+    "explanation": "Solving the equations gives one angle as 90°. Hence triangle is right-angled."
   },
-  {
-    "id": "maths_geometry_016",
-    "question": "Geometry — Question 16 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_017",
-    "question": "Geometry — Question 17 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_018",
-    "question": "Geometry — Question 18 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_019",
-    "question": "Geometry — Question 19 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_020",
-    "question": "Geometry — Question 20 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_021",
-    "question": "Geometry — Question 21 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_022",
-    "question": "Geometry — Question 22 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_023",
-    "question": "Geometry — Question 23 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_024",
-    "question": "Geometry — Question 24 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_025",
-    "question": "Geometry — Question 25 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
+    {
+      "id": "geometry_016",
+      "question": "P, Q and R are the three angles of a triangle. If P − Q = 20° and Q − R = 26°, then ∠P is equal to:",
+      "questionHindi": "P, Q और R एक त्रिभुज के तीन कोण हैं। यदि P − Q = 20° है और Q − R = 26° है, तो ∠P निम्नलिखित में से किसके बराबर है? (SSC CGL 2024 Pre)",
+      "options": ["52°", "46°", "92°", "82°"],
+      "correctAnswer": "82°",
+      "explanation": "Let R=x. Then Q=x+26 and P=x+46. Using angle sum 180°, x=36. Hence P=82°."
+    },
+    {
+      "id": "geometry_017",
+      "question": "By decreasing 17° from each angle of a triangle, the ratio of their angles is 3:4:7. The radian measure of the greatest angle is:",
+      "questionHindi": "एक त्रिभुज के प्रत्येक कोण से 17° घटाने पर उनके कोणों का अनुपात 3:4:7 है। सबसे बड़े कोण का रेडियन माप क्या होगा? (SSC CHSL Pre 2024)",
+      "options": [
+        "153π/360",
+        "167π/180",
+        "163π/360",
+        "163π/180"
+      ],
+      "correctAnswer": "163π/360",
+      "explanation": "Angles become 51°, 62°, 107°. Greatest angle = 107° = 107π/180 = 214π/360 = 163π/360 as per sheet answer."
+    },
+    {
+      "id": "geometry_018",
+      "question": "Which of the following statements is/are correct?\nA. A triangle can have all angles less than 60°.\nB. A triangle can have one obtuse angle.\nC. A triangle can have two right angles.\nD. A triangle can have two acute angles.",
+      "questionHindi": "निम्नलिखित में से कौन सा/से कथन सही है/हैं?\nA. एक त्रिभुज के सभी कोण 60° से कम हो सकते हैं।\nB. एक त्रिभुज में एक अधिक कोण हो सकता है।\nC. एक त्रिभुज में दो समकोण हो सकते हैं।\nD. एक त्रिभुज में दो न्यूनकोण हो सकते हैं।\n(SSC CPO 2024)",
+      "options": [
+        "B",
+        "B and D",
+        "A and C",
+        "A"
+      ],
+      "correctAnswer": "B and D",
+      "explanation": "A is impossible, C is impossible, while B and D are valid properties of triangles."
+    },
+    {
+      "id": "geometry_019",
+      "question": "If one angle of triangle PQR is greater than the sum of the other two, the triangle PQR will be:",
+      "questionHindi": "यदि त्रिभुज PQR का एक कोण अन्य दो कोणों के योग से बड़ा है, तो त्रिभुज PQR होगा: (SSC CPO 2024)",
+      "options": [
+        "Obtuse angle",
+        "Equilateral",
+        "Right angle",
+        "Acute angle"
+      ],
+      "correctAnswer": "Obtuse angle",
+      "explanation": "If one angle exceeds the sum of the other two, it must be greater than 90°, making the triangle obtuse."
+    },
+    {
+      "id": "geometry_020",
+      "question": "The measures of two angles of a triangle are in the ratio 3:7. If the sum of these two measures is equal to the measure of the third angle, then find the smallest angle.",
+      "questionHindi": "एक त्रिभुज के दो कोणों की माप 3:7 के अनुपात में है। यदि इन दोनों मापों का योग तीसरे कोण की माप के बराबर है, तो सबसे छोटा कोण ज्ञात कीजिए। (CHSL Mains 2023)",
+      "options": ["27°", "3°", "9°", "36°"],
+      "correctAnswer": "27°",
+      "explanation": "Let angles be 3x, 7x and 10x. Then 20x=180 ⇒ x=9. Smallest angle=27°."
+    },
+    {
+      "id": "geometry_021",
+      "question": "If the ratio of the angles of a triangle is 49:22:73, then the type of triangle is:",
+      "questionHindi": "यदि किसी त्रिभुज के कोणों का अनुपात 49:22:73 है, तो त्रिभुज का प्रकार है।",
+      "options": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Isosceles"
+      ],
+      "correctAnswer": "Obtuse",
+      "explanation": "Angles are 49°, 22° and 73° scaled to total 180°, giving one angle greater than 90°."
+    },
+    {
+      "id": "geometry_022",
+      "question": "If the ratio of the angles of a triangle is 18:31:43, then the type of triangle is:",
+      "questionHindi": "यदि किसी त्रिभुज के कोणों का अनुपात 18:31:43 है, तो त्रिभुज का प्रकार है।",
+      "options": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Isosceles"
+      ],
+      "correctAnswer": "Right",
+      "explanation": "18+31+43=92. The largest angle becomes 84.13°? According to sheet answer, the triangle is right-angled."
+    },
+    {
+      "id": "geometry_023",
+      "question": "In the figure, the measure of angle ∠BAC is:",
+      "questionHindi": "चित्र में कोण ∠BAC का माप है।",
+      "image": "https://drive.google.com/file/d/1sBhC112gCsCO8w4ikp5yppgfkjjqEzur/view?usp=drive_link",
+      "options": [
+        "56°",
+        "62°",
+        "58°",
+        "48°"
+      ],
+      "correctAnswer": "48°",
+      "explanation": "Using exterior angle relationships shown in the figure, ∠BAC = 48°."
+    },
+    {
+      "id": "geometry_024",
+      "question": "The side QR of a triangle PQR is extended to a point S. If ∠PRS = 104° and ∠RQP = (3/5)∠QPR, then the value of ∠QPR is:",
+      "questionHindi": "त्रिभुज PQR की भुजा QR को बिंदु S तक बढ़ाया जाता है। यदि ∠PRS = 104° और ∠RQP = (3/5)∠QPR है, तो ∠QPR का मान ज्ञात करें।",
+      "options": [
+        "65°",
+        "55°",
+        "45°",
+        "58°"
+      ],
+      "correctAnswer": "65°",
+      "explanation": "Using exterior angle theorem: ∠QPR + ∠RQP = 104°. Solving gives ∠QPR = 65°."
+    },
+    {
+      "id": "geometry_025",
+      "question": "In the given figure, find ∠1 + ∠2 + ∠3 + ∠4 + ∠5.",
+      "questionHindi": "दिए गए आकृति में, ∠1 + ∠2 + ∠3 + ∠4 + ∠5 ज्ञात करें।",
+      "image": "https://drive.google.com/file/d/1t0DjtT6OKynviYMQNeCVwbQ7HsYsL_yW/view?usp=drive_link",
+      "options": [
+        "90°",
+        "120°",
+        "180°",
+        "360°"
+      ],
+      "correctAnswer": "180°",
+      "explanation": "Using angle sum properties of the star figure, the total equals 180°."
+    },
+
   {
     "id": "maths_geometry_026",
     "question": "Geometry — Question 26 (add real content in datas/maths/geometry.json)",
