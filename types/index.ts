@@ -7,6 +7,8 @@ export interface Question {
   questionHi?: string;
   /** Alias used in some JSON banks. */
   questionHindi?: string;
+  /** Optional figure/diagram image URL (Google Drive share link or direct URL). */
+  image?: string;
   options: string[];
   optionsHi?: string[];
   correctAnswer: string;

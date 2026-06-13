@@ -21,6 +21,15 @@ interface QuizQuestionPanelProps {
 
 const optionLabels = ["A", "B", "C", "D"];
 
+/** Converts a Google Drive share link to a direct-embeddable image URL. */
+function resolveImageUrl(url: string): string {
+  const match = /\/file\/d\/([^/]+)/.exec(url);
+  if (match?.[1]) {
+    return `https://drive.google.com/uc?export=view&id=${match[1]}`;
+  }
+  return url;
+}
+
 export function QuizQuestionPanel({
   question,
   questionNumber,
@@ -83,6 +92,16 @@ export function QuizQuestionPanel({
           <p className="text-[10px] font-semibold uppercase tracking-wider text-zinc-500">
             English
           </p>
+          {question.image ? (
+            <div className="flex justify-center rounded-lg border border-white/10 bg-black/30 p-3">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={resolveImageUrl(question.image)}
+                alt="Question figure"
+                className="max-h-64 w-auto object-contain"
+              />
+            </div>
+          ) : null}
           <p className="text-base sm:text-lg leading-relaxed text-zinc-100 whitespace-pre-wrap">
             {question.question}
           </p>
