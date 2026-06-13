@@ -623,34 +623,6 @@
         "explanation": "'Political fallout' refers to negative consequences or conflict arising from political events, which best fits the passage."
       }
     ]
-  },
-  "parajumble": {
-    "title": "Para Jumbles",
-    "directions": "Each sentence has been split into four parts (P, Q, R, S) given in jumbled order. Select the option that arranges them into a meaningful sentence.",
-    "items": [
-      {
-        "parts": [
-          { "label": "P", "text": "in the fiercely contested final" },
-          { "label": "Q", "text": "Argentina lifted the trophy" },
-          { "label": "R", "text": "after Messi's penalty sealed the victory" },
-          { "label": "S", "text": "against France in Qatar," }
-        ],
-        "options": ["QSPR", "QPSR", "SQPR", "PSQR"],
-        "answer": "QSPR",
-        "explanation": "Q (subject + verb) → S (against whom, where) → P (in which match) → R (how it ended). Reads: 'Argentina lifted the trophy against France in Qatar, in the fiercely contested final after Messi's penalty sealed the victory.'"
-      },
-      {
-        "parts": [
-          { "label": "P", "text": "remains the most-watched sporting event" },
-          { "label": "Q", "text": "drawing billions of viewers" },
-          { "label": "R", "text": "The FIFA World Cup" },
-          { "label": "S", "text": "across all continents," }
-        ],
-        "options": ["RPSQ", "RPQS", "PRSQ", "RSPQ"],
-        "answer": "RPSQ",
-        "explanation": "R (subject) → P (predicate) → S (scope, where) → Q (result/elaboration). Reads: 'The FIFA World Cup remains the most-watched sporting event across all continents, drawing billions of viewers.'"
-      }
-    ]
   }
 }
 }
