@@ -41,7 +41,7 @@ export default function ComprehensionPage({
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [result, setResult] = useState<ScoreResult | null>(null);
 
-  const DURATION = (set?.rc.questions.length ?? 5) <= 5 ? 5 * 60 : 20 * 60;
+  const DURATION = 5 * 60;
   const [timeLeft, setTimeLeft] = useState(DURATION);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -154,12 +154,12 @@ export default function ComprehensionPage({
                 </h1>
                 <p className="mt-1 text-sm text-zinc-400">
                   {[
-                    set.rc.questions.length > 0 && "Reading Comprehension",
+                    set.rc && "Reading Comprehension",
                     set.cloze && "Cloze Test",
                     set.parajumble && "Para Jumbles",
                   ].filter(Boolean).join(" · ")}{" "}
                   · SSC marking +2 / −0.5 ·{" "}
-                  {set.rc.questions.length +
+                  {(set.rc?.questions.length ?? 0) +
                     (set.cloze?.questions.length ?? 0) +
                     (set.parajumble?.items.length ?? 0)}{" "}
                   questions
@@ -178,25 +178,29 @@ export default function ComprehensionPage({
           {submitted && result ? <ScoreCard result={result} /> : null}
 
           {/* Reading Comprehension */}
-          <SectionHeading
-            icon={<BookOpenText className="h-4 w-4" />}
-            title={set.rc.title}
-            directions={set.rc.directions}
-          />
-          <Card className="border-white/10 bg-white/[0.03] p-6">
-            <p className="whitespace-pre-line text-[15px] leading-7 text-zinc-200">
-              {set.rc.passage}
-            </p>
-          </Card>
-          {set.rc.questions.map((q, i) => (
-            <QuestionBlock
-              key={`rc-${i}`}
-              q={q}
-              selected={answers[`rc-${i}`]}
-              submitted={submitted}
-              onSelect={(opt) => select(`rc-${i}`, opt)}
-            />
-          ))}
+          {set.rc && (
+            <>
+              <SectionHeading
+                icon={<BookOpenText className="h-4 w-4" />}
+                title={set.rc.title}
+                directions={set.rc.directions}
+              />
+              <Card className="border-white/10 bg-white/[0.03] p-6">
+                <p className="whitespace-pre-line text-[15px] leading-7 text-zinc-200">
+                  {set.rc.passage}
+                </p>
+              </Card>
+              {set.rc.questions.map((q, i) => (
+                <QuestionBlock
+                  key={`rc-${i}`}
+                  q={q}
+                  selected={answers[`rc-${i}`]}
+                  submitted={submitted}
+                  onSelect={(opt) => select(`rc-${i}`, opt)}
+                />
+              ))}
+            </>
+          )}
 
           {/* Cloze Test */}
           {set.cloze && (
@@ -284,7 +288,7 @@ export default function ComprehensionPage({
                 className="w-full sm:w-auto"
                 onClick={handleSubmit}
               >
-                Submit ({answeredCount}/{set.rc.questions.length +
+                Submit ({answeredCount}/{(set.rc?.questions.length ?? 0) +
                   (set.cloze?.questions.length ?? 0) +
                   (set.parajumble?.items.length ?? 0)}{" "}
                 answered)

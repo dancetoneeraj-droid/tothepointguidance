@@ -40,7 +40,7 @@ export interface ParajumbleSection {
 }
 
 export interface ComprehensionDay {
-  rc: RcSection;
+  rc?: RcSection;
   cloze?: ClozeSection;
   parajumble?: ParajumbleSection;
 }
@@ -67,7 +67,7 @@ export interface FlatQuestion {
 
 export function getFlatQuestions(set: ComprehensionDay): FlatQuestion[] {
   const flat: FlatQuestion[] = [];
-  set.rc.questions.forEach((q, i) => flat.push({ key: `rc-${i}`, answer: q.answer }));
+  set.rc?.questions.forEach((q, i) => flat.push({ key: `rc-${i}`, answer: q.answer }));
   set.cloze?.questions.forEach((q, i) =>
     flat.push({ key: `cloze-${i}`, answer: q.answer })
   );
