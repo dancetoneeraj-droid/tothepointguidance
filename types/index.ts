@@ -29,6 +29,8 @@ export interface EnglishConfig {
   grammarMindmap?: string;
   vocabNotes?: string;
   grammarQuiz?: string;
+  /** Fixed 0-based start index in the grammar question bank. When set, ignores progressive stored index. */
+  grammarQuizFrom?: number;
   comprehensionQuiz?: string;
 }
 
