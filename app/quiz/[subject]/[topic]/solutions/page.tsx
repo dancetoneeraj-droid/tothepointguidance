@@ -149,6 +149,8 @@ export default function QuizSolutionsPage({
             {questions.map((question, index) => {
               const selectedAnswer = data.answers[question.id];
               const status = getReviewStatus(question, data.answers);
+              const showPassage =
+                question.passage != null && question.passageIndex === 1;
               const badge =
                 status === "correct"
                   ? {
@@ -170,8 +172,19 @@ export default function QuizSolutionsPage({
               const StatusIcon = badge.icon;
 
               return (
+                <div key={question.id}>
+                  {showPassage && (
+                    <div className="mb-2 rounded-xl border border-amber-500/20 bg-amber-500/5 p-4 sm:p-5">
+                      <p className="text-[10px] font-semibold uppercase tracking-wider text-amber-400 mb-2">
+                        Passage — Questions {index + 1}–
+                        {index + (question.passageTotal ?? 1)}
+                      </p>
+                      <p className="text-sm leading-relaxed text-zinc-200 whitespace-pre-wrap">
+                        {question.passage}
+                      </p>
+                    </div>
+                  )}
                 <Card
-                  key={question.id}
                   className="overflow-hidden border-white/10 bg-[#121218]/90"
                 >
                   <div className="border-b border-white/10 bg-white/[0.03] px-5 py-4 sm:px-6">
@@ -257,6 +270,7 @@ export default function QuizSolutionsPage({
                     </div>
                   </div>
                 </Card>
+                </div>
               );
             })}
           </div>

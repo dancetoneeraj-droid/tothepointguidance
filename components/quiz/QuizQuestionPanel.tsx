@@ -88,9 +88,22 @@ export function QuizQuestionPanel({
       </div>
 
       <div className="flex-1 overflow-y-auto px-4 sm:px-6 py-5">
+        {question.passage ? (
+          <div className="mb-4 rounded-xl border border-amber-500/20 bg-amber-500/5 p-4 sm:p-5">
+            <p className="text-[10px] font-semibold uppercase tracking-wider text-amber-400 mb-2">
+              Passage
+              {question.passageTotal
+                ? ` — Q ${question.passageIndex} of ${question.passageTotal}`
+                : ""}
+            </p>
+            <p className="text-sm sm:text-base leading-relaxed text-zinc-200 whitespace-pre-wrap">
+              {question.passage}
+            </p>
+          </div>
+        ) : null}
         <div className="space-y-3 rounded-xl border border-white/5 bg-[#0a0a0f]/80 p-4 sm:p-5">
           <p className="text-[10px] font-semibold uppercase tracking-wider text-zinc-500">
-            English
+            {subjectLabel}
           </p>
           {question.image ? (
             <div className="flex justify-center rounded-lg border border-white/10 bg-black/30 p-3">

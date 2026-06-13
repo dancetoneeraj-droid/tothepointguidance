@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sa_set_001",
+    "passage": "A, B, C, D, and E are seated in a straight row facing North (not necessarily in the same order). A sits to the immediate right of B. D sits at the extreme right end. C is the immediate neighbour of both B and E.",
+    "questions": [
+      {
+        "question": "Who sits at the extreme left end?",
+        "options": ["A", "B", "C", "E"],
+        "correctAnswer": "E",
+        "explanation": "Working out the arrangement: D is at extreme right (pos 5). A is immediately right of B. C is immediate neighbour of both B and E. Only valid arrangement: E-C-B-A-D. So E sits at the extreme left."
+      },
+      {
+        "question": "Who sits in the middle (3rd position)?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "B",
+        "explanation": "The arrangement is E-C-B-A-D (left to right). The middle (3rd) position is occupied by B."
+      },
+      {
+        "question": "Who sits immediately to the left of D?",
+        "options": ["A", "B", "C", "E"],
+        "correctAnswer": "A",
+        "explanation": "The arrangement is E-C-B-A-D. D is at pos 5 (extreme right), so A at pos 4 is immediately to its left."
+      },
+      {
+        "question": "How many persons sit between C and A?",
+        "options": ["0", "1", "2", "3"],
+        "correctAnswer": "1",
+        "explanation": "Arrangement: E-C-B-A-D. C is at pos 2, A is at pos 4. One person (B) sits between them."
+      },
+      {
+        "question": "Who sits immediately to the right of E?",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "C",
+        "explanation": "Arrangement: E-C-B-A-D. E is at pos 1, C is at pos 2. C sits immediately to the right of E."
+      }
+    ]
+  },
+  {
+    "id": "sa_set_002",
+    "passage": "Six people P, Q, R, S, T, and U are sitting in a row facing North. Q sits third from the left end. P sits to the immediate right of Q. Only two persons sit between P and T. S sits to the immediate left of R. U is not an immediate neighbour of P.",
+    "questions": [
+      {
+        "question": "Who sits at the extreme right end?",
+        "options": ["P", "R", "S", "T"],
+        "correctAnswer": "R",
+        "explanation": "Q is at pos 3; P (immediate right of Q) is at pos 4. T must be 2 positions from P → T at pos 1 or pos 7 (invalid), so T at pos 1. S is immediately left of R, U is not adjacent to P. Remaining positions 2,5,6 for U,S,R: S-R must be adjacent → S at pos 5, R at pos 6. U at pos 2. Arrangement: T-U-Q-P-S-R. R is at extreme right."
+      },
+      {
+        "question": "Who sits second from the left end?",
+        "options": ["P", "Q", "S", "U"],
+        "correctAnswer": "U",
+        "explanation": "Arrangement: T-U-Q-P-S-R. U is at the 2nd position from the left."
+      },
+      {
+        "question": "How many persons sit between Q and S?",
+        "options": ["0", "1", "2", "3"],
+        "correctAnswer": "1",
+        "explanation": "Arrangement: T-U-Q-P-S-R. Q is at pos 3 and S is at pos 5. Only P (pos 4) sits between them."
+      },
+      {
+        "question": "Who is the immediate neighbour of both U and P?",
+        "options": ["T", "Q", "S", "R"],
+        "correctAnswer": "Q",
+        "explanation": "Arrangement: T-U-Q-P-S-R. Q at pos 3 has U (pos 2) on its left and P (pos 4) on its right."
+      },
+      {
+        "question": "What is the position of T from the right end?",
+        "options": ["1st", "3rd", "5th", "6th"],
+        "correctAnswer": "6th",
+        "explanation": "Arrangement: T-U-Q-P-S-R. T is at pos 1 from the left, which is the 6th position from the right."
+      }
+    ]
+  }
+]

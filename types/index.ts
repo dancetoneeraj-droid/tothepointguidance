@@ -14,6 +14,12 @@ export interface Question {
   correctAnswer: string;
   explanation?: string;
   explanationHi?: string;
+  /** Shared passage/scenario text for set-based questions (e.g. seating arrangement puzzles). */
+  passage?: string;
+  /** 1-based position of this question within its passage group. */
+  passageIndex?: number;
+  /** Total questions sharing this passage. */
+  passageTotal?: number;
 }
 
 export interface MathsQuizConfig {
