@@ -52,7 +52,8 @@ import geometryQuestions from "@/data/maths/geometry.json";
 import numberSystemQuestions from "@/data/maths/number-system.json";
 
 import codingDecodingQuestions from "@/data/reasoning/coding-decoding.json";
-import puzzleRaw from "@/data/reasoning/puzzle.json";
+import puzzleQuestions from "@/data/reasoning/puzzle.json";
+import seatingArrangementRaw from "@/data/reasoning/seating-arrangement.json";
 import analogyQuestions from "@/data/reasoning/analogy.json";
 import nsQuestionsRaw from "@/data/reasoning/ns.json";
 
@@ -127,7 +128,8 @@ const MATHS_BANKS: Record<string, Question[]> = {
 
 const REASONING_BANKS: Record<string, Question[]> = {
   "coding-decoding": codingDecodingQuestions as Question[],
-  puzzle: flattenPuzzleSets(puzzleRaw as RawPuzzleSet[]),
+  puzzle: puzzleQuestions as Question[],
+  "seating-arrangement": flattenPuzzleSets(seatingArrangementRaw as RawPuzzleSet[]),
   analogy: analogyQuestions as Question[],
   ns: normalizeLetterAnswerQuestions(
     nsQuestionsRaw as RawLetterBasedQuestion[],
