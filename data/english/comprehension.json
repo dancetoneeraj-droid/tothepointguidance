@@ -586,69 +586,71 @@
   "explanation": "The passage states that four-time winner Italy is absent for a 'third straight occasion', implying three consecutive failures to qualify."
   }
   ]
-  }
   },
-    "cloze": {
+  "cloze": {
     "title": "Cloze Test",
     "directions": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. Choose the correct answer for each question.",
-    "passage": "Twenty three Opposition parties aligned under the banner of the INDIA bloc met in the national capital against the backdrop of economic distress, inflation and chaos in the educational sector. The bloc resolved to write to the Chief Justice of India over concerns of electoral fraud and vote (1)******. It also demanded the immediate resignation of the Union Education Minister and called upon the government to convene an all-party meeting to address the deepening economic crisis, farm distress and price (2)******. The parties agreed to hold coordination meetings every two months and committed to daily parliamentary coordination during sessions. These decisions signal a collective (3)______ to press the ruling party on governance failures and maintain Opposition unity. However, the meeting followed evident (4)______ within the alliance that surfaced during recent Assembly elections. The absence of the DMK further highlighted internal tensions after a bitter political (5)______ in Tamil Nadu.",
+    "passage": "Twenty three Opposition parties aligned under the banner of the INDIA bloc met in the national capital against the backdrop of economic distress, inflation and chaos in the educational sector. The bloc resolved to write to the Chief Justice of India over concerns of electoral fraud and vote (1)______. It also demanded the immediate resignation of the Union Education Minister and called upon the government to convene an all-party meeting to address the deepening economic crisis, farm distress and price (2)______. The parties agreed to hold coordination meetings every two months and committed to daily parliamentary coordination during sessions. These decisions signal a collective (3)______ to press the ruling party on governance failures and maintain Opposition unity. However, the meeting followed evident (4)______ within the alliance that surfaced during recent Assembly elections. The absence of the DMK further highlighted internal tensions after a bitter political (5)______ in Tamil Nadu.",
     "questions": [
-    {
-    "question": "Blank (1):",
-    "options": [
-    "manipulation",
-    "formation",
-    "prediction",
-    "expansion"
-    ],
-    "answer": "manipulation",
-    "explanation": "The phrase 'electoral fraud and vote manipulation' is contextually correct. The other options do not fit the idea of electoral malpractice."
-    },
-    {
-    "question": "Blank (2):",
-    "options": [
-    "reduction",
-    "stability",
-    "rise",
-    "collapse"
-    ],
-    "answer": "rise",
-    "explanation": "'Price rise' is a standard expression referring to inflation. The other options contradict the context."
-    },
-    {
-    "question": "Blank (3):",
-    "options": [
-    "resolve",
-    "hesitation",
-    "ignorance",
-    "indifference"
-    ],
-    "answer": "resolve",
-    "explanation": "'Collective resolve' means a firm determination, which fits the context of coordinated political action."
-    },
-    {
-    "question": "Blank (4):",
-    "options": [
-    "alliances",
-    "fissures",
-    "achievements",
-    "opportunities"
-    ],
-    "answer": "fissures",
-    "explanation": "'Fissures' means divisions or cracks within a group, matching the context of internal disagreements."
-    },
-    {
-    "question": "Blank (5):",
-    "options": [
-    "breakthrough",
-    "understanding",
-    "fallout",
-    "settlement"
-    ],
-    "answer": "fallout",
-    "explanation": "'Political fallout' refers to negative consequences or conflict arising from political events, which best fits the passage."
-    }
+      {
+        "question": "Blank (1):",
+        "options": ["manipulation", "formation", "prediction", "expansion"],
+        "answer": "manipulation",
+        "explanation": "The phrase 'electoral fraud and vote manipulation' is contextually correct. The other options do not fit the idea of electoral malpractice."
+      },
+      {
+        "question": "Blank (2):",
+        "options": ["reduction", "stability", "rise", "collapse"],
+        "answer": "rise",
+        "explanation": "'Price rise' is a standard expression referring to inflation. The other options contradict the context."
+      },
+      {
+        "question": "Blank (3):",
+        "options": ["resolve", "hesitation", "ignorance", "indifference"],
+        "answer": "resolve",
+        "explanation": "'Collective resolve' means a firm determination, which fits the context of coordinated political action."
+      },
+      {
+        "question": "Blank (4):",
+        "options": ["alliances", "fissures", "achievements", "opportunities"],
+        "answer": "fissures",
+        "explanation": "'Fissures' means divisions or cracks within a group, matching the context of internal disagreements."
+      },
+      {
+        "question": "Blank (5):",
+        "options": ["breakthrough", "understanding", "fallout", "settlement"],
+        "answer": "fallout",
+        "explanation": "'Political fallout' refers to negative consequences or conflict arising from political events, which best fits the passage."
+      }
     ]
-    }
-    
-  } 
+  },
+  "parajumble": {
+    "title": "Para Jumbles",
+    "directions": "Each sentence has been split into four parts (P, Q, R, S) given in jumbled order. Select the option that arranges them into a meaningful sentence.",
+    "items": [
+      {
+        "parts": [
+          { "label": "P", "text": "in the fiercely contested final" },
+          { "label": "Q", "text": "Argentina lifted the trophy" },
+          { "label": "R", "text": "after Messi's penalty sealed the victory" },
+          { "label": "S", "text": "against France in Qatar," }
+        ],
+        "options": ["QSPR", "QPSR", "SQPR", "PSQR"],
+        "answer": "QSPR",
+        "explanation": "Q (subject + verb) → S (against whom, where) → P (in which match) → R (how it ended). Reads: 'Argentina lifted the trophy against France in Qatar, in the fiercely contested final after Messi's penalty sealed the victory.'"
+      },
+      {
+        "parts": [
+          { "label": "P", "text": "remains the most-watched sporting event" },
+          { "label": "Q", "text": "drawing billions of viewers" },
+          { "label": "R", "text": "The FIFA World Cup" },
+          { "label": "S", "text": "across all continents," }
+        ],
+        "options": ["RPSQ", "RPQS", "PRSQ", "RSPQ"],
+        "answer": "RPSQ",
+        "explanation": "R (subject) → P (predicate) → S (scope, where) → Q (result/elaboration). Reads: 'The FIFA World Cup remains the most-watched sporting event across all continents, drawing billions of viewers.'"
+      }
+    ]
+  }
+}
+}
