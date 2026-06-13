@@ -598,6 +598,305 @@
           ],
           "correctAnswer": "whom the",
           "explanation": "Replace 'whom' with 'who' because 'the next speaker' is the subject."
+        },
+        {
+          "id": "pronoun_051",
+          "question": "You are the man who have spoiled it.",
+          "options": [
+            "You are the man",
+            "who have",
+            "spoiled it",
+            "No error"
+          ],
+          "correctAnswer": "who have",
+          "explanation": "Replace 'have' with 'has' because the antecedent 'man' is singular."
+        },
+        {
+          "id": "pronoun_052",
+          "question": "I and my wife were declared the best couple at the party.",
+          "options": [
+            "I and my wife",
+            "were declared",
+            "the best couple at the party",
+            "No error"
+          ],
+          "correctAnswer": "I and my wife",
+          "explanation": "Replace 'I and my wife' with 'my wife and I' as pronouns follow the order 231."
+        },
+        {
+          "id": "pronoun_053",
+          "question": "I remember him as someone who was a lot nicer than circumstances warranted.",
+          "options": [
+            "I remember him as",
+            "someone who was a lot nicer",
+            "than circumstances warranted",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "The sentence is grammatically correct."
+        },
+        {
+          "id": "pronoun_054",
+          "question": "One should keep his word.",
+          "options": [
+            "One",
+            "should keep",
+            "his word",
+            "No error"
+          ],
+          "correctAnswer": "his word",
+          "explanation": "Replace 'his' with 'one's' because the subject is 'one'."
+        },
+        {
+          "id": "pronoun_055",
+          "question": "The boy which money was lost felt sorry.",
+          "options": [
+            "The boy",
+            "which money",
+            "was lost felt sorry",
+            "No error"
+          ],
+          "correctAnswer": "which money",
+          "explanation": "Replace 'which' with 'whose' because possession for persons takes 'whose'."
+        },
+        {
+          "id": "pronoun_056",
+          "question": "Roger dressed in is best shirt, silver tie and black jacket.",
+          "options": [
+            "Roger dressed",
+            "in is best shirt",
+            "silver tie and black jacket",
+            "No error"
+          ],
+          "correctAnswer": "in is best shirt",
+          "explanation": "Replace 'is' with 'his'."
+        },
+        {
+          "id": "pronoun_057",
+          "question": "Me and my friend have started working on a summer project which was approved by our teacher.",
+          "options": [
+            "Me and my friend",
+            "have started working on a summer project",
+            "which was approved",
+            "No error"
+          ],
+          "correctAnswer": "Me and my friend",
+          "explanation": "Replace 'Me and my friend' with 'My friend and I'."
+        },
+        {
+          "id": "pronoun_058",
+          "question": "The teachers, who I worked with, were very insensitive towards children's needs.",
+          "options": [
+            "The teachers, who I worked with",
+            "were very insensitive",
+            "towards children's needs",
+            "No error"
+          ],
+          "correctAnswer": "The teachers, who I worked with",
+          "explanation": "Replace 'who' with 'whom' because it is the object of the preposition."
+        },
+        {
+          "id": "pronoun_059",
+          "question": "We take security very seriously and we want to keep you in the loop on important actions in our account.",
+          "options": [
+            "We take security very seriously and",
+            "we want to keep you in the loop on",
+            "important actions in our account",
+            "No error"
+          ],
+          "correctAnswer": "important actions in our account",
+          "explanation": "Replace 'our' with 'your' because the information relates to the listener's account."
+        },
+        {
+          "id": "pronoun_060",
+          "question": "Last week I made a list of 10 classics those make for great reads and a few of my son's favourites.",
+          "options": [
+            "Last week I made a list of 10 classics",
+            "those make for great reads and a",
+            "few of my son's favourites",
+            "No error"
+          ],
+          "correctAnswer": "those make for great reads and a",
+          "explanation": "Replace 'those' with 'that' or 'which'."
+        },
+        {
+          "id": "pronoun_061",
+          "question": "Our professor taught us that one should respect the religions of others as much as his own.",
+          "options": [
+            "Our professor taught us that",
+            "one should respect the",
+            "religions of others as much as his own",
+            "No error"
+          ],
+          "correctAnswer": "religions of others as much as his own",
+          "explanation": "Replace 'his' with 'one's' because the subject is 'one'."
+        },
+        {
+          "id": "pronoun_062",
+          "question": "During India's struggle for freedom many brilliant students gave up their studies by Bhagat Singh's call.",
+          "options": [
+            "During India's struggle for",
+            "freedom many brilliant students",
+            "gave up their studies by Bhagat Singh's call",
+            "No error"
+          ],
+          "correctAnswer": "gave up their studies by Bhagat Singh's call",
+          "explanation": "Replace 'by' with 'on'. The correct phrase is 'on Bhagat Singh's call'."
+        },
+        {
+          "id": "pronoun_063",
+          "question": "Madhuri and I have done my work patiently and diligently just for our safe and secure future.",
+          "options": [
+            "Madhuri and I have done my",
+            "work patiently and diligently",
+            "just for our safe and secure future",
+            "No error"
+          ],
+          "correctAnswer": "Madhuri and I have done my",
+          "explanation": "Replace 'my' with 'our' because the subject is plural."
+        },
+        {
+          "id": "pronoun_064",
+          "question": "This container is full with water so I can't carry it for a long distance at one go.",
+          "options": [
+            "This container is full with water",
+            "so I can't carry it for a",
+            "long distance at one go",
+            "No error"
+          ],
+          "correctAnswer": "This container is full with water",
+          "explanation": "Replace 'with' with 'of'. The correct expression is 'full of'."
+        },
+        {
+          "id": "pronoun_065",
+          "question": "Mr. Mukesh Bhatnagar our colleague he will attend the meeting on our behalf.",
+          "options": [
+            "Mr. Mukesh Bhatnagar our",
+            "colleague he will attend",
+            "the meeting on our behalf",
+            "No error"
+          ],
+          "correctAnswer": "colleague he will attend",
+          "explanation": "Remove 'he' because it is redundant after the noun subject."
+        },
+        {
+          "id": "pronoun_066",
+          "question": "The CEO has decided to visit all the departments of the office tomorrow evening to review of the situation.",
+          "options": [
+            "The CEO has decided to visit all the",
+            "departments of the office tomorrow",
+            "evening to review of the situation",
+            "No error"
+          ],
+          "correctAnswer": "evening to review of the situation",
+          "explanation": "Remove 'of' after 'review'."
+        },
+        {
+          "id": "pronoun_067",
+          "question": "Neha is a very good fashion designer but her designs are not easily accessible with the public.",
+          "options": [
+            "Neha is a very good fashion",
+            "designer but her designs are not",
+            "easily accessible with the public",
+            "No error"
+          ],
+          "correctAnswer": "easily accessible with the public",
+          "explanation": "Use 'to' after 'accessible'."
+        },
+        {
+          "id": "pronoun_068",
+          "question": "Dr. APJ Abdul Kalam's life was a sage of dedication in the cause of educational reforms in India.",
+          "options": [
+            "Dr. APJ Abdul Kalam's life was a",
+            "sage of dedication in the",
+            "cause of educational reforms in India",
+            "No error"
+          ],
+          "correctAnswer": "sage of dedication in the",
+          "explanation": "Replace 'in' with 'for'."
+        },
+        {
+          "id": "pronoun_069",
+          "question": "When the professors are on strike and a notice of this effect is pasted on the university gate there is no sense to go there.",
+          "options": [
+            "When the professors are on strike",
+            "and a notice of this effect is pasted on the university gate",
+            "there is no sense to go there",
+            "No error"
+          ],
+          "correctAnswer": "there is no sense to go there",
+          "explanation": "Use 'in going' instead of 'to go'."
+        },
+        {
+          "id": "pronoun_070",
+          "question": "I insisted but neither Praveen or his friend Bharat is ready to work on holiday.",
+          "options": [
+            "I insisted but neither Praveen or his",
+            "friend Bharat is ready",
+            "to work on holiday",
+            "No error"
+          ],
+          "correctAnswer": "I insisted but neither Praveen or his",
+          "explanation": "Replace 'or' with 'nor'. The correct pair is 'neither...nor'."
+        },
+        {
+          "id": "pronoun_071",
+          "question": "Ayesha is among the few people in the office which did not blindly follow the path of other.",
+          "options": [
+            "Ayesha is among the few people",
+            "in the office which did not",
+            "blindly follow the path of other",
+            "No error"
+          ],
+          "correctAnswer": "in the office which did not",
+          "explanation": "Replace 'which' with 'who' because it refers to people."
+        },
+        {
+          "id": "pronoun_072",
+          "question": "The scientists found that leopards tend to hoist prey that are between half and one-and-a-half times it's own weight.",
+          "options": [
+            "The scientists found that",
+            "leopards tend to hoist prey",
+            "that are between half and one-and-a-half times it's own weight",
+            "No error"
+          ],
+          "correctAnswer": "that are between half and one-and-a-half times it's own weight",
+          "explanation": "Replace 'it's' with 'their'."
+        },
+        {
+          "id": "pronoun_073",
+          "question": "Can you tell me the name of the person whom wrote the book?",
+          "options": [
+            "Can you tell me",
+            "the name of the person",
+            "whom wrote the book",
+            "No error"
+          ],
+          "correctAnswer": "whom wrote the book",
+          "explanation": "Replace 'whom' with 'who' because it is the subject of the verb."
+        },
+        {
+          "id": "pronoun_074",
+          "question": "My sister and myself are pleased to accept your invitation to dinner.",
+          "options": [
+            "My sister and myself",
+            "are pleased",
+            "to accept",
+            "your invitation to dinner"
+          ],
+          "correctAnswer": "My sister and myself",
+          "explanation": "Replace 'myself' with 'I' because a reflexive pronoun cannot be used as a subject."
+        },
+        {
+          "id": "pronoun_075",
+          "question": "It was him who was responsible for this mishap that took place yesterday.",
+          "options": [
+            "for this mishap",
+            "It was him",
+            "that took place",
+            "who was responsible"
+          ],
+          "correctAnswer": "It was him",
+          "explanation": "Replace 'him' with 'he'. After 'It was', a nominative pronoun is used."
         }
-   
 ]
