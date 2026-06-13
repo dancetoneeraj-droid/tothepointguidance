@@ -523,5 +523,132 @@
     }
   ]
 }
-}
-}
+},
+"5": {
+  "rc": {
+  "title": "Reading Comprehension",
+  "directions": "Read the following passage carefully and answer the questions that follow. Choose the most appropriate option.",
+  "passage": "No showpiece event of a sport has lived up to its billing quite like the FIFA World Cup. The 2026 edition, which kicks off on Thursday, offers proof. With 48 teams and 104 matches, it is the biggest ever. With roughly one in four FIFA member nations qualifying, and six of the seven continents represented, it is the most inclusive yet. From Oceania to North America, it wraps the whole universe. It is also the first time that three countries will be hosting the quadrennial extravaganza — the United States, Canada and Mexico. Top players in Lionel Messi, Cristiano Ronaldo and Neymar have touched down, and so have coaches such as Carlo Ancelotti and Thomas Tuchel. While Messi will aim for a repeat of Argentina’s trophy-winning exploits from 2022, Ronaldo will gun for Portugal’s first. Neymar, yet to win the coveted Cup, has a very heavy cross to bear, for he comes from the land of Pele and five-time champion Brazil. Kylian Mbappe’s France, titlist in 2018 and runner-up in 2022, remains strong. Spain, with the irresistible teenager Lamine Yamal in its ranks, is a favourite, and so are Germany and England to a lesser degree. But four-time winner Italy is absent, for a scarcely believable third straight occasion.",
+  "questions": [
+  {
+  "question": "Q1. According to the passage, what makes the FIFA World Cup 2026 the most inclusive edition till date?",
+  "options": [
+  "It is being hosted by three countries",
+  "It has 48 teams, with nearly one-fourth FIFA nations qualifying and six continents represented",
+  "It includes legendary players and coaches",
+  "It features the highest number of matches in World Cup history"
+  ],
+  "answer": "It has 48 teams, with nearly one-fourth FIFA nations qualifying and six continents represented",
+  "explanation": "The passage specifically states that the 2026 World Cup is the most inclusive because roughly one in four FIFA member nations qualify and six of the seven continents are represented."
+  },
+  {
+  "question": "Q2. Which of the following statements is TRUE according to the passage?",
+  "options": [
+  "Italy has qualified for the 2026 FIFA World Cup.",
+  "Portugal has previously won the FIFA World Cup.",
+  "The 2026 FIFA World Cup will be hosted by the United States, Canada and Mexico.",
+  "Neymar has already won a FIFA World Cup with Brazil."
+  ],
+  "answer": "The 2026 FIFA World Cup will be hosted by the United States, Canada and Mexico.",
+  "explanation": "The passage clearly mentions that for the first time three countries — the United States, Canada and Mexico — will jointly host the tournament."
+  },
+  {
+  "question": "Q3. The phrase 'a very heavy cross to bear' as used in the passage most nearly means:",
+  "options": [
+  "A difficult responsibility or burden",
+  "A religious obligation",
+  "A sporting injury",
+  "An opportunity to prove oneself"
+  ],
+  "answer": "A difficult responsibility or burden",
+  "explanation": "The phrase is used to indicate the pressure on Neymar to win the World Cup for Brazil, a nation with a rich footballing legacy."
+  },
+  {
+  "question": "Q4. Why does the author mention Lionel Messi, Cristiano Ronaldo and Neymar in the passage?",
+  "options": [
+  "To compare their club achievements",
+  "To highlight the star power and global appeal of the tournament",
+  "To criticize their recent performances",
+  "To explain the qualification process for the World Cup"
+  ],
+  "answer": "To highlight the star power and global appeal of the tournament",
+  "explanation": "The mention of these world-famous players emphasizes the prestige, popularity and attraction of the FIFA World Cup."
+  },
+  {
+  "question": "Q5. Which of the following can be inferred from the passage?",
+  "options": [
+  "Italy has failed to qualify for the FIFA World Cup for the third consecutive time.",
+  "France is no longer considered a strong team.",
+  "Spain has never won the FIFA World Cup.",
+  "All seven continents are represented in the 2026 World Cup."
+  ],
+  "answer": "Italy has failed to qualify for the FIFA World Cup for the third consecutive time.",
+  "explanation": "The passage states that four-time winner Italy is absent for a 'third straight occasion', implying three consecutive failures to qualify."
+  }
+  ]
+  }
+  },
+    "cloze": {
+    "title": "Cloze Test",
+    "directions": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. Choose the correct answer for each question.",
+    "passage": "Twenty three Opposition parties aligned under the banner of the INDIA bloc met in the national capital against the backdrop of economic distress, inflation and chaos in the educational sector. The bloc resolved to write to the Chief Justice of India over concerns of electoral fraud and vote (1)******. It also demanded the immediate resignation of the Union Education Minister and called upon the government to convene an all-party meeting to address the deepening economic crisis, farm distress and price (2)******. The parties agreed to hold coordination meetings every two months and committed to daily parliamentary coordination during sessions. These decisions signal a collective (3)______ to press the ruling party on governance failures and maintain Opposition unity. However, the meeting followed evident (4)______ within the alliance that surfaced during recent Assembly elections. The absence of the DMK further highlighted internal tensions after a bitter political (5)______ in Tamil Nadu.",
+    "questions": [
+    {
+    "question": "Blank (1):",
+    "options": [
+    "manipulation",
+    "formation",
+    "prediction",
+    "expansion"
+    ],
+    "answer": "manipulation",
+    "explanation": "The phrase 'electoral fraud and vote manipulation' is contextually correct. The other options do not fit the idea of electoral malpractice."
+    },
+    {
+    "question": "Blank (2):",
+    "options": [
+    "reduction",
+    "stability",
+    "rise",
+    "collapse"
+    ],
+    "answer": "rise",
+    "explanation": "'Price rise' is a standard expression referring to inflation. The other options contradict the context."
+    },
+    {
+    "question": "Blank (3):",
+    "options": [
+    "resolve",
+    "hesitation",
+    "ignorance",
+    "indifference"
+    ],
+    "answer": "resolve",
+    "explanation": "'Collective resolve' means a firm determination, which fits the context of coordinated political action."
+    },
+    {
+    "question": "Blank (4):",
+    "options": [
+    "alliances",
+    "fissures",
+    "achievements",
+    "opportunities"
+    ],
+    "answer": "fissures",
+    "explanation": "'Fissures' means divisions or cracks within a group, matching the context of internal disagreements."
+    },
+    {
+    "question": "Blank (5):",
+    "options": [
+    "breakthrough",
+    "understanding",
+    "fallout",
+    "settlement"
+    ],
+    "answer": "fallout",
+    "explanation": "'Political fallout' refers to negative consequences or conflict arising from political events, which best fits the passage."
+    }
+    ]
+    }
+    
+  } 
