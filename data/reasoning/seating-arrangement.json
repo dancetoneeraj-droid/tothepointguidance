@@ -1,73 +1,217 @@
 [
   {
     "id": "sa_set_001",
-    "passage": "A, B, C, D, and E are seated in a straight row facing North (not necessarily in the same order). A sits to the immediate right of B. D sits at the extreme right end. C is the immediate neighbour of both B and E.",
+    "passage": "Eight persons Q, T, K, L, G, W, S and P are sitting in a row facing north but not necessarily in the same order. Three persons sit between L and W. S sits immediate left of L. Only one person sits between G and T. G does not sit at any of the extreme end. More than three persons sit between P and Q. Q sits left of P. Either P or Q sits at one of the end. Neither L nor W sits at any of the extreme end. G and T is not an immediate neighbour of S and L. G sits right of T.",
+    "passageHindi": "आठ व्यक्ति Q, T, K, L, G, W, S और P उत्तर दिशा की ओर मुख करके एक पंक्ति में बैठे हैं, लेकिन आवश्यक नहीं कि इसी क्रम में हों। L और W के बीच तीन व्यक्ति बैठे हैं। S, L के ठीक बाईं ओर बैठा है। G और T के बीच केवल एक व्यक्ति बैठा है। G किसी भी छोर पर नहीं बैठा है। P और Q के बीच तीन से अधिक व्यक्ति बैठे हैं। Q, P के बाईं ओर बैठा है। P या Q में से कोई एक छोर पर बैठा है। L और W में से कोई भी छोर पर नहीं बैठा है। G और T, S तथा L के निकटतम पड़ोसी नहीं हैं। G, T के दाईं ओर बैठा है।",
     "questions": [
       {
-        "question": "Who sits at the extreme left end?",
-        "options": ["A", "B", "C", "E"],
-        "correctAnswer": "E",
-        "explanation": "Working out the arrangement: D is at extreme right (pos 5). A is immediately right of B. C is immediate neighbour of both B and E. Only valid arrangement: E-C-B-A-D. So E sits at the extreme left."
+        "question": "How many persons sit between P and K?",
+        "questionHindi": "P और K के बीच कितने व्यक्ति बैठे हैं?",
+        "options": [
+          "None",
+          "One",
+          "Two",
+          "Three",
+          "None of these"
+        ],
+        "correctAnswer": "Three",
+        "explanation": "Final arrangement is S L Q K T W G P. There are three persons (T, W, G) between K and P."
       },
       {
-        "question": "Who sits in the middle (3rd position)?",
-        "options": ["A", "B", "C", "D"],
-        "correctAnswer": "B",
-        "explanation": "The arrangement is E-C-B-A-D (left to right). The middle (3rd) position is occupied by B."
+        "question": "Which of the following person sits second to the right of L?",
+        "questionHindi": "निम्नलिखित में से कौन L के दाईं ओर दूसरे स्थान पर बैठा है?",
+        "options": [
+          "S",
+          "Q",
+          "K",
+          "T",
+          "None of these"
+        ],
+        "correctAnswer": "K",
+        "explanation": "Arrangement: S L Q K T W G P. Second to the right of L is K."
       },
       {
-        "question": "Who sits immediately to the left of D?",
-        "options": ["A", "B", "C", "E"],
-        "correctAnswer": "A",
-        "explanation": "The arrangement is E-C-B-A-D. D is at pos 5 (extreme right), so A at pos 4 is immediately to its left."
+        "question": "Four of the following five are alike in a certain way and hence they form a group. Which one of the following does not belong to that group?",
+        "questionHindi": "निम्नलिखित पाँच में से चार किसी प्रकार से समान हैं और एक समूह बनाते हैं। इनमें से कौन उस समूह में नहीं आता है?",
+        "options": [
+          "K",
+          "T",
+          "W",
+          "G",
+          "S"
+        ],
+        "correctAnswer": "S",
+        "explanation": "In the final arrangement, K, T, W and G occupy consecutive middle positions, while S is at the extreme left end."
       },
       {
-        "question": "How many persons sit between C and A?",
-        "options": ["0", "1", "2", "3"],
-        "correctAnswer": "1",
-        "explanation": "Arrangement: E-C-B-A-D. C is at pos 2, A is at pos 4. One person (B) sits between them."
+        "question": "Which of the following persons sits fourth from the right end?",
+        "questionHindi": "निम्नलिखित में से कौन दाएँ छोर से चौथे स्थान पर बैठा है?",
+        "options": [
+          "T",
+          "G",
+          "K",
+          "Q",
+          "None of these"
+        ],
+        "correctAnswer": "T",
+        "explanation": "Arrangement: S L Q K T W G P. Counting from the right end, T is fourth."
       },
       {
-        "question": "Who sits immediately to the right of E?",
-        "options": ["A", "B", "C", "D"],
-        "correctAnswer": "C",
-        "explanation": "Arrangement: E-C-B-A-D. E is at pos 1, C is at pos 2. C sits immediately to the right of E."
+        "question": "If S is related to Q, W is related to P, in the same way Q is related to which of the following?",
+        "questionHindi": "यदि S का संबंध Q से है और W का संबंध P से है, तो उसी प्रकार Q का संबंध निम्नलिखित में से किससे है?",
+        "options": [
+          "W",
+          "T",
+          "G",
+          "Cannot be determined",
+          "None of these"
+        ],
+        "correctAnswer": "T",
+        "explanation": "S and Q are separated by one person. Similarly, W and P are separated by one person. Q and T are also separated by one person."
       }
     ]
   },
   {
     "id": "sa_set_002",
-    "passage": "Six people P, Q, R, S, T, and U are sitting in a row facing North. Q sits third from the left end. P sits to the immediate right of Q. Only two persons sit between P and T. S sits to the immediate left of R. U is not an immediate neighbour of P.",
+    "passage": "Eight persons P, Q, R, S, T, U, V and W are sitting in a row but not necessarily in the same order. Some of them are facing north and some of them are facing south. Note: Facing the same direction means, if one is facing north then the other also faces north and vice versa. Facing the opposite directions means, if one is facing north then the other faces south and vice versa. Person names that start with consecutive alphabets do not sit next to each other.\n\nR sits third to the right of W. T sits fifth to the left of R. Neither R nor T sits at any of the extreme ends. Q sits second to the right of S. S faces north. S and T are not immediate neighbours. More than three persons sit between V and P. P and R are not immediate neighbours. Immediate neighbours of S as well as Q face the same direction. Not more than two persons facing same direction sit next to each other. Person sitting at an extreme end faces same direction. V does not face the same direction as W.",
+    "passageHindi": "आठ व्यक्ति P, Q, R, S, T, U, V और W एक पंक्ति में बैठे हैं, लेकिन आवश्यक नहीं कि इसी क्रम में हों। उनमें से कुछ उत्तर की ओर तथा कुछ दक्षिण की ओर मुख करके बैठे हैं। नोट: समान दिशा का अर्थ है कि यदि एक व्यक्ति उत्तर की ओर मुख करके बैठा है तो दूसरा भी उत्तर की ओर मुख करेगा और इसके विपरीत। विपरीत दिशा का अर्थ है कि यदि एक व्यक्ति उत्तर की ओर मुख करके बैठा है तो दूसरा दक्षिण की ओर मुख करेगा और इसके विपरीत। जिन व्यक्तियों के नाम लगातार वर्णमाला अक्षरों से शुरू होते हैं वे एक-दूसरे के पास नहीं बैठते।\n\nR, W के दाईं ओर तीसरे स्थान पर बैठा है। T, R के बाईं ओर पाँचवें स्थान पर बैठा है। न तो R और न ही T किसी छोर पर बैठे हैं। Q, S के दाईं ओर दूसरे स्थान पर बैठा है। S उत्तर की ओर मुख करके बैठा है। S और T निकटतम पड़ोसी नहीं हैं। V और P के बीच तीन से अधिक व्यक्ति बैठे हैं। P और R निकटतम पड़ोसी नहीं हैं। S तथा Q के निकटतम पड़ोसी समान दिशा में मुख करके बैठे हैं। एक साथ दो से अधिक व्यक्ति समान दिशा में नहीं बैठे हैं। छोर पर बैठा व्यक्ति समान दिशा में मुख करता है। V, W की दिशा के समान दिशा में मुख नहीं करता है।",
     "questions": [
       {
-        "question": "Who sits at the extreme right end?",
-        "options": ["P", "R", "S", "T"],
-        "correctAnswer": "R",
-        "explanation": "Q is at pos 3; P (immediate right of Q) is at pos 4. T must be 2 positions from P → T at pos 1 or pos 7 (invalid), so T at pos 1. S is immediately left of R, U is not adjacent to P. Remaining positions 2,5,6 for U,S,R: S-R must be adjacent → S at pos 5, R at pos 6. U at pos 2. Arrangement: T-U-Q-P-S-R. R is at extreme right."
+        "question": "Which of the following person sits to the immediate left of U?",
+        "questionHindi": "निम्नलिखित में से कौन U के ठीक बाईं ओर बैठा है?",
+        "options": [
+          "W",
+          "S",
+          "Q",
+          "T",
+          "None of these"
+        ],
+        "correctAnswer": "S",
+        "explanation": "Final arrangement: V↑ R↓ U↓ S↑ W↓ Q↑ T↓ P↑. S sits immediately to the left of U."
       },
       {
-        "question": "Who sits second from the left end?",
-        "options": ["P", "Q", "S", "U"],
-        "correctAnswer": "U",
-        "explanation": "Arrangement: T-U-Q-P-S-R. U is at the 2nd position from the left."
+        "question": "How many persons sit between R and P?",
+        "questionHindi": "R और P के बीच कितने व्यक्ति बैठे हैं?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "correctAnswer": "Five",
+        "explanation": "Arrangement: V R U S W Q T P. There are five persons between R and P."
       },
       {
-        "question": "How many persons sit between Q and S?",
-        "options": ["0", "1", "2", "3"],
-        "correctAnswer": "1",
-        "explanation": "Arrangement: T-U-Q-P-S-R. Q is at pos 3 and S is at pos 5. Only P (pos 4) sits between them."
+        "question": "If V is related to P, U is related to Q, in the same way S is related to which of the following?",
+        "questionHindi": "यदि V का संबंध P से है तथा U का संबंध Q से है, तो उसी प्रकार S का संबंध निम्नलिखित में से किससे है?",
+        "options": [
+          "Q",
+          "T",
+          "P",
+          "W",
+          "None of these"
+        ],
+        "correctAnswer": "W",
+        "explanation": "The relation is immediate right neighbour. V → P and U → Q. Similarly S → W."
       },
       {
-        "question": "Who is the immediate neighbour of both U and P?",
-        "options": ["T", "Q", "S", "R"],
-        "correctAnswer": "Q",
-        "explanation": "Arrangement: T-U-Q-P-S-R. Q at pos 3 has U (pos 2) on its left and P (pos 4) on its right."
+        "question": "Which of the following statement is true?",
+        "questionHindi": "निम्नलिखित में से कौन-सा कथन सत्य है?",
+        "options": [
+          "U sits second to the left of V",
+          "Three persons sit between Q and R",
+          "More than two persons sit between V and S",
+          "P sits third to the right of W",
+          "Immediate neighbours of T face opposite directions to each other"
+        ],
+        "correctAnswer": "Three persons sit between Q and R",
+        "explanation": "In the final arrangement, there are exactly three persons between Q and R. This is the only true statement."
       },
       {
-        "question": "What is the position of T from the right end?",
-        "options": ["1st", "3rd", "5th", "6th"],
-        "correctAnswer": "6th",
-        "explanation": "Arrangement: T-U-Q-P-S-R. T is at pos 1 from the left, which is the 6th position from the right."
+        "question": "How many persons are facing north?",
+        "questionHindi": "उत्तर दिशा की ओर कितने व्यक्ति मुख करके बैठे हैं?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four",
+          "None of these"
+        ],
+        "correctAnswer": "Four",
+        "explanation": "From the final arrangement: V↑, S↑, Q↑ and P↑ face north. Therefore, four persons face north."
+      }
+    ]
+  },
+  {
+    "id": "sa_set_003",
+    "passage": "Seven persons M, T, Z, N, Y, K and L are sitting in a row but not necessarily in the same order. Some of them are facing north and some of them are facing south. Note: Facing the same direction means, if one is facing north then the other also faces north and vice versa. Facing the opposite directions means, if one is facing north then the other faces south and vice versa.\n\nM sits at one of the extreme ends. Y sits second to the left of M. Three persons sit between T and L. L sits immediate right of N. N faces north. Z sits second to the right of L. Immediate neighbour of L is facing same direction. N and T are facing same direction to each other. Immediate neighbour of Y is facing opposite direction to each other. Immediate neighbour of T is facing same direction. T and Y are not facing same direction.",
+    "passageHindi": "सात व्यक्ति M, T, Z, N, Y, K और L एक पंक्ति में बैठे हैं, लेकिन आवश्यक नहीं कि इसी क्रम में हों। उनमें से कुछ उत्तर की ओर तथा कुछ दक्षिण की ओर मुख करके बैठे हैं। नोट: समान दिशा का अर्थ है कि यदि एक व्यक्ति उत्तर की ओर मुख करके बैठा है तो दूसरा भी उत्तर की ओर मुख करेगा और इसके विपरीत। विपरीत दिशा का अर्थ है कि यदि एक व्यक्ति उत्तर की ओर मुख करके बैठा है तो दूसरा दक्षिण की ओर मुख करेगा और इसके विपरीत।\n\nM किसी एक छोर पर बैठा है। Y, M के बाईं ओर दूसरे स्थान पर बैठा है। T और L के बीच तीन व्यक्ति बैठे हैं। L, N के ठीक दाईं ओर बैठा है। N उत्तर दिशा की ओर मुख करके बैठा है। Z, L के दाईं ओर दूसरे स्थान पर बैठा है। L का निकटतम पड़ोसी उसी दिशा में मुख करता है। N और T एक ही दिशा में मुख करते हैं। Y के निकटतम पड़ोसी विपरीत दिशा में मुख करते हैं। T के निकटतम पड़ोसी उसी दिशा में मुख करते हैं। T और Y समान दिशा में मुख नहीं करते।",
+    "questions": [
+      {
+        "question": "How many persons are facing north?",
+        "questionHindi": "उत्तर दिशा की ओर कितने व्यक्ति मुख करके बैठे हैं?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four",
+          "None of these"
+        ],
+        "correctAnswer": "Three",
+        "explanation": "Final arrangement: M↓ T↑ Y↓ Z↓ N↑ L↓ K↑. Three persons (T, N and K) are facing north."
+      },
+      {
+        "question": "How many persons sit between Z and T?",
+        "questionHindi": "Z और T के बीच कितने व्यक्ति बैठे हैं?",
+        "options": [
+          "None",
+          "One",
+          "Two",
+          "Three",
+          "None of these"
+        ],
+        "correctAnswer": "One",
+        "explanation": "Arrangement: M T Y Z N L K. Only Y sits between T and Z."
+      },
+      {
+        "question": "Which of the following person sits third to the left of Y?",
+        "questionHindi": "निम्नलिखित में से कौन Y के बाईं ओर तीसरे स्थान पर बैठा है?",
+        "options": [
+          "K",
+          "Z",
+          "No one",
+          "L",
+          "None of these"
+        ],
+        "correctAnswer": "L",
+        "explanation": "As per the final arrangement and facing convention used in the puzzle, L is third to the left of Y."
+      },
+      {
+        "question": "Four of the following five are alike in a certain way based on the given seating arrangement and thus form a group. Which is the one that does not belong to that group?",
+        "questionHindi": "निम्नलिखित पाँच में से चार दिए गए बैठने के क्रम के आधार पर किसी प्रकार से समान हैं और एक समूह बनाते हैं। इनमें से कौन उस समूह में नहीं आता है?",
+        "options": [
+          "Y",
+          "L",
+          "K",
+          "M",
+          "T"
+        ],
+        "correctAnswer": "T",
+        "explanation": "According to the final arrangement, T does not follow the common pattern shared by the other four persons."
+      },
+      {
+        "question": "Who sits second to the left of third to the right of Z?",
+        "questionHindi": "Z के दाईं ओर तीसरे स्थान पर बैठे व्यक्ति के बाईं ओर दूसरे स्थान पर कौन बैठा है?",
+        "options": [
+          "Y",
+          "N",
+          "M",
+          "L",
+          "None of these"
+        ],
+        "correctAnswer": "Y",
+        "explanation": "From the final arrangement, the required person is Y."
       }
     ]
   }
