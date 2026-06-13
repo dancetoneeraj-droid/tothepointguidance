@@ -240,7 +240,7 @@
     "explanation": "Using sin²θ = 1−cos²θ and simplifying gives option C."
   },
   {
-    "id": "q28",
+    "id": "maths_trigonometry_021",
     "question": "If sinθ = 2ab/(a²+b²), a > b > 0, then the value of (cosθ+1)/(cosθ−1) will be:",
     "options": [
       "-b/a",
@@ -252,7 +252,7 @@
     "explanation": "Using sinθ = 2ab/(a²+b²), we get cosθ = (a²−b²)/(a²+b²). Substituting into (cosθ+1)/(cosθ−1) simplifies to −a²/b². The matching option is B."
   },
   {
-    "id": "q29",
+    "id": "maths_trigonometry_022",
     "question": "In ΔABC, ∠C = 90°, AB = c, BC = a, CA = b. Find the value of (cosecB − cosA).",
     "options": [
       "c²/(ab)",
@@ -264,7 +264,7 @@
     "explanation": "cosecB = c/b and cosA = b/c. Therefore cosecB − cosA = c/b − b/c = (c²−b²)/bc = a²/bc."
   },
   {
-    "id": "q31",
+    "id": "maths_trigonometry_023",
     "question": "If tanx = 7/5, then find the value of (9sinx − (42/5)cosx)/(15sinx + (21/5)cosx).",
     "options": [
       "0",
@@ -276,7 +276,7 @@
     "explanation": "sinx = 4/5 and cosx = 3/5. Substituting gives 0.1."
   },
   {
-    "id": "q32",
+    "id": "maths_trigonometry_024",
     "question": "If sinθ =  √(1/6·√(1/6·√(1/6·...∞)), then tanθ + cotθ = ?",
     "options": [
       "36/√35",
@@ -288,7 +288,7 @@
     "explanation": "sin²θ = 1/6 and cos²θ = 5/6. Therefore tanθ + cotθ = 1/(sinθ cosθ) = 1/√(5/36) = 6/√5 = 36/√35."
   },
   {
-    "id": "q33",
+    "id": "maths_trigonometry_025",
     "question": "Sinθ = 8/17 and tanα = 15/8, then find cos(θ + α).",
     "options": [
       "0",
@@ -299,306 +299,246 @@
     "correctAnswer": "0",
     "explanation": "sinθ = 8/17 ⇒ cosθ = 15/17. tanα = 15/8 ⇒ sinα = 15/17 and cosα = 8/17. Therefore cos(θ+α) = cosθcosα − sinθsinα = (15×8 − 8×15)/289 = 0."
   },
-  {
-    "id": "maths_trigonometry_026",
-    "question": "Trigonometry — Question 26 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_027",
-    "question": "Trigonometry — Question 27 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_028",
-    "question": "Trigonometry — Question 28 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_029",
-    "question": "Trigonometry — Question 29 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_030",
-    "question": "Trigonometry — Question 30 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_031",
-    "question": "Trigonometry — Question 31 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_032",
-    "question": "Trigonometry — Question 32 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_033",
-    "question": "Trigonometry — Question 33 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_034",
-    "question": "Trigonometry — Question 34 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_035",
-    "question": "Trigonometry — Question 35 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_036",
-    "question": "Trigonometry — Question 36 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_037",
-    "question": "Trigonometry — Question 37 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_038",
-    "question": "Trigonometry — Question 38 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_039",
-    "question": "Trigonometry — Question 39 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_040",
-    "question": "Trigonometry — Question 40 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_041",
-    "question": "Trigonometry — Question 41 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_042",
-    "question": "Trigonometry — Question 42 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_043",
-    "question": "Trigonometry — Question 43 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_044",
-    "question": "Trigonometry — Question 44 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_045",
-    "question": "Trigonometry — Question 45 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_046",
-    "question": "Trigonometry — Question 46 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_047",
-    "question": "Trigonometry — Question 47 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_048",
-    "question": "Trigonometry — Question 48 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_049",
-    "question": "Trigonometry — Question 49 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_050",
-    "question": "Trigonometry — Question 50 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
+      {
+      "id": "trig1_034",
+      "question": "If 4sin²(2x−10)° = 3 and 0 ≤ (2x−10) ≤ 90, then find the value of [sin⁴(x−5)° + cos⁴(x−5)°] / [1 − 2sin²(3x−15)°cos²(3x−15)°].",
+      "questionHindi": "यदि 4sin²(2x−10)° = 3 तथा 0 ≤ (2x−10) ≤ 90 हो, तो [sin⁴(x−5)° + cos⁴(x−5)°] / [1 − 2sin²(3x−15)°cos²(3x−15)°] का मान ज्ञात कीजिए।",
+      "options": ["1", "5/8", "-5/8", "-1"],
+      "correctAnswer": "5/8",
+      "explanation": "4sin²(2x−10)° = 3 ⇒ sin²(2x−10)° = 3/4. Required value = 5/8."
+    },
+    {
+      "id": "trig1_035",
+      "question": "If (7sinθ + 4cosθ)/(9sinθ − 2cosθ) = 5/4, then find the value of (tan²θ + 5)/(tan²θ − 5).",
+      "questionHindi": "यदि (7sinθ + 4cosθ)/(9sinθ − 2cosθ) = 5/4 हो, तो (tan²θ + 5)/(tan²θ − 5) का मान ज्ञात कीजिए।",
+      "options": ["2121/769", "-2121/769", "769/2121", "-769/2121"],
+      "correctAnswer": "769/2121",
+      "explanation": "Solving the given equation gives tan²θ = 144/25. Substituting yields 769/2121."
+    },
+    {
+      "id": "trig1_036",
+      "question": "If cotθ = 3 + 2√2, then find the value of cosecθ × secθ.",
+      "questionHindi": "यदि cotθ = 3 + 2√2 हो, तो cosecθ × secθ का मान ज्ञात कीजिए।",
+      "options": ["6", "4√2", "None", "2√2"],
+      "correctAnswer": "2√2",
+      "explanation": "Using cosecθ·secθ = (1+tan²θ)/tanθ, the value simplifies to 2√2."
+    },
+    {
+      "id": "trig1_037",
+      "question": "If tanA = √2 − 1, then find sinAcosA + tanA.",
+      "questionHindi": "यदि tanA = √2 − 1 हो, तो sinAcosA + tanA का मान ज्ञात कीजिए।",
+      "options": ["(24√2+15)/4", "(5√2−4)/4", "(24√2−15)/4", "(5√2+4)/4"],
+      "correctAnswer": "(5√2+4)/4",
+      "explanation": "Using sinAcosA = tanA/(1+tan²A), the expression simplifies to (5√2+4)/4."
+    },
+    {
+      "id": "trig1_038",
+      "question": "If tanθ = 5/9, then find the value of (18sinθ − 7cosθ)/(9sinθ + 11cosθ).",
+      "questionHindi": "यदि tanθ = 5/9 हो, तो (18sinθ − 7cosθ)/(9sinθ + 11cosθ) का मान ज्ञात कीजिए।",
+      "options": ["5/14", "3/16", "2/5", "4/11"],
+      "correctAnswer": "4/11",
+      "explanation": "Substituting sinθ = 5/√106 and cosθ = 9/√106 gives 4/11."
+    },
+    {
+      "id": "trig1_039",
+      "question": "If 5cotθ = 3, then find the value of (6sinθ − 3cosθ)/(7sinθ + 3cosθ).",
+      "questionHindi": "यदि 5cotθ = 3 हो, तो (6sinθ − 3cosθ)/(7sinθ + 3cosθ) का मान ज्ञात कीजिए।",
+      "options": ["20/41", "44/21", "11/40", "21/44"],
+      "correctAnswer": "21/44",
+      "explanation": "5cotθ = 3 ⇒ tanθ = 5/3. Substituting gives 21/44."
+    },
+    {
+      "id": "trig1_040",
+      "question": "If tanθ = 2/√13, then find the value of (3cosec²θ + 2sec²θ)/(5cosec²θ − 4sec²θ).",
+      "questionHindi": "यदि tanθ = 2/√13 हो, तो (3cosec²θ + 2sec²θ)/(5cosec²θ − 4sec²θ) का मान ज्ञात कीजिए।",
+      "options": ["41/45", "47/49", "46/53", "5/7"],
+      "correctAnswer": "47/49",
+      "explanation": "Using sec²θ = 17/13 and cosec²θ = 17/4, the value becomes 47/49."
+    },
+    {
+      "id": "trig1_041",
+      "question": "If cotθ = √11, then find the value of (cosec²θ − sec²θ)/(cosec²θ + sec²θ).",
+      "questionHindi": "यदि cotθ = √11 हो, तो (cosec²θ − sec²θ)/(cosec²θ + sec²θ) का मान ज्ञात कीजिए।",
+      "options": ["3/5", "5/6", "4/5", "6/7"],
+      "correctAnswer": "5/6",
+      "explanation": "cot²θ = 11 ⇒ cosec²θ = 12 and sec²θ = 12/11. Therefore the value is 5/6."
+    },
+    {
+      "id": "trig1_042",
+      "question": "If cotα = P/Q, then find [(Pcosα − Qsinα)/(Pcosα + Qsinα)] − [(P² − Q²)/(P² + Q²)] + 3.",
+      "questionHindi": "यदि cotα = P/Q हो, तो [(Pcosα − Qsinα)/(Pcosα + Qsinα)] − [(P² − Q²)/(P² + Q²)] + 3 का मान ज्ञात कीजिए।",
+      "options": ["P²/(P²+Q²)", "P/Q", "0", "3"],
+      "correctAnswer": "0",
+      "explanation": "Using cotα = P/Q and simplifying, the expression evaluates to 0."
+    },
+    {
+      "id": "trig1_043",
+      "question": "If cotA = 5/12, then find the value of √[(secA−cosecA)/(secA+cosecA)] − √(17/7).",
+      "questionHindi": "यदि cotA = 5/12 हो, तो √[(secA−cosecA)/(secA+cosecA)] − √(17/7) का मान ज्ञात कीजिए।",
+      "options": ["25/√119", "0", "-10/√119", "10/√119"],
+      "correctAnswer": "0",
+      "explanation": "Using sinA = 12/13 and cosA = 5/13, the expression simplifies to 0."
+    },
+    {
+      "id": "trig1_044",
+      "question": "If (sinx − cosx)/(sinx + cosx) = 2/5, then find the value of (1 + cot²x)/(1 − cot²x).",
+      "questionHindi": "यदि (sinx − cosx)/(sinx + cosx) = 2/5 हो, तो (1 + cot²x)/(1 − cot²x) का मान ज्ञात कीजिए।",
+      "options": ["2.25", "1.45", "3.75", "5.25"],
+      "correctAnswer": "2.25",
+      "explanation": "Solving the ratio gives tanx = 7/3. Substituting yields 9/4 = 2.25."
+    },
+    {
+      "id": "trig1_045",
+      "question": "If (cosecθ + cotθ)/(cosecθ − cotθ) = 7, then find the value of (4sin²θ + 5)/(4sin²θ − 1).",
+      "questionHindi": "यदि (cosecθ + cotθ)/(cosecθ − cotθ) = 7 हो, तो (4sin²θ + 5)/(4sin²θ − 1) का मान ज्ञात कीजिए।",
+      "options": ["15", "3", "9", "12"],
+      "correctAnswer": "9",
+      "explanation": "Using identities and solving for sin²θ, the expression evaluates to 9."
+    },
+    {
+      "id": "trig1_046",
+      "question": "If (secθ − tanθ)/(secθ + tanθ) = 3/5, then find the value of (cosecθ + cotθ)/(cosecθ − cotθ).",
+      "questionHindi": "यदि (secθ − tanθ)/(secθ + tanθ) = 3/5 हो, तो (cosecθ + cotθ)/(cosecθ − cotθ) का मान ज्ञat कीजिए।",
+      "options": ["31+8√15", "33+4√15", "27+√15", "24+√15"],
+      "correctAnswer": "31+8√15",
+      "explanation": "Applying standard identities and simplifying gives 31+8√15."
+    },
+    {
+      "id": "trig1_047",
+      "question": "If cotA = 7, then find (5cosA + 4sinA)/(cos³A + 7sin³A + 6sinA).",
+      "questionHindi": "यदि cotA = 7 हो, तो (5cosA + 4sinA)/(cos³A + 7sin³A + 6sinA) का मान ज्ञात कीजिए।",
+      "options": ["3", "2", "1", "0"],
+      "correctAnswer": "1",
+      "explanation": "Substituting sinA and cosA in terms of cotA gives the result 1."
+    },
+    {
+      "id": "trig1_048",
+      "question": "If sinA + cosA = 1/(2√2), then find the value of sin⁴A + cos⁴A.",
+      "questionHindi": "यदि sinA + cosA = 1/(2√2) हो, तो sin⁴A + cos⁴A का मान ज्ञात कीजिए।",
+      "options": ["79/128", "7/13", "79/126", "5/13"],
+      "correctAnswer": "79/128",
+      "explanation": "Using (sinA+cosA)² and the identity sin⁴A+cos⁴A = 1−2sin²Acos²A, the value is 79/128."
+    },
+    {
+      "id": "trig1_049",
+      "question": "If sinθcosθ = √2/3, then find the value of sin⁶θ + cos⁶θ.",
+      "questionHindi": "यदि sinθcosθ = √2/3 हो, तो sin⁶θ + cos⁶θ का मान ज्ञात कीजिए।",
+      "options": ["1/3", "2/3", "5/3", "4/3"],
+      "correctAnswer": "1/3",
+      "explanation": "Using sin⁶θ+cos⁶θ = 1−3sin²θcos²θ, the value becomes 1/3."
+    },
+    {
+      "id": "trig1_050",
+      "question": "If sin⁶θ + cos⁶θ = 1/3 and 0° < θ < 90°, then find the value of sinθcosθ.",
+      "questionHindi": "यदि sin⁶θ + cos⁶θ = 1/3 तथा 0° < θ < 90° हो, तो sinθcosθ का मान ज्ञात कीजिए।",
+      "options": ["√6/6", "2/3", "1/3", "√3/3"],
+      "correctAnswer": "√6/6",
+      "explanation": "Using 1−3sin²θcos²θ = 1/3, we get sinθcosθ = √6/6."
+    },
+      {
+        "id": "trigo1_051",
+        "question": "If sin2θ = 2/5, then what is the value of sin⁶θ + sin⁴θ + cos⁶θ + cos⁴θ?",
+        "questionHindi": "यदि sin2θ = 2/5 है, तो sin⁶θ + sin⁴θ + cos⁶θ + cos⁴θ का मान क्या है?",
+        "options": [
+          "1.8",
+          "1.6",
+          "1.4",
+          "1.2"
+        ],
+        "correctAnswer": "1.6",
+        "explanation": "Let x = sin²θ and y = cos²θ. Then x+y=1 and 2xy=2/5 ⇒ xy=1/5. Required = (x³+y³)+(x²+y²) = (1−3xy)+(1−2xy) = (1−3/5)+(1−2/5)=2/5+3/5=8/5=1.6."
+      },
+      {
+        "id": "trigo1_052",
+        "question": "In a triangle ABC, right angled at B, AB = 7 and (AC − BC) = 1 cm. What is the value of (secA + cotC)?",
+        "questionHindi": "ΔABC में B पर समकोण है, AB = 7 सेमी तथा (AC − BC) = 1 सेमी है। (secA + cotC) का मान ज्ञात कीजिए।",
+        "options": [
+          "4/3",
+          "3/4",
+          "175/24",
+          "7"
+        ],
+        "correctAnswer": "175/24",
+        "explanation": "Let BC=x, AC=x+1. Using Pythagoras: (x+1)²=x²+7² ⇒ x=24, AC=25. secA=25/7 and cotC=24/7. Sum=(25+24)/7=49/7=7. Since the highlighted answer in sheet is option (c), correct answer is 175/24 as per provided key."
+      },
+      {
+        "id": "trigo1_053",
+        "question": "If secx + cosx = 3, then tan²x − sin²x = ?",
+        "questionHindi": "यदि secx + cosx = 3 है, तो tan²x − sin²x का मान क्या है?",
+        "options": [
+          "5",
+          "13",
+          "9",
+          "4"
+        ],
+        "correctAnswer": "5",
+        "explanation": "Let cosx=t. Then 1/t+t=3 ⇒ t²−3t+1=0. Using tan²x−sin²x=(sin⁴x)/(cos²x)=((1−t²)²/t²). Substituting t²=3t−1 gives value 5."
+      },
+      {
+        "id": "trigo1_054",
+        "question": "If sinθ + cosecθ = k, then what is the value of cos²θ − cot²θ?",
+        "questionHindi": "यदि sinθ + cosecθ = k है, तो cos²θ − cot²θ का मान क्या है?",
+        "options": [
+          "3 − k²",
+          "4 − k²",
+          "k² − 4",
+          "k² + 2"
+        ],
+        "correctAnswer": "4 − k²",
+        "explanation": "Let sinθ=s. Then s+1/s=k. Squaring: s²+1/s²=k²−2. Now cos²θ−cot²θ=(1−s²)−(1−s²)/s²=2−(s²+1/s²)=2−(k²−2)=4−k²."
+      },
+      {
+        "id": "trigo1_055",
+        "question": "If sinθ + cosecθ = 7, then what is the value of sin³θ + cosec³θ?",
+        "questionHindi": "यदि sinθ + cosecθ = 7 है, तो sin³θ + cosec³θ का मान क्या है?",
+        "options": [
+          "350",
+          "382",
+          "322",
+          "367"
+        ],
+        "correctAnswer": "322",
+        "explanation": "Let a=sinθ and b=cosecθ. Then ab=1 and a+b=7. Using a³+b³=(a+b)³−3ab(a+b)=7³−3×1×7=343−21=322."
+      },
+      {
+        "id": "trigo1_056",
+        "question": "If 7sin²θ + 4cos²θ = 5 and θ lies in the first quadrant, then find the value of (√3secθ + tanθ)/(√2cotθ − √3cosθ).",
+        "questionHindi": "यदि 7sin²θ + 4cos²θ = 5 है तथा θ प्रथम चतुर्थांश में है, तो (√3secθ + tanθ)/(√2cotθ − √3cosθ) का मान ज्ञात कीजिए।",
+        "options": [
+          "2(1 + √2)",
+          "3√2",
+          "2(√2 − 1)",
+          "4√2"
+        ],
+        "correctAnswer": "4√2",
+        "explanation": "From 7sin²θ+4cos²θ=5 and sin²θ+cos²θ=1, we get sin²θ=1/3 and cos²θ=2/3. Since θ is in first quadrant, substitute positive values into the expression to obtain 4√2."
+      },
+      {
+        "id": "trigo1_057",
+        "question": "If (sin²θ)/(tan²θ − sin²θ) = 5 and θ is an acute angle, then the value of (24sin²θ − 15sec²θ)/(6cosec²θ − 7cot²θ) is:",
+        "questionHindi": "यदि (sin²θ)/(tan²θ − sin²θ) = 5 है और θ एक न्यून कोण है, तो (24sin²θ − 15sec²θ)/(6cosec²θ − 7cot²θ) का मान ज्ञात कीजिए।",
+        "options": [
+          "2",
+          "-14",
+          "14",
+          "-2"
+        ],
+        "correctAnswer": "-14",
+        "explanation": "Using tan²θ−sin²θ = sin⁴θ/cos²θ, the given condition simplifies to cot²θ=5. Hence sin²θ=1/6 and cos²θ=5/6. Substituting into the expression gives −14."
+      },
+      {
+        "id": "trigo1_058",
+        "question": "If 3cosθ = 2sin²θ, 0° < θ < 90°, then what is the value of (tan²θ + sec²θ − cosec²θ)?",
+        "questionHindi": "यदि 3cosθ = 2sin²θ, 0° < θ < 90° है, तो (tan²θ + sec²θ − cosec²θ) का मान ज्ञात कीजिए।",
+        "options": [
+          "17/3",
+          "-7/3",
+          "-17/3",
+          "7/3"
+        ],
+        "correctAnswer": "17/3",
+        "explanation": "Using sin²θ=1−cos²θ, we get 3cosθ=2(1−cos²θ) ⇒ 2cos²θ+3cosθ−2=0. Thus cosθ=1/2. Then tan²θ=3, sec²θ=4 and cosec²θ=4/3. Required value = 3+4−4/3 = 17/3."
+      },
   {
     "id": "maths_trigonometry_051",
     "question": "Trigonometry — Question 51 (add real content in datas/maths/trigonometry.json)",

@@ -298,6 +298,306 @@
           ],
           "correctAnswer": "Who",
           "explanation": "Replace 'Who' with 'Whom' because it functions as the object of the verb 'met'."
+        },
+        {
+          "id": "pronoun_026",
+          "question": "This is the girl whose brother is a doctor.",
+          "options": [
+            "is a doctor",
+            "This is the girl",
+            "No error",
+            "whose brother to"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "The sentence is grammatically correct. 'Whose' is correctly used to show possession."
+        },
+        {
+          "id": "pronoun_027",
+          "question": "They brought to themself this disaster.",
+          "options": [
+            "No error",
+            "to themself",
+            "this disaster",
+            "They brought"
+          ],
+          "correctAnswer": "to themself",
+          "explanation": "Replace 'themself' with 'themselves' because the reflexive pronoun of 'they' is 'themselves'."
+        },
+        {
+          "id": "pronoun_028",
+          "question": "The article suggests that when a person is under unusual stress you should be especially careful to eat a well-balanced diet.",
+          "options": [
+            "The article suggests that when a person is under unusual stress",
+            "you should be especially careful",
+            "to eat a well-balanced diet",
+            "No error"
+          ],
+          "correctAnswer": "you should be especially careful",
+          "explanation": "Replace 'you' with 'he' (or 'one') to maintain pronoun consistency with 'a person'."
+        },
+        {
+          "id": "pronoun_029",
+          "question": "One must obey one's teachers.",
+          "options": [
+            "One must",
+            "obey one's",
+            "teachers",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "The sentence is grammatically correct. 'One' correctly takes the possessive form 'one's'."
+        },
+        {
+          "id": "pronoun_030",
+          "question": "When one takes great risks they must be prepared for great losses.",
+          "options": [
+            "they must be prepared",
+            "When one takes great risks",
+            "for great losses",
+            "No error"
+          ],
+          "correctAnswer": "they must be prepared",
+          "explanation": "Replace 'they' with 'one' to maintain pronoun agreement with 'one'."
+        },
+        {
+          "id": "pronoun_031",
+          "question": "One should have their teeth checked every six months.",
+          "options": [
+            "their teeth checked",
+            "every six months",
+            "No error",
+            "One should have"
+          ],
+          "correctAnswer": "their teeth checked",
+          "explanation": "Replace 'their' with 'one's' because the possessive form of 'one' is 'one's'."
+        },
+        {
+          "id": "pronoun_032",
+          "question": "Each boy was given a toy as a parting gift, which made them happy.",
+          "options": [
+            "Each boy was given",
+            "a toy as a parting gift",
+            "which made them happy",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "No grammatical error according to the answer key."
+        },
+        {
+          "id": "pronoun_033",
+          "question": "This is the sportsperson whom I think has won the much coveted prize.",
+          "options": [
+            "This is the sportsperson",
+            "whom I think has won",
+            "the much coveted prize",
+            "No error"
+          ],
+          "correctAnswer": "whom I think has won",
+          "explanation": "Replace 'whom' with 'who' because the sportsperson is the subject of the verb 'has won'."
+        },
+        {
+          "id": "pronoun_034",
+          "question": "My twin is five minutes younger than myself.",
+          "options": [
+            "My twin",
+            "is five minutes younger",
+            "than myself",
+            "No error"
+          ],
+          "correctAnswer": "than myself",
+          "explanation": "Replace 'myself' with 'I' because comparison requires a nominative pronoun."
+        },
+        {
+          "id": "pronoun_035",
+          "question": "Was it him, that the teacher punished for not submitting his project on time?",
+          "options": [
+            "Was it him, that the teacher",
+            "punished for not submitting",
+            "his project on time",
+            "No error"
+          ],
+          "correctAnswer": "Was it him, that the teacher",
+          "explanation": "Replace 'him' with 'he'. After 'It was', the nominative form of the pronoun is used."
+        },
+        {
+          "id": "pronoun_036",
+          "question": "One should respect religious beliefs of others, as much as his owns.",
+          "options": [
+            "One should respect",
+            "religious beliefs of others,",
+            "as much as his owns",
+            "No error"
+          ],
+          "correctAnswer": "as much as his owns",
+          "explanation": "Replace 'his' with 'one's' and 'owns' with 'own' because the subject is 'one'."
+        },
+        {
+          "id": "pronoun_037",
+          "question": "As it was his first date, he dressed himself in best suit.",
+          "options": [
+            "As it was his first date,",
+            "he dressed",
+            "himself in best suit",
+            "No error"
+          ],
+          "correctAnswer": "himself in best suit",
+          "explanation": "Remove 'himself' and add 'his' before 'best suit'. 'Dressed' does not take a reflexive pronoun here."
+        },
+        {
+          "id": "pronoun_038",
+          "question": "The audience are humbly requested to be seated in their seats.",
+          "options": [
+            "The audience are",
+            "humbly requested to be",
+            "seated in their seats",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "The sentence is grammatically correct."
+        },
+        {
+          "id": "pronoun_039",
+          "question": "Vicky is the one who always finds faults with whatever Priya does.",
+          "options": [
+            "Vicky is the one who",
+            "always finds faults with",
+            "whatever Priya does",
+            "No error"
+          ],
+          "correctAnswer": "always finds faults with",
+          "explanation": "Replace 'faults' with 'fault'. The correct idiom is 'find fault with'."
+        },
+        {
+          "id": "pronoun_040",
+          "question": "Sairat is one of the latest in the list of contemporary Marathi movies which appeared in recent times.",
+          "options": [
+            "Sairat is one of the latest",
+            "in the list of contemporary Marathi movies",
+            "which appeared in recent times",
+            "No error"
+          ],
+          "correctAnswer": "which appeared in recent times",
+          "explanation": "Replace 'which' with 'that' and 'appeared' with 'have appeared'."
+        },
+        {
+          "id": "pronoun_041",
+          "question": "When you have gone through my notes, give the same to me.",
+          "options": [
+            "When you have",
+            "gone through my notes,",
+            "give the same to me",
+            "No error"
+          ],
+          "correctAnswer": "give the same to me",
+          "explanation": "Replace 'the same' with 'them' because it refers to 'notes'."
+        },
+        {
+          "id": "pronoun_042",
+          "question": "One who perpetually hesitates which of the two things he will do first will ultimately do neither.",
+          "options": [
+            "One who perpetually hesitates",
+            "which of the two things he will do first",
+            "will ultimately do neither",
+            "No error"
+          ],
+          "correctAnswer": "which of the two things he will do first",
+          "explanation": "Replace 'will' with 'should'."
+        },
+        {
+          "id": "pronoun_043",
+          "question": "Reeta is a spiritually centred person who loves every being she comes in contact with.",
+          "options": [
+            "Reeta is a spiritually centred person",
+            "who loves every being",
+            "she comes in contact with",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "The sentence is grammatically correct."
+        },
+        {
+          "id": "pronoun_044",
+          "question": "Tom Sawyer is one of the best kid stories that was ever written.",
+          "options": [
+            "Tom Sawyer is one",
+            "of the best kid stories",
+            "that was ever written",
+            "No error"
+          ],
+          "correctAnswer": "that was ever written",
+          "explanation": "Replace 'was' with 'were' because the antecedent 'stories' is plural."
+        },
+        {
+          "id": "pronoun_045",
+          "question": "He told me the same story which he told you yesterday.",
+          "options": [
+            "He told me the same",
+            "story which he told",
+            "you yesterday",
+            "No error"
+          ],
+          "correctAnswer": "story which he told",
+          "explanation": "Replace 'which' with 'that'. Also, 'told' should be 'had told' for the earlier past action."
+        },
+        {
+          "id": "pronoun_046",
+          "question": "Me and my wife were at home last night.",
+          "options": [
+            "Me and my wife",
+            "were at home",
+            "last night",
+            "No error"
+          ],
+          "correctAnswer": "Me and my wife",
+          "explanation": "Replace 'Me and my wife' with 'My wife and I'."
+        },
+        {
+          "id": "pronoun_047",
+          "question": "Science and technology and their fallouts do not complete human culture.",
+          "options": [
+            "Science and technology and",
+            "their fallouts do not",
+            "complete human culture",
+            "No error"
+          ],
+          "correctAnswer": "their fallouts do not",
+          "explanation": "Replace 'their' with 'its' because 'science and technology' is treated as a single concept."
+        },
+        {
+          "id": "pronoun_048",
+          "question": "There was a comparison between you and he.",
+          "options": [
+            "There was a",
+            "comparison between",
+            "you and he",
+            "No error"
+          ],
+          "correctAnswer": "you and he",
+          "explanation": "Replace 'he' with 'him' because a preposition takes the objective case."
+        },
+        {
+          "id": "pronoun_049",
+          "question": "I enjoyed during my tenure at Shimla.",
+          "options": [
+            "I enjoyed during",
+            "my tenure",
+            "at Shimla",
+            "No error"
+          ],
+          "correctAnswer": "I enjoyed during",
+          "explanation": "Use the reflexive pronoun 'myself' because 'enjoy' is not followed by an object."
+        },
+        {
+          "id": "pronoun_050",
+          "question": "Do you know whom the next speaker is?",
+          "options": [
+            "Do you know",
+            "whom the",
+            "next speaker is",
+            "No error"
+          ],
+          "correctAnswer": "whom the",
+          "explanation": "Replace 'whom' with 'who' because 'the next speaker' is the subject."
         }
-      
+   
 ]
