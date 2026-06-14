@@ -624,5 +624,152 @@
       }
     ]
   }
+},
+"6": { "parajumble": {
+    "title": "Para Jumbles",
+    "directions": "Each sentence has been split into four parts (P, Q, R, S) given in jumbled order. Select the option that arranges them into a meaningful sentence.",
+    "items": [
+      {
+        "parts": [
+          {
+            "label": "P",
+            "text": "He belonged to the world again."
+          },
+          {
+            "label": "Q",
+            "text": "In three day's time, he was able to sit in an easy chair, well propped up with pillows, and he was still too weak to walk."
+          },
+          {
+            "label": "R",
+            "text": "He felt cheerful and happy."
+          },
+          {
+            "label": "S",
+            "text": "The crisis of the disease was safely past."
+          }
+        ],
+        "options": [
+          "PQRS",
+          "RSPQ",
+          "QRSP",
+          "SPQR"
+        ],
+        "answer": "RSPQ",
+        "explanation": "R introduces Oliver's feeling after recovery. S explains the reason as the crisis is over. P follows naturally because he feels connected to life again. Q concludes with his gradual physical recovery."
+      },
+      {
+        "parts": [
+          {
+            "label": "P",
+            "text": "She served the dishes in a beaker to the fox. The fox could not eat it because the beaker was very high."
+          },
+          {
+            "label": "Q",
+            "text": "The crane could not eat the dishes because of its long beak. The next day it was the turn of the crane to host the lunch for the fox."
+          },
+          {
+            "label": "R",
+            "text": "But the fox wanted to show that he was cleverer than the crane."
+          },
+          {
+            "label": "S",
+            "text": "So one day he invited the crane for dinner and served the dishes on a plate."
+          }
+        ],
+        "options": [
+          "PQRS",
+          "QSRP",
+          "RSQP",
+          "PSQR"
+        ],
+        "answer": "RSQP",
+        "explanation": "R introduces the fox's intention. S shows his action. Q explains why the crane could not eat and introduces the crane's turn. P concludes with the crane's revenge and the fox's inability to eat."
+      },
+      {
+        "parts": [
+          {
+            "label": "P",
+            "text": "But for spiritual knowledge mere memory of holy texts will be of no use in passing the tests."
+          },
+          {
+            "label": "Q",
+            "text": "One can score in them by the power of memory."
+          },
+          {
+            "label": "R",
+            "text": "A competent guru alone can provide the necessary guidance to an earnest disciple."
+          },
+          {
+            "label": "S",
+            "text": "What the text says has to be reflected upon and experienced by the seeker."
+          }
+        ],
+        "options": [
+          "RSPQ",
+          "RSQP",
+          "SRPQ",
+          "QPSR"
+        ],
+        "answer": "QPSR",
+        "explanation": "Q refers to school examinations mentioned in the opening sentence. P contrasts spiritual knowledge with ordinary exams. S explains what is actually required. R adds the role of a competent guru."
+      },
+      {
+        "parts": [
+          {
+            "label": "P",
+            "text": "Hence he is the most useful member of the society."
+          },
+          {
+            "label": "Q",
+            "text": "Yet this fellow is exploited by the rich."
+          },
+          {
+            "label": "R",
+            "text": "He grows food for the whole country."
+          },
+          {
+            "label": "S",
+            "text": "It is our duty to improve his lot."
+          }
+        ],
+        "options": [
+          "RPQS",
+          "RSPQ",
+          "SRPQ",
+          "SPQR"
+        ],
+        "answer": "RPQS",
+        "explanation": "R explains why the peasant is important. P logically concludes that he is useful to society. Q contrasts this by highlighting his exploitation. S follows as the moral conclusion."
+      },
+      {
+        "parts": [
+          {
+            "label": "P",
+            "text": "She was shown the corner where the gum bottle was kept."
+          },
+          {
+            "label": "Q",
+            "text": "The woman behind the counter said it was registration counter and directed her to the last counter."
+          },
+          {
+            "label": "R",
+            "text": "She was looking for gum to affix the stamps on the envelope."
+          },
+          {
+            "label": "S",
+            "text": "She thanked the lady and came to the counter on the left extreme and got the stamps."
+          }
+        ],
+        "options": [
+          "PSRQ",
+          "RPQS",
+          "SQPR",
+          "QSRP"
+        ],
+        "answer": "QSRP",
+        "explanation": "Q follows the opening sentence as Priya is redirected. S shows that she gets the stamps. R introduces her next need for gum. P explains where she finds it before posting the letter."
+      }
+    ]
+  }
 }
 }
