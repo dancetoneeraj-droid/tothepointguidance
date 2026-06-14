@@ -264,8 +264,9 @@
       },
       "reasoning": {
         "topic": "analogy",
-        "questions": 50,
-        "duration": 45
+        "from": 25,
+        "questions": 25,
+        "duration": 25
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
