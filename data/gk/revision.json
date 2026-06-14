@@ -729,7 +729,309 @@
           "options": ["Indra Sawhney", "Janhit Abhiyan", "Puttaswamy", "TMA Pai"],
           "correctAnswer": "Janhit Abhiyan",
           "explanation": "Janhit Abhiyan v. Union of India (2022)."
-          }
+          },
+
+          [
+            {
+              "id": "fundamental_rights_001",
+              "question": "Consider the following statements regarding Article 12 and Fundamental Rights / अनुच्छेद 12 और मौलिक अधिकारों के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Fundamental Rights are generally enforceable against the State.\n2. Every private body is treated as 'State' under Article 12.\n\n1. मौलिक अधिकार सामान्यतः राज्य के विरुद्ध प्रवर्तनीय होते हैं।\n2. प्रत्येक निजी संस्था को अनुच्छेद 12 के अंतर्गत 'राज्य' माना जाता है।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "1 only / केवल 1",
+              "explanation": "FRs are generally enforceable against the State. Private bodies are not State unless performing public functions."
+            },
+            {
+              "id": "fundamental_rights_002",
+              "question": "Consider the following statements regarding Article 13 / अनुच्छेद 13 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Pre-Constitution laws inconsistent with Fundamental Rights become void only to the extent of inconsistency.\n2. Constitutional Amendments under Article 368 are considered 'law' under Article 13.\n\n1. मौलिक अधिकारों से असंगत संविधान-पूर्व कानून केवल असंगति की सीमा तक शून्य होते हैं।\n2. अनुच्छेद 368 के अंतर्गत संवैधानिक संशोधन, अनुच्छेद 13 के तहत 'कानून' माने जाते हैं।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "1 only / केवल 1",
+              "explanation": "Article 13(4) excludes Constitutional Amendments from the definition of law."
+            },
+            {
+              "id": "fundamental_rights_003",
+              "question": "Consider the following statements regarding the Doctrine of Eclipse / ग्रहण सिद्धांत के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. An inconsistent pre-Constitution law becomes completely dead forever.\n2. Such a law may revive if the inconsistency with Fundamental Rights is removed.\n\n1. असंगत संविधान-पूर्व कानून हमेशा के लिए समाप्त हो जाता है।\n2. यदि मौलिक अधिकारों से असंगति समाप्त हो जाए तो ऐसा कानून पुनर्जीवित हो सकता है।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "2 only / केवल 2",
+              "explanation": "Doctrine of Eclipse says the law is eclipsed, not dead, and can revive later."
+            },
+            {
+              "id": "fundamental_rights_004",
+              "question": "Consider the following statements regarding Article 15 / अनुच्छेद 15 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Article 15 is available only to citizens.\n2. Article 15(6) provides for EWS reservation.\n\n1. अनुच्छेद 15 केवल नागरिकों के लिए उपलब्ध है।\n2. अनुच्छेद 15(6) EWS आरक्षण का प्रावधान करता है।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+              "explanation": "Article 15 is restricted to citizens and Article 15(6) was added for EWS reservation."
+            },
+            {
+              "id": "fundamental_rights_005",
+              "question": "Consider the following statements regarding Article 16 / अनुच्छेद 16 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Article 16 guarantees equal opportunity in public employment.\n2. Article 16(4A) relates to reservation in promotion for SC/STs.\n\n1. अनुच्छेद 16 लोक सेवाओं में समान अवसर की गारंटी देता है।\n2. अनुच्छेद 16(4A) SC/ST के लिए पदोन्नति में आरक्षण से संबंधित है।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+              "explanation": "Article 16 deals with public employment and 16(4A) was added by the 77th Amendment."
+            },
+            {
+              "id": "fundamental_rights_006",
+              "question": "Consider the following statements regarding Articles 17 and 18 / अनुच्छेद 17 एवं 18 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Untouchability was abolished under Article 17.\n2. Academic and military titles are prohibited under Article 18.\n\n1. अनुच्छेद 17 के तहत अस्पृश्यता का उन्मूलन किया गया।\n2. अनुच्छेद 18 के तहत शैक्षणिक एवं सैन्य उपाधियाँ भी प्रतिबंधित हैं।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "1 only / केवल 1",
+              "explanation": "Academic and military distinctions are exempted from the prohibition on titles."
+            },
+            {
+              "id": "fundamental_rights_007",
+              "question": "Consider the following statements regarding Article 19 / अनुच्छेद 19 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Article 19 is available to citizens only.\n2. Right to Property was originally part of Article 19(1)(f).\n\n1. अनुच्छेद 19 केवल नागरिकों को उपलब्ध है।\n2. संपत्ति का अधिकार मूल रूप से अनुच्छेद 19(1)(f) का भाग था।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+              "explanation": "Article 19 applies only to citizens and Article 19(1)(f) was deleted by the 44th Amendment."
+            },
+            {
+              "id": "fundamental_rights_008",
+              "question": "Consider the following statements regarding Articles 20 and 21 / अनुच्छेद 20 एवं 21 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Both Articles 20 and 21 can be suspended during Emergency.\n2. Article 21 includes the Right to Privacy.\n\n1. अनुच्छेद 20 और 21 दोनों आपातकाल के दौरान निलंबित किए जा सकते हैं।\n2. अनुच्छेद 21 में निजता का अधिकार शामिल है।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "2 only / केवल 2",
+              "explanation": "Articles 20 and 21 cannot be suspended. Privacy was recognized as part of Article 21 in K.S. Puttaswamy."
+            },
+            {
+              "id": "fundamental_rights_009",
+              "question": "Consider the following statements regarding Article 21A / अनुच्छेद 21A के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. It provides free and compulsory education for children aged 6–14 years.\n2. It was added by the 86th Constitutional Amendment.\n\n1. यह 6–14 वर्ष के बच्चों के लिए निःशुल्क एवं अनिवार्य शिक्षा प्रदान करता है।\n2. इसे 86वें संविधान संशोधन द्वारा जोड़ा गया था।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+              "explanation": "Article 21A was inserted by the 86th Amendment and implemented through the RTE Act."
+            },
+            {
+              "id": "fundamental_rights_010",
+              "question": "Consider the following statements regarding Articles 23 and 24 / अनुच्छेद 23 एवं 24 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Article 23 is available to all persons.\n2. Compulsory service imposed by the State for public purposes is always treated as forced labour.\n\n1. अनुच्छेद 23 सभी व्यक्तियों को उपलब्ध है।\n2. सार्वजनिक उद्देश्यों हेतु राज्य द्वारा लगाई गई अनिवार्य सेवा को हमेशा बंधुआ श्रम माना जाता है।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "1 only / केवल 1",
+              "explanation": "Compulsory public service is specifically exempted from the definition of forced labour."
+            },
+            {
+              "id": "fundamental_rights_011",
+              "question": "Consider the following statements regarding Freedom of Religion / धर्म की स्वतंत्रता के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Article 25 is available to all persons.\n2. The State cannot regulate any secular aspect of religion.\n\n1. अनुच्छेद 25 सभी व्यक्तियों को उपलब्ध है।\n2. राज्य धर्म के किसी भी धर्मनिरपेक्ष पहलू को विनियमित नहीं कर सकता।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "1 only / केवल 1",
+              "explanation": "The State may regulate secular aspects of religion while not interfering with religious doctrine."
+            },
+            {
+              "id": "fundamental_rights_012",
+              "question": "Consider the following statements regarding Articles 29 and 30 / अनुच्छेद 29 एवं 30 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. Article 29 protects the cultural interests of sections of citizens.\n2. Article 30 grants educational rights only to religious minorities and not linguistic minorities.\n\n1. अनुच्छेद 29 नागरिकों के वर्गों के सांस्कृतिक हितों की रक्षा करता है।\n2. अनुच्छेद 30 केवल धार्मिक अल्पसंख्यकों को शैक्षिक अधिकार देता है, भाषाई अल्पसंख्यकों को नहीं।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "1 only / केवल 1",
+              "explanation": "Article 30 applies to both religious and linguistic minorities."
+            },
+            {
+              "id": "fundamental_rights_013",
+              "question": "Consider the following statements regarding Article 32 and Article 226 / अनुच्छेद 32 एवं अनुच्छेद 226 के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n\n1. The Supreme Court cannot ordinarily refuse relief under Article 32 when a Fundamental Right is violated.\n2. High Courts under Article 226 can issue writs only for Fundamental Rights.\n\n1. मौलिक अधिकार के उल्लंघन पर सर्वोच्च न्यायालय सामान्यतः अनुच्छेद 32 के तहत राहत देने से इंकार नहीं कर सकता।\n2. उच्च न्यायालय अनुच्छेद 226 के तहत केवल मौलिक अधिकारों के लिए ही रिट जारी कर सकते हैं।",
+              "options": [
+                "1 only / केवल 1",
+                "2 only / केवल 2",
+                "Both 1 and 2 / 1 और 2 दोनों",
+                "Neither 1 nor 2 / न 1 न 2"
+              ],
+              "correctAnswer": "1 only / केवल 1",
+              "explanation": "Article 226 has a wider scope and covers both Fundamental Rights and other legal rights."
+            },
+              {
+                "id": "fundamental_rights_014",
+                "question": "Which one of the following writs is issued to prevent a lower court or tribunal from exceeding its jurisdiction?\n\nनिम्नलिखित में से कौन-सी रिट किसी अधीनस्थ न्यायालय या अधिकरण को अपने अधिकार क्षेत्र से बाहर जाने से रोकने के लिए जारी की जाती है?",
+                "options": [
+                  "Habeas Corpus / हेबियस कॉर्पस",
+                  "Mandamus / परमादेश",
+                  "Prohibition / प्रतिषेध",
+                  "Certiorari / उत्प्रेषण"
+                ],
+                "correctAnswer": "Prohibition / प्रतिषेध",
+                "explanation": "The writ of Prohibition prevents a lower court from proceeding in excess of its jurisdiction."
+              },
+              {
+                "id": "fundamental_rights_015",
+                "question": "Which Fundamental Right was described by Dr. B.R. Ambedkar as the 'Heart and Soul' of the Constitution?\n\nडॉ. बी.आर. आंबेडकर ने किस मौलिक अधिकार को संविधान का 'हृदय और आत्मा' कहा था?",
+                "options": [
+                  "Article 19 / अनुच्छेद 19",
+                  "Article 21 / अनुच्छेद 21",
+                  "Article 32 / अनुच्छेद 32",
+                  "Article 14 / अनुच्छेद 14"
+                ],
+                "correctAnswer": "Article 32 / अनुच्छेद 32",
+                "explanation": "Dr. Ambedkar called Article 32 the Heart and Soul of the Constitution because it guarantees constitutional remedies."
+              },
+              {
+                "id": "fundamental_rights_016",
+                "question": "The Right to Education under Article 21A was inserted by which Constitutional Amendment?\n\nअनुच्छेद 21A के तहत शिक्षा का अधिकार किस संविधान संशोधन द्वारा जोड़ा गया था?",
+                "options": [
+                  "42nd Amendment / 42वां संशोधन",
+                  "44th Amendment / 44वां संशोधन",
+                  "86th Amendment / 86वां संशोधन",
+                  "97th Amendment / 97वां संशोधन"
+                ],
+                "correctAnswer": "86th Amendment / 86वां संशोधन",
+                "explanation": "The 86th Constitutional Amendment Act, 2002 inserted Article 21A."
+              },
+              {
+                "id": "fundamental_rights_017",
+                "question": "Which Fundamental Right is available to both citizens and non-citizens?\n\nनिम्नलिखित में से कौन-सा मौलिक अधिकार नागरिकों तथा गैर-नागरिकों दोनों को उपलब्ध है?",
+                "options": [
+                  "Article 19 / अनुच्छेद 19",
+                  "Article 15 / अनुच्छेद 15",
+                  "Article 16 / अनुच्छेद 16",
+                  "Article 21 / अनुच्छेद 21"
+                ],
+                "correctAnswer": "Article 21 / अनुच्छेद 21",
+                "explanation": "Article 21 guarantees protection of life and personal liberty to all persons."
+              },
+              {
+                "id": "fundamental_rights_018",
+                "question": "The Right to Property is presently a:\n\nवर्तमान में संपत्ति का अधिकार क्या है?",
+                "options": [
+                  "Fundamental Right / मौलिक अधिकार",
+                  "Constitutional Legal Right / संवैधानिक वैधानिक अधिकार",
+                  "Directive Principle / नीति निर्देशक तत्व",
+                  "Natural Right / प्राकृतिक अधिकार"
+                ],
+                "correctAnswer": "Constitutional Legal Right / संवैधानिक वैधानिक अधिकार",
+                "explanation": "After the 44th Amendment, Right to Property became a constitutional legal right under Article 300A."
+              },
+              {
+                "id": "fundamental_rights_019",
+                "question": "Which Article abolishes Untouchability?\n\nकौन-सा अनुच्छेद अस्पृश्यता का उन्मूलन करता है?",
+                "options": [
+                  "Article 15 / अनुच्छेद 15",
+                  "Article 16 / अनुच्छेद 16",
+                  "Article 17 / अनुच्छेद 17",
+                  "Article 18 / अनुच्छेद 18"
+                ],
+                "correctAnswer": "Article 17 / अनुच्छेद 17",
+                "explanation": "Article 17 abolishes untouchability and forbids its practice in any form."
+              },
+              {
+                "id": "fundamental_rights_020",
+                "question": "The writ of Habeas Corpus is primarily issued for:\n\nहेबियस कॉर्पस रिट मुख्यतः किस उद्देश्य से जारी की जाती है?",
+                "options": [
+                  "Preventing illegal detention / अवैध निरोध रोकने हेतु",
+                  "Compelling public authority to act / लोक प्राधिकरण को कार्य करने हेतु बाध्य करने के लिए",
+                  "Transferring a case / मामला स्थानांतरित करने हेतु",
+                  "Reviewing legislation / कानून की समीक्षा हेतु"
+                ],
+                "correctAnswer": "Preventing illegal detention / अवैध निरोध रोकने हेतु",
+                "explanation": "Habeas Corpus protects personal liberty against unlawful detention."
+              },
+              {
+                "id": "fundamental_rights_021",
+                "question": "Which Article prohibits trafficking in human beings and forced labour?\n\nमानव तस्करी और बंधुआ श्रम का निषेध किस अनुच्छेद में किया गया है?",
+                "options": [
+                  "Article 21 / अनुच्छेद 21",
+                  "Article 22 / अनुच्छेद 22",
+                  "Article 23 / अनुच्छेद 23",
+                  "Article 24 / अनुच्छेद 24"
+                ],
+                "correctAnswer": "Article 23 / अनुच्छेद 23",
+                "explanation": "Article 23 prohibits trafficking, begar and other forms of forced labour."
+              },
+              {
+                "id": "fundamental_rights_022",
+                "question": "Which of the following writs can be issued only against a public authority?\n\nनिम्नलिखित में से कौन-सी रिट केवल लोक प्राधिकरण के विरुद्ध जारी की जा सकती है?",
+                "options": [
+                  "Habeas Corpus / हेबियस कॉर्पस",
+                  "Mandamus / परमादेश",
+                  "Certiorari / उत्प्रेषण",
+                  "Prohibition / प्रतिषेध"
+                ],
+                "correctAnswer": "Mandamus / परमादेश",
+                "explanation": "Mandamus commands a public authority to perform its public duty."
+              },
+              {
+                "id": "fundamental_rights_023",
+                "question": "The Right to Privacy was declared a Fundamental Right in which case?\n\nनिजता के अधिकार को किस मामले में मौलिक अधिकार घोषित किया गया था?",
+                "options": [
+                  "Kesavananda Bharati Case",
+                  "Golaknath Case",
+                  "K.S. Puttaswamy Case",
+                  "Minerva Mills Case"
+                ],
+                "correctAnswer": "K.S. Puttaswamy Case",
+                "explanation": "The Supreme Court in K.S. Puttaswamy (2017) held that privacy is part of Article 21."
+              },
+              {
+                "id": "fundamental_rights_024",
+                "question": "Which Fundamental Right protects the interests of minorities in establishing educational institutions?\n\nशैक्षणिक संस्थान स्थापित करने में अल्पसंख्यकों के हितों की रक्षा कौन-सा मौलिक अधिकार करता है?",
+                "options": [
+                  "Article 25 / अनुच्छेद 25",
+                  "Article 28 / अनुच्छेद 28",
+                  "Article 29 / अनुच्छेद 29",
+                  "Article 30 / अनुच्छेद 30"
+                ],
+                "correctAnswer": "Article 30 / अनुच्छेद 30",
+                "explanation": "Article 30 grants minorities the right to establish and administer educational institutions."
+              },
+              {
+                "id": "fundamental_rights_025",
+                "question": "Which writ is issued against a person who unlawfully occupies a public office?\n\nकिसी ऐसे व्यक्ति के विरुद्ध कौन-सी रिट जारी की जाती है जो अवैध रूप से किसी सार्वजनिक पद पर आसीन हो?",
+                "options": [
+                  "Mandamus / परमादेश",
+                  "Certiorari / उत्प्रेषण",
+                  "Quo Warranto / अधिकार-पृच्छा",
+                  "Prohibition / प्रतिषेध"
+                ],
+                "correctAnswer": "Quo Warranto / अधिकार-पृच्छा",
+                "explanation": "Quo Warranto challenges the legal authority of a person holding a public office."
+              },
           
       ]
     
