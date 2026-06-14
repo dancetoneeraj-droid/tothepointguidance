@@ -898,5 +898,305 @@
           ],
           "correctAnswer": "It was him",
           "explanation": "Replace 'him' with 'he'. After 'It was', a nominative pronoun is used."
-        }
+        },
+          {
+            "id": "pronoun_076",
+            "question": "He bought the books and put it in the bag.",
+            "options": [
+              "He bought",
+              "the books",
+              "put it",
+              "in the bag"
+            ],
+            "correctAnswer": "put it",
+            "explanation": "Replace 'it' with 'them' because 'books' is plural."
+          },
+          {
+            "id": "pronoun_077",
+            "question": "Civil servants should acquit efficiently in the service of a common man.",
+            "options": [
+              "Civil servants",
+              "should acquit",
+              "in the service",
+              "of a common man"
+            ],
+            "correctAnswer": "should acquit",
+            "explanation": "Replace 'acquit' with 'acquit themselves'. The verb 'acquit' requires a reflexive pronoun in this context."
+          },
+          {
+            "id": "pronoun_078",
+            "question": "My father always advises me that I should keep myself from bad boys.",
+            "options": [
+              "My father always advises",
+              "me that",
+              "keep myself",
+              "from bad boys"
+            ],
+            "correctAnswer": "keep myself",
+            "explanation": "Replace 'myself' with 'away'. The correct expression is 'keep away from bad boys'."
+          },
+          {
+            "id": "pronoun_079",
+            "question": "Avail every chance that comes your way lest you should repent in the long run.",
+            "options": [
+              "Avail every chance",
+              "that comes your way",
+              "lest you should repent",
+              "in the long run"
+            ],
+            "correctAnswer": "lest you should repent",
+            "explanation": "After 'lest', 'should' is generally omitted. Use 'lest you repent'."
+          },
+          {
+            "id": "pronoun_080",
+            "question": "There should be no misunderstanding between your father and she.",
+            "options": [
+              "There should be",
+              "no misunderstanding",
+              "between your father",
+              "and she"
+            ],
+            "correctAnswer": "and she",
+            "explanation": "Replace 'she' with 'her'. A pronoun after a preposition takes the objective case."
+          },
+          {
+            "id": "pronoun_081",
+            "question": "It was Mohan or her who came here last night and kept on knocking at the door.",
+            "options": [
+              "It was Mohan",
+              "or her",
+              "who came here",
+              "knocking at the door"
+            ],
+            "correctAnswer": "or her",
+            "explanation": "Replace 'her' with 'she'. After 'It was', a nominative pronoun is required."
+          },
+          {
+            "id": "pronoun_082",
+            "question": "Let Rohit and she complete this job as they like to do it.",
+            "options": [
+              "Let Rohit",
+              "and she",
+              "complete this job",
+              "as they like to do it"
+            ],
+            "correctAnswer": "and she",
+            "explanation": "Replace 'she' with 'her'. After 'let', the objective case is used."
+          },
+          {
+            "id": "pronoun_083",
+            "question": "Was it him who gave money to buy new books?",
+            "options": [
+              "Was it him",
+              "who gave money",
+              "to buy",
+              "new books"
+            ],
+            "correctAnswer": "Was it him",
+            "explanation": "Replace 'him' with 'he'. After 'It was/Was it', a nominative pronoun is used."
+          },
+          {
+            "id": "pronoun_084",
+            "question": "He and myself alone will complete this work because we don't need the help of anyone.",
+            "options": [
+              "He and myself",
+              "alone will complete",
+              "this work because",
+              "we don't need"
+            ],
+            "correctAnswer": "He and myself",
+            "explanation": "Replace 'myself' with 'I'. Reflexive pronouns cannot be used in place of personal pronouns."
+          },
+          {
+            "id": "pronoun_085",
+            "question": "You, I and he should take examination seriously.",
+            "options": [
+              "You, I and he",
+              "should take",
+              "examination",
+              "seriously"
+            ],
+            "correctAnswer": "You, I and he",
+            "explanation": "For good actions, the order should be 'You, he and I'."
+          },
+          {
+            "id": "pronoun_086",
+            "question": "It was with great difficulty that each of the brothers could get their share of property.",
+            "options": [
+              "It was with",
+              "great difficulty",
+              "each of the brothers",
+              "their share"
+            ],
+            "correctAnswer": "their share",
+            "explanation": "Replace 'their' with 'his'. 'Each' is singular and takes a singular pronoun."
+          },
+          {
+                "id": "pronoun_087",
+            "question": "They that hanker after fame and money are likely to be disappointed.",
+            "options": [
+              "They that",
+              "hanker after",
+              "fame and money",
+              "likely to be disappointed"
+            ],
+            "correctAnswer": "They that",
+            "explanation": "Replace 'They' with 'Those'. The correct expression is 'Those that...'."
+          },
+          {
+            "id": "pronoun_088",
+            "question": "I am sad to learn that you and your brother have lost their money in share market.",
+            "options": [
+              "I am sad",
+              "you and your brother",
+              "have lost",
+              "their money"
+            ],
+            "correctAnswer": "their money",
+            "explanation": "Replace 'their' with 'your'. The pronoun should agree with 'you and your brother'."
+          },
+          {
+            "id": "pronoun_089",
+            "question": "Both he as well as I are going to Delhi tomorrow to buy new motorbike.",
+            "options": [
+              "Both he",
+              "as well as I",
+              "are going",
+              "new motorbike"
+            ],
+            "correctAnswer": "Both he",
+            "explanation": "Use either 'Both he and I' or 'He as well as I'. 'Both' cannot be used with 'as well as'."
+          },
+          {
+            "id": "pronoun_090",
+            "question": "This is only one of her novels that have been published till date.",
+            "options": [
+              "This is only one",
+              "of her novels",
+              "that have been published",
+              "till date"
+            ],
+            "correctAnswer": "that have been published",
+            "explanation": "Replace 'have' with 'has'. The antecedent of 'that' is 'one', which is singular."
+          },
+          {
+            "id": "pronoun_091",
+            "question": "Neither of the two brothers has got their money back from the government.",
+            "options": [
+              "Neither of",
+              "the two brothers",
+              "has got",
+              "their money back"
+            ],
+            "correctAnswer": "their money back",
+            "explanation": "Replace 'their' with 'his'. 'Neither' is singular."
+          },
+          {
+            "id": "pronoun_092",
+            "question": "You and I are expected to do your duty in the interest of the students.",
+            "options": [
+              "You and I",
+              "are expected",
+              "your duty",
+              "interest of the students"
+            ],
+            "correctAnswer": "your duty",
+            "explanation": "Replace 'your' with 'our'. The subject is 'You and I'."
+          },
+          {
+            "id": "pronoun_093",
+            "question": "Who is the more intelligent, you or he?",
+            "options": [
+              "Who is",
+              "the more intelligent",
+              "you",
+              "or he"
+            ],
+            "correctAnswer": "Who is",
+            "explanation": "Replace 'Who' with 'Which'. The choice is between two known persons."
+          },
+          {
+            "id": "pronoun_094",
+            "question": "Anyone of the students is allowed to keep their books in the staff room.",
+            "options": [
+              "Anyone of",
+              "the students",
+              "is allowed",
+              "their books"
+            ],
+            "correctAnswer": "their books",
+            "explanation": "Replace 'their' with 'his'. 'Anyone' is singular."
+          },
+          {
+            "id": "pronoun_095",
+            "question": "Our is a country that is governed by corrupt politicians.",
+            "options": [
+              "Our is",
+              "a country",
+              "that is governed",
+              "by corrupt politicians"
+            ],
+            "correctAnswer": "Our is",
+            "explanation": "Replace 'Our' with 'Ours'. A possessive pronoun is required."
+          },
+          {
+            "id": "pronoun_096",
+            "question": "One should always remember that it is his duty to help the weak and the poor.",
+            "options": [
+              "One should always",
+              "remember that",
+              "it is his duty",
+              "the weak and the poor"
+            ],
+            "correctAnswer": "No error",
+            "explanation": "The sentence is grammatically correct. 'One' is properly followed by 'his'."
+          },
+          {
+            "id": "pronoun_097",
+            "question": "Everybody is honest in my office and does their work honestly.",
+            "options": [
+              "Everybody is",
+              "honest in my office",
+              "does their work",
+              "honestly"
+            ],
+            "correctAnswer": "does their work",
+            "explanation": "Replace 'their' with 'his'. 'Everybody' is singular."
+          },
+          {
+            "id": "pronoun_098",
+            "question": "I don't like which you told my father last night.",
+            "options": [
+              "I don't like",
+              "which",
+              "you told",
+              "my father last night"
+            ],
+            "correctAnswer": "which",
+            "explanation": "Replace 'which' with 'what'. 'What' is used as a relative pronoun here."
+          },
+          {
+              "id": "pronoun_099",
+            "question": "What is it which makes life happy?",
+            "options": [
+              "What is it",
+              "which",
+              "makes life",
+              "happy"
+            ],
+            "correctAnswer": "which",
+            "explanation": "Replace 'which' with 'that'. After 'What is it', 'that' is preferred."
+          },
+          {
+            "id": "pronoun_100",
+            "question": "This is not my house, it is her.",
+            "options": [
+              "This is not",
+              "my house",
+              "it is her",
+              "No error"
+            ],
+            "correctAnswer": "it is her",
+            "explanation": "Replace 'her' with 'hers'. A possessive pronoun is required."
+          }
 ]
