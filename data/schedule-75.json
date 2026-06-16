@@ -319,7 +319,9 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day7-grammar.pdf",
+        
+        "grammarQuiz": "pronoun",
+        "grammarQuizFrom": 100,
         "vocabPdf": "/content/english/day7-vocab.pdf",
         "comprehensionPdf": "/content/english/day7-comprehension.pdf"
       },

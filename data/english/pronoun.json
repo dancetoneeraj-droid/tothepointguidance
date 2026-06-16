@@ -1198,5 +1198,307 @@
             ],
             "correctAnswer": "it is her",
             "explanation": "Replace 'her' with 'hers'. A possessive pronoun is required."
-          }
+          },
+            {
+              "id": "adjective_001",
+              "question": "There were no less than fifty persons in the dining hall.",
+              "options": [
+                "There were",
+                "no less than",
+                "fifty persons in the dining hall",
+                "No error"
+              ],
+              "correctAnswer": "No error",
+              "explanation": "'No less than' is correctly used to mean 'as many as'."
+            },
+            {
+              "id": "adjective_002",
+              "question": "Few remarks that he made were offensive to my brother.",
+              "options": [
+                "Few remarks",
+                "that he made",
+                "were offensive to my brother",
+                "No error"
+              ],
+              "correctAnswer": "Few remarks",
+              "explanation": "'A few remarks' may be more appropriate depending on the intended meaning."
+            },
+            {
+              "id": "adjective_003",
+              "question": "It is a worth seeing movie and you must not miss it.",
+              "options": [
+                "It is a worth",
+                "seeing movie",
+                "and you must not miss it",
+                "No error"
+              ],
+              "correctAnswer": "It is a worth",
+              "explanation": "Use 'worth-seeing movie' or 'a movie worth seeing'."
+            },
+            {
+              "id": "adjective_004",
+              "question": "Of all the students Rita was less worried when the date for the annual examination was announced.",
+              "options": [
+                "Of all the students",
+                "Rita was less worried",
+                "when the date for the annual examination was announced",
+                "No error"
+              ],
+              "correctAnswer": "Rita was less worried",
+              "explanation": "Use the superlative form 'least worried' when comparing all students."
+            },
+            {
+              "id": "adjective_005",
+              "question": "Even the most perfect person in the world is said to have erred when there was time to act.",
+              "options": [
+                "Even the most perfect person",
+                "in the world is said",
+                "to have erred when there was time to act",
+                "No error"
+              ],
+              "correctAnswer": "most perfect person",
+              "explanation": "'Perfect' does not generally take comparative or superlative forms."
+            },
+            {
+              "id": "adjective_006",
+              "question": "I was surprised to see every student sitting quietly in the class, even though the teacher was not present.",
+              "options": [
+                "I was surprised",
+                "to see every student",
+                "sitting quietly in the class",
+                "No error"
+              ],
+              "correctAnswer": "No error",
+              "explanation": "The sentence is grammatically correct."
+            },
+            {
+              "id": "adjective_007",
+              "question": "Whole India expressed anger over the hijacking of Air India Boeing Jet by militant at Karachi.",
+              "options": [
+                "Whole India",
+                "expressed anger",
+                "over the hijacking of Air India Boeing Jet",
+                "No error"
+              ],
+              "correctAnswer": "Whole India",
+              "explanation": "Use 'The whole of India' or 'All India'."
+            },
+            {
+              "id": "adjective_008",
+              "question": "I like him because he is the most interesting fellow because of his amiable nature.",
+              "options": [
+                "I like him",
+                "because he is the most interesting fellow",
+                "because of his amiable nature",
+                "No error"
+              ],
+              "correctAnswer": "the most interesting fellow",
+              "explanation": "Likely 'a very interesting fellow' unless comparison among a group is intended."
+            },
+            {
+              "id": "adjective_009",
+              "question": "The meeting was postponed because only the few persons were present there.",
+              "options": [
+                "The meeting was postponed",
+                "because only the few persons",
+                "were present there",
+                "No error"
+              ],
+              "correctAnswer": "the few persons",
+              "explanation": "Use 'a few persons' or 'few persons' depending on the context."
+            },
+            {
+              "id": "adjective_010",
+              "question": "In the opinion of everyone she is wiser than beautiful.",
+              "options": [
+                "In the opinion of everyone",
+                "she is wiser",
+                "than beautiful",
+                "No error"
+              ],
+              "correctAnswer": "than beautiful",
+              "explanation": "The structure should be 'more wise than beautiful' or 'wiser than she is beautiful'."
+            },
+            {
+              "id": "adjective_011",
+              "question": "The tiger is swifter than any animal.",
+              "options": [
+                "The tiger is",
+                "swifter than",
+                "any animal",
+                "No error"
+              ],
+              "correctAnswer": "any animal",
+              "explanation": "Use 'any other animal' because the tiger itself is an animal."
+            },
+            {
+              "id": "adjective_012",
+              "question": "He had to cut a sorry figure when he realised that he had no any money in his purse.",
+              "options": [
+                "He had to cut a sorry figure",
+                "when he realised",
+                "that he had no any money in his purse",
+                "No error"
+              ],
+              "correctAnswer": "no any money",
+              "explanation": "Use either 'no money' or 'not any money'."
+            },
+            {
+              "id": "adjective_013",
+              "question": "Of the three ministers, which do you think, is going to prove more successful.",
+              "options": [
+                "Of the three ministers",
+                "which do you think",
+                "is going to prove more successful",
+                "No error"
+              ],
+              "correctAnswer": "more successful",
+              "explanation": "Use 'most successful' when comparing three."
+            },
+            {
+              "id": "adjective_014",
+              "question": "Neither she is intelligent nor hard working and still she expects to secure first class.",
+              "options": [
+                "Neither she is intelligent",
+                "nor hard working",
+                "and still she expects to secure first class",
+                "No error"
+              ],
+              "correctAnswer": "Neither she is intelligent",
+              "explanation": "Use 'She is neither intelligent nor hardworking'."
+            },
+            {
+              "id": "adjective_015",
+              "question": "I requested him to lend me few books that might help me in my study.",
+              "options": [
+                "I requested him",
+                "to lend me few books",
+                "that might help me in my study",
+                "No error"
+              ],
+              "correctAnswer": "few books",
+              "explanation": "Use 'a few books'."
+            },
+            {
+              "id": "adjective_016",
+              "question": "Your essay should not exceed more than two hundred words.",
+              "options": [
+                "Your essay",
+                "should not exceed",
+                "more than two hundred words",
+                "No error"
+              ],
+              "correctAnswer": "should not exceed more than",
+              "explanation": "'Exceed' already implies 'more than'."
+            },
+            {
+              "id": "adjective_017",
+              "question": "Tanya is more intelligent than any other boy in her class.",
+              "options": [
+                "Tanya is",
+                "more intelligent",
+                "than any other boy in her class",
+                "No error"
+              ],
+              "correctAnswer": "boy in her class",
+              "explanation": "Likely should be 'student' or 'girl' depending on context."
+            },
+            {
+              "id": "adjective_018",
+              "question": "The two last pictures of a very competent director have not proved a success.",
+              "options": [
+                "The two last pictures",
+                "of a very competent director",
+                "have not proved a success",
+                "No error"
+              ],
+              "correctAnswer": "The two last pictures",
+              "explanation": "Preferred form: 'The last two pictures'."
+            },
+            {
+              "id": "adjective_019",
+              "question": "He is the tallest than anybody in our team.",
+              "options": [
+                "He is",
+                "the tallest than",
+                "anybody in our team",
+                "No error"
+              ],
+              "correctAnswer": "the tallest than",
+              "explanation": "Use either 'taller than anybody' or 'the tallest in our team'."
+            },
+            {
+              "id": "adjective_020",
+              "question": "Nobody likes him because he is a worst teacher.",
+              "options": [
+                "Nobody likes him",
+                "because he is",
+                "a worst teacher",
+                "No error"
+              ],
+              "correctAnswer": "a worst teacher",
+              "explanation": "Use 'the worst teacher' or 'a very bad teacher'."
+            },
+            {
+              "id": "adjective_021",
+              "question": "I was surprised to see her speak with somewhat anger.",
+              "options": [
+                "I was surprised",
+                "to see her speak",
+                "with somewhat anger",
+                "No error"
+              ],
+              "correctAnswer": "with somewhat anger",
+              "explanation": "Use 'with some anger' or 'somewhat angrily'."
+            },
+            {
+              "id": "adjective_022",
+              "question": "My brother is elder than me although he looks younger.",
+              "options": [
+                "My brother is",
+                "elder than me",
+                "although he looks younger",
+                "No error"
+              ],
+              "correctAnswer": "elder than me",
+              "explanation": "Use 'older than me'."
+            },
+            {
+              "id": "adjective_023",
+              "question": "Could you please give me any money to buy the newspaper?",
+              "options": [
+                "Could you please",
+                "give me any money",
+                "to buy the newspaper",
+                "No error"
+              ],
+              "correctAnswer": "any money",
+              "explanation": "Use 'some money' in affirmative requests."
+            },
+            {
+              "id": "adjective_024",
+              "question": "Privatisation offers the most ideal situation for consumers because private sector is very conscious of quality.",
+              "options": [
+                "Privatisation offers",
+                "the most ideal situation",
+                "for consumers because private sector is very conscious of quality",
+                "No error"
+              ],
+              "correctAnswer": "the most ideal situation",
+              "explanation": "'Ideal' does not usually take a superlative form."
+            },
+            {
+              "id": "adjective_025",
+              "question": "Little care on your part would have made you more successful than your friend.",
+              "options": [
+                "Little care",
+                "on your part",
+                "would have made you more successful than your friend",
+                "No error"
+              ],
+              "correctAnswer": "Little care",
+              "explanation": "Use 'A little care' to indicate a small amount of care."
+            }
+
+
 ]
