@@ -771,5 +771,69 @@
       }
     ]
   }
+},
+"7": {
+  "rc": {
+    "title": "Reading Comprehension",
+    "directions": "Read the following passage carefully and answer the questions that follow. Choose the most appropriate option.",
+    "passage": "Artificial Intelligence (AI) has emerged as one of the most transformative technologies of the 21st century. It enables machines to perform tasks that traditionally required human intelligence, such as learning, reasoning, problem-solving and decision-making. AI is now widely used in healthcare, education, transportation, banking and entertainment. In healthcare, AI-powered systems assist doctors in diagnosing diseases more accurately and quickly. In education, personalized learning platforms help students learn at their own pace. Businesses use AI to analyze large volumes of data and improve efficiency. However, the rapid growth of AI has also raised concerns regarding job displacement, privacy and ethical decision-making. Experts believe that while AI may replace certain routine tasks, it will also create new opportunities and industries. Therefore, the challenge lies in using AI responsibly so that its benefits can be enjoyed by society while minimizing potential risks.",
+    "questions": [
+      {
+        "question": "Q1. According to the passage, what is one of the main reasons AI is considered transformative?",
+        "options": [
+          "It can completely replace human beings.",
+          "It enables machines to perform tasks requiring human intelligence.",
+          "It is only useful in the healthcare sector.",
+          "It eliminates the need for education."
+        ],
+        "answer": "It enables machines to perform tasks requiring human intelligence.",
+        "explanation": "The passage states that AI allows machines to perform tasks such as learning, reasoning, problem-solving and decision-making, which traditionally required human intelligence."
+      },
+      {
+        "question": "Q2. Which of the following fields is NOT mentioned in the passage as using AI?",
+        "options": [
+          "Healthcare",
+          "Education",
+          "Agriculture",
+          "Banking"
+        ],
+        "answer": "Agriculture",
+        "explanation": "The passage mentions healthcare, education, transportation, banking and entertainment, but does not mention agriculture."
+      },
+      {
+        "question": "Q3. What concern related to AI is highlighted in the passage?",
+        "options": [
+          "Lack of internet connectivity",
+          "Job displacement and privacy issues",
+          "Shortage of computer hardware",
+          "Decline in scientific research"
+        ],
+        "answer": "Job displacement and privacy issues",
+        "explanation": "The passage specifically mentions concerns regarding job displacement, privacy and ethical decision-making."
+      },
+      {
+        "question": "Q4. What do experts believe about the future impact of AI on employment?",
+        "options": [
+          "AI will eliminate all jobs.",
+          "AI will only create jobs and never replace any.",
+          "AI may replace some routine tasks but will also create new opportunities.",
+          "AI will have no effect on employment."
+        ],
+        "answer": "AI may replace some routine tasks but will also create new opportunities.",
+        "explanation": "The passage states that experts believe AI will replace certain routine tasks while also creating new opportunities and industries."
+      },
+      {
+        "question": "Q5. Which of the following can be inferred from the passage?",
+        "options": [
+          "AI should be banned because it is dangerous.",
+          "The benefits of AI can be maximized through responsible use.",
+          "AI is only beneficial for large businesses.",
+          "Privacy concerns related to AI have already been solved."
+        ],
+        "answer": "The benefits of AI can be maximized through responsible use.",
+        "explanation": "The passage concludes that AI should be used responsibly so that society can enjoy its benefits while minimizing risks."
+      }
+    ]
+  }
 }
 }
