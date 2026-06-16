@@ -325,8 +325,9 @@
       },
       "reasoning": {
         "topic": "coding-decoding",
-        "questions": 50,
-        "duration": 45
+        "from": 60,
+        "questions": 25,
+        "duration": 25
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
