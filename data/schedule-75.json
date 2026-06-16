@@ -13,22 +13,26 @@
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         }
       ],
       "english": {
@@ -196,22 +200,26 @@
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         }
       ],
       "english": {
@@ -239,27 +247,31 @@
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         }
       ],
       "english": {
         "grammarPdf": "https://drive.google.com/file/d/1DwFzKaTPuoifs-3X-TfL2HNxguCZpuIO/view?usp=drive_link",
-       "grammarQuiz": "pronoun",
+        "grammarQuiz": "pronoun",
         "grammarQuizFrom": 75,
         "vocabPdf": "/content/english/day6-vocab.pdf",
         "comprehensionPdf": "/content/english/day6-comprehension.pdf"
@@ -284,7 +296,8 @@
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 0
         },
         {
           "topic": "time-work",
@@ -294,11 +307,13 @@
         },
         {
           "topic": "percentage",
+          "from": 50,
           "questions": 25,
           "duration": 25
         },
         {
           "topic": "mixture-alligation",
+          "from": 50,
           "questions": 25,
           "duration": 25
         }
@@ -326,22 +341,26 @@
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         }
       ],
       "english": {
@@ -367,22 +386,26 @@
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         }
       ],
       "english": {
@@ -412,22 +435,26 @@
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         }
       ],
       "english": {
@@ -455,22 +482,26 @@
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 25
         },
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         }
       ],
       "english": {
@@ -496,22 +527,26 @@
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         }
       ],
       "english": {
@@ -537,22 +572,26 @@
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         }
       ],
       "english": {
@@ -578,22 +617,26 @@
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         }
       ],
       "english": {
@@ -619,22 +662,26 @@
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 50
         },
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         }
       ],
       "english": {
@@ -660,22 +707,26 @@
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         }
       ],
       "english": {
@@ -701,22 +752,26 @@
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         }
       ],
       "english": {
@@ -746,22 +801,26 @@
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         }
       ],
       "english": {
@@ -789,22 +848,26 @@
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 75
         }
       ],
       "english": {
@@ -830,22 +893,26 @@
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         }
       ],
       "english": {
@@ -871,22 +938,26 @@
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         }
       ],
       "english": {
@@ -912,22 +983,26 @@
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         }
       ],
       "english": {
@@ -953,22 +1028,26 @@
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         }
       ],
       "english": {
@@ -994,22 +1073,26 @@
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 100
         },
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         }
       ],
       "english": {
@@ -1035,22 +1118,26 @@
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         }
       ],
       "english": {
@@ -1080,22 +1167,26 @@
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         }
       ],
       "english": {
@@ -1123,22 +1214,26 @@
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         }
       ],
       "english": {
@@ -1164,22 +1259,26 @@
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 125
         },
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         }
       ],
       "english": {
@@ -1205,22 +1304,26 @@
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         }
       ],
       "english": {
@@ -1246,22 +1349,26 @@
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         }
       ],
       "english": {
@@ -1287,22 +1394,26 @@
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         }
       ],
       "english": {
@@ -1328,22 +1439,26 @@
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 150
         },
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         }
       ],
       "english": {
@@ -1369,22 +1484,26 @@
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         }
       ],
       "english": {
@@ -1414,22 +1533,26 @@
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         }
       ],
       "english": {
@@ -1457,22 +1580,26 @@
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         }
       ],
       "english": {
@@ -1498,22 +1625,26 @@
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 175
         }
       ],
       "english": {
@@ -1539,22 +1670,26 @@
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         }
       ],
       "english": {
@@ -1580,22 +1715,26 @@
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         }
       ],
       "english": {
@@ -1621,22 +1760,26 @@
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         }
       ],
       "english": {
@@ -1662,22 +1805,26 @@
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         }
       ],
       "english": {
@@ -1703,22 +1850,26 @@
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 200
         },
         {
           "topic": "time-work",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         }
       ],
       "english": {
@@ -1748,22 +1899,26 @@
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         }
       ],
       "english": {
@@ -1791,22 +1946,26 @@
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         }
       ],
       "english": {
@@ -1832,22 +1991,26 @@
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         }
       ],
       "english": {
@@ -1873,12 +2036,14 @@
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 225
         },
         {
           "topic": "time-work",
@@ -1888,7 +2053,8 @@
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         }
       ],
       "english": {
@@ -1914,22 +2080,26 @@
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "mensuration-2d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "trigonometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "profit-loss",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         }
       ],
       "english": {
@@ -1955,22 +2125,26 @@
         {
           "topic": "time-speed-distance",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "number-system",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         }
       ],
       "english": {
@@ -1996,22 +2170,26 @@
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         }
       ],
       "english": {
@@ -2037,17 +2215,20 @@
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 250
         },
         {
           "topic": "time-work",
@@ -2082,12 +2263,14 @@
         {
           "topic": "percentage",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 300
         },
         {
           "topic": "mixture-alligation",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 300
         },
         {
           "topic": "mensuration-2d",
@@ -2140,7 +2323,8 @@
         {
           "topic": "partnership",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         }
       ],
       "english": {
@@ -2166,22 +2350,26 @@
         {
           "topic": "geometry",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "algebra",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "di",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "mensuration-3d",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         }
       ],
       "english": {
@@ -2207,22 +2395,26 @@
         {
           "topic": "average",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "ratio-proportion",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "simple-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         },
         {
           "topic": "compound-interest",
           "questions": 25,
-          "duration": 25
+          "duration": 25,
+          "from": 275
         }
       ],
       "english": {
