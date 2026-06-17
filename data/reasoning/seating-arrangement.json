@@ -1,6 +1,6 @@
 [
   {
-    "id": "sa_set_001",
+    "id": "reasoning_seating_arrangement_001",
     "passage": "Eight persons Q, T, K, L, G, W, S and P are sitting in a row facing north but not necessarily in the same order. Three persons sit between L and W. S sits immediate left of L. Only one person sits between G and T. G does not sit at any of the extreme end. More than three persons sit between P and Q. Q sits left of P. Either P or Q sits at one of the end. Neither L nor W sits at any of the extreme end. G and T is not an immediate neighbour of S and L. G sits right of T.",
     "passageHindi": "आठ व्यक्ति Q, T, K, L, G, W, S और P उत्तर दिशा की ओर मुख करके एक पंक्ति में बैठे हैं, लेकिन आवश्यक नहीं कि इसी क्रम में हों। L और W के बीच तीन व्यक्ति बैठे हैं। S, L के ठीक बाईं ओर बैठा है। G और T के बीच केवल एक व्यक्ति बैठा है। G किसी भी छोर पर नहीं बैठा है। P और Q के बीच तीन से अधिक व्यक्ति बैठे हैं। Q, P के बाईं ओर बैठा है। P या Q में से कोई एक छोर पर बैठा है। L और W में से कोई भी छोर पर नहीं बैठा है। G और T, S तथा L के निकटतम पड़ोसी नहीं हैं। G, T के दाईं ओर बैठा है।",
     "questions": [
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "id": "sa_set_002",
+    "id": "reasoning_seating_arrangement_002",
     "passage": "Eight persons P, Q, R, S, T, U, V and W are sitting in a row but not necessarily in the same order. Some of them are facing north and some of them are facing south. Note: Facing the same direction means, if one is facing north then the other also faces north and vice versa. Facing the opposite directions means, if one is facing north then the other faces south and vice versa. Person names that start with consecutive alphabets do not sit next to each other.\n\nR sits third to the right of W. T sits fifth to the left of R. Neither R nor T sits at any of the extreme ends. Q sits second to the right of S. S faces north. S and T are not immediate neighbours. More than three persons sit between V and P. P and R are not immediate neighbours. Immediate neighbours of S as well as Q face the same direction. Not more than two persons facing same direction sit next to each other. Person sitting at an extreme end faces same direction. V does not face the same direction as W.",
     "passageHindi": "आठ व्यक्ति P, Q, R, S, T, U, V और W एक पंक्ति में बैठे हैं, लेकिन आवश्यक नहीं कि इसी क्रम में हों। उनमें से कुछ उत्तर की ओर तथा कुछ दक्षिण की ओर मुख करके बैठे हैं। नोट: समान दिशा का अर्थ है कि यदि एक व्यक्ति उत्तर की ओर मुख करके बैठा है तो दूसरा भी उत्तर की ओर मुख करेगा और इसके विपरीत। विपरीत दिशा का अर्थ है कि यदि एक व्यक्ति उत्तर की ओर मुख करके बैठा है तो दूसरा दक्षिण की ओर मुख करेगा और इसके विपरीत। जिन व्यक्तियों के नाम लगातार वर्णमाला अक्षरों से शुरू होते हैं वे एक-दूसरे के पास नहीं बैठते।\n\nR, W के दाईं ओर तीसरे स्थान पर बैठा है। T, R के बाईं ओर पाँचवें स्थान पर बैठा है। न तो R और न ही T किसी छोर पर बैठे हैं। Q, S के दाईं ओर दूसरे स्थान पर बैठा है। S उत्तर की ओर मुख करके बैठा है। S और T निकटतम पड़ोसी नहीं हैं। V और P के बीच तीन से अधिक व्यक्ति बैठे हैं। P और R निकटतम पड़ोसी नहीं हैं। S तथा Q के निकटतम पड़ोसी समान दिशा में मुख करके बैठे हैं। एक साथ दो से अधिक व्यक्ति समान दिशा में नहीं बैठे हैं। छोर पर बैठा व्यक्ति समान दिशा में मुख करता है। V, W की दिशा के समान दिशा में मुख नहीं करता है।",
     "questions": [
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "id": "sa_set_003",
+    "id": "reasoning_seating_arrangement_003",
     "passage": "Seven persons M, T, Z, N, Y, K and L are sitting in a row but not necessarily in the same order. Some of them are facing north and some of them are facing south. Note: Facing the same direction means, if one is facing north then the other also faces north and vice versa. Facing the opposite directions means, if one is facing north then the other faces south and vice versa.\n\nM sits at one of the extreme ends. Y sits second to the left of M. Three persons sit between T and L. L sits immediate right of N. N faces north. Z sits second to the right of L. Immediate neighbour of L is facing same direction. N and T are facing same direction to each other. Immediate neighbour of Y is facing opposite direction to each other. Immediate neighbour of T is facing same direction. T and Y are not facing same direction.",
     "passageHindi": "सात व्यक्ति M, T, Z, N, Y, K और L एक पंक्ति में बैठे हैं, लेकिन आवश्यक नहीं कि इसी क्रम में हों। उनमें से कुछ उत्तर की ओर तथा कुछ दक्षिण की ओर मुख करके बैठे हैं। नोट: समान दिशा का अर्थ है कि यदि एक व्यक्ति उत्तर की ओर मुख करके बैठा है तो दूसरा भी उत्तर की ओर मुख करेगा और इसके विपरीत। विपरीत दिशा का अर्थ है कि यदि एक व्यक्ति उत्तर की ओर मुख करके बैठा है तो दूसरा दक्षिण की ओर मुख करेगा और इसके विपरीत।\n\nM किसी एक छोर पर बैठा है। Y, M के बाईं ओर दूसरे स्थान पर बैठा है। T और L के बीच तीन व्यक्ति बैठे हैं। L, N के ठीक दाईं ओर बैठा है। N उत्तर दिशा की ओर मुख करके बैठा है। Z, L के दाईं ओर दूसरे स्थान पर बैठा है। L का निकटतम पड़ोसी उसी दिशा में मुख करता है। N और T एक ही दिशा में मुख करते हैं। Y के निकटतम पड़ोसी विपरीत दिशा में मुख करते हैं। T के निकटतम पड़ोसी उसी दिशा में मुख करते हैं। T और Y समान दिशा में मुख नहीं करते।",
     "questions": [
@@ -214,5 +214,294 @@
         "explanation": "From the final arrangement, the required person is Y."
       }
     ]
+  },
+    {
+      "id": "reasoning_seating_arrangement_004",
+      "passage": "Eight persons are sitting in two parallel rows and facing each other. In Row1 L, M, N, and O are seated and face south. In Row2 U, V, W, and X are seated and face north. All the information is not necessarily in the same order. U sits second to the left of X. L sits third to the right of M. W sits adjacent to X. W does not sit at the end of the row. O sits immediate right of N. N does not sit opposite to W.",
+      "questions": [
+        {
+          "question": "In which of the following statement two persons are not sitting together?",
+          "options": ["Only II", "Only I and III", "Only III", "All I, II, and III", "None of these"],
+          "correctAnswer": "All I, II, and III",
+          "explanation": "Final arrangement: O N M L / V U W X. LN, XU and WV are not adjacent."
+        },
+        {
+          "question": "Four of the five among the following are similar in such a way to form a group, who among the following doesn’t belong to the group?",
+          "options": ["L", "M", "U", "V", "W"],
+          "correctAnswer": "W",
+          "explanation": "W is the only person seated in an inner position in Row2, while the others belong to corner/opposite-pair positions."
+        },
+        {
+          "question": "Who among the following person sits second to the left of W?",
+          "options": ["No one", "X", "V", "U", "None of the above"],
+          "correctAnswer": "V",
+          "explanation": "Row2 arrangement is V U W X. Second to the left of W is V."
+        },
+        {
+          "question": "Which of the following statement is/are false? I. Only one person sits between O and M II. W sits immediate left of X III. L and V are diagonally opposite to each other.",
+          "options": ["Only I and III", "Only III", "Only I and II", "Only II", "None of the statement is false"],
+          "correctAnswer": "Only III",
+          "explanation": "Statements I and II are true. L and V are not diagonally opposite."
+        },
+        {
+          "question": "Who among the following person sits opposite to N?",
+          "options": ["X", "V", "W", "U", "None of the above"],
+          "correctAnswer": "U",
+          "explanation": "N is seated opposite U."
+        }
+      ]
+    },
+    {
+      "id": "sa_set_002",
+      "passage": "Eight persons viz. A, B, C, D, E, F, G and H are living in an eight storey building. F lives on the lowermost floor. Three persons live between F and B. H lives adjacent to B. A lives between G and D but there is no floor gap between them. E lives on floor 3. G doesn’t live adjacent to B.",
+      "questions": [
+        {
+          "question": "Who among the following person lives on floor 6?",
+          "options": ["G", "H", "D", "E", "None of these"],
+          "correctAnswer": "G",
+          "explanation": "Final floors from bottom to top: F, C, E, H, B, G, A, D."
+        },
+        {
+          "question": "On which of the following floor does A live?",
+          "options": ["7th floor", "3rd floor", "4th floor", "5th floor", "None of these"],
+          "correctAnswer": "7th floor",
+          "explanation": "A lives on floor 7."
+        },
+        {
+          "question": "How many persons live between G and H?",
+          "options": ["One", "Two", "Three", "More than three", "None"],
+          "correctAnswer": "One",
+          "explanation": "H is on floor 4 and G is on floor 6. Only B sits between them."
+        },
+        {
+          "question": "Who among the following person live on floor 2?",
+          "options": ["H", "C", "D", "G", "None of these"],
+          "correctAnswer": "C",
+          "explanation": "C lives on floor 2."
+        },
+        {
+          "question": "On which of the following floor does B live?",
+          "options": ["2nd floor", "4th floor", "6th floor", "5th floor", "None of these"],
+          "correctAnswer": "5th floor",
+          "explanation": "B lives on floor 5."
+        }
+      ]
+    },
+    {
+      "id": "sa_set_003",
+      "passage": "Seven persons viz. L, M, N, O, P, Q and R are sitting in a straight line facing north. Q sits at one of the ends. Two persons sit between Q and M. P sits third from the right end. L sits third to the left of P. R sits second from one end. N sits second to the left of O.",
+      "questions": [
+        {
+          "question": "Who among the following person sits at the leftmost end?",
+          "options": ["Q", "N", "L", "M", "None of these"],
+          "correctAnswer": "N",
+          "explanation": "Final arrangement: N L O M P R Q."
+        },
+        {
+          "question": "Who among the following sits adjacent to Q?",
+          "options": ["L", "O", "N", "R", "None of these"],
+          "correctAnswer": "R",
+          "explanation": "R sits immediately next to Q."
+        },
+        {
+          "question": "How many persons sit between L and R?",
+          "options": ["One", "Two", "Three", "More than three", "None"],
+          "correctAnswer": "Three",
+          "explanation": "O, M and P sit between L and R."
+        },
+        {
+          "question": "Who among the following person sits exactly in the middle?",
+          "options": ["M", "P", "O", "N", "None of these"],
+          "correctAnswer": "M",
+          "explanation": "M occupies the middle position."
+        },
+        {
+          "question": "How many persons sit between P and Q?",
+          "options": ["One", "Two", "Three", "More than three", "None"],
+          "correctAnswer": "One",
+          "explanation": "Only R sits between P and Q."
+        }
+      ]
+    },
+    {
+      "id": "sa_set_004",
+      "passage": "Six boxes viz. U, V, W, X, Y and Z were placed one above the other in a single stack. The lowermost box is numbered 1 and the box immediately above is numbered 2 and so on. Y was placed at box 3. U was placed adjacent to Y. Two boxes were placed between U and Z. W was placed at the top. Only one box was placed between W and V.",
+      "questions": [
+        {
+          "question": "Which of the following box was placed at box 4?",
+          "options": ["Z", "U", "V", "Y", "None of these"],
+          "correctAnswer": "V",
+          "explanation": "Final stack from bottom to top: X, U, Y, V, Z, W."
+        },
+        {
+          "question": "How many boxes are there between W and Z?",
+          "options": ["One", "Two", "Three", "More than three", "None"],
+          "correctAnswer": "None",
+          "explanation": "W and Z are adjacent. No box lies between them."
+        },
+        {
+          "question": "Which of the following box was placed at box 2?",
+          "options": ["V", "U", "X", "Y", "None of these"],
+          "correctAnswer": "U",
+          "explanation": "U is placed at box 2."
+        },
+        {
+          "question": "In which of the following position does Z was placed?",
+          "options": ["Box 5", "Box 3", "Box 4", "Box 1", "None of these"],
+          "correctAnswer": "Box 5",
+          "explanation": "Z is placed at box 5."
+        },
+        {
+          "question": "How many boxes are there between U and Z?",
+          "options": ["One", "Two", "Three", "More than three", "None"],
+          "correctAnswer": "Two",
+          "explanation": "Boxes Y and V are between U and Z."
+        }
+      ]
+    },
+  {
+  "id": "reasoning_seating_arrangement_005",
+    "passage": "Eight persons are sitting in two parallel rows and facing each other. In Row1 L, M, N, and O are seated and face south. In Row2 U, V, W, and X are seated and face north. All the information is not necessarily in the same order. U sits second to the left of X. L sits third to the right of M. W sits adjacent to X. W does not sit at the end of the row. O sits immediate right of N. N does not sit opposite to W.",
+    "questions": [
+      {
+        "question": "In which of the following statement two persons are not sitting together?",
+        "options": ["Only II", "Only I and III", "Only III", "All I, II, and III", "None of these"],
+        "correctAnswer": "All I, II, and III",
+        "explanation": "Final arrangement: O N M L / V U W X. LN, XU and WV are not adjacent."
+      },
+      {
+        "question": "Four of the five among the following are similar in such a way to form a group, who among the following doesn’t belong to the group?",
+        "options": ["L", "M", "U", "V", "W"],
+        "correctAnswer": "W",
+        "explanation": "W is the only person seated in an inner position in Row2, while the others belong to corner/opposite-pair positions."
+      },
+      {
+        "question": "Who among the following person sits second to the left of W?",
+        "options": ["No one", "X", "V", "U", "None of the above"],
+        "correctAnswer": "V",
+        "explanation": "Row2 arrangement is V U W X. Second to the left of W is V."
+      },
+      {
+        "question": "Which of the following statement is/are false? I. Only one person sits between O and M II. W sits immediate left of X III. L and V are diagonally opposite to each other.",
+        "options": ["Only I and III", "Only III", "Only I and II", "Only II", "None of the statement is false"],
+        "correctAnswer": "Only III",
+        "explanation": "Statements I and II are true. L and V are not diagonally opposite."
+      },
+      {
+        "question": "Who among the following person sits opposite to N?",
+        "options": ["X", "V", "W", "U", "None of the above"],
+        "correctAnswer": "U",
+        "explanation": "N is seated opposite U."
+      }
+    ]
+  },
+  {
+    "id": "reasoning_seating_arrangement_006",
+    "passage": "Eight persons viz. A, B, C, D, E, F, G and H are living in an eight storey building. F lives on the lowermost floor. Three persons live between F and B. H lives adjacent to B. A lives between G and D but there is no floor gap between them. E lives on floor 3. G doesn’t live adjacent to B.",
+    "questions": [
+      {
+        "question": "Who among the following person lives on floor 6?",
+        "options": ["G", "H", "D", "E", "None of these"],
+        "correctAnswer": "G",
+        "explanation": "Final floors from bottom to top: F, C, E, H, B, G, A, D."
+      },
+      {
+        "question": "On which of the following floor does A live?",
+        "options": ["7th floor", "3rd floor", "4th floor", "5th floor", "None of these"],
+        "correctAnswer": "7th floor",
+        "explanation": "A lives on floor 7."
+      },
+      {
+        "question": "How many persons live between G and H?",
+        "options": ["One", "Two", "Three", "More than three", "None"],
+        "correctAnswer": "One",
+        "explanation": "H is on floor 4 and G is on floor 6. Only B sits between them."
+      },
+      {
+        "question": "Who among the following person live on floor 2?",
+        "options": ["H", "C", "D", "G", "None of these"],
+        "correctAnswer": "C",
+        "explanation": "C lives on floor 2."
+      },
+      {
+        "question": "On which of the following floor does B live?",
+        "options": ["2nd floor", "4th floor", "6th floor", "5th floor", "None of these"],
+        "correctAnswer": "5th floor",
+        "explanation": "B lives on floor 5."
+      }
+    ]
+  },
+    {
+    "id": "reasoning_seating_arrangement_007",
+    "passage": "Seven persons viz. L, M, N, O, P, Q and R are sitting in a straight line facing north. Q sits at one of the ends. Two persons sit between Q and M. P sits third from the right end. L sits third to the left of P. R sits second from one end. N sits second to the left of O.",
+    "questions": [
+      {
+        "question": "Who among the following person sits at the leftmost end?",
+        "options": ["Q", "N", "L", "M", "None of these"],
+        "correctAnswer": "N",
+        "explanation": "Final arrangement: N L O M P R Q."
+      },
+      {
+        "question": "Who among the following sits adjacent to Q?",
+        "options": ["L", "O", "N", "R", "None of these"],
+        "correctAnswer": "R",
+        "explanation": "R sits immediately next to Q."
+      },
+      {
+        "question": "How many persons sit between L and R?",
+        "options": ["One", "Two", "Three", "More than three", "None"],
+        "correctAnswer": "Three",
+        "explanation": "O, M and P sit between L and R."
+      },
+      {
+        "question": "Who among the following person sits exactly in the middle?",
+        "options": ["M", "P", "O", "N", "None of these"],
+        "correctAnswer": "M",
+        "explanation": "M occupies the middle position."
+      },
+      {
+        "question": "How many persons sit between P and Q?",
+        "options": ["One", "Two", "Three", "More than three", "None"],
+        "correctAnswer": "One",
+        "explanation": "Only R sits between P and Q."
+      }
+    ]
+  },
+  {
+    "id": "reasoning_seating_arrangement_008",
+    "passage": "Six boxes viz. U, V, W, X, Y and Z were placed one above the other in a single stack. The lowermost box is numbered 1 and the box immediately above is numbered 2 and so on. Y was placed at box 3. U was placed adjacent to Y. Two boxes were placed between U and Z. W was placed at the top. Only one box was placed between W and V.",
+    "questions": [
+      {
+        "question": "Which of the following box was placed at box 4?",
+        "options": ["Z", "U", "V", "Y", "None of these"],
+        "correctAnswer": "V",
+        "explanation": "Final stack from bottom to top: X, U, Y, V, Z, W."
+      },
+      {
+        "question": "How many boxes are there between W and Z?",
+        "options": ["One", "Two", "Three", "More than three", "None"],
+        "correctAnswer": "None",
+        "explanation": "W and Z are adjacent. No box lies between them."
+      },
+      {
+        "question": "Which of the following box was placed at box 2?",
+        "options": ["V", "U", "X", "Y", "None of these"],
+        "correctAnswer": "U",
+        "explanation": "U is placed at box 2."
+      },
+      {
+        "question": "In which of the following position does Z was placed?",
+        "options": ["Box 5", "Box 3", "Box 4", "Box 1", "None of these"],
+        "correctAnswer": "Box 5",
+        "explanation": "Z is placed at box 5."
+      },
+      {
+        "question": "How many boxes are there between U and Z?",
+        "options": ["One", "Two", "Three", "More than three", "None"],
+        "correctAnswer": "Two",
+        "explanation": "Boxes Y and V are between U and Z."
+      }
+    ]
   }
+
 ]
