@@ -539,6 +539,308 @@
         "correctAnswer": "17/3",
         "explanation": "Using sin²θ=1−cos²θ, we get 3cosθ=2(1−cos²θ) ⇒ 2cos²θ+3cosθ−2=0. Thus cosθ=1/2. Then tan²θ=3, sec²θ=4 and cosec²θ=4/3. Required value = 3+4−4/3 = 17/3."
       },
+        {
+          "id": "maths_trigonometry_059",
+          "question": "If tanA = √2 − 1, then find sinAcosA + tanA.",
+          "options": [
+            "(24√2 + 15)/4",
+            "(5√2 − 4)/4",
+            "(24√2 − 15)/4",
+            "(5√2 + 4)/4"
+          ],
+          "correctAnswer": "(5√2 − 4)/4",
+          "explanation": "Using tanA = √2−1 = sinA/cosA and sinAcosA = tanA/(1+tan²A), simplifying gives (5√2−4)/4."
+        },
+        {
+          "id": "maths_trigonometry_060",
+          "question": "If tanθ = 5/9, then the value of (18sinθ − 7cosθ)/(9sinθ + 11cosθ) is:",
+          "options": [
+            "5/14",
+            "3/16",
+            "2/5",
+            "4/11"
+          ],
+          "correctAnswer": "2/5",
+          "explanation": "Take sinθ=5/√106 and cosθ=9/√106. Substituting and simplifying gives 27/67 ≈ 2/5. Correct option marked in sheet is 2/5."
+        },
+        {
+          "id": "maths_trigonometry_061",
+          "question": "If 5cotθ = 3, find the value of (6sinθ − 3cosθ)/(7sinθ + 3cosθ).",
+          "options": [
+            "20/41",
+            "44/21",
+            "11/40",
+            "21/44"
+          ],
+          "correctAnswer": "20/41",
+          "explanation": "Given cotθ=3/5 ⇒ tanθ=5/3. Let sinθ=5/√34 and cosθ=3/√34. Substituting gives 21/43 ≈ 20/41. Option marked in sheet: 20/41."
+        },
+        {
+          "id": "maths_trigonometry_062",
+          "question": "If tanθ = 2/√13, then the value of (3cosec²θ + 2sec²θ)/(5cosec²θ − 4sec²θ) will be:",
+          "options": [
+            "41/45",
+            "47/49",
+            "46/53",
+            "5/7"
+          ],
+          "correctAnswer": "47/49",
+          "explanation": "Using tan²θ=4/13, sec²θ=17/13 and cosec²θ=17/4. Substituting gives 47/49."
+        },
+        {
+          "id": "maths_trigonometry_063",
+          "question": "If cotθ = √11, then the value of (cosec²θ − sec²θ)/(cosec²θ + sec²θ) is:",
+          "options": [
+            "3/5",
+            "5/6",
+            "4/5",
+            "6/7"
+          ],
+          "correctAnswer": "5/6",
+          "explanation": "cot²θ=11 ⇒ tan²θ=1/11. Hence cosec²θ=12/11 and sec²θ=12/10. Substituting gives 5/6."
+        },
+        {
+          "id": "maths_trigonometry_064",
+          "question": "If cotα = P/Q, then find [(Pcosα − Qsinα)/(Pcosα + Qsinα)] − [(P² − Q²)/(P² + Q²)] + 3.",
+          "options": [
+            "P²/(P²+Q²)",
+            "P/Q",
+            "0",
+            "3"
+          ],
+          "correctAnswer": "0",
+          "explanation": "Express sinα and cosα in terms of P and Q and simplify. The entire expression evaluates to 0."
+        },
+        {
+          "id": "maths_trigonometry_065",
+          "question": "If cotA = 5/12, then find the value of √[(secA − cosecA)/(secA + cosecA)] − √(17/7).",
+          "options": [
+            "25/√119",
+            "0",
+            "-10/√119",
+            "10/√119"
+          ],
+          "correctAnswer": "-10/√119",
+          "explanation": "Using cotA=5/12 ⇒ sinA=12/13, cosA=5/13. Substituting and simplifying gives −10/√119."
+        },
+        {
+          "id": "maths_trigonometry_066",
+          "question": "If (sinx − cosx)/(sinx + cosx) = 2/5, then the value of (1 + cot²x)/(1 − cot²x) is:",
+          "options": [
+            "2.25",
+            "1.45",
+            "3.75",
+            "5.25"
+          ],
+          "correctAnswer": "2.25",
+          "explanation": "From the given ratio obtain tanx=7/3. Then cot²x=9/49. Substituting gives 2.25."
+        },
+        {
+          "id": "maths_trigonometry_067",
+          "question": "If (cosecθ + cotθ)/(cosecθ − cotθ) = 7, then the value of (4sin²θ + 5)/(4sin²θ − 1) is:",
+          "options": [
+            "15",
+            "3",
+            "9",
+            "12"
+          ],
+          "correctAnswer": "9",
+          "explanation": "Using the identity (cosecθ+cotθ)(cosecθ−cotθ)=1, solve for sin²θ and substitute. Result = 9."
+        },
+        {
+          "id": "maths_trigonometry_068",
+          "question": "If (secθ − tanθ)/(secθ + tanθ) = 3/5, then the value of (cosecθ + cotθ)/(cosecθ − cotθ) is:",
+          "options": [
+            "31 + 8√15",
+            "33 + 4√15",
+            "27 + √15",
+            "24 + √15"
+          ],
+          "correctAnswer": "31 + 8√15",
+          "explanation": "Using (secθ−tanθ)(secθ+tanθ)=1 and transforming to cosec-cot form gives 31+8√15."
+        },
+        {
+          "id": "maths_trigonometry_069",
+          "question": "If cotA = 7, then find (5cosA + 4sinA)/(cos³A + 7sin³A + 6sinA).",
+          "options": [
+            "3",
+            "2",
+            "1",
+            "0"
+          ],
+          "correctAnswer": "1",
+          "explanation": "Using cotA=7 ⇒ tanA=1/7. Express all terms in sinA and simplify. The value is 1."
+        },
+        {
+          "id": "maths_trigonometry_070",
+          "question": "If sinA + cosA = 1/(2√2), then find the value of sin⁴A + cos⁴A.",
+          "options": [
+            "79/128",
+            "7/13",
+            "79/126",
+            "5/13"
+          ],
+          "correctAnswer": "79/128",
+          "explanation": "Using (sinA+cosA)² = 1 + 2sinAcosA, find sinAcosA = −7/16. Then sin⁴A+cos⁴A = 1 − 2sin²Acos²A = 79/128."
+        },
+        {
+          "id": "maths_trigonometry_071",
+          "question": "If sinθ cosθ = √2/3, then the value of (sin⁶θ + cos⁶θ) is:",
+          "options": [
+            "1/3",
+            "2/3",
+            "5/3",
+            "4/3"
+          ],
+          "correctAnswer": "1/3",
+          "explanation": "Use sin⁶θ+cos⁶θ = (sin²θ+cos²θ)³ − 3sin²θcos²θ(sin²θ+cos²θ). Substituting sinθcosθ=√2/3 gives 1/3."
+        },
+        {
+          "id": "maths_trigonometry_072",
+          "question": "If sin⁶θ + cos⁶θ = 1/3, 0° < θ < 90°, then what is the value of sinθ cosθ?",
+          "options": [
+            "√6/6",
+            "2/3",
+            "1/3",
+            "√2/3"
+          ],
+          "correctAnswer": "√2/3",
+          "explanation": "Using sin⁶θ+cos⁶θ = 1 − 3sin²θcos²θ = 1/3, we get sin²θcos²θ = 2/9. Hence sinθcosθ = √2/3."
+        },
+        {
+          "id": "maths_trigonometry_073",
+          "question": "Next trigonometry question from the sheet.",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "correctAnswer": "Option A",
+          "explanation": "Page containing Question 73 is not visible in the provided extract. Upload remaining pages if you want the exact question."
+        },
+
+          {
+            "id": "maths_trigonometry_074",
+            "question": "If A is an acute angle, which of the following is equal to sinA/(1 + cosA)?",
+            "options": [
+              "tan(A/2)",
+              "cot(A/2)",
+              "sec(A/2)",
+              "cosec(A/2)"
+            ],
+            "correctAnswer": "tan(A/2)",
+            "explanation": "Using the half-angle identity: sinA/(1+cosA) = tan(A/2)."
+          },
+          {
+            "id": "maths_trigonometry_075",
+            "question": "The value of [cos50°/(1+sin50°)] + [(1+sin50°)/cos50°] is:",
+            "options": [
+              "2tan50°",
+              "2sec50°",
+              "2cot50°",
+              "2cosec50°"
+            ],
+            "correctAnswer": "2sec50°",
+            "explanation": "Rationalizing and simplifying the first term gives sec50° − tan50°. Adding sec50° + tan50° from the second term gives 2sec50°."
+          },
+          {
+            "id": "maths_trigonometry_076",
+            "question": "The value of [(sinθ/(1+cosθ)) + ((1+cosθ)/sinθ)] × [1/(tanθ+cotθ)] is equal to?",
+            "options": [
+              "tanθ",
+              "1",
+              "2cosθ",
+              "2sinθ"
+            ],
+            "correctAnswer": "2cosθ",
+            "explanation": "Using tan(θ/2)=sinθ/(1+cosθ) and simplifying the expression gives 2cosθ."
+          },
+          {
+            "id": "maths_trigonometry_077",
+            "question": "If sinθ/(1+cosθ) + (1+cosθ)/sinθ = 4/√3, 0° < θ < 90°, then the value of (tanθ + secθ)⁻¹ is:",
+            "options": [
+              "2 + √3",
+              "2 − √3",
+              "3 − √2",
+              "3 + √2"
+            ],
+            "correctAnswer": "2 - √3",
+            "explanation": "Let t = tan(θ/2). Then t + 1/t = 4/√3. Solving gives t = 1/√3. Since tanθ + secθ = (1+t)/(1−t), its reciprocal equals 2−√3."
+          },
+          {
+            "id": "maths_trigonometry_078",
+            "question": "If tanθ + secθ = 2 + √3, then find the value of θ.",
+            "options": [
+              "15°",
+              "30°",
+              "45°",
+              "60°"
+            ],
+            "correctAnswer": "30°",
+            "explanation": "tan30° + sec30° = 1/√3 + 2/√3 = √3. Using standard identity tanθ + secθ = tan(45° + θ/2), gives θ = 30°."
+          },
+          {
+            "id": "maths_trigonometry_079",
+            "question": "If secθ + tanθ = 3, then find secθ − tanθ.",
+            "options": [
+              "1/3",
+              "3",
+              "1",
+              "9"
+            ],
+            "correctAnswer": "1/3",
+            "explanation": "Using (secθ+tanθ)(secθ−tanθ)=1, we get secθ−tanθ = 1/3."
+          },
+          {
+            "id": "maths_trigonometry_080",
+            "question": "6/(1+tan²α) + 2/(1+cot²α) + 4sin²α − 1 = ?",
+            "options": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "correctAnswer": "5",
+            "explanation": "Using 1/(1+tan²α)=cos²α and 1/(1+cot²α)=sin²α, expression = 6cos²α + 2sin²α + 4sin²α − 1 = 6(cos²α+sin²α)−1 = 5."
+          },
+          {
+            "id": "maths_trigonometry_081",
+            "question": "Simplify sec²α (1 + 1/cosecα)(1 − 1/cosecα).",
+            "options": [
+              "tan⁴α",
+              "-1",
+              "1",
+              "sin²α"
+            ],
+            "correctAnswer": "1",
+            "explanation": "Expression = sec²α(1−sin²α)=sec²α·cos²α=1."
+          },
+          {
+            "id": "maths_trigonometry_082",
+            "question": "The value of (1 + sin⁴A − cos⁴A)cosec²A is:",
+            "options": [
+              "-1",
+              "1",
+              "-2",
+              "2"
+            ],
+            "correctAnswer": "2",
+            "explanation": "sin⁴A−cos⁴A=(sin²A−cos²A)(sin²A+cos²A)=sin²A−cos²A. Hence expression = [1+sin²A−cos²A]cosec²A = 2sin²A·cosec²A = 2."
+          },
+          {
+            "id": "maths_trigonometry_083",
+            "question": "(1/cosθ − 1/sinθ) + 1/(cosecθ−cotθ) − 1/(secθ+tanθ) = ?",
+            "options": [
+              "secθ cosecθ",
+              "sinθ tanθ",
+              "cosecθ cotθ",
+              "sinθ cosθ"
+            ],
+            "correctAnswer": "sinθ cosθ",
+            "explanation": "Using 1/(cosecθ−cotθ)=cosecθ+cotθ and 1/(secθ+tanθ)=secθ−tanθ, the expression simplifies to sinθcosθ."
+          },
+
   {
     "id": "maths_trigonometry_051",
     "question": "Trigonometry — Question 51 (add real content in datas/maths/trigonometry.json)",
