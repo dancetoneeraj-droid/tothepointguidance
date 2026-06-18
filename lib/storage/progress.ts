@@ -387,6 +387,18 @@ export async function markGkMaterials(
   saveStore(store);
 }
 
+export async function markGkRevisionComplete(
+  studentId: string,
+  day: number
+): Promise<void> {
+  const store = getStore(studentId);
+  const dayProgress = ensureDayInStore(store, day);
+  dayProgress.gk.revisionQuizCompleted = true;
+  store.gkProgress[String(day)] = dayProgress.gk;
+  store.dayProgress[String(day)] = dayProgress;
+  saveStore(store);
+}
+
 /** Override: unlock only the immediate next day (unlockedDay + 1). */
 export async function recordOverride(
   studentId: string,

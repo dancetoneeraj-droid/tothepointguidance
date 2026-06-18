@@ -31,6 +31,7 @@ import {
   hasCompletedQuiz,
   markEnglishSection,
   markGkMaterials,
+  markGkRevisionComplete,
   recordOverride,
   unlockNextDay,
 } from "@/lib/storage/progress";
@@ -183,6 +184,17 @@ export default function DayPage({
     );
     if (!hasGkMaterialsActions && !dayProgress.gk.materialsCompleted) {
       void markGkMaterials(resolvedStudentId, dayNum).then(
+        () => void refreshDayState()
+      );
+    }
+
+    // Auto-complete GK revision quiz if the day's plan has no revision quiz scheduled.
+    if (
+      dayNum > 1 &&
+      !plan.gk.revisionQuiz &&
+      !dayProgress.gk.revisionQuizCompleted
+    ) {
+      void markGkRevisionComplete(resolvedStudentId, dayNum).then(
         () => void refreshDayState()
       );
     }
@@ -531,7 +543,7 @@ export default function DayPage({
             : []),
         ],
       },
-      ...(dayNum > 1
+      ...(dayNum > 1 && !!plan.gk.revisionQuiz
         ? [
             {
               id: "gk-revision",
