@@ -1498,7 +1498,307 @@
               ],
               "correctAnswer": "Little care",
               "explanation": "Use 'A little care' to indicate a small amount of care."
-            }
+            },
+              {
+                "id": "adjective_001",
+                "question": "He is as intelligent if not more intelligent than his brother.",
+                "options": [
+                  "He is as intelligent",
+                  "if not more intelligent",
+                  "than his brother",
+                  "No error"
+                ],
+                "correctAnswer": "than his brother",
+                "explanation": "Use 'as his brother' after 'as intelligent as'. Correct expression: 'He is as intelligent as, if not more intelligent than, his brother.'"
+              },
+              {
+                "id": "adjective_002",
+                "question": "She is better than any girl that studies in our class.",
+                "options": [
+                  "She is better",
+                  "than any girl",
+                  "that studies in our class",
+                  "No error"
+                ],
+                "correctAnswer": "than any girl",
+                "explanation": "Use 'any other girl' because she is also a member of the class."
+              },
+              {
+                "id": "adjective_003",
+                "question": "The latest chapter of this novel is the most comprehensive of all the chapters in the book.",
+                "options": [
+                  "The latest chapter of this novel",
+                  "is the most comprehensive",
+                  "of all the chapters in the book",
+                  "No error"
+                ],
+                "correctAnswer": "No error",
+                "explanation": "The sentence is grammatically correct."
+              },
+              {
+                "id": "adjective_004",
+                "question": "She was not punished though she came later than I.",
+                "options": [
+                  "She was not punished",
+                  "though she came later",
+                  "than I",
+                  "No error"
+                ],
+                "correctAnswer": "than I",
+                "explanation": "After 'than', objective case is preferred here: 'than me'."
+              },
+              {
+                "id": "adjective_005",
+                "question": "She is the best and beautiful girl of our village.",
+                "options": [
+                  "She is the best",
+                  "and beautiful girl",
+                  "of our village",
+                  "No error"
+                ],
+                "correctAnswer": "and beautiful girl",
+                "explanation": "Use parallel degree: 'the best and the most beautiful girl'."
+              },
+              {
+                "id": "adjective_006",
+                "question": "My book is superior than yours although it has cost me much less.",
+                "options": [
+                  "My book is superior",
+                  "than yours",
+                  "although it has cost me much less",
+                  "No error"
+                ],
+                "correctAnswer": "than yours",
+                "explanation": "'Superior' takes the preposition 'to', not 'than'."
+              },
+              {
+                "id": "adjective_007",
+                "question": "Of all other my neighbours he is the kindest and most considerate to others.",
+                "options": [
+                  "Of all other my neighbours",
+                  "he is the kindest",
+                  "and most considerate to others",
+                  "No error"
+                ],
+                "correctAnswer": "Of all other my neighbours",
+                "explanation": "Use 'Of all my neighbours' or 'Among all my neighbours'."
+              },
+              {
+                "id": "adjective_008",
+                "question": "'Arabian Nights' is the most adventurous of any books written so far.",
+                "options": [
+                  "'Arabian Nights' is",
+                  "the most adventurous",
+                  "of any books written so far",
+                  "No error"
+                ],
+                "correctAnswer": "of any books written so far",
+                "explanation": "Use 'of all books written so far' or 'than any other book'."
+              },
+              {
+                "id": "adjective_009",
+                "question": "The works of Shakespeare are more famous than any other English dramatist.",
+                "options": [
+                  "The works of Shakespeare are",
+                  "more famous",
+                  "than any other English dramatist",
+                  "No error"
+                ],
+                "correctAnswer": "than any other English dramatist",
+                "explanation": "Comparison should be between works and works. Use 'than the works of any other English dramatist'."
+              },
+              {
+                "id": "adjective_010",
+                "question": "It is all the more better if you work in my company.",
+                "options": [
+                  "It is all the more",
+                  "better",
+                  "if you work in my company",
+                  "No error"
+                ],
+                "correctAnswer": "better",
+                "explanation": "'All the more' is followed by the positive degree. Use 'all the better'."
+              },
+              {
+                "id": "adjective_011",
+                "question": "These kind of roses are very popular.",
+                "options": [
+                  "These kind of roses",
+                  "are very popular",
+                  "No error",
+                  "-"
+                ],
+                "correctAnswer": "These kind of roses",
+                "explanation": "Use 'This kind of roses' or 'These kinds of roses'."
+              },
+              {
+                "id": "adjective_012",
+                "question": "He doesn't need your help because he is too intelligent.",
+                "options": [
+                  "He doesn't need your help",
+                  "because he is",
+                  "too intelligent",
+                  "No error"
+                ],
+                "correctAnswer": "too intelligent",
+                "explanation": "'Too' implies an undesirable excess. Use 'very intelligent'."
+              },
+              {
+                "id": "adjective_013",
+                "question": "Modinagar is further from Dehradun than Meerut.",
+                "options": [
+                  "Modinagar is further",
+                  "from Dehradun",
+                  "than Meerut",
+                  "No error"
+                ],
+                "correctAnswer": "further",
+                "explanation": "Use 'farther' for physical distance."
+              },
+              {
+                "id": "adjective_014",
+                "question": "It was bitter cold and we preferred not to go out that night.",
+                "options": [
+                  "It was bitter cold",
+                  "and we preferred",
+                  "not to go out that night",
+                  "No error"
+                ],
+                "correctAnswer": "It was bitter cold",
+                "explanation": "Use 'bitterly cold'."
+              },
+              {
+                "id": "adjective_015",
+                "question": "No animal is so sacred to the Hindus as the cow is.",
+                "options": [
+                  "No animal is so sacred",
+                  "to the Hindus",
+                  "as the cow is",
+                  "No error"
+                ],
+                "correctAnswer": "No error",
+                "explanation": "The sentence correctly follows the 'No other...so/as...as' pattern."
+              },
+              {
+                "id": "adjective_016",
+                "question": "The food tasted deliciously and we enjoyed it to our fill.",
+                "options": [
+                  "The food tasted",
+                  "deliciously",
+                  "and we enjoyed it to our fill",
+                  "No error"
+                ],
+                "correctAnswer": "deliciously",
+                "explanation": "Linking verbs take adjectives. Use 'delicious'."
+              },
+              {
+                "id": "adjective_017",
+                "question": "She is as clever if not cleverer than her mother.",
+                "options": [
+                  "She is as clever",
+                  "if not cleverer",
+                  "than her mother",
+                  "No error"
+                ],
+                "correctAnswer": "than her mother",
+                "explanation": "Correct expression: 'as clever as, if not cleverer than, her mother'."
+              },
+              {
+                "id": "adjective_018",
+                "question": "She went to the wholesale market and bought cheap vegetables.",
+                "options": [
+                  "She went to the wholesale market",
+                  "and bought",
+                  "cheap vegetables",
+                  "No error"
+                ],
+                "correctAnswer": "No error",
+                "explanation": "The sentence is grammatically correct."
+              },
+              {
+                "id": "adjective_019",
+                "question": "There is no other name more glorious than Sardar Patel in the history of India.",
+                "options": [
+                  "There is no other name",
+                  "more glorious than",
+                  "Sardar Patel in the history of India",
+                  "No error"
+                ],
+                "correctAnswer": "Sardar Patel in the history of India",
+                "explanation": "Use 'than that of Sardar Patel' because comparison is between names."
+              },
+              {
+                "id": "adjective_020",
+                "question": "He only is responsible for the problems which I am facing today.",
+                "options": [
+                  "He only is responsible",
+                  "for the problems",
+                  "which I am facing today",
+                  "No error"
+                ],
+                "correctAnswer": "He only is responsible",
+                "explanation": "Use 'He alone is responsible'."
+              },
+              {
+                "id": "adjective_021",
+                "question": "Mr. Chopra is more senior to me in service.",
+                "options": [
+                  "Mr. Chopra is",
+                  "more senior to me",
+                  "in service",
+                  "No error"
+                ],
+                "correctAnswer": "more senior to me",
+                "explanation": "'Senior' itself is comparative. Use 'senior to me'."
+              },
+              {
+                "id": "adjective_022",
+                "question": "The boys prefer playing cricket to hockey.",
+                "options": [
+                  "The boys prefer",
+                  "playing cricket",
+                  "to hockey",
+                  "No error"
+                ],
+                "correctAnswer": "to hockey",
+                "explanation": "Parallel structure required: 'playing cricket to playing hockey' or 'cricket to hockey'."
+              },
+              {
+                "id": "adjective_023",
+                "question": "Because of her frank nature I like her the most.",
+                "options": [
+                  "Because of her frank nature",
+                  "I like her",
+                  "the most",
+                  "No error"
+                ],
+                "correctAnswer": "the most",
+                "explanation": "Use 'very much' unless comparison within a specific group is intended."
+              },
+              {
+                "id": "adjective_024",
+                "question": "She has not broken the window. Somebody has broken it.",
+                "options": [
+                  "She has not broken the window",
+                  "Somebody has broken it",
+                  "No error",
+                  "-"
+                ],
+                "correctAnswer": "No error",
+                "explanation": "The sentence is grammatically correct."
+              },
+              {
+                "id": "adjective_025",
+                "question": "There are five members less in the committee.",
+                "options": [
+                  "There are five members",
+                  "less in the committee",
+                  "No error",
+                  "-"
+                ],
+                "correctAnswer": "less in the committee",
+                "explanation": "Use 'fewer' with countable nouns. Correct: 'There are five fewer members in the committee.'"
+              }
 
 
 ]
