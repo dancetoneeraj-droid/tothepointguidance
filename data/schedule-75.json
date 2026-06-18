@@ -373,9 +373,10 @@
         "comprehensionPdf": "/content/english/day8-comprehension.pdf"
       },
       "reasoning": {
-        "topic": "puzzle",
-        "questions": 50,
-        "duration": 45
+        "topic": "seating-arrangement",
+        "from": 15,
+        "questions": 20,
+        "duration": 20
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
