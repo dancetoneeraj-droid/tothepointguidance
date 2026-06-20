@@ -38,6 +38,7 @@ export async function syncStudentToServer(payload: {
   email?: string;
   currentDay: number;
   tasksCompleted: number;
+  accuracy?: number;
   streak: number;
   completedTaskIds: string[];
 }): Promise<void> {

@@ -54,6 +54,7 @@ export default function DashboardPage() {
       email: user?.email ?? progress.email ?? undefined,
       currentDay: progress.currentDay,
       tasksCompleted: completedTaskIds.length,
+      accuracy: progress.accuracy,
       streak: progress.streak,
       completedTaskIds,
     });

@@ -2,17 +2,11 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Trophy, Zap } from "lucide-react";
+import { Medal, Trophy, Zap } from "lucide-react";
 import { Card } from "@/components/ui/Card";
+import { getLeaderboardEntries, type LeaderboardEntry } from "@/lib/firebase/firestore";
 
-interface LeaderboardRow {
-  rank: number;
-  studentName: string;
-  currentDay: number;
-  tasksCompleted: number;
-  completionPct: number;
-  avgAccuracy: number;
-}
+type LeaderboardRow = LeaderboardEntry & { uid: string; rank: number };
 
 export default function LeaderboardPage() {
   const [rows, setRows] = useState<LeaderboardRow[]>([]);
@@ -21,15 +15,23 @@ export default function LeaderboardPage() {
   useEffect(() => {
     async function load() {
       try {
-        const res = await fetch("/api/leaderboard");
-        const data = await res.json();
-        setRows(data.rows ?? []);
+        const entries = await getLeaderboardEntries();
+        setRows(
+          entries.map((e, i) => ({ ...e, rank: i + 1 }))
+        );
       } finally {
         setLoading(false);
       }
     }
     void load();
   }, []);
+
+  const rankIcon = (rank: number) => {
+    if (rank === 1) return <Medal className="h-4 w-4 text-amber-400" />;
+    if (rank === 2) return <Medal className="h-4 w-4 text-zinc-300" />;
+    if (rank === 3) return <Medal className="h-4 w-4 text-amber-700" />;
+    return null;
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -52,15 +54,15 @@ export default function LeaderboardPage() {
           <div className="inline-flex items-center gap-2 text-amber-400 mb-2">
             <Trophy className="h-6 w-6" />
             <span className="text-xs font-semibold uppercase tracking-widest">
-              Public Leaderboard
+              Live Leaderboard
             </span>
           </div>
           <h1 className="text-3xl font-semibold tracking-tight">
             SSC CGL Prep Rankings
           </h1>
           <p className="text-muted mt-2 text-sm max-w-lg mx-auto">
-            Rankings use first quiz attempts and overall task completion. Keep
-            pushing — every task counts.
+            Rankings update automatically when students visit their dashboard.
+            Keep pushing — every task counts.
           </p>
         </div>
 
@@ -75,46 +77,66 @@ export default function LeaderboardPage() {
                   <th className="px-4 py-3 hidden md:table-cell">Tasks</th>
                   <th className="px-4 py-3">Completion</th>
                   <th className="px-4 py-3 hidden sm:table-cell">Accuracy</th>
+                  <th className="px-4 py-3 hidden lg:table-cell">Streak</th>
                 </tr>
               </thead>
               <tbody>
                 {loading ? (
                   <tr>
-                    <td colSpan={6} className="px-4 py-12 text-center text-muted">
-                      Loading rankings…
+                    <td colSpan={7} className="px-4 py-12 text-center text-muted">
+                      <div className="flex items-center justify-center gap-2">
+                        <div className="h-4 w-4 animate-spin rounded-full border-2 border-violet-500 border-t-transparent" />
+                        Loading rankings…
+                      </div>
                     </td>
                   </tr>
                 ) : rows.length === 0 ? (
                   <tr>
-                    <td colSpan={6} className="px-4 py-12 text-center text-muted">
-                      No rankings yet. Be the first to complete a quiz!
+                    <td colSpan={7} className="px-4 py-12 text-center text-muted">
+                      No rankings yet. Complete some tasks and visit your dashboard!
                     </td>
                   </tr>
                 ) : (
                   rows.map((row) => (
                     <tr
-                      key={row.rank}
+                      key={row.uid}
                       className={`border-b border-border/50 hover:bg-surface-hover/30 ${
                         row.rank <= 3 ? "bg-amber-500/5" : ""
                       }`}
                     >
-                      <td className="px-4 py-3 font-bold tabular-nums text-amber-400">
-                        #{row.rank}
+                      <td className="px-4 py-3">
+                        <div className="flex items-center gap-1.5 font-bold tabular-nums text-amber-400">
+                          {rankIcon(row.rank)}
+                          #{row.rank}
+                        </div>
                       </td>
                       <td className="px-4 py-3 font-medium text-foreground">
-                        {row.studentName}
+                        {row.displayName}
                       </td>
                       <td className="px-4 py-3 hidden sm:table-cell text-muted tabular-nums">
-                        {row.currentDay}
+                        Day {row.currentDay}
                       </td>
                       <td className="px-4 py-3 hidden md:table-cell text-muted tabular-nums">
                         {row.tasksCompleted}
                       </td>
-                      <td className="px-4 py-3 text-violet-400 font-semibold tabular-nums">
-                        {row.completionPct}%
+                      <td className="px-4 py-3">
+                        <div className="flex items-center gap-2">
+                          <div className="h-1.5 w-16 overflow-hidden rounded-full bg-white/10">
+                            <div
+                              className="h-full rounded-full bg-violet-500"
+                              style={{ width: `${row.completionPct}%` }}
+                            />
+                          </div>
+                          <span className="text-violet-400 font-semibold tabular-nums text-xs">
+                            {row.completionPct}%
+                          </span>
+                        </div>
                       </td>
                       <td className="px-4 py-3 hidden sm:table-cell text-emerald-400 tabular-nums">
-                        {row.avgAccuracy}%
+                        {row.accuracy}%
+                      </td>
+                      <td className="px-4 py-3 hidden lg:table-cell text-amber-300 tabular-nums">
+                        🔥 {row.streak}
                       </td>
                     </tr>
                   ))
@@ -123,6 +145,10 @@ export default function LeaderboardPage() {
             </table>
           </div>
         </Card>
+
+        <p className="text-center text-xs text-zinc-600">
+          Rankings refresh each time a student opens their dashboard.
+        </p>
       </main>
     </div>
   );

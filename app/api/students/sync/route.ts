@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
-import {
-  recordTaskCompletion,
-  syncStudentProgress,
-} from "@/lib/db/leaderboard";
+import { getTotalProgramTasks } from "@/lib/tasks/program-tasks";
+import { updateLeaderboardEntry } from "@/lib/firebase/firestore";
 
 export async function POST(request: Request) {
   try {
@@ -12,21 +10,20 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "studentId required" }, { status: 400 });
     }
 
-    syncStudentProgress(studentId, String(body.displayName ?? "Student"), {
-      email: body.email ? String(body.email) : undefined,
-      currentDay: Number(body.currentDay ?? 1),
-      tasksCompleted: Number(body.tasksCompleted ?? 0),
-      streak: Number(body.streak ?? 0),
-    });
+    const tasksCompleted = Number(body.tasksCompleted ?? 0);
+    const totalTasks = getTotalProgramTasks();
+    const completionPct =
+      totalTasks > 0 ? Math.round((tasksCompleted / totalTasks) * 100) : 0;
 
-    const taskIds = Array.isArray(body.completedTaskIds)
-      ? (body.completedTaskIds as string[])
-      : [];
-    for (const taskId of taskIds) {
-      const dayMatch = taskId.match(/^d(\d+)_/);
-      const day = dayMatch ? Number(dayMatch[1]) : 1;
-      recordTaskCompletion(studentId, taskId, day);
-    }
+    await updateLeaderboardEntry(studentId, {
+      displayName: String(body.displayName ?? "Student"),
+      currentDay: Number(body.currentDay ?? 1),
+      tasksCompleted,
+      completionPct,
+      accuracy: Number(body.accuracy ?? 0),
+      streak: Number(body.streak ?? 0),
+      updatedAt: new Date().toISOString(),
+    });
 
     return NextResponse.json({ ok: true });
   } catch (e) {

@@ -85,6 +85,70 @@ export async function loadStoreFromFirestore(
   }
 }
 
+// ---------------------------------------------------------------------------
+// Public leaderboard — separate /leaderboard/{uid} collection
+// so it can have permissive read rules without exposing full student data.
+// ---------------------------------------------------------------------------
+
+export interface LeaderboardEntry {
+  displayName: string;
+  currentDay: number;
+  tasksCompleted: number;
+  completionPct: number;
+  accuracy: number;
+  streak: number;
+  updatedAt: string;
+}
+
+/**
+ * Writes a student's public leaderboard entry to /leaderboard/{uid}.
+ * Firestore rules for this collection should allow public reads.
+ */
+export async function updateLeaderboardEntry(
+  uid: string,
+  entry: LeaderboardEntry
+): Promise<void> {
+  if (!uid || uid === GUEST_STUDENT_ID) return;
+  try {
+    const db = await getDb();
+    if (!db) return;
+    const { doc, setDoc } = await import("firebase/firestore");
+    await setDoc(doc(db, "leaderboard", uid), entry, { merge: true });
+  } catch {
+    // Silently fail
+  }
+}
+
+/**
+ * Reads all leaderboard entries, sorted by completionPct desc.
+ * Used by the leaderboard page (client-side).
+ */
+export async function getLeaderboardEntries(): Promise<
+  Array<LeaderboardEntry & { uid: string }>
+> {
+  try {
+    const db = await getDb();
+    if (!db) return [];
+    const { collection, getDocs, orderBy, query, limit } = await import(
+      "firebase/firestore"
+    );
+    const snap = await getDocs(
+      query(
+        collection(db, "leaderboard"),
+        orderBy("completionPct", "desc"),
+        orderBy("accuracy", "desc"),
+        limit(100)
+      )
+    );
+    return snap.docs.map((d) => ({
+      uid: d.id,
+      ...(d.data() as LeaderboardEntry),
+    }));
+  } catch {
+    return [];
+  }
+}
+
 /**
  * Merges Firestore data into localStorage on login.
  * Whichever copy has a newer `updatedAt` timestamp is kept.
