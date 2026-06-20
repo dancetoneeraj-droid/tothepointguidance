@@ -21,11 +21,17 @@ interface QuizQuestionPanelProps {
 
 const optionLabels = ["A", "B", "C", "D"];
 
-/** Converts a Google Drive share link to a direct-embeddable image URL. */
+/** Converts any Google Drive link variant to a direct-embeddable image URL. */
 function resolveImageUrl(url: string): string {
-  const match = /\/file\/d\/([^/]+)/.exec(url);
-  if (match?.[1]) {
-    return `https://lh3.googleusercontent.com/d/${match[1]}`;
+  // Match /file/d/FILE_ID/ format
+  const fileMatch = /\/file\/d\/([^/?]+)/.exec(url);
+  if (fileMatch?.[1]) {
+    return `https://lh3.googleusercontent.com/d/${fileMatch[1]}`;
+  }
+  // Match uc?export=view&id=FILE_ID format
+  const ucMatch = /[?&]id=([^&]+)/.exec(url);
+  if (ucMatch?.[1]) {
+    return `https://lh3.googleusercontent.com/d/${ucMatch[1]}`;
   }
   return url;
 }
