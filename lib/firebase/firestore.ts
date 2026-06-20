@@ -109,14 +109,16 @@ export async function updateLeaderboardEntry(
   entry: LeaderboardEntry
 ): Promise<void> {
   if (!uid || uid === GUEST_STUDENT_ID) return;
-  try {
-    const db = await getDb();
-    if (!db) return;
-    const { doc, setDoc } = await import("firebase/firestore");
-    await setDoc(doc(db, "leaderboard", uid), entry, { merge: true });
-  } catch {
-    // Silently fail
+  console.log("[Firestore] updateLeaderboardEntry called for", uid);
+  const db = await getDb();
+  if (!db) {
+    console.warn("[Firestore] getDb() returned null — Firebase not initialised yet");
+    return;
   }
+  console.log("[Firestore] Writing to leaderboard/", uid, entry);
+  const { doc, setDoc } = await import("firebase/firestore");
+  await setDoc(doc(db, "leaderboard", uid), entry, { merge: true });
+  console.log("[Firestore] leaderboard write complete for", uid);
 }
 
 /**

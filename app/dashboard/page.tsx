@@ -22,7 +22,8 @@ import {
   PREMIUM_WHATSAPP_URL,
 } from "@/lib/premium-access";
 import { isDayPublished, MAX_PUBLISHED_DAY } from "@/lib/daily-plans";
-import { syncStudentToServer } from "@/lib/api/ecosystem";
+import { updateLeaderboardEntry } from "@/lib/firebase/firestore";
+import { getTotalProgramTasks } from "@/lib/tasks/program-tasks";
 import {
   getCompletedTaskIds,
   getDayWiseProgress,
@@ -44,21 +45,29 @@ export default function DashboardPage() {
   const { progress, user, isPremium, studentId } = useAuth();
   const [selectedLockedDay, setSelectedLockedDay] = useState<number | null>(null);
 
-  // Sync to leaderboard server whenever dashboard loads
+  // Write leaderboard entry directly to Firestore (client-side, Firebase already initialised)
   useEffect(() => {
-    if (!studentId || !progress) return;
+    if (!studentId || !progress || progress.isGuest) return;
     const completedTaskIds = getCompletedTaskIds(studentId);
-    void syncStudentToServer({
-      studentId,
+    const tasksCompleted = completedTaskIds.length;
+    const totalTasks = getTotalProgramTasks();
+    const completionPct =
+      totalTasks > 0 ? Math.round((tasksCompleted / totalTasks) * 100) : 0;
+    console.log("[Leaderboard] Writing entry for", studentId, { tasksCompleted, completionPct, accuracy: progress.accuracy });
+    void updateLeaderboardEntry(studentId, {
       displayName: progress.displayName,
-      email: user?.email ?? progress.email ?? undefined,
       currentDay: progress.currentDay,
-      tasksCompleted: completedTaskIds.length,
+      tasksCompleted,
+      completionPct,
       accuracy: progress.accuracy,
       streak: progress.streak,
-      completedTaskIds,
+      updatedAt: new Date().toISOString(),
+    }).then(() => {
+      console.log("[Leaderboard] Entry written successfully");
+    }).catch((e) => {
+      console.error("[Leaderboard] Write failed:", e);
     });
-  }, [studentId, progress, user?.email]);
+  }, [studentId, progress]);
 
   // Per-day completion percentages
   const dayProgressMap = useMemo<Record<number, number>>(() => {
