@@ -4,4 +4,5 @@
  */
 export const premiumUsers: string[] = [
   "dancetoneeraj@gmail.com",
+  "gulbul04@gmail.com",
 ];
