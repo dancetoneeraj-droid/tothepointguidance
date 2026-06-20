@@ -102,7 +102,7 @@ export default function DashboardPage() {
           statusLabel: "Unlocked",
           interactive: true,
           href: `/day/${day}`,
-          tone: (current ? "current" : "free") as const,
+          tone: (current ? "current" : "free") as DashboardDayCard["tone"],
           completionPct,
         };
       }
@@ -138,7 +138,7 @@ export default function DashboardPage() {
           statusLabel: "Unlocked",
           interactive: true,
           href: `/day/${day}`,
-          tone: (premiumDay ? "locked" : "free") as const,
+          tone: (premiumDay ? "locked" : "free") as DashboardDayCard["tone"],
           completionPct,
         };
       }
@@ -150,7 +150,7 @@ export default function DashboardPage() {
           statusLabel: "Unlocked",
           interactive: true,
           href: `/day/${day}`,
-          tone: (premiumDay ? "locked" : "free") as const,
+          tone: (premiumDay ? "locked" : "free") as DashboardDayCard["tone"],
           completionPct,
         };
       }
