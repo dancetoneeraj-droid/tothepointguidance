@@ -35,6 +35,9 @@ import {
   saveQuizAnalytics,
   submitQuizToServer,
 } from "@/lib/api/ecosystem";
+import { updateLeaderboardEntry } from "@/lib/firebase/firestore";
+import { getCompletedTaskIds } from "@/lib/tasks/progress-sync";
+import { getTotalProgramTasks } from "@/lib/tasks/program-tasks";
 import type { QuizResult } from "@/types";
 import { buildSessionId, computeNextIndex, resolveQuizSlice } from "@/lib/quiz/session";
 import { getReviewQuestions } from "@/lib/quiz/review";
@@ -307,6 +310,28 @@ export default function QuizPage({
       saveQuizAnalytics(reviewRecord);
 
       await refreshProgress();
+
+      // Update leaderboard immediately after quiz — don't wait for dashboard visit
+      try {
+        const completedTaskIds = getCompletedTaskIds(studentId);
+        const totalTasks = getTotalProgramTasks();
+        const completionPct =
+          totalTasks > 0
+            ? Math.round((completedTaskIds.length / totalTasks) * 100)
+            : 0;
+        void updateLeaderboardEntry(studentId, {
+          displayName: progress.displayName,
+          currentDay: progress.currentDay,
+          tasksCompleted: completedTaskIds.length,
+          completionPct,
+          accuracy: result.accuracy,
+          streak: progress.streak,
+          updatedAt: new Date().toISOString(),
+        });
+      } catch {
+        // Non-critical — leaderboard will update on next dashboard visit
+      }
+
       return ranking;
     },
     [

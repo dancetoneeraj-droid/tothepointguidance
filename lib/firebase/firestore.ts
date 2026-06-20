@@ -130,7 +130,12 @@ export async function getLeaderboardEntries(): Promise<
 > {
   try {
     const db = await getDb();
-    if (!db) return [];
+    if (!db) {
+      console.warn("[Firestore] getLeaderboardEntries: db not ready");
+      return [];
+    }
+    // Single-field orderBy only — no composite index needed.
+    // Secondary sort (accuracy) done client-side below.
     const { collection, getDocs, orderBy, query, limit } = await import(
       "firebase/firestore"
     );
@@ -138,15 +143,23 @@ export async function getLeaderboardEntries(): Promise<
       query(
         collection(db, "leaderboard"),
         orderBy("completionPct", "desc"),
-        orderBy("accuracy", "desc"),
         limit(100)
       )
     );
-    return snap.docs.map((d) => ({
+    const rows = snap.docs.map((d) => ({
       uid: d.id,
       ...(d.data() as LeaderboardEntry),
     }));
-  } catch {
+    // Secondary sort by accuracy client-side (avoids composite index requirement)
+    rows.sort((a, b) =>
+      b.completionPct !== a.completionPct
+        ? b.completionPct - a.completionPct
+        : b.accuracy - a.accuracy
+    );
+    console.log("[Firestore] Leaderboard entries loaded:", rows.length);
+    return rows;
+  } catch (e) {
+    console.error("[Firestore] getLeaderboardEntries error:", e);
     return [];
   }
 }
