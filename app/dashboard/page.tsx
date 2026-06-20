@@ -42,12 +42,12 @@ type DashboardDayCard = {
 };
 
 export default function DashboardPage() {
-  const { progress, user, isPremium, studentId } = useAuth();
+  const { progress, user, isPremium, studentId, isGuest } = useAuth();
   const [selectedLockedDay, setSelectedLockedDay] = useState<number | null>(null);
 
   // Write leaderboard entry directly to Firestore (client-side, Firebase already initialised)
   useEffect(() => {
-    if (!studentId || !progress || progress.isGuest) return;
+    if (!studentId || !progress || isGuest) return;
     const completedTaskIds = getCompletedTaskIds(studentId);
     const tasksCompleted = completedTaskIds.length;
     const totalTasks = getTotalProgramTasks();
@@ -100,7 +100,7 @@ export default function DashboardPage() {
           statusLabel: "Coming soon",
           interactive: false,
           href: "#",
-          tone: "coming-soon" as const,
+          tone: "coming-soon" as DashboardDayCard["tone"],
           completionPct: 0,
         };
       }
@@ -124,7 +124,7 @@ export default function DashboardPage() {
           statusLabel: "Locked",
           interactive: false,
           href: "#",
-          tone: "premium" as const,
+          tone: "premium" as DashboardDayCard["tone"],
           completionPct: 0,
         };
       }
@@ -136,7 +136,7 @@ export default function DashboardPage() {
           statusLabel: "Unlocked",
           interactive: true,
           href: `/day/${day}`,
-          tone: "current" as const,
+          tone: "current" as DashboardDayCard["tone"],
           completionPct,
         };
       }
@@ -171,7 +171,7 @@ export default function DashboardPage() {
         statusLabel: "Locked",
         interactive: false,
         href: "#",
-        tone: "locked" as const,
+          tone: "locked" as DashboardDayCard["tone"],
         completionPct: 0,
       };
     });
