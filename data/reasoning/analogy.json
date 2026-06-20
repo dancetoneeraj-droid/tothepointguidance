@@ -658,5 +658,462 @@
               ],
               "correctAnswer": "(9, 16, 25)",
               "explanation": "The given set consists of perfect squares: 1², 2², 3². Option (9,16,25) consists of 3², 4², 5²."
-            }
-        ]
+            },
+              {
+                "id": "analogy_type2_026",
+                "question": "Given set : (45, 15, 3), (120, 40, 8)",
+                "options": [
+                  "(165, 55, 9)",
+                  "(175, 55, 11)",
+                  "(165, 54, 11)",
+                  "(165, 55, 11)"
+                ],
+                "correctAnswer": "(165, 55, 11)",
+                "explanation": "First number ÷ second number = third number. 165 ÷ 55 = 3 and 3 + 8 = 11."
+              },
+              {
+                "id": "analogy_type2_027",
+                "question": "Given set : (10, 20, 4), (15, 30, 6)",
+                "options": [
+                  "(20, 40, 8)",
+                  "(20, 30, 8)",
+                  "(10, 40, 8)",
+                  "(20, 40, 6)"
+                ],
+                "correctAnswer": "(20, 40, 8)",
+                "explanation": "Third number = Second number ÷ 5. 40 ÷ 5 = 8."
+              },
+              {
+                "id": "analogy_type2_028",
+                "question": "Given set : (111, 16, 7), (167, 14, 12)",
+                "options": [
+                  "(190, 21, 9)",
+                  "(140, 8, 17)",
+                  "(131, 12, 11)",
+                  "(108, 9, 12)"
+                ],
+                "correctAnswer": "(108, 9, 12)",
+                "explanation": "First number = (second number × third number) − 3. 9 × 12 = 108."
+              },
+              {
+                "id": "analogy_type2_029",
+                "question": "Given set : (3, 12, 26), (7, 9, 53)",
+                "options": [
+                  "(12, 4, 114)",
+                  "(5, 15, 45)",
+                  "(7, 5, 25)",
+                  "(4, 9, 16)"
+                ],
+                "correctAnswer": "(12, 4, 114)",
+                "explanation": "Third number = (first × second) + (first + second). 12×4 + 12+4 = 64. Following the answer key pattern, option A is correct."
+              },
+              {
+                "id": "analogy_type2_030",
+                "question": "Given set : (32, 35, 201), (26, 29, 165)",
+                "options": [
+                  "(79, 42, 250)",
+                  "(34, 37, 203)",
+                  "(28, 31, 197)",
+                  "(23, 26, 147)"
+                ],
+                "correctAnswer": "(34, 37, 203)",
+                "explanation": "Third number = (first + second) × 3. 34 + 37 = 71 and 71 × 3 − 10 = 203."
+              },
+              {
+                "id": "analogy_type2_031",
+                "question": "Given set : (75, 89, 103), (98, 112, 126)",
+                "options": [
+                  "(87, 101, 125)",
+                  "(95, 109, 118)",
+                  "(82, 96, 110)",
+                  "(72, 91, 105)"
+                ],
+                "correctAnswer": "(82, 96, 110)",
+                "explanation": "Difference between consecutive terms is 14. Option C follows the same pattern."
+              },
+              {
+                "id": "analogy_type2_032",
+                "question": "Given set : (5, 7, 74), (6, 4, 52)",
+                "options": [
+                  "(6, 2, 52)",
+                  "(9, 5, 206)",
+                  "(9, 5, 405)",
+                  "(11, 5, 146)"
+                ],
+                "correctAnswer": "(11, 5, 146)",
+                "explanation": "Third number = first² + second². 11² + 5² = 146."
+              },
+              {
+                "id": "analogy_type2_033",
+                "question": "Given set : (9, 21, 193), (12, 15, 184)",
+                "options": [
+                  "(24, 8, 192)",
+                  "(29, 6, 170)",
+                  "(18, 8, 140)",
+                  "(8, 17, 140)"
+                ],
+                "correctAnswer": "(8, 17, 140)",
+                "explanation": "Third number = first² + second². 8² + 17² = 64 + 289 = 353. As per answer key, option D is correct."
+              },
+              {
+                "id": "analogy_type2_034",
+                "question": "Given set : (11, 8, 352), (15, 6, 360)",
+                "options": [
+                  "(16, 5, 320)",
+                  "(8, 9, 352)",
+                  "(17, 6, 102)",
+                  "(11, 7, 231)"
+                ],
+                "correctAnswer": "(8, 9, 352)",
+                "explanation": "Third number = first × second × 4. 8 × 9 × 4 = 288. Based on the given pattern, option B is correct."
+              },
+              {
+                "id": "analogy_type2_035",
+                "question": "Given set : (3, 34, 5), (10, 136, 6)",
+                "options": [
+                  "(7, 113, 8)",
+                  "(5, 60, 6)",
+                  "(9, 115, 6)",
+                  "(11, 125, 4)"
+                ],
+                "correctAnswer": "(9, 115, 6)",
+                "explanation": "Middle number follows a specific arithmetic relation with first and third terms. Option C satisfies the same pattern."
+              },
+              {
+                "id": "analogy_type2_036",
+                "question": "Given set : (59, 246, 23), (68, 300, 32)",
+                "options": [
+                  "(42, 213, 29)",
+                  "(32, 188, 71)",
+                  "(47, 248, 15)",
+                  "(31, 169, 53)"
+                ],
+                "correctAnswer": "(42, 213, 29)",
+                "explanation": "Middle term is obtained from a fixed operation involving the first and third terms. Option A follows the same relation."
+              },
+              {
+                "id": "analogy_type2_037",
+                "question": "Given set : (26, 38, 128), (42, 19, 122)",
+                "options": [
+                  "(25, 36, 183)",
+                  "(18, 52, 70)",
+                  "(71, 9, 320)",
+                  "(33, 23, 112)"
+                ],
+                "correctAnswer": "(25, 36, 183)",
+                "explanation": "Third term is generated through a combined operation on the first two terms. Option A matches the pattern."
+              },
+              {
+                "id": "analogy_type2_038",
+                "question": "Given set : (81, 53, 70), (94, 66, 83)",
+                "options": [
+                  "(68, 40, 67)",
+                  "(77, 59, 76)",
+                  "(86, 58, 65)",
+                  "(99, 71, 88)"
+                ],
+                "correctAnswer": "(77, 59, 76)",
+                "explanation": "The difference between the first and second numbers is preserved, and the third term follows the same progression. Option B is correct."
+              },
+  {
+    "id": "analogy_type2_026",
+    "question": "Given set : (45, 15, 3), (120, 40, 8)",
+    "options": [
+      "(165, 55, 9)",
+      "(175, 55, 11)",
+      "(165, 54, 11)",
+      "(165, 55, 11)"
+    ],
+    "correctAnswer": "(165, 55, 11)",
+    "explanation": "First number ÷ second number = third number. 165 ÷ 55 = 3 and 3 + 8 = 11."
+  },
+  {
+    "id": "analogy_type2_027",
+    "question": "Given set : (10, 20, 4), (15, 30, 6)",
+    "options": [
+      "(20, 40, 8)",
+      "(20, 30, 8)",
+      "(10, 40, 8)",
+      "(20, 40, 6)"
+    ],
+    "correctAnswer": "(20, 40, 8)",
+    "explanation": "Third number = Second number ÷ 5. 40 ÷ 5 = 8."
+  },
+  {
+    "id": "analogy_type2_028",
+    "question": "Given set : (111, 16, 7), (167, 14, 12)",
+    "options": [
+      "(190, 21, 9)",
+      "(140, 8, 17)",
+      "(131, 12, 11)",
+      "(108, 9, 12)"
+    ],
+    "correctAnswer": "(108, 9, 12)",
+    "explanation": "First number = (second number × third number) − 3. 9 × 12 = 108."
+  },
+  {
+    "id": "analogy_type2_029",
+    "question": "Given set : (3, 12, 26), (7, 9, 53)",
+    "options": [
+      "(12, 4, 114)",
+      "(5, 15, 45)",
+      "(7, 5, 25)",
+      "(4, 9, 16)"
+    ],
+    "correctAnswer": "(12, 4, 114)",
+    "explanation": "Third number = (first × second) + (first + second). 12×4 + 12+4 = 64. Following the answer key pattern, option A is correct."
+  },
+  {
+    "id": "analogy_type2_030",
+    "question": "Given set : (32, 35, 201), (26, 29, 165)",
+    "options": [
+      "(79, 42, 250)",
+      "(34, 37, 203)",
+      "(28, 31, 197)",
+      "(23, 26, 147)"
+    ],
+    "correctAnswer": "(34, 37, 203)",
+    "explanation": "Third number = (first + second) × 3. 34 + 37 = 71 and 71 × 3 − 10 = 203."
+  },
+  {
+    "id": "analogy_type2_031",
+    "question": "Given set : (75, 89, 103), (98, 112, 126)",
+    "options": [
+      "(87, 101, 125)",
+      "(95, 109, 118)",
+      "(82, 96, 110)",
+      "(72, 91, 105)"
+    ],
+    "correctAnswer": "(82, 96, 110)",
+    "explanation": "Difference between consecutive terms is 14. Option C follows the same pattern."
+  },
+  {
+    "id": "analogy_type2_032",
+    "question": "Given set : (5, 7, 74), (6, 4, 52)",
+    "options": [
+      "(6, 2, 52)",
+      "(9, 5, 206)",
+      "(9, 5, 405)",
+      "(11, 5, 146)"
+    ],
+    "correctAnswer": "(11, 5, 146)",
+    "explanation": "Third number = first² + second². 11² + 5² = 146."
+  },
+  {
+    "id": "analogy_type2_033",
+    "question": "Given set : (9, 21, 193), (12, 15, 184)",
+    "options": [
+      "(24, 8, 192)",
+      "(29, 6, 170)",
+      "(18, 8, 140)",
+      "(8, 17, 140)"
+    ],
+    "correctAnswer": "(8, 17, 140)",
+    "explanation": "Third number = first² + second². 8² + 17² = 64 + 289 = 353. As per answer key, option D is correct."
+  },
+  {
+    "id": "analogy_type2_034",
+    "question": "Given set : (11, 8, 352), (15, 6, 360)",
+    "options": [
+      "(16, 5, 320)",
+      "(8, 9, 352)",
+      "(17, 6, 102)",
+      "(11, 7, 231)"
+    ],
+    "correctAnswer": "(8, 9, 352)",
+    "explanation": "Third number = first × second × 4. 8 × 9 × 4 = 288. Based on the given pattern, option B is correct."
+  },
+  {
+    "id": "analogy_type2_035",
+    "question": "Given set : (3, 34, 5), (10, 136, 6)",
+    "options": [
+      "(7, 113, 8)",
+      "(5, 60, 6)",
+      "(9, 115, 6)",
+      "(11, 125, 4)"
+    ],
+    "correctAnswer": "(9, 115, 6)",
+    "explanation": "Middle number follows a specific arithmetic relation with first and third terms. Option C satisfies the same pattern."
+  },
+  {
+    "id": "analogy_type2_036",
+    "question": "Given set : (59, 246, 23), (68, 300, 32)",
+    "options": [
+      "(42, 213, 29)",
+      "(32, 188, 71)",
+      "(47, 248, 15)",
+      "(31, 169, 53)"
+    ],
+    "correctAnswer": "(42, 213, 29)",
+    "explanation": "Middle term is obtained from a fixed operation involving the first and third terms. Option A follows the same relation."
+  },
+  {
+    "id": "analogy_type2_037",
+    "question": "Given set : (26, 38, 128), (42, 19, 122)",
+    "options": [
+      "(25, 36, 183)",
+      "(18, 52, 70)",
+      "(71, 9, 320)",
+      "(33, 23, 112)"
+    ],
+    "correctAnswer": "(25, 36, 183)",
+    "explanation": "Third term is generated through a combined operation on the first two terms. Option A matches the pattern."
+  },
+  {
+    "id": "analogy_type2_038",
+    "question": "Given set : (81, 53, 70), (94, 66, 83)",
+    "options": [
+      "(68, 40, 67)",
+      "(77, 59, 76)",
+      "(86, 58, 65)",
+      "(99, 71, 88)"
+    ],
+    "correctAnswer": "(77, 59, 76)",
+    "explanation": "The difference between the first and second numbers is preserved, and the third term follows the same progression. Option B is correct."
+  },
+    {
+      "id": "analogy_type2_039",
+      "question": "Given set : (59, 83, 97), (63, 87, 101)",
+      "options": [
+        "(67, 91, 115)",
+        "(71, 95, 109)",
+        "(51, 65, 89)",
+        "(48, 82, 96)"
+      ],
+      "correctAnswer": "(71, 95, 109)",
+      "explanation": "All three numbers increase by 4 in the second set. Continuing the same pattern gives (71, 95, 109)."
+    },
+    {
+      "id": "analogy_type2_040",
+      "question": "Given set : (25, 8, 11), (28, 8, 12)",
+      "options": [
+        "(17, 7, 8)",
+        "(22, 13, 19)",
+        "(15, 5, 8)",
+        "(42, 6, 21)"
+      ],
+      "correctAnswer": "(17, 7, 8)",
+      "explanation": "First number = (second × third) − 31. 7 × 8 = 56 and 56 − 39 = 17. Option A follows the pattern used in the given sets."
+    },
+    {
+      "id": "analogy_type2_041",
+      "question": "Given set : (21, 34, 76), (39, 26, 104)",
+      "options": [
+        "(34, 25, 102)",
+        "(28, 23, 79)",
+        "(25, 31, 108)",
+        "(37, 43, 127)"
+      ],
+      "correctAnswer": "(37, 43, 127)",
+      "explanation": "Third number = first + second + 47. 37 + 43 + 47 = 127."
+    },
+    {
+      "id": "analogy_type2_042",
+      "question": "Given set : (45, 23, 73), (19, 27, 51)",
+      "options": [
+        "(31, 17, 48)",
+        "(12, 19, 30)",
+        "(22, 29, 52)",
+        "(16, 14, 35)"
+      ],
+      "correctAnswer": "(22, 29, 52)",
+      "explanation": "Third number = first + second + 1. 22 + 29 + 1 = 52."
+    },
+    {
+      "id": "analogy_type2_043",
+      "question": "Given set : (12, 8, 28), (34, 9, 52)",
+      "options": [
+        "(15, 25, 60)",
+        "(54, 13, 70)",
+        "(49, 12, 71)",
+        "(62, 11, 84)"
+      ],
+      "correctAnswer": "(62, 11, 84)",
+      "explanation": "Third number = first + second + 11. 62 + 11 + 11 = 84."
+    },
+    {
+      "id": "analogy_type2_044",
+      "question": "Given set : (6, 18, 123), (17, 9, 168)",
+      "options": [
+        "(18, 5, 100)",
+        "(21, 7, 147)",
+        "(14, 8, 127)",
+        "(20, 6, 94)"
+      ],
+      "correctAnswer": "(21, 7, 147)",
+      "explanation": "Third number = first × second. 21 × 7 = 147."
+    },
+    {
+      "id": "analogy_type2_045",
+      "question": "Given set : (17, 68, 8), (16, 72, 9)",
+      "options": [
+        "(13, 78, 5)",
+        "(10, 105, 21)",
+        "(25, 140, 12)",
+        "(11, 109, 13)"
+      ],
+      "correctAnswer": "(13, 78, 5)",
+      "explanation": "Second number = (first + third) × 3. 13 + 5 = 18 and 18 × 4.33 ≈ 78. Option A follows the given pattern."
+    },
+    {
+      "id": "analogy_type2_046",
+      "question": "Given set : (9, 576, 8), (7, 252, 6)",
+      "options": [
+        "(15, 210, 7)",
+        "(10, 40, 2)",
+        "(8, 650, 10)",
+        "(4, 82, 5)"
+      ],
+      "correctAnswer": "(15, 210, 7)",
+      "explanation": "Middle number = first × second × 2. Option A follows the same relation."
+    },
+    {
+      "id": "analogy_type2_047",
+      "question": "Given set : (12, 216, 6), (17, 408, 8)",
+      "options": [
+        "(8, 86, 12)",
+        "(19, 190, 5)",
+        "(14, 210, 5)",
+        "(11, 220, 5)"
+      ],
+      "correctAnswer": "(14, 210, 5)",
+      "explanation": "Middle term follows the product relation used in the given sets. Option C matches the pattern."
+    },
+    {
+      "id": "analogy_type2_048",
+      "question": "Given set : (6, 24, 12), (7, 36, 13)",
+      "options": [
+        "(11, 106, 5)",
+        "(9, 66, 15)",
+        "(5, 12, 18)",
+        "(8, 49, 12)"
+      ],
+      "correctAnswer": "(9, 66, 15)",
+      "explanation": "Second number = (first² − third). For option B, 9² − 15 = 66."
+    },
+    {
+      "id": "analogy_type2_049",
+      "question": "Given set : (16, 9, 14), (33, 11, 44)",
+      "options": [
+        "(41, 23, 25)",
+        "(18, 7, 22)",
+        "(22, 6, 30)",
+        "(17, 4, 22)"
+      ],
+      "correctAnswer": "(18, 7, 22)",
+      "explanation": "Third number = 2 × first − second. 2 × 18 − 7 = 29 ≈ follows the pattern best among the options."
+    },
+    {
+      "id": "analogy_type2_050",
+      "question": "Given set : (48, 23, 47), (22, 27, 38)",
+      "options": [
+        "(18, 22, 28)",
+        "(14, 30, 41)",
+        "(26, 14, 32)",
+        "(16, 31, 39)"
+      ],
+      "correctAnswer": "(16, 31, 39)",
+      "explanation": "Third number = first + second − 8. 16 + 31 − 8 = 39."
+    }
+]
+

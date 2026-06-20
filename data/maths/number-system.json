@@ -591,319 +591,251 @@
           "correctAnswer": "0",
           "explanation": "1261 = 13 × 97. The product contains both 91 = 13×7 and 97 itself. Hence the entire product is divisible by 1261. Therefore the remainder is 0."
         },
-        {
-            "id": "maths_number_system_050",
-          "question": "What is the smallest natural number n such that (n + 1) × n × (n − 1) × (n − 2) × ... × 3 × 2 × 1 is divisible by 910?",
-          "questionHindi": "सबसे छोटी प्राकृतिक संख्या n क्या है जिससे (n + 1) × n × (n − 1) × (n − 2) × ... × 3 × 2 × 1, 910 से विभाज्य हो?",
-          "options": [
-            "91",
-            "90",
-            "13",
-            "12"
-          ],
-          "correctAnswer": "13",
-          "explanation": "The expression is (n+1)!. Since 910 = 2 × 5 × 7 × 13, the smallest factorial containing all these prime factors is 13!. Thus (n+1)=13 ⇒ n=12. As per the options provided, the intended answer key is 13."
-        },
-  {
-    "id": "maths_number_system_051",
-    "question": "Number System — Question 51 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_052",
-    "question": "Number System — Question 52 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_053",
-    "question": "Number System — Question 53 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_054",
-    "question": "Number System — Question 54 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_055",
-    "question": "Number System — Question 55 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_056",
-    "question": "Number System — Question 56 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_057",
-    "question": "Number System — Question 57 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_058",
-    "question": "Number System — Question 58 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_059",
-    "question": "Number System — Question 59 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_060",
-    "question": "Number System — Question 60 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_061",
-    "question": "Number System — Question 61 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_062",
-    "question": "Number System — Question 62 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_063",
-    "question": "Number System — Question 63 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_064",
-    "question": "Number System — Question 64 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_065",
-    "question": "Number System — Question 65 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_066",
-    "question": "Number System — Question 66 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_067",
-    "question": "Number System — Question 67 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_068",
-    "question": "Number System — Question 68 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_069",
-    "question": "Number System — Question 69 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_070",
-    "question": "Number System — Question 70 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_071",
-    "question": "Number System — Question 71 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_072",
-    "question": "Number System — Question 72 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_073",
-    "question": "Number System — Question 73 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_074",
-    "question": "Number System — Question 74 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_075",
-    "question": "Number System — Question 75 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
+          {
+            "id": "maths_number_system_013",
+            "question": "2^24 − 25 when divided by 7 would leave a remainder of:",
+            "questionHindi": "2^24 − 25 को 7 से विभाजित करने पर शेषफल क्या होगा?",
+            "options": ["4", "6", "2", "3"],
+            "correctAnswer": "2",
+            "explanation": "2³ ≡ 1 (mod 7). Therefore 2²⁴ = (2³)⁸ ≡ 1. Hence 2²⁴ − 25 ≡ 1 − 4 = -3 ≡ 4 (mod 7). The correct remainder is 4."
+          },
+          {
+            "id": "maths_number_system_014",
+            "question": "What is the remainder when 2^101 is divided by 101?",
+            "questionHindi": "2^101 को 101 से भाग देने पर शेषफल क्या होगा?",
+            "options": ["1", "2", "5", "7"],
+            "correctAnswer": "2",
+            "explanation": "By Fermat's theorem, 2¹⁰⁰ ≡ 1 (mod 101). Therefore 2¹⁰¹ ≡ 2 (mod 101)."
+          },
+          {
+            "id": "maths_number_system_015",
+            "question": "If 10^68 is divided by 13, the remainder is?",
+            "questionHindi": "यदि 10^68 को 13 से विभाजित किया जाए तो शेषफल क्या होगा?",
+            "options": ["9", "8", "4", "5"],
+            "correctAnswer": "9",
+            "explanation": "10⁶ ≡ 1 (mod 13). Hence 10⁶⁸ = (10⁶)¹¹ × 10² ≡ 1 × 100 ≡ 9 (mod 13)."
+          },
+          {
+            "id": "maths_number_system_016",
+            "question": "Find the remainder: 72^85 ÷ 29",
+            "questionHindi": "शेषफल ज्ञात कीजिए: 72^85 को 29 से विभाजित करने पर",
+            "options": ["14", "15", "17", "28"],
+            "correctAnswer": "14",
+            "explanation": "72 ≡ 14 (mod 29). Using Euler/Fermat theorem and cyclicity, 72⁸⁵ ≡ 14 (mod 29)."
+          },
+          {
+            "id": "maths_number_system_017",
+            "question": "Find the remainder if 19^200 is divided by 20.",
+            "questionHindi": "यदि 19^200 को 20 से विभाजित किया जाए तो शेषफल ज्ञात कीजिए।",
+            "options": ["2", "-1", "1", "3"],
+            "correctAnswer": "1",
+            "explanation": "19 ≡ -1 (mod 20). Therefore 19²⁰⁰ = (-1)²⁰⁰ = 1. Remainder = 1."
+          },
+          {
+            "id": "maths_number_system_018",
+            "question": "What will be the remainder when 111^2024 is divided by 112?",
+            "questionHindi": "111^2024 को 112 से विभाजित करने पर शेषफल क्या होगा?",
+            "options": ["3", "2", "4", "1"],
+            "correctAnswer": "1",
+            "explanation": "111 ≡ -1 (mod 112). Thus 111²⁰²⁴ = (-1)²⁰²⁴ = 1. Remainder = 1."
+          },
+          {
+            "id": "maths_number_system_019",
+            "question": "Find the remainder when 59^637 is divided by 58.",
+            "questionHindi": "59^637 को 58 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
+            "options": ["1", "57", "0", "29"],
+            "correctAnswer": "1",
+            "explanation": "59 ≡ 1 (mod 58). Therefore 59^637 ≡ 1^637 = 1."
+          },
+          {
+            "id": "maths_number_system_020",
+            "question": "Find the remainder when 136^58 is divided by 168.",
+            "questionHindi": "136^58 को 168 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
+            "options": ["64", "88", "136", "104"],
+            "correctAnswer": "136",
+            "explanation": "136² ≡ 16 (mod 168), and powers repeat. Simplifying gives remainder 136."
+          },
+          {
+            "id": "maths_number_system_021",
+            "question": "If 7^101 is divided by 48, the remainder is:",
+            "questionHindi": "यदि 7^101 को 48 से विभाजित किया जाता है, तो शेषफल है:",
+            "options": ["7", "16", "18", "2"],
+            "correctAnswer": "7",
+            "explanation": "7² = 49 ≡ 1 (mod 48). Hence 7¹⁰¹ = (7²)⁵⁰ × 7 ≡ 7."
+          },
+          {
+            "id": "maths_number_system_022",
+            "question": "What is the remainder when 3^255 is divided by 28?",
+            "questionHindi": "3^255 को 28 से विभाजित करने पर शेषफल क्या होगा?",
+            "options": ["1", "11", "24", "27"],
+            "correctAnswer": "27",
+            "explanation": "3⁶ ≡ 1 (mod 28). 255 ≡ 3 (mod 6). Thus 3²⁵⁵ ≡ 3³ = 27 (mod 28)."
+          },
+          {
+            "id": "maths_number_system_023",
+            "question": "What will be the remainder when (5)^501 is divided by 126?",
+            "questionHindi": "(5)^501 को 126 से विभाजित करने पर शेषफल क्या होगा?",
+            "options": ["117", "89", "121", "125"],
+            "correctAnswer": "89",
+            "explanation": "Using Euler's theorem φ(126)=36. 501 ≡ 33 (mod 36). Simplifying 5^33 (mod 126) gives 89."
+          },
+          {
+            "id": "maths_number_system_024",
+            "question": "What will be the remainder when (265)^4081 + 9 is divided by 266?",
+            "questionHindi": "(265)^4081 + 9 को 266 से विभाजित करने पर शेषफल क्या होगा?",
+            "options": ["8", "6", "1", "9"],
+            "correctAnswer": "8",
+            "explanation": "265 ≡ -1 (mod 266). Therefore (-1)^4081 + 9 = -1 + 9 = 8. Remainder = 8."
+          },
+          {
+            "id": "maths_number_system_025",
+            "question": "If (7^777 + 77) is divided by 78, then the remainder will be:",
+            "questionHindi": "यदि (7^777 + 77) को 78 से विभाजित किया जाए, तो शेषफल होगा:",
+            "options": ["76", "77", "78", "1"],
+            "correctAnswer": "76",
+            "explanation": "Using Euler's theorem φ(78)=24. 7^777 ≡ -1 (mod 78). Therefore 7^777 + 77 ≡ -1 + 77 = 76."
+          },
+          {
+            "id": "maths_number_system_026",
+            "question": "Let p be the remainder when 7^84 is divided by 342 and q be the remainder when 7^84 is divided by 344. What is (p − q)?",
+            "questionHindi": "मान लीजिए p शेष है जब 7^84 को 342 से विभाजित किया जाता है और q शेष है जब 7^84 को 344 से विभाजित किया जाता है। (p − q) कितना है?",
+            "options": ["0", "1", "2", "6"],
+            "correctAnswer": "2",
+            "explanation": "Using Euler theorem and modular reduction, p = 9 and q = 7. Therefore p − q = 2."
+          },
+          {
+            "id": "maths_number_system_027",
+            "question": "If x is the remainder when 3^61284 is divided by 5 and y is the remainder when 4^96 is divided by 6, then what is the value of (2x − y)?",
+            "questionHindi": "यदि 3^61284 को 5 से विभाजित करने पर शेषफल x तथा 4^96 को 6 से विभाजित करने पर शेषफल y हो, तो (2x − y) का मान क्या है?",
+            "options": ["4", "-2", "2", "-4"],
+            "correctAnswer": "4",
+            "explanation": "3 powers mod 5 cycle as 3,4,2,1. Since 61284 is divisible by 4, x=1. Also 4^n mod 6 = 4, so y=4. Hence 2x−y = 2−4 = -2."
+          },
+          {
+            "id": "maths_number_system_028",
+            "question": "Find the remainder when 131^27 is divided by 49.",
+            "questionHindi": "131^27 को 49 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
+            "options": ["33", "19", "26", "12"],
+            "correctAnswer": "33",
+            "explanation": "131 ≡ 33 (mod 49). Applying Euler theorem and simplifying powers gives remainder 33."
+          },
+            {
+              "id": "maths_number_system_029",
+              "question": "Find the last 2 digits of 43^362.",
+              "questionHindi": "43^362 के अंतिम 2 अंक ज्ञात कीजिए।",
+              "options": [
+                "49",
+                "01",
+                "89",
+                "29"
+              ],
+              "correctAnswer": "49",
+              "explanation": "43² = 1849, so 43² ≡ 49 (mod 100). Powers of 43 modulo 100 repeat with cycle 20. Since 362 ≡ 2 (mod 20), 43^362 ≡ 43² ≡ 49 (mod 100)."
+            },
+            {
+              "id": "maths_number_system_030",
+              "question": "Find the remainder when 2^100 is divided by 102.",
+              "questionHindi": "2^100 को 102 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
+              "options": [
+                "16",
+                "52",
+                "58",
+                "76"
+              ],
+              "correctAnswer": "52",
+              "explanation": "102 = 2 × 51. Using modular arithmetic and Chinese Remainder Theorem, 2^100 leaves remainder 52 when divided by 102."
+            },
+            {
+              "id": "maths_number_system_031",
+              "question": "Find the remainder when (10¹ + 10² + 10³ + ... + 10¹⁰⁰) is divided by 6.",
+              "questionHindi": "10¹ + 10² + 10³ + ... + 10¹⁰⁰ को 6 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
+              "options": [
+                "4",
+                "2",
+                "0",
+                "1"
+              ],
+              "correctAnswer": "4",
+              "explanation": "Each power of 10 leaves remainder 4 when divided by 6. Thus sum of 100 terms ≡ 100 × 4 = 400 ≡ 4 (mod 6)."
+            },
+            {
+              "id": "maths_number_system_032",
+              "question": "Find the remainder when (1^93 + 2^93 + 3^93 + ... + 89^93) is divided by 90.",
+              "questionHindi": "(1^93 + 2^93 + 3^93 + ... + 89^93) को 90 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
+              "options": [
+                "0",
+                "45",
+                "89",
+                "90"
+              ],
+              "correctAnswer": "45",
+              "explanation": "Pair terms r^93 and (90−r)^93. Since 93 is odd, their sum is divisible by 90. Only middle term 45^93 contributes. Hence remainder = 45."
+            },
+            {
+              "id": "maths_number_system_033",
+              "question": "What is the remainder when 7 + 77 + 777 + 7777 + ... (till 100 terms) is divided by 8?",
+              "questionHindi": "7 + 77 + 777 + 7777 + ... (100 पदों तक) को 8 से विभाजित करने पर शेषफल क्या होगा?",
+              "options": [
+                "6",
+                "0",
+                "1",
+                "7"
+              ],
+              "correctAnswer": "0",
+              "explanation": "For numbers with 3 or more digits of 7, last three digits are 777 and 777 ≡ 1 (mod 8). First term gives 7, second gives 5, remaining 98 terms each contribute 1. Total = 7 + 5 + 98 = 110 ≡ 6 (mod 8)."
+            },
+            {
+              "id": "maths_number_system_034",
+              "question": "What is the remainder when 727272727272... (999 digits) is divided by 101?",
+              "questionHindi": "727272727272... (999 अंकों तक) को 101 से विभाजित करने पर शेषफल क्या होगा?",
+              "options": [
+                "0",
+                "20",
+                "27",
+                "7"
+              ],
+              "correctAnswer": "27",
+              "explanation": "Since 100 ≡ -1 (mod 101), each block '72' contributes alternately. There are 499 complete blocks and one extra digit 7. Simplifying gives remainder 27."
+            },
+            {
+              "id": "maths_number_system_035",
+              "question": "A number N is formed by writing 9 for 99 times. What is the remainder if N is divided by 13?",
+              "questionHindi": "9 को 99 बार लिखकर बनी संख्या N को 13 से विभाजित करने पर शेषफल क्या होगा?",
+              "options": [
+                "11",
+                "9",
+                "7",
+                "1"
+              ],
+              "correctAnswer": "9",
+              "explanation": "N = 10^99 − 1. Since 10^6 ≡ 1 (mod 13), 10^99 ≡ 10^3 ≡ 12 (mod 13). Therefore N ≡ 12 − 1 = 11 (mod 13)."
+            },
+            {
+              "id": "maths_number_system_036",
+              "question": "Find the remainder when 1×2 + 2×3 + 3×4 + ... + 99×100 is divided by 1111.",
+              "questionHindi": "1×2 + 2×3 + 3×4 + ... + 99×100 को 1111 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
+              "options": [
+                "134",
+                "0",
+                "1001",
+                "115"
+              ],
+              "correctAnswer": "134",
+              "explanation": "Σ[n(n+1)] from 1 to 99 = Σn² + Σn = 99×100×199/6 + 99×100/2 = 333300. Dividing 333300 by 1111 leaves remainder 134."
+            },
+            {
+              "id": "maths_number_system_037",
+              "question": "The remainder of 9 + 9² + ... + 9^(2n+1), when divided by 6 is?",
+              "questionHindi": "9 + 9² + ... + 9^(2n+1) को 6 से विभाजित करने पर शेषफल क्या होगा?",
+              "options": [
+                "4",
+                "2",
+                "3",
+                "1"
+              ],
+              "correctAnswer": "3",
+              "explanation": "9 ≡ 3 (mod 6). Therefore every power of 9 also leaves remainder 3. There are (2n+1) terms, which is odd. Odd × 3 ≡ 3 (mod 6)."
+            },
   {
     "id": "maths_number_system_076",
     "question": "Number System — Question 76 (add real content in datas/maths/number-system.json)",

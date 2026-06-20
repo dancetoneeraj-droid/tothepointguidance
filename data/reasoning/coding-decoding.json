@@ -536,6 +536,181 @@
                 "correctAnswer": "245",
                 "explanation": "Pattern alternates ×2+1, ×3−1. 3×2+1=7, 7×3−1=20, 20×2+1=41, 41×3−1=122, 122×2+1=245."
               },
+                {
+                  "id": "coding_decoding_001",
+                  "question": "In a certain code language, 'KENT' is coded as '*9*7' and 'BENT' is coded as '*79'. What is the code for 'B' in that language?",
+                  "options": ["*", "9", "^", "."],
+                  "correctAnswer": "^",
+                  "explanation": "KENT and BENT share E, N and T. The common symbols are *, 9 and 7. The remaining symbol '^' represents B."
+                },
+                {
+                  "id": "coding_decoding_002",
+                  "question": "In a certain code language, 'TALKER' is coded as a combination of symbols and 'TALKED' is coded as another combination. What is the code for 'D' in that language?",
+                  "options": ["%", "!", "£", "θ"],
+                  "correctAnswer": "£",
+                  "explanation": "Both words differ only in the last letter (R and D). Comparing the codes, the changed symbol corresponds to D."
+                },
+                {
+                  "id": "coding_decoding_003",
+                  "question": "In a certain code language, '4378' is coded as 'IDOL' and '7832' is coded as 'IDLE'. What is the code for '2' in that language?",
+                  "options": ["O", "L", "E", "I"],
+                  "correctAnswer": "E",
+                  "explanation": "Common digits 7, 8 and 3 correspond to common letters I, D and L. The extra digit 2 corresponds to E."
+                },
+                {
+                  "id": "coding_decoding_004",
+                  "question": "In a certain code language, 'TALE' is coded as '7234', 'TOLK' as '9172', 'KITE' as '1283' and 'SEAN' as '3064'. What is the code for 'SON'?",
+                  "options": ["906", "916", "896", "914"],
+                  "correctAnswer": "906",
+                  "explanation": "From the given codes: S=9, O=0 and N=6. Therefore SON = 906."
+                },
+                {
+                  "id": "coding_decoding_005",
+                  "question": "In a certain language, 'PIC VIC NIC' means 'winter is cold', 'TO NIC RE' means 'summer is hot', and 'RE THO PA' means 'nights are hot'. Which of the following is the code for 'summer'?",
+                  "options": ["TO", "NIC", "PIC", "VIC"],
+                  "correctAnswer": "TO",
+                  "explanation": "'NIC' is common in the first two statements and means 'is'. 'RE' is common in the second and third statements and means 'hot'. Therefore the remaining code 'TO' means 'summer'."
+                },
+                {
+                  "id": "coding_decoding_006",
+                  "question": "'123' means 'bright little boy', '145' means 'tall big boy' and '637' means 'beautiful little flower'. Which digit means 'bright'?",
+                  "options": ["1", "2", "3", "4"],
+                  "correctAnswer": "2",
+                  "explanation": "Digit 1 is common to the first and second statements, so it means 'boy'. Digit 3 is common to the first and third statements, so it means 'little'. Therefore digit 2 means 'bright'."
+                },
+                {
+                  "id": "coding_decoding_007",
+                  "question": "In a certain code, 48 means 'which school' and 968 means 'college and school'. What is the code for 'school'?",
+                  "options": ["6", "4", "9", "8"],
+                  "correctAnswer": "8",
+                  "explanation": "The common word in both statements is 'school'. The common digit is 8. Hence school = 8."
+                },
+                {
+                  "id": "coding_decoding_008",
+                  "question": "AYRRJC : CATTLE :: NCPDCAR : ?",
+                  "options": ["SUBJECTS", "NEGLECT", "PERFECT", "OPERATE"],
+                  "correctAnswer": "OPERATE",
+                  "explanation": "AYRRJC rearranges to CATTLE using a specific letter arrangement pattern. Applying the same pattern to NCPDCAR gives OPERATE."
+                },
+                {
+                  "id": "coding_decoding_009",
+                  "question": "Each of the letters in the word 'STUDENT' is arranged in alphabetical order. How many letters are there in the English alphabetical series between the letter that is second from the left and the one that is fourth from the right in the new arrangement?",
+                  "options": ["17", "13", "11", "15"],
+                  "correctAnswer": "13",
+                  "explanation": "Alphabetical arrangement: D,E,N,S,T,T,U. Second from left = E and fourth from right = S. Letters between E and S = 13."
+                },
+                {
+                  "id": "coding_decoding_010",
+                  "question": "Select the letter cluster that can replace the question mark in the series: MCFI, NEKP, OGPW, PIUD, ?",
+                  "options": ["NKYD", "QLYL", "QKZK", "QKZL"],
+                  "correctAnswer": "NKYD",
+                  "explanation": "The letters follow a positional pattern across each term. Applying the same pattern gives NKYD."
+                },
+                {
+                  "id": "coding_decoding_011",
+                  "question": "Select the letter cluster that can replace the question mark in the series: WZWT, WWOH, WRGV, WVYJ, ?",
+                  "options": ["WJQX", "WJQW", "WHPX", "WJPX"],
+                  "correctAnswer": "WJQX",
+                  "explanation": "Each position follows a separate alphabetical sequence. The next term is WJQX."
+                },
+                {
+                  "id": "coding_decoding_012",
+                  "question": "In a certain code, 48 means 'which school' and 968 means 'college and school'. What is the code for 'school'?",
+                  "options": ["6", "4", "9", "8"],
+                  "correctAnswer": "8",
+                  "explanation": "The common digit in both codes is 8, which corresponds to the common word 'school'."
+                },
+                {
+                  "id": "coding_decoding_013",
+                  "question": "In a certain language, 'PIC VIC NIC' means 'winter is cold', 'TO NIC RE' means 'summer is hot', and 'RE THO PA' means 'nights are hot'. Which of the following is the code for 'summer'?",
+                  "options": ["TO", "NIC", "PIC", "VIC"],
+                  "correctAnswer": "TO",
+                  "explanation": "After identifying NIC = is and RE = hot, the remaining code TO corresponds to summer."
+                },
+                {
+                  "id": "coding_decoding_014",
+                  "question": "'123' means 'bright little boy', '145' means 'tall big boy' and '637' means 'beautiful little flower'. Which digit means 'bright'?",
+                  "options": ["1", "2", "3", "4"],
+                  "correctAnswer": "2",
+                  "explanation": "1 = boy and 3 = little. Therefore 2 = bright."
+                },
+                {
+                  "id": "coding_decoding_015",
+                  "question": "In a certain code language, 'TALE' is coded as '7234', 'TOLK' as '9172', 'KITE' as '1283' and 'SEAN' as '3064'. What is the code for 'SON'?",
+                  "options": ["906", "916", "896", "914"],
+                  "correctAnswer": "906",
+                  "explanation": "S = 9, O = 0 and N = 6. Hence SON = 906."
+                },
+                {
+                  "id": "coding_decoding_016",
+                  "question": "In a certain code language, '4378' is coded as 'IDOL' and '7832' is coded as 'IDLE'. What is the code for '2'?",
+                  "options": ["O", "L", "E", "I"],
+                  "correctAnswer": "E",
+                  "explanation": "Comparing the two coded forms, digit 2 corresponds to E."
+                },
+                {
+                  "id": "coding_decoding_017",
+                  "question": "In a certain code language, 'TALKER' and 'TALKED' are coded differently. What is the code for 'D'?",
+                  "options": ["%", "!", "£", "θ"],
+                  "correctAnswer": "£",
+                  "explanation": "The only changed letter between TALKER and TALKED is D replacing R. The changed symbol represents D."
+                },
+                {
+                  "id": "coding_decoding_018",
+                  "question": "In a certain code language, 'KENT' is coded as '*9*7' and 'BENT' is coded as '^*79'. What is the code for 'B'?",
+                  "options": ["*", "9", "^", "."],
+                  "correctAnswer": "^",
+                  "explanation": "The symbol unique to BENT is '^', so it represents B."
+                },
+                {
+                  "id": "coding_decoding_019",
+                  "question": "Select the set in which the numbers are related in the same way as the following sets: (45,15,3) and (120,40,8).",
+                  "options": ["(165,55,9)", "(175,55,11)", "(165,54,11)", "(165,55,11)"],
+                  "correctAnswer": "(165,55,11)",
+                  "explanation": "First number ÷ second number = third number. 165 ÷ 55 = 3 and the internal relation matches the given pattern."
+                },
+                {
+                  "id": "coding_decoding_020",
+                  "question": "Select the set in which the numbers are related in the same way as the following sets: (111,16,7) and (167,14,12).",
+                  "options": ["(190,21,9)", "(140,8,17)", "(131,12,11)", "(108,9,12)"],
+                  "correctAnswer": "(108,9,12)",
+                  "explanation": "The numbers follow the same arithmetic relationship as the given examples. Option D satisfies the pattern."
+                },
+                  {
+                    "id": "coding_decoding_015",
+                    "question": "In each of the following questions, the second word is formed by rearranging the letters of the first word according to a specific pattern. Identify the pattern and apply it to the third word. NUMERAL : UEALRMN :: ALGEBRA : ?",
+                    "options": ["LRBAGEA", "BARLAGE", "LERAGBA", "LERABGA"],
+                    "correctAnswer": "LERABGA",
+                    "explanation": "NUMERAL → UEALRMN follows the position pattern 2,4,6,1,3,5,7. Applying the same pattern to ALGEBRA gives LERABGA."
+                  },
+                  {
+                    "id": "coding_decoding_016",
+                    "question": "Find the odd one out from the given alternatives.",
+                    "options": ["TDS", "GST", "VAT", "DNA"],
+                    "correctAnswer": "DNA",
+                    "explanation": "TDS, GST and VAT are forms of taxes, whereas DNA is a biological term. Hence DNA is the odd one out."
+                  },
+                  {
+                    "id": "coding_decoding_017",
+                    "question": "In a certain code language, MOUSE is coded as 45291 and RAT as 786. How is STORE coded in that language?",
+                    "options": ["96571", "97653", "98345", "96278"],
+                    "correctAnswer": "96571",
+                    "explanation": "From MOUSE = 45291, we get M=4, O=5, U=2, S=9, E=1. From RAT = 786, we get R=7, A=8, T=6. Therefore STORE = S-T-O-R-E = 9-6-5-7-1 = 96571."
+                  },
+                  {
+                    "id": "coding_decoding_019",
+                    "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series: ACE, EIM, IOU, MUC, ?",
+                    "options": ["QSA", "UHG", "QAK", "CGD"],
+                    "correctAnswer": "QSA",
+                    "explanation": "Each position advances by 4 letters cyclically: A→E→I→M→Q, C→I→O→U→S, E→M→U→C→A. Hence the next term is QSA."
+                  },
+                  {
+                    "id": "coding_decoding_022",
+                    "question": "In each of the following questions, a specific alphabetic coding pattern has been applied to the first word to form the second word. Identify the same coding pattern and apply it to the third word. COUNTRY : FRXQWUB :: EXAMINE : ?",
+                    "options": ["HAPDLQH", "HADPLQH", "HAHPLDQ", "GBQDVWB"],
+                    "correctAnswer": "HADPLQH",
+                    "explanation": "In COUNTRY → FRXQWUB, each letter is shifted forward by 3 positions. Applying the same rule to EXAMINE gives HADPLQH."
+                  },
         {
         "id": "reasoning_coding_decoding_055",
     "question": "Coding Decoding — Question 26: What is the correct answer?",

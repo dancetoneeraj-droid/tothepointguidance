@@ -414,6 +414,8 @@
       ],
       "english": {
         "grammarPdf": "/content/english/day1-grammar.pdf",
+        "grammarQuiz": "pronoun",
+        "grammarQuizFrom": 150,
         "vocabPdf": "/content/english/day1-vocab.pdf",
         "comprehensionPdf": "/content/english/day1-comprehension.pdf",
         "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
@@ -421,14 +423,14 @@
       },
       "reasoning": {
         "topic": "analogy",
-        "questions": 50,
-        "duration": 45
+        "from": 55,
+        "questions": 25,
+        "duration": 25
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
-        "todayMindmap": "/content/gk/day1-history-mindmap.png",
-        "todayNotes": "/content/gk/day1-history-notes.pdf",
+        "todayTopicPdf": "https://drive.google.com/file/d/1rwEZi4Q3jMpFAAeGScjV5BOGk453P4S_/view?usp=drive_link",
         "revisionQuiz": "revision",
+        "from": 125,
         "revisionTopic": "Day 8 GK revision"
       }
     },
@@ -462,20 +464,20 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day2-grammar.pdf",
+        "grammarPdf": "https://drive.google.com/file/d/1QBWEJEw0KXkrA1a15s-4khVu5VO_KbPh/view?usp=drive_link",
+        "grammarQuiz": "pronoun",
+        "grammarQuizFrom": 175,
         "vocabPdf": "/content/english/day2-vocab.pdf",
         "comprehensionPdf": "/content/english/day2-comprehension.pdf"
       },
       "reasoning": {
         "topic": "coding-decoding",
-        "questions": 50,
-        "duration": 45
+        "from": 55,
+        "questions": 25,
+        "duration": 25
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day2-geography.pdf",
-        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
-        "todayNotes": "/content/gk/day2-geography-notes.pdf",
-        "revisionQuiz": "revision",
+        "todayTopicPdf": "https://drive.google.com/file/d/1unV6k0Dub2dXalFspa0sNXbKPLdSjFFB/view?usp=drive_link",
         "revisionTopic": "Day 9 GK revision"
       }
     },

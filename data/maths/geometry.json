@@ -246,308 +246,208 @@
       "correctAnswer": "180°",
       "explanation": "Using angle sum properties of the star figure, the total equals 180°."
     },
+      {
+        "id": "maths_geometry_026",
+        "question": "In a quadrilateral PQRS, if the sum of measures of ∠Q and ∠S is 150° while the measures of ∠P and ∠R are in the ratio 4:3, then the measure of ∠R will be?",
+        "questionHindi": "एक चतुर्भुज PQRS में, यदि ∠Q और ∠S का योग 150° है तथा ∠P और ∠R का अनुपात 4:3 है, तो ∠R का मान क्या होगा?",
+        "options": ["120°", "90°", "210°", "50°"],
+        "correctAnswer": "90°",
+        "explanation": "∠P + ∠R = 360° − 150° = 210°. Let angles be 4x and 3x. Then 7x = 210 ⇒ x = 30. Hence ∠R = 3x = 90°."
+      },
+      {
+        "id": "maths_geometry_027",
+        "question": "When there are two parallel lines cut by a transversal, which of the following is true?",
+        "questionHindi": "जब दो समानांतर रेखाएँ एक तिर्यक रेखा द्वारा काटी जाती हैं, तो निम्नलिखित में से कौन-सा कथन सत्य है?",
+        "options": ["Only A", "B and C", "A and D", "Only B"],
+        "correctAnswer": "A and D",
+        "explanation": "Corresponding angles are equal and alternate interior angles are equal when parallel lines are cut by a transversal."
+      },
+      {
+        "id": "maths_geometry_028",
+        "question": "If a transversal intersects two parallel lines, and the difference between two interior angles on the same side of the transversal is 40°, then find the smallest angle.",
+        "questionHindi": "यदि एक तिर्यक रेखा दो समानांतर रेखाओं को काटती है और एक ही तरफ के अंतः कोणों का अंतर 40° है, तो छोटा कोण ज्ञात कीजिए।",
+        "options": ["70°", "50°", "40°", "60°"],
+        "correctAnswer": "70°",
+        "explanation": "Same-side interior angles are supplementary. Let angles be x and x+40. Then 2x+40=180 ⇒ x=70°."
+      },
+      {
+        "id": "maths_geometry_029",
+        "question": "If the ratio of two interior angles lying on the same side of a transversal intersecting two parallel lines is 3:7, then find their positive difference.",
+        "questionHindi": "यदि एक ही तरफ के अंतः कोणों का अनुपात 3:7 है, तो उनके मापों का धनात्मक अंतर ज्ञात कीजिए।",
+        "options": ["64°", "54°", "72°", "80°"],
+        "correctAnswer": "72°",
+        "explanation": "Let angles be 3x and 7x. Since they are supplementary, 10x=180 ⇒ x=18. Difference = 4x = 72°."
+      },
+      {
+        "id": "maths_geometry_030",
+        "question": "In the given figure, l₁ || l₂ and p is a transversal. If ∠4 = 5x + 35° and ∠7 = 45°, find x.",
+        "questionHindi": "दिए गए चित्र में l₁ || l₂ है तथा p एक तिर्यक रेखा है। यदि ∠4 = 5x + 35° और ∠7 = 45° है, तो x ज्ञात कीजिए।",
+        "options": ["40°", "45°", "20°", "10°"],
+        "correctAnswer": "10°",
+        "explanation": "Using vertically opposite and corresponding angle relationships, ∠4 = 85°. Hence 5x + 35 = 85 ⇒ x = 10°."
+      },
+      {
+        "id": "maths_geometry_031",
+        "question": "In the given figure, if BP || CQ and AC = BC, then find the measure of x.",
+        "questionHindi": "दिए गए चित्र में यदि BP || CQ तथा AC = BC है, तो x का मान ज्ञात कीजिए।",
+        "options": ["20°", "25°", "30°", "35°"],
+        "correctAnswer": "30°",
+        "explanation": "Using properties of isosceles triangle and parallel lines, x = 30°."
+      },
+      {
+        "id": "maths_geometry_032",
+        "question": "In the figure given below, line l is parallel to m. Find the value of 2x + y.",
+        "questionHindi": "नीचे दिए गए चित्र में l ∥ m है। 2x + y का मान ज्ञात कीजिए।",
+        "options": ["270°", "150°", "320°", "225°"],
+        "correctAnswer": "150°",
+        "explanation": "Using co-interior and corresponding angle properties in parallel lines, 2x + y = 150°."
+      },
+      {
+        "id": "maths_geometry_033",
+        "question": "In the following figure, AB || CD || EF. Find the value of x°.",
+        "questionHindi": "दिए गए चित्र में AB || CD || EF है। x° का मान ज्ञात कीजिए।",
+        "options": ["148°", "147°", "115°", "126°"],
+        "correctAnswer": "126°",
+        "explanation": "Applying parallel line angle relationships gives x = 126°."
+      },
+      {
+        "id": "maths_geometry_034",
+        "question": "AB is parallel to CD. A transversal PQ intersects them at E and F. If ∠PEB = 78°, ∠BEG = 18° and ∠GFE = 30°, then find ∠EGF.",
+        "questionHindi": "AB ∥ CD है। तिर्यक PQ इन्हें E और F पर काटती है। यदि ∠PEB = 78°, ∠BEG = 18° तथा ∠GFE = 30° है, तो ∠EGF ज्ञात कीजिए।",
+        "options": ["68°", "66°", "72°", "58°"],
+        "correctAnswer": "66°",
+        "explanation": "Using parallel line angle properties and triangle angle sum, ∠EGF = 66°."
+      },
+      {
+        "id": "maths_geometry_035",
+        "question": "Straight lines l and m are parallel. If m∠EAB = 50° and m∠ECD = 70°, find ∠AEC.",
+        "questionHindi": "रेखाएँ l और m समानांतर हैं। यदि m∠EAB = 50° तथा m∠ECD = 70° है, तो ∠AEC ज्ञात कीजिए।",
+        "options": ["70°", "120°", "60°", "100°"],
+        "correctAnswer": "120°",
+        "explanation": "Using corresponding angles and angle addition around point E, ∠AEC = 120°."
+      },
+      {
+        "id": "maths_geometry_036",
+        "question": "In the shown figure AB || DE. Find the supplementary angle of x.",
+        "questionHindi": "दिए गए चित्र में AB ∥ DE है। x का संपूरक कोण ज्ञात कीजिए।",
+        "options": ["120°", "150°", "140°", "125°"],
+        "correctAnswer": "150°",
+        "explanation": "From the figure, x = 30°. Therefore its supplementary angle = 180° − 30° = 150°."
+      },
+      {
+        "id": "maths_geometry_037",
+        "question": "In the given figure below AB || CD, find x.",
+        "questionHindi": "नीचे दिए गए चित्र में AB ∥ CD है। x का मान ज्ञात कीजिए।",
+        "options": ["45°", "40°", "35°", "67.5°"],
+        "correctAnswer": "45°",
+        "explanation": "Using alternate interior angles and linear pair relationships, x = 45°."
+      },
+      {
+        "id": "maths_geometry_038",
+        "question": "In the given figure PQ || RS, then find ∠QOS.",
+        "questionHindi": "दिए गए चित्र में PQ ∥ RS है। ∠QOS का मान ज्ञात कीजिए।",
+        "options": ["30°", "15°", "20°", "10°"],
+        "correctAnswer": "15°",
+        "explanation": "Using parallel line angle relations and exterior angles, ∠QOS = 15°."
+      },
+      {
+        "id": "maths_geometry_039",
+        "question": "In the given figure PQ is parallel to RS, ∠AEF = 95°, ∠BHS = 110°, and ∠ABC = x°. Find x.",
+        "questionHindi": "दिए गए चित्र में PQ ∥ RS, ∠AEF = 95°, ∠BHS = 110° तथा ∠ABC = x° है। x का मान ज्ञात कीजिए।",
+        "options": ["15°", "25°", "30°", "35°"],
+        "correctAnswer": "25°",
+        "explanation": "Using corresponding and interior angle properties of parallel lines, x = 25°."
+      },
+      {
+        "id": "maths_geometry_040",
+        "question": "In the given figure AB is parallel to CD and AC is parallel to BD. If ∠EAC = 40°, ∠FDG = 55°, and ∠HAB = x°, then find x.",
+        "questionHindi": "दिए गए चित्र में AB ∥ CD तथा AC ∥ BD है। यदि ∠EAC = 40°, ∠FDG = 55° और ∠HAB = x° है, तो x का मान ज्ञात कीजिए।",
+        "options": ["85°", "80°", "75°", "65°"],
+        "correctAnswer": "85°",
+        "explanation": "Using parallel line angle relationships and corresponding angles, x = 85°."
+      },
+        {
+          "id": "maths_geometry_041",
+          "question": "In ΔPQR, X and Y are points on PQ and PR such that XY || QR and YZ is the angle bisector of ∠XYR. If YR = 2.7 cm, then find ZR.",
+          "questionHindi": "∆PQR में X और Y, PQ तथा PR पर स्थित हैं तथा XY || QR है। YZ, ∠XYR का कोण समद्विभाजक है। यदि YR = 2.7 cm है, तो ZR ज्ञात कीजिए।",
+          "options": ["3 cm", "2.7 cm", "2.4 cm", "5.4 cm"],
+          "correctAnswer": "2.7 cm",
+          "explanation": "Since XY || QR, ∠XYZ = ∠ZYR. As YZ bisects ∠XYR, ΔXYZ and ΔZYR form equal angles, giving ZR = YR = 2.7 cm."
+        },
+        {
+          "id": "maths_geometry_042",
+          "question": "If AB || CD then find the value of α + β + γ?",
+          "questionHindi": "यदि AB || CD है, तो α + β + γ का मान ज्ञात कीजिए।",
+          "options": ["180°", "270°", "360°", "240°"],
+          "correctAnswer": "360°",
+          "explanation": "Using parallel line angle relationships and angles around a point, α + β + γ = 360°."
+        },
+        {
+          "id": "maths_geometry_043",
+          "question": "Find the value of x.",
+          "questionHindi": "x का मान ज्ञात कीजिए।",
+          "options": ["70°", "80°", "90°", "100°"],
+          "correctAnswer": "100°",
+          "explanation": "Using the exterior angle property of the quadrilateral-shaped figure: x = 40° + 25° + 35° = 100°."
+        },
+        {
+          "id": "maths_geometry_044",
+          "question": "What is the value of x in the figure given below?",
+          "questionHindi": "नीचे दिए गए चित्र में x का मान क्या होगा?",
+          "options": ["b - a - c", "b - a + c", "b + a - c", "π - (a + b - c)"],
+          "correctAnswer": "b - a - c",
+          "explanation": "Applying exterior angle relations in the figure gives x = b − a − c."
+        },
+        {
+          "id": "maths_geometry_045",
+          "question": "If in the given figure, ∠ACB + ∠BAC = 80°, ∠BDE = 35°, ∠BCE = 45°, then the marked angle ∠CED is:",
+          "questionHindi": "यदि दिए गए चित्र में ∠ACB + ∠BAC = 80°, ∠BDE = 35° तथा ∠BCE = 45° है, तो ∠CED का मान क्या होगा?",
+          "options": ["150°", "120°", "160°", "135°"],
+          "correctAnswer": "160°",
+          "explanation": "Using angle sum property in triangles and exterior angle relations, ∠CED = 160°."
+        },
+        {
+          "id": "maths_geometry_046",
+          "question": "Find the value of θ.",
+          "questionHindi": "θ का मान ज्ञात कीजिए।",
+          "options": ["60°", "70°", "75°", "CND"],
+          "correctAnswer": "75°",
+          "explanation": "Using angle chasing in the figure and the given 40° and 110° angles, θ = 75°."
+        },
+        {
+          "id": "maths_geometry_047",
+          "question": "Find the value of a + b.",
+          "questionHindi": "a + b का मान ज्ञात कीजिए।",
+          "options": ["80°", "180°", "90°", "120°"],
+          "correctAnswer": "80°",
+          "explanation": "Using the triangle angle sum property and the exterior angle at C, we obtain a + b = 80°."
+        },
+        {
+          "id": "maths_geometry_048",
+          "question": "Angles are shown in the given figure. What is the value of ∠1 + ∠2 + ∠3 + ∠4 + ∠5 + ∠6 + ∠7 + ∠8?",
+          "questionHindi": "दिए गए चित्र में ∠1 + ∠2 + ∠3 + ∠4 + ∠5 + ∠6 + ∠7 + ∠8 का मान क्या है?",
+          "options": ["240°", "360°", "540°", "720°"],
+          "correctAnswer": "360°",
+          "explanation": "The marked angles together form four triangles. Sum of selected exterior/interior angles results in 360°."
+        },
+        {
+          "id": "maths_geometry_049",
+          "question": "In the given figure, PR || UV and PQ || RS, ∠RST = 30° and ∠STU = 45°. Find the value of ∠QPR + ∠TUV.",
+          "questionHindi": "दिए गए चित्र में PR || UV तथा PQ || RS है। ∠RST = 30° और ∠STU = 45° है। ∠QPR + ∠TUV का मान ज्ञात कीजिए।",
+          "options": ["180°", "195°", "205°", "165°"],
+          "correctAnswer": "195°",
+          "explanation": "Using corresponding angles formed by the parallel lines, ∠QPR + ∠TUV = 195°."
+        },
+        {
+          "id": "maths_geometry_050",
+          "question": "In the given figure AB || CD. Find the value of x.",
+          "questionHindi": "दिए गए चित्र में AB || CD है। x का मान ज्ञात कीजिए।",
+          "options": ["5°", "10°", "20°", "12°"],
+          "correctAnswer": "10°",
+          "explanation": "Using alternate and corresponding angle relations in the parallel lines figure, x = 10°."
+        },
 
-  {
-    "id": "maths_geometry_026",
-    "question": "Geometry — Question 26 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_027",
-    "question": "Geometry — Question 27 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_028",
-    "question": "Geometry — Question 28 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_029",
-    "question": "Geometry — Question 29 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_030",
-    "question": "Geometry — Question 30 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_031",
-    "question": "Geometry — Question 31 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_032",
-    "question": "Geometry — Question 32 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_033",
-    "question": "Geometry — Question 33 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_034",
-    "question": "Geometry — Question 34 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_035",
-    "question": "Geometry — Question 35 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_036",
-    "question": "Geometry — Question 36 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_037",
-    "question": "Geometry — Question 37 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_038",
-    "question": "Geometry — Question 38 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_039",
-    "question": "Geometry — Question 39 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_040",
-    "question": "Geometry — Question 40 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_041",
-    "question": "Geometry — Question 41 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_042",
-    "question": "Geometry — Question 42 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_043",
-    "question": "Geometry — Question 43 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_044",
-    "question": "Geometry — Question 44 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_045",
-    "question": "Geometry — Question 45 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_046",
-    "question": "Geometry — Question 46 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_047",
-    "question": "Geometry — Question 47 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_048",
-    "question": "Geometry — Question 48 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_049",
-    "question": "Geometry — Question 49 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
-    "id": "maths_geometry_050",
-    "question": "Geometry — Question 50 (add real content in datas/maths/geometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Geometry."
-  },
-  {
+    {
     "id": "maths_geometry_051",
     "question": "Geometry — Question 51 (add real content in datas/maths/geometry.json)",
     "options": [

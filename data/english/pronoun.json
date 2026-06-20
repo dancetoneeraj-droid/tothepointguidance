@@ -1798,7 +1798,499 @@
                 ],
                 "correctAnswer": "less in the committee",
                 "explanation": "Use 'fewer' with countable nouns. Correct: 'There are five fewer members in the committee.'"
-              }
+              },
+                {
+                  "id": "adverb_001",
+                  "question": "Although I was in Delhi last month I never met him.",
+                  "options": [
+                    "Although I was",
+                    "in Delhi last month",
+                    "I never met him",
+                    "No error"
+                  ],
+                  "correctAnswer": "I never met him",
+                  "explanation": "Use 'did not meet' instead of 'never met' with a definite past time reference ('last month')."
+                },
+                {
+                  "id": "adverb_002",
+                  "question": "One should face the misfortunes of life manly.",
+                  "options": [
+                    "One should face",
+                    "the misfortunes of life",
+                    "manly",
+                    "No error"
+                  ],
+                  "correctAnswer": "manly",
+                  "explanation": "Use 'manfully' (adverb) instead of 'manly' (adjective)."
+                },
+                {
+                  "id": "adverb_003",
+                  "question": "When I got home I was too exhausted.",
+                  "options": [
+                    "When I got home",
+                    "I was too exhausted",
+                    "No error",
+                    "-"
+                  ],
+                  "correctAnswer": "No error",
+                  "explanation": "The sentence is grammatically correct."
+                },
+                {
+                  "id": "adverb_004",
+                  "question": "I did not know hardly anyone in the city and so felt lonely.",
+                  "options": [
+                    "I did not know",
+                    "hardly anyone",
+                    "in the city and so felt lonely",
+                    "No error"
+                  ],
+                  "correctAnswer": "hardly anyone",
+                  "explanation": "Double negatives should be avoided. Use 'I knew hardly anyone' or 'I did not know anyone'."
+                },
+                {
+                  "id": "adverb_005",
+                  "question": "I rarely find something in his character that I can admire.",
+                  "options": [
+                    "I rarely find",
+                    "something",
+                    "in his character that I can admire",
+                    "No error"
+                  ],
+                  "correctAnswer": "something",
+                  "explanation": "Use 'anything' instead of 'something' after a negative or restrictive adverb like 'rarely'."
+                },
+                {
+                  "id": "adverb_006",
+                  "question": "You have acted nobler than all of us.",
+                  "options": [
+                    "You have acted",
+                    "nobler",
+                    "than all of us",
+                    "No error"
+                  ],
+                  "correctAnswer": "nobler",
+                  "explanation": "Use the adverb 'more nobly' because it modifies the verb 'acted'."
+                },
+                {
+                  "id": "adverb_007",
+                  "question": "He is enough kind to help everybody in need.",
+                  "options": [
+                    "He is enough kind",
+                    "to help everybody",
+                    "in need",
+                    "No error"
+                  ],
+                  "correctAnswer": "He is enough kind",
+                  "explanation": "Use 'kind enough' because 'enough' follows the adjective it modifies."
+                },
+                {
+                  "id": "adverb_008",
+                  "question": "Don't stop anywhere. Go home fastly.",
+                  "options": [
+                    "Don't stop anywhere",
+                    "Go home",
+                    "fastly",
+                    "No error"
+                  ],
+                  "correctAnswer": "fastly",
+                  "explanation": "'Fast' itself is both adjective and adverb. 'Fastly' is incorrect."
+                },
+                {
+                  "id": "adverb_009",
+                  "question": "He has no time to read novels and no desire neither.",
+                  "options": [
+                    "He has no time",
+                    "to read novels",
+                    "and no desire neither",
+                    "No error"
+                  ],
+                  "correctAnswer": "and no desire neither",
+                  "explanation": "Use 'either' instead of 'neither' in this construction."
+                },
+                {
+                  "id": "adverb_010",
+                  "question": "He has not seldom visited his parents since he left this place.",
+                  "options": [
+                    "He has not seldom",
+                    "visited his parents",
+                    "since he left this place",
+                    "No error"
+                  ],
+                  "correctAnswer": "He has not seldom",
+                  "explanation": "Use 'has often visited' or 'has not infrequently visited'. The expression is awkward and incorrect."
+                },
+                {
+                  "id": "adverb_011",
+                  "question": "It was much hot yesterday and we didn't go out.",
+                  "options": [
+                    "It was much hot",
+                    "yesterday",
+                    "and we didn't go out",
+                    "No error"
+                  ],
+                  "correctAnswer": "It was much hot",
+                  "explanation": "Use 'very hot' instead of 'much hot'."
+                },
+                {
+                  "id": "adverb_012",
+                  "question": "I meet him often near the District Library.",
+                  "options": [
+                    "I meet him",
+                    "often",
+                    "near the District Library",
+                    "No error"
+                  ],
+                  "correctAnswer": "No error",
+                  "explanation": "The sentence is grammatically correct."
+                },
+                {
+                  "id": "adverb_013",
+                  "question": "I told her as blunt as I could but she was not convinced.",
+                  "options": [
+                    "I told her",
+                    "as blunt as I could",
+                    "but she was not convinced",
+                    "No error"
+                  ],
+                  "correctAnswer": "as blunt as I could",
+                  "explanation": "Use 'as bluntly as I could' because an adverb is needed to modify 'told'."
+                },
+                {
+                  "id": "adverb_014",
+                  "question": "What to talk of tea they did not offer us even water.",
+                  "options": [
+                    "What to talk of tea",
+                    "they did not offer us",
+                    "even water",
+                    "No error"
+                  ],
+                  "correctAnswer": "What to talk of tea",
+                  "explanation": "The correct idiom is 'let alone tea' or 'not to speak of tea'."
+                },
+                {
+                  "id": "adverb_015",
+                  "question": "My mother works very quicker than I at embroidery.",
+                  "options": [
+                    "My mother works",
+                    "very quicker",
+                    "than I at embroidery",
+                    "No error"
+                  ],
+                  "correctAnswer": "very quicker",
+                  "explanation": "Use 'much quicker' or simply 'quicker'. 'Very' is not used with comparative adjectives."
+                },
+                {
+                  "id": "adverb_016",
+                  "question": "If you like to succeed in life, you must learn how to think independent.",
+                  "options": [
+                    "If you like to succeed in life",
+                    "you must learn",
+                    "how to think independent",
+                    "No error"
+                  ],
+                  "correctAnswer": "how to think independent",
+                  "explanation": "Use 'independently' because an adverb is required after 'think'."
+                },
+                {
+                  "id": "adverb_017",
+                  "question": "She is sure a great singer and no other singer is a match for her.",
+                  "options": [
+                    "She is sure",
+                    "a great singer",
+                    "and no other singer is a match for her",
+                    "No error"
+                  ],
+                  "correctAnswer": "She is sure",
+                  "explanation": "Use 'surely' instead of 'sure' as an adverb."
+                },
+                {
+                  "id": "adverb_018",
+                  "question": "The teacher asked the students to talk loudly because there was a noise outside the classroom.",
+                  "options": [
+                    "The teacher asked the students",
+                    "to talk loudly",
+                    "because there was a noise outside the classroom",
+                    "No error"
+                  ],
+                  "correctAnswer": "No error",
+                  "explanation": "The sentence is grammatically correct."
+                },
+                {
+                  "id": "adverb_019",
+                  "question": "It is better to be frugal but don't be miser in giving alms.",
+                  "options": [
+                    "It is better to be frugal",
+                    "but don't be miser",
+                    "in giving alms",
+                    "No error"
+                  ],
+                  "correctAnswer": "but don't be miser",
+                  "explanation": "Use the adjective 'miserly' instead of the noun 'miser'."
+                },
+                {
+                  "id": "adverb_020",
+                  "question": "It is a pity that our leaders are misusing our hardly won liberty.",
+                  "options": [
+                    "It is a pity that",
+                    "our leaders are misusing",
+                    "our hardly won liberty",
+                    "No error"
+                  ],
+                  "correctAnswer": "our hardly won liberty",
+                  "explanation": "Use 'hard-won liberty'. 'Hardly won' changes the meaning."
+                },
+                {
+                  "id": "adverb_021",
+                  "question": "She knows swimming well.",
+                  "options": [
+                    "She knows",
+                    "swimming",
+                    "well",
+                    "No error"
+                  ],
+                  "correctAnswer": "She knows",
+                  "explanation": "Use 'can swim well'. 'Know' is not generally used with skills in this context."
+                },
+                {
+                  "id": "adverb_022",
+                  "question": "You are advised to travel lightly.",
+                  "options": [
+                    "You are advised",
+                    "to travel",
+                    "lightly",
+                    "No error"
+                  ],
+                  "correctAnswer": "No error",
+                  "explanation": "The sentence is grammatically correct."
+                },
+                {
+                  "id": "adverb_023",
+                  "question": "The Tatas are regarded the most successful industrialist of modern India.",
+                  "options": [
+                    "The Tatas are regarded",
+                    "the most successful industrialist",
+                    "of modern India",
+                    "No error"
+                  ],
+                  "correctAnswer": "The Tatas are regarded",
+                  "explanation": "After 'regarded', use 'as'. Correct form: 'The Tatas are regarded as the most successful industrialists of modern India.'"
+                },
+                {
+                  "id": "adverb_024",
+                  "question": "She is either honest or intelligent, if not both.",
+                  "options": [
+                    "She is either honest",
+                    "or intelligent",
+                    "if not both",
+                    "No error"
+                  ],
+                  "correctAnswer": "No error",
+                  "explanation": "The sentence is grammatically correct."
+                },
+                {
+                  "id": "adverb_025",
+                  "question": "When she received telephone, she ran straightly to home.",
+                  "options": [
+                    "When she received telephone",
+                    "she ran straightly",
+                    "to home",
+                    "No error"
+                  ],
+                  "correctAnswer": "she ran straightly",
+                  "explanation": "Use 'straight' instead of 'straightly'. 'Straight' functions as both adjective and adverb."
+                },
+                  {
+                    "id": "adverb_026",
+                    "question": "I never remember to have met a more interesting man in my life.",
+                    "options": ["I never remember", "to have met", "a more interesting man", "No error"],
+                    "correctAnswer": "I never remember",
+                    "explanation": "Use 'I do not remember' or 'I never remember having met'."
+                  },
+                  {
+                    "id": "adverb_027",
+                    "question": "I refused to accompany him because I was so tired.",
+                    "options": ["I refused", "to accompany him", "because I was so tired", "No error"],
+                    "correctAnswer": "No error",
+                    "explanation": "The sentence is grammatically correct."
+                  },
+                  {
+                    "id": "adverb_028",
+                    "question": "She did this work as good as she could do.",
+                    "options": ["She did this work", "as good as", "she could do", "No error"],
+                    "correctAnswer": "as good as",
+                    "explanation": "Use 'as well as' because an adverb is required to modify the verb."
+                  },
+                  {
+                    "id": "adverb_029",
+                    "question": "This fruit tastes more sweetly than any other fruit.",
+                    "options": ["This fruit tastes", "more sweetly", "than any other fruit", "No error"],
+                    "correctAnswer": "more sweetly",
+                    "explanation": "Use 'sweeter' because taste is a linking verb and requires an adjective."
+                  },
+                  {
+                    "id": "adverb_030",
+                    "question": "Raja Ram Mohan Roy tried to eradicate social evils with tooth and nail.",
+                    "options": ["Raja Ram Mohan Roy tried", "to eradicate social evils", "with tooth and nail", "No error"],
+                    "correctAnswer": "with tooth and nail",
+                    "explanation": "The correct idiom is 'to fight tooth and nail', not 'eradicate with tooth and nail'."
+                  },
+                  {
+                    "id": "adverb_031",
+                    "question": "We seldom or ever go to the movie these days because we don't like moving out.",
+                    "options": ["We seldom or ever", "go to the movie these days", "because we don't like moving out", "No error"],
+                    "correctAnswer": "We seldom or ever",
+                    "explanation": "Use 'seldom or never'."
+                  },
+                  {
+                    "id": "adverb_032",
+                    "question": "The student came to the classroom lately and was punished by the teacher.",
+                    "options": ["The student came", "to the classroom lately", "and was punished by the teacher", "No error"],
+                    "correctAnswer": "lately",
+                    "explanation": "'Lately' means recently. Use 'late' for delay."
+                  },
+                  {
+                    "id": "adverb_033",
+                    "question": "He looks full of energy today because he soundly slept last night.",
+                    "options": ["He looks full of energy today", "because he soundly slept", "last night", "No error"],
+                    "correctAnswer": "because he soundly slept",
+                    "explanation": "Use 'slept soundly'. The adverb should follow the verb."
+                  },
+                  {
+                    "id": "adverb_034",
+                    "question": "I care a fig for such a worthless fellow.",
+                    "options": ["I care", "a fig", "for such a worthless fellow", "No error"],
+                    "correctAnswer": "I care",
+                    "explanation": "The idiom is 'I don't care a fig'."
+                  },
+                  {
+                    "id": "adverb_035",
+                    "question": "She had barely nothing to eat when she came to me last month.",
+                    "options": ["She had barely", "nothing to eat", "when she came to me last month", "No error"],
+                    "correctAnswer": "nothing to eat",
+                    "explanation": "Double negative. Use 'barely anything to eat'."
+                  },
+                  {
+                    "id": "adverb_036",
+                    "question": "Have you secured first class? Yes, I have not secured it.",
+                    "options": ["Have you secured first class", "Yes", "I have not secured it", "No error"],
+                    "correctAnswer": "I have not secured it",
+                    "explanation": "The reply is logically incorrect. It should be 'I have secured it'."
+                  },
+                  {
+                    "id": "adverb_037",
+                    "question": "It had been bitter cold the whole month and we preferred staying in the plains.",
+                    "options": ["It had been bitter cold", "the whole month", "and we preferred staying in the plains", "No error"],
+                    "correctAnswer": "No error",
+                    "explanation": "'Bitter cold' is a correct expression."
+                  },
+                  {
+                    "id": "adverb_038",
+                    "question": "Don't be unreasonable angry with me because I understand your problem.",
+                    "options": ["Don't be", "unreasonable angry", "with me because I understand your problem", "No error"],
+                    "correctAnswer": "unreasonable angry",
+                    "explanation": "Use 'unreasonably angry'. An adverb is needed."
+                  },
+                  {
+                    "id": "adverb_039",
+                    "question": "Never in the history of India there has been as brave a lady as Rani Lakshmi Bai.",
+                    "options": ["Never in the history of India", "there has been", "as brave a lady as Rani Lakshmi Bai", "No error"],
+                    "correctAnswer": "there has been",
+                    "explanation": "After a negative adverb at the beginning, inversion is required: 'has there been'."
+                  },
+                  {
+                    "id": "adverb_040",
+                    "question": "They pay him handsome salary and he is earning fifteen thousand rupees monthly.",
+                    "options": ["They pay him", "handsome salary", "and he is earning fifteen thousand rupees monthly", "No error"],
+                    "correctAnswer": "handsome salary",
+                    "explanation": "Use 'a handsome salary'."
+                  },
+                  {
+                    "id": "adverb_041",
+                    "question": "Only I read poetry because I am much interested in it.",
+                    "options": ["Only I read poetry", "because I am much interested in it", "No error", "-"],
+                    "correctAnswer": "Only I read poetry",
+                    "explanation": "Use 'I only read poetry' or 'Only I read poetry' depending on meaning; here placement is incorrect."
+                  },
+                  {
+                    "id": "adverb_042",
+                    "question": "She does work with heart and soul to qualify the test.",
+                    "options": ["She does work", "with heart and soul", "to qualify the test", "No error"],
+                    "correctAnswer": "to qualify the test",
+                    "explanation": "Use 'pass the test' rather than 'qualify the test'."
+                  },
+                  {
+                    "id": "adverb_043",
+                    "question": "The teacher refused to consider him as an honest boy.",
+                    "options": ["The teacher refused", "to consider him as", "an honest boy", "No error"],
+                    "correctAnswer": "to consider him as",
+                    "explanation": "After 'consider', 'as' should not be used."
+                  },
+                  {
+                    "id": "adverb_044",
+                    "question": "The principal appointed him as an office boy in his office.",
+                    "options": ["The principal appointed", "him as an office boy", "in his office", "No error"],
+                    "correctAnswer": "him as an office boy",
+                    "explanation": "After 'appoint', 'as' should not be used."
+                  },
+                  {
+                    "id": "adverb_045",
+                    "question": "They reached home safely, although they started late.",
+                    "options": ["They reached home safely", "although they started late", "No error", "-"],
+                    "correctAnswer": "No error",
+                    "explanation": "The sentence is grammatically correct."
+                  },
+                  {
+                    "id": "adverb_046",
+                    "question": "The robbers behaved gentlemanly with the ladies.",
+                    "options": ["The robbers behaved", "gentlemanly", "with the ladies", "No error"],
+                    "correctAnswer": "gentlemanly",
+                    "explanation": "Use 'like gentlemen' or 'gently'. 'Gentlemanly' is primarily an adjective."
+                  },
+                  {
+                    "id": "adverb_047",
+                    "question": "Thanks, I have just taken coffee.",
+                    "options": ["Thanks", "I have just taken coffee", "No error", "-"],
+                    "correctAnswer": "I have just taken coffee",
+                    "explanation": "Use 'I have just had coffee'."
+                  },
+        
+                    {
+                      "id": "adverb_048",
+                      "question": "Hardly had the train left the station when it suddenly stopped due to a technical fault.",
+                      "options": [
+                        "Hardly had the train",
+                        "left the station",
+                        "when it suddenly stopped",
+                        "No error"
+                      ],
+                      "correctAnswer": "No error",
+                      "explanation": "The correlative conjunction with 'Hardly' is 'when'. The inversion 'Hardly had the train left...' is also correctly used."
+                    },
+                    {
+                      "id": "adverb_049",
+                      "question": "Scarcely had the meeting begun than the chairman announced his resignation.",
+                      "options": [
+                        "Scarcely had the meeting begun",
+                        "than the chairman announced",
+                        "his resignation",
+                        "No error"
+                      ],
+                      "correctAnswer": "than the chairman announced",
+                      "explanation": "The correct pair is 'Scarcely...when', not 'Scarcely...than'. Correct sentence: 'Scarcely had the meeting begun when the chairman announced his resignation.'"
+                    },
+                    {
+                      "id": "adverb_050",
+                      "question": "No sooner the verdict was announced than the crowd erupted into celebration.",
+                      "options": [
+                        "No sooner",
+                        "the verdict was announced",
+                        "than the crowd erupted",
+                        "No error"
+                      ],
+                      "correctAnswer": "the verdict was announced",
+                      "explanation": "After 'No sooner', inversion is required. Correct sentence: 'No sooner was the verdict announced than the crowd erupted into celebration.'"
+                    }
+    
 
 
 ]
