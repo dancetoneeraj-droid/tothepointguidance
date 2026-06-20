@@ -22,6 +22,14 @@ import { getQuizReviewRecord } from "@/lib/storage";
 import { getQuestionBank } from "@/lib/quiz-loader";
 import { getReviewQuestions, getReviewStatus } from "@/lib/quiz/review";
 
+function resolveImageUrl(url: string): string {
+  const fileMatch = /\/file\/d\/([^/?]+)/.exec(url);
+  if (fileMatch?.[1]) return `https://lh3.googleusercontent.com/d/${fileMatch[1]}`;
+  const ucMatch = /[?&]id=([^&]+)/.exec(url);
+  if (ucMatch?.[1]) return `https://lh3.googleusercontent.com/d/${ucMatch[1]}`;
+  return url;
+}
+
 export default function QuizSolutionsPage({
   params,
 }: {
@@ -193,6 +201,16 @@ export default function QuizSolutionsPage({
                         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-violet-300">
                           Question {index + 1}
                         </p>
+                        {question.image ? (
+                          <div className="mt-3 flex justify-center rounded-lg border border-white/10 bg-black/30 p-3">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                              src={resolveImageUrl(question.image)}
+                              alt="Question figure"
+                              className="max-h-56 w-auto object-contain"
+                            />
+                          </div>
+                        ) : null}
                         <p className="mt-2 text-base leading-7 text-zinc-100">
                           {question.question}
                         </p>
@@ -215,23 +233,51 @@ export default function QuizSolutionsPage({
                     </div>
                   </div>
 
-                  <div className="grid gap-4 px-5 py-5 sm:px-6 lg:grid-cols-2">
-                    <AnswerPanel
-                      label="Your selected answer"
-                      value={selectedAnswer ?? "Not attempted"}
-                      tone={
-                        status === "correct"
-                          ? "border-emerald-400/20 bg-emerald-500/10 text-emerald-200"
-                          : status === "wrong"
-                            ? "border-rose-400/20 bg-rose-500/10 text-rose-200"
-                            : "border-zinc-400/20 bg-zinc-500/10 text-zinc-200"
-                      }
-                    />
-                    <AnswerPanel
-                      label="Correct answer"
-                      value={question.correctAnswer}
-                      tone="border-violet-400/20 bg-violet-500/10 text-violet-100"
-                    />
+                  <div className="px-5 py-5 sm:px-6">
+                    <p className="mb-3 text-[10px] font-semibold uppercase tracking-[0.18em] text-zinc-500">
+                      Options
+                    </p>
+                    <div className="grid gap-2 sm:grid-cols-2">
+                      {question.options.map((opt, oi) => {
+                        const optLabels = ["A", "B", "C", "D"];
+                        const isCorrect = opt === question.correctAnswer;
+                        const isSelected = opt === selectedAnswer;
+                        const tone = isCorrect
+                          ? "border-emerald-400/40 bg-emerald-500/15 text-emerald-100"
+                          : isSelected
+                            ? "border-rose-400/40 bg-rose-500/15 text-rose-100"
+                            : "border-white/8 bg-white/[0.03] text-zinc-400";
+                        const badge = isCorrect && isSelected
+                          ? "bg-emerald-500 text-white"
+                          : isCorrect
+                            ? "bg-emerald-500/80 text-white"
+                            : isSelected
+                              ? "bg-rose-500/80 text-white"
+                              : "bg-white/[0.06] text-zinc-500";
+                        return (
+                          <div
+                            key={oi}
+                            className={`flex items-start gap-3 rounded-xl border p-3 ${tone}`}
+                          >
+                            <span className={`mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-md text-[11px] font-bold ${badge}`}>
+                              {optLabels[oi]}
+                            </span>
+                            <span className="text-sm leading-6 whitespace-pre-wrap">
+                              {opt}
+                            </span>
+                            {isCorrect && (
+                              <CheckCircle2 className="ml-auto mt-0.5 h-4 w-4 shrink-0 text-emerald-400" />
+                            )}
+                            {isSelected && !isCorrect && (
+                              <XCircle className="ml-auto mt-0.5 h-4 w-4 shrink-0 text-rose-400" />
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                    {!selectedAnswer && (
+                      <p className="mt-2 text-xs text-zinc-500 italic">Not attempted</p>
+                    )}
                   </div>
 
                   <div className="border-t border-white/10 px-5 py-5 sm:px-6">
@@ -310,23 +356,3 @@ function SolutionSummaryChip({
   );
 }
 
-function AnswerPanel({
-  label,
-  value,
-  tone,
-}: {
-  label: string;
-  value: string;
-  tone: string;
-}) {
-  return (
-    <div className={`rounded-2xl border p-4 ${tone}`}>
-      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-zinc-400">
-        {label}
-      </p>
-      <p className="mt-3 text-sm leading-6 text-current whitespace-pre-wrap">
-        {value}
-      </p>
-    </div>
-  );
-}
