@@ -32,6 +32,13 @@ export function saveStore(store: LocalStudentStore): void {
   if (!isBrowser()) return;
   store.updatedAt = new Date().toISOString();
   localStorage.setItem(studentDataKey(store.uid), JSON.stringify(store));
+
+  // Cloud backup — fire-and-forget so it never blocks the UI.
+  if (!store.isGuest && store.uid) {
+    void import("@/lib/firebase/firestore").then(({ saveStoreToFirestore }) =>
+      saveStoreToFirestore(store)
+    );
+  }
 }
 
 export function quizCompletionId(

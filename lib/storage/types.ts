@@ -5,7 +5,7 @@ import type {
   VocabWordProgress,
 } from "@/types";
 
-/** Local-only student record (MVP). Firebase can sync this shape later. */
+/** Full student record — localStorage cache + Firestore cloud backup. */
 export interface LocalStudentStore {
   version: number;
   uid: string;
@@ -34,7 +34,11 @@ export interface LocalStudentStore {
   totalCorrect: number;
   accuracy: number;
   topicIndices: Record<string, number>;
+  /** Question IDs the student has bookmarked for later review. */
+  bookmarkedQuestions: string[];
   lastStudyDate?: string;
+  /** ISO timestamp of the most recent login — synced to Firestore. */
+  lastLogin?: string;
   createdAt: string;
   updatedAt: string;
 }

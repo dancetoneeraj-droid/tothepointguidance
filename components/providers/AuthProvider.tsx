@@ -17,6 +17,7 @@ import {
   subscribeToAuthState,
   type AuthProfile,
 } from "@/lib/firebase/auth";
+import { hydrateFromFirestore } from "@/lib/firebase/firestore";
 import { isPremiumEmail } from "@/lib/premium-access";
 import {
   activateGuestSession,
@@ -24,7 +25,9 @@ import {
   getActiveStudentId,
   getStudentProgress,
   initStudentProgress,
+  recordLastLogin,
 } from "@/lib/storage";
+import { loadStore, saveStore } from "@/lib/storage/client";
 import { GUEST_STUDENT_ID } from "@/lib/storage/constants";
 import type { StudentProgress } from "@/types";
 
@@ -105,6 +108,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
       setUser(profile);
       setIsGuest(false);
+
+      // --- Firestore hydration ---
+      // Compare the local copy against Firestore; whichever is newer wins.
+      // This restores all progress automatically after a browser clear.
+      try {
+        const localStore = loadStore(profile.uid);
+        await hydrateFromFirestore(profile.uid, localStore, saveStore);
+      } catch {
+        // Never let a Firestore error block the login flow
+      }
+
+      // Load (or create) the student profile from localStorage (now up to date).
       const existing = await getStudentProgress(profile.uid);
       const p = existing
         ? await initStudentProgress(profile.uid, {
@@ -115,9 +130,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             isGuest: false,
           })
         : await bindUserProfile(profile);
+
       activateStudentSession(profile.uid);
       setStudentId(profile.uid);
       setProgress(p);
+
+      // Record login timestamp (triggers a Firestore sync automatically).
+      recordLastLogin(profile.uid);
     },
     [applyGuestSession]
   );
@@ -169,6 +188,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setStudentId(profile.uid);
     setProgress(p);
     setIsGuest(false);
+    recordLastLogin(profile.uid);
   }, []);
 
   const signIn = useCallback(

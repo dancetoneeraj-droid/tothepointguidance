@@ -54,21 +54,17 @@ function createDefaultStore(
     totalCorrect: 0,
     accuracy: 0,
     topicIndices: {},
+    bookmarkedQuestions: [],
     createdAt: now,
     updatedAt: now,
   };
 }
 
 function ensureStoreCollections(store: LocalStudentStore): LocalStudentStore {
-  if (!store.quizReviewRecords) {
-    store.quizReviewRecords = {};
-  }
-  if (!store.vocabProgress) {
-    store.vocabProgress = {};
-  }
-  if (!store.vocabDaysCompleted) {
-    store.vocabDaysCompleted = [];
-  }
+  if (!store.quizReviewRecords) store.quizReviewRecords = {};
+  if (!store.vocabProgress) store.vocabProgress = {};
+  if (!store.vocabDaysCompleted) store.vocabDaysCompleted = [];
+  if (!store.bookmarkedQuestions) store.bookmarkedQuestions = [];
   return store;
 }
 
@@ -494,4 +490,48 @@ export function loadActiveStudentProgress(): StudentProgress | null {
   const store = loadStore(id);
   if (!store) return null;
   return storeToStudentProgress(ensureStoreCollections(store));
+}
+
+// ---------------------------------------------------------------------------
+// Bookmarks
+// ---------------------------------------------------------------------------
+
+/** Toggles a question bookmark. Returns the new bookmarked state. */
+export function toggleBookmark(studentId: string, questionId: string): boolean {
+  const store = getStore(studentId);
+  ensureStoreCollections(store);
+  const idx = store.bookmarkedQuestions.indexOf(questionId);
+  if (idx === -1) {
+    store.bookmarkedQuestions.push(questionId);
+    saveStore(store);
+    return true;
+  } else {
+    store.bookmarkedQuestions.splice(idx, 1);
+    saveStore(store);
+    return false;
+  }
+}
+
+export function isBookmarked(studentId: string, questionId: string): boolean {
+  const store = loadStore(studentId);
+  if (!store) return false;
+  return (store.bookmarkedQuestions ?? []).includes(questionId);
+}
+
+export function getBookmarkedQuestions(studentId: string): string[] {
+  const store = loadStore(studentId);
+  if (!store) return [];
+  return store.bookmarkedQuestions ?? [];
+}
+
+// ---------------------------------------------------------------------------
+// Login tracking
+// ---------------------------------------------------------------------------
+
+/** Records the current timestamp as lastLogin and syncs to Firestore. */
+export function recordLastLogin(studentId: string): void {
+  if (!studentId || studentId === GUEST_STUDENT_ID) return;
+  const store = getStore(studentId);
+  store.lastLogin = new Date().toISOString();
+  saveStore(store);
 }
