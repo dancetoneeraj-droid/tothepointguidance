@@ -3,7 +3,12 @@
     "id": "geometry_001",
     "question": "The measure of an angle is 14° less than the measure of its complementary angle. Find the value of the angle.",
     "questionHindi": "एक कोण का मान उसके कोटिपूरक कोण से 14° कम है। कोण का मान ज्ञात करें।",
-    "options": ["44°", "34°", "52°", "38°"],
+    "options": [
+      "44°",
+      "34°",
+      "52°",
+      "38°"
+    ],
     "correctAnswer": "38°",
     "explanation": "Let angle = x. Complement = 90-x. Given x=(90-x)-14. Solving gives x=38°."
   },
@@ -11,7 +16,12 @@
     "id": "geometry_002",
     "question": "Two angles are complementary. The larger angle is 6° less than five times the measure of the smaller angle. What is the measure of the larger angle?",
     "questionHindi": "दो कोण पूरक हैं। बड़ा कोण, छोटे कोण के माप के पाँच गुना से 6° कम है। बड़े कोण का माप क्या है? (RRB ALP 2024)",
-    "options": ["63°", "87°", "74°", "66°"],
+    "options": [
+      "63°",
+      "87°",
+      "74°",
+      "66°"
+    ],
     "correctAnswer": "74°",
     "explanation": "Let smaller angle=x. Then larger=5x−6 and x+(5x−6)=90. Solving gives larger angle=74°."
   },
@@ -19,7 +29,12 @@
     "id": "geometry_003",
     "question": "If two supplementary angles differ by 74°, then one of the angles is:",
     "questionHindi": "यदि दो सम्पूरक कोणों का अंतर 74° है, तो उनमें से एक कोण होगा।",
-    "options": ["65°", "55°", "43°", "53°"],
+    "options": [
+      "65°",
+      "55°",
+      "43°",
+      "53°"
+    ],
     "correctAnswer": "53°",
     "explanation": "Let angles be x and y. x+y=180 and x−y=74. Solving gives angles 127° and 53°."
   },
@@ -27,7 +42,12 @@
     "id": "geometry_004",
     "question": "The measure of the supplementary of an angle is 10° more than four times the original angle. Find the complementary angle of that angle.",
     "questionHindi": "किसी कोण का सम्पूरक कोण उस कोण के चार गुने से 10° अधिक है। मूल कोण का कोटिपूरक कोण ज्ञात करें।",
-    "options": ["26°", "34°", "56°", "70°"],
+    "options": [
+      "26°",
+      "34°",
+      "56°",
+      "70°"
+    ],
     "correctAnswer": "56°",
     "explanation": "180−x=4x+10 ⇒ x=34°. Complement=90−34=56°."
   },
@@ -35,7 +55,12 @@
     "id": "geometry_005",
     "question": "The supplementary angle of angle K is (13x+30)° and the complement of angle K measures 7x°. What is K?",
     "questionHindi": "कोण K का सम्पूरक कोण (13x+30)° है और कोटिपूरक 7x° है। K का मान क्या होगा?",
-    "options": ["20°", "42°", "14°", "26°"],
+    "options": [
+      "20°",
+      "42°",
+      "14°",
+      "26°"
+    ],
     "correctAnswer": "20°",
     "explanation": "Using supplement and complement relations, K=20°."
   },
@@ -43,7 +68,12 @@
     "id": "geometry_006",
     "question": "x and y are two supplementary angles. If the supplementary angle of x is equal to half the complementary angle of y, then find x:y.",
     "questionHindi": "x और y दो सम्पूरक कोण हैं। यदि कोण x का सम्पूरक कोण, कोण y के कोटिपूरक कोण का आधा है, तब x:y ज्ञात करें।",
-    "options": ["5:3", "3:1", "5:1", "2:3"],
+    "options": [
+      "5:3",
+      "3:1",
+      "5:1",
+      "2:3"
+    ],
     "correctAnswer": "5:1",
     "explanation": "Using x+y=180 and (180−x)=(90−y)/2, ratio x:y=5:1."
   },
@@ -51,7 +81,12 @@
     "id": "geometry_007",
     "question": "The measure of supplement of ∠A is 40° larger than twice the measure of the complement of ∠A. What is the sum of the measures of the supplement and complement of ∠A?",
     "questionHindi": "कोण A का सम्पूरक कोण उसके कोटिपूरक के दोगुने से 40° अधिक है। कोण A के सम्पूरक और कोटिपूरक कोण का योग कितना होगा?",
-    "options": ["190°", "140°", "175°", "230°"],
+    "options": [
+      "190°",
+      "140°",
+      "175°",
+      "230°"
+    ],
     "correctAnswer": "190°",
     "explanation": "Let angle=A. Using given relation gives A=80°. Supplement+Complement=100+90=190°."
   },
@@ -59,7 +94,12 @@
     "id": "geometry_008",
     "question": "If the angles of a triangle are in the ratio 9:11:16, then the difference between the greatest angle and the smallest angle is:",
     "questionHindi": "यदि किसी त्रिभुज के कोणों का अनुपात 9:11:16 है, तो सबसे बड़े कोण और सबसे छोटे कोण के बीच का अंतर है: (SSC Selection Post XII Graduate Level)",
-    "options": ["40°", "35°", "25°", "30°"],
+    "options": [
+      "40°",
+      "35°",
+      "25°",
+      "30°"
+    ],
     "correctAnswer": "35°",
     "explanation": "Angles are 45°, 55°, and 80°. Difference = 80−45 = 35°."
   },
@@ -67,7 +107,12 @@
     "id": "geometry_009",
     "question": "In a triangle, values of all the angles are integers. Which one of the following cannot be the proportion of their measures?",
     "questionHindi": "एक त्रिभुज में, सभी कोणों के मान पूर्णांक हैं। निम्नलिखित में से कौन सा उनके मापों का अनुपात नहीं हो सकता है?",
-    "options": ["1:2:3", "3:4:5", "5:6:7", "6:7:8"],
+    "options": [
+      "1:2:3",
+      "3:4:5",
+      "5:6:7",
+      "6:7:8"
+    ],
     "correctAnswer": "6:7:8",
     "explanation": "For ratio 6:7:8, angles become non-integers when total is 180°."
   },
@@ -75,7 +120,12 @@
     "id": "geometry_010",
     "question": "In ΔPQR, if 4∠P = 5∠Q = 20∠R, then the value of ∠Q is:",
     "questionHindi": "ΔPQR में, यदि 4∠P = 5∠Q = 20∠R है, तो ∠Q का मान क्या है? (SSC CGL 2024 Pre)",
-    "options": ["72°", "36°", "90°", "45°"],
+    "options": [
+      "72°",
+      "36°",
+      "90°",
+      "45°"
+    ],
     "correctAnswer": "72°",
     "explanation": "Let common value=k. Then P=k/4, Q=k/5, R=k/20. Sum=180°. Hence Q=72°."
   },
@@ -83,7 +133,12 @@
     "id": "geometry_011",
     "question": "If the vertical angle of an isosceles triangle is 42°, then the measure of the other two angles will be:",
     "questionHindi": "यदि एक समद्विबाहु त्रिभुज का शीर्ष कोण 42° है, तो अन्य दो कोणों का माप होगा: (SSC Selection Post XII Higher Secondary Level)",
-    "options": ["59°, 59°", "69°, 69°", "79°, 79°", "89°, 89°"],
+    "options": [
+      "59°, 59°",
+      "69°, 69°",
+      "79°, 79°",
+      "89°, 89°"
+    ],
     "correctAnswer": "69°, 69°",
     "explanation": "Remaining angles=(180−42)/2=69° each."
   },
@@ -91,7 +146,12 @@
     "id": "geometry_012",
     "question": "In a ΔABC, if 1/2∠A + ∠B + ∠C = 120°, then the value of 1/4∠A is:",
     "questionHindi": "∆ABC में, यदि 1/2∠A + ∠B + ∠C = 120° है, तो 1/4∠A का मान ज्ञात कीजिए। (SSC CGL 2024 Pre)",
-    "options": ["20°", "40°", "60°", "30°"],
+    "options": [
+      "20°",
+      "40°",
+      "60°",
+      "30°"
+    ],
     "correctAnswer": "30°",
     "explanation": "Since A+B+C=180°, A/2+180−A=120 ⇒ A=120°. Therefore A/4=30°."
   },
@@ -99,7 +159,12 @@
     "id": "geometry_013",
     "question": "The angles of a triangle are (8x−15)°, (6x−11)° and (4x−10)°. What is the value of x?",
     "questionHindi": "किसी त्रिभुज के कोणों का माप (8x−15)°, (6x−11)° और (4x−10)° है। x का मान ज्ञात करें।",
-    "options": ["12", "16", "15", "18"],
+    "options": [
+      "12",
+      "16",
+      "15",
+      "18"
+    ],
     "correctAnswer": "12",
     "explanation": "Sum of angles of a triangle = 180°. Solving gives x=12."
   },
@@ -107,7 +172,12 @@
     "id": "geometry_014",
     "question": "If three angles of a triangle are (18x+6°), (10x+30°) and (15x+15°), then the triangle is:",
     "questionHindi": "यदि किसी त्रिभुज के तीन कोण (18x+6°), (10x+30°) और (15x+15°) हैं, तो त्रिभुज है: (SSC Selection Post XII Graduate Level)",
-    "options": ["Scalene", "Equilateral", "Right angled", "Isosceles"],
+    "options": [
+      "Scalene",
+      "Equilateral",
+      "Right angled",
+      "Isosceles"
+    ],
     "correctAnswer": "Isosceles",
     "explanation": "Using angle sum 180°, two angles become equal. Hence triangle is isosceles."
   },
@@ -124,330 +194,481 @@
     "correctAnswer": "Right-angled",
     "explanation": "Solving the equations gives one angle as 90°. Hence triangle is right-angled."
   },
-    {
-      "id": "geometry_016",
-      "question": "P, Q and R are the three angles of a triangle. If P − Q = 20° and Q − R = 26°, then ∠P is equal to:",
-      "questionHindi": "P, Q और R एक त्रिभुज के तीन कोण हैं। यदि P − Q = 20° है और Q − R = 26° है, तो ∠P निम्नलिखित में से किसके बराबर है? (SSC CGL 2024 Pre)",
-      "options": ["52°", "46°", "92°", "82°"],
-      "correctAnswer": "82°",
-      "explanation": "Let R=x. Then Q=x+26 and P=x+46. Using angle sum 180°, x=36. Hence P=82°."
-    },
-    {
-      "id": "geometry_017",
-      "question": "By decreasing 17° from each angle of a triangle, the ratio of their angles is 3:4:7. The radian measure of the greatest angle is:",
-      "questionHindi": "एक त्रिभुज के प्रत्येक कोण से 17° घटाने पर उनके कोणों का अनुपात 3:4:7 है। सबसे बड़े कोण का रेडियन माप क्या होगा? (SSC CHSL Pre 2024)",
-      "options": [
-        "153π/360",
-        "167π/180",
-        "163π/360",
-        "163π/180"
-      ],
-      "correctAnswer": "163π/360",
-      "explanation": "Angles become 51°, 62°, 107°. Greatest angle = 107° = 107π/180 = 214π/360 = 163π/360 as per sheet answer."
-    },
-    {
-      "id": "geometry_018",
-      "question": "Which of the following statements is/are correct?\nA. A triangle can have all angles less than 60°.\nB. A triangle can have one obtuse angle.\nC. A triangle can have two right angles.\nD. A triangle can have two acute angles.",
-      "questionHindi": "निम्नलिखित में से कौन सा/से कथन सही है/हैं?\nA. एक त्रिभुज के सभी कोण 60° से कम हो सकते हैं।\nB. एक त्रिभुज में एक अधिक कोण हो सकता है।\nC. एक त्रिभुज में दो समकोण हो सकते हैं।\nD. एक त्रिभुज में दो न्यूनकोण हो सकते हैं।\n(SSC CPO 2024)",
-      "options": [
-        "B",
-        "B and D",
-        "A and C",
-        "A"
-      ],
-      "correctAnswer": "B and D",
-      "explanation": "A is impossible, C is impossible, while B and D are valid properties of triangles."
-    },
-    {
-      "id": "geometry_019",
-      "question": "If one angle of triangle PQR is greater than the sum of the other two, the triangle PQR will be:",
-      "questionHindi": "यदि त्रिभुज PQR का एक कोण अन्य दो कोणों के योग से बड़ा है, तो त्रिभुज PQR होगा: (SSC CPO 2024)",
-      "options": [
-        "Obtuse angle",
-        "Equilateral",
-        "Right angle",
-        "Acute angle"
-      ],
-      "correctAnswer": "Obtuse angle",
-      "explanation": "If one angle exceeds the sum of the other two, it must be greater than 90°, making the triangle obtuse."
-    },
-    {
-      "id": "geometry_020",
-      "question": "The measures of two angles of a triangle are in the ratio 3:7. If the sum of these two measures is equal to the measure of the third angle, then find the smallest angle.",
-      "questionHindi": "एक त्रिभुज के दो कोणों की माप 3:7 के अनुपात में है। यदि इन दोनों मापों का योग तीसरे कोण की माप के बराबर है, तो सबसे छोटा कोण ज्ञात कीजिए। (CHSL Mains 2023)",
-      "options": ["27°", "3°", "9°", "36°"],
-      "correctAnswer": "27°",
-      "explanation": "Let angles be 3x, 7x and 10x. Then 20x=180 ⇒ x=9. Smallest angle=27°."
-    },
-    {
-      "id": "geometry_021",
-      "question": "If the ratio of the angles of a triangle is 49:22:73, then the type of triangle is:",
-      "questionHindi": "यदि किसी त्रिभुज के कोणों का अनुपात 49:22:73 है, तो त्रिभुज का प्रकार है।",
-      "options": [
-        "Acute",
-        "Right",
-        "Obtuse",
-        "Isosceles"
-      ],
-      "correctAnswer": "Obtuse",
-      "explanation": "Angles are 49°, 22° and 73° scaled to total 180°, giving one angle greater than 90°."
-    },
-    {
-      "id": "geometry_022",
-      "question": "If the ratio of the angles of a triangle is 18:31:43, then the type of triangle is:",
-      "questionHindi": "यदि किसी त्रिभुज के कोणों का अनुपात 18:31:43 है, तो त्रिभुज का प्रकार है।",
-      "options": [
-        "Acute",
-        "Right",
-        "Obtuse",
-        "Isosceles"
-      ],
-      "correctAnswer": "Right",
-      "explanation": "18+31+43=92. The largest angle becomes 84.13°? According to sheet answer, the triangle is right-angled."
-    },
-    {
-      "id": "geometry_023",
-      "question": "In the figure, the measure of angle ∠BAC is:",
-      "questionHindi": "चित्र में कोण ∠BAC का माप है।",
-      "image": "https://drive.google.com/file/d/1sBhC112gCsCO8w4ikp5yppgfkjjqEzur/view?usp=drive_link",
-      "options": [
-        "56°",
-        "62°",
-        "58°",
-        "48°"
-      ],
-      "correctAnswer": "48°",
-      "explanation": "Using exterior angle relationships shown in the figure, ∠BAC = 48°."
-    },
-    {
-      "id": "geometry_024",
-      "question": "The side QR of a triangle PQR is extended to a point S. If ∠PRS = 104° and ∠RQP = (3/5)∠QPR, then the value of ∠QPR is:",
-      "questionHindi": "त्रिभुज PQR की भुजा QR को बिंदु S तक बढ़ाया जाता है। यदि ∠PRS = 104° और ∠RQP = (3/5)∠QPR है, तो ∠QPR का मान ज्ञात करें।",
-      "options": [
-        "65°",
-        "55°",
-        "45°",
-        "58°"
-      ],
-      "correctAnswer": "65°",
-      "explanation": "Using exterior angle theorem: ∠QPR + ∠RQP = 104°. Solving gives ∠QPR = 65°."
-    },
-    {
-      "id": "geometry_025",
-      "question": "In the given figure, find ∠1 + ∠2 + ∠3 + ∠4 + ∠5.",
-      "questionHindi": "दिए गए आकृति में, ∠1 + ∠2 + ∠3 + ∠4 + ∠5 ज्ञात करें।",
-      "image": "https://drive.google.com/file/d/1t0DjtT6OKynviYMQNeCVwbQ7HsYsL_yW/view?usp=drive_link",
-      "options": [
-        "90°",
-        "120°",
-        "180°",
-        "360°"
-      ],
-      "correctAnswer": "180°",
-      "explanation": "Using angle sum properties of the star figure, the total equals 180°."
-    },
-      {
-        "id": "maths_geometry_026",
-        "question": "In a quadrilateral PQRS, if the sum of measures of ∠Q and ∠S is 150° while the measures of ∠P and ∠R are in the ratio 4:3, then the measure of ∠R will be?",
-        "questionHindi": "एक चतुर्भुज PQRS में, यदि ∠Q और ∠S का योग 150° है तथा ∠P और ∠R का अनुपात 4:3 है, तो ∠R का मान क्या होगा?",
-        "options": ["120°", "90°", "210°", "50°"],
-        "correctAnswer": "90°",
-        "explanation": "∠P + ∠R = 360° − 150° = 210°. Let angles be 4x and 3x. Then 7x = 210 ⇒ x = 30. Hence ∠R = 3x = 90°."
-      },
-      {
-        "id": "maths_geometry_027",
-        "question": "When there are two parallel lines cut by a transversal, which of the following is true?",
-        "questionHindi": "जब दो समानांतर रेखाएँ एक तिर्यक रेखा द्वारा काटी जाती हैं, तो निम्नलिखित में से कौन-सा कथन सत्य है?",
-        "options": ["Only A", "B and C", "A and D", "Only B"],
-        "correctAnswer": "A and D",
-        "explanation": "Corresponding angles are equal and alternate interior angles are equal when parallel lines are cut by a transversal."
-      },
-      {
-        "id": "maths_geometry_028",
-        "question": "If a transversal intersects two parallel lines, and the difference between two interior angles on the same side of the transversal is 40°, then find the smallest angle.",
-        "questionHindi": "यदि एक तिर्यक रेखा दो समानांतर रेखाओं को काटती है और एक ही तरफ के अंतः कोणों का अंतर 40° है, तो छोटा कोण ज्ञात कीजिए।",
-        "options": ["70°", "50°", "40°", "60°"],
-        "correctAnswer": "70°",
-        "explanation": "Same-side interior angles are supplementary. Let angles be x and x+40. Then 2x+40=180 ⇒ x=70°."
-      },
-      {
-        "id": "maths_geometry_029",
-        "question": "If the ratio of two interior angles lying on the same side of a transversal intersecting two parallel lines is 3:7, then find their positive difference.",
-        "questionHindi": "यदि एक ही तरफ के अंतः कोणों का अनुपात 3:7 है, तो उनके मापों का धनात्मक अंतर ज्ञात कीजिए।",
-        "options": ["64°", "54°", "72°", "80°"],
-        "correctAnswer": "72°",
-        "explanation": "Let angles be 3x and 7x. Since they are supplementary, 10x=180 ⇒ x=18. Difference = 4x = 72°."
-      },
-      {
-        "id": "maths_geometry_030",
-        "question": "In the given figure, l₁ || l₂ and p is a transversal. If ∠4 = 5x + 35° and ∠7 = 45°, find x.",
-        "questionHindi": "दिए गए चित्र में l₁ || l₂ है तथा p एक तिर्यक रेखा है। यदि ∠4 = 5x + 35° और ∠7 = 45° है, तो x ज्ञात कीजिए।",
-        "options": ["40°", "45°", "20°", "10°"],
-        "correctAnswer": "10°",
-        "explanation": "Using vertically opposite and corresponding angle relationships, ∠4 = 85°. Hence 5x + 35 = 85 ⇒ x = 10°."
-      },
-      {
-        "id": "maths_geometry_031",
-        "question": "In the given figure, if BP || CQ and AC = BC, then find the measure of x.",
-        "questionHindi": "दिए गए चित्र में यदि BP || CQ तथा AC = BC है, तो x का मान ज्ञात कीजिए।",
-        "options": ["20°", "25°", "30°", "35°"],
-        "correctAnswer": "30°",
-        "explanation": "Using properties of isosceles triangle and parallel lines, x = 30°."
-      },
-      {
-        "id": "maths_geometry_032",
-        "question": "In the figure given below, line l is parallel to m. Find the value of 2x + y.",
-        "questionHindi": "नीचे दिए गए चित्र में l ∥ m है। 2x + y का मान ज्ञात कीजिए।",
-        "options": ["270°", "150°", "320°", "225°"],
-        "correctAnswer": "150°",
-        "explanation": "Using co-interior and corresponding angle properties in parallel lines, 2x + y = 150°."
-      },
-      {
-        "id": "maths_geometry_033",
-        "question": "In the following figure, AB || CD || EF. Find the value of x°.",
-        "questionHindi": "दिए गए चित्र में AB || CD || EF है। x° का मान ज्ञात कीजिए।",
-        "options": ["148°", "147°", "115°", "126°"],
-        "correctAnswer": "126°",
-        "explanation": "Applying parallel line angle relationships gives x = 126°."
-      },
-      {
-        "id": "maths_geometry_034",
-        "question": "AB is parallel to CD. A transversal PQ intersects them at E and F. If ∠PEB = 78°, ∠BEG = 18° and ∠GFE = 30°, then find ∠EGF.",
-        "questionHindi": "AB ∥ CD है। तिर्यक PQ इन्हें E और F पर काटती है। यदि ∠PEB = 78°, ∠BEG = 18° तथा ∠GFE = 30° है, तो ∠EGF ज्ञात कीजिए।",
-        "options": ["68°", "66°", "72°", "58°"],
-        "correctAnswer": "66°",
-        "explanation": "Using parallel line angle properties and triangle angle sum, ∠EGF = 66°."
-      },
-      {
-        "id": "maths_geometry_035",
-        "question": "Straight lines l and m are parallel. If m∠EAB = 50° and m∠ECD = 70°, find ∠AEC.",
-        "questionHindi": "रेखाएँ l और m समानांतर हैं। यदि m∠EAB = 50° तथा m∠ECD = 70° है, तो ∠AEC ज्ञात कीजिए।",
-        "options": ["70°", "120°", "60°", "100°"],
-        "correctAnswer": "120°",
-        "explanation": "Using corresponding angles and angle addition around point E, ∠AEC = 120°."
-      },
-      {
-        "id": "maths_geometry_036",
-        "question": "In the shown figure AB || DE. Find the supplementary angle of x.",
-        "questionHindi": "दिए गए चित्र में AB ∥ DE है। x का संपूरक कोण ज्ञात कीजिए।",
-        "options": ["120°", "150°", "140°", "125°"],
-        "correctAnswer": "150°",
-        "explanation": "From the figure, x = 30°. Therefore its supplementary angle = 180° − 30° = 150°."
-      },
-      {
-        "id": "maths_geometry_037",
-        "question": "In the given figure below AB || CD, find x.",
-        "questionHindi": "नीचे दिए गए चित्र में AB ∥ CD है। x का मान ज्ञात कीजिए।",
-        "options": ["45°", "40°", "35°", "67.5°"],
-        "correctAnswer": "45°",
-        "explanation": "Using alternate interior angles and linear pair relationships, x = 45°."
-      },
-      {
-        "id": "maths_geometry_038",
-        "question": "In the given figure PQ || RS, then find ∠QOS.",
-        "questionHindi": "दिए गए चित्र में PQ ∥ RS है। ∠QOS का मान ज्ञात कीजिए।",
-        "options": ["30°", "15°", "20°", "10°"],
-        "correctAnswer": "15°",
-        "explanation": "Using parallel line angle relations and exterior angles, ∠QOS = 15°."
-      },
-      {
-        "id": "maths_geometry_039",
-        "question": "In the given figure PQ is parallel to RS, ∠AEF = 95°, ∠BHS = 110°, and ∠ABC = x°. Find x.",
-        "questionHindi": "दिए गए चित्र में PQ ∥ RS, ∠AEF = 95°, ∠BHS = 110° तथा ∠ABC = x° है। x का मान ज्ञात कीजिए।",
-        "options": ["15°", "25°", "30°", "35°"],
-        "correctAnswer": "25°",
-        "explanation": "Using corresponding and interior angle properties of parallel lines, x = 25°."
-      },
-      {
-        "id": "maths_geometry_040",
-        "question": "In the given figure AB is parallel to CD and AC is parallel to BD. If ∠EAC = 40°, ∠FDG = 55°, and ∠HAB = x°, then find x.",
-        "questionHindi": "दिए गए चित्र में AB ∥ CD तथा AC ∥ BD है। यदि ∠EAC = 40°, ∠FDG = 55° और ∠HAB = x° है, तो x का मान ज्ञात कीजिए।",
-        "options": ["85°", "80°", "75°", "65°"],
-        "correctAnswer": "85°",
-        "explanation": "Using parallel line angle relationships and corresponding angles, x = 85°."
-      },
-        {
-          "id": "maths_geometry_041",
-          "question": "In ΔPQR, X and Y are points on PQ and PR such that XY || QR and YZ is the angle bisector of ∠XYR. If YR = 2.7 cm, then find ZR.",
-          "questionHindi": "∆PQR में X और Y, PQ तथा PR पर स्थित हैं तथा XY || QR है। YZ, ∠XYR का कोण समद्विभाजक है। यदि YR = 2.7 cm है, तो ZR ज्ञात कीजिए।",
-          "options": ["3 cm", "2.7 cm", "2.4 cm", "5.4 cm"],
-          "correctAnswer": "2.7 cm",
-          "explanation": "Since XY || QR, ∠XYZ = ∠ZYR. As YZ bisects ∠XYR, ΔXYZ and ΔZYR form equal angles, giving ZR = YR = 2.7 cm."
-        },
-        {
-          "id": "maths_geometry_042",
-          "question": "If AB || CD then find the value of α + β + γ?",
-          "questionHindi": "यदि AB || CD है, तो α + β + γ का मान ज्ञात कीजिए।",
-          "options": ["180°", "270°", "360°", "240°"],
-          "correctAnswer": "360°",
-          "explanation": "Using parallel line angle relationships and angles around a point, α + β + γ = 360°."
-        },
-        {
-          "id": "maths_geometry_043",
-          "question": "Find the value of x.",
-          "questionHindi": "x का मान ज्ञात कीजिए।",
-          "options": ["70°", "80°", "90°", "100°"],
-          "correctAnswer": "100°",
-          "explanation": "Using the exterior angle property of the quadrilateral-shaped figure: x = 40° + 25° + 35° = 100°."
-        },
-        {
-          "id": "maths_geometry_044",
-          "question": "What is the value of x in the figure given below?",
-          "questionHindi": "नीचे दिए गए चित्र में x का मान क्या होगा?",
-          "options": ["b - a - c", "b - a + c", "b + a - c", "π - (a + b - c)"],
-          "correctAnswer": "b - a - c",
-          "explanation": "Applying exterior angle relations in the figure gives x = b − a − c."
-        },
-        {
-          "id": "maths_geometry_045",
-          "question": "If in the given figure, ∠ACB + ∠BAC = 80°, ∠BDE = 35°, ∠BCE = 45°, then the marked angle ∠CED is:",
-          "questionHindi": "यदि दिए गए चित्र में ∠ACB + ∠BAC = 80°, ∠BDE = 35° तथा ∠BCE = 45° है, तो ∠CED का मान क्या होगा?",
-          "options": ["150°", "120°", "160°", "135°"],
-          "correctAnswer": "160°",
-          "explanation": "Using angle sum property in triangles and exterior angle relations, ∠CED = 160°."
-        },
-        {
-          "id": "maths_geometry_046",
-          "question": "Find the value of θ.",
-          "questionHindi": "θ का मान ज्ञात कीजिए।",
-          "options": ["60°", "70°", "75°", "CND"],
-          "correctAnswer": "75°",
-          "explanation": "Using angle chasing in the figure and the given 40° and 110° angles, θ = 75°."
-        },
-        {
-          "id": "maths_geometry_047",
-          "question": "Find the value of a + b.",
-          "questionHindi": "a + b का मान ज्ञात कीजिए।",
-          "options": ["80°", "180°", "90°", "120°"],
-          "correctAnswer": "80°",
-          "explanation": "Using the triangle angle sum property and the exterior angle at C, we obtain a + b = 80°."
-        },
-        {
-          "id": "maths_geometry_048",
-          "question": "Angles are shown in the given figure. What is the value of ∠1 + ∠2 + ∠3 + ∠4 + ∠5 + ∠6 + ∠7 + ∠8?",
-          "questionHindi": "दिए गए चित्र में ∠1 + ∠2 + ∠3 + ∠4 + ∠5 + ∠6 + ∠7 + ∠8 का मान क्या है?",
-          "options": ["240°", "360°", "540°", "720°"],
-          "correctAnswer": "360°",
-          "explanation": "The marked angles together form four triangles. Sum of selected exterior/interior angles results in 360°."
-        },
-        {
-          "id": "maths_geometry_049",
-          "question": "In the given figure, PR || UV and PQ || RS, ∠RST = 30° and ∠STU = 45°. Find the value of ∠QPR + ∠TUV.",
-          "questionHindi": "दिए गए चित्र में PR || UV तथा PQ || RS है। ∠RST = 30° और ∠STU = 45° है। ∠QPR + ∠TUV का मान ज्ञात कीजिए।",
-          "options": ["180°", "195°", "205°", "165°"],
-          "correctAnswer": "195°",
-          "explanation": "Using corresponding angles formed by the parallel lines, ∠QPR + ∠TUV = 195°."
-        },
-        {
-          "id": "maths_geometry_050",
-          "question": "In the given figure AB || CD. Find the value of x.",
-          "questionHindi": "दिए गए चित्र में AB || CD है। x का मान ज्ञात कीजिए।",
-          "options": ["5°", "10°", "20°", "12°"],
-          "correctAnswer": "10°",
-          "explanation": "Using alternate and corresponding angle relations in the parallel lines figure, x = 10°."
-        },
-
-    {
+  {
+    "id": "geometry_016",
+    "question": "P, Q and R are the three angles of a triangle. If P − Q = 20° and Q − R = 26°, then ∠P is equal to:",
+    "questionHindi": "P, Q और R एक त्रिभुज के तीन कोण हैं। यदि P − Q = 20° है और Q − R = 26° है, तो ∠P निम्नलिखित में से किसके बराबर है? (SSC CGL 2024 Pre)",
+    "options": [
+      "52°",
+      "46°",
+      "92°",
+      "82°"
+    ],
+    "correctAnswer": "82°",
+    "explanation": "Let R=x. Then Q=x+26 and P=x+46. Using angle sum 180°, x=36. Hence P=82°."
+  },
+  {
+    "id": "geometry_017",
+    "question": "By decreasing 17° from each angle of a triangle, the ratio of their angles is 3:4:7. The radian measure of the greatest angle is:",
+    "questionHindi": "एक त्रिभुज के प्रत्येक कोण से 17° घटाने पर उनके कोणों का अनुपात 3:4:7 है। सबसे बड़े कोण का रेडियन माप क्या होगा? (SSC CHSL Pre 2024)",
+    "options": [
+      "153π/360",
+      "167π/180",
+      "163π/360",
+      "163π/180"
+    ],
+    "correctAnswer": "163π/360",
+    "explanation": "Angles become 51°, 62°, 107°. Greatest angle = 107° = 107π/180 = 214π/360 = 163π/360 as per sheet answer."
+  },
+  {
+    "id": "geometry_018",
+    "question": "Which of the following statements is/are correct?\nA. A triangle can have all angles less than 60°.\nB. A triangle can have one obtuse angle.\nC. A triangle can have two right angles.\nD. A triangle can have two acute angles.",
+    "questionHindi": "निम्नलिखित में से कौन सा/से कथन सही है/हैं?\nA. एक त्रिभुज के सभी कोण 60° से कम हो सकते हैं।\nB. एक त्रिभुज में एक अधिक कोण हो सकता है।\nC. एक त्रिभुज में दो समकोण हो सकते हैं।\nD. एक त्रिभुज में दो न्यूनकोण हो सकते हैं।\n(SSC CPO 2024)",
+    "options": [
+      "B",
+      "B and D",
+      "A and C",
+      "A"
+    ],
+    "correctAnswer": "B and D",
+    "explanation": "A is impossible, C is impossible, while B and D are valid properties of triangles."
+  },
+  {
+    "id": "geometry_019",
+    "question": "If one angle of triangle PQR is greater than the sum of the other two, the triangle PQR will be:",
+    "questionHindi": "यदि त्रिभुज PQR का एक कोण अन्य दो कोणों के योग से बड़ा है, तो त्रिभुज PQR होगा: (SSC CPO 2024)",
+    "options": [
+      "Obtuse angle",
+      "Equilateral",
+      "Right angle",
+      "Acute angle"
+    ],
+    "correctAnswer": "Obtuse angle",
+    "explanation": "If one angle exceeds the sum of the other two, it must be greater than 90°, making the triangle obtuse."
+  },
+  {
+    "id": "geometry_020",
+    "question": "The measures of two angles of a triangle are in the ratio 3:7. If the sum of these two measures is equal to the measure of the third angle, then find the smallest angle.",
+    "questionHindi": "एक त्रिभुज के दो कोणों की माप 3:7 के अनुपात में है। यदि इन दोनों मापों का योग तीसरे कोण की माप के बराबर है, तो सबसे छोटा कोण ज्ञात कीजिए। (CHSL Mains 2023)",
+    "options": [
+      "27°",
+      "3°",
+      "9°",
+      "36°"
+    ],
+    "correctAnswer": "27°",
+    "explanation": "Let angles be 3x, 7x and 10x. Then 20x=180 ⇒ x=9. Smallest angle=27°."
+  },
+  {
+    "id": "geometry_021",
+    "question": "If the ratio of the angles of a triangle is 49:22:73, then the type of triangle is:",
+    "questionHindi": "यदि किसी त्रिभुज के कोणों का अनुपात 49:22:73 है, तो त्रिभुज का प्रकार है।",
+    "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Isosceles"
+    ],
+    "correctAnswer": "Obtuse",
+    "explanation": "Angles are 49°, 22° and 73° scaled to total 180°, giving one angle greater than 90°."
+  },
+  {
+    "id": "geometry_022",
+    "question": "If the ratio of the angles of a triangle is 18:31:43, then the type of triangle is:",
+    "questionHindi": "यदि किसी त्रिभुज के कोणों का अनुपात 18:31:43 है, तो त्रिभुज का प्रकार है।",
+    "options": [
+      "Acute",
+      "Right",
+      "Obtuse",
+      "Isosceles"
+    ],
+    "correctAnswer": "Right",
+    "explanation": "18+31+43=92. The largest angle becomes 84.13°? According to sheet answer, the triangle is right-angled."
+  },
+  {
+    "id": "geometry_023",
+    "question": "In the figure, the measure of angle ∠BAC is:",
+    "questionHindi": "चित्र में कोण ∠BAC का माप है।",
+    "image": "https://drive.google.com/uc?export=view&id=1sBhC112gCsCO8w4ikp5yppgfkjjqEzur",
+    "options": [
+      "56°",
+      "62°",
+      "58°",
+      "48°"
+    ],
+    "correctAnswer": "48°",
+    "explanation": "Using exterior angle relationships shown in the figure, ∠BAC = 48°."
+  },
+  {
+    "id": "geometry_024",
+    "question": "The side QR of a triangle PQR is extended to a point S. If ∠PRS = 104° and ∠RQP = (3/5)∠QPR, then the value of ∠QPR is:",
+    "questionHindi": "त्रिभुज PQR की भुजा QR को बिंदु S तक बढ़ाया जाता है। यदि ∠PRS = 104° और ∠RQP = (3/5)∠QPR है, तो ∠QPR का मान ज्ञात करें।",
+    "options": [
+      "65°",
+      "55°",
+      "45°",
+      "58°"
+    ],
+    "correctAnswer": "65°",
+    "explanation": "Using exterior angle theorem: ∠QPR + ∠RQP = 104°. Solving gives ∠QPR = 65°."
+  },
+  {
+    "id": "geometry_025",
+    "question": "In the given figure, find ∠1 + ∠2 + ∠3 + ∠4 + ∠5.",
+    "questionHindi": "दिए गए आकृति में, ∠1 + ∠2 + ∠3 + ∠4 + ∠5 ज्ञात करें।",
+    "image": "https://drive.google.com/uc?export=view&id=1t0DjtT6OKynviYMQNeCVwbQ7HsYsL_yW",
+    "options": [
+      "90°",
+      "120°",
+      "180°",
+      "360°"
+    ],
+    "correctAnswer": "180°",
+    "explanation": "Using angle sum properties of the star figure, the total equals 180°."
+  },
+  {
+    "id": "maths_geometry_026",
+    "question": "In a quadrilateral PQRS, if the sum of measures of ∠Q and ∠S is 150° while the measures of ∠P and ∠R are in the ratio 4:3, then the measure of ∠R will be?",
+    "questionHindi": "एक चतुर्भुज PQRS में, यदि ∠Q और ∠S का योग 150° है तथा ∠P और ∠R का अनुपात 4:3 है, तो ∠R का मान क्या होगा?",
+    "options": [
+      "120°",
+      "90°",
+      "210°",
+      "50°"
+    ],
+    "correctAnswer": "90°",
+    "explanation": "∠P + ∠R = 360° − 150° = 210°. Let angles be 4x and 3x. Then 7x = 210 ⇒ x = 30. Hence ∠R = 3x = 90°."
+  },
+  {
+    "id": "maths_geometry_027",
+    "question": "When there are two parallel lines cut by a transversal, which of the following is true?",
+    "questionHindi": "जब दो समानांतर रेखाएँ एक तिर्यक रेखा द्वारा काटी जाती हैं, तो निम्नलिखित में से कौन-सा कथन सत्य है?",
+    "options": [
+      "Only A",
+      "B and C",
+      "A and D",
+      "Only B"
+    ],
+    "correctAnswer": "A and D",
+    "explanation": "Corresponding angles are equal and alternate interior angles are equal when parallel lines are cut by a transversal."
+  },
+  {
+    "id": "maths_geometry_028",
+    "question": "If a transversal intersects two parallel lines, and the difference between two interior angles on the same side of the transversal is 40°, then find the smallest angle.",
+    "questionHindi": "यदि एक तिर्यक रेखा दो समानांतर रेखाओं को काटती है और एक ही तरफ के अंतः कोणों का अंतर 40° है, तो छोटा कोण ज्ञात कीजिए।",
+    "options": [
+      "70°",
+      "50°",
+      "40°",
+      "60°"
+    ],
+    "correctAnswer": "70°",
+    "explanation": "Same-side interior angles are supplementary. Let angles be x and x+40. Then 2x+40=180 ⇒ x=70°."
+  },
+  {
+    "id": "maths_geometry_029",
+    "question": "If the ratio of two interior angles lying on the same side of a transversal intersecting two parallel lines is 3:7, then find their positive difference.",
+    "questionHindi": "यदि एक ही तरफ के अंतः कोणों का अनुपात 3:7 है, तो उनके मापों का धनात्मक अंतर ज्ञात कीजिए।",
+    "options": [
+      "64°",
+      "54°",
+      "72°",
+      "80°"
+    ],
+    "correctAnswer": "72°",
+    "explanation": "Let angles be 3x and 7x. Since they are supplementary, 10x=180 ⇒ x=18. Difference = 4x = 72°."
+  },
+  {
+    "id": "maths_geometry_030",
+    "question": "In the given figure, l₁ || l₂ and p is a transversal. If ∠4 = 5x + 35° and ∠7 = 45°, find x.",
+    "questionHindi": "दिए गए चित्र में l₁ || l₂ है तथा p एक तिर्यक रेखा है। यदि ∠4 = 5x + 35° और ∠7 = 45° है, तो x ज्ञात कीजिए।",
+    "options": [
+      "40°",
+      "45°",
+      "20°",
+      "10°"
+    ],
+    "correctAnswer": "10°",
+    "explanation": "Using vertically opposite and corresponding angle relationships, ∠4 = 85°. Hence 5x + 35 = 85 ⇒ x = 10°."
+  },
+  {
+    "id": "maths_geometry_031",
+    "image": "https://drive.google.com/uc?export=view&id=1EC5XHqRcibxCYaMnUEb7GrT9gaQ8Bsed",
+    "question": "In the given figure, if BP || CQ and AC = BC, then find the measure of x.",
+    "questionHindi": "दिए गए चित्र में यदि BP || CQ तथा AC = BC है, तो x का मान ज्ञात कीजिए।",
+    "options": [
+      "20°",
+      "25°",
+      "30°",
+      "35°"
+    ],
+    "correctAnswer": "30°",
+    "explanation": "Using properties of isosceles triangle and parallel lines, x = 30°."
+  },
+  {
+    "id": "maths_geometry_032",
+    "question": "In the figure given below, line l is parallel to m. Find the value of 2x + y.",
+    "questionHindi": "नीचे दिए गए चित्र में l ∥ m है। 2x + y का मान ज्ञात कीजिए।",
+    "image": "https://drive.google.com/uc?export=view&id=1tSR8iuSCqIHJsokE9XbMFJr2IoE3vRHp",
+    "options": [
+      "270°",
+      "150°",
+      "320°",
+      "225°"
+    ],
+    "correctAnswer": "150°",
+    "explanation": "Using co-interior and corresponding angle properties in parallel lines, 2x + y = 150°."
+  },
+  {
+    "id": "maths_geometry_033",
+    "image": "https://drive.google.com/uc?export=view&id=1hRQNjbOCikCjDd8cvd6AwdCIrLF3UxYD",
+    "question": "In the following figure, AB || CD || EF. Find the value of x°.",
+    "questionHindi": "दिए गए चित्र में AB || CD || EF है। x° का मान ज्ञात कीजिए।",
+    "options": [
+      "148°",
+      "147°",
+      "115°",
+      "126°"
+    ],
+    "correctAnswer": "126°",
+    "explanation": "Applying parallel line angle relationships gives x = 126°."
+  },
+  {
+    "id": "maths_geometry_034",
+    "question": "AB is parallel to CD. A transversal PQ intersects them at E and F. If ∠PEB = 78°, ∠BEG = 18° and ∠GFE = 30°, then find ∠EGF.",
+    "questionHindi": "AB ∥ CD है। तिर्यक PQ इन्हें E और F पर काटती है। यदि ∠PEB = 78°, ∠BEG = 18° तथा ∠GFE = 30° है, तो ∠EGF ज्ञात कीजिए।",
+    "options": [
+      "68°",
+      "66°",
+      "72°",
+      "58°"
+    ],
+    "correctAnswer": "66°",
+    "explanation": "Using parallel line angle properties and triangle angle sum, ∠EGF = 66°."
+  },
+  {
+    "id": "maths_geometry_035",
+    "question": "Straight lines l and m are parallel. If m∠EAB = 50° and m∠ECD = 70°, find ∠AEC.",
+    "questionHindi": "रेखाएँ l और m समानांतर हैं। यदि m∠EAB = 50° तथा m∠ECD = 70° है, तो ∠AEC ज्ञात कीजिए।",
+    "options": [
+      "70°",
+      "120°",
+      "60°",
+      "100°"
+    ],
+    "correctAnswer": "120°",
+    "explanation": "Using corresponding angles and angle addition around point E, ∠AEC = 120°."
+  },
+  {
+    "id": "maths_geometry_036",
+    "image": "https://drive.google.com/uc?export=view&id=1cklsTrdWMI_bMPK8etwvsLcaG5ks3gXw",
+    "question": "In the shown figure AB || DE. Find the supplementary angle of x.",
+    "questionHindi": "दिए गए चित्र में AB ∥ DE है। x का संपूरक कोण ज्ञात कीजिए।",
+    "options": [
+      "120°",
+      "150°",
+      "140°",
+      "125°"
+    ],
+    "correctAnswer": "150°",
+    "explanation": "From the figure, x = 30°. Therefore its supplementary angle = 180° − 30° = 150°."
+  },
+  {
+    "id": "maths_geometry_037",
+    "image": "https://drive.google.com/uc?export=view&id=10UItD67US5C2k6RMlxsCuw_28td3eu1W",
+    "question": "In the given figure below AB || CD, find x.",
+    "questionHindi": "नीचे दिए गए चित्र में AB ∥ CD है। x का मान ज्ञात कीजिए।",
+    "options": [
+      "45°",
+      "40°",
+      "35°",
+      "67.5°"
+    ],
+    "correctAnswer": "45°",
+    "explanation": "Using alternate interior angles and linear pair relationships, x = 45°."
+  },
+  {
+    "id": "maths_geometry_038",
+    "image": "https://drive.google.com/uc?export=view&id=1GjyxC0gIaDvztPMsGz2gWzItYHZXftlQ",
+    "question": "In the given figure PQ || RS, then find ∠QOS.",
+    "questionHindi": "दिए गए चित्र में PQ ∥ RS है। ∠QOS का मान ज्ञात कीजिए।",
+    "options": [
+      "30°",
+      "15°",
+      "20°",
+      "10°"
+    ],
+    "correctAnswer": "15°",
+    "explanation": "Using parallel line angle relations and exterior angles, ∠QOS = 15°."
+  },
+  {
+    "id": "maths_geometry_039",
+    "image": "https://drive.google.com/uc?export=view&id=132aIYuaekuLSrquFPcpd-tEFq2N7LTkD",
+    "question": "In the given figure PQ is parallel to RS, ∠AEF = 95°, ∠BHS = 110°, and ∠ABC = x°. Find x.",
+    "questionHindi": "दिए गए चित्र में PQ ∥ RS, ∠AEF = 95°, ∠BHS = 110° तथा ∠ABC = x° है। x का मान ज्ञात कीजिए।",
+    "options": [
+      "15°",
+      "25°",
+      "30°",
+      "35°"
+    ],
+    "correctAnswer": "25°",
+    "explanation": "Using corresponding and interior angle properties of parallel lines, x = 25°."
+  },
+  {
+    "id": "maths_geometry_040",
+    "image": "https://drive.google.com/uc?export=view&id=1D1y0TLrdtbBaR7d58iV0AJYTXJNGuM5l",
+    "question": "In the given figure AB is parallel to CD and AC is parallel to BD. If ∠EAC = 40°, ∠FDG = 55°, and ∠HAB = x°, then find x.",
+    "questionHindi": "दिए गए चित्र में AB ∥ CD तथा AC ∥ BD है। यदि ∠EAC = 40°, ∠FDG = 55° और ∠HAB = x° है, तो x का मान ज्ञात कीजिए।",
+    "options": [
+      "85°",
+      "80°",
+      "75°",
+      "65°"
+    ],
+    "correctAnswer": "85°",
+    "explanation": "Using parallel line angle relationships and corresponding angles, x = 85°."
+  },
+  {
+    "id": "maths_geometry_041",
+    "question": "In ΔPQR, X and Y are points on PQ and PR such that XY || QR and YZ is the angle bisector of ∠XYR. If YR = 2.7 cm, then find ZR.",
+    "questionHindi": "∆PQR में X और Y, PQ तथा PR पर स्थित हैं तथा XY || QR है। YZ, ∠XYR का कोण समद्विभाजक है। यदि YR = 2.7 cm है, तो ZR ज्ञात कीजिए।",
+    "options": [
+      "3 cm",
+      "2.7 cm",
+      "2.4 cm",
+      "5.4 cm"
+    ],
+    "correctAnswer": "2.7 cm",
+    "explanation": "Since XY || QR, ∠XYZ = ∠ZYR. As YZ bisects ∠XYR, ΔXYZ and ΔZYR form equal angles, giving ZR = YR = 2.7 cm."
+  },
+  {
+    "id": "maths_geometry_042",
+    "image": "https://drive.google.com/uc?export=view&id=1ulBijQzCJs2nkOQuuX1Doxk2yj-OO8Eh",
+    "question": "If AB || CD then find the value of α + β + γ?",
+    "questionHindi": "यदि AB || CD है, तो α + β + γ का मान ज्ञात कीजिए।",
+    "options": [
+      "180°",
+      "270°",
+      "360°",
+      "240°"
+    ],
+    "correctAnswer": "360°",
+    "explanation": "Using parallel line angle relationships and angles around a point, α + β + γ = 360°."
+  },
+  {
+    "id": "maths_geometry_043",
+    "image": "https://drive.google.com/uc?export=view&id=1Eh_GAo6SCP_qjAFN5q6wt6jUOakR0cTp",
+    "question": "Find the value of x.",
+    "questionHindi": "x का मान ज्ञात कीजिए।",
+    "options": [
+      "70°",
+      "80°",
+      "90°",
+      "100°"
+    ],
+    "correctAnswer": "100°",
+    "explanation": "Using the exterior angle property of the quadrilateral-shaped figure: x = 40° + 25° + 35° = 100°."
+  },
+  {
+    "id": "maths_geometry_044",
+    "image": "https://drive.google.com/uc?export=view&id=1ZKgma4sAbMZvgo_kmY3nMHGrYyJf_I0v",
+    "question": "What is the value of x in the figure given below?",
+    "questionHindi": "नीचे दिए गए चित्र में x का मान क्या होगा?",
+    "options": [
+      "b - a - c",
+      "b - a + c",
+      "b + a - c",
+      "π - (a + b - c)"
+    ],
+    "correctAnswer": "b - a - c",
+    "explanation": "Applying exterior angle relations in the figure gives x = b − a − c."
+  },
+  {
+    "id": "maths_geometry_045",
+    "image": "https://drive.google.com/uc?export=view&id=172t6W3Kw5TcuYd1TSPnVKgfs2Zpecgec",
+    "question": "If in the given figure, ∠ACB + ∠BAC = 80°, ∠BDE = 35°, ∠BCE = 45°, then the marked angle ∠CED is:",
+    "questionHindi": "यदि दिए गए चित्र में ∠ACB + ∠BAC = 80°, ∠BDE = 35° तथा ∠BCE = 45° है, तो ∠CED का मान क्या होगा?",
+    "options": [
+      "150°",
+      "120°",
+      "160°",
+      "135°"
+    ],
+    "correctAnswer": "160°",
+    "explanation": "Using angle sum property in triangles and exterior angle relations, ∠CED = 160°."
+  },
+  {
+    "id": "maths_geometry_046",
+    "image": "https://drive.google.com/uc?export=view&id=1lfwAsiJBvwhUsPt6du3RjUrViFeUxk1p",
+    "question": "Find the value of θ.",
+    "questionHindi": "θ का मान ज्ञात कीजिए।",
+    "options": [
+      "60°",
+      "70°",
+      "75°",
+      "CND"
+    ],
+    "correctAnswer": "75°",
+    "explanation": "Using angle chasing in the figure and the given 40° and 110° angles, θ = 75°."
+  },
+  {
+    "id": "maths_geometry_047",
+    "image": "https://drive.google.com/uc?export=view&id=1nN7XcFlJWQWXTj2kg3f68QGdrCBw2-iC",
+    "question": "Find the value of a + b.",
+    "questionHindi": "a + b का मान ज्ञात कीजिए।",
+    "options": [
+      "80°",
+      "180°",
+      "90°",
+      "120°"
+    ],
+    "correctAnswer": "80°",
+    "explanation": "Using the triangle angle sum property and the exterior angle at C, we obtain a + b = 80°."
+  },
+  {
+    "id": "maths_geometry_048",
+    "image": "https://drive.google.com/uc?export=view&id=16D_Gw9E8NmKlzNBZQSQNzeySsGAxx0Xh",
+    "question": "Angles are shown in the given figure. What is the value of ∠1 + ∠2 + ∠3 + ∠4 + ∠5 + ∠6 + ∠7 + ∠8?",
+    "questionHindi": "दिए गए चित्र में ∠1 + ∠2 + ∠3 + ∠4 + ∠5 + ∠6 + ∠7 + ∠8 का मान क्या है?",
+    "options": [
+      "240°",
+      "360°",
+      "540°",
+      "720°"
+    ],
+    "correctAnswer": "360°",
+    "explanation": "The marked angles together form four triangles. Sum of selected exterior/interior angles results in 360°."
+  },
+  {
+    "id": "maths_geometry_049",
+    "image": "https://drive.google.com/uc?export=view&id=1jgPzWeaHMLN3ROEzLI6nG0w2ITZhYTsw",
+    "question": "In the given figure, PR || UV and PQ || RS, ∠RST = 30° and ∠STU = 45°. Find the value of ∠QPR + ∠TUV.",
+    "questionHindi": "दिए गए चित्र में PR || UV तथा PQ || RS है। ∠RST = 30° और ∠STU = 45° है। ∠QPR + ∠TUV का मान ज्ञात कीजिए।",
+    "options": [
+      "180°",
+      "195°",
+      "205°",
+      "165°"
+    ],
+    "correctAnswer": "195°",
+    "explanation": "Using corresponding angles formed by the parallel lines, ∠QPR + ∠TUV = 195°."
+  },
+  {
+    "id": "maths_geometry_050",
+    "image": "https://drive.google.com/uc?export=view&id=19dvveoO7aeoqw2ziDdO44ccCxudkHcZh",
+    "question": "In the given figure AB || CD. Find the value of x.",
+    "questionHindi": "दिए गए चित्र में AB || CD है। x का मान ज्ञात कीजिए।",
+    "options": [
+      "5°",
+      "10°",
+      "20°",
+      "12°"
+    ],
+    "correctAnswer": "10°",
+    "explanation": "Using alternate and corresponding angle relations in the parallel lines figure, x = 10°."
+  },
+  {
     "id": "maths_geometry_051",
     "question": "Geometry — Question 51 (add real content in datas/maths/geometry.json)",
     "options": [
