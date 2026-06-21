@@ -9,7 +9,8 @@
       "25 : 18"
     ],
     "correctAnswer": "25 : 18",
-    "questionHi": "एक कारखाने में, पुरुष श्रमिकों की संख्या का 48%, महिला श्रमिकों की संख्या के दो-तिहाई के बराबर है। कारखाने में पुरुषों की संख्या का महिलाओं की संख्या से अनुपात कितना है?"
+    "questionHi": "एक कारखाने में, पुरुष श्रमिकों की संख्या का 48%, महिला श्रमिकों की संख्या के दो-तिहाई के बराबर है। कारखाने में पुरुषों की संख्या का महिलाओं की संख्या से अनुपात कितना है?",
+    "solution": "**Step 1:** Let the number of male workers = M and female workers = F\n\n**Step 2:** Translate the given condition into an equation:\n48% of M = (2/3) of F\n\n$$\\frac{48}{100} \\times M = \\frac{2}{3} \\times F$$\n\n**Step 3:** Simplify the equation:\n$$\\frac{12}{25} \\times M = \\frac{2}{3} \\times F$$\n\n**Step 4:** Find the ratio M : F by cross-multiplying:\n$$\\frac{M}{F} = \\frac{2}{3} \\times \\frac{25}{12}$$\n\n$$\\frac{M}{F} = \\frac{50}{36} = \\frac{25}{18}$$\n\n**Step 5:** Therefore, M : F = 25 : 18\n\n✓ **Answer: 25 : 18** (Correct)"
   },
   {
     "id": "maths_percentage_002",
@@ -21,7 +22,8 @@
       "50% more"
     ],
     "correctAnswer": "50% more",
-    "questionHi": "यदि y के एक-चौथाई के 30% का 2.5 गुना मान, x के आधे के 25% के बराबर है, तो x, y से कितने प्रतिशत कम अथवा अधिक है?"
+    "questionHi": "यदि y के एक-चौथाई के 30% का 2.5 गुना मान, x के आधे के 25% के बराबर है, तो x, y से कितने प्रतिशत कम अथवा अधिक है?",
+    "solution": "# Solution:\n\n**Step 1:** Translate the given condition into an equation.\n- 25% of half of x = 0.25 × (x/2) = x/8\n- 30% of one-fourth of y = 0.30 × (y/4) = 3y/40\n- Given: x/8 = 2.5 × (3y/40)\n\n**Step 2:** Simplify the equation.\n- x/8 = 2.5 × 3y/40\n- x/8 = 7.5y/40\n- x/8 = 3y/16\n\n**Step 3:** Solve for the relationship between x and y.\n- x/8 = 3y/16\n- x = (8 × 3y)/16\n- x = 24y/16\n- x = 3y/2\n- x = 1.5y\n\n**Step 4:** Calculate the percentage difference.\n- x is 1.5y, meaning x = y + 0.5y\n- Difference = 0.5y = 50% of y\n- x is 50% more than y\n\n**Answer: 50% more** ✓"
   },
   {
     "id": "maths_percentage_003",
@@ -33,7 +35,8 @@
       "30%"
     ],
     "correctAnswer": "56%",
-    "questionHi": "दो टंकियों A और B में पानी की मात्रा का अनुपात 6 : 5 है। टैंक A के पानी की मात्रा में 30% की वृद्धि की जाती है। टैंक B के पानी की मात्रा में कितने प्रतिशत वृद्धि की जानी चाहिए कि दोनों टंकियों में पानी की मात्रा समान हो जाए?"
+    "questionHi": "दो टंकियों A और B में पानी की मात्रा का अनुपात 6 : 5 है। टैंक A के पानी की मात्रा में 30% की वृद्धि की जाती है। टैंक B के पानी की मात्रा में कितने प्रतिशत वृद्धि की जानी चाहिए कि दोनों टंकियों में पानी की मात्रा समान हो जाए?",
+    "solution": "**Step 1: Set up initial volumes**\nLet volume in tank A = 6x and volume in tank B = 5x\n\n**Step 2: Calculate new volume of tank A**\nTank A is increased by 30%\nNew volume of A = 6x + (30% of 6x) = 6x + 1.8x = 7.8x\n\n**Step 3: Set up equation for equal volumes**\nFor both tanks to have equal volume:\nNew volume of B = New volume of A\nNew volume of B = 7.8x\n\n**Step 4: Calculate percentage increase for tank B**\nIncrease needed in B = 7.8x - 5x = 2.8x\n\nPercentage increase = (Increase/Original) × 100\n= (2.8x/5x) × 100\n= (2.8/5) × 100\n= 0.56 × 100\n= 56%\n\n**Answer: 56%** ✓"
   },
   {
     "id": "maths_percentage_004",
@@ -45,7 +48,8 @@
       "4 : 5"
     ],
     "correctAnswer": "5 : 4",
-    "questionHi": "A और B दो संख्याएँ इस प्रकार हैं कि A के 8% और B के 5% का योग, A के 12% और B के 10% के योग का 3/5 भाग है। A और B का अनुपात कितना है?"
+    "questionHi": "A और B दो संख्याएँ इस प्रकार हैं कि A के 8% और B के 5% का योग, A के 12% और B के 10% के योग का 3/5 भाग है। A और B का अनुपात कितना है?",
+    "solution": "**Step 1: Set up the equation from the given condition**\n\n8% of A + 5% of B = (3/5) × [12% of A + 10% of B]\n\n0.08A + 0.05B = (3/5) × (0.12A + 0.10B)\n\n**Step 2: Simplify the right side**\n\n0.08A + 0.05B = (3/5) × 0.12A + (3/5) × 0.10B\n\n0.08A + 0.05B = 0.072A + 0.06B\n\n**Step 3: Rearrange to collect A and B terms**\n\n0.08A - 0.072A = 0.06B - 0.05B\n\n0.008A = 0.01B\n\n**Step 4: Find the ratio A : B**\n\nDivide both sides by 0.008:\n\nA = (0.01/0.008)B\n\nA = (10/8)B\n\nA = (5/4)B\n\nTherefore: A/B = 5/4\n\n**A : B = 5 : 4** ✓\n\nThe answer is **5 : 4**"
   },
   {
     "id": "maths_percentage_005",
@@ -57,7 +61,8 @@
       "3150"
     ],
     "correctAnswer": "3220",
-    "questionHi": "दो संख्याओं का योग 5635 है। यदि बड़ी संख्या में 7% की कमी की जाए और छोटी संख्या में 24% की वृद्धि की जाए, तो प्राप्त संख्याएँ बराबर हो जाती हैं। बड़ी संख्या क्या है?"
+    "questionHi": "दो संख्याओं का योग 5635 है। यदि बड़ी संख्या में 7% की कमी की जाए और छोटी संख्या में 24% की वृद्धि की जाए, तो प्राप्त संख्याएँ बराबर हो जाती हैं। बड़ी संख्या क्या है?",
+    "solution": "# Solution\n\n**Step 1: Set up equations**\nLet the bigger number = B and smaller number = S\n- B + S = 5635 ... (equation 1)\n\n**Step 2: Use the condition about percentage changes**\nWhen B is decreased by 7% and S is increased by 24%, they become equal:\n- B - 0.07B = S + 0.24S\n- 0.93B = 1.24S ... (equation 2)\n\n**Step 3: Express S in terms of B**\nFrom equation 2:\n- S = 0.93B/1.24\n- S = 93B/124\n\n**Step 4: Substitute in equation 1**\n- B + 93B/124 = 5635\n- (124B + 93B)/124 = 5635\n- 217B/124 = 5635\n- B = (5635 × 124)/217\n- B = 698,540/217\n- B = 3220\n\n**Step 5: Verification**\n- S = 5635 - 3220 = 2415\n- 0.93 × 3220 = 2994.6\n- 1.24 × 2415 = 2994.6 ✓\n\n**The bigger number is 3220** ✓"
   },
   {
     "id": "maths_percentage_006",
@@ -69,7 +74,8 @@
       "675"
     ],
     "correctAnswer": "540",
-    "questionHi": "जब किसी संख्या को 216 से बढ़ाया जाता है, तो वह स्वयं की 140% हो जाती है। वह संख्या क्या है?"
+    "questionHi": "जब किसी संख्या को 216 से बढ़ाया जाता है, तो वह स्वयं की 140% हो जाती है। वह संख्या क्या है?",
+    "solution": "# Solution:\n\n**Step 1:** Let the number be x.\n\n**Step 2:** Translate the condition into an equation.\n- Number increased by 216 becomes 140% of itself\n- x + 216 = 140% of x\n- x + 216 = 1.4x\n\n**Step 3:** Solve for x.\n- x + 216 = 1.4x\n- 216 = 1.4x - x\n- 216 = 0.4x\n- x = 216/0.4\n- x = 540\n\n**Step 4:** Verify the answer.\n- Original number: 540\n- Increased by 216: 540 + 216 = 756\n- 140% of 540 = 1.4 × 540 = 756 ✓\n\n**The answer is 540.**"
   },
   {
     "id": "maths_percentage_007",
@@ -81,7 +87,8 @@
       "16"
     ],
     "correctAnswer": "16",
-    "questionHi": "यदि किसी संख्या का 60%, संख्या के 20% से 120 अधिक है, तो संख्या का 28%, संख्या के 33 1/3% से कितना कम है?"
+    "questionHi": "यदि किसी संख्या का 60%, संख्या के 20% से 120 अधिक है, तो संख्या का 28%, संख्या के 33 1/3% से कितना कम है?",
+    "solution": "# Step-by-Step Solution:\n\n**Step 1: Set up the equation**\nLet the number be x.\n- 60% of number = 0.6x\n- 20% of number = 0.2x\n\nGiven: 60% of x is 120 more than 20% of x\n$$0.6x = 0.2x + 120$$\n\n**Step 2: Solve for x**\n$$0.6x - 0.2x = 120$$\n$$0.4x = 120$$\n$$x = 300$$\n\n**Step 3: Calculate 28% and 40% of the number**\n- 28% of 300 = 0.28 × 300 = 84\n- 40% of 300 = 0.40 × 300 = 120\n\n**Step 4: Find the difference**\n$$40\\% \\text{ of number} - 28\\% \\text{ of number} = 120 - 84 = 16$$\n\nTherefore, 28% of the number is less than 40% of the number by **16**.\n\n✓ Answer confirmed: **16**"
   },
   {
     "id": "maths_percentage_008",
@@ -93,7 +100,8 @@
       "260"
     ],
     "correctAnswer": "300",
-    "questionHi": "किसी संख्या के मान में 32% की वृद्धि और संख्या के मान में 28% की कमी के बीच का अंतर 180 है। संख्या ज्ञात करें।"
+    "questionHi": "किसी संख्या के मान में 32% की वृद्धि और संख्या के मान में 28% की कमी के बीच का अंतर 180 है। संख्या ज्ञात करें।",
+    "solution": "**Step 1:** Let the number be x.\n\n**Step 2:** Value of number increased by 32% = x + 0.32x = 1.32x\n\n**Step 3:** Value of number decreased by 28% = x - 0.28x = 0.72x\n\n**Step 4:** According to the question, the difference between these two values is 180:\n1.32x - 0.72x = 180\n0.60x = 180\nx = 180 ÷ 0.60\nx = 300\n\n**Step 5:** Verification:\n- Increased by 32%: 300 × 1.32 = 396\n- Decreased by 28%: 300 × 0.72 = 216\n- Difference: 396 - 216 = 180 ✓\n\n**The number is 300**"
   },
   {
     "id": "maths_percentage_009",
@@ -105,7 +113,8 @@
       "25 : 33"
     ],
     "correctAnswer": "25 : 33",
-    "questionHi": "दो संख्याएँ, तीसरी संख्या से क्रमशः 25% और 65% अधिक हैं। उन दोनों संख्याओं का अनुपात क्या होगा?"
+    "questionHi": "दो संख्याएँ, तीसरी संख्या से क्रमशः 25% और 65% अधिक हैं। उन दोनों संख्याओं का अनुपात क्या होगा?",
+    "solution": "**Step 1: Let the third number be x**\n\n**Step 2: Find the first number**\n- First number is 25% more than x\n- First number = x + 25% of x = x + 0.25x = 1.25x\n\n**Step 3: Find the second number**\n- Second number is 65% more than x\n- Second number = x + 65% of x = x + 0.65x = 1.65x\n\n**Step 4: Find the ratio of the two numbers**\n- Ratio = 1.25x : 1.65x\n- Remove x: 1.25 : 1.65\n- Multiply by 100: 125 : 165\n- Divide by common factor 5: 25 : 33\n\n**Answer: 25 : 33 ✓**"
   },
   {
     "id": "maths_percentage_010",
@@ -117,7 +126,8 @@
       "100x / (100 − x)%"
     ],
     "correctAnswer": "100x / (100 + x)%",
-    "questionHi": "एक संख्या में x% की वृद्धि हुई है; मूल संख्या पर वापस जाने के लिए, इसे कितने प्रतिशत कम करना पड़ेगा?"
+    "questionHi": "एक संख्या में x% की वृद्धि हुई है; मूल संख्या पर वापस जाने के लिए, इसे कितने प्रतिशत कम करना पड़ेगा?",
+    "solution": "**Step 1: Define the original number**\nLet the original number = 100\n\n**Step 2: Increase the number by x%**\nNew number = 100 + x% of 100 = 100 + x = (100 + x)\n\n**Step 3: Find the reduction needed**\nTo return to the original number (100), we need to reduce (100 + x) by some amount.\nReduction required = (100 + x) - 100 = x\n\n**Step 4: Calculate reduction percentage**\nReduction % = (Reduction / New number) × 100\nReduction % = (x / (100 + x)) × 100\nReduction % = **100x / (100 + x)%**\n\n**Answer: 100x / (100 + x)%** ✓"
   },
   {
     "id": "maths_percentage_011",
@@ -129,7 +139,8 @@
       "14.6%"
     ],
     "correctAnswer": "13.6%",
-    "questionHi": "प्रथम वर्ष में, किसी जनसंख्या में 12% की कमी होती है। दूसरे वर्ष में इसमें कितने प्रतिशत की वृद्धि होनी चाहिए, ताकि दूसरे वर्ष के अंत में जनसंख्या, मूल जनसंख्या के बिल्कुल बराबर हो जाए?"
+    "questionHi": "प्रथम वर्ष में, किसी जनसंख्या में 12% की कमी होती है। दूसरे वर्ष में इसमें कितने प्रतिशत की वृद्धि होनी चाहिए, ताकि दूसरे वर्ष के अंत में जनसंख्या, मूल जनसंख्या के बिल्कुल बराबर हो जाए?",
+    "solution": "**Step 1: Set up the problem**\nLet original population = 100\n\n**Step 2: Calculate population after first year (12% decrease)**\nPopulation after year 1 = 100 - 12% of 100 = 100 - 12 = 88\n\n**Step 3: Find required increase for second year**\nWe need population to return to 100 at end of year 2.\nRequired increase = 100 - 88 = 12\n\n**Step 4: Calculate percentage increase**\nPercentage increase = (Increase/Base) × 100\n= (12/88) × 100\n= 1200/88\n= 13.636...%\n≈ 13.6%\n\n**Answer: 13.6%** ✓"
   },
   {
     "id": "maths_percentage_012",
@@ -141,7 +152,8 @@
       "None of these"
     ],
     "correctAnswer": "77.77%",
-    "questionHi": "एक पानी के पाइप को दो टुकड़ों में काट दिया जाता है। लंबा टुकड़ा पाइप की लंबाई का 64% है। छोटे टुकड़े की तुलना में लंबा टुकड़ा कितने प्रतिशत अधिक लंबा है?"
+    "questionHi": "एक पानी के पाइप को दो टुकड़ों में काट दिया जाता है। लंबा टुकड़ा पाइप की लंबाई का 64% है। छोटे टुकड़े की तुलना में लंबा टुकड़ा कितने प्रतिशत अधिक लंबा है?",
+    "solution": "**Step 1:** Let the total length of the pipe = 100 units\n\n**Step 2:** Longer piece = 64% of 100 = 64 units\nShorter piece = 100 - 64 = 36 units\n\n**Step 3:** Difference between longer and shorter piece = 64 - 36 = 28 units\n\n**Step 4:** Percentage by which longer piece is longer than shorter piece:\n= (Difference / Shorter piece) × 100\n= (28 / 36) × 100\n= (7/9) × 100\n= 77.77%\n\n**Answer: 77.77%** ✓"
   },
   {
     "id": "maths_percentage_013",
@@ -153,7 +165,8 @@
       "8%"
     ],
     "correctAnswer": "7.5%",
-    "questionHi": "P और Q एक-दूसरे से 10 cm की दूरी पर दो नियत बिंदु हैं, और R, PQ पर ऐसा बिंदु है कि PR = 6 cm है। जब PR की लंबाई 5% बढ़ाई जाती है, तो QR की लंबाई कितने प्रतिशत कम हो जाती है?"
+    "questionHi": "P और Q एक-दूसरे से 10 cm की दूरी पर दो नियत बिंदु हैं, और R, PQ पर ऐसा बिंदु है कि PR = 6 cm है। जब PR की लंबाई 5% बढ़ाई जाती है, तो QR की लंबाई कितने प्रतिशत कम हो जाती है?",
+    "solution": "**Step 1: Find the initial length of QR**\n- PQ = 10 cm (fixed)\n- PR = 6 cm (initial)\n- QR = PQ - PR = 10 - 6 = 4 cm\n\n**Step 2: Calculate new PR after 5% increase**\n- New PR = PR + 5% of PR\n- New PR = 6 + (5/100 × 6) = 6 + 0.3 = 6.3 cm\n\n**Step 3: Find new QR**\n- Since PQ remains fixed at 10 cm\n- New QR = PQ - New PR = 10 - 6.3 = 3.7 cm\n\n**Step 4: Calculate percentage decrease in QR**\n- Decrease in QR = 4 - 3.7 = 0.3 cm\n- Percentage decrease = (Decrease/Original QR) × 100\n- Percentage decrease = (0.3/4) × 100 = 7.5%\n\n**Answer: 7.5%** ✓"
   },
   {
     "id": "maths_percentage_014",
@@ -165,7 +178,8 @@
       "13.64%"
     ],
     "correctAnswer": "13.64%",
-    "questionHi": "यदि पेट्रोल की कीमत Rs.95/लीटर से Rs.110/लीटर हो जाती है, तो रवि द्वारा पेट्रोल की खपत में कितने प्रतिशत की कमी की जानी चाहिए ताकि उसका खर्च उतना ही बना रहे?"
+    "questionHi": "यदि पेट्रोल की कीमत Rs.95/लीटर से Rs.110/लीटर हो जाती है, तो रवि द्वारा पेट्रोल की खपत में कितने प्रतिशत की कमी की जानी चाहिए ताकि उसका खर्च उतना ही बना रहे?",
+    "solution": "# Solution:\n\n**Step 1:** Set up the relationship between price, consumption, and expenditure.\n- Expenditure = Price × Consumption\n- For expenditure to remain constant: P₁ × C₁ = P₂ × C₂\n\n**Step 2:** Identify the given values.\n- Initial price (P₁) = Rs. 95/litre\n- New price (P₂) = Rs. 110/litre\n- Initial consumption = C₁ (let's assume 1 unit)\n- New consumption = C₂ (to find)\n\n**Step 3:** Calculate new consumption using the constant expenditure formula.\n- 95 × 1 = 110 × C₂\n- C₂ = 95/110 = 19/22\n\n**Step 4:** Calculate the percentage reduction in consumption.\n- Reduction = C₁ - C₂ = 1 - 19/22 = 3/22\n- Percentage reduction = (3/22) × 100 = 13.636...% ≈ **13.64%**\n\n**Answer: 13.64%** ✓"
   },
   {
     "id": "maths_percentage_015",
@@ -177,7 +191,8 @@
       "12%"
     ],
     "correctAnswer": "14%",
-    "questionHi": "वर्तमान में चावल ₹29 प्रति kg की दर से बेचा जा रहा है, पिछले महीने उसका मूल्य ₹25 प्रति kg था। किसी परिवार को अपनी चावल की खपत को कितने प्रतिशत तक कम करना होगा, ताकि व्यय पहले के समान रहे?"
+    "questionHi": "वर्तमान में चावल ₹29 प्रति kg की दर से बेचा जा रहा है, पिछले महीने उसका मूल्य ₹25 प्रति kg था। किसी परिवार को अपनी चावल की खपत को कितने प्रतिशत तक कम करना होगा, ताकि व्यय पहले के समान रहे?",
+    "solution": "**Step 1: Set up the relationship**\nLet original consumption = C kg at ₹25 per kg\nLet new consumption = C' kg at ₹29 per kg\nFor same expenditure: 25C = 29C'\n\n**Step 2: Find the ratio of new to original consumption**\nC'/C = 25/29\n\n**Step 3: Calculate the percentage reduction in consumption**\nReduction = C - C' = C - (25C/29) = (29C - 25C)/29 = 4C/29\n\nPercentage reduction = (Reduction/Original) × 100\n= (4C/29)/C × 100\n= (4/29) × 100\n= 400/29\n= 13.79% ≈ **14%**\n\n**Answer: 14%** ✓"
   },
   {
     "id": "maths_percentage_016",
@@ -189,7 +204,8 @@
       "52 kg"
     ],
     "correctAnswer": "56 kg",
-    "questionHi": "चावल की कीमत में 35% की गिरावट आती है। ज्ञात करें उतने ही रुपए में चावल की कितनी अतिरिक्त मात्रा खरीदी जा सकती है जो पहले 104 किलो चावल खरीदने के लिए पर्याप्त था?"
+    "questionHi": "चावल की कीमत में 35% की गिरावट आती है। ज्ञात करें उतने ही रुपए में चावल की कितनी अतिरिक्त मात्रा खरीदी जा सकती है जो पहले 104 किलो चावल खरीदने के लिए पर्याप्त था?",
+    "solution": "# Step-by-Step Solution:\n\n**Step 1:** Let the original price of rice be P per kg.\n- Money available = 104P (sufficient to buy 104 kg at original price)\n\n**Step 2:** After 35% price fall, new price = P - 0.35P = 0.65P per kg\n\n**Step 3:** Quantity that can be bought with same money at new price:\n- Quantity = 104P ÷ 0.65P = 104 ÷ 0.65 = 160 kg\n\n**Step 4:** Extra quantity of rice that can be bought:\n- Extra quantity = 160 - 104 = **56 kg**\n\n**Answer: 56 kg** ✓"
   },
   {
     "id": "maths_percentage_017",
@@ -201,7 +217,8 @@
       "20%"
     ],
     "correctAnswer": "16.66%",
-    "questionHi": "एक आयताकार भूखंड की लंबाई 20% बढ़ जाती है। इसकी चौड़ाई कितने प्रतिशत कम की जानी चाहिए ताकि कुल क्षेत्रफल समान रहे?"
+    "questionHi": "एक आयताकार भूखंड की लंबाई 20% बढ़ जाती है। इसकी चौड़ाई कितने प्रतिशत कम की जानी चाहिए ताकि कुल क्षेत्रफल समान रहे?",
+    "solution": "**Step 1:** Let the original length = L and breadth = B\nOriginal Area = L × B\n\n**Step 2:** New length after 20% increase = L + 0.20L = 1.2L\nLet the new breadth = B'\nNew Area = 1.2L × B'\n\n**Step 3:** Since area remains the same:\nL × B = 1.2L × B'\nB = 1.2B'\nB' = B/1.2 = B/1.2 = 5B/6\n\n**Step 4:** Percentage decrease in breadth:\nDecrease = B - 5B/6 = B/6\nPercentage decrease = (B/6)/B × 100 = 100/6 = 16.66%\n\n**Answer: 16.66%** ✓"
   },
   {
     "id": "maths_percentage_018",
@@ -213,7 +230,8 @@
       "45%"
     ],
     "correctAnswer": "40%",
-    "questionHi": "एक त्रिभुज के आधार में 66⅔% की वृद्धि की जाती है। त्रिभुज का क्षेत्रफल स्थिर रहने के लिए ऊँचाई कितने प्रतिशत कम होनी चाहिए?"
+    "questionHi": "एक त्रिभुज के आधार में 66⅔% की वृद्धि की जाती है। त्रिभुज का क्षेत्रफल स्थिर रहने के लिए ऊँचाई कितने प्रतिशत कम होनी चाहिए?",
+    "solution": "# Solution\n\n**Step 1: Recall the formula for area of triangle**\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n\n**Step 2: Express the new base**\nBase is increased by 66⅔%\n$$\\text{New base} = \\text{b} + 66\\frac{2}{3}\\% \\text{ of b} = b + \\frac{2}{3}b = \\frac{5}{3}b$$\n\n**Step 3: Set up equation for constant area**\nLet new height = h'\n\nFor area to remain constant:\n$$\\frac{1}{2} \\times b \\times h = \\frac{1}{2} \\times \\frac{5}{3}b \\times h'$$\n\n$$b \\times h = \\frac{5}{3}b \\times h'$$\n\n$$h = \\frac{5}{3}h'$$\n\n$$h' = \\frac{3}{5}h$$\n\n**Step 4: Calculate percentage reduction in height**\n$$\\text{Reduction} = h - h' = h - \\frac{3}{5}h = \\frac{2}{5}h$$\n\n$$\\text{Percentage reduction} = \\frac{\\frac{2}{5}h}{h} \\times 100\\% = \\frac{2}{5} \\times 100\\% = 40\\%$$\n\n**Answer: 40"
   },
   {
     "id": "maths_percentage_019",
@@ -225,7 +243,8 @@
       "62.5%"
     ],
     "correctAnswer": "56.25%",
-    "questionHi": "यदि बेलन की त्रिज्या में 20% की कमी की जाती है, तो उसकी ऊँचाई में कितने प्रतिशत की वृद्धि करनी चाहिए ताकि बेलन का आयतन समान रहे?"
+    "questionHi": "यदि बेलन की त्रिज्या में 20% की कमी की जाती है, तो उसकी ऊँचाई में कितने प्रतिशत की वृद्धि करनी चाहिए ताकि बेलन का आयतन समान रहे?",
+    "solution": "# Solution:\n\n**Step 1: Write the volume formula for a cylinder**\n- Volume = πr²h\n\n**Step 2: Set up the initial and final volume equations**\n- Initial Volume: V₁ = πr²h\n- Final Volume: V₂ = π(0.8r)²h₂ (radius decreased by 20%, so new radius = 0.8r)\n\n**Step 3: Apply the condition that volumes remain equal**\n- πr²h = π(0.8r)²h₂\n- r²h = 0.64r²h₂\n- h = 0.64h₂\n- h₂ = h/0.64 = 1.5625h\n\n**Step 4: Calculate the percentage increase in height**\n- Increase in height = h₂ - h = 1.5625h - h = 0.5625h\n- Percentage increase = (0.5625h/h) × 100\n- Percentage increase = 56.25%\n\n**Answer: 56.25%** ✓"
   },
   {
     "id": "maths_percentage_020",
@@ -237,7 +256,8 @@
       "7.4% decrease"
     ],
     "correctAnswer": "7.4% decrease",
-    "questionHi": "एक घनाभ में, यदि लंबाई 20% बढ़ाई जाती है और चौड़ाई 10% घटाई जाती है, तो ऊँचाई को कितने प्रतिशत बढ़ाया/घटाया जाना चाहिए ताकि आयतन स्थिर रहे?"
+    "questionHi": "एक घनाभ में, यदि लंबाई 20% बढ़ाई जाती है और चौड़ाई 10% घटाई जाती है, तो ऊँचाई को कितने प्रतिशत बढ़ाया/घटाया जाना चाहिए ताकि आयतन स्थिर रहे?",
+    "solution": "# Step-by-Step Solution\n\n**Step 1: Set up the volume formula**\n- Original volume: V = L × B × H\n- New volume: V' = L' × B' × H'\n- For constant volume: V = V'\n\n**Step 2: Express new dimensions in terms of original**\n- New length: L' = L + 20% of L = 1.20L\n- New breadth: B' = B - 10% of B = 0.90B\n- New height: H' = ? (to be found)\n\n**Step 3: Apply constant volume condition**\n- L × B × H = 1.20L × 0.90B × H'\n- L × B × H = 1.08LB × H'\n- H = 1.08 × H'\n- H' = H/1.08\n\n**Step 4: Calculate percentage change in height**\n- Change in height = H' - H = H/1.08 - H\n- Change in height = H(1/1.08 - 1) = H(-0.08/1.08)\n- Percentage change = (-0.08/1.08) × 100\n- Percentage change = -7.407% ≈ **-7.4%**\n\n**Negative sign indicates decrease**\n\n**Answer: 7.4% decrease** ✓"
   },
   {
     "id": "maths_percentage_021",
@@ -249,7 +269,8 @@
       "16.67%"
     ],
     "correctAnswer": "33.33%",
-    "questionHi": "एक ठेकेदार भुगतान में परिवर्तन किए बिना अपने श्रमिकों के लिए एक सप्ताह (सोमवार से शनिवार) के कार्य समय को 48 घंटे से घटाकर 36 घंटे कर देता है। प्रति घंटा भुगतान में प्रतिशत वृद्धि क्या है?"
+    "questionHi": "एक ठेकेदार भुगतान में परिवर्तन किए बिना अपने श्रमिकों के लिए एक सप्ताह (सोमवार से शनिवार) के कार्य समय को 48 घंटे से घटाकर 36 घंटे कर देता है। प्रति घंटा भुगतान में प्रतिशत वृद्धि क्या है?",
+    "solution": "**Step 1:** Identify the given information\n- Original weekly working hours = 48 hours\n- Reduced weekly working hours = 36 hours\n- Weekly payment remains the same\n\n**Step 2:** Understand the relationship\nSince payment is constant but hours are reduced, the hourly rate must increase to maintain the same total payment.\n\n**Step 3:** Calculate the hourly rate ratio\n- Original hourly rate = Payment/48\n- New hourly rate = Payment/36\n- Ratio = (Payment/36)/(Payment/48) = 48/36 = 4/3 = 1.333...\n\n**Step 4:** Calculate percentage increase\n- Percentage increase = (New rate - Original rate)/Original rate × 100\n- Percentage increase = (4/3 - 1)/1 × 100\n- Percentage increase = (1/3) × 100 = 33.33%\n\n**Answer: 33.33%** ✓"
   },
   {
     "id": "maths_percentage_022",
@@ -261,7 +282,8 @@
       "65"
     ],
     "correctAnswer": "68",
-    "questionHi": "गेहूँ की कीमत में 15% की कमी एक गृहिणी को ₹2720 में 6 kg अधिक गेहूँ खरीदने में सक्षम बनाती है। गेहूँ की प्रति किलोग्राम घटी हुई कीमत कितनी है?"
+    "questionHi": "गेहूँ की कीमत में 15% की कमी एक गृहिणी को ₹2720 में 6 kg अधिक गेहूँ खरीदने में सक्षम बनाती है। गेहूँ की प्रति किलोग्राम घटी हुई कीमत कितनी है?",
+    "solution": "**Step 1: Set up the equation**\nLet original price = P per kg\nReduced price = 0.85P per kg (15% reduction)\n\n**Step 2: Express quantities bought**\n- At original price: Quantity = 2720/P kg\n- At reduced price: Quantity = 2720/(0.85P) kg\n\n**Step 3: Use the condition that 6 kg more is bought**\n$$\\frac{2720}{0.85P} - \\frac{2720}{P} = 6$$\n\n**Step 4: Solve for P**\n$$2720\\left(\\frac{1}{0.85P} - \\frac{1}{P}\\right) = 6$$\n\n$$2720\\left(\\frac{P - 0.85P}{0.85P^2}\\right) = 6$$\n\n$$2720 × \\frac{0.15P}{0.85P^2} = 6$$\n\n$$\\frac{2720 × 0.15}{0.85P} = 6$$\n\n$$P = \\frac{2720 × 0.15}{6 × 0.85} = \\frac{408}{5.1} = 80$$\n\n**Step 5: Find reduced price**\nReduced price = 0.85 × 80 = **₹68 per kg**\n\n✓ **Answer: 68**"
   },
   {
     "id": "maths_percentage_023",
@@ -273,7 +295,8 @@
       "26.35"
     ],
     "correctAnswer": "23.38",
-    "questionHi": "यदि चीनी की कीमत में 12% की कमी के कारण, अक्षत ₹1200 में 7 किलो अधिक चीनी खरीद सकता है, तो चीनी की वास्तविक कीमत ज्ञात करें।"
+    "questionHi": "यदि चीनी की कीमत में 12% की कमी के कारण, अक्षत ₹1200 में 7 किलो अधिक चीनी खरीद सकता है, तो चीनी की वास्तविक कीमत ज्ञात करें।",
+    "solution": "**Step 1: Set up the equation**\nLet the actual price of sugar = Rs x per kg\n\nOriginal quantity at price x: Quantity₁ = 1200/x kg\n\n**Step 2: Calculate new price after 12% decrease**\nNew price = x - 0.12x = 0.88x per kg\n\nNew quantity at reduced price: Quantity₂ = 1200/(0.88x) kg\n\n**Step 3: Use the condition that 7 kg more sugar can be bought**\nQuantity₂ - Quantity₁ = 7\n\n1200/(0.88x) - 1200/x = 7\n\n**Step 4: Solve for x**\n1200[1/(0.88x) - 1/x] = 7\n\n1200[(x - 0.88x)/(0.88x²)] = 7\n\n1200[0.12x/(0.88x²)] = 7\n\n(1200 × 0.12)/(0.88x) = 7\n\n144/(0.88x) = 7\n\n144 = 6.16x\n\nx = 144/6.16 = **23.38 Rs/kg**\n\n**Answer: 23.38** ✓"
   },
   {
     "id": "maths_percentage_024",
@@ -285,7 +308,8 @@
       "240 km"
     ],
     "correctAnswer": "200 km",
-    "questionHi": "कच्चे तेल की कीमतों में वृद्धि होने के कारण पेट्रोल की कीमत 10% बढ़ गई। कीमत बढ़ने से पहले पेट्रोल की कीमत ₹90 प्रति लीटर थी। एक व्यक्ति प्रति माह 2200 km यात्रा करता है और उसकी कार 16 km प्रति लीटर का माइलेज देती है। यदि वह अपना खर्च पहले जैसा बनाए रखना चाहता है, तो उसे अपनी यात्रा में कितने km की कमी करनी चाहिए?"
+    "questionHi": "कच्चे तेल की कीमतों में वृद्धि होने के कारण पेट्रोल की कीमत 10% बढ़ गई। कीमत बढ़ने से पहले पेट्रोल की कीमत ₹90 प्रति लीटर थी। एक व्यक्ति प्रति माह 2200 km यात्रा करता है और उसकी कार 16 km प्रति लीटर का माइलेज देती है। यदि वह अपना खर्च पहले जैसा बनाए रखना चाहता है, तो उसे अपनी यात्रा में कितने km की कमी करनी चाहिए?",
+    "solution": "# Step-by-Step Solution\n\n**Step 1: Calculate the new petrol price after 10% hike**\n- Original price = ₹90 per litre\n- Hike = 10% of ₹90 = ₹9\n- New price = ₹90 + ₹9 = ₹99 per litre\n\n**Step 2: Calculate petrol consumption for monthly travel**\n- Monthly travel = 2200 km\n- Mileage = 16 km per litre\n- Petrol needed = 2200 ÷ 16 = 137.5 litres\n\n**Step 3: Calculate original and new monthly expenditure**\n- Original expenditure = 137.5 × ₹90 = ₹12,375\n- To maintain same expenditure at new price: \n- Petrol allowed = ₹12,375 ÷ ₹99 = 125 litres\n\n**Step 4: Calculate reduced travel distance**\n- New travel distance = 125 × 16 = 2000 km\n- Reduction needed = 2200 - 2000 = **200 km**\n\n**Answer: 200 km** ✓"
   },
   {
     "id": "maths_percentage_025",
@@ -297,9 +321,9 @@
       "66.67%"
     ],
     "correctAnswer": "66.67%",
-    "questionHi": "एक निर्माण परियोजना को 180 दिनों में पूरा होने का अनुमान था। बारिश के कारण, केवल 58⅔% दिन ही उत्पादक थे। यदि प्रत्येक उत्पादक दिन में किया गया कार्य स्थिर है, तो परियोजना को समय पर पूरा करने के लिए दैनिक उत्पादन में कितने प्रतिशत की वृद्धि करनी होगी?"
+    "questionHi": "एक निर्माण परियोजना को 180 दिनों में पूरा होने का अनुमान था। बारिश के कारण, केवल 58⅔% दिन ही उत्पादक थे। यदि प्रत्येक उत्पादक दिन में किया गया कार्य स्थिर है, तो परियोजना को समय पर पूरा करने के लिए दैनिक उत्पादन में कितने प्रतिशत की वृद्धि करनी होगी?",
+    "solution": "# Solution:\n\n**Step 1: Calculate productive days**\n- Total days planned = 180 days\n- Productive days = 60% of 180 = 0.60 × 180 = 108 days\n- Non-productive days = 180 - 108 = 72 days\n\n**Step 2: Set up the work equation**\n- Original plan: Work completed in 180 days at rate 'r' per day\n- Total work = 180r\n\n**Step 3: Calculate new daily output required**\n- All 180 days must now be productive\n- New rate needed per day = Total work ÷ Total days\n- New rate = 180r ÷ 180 = r\n\nWait, let me recalculate:\n- Work done in 108 productive days at rate r = 108r\n- This 108r must equal the entire project (180r worth)\n- So: New rate × 180 = 180r\n- New rate = 180r ÷ 108 = (180/108)r = (5/3)r\n\n**Step 4: Calculate percentage increase**\n- Increase in output = (5/3)r - r = (5/3 - 3/3)r = (2/3)r\n- Percentage increase = (Increase ÷ Original) × 100\n- = [(2/3)r ÷ r] × 100\n- = (2/3) × 100\n- = 66."
   },
-
   {
     "id": "maths_percentage_026",
     "question": "A solution contains 16.5% of salt, from which 18 ltr of water is evaporated. Now concentration of salt in solution becomes 20.9%. Find the initial quantity of solution?",
@@ -310,7 +334,8 @@
       "75 ltr"
     ],
     "correctAnswer": "85.5 ltr",
-    "questionHi": "एक घोल में 16.5% नमक है, जिसमें से 18 लीटर पानी का वाष्पीकरण हो जाता है। अब घोल में नमक की सांद्रता 20.9% है। विलयन की प्रारंभिक मात्रा कितनी थी?"
+    "questionHi": "एक घोल में 16.5% नमक है, जिसमें से 18 लीटर पानी का वाष्पीकरण हो जाता है। अब घोल में नमक की सांद्रता 20.9% है। विलयन की प्रारंभिक मात्रा कितनी थी?",
+    "solution": "**Step 1: Set up the equation**\nLet the initial quantity of solution = x liters\n\nAmount of salt (remains constant) = 16.5% of x = 0.165x liters\n\n**Step 2: Write the equation after evaporation**\nAfter 18 liters of water evaporates:\n- New solution quantity = (x - 18) liters\n- Salt concentration = 20.9%\n\nSince salt quantity remains the same:\n0.165x = 0.209(x - 18)\n\n**Step 3: Solve for x**\n0.165x = 0.209x - 3.762\n\n0.165x - 0.209x = -3.762\n\n-0.044x = -3.762\n\nx = 3.762 ÷ 0.044\n\nx = 85.5 liters\n\n**Step 4: Verify**\n- Initial salt = 16.5% of 85.5 = 14.1075 liters\n- After evaporation: 14.1075 ÷ (85.5 - 18) = 14.1075 ÷ 67.5 = 0.209 = 20.9% ✓\n\n**Answer: 85.5 ltr**"
   },
   {
     "id": "maths_percentage_027",
@@ -322,7 +347,8 @@
       "2.09 L"
     ],
     "correctAnswer": "1.76 L",
-    "questionHi": "38% चीनी के घोल के 1440 मिलीलीटर में कितना पानी मिलाना चाहिए ताकि यह 17.1% चीनी का घोल बन जाए?"
+    "questionHi": "38% चीनी के घोल के 1440 मिलीलीटर में कितना पानी मिलाना चाहिए ताकि यह 17.1% चीनी का घोल बन जाए?",
+    "solution": "# Solution\n\n**Step 1: Calculate the amount of pure sugar in the original solution**\n- Pure sugar = 1440 × 38% = 1440 × 0.38 = 547.2 ml\n\n**Step 2: Set up equation for the final solution**\n- Let x ml of water be added\n- Final solution volume = (1440 + x) ml\n- Amount of sugar remains = 547.2 ml\n- Final concentration = 17.1%\n\n**Step 3: Apply the percentage formula**\n$$\\frac{547.2}{1440 + x} = \\frac{17.1}{100}$$\n\n**Step 4: Solve for x**\n- 547.2 × 100 = 17.1 × (1440 + x)\n- 54,720 = 24,624 + 17.1x\n- 30,096 = 17.1x\n- x = 1,760 ml = **1.76 L**\n\n**Answer: 1.76 L** ✓"
   },
   {
     "id": "maths_percentage_028",
@@ -334,7 +360,8 @@
       "33.6%"
     ],
     "correctAnswer": "33.6%",
-    "questionHi": "चीनी तथा पानी के 28 लीटर घोल में 26.4% चीनी है। घोल को गर्म करने पर 6 लीटर पानी वाष्पित हो जाता है। शेष घोल में चीनी का प्रतिशत कितना होगा?"
+    "questionHi": "चीनी तथा पानी के 28 लीटर घोल में 26.4% चीनी है। घोल को गर्म करने पर 6 लीटर पानी वाष्पित हो जाता है। शेष घोल में चीनी का प्रतिशत कितना होगा?",
+    "solution": "**Step 1:** Calculate the amount of sugar in the original solution.\n- Sugar = 26.4% of 28 ltr = 0.264 × 28 = 7.392 ltr\n\n**Step 2:** Determine the amount of sugar after evaporation.\n- Sugar remains the same during evaporation = 7.392 ltr\n\n**Step 3:** Calculate the remaining solution after boiling.\n- Remaining solution = 28 - 6 = 22 ltr\n\n**Step 4:** Calculate the new percentage of sugar.\n- New percentage = (7.392/22) × 100 = 33.6%\n\n**Answer: 33.6%** ✓"
   },
   {
     "id": "maths_percentage_029",
@@ -346,7 +373,8 @@
       "6"
     ],
     "correctAnswer": "7.2",
-    "questionHi": "एक व्यक्ति की वार्षिक आय में 1.2 लाख रुपये की वृद्धि होती है, परन्तु आयकर 12% से घटकर 10% हो जाता है। फिर भी वह उतना ही कर देता है जितना पहले देता था। उसकी बढ़ी हुई आय (लाख रुपये में) कितनी है?"
+    "questionHi": "एक व्यक्ति की वार्षिक आय में 1.2 लाख रुपये की वृद्धि होती है, परन्तु आयकर 12% से घटकर 10% हो जाता है। फिर भी वह उतना ही कर देता है जितना पहले देता था। उसकी बढ़ी हुई आय (लाख रुपये में) कितनी है?",
+    "solution": "**Step 1: Set up variables**\nLet original income = x lakhs\nIncreased income = (x + 1.2) lakhs\n\n**Step 2: Write tax equations**\n- Original tax = 12% of x = 0.12x\n- New tax = 10% of (x + 1.2) = 0.10(x + 1.2)\n\n**Step 3: Equate the taxes (given they're equal)**\n0.12x = 0.10(x + 1.2)\n\n**Step 4: Solve for x**\n0.12x = 0.10x + 0.12\n0.02x = 0.12\nx = 6 lakhs\n\n**Step 5: Find increased income**\nIncreased income = x + 1.2 = 6 + 1.2 = **7.2 lakhs**\n\n✓ Answer: **7.2**"
   },
   {
     "id": "maths_percentage_030",
@@ -358,7 +386,8 @@
       "16.5 lakh"
     ],
     "correctAnswer": "17.5 lakh",
-    "questionHi": "एक व्यक्ति की वार्षिक आय 4.5 लाख रुपये बढ़ जाती है, लेकिन आयकर 26% से घटकर 20% हो जाता है। फिर भी उसे 12000 रुपये अधिक आयकर देना पड़ता है। बढ़ी हुई आय (लाख रुपये में) ज्ञात करें।"
+    "questionHi": "एक व्यक्ति की वार्षिक आय 4.5 लाख रुपये बढ़ जाती है, लेकिन आयकर 26% से घटकर 20% हो जाता है। फिर भी उसे 12000 रुपये अधिक आयकर देना पड़ता है। बढ़ी हुई आय (लाख रुपये में) ज्ञात करें।",
+    "solution": "**Step 1: Set up variables**\nLet the original income = x lakhs\nIncreased income = (x + 4.5) lakhs\n\n**Step 2: Write tax equation**\n- Original tax = 26% of x = 0.26x\n- New tax = 20% of (x + 4.5) = 0.20(x + 4.5)\n- Difference in tax = Rs. 12,000 = 1.2 lakhs\n\n**Step 3: Form the equation**\nNew tax - Original tax = 1.2 lakhs\n\n0.20(x + 4.5) - 0.26x = 1.2\n\n0.20x + 0.9 - 0.26x = 1.2\n\n-0.06x + 0.9 = 1.2\n\n**Step 4: Solve for x**\n-0.06x = 0.3\n\nx = -0.3/(-0.06) = 5 lakhs\n\n**Step 5: Find increased income**\nIncreased income = x + 4.5 = 5 + 4.5 = **17.5 lakhs**\n\n**Verification:** \n- Original tax: 26% of 5 = 1.3 lakhs\n- New tax: 20% of 9.5 = 1.9 lakhs\n- Difference: 1.9 - 1.3 = 0.6 lak"
   },
   {
     "id": "maths_percentage_031",
@@ -370,7 +399,8 @@
       "97200"
     ],
     "correctAnswer": "79200",
-    "questionHi": "आयकर की दर 15.2% से बढ़कर 20.9% हो जाती है। इसके कारण गौरव को पिछले वर्ष की तुलना में 5.55% अधिक कर देना पड़ता है। लेकिन साथ ही उसकी आय 18400 रुपये घट जाती है। पिछले वर्ष उसकी आय ज्ञात कीजिए।"
+    "questionHi": "आयकर की दर 15.2% से बढ़कर 20.9% हो जाती है। इसके कारण गौरव को पिछले वर्ष की तुलना में 5.55% अधिक कर देना पड़ता है। लेकिन साथ ही उसकी आय 18400 रुपये घट जाती है। पिछले वर्ष उसकी आय ज्ञात कीजिए।",
+    "solution": "# Solution\n\n**Step 1: Set up the equation**\nLet Gaurav's income last year = Rs. x\n\n- Tax last year = 15.2% of x = 0.152x\n- Income this year = (x - 18400)\n- Tax this year = 20.9% of (x - 18400) = 0.209(x - 18400)\n\n**Step 2: Apply the condition that tax increased by 5.55%**\nNew tax = Old tax + 5.55% of old tax\n\n0.209(x - 18400) = 0.152x + 0.0555(0.152x)\n\n0.209(x - 18400) = 0.152x(1 + 0.0555)\n\n0.209(x - 18400) = 0.152x(1.0555)\n\n**Step 3: Expand and simplify**\n0.209x - 3844.56 = 0.160436x\n\n0.209x - 0.160436x = 3844.56\n\n0.048564x = 3844.56\n\n**Step 4: Solve for x**\nx = 3844.56 ÷ 0.048564\n\nx = 79,200\n\n**Verification:**\n- Tax last year: 0.152 × 79200 = Rs. 12,038.4\n- Income this year: 79200 - 18400 = Rs. 60,"
   },
   {
     "id": "maths_percentage_032",
@@ -382,7 +412,8 @@
       "28%"
     ],
     "correctAnswer": "28%",
-    "questionHi": "पेट्रोल के मूल्य (प्रति लीटर) में 75% की वृद्धि होती है। इसकी खपत में कितने प्रतिशत की कमी कर दी जाए कि इस पर होने वाले व्यय में केवल 26% की वृद्धि हो?"
+    "questionHi": "पेट्रोल के मूल्य (प्रति लीटर) में 75% की वृद्धि होती है। इसकी खपत में कितने प्रतिशत की कमी कर दी जाए कि इस पर होने वाले व्यय में केवल 26% की वृद्धि हो?",
+    "solution": "**Step 1: Set up the relationship**\nLet initial price = P, initial consumption = C, initial expenditure = P × C\n\n**Step 2: Express final values**\n- New price = P + 75% of P = 1.75P\n- New expenditure = P × C + 26% of (P × C) = 1.26PC\n- New consumption = C' (to find)\n\n**Step 3: Use expenditure formula**\nNew price × New consumption = New expenditure\n\n1.75P × C' = 1.26PC\n\n**Step 4: Solve for C'**\nC' = 1.26PC / 1.75P\n\nC' = 1.26C / 1.75\n\nC' = 0.72C\n\n**Step 5: Calculate percentage reduction**\nReduction in consumption = C - 0.72C = 0.28C\n\nPercentage reduction = (0.28C / C) × 100 = **28%**\n\n**Answer: 28%** ✓"
   },
   {
     "id": "maths_percentage_033",
@@ -394,7 +425,8 @@
       "8.1 kg"
     ],
     "correctAnswer": "8.6 kg",
-    "questionHi": "जब चीनी के मूल्य में 53% की वृद्धि हुई, तो एक परिवार ने इसकी मासिक खपत इतनी कम कर दी कि अब चीनी पर होने वाला व्यय पहले की तुलना में केवल 19% अधिक था। यदि पहले मासिक खपत 38.7 किलोग्राम थी, तो खपत में कितनी कमी हुई?"
+    "questionHi": "जब चीनी के मूल्य में 53% की वृद्धि हुई, तो एक परिवार ने इसकी मासिक खपत इतनी कम कर दी कि अब चीनी पर होने वाला व्यय पहले की तुलना में केवल 19% अधिक था। यदि पहले मासिक खपत 38.7 किलोग्राम थी, तो खपत में कितनी कमी हुई?",
+    "solution": "# Step-by-Step Solution:\n\n**Step 1: Define variables**\n- Original consumption = 38.7 kg\n- Let original price = P per kg\n- Original expenditure = 38.7P\n\n**Step 2: Calculate new price and expenditure**\n- New price = P + 53% of P = 1.53P\n- New expenditure = 38.7P + 19% of 38.7P = 1.19 × 38.7P = 46.053P\n\n**Step 3: Find new consumption**\n- New consumption × New price = New expenditure\n- New consumption × 1.53P = 46.053P\n- New consumption = 46.053P ÷ 1.53P = 30.1 kg\n\n**Step 4: Calculate reduction in consumption**\n- Reduction = Original consumption - New consumption\n- Reduction = 38.7 - 30.1 = 8.6 kg\n\n**Answer: 8.6 kg** ✓"
   },
   {
     "id": "maths_percentage_034",
@@ -406,7 +438,8 @@
       "11.11%"
     ],
     "correctAnswer": "15.15%",
-    "questionHi": "यदि कोई छात्र किसी संख्या को 11/16 के बजाय 7/12 से गुणा करता है, तो प्राप्त उत्तर में प्रतिशत त्रुटि कितनी होगी?"
+    "questionHi": "यदि कोई छात्र किसी संख्या को 11/16 के बजाय 7/12 से गुणा करता है, तो प्राप्त उत्तर में प्रतिशत त्रुटि कितनी होगी?",
+    "solution": "# Solution\n\n**Step 1:** Let the original number be x.\n\n**Step 2:** Calculate what should be done (correct calculation):\n- Correct result = x × (11/16)\n\n**Step 3:** Calculate what was actually done (incorrect calculation):\n- Incorrect result = x × (7/12)\n\n**Step 4:** Find the difference:\n- Difference = x × (11/16) - x × (7/12)\n- = x[(11/16) - (7/12)]\n- = x[(33 - 28)/48]\n- = x(5/48)\n\n**Step 5:** Calculate percentage error:\n- Percentage Error = (Difference / Correct Value) × 100\n- = [x(5/48)] / [x(11/16)] × 100\n- = (5/48) × (16/11) × 100\n- = (80/528) × 100\n- = (5/33) × 100\n- = 500/33\n- = **15.15%**\n\n**Answer: 15.15%** ✓"
   },
   {
     "id": "maths_percentage_035",
@@ -418,9 +451,9 @@
       "28%"
     ],
     "correctAnswer": "33.6%",
-    "questionHi": "यदि A, B से 28% अधिक है और C, A तथा B के योग से 25% कम है, तो C, A से कितने प्रतिशत अधिक होगा? (एक दशमलव स्थान तक)"
+    "questionHi": "यदि A, B से 28% अधिक है और C, A तथा B के योग से 25% कम है, तो C, A से कितने प्रतिशत अधिक होगा? (एक दशमलव स्थान तक)",
+    "solution": "**Step 1: Express A in terms of B**\n- A is 28% more than B\n- A = B + 0.28B = 1.28B\n\n**Step 2: Find the sum of A and B**\n- A + B = 1.28B + B = 2.28B\n\n**Step 3: Express C in terms of B**\n- C is 25% less than (A + B)\n- C = (A + B) - 0.25(A + B) = 0.75(A + B)\n- C = 0.75 × 2.28B = 1.71B\n\n**Step 4: Calculate by what percent C is more than A**\n- Difference = C - A = 1.71B - 1.28B = 0.43B\n- Percentage more = (Difference/A) × 100\n- = (0.43B/1.28B) × 100\n- = (0.43/1.28) × 100\n- = 0.3359 × 100\n- = 33.59% ≈ **33.6%**\n\n**Answer: 33.6%** ✓"
   },
-
   {
     "id": "maths_percentage_036",
     "question": "If A’s income is 40% of B’s income and B’s income is 24% more than C’s income, then by what percentage is C’s income more than A’s income?",
@@ -431,7 +464,8 @@
       "101.6%"
     ],
     "correctAnswer": "101.6%",
-    "questionHi": "यदि A की आय, B की आय का 40% है तथा B की आय, C की आय से 24% अधिक है, तो C की आय, A की आय से कितने प्रतिशत अधिक है?"
+    "questionHi": "यदि A की आय, B की आय का 40% है तथा B की आय, C की आय से 24% अधिक है, तो C की आय, A की आय से कितने प्रतिशत अधिक है?",
+    "solution": "**Step 1: Set C's income as base value**\nLet C's income = 100\n\n**Step 2: Find B's income**\nB's income is 24% more than C's income\nB = 100 + (24% of 100) = 100 + 24 = 124\n\n**Step 3: Find A's income**\nA's income is 40% of B's income\nA = 40% of 124 = 0.40 × 124 = 49.6\n\n**Step 4: Calculate percentage difference**\nHow much more is C's income than A's income = 100 - 49.6 = 50.4\n\nPercentage more = (Difference/A's income) × 100\n= (50.4/49.6) × 100\n= 1.016 × 100\n= 101.6%\n\n**Answer: 101.6%** ✓"
   },
   {
     "id": "maths_percentage_037",
@@ -443,7 +477,8 @@
       "2.45%"
     ],
     "correctAnswer": "2.22%",
-    "questionHi": "यदि पहली संख्या तीसरी संख्या से 8 1/3% कम है तथा दूसरी और तीसरी संख्या का अनुपात 15:16 है, तो पहली और तीसरी संख्या का औसत दूसरी संख्या से कितने प्रतिशत अधिक है?"
+    "questionHi": "यदि पहली संख्या तीसरी संख्या से 8 1/3% कम है तथा दूसरी और तीसरी संख्या का अनुपात 15:16 है, तो पहली और तीसरी संख्या का औसत दूसरी संख्या से कितने प्रतिशत अधिक है?",
+    "solution": "**Step 1: Assign values using the given ratio**\n- Let second number = 15k and third number = 16k\n\n**Step 2: Find the first number**\n- First number is 8⅓% less than third number\n- 8⅓% = 25/3%\n- First number = 16k - (25/3)% of 16k\n- First number = 16k - (25/300) × 16k = 16k - (4k/3)\n- First number = (48k - 4k)/3 = 44k/3\n\n**Step 3: Calculate average of first and third**\n- Average = (44k/3 + 16k)/2\n- Average = (44k/3 + 48k/3)/2 = (92k/3)/2 = 46k/3\n\n**Step 4: Find percentage difference**\n- Difference = 46k/3 - 15k = (46k - 45k)/3 = k/3\n- Percentage more = (k/3)/(15k) × 100\n- = (1/45) × 100 = 100/45 = 2.222...%\n- = 2.22%\n\n**Answer: 2.22%** ✓"
   },
   {
     "id": "maths_percentage_038",
@@ -455,7 +490,8 @@
       "39"
     ],
     "correctAnswer": "24",
-    "questionHi": "A, B का 120% है तथा B, C का 65% है। यदि A, B तथा C का योग 121.5 है, तो C – 2B + A का मान ज्ञात कीजिए।"
+    "questionHi": "A, B का 120% है तथा B, C का 65% है। यदि A, B तथा C का योग 121.5 है, तो C – 2B + A का मान ज्ञात कीजिए।",
+    "solution": "**Step 1: Express A and B in terms of C**\n\nGiven: A = 120% of B → A = 1.2B\nGiven: B = 65% of C → B = 0.65C\n\nTherefore: A = 1.2 × 0.65C = 0.78C\n\n**Step 2: Find the value of C using the sum condition**\n\nA + B + C = 121.5\n\n0.78C + 0.65C + C = 121.5\n\n2.43C = 121.5\n\nC = 50\n\n**Step 3: Calculate B and A**\n\nB = 0.65 × 50 = 32.5\n\nA = 0.78 × 50 = 39\n\n**Step 4: Find C – 2B + A**\n\nC – 2B + A = 50 – 2(32.5) + 39\n\n= 50 – 65 + 39\n\n= **24**\n\n**Answer confirmed: 24**"
   },
   {
     "id": "maths_percentage_039",
@@ -467,7 +503,8 @@
       "Rs. 72,000"
     ],
     "correctAnswer": "Rs. 73,500",
-    "questionHi": "A की आय, B की आय से 45% अधिक है तथा C की आय, A और B की आय के योग से 60% कम है। D की आय, C की आय से 20% अधिक है। यदि B तथा D की आय का अंतर ₹13,200 है, तो C की आय ज्ञात कीजिए।"
+    "questionHi": "A की आय, B की आय से 45% अधिक है तथा C की आय, A और B की आय के योग से 60% कम है। D की आय, C की आय से 20% अधिक है। यदि B तथा D की आय का अंतर ₹13,200 है, तो C की आय ज्ञात कीजिए।",
+    "solution": "**Step 1: Express all incomes in terms of B's income**\n\nLet B's income = B\n\nA's income = B + 45% of B = 1.45B\n\n**Step 2: Find C's income**\n\nSum of A and B's incomes = 1.45B + B = 2.45B\n\nC's income = 2.45B - 60% of 2.45B = 2.45B × 0.40 = 0.98B\n\n**Step 3: Find D's income**\n\nD's income = C + 20% of C = 0.98B × 1.20 = 1.176B\n\n**Step 4: Use the given condition**\n\nDifference between B and D = B - 1.176B = -0.176B\n\nSince D's income is more than B's: 1.176B - B = 13,200\n\n0.176B = 13,200\n\nB = 75,000\n\n**Step 5: Calculate C's income**\n\nC's income = 0.98B = 0.98 × 75,000 = **Rs. 73,500**\n\n✓ **Answer confirmed: Rs. 73,500**"
   },
   {
     "id": "maths_percentage_040",
@@ -479,7 +516,8 @@
       "1.86 percent more"
     ],
     "correctAnswer": "1.72 percent less",
-    "questionHi": "A, B से 20% अधिक है। B, C से 30% अधिक है। C, D से 10% कम है तथा D, E से 30% कम है। A, E से कितने प्रतिशत कम है?"
+    "questionHi": "A, B से 20% अधिक है। B, C से 30% अधिक है। C, D से 10% कम है तथा D, E से 30% कम है। A, E से कितने प्रतिशत कम है?",
+    "solution": "**Step 1: Assign a base value**\nLet C = 100\n\n**Step 2: Express all variables in terms of C**\n- C = 100\n- B is 30% more than C → B = 100 + 30% of 100 = 130\n- A is 20% more than B → A = 130 + 20% of 130 = 130 × 1.20 = 156\n- C is 10% less than D → D = 100 ÷ 0.90 = 111.11\n- D is 30% less than E → E = 111.11 ÷ 0.70 = 158.73\n\n**Step 3: Calculate the percentage difference between A and E**\nDifference = E - A = 158.73 - 156 = 2.73\n\nPercentage = (Difference ÷ E) × 100\n= (2.73 ÷ 158.73) × 100\n= 1.72%\n\n**Step 4: Determine the direction**\nSince E > A, A is less than E\n\n**Answer: A is 1.72 percent less than E** ✓"
   },
   {
     "id": "maths_percentage_041",
@@ -491,7 +529,8 @@
       "C is 24% less than A"
     ],
     "correctAnswer": "A is 40% less than D",
-    "questionHi": "A, B से 20% अधिक है, B, C से 25% अधिक है, C, D से 60% कम है तथा D, E से 20% अधिक है। उपरोक्त जानकारी के आधार पर निम्नलिखित में से कौन-सा कथन सत्य है?"
+    "questionHi": "A, B से 20% अधिक है, B, C से 25% अधिक है, C, D से 60% कम है तथा D, E से 20% अधिक है। उपरोक्त जानकारी के आधार पर निम्नलिखित में से कौन-सा कथन सत्य है?",
+    "solution": "**Step 1: Assign a variable to the base value**\nLet E = 100\n\n**Step 2: Calculate D, C, B, and A using the given relationships**\n- D is 20% more than E: D = 100 + 20% of 100 = 120\n- C is 60% less than D: C = 120 - 60% of 120 = 120 - 72 = 48\n- B is 25% more than C: B = 48 + 25% of 48 = 48 + 12 = 60\n- A is 20% more than B: A = 60 + 20% of 60 = 60 + 12 = 72\n\n**Step 3: Verify each option**\n- Option 1: D is 60% less than B? → 60 - 60% of 60 = 24 ≠ 120 ✗\n- Option 2: E is 28% more than A? → 72 + 28% of 72 = 92.16 ≠ 100 ✗\n- Option 3: A is 40% less than D? → 120 - 40% of 120 = 72 = A ✓\n- Option 4: C is 24% less than A? → 72 - 24% of 72 = 54.72 ≠ 48 ✗\n\n**Confirmed"
   },
   {
     "id": "maths_percentage_042",
@@ -503,9 +542,9 @@
       "33"
     ],
     "correctAnswer": "18",
-    "questionHi": "एक से बड़ी किसी संख्या के लिए, उस संख्या तथा उसके व्युत्क्रम का अंतर, उनके योग का 20% है। संख्या का वर्ग, उसके घन से कितने प्रतिशत (निकटतम पूर्णांक) कम है?"
+    "questionHi": "एक से बड़ी किसी संख्या के लिए, उस संख्या तथा उसके व्युत्क्रम का अंतर, उनके योग का 20% है। संख्या का वर्ग, उसके घन से कितने प्रतिशत (निकटतम पूर्णांक) कम है?",
+    "solution": "**Step 1: Set up the equation**\nLet the number be x (where x > 1).\nGiven: x - 1/x = 0.20(x + 1/x)\n\n**Step 2: Solve for x**\nx - 1/x = 0.2x + 0.2/x\nx - 0.2x = 1/x + 0.2/x\n0.8x = 1.2/x\n0.8x² = 1.2\nx² = 1.5\nx = √1.5 ≈ 1.225\n\n**Step 3: Calculate x² and x³**\n- x² = 1.5\n- x³ = x × x² = √1.5 × 1.5 = 1.5√1.5 ≈ 1.837\n\n**Step 4: Find the percentage difference**\nPercentage by which x² is less than x³:\n= [(x³ - x²)/x³] × 100\n= [(1.837 - 1.5)/1.837] × 100\n= [0.337/1.837] × 100\n≈ 18.35%\n\n**Nearest integer = 18%**\n\n**Answer: 18** ✓"
   },
-
   {
     "id": "maths_percentage_043",
     "question": "A government servant spends 76% of his income. If his income is increased by 14%, and his expenditure is increased by 10%, then find the percentage increase in his savings (correct to 2 decimal places).",
@@ -516,7 +555,8 @@
       "28.33%"
     ],
     "correctAnswer": "26.67%",
-    "questionHi": "एक सरकारी कर्मचारी अपनी आय का 76% खर्च करता है। यदि उसकी आय में 14% की वृद्धि हो और उसके खर्च में 10% की वृद्धि हो, तो उसकी बचत में प्रतिशत वृद्धि (दो दशमलव स्थान तक) ज्ञात कीजिए।"
+    "questionHi": "एक सरकारी कर्मचारी अपनी आय का 76% खर्च करता है। यदि उसकी आय में 14% की वृद्धि हो और उसके खर्च में 10% की वृद्धि हो, तो उसकी बचत में प्रतिशत वृद्धि (दो दशमलव स्थान तक) ज्ञात कीजिए।",
+    "solution": "**Step 1: Find initial savings percentage**\n- Spends = 76% of income\n- Savings = 100% - 76% = 24% of income\n\n**Step 2: Assume initial income and calculate initial values**\n- Let initial income = 100\n- Initial expenditure = 76\n- Initial savings = 24\n\n**Step 3: Calculate new income and expenditure**\n- New income = 100 + 14% of 100 = 114\n- New expenditure = 76 + 10% of 76 = 76 + 7.6 = 83.6\n\n**Step 4: Calculate new savings**\n- New savings = 114 - 83.6 = 30.4\n\n**Step 5: Find percentage increase in savings**\n- Increase in savings = 30.4 - 24 = 6.4\n- Percentage increase = (6.4/24) × 100 = 26.67%\n\n**Answer: 26.67%** ✓"
   },
   {
     "id": "maths_percentage_044",
@@ -528,7 +568,8 @@
       "22%"
     ],
     "correctAnswer": "25%",
-    "questionHi": "अनु अपनी मासिक आय का 68% खर्च करती है। यदि उसकी मासिक आय में 20% की वृद्धि हो और उसकी मासिक बचत में 9 3/8% की वृद्धि हो, तो उसके मासिक व्यय में कितने प्रतिशत वृद्धि होगी?"
+    "questionHi": "अनु अपनी मासिक आय का 68% खर्च करती है। यदि उसकी मासिक आय में 20% की वृद्धि हो और उसकी मासिक बचत में 9 3/8% की वृद्धि हो, तो उसके मासिक व्यय में कितने प्रतिशत वृद्धि होगी?",
+    "solution": "**Step 1: Set up initial values**\nLet monthly income = 100\n- Expenditure = 68% of 100 = 68\n- Savings = 100 - 68 = 32\n\n**Step 2: Calculate new income and savings**\nNew income = 100 + 20% of 100 = 120\n\nNew savings = 32 + 9(3/8)% of 32\n- 9(3/8)% = 75/8 %\n- Increase in savings = (75/8)/100 × 32 = (75 × 32)/(8 × 100) = 2400/800 = 3\n- New savings = 32 + 3 = 35\n\n**Step 3: Find new expenditure**\nNew expenditure = New income - New savings\n- New expenditure = 120 - 35 = 85\n\n**Step 4: Calculate percentage increase in expenditure**\nIncrease in expenditure = 85 - 68 = 17\n\nPercentage increase = (17/68) × 100 = 25%\n\n**The answer is 25%** ✓"
   },
   {
     "id": "maths_percentage_045",
@@ -540,7 +581,8 @@
       "20.5%"
     ],
     "correctAnswer": "17.5%",
-    "questionHi": "राघव अपनी आय का 80% खर्च करता है। यदि उसकी आय में 12% की वृद्धि होती है और बचत में 10% की कमी होती है, तो उसके खर्च में वृद्धि प्रतिशत क्या होगी?"
+    "questionHi": "राघव अपनी आय का 80% खर्च करता है। यदि उसकी आय में 12% की वृद्धि होती है और बचत में 10% की कमी होती है, तो उसके खर्च में वृद्धि प्रतिशत क्या होगी?",
+    "solution": "**Step 1: Set up initial values**\n- Let Raghav's initial income = 100\n- Expenditure = 80% of 100 = 80\n- Savings = 20% of 100 = 20\n\n**Step 2: Calculate new income and savings**\n- New income = 100 + 12% of 100 = 112\n- New savings = 20 - 10% of 20 = 20 - 2 = 18\n\n**Step 3: Find new expenditure**\n- New expenditure = New income - New savings\n- New expenditure = 112 - 18 = 94\n\n**Step 4: Calculate percentage increase in expenditure**\n- Increase in expenditure = 94 - 80 = 14\n- Percentage increase = (14/80) × 100 = 17.5%\n\n**Answer: 17.5%** ✓"
   },
   {
     "id": "maths_percentage_046",
@@ -552,7 +594,8 @@
       "24.2%"
     ],
     "correctAnswer": "23.5%",
-    "questionHi": "सोनू अपनी आय का 15% बचाती है। यदि उसकी आय में 20% की वृद्धि होती है और वह पहले जितनी ही बचत करती है, तो उसके खर्च में कितने प्रतिशत की वृद्धि होगी?"
+    "questionHi": "सोनू अपनी आय का 15% बचाती है। यदि उसकी आय में 20% की वृद्धि होती है और वह पहले जितनी ही बचत करती है, तो उसके खर्च में कितने प्रतिशत की वृद्धि होगी?",
+    "solution": "**Step 1: Assume initial income and calculate initial savings**\nLet initial income = 100\nInitial savings = 15% of 100 = 15\nInitial expenditure = 100 - 15 = 85\n\n**Step 2: Calculate new income and new savings**\nNew income = 100 + 20% of 100 = 120\nNew savings = 15 (same as before)\n\n**Step 3: Calculate new expenditure**\nNew expenditure = 120 - 15 = 105\n\n**Step 4: Calculate percentage increase in expenditure**\nIncrease in expenditure = 105 - 85 = 20\nPercentage increase = (20/85) × 100 = 23.529...% ≈ 23.5%\n\n**Answer: 23.5%** ✓"
   },
   {
     "id": "maths_percentage_047",
@@ -564,7 +607,8 @@
       "48000"
     ],
     "correctAnswer": "40000",
-    "questionHi": "राजू की आय उसके खर्च से 44.44% अधिक है। यदि उसकी आय में 60% की वृद्धि होती है और उसके व्यय में 70% की वृद्धि होती है, तो उसकी बचत ₹12000 बढ़ जाती है। उसके प्रारम्भिक व्यय और प्रारम्भिक बचत का अंतर ज्ञात कीजिए।"
+    "questionHi": "राजू की आय उसके खर्च से 44.44% अधिक है। यदि उसकी आय में 60% की वृद्धि होती है और उसके व्यय में 70% की वृद्धि होती है, तो उसकी बचत ₹12000 बढ़ जाती है। उसके प्रारम्भिक व्यय और प्रारम्भिक बचत का अंतर ज्ञात कीजिए।",
+    "solution": "**Step 1: Set up the relationship between income and expenditure**\n\nLet initial expenditure = E\n\nGiven: Income is 44.44% more than expenditure\n- Initial Income (I) = E + 0.4444E = E(1 + 4/9) = 13E/9\n\n**Step 2: Calculate initial savings**\n\nInitial Savings (S) = I - E = 13E/9 - E = 13E/9 - 9E/9 = 4E/9\n\n**Step 3: Calculate new income and expenditure after increases**\n\n- New Income = 13E/9 × 1.60 = 20.8E/9\n- New Expenditure = E × 1.70 = 1.7E\n\n**Step 4: Calculate new savings and find the increase**\n\nNew Savings = 20.8E/9 - 1.7E = 20.8E/9 - 15.3E/9 = 5.5E/9\n\nIncrease in Savings = 5.5E/9 - 4E/9 = 1.5E/9 = E/6\n\nGiven: Increase in savings = Rs. 12,000\n- E/6 = 12,000\n- E = 72,000\n\n**Step 5: Find the difference between initial expenditure and initial savings**\n\n- Initial Expenditure = E = 72,000\n- Initial Savings = 4E/9 ="
   },
   {
     "id": "maths_percentage_048",
@@ -576,7 +620,8 @@
       "decrease by ₹2,753"
     ],
     "correctAnswer": "decrease by ₹2,751",
-    "questionHi": "रमन की आय ₹91,700 है। वह अपनी आय का 25% बचाता है। यदि उसकी आय में 27% की वृद्धि होती है और व्यय में 40% की वृद्धि होती है, तो उसकी बचत में क्या परिवर्तन होगा?"
+    "questionHi": "रमन की आय ₹91,700 है। वह अपनी आय का 25% बचाता है। यदि उसकी आय में 27% की वृद्धि होती है और व्यय में 40% की वृद्धि होती है, तो उसकी बचत में क्या परिवर्तन होगा?",
+    "solution": "**Step 1: Calculate initial savings and expenditure**\n- Initial Income = ₹91,700\n- Initial Savings = 25% of ₹91,700 = 0.25 × 91,700 = ₹22,925\n- Initial Expenditure = 75% of ₹91,700 = 0.75 × 91,700 = ₹68,775\n\n**Step 2: Calculate new income and new expenditure**\n- New Income = 91,700 + 27% of 91,700 = 91,700 × 1.27 = ₹116,459\n- New Expenditure = 68,775 + 40% of 68,775 = 68,775 × 1.40 = ₹96,285\n\n**Step 3: Calculate new savings**\n- New Savings = New Income - New Expenditure\n- New Savings = 116,459 - 96,285 = ₹20,174\n\n**Step 4: Find the change in savings**\n- Change = New Savings - Initial Savings\n- Change = 20,174 - 22,925 = -₹2,751\n\n**Answer: Savings will decrease by ₹2,751** ✓"
   },
   {
     "id": "maths_percentage_049",
@@ -588,7 +633,8 @@
       "3 : 2"
     ],
     "correctAnswer": "7 : 3",
-    "questionHi": "P और Q का वेतन मिलाकर ₹9,60,000 है। P और Q अपने-अपने वेतन का क्रमशः 64% और 44% बचाते हैं। यदि P का व्यय, Q के व्यय का 1.5 गुना है, तो P और Q के वेतन का अनुपात क्या है?"
+    "questionHi": "P और Q का वेतन मिलाकर ₹9,60,000 है। P और Q अपने-अपने वेतन का क्रमशः 64% और 44% बचाते हैं। यदि P का व्यय, Q के व्यय का 1.5 गुना है, तो P और Q के वेतन का अनुपात क्या है?",
+    "solution": "**Step 1: Set up variables and express expenditures**\n\nLet P's salary = P and Q's salary = Q\n\n- P saves 64%, so P's expenditure = 36% of P = 0.36P\n- Q saves 44%, so Q's expenditure = 56% of Q = 0.56Q\n\n**Step 2: Use the expenditure relationship**\n\nGiven: P's expenditure = 1.5 × Q's expenditure\n\n0.36P = 1.5 × 0.56Q\n\n0.36P = 0.84Q\n\n**Step 3: Find the ratio of P to Q**\n\nP/Q = 0.84/0.36 = 84/36 = 7/3\n\nTherefore, P : Q = 7 : 3\n\n**Step 4: Verify with given condition**\n\nP + Q = 9,60,000\n\nIf ratio is 7:3, then P = 7x and Q = 3x\n- 7x + 3x = 9,60,000 ✓ (This confirms our ratio works)\n\n**Answer: 7 : 3** ✓"
   },
   {
     "id": "maths_percentage_050",
@@ -600,321 +646,346 @@
       "34400"
     ],
     "correctAnswer": "34400",
-    "questionHi": "A और B के वेतन का योग ₹43,000 है। A अपने वेतन का 95% खर्च करता है और B अपने वेतन का 80% खर्च करता है। यदि उनकी बचत समान है, तो A का वेतन कितना है?"
+    "questionHi": "A और B के वेतन का योग ₹43,000 है। A अपने वेतन का 95% खर्च करता है और B अपने वेतन का 80% खर्च करता है। यदि उनकी बचत समान है, तो A का वेतन कितना है?",
+    "solution": "**Step 1: Set up the equations**\nLet A's salary = ₹x and B's salary = ₹y\n- x + y = 43,000 ... (equation 1)\n\n**Step 2: Express savings**\n- A's savings = 5% of x = 0.05x\n- B's savings = 20% of y = 0.20y\n\n**Step 3: Use the condition that savings are equal**\n0.05x = 0.20y\n- x = 4y ... (equation 2)\n\n**Step 4: Substitute in equation 1**\n4y + y = 43,000\n- 5y = 43,000\n- y = 8,600\n\n**Step 5: Find A's salary**\nx = 4y = 4 × 8,600 = **₹34,400**\n\n**Answer: 34400 ✓**"
   },
-    {
-      "id": "maths_percentage_099",
-      "question": "At the beginning of day 1 of a month, Rajesh has 500 eggs. He sells 20% of the eggs by the end of the day and added b% of the eggs at the beginning of the next day and sold 20% of the eggs at the end of the next day. This pattern continued up to the end of the third day of the month when he is left with 1024 eggs. The value of b is equal to:",
-      "options": [
-        "220",
-        "10",
-        "500",
-        "100"
-      ],
-      "correctAnswer": "100",
-      "questionHi": "महीने के पहले दिन की शुरुआत में, राजेश के पास 500 अंडे हैं। वह दिन के अंत तक 20% अंडे बेचता है और अगले दिन की शुरुआत में b% अंडे जोड़ता है तथा दिन के अंत में 20% अंडे बेचता है। यह क्रम तीसरे दिन के अंत तक जारी रहता है, जब उसके पास 1024 अंडे बचते हैं। b का मान क्या है?"
-    },
-    {
-      "id": "maths_percentage_100",
-      "question": "The price of a commodity is increased by 36% and the quantity purchased is decreased by 30%. What is the percentage increase/decrease in the amount spent on the commodity?",
-      "options": [
-        "6%, Increase",
-        "4.8%, Increase",
-        "6%, Decrease",
-        "4.8%, Decrease"
-      ],
-      "correctAnswer": "4.8%, Decrease",
-      "questionHi": "एक वस्तु की कीमत में 36% की वृद्धि हुई है और खरीदी गई मात्रा में 30% की कमी हुई है। वस्तु पर खर्च की गई राशि में प्रतिशत वृद्धि/कमी क्या है?"
-    },
-    {
-      "id": "maths_percentage_101",
-      "question": "In a company, all employees are getting equal wages. If the number of employees is increased by 20% and their wages per head are decreased by 18%, what is the percentage decrease in total wages?",
-      "options": [
-        "2.4%",
-        "1%",
-        "1.6%",
-        "1.4%"
-      ],
-      "correctAnswer": "1.6%",
-      "questionHi": "एक कंपनी में सभी कर्मचारियों को समान वेतन मिल रहा है। यदि कर्मचारियों की संख्या 20% बढ़ जाती है और उनका प्रति व्यक्ति वेतन 18% कम हो जाता है, तो कुल वेतन में कितने प्रतिशत की कमी होगी?"
-    },
-    {
-      "id": "maths_percentage_102",
-      "question": "Basir’s working hours per day were increased by 15% and his wages per hour were increased by 20%. By how much percent did his daily earnings increase?",
-      "options": [
-        "35",
-        "38",
-        "36",
-        "40"
-      ],
-      "correctAnswer": "38",
-      "questionHi": "बसीर का कार्य-समय प्रतिदिन 15% बढ़ गया और उसका वेतन प्रति घंटे 20% बढ़ गया। उसकी दैनिक आय कितने प्रतिशत बढ़ गई?"
-    },
-    {
-      "id": "maths_percentage_103",
-      "question": "When the price of an item was reduced by 35%, then its sale was increased by x%. If there is an increase of 17% in the receipt of the revenue, then the value of x will be:",
-      "options": [
-        "84",
-        "80",
-        "60",
-        "75"
-      ],
-      "correctAnswer": "80",
-      "questionHi": "जब किसी वस्तु की कीमत में 35% की कमी की गई, तब उसकी बिक्री में x% की वृद्धि हुई। यदि राजस्व प्राप्ति में 17% की वृद्धि होती है, तो x का मान क्या होगा?"
-    },
-    {
-      "id": "maths_percentage_104",
-      "question": "If the length of a rectangle is increased by 13% and the breadth of the rectangle is decreased by 8%, then percentage change in the area of the rectangle will be:",
-      "options": [
-        "5.4% decreased",
-        "1.2% increased",
-        "3.96% increased",
-        "4.06% increased"
-      ],
-      "correctAnswer": "3.96% increased",
-      "questionHi": "यदि किसी आयत की लंबाई 13% बढ़ जाती है और चौड़ाई 8% कम हो जाती है, तो आयत के क्षेत्रफल में प्रतिशत परिवर्तन क्या होगा?"
-    },
-    {
-      "id": "maths_percentage_105",
-      "question": "Aswin bought a new plot which need to be fenced immediately, due to this the length as well as the breadth of the rectangular working place is reduced by 14%. Find the % decrease in the area.",
-      "options": [
-        "26.04%",
-        "24.04%",
-        "18.04%",
-        "20.04%"
-      ],
-      "correctAnswer": "26.04%",
-      "questionHi": "अश्विन ने एक नया प्लॉट खरीदा है जिसकी तुरंत बाड़ लगाने की जरूरत है। इस वजह से आयताकार कार्यस्थल की लंबाई और चौड़ाई दोनों में 14% की कमी हो गई है। क्षेत्रफल में हुई % कमी ज्ञात कीजिए।"
-    },
-    {
-      "id": "maths_percentage_106",
-      "question": "If the area of a square is decreased by 19%, then the diagonal of the square is decreased by:",
-      "options": [
-        "10%",
-        "15%",
-        "5%",
-        "12%"
-      ],
-      "correctAnswer": "10%",
-      "questionHi": "यदि किसी वर्ग के क्षेत्रफल में 19% की कमी हुई, तो वर्ग के विकर्ण में कितनी कमी होगी?"
-    },
-    {
-      "id": "maths_percentage_107",
-      "question": "The radius of a circle is increased so that its circumference increases by 15%. The area of the circle will increase by:",
-      "options": [
-        "31.25%",
-        "32.25%",
-        "33.25%",
-        "34%"
-      ],
-      "correctAnswer": "32.25%",
-      "questionHi": "एक वृत्त की त्रिज्या इस प्रकार बढ़ जाती है ताकि इसकी परिधि 15% बढ़ जाए। वृत्त के क्षेत्रफल में कितनी प्रतिशत वृद्धि होगी?"
-    },
-    {
-      "id": "maths_percentage_108",
-      "question": "In a triangle height is increased by 37.5% and base is increased by 45.45%. Then find the percentage increase in area of triangle?",
-      "options": [
-        "200%",
-        "100%",
-        "125%",
-        "150%"
-      ],
-      "correctAnswer": "100%",
-      "questionHi": "एक त्रिभुज की ऊँचाई में 37.5% और आधार में 45.45% की वृद्धि हुई है। त्रिभुज के क्षेत्रफल में प्रतिशत वृद्धि ज्ञात कीजिए।"
-    },
-    {
-      "id": "maths_percentage_109",
-      "question": "The base of a triangle is increased by 40%. By what percentage (correct to two decimal places) should its height be increased so that the area increases by 60%?",
-      "options": [
-        "14.29%",
-        "20.01%",
-        "15.54%",
-        "18.62%"
-      ],
-      "correctAnswer": "14.29%",
-      "questionHi": "एक त्रिभुज के आधार में 40% की वृद्धि की गई। इसकी ऊँचाई कितने प्रतिशत (दशमलव के दो स्थानों तक सही) बढ़ाई जानी चाहिए ताकि क्षेत्रफल में 60% की वृद्धि हो जाए?"
-    },
-    {
-      "id": "maths_percentage_110",
-      "question": "The length, breadth and height of a room in the shape of a cuboid are increased by 15%, 20% and 30% respectively. Find the percentage change in the volume of the cuboid.",
-      "options": [
-        "79.4% increase",
-        "79.4% decrease",
-        "83.4% increase",
-        "83.4% decrease"
-      ],
-      "correctAnswer": "79.4% increase",
-      "questionHi": "एक घनाभ आकार के कमरे की लंबाई, चौड़ाई और ऊँचाई में क्रमशः 15%, 20% और 30% की वृद्धि की जाती है। घनाभ के आयतन में प्रतिशत परिवर्तन ज्ञात कीजिए।"
-    },
-    {
-      "id": "maths_percentage_111",
-      "question": "If each side of a cube is decreased by 12%, then the percentage decrease in its surface area is:",
-      "options": [
-        "25.66%",
-        "22.56%",
-        "26.54%",
-        "28.23%"
-      ],
-      "correctAnswer": "22.56%",
-      "questionHi": "यदि एक घन की प्रत्येक भुजा में 12% की कमी की जाए, तो इसके पृष्ठीय क्षेत्रफल में कितने प्रतिशत की कमी होगी?"
-    },
-    {
-      "id": "maths_percentage_112",
-      "question": "If each side of a cube is increased by 15%, then the volume of the cube will increase by: (Consider integral part only)",
-      "options": [
-        "45%",
-        "52%",
-        "42%",
-        "35%"
-      ],
-      "correctAnswer": "52%",
-      "questionHi": "यदि किसी घन की प्रत्येक भुजा में 15% की वृद्धि की जाती है, तो घन के आयतन में कितने प्रतिशत वृद्धि होगी? (केवल पूर्णांक भाग पर विचार करें)"
-    },
-      {
-        "id": "maths_percentage_113",
-        "question": "If the radius of a sphere is increased by 16⅔%, then by what percent would its surface area increase (correct to one decimal place)?",
-        "options": [
-          "34.8%",
-          "36.1%",
-          "33.9%",
-          "35.6%"
-        ],
-        "correctAnswer": "36.1%",
-        "questionHi": "यदि किसी गोले की त्रिज्या में 16⅔% की वृद्धि होती है, तो इसके पृष्ठ क्षेत्रफल में हुई प्रतिशत वृद्धि (एक दशमलव स्थान तक सही) ज्ञात करें।"
-      },
-      {
-        "id": "maths_percentage_114",
-        "question": "The radius of a spherical balloon is inflated from 3.5 cm to 4.9 cm by pushing air into it. What is the percentage increase in the volume of the original balloon?",
-        "options": [
-          "74.4%",
-          "73.6%",
-          "173.6%",
-          "174.4%"
-        ],
-        "correctAnswer": "174.4%",
-        "questionHi": "एक गोलाकार गुब्बारे में हवा भरकर उसकी त्रिज्या को 3.5 cm से 4.9 cm तक बढ़ाया जाता है। मूल गुब्बारे के आयतन में होने वाली प्रतिशत वृद्धि कितनी है?"
-      },
-      {
-        "id": "maths_percentage_115",
-        "question": "The diameter of a sphere is increased by 140%. By what percent will its volume increase?",
-        "options": [
-          "1282.4%",
-          "1382.4%",
-          "274.4%",
-          "174.4%"
-        ],
-        "correctAnswer": "1282.4%",
-        "questionHi": "एक गोले के व्यास को 140% बढ़ा दिया गया है। उसका आयतन कितने प्रतिशत बढ़ जाएगा?"
-      },
-      {
-        "id": "maths_percentage_116",
-        "question": "Volume of a sphere is increased by 119.7% when its radius is increased. Find the percentage change in the total surface area of the sphere.",
-        "options": [
-          "61.29%",
-          "69%",
-          "96%",
-          "82.25%"
-        ],
-        "correctAnswer": "69%",
-        "questionHi": "एक गोले का आयतन 119.7% बढ़ जाता है जब इसकी त्रिज्या को बढ़ाया जाता है। गोले के कुल पृष्ठ क्षेत्रफल में प्रतिशत परिवर्तन ज्ञात कीजिए।"
-      },
-      {
-        "id": "maths_percentage_117",
-        "question": "The radius of a cylinder is increased by 120% and its height is decreased by 40%. What is the percentage increase in its volume?",
-        "options": [
-          "180.6%",
-          "212.8%",
-          "190.4%",
-          "175.4%"
-        ],
-        "correctAnswer": "190.4%",
-        "questionHi": "एक सिलेंडर की त्रिज्या 120% बढ़ जाती है और इसकी ऊँचाई 40% कम हो जाती है। इसके आयतन में प्रतिशत वृद्धि क्या है?"
-      },
-      {
-        "id": "maths_percentage_118",
-        "question": "The radius and height of a cylinder are increased by 3% each. What will be the approximate percentage change in volume?",
-        "options": [
-          "8.16%",
-          "9.27%",
-          "9.68%",
-          "9.83%"
-        ],
-        "correctAnswer": "9.27%",
-        "questionHi": "एक लम्बवृत्तीय बेलन की त्रिज्या और ऊँचाई प्रत्येक में 3% की वृद्धि होती है। आयतन में लगभग कितने प्रतिशत परिवर्तन होगा?"
-      },
-      {
-        "id": "maths_percentage_119",
-        "question": "If the radius of the base of a right circular cylinder is decreased by 18% and its height is increased by 141%, then what is the percentage increase (closest integer) in its volume?",
-        "options": [
-          "43%",
-          "62%",
-          "92%",
-          "74%"
-        ],
-        "correctAnswer": "62%",
-        "questionHi": "यदि एक लम्ब वृत्तीय बेलन के आधार की त्रिज्या 18% कम कर दी जाए तथा इसकी ऊँचाई 141% बढ़ा दी जाए, तो इसके आयतन में प्रतिशत वृद्धि (निकटतम पूर्णांक तक) ज्ञात कीजिए।"
-      },
-      {
-        "id": "maths_percentage_120",
-        "question": "If the radius of the cylinder is increased by 25%, then by how much percent must the height be decreased, so that the volume of the cylinder increases by 32% only?",
-        "options": [
-          "14.73",
-          "16.65",
-          "15.52",
-          "15.76"
-        ],
-        "correctAnswer": "15.52",
-        "questionHi": "यदि बेलन की त्रिज्या में 25% की वृद्धि की जाती है, तो उसकी ऊँचाई में कितने प्रतिशत की कमी करनी चाहिए ताकि बेलन का आयतन केवल 32% बढ़े?"
-      },
-      {
-        "id": "maths_percentage_121",
-        "question": "Volume of a cylinder is increased by 43% when its height is reduced by 15 5/13%. Then find the percentage change in the curved surface area of the cylinder.",
-        "options": [
-          "15%",
-          "13%",
-          "10%",
-          "12%"
-        ],
-        "correctAnswer": "10%",
-        "questionHi": "एक बेलन का आयतन 43% बढ़ जाता है जबकि इसकी ऊँचाई को 15 5/13% कम किया जाता है। तो बेलन के वक्रपृष्ठ क्षेत्रफल में प्रतिशत परिवर्तन ज्ञात कीजिए।"
-      },
-      {
-        "id": "maths_percentage_122",
-        "question": "The radius and height of a right circular cone are increased by 25%. Find the increase in percentage of the volume of the cone (rounded off to 2 decimal places).",
-        "options": [
-          "94.31%",
-          "95.31%",
-          "94.51%",
-          "93.51%"
-        ],
-        "correctAnswer": "95.31%",
-        "questionHi": "एक लम्ब वृत्तीय शंकु की त्रिज्या और ऊँचाई में 25% की वृद्धि की जाती है। शंकु के आयतन में प्रतिशत वृद्धि ज्ञात कीजिए (दशमलव के 2 स्थानों तक)।"
-      },
-      {
-        "id": "maths_percentage_123",
-        "question": "If the height of a regular right pyramid with a square base is increased by 20% and the side length of its base is decreased by 10%, what is the percentage change in its volume?",
-        "options": [
-          "2.8% decrease",
-          "1.2% increase",
-          "2.8% increase",
-          "No change"
-        ],
-        "correctAnswer": "2.8% decrease",
-        "questionHi": "यदि वर्गाकार आधार वाले एक नियमित समकोण पिरामिड की ऊँचाई 20% बढ़ा दी जाए तथा इसके आधार की भुजा की लंबाई 10% कम कर दी जाए, तो इसके आयतन में प्रतिशत परिवर्तन क्या होगा?"
-      },
-      {
-        "id": "maths_percentage_124",
-        "question": "A Gujarati employee Ramu got promotion, due to this his salary is increased by 26⅔%. But due to his inconsistency in work his salary reduced by Rs. 2550. Ramu was transferred to Delhi for a project so his salary is again increased by 12.5%. Now his current salary is Rs. 15300. Find his initial income.",
-        "options": [
-          "Rs.12750",
-          "Rs.15750",
-          "Rs.11250",
-          "Rs.12000"
-        ],
-        "correctAnswer": "Rs.12750",
-        "questionHi": "एक गुजराती कर्मचारी रामू को प्रमोशन मिला, इस कारण उसकी सैलरी में 26⅔% की वृद्धि हुई। लेकिन काम में असंगतता के कारण उसका वेतन 2550 रु. कम कर दिया गया। रामू को एक परियोजना के लिए दिल्ली स्थानांतरित किया गया, इसलिए उसका वेतन फिर से 12.5% बढ़ गया। अब उसका वर्तमान वेतन 15300 रुपये है। उसकी प्रारंभिक आय ज्ञात कीजिए।"
-      },
-
+  {
+    "id": "maths_percentage_099",
+    "question": "At the beginning of day 1 of a month, Rajesh has 500 eggs. He sells 20% of the eggs by the end of the day and added b% of the eggs at the beginning of the next day and sold 20% of the eggs at the end of the next day. This pattern continued up to the end of the third day of the month when he is left with 1024 eggs. The value of b is equal to:",
+    "options": [
+      "220",
+      "10",
+      "500",
+      "100"
+    ],
+    "correctAnswer": "100",
+    "questionHi": "महीने के पहले दिन की शुरुआत में, राजेश के पास 500 अंडे हैं। वह दिन के अंत तक 20% अंडे बेचता है और अगले दिन की शुरुआत में b% अंडे जोड़ता है तथा दिन के अंत में 20% अंडे बेचता है। यह क्रम तीसरे दिन के अंत तक जारी रहता है, जब उसके पास 1024 अंडे बचते हैं। b का मान क्या है?",
+    "solution": "# Step-by-Step Solution\n\n**Step 1: Track eggs at end of Day 1**\n- Starting eggs: 500\n- Sells 20%: 500 × (1 - 0.20) = 500 × 0.80 = 400 eggs\n\n**Step 2: Track eggs at end of Day 2**\n- Beginning of Day 2: 400 + b% of 400 = 400(1 + b/100)\n- Sells 20%: 400(1 + b/100) × 0.80 = 320(1 + b/100) eggs\n\n**Step 3: Track eggs at end of Day 3**\n- Beginning of Day 3: 320(1 + b/100) + b% of 320(1 + b/100) = 320(1 + b/100)²\n- Sells 20%: 320(1 + b/100)² × 0.80 = 256(1 + b/100)² eggs\n\n**Step 4: Set up equation using final condition**\n- End of Day 3: 256(1 + b/100)² = 1024\n- (1 + b/100)² = 1024/256 = 4\n- (1 + b/100) = 2\n- b/100 = 1\n- **b = 100**\n\n**Verification:** 500 → 400 → 400(2) = 800"
+  },
+  {
+    "id": "maths_percentage_100",
+    "question": "The price of a commodity is increased by 36% and the quantity purchased is decreased by 30%. What is the percentage increase/decrease in the amount spent on the commodity?",
+    "options": [
+      "6%, Increase",
+      "4.8%, Increase",
+      "6%, Decrease",
+      "4.8%, Decrease"
+    ],
+    "correctAnswer": "4.8%, Decrease",
+    "questionHi": "एक वस्तु की कीमत में 36% की वृद्धि हुई है और खरीदी गई मात्रा में 30% की कमी हुई है। वस्तु पर खर्च की गई राशि में प्रतिशत वृद्धि/कमी क्या है?",
+    "solution": "# Solution\n\n**Step 1: Assume initial values**\n- Let initial price = P and initial quantity = Q\n- Initial amount spent = P × Q\n\n**Step 2: Calculate new price and quantity**\n- New price = P + 36% of P = 1.36P\n- New quantity = Q - 30% of Q = 0.70Q\n\n**Step 3: Calculate new amount spent**\n- New amount spent = 1.36P × 0.70Q = 0.952PQ\n\n**Step 4: Find percentage change**\n- Change in amount = 0.952PQ - PQ = -0.048PQ\n- Percentage change = (Change/Original) × 100\n- Percentage change = (-0.048PQ/PQ) × 100 = -4.8%\n\n**Step 5: Interpret the result**\n- Negative sign indicates **decrease**\n- Magnitude is **4.8%**\n\n**Answer: 4.8%, Decrease** ✓"
+  },
+  {
+    "id": "maths_percentage_101",
+    "question": "In a company, all employees are getting equal wages. If the number of employees is increased by 20% and their wages per head are decreased by 18%, what is the percentage decrease in total wages?",
+    "options": [
+      "2.4%",
+      "1%",
+      "1.6%",
+      "1.4%"
+    ],
+    "correctAnswer": "1.6%",
+    "questionHi": "एक कंपनी में सभी कर्मचारियों को समान वेतन मिल रहा है। यदि कर्मचारियों की संख्या 20% बढ़ जाती है और उनका प्रति व्यक्ति वेतन 18% कम हो जाता है, तो कुल वेतन में कितने प्रतिशत की कमी होगी?",
+    "solution": "**Step 1: Set up initial values**\n- Let initial number of employees = 100\n- Let initial wage per employee = 100\n- Initial total wages = 100 × 100 = 10,000\n\n**Step 2: Calculate new number of employees**\n- New employees = 100 + 20% of 100 = 100 + 20 = 120\n\n**Step 3: Calculate new wage per employee**\n- New wage per head = 100 - 18% of 100 = 100 - 18 = 82\n\n**Step 4: Calculate new total wages**\n- New total wages = 120 × 82 = 9,840\n\n**Step 5: Find percentage decrease**\n- Decrease = 10,000 - 9,840 = 160\n- Percentage decrease = (160/10,000) × 100 = **1.6%**\n\n**Answer: 1.6%** ✓"
+  },
+  {
+    "id": "maths_percentage_102",
+    "question": "Basir’s working hours per day were increased by 15% and his wages per hour were increased by 20%. By how much percent did his daily earnings increase?",
+    "options": [
+      "35",
+      "38",
+      "36",
+      "40"
+    ],
+    "correctAnswer": "38",
+    "questionHi": "बसीर का कार्य-समय प्रतिदिन 15% बढ़ गया और उसका वेतन प्रति घंटे 20% बढ़ गया। उसकी दैनिक आय कितने प्रतिशत बढ़ गई?",
+    "solution": "**Step 1: Set initial values**\nLet initial working hours = H\nLet initial wages per hour = W\nInitial daily earnings = H × W\n\n**Step 2: Calculate new working hours and wages**\nNew working hours = H + 15% of H = 1.15H\nNew wages per hour = W + 20% of W = 1.20W\n\n**Step 3: Calculate new daily earnings**\nNew daily earnings = 1.15H × 1.20W = 1.38HW\n\n**Step 4: Find percentage increase**\nIncrease in daily earnings = 1.38HW - HW = 0.38HW\nPercentage increase = (0.38HW / HW) × 100 = 38%\n\n**Answer: 38%** ✓"
+  },
+  {
+    "id": "maths_percentage_103",
+    "question": "When the price of an item was reduced by 35%, then its sale was increased by x%. If there is an increase of 17% in the receipt of the revenue, then the value of x will be:",
+    "options": [
+      "84",
+      "80",
+      "60",
+      "75"
+    ],
+    "correctAnswer": "80",
+    "questionHi": "जब किसी वस्तु की कीमत में 35% की कमी की गई, तब उसकी बिक्री में x% की वृद्धि हुई। यदि राजस्व प्राप्ति में 17% की वृद्धि होती है, तो x का मान क्या होगा?",
+    "solution": "# Solution\n\n**Step 1: Set up the revenue equation**\n- Let original price = P and original sales = S\n- Original revenue = P × S\n- New price = P(1 - 0.35) = 0.65P\n- New sales = S(1 + x/100)\n- New revenue = 0.65P × S(1 + x/100)\n\n**Step 2: Apply the revenue increase condition**\n- New revenue = Original revenue × 1.17\n- 0.65P × S(1 + x/100) = P × S × 1.17\n\n**Step 3: Simplify the equation**\n- 0.65(1 + x/100) = 1.17\n- 1 + x/100 = 1.17/0.65\n- 1 + x/100 = 1.8\n\n**Step 4: Solve for x**\n- x/100 = 1.8 - 1\n- x/100 = 0.8\n- x = 80\n\n**Answer: 80** ✓"
+  },
+  {
+    "id": "maths_percentage_104",
+    "question": "If the length of a rectangle is increased by 13% and the breadth of the rectangle is decreased by 8%, then percentage change in the area of the rectangle will be:",
+    "options": [
+      "5.4% decreased",
+      "1.2% increased",
+      "3.96% increased",
+      "4.06% increased"
+    ],
+    "correctAnswer": "3.96% increased",
+    "questionHi": "यदि किसी आयत की लंबाई 13% बढ़ जाती है और चौड़ाई 8% कम हो जाती है, तो आयत के क्षेत्रफल में प्रतिशत परिवर्तन क्या होगा?",
+    "solution": "**Step 1: Set up initial values**\nLet original length = L and original breadth = B\nOriginal area = L × B\n\n**Step 2: Calculate new dimensions**\nNew length = L + 13% of L = 1.13L\nNew breadth = B - 8% of B = 0.92B\n\n**Step 3: Calculate new area**\nNew area = 1.13L × 0.92B = 1.0396LB\n\n**Step 4: Find percentage change in area**\nPercentage change = (New area - Original area)/Original area × 100\n= (1.0396LB - LB)/LB × 100\n= 0.0396 × 100\n= 3.96%\n\nSince the result is positive, the area **increased by 3.96%**.\n\n**Answer: 3.96% increased** ✓"
+  },
+  {
+    "id": "maths_percentage_105",
+    "question": "Aswin bought a new plot which need to be fenced immediately, due to this the length as well as the breadth of the rectangular working place is reduced by 14%. Find the % decrease in the area.",
+    "options": [
+      "26.04%",
+      "24.04%",
+      "18.04%",
+      "20.04%"
+    ],
+    "correctAnswer": "26.04%",
+    "questionHi": "अश्विन ने एक नया प्लॉट खरीदा है जिसकी तुरंत बाड़ लगाने की जरूरत है। इस वजह से आयताकार कार्यस्थल की लंबाई और चौड़ाई दोनों में 14% की कमी हो गई है। क्षेत्रफल में हुई % कमी ज्ञात कीजिए।",
+    "solution": "**Step 1:** Let the original length = L and original breadth = B\n\n**Step 2:** After reduction by 14%, new length = L(1 - 0.14) = 0.86L\nNew breadth = B(1 - 0.14) = 0.86B\n\n**Step 3:** Original area = L × B\nNew area = 0.86L × 0.86B = 0.7396LB\n\n**Step 4:** Decrease in area = LB - 0.7396LB = 0.2604LB\n\n**Step 5:** % decrease = (0.2604LB/LB) × 100 = 26.04%\n\n**Answer: 26.04%** ✓"
+  },
+  {
+    "id": "maths_percentage_106",
+    "question": "If the area of a square is decreased by 19%, then the diagonal of the square is decreased by:",
+    "options": [
+      "10%",
+      "15%",
+      "5%",
+      "12%"
+    ],
+    "correctAnswer": "10%",
+    "questionHi": "यदि किसी वर्ग के क्षेत्रफल में 19% की कमी हुई, तो वर्ग के विकर्ण में कितनी कमी होगी?",
+    "solution": "**Step 1: Set up the relationship between area and side**\nLet the original side of square = a\nOriginal area = a²\nOriginal diagonal = a√2\n\n**Step 2: Find the new area after 19% decrease**\nNew area = a² - 19% of a² = 0.81a²\nNew side = √(0.81a²) = 0.9a\n\n**Step 3: Calculate the new diagonal**\nNew diagonal = 0.9a × √2 = 0.9a√2\n\n**Step 4: Find the percentage decrease in diagonal**\nDecrease in diagonal = a√2 - 0.9a√2 = 0.1a√2\n\nPercentage decrease = (0.1a√2)/(a√2) × 100 = 10%\n\n**Answer: 10%** ✓"
+  },
+  {
+    "id": "maths_percentage_107",
+    "question": "The radius of a circle is increased so that its circumference increases by 15%. The area of the circle will increase by:",
+    "options": [
+      "31.25%",
+      "32.25%",
+      "33.25%",
+      "34%"
+    ],
+    "correctAnswer": "32.25%",
+    "questionHi": "एक वृत्त की त्रिज्या इस प्रकार बढ़ जाती है ताकि इसकी परिधि 15% बढ़ जाए। वृत्त के क्षेत्रफल में कितनी प्रतिशत वृद्धि होगी?",
+    "solution": "# Step-by-Step Solution\n\n**Step 1: Understand the relationship between circumference and radius**\n- Circumference: C = 2πr\n- If circumference increases by 15%, then: C_new = 1.15 × C_old\n\n**Step 2: Find the new radius**\n- Since C = 2πr, if C increases by 15%, then r also increases by 15%\n- r_new = 1.15 × r_old\n\n**Step 3: Calculate the area increase**\n- Area: A = πr²\n- A_old = πr²\n- A_new = π(1.15r)² = π(1.3225r²) = 1.3225πr²\n\n**Step 4: Find percentage increase in area**\n- Increase = A_new - A_old = 1.3225πr² - πr² = 0.3225πr²\n- Percentage increase = (0.3225πr²/πr²) × 100 = 0.3225 × 100 = **32.25%**\n\n✓ **Answer: 32.25%**"
+  },
+  {
+    "id": "maths_percentage_108",
+    "question": "In a triangle height is increased by 37.5% and base is increased by 45.45%. Then find the percentage increase in area of triangle?",
+    "options": [
+      "200%",
+      "100%",
+      "125%",
+      "150%"
+    ],
+    "correctAnswer": "100%",
+    "questionHi": "एक त्रिभुज की ऊँचाई में 37.5% और आधार में 45.45% की वृद्धि हुई है। त्रिभुज के क्षेत्रफल में प्रतिशत वृद्धि ज्ञात कीजिए।",
+    "solution": "# Solution\n\n**Step 1: Recall the formula for area of triangle**\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n\n**Step 2: Express the new dimensions**\n- New height = h + 37.5% of h = 1.375h\n- New base = b + 45.45% of b = 1.4545b\n\n**Step 3: Calculate the new area**\n$$\\text{New Area} = \\frac{1}{2} \\times 1.4545b \\times 1.375h$$\n\n$$= 1.4545 \\times 1.375 \\times \\frac{1}{2} \\times b \\times h$$\n\n$$= 2 \\times \\text{Original Area}$$\n\n**Step 4: Find percentage increase**\n$$\\text{Percentage increase} = \\frac{\\text{New Area} - \\text{Original Area}}{\\text{Original Area}} \\times 100$$\n\n$$= \\frac{2A - A}{A} \\times 100 = \\frac{A}{A} \\times 100 = 100\\%$$\n\n**Answer: 100%** ✓"
+  },
+  {
+    "id": "maths_percentage_109",
+    "question": "The base of a triangle is increased by 40%. By what percentage (correct to two decimal places) should its height be increased so that the area increases by 60%?",
+    "options": [
+      "14.29%",
+      "20.01%",
+      "15.54%",
+      "18.62%"
+    ],
+    "correctAnswer": "14.29%",
+    "questionHi": "एक त्रिभुज के आधार में 40% की वृद्धि की गई। इसकी ऊँचाई कितने प्रतिशत (दशमलव के दो स्थानों तक सही) बढ़ाई जानी चाहिए ताकि क्षेत्रफल में 60% की वृद्धि हो जाए?",
+    "solution": "# Solution\n\n**Step 1: Set up the area formula**\n- Original area: A = (1/2) × b × h\n- New area: A' = (1/2) × b' × h'\n\n**Step 2: Express the new base and area in terms of increase**\n- New base: b' = b + 40% of b = 1.40b\n- New area: A' = A + 60% of A = 1.60A\n\n**Step 3: Set up the equation**\n- 1.60A = (1/2) × 1.40b × h'\n- 1.60 × (1/2) × b × h = (1/2) × 1.40b × h'\n\n**Step 4: Solve for h'**\n- 1.60h = 1.40h'\n- h' = (1.60/1.40)h\n- h' = (16/14)h = (8/7)h\n- h' = 1.1428...h\n\n**Step 5: Calculate percentage increase in height**\n- Percentage increase = (h' - h)/h × 100\n- = (1.1428... - 1) × 100\n- = 0.1428... × 100\n- = **14.29%**\n\n**Answer: 14.29%** ✓"
+  },
+  {
+    "id": "maths_percentage_110",
+    "question": "The length, breadth and height of a room in the shape of a cuboid are increased by 15%, 20% and 30% respectively. Find the percentage change in the volume of the cuboid.",
+    "options": [
+      "79.4% increase",
+      "79.4% decrease",
+      "83.4% increase",
+      "83.4% decrease"
+    ],
+    "correctAnswer": "79.4% increase",
+    "questionHi": "एक घनाभ आकार के कमरे की लंबाई, चौड़ाई और ऊँचाई में क्रमशः 15%, 20% और 30% की वृद्धि की जाती है। घनाभ के आयतन में प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "solution": "# Solution:\n\n**Step 1: Set up the original dimensions**\n- Let original length = l, breadth = b, height = h\n- Original volume = lbh\n\n**Step 2: Calculate new dimensions**\n- New length = l + 15% of l = 1.15l\n- New breadth = b + 20% of b = 1.20b\n- New height = h + 30% of h = 1.30h\n\n**Step 3: Calculate new volume**\n- New volume = (1.15l)(1.20b)(1.30h)\n- New volume = 1.15 × 1.20 × 1.30 × lbh\n- New volume = 1.794 × lbh\n\n**Step 4: Find percentage change**\n- Change in volume = 1.794lbh - lbh = 0.794lbh\n- Percentage change = (0.794lbh / lbh) × 100\n- Percentage change = 0.794 × 100 = 79.4%\n\nSince the new volume is greater than original volume, it's an **increase**.\n\n**Answer: 79.4% increase** ✓"
+  },
+  {
+    "id": "maths_percentage_111",
+    "question": "If each side of a cube is decreased by 12%, then the percentage decrease in its surface area is:",
+    "options": [
+      "25.66%",
+      "22.56%",
+      "26.54%",
+      "28.23%"
+    ],
+    "correctAnswer": "22.56%",
+    "questionHi": "यदि एक घन की प्रत्येक भुजा में 12% की कमी की जाए, तो इसके पृष्ठीय क्षेत्रफल में कितने प्रतिशत की कमी होगी?",
+    "solution": "**Step 1: Set up the formula for surface area of a cube**\nSurface area of cube = 6a², where a is the side length\n\n**Step 2: Calculate the new side length after 12% decrease**\nNew side = a - 12% of a = a(1 - 0.12) = 0.88a\n\n**Step 3: Calculate the new surface area**\nNew surface area = 6(0.88a)² = 6 × 0.7744a² = 4.6464a²\n\n**Step 4: Find the percentage decrease in surface area**\nOriginal surface area = 6a²\nDecrease = 6a² - 4.6464a² = 1.3536a²\n\nPercentage decrease = (Decrease/Original) × 100\n= (1.3536a²/6a²) × 100\n= 0.2256 × 100\n= **22.56%**\n\n**Answer: 22.56%** ✓"
+  },
+  {
+    "id": "maths_percentage_112",
+    "question": "If each side of a cube is increased by 15%, then the volume of the cube will increase by: (Consider integral part only)",
+    "options": [
+      "45%",
+      "52%",
+      "42%",
+      "35%"
+    ],
+    "correctAnswer": "52%",
+    "questionHi": "यदि किसी घन की प्रत्येक भुजा में 15% की वृद्धि की जाती है, तो घन के आयतन में कितने प्रतिशत वृद्धि होगी? (केवल पूर्णांक भाग पर विचार करें)",
+    "solution": "# Solution\n\n**Step 1: Set up the initial volume**\nLet the initial side of cube = a\nInitial volume = a³\n\n**Step 2: Find the new side after 15% increase**\nNew side = a + 15% of a = a(1.15) = 1.15a\n\n**Step 3: Calculate the new volume**\nNew volume = (1.15a)³ = 1.15³ × a³ = 1.520875 × a³\n\n**Step 4: Find the percentage increase in volume**\nIncrease in volume = New volume - Initial volume\n= 1.520875a³ - a³ = 0.520875a³\n\nPercentage increase = (0.520875a³/a³) × 100\n= 0.520875 × 100 = 52.0875%\n\n**Step 5: Consider integral part only**\nIntegral part = **52%**\n\n✓ **Answer: 52%**"
+  },
+  {
+    "id": "maths_percentage_113",
+    "question": "If the radius of a sphere is increased by 16⅔%, then by what percent would its surface area increase (correct to one decimal place)?",
+    "options": [
+      "34.8%",
+      "36.1%",
+      "33.9%",
+      "35.6%"
+    ],
+    "correctAnswer": "36.1%",
+    "questionHi": "यदि किसी गोले की त्रिज्या में 16⅔% की वृद्धि होती है, तो इसके पृष्ठ क्षेत्रफल में हुई प्रतिशत वृद्धि (एक दशमलव स्थान तक सही) ज्ञात करें।",
+    "solution": "**Step 1: Convert the percentage increase in radius**\n16⅔% = 50/3 %\nIf radius increases by 50/3%, then:\nNew radius = R(1 + 50/300) = R(1 + 1/6) = 7R/6\n\n**Step 2: Recall the surface area formula**\nSurface area of sphere = 4πR²\n\n**Step 3: Calculate the new surface area**\nNew surface area = 4π(7R/6)²\n= 4π × 49R²/36\n= (49/36) × 4πR²\n\n**Step 4: Find the percentage increase**\nPercentage increase = [(New SA - Original SA)/Original SA] × 100\n= [(49/36 × 4πR² - 4πR²)/(4πR²)] × 100\n= [(49/36 - 1)] × 100\n= [(49 - 36)/36] × 100\n= (13/36) × 100\n= 1300/36\n= 36.111...%\n≈ 36.1%\n\n**Answer: 36.1%** ✓"
+  },
+  {
+    "id": "maths_percentage_114",
+    "question": "The radius of a spherical balloon is inflated from 3.5 cm to 4.9 cm by pushing air into it. What is the percentage increase in the volume of the original balloon?",
+    "options": [
+      "74.4%",
+      "73.6%",
+      "173.6%",
+      "174.4%"
+    ],
+    "correctAnswer": "174.4%",
+    "questionHi": "एक गोलाकार गुब्बारे में हवा भरकर उसकी त्रिज्या को 3.5 cm से 4.9 cm तक बढ़ाया जाता है। मूल गुब्बारे के आयतन में होने वाली प्रतिशत वृद्धि कितनी है?",
+    "solution": "# Solution: Percentage Increase in Volume of Sphere\n\n**Step 1: Write the volume formula for a sphere**\n$$V = \\frac{4}{3}\\pi r^3$$\n\n**Step 2: Calculate initial and final volumes**\n- Initial volume: $V_1 = \\frac{4}{3}\\pi (3.5)^3 = \\frac{4}{3}\\pi × 42.875$\n- Final volume: $V_2 = \\frac{4}{3}\\pi (4.9)^3 = \\frac{4}{3}\\pi × 117.649$\n\n**Step 3: Find the ratio of volumes**\n$$\\frac{V_2}{V_1} = \\frac{(4.9)^3}{(3.5)^3} = \\frac{117.649}{42.875} = 2.744$$\n\n**Step 4: Calculate percentage increase**\n$$\\text{Percentage increase} = (2.744 - 1) × 100\\%$$\n$$= 1.744 × 100\\% = 174.4\\%$$\n\n**Answer: 174.4%** ✓"
+  },
+  {
+    "id": "maths_percentage_115",
+    "question": "The diameter of a sphere is increased by 140%. By what percent will its volume increase?",
+    "options": [
+      "1282.4%",
+      "1382.4%",
+      "274.4%",
+      "174.4%"
+    ],
+    "correctAnswer": "1282.4%",
+    "questionHi": "एक गोले के व्यास को 140% बढ़ा दिया गया है। उसका आयतन कितने प्रतिशत बढ़ जाएगा?",
+    "solution": "# Solution\n\n**Step 1: Set initial diameter and new diameter**\n- Let initial diameter = d\n- Initial radius = d/2\n- New diameter = d + 140% of d = 2.4d\n- New radius = 1.2d (i.e., 2.4d/2)\n\n**Step 2: Find the ratio of new radius to initial radius**\n- Ratio = 1.2d ÷ (d/2) = 2.4\n- Or simply: new radius/initial radius = 1.2/(0.5) = 2.4\n\n**Step 3: Apply volume scaling principle**\n- Volume of sphere = (4/3)πr³\n- If radius increases by factor k, volume increases by factor k³\n- Volume ratio = (2.4)³ = 13.824\n\n**Step 4: Calculate percentage increase**\n- New volume = 13.824 × original volume\n- Increase = 13.824 - 1 = 12.824\n- Percentage increase = 12.824 × 100 = **1282.4%**\n\n**Answer: 1282.4%** ✓"
+  },
+  {
+    "id": "maths_percentage_116",
+    "question": "Volume of a sphere is increased by 119.7% when its radius is increased. Find the percentage change in the total surface area of the sphere.",
+    "options": [
+      "61.29%",
+      "69%",
+      "96%",
+      "82.25%"
+    ],
+    "correctAnswer": "69%",
+    "questionHi": "एक गोले का आयतन 119.7% बढ़ जाता है जब इसकी त्रिज्या को बढ़ाया जाता है। गोले के कुल पृष्ठ क्षेत्रफल में प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "solution": "**Step 1: Set up the volume relationship**\n\nVolume of sphere = (4/3)πr³\n\nIf volume increases by 119.7%, new volume = Original volume × 2.197\n\nSo: (4/3)πr₂³ = 2.197 × (4/3)πr₁³\n\nTherefore: r₂³ = 2.197 × r₁³\n\n**Step 2: Find the ratio of radii**\n\nr₂³/r₁³ = 2.197\n\nr₂/r₁ = ∛(2.197) = 1.3\n\n**Step 3: Calculate surface area change**\n\nSurface area of sphere = 4πr²\n\nRatio of new to original surface area = (r₂/r₁)² = (1.3)² = 1.69\n\n**Step 4: Find percentage change**\n\nPercentage change = (1.69 - 1) × 100% = 0.69 × 100% = 69%\n\n**Answer: 69%** ✓"
+  },
+  {
+    "id": "maths_percentage_117",
+    "question": "The radius of a cylinder is increased by 120% and its height is decreased by 40%. What is the percentage increase in its volume?",
+    "options": [
+      "180.6%",
+      "212.8%",
+      "190.4%",
+      "175.4%"
+    ],
+    "correctAnswer": "190.4%",
+    "questionHi": "एक सिलेंडर की त्रिज्या 120% बढ़ जाती है और इसकी ऊँचाई 40% कम हो जाती है। इसके आयतन में प्रतिशत वृद्धि क्या है?",
+    "solution": "**Step 1: Set up the volume formula**\nVolume of cylinder = πr²h\n\nLet original radius = r and original height = h\nOriginal volume (V₁) = πr²h\n\n**Step 2: Apply the changes**\n- New radius = r + 120% of r = r + 1.2r = 2.2r\n- New height = h - 40% of h = h - 0.4h = 0.6h\n\n**Step 3: Calculate new volume**\nNew volume (V₂) = π(2.2r)²(0.6h)\nV₂ = π(4.84r²)(0.6h)\nV₂ = 2.904πr²h\n\n**Step 4: Find percentage increase**\nPercentage increase = [(V₂ - V₁)/V₁] × 100\n= [(2.904πr²h - πr²h)/πr²h] × 100\n= [(2.904 - 1)/1] × 100\n= 1.904 × 100\n= 190.4%\n\n**Answer: 190.4%** ✓"
+  },
+  {
+    "id": "maths_percentage_118",
+    "question": "The radius and height of a cylinder are increased by 3% each. What will be the approximate percentage change in volume?",
+    "options": [
+      "8.16%",
+      "9.27%",
+      "9.68%",
+      "9.83%"
+    ],
+    "correctAnswer": "9.27%",
+    "questionHi": "एक लम्बवृत्तीय बेलन की त्रिज्या और ऊँचाई प्रत्येक में 3% की वृद्धि होती है। आयतन में लगभग कितने प्रतिशत परिवर्तन होगा?",
+    "solution": "# Solution: Percentage Change in Cylinder Volume\n\n**Step 1: Write the volume formula for a cylinder**\n- V = πr²h\n\n**Step 2: Calculate new volume after 3% increase in both r and h**\n- New radius: r' = r(1 + 0.03) = 1.03r\n- New height: h' = h(1 + 0.03) = 1.03h\n- New volume: V' = π(1.03r)²(1.03h) = π(1.0609r²)(1.03h)\n\n**Step 3: Simplify the new volume**\n- V' = π × 1.0609 × 1.03 × r²h\n- V' = 1.092727 × πr²h\n- V' = 1.092727V\n\n**Step 4: Calculate percentage change**\n- Percentage change = (V' - V)/V × 100\n- = (1.092727V - V)/V × 100\n- = 0.092727 × 100\n- = **9.2727% ≈ 9.27%**\n\n**Answer: 9.27%** ✓"
+  },
+  {
+    "id": "maths_percentage_119",
+    "question": "If the radius of the base of a right circular cylinder is decreased by 18% and its height is increased by 141%, then what is the percentage increase (closest integer) in its volume?",
+    "options": [
+      "43%",
+      "62%",
+      "92%",
+      "74%"
+    ],
+    "correctAnswer": "62%",
+    "questionHi": "यदि एक लम्ब वृत्तीय बेलन के आधार की त्रिज्या 18% कम कर दी जाए तथा इसकी ऊँचाई 141% बढ़ा दी जाए, तो इसके आयतन में प्रतिशत वृद्धि (निकटतम पूर्णांक तक) ज्ञात कीजिए।",
+    "solution": "**Step 1: Set up the volume formula**\nVolume of cylinder = πr²h\n\nLet original radius = r and original height = h\nOriginal volume = πr²h\n\n**Step 2: Apply the given changes**\n- New radius = r - 18% of r = 0.82r\n- New height = h + 141% of h = 2.41h\n\n**Step 3: Calculate new volume**\nNew volume = π(0.82r)²(2.41h)\n= π(0.6724r²)(2.41h)\n= 1.6205πr²h\n\n**Step 4: Find percentage change**\nPercentage increase = [(New volume - Original volume) / Original volume] × 100\n= [(1.6205πr²h - πr²h) / πr²h] × 100\n= [0.6205] × 100\n= 62.05%\n\n**Step 5: Round to nearest integer**\n62.05% ≈ **62%**\n\n**Answer: 62%** ✓"
+  },
+  {
+    "id": "maths_percentage_120",
+    "question": "If the radius of the cylinder is increased by 25%, then by how much percent must the height be decreased, so that the volume of the cylinder increases by 32% only?",
+    "options": [
+      "14.73",
+      "16.65",
+      "15.52",
+      "15.76"
+    ],
+    "correctAnswer": "15.52",
+    "questionHi": "यदि बेलन की त्रिज्या में 25% की वृद्धि की जाती है, तो उसकी ऊँचाई में कितने प्रतिशत की कमी करनी चाहिए ताकि बेलन का आयतन केवल 32% बढ़े?",
+    "solution": "**Step 1: Set up the volume formula**\nVolume of cylinder = πr²h\n\nOriginal volume: V₁ = πr²h\n\n**Step 2: Express the new volume with increased radius**\nNew radius = r + 25% of r = 1.25r\nLet new height = h' (to be found)\n\nNew volume: V₂ = π(1.25r)²h' = π(1.5625r²)h'\n\n**Step 3: Apply the 32% increase condition**\nV₂ = V₁ + 32% of V₁ = 1.32V₁\n\nπ(1.5625r²)h' = 1.32(πr²h)\n\n1.5625h' = 1.32h\n\nh' = 1.32h/1.5625 = 0.8448h\n\n**Step 4: Calculate percentage decrease in height**\nDecrease in height = h - 0.8448h = 0.1552h\n\nPercentage decrease = (0.1552h/h) × 100 = 15.52%\n\n**Answer: 15.52** ✓"
+  },
+  {
+    "id": "maths_percentage_121",
+    "question": "Volume of a cylinder is increased by 43% when its height is reduced by 15 5/13%. Then find the percentage change in the curved surface area of the cylinder.",
+    "options": [
+      "15%",
+      "13%",
+      "10%",
+      "12%"
+    ],
+    "correctAnswer": "10%",
+    "questionHi": "एक बेलन का आयतन 43% बढ़ जाता है जबकि इसकी ऊँचाई को 15 5/13% कम किया जाता है। तो बेलन के वक्रपृष्ठ क्षेत्रफल में प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "solution": "# Solution\n\n**Step 1: Set up the volume equation**\n\nVolume of cylinder: V = πr²h\n\nInitial volume: V₁ = πr₁²h₁\nFinal volume: V₂ = πr₂²h₂\n\nGiven: V₂ = 1.43V₁ and h₂ = h₁(1 - 15 5/13%)\n\n**Step 2: Convert the height reduction to fraction**\n\n15 5/13% = 200/13% = 200/1300 = 2/13\n\nSo h₂ = h₁(1 - 2/13) = h₁(11/13)\n\n**Step 3: Find the radius relationship**\n\nFrom V₂ = 1.43V₁:\n\nπr₂²h₂ = 1.43πr₁²h₁\n\nr₂²(11/13)h₁ = 1.43r₁²h₁\n\nr₂² = 1.43 × (13/11)r₁²\n\nr₂² = (143/100) × (13/11)r₁² = (1859/1100)r₁²\n\nr₂/r₁ = √(1859/1100) = √(169/100) = 13/10 = 1.3\n\n**Step 4: Calculate curved surface area change**\n\nCurved Surface Area: CSA = 2π"
+  },
+  {
+    "id": "maths_percentage_122",
+    "question": "The radius and height of a right circular cone are increased by 25%. Find the increase in percentage of the volume of the cone (rounded off to 2 decimal places).",
+    "options": [
+      "94.31%",
+      "95.31%",
+      "94.51%",
+      "93.51%"
+    ],
+    "correctAnswer": "95.31%",
+    "questionHi": "एक लम्ब वृत्तीय शंकु की त्रिज्या और ऊँचाई में 25% की वृद्धि की जाती है। शंकु के आयतन में प्रतिशत वृद्धि ज्ञात कीजिए (दशमलव के 2 स्थानों तक)।",
+    "solution": "**Step 1: Recall the volume formula for a cone.**\nVolume of cone = (1/3)πr²h\n\n**Step 2: Calculate initial volume.**\nLet initial radius = r and initial height = h\nV₁ = (1/3)πr²h\n\n**Step 3: Calculate new volume after 25% increase.**\nNew radius = r + 25% of r = 1.25r\nNew height = h + 25% of h = 1.25h\n\nV₂ = (1/3)π(1.25r)²(1.25h)\nV₂ = (1/3)π(1.5625r²)(1.25h)\nV₂ = (1/3)π × 1.953125 × r²h\nV₂ = 1.953125 × V₁\n\n**Step 4: Calculate percentage increase.**\nPercentage increase = [(V₂ - V₁)/V₁] × 100\n= [(1.953125V₁ - V₁)/V₁] × 100\n= [0.953125/1] × 100\n= 95.3125%\n= **95.31%** (rounded to 2 decimal places)\n\n**Answer: 95.31%** ✓"
+  },
+  {
+    "id": "maths_percentage_123",
+    "question": "If the height of a regular right pyramid with a square base is increased by 20% and the side length of its base is decreased by 10%, what is the percentage change in its volume?",
+    "options": [
+      "2.8% decrease",
+      "1.2% increase",
+      "2.8% increase",
+      "No change"
+    ],
+    "correctAnswer": "2.8% decrease",
+    "questionHi": "यदि वर्गाकार आधार वाले एक नियमित समकोण पिरामिड की ऊँचाई 20% बढ़ा दी जाए तथा इसके आधार की भुजा की लंबाई 10% कम कर दी जाए, तो इसके आयतन में प्रतिशत परिवर्तन क्या होगा?",
+    "solution": "# Solution\n\n**Step 1: Recall the volume formula for a square pyramid**\nVolume of square pyramid = (1/3) × base area × height\nV = (1/3) × a² × h\nwhere a = side length of base, h = height\n\n**Step 2: Express the new dimensions**\n- New height: h' = h + 20% of h = 1.2h\n- New side length: a' = a - 10% of a = 0.9a\n\n**Step 3: Calculate the new volume**\nV' = (1/3) × (0.9a)² × (1.2h)\nV' = (1/3) × 0.81a² × 1.2h\nV' = (1/3) × 0.972 × a² × h\nV' = 0.972V\n\n**Step 4: Find the percentage change**\nChange = V' - V = 0.972V - V = -0.028V\nPercentage change = (-0.028V/V) × 100 = -2.8%\n\n**Answer: 2.8% decrease** ✓"
+  },
+  {
+    "id": "maths_percentage_124",
+    "question": "A Gujarati employee Ramu got promotion, due to this his salary is increased by 26⅔%. But due to his inconsistency in work his salary reduced by Rs. 2550. Ramu was transferred to Delhi for a project so his salary is again increased by 12.5%. Now his current salary is Rs. 15300. Find his initial income.",
+    "options": [
+      "Rs.12750",
+      "Rs.15750",
+      "Rs.11250",
+      "Rs.12000"
+    ],
+    "correctAnswer": "Rs.12750",
+    "questionHi": "एक गुजराती कर्मचारी रामू को प्रमोशन मिला, इस कारण उसकी सैलरी में 26⅔% की वृद्धि हुई। लेकिन काम में असंगतता के कारण उसका वेतन 2550 रु. कम कर दिया गया। रामू को एक परियोजना के लिए दिल्ली स्थानांतरित किया गया, इसलिए उसका वेतन फिर से 12.5% बढ़ गया। अब उसका वर्तमान वेतन 15300 रुपये है। उसकी प्रारंभिक आय ज्ञात कीजिए।"
+  },
   {
     "id": "maths_percentage_051",
     "question": "[Add content] percentage — Question 51",

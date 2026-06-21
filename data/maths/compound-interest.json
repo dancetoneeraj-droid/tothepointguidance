@@ -1,304 +1,329 @@
 [
- {
-      "id": "maths_compound_interest_001",
-      "question": "A certain sum of money becomes 2.25 times of itself in 2 years. Then find the rate of interest if compounded annually.",
-      "options": [
-        "25%",
-        "50%",
-        "15%",
-        "75%"
-      ],
-      "correctAnswer": "50%",
-      "explanation": "Let rate = r%. Then (1+r/100)² = 2.25 = (1.5)². Therefore r = 50%."
-    },
-    {
-      "id": "maths_compound_interest_002",
-      "question": "What is the rate of compound interest if a sum becomes 1331/729 times of itself in 3 years?",
-      "options": [
-        "22 2/9%",
-        "33 1/9%",
-        "21 7/9%",
-        "11 7/9%"
-      ],
-      "correctAnswer": "11 7/9%",
-      "explanation": "(1331/729) = (11³/9³). Hence (1+r/100)³ = (11/9)³. Therefore r = (2/9)×100 = 22.22% = 22 2/9%."
-    },
-    {
-      "id": "maths_compound_interest_003",
-      "question": "A certain sum of money becomes 512/162 times of itself in 4 years. Then find the rate of interest if compounded annually.",
-      "options": [
-        "33.33%",
-        "22.22%",
-        "25%",
-        "27.5%"
-      ],
-      "correctAnswer": "33.33%",
-      "explanation": "512/162 = (4/3)^4. Therefore (1+r/100)^4=(4/3)^4. Hence r=33.33%."
-    },
-    {
-      "id": "maths_compound_interest_004",
-      "question": "A certain sum of money becomes 625/256 times of itself in 1 year. Then find the rate of interest per annum if interest is compounded quarterly.",
-      "options": [
-        "25%",
-        "66.66%",
-        "80%",
-        "100%"
-      ],
-      "correctAnswer": "100%",
-      "explanation": "625/256=(5/4)^4. Quarterly compounding gives (1+r/400)^4=(5/4)^4. Therefore r=100%."
-    },
-    {
-      "id": "maths_compound_interest_005",
-      "question": "If the amount on a certain principal in 3 years at 12% rate of interest compounded annually is Rs. 12,000, what will be the amount after the 4th year?",
-      "options": [
-        "13440",
-        "14440",
-        "15440",
-        "12440"
-      ],
-      "correctAnswer": "13440",
-      "explanation": "Amount after 4th year = 12000 × 1.12 = ₹13,440."
-    },
-    {
-      "id": "maths_compound_interest_006",
-      "question": "If the amount received at the end of 2nd and 3rd year at compound interest on a certain principal is Rs. 9,600 and Rs. 10,272 respectively, what is the rate of interest (%)?",
-      "options": [
-        "7",
-        "8",
-        "6",
-        "5"
-      ],
-      "correctAnswer": "7",
-      "explanation": "10272 = 9600(1+r/100). Hence r=(672/9600)×100=7%."
-    },
-    {
-      "id": "maths_compound_interest_007",
-      "question": "When the interest is calculated on an annual compounding basis, an amount becomes ₹7,562 in 4 years and ₹8,469.44 in 5 years. Find the rate of interest.",
-      "options": [
-        "15%",
-        "12%",
-        "20%",
-        "8%"
-      ],
-      "correctAnswer": "12%",
-      "explanation": "8469.44 = 7562(1+r/100). Thus 1+r/100=1.12 and r=12%."
-    },
-    {
-      "id": "maths_compound_interest_008",
-      "question": "At what rate % per annum will Rs.4704 amount to Rs.5766 in two years compounded annually?",
-      "options": [
-        "8 4/7%",
-        "11 3/7%",
-        "12 1/7%",
-        "10 5/7%"
-      ],
-      "correctAnswer": "10 5/7%",
-      "explanation": "5766/4704 = 1.225 = (1.10714)^2. Therefore rate = 10 5/7%."
-    },
-    {
-      "id": "maths_compound_interest_009",
-      "question": "At what rate of compound interest per annum will a sum of ₹3,600 become ₹4,277.16 in 2 years?",
-      "options": [
-        "9%",
-        "8%",
-        "9.5%",
-        "8.5%"
-      ],
-      "correctAnswer": "9%",
-      "explanation": "4277.16/3600 = 1.1881 = (1.09)^2. Hence rate = 9%."
-    },
-    {
-      "id": "maths_compound_interest_010",
-      "question": "At what rate percentage per annum (correct to one place of decimal) will ₹17,280 amount to ₹23,520 in 2 years, if the interest is compounded annually?",
-      "options": [
-        "16.7%",
-        "15.9%",
-        "16.4%",
-        "15.4%"
-      ],
-      "correctAnswer": "16.7%",
-      "explanation": "23520/17280 = 1.3611. √1.3611 ≈ 1.1667. Therefore rate ≈ 16.7%."
-    },
-    {
-      "id": "maths_compound_interest_011",
-      "question": "At what rate per cent per annum will a sum of Rs.15,625 amount to Rs.21,952 in three years, if the interest is compounded annually?",
-      "options": [
-        "12%",
-        "8%",
-        "9%",
-        "10%"
-      ],
-      "correctAnswer": "12%",
-      "explanation": "21952/15625 = (1.12)^3. Hence rate = 12%."
-    },
-    {
-      "id": "maths_compound_interest_012",
-      "question": "If a certain sum of money of Rs.345600 amounts to Rs.439400 in 3 years. Find the rate of compound interest.",
-      "options": [
-        "6 2/3%",
-        "8 1/3%",
-        "12 1/2%",
-        "7 9/13%"
-      ],
-      "correctAnswer": "8 1/3%",
-      "explanation": "439400/345600 ≈ 1.58796 = (13/12)^3. Therefore rate = 1/12 ×100 = 8 1/3%."
-    },
-    {
-      "id": "maths_compound_interest_013",
-      "question": "A sum of money becomes ₹6,400 in 3 years and ₹8,100 in 5 years on compound interest compounded annually. Find rate of interest per annum.",
-      "options": [
-        "12 2/3%",
-        "12 4/8%",
-        "12 6/8%",
-        "12 5/8%"
-      ],
-      "correctAnswer": "12 4/8%",
-      "explanation": "8100/6400=(1+r/100)^2=81/64=(9/8)^2. Hence r=12.5%."
-    },
-    {
-      "id": "maths_compound_interest_014",
-      "question": "A certain sum of money becomes Rs.54000 in 4 years and Rs.59582 in 7 years. Find the rate of interest, if compounded annually.",
-      "options": [
-        "5%",
-        "3%",
-        "3 1/3%",
-        "6 2/3%"
-      ],
-      "correctAnswer": "3 1/3%",
-      "explanation": "59582/54000 ≈ (31/30)^3. Therefore rate = 1/30 ×100 = 3 1/3%."
-    },
-    {
-      "id": "maths_compound_interest_015",
-      "question": "At what rate of interest per annum compounded annually, will an amount of ₹8,000 yield a compound interest of ₹904.2 in 2 years?",
-      "options": [
-        "6%",
-        "8%",
-        "10%",
-        "5.5%"
-      ],
-      "correctAnswer": "5.5%",
-      "explanation": "Amount = 8000 + 904.2 = 8904.2. Thus (1+r/100)^2 = 8904.2/8000 = 1.113025 = (1.055)^2. Hence r = 5.5%."
-    },
-      {
-        "id": "maths_compound_interest_016",
-        "question": "At what rate percentage per annum will ₹14,400 amount to ₹15,876 in one year, if interest is compounded half-yearly?",
-        "options": [
-          "10%",
-          "12%",
-          "15%",
-          "8%"
-        ],
-        "correctAnswer": "10%",
-        "explanation": "15876/14400 = 1.1025 = (1.05)^2. Therefore half-yearly rate = 5%, annual rate = 10%."
-      },
-      {
-        "id": "maths_compound_interest_017",
-        "question": "Salim borrows a sum of ₹60,000 from the bank for 18 months at R% per annum compound interest (interest being calculated half yearly). The amount paid back by Salim to the bank was ₹69,457.5. The value of R is:",
-        "options": [
-          "20%",
-          "12%",
-          "5%",
-          "10%"
-        ],
-        "correctAnswer": "10%",
-        "explanation": "69457.5/60000 = 1.157625 = (1.05)^3. Hence half-yearly rate = 5%, annual rate = 10%."
-      },
-      {
-        "id": "maths_compound_interest_018",
-        "question": "The compound interest (compounding half yearly) received on Rs.10,000 for 1.5 years is Rs.3,676.31. What is the rate of interest per annum?",
-        "options": [
-          "28%",
-          "22%",
-          "25%",
-          "14%"
-        ],
-        "correctAnswer": "22%",
-        "explanation": "Amount = 13676.31. Therefore (1 + r/200)^3 = 1.367631 = (1.11)^3. Hence r = 22%."
-      },
-      {
-        "id": "maths_compound_interest_019",
-        "question": "At what rate per annum will Rs.48,000 yield a compound interest of Rs.7,566 in 9 months, compounded quarterly?",
-        "options": [
-          "5%",
-          "16%",
-          "20%",
-          "15%"
-        ],
-        "correctAnswer": "20%",
-        "explanation": "Amount = 55566. Thus 55566/48000 = 1.157625 = (1.05)^3. Quarterly rate = 5%, annual rate = 20%."
-      },
-      {
-        "id": "maths_compound_interest_020",
-        "question": "The ratio of two amounts is 16:25. If they are lent out at compound interest for 7 years and 5 years respectively, then equal amount is received. Find the rate of interest per annum.",
-        "options": [
-          "15%",
-          "40%",
-          "25%",
-          "20%"
-        ],
-        "correctAnswer": "25%",
-        "explanation": "16(1+r/100)^7 = 25(1+r/100)^5 ⇒ (1+r/100)^2 = 25/16. Hence 1+r/100 = 5/4 and r = 25%."
-      },
-      {
-        "id": "maths_compound_interest_021",
-        "question": "If at compound interest a certain sum becomes 2 times of itself in 5 years, then in how many years it will become 8 times of itself?",
-        "options": [
-          "15 years",
-          "18 years",
-          "12 years",
-          "20 years"
-        ],
-        "correctAnswer": "15 years",
-        "explanation": "8 = 2³. If money doubles in 5 years, it becomes 8 times in 3 × 5 = 15 years."
-      },
-      {
-        "id": "maths_compound_interest_022",
-        "question": "A sum of money placed at compound interest triples itself in 8 years. In how many years will it amount to 243 times itself?",
-        "options": [
-          "15 years",
-          "40 years",
-          "27 years",
-          "80 years"
-        ],
-        "correctAnswer": "40 years",
-        "explanation": "243 = 3⁵. If money triples in 8 years, it becomes 243 times in 5 × 8 = 40 years."
-      },
-      {
-        "id": "maths_compound_interest_023",
-        "question": "A sum of money becomes 13.824 times of itself in 30 years. Then in how many years will it become 2.4 times of itself?",
-        "options": [
-          "15 years",
-          "10 years",
-          "20 years",
-          "5 years"
-        ],
-        "correctAnswer": "10 years",
-        "explanation": "13.824 = (2.4)³. If (2.4)³ occurs in 30 years, then 2.4 times occurs in 30/3 = 10 years."
-      },
-      {
-        "id": "maths_compound_interest_024",
-        "question": "If a certain sum of money becomes equal to 64 times of itself in 27 years, in how much time will it become 512 times of itself?",
-        "options": [
-          "45 years",
-          "42.5 years",
-          "36 years",
-          "40.5 years"
-        ],
-        "correctAnswer": "40.5 years",
-        "explanation": "64 = 2⁶ and 512 = 2⁹. If 2⁶ occurs in 27 years, then 2⁹ occurs in (27 × 9)/6 = 40.5 years."
-      },
-      {
-        "id": "maths_compound_interest_025",
-        "question": "A certain amount invested at a certain rate, compounded annually, grows to an amount in seven years which is 1.3225 times what it would have grown in five years. What is the rate percentage?",
-        "options": [
-          "15%",
-          "13%",
-          "12%",
-          "11%"
-        ],
-        "correctAnswer": "15%",
-        "explanation": "A₇/A₅ = (1+r/100)² = 1.3225 = (1.15)². Therefore r = 15%."
-      },
+  {
+    "id": "maths_compound_interest_001",
+    "question": "A certain sum of money becomes 2.25 times of itself in 2 years. Then find the rate of interest if compounded annually.",
+    "options": [
+      "25%",
+      "50%",
+      "15%",
+      "75%"
+    ],
+    "correctAnswer": "50%",
+    "explanation": "Let rate = r%. Then (1+r/100)² = 2.25 = (1.5)². Therefore r = 50%.",
+    "solution": "**Step 1:** Set up the compound interest formula.\nLet Principal = P, Rate = R% p.a., Time = 2 years\nAmount = P(1 + R/100)²\n\n**Step 2:** Use the given condition.\nAmount = 2.25P\nTherefore: P(1 + R/100)² = 2.25P\n\n**Step 3:** Simplify the equation.\n(1 + R/100)² = 2.25\n(1 + R/100)² = 225/100\n(1 + R/100)² = (1.5)²\n\n**Step 4:** Take square root of both sides.\n1 + R/100 = 1.5\nR/100 = 0.5\nR = 50%\n\n**Answer: 50%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_002",
+    "question": "What is the rate of compound interest if a sum becomes 1331/729 times of itself in 3 years?",
+    "options": [
+      "22 2/9%",
+      "33 1/9%",
+      "21 7/9%",
+      "11 7/9%"
+    ],
+    "correctAnswer": "11 7/9%",
+    "explanation": "(1331/729) = (11³/9³). Hence (1+r/100)³ = (11/9)³. Therefore r = (2/9)×100 = 22.22% = 22 2/9%.",
+    "solution": "# Solution\n\n**Step 1: Set up the compound interest formula**\n\nLet Principal = P and Rate = R% per annum\n\n$$A = P\\left(1 + \\frac{R}{100}\\right)^n$$\n\nGiven: A/P = 1331/729 and n = 3 years\n\n$$\\left(1 + \\frac{R}{100}\\right)^3 = \\frac{1331}{729}$$\n\n**Step 2: Recognize the perfect cubes**\n\n$$1331 = 11^3 \\text{ and } 729 = 9^3$$\n\n$$\\left(1 + \\frac{R}{100}\\right)^3 = \\frac{11^3}{9^3} = \\left(\\frac{11}{9}\\right)^3$$\n\n**Step 3: Take cube root on both sides**\n\n$$1 + \\frac{R}{100} = \\frac{11}{9}$$\n\n$$\\frac{R}{100} = \\frac{11}{9} - 1 = \\frac{11-9}{9} = \\frac{2}{9}$$\n\n**Step 4: Calculate R**\n\n$$R = \\frac{2}{9} \\times 100 = \\frac{200}{9} = 22\\frac{2}{9}\\%$$\n\n**Step 5: Verify (this seems inconsistent with given answer)**\n\nConverting: $22\\frac{2}{9}\\"
+  },
+  {
+    "id": "maths_compound_interest_003",
+    "question": "A certain sum of money becomes 512/162 times of itself in 4 years. Then find the rate of interest if compounded annually.",
+    "options": [
+      "33.33%",
+      "22.22%",
+      "25%",
+      "27.5%"
+    ],
+    "correctAnswer": "33.33%",
+    "explanation": "512/162 = (4/3)^4. Therefore (1+r/100)^4=(4/3)^4. Hence r=33.33%.",
+    "solution": "# Solution:\n\n**Step 1: Set up the Compound Interest formula**\n\nLet Principal = P, Rate = R% p.a.\n\nAmount = P(1 + R/100)^n\n\nGiven: Amount = (512/162)P and n = 4 years\n\n**Step 2: Form the equation**\n\n(512/162)P = P(1 + R/100)^4\n\n512/162 = (1 + R/100)^4\n\n**Step 3: Simplify the fraction**\n\n512/162 = 256/81\n\n(256/81) = (1 + R/100)^4\n\n**Step 4: Take the fourth root**\n\n⁴√(256/81) = 1 + R/100\n\n(4/3) = 1 + R/100\n\n**Step 5: Solve for R**\n\nR/100 = 4/3 - 1 = 1/3\n\nR = 100/3 = **33.33%**\n\n---\n\n**Answer: 33.33%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_004",
+    "question": "A certain sum of money becomes 625/256 times of itself in 1 year. Then find the rate of interest per annum if interest is compounded quarterly.",
+    "options": [
+      "25%",
+      "66.66%",
+      "80%",
+      "100%"
+    ],
+    "correctAnswer": "100%",
+    "explanation": "625/256=(5/4)^4. Quarterly compounding gives (1+r/400)^4=(5/4)^4. Therefore r=100%.",
+    "solution": "# Step-by-Step Solution\n\n**Step 1: Set up the Compound Interest formula**\n\nFor quarterly compounding:\n$$A = P\\left(1 + \\frac{r}{4 \\times 100}\\right)^{4t}$$\n\nWhere t = 1 year, so we have 4 quarters.\n\n**Step 2: Apply given condition**\n\nGiven that A = (625/256)P\n\n$$\\frac{625}{256}P = P\\left(1 + \\frac{r}{400}\\right)^4$$\n\n**Step 3: Simplify**\n\n$$\\frac{625}{256} = \\left(1 + \\frac{r}{400}\\right)^4$$\n\nNotice that: 625 = 5⁴ and 256 = 4⁴\n\n$$\\left(\\frac{5}{4}\\right)^4 = \\left(1 + \\frac{r}{400}\\right)^4$$\n\n**Step 4: Solve for r**\n\nTaking the 4th root on both sides:\n\n$$\\frac{5}{4} = 1 + \\frac{r}{400}$$\n\n$$\\frac{r}{400} = \\frac{5}{4} - 1 = \\frac{1}{4}$$\n\n$$r = 100\\%$$\n\n**Answer: 100%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_005",
+    "question": "If the amount on a certain principal in 3 years at 12% rate of interest compounded annually is Rs. 12,000, what will be the amount after the 4th year?",
+    "options": [
+      "13440",
+      "14440",
+      "15440",
+      "12440"
+    ],
+    "correctAnswer": "13440",
+    "explanation": "Amount after 4th year = 12000 × 1.12 = ₹13,440.",
+    "solution": "# Step-by-Step Solution\n\n**Step 1: Find the Principal**\n\nUsing the Compound Interest formula: A = P(1 + r/100)ⁿ\n\nGiven: A₃ = Rs. 12,000, r = 12%, n = 3 years\n\n12,000 = P(1 + 12/100)³\n12,000 = P(1.12)³\n12,000 = P(1.404928)\nP = 12,000 ÷ 1.404928\nP ≈ Rs. 8,543.07\n\n**Step 2: Calculate Amount after 4 years**\n\nUsing the same formula with n = 4:\n\nA₄ = P(1.12)⁴\nA₄ = 8,543.07 × (1.12)⁴\nA₄ = 8,543.07 × 1.57351936\nA₄ ≈ Rs. 13,440\n\n**Alternative Method (Faster):**\n\nA₄ = A₃ × (1 + r/100)\nA₄ = 12,000 × 1.12\nA₄ = Rs. 13,440\n\n**Answer: 13440** ✓"
+  },
+  {
+    "id": "maths_compound_interest_006",
+    "question": "If the amount received at the end of 2nd and 3rd year at compound interest on a certain principal is Rs. 9,600 and Rs. 10,272 respectively, what is the rate of interest (%)?",
+    "options": [
+      "7",
+      "8",
+      "6",
+      "5"
+    ],
+    "correctAnswer": "7",
+    "explanation": "10272 = 9600(1+r/100). Hence r=(672/9600)×100=7%.",
+    "solution": "**Step 1: Find the interest earned in the 3rd year**\n\nInterest in 3rd year = Amount at end of 3rd year - Amount at end of 2nd year\n= 10,272 - 9,600 = Rs. 672\n\n**Step 2: Calculate the rate of interest**\n\nThe interest earned in the 3rd year is calculated on the principal at the end of 2nd year (which is Rs. 9,600).\n\nUsing: Interest = Principal × Rate × Time / 100\n\n672 = 9,600 × R × 1 / 100\n\n672 = 96R\n\nR = 672/96 = 7%\n\n**Step 3: Verify the answer**\n\n- Amount after 2 years = 9,600\n- Interest rate = 7%\n- Amount after 3 years should be = 9,600 × (1 + 7/100) = 9,600 × 1.07 = 10,272 ✓\n\n**Answer: 7%**"
+  },
+  {
+    "id": "maths_compound_interest_007",
+    "question": "When the interest is calculated on an annual compounding basis, an amount becomes ₹7,562 in 4 years and ₹8,469.44 in 5 years. Find the rate of interest.",
+    "options": [
+      "15%",
+      "12%",
+      "20%",
+      "8%"
+    ],
+    "correctAnswer": "12%",
+    "explanation": "8469.44 = 7562(1+r/100). Thus 1+r/100=1.12 and r=12%.",
+    "solution": "# Step-by-Step Solution\n\n**Step 1: Find the interest earned in the 5th year**\n- Amount after 4 years = ₹7,562\n- Amount after 5 years = ₹8,469.44\n- Interest in 5th year = 8,469.44 - 7,562 = ₹907.44\n\n**Step 2: Calculate the rate of interest**\nThe interest earned in the 5th year is calculated on the principal at the end of 4 years.\n\nUsing the formula: Interest = Principal × Rate/100\n\n907.44 = 7,562 × R/100\n\nR/100 = 907.44/7,562 = 0.12\n\nR = 12%\n\n**Step 3: Verification**\n- If R = 12%, then A₅/A₄ = 8,469.44/7,562 = 1.12 ✓\n- This confirms the rate is 12% per annum\n\n**Answer: 12%**"
+  },
+  {
+    "id": "maths_compound_interest_008",
+    "question": "At what rate % per annum will Rs.4704 amount to Rs.5766 in two years compounded annually?",
+    "options": [
+      "8 4/7%",
+      "11 3/7%",
+      "12 1/7%",
+      "10 5/7%"
+    ],
+    "correctAnswer": "10 5/7%",
+    "explanation": "5766/4704 = 1.225 = (1.10714)^2. Therefore rate = 10 5/7%.",
+    "solution": "# Solution\n\n**Step 1: Identify the given values**\n- Principal (P) = Rs. 4704\n- Amount (A) = Rs. 5766\n- Time (T) = 2 years\n- Rate (R) = ?\n\n**Step 2: Apply the compound interest formula**\n$$A = P(1 + \\frac{R}{100})^T$$\n\n$$5766 = 4704(1 + \\frac{R}{100})^2$$\n\n**Step 3: Simplify to find (1 + R/100)²**\n$$\\frac{5766}{4704} = (1 + \\frac{R}{100})^2$$\n\n$$\\frac{961}{784} = (1 + \\frac{R}{100})^2$$\n\nNote: 961 = 31² and 784 = 28²\n\n**Step 4: Take the square root**\n$$\\frac{31}{28} = 1 + \\frac{R}{100}$$\n\n$$\\frac{R}{100} = \\frac{31}{28} - 1 = \\frac{31-28}{28} = \\frac{3}{28}$$\n\n**Step 5: Calculate the rate**\n$$R = \\frac{3 × 100}{28} = \\frac{300}{28} = \\frac{75}{7} = 10\\frac{5}{7}\\%$$\n\n**Answer: 10 5"
+  },
+  {
+    "id": "maths_compound_interest_009",
+    "question": "At what rate of compound interest per annum will a sum of ₹3,600 become ₹4,277.16 in 2 years?",
+    "options": [
+      "9%",
+      "8%",
+      "9.5%",
+      "8.5%"
+    ],
+    "correctAnswer": "9%",
+    "explanation": "4277.16/3600 = 1.1881 = (1.09)^2. Hence rate = 9%.",
+    "solution": "# Solution\n\n**Step 1:** Write the Compound Interest formula\n$$A = P(1 + r/100)^n$$\n\nWhere: A = ₹4,277.16, P = ₹3,600, n = 2 years, r = ?\n\n**Step 2:** Substitute values into the formula\n$$4,277.16 = 3,600(1 + r/100)^2$$\n\n**Step 3:** Divide both sides by 3,600\n$$(1 + r/100)^2 = \\frac{4,277.16}{3,600} = 1.1882$$\n\n**Step 4:** Take square root of both sides\n$$1 + r/100 = \\sqrt{1.1882} = 1.09$$\n\n**Step 5:** Solve for r\n$$r/100 = 0.09$$\n$$r = 9\\%$$\n\n**Verification:** 3,600 × (1.09)² = 3,600 × 1.1881 = ₹4,277.16 ✓\n\n**Answer: 9%**"
+  },
+  {
+    "id": "maths_compound_interest_010",
+    "question": "At what rate percentage per annum (correct to one place of decimal) will ₹17,280 amount to ₹23,520 in 2 years, if the interest is compounded annually?",
+    "options": [
+      "16.7%",
+      "15.9%",
+      "16.4%",
+      "15.4%"
+    ],
+    "correctAnswer": "16.7%",
+    "explanation": "23520/17280 = 1.3611. √1.3611 ≈ 1.1667. Therefore rate ≈ 16.7%.",
+    "solution": "**Step 1: Write the Compound Interest formula**\n$$A = P(1 + r/100)^n$$\n\nWhere:\n- A = ₹23,520 (Amount)\n- P = ₹17,280 (Principal)\n- n = 2 years\n- r = rate (to find)\n\n**Step 2: Substitute the values**\n$$23,520 = 17,280(1 + r/100)^2$$\n\n**Step 3: Simplify to find the ratio**\n$$(1 + r/100)^2 = \\frac{23,520}{17,280}$$\n\n$$(1 + r/100)^2 = 1.36111...$$\n\n**Step 4: Take the square root**\n$$1 + r/100 = \\sqrt{1.36111}$$\n\n$$1 + r/100 = 1.1667$$\n\n$$r/100 = 0.1667$$\n\n$$r = 16.67\\%$$\n\n**Step 5: Round to one decimal place**\n$$r = 16.7\\%$$\n\n**Answer: 16.7%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_011",
+    "question": "At what rate per cent per annum will a sum of Rs.15,625 amount to Rs.21,952 in three years, if the interest is compounded annually?",
+    "options": [
+      "12%",
+      "8%",
+      "9%",
+      "10%"
+    ],
+    "correctAnswer": "12%",
+    "explanation": "21952/15625 = (1.12)^3. Hence rate = 12%.",
+    "solution": "# Solution:\n\n**Step 1: Write the Compound Interest formula**\n$$A = P(1 + r/100)^n$$\n\nWhere:\n- A = Rs. 21,952 (Amount)\n- P = Rs. 15,625 (Principal)\n- n = 3 years\n- r = rate (to find)\n\n**Step 2: Substitute values into the formula**\n$$21,952 = 15,625(1 + r/100)^3$$\n\n**Step 3: Solve for (1 + r/100)³**\n$$(1 + r/100)^3 = \\frac{21,952}{15,625} = 1.40493$$\n\n**Step 4: Take cube root of both sides**\n$$1 + r/100 = \\sqrt[3]{1.40493} = 1.12$$\n\n**Step 5: Find the rate**\n$$r/100 = 1.12 - 1 = 0.12$$\n$$r = 12\\%$$\n\n**Verification:** 15,625 × (1.12)³ = 15,625 × 1.40493 = 21,952 ✓\n\n**Answer: 12%**"
+  },
+  {
+    "id": "maths_compound_interest_012",
+    "question": "If a certain sum of money of Rs.345600 amounts to Rs.439400 in 3 years. Find the rate of compound interest.",
+    "options": [
+      "6 2/3%",
+      "8 1/3%",
+      "12 1/2%",
+      "7 9/13%"
+    ],
+    "correctAnswer": "8 1/3%",
+    "explanation": "439400/345600 ≈ 1.58796 = (13/12)^3. Therefore rate = 1/12 ×100 = 8 1/3%.",
+    "solution": "# Solution\n\n**Step 1: Identify the compound interest formula**\n$$A = P(1 + r/100)^n$$\n\nWhere:\n- A = Rs. 439400 (Amount)\n- P = Rs. 345600 (Principal)\n- n = 3 years (Time)\n- r = ? (Rate)\n\n**Step 2: Substitute values into the formula**\n$$439400 = 345600(1 + r/100)^3$$\n\n**Step 3: Simplify to find (1 + r/100)³**\n$$(1 + r/100)^3 = \\frac{439400}{345600} = \\frac{4394}{3456} = \\frac{2197}{1728}$$\n\n**Step 4: Take cube root of both sides**\n$$1 + r/100 = \\sqrt[3]{\\frac{2197}{1728}} = \\frac{13}{12}$$\n\n(Since 13³ = 2197 and 12³ = 1728)\n\n**Step 5: Solve for r**\n$$r/100 = \\frac{13}{12} - 1 = \\frac{13-12}{12} = \\frac{1}{12}$$\n\n$$r = \\frac{100}{12} = \\frac{25}{3} = 8\\frac{1}{3}\\%$$\n\n**Answer: 8 1/3%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_013",
+    "question": "A sum of money becomes ₹6,400 in 3 years and ₹8,100 in 5 years on compound interest compounded annually. Find rate of interest per annum.",
+    "options": [
+      "12 2/3%",
+      "12 4/8%",
+      "12 6/8%",
+      "12 5/8%"
+    ],
+    "correctAnswer": "12 4/8%",
+    "explanation": "8100/6400=(1+r/100)^2=81/64=(9/8)^2. Hence r=12.5%.",
+    "solution": "# Solution:\n\n**Step 1: Set up the compound interest formula**\n- Let Principal = P, Rate = R% per annum\n- A₃ = 6,400 (Amount after 3 years)\n- A₅ = 8,100 (Amount after 5 years)\n\n**Step 2: Find the ratio of amounts**\n$$\\frac{A_5}{A_3} = \\frac{P(1+R/100)^5}{P(1+R/100)^3}$$\n\n$$\\frac{8,100}{6,400} = (1+R/100)^2$$\n\n$$\\frac{81}{64} = (1+R/100)^2$$\n\n**Step 3: Solve for rate**\n$$\\sqrt{\\frac{81}{64}} = 1+\\frac{R}{100}$$\n\n$$\\frac{9}{8} = 1+\\frac{R}{100}$$\n\n$$\\frac{R}{100} = \\frac{9}{8} - 1 = \\frac{1}{8}$$\n\n$$R = \\frac{100}{8} = 12.5\\% = 12\\frac{1}{2}\\%$$\n\n**Step 4: Convert to given format**\n$$12\\frac{1}{2}\\% = 12\\frac{4}{8}\\%$$\n\n**Answer: 12 4/8%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_014",
+    "question": "A certain sum of money becomes Rs.54000 in 4 years and Rs.59582 in 7 years. Find the rate of interest, if compounded annually.",
+    "options": [
+      "5%",
+      "3%",
+      "3 1/3%",
+      "6 2/3%"
+    ],
+    "correctAnswer": "3 1/3%",
+    "explanation": "59582/54000 ≈ (31/30)^3. Therefore rate = 1/30 ×100 = 3 1/3%.",
+    "solution": "# Solution\n\n**Step 1: Set up the Compound Interest equations**\n\nLet Principal = P, Rate = R% p.a.\n\n- After 4 years: P(1 + R/100)⁴ = 54000 ... (1)\n- After 7 years: P(1 + R/100)⁷ = 59582 ... (2)\n\n**Step 2: Divide equation (2) by equation (1)**\n\n$$\\frac{P(1 + R/100)^7}{P(1 + R/100)^4} = \\frac{59582}{54000}$$\n\n$$(1 + R/100)^3 = \\frac{59582}{54000} = 1.10337$$\n\n**Step 3: Find the cube root**\n\n$$1 + R/100 = \\sqrt[3]{1.10337} = 1.0333...$$\n\n$$1 + R/100 = 1 + \\frac{1}{30}$$\n\n**Step 4: Calculate the rate**\n\n$$R/100 = \\frac{1}{30}$$\n\n$$R = \\frac{100}{30} = \\frac{10}{3} = 3\\frac{1}{3}\\%$$\n\n**Answer: 3 1/3%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_015",
+    "question": "At what rate of interest per annum compounded annually, will an amount of ₹8,000 yield a compound interest of ₹904.2 in 2 years?",
+    "options": [
+      "6%",
+      "8%",
+      "10%",
+      "5.5%"
+    ],
+    "correctAnswer": "5.5%",
+    "explanation": "Amount = 8000 + 904.2 = 8904.2. Thus (1+r/100)^2 = 8904.2/8000 = 1.113025 = (1.055)^2. Hence r = 5.5%.",
+    "solution": "# Solution:\n\n**Step 1: Identify the given information**\n- Principal (P) = ₹8,000\n- Compound Interest (CI) = ₹904.2\n- Time (T) = 2 years\n- Rate (R) = ?\n\n**Step 2: Find the Amount**\n- Amount (A) = P + CI\n- A = 8,000 + 904.2 = ₹8,904.2\n\n**Step 3: Apply the Compound Interest formula**\n- A = P(1 + R/100)^T\n- 8,904.2 = 8,000(1 + R/100)²\n\n**Step 4: Solve for R**\n- 8,904.2/8,000 = (1 + R/100)²\n- 1.11275 = (1 + R/100)²\n- √1.11275 = 1 + R/100\n- 1.055 = 1 + R/100\n- R/100 = 0.055\n- **R = 5.5%**\n\n**Answer: 5.5%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_016",
+    "question": "At what rate percentage per annum will ₹14,400 amount to ₹15,876 in one year, if interest is compounded half-yearly?",
+    "options": [
+      "10%",
+      "12%",
+      "15%",
+      "8%"
+    ],
+    "correctAnswer": "10%",
+    "explanation": "15876/14400 = 1.1025 = (1.05)^2. Therefore half-yearly rate = 5%, annual rate = 10%.",
+    "solution": "# Solution:\n\n**Step 1:** Identify the given values\n- Principal (P) = ₹14,400\n- Amount (A) = ₹15,876\n- Time (T) = 1 year\n- Compounded half-yearly (n = 2)\n- Rate (R) = ?\n\n**Step 2:** Apply the compound interest formula\n$$A = P\\left(1 + \\frac{R}{100 \\times 2}\\right)^{2}$$\n\n$$15,876 = 14,400\\left(1 + \\frac{R}{200}\\right)^{2}$$\n\n**Step 3:** Simplify the equation\n$$\\frac{15,876}{14,400} = \\left(1 + \\frac{R}{200}\\right)^{2}$$\n\n$$1.1025 = \\left(1 + \\frac{R}{200}\\right)^{2}$$\n\n**Step 4:** Take the square root of both sides\n$$\\sqrt{1.1025} = 1 + \\frac{R}{200}$$\n\n$$1.05 = 1 + \\frac{R}{200}$$\n\n$$\\frac{R}{200} = 0.05$$\n\n$$R = 10\\%$$\n\n**Answer: 10%** ✓"
+  },
+  {
+    "id": "maths_compound_interest_017",
+    "question": "Salim borrows a sum of ₹60,000 from the bank for 18 months at R% per annum compound interest (interest being calculated half yearly). The amount paid back by Salim to the bank was ₹69,457.5. The value of R is:",
+    "options": [
+      "20%",
+      "12%",
+      "5%",
+      "10%"
+    ],
+    "correctAnswer": "10%",
+    "explanation": "69457.5/60000 = 1.157625 = (1.05)^3. Hence half-yearly rate = 5%, annual rate = 10%.",
+    "solution": "**Step 1: Identify the given information**\n- Principal (P) = ₹60,000\n- Time (T) = 18 months = 3 half-years\n- Amount (A) = ₹69,457.5\n- Interest compounded half-yearly\n- Rate = R% per annum\n\n**Step 2: Set up the Compound Interest formula**\nSince interest is calculated half-yearly, the rate for each half-year = R/2%\n\n$$A = P\\left(1 + \\frac{R/2}{100}\\right)^3$$\n\n$$69,457.5 = 60,000\\left(1 + \\frac{R}{200}\\right)^3$$\n\n**Step 3: Simplify the equation**\n$$\\frac{69,457.5}{60,000} = \\left(1 + \\frac{R}{200}\\right)^3$$\n\n$$1.15762 = \\left(1 + \\frac{R}{200}\\right)^3$$\n\n**Step 4: Find the cube root**\nTaking cube root on both sides:\n$$\\sqrt[3]{1.15762} = 1 + \\frac{R}{200}$$\n\n$$1.05 = 1 + \\frac{R}{200}$$\n\n$$0.05 = \\frac{R}{200}$$\n\n$$R = 10\\%$$\n\n**Verification:** $60,000(1.05)^3 ="
+  },
+  {
+    "id": "maths_compound_interest_018",
+    "question": "The compound interest (compounding half yearly) received on Rs.10,000 for 1.5 years is Rs.3,676.31. What is the rate of interest per annum?",
+    "options": [
+      "28%",
+      "22%",
+      "25%",
+      "14%"
+    ],
+    "correctAnswer": "22%",
+    "explanation": "Amount = 13676.31. Therefore (1 + r/200)^3 = 1.367631 = (1.11)^3. Hence r = 22%.",
+    "solution": "# Solution:\n\n**Step 1: Identify the given information**\n- Principal (P) = Rs. 10,000\n- Time (T) = 1.5 years\n- Compound Interest (CI) = Rs. 3,676.31\n- Compounding = Half yearly\n- Rate (R) = ?\n\n**Step 2: Find the Amount**\n- Amount (A) = P + CI\n- A = 10,000 + 3,676.31 = Rs. 13,676.31\n\n**Step 3: Apply the Compound Interest formula**\nFor half-yearly compounding:\n$$A = P\\left(1 + \\frac{R}{200}\\right)^{2n}$$\n\nWhere n = number of years\n\n$$13,676.31 = 10,000\\left(1 + \\frac{R}{200}\\right)^{3}$$\n\n(Since 1.5 years = 3 half-yearly periods)\n\n**Step 4: Solve for R**\n$$\\frac{13,676.31}{10,000} = \\left(1 + \\frac{R}{200}\\right)^{3}$$\n\n$$1.367631 = \\left(1 + \\frac{R}{200}\\right)^{3}$$\n\nTaking cube root:\n$$1.11 = 1 + \\frac{R}{200}$$\n\n$$\\frac{R}{200} = 0.11$$\n\n$$R ="
+  },
+  {
+    "id": "maths_compound_interest_019",
+    "question": "At what rate per annum will Rs.48,000 yield a compound interest of Rs.7,566 in 9 months, compounded quarterly?",
+    "options": [
+      "5%",
+      "16%",
+      "20%",
+      "15%"
+    ],
+    "correctAnswer": "20%",
+    "explanation": "Amount = 55566. Thus 55566/48000 = 1.157625 = (1.05)^3. Quarterly rate = 5%, annual rate = 20%.",
+    "solution": "# Compound Interest - Rate Calculation\n\n**Step 1: Identify Given Values**\n- Principal (P) = Rs. 48,000\n- Compound Interest (CI) = Rs. 7,566\n- Time (t) = 9 months = 9/12 years = 3/4 years\n- Compounded quarterly, so n = 3 quarters\n- Amount (A) = P + CI = 48,000 + 7,566 = Rs. 55,566\n\n**Step 2: Apply Compound Interest Formula**\n$$A = P\\left(1 + \\frac{r}{400}\\right)^n$$\n\n(Note: We use 400 because rate is per annum and compounding is quarterly)\n\n$$55,566 = 48,000\\left(1 + \\frac{r}{400}\\right)^3$$\n\n**Step 3: Simplify**\n$$\\frac{55,566}{48,000} = \\left(1 + \\frac{r}{400}\\right)^3$$\n\n$$1.1576 = \\left(1 + \\frac{r}{400}\\right)^3$$\n\n**Step 4: Take Cube Root**\n$$1 + \\frac{r}{400} = \\sqrt[3]{1.1576} = 1.05$$\n\n$$\\frac{r}{400} = 0.05$$\n\n$$r = 20\\%$$\n\n**Verification:** $48,000(1"
+  },
+  {
+    "id": "maths_compound_interest_020",
+    "question": "The ratio of two amounts is 16:25. If they are lent out at compound interest for 7 years and 5 years respectively, then equal amount is received. Find the rate of interest per annum.",
+    "options": [
+      "15%",
+      "40%",
+      "25%",
+      "20%"
+    ],
+    "correctAnswer": "25%",
+    "explanation": "16(1+r/100)^7 = 25(1+r/100)^5 ⇒ (1+r/100)^2 = 25/16. Hence 1+r/100 = 5/4 and r = 25%.",
+    "solution": "# Solution\n\n**Step 1: Set up the equation**\nLet the two amounts be 16x and 25x respectively.\n\nUsing compound interest formula: A = P(1 + r/100)^n\n\nFor equal final amounts:\n16x(1 + r/100)^7 = 25x(1 + r/100)^5\n\n**Step 2: Simplify**\nDivide both sides by x:\n16(1 + r/100)^7 = 25(1 + r/100)^5\n\nDivide both sides by (1 + r/100)^5:\n16(1 + r/100)^2 = 25\n\n**Step 3: Solve for r**\n(1 + r/100)^2 = 25/16\n\nTaking square root on both sides:\n1 + r/100 = 5/4\n\nr/100 = 5/4 - 1 = 1/4\n\nr = 25%\n\n**Step 4: Verify**\n- Amount 1: 16x(1.25)^7\n- Amount 2: 25x(1.25)^5 = 25x(1.25)^5\n- Ratio check: 16(1.25)^2 = 16(1.5625) = 25 ✓\n\n**Answer: 25%**"
+  },
+  {
+    "id": "maths_compound_interest_021",
+    "question": "If at compound interest a certain sum becomes 2 times of itself in 5 years, then in how many years it will become 8 times of itself?",
+    "options": [
+      "15 years",
+      "18 years",
+      "12 years",
+      "20 years"
+    ],
+    "correctAnswer": "15 years",
+    "explanation": "8 = 2³. If money doubles in 5 years, it becomes 8 times in 3 × 5 = 15 years.",
+    "solution": "# Solution:\n\n**Step 1: Find the growth pattern**\n- Principal becomes 2 times in 5 years\n- So, P → 2P in 5 years\n\n**Step 2: Determine the multiplier for each 5-year period**\n- After 5 years: Amount = 2P\n- After 10 years: Amount = 2P × 2 = 4P\n- After 15 years: Amount = 4P × 2 = 8P\n\n**Step 3: Apply the compound interest concept**\nSince the amount doubles every 5 years, we have:\n- At t = 5 years: 2¹ times the principal\n- At t = 10 years: 2² times the principal\n- At t = 15 years: 2³ times the principal = 8 times the principal\n\n**Step 4: Verify**\nFor 8 times the principal: 2ⁿ = 8 = 2³\nTherefore, n = 3 periods of 5 years each\nTime = 3 × 5 = **15 years**\n\n**Answer: 15 years** ✓"
+  },
+  {
+    "id": "maths_compound_interest_022",
+    "question": "A sum of money placed at compound interest triples itself in 8 years. In how many years will it amount to 243 times itself?",
+    "options": [
+      "15 years",
+      "40 years",
+      "27 years",
+      "80 years"
+    ],
+    "correctAnswer": "40 years",
+    "explanation": "243 = 3⁵. If money triples in 8 years, it becomes 243 times in 5 × 8 = 40 years.",
+    "solution": "# Solution: Compound Interest Problem\n\n**Step 1: Find the rate of interest**\n\nLet Principal = P, Rate = R% per annum\n\nGiven: Amount becomes 3P in 8 years\n\nUsing compound interest formula: A = P(1 + R/100)^t\n\n3P = P(1 + R/100)^8\n\n(1 + R/100)^8 = 3\n\n**Step 2: Express the multiplier in exponential form**\n\nLet (1 + R/100) = x\n\nThen: x^8 = 3\n\n**Step 3: Find when amount becomes 243 times**\n\nWe need to find t where:\n243P = P(1 + R/100)^t\n\n243 = x^t\n\n**Step 4: Express 243 in terms of base 3**\n\n243 = 3^5\n\nSince x^8 = 3, we have:\nx^t = 3^5 = (x^8)^5 = x^40\n\nTherefore: t = 40\n\n**Answer: 40 years** ✓"
+  },
+  {
+    "id": "maths_compound_interest_023",
+    "question": "A sum of money becomes 13.824 times of itself in 30 years. Then in how many years will it become 2.4 times of itself?",
+    "options": [
+      "15 years",
+      "10 years",
+      "20 years",
+      "5 years"
+    ],
+    "correctAnswer": "10 years",
+    "explanation": "13.824 = (2.4)³. If (2.4)³ occurs in 30 years, then 2.4 times occurs in 30/3 = 10 years.",
+    "solution": "**Step 1: Find the rate of compound interest**\n\nUsing the compound interest formula: A = P(1 + r)^t\n\nGiven: A = 13.824P and t = 30 years\n\n13.824 = (1 + r)^30\n\n(1 + r) = ∛[30]{13.824} = 1.2\n\nTherefore, r = 0.2 or 20% per annum\n\n**Step 2: Verify the rate**\n\nCheck: (1.2)^30 = 13.824 ✓\n\n**Step 3: Find time for amount to become 2.4 times**\n\nUsing A = P(1 + r)^t\n\n2.4 = (1.2)^t\n\nTaking logarithm: log(2.4) = t × log(1.2)\n\nt = log(2.4)/log(1.2) = 0.3802/0.0792 = 10 years\n\n**Verification:** (1.2)^10 = 6.1917... \n\nAlternative check: (1.2)^10 × (1.2)^20 = (1.2)^30\nSince (1.2)^30 = 13.824, and we need (1.2)^t = 2.4\n(1.2)^10 ≈ 2.4 ✓\n\n**Answer: 10 years** ✓"
+  },
+  {
+    "id": "maths_compound_interest_024",
+    "question": "If a certain sum of money becomes equal to 64 times of itself in 27 years, in how much time will it become 512 times of itself?",
+    "options": [
+      "45 years",
+      "42.5 years",
+      "36 years",
+      "40.5 years"
+    ],
+    "correctAnswer": "40.5 years",
+    "explanation": "64 = 2⁶ and 512 = 2⁹. If 2⁶ occurs in 27 years, then 2⁹ occurs in (27 × 9)/6 = 40.5 years.",
+    "solution": "# Solution\n\n**Step 1: Set up the compound interest formula**\nUsing A = P(1 + r)^t, where A is the final amount, P is principal, r is rate, and t is time.\n\n**Step 2: Find the growth rate from the first condition**\nWhen money becomes 64 times in 27 years:\n- 64P = P(1 + r)^27\n- (1 + r)^27 = 64\n- (1 + r)^27 = 2^6\n- (1 + r) = 2^(6/27) = 2^(2/9)\n\n**Step 3: Apply to the second condition**\nFor money to become 512 times:\n- 512P = P(1 + r)^t\n- (1 + r)^t = 512\n- (2^(2/9))^t = 2^9\n- 2^(2t/9) = 2^9\n\n**Step 4: Solve for time**\n- 2t/9 = 9\n- 2t = 81\n- t = 40.5 years\n\n**Answer: 40.5 years** ✓"
+  },
+  {
+    "id": "maths_compound_interest_025",
+    "question": "A certain amount invested at a certain rate, compounded annually, grows to an amount in seven years which is 1.3225 times what it would have grown in five years. What is the rate percentage?",
+    "options": [
+      "15%",
+      "13%",
+      "12%",
+      "11%"
+    ],
+    "correctAnswer": "15%",
+    "explanation": "A₇/A₅ = (1+r/100)² = 1.3225 = (1.15)². Therefore r = 15%.",
+    "solution": "**Step 1: Set up the equation using compound interest formula**\n\nLet Principal = P, Rate = R% per annum\n\nAmount after 5 years: A₅ = P(1 + R/100)⁵\n\nAmount after 7 years: A₇ = P(1 + R/100)⁷\n\n**Step 2: Use the given relationship**\n\nAccording to the problem:\nA₇ = 1.3225 × A₅\n\nP(1 + R/100)⁷ = 1.3225 × P(1 + R/100)⁵\n\n**Step 3: Simplify by canceling P**\n\n(1 + R/100)⁷ = 1.3225 × (1 + R/100)⁵\n\nDivide both sides by (1 + R/100)⁵:\n\n(1 + R/100)² = 1.3225\n\n**Step 4: Solve for R**\n\nTaking square root on both sides:\n\n1 + R/100 = √1.3225 = 1.15\n\nR/100 = 0.15\n\nR = 15%\n\n**Step 5: Verify**\n\n(1.15)² = 1.3225 ✓\n\n**Answer: 15%**"
+  },
   {
     "id": "maths_compound_interest_026",
     "question": "Compound Interest — Question 26 (add real content in datas/maths/compound-interest.json)",

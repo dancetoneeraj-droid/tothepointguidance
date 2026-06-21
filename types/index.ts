@@ -14,6 +14,8 @@ export interface Question {
   correctAnswer: string;
   explanation?: string;
   explanationHi?: string;
+  /** AI-generated step-by-step solution (added via add-solutions script). */
+  solution?: string;
   /** Shared passage/scenario text for set-based questions (e.g. seating arrangement puzzles). */
   passage?: string;
   /** 1-based position of this question within its passage group. */

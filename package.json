@@ -12,9 +12,11 @@
     "generate:schedule": "node scripts/generate-75-day-schedule.mjs",
     "generate:maths-banks": "node scripts/generate-maths-banks.mjs",
     "import:simple-interest": "node scripts/import-simple-interest.mjs",
-    "import:maths": "node scripts/import-maths-topic.mjs"
+    "import:maths": "node scripts/import-maths-topic.mjs",
+    "add:solutions": "node scripts/add-solutions.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.105.0",
     "better-sqlite3": "^12.10.0",
     "firebase": "^12.13.0",
     "lucide-react": "^1.16.0",

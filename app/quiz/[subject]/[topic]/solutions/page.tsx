@@ -288,9 +288,9 @@ export default function QuizSolutionsPage({
                       </p>
                     </div>
                     <div className="mt-3 rounded-2xl border border-white/10 bg-black/20 p-4 sm:p-5">
-                      {question.explanation ? (
+                      {question.explanation || question.solution ? (
                         <p className="text-sm leading-7 text-zinc-200 whitespace-pre-wrap">
-                          {question.explanation}
+                          {question.explanation ?? question.solution}
                         </p>
                       ) : (
                         <div className="flex items-start gap-3 text-sm text-zinc-400">
