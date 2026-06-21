@@ -119,7 +119,11 @@ export default function QuizPage({
     } else if (subject === "reasoning") {
       // Primary reasoning topic OR any extra quiz from reasoningQuizzes[].
       const extraCfg = plan.reasoningQuizzes?.find((q) => q.topic === topic);
-      const cfg = plan.reasoning && topic === plan.reasoning.topic ? plan.reasoning : (extraCfg ?? plan.reasoning);
+      const cfg =
+        plan.reasoning && topic === plan.reasoning.topic
+          ? plan.reasoning
+          : extraCfg ?? plan.reasoning;
+      if (!cfg) return null;
       questionCount = cfg.questions;
       durationMinutes = cfg.duration;
       if (cfg.from !== undefined) {
