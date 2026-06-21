@@ -436,12 +436,7 @@
       "day": 10,
       "published": true,
       "maths": [
-        {
-          "topic": "di",
-          "questions": 25,
-          "duration": 25,
-          "from": 25
-        },
+      
         {
           "topic": "mensuration-3d",
           "questions": 25,
@@ -465,8 +460,7 @@
         "grammarPdf": "https://drive.google.com/file/d/1QBWEJEw0KXkrA1a15s-4khVu5VO_KbPh/view?usp=drive_link",
         "grammarQuiz": "pronoun",
         "grammarQuizFrom": 175,
-        "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+        "vocabPdf": "/content/english/day2-vocab.pdf"
       },
       "reasoning": {
         "topic": "coding-decoding",
