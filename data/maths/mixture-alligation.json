@@ -240,11 +240,11 @@
       "1",
       "2",
       "3",
-      "4"
+      "None of these"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "None of these",
     "questionHi": "तीन अम्लों P, Q और R की सांद्रता क्रमशः 20%, 30% और 40% दी गई है। उन्हें x : 2 : 3 के अनुपात में मिलाने पर 32% सांद्रता वाला घोल बनता है। x का मान क्या है?",
-    "solution": "**Step 1: Set up the mixture equation**\n\nAcids P, Q, R are mixed in ratio x : 2 : 3 with concentrations 20%, 30%, 40% respectively.\n\nTotal parts = x + 2 + 3 = x + 5\n\n**Step 2: Apply the alligation principle**\n\nThe weighted average concentration equals 32%:\n\n$$\\frac{(20 \\times x) + (30 \\times 2) + (40 \\times 3)}{x + 5} = 32$$\n\n**Step 3: Solve for x**\n\n$$20x + 60 + 120 = 32(x + 5)$$\n\n$$20x + 180 = 32x + 160$$\n\n$$180 - 160 = 32x - 20x$$\n\n$$20 = 12x$$\n\n$$x = \\frac{20}{12} = \\frac{5}{3}$$\n\n**Step 4: Verify (using ratio x : 2 : 3 = 5/3 : 2 : 3)**\n\nMultiply by 3 to get whole numbers: 5 : 6 : 9\n\n$$\\frac{(20 \\times 5) + (30 \\times 6) + (40 \\times 9)}{5 + 6 + 9} = \\frac{100 + 180 + 360}{20} = \\frac{640}{20} ="
+    "solution": "# Solution\n\n**Step 1: Set up the mixture equation using the alligation method**\n\nAcids P, Q, and R are mixed in ratio x : 2 : 3 with concentrations 20%, 30%, and 40% respectively, resulting in 32% concentration.\n\nUsing weighted average:\n$$\\frac{20x + 30(2) + 40(3)}{x + 2 + 3} = 32$$\n\n**Step 2: Simplify the numerator and denominator**\n\n$$\\frac{20x + 60 + 120}{x + 5} = 32$$\n\n$$\\frac{20x + 180}{x + 5} = 32$$\n\n**Step 3: Cross multiply**\n\n$$20x + 180 = 32(x + 5)$$\n\n$$20x + 180 = 32x + 160$$\n\n**Step 4: Solve for x**\n\n$$180 - 160 = 32x - 20x$$\n\n$$20 = 12x$$\n\n$$x = \\frac{20}{12} = \\frac{5}{3}$$\n\n**Verification:** $\\frac{20(\\frac{5}{3}) + 60 + 120}{\\frac{5}{3} + 5} = \\frac{\\frac{100}{3} + 180}{\\frac{20}{3}} = \\frac{\\frac{640}{3}}{\\frac{20}{3}} ="
   },
   {
     "id": "maths_mixture_alligation_020",
@@ -281,9 +281,9 @@
       "7/24",
       "3/8"
     ],
-    "correctAnswer": "7/24",
+    "correctAnswer": "4/15",
     "questionHi": "एक मिश्रधातु में धातुएँ A, B और C का अनुपात 1 : 2 : 3 है और दूसरी में धातुएँ B, C और D का अनुपात 2 : 3 : 5 है। यदि दोनों मिश्रधातुओं के समान भार को मिलाकर तीसरी मिश्रधातु बनाई जाए, तो नई मिश्रधातु में धातु B का कितना भाग होगा?",
-    "solution": "# Solution: Metal B in the New Alloy\n\n**Step 1: Find the fraction of B in Alloy 1**\n- Ratio A : B : C = 1 : 2 : 3\n- Total parts = 1 + 2 + 3 = 6\n- Fraction of B in Alloy 1 = 2/6 = 1/3\n\n**Step 2: Find the fraction of B in Alloy 2**\n- Ratio B : C : D = 2 : 3 : 5\n- Total parts = 2 + 3 + 5 = 10\n- Fraction of B in Alloy 2 = 2/10 = 1/5\n\n**Step 3: Apply mixture formula**\n- Equal weights of both alloys are mixed\n- Fraction of B in new alloy = (1/3 + 1/5)/2\n- = (5 + 3)/(15 × 2)\n- = 8/30\n- = 4/15\n\n**Step 4: Verify with the correct answer**\nWait, let me recalculate: The new alloy contains both alloys in equal weight.\n- Total B from both = (1/3 + 1/5)/2 = 8/30 = 4/15\n\nHowever, checking the given answer 7/24: Let me use weighted average correctly:\n- B in new alloy = (1/3 × weight₁"
+    "solution": "**Step 1: Find the fraction of B in the first alloy**\n- First alloy ratio A : B : C = 1 : 2 : 3\n- Total parts = 1 + 2 + 3 = 6\n- Fraction of B in first alloy = 2/6 = 1/3\n\n**Step 2: Find the fraction of B in the second alloy**\n- Second alloy ratio B : C : D = 2 : 3 : 5\n- Total parts = 2 + 3 + 5 = 10\n- Fraction of B in second alloy = 2/10 = 1/5\n\n**Step 3: Calculate B in the mixture**\n- Let equal weight = W for each alloy\n- B from first alloy = W × (1/3) = W/3\n- B from second alloy = W × (1/5) = W/5\n- Total B = W/3 + W/5 = (5W + 3W)/15 = 8W/15\n\n**Step 4: Find fraction of B in new alloy**\n- Total weight of new alloy = W + W = 2W\n- Fraction of B = (8W/15)/(2W) = 8W/15 × 1/2W = 8/30 = **4/15**\n\n**Answer: 4/15** ✓"
   },
   {
     "id": "maths_mixture_alligation_023",
