@@ -39,16 +39,12 @@
         "grammarPdf": "https://drive.google.com/file/d/1_yYMolzz5qdYnZNO6UDBi9JwUfIIyfAf/view?usp=drive_link",
         "grammarQuiz": "noun"
       },
-      "reasoning": {
-        "topic": "coding-decoding",
-        "questions": 50,
-        "duration": 45
-      },
+    
       "reasoningQuizzes": [
         {
           "topic": "ns",
           "questions": 25,
-          "duration": 20,
+          "duration": 25,
           "label": "Number Series Quiz"
         }
       ],
@@ -214,19 +210,12 @@
           "questions": 25,
           "duration": 25,
           "from": 0
-        },
-        {
-          "topic": "di",
-          "questions": 25,
-          "duration": 25,
-          "from": 0
         }
       ],
       "english": {
         "grammarQuiz": "pronoun",
         "grammarQuizFrom": 50,
-        "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+        "vocabPdf": "/content/english/day5-vocab.pdf"
       },
       "reasoning": {
         "topic": "seating-arrangement",
@@ -273,8 +262,7 @@
         "grammarPdf": "https://drive.google.com/file/d/1DwFzKaTPuoifs-3X-TfL2HNxguCZpuIO/view?usp=drive_link",
         "grammarQuiz": "pronoun",
         "grammarQuizFrom": 75,
-        "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+        "vocabPdf": "/content/english/day6-vocab.pdf"
       },
       "reasoning": {
         "topic": "analogy",
@@ -321,8 +309,7 @@
       "english": {
         "grammarQuiz": "pronoun",
         "grammarQuizFrom": 100,
-        "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "vocabPdf": "/content/english/day7-vocab.pdf"
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -437,12 +424,7 @@
       "day": 10,
       "published": true,
       "maths": [
-        {
-          "topic": "di",
-          "questions": 25,
-          "duration": 25,
-          "from": 25
-        },
+        
         {
           "topic": "mensuration-3d",
           "questions": 25,
