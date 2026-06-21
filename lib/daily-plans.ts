@@ -4,7 +4,12 @@ import { PROGRAM_DAYS } from "@/lib/maths-topics";
 
 const PLANS: DailyPlan[] = (schedule75 as { plans: DailyPlan[] }).plans;
 
-export const MAX_PUBLISHED_DAY = PROGRAM_DAYS;
+// Derived from the schedule data — equals the highest day with published: true.
+// Update by flipping published flags in schedule-75.json, not by editing this.
+export const MAX_PUBLISHED_DAY = PLANS.reduce(
+  (max, p) => (p.published && p.day > max ? p.day : max),
+  0
+);
 
 export function getDailyPlan(day: number): DailyPlan | null {
   const plan = PLANS.find((p) => p.day === day);
