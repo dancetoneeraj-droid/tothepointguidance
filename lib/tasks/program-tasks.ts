@@ -57,13 +57,15 @@ export function getProgramTaskCatalog(): ProgramTask[] {
       }
     );
 
-    tasks.push({
-      id: buildTaskId(plan.day, "reasoning", plan.reasoning.topic),
-      day: plan.day,
-      label: `Reasoning: ${plan.reasoning.topic}`,
-      type: "quiz",
-      subject: "reasoning",
-    });
+    if (plan.reasoning) {
+      tasks.push({
+        id: buildTaskId(plan.day, "reasoning", plan.reasoning.topic),
+        day: plan.day,
+        label: `Reasoning: ${plan.reasoning.topic}`,
+        type: "quiz",
+        subject: "reasoning",
+      });
+    }
 
     tasks.push({
       id: buildTaskId(plan.day, "gk", "materials"),

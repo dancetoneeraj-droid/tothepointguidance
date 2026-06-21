@@ -192,7 +192,7 @@ export function getPendingTasks(
     });
   }
 
-  if (!dayProgress?.reasoning.completed) {
+  if (plan.reasoning && !dayProgress?.reasoning.completed) {
     tasks.push({
       id: "reasoning-quiz",
       day,

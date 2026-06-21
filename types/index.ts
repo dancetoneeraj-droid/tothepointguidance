@@ -68,7 +68,7 @@ export interface DailyPlan {
   published: boolean;
   maths: MathsQuizConfig[];
   english: EnglishConfig;
-  reasoning: ReasoningConfig;
+  reasoning?: ReasoningConfig;
   /** Optional extra reasoning quizzes shown as separate task cards on the day page. */
   reasoningQuizzes?: ReasoningConfig[];
   gk: GkConfig;

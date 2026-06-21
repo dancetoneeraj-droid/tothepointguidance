@@ -306,22 +306,30 @@ export default function DayPage({
           },
         ],
       })),
-      {
-        id: "reasoning",
-        label: "Reasoning Practice",
-        subtitle: `${formatTopic(plan.reasoning.topic)} · ${plan.reasoning.questions} questions · ${plan.reasoning.duration} min`,
-        kind: "quiz" as const,
-        subject: "reasoning" as const,
-        completed: dayProgress.reasoning.completed,
-        actions: [
-          {
-            id: "reasoning-action",
-            label: dayProgress.reasoning.completed ? "View result" : "Start quiz",
-            onClick: () =>
-              router.push(`/quiz/reasoning/${plan.reasoning.topic}?day=${dayNum}`),
-          },
-        ],
-      },
+      ...(plan.reasoning
+        ? [
+            {
+              id: "reasoning",
+              label: "Reasoning Practice",
+              subtitle: `${formatTopic(plan.reasoning.topic)} · ${plan.reasoning.questions} questions · ${plan.reasoning.duration} min`,
+              kind: "quiz" as const,
+              subject: "reasoning" as const,
+              completed: dayProgress.reasoning.completed,
+              actions: [
+                {
+                  id: "reasoning-action",
+                  label: dayProgress.reasoning.completed
+                    ? "View result"
+                    : "Start quiz",
+                  onClick: () =>
+                    router.push(
+                      `/quiz/reasoning/${plan.reasoning!.topic}?day=${dayNum}`
+                    ),
+                },
+              ],
+            },
+          ]
+        : []),
       // Extra reasoning quizzes (e.g. Number Series) — each gets its own card.
       ...(plan.reasoningQuizzes ?? []).map((rq) => {
         const quizDone = hasCompletedQuiz(studentId, dayNum, "reasoning", rq.topic);
