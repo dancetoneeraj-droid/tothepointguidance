@@ -79,7 +79,7 @@
   },
   {
     "id": "maths_percentage_007",
-    "question": "If 60% of a number is 120 more than 20% of the number, then 28% of the number is less than 40% of the number by:",
+    "question": "If 60% of a number is 120 more than 20% of the number, then 28% of the number is less than 33 1/3% of the number by:",
     "options": [
       "12",
       "14",
@@ -88,7 +88,7 @@
     ],
     "correctAnswer": "16",
     "questionHi": "यदि किसी संख्या का 60%, संख्या के 20% से 120 अधिक है, तो संख्या का 28%, संख्या के 33 1/3% से कितना कम है?",
-    "solution": "# Step-by-Step Solution:\n\n**Step 1: Set up the equation**\nLet the number be x.\n- 60% of number = 0.6x\n- 20% of number = 0.2x\n\nGiven: 60% of x is 120 more than 20% of x\n$$0.6x = 0.2x + 120$$\n\n**Step 2: Solve for x**\n$$0.6x - 0.2x = 120$$\n$$0.4x = 120$$\n$$x = 300$$\n\n**Step 3: Calculate 28% and 40% of the number**\n- 28% of 300 = 0.28 × 300 = 84\n- 40% of 300 = 0.40 × 300 = 120\n\n**Step 4: Find the difference**\n$$40\\% \\text{ of number} - 28\\% \\text{ of number} = 120 - 84 = 16$$\n\nTherefore, 28% of the number is less than 40% of the number by **16**.\n\n✓ Answer confirmed: **16**"
+    "solution": "# Solution\n\n**Step 1: Set up the equation**\nLet the number be x.\n\nGiven: 60% of x = 20% of x + 120\n\n0.6x = 0.2x + 120\n\n**Step 2: Solve for x**\n0.6x - 0.2x = 120\n\n0.4x = 120\n\nx = 300\n\n**Step 3: Find 28% of the number**\n28% of 300 = 0.28 × 300 = 84\n\n**Step 4: Find 33⅓% of the number**\n33⅓% = 1/3\n\n(1/3) × 300 = 100\n\n**Step 5: Find the difference**\n100 - 84 = 16\n\n**Answer: 16** ✓"
   },
   {
     "id": "maths_percentage_008",
@@ -650,7 +650,7 @@
     "solution": "**Step 1: Set up the equations**\nLet A's salary = ₹x and B's salary = ₹y\n- x + y = 43,000 ... (equation 1)\n\n**Step 2: Express savings**\n- A's savings = 5% of x = 0.05x\n- B's savings = 20% of y = 0.20y\n\n**Step 3: Use the condition that savings are equal**\n0.05x = 0.20y\n- x = 4y ... (equation 2)\n\n**Step 4: Substitute in equation 1**\n4y + y = 43,000\n- 5y = 43,000\n- y = 8,600\n\n**Step 5: Find A's salary**\nx = 4y = 4 × 8,600 = **₹34,400**\n\n**Answer: 34400 ✓**"
   },
   {
-    "id": "maths_percentage_099",
+    "id": "maths_percentage_051",     
     "question": "At the beginning of day 1 of a month, Rajesh has 500 eggs. He sells 20% of the eggs by the end of the day and added b% of the eggs at the beginning of the next day and sold 20% of the eggs at the end of the next day. This pattern continued up to the end of the third day of the month when he is left with 1024 eggs. The value of b is equal to:",
     "options": [
       "220",
@@ -663,7 +663,7 @@
     "solution": "# Step-by-Step Solution\n\n**Step 1: Track eggs at end of Day 1**\n- Starting eggs: 500\n- Sells 20%: 500 × (1 - 0.20) = 500 × 0.80 = 400 eggs\n\n**Step 2: Track eggs at end of Day 2**\n- Beginning of Day 2: 400 + b% of 400 = 400(1 + b/100)\n- Sells 20%: 400(1 + b/100) × 0.80 = 320(1 + b/100) eggs\n\n**Step 3: Track eggs at end of Day 3**\n- Beginning of Day 3: 320(1 + b/100) + b% of 320(1 + b/100) = 320(1 + b/100)²\n- Sells 20%: 320(1 + b/100)² × 0.80 = 256(1 + b/100)² eggs\n\n**Step 4: Set up equation using final condition**\n- End of Day 3: 256(1 + b/100)² = 1024\n- (1 + b/100)² = 1024/256 = 4\n- (1 + b/100) = 2\n- b/100 = 1\n- **b = 100**\n\n**Verification:** 500 → 400 → 400(2) = 800"
   },
   {
-    "id": "maths_percentage_100",
+    "id": "maths_percentage_052",
     "question": "The price of a commodity is increased by 36% and the quantity purchased is decreased by 30%. What is the percentage increase/decrease in the amount spent on the commodity?",
     "options": [
       "6%, Increase",
@@ -676,7 +676,7 @@
     "solution": "# Solution\n\n**Step 1: Assume initial values**\n- Let initial price = P and initial quantity = Q\n- Initial amount spent = P × Q\n\n**Step 2: Calculate new price and quantity**\n- New price = P + 36% of P = 1.36P\n- New quantity = Q - 30% of Q = 0.70Q\n\n**Step 3: Calculate new amount spent**\n- New amount spent = 1.36P × 0.70Q = 0.952PQ\n\n**Step 4: Find percentage change**\n- Change in amount = 0.952PQ - PQ = -0.048PQ\n- Percentage change = (Change/Original) × 100\n- Percentage change = (-0.048PQ/PQ) × 100 = -4.8%\n\n**Step 5: Interpret the result**\n- Negative sign indicates **decrease**\n- Magnitude is **4.8%**\n\n**Answer: 4.8%, Decrease** ✓"
   },
   {
-    "id": "maths_percentage_101",
+    "id": "maths_percentage_053",
     "question": "In a company, all employees are getting equal wages. If the number of employees is increased by 20% and their wages per head are decreased by 18%, what is the percentage decrease in total wages?",
     "options": [
       "2.4%",
@@ -689,7 +689,7 @@
     "solution": "**Step 1: Set up initial values**\n- Let initial number of employees = 100\n- Let initial wage per employee = 100\n- Initial total wages = 100 × 100 = 10,000\n\n**Step 2: Calculate new number of employees**\n- New employees = 100 + 20% of 100 = 100 + 20 = 120\n\n**Step 3: Calculate new wage per employee**\n- New wage per head = 100 - 18% of 100 = 100 - 18 = 82\n\n**Step 4: Calculate new total wages**\n- New total wages = 120 × 82 = 9,840\n\n**Step 5: Find percentage decrease**\n- Decrease = 10,000 - 9,840 = 160\n- Percentage decrease = (160/10,000) × 100 = **1.6%**\n\n**Answer: 1.6%** ✓"
   },
   {
-    "id": "maths_percentage_102",
+    "id": "maths_percentage_054",
     "question": "Basir’s working hours per day were increased by 15% and his wages per hour were increased by 20%. By how much percent did his daily earnings increase?",
     "options": [
       "35",
@@ -702,7 +702,7 @@
     "solution": "**Step 1: Set initial values**\nLet initial working hours = H\nLet initial wages per hour = W\nInitial daily earnings = H × W\n\n**Step 2: Calculate new working hours and wages**\nNew working hours = H + 15% of H = 1.15H\nNew wages per hour = W + 20% of W = 1.20W\n\n**Step 3: Calculate new daily earnings**\nNew daily earnings = 1.15H × 1.20W = 1.38HW\n\n**Step 4: Find percentage increase**\nIncrease in daily earnings = 1.38HW - HW = 0.38HW\nPercentage increase = (0.38HW / HW) × 100 = 38%\n\n**Answer: 38%** ✓"
   },
   {
-    "id": "maths_percentage_103",
+    "id": "maths_percentage_055",
     "question": "When the price of an item was reduced by 35%, then its sale was increased by x%. If there is an increase of 17% in the receipt of the revenue, then the value of x will be:",
     "options": [
       "84",
@@ -715,7 +715,7 @@
     "solution": "# Solution\n\n**Step 1: Set up the revenue equation**\n- Let original price = P and original sales = S\n- Original revenue = P × S\n- New price = P(1 - 0.35) = 0.65P\n- New sales = S(1 + x/100)\n- New revenue = 0.65P × S(1 + x/100)\n\n**Step 2: Apply the revenue increase condition**\n- New revenue = Original revenue × 1.17\n- 0.65P × S(1 + x/100) = P × S × 1.17\n\n**Step 3: Simplify the equation**\n- 0.65(1 + x/100) = 1.17\n- 1 + x/100 = 1.17/0.65\n- 1 + x/100 = 1.8\n\n**Step 4: Solve for x**\n- x/100 = 1.8 - 1\n- x/100 = 0.8\n- x = 80\n\n**Answer: 80** ✓"
   },
   {
-    "id": "maths_percentage_104",
+    "id": "maths_percentage_056",
     "question": "If the length of a rectangle is increased by 13% and the breadth of the rectangle is decreased by 8%, then percentage change in the area of the rectangle will be:",
     "options": [
       "5.4% decreased",
@@ -728,7 +728,7 @@
     "solution": "**Step 1: Set up initial values**\nLet original length = L and original breadth = B\nOriginal area = L × B\n\n**Step 2: Calculate new dimensions**\nNew length = L + 13% of L = 1.13L\nNew breadth = B - 8% of B = 0.92B\n\n**Step 3: Calculate new area**\nNew area = 1.13L × 0.92B = 1.0396LB\n\n**Step 4: Find percentage change in area**\nPercentage change = (New area - Original area)/Original area × 100\n= (1.0396LB - LB)/LB × 100\n= 0.0396 × 100\n= 3.96%\n\nSince the result is positive, the area **increased by 3.96%**.\n\n**Answer: 3.96% increased** ✓"
   },
   {
-    "id": "maths_percentage_105",
+    "id": "maths_percentage_057",     
     "question": "Aswin bought a new plot which need to be fenced immediately, due to this the length as well as the breadth of the rectangular working place is reduced by 14%. Find the % decrease in the area.",
     "options": [
       "26.04%",
@@ -741,7 +741,7 @@
     "solution": "**Step 1:** Let the original length = L and original breadth = B\n\n**Step 2:** After reduction by 14%, new length = L(1 - 0.14) = 0.86L\nNew breadth = B(1 - 0.14) = 0.86B\n\n**Step 3:** Original area = L × B\nNew area = 0.86L × 0.86B = 0.7396LB\n\n**Step 4:** Decrease in area = LB - 0.7396LB = 0.2604LB\n\n**Step 5:** % decrease = (0.2604LB/LB) × 100 = 26.04%\n\n**Answer: 26.04%** ✓"
   },
   {
-    "id": "maths_percentage_106",
+    "id": "maths_percentage_058",
     "question": "If the area of a square is decreased by 19%, then the diagonal of the square is decreased by:",
     "options": [
       "10%",
@@ -754,7 +754,7 @@
     "solution": "**Step 1: Set up the relationship between area and side**\nLet the original side of square = a\nOriginal area = a²\nOriginal diagonal = a√2\n\n**Step 2: Find the new area after 19% decrease**\nNew area = a² - 19% of a² = 0.81a²\nNew side = √(0.81a²) = 0.9a\n\n**Step 3: Calculate the new diagonal**\nNew diagonal = 0.9a × √2 = 0.9a√2\n\n**Step 4: Find the percentage decrease in diagonal**\nDecrease in diagonal = a√2 - 0.9a√2 = 0.1a√2\n\nPercentage decrease = (0.1a√2)/(a√2) × 100 = 10%\n\n**Answer: 10%** ✓"
   },
   {
-    "id": "maths_percentage_107",
+    "id": "maths_percentage_059",
     "question": "The radius of a circle is increased so that its circumference increases by 15%. The area of the circle will increase by:",
     "options": [
       "31.25%",
@@ -767,7 +767,7 @@
     "solution": "# Step-by-Step Solution\n\n**Step 1: Understand the relationship between circumference and radius**\n- Circumference: C = 2πr\n- If circumference increases by 15%, then: C_new = 1.15 × C_old\n\n**Step 2: Find the new radius**\n- Since C = 2πr, if C increases by 15%, then r also increases by 15%\n- r_new = 1.15 × r_old\n\n**Step 3: Calculate the area increase**\n- Area: A = πr²\n- A_old = πr²\n- A_new = π(1.15r)² = π(1.3225r²) = 1.3225πr²\n\n**Step 4: Find percentage increase in area**\n- Increase = A_new - A_old = 1.3225πr² - πr² = 0.3225πr²\n- Percentage increase = (0.3225πr²/πr²) × 100 = 0.3225 × 100 = **32.25%**\n\n✓ **Answer: 32.25%**"
   },
   {
-    "id": "maths_percentage_108",
+    "id": "maths_percentage_060",
     "question": "In a triangle height is increased by 37.5% and base is increased by 45.45%. Then find the percentage increase in area of triangle?",
     "options": [
       "200%",
@@ -780,7 +780,7 @@
     "solution": "# Solution\n\n**Step 1: Recall the formula for area of triangle**\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n\n**Step 2: Express the new dimensions**\n- New height = h + 37.5% of h = 1.375h\n- New base = b + 45.45% of b = 1.4545b\n\n**Step 3: Calculate the new area**\n$$\\text{New Area} = \\frac{1}{2} \\times 1.4545b \\times 1.375h$$\n\n$$= 1.4545 \\times 1.375 \\times \\frac{1}{2} \\times b \\times h$$\n\n$$= 2 \\times \\text{Original Area}$$\n\n**Step 4: Find percentage increase**\n$$\\text{Percentage increase} = \\frac{\\text{New Area} - \\text{Original Area}}{\\text{Original Area}} \\times 100$$\n\n$$= \\frac{2A - A}{A} \\times 100 = \\frac{A}{A} \\times 100 = 100\\%$$\n\n**Answer: 100%** ✓"
   },
   {
-    "id": "maths_percentage_109",
+    "id": "maths_percentage_061",
     "question": "The base of a triangle is increased by 40%. By what percentage (correct to two decimal places) should its height be increased so that the area increases by 60%?",
     "options": [
       "14.29%",
@@ -793,7 +793,7 @@
     "solution": "# Solution\n\n**Step 1: Set up the area formula**\n- Original area: A = (1/2) × b × h\n- New area: A' = (1/2) × b' × h'\n\n**Step 2: Express the new base and area in terms of increase**\n- New base: b' = b + 40% of b = 1.40b\n- New area: A' = A + 60% of A = 1.60A\n\n**Step 3: Set up the equation**\n- 1.60A = (1/2) × 1.40b × h'\n- 1.60 × (1/2) × b × h = (1/2) × 1.40b × h'\n\n**Step 4: Solve for h'**\n- 1.60h = 1.40h'\n- h' = (1.60/1.40)h\n- h' = (16/14)h = (8/7)h\n- h' = 1.1428...h\n\n**Step 5: Calculate percentage increase in height**\n- Percentage increase = (h' - h)/h × 100\n- = (1.1428... - 1) × 100\n- = 0.1428... × 100\n- = **14.29%**\n\n**Answer: 14.29%** ✓"
   },
   {
-    "id": "maths_percentage_110",
+    "id": "maths_percentage_062",
     "question": "The length, breadth and height of a room in the shape of a cuboid are increased by 15%, 20% and 30% respectively. Find the percentage change in the volume of the cuboid.",
     "options": [
       "79.4% increase",
@@ -806,7 +806,7 @@
     "solution": "# Solution:\n\n**Step 1: Set up the original dimensions**\n- Let original length = l, breadth = b, height = h\n- Original volume = lbh\n\n**Step 2: Calculate new dimensions**\n- New length = l + 15% of l = 1.15l\n- New breadth = b + 20% of b = 1.20b\n- New height = h + 30% of h = 1.30h\n\n**Step 3: Calculate new volume**\n- New volume = (1.15l)(1.20b)(1.30h)\n- New volume = 1.15 × 1.20 × 1.30 × lbh\n- New volume = 1.794 × lbh\n\n**Step 4: Find percentage change**\n- Change in volume = 1.794lbh - lbh = 0.794lbh\n- Percentage change = (0.794lbh / lbh) × 100\n- Percentage change = 0.794 × 100 = 79.4%\n\nSince the new volume is greater than original volume, it's an **increase**.\n\n**Answer: 79.4% increase** ✓"
   },
   {
-    "id": "maths_percentage_111",
+    "id": "maths_percentage_063",
     "question": "If each side of a cube is decreased by 12%, then the percentage decrease in its surface area is:",
     "options": [
       "25.66%",
@@ -819,7 +819,7 @@
     "solution": "**Step 1: Set up the formula for surface area of a cube**\nSurface area of cube = 6a², where a is the side length\n\n**Step 2: Calculate the new side length after 12% decrease**\nNew side = a - 12% of a = a(1 - 0.12) = 0.88a\n\n**Step 3: Calculate the new surface area**\nNew surface area = 6(0.88a)² = 6 × 0.7744a² = 4.6464a²\n\n**Step 4: Find the percentage decrease in surface area**\nOriginal surface area = 6a²\nDecrease = 6a² - 4.6464a² = 1.3536a²\n\nPercentage decrease = (Decrease/Original) × 100\n= (1.3536a²/6a²) × 100\n= 0.2256 × 100\n= **22.56%**\n\n**Answer: 22.56%** ✓"
   },
   {
-    "id": "maths_percentage_112",
+    "id": "maths_percentage_064",
     "question": "If each side of a cube is increased by 15%, then the volume of the cube will increase by: (Consider integral part only)",
     "options": [
       "45%",
@@ -832,7 +832,7 @@
     "solution": "# Solution\n\n**Step 1: Set up the initial volume**\nLet the initial side of cube = a\nInitial volume = a³\n\n**Step 2: Find the new side after 15% increase**\nNew side = a + 15% of a = a(1.15) = 1.15a\n\n**Step 3: Calculate the new volume**\nNew volume = (1.15a)³ = 1.15³ × a³ = 1.520875 × a³\n\n**Step 4: Find the percentage increase in volume**\nIncrease in volume = New volume - Initial volume\n= 1.520875a³ - a³ = 0.520875a³\n\nPercentage increase = (0.520875a³/a³) × 100\n= 0.520875 × 100 = 52.0875%\n\n**Step 5: Consider integral part only**\nIntegral part = **52%**\n\n✓ **Answer: 52%**"
   },
   {
-    "id": "maths_percentage_113",
+      "id": "maths_percentage_065",
     "question": "If the radius of a sphere is increased by 16⅔%, then by what percent would its surface area increase (correct to one decimal place)?",
     "options": [
       "34.8%",
@@ -845,7 +845,7 @@
     "solution": "**Step 1: Convert the percentage increase in radius**\n16⅔% = 50/3 %\nIf radius increases by 50/3%, then:\nNew radius = R(1 + 50/300) = R(1 + 1/6) = 7R/6\n\n**Step 2: Recall the surface area formula**\nSurface area of sphere = 4πR²\n\n**Step 3: Calculate the new surface area**\nNew surface area = 4π(7R/6)²\n= 4π × 49R²/36\n= (49/36) × 4πR²\n\n**Step 4: Find the percentage increase**\nPercentage increase = [(New SA - Original SA)/Original SA] × 100\n= [(49/36 × 4πR² - 4πR²)/(4πR²)] × 100\n= [(49/36 - 1)] × 100\n= [(49 - 36)/36] × 100\n= (13/36) × 100\n= 1300/36\n= 36.111...%\n≈ 36.1%\n\n**Answer: 36.1%** ✓"
   },
   {
-    "id": "maths_percentage_114",
+    "id": "maths_percentage_066",
     "question": "The radius of a spherical balloon is inflated from 3.5 cm to 4.9 cm by pushing air into it. What is the percentage increase in the volume of the original balloon?",
     "options": [
       "74.4%",
@@ -858,7 +858,7 @@
     "solution": "# Solution: Percentage Increase in Volume of Sphere\n\n**Step 1: Write the volume formula for a sphere**\n$$V = \\frac{4}{3}\\pi r^3$$\n\n**Step 2: Calculate initial and final volumes**\n- Initial volume: $V_1 = \\frac{4}{3}\\pi (3.5)^3 = \\frac{4}{3}\\pi × 42.875$\n- Final volume: $V_2 = \\frac{4}{3}\\pi (4.9)^3 = \\frac{4}{3}\\pi × 117.649$\n\n**Step 3: Find the ratio of volumes**\n$$\\frac{V_2}{V_1} = \\frac{(4.9)^3}{(3.5)^3} = \\frac{117.649}{42.875} = 2.744$$\n\n**Step 4: Calculate percentage increase**\n$$\\text{Percentage increase} = (2.744 - 1) × 100\\%$$\n$$= 1.744 × 100\\% = 174.4\\%$$\n\n**Answer: 174.4%** ✓"
   },
   {
-    "id": "maths_percentage_115",
+    "id": "maths_percentage_067",
     "question": "The diameter of a sphere is increased by 140%. By what percent will its volume increase?",
     "options": [
       "1282.4%",
@@ -871,7 +871,7 @@
     "solution": "# Solution\n\n**Step 1: Set initial diameter and new diameter**\n- Let initial diameter = d\n- Initial radius = d/2\n- New diameter = d + 140% of d = 2.4d\n- New radius = 1.2d (i.e., 2.4d/2)\n\n**Step 2: Find the ratio of new radius to initial radius**\n- Ratio = 1.2d ÷ (d/2) = 2.4\n- Or simply: new radius/initial radius = 1.2/(0.5) = 2.4\n\n**Step 3: Apply volume scaling principle**\n- Volume of sphere = (4/3)πr³\n- If radius increases by factor k, volume increases by factor k³\n- Volume ratio = (2.4)³ = 13.824\n\n**Step 4: Calculate percentage increase**\n- New volume = 13.824 × original volume\n- Increase = 13.824 - 1 = 12.824\n- Percentage increase = 12.824 × 100 = **1282.4%**\n\n**Answer: 1282.4%** ✓"
   },
   {
-    "id": "maths_percentage_116",
+    "id": "maths_percentage_068",
     "question": "Volume of a sphere is increased by 119.7% when its radius is increased. Find the percentage change in the total surface area of the sphere.",
     "options": [
       "61.29%",
@@ -884,7 +884,7 @@
     "solution": "**Step 1: Set up the volume relationship**\n\nVolume of sphere = (4/3)πr³\n\nIf volume increases by 119.7%, new volume = Original volume × 2.197\n\nSo: (4/3)πr₂³ = 2.197 × (4/3)πr₁³\n\nTherefore: r₂³ = 2.197 × r₁³\n\n**Step 2: Find the ratio of radii**\n\nr₂³/r₁³ = 2.197\n\nr₂/r₁ = ∛(2.197) = 1.3\n\n**Step 3: Calculate surface area change**\n\nSurface area of sphere = 4πr²\n\nRatio of new to original surface area = (r₂/r₁)² = (1.3)² = 1.69\n\n**Step 4: Find percentage change**\n\nPercentage change = (1.69 - 1) × 100% = 0.69 × 100% = 69%\n\n**Answer: 69%** ✓"
   },
   {
-    "id": "maths_percentage_117",
+    "id": "maths_percentage_069",
     "question": "The radius of a cylinder is increased by 120% and its height is decreased by 40%. What is the percentage increase in its volume?",
     "options": [
       "180.6%",
@@ -897,7 +897,7 @@
     "solution": "**Step 1: Set up the volume formula**\nVolume of cylinder = πr²h\n\nLet original radius = r and original height = h\nOriginal volume (V₁) = πr²h\n\n**Step 2: Apply the changes**\n- New radius = r + 120% of r = r + 1.2r = 2.2r\n- New height = h - 40% of h = h - 0.4h = 0.6h\n\n**Step 3: Calculate new volume**\nNew volume (V₂) = π(2.2r)²(0.6h)\nV₂ = π(4.84r²)(0.6h)\nV₂ = 2.904πr²h\n\n**Step 4: Find percentage increase**\nPercentage increase = [(V₂ - V₁)/V₁] × 100\n= [(2.904πr²h - πr²h)/πr²h] × 100\n= [(2.904 - 1)/1] × 100\n= 1.904 × 100\n= 190.4%\n\n**Answer: 190.4%** ✓"
   },
   {
-    "id": "maths_percentage_118",
+    "id": "maths_percentage_070",
     "question": "The radius and height of a cylinder are increased by 3% each. What will be the approximate percentage change in volume?",
     "options": [
       "8.16%",
@@ -910,7 +910,7 @@
     "solution": "# Solution: Percentage Change in Cylinder Volume\n\n**Step 1: Write the volume formula for a cylinder**\n- V = πr²h\n\n**Step 2: Calculate new volume after 3% increase in both r and h**\n- New radius: r' = r(1 + 0.03) = 1.03r\n- New height: h' = h(1 + 0.03) = 1.03h\n- New volume: V' = π(1.03r)²(1.03h) = π(1.0609r²)(1.03h)\n\n**Step 3: Simplify the new volume**\n- V' = π × 1.0609 × 1.03 × r²h\n- V' = 1.092727 × πr²h\n- V' = 1.092727V\n\n**Step 4: Calculate percentage change**\n- Percentage change = (V' - V)/V × 100\n- = (1.092727V - V)/V × 100\n- = 0.092727 × 100\n- = **9.2727% ≈ 9.27%**\n\n**Answer: 9.27%** ✓"
   },
   {
-    "id": "maths_percentage_119",
+    "id": "maths_percentage_071",
     "question": "If the radius of the base of a right circular cylinder is decreased by 18% and its height is increased by 141%, then what is the percentage increase (closest integer) in its volume?",
     "options": [
       "43%",
@@ -923,7 +923,7 @@
     "solution": "**Step 1: Set up the volume formula**\nVolume of cylinder = πr²h\n\nLet original radius = r and original height = h\nOriginal volume = πr²h\n\n**Step 2: Apply the given changes**\n- New radius = r - 18% of r = 0.82r\n- New height = h + 141% of h = 2.41h\n\n**Step 3: Calculate new volume**\nNew volume = π(0.82r)²(2.41h)\n= π(0.6724r²)(2.41h)\n= 1.6205πr²h\n\n**Step 4: Find percentage change**\nPercentage increase = [(New volume - Original volume) / Original volume] × 100\n= [(1.6205πr²h - πr²h) / πr²h] × 100\n= [0.6205] × 100\n= 62.05%\n\n**Step 5: Round to nearest integer**\n62.05% ≈ **62%**\n\n**Answer: 62%** ✓"
   },
   {
-    "id": "maths_percentage_120",
+    "id": "maths_percentage_072",   
     "question": "If the radius of the cylinder is increased by 25%, then by how much percent must the height be decreased, so that the volume of the cylinder increases by 32% only?",
     "options": [
       "14.73",
@@ -936,7 +936,7 @@
     "solution": "**Step 1: Set up the volume formula**\nVolume of cylinder = πr²h\n\nOriginal volume: V₁ = πr²h\n\n**Step 2: Express the new volume with increased radius**\nNew radius = r + 25% of r = 1.25r\nLet new height = h' (to be found)\n\nNew volume: V₂ = π(1.25r)²h' = π(1.5625r²)h'\n\n**Step 3: Apply the 32% increase condition**\nV₂ = V₁ + 32% of V₁ = 1.32V₁\n\nπ(1.5625r²)h' = 1.32(πr²h)\n\n1.5625h' = 1.32h\n\nh' = 1.32h/1.5625 = 0.8448h\n\n**Step 4: Calculate percentage decrease in height**\nDecrease in height = h - 0.8448h = 0.1552h\n\nPercentage decrease = (0.1552h/h) × 100 = 15.52%\n\n**Answer: 15.52** ✓"
   },
   {
-    "id": "maths_percentage_121",
+    "id": "maths_percentage_073",
     "question": "Volume of a cylinder is increased by 43% when its height is reduced by 15 5/13%. Then find the percentage change in the curved surface area of the cylinder.",
     "options": [
       "15%",
@@ -949,7 +949,7 @@
     "solution": "# Solution\n\n**Step 1: Set up the volume equation**\n\nVolume of cylinder: V = πr²h\n\nInitial volume: V₁ = πr₁²h₁\nFinal volume: V₂ = πr₂²h₂\n\nGiven: V₂ = 1.43V₁ and h₂ = h₁(1 - 15 5/13%)\n\n**Step 2: Convert the height reduction to fraction**\n\n15 5/13% = 200/13% = 200/1300 = 2/13\n\nSo h₂ = h₁(1 - 2/13) = h₁(11/13)\n\n**Step 3: Find the radius relationship**\n\nFrom V₂ = 1.43V₁:\n\nπr₂²h₂ = 1.43πr₁²h₁\n\nr₂²(11/13)h₁ = 1.43r₁²h₁\n\nr₂² = 1.43 × (13/11)r₁²\n\nr₂² = (143/100) × (13/11)r₁² = (1859/1100)r₁²\n\nr₂/r₁ = √(1859/1100) = √(169/100) = 13/10 = 1.3\n\n**Step 4: Calculate curved surface area change**\n\nCurved Surface Area: CSA = 2π"
   },
   {
-    "id": "maths_percentage_122",
+    "id": "maths_percentage_074",
     "question": "The radius and height of a right circular cone are increased by 25%. Find the increase in percentage of the volume of the cone (rounded off to 2 decimal places).",
     "options": [
       "94.31%",
@@ -962,7 +962,7 @@
     "solution": "**Step 1: Recall the volume formula for a cone.**\nVolume of cone = (1/3)πr²h\n\n**Step 2: Calculate initial volume.**\nLet initial radius = r and initial height = h\nV₁ = (1/3)πr²h\n\n**Step 3: Calculate new volume after 25% increase.**\nNew radius = r + 25% of r = 1.25r\nNew height = h + 25% of h = 1.25h\n\nV₂ = (1/3)π(1.25r)²(1.25h)\nV₂ = (1/3)π(1.5625r²)(1.25h)\nV₂ = (1/3)π × 1.953125 × r²h\nV₂ = 1.953125 × V₁\n\n**Step 4: Calculate percentage increase.**\nPercentage increase = [(V₂ - V₁)/V₁] × 100\n= [(1.953125V₁ - V₁)/V₁] × 100\n= [0.953125/1] × 100\n= 95.3125%\n= **95.31%** (rounded to 2 decimal places)\n\n**Answer: 95.31%** ✓"
   },
   {
-    "id": "maths_percentage_123",
+    "id": "maths_percentage_075",
     "question": "If the height of a regular right pyramid with a square base is increased by 20% and the side length of its base is decreased by 10%, what is the percentage change in its volume?",
     "options": [
       "2.8% decrease",
@@ -975,7 +975,7 @@
     "solution": "# Solution\n\n**Step 1: Recall the volume formula for a square pyramid**\nVolume of square pyramid = (1/3) × base area × height\nV = (1/3) × a² × h\nwhere a = side length of base, h = height\n\n**Step 2: Express the new dimensions**\n- New height: h' = h + 20% of h = 1.2h\n- New side length: a' = a - 10% of a = 0.9a\n\n**Step 3: Calculate the new volume**\nV' = (1/3) × (0.9a)² × (1.2h)\nV' = (1/3) × 0.81a² × 1.2h\nV' = (1/3) × 0.972 × a² × h\nV' = 0.972V\n\n**Step 4: Find the percentage change**\nChange = V' - V = 0.972V - V = -0.028V\nPercentage change = (-0.028V/V) × 100 = -2.8%\n\n**Answer: 2.8% decrease** ✓"
   },
   {
-    "id": "maths_percentage_124",
+    "id": "maths_percentage_076",
     "question": "A Gujarati employee Ramu got promotion, due to this his salary is increased by 26⅔%. But due to his inconsistency in work his salary reduced by Rs. 2550. Ramu was transferred to Delhi for a project so his salary is again increased by 12.5%. Now his current salary is Rs. 15300. Find his initial income.",
     "options": [
       "Rs.12750",
