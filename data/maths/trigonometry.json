@@ -86,7 +86,7 @@
       "1 200/529",
       "3 384/529"
     ],
-    "correctAnswer": "2 16/529",
+    "correctAnswer": "3 384/529",
     "explanation": "tan²θ = sec²θ − 1 = (24/23)² − 1 = (576−529)/529 = 47/529. Verify options from source PDF.",
     "solution": "**Step 1: Convert mixed number to improper fraction**\nsecθ = 2 4/23 = (2×23 + 4)/23 = 50/23\n\n**Step 2: Find cosθ**\nSince secθ = 1/cosθ:\ncosθ = 23/50\n\n**Step 3: Find cos²θ**\ncos²θ = (23/50)² = 529/2500\n\n**Step 4: Use the identity sec²θ - tan²θ = 1**\ntan²θ = sec²θ - 1\n\nsec²θ = (50/23)² = 2500/529\n\ntan²θ = 2500/529 - 1 = 2500/529 - 529/529 = 1971/529\n\n**Step 5: Convert to mixed number**\n1971 ÷ 529 = 3 remainder 384\n\ntan²θ = 3 384/529\n\n**Answer: 3 384/529** ✓"
   },
