@@ -1,6 +1,6 @@
 [
   {
-    "id": "maths_time_work_001",
+    "id": "maths_time_work_001" ,
     "question": "A can repair 11 benches in an hour and B can repair 5 benches in an hour. Determine how much time they will require to repair 64 benches when they work together?",
     "options": [
       "3 hours",
@@ -818,7 +818,7 @@
       "correctAnswer": "45"
     },
       {
-        "id": "maths_time_work_001",
+        "id": "maths_time_work_069",
         "question": "A and B can do a piece of work in 36 days. B and C can do the same work in 60 days. A and C can do the same work in 45 days. In how many days can B alone complete the same work?",
         "questionHi": "A और B किसी काम को 36 दिनों में कर सकते हैं। B और C उसी काम को 60 दिनों में कर सकते हैं। A और C उसी काम को 45 दिनों में कर सकते हैं। B अकेले उसी काम को कितने दिनों में पूरा कर सकता है?",
         "options": [
@@ -831,7 +831,7 @@
         "explanation": "Let efficiencies be a, b, c. Then (a+b)=1/36, (b+c)=1/60, (a+c)=1/45. Solving gives b=1/90. Hence B alone takes 90 days."
       },
       {
-        "id": "maths_time_work_002",
+        "id": "maths_time_work_070",
         "question": "Reena and Riya together can complete a piece of work in 36 days. Riya and Geeta together can complete it in 54 days. Reena and Geeta together can complete it in 81 days. In how many days can Reena alone complete the work?",
         "questionHi": "रीना और रिया मिलकर एक काम को 36 दिनों में पूरा कर सकती हैं। रिया और गीता मिलकर इसे 54 दिनों में तथा रीना और गीता मिलकर 81 दिनों में पूरा कर सकती हैं। रीना अकेले काम को कितने दिनों में पूरा करेगी?",
         "options": [
@@ -844,7 +844,7 @@
         "explanation": "Using pair efficiencies and solving, Reena's efficiency = 7/612. Therefore time = 612/7 = 87 4/7 days."
       },
       {
-        "id": "maths_time_work_003",
+        "id": "maths_time_work_071",
         "question": "Amar, Akbar and Anthony are working on a project. Amar and Akbar together complete it in 12 months, Akbar and Anthony in 16 months, and Anthony and Amar in 24 months. If the person who is neither the fastest nor the slowest works alone, how many months will he take?",
         "questionHi": "अमर और अकबर मिलकर परियोजना को 12 माह में, अकबर और एंथनी 16 माह में तथा एंथनी और अमर 24 माह में पूरा करते हैं। जो व्यक्ति न सबसे तेज है और न सबसे धीमा, वह अकेले परियोजना को कितने माह में पूरा करेगा?",
         "options": [
@@ -857,7 +857,7 @@
         "explanation": "Solving pair efficiencies gives Akbar's efficiency = 1/32. He is the middle worker. Hence time = 32 months."
       },
       {
-        "id": "maths_time_work_004",
+        "id": "maths_time_work_072",
         "question": "P & Q can do a job in 90 days, Q & R in 112.5 days, and P & R in 150 days. X is five times as efficient as P, Y is two-thirds as efficient as Q and Z is 2.5 times as efficient as R. How many days will X, Y and Z together take?",
         "questionHi": "P और Q किसी कार्य को 90 दिनों में, Q और R 112.5 दिनों में तथा P और R 150 दिनों में पूरा करते हैं। X, P से 5 गुना कुशल है, Y, Q से 2/3 गुना कुशल है और Z, R से 2.5 गुना कुशल है। X, Y और Z मिलकर कार्य कितने दिनों में पूरा करेंगे?",
         "options": [
@@ -870,7 +870,7 @@
         "explanation": "First find efficiencies of P, Q and R from pair equations, then apply given efficiency multipliers. Combined rate = 29/900. Time = 900/29 = 31 1/29 days."
       },
       {
-        "id": "maths_time_work_005",
+        "id": "maths_time_work_073",
         "question": "A and B together complete a job in 12.5 days, B and C in 18.75 days, and C and A in 15 days. D is 40% as efficient as C. In how many days will A, B, C and D together complete the job?",
         "questionHi": "A और B मिलकर 12.5 दिनों में, B और C 18.75 दिनों में तथा C और A 15 दिनों में कार्य पूरा करते हैं। D, C की दक्षता का 40% है। A, B, C और D मिलकर कार्य कितने दिनों में पूरा करेंगे?",
         "options": [
@@ -883,7 +883,7 @@
         "explanation": "Find C's efficiency from pair equations and add 40% of it for D. Total efficiency = 27/250. Time = 250/27 = 9 7/27 days."
       },
       {
-        "id": "maths_time_work_006",
+            "id": "maths_time_work_074",
         "question": "Adil and Viren together can complete a work in 20 days. Viren and Chirag together can complete it in 50 days. Adil and Chirag together can complete it in 40 days. What is the ratio of time taken by Viren to Adil working alone?",
         "questionHi": "आदिल और वीरेन मिलकर कार्य को 20 दिनों में, वीरेन और चिराग 50 दिनों में तथा आदिल और चिराग 40 दिनों में पूरा करते हैं। वीरेन और आदिल द्वारा अकेले लिए गए समय का अनुपात क्या होगा?",
         "options": [
@@ -896,7 +896,7 @@
         "explanation": "Solving pair equations gives efficiencies Adil = 11/400 and Viren = 9/400. Ratio of times = inverse ratio of efficiencies = 11:9."
       },
       {
-        "id": "maths_time_work_007",
+              "id": "maths_time_work_075",
         "question": "W and X together can complete a work in 40 days. X and Y together can complete it in 60 days. If W, X and Y together complete it in 30 days, then in how many days will W and Y together complete the work?",
         "questionHi": "W और X मिलकर कार्य को 40 दिनों में तथा X और Y मिलकर 60 दिनों में पूरा करते हैं। यदि W, X और Y मिलकर कार्य को 30 दिनों में पूरा करते हैं, तो W और Y मिलकर कार्य को कितने दिनों में पूरा करेंगे?",
         "options": [
@@ -910,7 +910,7 @@
       },
 
   {
-    "id": "maths_time_work_076",
+    "id": "maths_time_work_077",
     "question": "[Add content] time-work — Question 78",
     "options": [
       "Option A",
@@ -922,7 +922,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_076",
+    "id": "maths_time_work_078",
     "question": "[Add content] time-work — Question 79",
     "options": [
       "Option A",
@@ -934,7 +934,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_080",
+    "id": "maths_time_work_079",
     "question": "[Add content] time-work — Question 80",
     "options": [
       "Option A",
@@ -946,7 +946,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_081",
+    "id": "maths_time_work_080",
     "question": "[Add content] time-work — Question 81",
     "options": [
       "Option A",
@@ -958,7 +958,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_082",
+    "id": "maths_time_work_081",
     "question": "[Add content] time-work — Question 82",
     "options": [
       "Option A",
@@ -970,7 +970,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_083",
+    "id": "maths_time_work_082",
     "question": "[Add content] time-work — Question 83",
     "options": [
       "Option A",
@@ -982,7 +982,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_084",
+    "id": "maths_time_work_083",
     "question": "[Add content] time-work — Question 84",
     "options": [
       "Option A",
@@ -994,7 +994,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_085",
+    "id": "maths_time_work_084",
     "question": "[Add content] time-work — Question 85",
     "options": [
       "Option A",
@@ -1006,7 +1006,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_086",
+    "id": "maths_time_work_085",
     "question": "[Add content] time-work — Question 86",
     "options": [
       "Option A",
@@ -1018,7 +1018,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_087",
+    "id": "maths_time_work_086",
     "question": "[Add content] time-work — Question 87",
     "options": [
       "Option A",
@@ -1030,7 +1030,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_088",
+    "id": "maths_time_work_087",
     "question": "[Add content] time-work — Question 88",
     "options": [
       "Option A",
@@ -1042,7 +1042,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_089",
+      "id": "maths_time_work_088",
     "question": "[Add content] time-work — Question 89",
     "options": [
       "Option A",
@@ -1054,7 +1054,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_090",
+    "id": "maths_time_work_089",
     "question": "[Add content] time-work — Question 90",
     "options": [
       "Option A",
@@ -1066,7 +1066,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_091",
+    "id": "maths_time_work_090",
     "question": "[Add content] time-work — Question 91",
     "options": [
       "Option A",
@@ -1078,7 +1078,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_092",
+    "id": "maths_time_work_091",
     "question": "[Add content] time-work — Question 92",
     "options": [
       "Option A",
@@ -1090,7 +1090,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_093",
+    "id": "maths_time_work_092",
     "question": "[Add content] time-work — Question 93",
     "options": [
       "Option A",
@@ -1102,7 +1102,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_094",
+    "id": "maths_time_work_093",
     "question": "[Add content] time-work — Question 94",
     "options": [
       "Option A",
@@ -1114,7 +1114,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_095",
+    "id": "maths_time_work_094",
     "question": "[Add content] time-work — Question 95",
     "options": [
       "Option A",
@@ -1126,7 +1126,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_096",
+    "id": "maths_time_work_095",
     "question": "[Add content] time-work — Question 96",
     "options": [
       "Option A",
@@ -1138,7 +1138,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_097",
+    "id": "maths_time_work_096",
     "question": "[Add content] time-work — Question 97",
     "options": [
       "Option A",
@@ -1150,7 +1150,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_098",
+    "id": "maths_time_work_097",
     "question": "[Add content] time-work — Question 98",
     "options": [
       "Option A",
@@ -1162,7 +1162,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_099",
+    "id": "maths_time_work_098",
     "question": "[Add content] time-work — Question 99",
     "options": [
       "Option A",
@@ -1174,7 +1174,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_time_work_100",
+    "id": "maths_time_work_099",
     "question": "[Add content] time-work — Question 100",
     "options": [
       "Option A",
