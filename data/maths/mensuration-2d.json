@@ -325,7 +325,7 @@
     "solution": "**Step 1:** Recall the area formula for an equilateral triangle.\nFor an equilateral triangle with side 'a':\n$$\\text{Area} = \\frac{\\sqrt{3}}{4}a^2$$\n\n**Step 2:** Substitute the given area into the formula.\n$$225\\sqrt{3} = \\frac{\\sqrt{3}}{4}a^2$$\n\n**Step 3:** Solve for side 'a'.\n$$225\\sqrt{3} \\times \\frac{4}{\\sqrt{3}} = a^2$$\n$$225 \\times 4 = a^2$$\n$$900 = a^2$$\n$$a = 30 \\text{ cm}$$\n\n**Step 4:** Calculate the perimeter.\n$$\\text{Perimeter} = 3a = 3 \\times 30 = 90 \\text{ cm}$$\n\n**Answer: 90 cm** ✓"
   },
   {
-    "id": "mensuration_triangle_049",
+    "id": "maths_mensuration_2d_026",
     "question": "X, Y and Z are three equilateral triangles. The sum of the area of X and Y is equal to the area of Z. If the side lengths of X and Y are 6 cm and 8 cm respectively, then what is the side length of Z?",
     "options": [
       "10 cm",
@@ -339,7 +339,7 @@
     "solutionHi": "समबाहु त्रिभुज का क्षेत्रफल = (√3/4)a² होता है। अतः (√3/4)(6²) + (√3/4)(8²) = (√3/4)s²। इसलिए 36 + 64 = s² ⇒ s² = 100 ⇒ s = 10 सेमी।"
   },
   {
-    "id": "mensuration_triangle_057",
+    "id": "maths_mensuration_2d_027",
     "question": "In an isosceles triangle ABC, AB = AC and AD is perpendicular to BC at D. If AD = 8 cm and the perimeter of triangle ABC is 64 cm, then find the area of triangle ABC.",
     "options": [
       "130 cm²",
@@ -353,7 +353,7 @@
     "solutionHi": "मान लें BC = b तथा AB = AC = x। तब 2x + b = 64। समद्विबाहु त्रिभुज में AD लंब होने के कारण BD = b/2 होगा। पाइथागोरस से x² = 8² + (b/2)²। x = (64 - b)/2 रखने पर b = 30 सेमी प्राप्त होता है। अतः क्षेत्रफल = (1/2) × 30 × 8 = 120 वर्ग सेमी।"
   },
   {
-    "id": "mensuration_triangle_058",
+    "id": "maths_mensuration_2d_028",
     "question": "If the height of an isosceles triangle is 20 cm and the perimeter is 100 cm, find the area of the triangle.",
     "options": [
       "300 cm²",
@@ -367,7 +367,7 @@
     "solutionHi": "मान लें समान भुजाएँ a तथा आधार b है। तब 2a + b = 100। ऊँचाई आधार को समद्विभाजित करती है, इसलिए a² = 20² + (b/2)²। a = (100 - b)/2 रखने पर b = 42 सेमी प्राप्त होता है। अतः क्षेत्रफल = (1/2) × 42 × 20 = 420 वर्ग सेमी।"
   },
   {
-    "id": "mensuration_triangle_062",
+    "id": "maths_mensuration_2d_029",
     "question": "Find the altitude (in cm) on side MT of triangle MNT with side lengths MN = 36 cm, MT = 36 cm and NT = 48 cm.",
     "options": [
       "16√5 cm",
@@ -381,7 +381,7 @@
     "solutionHi": "चूँकि MN = MT = 36 सेमी, इसलिए त्रिभुज समद्विबाहु है। M से NT पर खींचा गया लंब NT को 24-24 सेमी में बाँट देगा। ऊँचाई = √(36² − 24²) = √720 = 12√5 सेमी। क्षेत्रफल = (1/2) × 48 × 12√5 = 288√5 वर्ग सेमी। यदि MT पर लंब h हो, तो (1/2) × 36 × h = 288√5 ⇒ h = 16√5 सेमी।"
   },
   {
-    "id": "mensuration_quadrilateral_001",
+    "id": "maths_mensuration_2d_030",
     "question": "ABCD is a quadrilateral in which diagonal BD = 70 cm, AL ⟂ BD and CM ⟂ BD such that AL = 18 cm and CM = 20 cm. Find the area (in cm²) of the quadrilateral ABCD.",
     "options": [
       "1310",
@@ -395,7 +395,7 @@
     "solutionHi": "चतुर्भुज का क्षेत्रफल = ΔABD का क्षेत्रफल + ΔCBD का क्षेत्रफल = (1/2 × 70 × 18) + (1/2 × 70 × 20) = 630 + 700 = 1330 cm²।"
   },
   {
-    "id": "mensuration_quadrilateral_002",
+    "id": "maths_mensuration_2d_031",
     "question": "The area of a quadrilateral is 336 m² and the perpendiculars drawn to one diagonal from the opposite vertices are 16 m and 12 m long. Find the length of this diagonal.",
     "options": [
       "28 m",
@@ -409,7 +409,7 @@
     "solutionHi": "क्षेत्रफल = (1/2) × d × (16 + 12) = 336। अतः (1/2) × d × 28 = 336 ⇒ 14d = 336 ⇒ d = 24 m।"
   },
   {
-    "id": "mensuration_quadrilateral_003",
+    "id": "maths_mensuration_2d_032",
     "question": "Two sides of a plot measure 32 m and 24 m and the angle between them is a right angle. The other two sides measure 25 m each. What is the area of the plot?",
     "options": [
       "768 m²",
@@ -423,7 +423,7 @@
     "solutionHi": "आकृति को एक आयत और एक समद्विबाहु त्रिभुज में विभाजित करें। आयत का क्षेत्रफल = 32 × 24 = 768 m²। त्रिभुज की भुजाएँ 25, 25 और आधार 32 है। ऊँचाई = √(25² − 16²) = √369। त्रिभुज का क्षेत्रफल ≈ 84 m²। अतः कुल क्षेत्रफल ≈ 768 − 84 = 684 m²।"
   },
   {
-    "id": "mensuration_quadrilateral_004",
+    "id": "maths_mensuration_2d_033",
     "question": "In quadrilateral ABCD, AB = 17 cm, BC = 8 cm, CD = 9 cm, AD = 12 cm and AC = 15 cm. What is the area (in cm²) of the quadrilateral?",
     "options": [
       "105",
@@ -437,7 +437,7 @@
     "solutionHi": "क्षेत्रफल = ΔABC + ΔACD का क्षेत्रफल। ΔABC (8,15,17) समकोण त्रिभुज है। क्षेत्रफल = 1/2 × 8 × 15 = 60 cm²। ΔACD (9,12,15) भी समकोण त्रिभुज है। क्षेत्रफल = 1/2 × 9 × 12 = 54 cm²। कुल क्षेत्रफल = 114 cm²।"
   },
   {
-    "id": "mensuration_quadrilateral_005",
+    "id": "maths_mensuration_2d_034",
     "question": "A quadrilateral ABCD has sides AB = 5 units, BC = 12 units, CD = DA and ∠ABC = ∠ADC = 90°. What is the area of the quadrilateral?",
     "options": [
       "72.75",
@@ -451,7 +451,7 @@
     "solutionHi": "ΔABC में AC = √(5² + 12²) = 13। ∠ADC = 90° तथा CD = DA होने से ΔADC समद्विबाहु समकोण त्रिभुज है। अतः AC = CD√2 ⇒ CD = DA = 13/√2। ΔABC का क्षेत्रफल = 1/2 × 5 × 12 = 30। ΔADC का क्षेत्रफल = 1/2 × (13/√2)² = 42.25। कुल क्षेत्रफल = 72.25 वर्ग इकाई।"
   },
   {
-    "id": "mensuration_square_006",
+    "id": "maths_mensuration_2d_035",
     "question": "The perimeter of a square is 336 m. Its area (in m²) is:",
     "options": [
       "7036",
@@ -465,7 +465,7 @@
     "solutionHi": "भुजा = 336/4 = 84 m। क्षेत्रफल = 84² = 7056 m²।"
   },
   {
-    "id": "mensuration_square_007",
+    "id": "maths_mensuration_2d_036",
     "question": "If the diagonal of a square is 18.4 cm, then the area of that square is?",
     "options": [
       "84.64",
@@ -479,7 +479,7 @@
     "solutionHi": "वर्ग का क्षेत्रफल = d²/2 = (18.4²)/2 = 338.56/2 = 169.28 cm²।"
   },
   {
-    "id": "mensuration_square_008",
+    "id": "maths_mensuration_2d_037",
     "question": "The area of a square field is 7200 m². What is the length of its diagonal?",
     "options": [
       "60 m",
@@ -493,7 +493,7 @@
     "solutionHi": "भुजा = √7200 = 60√2 m। विकर्ण = भुजा × √2 = 60√2 × √2 = 120 m।"
   },
   {
-    "id": "mensuration_square_009",
+    "id": "maths_mensuration_2d_038",
     "question": "The area of a square field is 4489 cm². Find the perimeter of the field (in cm).",
     "options": [
       "290",
@@ -507,7 +507,7 @@
     "solutionHi": "भुजा = √4489 = 67 cm। परिमाप = 4 × 67 = 268 cm।"
   },
   {
-    "id": "mensuration_square_010",
+    "id": "maths_mensuration_2d_039",
     "question": "If the area of a square is 2401x⁴ + 196x² + 4, then what is its side length?",
     "options": [
       "49x² + 3x + 2",
@@ -521,7 +521,7 @@
     "solutionHi": "2401x⁴ + 196x² + 4 = (49x² + 2)²। अतः वर्ग की भुजा = 49x² + 2 होगी।"
   },
   {
-    "id": "mensuration_square_011",
+    "id": "maths_mensuration_2d_040",
     "question": "The area of a square field is 24200 square meters. At the rate of 6.6 km/h, how much time will a lady take to cross the field diagonally?",
     "options": [
       "3 minutes",
@@ -535,7 +535,7 @@
     "solutionHi": "भुजा = √24200 = 110√2 मीटर। विकर्ण = 110√2 × √2 = 220 मीटर। गति = 6.6 किमी/घंटा = 110 मीटर/मिनट। समय = 220/110 = 2 मिनट।"
   },
   {
-    "id": "mensuration_square_012",
+      "id": "maths_mensuration_2d_041",
     "question": "A man walking at a speed of 3 km/h crosses a square field diagonally in 5 minutes. What is the area of the field (in m²)?",
     "options": [
       "37500",
@@ -549,7 +549,7 @@
     "solutionHi": "तय दूरी = 3000 × (5/60) = 250 मीटर। यह विकर्ण है। भुजा = 250/√2। क्षेत्रफल = (250²)/2 = 31250 वर्ग मीटर।"
   },
   {
-    "id": "mensuration_square_013",
+    "id": "maths_mensuration_2d_042",
     "question": "The sides of a triangular park are 60 m, 297 m and 303 m. Its area is equal to the area of a square shaped garden. What is the perimeter (in m) of the garden?",
     "options": [
       "360",
@@ -563,7 +563,7 @@
     "solutionHi": "60² + 297² = 303², अतः त्रिभुज समकोण त्रिभुज है। क्षेत्रफल = 1/2 × 60 × 297 = 8910 वर्ग मीटर। वर्ग की भुजा = √8910 = 9√110। परिमाप = 36√110।"
   },
   {
-    "id": "mensuration_square_014",
+    "id": "maths_mensuration_2d_043",
     "question": "A triangle has sides 25, 39 and 34 units. If the area of a square exceeds the area of this triangle by 21 units, then the side of the square is:",
     "options": [
       "22 units",
@@ -577,7 +577,7 @@
     "solutionHi": "अर्धपरिमाप = 49। हेरॉन सूत्र से क्षेत्रफल = √(49×24×10×15) = 420। वर्ग का क्षेत्रफल = 420 + 21 = 441। अतः भुजा = √441 = 21 इकाई।"
   },
   {
-    "id": "mensuration_square_015",
+    "id": "maths_mensuration_2d_044",
     "question": "ABCD is a square. E is a point on AB such that BE = 17 cm. The area of triangle ADE is 84 cm². What is the area of the square?",
     "options": [
       "400 cm²",
@@ -591,7 +591,7 @@
     "solutionHi": "मान लें वर्ग की भुजा s है। तब AE = s - 17। 1/2 × s × (s-17) = 84। ⇒ s² -17s -168 = 0। ⇒ (s-24)(s+7)=0। अतः s=24 cm। क्षेत्रफल = 24² = 576 cm²।"
   },
   {
-    "id": "mensuration_square_016",
+    "id": "maths_mensuration_2d_045",
     "question": "The diagonal of a square is 8√2 cm. Find the diagonal of another square whose area is triple that of the first square.",
     "options": [
       "8√3 cm",
@@ -605,7 +605,7 @@
     "solutionHi": "पहले वर्ग की भुजा = 8 cm। क्षेत्रफल = 64 cm²। नया क्षेत्रफल = 192 cm²। नई भुजा = 8√3 cm। विकर्ण = 8√6 cm।"
   },
   {
-    "id": "mensuration_square_017",
+    "id": "maths_mensuration_2d_046",
     "question": "The base of a triangle is equal to the perimeter of a square whose diagonal is 7√2 cm and its height is equal to the side of a square whose area is 169 cm². Find the area of the triangle.",
     "options": [
       "182",
@@ -619,7 +619,7 @@
     "solutionHi": "पहले वर्ग की भुजा = 7 cm। परिमाप = 28 cm। दूसरे वर्ग की भुजा = √169 = 13 cm। त्रिभुज का क्षेत्रफल = 1/2 × 28 × 13 = 182 cm²।"
   },
   {
-    "id": "mensuration_square_018",
+    "id": "maths_mensuration_2d_047",
     "question": "What is the area of the square (in cm²) whose vertices lie on a circle of radius 5 cm?",
     "options": [
       "100",
@@ -633,7 +633,7 @@
     "solutionHi": "वृत्त का व्यास = वर्ग का विकर्ण = 10 cm। वर्ग का क्षेत्रफल = d²/2 = 100/2 = 50 cm²।"
   },
   {
-    "id": "mensuration_square_019",
+    "id": "maths_mensuration_2d_048",
     "question": "The area (in cm²) of the biggest circle that could be drawn in a square of side 18 cm is:",
     "options": [
       "91π",
@@ -647,7 +647,7 @@
     "solutionHi": "वर्ग में अंकित सबसे बड़े वृत्त का व्यास = 18 cm। त्रिज्या = 9 cm। क्षेत्रफल = π × 9² = 81π cm²।"
   },
   {
-    "id": "mensuration_square_020",
+    "id": "maths_mensuration_2d_049",
     "question": "Let the area of the largest possible square inscribed in a circle of unit radius be x. Let the area of the largest possible circle inscribed in a square of unit side length be y. What is the relation between x and y?",
     "options": [
       "πx = 2y",
@@ -661,7 +661,7 @@
     "solutionHi": "त्रिज्या 1 होने पर वर्ग का विकर्ण 2 होगा। अतः भुजा = √2 और x = 2। इकाई वर्ग में अंकित वृत्त की त्रिज्या = 1/2 होगी, इसलिए y = π/4। अतः πx = 2π तथा 8y = 2π। इसलिए πx = 8y।"
   },
   {
-    "id": "mensuration_square_021",
+      "id": "maths_mensuration_2d_050",
     "question": "Find the area of the shaded region if the side of square ABCD is 10 cm.",
     "options": [
       "100",
@@ -675,7 +675,7 @@
     "solutionHi": "चारों अर्धवृत्तों के छायांकित भाग सममिति के कारण मिलकर वर्ग के क्षेत्रफल के बराबर क्षेत्र बनाते हैं। अतः छायांकित क्षेत्रफल = 10 × 10 = 100 cm²।"
   },
   {
-    "id": "maths_mensuration_2d_023",
+    "id": "maths_mensuration_2d_051",
     "question": "A field is 150 m long and 80 m wide. How many times (rounded off to 1 decimal place) is its perimeter to the length of its diagonal?",
     "options": [
       "2.3",
@@ -688,7 +688,7 @@
     "solution": "**Step 1: Calculate the Perimeter**\nPerimeter of rectangle = 2(length + width)\nP = 2(150 + 80) = 2(230) = 460 m\n\n**Step 2: Calculate the Diagonal**\nUsing Pythagorean theorem:\nDiagonal = √(length² + width²)\nd = √(150² + 80²) = √(22,500 + 6,400) = √28,900 = 170 m\n\n**Step 3: Find the Ratio**\nRatio = Perimeter ÷ Diagonal\nRatio = 460 ÷ 170 = 2.706...\n\n**Step 4: Round to 1 Decimal Place**\n2.706... ≈ **2.7**\n\nNote: The correct answer should be **2.7**, not 2.5 as stated. However, if the answer key shows 2.5, there may be a discrepancy in the problem statement or given options."
   },
   {
-    "id": "maths_mensuration_2d_024",
+    "id": "maths_mensuration_2d_052",
     "question": "The ratio of the length and the perimeter of a rectangle is 2:7. What is the ratio of the length and breadth of the rectangle?",
     "options": [
       "4 : 3",
@@ -701,7 +701,7 @@
     "solution": "**Step 1: Set up the given ratio**\nLet length = l and breadth = b\nGiven: l : Perimeter = 2 : 7\n\n**Step 2: Express perimeter in terms of length**\nPerimeter of rectangle = 2(l + b)\n\nSo: l : 2(l + b) = 2 : 7\n\n**Step 3: Cross multiply and solve**\n7l = 2 × 2(l + b)\n7l = 4(l + b)\n7l = 4l + 4b\n3l = 4b\n\n**Step 4: Find the ratio of length to breadth**\nl/b = 4/3\n\nTherefore: l : b = 4 : 3\n\n**Answer: 4 : 3** ✓"
   },
   {
-    "id": "maths_mensuration_2d_025",
+    "id": "maths_mensuration_2d_053",
     "question": "The ratio of length and breadth of a rectangle is 21 : 20 and its perimeter is 164 cm. What is the length of its diagonal (in cm)?",
     "options": [
       "58",
@@ -714,7 +714,7 @@
     "solution": "# Solution\n\n**Step 1: Set up the ratio**\nLet length = 21x and breadth = 20x\n\n**Step 2: Use the perimeter formula**\nPerimeter = 2(l + b) = 164\n2(21x + 20x) = 164\n2(41x) = 164\n82x = 164\nx = 2\n\n**Step 3: Find length and breadth**\n- Length = 21 × 2 = 42 cm\n- Breadth = 20 × 2 = 40 cm\n\n**Step 4: Calculate diagonal using Pythagoras theorem**\nDiagonal = √(l² + b²)\nDiagonal = √(42² + 40²)\nDiagonal = √(1764 + 1600)\nDiagonal = √3364\nDiagonal = 58 cm\n\n**Answer: 58 cm** ✓"
   },
   {
-    "id": "maths_mensuration_2d_026",
+    "id": "maths_mensuration_2d_054",
     "question": "Half of the perimeter of a rectangle is 30 cm. If the length of the rectangle is 6 cm more than its breadth, then what is the area of the rectangle?",
     "options": [
       "216 cm²",
@@ -727,7 +727,7 @@
     "solution": "**Step 1: Set up equations from given information**\n- Half perimeter = 30 cm\n- Therefore, Full perimeter = 60 cm\n- Let breadth = b cm, then length = (b + 6) cm\n\n**Step 2: Use perimeter formula**\n- Perimeter = 2(length + breadth)\n- 60 = 2(b + 6 + b)\n- 60 = 2(2b + 6)\n- 30 = 2b + 6\n\n**Step 3: Solve for breadth**\n- 2b = 24\n- b = 12 cm\n\n**Step 4: Find length**\n- Length = b + 6 = 12 + 6 = 18 cm\n\n**Step 5: Calculate area**\n- Area = length × breadth\n- Area = 18 × 12 = **216 cm²**\n\n✓ **Answer: 216 cm²**"
   },
   {
-    "id": "maths_mensuration_2d_027",
+        "id": "maths_mensuration_2d_055",
     "question": "What is the area (in cm²) of a rectangle if its diagonal is 39 cm and one of its sides is 15 cm?",
     "options": [
       "480 cm²",
@@ -740,7 +740,7 @@
     "solution": "# Solution\n\n**Step 1: Use the Pythagorean theorem**\nFor a rectangle with sides a and b, and diagonal d:\n- d² = a² + b²\n- 39² = 15² + b²\n- 1521 = 225 + b²\n\n**Step 2: Solve for the other side**\n- b² = 1521 - 225\n- b² = 1296\n- b = 36 cm\n\n**Step 3: Calculate the area**\n- Area = length × width\n- Area = 15 × 36\n- Area = 540 cm²\n\n**Answer: 540 cm²** ✓"
   },
   {
-    "id": "maths_mensuration_2d_028",
+    "id": "maths_mensuration_2d_056",
     "question": "The width of a rectangle is 260 cm and its diagonal is 676 cm. Find its perimeter (in cm).",
     "options": [
       "1668",
@@ -753,7 +753,7 @@
     "solution": "**Step 1:** Use the Pythagorean theorem to find the length.\n- Diagonal² = Length² + Width²\n- 676² = L² + 260²\n- 456,976 = L² + 67,600\n\n**Step 2:** Solve for length.\n- L² = 456,976 - 67,600\n- L² = 389,376\n- L = 624 cm\n\n**Step 3:** Calculate the perimeter using the formula P = 2(L + W).\n- P = 2(624 + 260)\n- P = 2(884)\n- P = 1768 cm\n\n**Answer: 1768 cm** ✓"
   },
   {
-    "id": "maths_mensuration_2d_029",
+    "id": "maths_mensuration_2d_057",
     "question": "The perimeter of a rectangle is 80 cm and its area is 375 cm². What is the difference between the length and the breadth of the rectangle?",
     "options": [
       "12 cm",
@@ -766,7 +766,7 @@
     "solution": "**Step 1: Set up equations from given information**\n- Perimeter = 80 cm → 2(l + b) = 80 → l + b = 40\n- Area = 375 cm² → l × b = 375\n\n**Step 2: Express one variable in terms of another**\nFrom l + b = 40:\n- l = 40 - b\n\n**Step 3: Substitute and form a quadratic equation**\nSubstitute in l × b = 375:\n- (40 - b) × b = 375\n- 40b - b² = 375\n- b² - 40b + 375 = 0\n\n**Step 4: Solve the quadratic equation**\nUsing the quadratic formula or factoring:\n- b² - 40b + 375 = 0\n- (b - 25)(b - 15) = 0\n- b = 25 or b = 15\n\nIf b = 15, then l = 40 - 15 = 25\nIf b = 25, then l = 40 - 25 = 15\n\n**Step 5: Find the difference**\nDifference = |l - b| = |25 - 15| = **10 cm**\n\n✓ Correct Answer: **10 cm**"
   },
   {
-    "id": "maths_mensuration_2d_030",
+    "id": "maths_mensuration_2d_058",
     "question": "The perimeter and area of a rectangular sheet are 94 m and 420 m² respectively. The length of the diagonal will be:",
     "options": [
       "32 m",
@@ -779,7 +779,7 @@
     "solution": "# Solution:\n\n**Step 1:** Set up equations using perimeter and area.\n- Perimeter: 2(l + b) = 94 → l + b = 47\n- Area: l × b = 420\n\n**Step 2:** Find l² + b² using the identity.\n- (l + b)² = l² + 2lb + b²\n- (47)² = l² + b² + 2(420)\n- 2209 = l² + b² + 840\n- l² + b² = 1369\n\n**Step 3:** Apply Pythagorean theorem for diagonal.\n- Diagonal² = l² + b²\n- d² = 1369\n- d = √1369 = 37 m\n\n**Answer: 37 m**\n\n(Note: The correct answer is 37 m, not 29 m as stated in your reference.)"
   },
   {
-    "id": "maths_mensuration_2d_031",
+    "id": "maths_mensuration_2d_059",
     "question": "The perimeter of a rectangle is 206 cm and its area is 2640 cm². Find the diagonal.",
     "options": [
       "79",
@@ -792,7 +792,7 @@
     "solution": "**Step 1: Set up equations from given data**\n\nLet length = l and breadth = b\n\n- Perimeter: 2(l + b) = 206\n- Therefore: l + b = 103\n\n- Area: l × b = 2640\n\n**Step 2: Find l² + b²**\n\nUsing the identity: (l + b)² = l² + b² + 2lb\n\n- 103² = l² + b² + 2(2640)\n- 10,609 = l² + b² + 5,280\n- l² + b² = 5,329\n\n**Step 3: Apply diagonal formula**\n\nDiagonal of rectangle: d = √(l² + b²)\n\n- d = √5,329\n- d = 73 cm\n\n**Answer: 73** ✓"
   },
   {
-    "id": "maths_mensuration_2d_032",
+        "id": "maths_mensuration_2d_060",
     "question": "The diagonal of a rectangle is 53 cm and its area is 1260 cm². What is the perimeter (in cm) of the rectangle?",
     "options": [
       "144",
@@ -805,7 +805,7 @@
     "solution": "**Step 1: Set up equations using given information**\n\nLet length = l and breadth = b\n\nGiven:\n- Diagonal = 53 cm\n- Area = 1260 cm²\n\nFrom diagonal: l² + b² = 53² = 2809\n\nFrom area: l × b = 1260\n\n**Step 2: Find (l + b)²**\n\nWe know: (l + b)² = l² + b² + 2lb\n\n(l + b)² = 2809 + 2(1260)\n\n(l + b)² = 2809 + 2520 = 5329\n\n**Step 3: Calculate l + b**\n\nl + b = √5329 = 73 cm\n\n**Step 4: Calculate perimeter**\n\nPerimeter = 2(l + b) = 2 × 73 = **144 cm**\n\n**Answer: 144** ✓"
   },
   {
-    "id": "maths_mensuration_2d_033",
+    "id": "maths_mensuration_2d_061",
     "question": "The diagonal of a rectangle is 17 cm long and its perimeter is 46 cm. The area of the rectangle is:",
     "options": [
       "120 cm²",
@@ -818,7 +818,7 @@
     "solution": "**Step 1: Set up equations using given information**\nLet length = l and breadth = b\n- Diagonal: l² + b² = 17² = 289\n- Perimeter: 2(l + b) = 46, so l + b = 23\n\n**Step 2: Find l² + b² using the perimeter equation**\n(l + b)² = 23²\nl² + 2lb + b² = 529\n289 + 2lb = 529\n\n**Step 3: Solve for lb (the area)**\n2lb = 529 - 289\n2lb = 240\nlb = 120\n\n**Step 4: Verify**\n- l + b = 23 and lb = 120\n- Check: l² + b² = (l + b)² - 2lb = 529 - 240 = 289 ✓\n- √289 = 17 ✓\n\n**Area of rectangle = 120 cm²**\n\nThe correct answer is **120 cm²** ✓"
   },
   {
-    "id": "maths_mensuration_2d_034",
+    "id": "maths_mensuration_2d_062",
     "question": "If the diagonal of a rectangle is 16 cm long and its perimeter is 48 cm long, find the area of the rectangle.",
     "options": [
       "148 cm²",
@@ -831,7 +831,7 @@
     "solution": "**Step 1:** Let length = l and breadth = b\n\nFrom perimeter: 2(l + b) = 48\nTherefore: **l + b = 24** ... (equation 1)\n\n**Step 2:** From diagonal property (Pythagoras theorem):\nl² + b² = 16² = 256 ... (equation 2)\n\n**Step 3:** Use the identity (l + b)² = l² + b² + 2lb\nSubstitute values: (24)² = 256 + 2lb\n576 = 256 + 2lb\n2lb = 320\n**lb = 160 cm²**\n\n**Step 4:** Verify using l² + b² = 256 and l + b = 24\n(l - b)² = (l + b)² - 4lb = 576 - 640 = -64 ✗\n\n**Recalculation:** The correct answer should be **128 cm²** (Note: The given correct answer appears to be 128 cm², though standard calculation yields 160 cm². Please verify the problem parameters.)\n\n**Answer: 120 cm²** (closest to calculated value among options)"
   },
   {
-    "id": "maths_mensuration_2d_035",
+    "id": "maths_mensuration_2d_063",
     "question": "Dipesh takes 50 sec to cross a rectangular field diagonally, walking at a rate of 90 m/min. Kalpana crosses the same field in 45 sec, walking along its sides at a rate of 124 m/min. What is the area of the field (in square meter)?",
     "options": [
       "1584",
@@ -844,7 +844,7 @@
     "solution": "# Solution\n\n**Step 1: Find the diagonal of the rectangular field**\n- Dipesh walks diagonally at 90 m/min for 50 seconds\n- Distance = Speed × Time = 90 × (50/60) = 90 × 5/6 = 75 m\n- Therefore, diagonal (d) = 75 m\n\n**Step 2: Find the perimeter of the rectangular field**\n- Kalpana walks along the sides at 124 m/min for 45 seconds\n- Distance = Speed × Time = 124 × (45/60) = 124 × 3/4 = 93 m\n- Therefore, perimeter = 2(l + b) = 93 m\n- So, l + b = 46.5 m\n\n**Step 3: Set up equations**\n- Diagonal: l² + b² = 75² = 5625\n- Sum of sides: l + b = 46.5\n\n**Step 4: Find length and breadth**\n- (l + b)² = l² + b² + 2lb\n- (46.5)² = 5625 + 2lb\n- 2162.25 = 5625 + 2lb\n- 2lb = 2162.25 - 5625 = -3462.75\n\nLet me recalculate: (46.5)² = 2162.25, but this should give us 2lb\n- 2162.25"
   },
   {
-    "id": "maths_mensuration_2d_036",
+    "id": "maths_mensuration_2d_064",
     "question": "The area of a rectangle is 1287 cm² and its length and breadth are in the ratio of 13 : 11 respectively. Find its perimeter.",
     "options": [
       "144 cm",
@@ -857,7 +857,7 @@
     "solution": "# Solution\n\n**Step 1:** Let length = 13x and breadth = 11x (given ratio 13:11)\n\n**Step 2:** Use the area formula\n- Area = length × breadth\n- 1287 = 13x × 11x\n- 1287 = 143x²\n- x² = 9\n- x = 3\n\n**Step 3:** Find actual dimensions\n- Length = 13 × 3 = 39 cm\n- Breadth = 11 × 3 = 33 cm\n\n**Step 4:** Calculate perimeter\n- Perimeter = 2(length + breadth)\n- Perimeter = 2(39 + 33)\n- Perimeter = 2 × 72 = **144 cm**\n\n**Answer: 144 cm** ✓"
   },
   {
-    "id": "maths_mensuration_2d_037",
+        "id": "maths_mensuration_2d_065",
     "question": "The area of a rectangular field is 480 m². If the length is 20% more than the breadth, then the length of the rectangular field is:",
     "options": [
       "24 m",
@@ -870,7 +870,7 @@
     "solution": "**Step 1:** Let breadth = b m\nThen length = b + 20% of b = 1.2b m\n\n**Step 2:** Use the area formula\nArea = length × breadth\n480 = 1.2b × b\n480 = 1.2b²\n\n**Step 3:** Solve for b\nb² = 480/1.2 = 400\nb = 20 m\n\n**Step 4:** Find length\nLength = 1.2b = 1.2 × 20 = 24 m\n\n**Verification:** Area = 24 × 20 = 480 m² ✓\n\n**Answer: 24 m**"
   },
   {
-    "id": "maths_mensuration_2d_038",
+    "id": "maths_mensuration_2d_066",
     "question": "The length of a rectangular plot is three times its breadth. If the area of the rectangular plot is 2700 m², then what is the breadth of the rectangular plot?",
     "options": [
       "12 m",
@@ -883,7 +883,7 @@
     "solution": "**Step 1:** Let breadth = b m\nThen length = 3b m (given: length is three times the breadth)\n\n**Step 2:** Apply the area formula for rectangle\nArea = length × breadth\n2700 = 3b × b\n2700 = 3b²\n\n**Step 3:** Solve for b\nb² = 2700/3\nb² = 900\n\n**Step 4:** Find b\nb = √900\nb = 30 m\n\n**Verification:** Length = 3(30) = 90 m; Area = 90 × 30 = 2700 m² ✓\n\n**Answer: 30 m** ✓"
   },
   {
-    "id": "maths_mensuration_2d_039",
+    "id": "maths_mensuration_2d_067",
     "question": "The ratio of the length and breadth of a rectangle is 5 : 6 and its area is 6750 cm². Find the ratio of the length to the area of the rectangle.",
     "options": [
       "1 : 80",
@@ -896,7 +896,7 @@
     "solution": "**Step 1: Set up the ratio equation**\nLet length = 5x and breadth = 6x (given ratio 5:6)\n\n**Step 2: Use the area formula to find x**\nArea = length × breadth\n6750 = 5x × 6x\n6750 = 30x²\nx² = 225\nx = 15 cm\n\n**Step 3: Calculate actual dimensions**\nLength = 5x = 5(15) = 75 cm\nBreadth = 6x = 6(15) = 90 cm\n\n**Step 4: Find the ratio of length to area**\nRatio = Length : Area\n= 75 : 6750\n= 1 : 90 (dividing both by 75)\n\n**Answer: 1 : 90** ✓"
   },
   {
-    "id": "maths_mensuration_2d_040",
+        "id": "maths_mensuration_2d_068",
     "question": "The length and breadth of a rectangle are in the ratio 3 : 2. If its perimeter is 730 cm, what is the area of the rectangle?",
     "options": [
       "31,974 cm²",
@@ -909,7 +909,7 @@
     "solution": "**Step 1: Set up variables using the given ratio**\nLet length = 3x and breadth = 2x (since they're in ratio 3:2)\n\n**Step 2: Use the perimeter formula to find x**\nPerimeter of rectangle = 2(length + breadth)\n730 = 2(3x + 2x)\n730 = 2(5x)\n730 = 10x\nx = 73\n\n**Step 3: Calculate actual dimensions**\nLength = 3x = 3(73) = 219 cm\nBreadth = 2x = 2(73) = 146 cm\n\n**Step 4: Calculate the area**\nArea = length × breadth\nArea = 219 × 146\nArea = 31,974 cm²\n\n**Answer: 31,974 cm²** ✓"
   },
   {
-    "id": "maths_mensuration_2d_041",
+    "id": "maths_mensuration_2d_069",
     "question": "The perimeter and length of a rectangle are in the ratio of 8 : 1, and the area of the rectangle is 1323 cm². Find the length of the rectangle.",
     "options": [
       "22 cm",
@@ -922,7 +922,7 @@
     "solution": "**Step 1: Set up equations from given ratios**\n\nLet length = l and breadth = b\n\nPerimeter = 2(l + b) and given ratio: Perimeter : Length = 8 : 1\n\nTherefore: 2(l + b)/l = 8/1\n\n**Step 2: Simplify the ratio equation**\n\n2(l + b) = 8l\n\n2l + 2b = 8l\n\n2b = 6l\n\nb = 3l\n\n**Step 3: Use the area condition**\n\nArea = l × b = 1323 cm²\n\nSubstitute b = 3l:\n\nl × 3l = 1323\n\n3l² = 1323\n\nl² = 441\n\nl = 21 cm\n\n**Step 4: Verify**\n\n- Length (l) = 21 cm\n- Breadth (b) = 3 × 21 = 63 cm\n- Area = 21 × 63 = 1323 cm² ✓\n- Perimeter = 2(21 + 63) = 168 cm\n- Ratio = 168 : 21 = 8 : 1 ✓\n\n**Answer: 21 cm**"
   },
   {
-    "id": "maths_mensuration_2d_042",
+    "id": "maths_mensuration_2d_070",
     "question": "To make two triangles, a rectangular paper is cut along one of the diagonals. If every diagonal of the rectangle is 8√13 cm and length is 1.5 times the width, what is the area of the rectangle?",
     "options": [
       "324",
@@ -935,7 +935,7 @@
     "solution": "**Step 1: Set up equations using given information**\n- Let width = w cm\n- Then length = 1.5w cm\n- Diagonal = 8√13 cm\n\n**Step 2: Apply Pythagorean theorem**\nFor a rectangle: (length)² + (width)² = (diagonal)²\n\n(1.5w)² + w² = (8√13)²\n\n2.25w² + w² = 64 × 13\n\n3.25w² = 832\n\n**Step 3: Solve for width**\nw² = 832/3.25 = 832/(13/4) = 832 × 4/13\n\nw² = 3328/13 = 256\n\nw = 16 cm\n\n**Step 4: Find length**\nlength = 1.5w = 1.5 × 16 = 24 cm\n\n**Step 5: Calculate area**\nArea = length × width = 24 × 16 = **384 cm²**\n\n✓ **Answer: 384** (Correct)"
   },
   {
-    "id": "maths_mensuration_2d_043",
+        "id": "maths_mensuration_2d_071",
     "question": "The length and the breadth of a rectangular field are in the ratio 3 : 2. If the area of the field is 3456 m², then what is the cost of fencing the field at the rate of Rs.3.50 per m?",
     "options": [
       "Rs. 240",
@@ -948,7 +948,7 @@
     "solution": "**Step 1: Set up the ratio**\nLet length = 3x and breadth = 2x\n\n**Step 2: Find the value of x using area**\nArea = length × breadth\n3456 = 3x × 2x\n3456 = 6x²\nx² = 576\nx = 24 m\n\n**Step 3: Calculate actual dimensions**\nLength = 3x = 3(24) = 72 m\nBreadth = 2x = 2(24) = 48 m\n\n**Step 4: Calculate perimeter (for fencing)**\nPerimeter = 2(length + breadth)\nPerimeter = 2(72 + 48) = 2(120) = 240 m\n\n**Step 5: Calculate fencing cost**\nCost = Perimeter × Rate per m\nCost = 240 × 3.50 = **Rs. 840**\n\nNote: The correct answer is **Rs. 840**, not Rs. 420 as stated in the options."
   },
   {
-    "id": "maths_mensuration_2d_044",
+    "id": "maths_mensuration_2d_072",
     "question": "The cost of tilling the floor of a rectangular room is ₹9100 at ₹65 per m². The ratio of the length and breadth of the floor is 7 : 5. The perimeter (in m) of the floor of the room is:",
     "options": [
       "48",
@@ -961,7 +961,7 @@
     "solution": "**Step 1: Find the area of the floor**\nCost = Area × Rate per m²\n9100 = Area × 65\nArea = 9100 ÷ 65 = 140 m²\n\n**Step 2: Set up equation using the ratio**\nLet length = 7x and breadth = 5x\nArea = length × breadth\n140 = 7x × 5x\n140 = 35x²\nx² = 4\nx = 2\n\n**Step 3: Find actual dimensions**\nLength = 7x = 7(2) = 14 m\nBreadth = 5x = 5(2) = 10 m\n\n**Step 4: Calculate perimeter**\nPerimeter = 2(length + breadth)\nPerimeter = 2(14 + 10)\nPerimeter = 2(24)\nPerimeter = 48 m\n\n**Answer: 48 m** ✓"
   },
   {
-    "id": "maths_mensuration_2d_045",
+    "id": "maths_mensuration_2d_073",
     "question": "A boy walked along two adjacent sides of a rectangular field. If he had walked along the diagonal, then he would have saved a distance equal to one-fourth of the larger side. The ratio of the larger to the smaller side is:",
     "options": [
       "7 : 24",
@@ -974,7 +974,7 @@
     "solution": "**Step 1: Set up the variables**\nLet the larger side = L and smaller side = S\n\n**Step 2: Express the condition given**\n- Distance walked along two sides = L + S\n- Distance along diagonal = √(L² + S²)\n- Distance saved = (L + S) - √(L² + S²) = L/4\n\n**Step 3: Form the equation**\nL + S - √(L² + S²) = L/4\n\nRearranging:\nS + 3L/4 = √(L² + S²)\n\n**Step 4: Square both sides**\n(S + 3L/4)² = L² + S²\n\nS² + 2S(3L/4) + 9L²/16 = L² + S²\n\n3SL/2 + 9L²/16 = L²\n\n3SL/2 = L² - 9L²/16 = 7L²/16\n\n3S/2 = 7L/16\n\nS = 7L/24\n\n**Step 5: Find the ratio**\nL/S = 24/7\n\nTherefore, L : S = **24 : 7** ✓"
   },
   {
-    "id": "maths_mensuration_2d_046",
+        "id": "maths_mensuration_2d_074",
     "question": "A rectangle has an area of 150 cm², and its sides are in the ratio 2 : 3. A triangle is formed using one side equal to the smaller side of the rectangle, one side equal to the square root of the area, and one side equal to half of the larger side of the rectangle. What is the perimeter of the triangle?",
     "options": [
       "17.5 + 5√6 cm",
@@ -987,7 +987,7 @@
     "solution": "# Solution\n\n**Step 1: Find the sides of the rectangle**\n\nLet sides be 2x and 3x (ratio 2:3)\n- Area = 2x × 3x = 6x² = 150\n- x² = 25\n- x = 5\n\nTherefore:\n- Smaller side = 2(5) = 10 cm\n- Larger side = 3(5) = 15 cm\n\n**Step 2: Identify the three sides of the triangle**\n\n- Side 1 = Smaller side of rectangle = 10 cm\n- Side 2 = √(Area of rectangle) = √150 = 5√6 cm\n- Side 3 = Half of larger side = 15/2 = 7.5 cm\n\n**Step 3: Verify triangle inequality**\n\n- 10 + 7.5 = 17.5 > 5√6 ≈ 12.25 ✓\n- Triangle is valid\n\n**Step 4: Calculate perimeter**\n\nPerimeter = 10 + 7.5 + 5√6\nPerimeter = **17.5 + 5√6 cm**\n\n**Answer: 17.5 + 5√6 cm** ✓"
   },
   {
-    "id": "maths_mensuration_2d_047",
+    "id": "maths_mensuration_2d_075",
     "question": "The area of a triangular field whose sides are 65 m, 72 m, and 97 m is equal to the area of a rectangular park whose sides are in the ratio of 5 : 13. What is the perimeter (in m) of the rectangular park?",
     "options": [
       "108",
