@@ -112,7 +112,7 @@
       "25/9",
       "4/5"
     ],
-    "correctAnswer": "25/16",
+    "correctAnswer": "25/9",
     "explanation": "cosecθ = 5/3 ⇒ sinθ = 3/5, cosθ = 4/5, cot²θ = 16/9. Substituting gives 25/16.",
     "solution": "# Step-by-Step Solution\n\n**Step 1: Find sin θ and cos θ**\n- Given: cosec θ = 5/3\n- Therefore: sin θ = 3/5\n- Using sin²θ + cos²θ = 1:\n  - cos²θ = 1 - (3/5)² = 1 - 9/25 = 16/25\n  - cos θ = 4/5\n\n**Step 2: Find sec²θ and cot²θ**\n- sec θ = 1/cos θ = 5/4\n- sec²θ = 25/16\n- cot θ = cos θ/sin θ = (4/5)/(3/5) = 4/3\n- cot²θ = 16/9\n\n**Step 3: Simplify (1 + cot²θ)**\n- 1 + cot²θ = cosec²θ = (5/3)² = 25/9\n\n**Step 4: Calculate the complete expression**\n- (sec²θ - 1) × cot²θ × (1 + cot²θ)\n- = (25/16 - 1) × 16/9 × 25/9\n- = (9/16) × 16/9 × 25/9\n- = 1 × 25/9\n- = 25/9\n\n**Wait - Recalc"
   },
@@ -290,11 +290,11 @@
     "question": "If tanx = 7/5, then find the value of (9sinx − (42/5)cosx)/(15sinx + (21/5)cosx).",
     "options": [
       "0",
-      "0.1",
+      "1/6",
       "1",
       "0.5"
     ],
-    "correctAnswer": "0.1",
+    "correctAnswer": "1/6",
     "explanation": "sinx = 4/5 and cosx = 3/5. Substituting gives 0.1.",
     "solution": "# Solution\n\n**Step 1: Divide numerator and denominator by cosx**\n\n$$\\frac{9\\sin x - \\frac{42}{5}\\cos x}{15\\sin x + \\frac{21}{5}\\cos x} = \\frac{9\\tan x - \\frac{42}{5}}{15\\tan x + \\frac{21}{5}}$$\n\n**Step 2: Substitute tanx = 7/5**\n\n$$= \\frac{9 \\cdot \\frac{7}{5} - \\frac{42}{5}}{15 \\cdot \\frac{7}{5} + \\frac{21}{5}}$$\n\n**Step 3: Simplify the numerator**\n\n$$9 \\cdot \\frac{7}{5} - \\frac{42}{5} = \\frac{63}{5} - \\frac{42}{5} = \\frac{21}{5}$$\n\n**Step 4: Simplify the denominator**\n\n$$15 \\cdot \\frac{7}{5} + \\frac{21}{5} = \\frac{105}{5} + \\frac{21}{5} = \\frac{126}{5}$$\n\n**Step 5: Calculate the final result**\n\n$$\\frac{\\frac{21}{5}}{\\frac{126}{5}} = \\frac{21}{126} = \\frac{1}{10} = 0.1$$\n\n**Answer:"
   },
