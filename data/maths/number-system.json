@@ -686,7 +686,7 @@
     "solution": "**Step 1: Factorize 1261**\n1261 = 13 × 97\n\n**Step 2: Identify the product range**\nThe product is 91 × 92 × 93 × ... × 99\n\n**Step 3: Check if factor 13 exists in the product**\nIn the range 91-99:\n- 91 = 7 × 13 ✓ (contains 13)\n\nSo 13 divides the product.\n\n**Step 4: Check if factor 97 exists in the product**\nIn the range 91-99:\n- 97 is a prime number and lies in this range ✓\n\nSo 97 divides the product.\n\n**Step 5: Conclusion**\nSince both prime factors 13 and 97 of 1261 are present in the product 91 × 92 × 93 × ... × 99, the entire product is divisible by 1261.\n\nTherefore, remainder = **0**\n\n**Answer: 0** ✓"
   },
   {
-    "id": "maths_number_system_013",
+    "id": "maths_number_system_050",
     "question": "2^24 − 25 when divided by 7 would leave a remainder of:",
     "questionHindi": "2^24 − 25 को 7 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -700,7 +700,7 @@
     "solution": "**Step 1: Find the pattern of powers of 2 modulo 7**\n\nCalculate successive powers of 2 divided by 7:\n- 2¹ ≡ 2 (mod 7)\n- 2² ≡ 4 (mod 7)\n- 2³ ≡ 8 ≡ 1 (mod 7)\n- 2⁴ ≡ 2 (mod 7)\n\nThe pattern repeats every 3 powers.\n\n**Step 2: Find 2²⁴ (mod 7)**\n\nSince 24 = 3 × 8, we have:\n- 2²⁴ = (2³)⁸ ≡ 1⁸ ≡ 1 (mod 7)\n\n**Step 3: Find 25 (mod 7)**\n\n25 = 3 × 7 + 4\n- 25 ≡ 4 (mod 7)\n\n**Step 4: Calculate 2²⁴ − 25 (mod 7)**\n\n2²⁴ − 25 ≡ 1 − 4 ≡ −3 ≡ 4 (mod 7)\n\nWait, let me recalculate: −3 + 7 = 4, but the answer should be 2.\n\n**Step 4 (Correction): Rec"
   },
   {
-    "id": "maths_number_system_014",
+    "id": "maths_number_system_051",
     "question": "What is the remainder when 2^101 is divided by 101?",
     "questionHindi": "2^101 को 101 से भाग देने पर शेषफल क्या होगा?",
     "options": [
@@ -714,7 +714,7 @@
     "solution": "# Solution: Remainder when 2^101 is divided by 101\n\n**Step 1: Check if 101 is prime**\n101 is a prime number.\n\n**Step 2: Apply Fermat's Little Theorem**\nBy Fermat's Little Theorem: If p is prime and gcd(a,p) = 1, then a^(p-1) ≡ 1 (mod p)\n\nSince 101 is prime and gcd(2, 101) = 1:\n2^100 ≡ 1 (mod 101)\n\n**Step 3: Express 2^101 in terms of 2^100**\n2^101 = 2^100 × 2^1\n2^101 ≡ 1 × 2 (mod 101)\n2^101 ≡ 2 (mod 101)\n\n**Step 4: Verify the remainder**\nThe remainder when 2^101 is divided by 101 is **2**.\n\n✓ **Answer: 2**"
   },
   {
-    "id": "maths_number_system_015",
+    "id": "maths_number_system_052",
     "question": "If 10^68 is divided by 13, the remainder is?",
     "questionHindi": "यदि 10^68 को 13 से विभाजित किया जाए तो शेषफल क्या होगा?",
     "options": [
@@ -728,7 +728,7 @@
     "solution": "# Solution: Finding Remainder when 10^68 is Divided by 13\n\n**Step 1: Find the pattern of powers of 10 modulo 13**\n\nCalculate successive powers of 10 mod 13:\n- 10¹ ≡ 10 (mod 13)\n- 10² ≡ 100 ≡ 9 (mod 13)\n- 10³ ≡ 10 × 9 ≡ 90 ≡ 12 (mod 13)\n- 10⁴ ≡ 10 × 12 ≡ 120 ≡ 3 (mod 13)\n- 10⁵ ≡ 10 × 3 ≡ 30 ≡ 4 (mod 13)\n- 10⁶ ≡ 10 × 4 ≡ 40 ≡ 1 (mod 13)\n\n**Step 2: Identify the cycle**\n\nThe pattern repeats with period 6 (since 10⁶ ≡ 1 mod 13)\n\n**Step 3: Find 68 mod 6**\n\n68 = 6 × 11 + 2\n\nTherefore: 10⁶⁸ ≡ 10² (mod 13)\n\n**Step 4: Calculate 10² mod 13**"
   },
   {
-    "id": "maths_number_system_016",
+    "id": "maths_number_system_053",
     "question": "Find the remainder: 72^85 ÷ 29",
     "questionHindi": "शेषफल ज्ञात कीजिए: 72^85 को 29 से विभाजित करने पर",
     "options": [
@@ -742,7 +742,7 @@
     "solution": "# Solution: Finding remainder of 72^85 ÷ 29\n\n**Step 1: Simplify 72 modulo 29**\n72 = 2(29) + 14\nSo, 72 ≡ 14 (mod 29)\n\nTherefore: 72^85 ≡ 14^85 (mod 29)\n\n**Step 2: Apply Fermat's Little Theorem**\nSince 29 is prime and gcd(14, 29) = 1:\n14^28 ≡ 1 (mod 29)\n\n**Step 3: Reduce the exponent**\n85 = 28(3) + 1\nSo, 14^85 = 14^(28×3 + 1) = (14^28)^3 × 14^1\n\n**Step 4: Calculate final remainder**\n14^85 ≡ (1)^3 × 14 ≡ 14 (mod 29)\n\n**Answer: 14** ✓"
   },
   {
-    "id": "maths_number_system_017",
+    "id": "maths_number_system_054",
     "question": "Find the remainder if 19^200 is divided by 20.",
     "questionHindi": "यदि 19^200 को 20 से विभाजित किया जाए तो शेषफल ज्ञात कीजिए।",
     "options": [
@@ -756,7 +756,7 @@
     "solution": "# Solution: Finding remainder of 19^200 ÷ 20\n\n**Step 1: Rewrite 19 in terms of 20**\n$$19 \\equiv -1 \\pmod{20}$$\n\n**Step 2: Apply Fermat's Little Theorem concept (or direct substitution)**\n$$19^{200} \\equiv (-1)^{200} \\pmod{20}$$\n\n**Step 3: Evaluate the power**\nSince 200 is an even number:\n$$(-1)^{200} = 1$$\n\n**Step 4: Find the remainder**\n$$19^{200} \\equiv 1 \\pmod{20}$$\n\nTherefore, the remainder when 19^200 is divided by 20 is **1**.\n\n✓ **Answer confirmed: 1**"
   },
   {
-    "id": "maths_number_system_018",
+        "id": "maths_number_system_055",
     "question": "What will be the remainder when 111^2024 is divided by 112?",
     "questionHindi": "111^2024 को 112 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -770,7 +770,7 @@
     "solution": "# Solution: Finding remainder of 111^2024 ÷ 112\n\n**Step 1:** Express 111 in terms of 112\n$$111 = 112 - 1$$\n\n**Step 2:** Apply Binomial Theorem\n$$111^{2024} = (112-1)^{2024}$$\n\nWhen expanded using binomial theorem:\n$$(112-1)^{2024} = \\binom{2024}{0}(112)^{2024} - \\binom{2024}{1}(112)^{2023} + ... + \\binom{2024}{2023}(112) + (-1)^{2024}$$\n\n**Step 3:** Identify terms divisible by 112\nAll terms containing 112 as a factor are divisible by 112. Only the last term remains:\n$$111^{2024} \\equiv (-1)^{2024} \\pmod{112}$$\n\n**Step 4:** Evaluate the power\nSince 2024 is even:\n$$(-1)^{2024} = 1$$\n\nTherefore, remainder = **1**\n\n✓ **Answer: 1** (Option 4)"
   },
   {
-    "id": "maths_number_system_019",
+    "id": "maths_number_system_056",
     "question": "Find the remainder when 59^637 is divided by 58.",
     "questionHindi": "59^637 को 58 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
     "options": [
@@ -784,7 +784,7 @@
     "solution": "# Solution: Finding remainder when 59^637 is divided by 58\n\n**Step 1: Simplify the base modulo 58**\n$$59 \\equiv 1 \\pmod{58}$$\n(Since 59 = 58 + 1)\n\n**Step 2: Apply the congruence to the power**\n$$59^{637} \\equiv 1^{637} \\pmod{58}$$\n\n**Step 3: Evaluate**\n$$1^{637} = 1$$\n\n**Step 4: State the remainder**\n$$59^{637} \\equiv 1 \\pmod{58}$$\n\nThe remainder when 59^637 is divided by 58 is **1**.\n\n✓ **Answer: 1**"
   },
   {
-    "id": "maths_number_system_020",
+    "id": "maths_number_system_057",
     "question": "Find the remainder when 136^58 is divided by 168.",
     "questionHindi": "136^58 को 168 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
     "options": [
@@ -798,7 +798,7 @@
     "solution": "# Solution: Finding remainder when 136^58 is divided by 168\n\n**Step 1: Factor 168**\n168 = 8 × 21 = 8 × 3 × 7\n\n**Step 2: Use Chinese Remainder Theorem**\nFind 136^58 (mod 8), (mod 3), and (mod 7) separately.\n\n**Step 3: Calculate modulo each factor**\n\n- **Mod 8:** 136 ≡ 0 (mod 8) → 136^58 ≡ 0 (mod 8)\n\n- **Mod 3:** 136 ≡ 1 (mod 3) → 136^58 ≡ 1 (mod 3)\n\n- **Mod 7:** 136 ≡ 3 (mod 7)\n  - By Fermat's Little Theorem: 3^6 ≡ 1 (mod 7)\n  - 58 = 6(9) + 4\n  - 3^58 ≡ 3^4 ≡ 81 ≡ 4 (mod 7)\n\n**Step 4: Combine using CRT**\nFind x such that:\n- x ≡ 0 (mod 8)\n- x ≡ 1 (mod 3)\n- x ≡ 4 (mod 7)\n\nFrom x"
   },
   {
-    "id": "maths_number_system_021",
+    "id": "maths_number_system_058",
     "question": "If 7^101 is divided by 48, the remainder is:",
     "questionHindi": "यदि 7^101 को 48 से विभाजित किया जाता है, तो शेषफल है:",
     "options": [
@@ -812,7 +812,7 @@
     "solution": "**Step 1: Find the pattern of remainders when powers of 7 are divided by 48**\n\nCalculate successive powers of 7 mod 48:\n- 7¹ ≡ 7 (mod 48)\n- 7² ≡ 49 ≡ 1 (mod 48)\n\n**Step 2: Use the pattern to simplify 7¹⁰¹**\n\nSince 7² ≡ 1 (mod 48), we have a cycle of length 2.\n\nExpress 101 in terms of this cycle:\n- 101 = 2(50) + 1\n\n**Step 3: Apply the pattern**\n\n7¹⁰¹ = 7^(2×50 + 1) = (7²)⁵⁰ × 7¹\n\nSince 7² ≡ 1 (mod 48):\n- (7²)⁵⁰ ≡ 1⁵⁰ ≡ 1 (mod 48)\n\n**Step 4: Calculate final remainder**\n\n7¹⁰¹ ≡ 1 × 7 ≡ 7 (mod 48)\n\n**Answer: 7** ✓"
   },
   {
-    "id": "maths_number_system_022",
+    "id": "maths_number_system_059",
     "question": "What is the remainder when 3^255 is divided by 28?",
     "questionHindi": "3^255 को 28 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -826,7 +826,7 @@
     "solution": "# Solution: Remainder when 3^255 is divided by 28\n\n**Step 1: Use Euler's Theorem**\nFirst, find φ(28):\n- 28 = 4 × 7\n- φ(28) = φ(4) × φ(7) = 2 × 6 = 12\n\nSince gcd(3, 28) = 1, by Euler's theorem: 3^12 ≡ 1 (mod 28)\n\n**Step 2: Reduce the exponent**\nExpress 255 in terms of 12:\n- 255 = 12 × 21 + 3\n- Therefore: 3^255 = 3^(12×21 + 3) = (3^12)^21 × 3^3\n\n**Step 3: Apply the congruence**\n- (3^12)^21 ≡ 1^21 ≡ 1 (mod 28)\n- So: 3^255 ≡ 1 × 3^3 ≡ 3^3 (mod 28)\n\n**Step 4: Calculate 3^3 mod 28**\n- 3^3 = 27\n- 27 = 0 × 28 + 27\n\n**Answer: 27** ✓"
   },
   {
-    "id": "maths_number_system_023",
+        "id": "maths_number_system_060",
     "question": "What will be the remainder when (5)^501 is divided by 126?",
     "questionHindi": "(5)^501 को 126 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -840,7 +840,7 @@
     "solution": "# Solution: Finding remainder when 5^501 is divided by 126\n\n**Step 1: Factor 126**\n126 = 2 × 63 = 2 × 9 × 7\n\nUse Chinese Remainder Theorem (CRT): Find remainders when 5^501 is divided by 2, 9, and 7 separately.\n\n**Step 2: Find 5^501 mod 2, mod 9, and mod 7**\n\n- **mod 2:** 5 ≡ 1 (mod 2) → 5^501 ≡ 1 (mod 2)\n\n- **mod 9:** 5^1 ≡ 5, 5^2 ≡ 25 ≡ 7, 5^3 ≡ 35 ≡ 8, 5^4 ≡ 40 ≡ 4, 5^5 ≡ 20 ≡ 2, 5^6 ≡ 10 ≡ 1 (mod 9)\n  - Cycle length = 6. Since 501 = 6(83) + 3, we have 5^501 ≡ 5^3 ≡ 8 (mod 9)\n\n- **mod 7:** 5^1 ≡ 5, 5^2 ≡ 4,"
   },
   {
-    "id": "maths_number_system_024",
+    "id": "maths_number_system_061",
     "question": "What will be the remainder when (265)^4081 + 9 is divided by 266?",
     "questionHindi": "(265)^4081 + 9 को 266 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -854,7 +854,7 @@
     "solution": "**Step 1: Simplify 265 modulo 266**\n265 ≡ -1 (mod 266)\n[Since 265 = 266 - 1]\n\n**Step 2: Apply the congruence to the power**\n(265)^4081 ≡ (-1)^4081 (mod 266)\n\n**Step 3: Evaluate the odd power**\n(-1)^4081 ≡ -1 (mod 266)\n[Since 4081 is odd, (-1)^odd = -1]\n\n**Step 4: Add 9 and find remainder**\n(265)^4081 + 9 ≡ -1 + 9 (mod 266)\n≡ 8 (mod 266)\n\n**Answer: 8** ✓"
   },
   {
-    "id": "maths_number_system_025",
+    "id": "maths_number_system_062",
     "question": "If (7^777 + 77) is divided by 78, then the remainder will be:",
     "questionHindi": "यदि (7^777 + 77) को 78 से विभाजित किया जाए, तो शेषफल होगा:",
     "options": [
@@ -868,7 +868,7 @@
     "solution": "# Step-by-Step Solution\n\n**Step 1: Simplify using modular arithmetic**\nWe need to find (7^777 + 77) mod 78\n\nSince 78 = 77 + 1, we can write:\n- 7^777 + 77 ≡ 7^777 + 77 (mod 78)\n\n**Step 2: Find 7^777 mod 78**\nNotice that 7 × 11 = 77, so 7 × 11 ≡ -1 (mod 78)\n\nThis means: 7^777 ≡ 7^777 (mod 78)\n\nLet's use: 7^2 = 49, and check the pattern\n- 7^1 ≡ 7 (mod 78)\n- 7^2 ≡ 49 (mod 78)\n- 7^3 ≡ 343 ≡ 343 - 4(78) ≡ 343 - 312 ≡ 31 (mod 78)\n\n**Step 3: Use Fermat's Little Theorem approach**\nSince gcd(7, 78) = 1, and φ(78) = φ(2×3×13) = 1×2×12 = 24\n\nSo 7^24 ≡ 1 (mod 78)\n\nNow: 777 = 24 ×"
   },
   {
-    "id": "maths_number_system_026",
+        "id": "maths_number_system_063",
     "question": "Let p be the remainder when 7^84 is divided by 342 and q be the remainder when 7^84 is divided by 344. What is (p − q)?",
     "questionHindi": "मान लीजिए p शेष है जब 7^84 को 342 से विभाजित किया जाता है और q शेष है जब 7^84 को 344 से विभाजित किया जाता है। (p − q) कितना है?",
     "options": [
@@ -882,7 +882,7 @@
     "solution": "**Step 1: Find p (remainder when 7^84 is divided by 342)**\n\nFactor 342 = 2 × 171 = 2 × 9 × 19\n\nUsing Chinese Remainder Theorem:\n- 7^84 mod 2 = 1\n- 7^84 mod 9: Since φ(9) = 6, and 84 = 14(6), we get 7^84 ≡ 1 (mod 9)\n- 7^84 mod 19: Since φ(19) = 18, and 84 = 4(18) + 12, we get 7^84 ≡ 7^12 (mod 19)\n\nCalculate 7^12 mod 19: 7^2 = 49 ≡ 11 (mod 19), 7^4 ≡ 121 ≡ 7 (mod 19), 7^12 ≡ 7^3 ≡ 343 ≡ 1 (mod 19)\n\nSo: p ≡ 1 (mod 2), p ≡ 1 (mod 9), p ≡ 1 (mod 19)\nTherefore, **p = 1**\n\n**Step 2: Find q (remainder when 7^84 is divided by 344)**\n\nFactor 344 = 8 × 43\n\nUsing Chinese"
   },
   {
-    "id": "maths_number_system_027",
+    "id": "maths_number_system_064",
     "question": "If x is the remainder when 3^61284 is divided by 5 and y is the remainder when 4^96 is divided by 6, then what is the value of (2x − y)?",
     "questionHindi": "यदि 3^61284 को 5 से विभाजित करने पर शेषफल x तथा 4^96 को 6 से विभाजित करने पर शेषफल y हो, तो (2x − y) का मान क्या है?",
     "options": [
@@ -896,7 +896,7 @@
     "solution": "# Solution\n\n**Finding x (remainder when 3^61284 is divided by 5):**\n\nStep 1: Find the pattern of powers of 3 modulo 5.\n- 3¹ ≡ 3 (mod 5)\n- 3² ≡ 9 ≡ 4 (mod 5)\n- 3³ ≡ 12 ≡ 2 (mod 5)\n- 3⁴ ≡ 6 ≡ 1 (mod 5)\n\nThe pattern repeats every 4 powers.\n\nStep 2: Find 61284 mod 4.\n- 61284 = 4 × 15321 + 0\n- So 61284 ≡ 0 (mod 4)\n\nTherefore: 3^61284 ≡ 3⁰ ≡ 1 (mod 5)\n**Thus, x = 1**\n\n**Finding y (remainder when 4^96 is divided by 6):**\n\nStep 3: Find the pattern of powers of 4 modulo 6.\n- 4¹ ≡ 4 (mod 6)\n- 4² ≡ 16 ≡ 4 (mod 6)\n- 4³ ≡ 64 ≡ 4 (mod 6)\n\nAll powers of 4"
   },
   {
-    "id": "maths_number_system_028",
+    "id": "maths_number_system_065",
     "question": "Find the remainder when 131^27 is divided by 49.",
     "questionHindi": "131^27 को 49 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
     "options": [
@@ -910,7 +910,7 @@
     "solution": "# Solution: Find remainder when 131^27 is divided by 49\n\n**Step 1: Simplify the base modulo 49**\n131 = 2(49) + 33\nSo, 131 ≡ 33 (mod 49)\n\nTherefore, 131^27 ≡ 33^27 (mod 49)\n\n**Step 2: Use Euler's Theorem**\nφ(49) = φ(7²) = 7² - 7¹ = 49 - 7 = 42\n\nSince gcd(33, 49) = 1, by Euler's theorem:\n33^42 ≡ 1 (mod 49)\n\n**Step 3: Reduce the exponent**\n27 < 42, so we cannot directly apply the theorem. Calculate 33^27 (mod 49) using successive squaring:\n\n- 33² = 1089 = 22(49) + 11 ≡ 11 (mod 49)\n- 33⁴ ≡ 11² = 121 = 2(49) + 23 ≡ 23 (mod 49)\n- 33⁸ ≡ 23² = 529 = 10(49) + 39 ≡ 39 (mod 49)\n- 33¹⁶ ≡ 39² = 1521 = 31"
   },
   {
-    "id": "maths_number_system_029",
+    "id": "maths_number_system_066",
     "question": "Find the last 2 digits of 43^362.",
     "questionHindi": "43^362 के अंतिम 2 अंक ज्ञात कीजिए।",
     "options": [
@@ -924,7 +924,7 @@
     "solution": "# Finding Last 2 Digits of 43^362\n\n**Step 1: Find the pattern of last 2 digits of powers of 43**\n\nWe need to find 43^362 (mod 100).\n\n43¹ ≡ 43 (mod 100)\n43² ≡ 1849 ≡ 49 (mod 100)\n43³ ≡ 43 × 49 ≡ 2107 ≡ 07 (mod 100)\n43⁴ ≡ 43 × 07 ≡ 301 ≡ 01 (mod 100)\n43⁵ ≡ 43 × 01 ≡ 43 (mod 100)\n\n**Step 2: Identify the cycle**\n\nThe pattern repeats every 4 powers: {43, 49, 07, 01}\n\n**Step 3: Find the remainder when 362 is divided by 4**\n\n362 ÷ 4 = 90 remainder **2**\n\n**Step 4: Determine the position in the cycle**\n\nSince the remainder is 2, we need the 2nd term in our cycle:\n43², which gives us **49** (mod 100)\n\n**Answer: 49** ✓"
   },
   {
-    "id": "maths_number_system_030",
+    "id": "maths_number_system_067",
     "question": "Find the remainder when 2^100 is divided by 102.",
     "questionHindi": "2^100 को 102 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
     "options": [
@@ -938,7 +938,7 @@
     "solution": "# Solution: Remainder when 2^100 is divided by 102\n\n**Step 1: Factor 102**\n102 = 2 × 51 = 2 × 3 × 17\n\n**Step 2: Find 2^100 mod 102 using Chinese Remainder Theorem**\nWe need:\n- 2^100 mod 2 = 0 (since 2^100 is even)\n- 2^100 mod 51\n- 2^100 mod 17\n\n**Step 3: Find 2^100 mod 51**\nBy Euler's theorem: φ(51) = 51(1 - 1/3)(1 - 1/17) = 32\n\nSo 2^32 ≡ 1 (mod 51)\n\n100 = 32 × 3 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 51)\n\n**Step 4: Find 2^100 mod 17**\nBy Fermat's Little Theorem: 2^16 ≡ 1 (mod 17)\n\n100 = 16 × 6 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 17)\n\n**Step 5: Apply CRT**\nWe need x such that:\n- x ≡ 0 (mod 2"
   },
   {
-    "id": "maths_number_system_031",
+    "id": "maths_number_system_068",
     "question": "Find the remainder when (10¹ + 10² + 10³ + ... + 10¹⁰⁰) is divided by 6.",
     "questionHindi": "10¹ + 10² + 10³ + ... + 10¹⁰⁰ को 6 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
     "options": [
@@ -952,7 +952,7 @@
     "solution": "**Step 1: Find the pattern of remainders when powers of 10 are divided by 6**\n\n- 10 ≡ 4 (mod 6)\n- 10² ≡ 100 ≡ 4 (mod 6)\n- 10³ ≡ 1000 ≡ 4 (mod 6)\n\nEach power of 10 leaves remainder 4 when divided by 6.\n\n**Step 2: Find the remainder of the sum**\n\nSince each of the 100 terms leaves remainder 4:\n- Sum ≡ 4 + 4 + 4 + ... + 4 (100 times) (mod 6)\n- Sum ≡ 100 × 4 (mod 6)\n- Sum ≡ 400 (mod 6)\n\n**Step 3: Simplify 400 mod 6**\n\n- 400 = 66 × 6 + 4\n- 400 ≡ 4 (mod 6)\n\n**Answer: 4** ✓"
   },
   {
-    "id": "maths_number_system_032",
+    "id": "maths_number_system_069",
     "question": "Find the remainder when (1^93 + 2^93 + 3^93 + ... + 89^93) is divided by 90.",
     "questionHindi": "(1^93 + 2^93 + 3^93 + ... + 89^93) को 90 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
     "options": [
@@ -966,7 +966,7 @@
     "solution": "# Solution\n\n**Step 1: Factor 90 and use Chinese Remainder Theorem**\n- 90 = 2 × 45 = 2 × 9 × 5\n- Find remainder when divided by 2, 9, and 5 separately\n\n**Step 2: Find remainder mod 2**\n- Sum = 1^93 + 2^93 + ... + 89^93\n- Odd numbers: 1^93, 3^93, ..., 89^93 (45 odd numbers) ≡ 45 × 1 ≡ 1 (mod 2)\n- Even numbers: 2^93, 4^93, ..., 88^93 ≡ 0 (mod 2)\n- Total ≡ 1 (mod 2)\n\n**Step 3: Find remainder mod 9**\n- For any integer a: a^93 ≡ a^(3) (mod 9) [using Euler's theorem: φ(9) = 6, so a^6 ≡ 1]\n- Actually, a^93 = a^(90+3) ≡ a^3 (mod 9)\n- Sum of (1³ + 2³ + ... + 89³) mod 9\n- Using: Sum of cubes = [n(n+1)/2]² = [89×90/2]² = 4005²\n-"
   },
   {
-    "id": "maths_number_system_033",
+    "id": "maths_number_system_070",
     "question": "What is the remainder when 7 + 77 + 777 + 7777 + ... (till 100 terms) is divided by 8?",
     "questionHindi": "7 + 77 + 777 + 7777 + ... (100 पदों तक) को 8 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -980,7 +980,7 @@
     "solution": "# Solution: Remainder when dividing by 8\n\n**Step 1: Express each term in the form 7 × (repunit)**\n\n7 = 7 × 1\n77 = 7 × 11\n777 = 7 × 111\n7777 = 7 × 1111\n...and so on\n\nSo the sum = 7(1 + 11 + 111 + 1111 + ... up to 100 terms)\n\n**Step 2: Find remainders of repunits (1, 11, 111, ...) when divided by 8**\n\n- 1 ÷ 8 → remainder = 1\n- 11 ÷ 8 → remainder = 3\n- 111 ÷ 8 → remainder = 7\n- 1111 ÷ 8 → remainder = 7\n- 11111 ÷ 8 → remainder = 7\n- (Pattern: 1, 3, 7, 7, 7, 7, ...)\n\n**Step 3: Sum remainders for 100 terms**\n\nSum of remainders = 1 + 3 + 7 + 7 + 7 + ... (98 times 7)\n= 1 + 3 + 7(98)\n= 4 + 686\n= 690\n\n**Step 4: Find remainder of (690) when divided by 8**\n\n690"
   },
   {
-    "id": "maths_number_system_034",
+    "id": "maths_number_system_071",
     "question": "What is the remainder when 727272727272... (999 digits) is divided by 101?",
     "questionHindi": "727272727272... (999 अंकों तक) को 101 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -994,7 +994,7 @@
     "solution": "# Solution:\n\n**Step 1: Identify the pattern**\nThe number 727272727272... with 999 digits is formed by repeating \"72\" continuously.\nSince 999 is odd, the last digit is 7.\nSo we have: 72 repeated 499 times, plus one final 7.\n\n**Step 2: Express mathematically**\nThe number can be written as:\n$$N = \\underbrace{72727272...72}_{499 \\text{ times}} \\, 7$$\n\nOr: $N = 72 \\times 10^{997} + 72 \\times 10^{995} + ... + 72 \\times 10^1 + 7$\n\n**Step 3: Factor out and simplify**\n$$N = 72(10^{997} + 10^{995} + ... + 10^3 + 10^1) + 7$$\n\nThis is a geometric series with first term $10^1$, ratio $10^2 = 100$, and 499 terms:\n$$N = 72 \\times 10 \\times \\frac{100^{499} - 1}{100 - 1} + 7 = 720 \\times \\frac{100^{499} - 1}{99} + 7$$\n\n**Step 4: Find remainder when divided by 101**\nSince $100 \\equiv -1 \\pmod{101}$:\n- $100^{499} \\equiv"
   },
   {
-    "id": "maths_number_system_035",
+    "id": "maths_number_system_072",
     "question": "A number N is formed by writing 9 for 99 times. What is the remainder if N is divided by 13?",
     "questionHindi": "9 को 99 बार लिखकर बनी संख्या N को 13 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -1008,7 +1008,7 @@
     "solution": "# Solution\n\n**Step 1: Identify the number N**\nN = 999...9 (99 nines) = 10^99 - 1\n\n**Step 2: Find the pattern of powers of 10 modulo 13**\n- 10^1 ≡ 10 (mod 13)\n- 10^2 ≡ 9 (mod 13)\n- 10^3 ≡ 12 (mod 13)\n- 10^4 ≡ 3 (mod 13)\n- 10^5 ≡ 4 (mod 13)\n- 10^6 ≡ 1 (mod 13)\n\nThe pattern repeats with period 6.\n\n**Step 3: Find 10^99 (mod 13)**\nSince 99 = 6 × 16 + 3, we have:\n10^99 ≡ 10^3 ≡ 12 (mod 13)\n\n**Step 4: Calculate N (mod 13)**\nN = 10^99 - 1 ≡ 12 - 1 ≡ 11 (mod 13)\n\nWait, let me verify: The remainder should be 9.\n\n**Correction - Direct approach:**\nN = 999...9 (99 nines)\n\nUsing the formula: 999...9 (n nines) ≡ -1"
   },
   {
-    "id": "maths_number_system_036",
+    "id": "maths_number_system_073",
     "question": "Find the remainder when 1×2 + 2×3 + 3×4 + ... + 99×100 is divided by 1111.",
     "questionHindi": "1×2 + 2×3 + 3×4 + ... + 99×100 को 1111 से विभाजित करने पर शेषफल ज्ञात कीजिए।",
     "options": [
@@ -1022,7 +1022,7 @@
     "solution": "# Solution\n\n**Step 1: Find the general formula for the sum**\n\nThe sum is: 1×2 + 2×3 + 3×4 + ... + 99×100\n\nFor the general term: r(r+1) = r² + r\n\nSum = Σ(r=1 to 99) r(r+1) = Σr² + Σr\n\n**Step 2: Apply summation formulas**\n\nUsing:\n- Σ(r=1 to n) r² = n(n+1)(2n+1)/6\n- Σ(r=1 to n) r = n(n+1)/2\n\nFor n = 99:\n- Σr² = 99(100)(199)/6 = 328,350\n- Σr = 99(100)/2 = 4,950\n\nSum = 328,350 + 4,950 = **333,300**\n\n**Step 3: Divide by 1111**\n\n333,300 ÷ 1111 = 300 remainder r\n\nCheck: 1111 × 300 = 333,300\n\nWait, let me recalculate: 333,300 ÷ 1111 = 300.027...\n\n1111 × 300 = 333,300 ✗\n\nActually: 333,300 = 1111 × 300 + remainder\n\n1111 × 300 = 333,300"
   },
   {
-    "id": "maths_number_system_037",
+    "id": "maths_number_system_074",
     "question": "The remainder of 9 + 9² + ... + 9^(2n+1), when divided by 6 is?",
     "questionHindi": "9 + 9² + ... + 9^(2n+1) को 6 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -1036,7 +1036,7 @@
     "solution": "# Solution:\n\n**Step 1: Identify the series pattern**\nThe series is: 9 + 9² + 9³ + ... + 9^(2n+1)\nThis is a geometric series with first term a = 9, common ratio r = 9, and (2n+1) terms.\n\n**Step 2: Apply geometric series formula**\nSum = a(r^(2n+1) - 1)/(r - 1) = 9(9^(2n+1) - 1)/(9 - 1) = 9(9^(2n+1) - 1)/8\n\n**Step 3: Find remainder when divided by 6**\nWe need: [9(9^(2n+1) - 1)/8] mod 6\n\nSince 9 ≡ 3 (mod 6):\n- 9² ≡ 3 (mod 6)\n- 9³ ≡ 3 (mod 6)\n- All powers of 9 ≡ 3 (mod 6)\n\n**Step 4: Sum the remainders**\nSum ≡ 3 + 3 + 3 + ... + 3 (2n+1 times) (mod 6)\nSum ≡ 3(2n+1) (mod 6)\n\n**Step 5: Simplify**\n3(2n+1) = 6n + 3"
   },
   {
-    "id": "maths_number_system_076",
+    "id": "maths_number_system_075",
     "question": "Number System — Question 76 (add real content in datas/maths/number-system.json)",
     "options": [
       "Option A",

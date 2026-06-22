@@ -177,7 +177,7 @@
       "50,000",
       "40,000"
     ],
-    "correctAnswer": "55000",
+    "correctAnswer": "55,000",
     "explanation": "Let CP=x. Then SP=1.1x. New condition: 1.1x+1000=1.4×0.8x=1.12x. Thus 0.02x=1000, x=50000 and SP=55000.",
     "solution": "**Step 1: Set up variables**\nLet Cost Price (CP) = ₹x\nSelling Price (SP) = ₹1.1x (since 10% gain)\n\n**Step 2: Set up equation for the second scenario**\n- New CP = x - 20% of x = 0.8x\n- New SP = 1.1x + 1,000\n- Profit = 40%, so: New SP = 1.4 × New CP\n\n**Step 3: Form the equation**\n1.1x + 1,000 = 1.4 × 0.8x\n1.1x + 1,000 = 1.12x\n1,000 = 1.12x - 1.1x\n1,000 = 0.02x\n\n**Step 4: Solve for x**\nx = 1,000 ÷ 0.02 = 50,000\nSo CP = ₹50,000\n\n**Step 5: Find earlier selling price**\nSP = 1.1 × 50,000 = ₹55,000\n\n**Answer: ₹55,000** ✓"
   },
