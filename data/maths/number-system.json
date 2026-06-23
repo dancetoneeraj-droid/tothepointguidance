@@ -303,7 +303,7 @@
       "55",
       "70"
     ],
-    "correctAnswer": "44",
+    "correctAnswer": "55",
     "explanation": "56 = 7×8. Divisibility by 8 gives y=4. Applying divisibility by 7 gives x=6. Therefore x²+y = 36+4 = 40. Verify with sheet answer key.",
     "solution": "# Solution\n\n**Step 1: Divisibility condition for 56**\nSince 56 = 8 × 7, the number must be divisible by both 8 and 7.\n\n**Step 2: Apply divisibility by 8**\nA number is divisible by 8 if its last 3 digits are divisible by 8.\nLast 3 digits: y4 → 100y + 4\n\nTesting values: y = 0, 1, 2, ..., 9\n- y = 4: 404 ÷ 8 = 50.5 ✗\n- y = 6: 604 ÷ 8 = 75.5 ✗\n- y = 8: 804 ÷ 8 = 100.5 ✗\n\nFor the last three digits 9y4:\n- y = 2: 924 ÷ 8 = 115.5 ✗\n- y = 4: 944 ÷ 8 = 118 ✓\n- y = 6: 964 ÷ 8 = 120.5 ✗\n\n**Largest y divisible by 8 is y = 4**\n\n**Step 3: Apply divisibility by 7**\nNumber: x894244\n\nUsing divisibility rule or direct division:\nx894244 ÷ 7 must give remainder 0\n\nTesting x = 1"
   },
@@ -317,7 +317,7 @@
       "7",
       "2"
     ],
-    "correctAnswer": "5",
+    "correctAnswer": "11",
     "explanation": "Convert all terms to powers of 3 and evaluate modulo 5. The expression is divisible by 5.",
     "solution": "# Solution\n\n**Step 1: Express all terms as powers of 3**\n- 3^50 = 3^50\n- 9^26 = (3²)^26 = 3^52\n- 27^18 = (3³)^18 = 3^54\n- 9^28 = (3²)^28 = 3^56\n- 9^29 = (3²)^29 = 3^58\n\n**Step 2: Factor out the smallest power**\n3^50 + 3^52 + 3^54 + 3^56 + 3^58 = 3^50(1 + 3² + 3⁴ + 3⁶ + 3⁸)\n\n**Step 3: Calculate the sum in parentheses**\n1 + 9 + 81 + 729 + 6561 = 7381\n\n**Step 4: Check divisibility by 5**\n- 3^50 ends in digit 1 (since powers of 3 cycle: 3,9,3,9,... and 50 is even)\n- 7381 ends in digit 1 (divisible by 1, not by 2, 3, or 11)\n- Actually, 7381 ÷ 5 = 1476.2 (not directly divisible)\n\n**Step 5: Check if the entire expression is divisible by 5**"
   },
@@ -331,7 +331,7 @@
       "5",
       "4"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "6",
     "explanation": "Applying divisibility rule of 11 gives remainder 7. Therefore add 4 to make it divisible by 11.",
     "solution": "# Solution\n\n**Step 1: Apply Divisibility Rule for 11**\nA number is divisible by 11 if the difference between the sum of digits at odd positions and even positions is divisible by 11.\n\n**Step 2: Identify Positions in 9454351626**\n- Odd positions (1st, 3rd, 5th...): 9, 5, 3, 1, 2 → Sum = 20\n- Even positions (2nd, 4th, 6th...): 4, 4, 5, 6, 6 → Sum = 25\n\n**Step 3: Calculate the Difference**\nDifference = |20 - 25| = |-5| = 5\n\n**Step 4: Find the Smallest Number to Add**\nTo make the number divisible by 11, we need the difference to become 0 or a multiple of 11.\n\nSince the current remainder is 5 (when divided by 11):\n- Adding 4 gives: 5 + 4 = 9 (not divisible)\n- Adding 6 gives: 5 + 6 = 11 (divisible by 11) ✓\n\nWait, let me recalculate: We need (20 + x) - 25 ≡ 0 (mod 11)\n- x - 5 ≡ 0 (mod 11)\n- x ≡ 5 (mod 11)\n\nThe"
   },
