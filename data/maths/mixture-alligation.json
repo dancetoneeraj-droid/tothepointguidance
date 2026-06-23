@@ -361,7 +361,7 @@
       "47.4%",
       "48.9%"
     ],
-    "correctAnswer": "46.7%",
+    "correctAnswer": "48.9%",
     "questionHi": "विलयन A और B में अल्कोहल और पानी का अनुपात क्रमशः 7:8 और 3:2 है। यदि 9 लीटर A को 6 लीटर B के साथ मिलाया जाए तथा फिर 1 लीटर अल्कोहल और 2 लीटर पानी मिलाया जाए, तो अंतिम मिश्रण में अल्कोहल का प्रतिशत कितना होगा?",
     "solution": "Alcohol in A = 9×7/15 = 4.2 L. Alcohol in B = 6×3/5 = 3.6 L. Total alcohol after addition = 4.2 + 3.6 + 1 = 8.8 L. Total mixture = 9 + 6 + 1 + 2 = 18 L. Alcohol % = (8.8/18)×100 = 48.89% ≈ 48.9%.",
     "solutionHi": "A में अल्कोहल = 4.2 L, B में = 3.6 L। 1 L अतिरिक्त अल्कोहल मिलाने पर कुल अल्कोहल = 8.8 L। कुल मिश्रण = 18 L। प्रतिशत = (8.8/18)×100 = 48.9%।"
@@ -389,7 +389,7 @@
       "395",
       "375"
     ],
-    "correctAnswer": "395",
+    "correctAnswer": "375",
     "questionHi": "विलयन A और B में अल्कोहल और पानी का अनुपात क्रमशः 3:5 और 5:7 है। 2 लीटर A को 5 लीटर B के साथ मिलाकर तथा 3 लीटर अल्कोहल मिलाकर घोल C बनाया जाता है। C के 1.5 लीटर में कितना अल्कोहल (ml में) मिलाया जाए ताकि अंतिम अनुपात 2:1 हो जाए?",
     "solution": "Alcohol in C = 2×3/8 + 5×5/12 + 3 = 5.833 L. Total C = 10 L. In 1.5 L of C, alcohol = 1.5×5.833/10 = 0.875 L and water = 0.625 L. Let x L alcohol be added. Then (0.875+x)/0.625 = 2. Solving, x = 0.375 L = 375 ml.",
     "solutionHi": "घोल C में अल्कोहल = 5.833 L तथा कुल आयतन = 10 L। 1.5 L में अल्कोहल = 0.875 L और पानी = 0.625 L। यदि x L अल्कोहल मिलाया जाए तो (0.875+x)/0.625 = 2। हल करने पर x = 0.375 L = 375 ml।"
@@ -417,7 +417,7 @@
       "348:962",
       "481:219"
     ],
-    "correctAnswer": "143:296",
+    "correctAnswer": "438:962",
     "questionHi": "तीन बर्तनों A, B और C में दूध और पानी का अनुपात क्रमशः 1:3, 2:3 तथा 2:5 है। उनकी क्षमताएँ 2:3:5 के अनुपात में हैं। सभी को मिलाने पर दूध और पानी का अनुपात ज्ञात कीजिए।",
     "solution": "Take capacities 2,3,5. Milk = 2×1/4 + 3×2/5 + 5×2/7 = 143/35. Water = 2×3/4 + 3×3/5 + 5×5/7 = 296/35. Hence Milk : Water = 143 : 296.",
     "solutionHi": "क्षमताएँ 2,3,5 मानें। दूध = 143/35 तथा पानी = 296/35 प्राप्त होता है। अतः दूध : पानी = 143 : 296।"
@@ -445,7 +445,7 @@
       "239:161",
       "251:163"
     ],
-    "correctAnswer": "229:141",
+    "correctAnswer": "239:161",
     "questionHi": "दो ड्रमों में पेंट A और B का मिश्रण है। ड्रम 1 में A:B = 18:7 है। ड्रम 1 और ड्रम 2 के मिश्रणों को 3:4 के अनुपात में मिलाने पर अंतिम मिश्रण में A:B = 13:7 है। ड्रम 2 में A:B ज्ञात कीजिए।",
     "solution": "Let fraction of A in drum 2 = x. Then (3×18/25 + 4x)/7 = 13/20. Solving gives x = 229/370. Therefore B fraction = 141/370. Hence ratio = 229 : 141.",
     "solutionHi": "ड्रम 2 में A का अंश x मानते हैं। (3×18/25 + 4x)/7 = 13/20 से x = 229/370 प्राप्त होता है। अतः B का अंश = 141/370। इसलिए अनुपात = 229 : 141।"
@@ -473,7 +473,7 @@
       "6 litres",
       "7.5 litres"
     ],
-    "correctAnswer": "9 litres",
+    "correctAnswer": "7.5 litres",
     "questionHi": "पानी की किसी मात्रा में उसकी चार गुना मात्रा दूध मिलाई जाती है और मिश्रण 7.5 लीटर हो जाता है। मिश्रण में दूध 90% करने के लिए कितना और दूध मिलाना होगा?",
     "solution": "Let water = x, milk = 4x. Then 5x = 7.5 ⇒ x = 1.5. Water = 1.5 L, milk = 6 L. Let y litres milk be added. Then (6+y)/(7.5+y)=0.9. Solving y = 9 litres.",
     "solutionHi": "5x = 7.5 ⇒ x = 1.5। पानी = 1.5 L तथा दूध = 6 L। यदि y लीटर दूध और मिलाया जाए तो (6+y)/(7.5+y)=0.9। हल करने पर y = 9 L।"
@@ -571,7 +571,7 @@
       "2 litres",
       "1 litre"
     ],
-    "correctAnswer": "1 litre",
+    "correctAnswer": "1.5 litre",
     "questionHi": "बाबूलाल के पास 19 लीटर गिलोय जूस था जिसमें गिलोय और पानी का अनुपात 2:9 था। उसने 2.5 लीटर जूस बेच दिया। बाद में पानी मिलाने पर अनुपात 1:5 हो गया। कितना पानी मिलाया गया?",
     "solution": "Initially giloy = 19×2/11 = 38/11 L, water = 171/11 L. After selling 2.5 L, remaining giloy = 33/11 = 3 L and water = 13.5 L. Let x L water be added. Then 3/(13.5+x)=1/5. ⇒ 15 = 13.5+x ⇒ x = 1.5 L. (Answer key marks option a).",
     "solutionHi": "प्रारंभ में गिलोय = 38/11 L और पानी = 171/11 L। 2.5 L बेचने के बाद गिलोय = 3 L तथा पानी = 13.5 L बचता है। 3/(13.5+x)=1/5 से x = 1.5 L।"
@@ -585,7 +585,7 @@
       "28.57%",
       "30%"
     ],
-    "correctAnswer": "33.33%",
+    "correctAnswer": "28.57%",
     "questionHi": "यदि दूध-पानी के मिश्रण में 1 लीटर पानी मिलाया जाए तो दूध 25% रह जाता है। फिर 2 लीटर दूध मिलाने पर दूध 40% हो जाता है। प्रारंभिक मिश्रण में दूध का प्रतिशत ज्ञात कीजिए।",
     "solution": "Let milk = M and total mixture = T. After adding 1 L water: M/(T+1)=1/4 ⇒ T=4M−1. After adding 2 L milk: (M+2)/(T+3)=2/5. Substituting T=4M−1 gives M=1 and T=3. Hence milk percentage initially = 1/3 ×100 = 33.33%.",
     "solutionHi": "M और T क्रमशः दूध व कुल मिश्रण मानें। M/(T+1)=1/4 तथा (M+2)/(T+3)=2/5। हल करने पर M=1 और T=3। अतः प्रारंभिक दूध प्रतिशत = 33.33%।"
@@ -613,7 +613,7 @@
       "51",
       "49.5"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "41",
     "questionHi": "एक बर्तन में अम्ल और पानी का अनुपात 13:4 है। 15.5 लीटर मिश्रण निकालकर 1.5 लीटर पानी और 3 लीटर अम्ल मिलाया जाता है। अंतिम मिश्रण में पानी 25% है। प्रारंभिक मिश्रण की मात्रा ज्ञात कीजिए।",
     "solution": "Let total mixture = V. Initial water = 4V/17. Water removed = (4/17)×15.5. Final water = 4V/17 − 62/17 + 1.5. Given final water = V/4. Solving gives V = 34 litres.",
     "solutionHi": "कुल मिश्रण V लीटर मानें। प्रारंभिक पानी = 4V/17। निकाले गए पानी और जोड़े गए पानी को समायोजित कर अंतिम पानी = V/4 रखें। हल करने पर V = 34 लीटर।"
@@ -651,11 +651,11 @@
     "question": "A vessel contains milk and water in the ratio 5:3. Some mixture is removed and replaced by water. After the operation, the ratio becomes 5:7. Find the fraction of mixture removed.",
     "options": [
       "1/2",
-      "3/5",
+      "1/3",
       "2/5",
       "4/5"
     ],
-    "correctAnswer": "3/5",
+    "correctAnswer": "1/3",
     "questionHi": "एक बर्तन में दूध और पानी का अनुपात 5:3 है। कुछ मिश्रण निकालकर उतना ही पानी मिला दिया जाता है। बाद में अनुपात 5:7 हो जाता है। निकाले गए मिश्रण का अंश ज्ञात कीजिए।",
     "solution": "Let removed fraction = x. Milk fraction after replacement = (5/8)(1−x). Final milk fraction from ratio 5:7 = 5/12. Hence (5/8)(1−x)=5/12 ⇒ 1−x=2/3 ⇒ x=1/3. (Check with sheet answer if different.)",
     "solutionHi": "निकाला गया अंश x मानें। प्रतिस्थापन के बाद दूध का अंश (5/8)(1−x) होगा। अंतिम दूध अंश 5/12 है। हल करने पर x=1/3 प्राप्त होता है।"

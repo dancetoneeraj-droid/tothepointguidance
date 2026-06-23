@@ -359,7 +359,7 @@
       "8 4/5 days",
       "15 2/3 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "8 4/5 days",
     "questionHi": "A, B और C क्रमशः 24, 20 और 18 दिनों में एक कार्य पूरा कर सकते हैं। B और C कार्य शुरू करते हैं और 6 दिनों तक काम करके चले जाते हैं। शेष कार्य को A अकेले कितने दिनों में पूरा करेगा?",
     "solution": "**Step 1: Find the work rates**\n- A's rate = 1/24 per day\n- B's rate = 1/20 per day\n- C's rate = 1/18 per day\n\n**Step 2: Calculate work done by B and C in 6 days**\n- Combined rate of B and C = 1/20 + 1/18\n- LCM(20, 18) = 180\n- = 9/180 + 10/180 = 19/180 per day\n- Work done in 6 days = 6 × 19/180 = 114/180 = 19/30\n\n**Step 3: Find remaining work**\n- Remaining work = 1 - 19/30 = 11/30\n\n**Step 4: Calculate days needed by A alone**\n- Days = Remaining work ÷ A's rate\n- Days = (11/30) ÷ (1/24)\n- Days = (11/30) × 24 = 264/30 = 44/5\n- Days = 8 4/5 days\n\n**Answer: 8 4/5 days**"
   },
@@ -372,7 +372,7 @@
       "16",
       "17"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "15",
     "questionHi": "A एक कार्य को 16 दिनों में, B 36 दिनों में और C 48 दिनों में पूरा कर सकता है। तीनों साथ काम शुरू करते हैं। 4 दिनों बाद A और उसके 5 दिन बाद B कार्य छोड़ देते हैं। शेष कार्य को C कितने दिनों में पूरा करेगा?",
     "solution": "**Step 1: Find work rates (work per day)**\n- A's rate = 1/16 per day\n- B's rate = 1/36 per day\n- C's rate = 1/48 per day\n\n**Step 2: Calculate work done in first 4 days (A, B, C together)**\n- Combined rate = 1/16 + 1/36 + 1/48\n- LCM(16, 36, 48) = 144\n- Combined rate = 9/144 + 4/144 + 3/144 = 16/144 = 1/9\n- Work done in 4 days = 4 × 1/9 = 4/9\n\n**Step 3: Calculate work done in next 5 days (B and C only, A left)**\n- Combined rate of B and C = 1/36 + 1/48\n- = 4/144 + 3/144 = 7/144\n- Work done in 5 days = 5 × 7/144 = 35/144\n\n**Step 4: Find remaining work**\n- Total work done = 4/9 + 35/144\n- = 64/144 + 35/144 = 99/144 = 11/16\n- Remaining work = 1 - 11/16 = 5/16\n\n**Step 5: Find days for C to complete remaining work**\n- Days = (Remaining work"
   },
@@ -385,7 +385,7 @@
       "12",
       "15"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "15",
     "questionHi": "A 32 दिनों में, B 36 दिनों में और C 46 दिनों में कार्य पूरा कर सकता है। तीनों साथ काम शुरू करते हैं। 8 दिनों बाद A और उसके एक दिन बाद B कार्य छोड़ देता है। शेष कार्य को C कितने दिनों में पूरा करेगा?",
     "solution": "**Step 1: Find work rates (work per day)**\n- A's rate = 1/32\n- B's rate = 1/36\n- C's rate = 1/46\n\n**Step 2: Calculate work done in first 8 days (A, B, C work together)**\nWork done = 8(1/32 + 1/36 + 1/46)\n\nFinding LCM(32, 36, 46) = 4,144\n= 8(129 + 115.11 + 90)/4,144 ≈ 8(0.0779) ≈ 0.623\n\nBetter approach: = 8/32 + 8/36 + 8/46 = 1/4 + 2/9 + 4/23\n\n**Step 3: Calculate work done on day 9 (B and C work, A leaves)**\nWork done = 1/36 + 1/46\n\n**Step 4: Calculate remaining work**\nTotal work = 1\n- Work by A, B, C for 8 days = 1/4 + 2/9 + 4/23\n- Work by B, C on day 9 = 1/36 + 1/46\n- Remaining work = 1 - (work done in first 9 days)\n\nUsing decimals: After 8 days ≈ 0.623; After day 9 ≈ 0.623 +"
   },
@@ -411,7 +411,7 @@
       "33 hours 20 minutes",
       "32 hours 20 minutes"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "32 hours",
     "questionHi": "एक कंप्यूटर गेम में एक निर्माता 20 घंटे में दीवार बना सकता है जबकि एक विध्वंसक उसे 50 घंटे में तोड़ सकता है। दोनों साथ काम शुरू करते हैं। 30 घंटे बाद विध्वंसक को हटा दिया जाता है। दीवार बनने में कुल कितना समय लगेगा?",
     "solution": "**Step 1: Find work rates**\n- Builder's rate = 1/20 wall per hour\n- Destroyer's rate = -1/50 wall per hour (negative because demolishing)\n\n**Step 2: Calculate net work done in first 30 hours (both working)**\n- Combined rate = 1/20 - 1/50 = (5-2)/100 = 3/100 wall per hour\n- Work completed in 30 hours = 30 × 3/100 = 90/100 = 9/10 wall\n\n**Step 3: Calculate remaining work**\n- Remaining work = 1 - 9/10 = 1/10 wall\n\n**Step 4: Find time for builder alone to complete remaining work**\n- Time = (1/10)/(1/20) = (1/10) × 20 = 2 hours\n\n**Step 5: Calculate total time**\n- Total time = 30 + 2 = **32 hours**\n\n**Answer: 32 hours**"
   },
@@ -437,7 +437,7 @@
       "5",
       "6"
     ],
-    "correctAnswer": "3",
+    "correctAnswer": "4",
     "questionHi": "X किसी कार्य का 1/3 भाग 6 दिनों में, Y 1/3 भाग 8 दिनों में तथा Z 3/4 भाग 12 दिनों में पूरा कर सकता है। वे n दिनों तक साथ काम करते हैं। फिर X और Z कार्य छोड़ देते हैं तथा Y शेष कार्य को 8 2/3 दिनों में पूरा करता है। n ज्ञात कीजिए।",
     "solution": "# Solution\n\n**Step 1: Find individual work rates (work per day)**\n\n- X completes 1/3 work in 6 days → X completes full work in 18 days → Rate = 1/18 per day\n- Y completes 1/3 work in 8 days → Y completes full work in 24 days → Rate = 1/24 per day\n- Z completes 3/4 work in 12 days → Z completes full work in 16 days → Rate = 1/16 per day\n\n**Step 2: Calculate combined rate for n days**\n\nCombined rate of (X + Y + Z) = 1/18 + 1/24 + 1/16\n\nFinding LCM(18, 24, 16) = 144\n\n= 8/144 + 6/144 + 9/144 = 23/144 per day\n\nWork done in n days = 23n/144\n\n**Step 3: Calculate work done by Y alone**\n\nY completes remaining work in 8⅔ = 26/3 days\n\nWork done by Y = (1/24) × (26/3) = 26/72 = 13/36\n\n**Step 4: Set up equation**\n\nTotal work = 1\n\n23n/144 + 13/36 = 1\n\n23n/144 = 1 - 13/36 = 23/36\n\n23n/144 = 23/36"
   },
@@ -450,7 +450,7 @@
       "1/20",
       "1/36"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "1/24",
     "questionHi": "A, B और C क्रमशः 40, 60 और 80 दिनों में कार्य कर सकते हैं। तीनों 10 दिन साथ काम करते हैं। फिर A चला जाता है। B और C 4 दिन काम करते हैं। फिर B चला जाता है और A वापस आ जाता है। A और C 8 दिन काम करते हैं। कार्य का कितना भाग शेष बचता है?",
     "solution": "**Step 1: Find work rates per day**\n- A's rate = 1/40 per day\n- B's rate = 1/60 per day\n- C's rate = 1/80 per day\n\n**Step 2: Calculate work done in first 10 days (A, B, C together)**\nWork = 10(1/40 + 1/60 + 1/80)\n\nFinding LCM of 40, 60, 80 = 240\n= 10(6/240 + 4/240 + 3/240) = 10(13/240) = 130/240 = 13/24\n\n**Step 3: Calculate work done in next 4 days (B and C only)**\nWork = 4(1/60 + 1/80)\n\nLCM of 60, 80 = 240\n= 4(4/240 + 3/240) = 4(7/240) = 28/240 = 7/60\n\n**Step 4: Calculate work done in last 8 days (A and C only)**\nWork = 8(1/40 + 1/80)\n\nLCM of 40, 80 = 80\n= 8(2/80 + 1/80) = 8(3/80) = 24/80 = 3/10\n\n**Step 5: Find remaining work**\nTotal work done = 13/24 + 7/60 +"
   },
@@ -489,7 +489,7 @@
       "240 days",
       "270 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "240 days",
     "questionHi": "A किसी कार्य को 120 दिनों में और B 150 दिनों में पूरा कर सकता है। दोनों 20 दिन साथ काम करते हैं। फिर B चला जाता है और A अकेले काम करता है। 12 दिन बाद C जुड़ जाता है और कार्य 48 दिन बाद पूरा हो जाता है। C अकेले कार्य को कितने दिनों में पूरा करेगा?",
     "solution": "**Step 1: Find work done by A and B together in 20 days**\n\n- A's work rate = 1/120 per day\n- B's work rate = 1/150 per day\n- (A + B)'s rate = 1/120 + 1/150 = 5/600 + 4/600 = 9/600 = 3/200 per day\n- Work done in 20 days = 20 × 3/200 = 3/10\n\n**Step 2: Find work done by A alone in next 12 days**\n\n- Work done = 12 × 1/120 = 12/120 = 1/10\n- Total work completed so far = 3/10 + 1/10 = 4/10\n- Remaining work = 1 - 4/10 = 6/10\n\n**Step 3: Set up equation for A and C working together for 48 days**\n\n- A and C complete remaining 6/10 work in 48 days\n- (A + C)'s combined rate × 48 = 6/10\n- (1/120 + 1/C) × 48 = 6/10\n\n**Step 4: Solve for C**\n\n- 48/120 + 48/C = 6/10\n- 2/5 + 48/C = 6/10\n- 48/C = 6/10 - 2/5 ="
   },
@@ -502,7 +502,7 @@
       "12",
       "11.6"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "11.6",
     "questionHi": "किशोर 15 दिनों में, नरेश 20 दिनों में और सुरेश 30 दिनों में कार्य पूरा कर सकता है। किशोर और सुरेश 2 दिन साथ काम करते हैं, फिर किशोर की जगह नरेश आ जाता है। कार्य कुल कितने दिनों में पूरा होगा?",
     "solution": "**Step 1: Find individual work rates (work per day)**\n- Kishore's rate = 1/15 per day\n- Naresh's rate = 1/20 per day\n- Suresh's rate = 1/30 per day\n\n**Step 2: Calculate work done by Kishore and Suresh in first 2 days**\n- Combined rate = 1/15 + 1/30 = 2/30 + 1/30 = 3/30 = 1/10\n- Work completed in 2 days = 2 × (1/10) = 2/10 = 1/5\n- Remaining work = 1 - 1/5 = 4/5\n\n**Step 3: Find combined rate of Naresh and Suresh**\n- Combined rate = 1/20 + 1/30 = 3/60 + 2/60 = 5/60 = 1/12 per day\n\n**Step 4: Calculate days needed to complete remaining work**\n- Days needed = (4/5) ÷ (1/12) = (4/5) × 12 = 48/5 = 9.6 days\n\n**Step 5: Find total time**\n- Total days = 2 + 9.6 = **11.6 days**\n\n**Answer: 11.6**"
   },
@@ -515,7 +515,7 @@
       "12 days",
       "5 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "9 days",
     "questionHi": "A और B क्रमशः 45 और 40 दिनों में कार्य पूरा कर सकते हैं। दोनों साथ काम शुरू करते हैं, लेकिन कुछ दिनों बाद A कार्य छोड़ देता है और B शेष कार्य को 23 दिनों में पूरा करता है। A ने कितने दिनों बाद कार्य छोड़ा?",
     "solution": "**Step 1: Find work rates**\n- A's rate = 1/45 work per day\n- B's rate = 1/40 work per day\n\n**Step 2: Set up equation**\nLet A work for x days.\n- Work done by A in x days = x/45\n- Work done by B in x days = x/40\n- Work done by B alone in 23 days = 23/40\n\nTotal work = 1\n$$\\frac{x}{45} + \\frac{x}{40} + \\frac{23}{40} = 1$$\n\n**Step 3: Solve for x**\n$$\\frac{x}{45} + \\frac{x}{40} = 1 - \\frac{23}{40} = \\frac{17}{40}$$\n\n$$\\frac{8x + 9x}{360} = \\frac{17}{40}$$\n\n$$\\frac{17x}{360} = \\frac{17}{40}$$\n\n$$x = \\frac{360}{40} = 9$$\n\n**Answer: 9 days**"
   },
@@ -528,7 +528,7 @@
       "5 days",
       "6 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "7 days",
     "questionHi": "A और B क्रमशः 35 और 45 दिनों में कार्य पूरा कर सकते हैं। दोनों साथ काम शुरू करते हैं। कुछ दिनों बाद A कार्य छोड़ देता है और B शेष कार्य को 29 दिनों में पूरा करता है। A और B ने साथ मिलकर कितने दिनों तक कार्य किया?",
     "solution": "**Step 1: Find work rates**\n- A's rate = 1/35 work per day\n- B's rate = 1/45 work per day\n- Combined rate = 1/35 + 1/45 = (9+7)/315 = 16/315 work per day\n\n**Step 2: Set up equation**\nLet x = days A and B work together\n\nWork done by A and B together = 16x/315\nWork done by B alone in 29 days = 29/45\n\nTotal work = 1\nTherefore: 16x/315 + 29/45 = 1\n\n**Step 3: Solve for x**\n16x/315 + 29/45 = 1\n\nConvert 29/45 to denominator 315:\n29/45 = (29×7)/315 = 203/315\n\n16x/315 + 203/315 = 1\n\n16x + 203 = 315\n\n16x = 112\n\nx = 7\n\n**Answer: 7 days**"
   },
@@ -541,7 +541,7 @@
       "5",
       "3"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "7",
     "questionHi": "A और B मिलकर किसी कार्य को 12 दिनों में पूरा कर सकते हैं। A कार्य पूरा होने से कुछ दिन पहले कार्य छोड़ देता है और इसलिए कार्य को पूरा होने में कुल 16 दिन लगते हैं। यदि A अकेले कार्य को 21 दिनों में पूरा कर सकता है, तो A कार्य समाप्त होने से कितने दिन पहले चला गया था?",
     "solution": "**Step 1: Find work rates**\n- A's rate = 1/21 per day\n- A and B's combined rate = 1/12 per day\n- B's rate = 1/12 - 1/21 = (7-4)/84 = 3/84 = 1/28 per day\n\n**Step 2: Set up equation**\nLet A work for (16 - x) days, where x = days before completion that A left.\n- Then B works alone for x days.\n\nWork done by A: (16 - x) × 1/21\nWork done by B: 16 × 1/28\n\n**Step 3: Total work equals 1**\n(16 - x)/21 + 16/28 = 1\n\n**Step 4: Solve for x**\n(16 - x)/21 + 4/7 = 1\n\n(16 - x)/21 = 1 - 4/7 = 3/7\n\n16 - x = (3/7) × 21 = 9\n\nx = 7\n\n**Answer: 7 days**"
   },
@@ -554,7 +554,7 @@
       "13 days",
       "14 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "11 days",
     "questionHi": "A किसी कार्य को 18 दिनों में और B उसी कार्य को 24 दिनों में पूरा कर सकता है। A ने कार्य अकेले शुरू किया। कार्य को 15 दिनों में समाप्त करने के लिए B को कितने दिनों बाद उससे जुड़ना चाहिए?",
     "solution": "**Step 1: Find work rates**\n- A's rate = 1/18 work per day\n- B's rate = 1/24 work per day\n\n**Step 2: Set up the equation**\nLet B join after x days.\n- A works alone for x days, then both work together for (15 - x) days\n- Work equation: x(1/18) + (15 - x)(1/18 + 1/24) = 1\n\n**Step 3: Simplify**\n- Combined rate = 1/18 + 1/24 = (4 + 3)/72 = 7/72\n- x/18 + (15 - x)(7/72) = 1\n- x/18 + 105/72 - 7x/72 = 1\n\n**Step 4: Solve for x**\n- 4x/72 + 105/72 - 7x/72 = 1\n- -3x/72 + 105/72 = 1\n- -3x + 105 = 72\n- 3x = 33\n- x = 11\n\n**Answer: 11 days**"
   },
@@ -567,7 +567,7 @@
       "102",
       "90"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "108",
     "questionHi": "A और B मिलकर एक कार्य को 45 दिनों में पूरा कर सकते हैं। उन्होंने 35 दिनों तक साथ काम किया और फिर A ने कार्य छोड़ दिया। शेष कार्य B ने अकेले 24 दिनों में पूरा किया। B अकेले पूरे कार्य को कितने दिनों में पूरा कर सकता है?",
     "solution": "**Step 1: Set up the work equation**\n- Let A's work rate = 1/a (work per day)\n- Let B's work rate = 1/b (work per day)\n- Given: A and B together finish in 45 days\n- So: 1/a + 1/b = 1/45\n\n**Step 2: Calculate work done in first 35 days**\n- A and B work together for 35 days\n- Work completed = 35 × (1/45) = 35/45 = 7/9\n- Remaining work = 1 - 7/9 = 2/9\n\n**Step 3: Use remaining work done by B alone**\n- B completes 2/9 work in 24 days\n- B's rate: (2/9) ÷ 24 = 2/(9×24) = 2/216 = 1/108\n- Therefore: 1/b = 1/108, so b = 108\n\n**Step 4: Verify the answer**\n- B alone can finish in 108 days ✓\n- Work by B in 35 days = 35/108\n- Work by A in 35 days = 35/45 - 35/108 = 7/9 - 35/108 = 84/108 - 35/108 = 49/108 ✓\n- Remaining work by B in 24 days = 24/108 ="
   },
@@ -580,7 +580,7 @@
       "24 12/17 days",
       "25 2/5 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "24 12/17 days",
     "questionHi": "राम एक कार्य को 60 दिनों में पूरा कर सकता है। वह 10 दिनों तक काम करता है और फिर राज अकेले शेष कार्य को 35 दिनों में पूरा करता है। यदि राम और राज साथ काम करें तो कार्य कितने समय में पूरा होगा?",
     "solution": "**Step 1:** Find Ram's work rate.\n- Ram completes work in 60 days\n- Ram's rate = 1/60 per day\n\n**Step 2:** Calculate work completed by Ram in 10 days.\n- Work done by Ram = 10 × (1/60) = 10/60 = 1/6\n- Remaining work = 1 - 1/6 = 5/6\n\n**Step 3:** Find Raj's work rate.\n- Raj completes remaining 5/6 work in 35 days\n- Raj's rate = (5/6)/35 = 5/(6×35) = 5/210 = 1/42 per day\n\n**Step 4:** Find combined work rate.\n- Combined rate = 1/60 + 1/42\n- LCM(60, 42) = 420\n- Combined rate = 7/420 + 10/420 = 17/420 per day\n\n**Step 5:** Calculate time to complete work together.\n- Time = 1 ÷ (17/420) = 420/17 = 24 12/17 days\n\n**Answer: 24 12/17 days**"
   },
@@ -593,7 +593,7 @@
       "25 1/5 days",
       "27 3/5 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "28 4/5 days",
     "questionHi": "A किसी कार्य को 72 दिनों में कर सकता है। वह 9 दिनों तक कार्य करता है और फिर B अकेले शेष कार्य को 42 दिनों में पूरा करता है। A और B मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
     "solution": "**Step 1:** Find A's work rate\n- A completes work in 72 days\n- A's rate = 1/72 work per day\n\n**Step 2:** Calculate work done by A in 9 days\n- Work done = 9 × (1/72) = 9/72 = 1/8\n- Remaining work = 1 - 1/8 = 7/8\n\n**Step 3:** Find B's work rate\n- B completes remaining 7/8 work in 42 days\n- B's rate = (7/8)/42 = 7/(8×42) = 7/336 = 1/48 work per day\n\n**Step 4:** Find combined rate of A and B\n- Combined rate = 1/72 + 1/48\n- LCM(72, 48) = 144\n- Combined rate = 2/144 + 3/144 = 5/144 work per day\n\n**Step 5:** Calculate time for A and B together to complete work\n- Time = 1 ÷ (5/144) = 144/5 = 28 4/5 days\n\n**Answer: 28 4/5 days**"
   },
@@ -606,7 +606,7 @@
       "12 days",
       "8 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "12 days",
     "questionHi": "P किसी कार्य का एक-चौथाई भाग 18 दिनों में कर सकती है। उसने उस कार्य का 37.5% भाग पूरा किया और छोड़ दिया। Q ने शेष कार्य को 40 दिनों में पूरा किया। दोनों मिलकर उसी कार्य के 17/48 भाग को कितने दिनों में पूरा करेंगे?",
     "solution": "**Step 1: Find P's total work capacity**\n- P completes 1/4 of work in 18 days\n- P completes full work in 18 × 4 = 72 days\n- P's work rate = 1/72 per day\n\n**Step 2: Find Q's work capacity**\n- P completed 37.5% = 3/8 of work\n- Remaining work = 1 - 3/8 = 5/8\n- Q completes 5/8 work in 40 days\n- Q completes full work in 40 × 8/5 = 64 days\n- Q's work rate = 1/64 per day\n\n**Step 3: Find combined work rate**\n- (P + Q)'s combined rate = 1/72 + 1/64\n- LCM(72, 64) = 576\n- = 8/576 + 9/576 = 17/576 per day\n\n**Step 4: Calculate time for 17/48 work**\n- Time = Work ÷ Rate\n- Time = (17/48) ÷ (17/576)\n- Time = (17/48) × (576/17)\n- Time = 576/48 = **12 days**\n\n**Correct Answer: 12 days**"
   },
@@ -616,10 +616,10 @@
     "options": [
       "30 days",
       "45 days",
-      "45 days",
+      "48 days",
       "50 days"
     ],
-    "correctAnswer": "",
+    "correctAnswer": "45 days",
     "questionHi": "12 दिनों तक अकेले काम करने के बाद रीना को पता चला कि केवल 10% कार्य पूरा हुआ है। वह प्रिया को काम पर रखती है जो रीना से 40% अधिक कुशल है। शेष कार्य को दोनों मिलकर कितने दिनों में पूरा करेंगी?",
     "solution": "**Step 1: Find Reena's work rate**\n- Reena completes 10% work in 12 days\n- Reena's rate = 10/12 = 5/6 % per day\n- Time for Reena to complete 100% work = 120 days\n\n**Step 2: Find Priya's work rate**\n- Priya is 40% more efficient than Reena\n- Priya's rate = 5/6 × 1.40 = 7/6 % per day\n- Time for Priya to complete 100% work = 600/7 days\n\n**Step 3: Find combined work rate**\n- Combined rate = 5/6 + 7/6 = 12/6 = 2% per day\n\n**Step 4: Calculate days needed for remaining work**\n- Remaining work = 100% - 10% = 90%\n- Days required = 90/2 = **45 days**\n\n**Answer: 45 days**"
   },
