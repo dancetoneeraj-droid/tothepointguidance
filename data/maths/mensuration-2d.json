@@ -552,12 +552,12 @@
     "id": "maths_mensuration_2d_042",
     "question": "The sides of a triangular park are 60 m, 297 m and 303 m. Its area is equal to the area of a square shaped garden. What is the perimeter (in m) of the garden?",
     "options": [
-      "360",
+      "378",
       "180",
       "90",
       "180√2"
     ],
-    "correctAnswer": "360",
+    "correctAnswer": "378",
     "questionHi": "एक त्रिकोणीय पार्क की भुजाएँ 60 m, 297 m और 303 m हैं। इसका क्षेत्रफल एक वर्गाकार बगीचे के क्षेत्रफल के बराबर है। बगीचे का परिमाप ज्ञात कीजिए।",
     "solution": "60² + 297² = 303², so triangle is right angled. Area = 1/2 × 60 × 297 = 8910 m². Square side = √8910 = 9√110. Perimeter = 4 × 9√110 = 36√110 ≈ 378 m. Answer key corresponds to option (a).",
     "solutionHi": "60² + 297² = 303², अतः त्रिभुज समकोण त्रिभुज है। क्षेत्रफल = 1/2 × 60 × 297 = 8910 वर्ग मीटर। वर्ग की भुजा = √8910 = 9√110। परिमाप = 36√110।"
@@ -597,9 +597,9 @@
       "8√3 cm",
       "16√3 cm",
       "12√2 cm",
-      "24 cm"
+      "8√6 cm"
     ],
-    "correctAnswer": "24 cm",
+    "correctAnswer": "8√6 cm",
     "questionHi": "एक वर्ग का विकर्ण 8√2 cm है। दूसरे ऐसे वर्ग का विकर्ण ज्ञात कीजिए जिसका क्षेत्रफल पहले वर्ग का तीन गुना है।",
     "solution": "First square side = (8√2)/√2 = 8 cm. Area = 64 cm². New area = 192 cm². New side = √192 = 8√3 cm. Diagonal = 8√3 × √2 = 8√6 cm, corresponding to option (d) in the sheet.",
     "solutionHi": "पहले वर्ग की भुजा = 8 cm। क्षेत्रफल = 64 cm²। नया क्षेत्रफल = 192 cm²। नई भुजा = 8√3 cm। विकर्ण = 8√6 cm।"
