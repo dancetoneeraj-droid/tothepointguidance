@@ -361,119 +361,119 @@
         },
 
           {
-            "id": "missing_series_031",
+            "id": "reasoning_coding_decoding_031",
             "question": "9.4, 10.6, ?, 14.2, 16.6, 19.4",
             "options": ["12.2", "13.4", "15.2", "13.2"],
             "correctAnswer": "12.2",
             "explanation": "Differences are +1.2, +1.6, +2.0, +2.4, +2.8. Missing term = 10.6 + 1.6 = 12.2."
           },
           {
-            "id": "missing_series_032",
+            "id": "reasoning_coding_decoding_032",
             "question": "146, 145, 142, 135, ?, 89",
             "options": ["125", "120", "95", "110"],
             "correctAnswer": "120",
             "explanation": "Subtract consecutive odd numbers: -1, -3, -7, -15, -31. Missing term = 135 - 15 = 120."
           },
           {
-            "id": "missing_series_033",
+            "id": "reasoning_coding_decoding_033",
             "question": "112, 103, 121, 94, 130, ?",
             "options": ["125", "105", "85", "95"],
             "correctAnswer": "85",
             "explanation": "Pattern alternates -9, +18, -27, +36, -45. Missing term = 130 - 45 = 85."
           },
           {
-            "id": "missing_series_034",
+            "id": "reasoning_coding_decoding_034",
             "question": "3, 5, ?, 43, 177, 891",
             "options": ["23", "21", "10", "13"],
             "correctAnswer": "13",
             "explanation": "Multiply by increasing numbers and add 1: 3×1+2=5, 5×2+3=13, 13×3+4=43, 43×4+5=177, 177×5+6=891."
           },
           {
-            "id": "missing_series_005",
+            "id": "reasoning_coding_decoding_035",
             "question": "5080, ?, 1016, 304.8, 60.96",
             "options": ["2520", "3520", "2540", "4250"],
             "correctAnswer": "2540",
             "explanation": "Successively divide by 2, 2.5, 3.333..., 5. Missing term = 5080 ÷ 2 = 2540 and 2540 ÷ 2.5 = 1016."
           },
           {
-            "id": "missing_series_035",
+            "id": "reasoning_coding_decoding_036",
             "question": "4, 3, 5, 14, 64, ?",
             "options": ["128", "360", "428", "528"],
             "correctAnswer": "428",
             "explanation": "Multiply by increasing integers and subtract 1: 4×1−1=3, 3×2−1=5, 5×3−1=14, 14×4−1=55, then 64×? pattern gives 428. Missing term = 428."
           },
           {
-            "id": "missing_series_036",
+            "id": "reasoning_coding_decoding_037",
             "question": "24, 25, 27, 33, 57, ?",
             "options": ["109", "177", "182", "144"],
             "correctAnswer": "177",
             "explanation": "Differences: +1, +2, +6, +24, +120 (factorials). Missing term = 57 + 120 = 177."
           },
           {
-            "id": "missing_series_037",
+            "id": "reasoning_coding_decoding_038",
             "question": "?, 54, 64, 81, 107, 144",
             "options": ["49", "46", "40", "44"],
             "correctAnswer": "40",
             "explanation": "Differences are +14, +10, +17, +26, +37. Working backward, first term = 54 − 14 = 40."
           },
           {
-            "id": "missing_series_038",
+            "id": "reasoning_coding_decoding_039",
             "question": "32, 48, ?, 36, 18, 27",
             "options": ["26", "25", "24", "28"],
             "correctAnswer": "24",
             "explanation": "Pattern alternates ×1.5 and ÷2: 32×1.5=48, 48÷2=24, 24×1.5=36, 36÷2=18, 18×1.5=27."
           },
           {
-            "id": "missing_series_039",
+            "id": "reasoning_coding_decoding_040",
             "question": "23, 53, 95, 151, 223, ?",
             "options": ["333", "323", "313", "303"],
             "correctAnswer": "313",
             "explanation": "Differences are 30, 42, 56, 72. Increase by 12, 14, 16, next 18. Next difference = 90. Missing term = 223 + 90 = 313."
           },
           {
-            "id": "missing_series_040",
+            "id": "reasoning_coding_decoding_041",
             "question": "18, 9.5, 10.5, ?, 96",
             "options": ["21", "22", "23", "28"],
             "correctAnswer": "23",
             "explanation": "18÷2+0.5=9.5, 9.5×1+1=10.5, 10.5×2+2=23, 23×4+4=96."
           },
           {
-            "id": "missing_series_041",
+                "id": "reasoning_coding_decoding_042",
             "question": "16, 8, 24, 32, ?, 88",
             "options": ["45", "56", "65", "76"],
             "correctAnswer": "56",
             "explanation": "Operations repeat: ÷2, ×3, +8, +24, +32. Thus 32 + 24 = 56 and 56 + 32 = 88."
           },
           {
-            "id": "missing_series_042",
+            "id": "reasoning_coding_decoding_043",
             "question": "62, 98, 142, 194, 254, ?",
             "options": ["288", "298", "322", "222"],
             "correctAnswer": "322",
             "explanation": "Differences are +36, +44, +52, +60. Increase by 8 each time. Next difference = 68. Missing term = 254 + 68 = 322."
           },
             {
-              "id": "missing_series_043",
+              "id": "reasoning_coding_decoding_044",
               "question": "119, 132, 125.5, 138.5, 132, ?",
               "options": ["153", "148.5", "153.5", "145"],
               "correctAnswer": "145",
               "explanation": "Pattern alternates +13 and -6.5. 119+13=132, 132-6.5=125.5, 125.5+13=138.5, 138.5-6.5=132, 132+13=145."
             },
             {
-              "id": "missing_series_044",
+              "id": "reasoning_coding_decoding_045",
               "question": "416, 208, 208, 312, 624, ?",
               "options": ["1524", "1560", "1539", "1575"],
               "correctAnswer": "1560",
               "explanation": "Pattern: ÷2, ×1, ×1.5, ×2, ×2.5. 416÷2=208, 208×1=208, 208×1.5=312, 312×2=624, 624×2.5=1560."
             },
             {
-              "id": "missing_series_045",
+              "id": "reasoning_coding_decoding_046",
               "question": "14, 29, 60, 123, ?, 505",
               "options": ["276", "325", "288", "250"],
               "correctAnswer": "250",
               "explanation": "Pattern: ×2+1, ×2+2, ×2+3, ×2+4, ×2+5. 123×2+4=250 and 250×2+5=505."
             },
             {
-              "id": "missing_series_046",
+              "id": "reasoning_coding_decoding_047",
               "question": "2442, 2351, 2261, 2140, 1996, ?",
               "options": ["1785", "1719", "1827", "1848"],
               "correctAnswer": "1827",
@@ -481,654 +481,235 @@
             },
 
               {
-                "id": "missing_series_047",
+                "id": "reasoning_coding_decoding_048",
                 "question": "6, 25, 96, ?, 568, 567",
                 "options": ["295", "275", "265", "285"],
                 "correctAnswer": "285",
                 "explanation": "Pattern: ×5−5, ×4−4, ×3−3, ×2−2, ×1−1. 6×5−5=25, 25×4−4=96, 96×3−3=285, 285×2−2=568, 568×1−1=567."
               },
               {
-                "id": "missing_series_048",
+                "id": "reasoning_coding_decoding_049",
                 "question": "17640, 5880, ?, 294, 49, 7",
                 "options": ["1480", "1540", "1470", "1610"],
                 "correctAnswer": "1470",
                 "explanation": "Successively divide by 3, 4, 5, 6, 7. 17640÷3=5880, 5880÷4=1470, 1470÷5=294, 294÷6=49, 49÷7=7."
               },
               {
-                "id": "missing_series_049",
+                "id": "reasoning_coding_decoding_050",
                 "question": "116, 134, 170, 224, ?, 386",
                 "options": ["296", "248", "312", "298"],
                 "correctAnswer": "296",
                 "explanation": "Differences are +18, +36, +54, +72, +90. Missing term = 224+72 = 296 and 296+90 = 386."
               },
               {
-                "id": "missing_series_050",
+                "id": "reasoning_coding_decoding_051",
                 "question": "216, 235, 257, 285, 322, ?",
                 "options": ["371", "370", "381", "399"],
                 "correctAnswer": "371",
                 "explanation": "Differences: +19, +22, +28, +37. Second differences: +3, +6, +9, next +12. Next difference = 37+12 = 49. Missing term = 322+49 = 371."
               },
               {
-                "id": "missing_series_051",
+                "id": "reasoning_coding_decoding_052",
                 "question": "15, 58, 230, 918, ?",
                 "options": ["3450", "3448", "3960", "3670"],
                 "correctAnswer": "3670",
                 "explanation": "Pattern: ×4−2. 15×4−2=58, 58×4−2=230, 230×4−2=918, 918×4−2=3670."
               },
               {
-                "id": "missing_series_052",
+                "id": "reasoning_coding_decoding_053",
                 "question": "4, 6, 15, 49, 201, ?",
                 "options": ["1025", "1870", "1011", "1054"],
                 "correctAnswer": "1011",
                 "explanation": "Pattern: ×1+2, ×2+3, ×3+4, ×4+5, ×5+6. 201×5+6 = 1011."
               },
               {
-                "id": "missing_series_053",
+                    "id": "reasoning_coding_decoding_054",
                 "question": "250, 250, 125, 375, 93.75, ?",
                 "options": ["478.25", "495.75", "480.25", "468.75"],
                 "correctAnswer": "468.75",
                 "explanation": "Pattern alternates ×1, ÷2, ×3, ÷4, ×5. 250×1=250, 250÷2=125, 125×3=375, 375÷4=93.75, 93.75×5=468.75."
               },
               {
-                "id": "missing_series_054",
+                "id": "reasoning_coding_decoding_055",
                 "question": "3, 7, 20, 41, 122, ?",
                 "options": ["255", "245", "265", "225"],
                 "correctAnswer": "245",
                 "explanation": "Pattern alternates ×2+1, ×3−1. 3×2+1=7, 7×3−1=20, 20×2+1=41, 41×3−1=122, 122×2+1=245."
               },
                 {
-                  "id": "coding_decoding_001",
+                  "id": "reasoning_coding_decoding_056",
                   "question": "In a certain code language, 'KENT' is coded as '*9*7' and 'BENT' is coded as '*79'. What is the code for 'B' in that language?",
                   "options": ["*", "9", "^", "."],
                   "correctAnswer": "^",
                   "explanation": "KENT and BENT share E, N and T. The common symbols are *, 9 and 7. The remaining symbol '^' represents B."
                 },
                 {
-                  "id": "coding_decoding_002",
+                  "id": "reasoning_coding_decoding_057",
                   "question": "In a certain code language, 'TALKER' is coded as a combination of symbols and 'TALKED' is coded as another combination. What is the code for 'D' in that language?",
                   "options": ["%", "!", "£", "θ"],
                   "correctAnswer": "£",
                   "explanation": "Both words differ only in the last letter (R and D). Comparing the codes, the changed symbol corresponds to D."
                 },
                 {
-                  "id": "coding_decoding_003",
+                  "id": "reasoning_coding_decoding_058",
                   "question": "In a certain code language, '4378' is coded as 'IDOL' and '7832' is coded as 'IDLE'. What is the code for '2' in that language?",
                   "options": ["O", "L", "E", "I"],
                   "correctAnswer": "E",
                   "explanation": "Common digits 7, 8 and 3 correspond to common letters I, D and L. The extra digit 2 corresponds to E."
                 },
                 {
-                  "id": "coding_decoding_004",
+                  "id": "reasoning_coding_decoding_059",
                   "question": "In a certain code language, 'TALE' is coded as '7234', 'TOLK' as '9172', 'KITE' as '1283' and 'SEAN' as '3064'. What is the code for 'SON'?",
                   "options": ["906", "916", "896", "914"],
                   "correctAnswer": "906",
                   "explanation": "From the given codes: S=9, O=0 and N=6. Therefore SON = 906."
                 },
                 {
-                  "id": "coding_decoding_005",
+                  "id": "reasoning_coding_decoding_060",
                   "question": "In a certain language, 'PIC VIC NIC' means 'winter is cold', 'TO NIC RE' means 'summer is hot', and 'RE THO PA' means 'nights are hot'. Which of the following is the code for 'summer'?",
                   "options": ["TO", "NIC", "PIC", "VIC"],
                   "correctAnswer": "TO",
                   "explanation": "'NIC' is common in the first two statements and means 'is'. 'RE' is common in the second and third statements and means 'hot'. Therefore the remaining code 'TO' means 'summer'."
                 },
                 {
-                  "id": "coding_decoding_006",
+                  "id": "reasoning_coding_decoding_061",
                   "question": "'123' means 'bright little boy', '145' means 'tall big boy' and '637' means 'beautiful little flower'. Which digit means 'bright'?",
                   "options": ["1", "2", "3", "4"],
                   "correctAnswer": "2",
                   "explanation": "Digit 1 is common to the first and second statements, so it means 'boy'. Digit 3 is common to the first and third statements, so it means 'little'. Therefore digit 2 means 'bright'."
                 },
                 {
-                  "id": "coding_decoding_007",
+                  "id": "reasoning_coding_decoding_062",
                   "question": "In a certain code, 48 means 'which school' and 968 means 'college and school'. What is the code for 'school'?",
                   "options": ["6", "4", "9", "8"],
                   "correctAnswer": "8",
                   "explanation": "The common word in both statements is 'school'. The common digit is 8. Hence school = 8."
                 },
                 {
-                  "id": "coding_decoding_008",
+                  "id": "reasoning_coding_decoding_063",
                   "question": "AYRRJC : CATTLE :: NCPDCAR : ?",
                   "options": ["SUBJECTS", "NEGLECT", "PERFECT", "OPERATE"],
                   "correctAnswer": "OPERATE",
                   "explanation": "AYRRJC rearranges to CATTLE using a specific letter arrangement pattern. Applying the same pattern to NCPDCAR gives OPERATE."
                 },
                 {
-                  "id": "coding_decoding_009",
+                    "id": "reasoning_coding_decoding_064",
                   "question": "Each of the letters in the word 'STUDENT' is arranged in alphabetical order. How many letters are there in the English alphabetical series between the letter that is second from the left and the one that is fourth from the right in the new arrangement?",
                   "options": ["17", "13", "11", "15"],
                   "correctAnswer": "13",
                   "explanation": "Alphabetical arrangement: D,E,N,S,T,T,U. Second from left = E and fourth from right = S. Letters between E and S = 13."
                 },
                 {
-                  "id": "coding_decoding_010",
+                  "id": "reasoning_coding_decoding_065",
                   "question": "Select the letter cluster that can replace the question mark in the series: MCFI, NEKP, OGPW, PIUD, ?",
                   "options": ["NKYD", "QLYL", "QKZK", "QKZL"],
                   "correctAnswer": "NKYD",
                   "explanation": "The letters follow a positional pattern across each term. Applying the same pattern gives NKYD."
                 },
                 {
-                  "id": "coding_decoding_011",
+                  "id": "reasoning_coding_decoding_066",
                   "question": "Select the letter cluster that can replace the question mark in the series: WZWT, WWOH, WRGV, WVYJ, ?",
                   "options": ["WJQX", "WJQW", "WHPX", "WJPX"],
                   "correctAnswer": "WJQX",
                   "explanation": "Each position follows a separate alphabetical sequence. The next term is WJQX."
                 },
                 {
-                  "id": "coding_decoding_012",
+                  "id": "reasoning_coding_decoding_067",
                   "question": "In a certain code, 48 means 'which school' and 968 means 'college and school'. What is the code for 'school'?",
                   "options": ["6", "4", "9", "8"],
                   "correctAnswer": "8",
                   "explanation": "The common digit in both codes is 8, which corresponds to the common word 'school'."
                 },
                 {
-                  "id": "coding_decoding_013",
+                  "id": "reasoning_coding_decoding_068",
                   "question": "In a certain language, 'PIC VIC NIC' means 'winter is cold', 'TO NIC RE' means 'summer is hot', and 'RE THO PA' means 'nights are hot'. Which of the following is the code for 'summer'?",
                   "options": ["TO", "NIC", "PIC", "VIC"],
                   "correctAnswer": "TO",
                   "explanation": "After identifying NIC = is and RE = hot, the remaining code TO corresponds to summer."
                 },
                 {
-                  "id": "coding_decoding_014",
+                  "id": "reasoning_coding_decoding_069",
                   "question": "'123' means 'bright little boy', '145' means 'tall big boy' and '637' means 'beautiful little flower'. Which digit means 'bright'?",
                   "options": ["1", "2", "3", "4"],
                   "correctAnswer": "2",
                   "explanation": "1 = boy and 3 = little. Therefore 2 = bright."
                 },
                 {
-                  "id": "coding_decoding_015",
+                  "id": "reasoning_coding_decoding_070",
                   "question": "In a certain code language, 'TALE' is coded as '7234', 'TOLK' as '9172', 'KITE' as '1283' and 'SEAN' as '3064'. What is the code for 'SON'?",
                   "options": ["906", "916", "896", "914"],
                   "correctAnswer": "906",
                   "explanation": "S = 9, O = 0 and N = 6. Hence SON = 906."
                 },
                 {
-                  "id": "coding_decoding_016",
+                  "id": "reasoning_coding_decoding_071",
                   "question": "In a certain code language, '4378' is coded as 'IDOL' and '7832' is coded as 'IDLE'. What is the code for '2'?",
                   "options": ["O", "L", "E", "I"],
                   "correctAnswer": "E",
                   "explanation": "Comparing the two coded forms, digit 2 corresponds to E."
                 },
                 {
-                  "id": "coding_decoding_017",
+                  "id": "reasoning_coding_decoding_072",
                   "question": "In a certain code language, 'TALKER' and 'TALKED' are coded differently. What is the code for 'D'?",
                   "options": ["%", "!", "£", "θ"],
                   "correctAnswer": "£",
                   "explanation": "The only changed letter between TALKER and TALKED is D replacing R. The changed symbol represents D."
                 },
                 {
-                  "id": "coding_decoding_018",
+                  "id": "reasoning_coding_decoding_073",
                   "question": "In a certain code language, 'KENT' is coded as '*9*7' and 'BENT' is coded as '^*79'. What is the code for 'B'?",
                   "options": ["*", "9", "^", "."],
                   "correctAnswer": "^",
                   "explanation": "The symbol unique to BENT is '^', so it represents B."
                 },
                 {
-                  "id": "coding_decoding_019",
+                          "id": "reasoning_coding_decoding_074",
                   "question": "Select the set in which the numbers are related in the same way as the following sets: (45,15,3) and (120,40,8).",
                   "options": ["(165,55,9)", "(175,55,11)", "(165,54,11)", "(165,55,11)"],
                   "correctAnswer": "(165,55,11)",
                   "explanation": "First number ÷ second number = third number. 165 ÷ 55 = 3 and the internal relation matches the given pattern."
                 },
                 {
-                  "id": "coding_decoding_020",
+                  "id": "reasoning_coding_decoding_075",
                   "question": "Select the set in which the numbers are related in the same way as the following sets: (111,16,7) and (167,14,12).",
                   "options": ["(190,21,9)", "(140,8,17)", "(131,12,11)", "(108,9,12)"],
                   "correctAnswer": "(108,9,12)",
                   "explanation": "The numbers follow the same arithmetic relationship as the given examples. Option D satisfies the pattern."
                 },
                   {
-                    "id": "coding_decoding_015",
+                    "id": "reasoning_coding_decoding_076",
                     "question": "In each of the following questions, the second word is formed by rearranging the letters of the first word according to a specific pattern. Identify the pattern and apply it to the third word. NUMERAL : UEALRMN :: ALGEBRA : ?",
                     "options": ["LRBAGEA", "BARLAGE", "LERAGBA", "LERABGA"],
                     "correctAnswer": "LERABGA",
                     "explanation": "NUMERAL → UEALRMN follows the position pattern 2,4,6,1,3,5,7. Applying the same pattern to ALGEBRA gives LERABGA."
                   },
                   {
-                    "id": "coding_decoding_016",
+                    "id": "reasoning_coding_decoding_077",
                     "question": "Find the odd one out from the given alternatives.",
                     "options": ["TDS", "GST", "VAT", "DNA"],
                     "correctAnswer": "DNA",
                     "explanation": "TDS, GST and VAT are forms of taxes, whereas DNA is a biological term. Hence DNA is the odd one out."
                   },
                   {
-                    "id": "coding_decoding_017",
+                    "id": "reasoning_coding_decoding_078",
                     "question": "In a certain code language, MOUSE is coded as 45291 and RAT as 786. How is STORE coded in that language?",
                     "options": ["96571", "97653", "98345", "96278"],
                     "correctAnswer": "96571",
                     "explanation": "From MOUSE = 45291, we get M=4, O=5, U=2, S=9, E=1. From RAT = 786, we get R=7, A=8, T=6. Therefore STORE = S-T-O-R-E = 9-6-5-7-1 = 96571."
                   },
                   {
-                    "id": "coding_decoding_019",
+                    "id": "reasoning_coding_decoding_079",
                     "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series: ACE, EIM, IOU, MUC, ?",
                     "options": ["QSA", "UHG", "QAK", "CGD"],
                     "correctAnswer": "QSA",
                     "explanation": "Each position advances by 4 letters cyclically: A→E→I→M→Q, C→I→O→U→S, E→M→U→C→A. Hence the next term is QSA."
                   },
                   {
-                    "id": "coding_decoding_022",
+                        "id": "reasoning_coding_decoding_080",
                     "question": "In each of the following questions, a specific alphabetic coding pattern has been applied to the first word to form the second word. Identify the same coding pattern and apply it to the third word. COUNTRY : FRXQWUB :: EXAMINE : ?",
                     "options": ["HAPDLQH", "HADPLQH", "HAHPLDQ", "GBQDVWB"],
                     "correctAnswer": "HADPLQH",
                     "explanation": "In COUNTRY → FRXQWUB, each letter is shifted forward by 3 positions. Applying the same rule to EXAMINE gives HADPLQH."
                   },
-        {
-        "id": "reasoning_coding_decoding_055",
-    "question": "Coding Decoding — Question 26: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 26."
-  },
-  {
-    "id": "reasoning_coding_decoding_027",
-    "question": "Coding Decoding — Question 27: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 27."
-  },
-  {
-    "id": "reasoning_coding_decoding_028",
-    "question": "Coding Decoding — Question 28: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 28."
-  },
-  {
-    "id": "reasoning_coding_decoding_029",
-    "question": "Coding Decoding — Question 29: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 29."
-  },
-  {
-    "id": "reasoning_coding_decoding_030",
-    "question": "Coding Decoding — Question 30: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 30."
-  },
-  {
-    "id": "reasoning_coding_decoding_031",
-    "question": "Coding Decoding — Question 31: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 31."
-  },
-  {
-    "id": "reasoning_coding_decoding_032",
-    "question": "Coding Decoding — Question 32: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 32."
-  },
-  {
-    "id": "reasoning_coding_decoding_033",
-    "question": "Coding Decoding — Question 33: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 33."
-  },
-  {
-    "id": "reasoning_coding_decoding_034",
-    "question": "Coding Decoding — Question 34: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 34."
-  },
-  {
-    "id": "reasoning_coding_decoding_035",
-    "question": "Coding Decoding — Question 35: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 35."
-  },
-  {
-    "id": "reasoning_coding_decoding_036",
-    "question": "Coding Decoding — Question 36: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 36."
-  },
-  {
-    "id": "reasoning_coding_decoding_037",
-    "question": "Coding Decoding — Question 37: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 37."
-  },
-  {
-    "id": "reasoning_coding_decoding_038",
-    "question": "Coding Decoding — Question 38: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 38."
-  },
-  {
-    "id": "reasoning_coding_decoding_039",
-    "question": "Coding Decoding — Question 39: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 39."
-  },
-  {
-    "id": "reasoning_coding_decoding_040",
-    "question": "Coding Decoding — Question 40: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 40."
-  },
-  {
-    "id": "reasoning_coding_decoding_041",
-    "question": "Coding Decoding — Question 41: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 41."
-  },
-  {
-    "id": "reasoning_coding_decoding_042",
-    "question": "Coding Decoding — Question 42: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 42."
-  },
-  {
-    "id": "reasoning_coding_decoding_043",
-    "question": "Coding Decoding — Question 43: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 43."
-  },
-  {
-    "id": "reasoning_coding_decoding_044",
-    "question": "Coding Decoding — Question 44: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 44."
-  },
-  {
-    "id": "reasoning_coding_decoding_045",
-    "question": "Coding Decoding — Question 45: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 45."
-  },
-  {
-    "id": "reasoning_coding_decoding_046",
-    "question": "Coding Decoding — Question 46: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 46."
-  },
-  {
-    "id": "reasoning_coding_decoding_047",
-    "question": "Coding Decoding — Question 47: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 47."
-  },
-  {
-    "id": "reasoning_coding_decoding_048",
-    "question": "Coding Decoding — Question 48: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 48."
-  },
-  {
-    "id": "reasoning_coding_decoding_049",
-    "question": "Coding Decoding — Question 49: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 49."
-  },
-  {
-    "id": "reasoning_coding_decoding_050",
-    "question": "Coding Decoding — Question 50: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 50."
-  },
-  {
-    "id": "reasoning_coding_decoding_051",
-    "question": "Coding Decoding — Question 51: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 51."
-  },
-  {
-    "id": "reasoning_coding_decoding_052",
-    "question": "Coding Decoding — Question 52: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 52."
-  },
-  {
-    "id": "reasoning_coding_decoding_053",
-    "question": "Coding Decoding — Question 53: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 53."
-  },
-  {
-    "id": "reasoning_coding_decoding_054",
-    "question": "Coding Decoding — Question 54: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 54."
-  },
-  {
-    "id": "reasoning_coding_decoding_055",
-    "question": "Coding Decoding — Question 55: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 55."
-  },
-  {
-    "id": "reasoning_coding_decoding_056",
-    "question": "Coding Decoding — Question 56: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 56."
-  },
-  {
-    "id": "reasoning_coding_decoding_057",
-    "question": "Coding Decoding — Question 57: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 57."
-  },
-  {
-    "id": "reasoning_coding_decoding_058",
-    "question": "Coding Decoding — Question 58: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 58."
-  },
-  {
-    "id": "reasoning_coding_decoding_059",
-    "question": "Coding Decoding — Question 59: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 59."
-  },
-  {
-    "id": "reasoning_coding_decoding_060",
-    "question": "Coding Decoding — Question 60: What is the correct answer?",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Review Coding Decoding concept for question 60."
-  }
+      
 ]
