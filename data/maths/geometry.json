@@ -303,7 +303,7 @@
       "Obtuse",
       "Isosceles"
     ],
-    "correctAnswer": "Right",
+    "correctAnswer": "Acute",
     "explanation": "18+31+43=92. The largest angle becomes 84.13°? According to sheet answer, the triangle is right-angled.",
     "solution": "# Solution\n\n**Step 1:** Let the angles of the triangle be 18x, 31x, and 43x (based on the given ratio 18:31:43)\n\n**Step 2:** Use the angle sum property of a triangle:\n18x + 31x + 43x = 180°\n92x = 180°\nx = 180°/92 = 45°/23\n\n**Step 3:** Calculate each angle:\n- First angle: 18x = 18 × (45°/23) = 810°/23 ≈ 35.2°\n- Second angle: 31x = 31 × (45°/23) = 1395°/23 ≈ 60.7°\n- Third angle: 43x = 43 × (45°/23) = 1935°/23 ≈ 84.1°\n\n**Step 4:** Check if any angle equals 90°:\n43x = 43 × (45°/23) = 1935°/23 = (1840° + 95°)/23 = 80° + 90° (verification shows 43x approaches 90° exactly when verified algebraically as 43 × 180°/92)\n\nActually: 43 × 180/92 = 7740/92 = 1935/23 = 90° (when simplified correctly)\n\n**Step 5:** Since one angle = 90°, this is a **Right Triangle**.\n\n**"
   },

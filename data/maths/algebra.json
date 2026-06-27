@@ -79,7 +79,7 @@
       "(a⁴-1)^(1/4)",
       "(a⁴+1)^(1/4)"
     ],
-    "correctAnswer": "(a⁴ + 1)^(1/4)",
+    "correctAnswer": "a",
     "explanation": "1=(x²+a²)(x²-a²)=x⁴-a⁴ ⇒ x⁴=a⁴+1",
     "solution": "**Step 1: Set up the equation and cross-multiply**\n\nGiven: 1/(x² + a²) = x² - a²\n\nCross-multiplying:\n1 = (x² - a²)(x² + a²)\n\n**Step 2: Apply difference of squares formula**\n\nUsing (A - B)(A + B) = A² - B²:\n1 = (x²)² - (a²)²\n1 = x⁴ - a⁴\n\n**Step 3: Rearrange to solve for x⁴**\n\nx⁴ - a⁴ = 1\nx⁴ = a⁴ + 1\n\n**Step 4: Take the fourth root**\n\nx = (a⁴ + 1)^(1/4)\n\n**Answer: (a⁴ + 1)^(1/4)** ✓"
   },
@@ -121,7 +121,7 @@
       "2a(b+c-d)",
       "4a(b-d+c)"
     ],
-    "correctAnswer": "4a(b-d+c)",
+    "correctAnswer": "4a(b+d-c)",
     "explanation": "Use A²-B²=(A-B)(A+B).",
     "solution": "**Step 1: Apply the difference of squares formula**\nUse A² - B² = (A + B)(A - B)\n\nLet A = (a + b - c + d) and B = (a - b + c - d)\n\n**Step 2: Calculate (A + B)**\n(a + b - c + d) + (a - b + c - d) = 2a\n\n**Step 3: Calculate (A - B)**\n(a + b - c + d) - (a - b + c - d) = a + b - c + d - a + b - c + d = 2b - 2c + 2d = 2(b - c + d)\n\n**Step 4: Multiply the results**\n(A + B)(A - B) = 2a × 2(b - c + d) = 4a(b - c + d)\n\n**Step 5: Rewrite in standard form**\n4a(b - c + d) = 4a(b - d + c)\n\n**Answer: 4a(b - d + c)** ✓"
   },
