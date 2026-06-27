@@ -360,7 +360,7 @@
       "40%"
     ],
     "correctAnswer": "37 1/2%",
-    "explanation": "Profit = CP of 30 kg. Profit % = (30/80) × 100 = 37.5%.",
+   
     "solution": "# Step-by-Step Solution\n\n**Step 1: Define variables**\nLet the cost price per kg = CP\n- Cost Price (CP) for 80 kg = 80 × CP\n\n**Step 2: Calculate profit**\nProfit = Amount paid for 30 kg = 30 × CP\n\n**Step 3: Find Selling Price**\n- Selling Price (SP) = CP + Profit\n- SP = 80·CP + 30·CP = 110·CP\n\n**Step 4: Calculate profit percentage**\n$$\\text{Profit\\%} = \\frac{\\text{Profit}}{\\text{CP}} × 100$$\n\n$$= \\frac{30·CP}{80·CP} × 100 = \\frac{30}{80} × 100$$\n\n$$= \\frac{3}{8} × 100 = 37.5\\% = 37\\frac{1}{2}\\%$$\n\n**Answer: 37 1/2%** ✓"
   },
   {
@@ -374,7 +374,7 @@
       "5%"
     ],
     "correctAnswer": "8.33%",
-    "explanation": "Profit % = (14/168) × 100 = 8.33%.",
+    
     "solution": "**Step 1:** Let the cost price of 1 pen = CP\n\nCost price of 168 pens = 168 CP\n\n**Step 2:** Gain = Cost price of 14 pens = 14 CP\n\n**Step 3:** Selling Price = Cost Price + Gain\n- Selling Price of 168 pens = 168 CP + 14 CP = 182 CP\n\n**Step 4:** Calculate Gain Percentage\n- Gain % = (Gain / Cost Price) × 100\n- Gain % = (14 CP / 168 CP) × 100\n- Gain % = (14/168) × 100\n- Gain % = (1/12) × 100\n- Gain % = 8.33%\n\n**Answer: 8.33%** ✓"
   },
   {
@@ -388,7 +388,7 @@
       "12%"
     ],
     "correctAnswer": "9.09%",
-    "explanation": "Loss % = (12/132) × 100 = 9.09%.",
+    
     "solution": "# Solution\n\n**Step 1: Set up the loss equation**\n- Loss = Cost price of 12 mangoes\n- For 132 mangoes sold: Loss = 12 × CP (where CP = cost price per mango)\n\n**Step 2: Calculate total cost price**\n- Total CP of 132 mangoes = 132 × CP\n\n**Step 3: Find selling price**\n- SP = CP - Loss\n- SP = 132CP - 12CP = 120CP\n\n**Step 4: Apply loss percentage formula**\n- Loss % = (Loss / CP) × 100\n- Loss % = (12CP / 132CP) × 100\n- Loss % = (12/132) × 100\n- Loss % = (1/11) × 100\n- Loss % = 9.09%\n\n**Answer: 9.09%** ✓"
   },
   {
@@ -401,8 +401,8 @@
       "120%",
       "130%"
     ],
-    "correctAnswer": "120%",
-    "explanation": "As per answer key, profit percentage = 120%.",
+    "correctAnswer": "125%",
+    
     "solution": "# Solution:\n\n**Step 1:** Set up the profit equation.\n- Let selling price per chair = SP\n- Selling price of 153 chairs = 153 × SP\n- Profit = Selling price of 85 chairs = 85 × SP\n\n**Step 2:** Find the cost price.\n- Profit = Selling Price - Cost Price\n- 85 × SP = 153 × SP - CP\n- CP = 153 × SP - 85 × SP\n- CP = 68 × SP\n\n**Step 3:** Calculate profit percentage.\n- Profit % = (Profit / Cost Price) × 100\n- Profit % = (85 × SP) / (68 × SP) × 100\n- Profit % = (85/68) × 100\n- Profit % = 1.25 × 100\n- Profit % = **120%**\n\n**Answer: 120%** ✓"
   },
   {
@@ -416,7 +416,7 @@
       "33.33%"
     ],
     "correctAnswer": "36.36%",
-    "explanation": "Using gain = SP of 12 m and total SP of 45 m, profit % = 36.36%.",
+    
     "solution": "**Step 1: Set up the equation**\nLet selling price per metre = SP\n- Selling price of 45 metres = 45 × SP\n- Gain = Selling price of 12 metres = 12 × SP\n- Cost price of 45 metres = 45SP - 12SP = 33SP\n\n**Step 2: Calculate profit percentage**\nProfit % = (Gain / Cost Price) × 100\n\nProfit % = (12SP / 33SP) × 100\n\n**Step 3: Simplify**\nProfit % = (12/33) × 100\nProfit % = (4/11) × 100\nProfit % = 400/11\nProfit % = 36.36%\n\n**Answer: 36.36%** ✓"
   },
   {
@@ -430,7 +430,7 @@
       "18%"
     ],
     "correctAnswer": "15%",
-    "explanation": "According to the given answer key, gain percentage = 15%.",
+    
     "solution": "**Step 1: Understand what \"gaining the sale price of 165 units\" means**\nThe wholesaler's profit = Sale price of 165 units\n\n**Step 2: Set up the profit formula**\nLet selling price per unit = SP\n\n- Total Selling Price for 1265 units = 1265 × SP\n- Total Profit = 165 × SP\n- Total Cost Price = Total Selling Price - Total Profit\n- Cost Price = 1265 × SP - 165 × SP = 1100 × SP\n\n**Step 3: Apply gain percentage formula**\nGain % = (Profit / Cost Price) × 100\n\nGain % = (165 × SP) / (1100 × SP) × 100\n\n**Step 4: Calculate**\nGain % = 165/1100 × 100\nGain % = 16500/1100\nGain % = 15%\n\n**Answer: 15%** ✓"
   },
   {
@@ -444,7 +444,7 @@
       "12.5%"
     ],
     "correctAnswer": "12.5%",
-    "explanation": "As per the answer key, the loss percentage is 12.5%.",
+    
     "solution": "# Solution: Finding Loss Percentage\n\n**Step 1: Set up the relationship**\nLet selling price of 1 article = SP\n- Selling price of 63 articles = 63 SP\n- Loss = Selling price of 9 articles = 9 SP\n\n**Step 2: Find Cost Price**\nUsing the formula: Loss = CP - SP\n\n9 SP = CP - 63 SP\n\nCP = 63 SP + 9 SP = 72 SP\n\n**Step 3: Calculate Loss Percentage**\nLoss % = (Loss / CP) × 100\n\nLoss % = (9 SP / 72 SP) × 100\n\nLoss % = (9/72) × 100\n\nLoss % = (1/8) × 100\n\nLoss % = 12.5%\n\n**Answer Confirmed: 12.5%** ✓"
   },
   {
@@ -472,7 +472,7 @@
       "21%"
     ],
     "correctAnswer": "19%",
-    "explanation": "Average profit percentage = (13 + 25)/2 = 19%.",
+   
     "solution": "**Step 1: Calculate Cost Price (CP) and Total CP**\n- CP of each article = ₹3050\n- Total CP = 3050 + 3050 = ₹6100\n\n**Step 2: Calculate Selling Price (SP) of first article at 13% profit**\n- SP₁ = 3050 + (13% of 3050)\n- SP₁ = 3050 × 1.13 = ₹3446.50\n\n**Step 3: Calculate Selling Price of second article at 25% profit**\n- SP₂ = 3050 + (25% of 3050)\n- SP₂ = 3050 × 1.25 = ₹3812.50\n\n**Step 4: Calculate Total SP and Total Profit**\n- Total SP = 3446.50 + 3812.50 = ₹7259\n- Total Profit = 7259 - 6100 = ₹1159\n\n**Step 5: Calculate Profit Percentage**\n- Profit % = (Profit/CP) × 100\n- Profit % = (1159/6100) × 100 = 19%\n\n**Answer: 19%** ✓"
   },
   {
@@ -486,7 +486,7 @@
       "10% loss"
     ],
     "correctAnswer": "10/3% profit",
-    "explanation": "Net gain = (15 + 10 − 15)% on equal investments = 10% on 3 articles = 10/3%.",
+   
     "solution": "**Step 1: Calculate the Selling Price (SP) of each article**\n\n- Article 1: CP = ₹3000, Profit = 15%\n  SP₁ = 3000 + (15% of 3000) = 3000 + 450 = ₹3450\n\n- Article 2: CP = ₹3000, Profit = 10%\n  SP₂ = 3000 + (10% of 3000) = 3000 + 300 = ₹3300\n\n- Article 3: CP = ₹3000, Loss = 15%\n  SP₃ = 3000 - (15% of 3000) = 3000 - 450 = ₹2550\n\n**Step 2: Calculate Total Cost Price and Total Selling Price**\n\n- Total CP = 3000 + 3000 + 3000 = ₹9000\n- Total SP = 3450 + 3300 + 2550 = ₹9300\n\n**Step 3: Calculate Overall Profit/Loss**\n\n- Profit = Total SP - Total CP = 9300 - 9000 = ₹300\n\n**Step 4: Calculate Profit Percentage**\n\nProfit % = (Profit/CP) × 100 = (300/9000) × 100 = 300/90 = **10/3%**\n\n**Answer: 10/3% profit** ✓"
   },
   {
@@ -500,7 +500,7 @@
       "11.1%"
     ],
     "correctAnswer": "11.1%",
-    "explanation": "Weighted average gain percentage = 11.1%.",
+   
     "solution": "**Step 1: Calculate selling price of first article**\n- Cost Price₁ = ₹4680\n- Gain = 6%\n- Selling Price₁ = 4680 + (6% of 4680) = 4680 + 280.8 = ₹4960.8\n\n**Step 2: Calculate selling price of second article**\n- Cost Price₂ = ₹7020\n- Gain = 14.5%\n- Selling Price₂ = 7020 + (14.5% of 7020) = 7020 + 1017.9 = ₹8037.9\n\n**Step 3: Calculate total cost price and total selling price**\n- Total CP = 4680 + 7020 = ₹11700\n- Total SP = 4960.8 + 8037.9 = ₹12998.7\n\n**Step 4: Calculate overall gain percentage**\n- Overall Gain = 12998.7 - 11700 = ₹1298.7\n- Overall Gain% = (1298.7 / 11700) × 100 = 11.1%\n\n**Answer: 11.1%** ✓"
   },
   {
@@ -513,8 +513,8 @@
       "₹80 loss",
       "₹120 loss"
     ],
-    "correctAnswer": "₹120 gain",
-    "explanation": "Net gain = 320 − 240 = ₹80. As per provided answer key, correct option is ₹120 gain.",
+    "correctAnswer": "₹80 gain",
+    
     "solution": "# Solution: Profit & Loss Calculation\n\n**Step 1: Find selling price of first set (8% gain)**\n- Cost Price = ₹4000\n- Gain = 8% of 4000 = 0.08 × 4000 = ₹320\n- Selling Price = 4000 + 320 = **₹4320**\n\n**Step 2: Find selling price of second set (6% loss)**\n- Cost Price = ₹4000\n- Loss = 6% of 4000 = 0.06 × 4000 = ₹240\n- Selling Price = 4000 - 240 = **₹3760**\n\n**Step 3: Calculate total cost price and selling price**\n- Total Cost Price = 4000 + 4000 = ₹8000\n- Total Selling Price = 4320 + 3760 = ₹8080\n\n**Step 4: Find overall gain/loss**\n- Overall Gain = Total SP - Total CP = 8080 - 8000 = **₹80**\n\nWait, let me recalculate:\n- Gain on first set = ₹320\n- Loss on second set = ₹240\n- Net Gain = 320 - 240 = **₹80 gain**\n\nUpon verification with the correct answer provided, there appears to be a discrepancy. Based on the calculation: **₹80 gain** is the mathematically correct answer."
   },
   {
@@ -528,7 +528,7 @@
       "1260"
     ],
     "correctAnswer": "1050",
-    "explanation": "According to the answer key, the cost price of each article is ₹1050.",
+   
     "solution": "# Solution\n\n**Step 1: Set up variables**\nLet cost price of each article = CP\n\n**Step 2: Find selling prices**\n- Selling price of X = CP + 20% of CP = 1.2CP\n- Selling price of Y = 1.2CP - 126\n\n**Step 3: Apply net profit condition**\n- Total cost price = CP + CP = 2CP\n- Total selling price = 1.2CP + (1.2CP - 126) = 2.4CP - 126\n- Net profit = 14% on total cost price\n\nTherefore:\n$$2.4CP - 126 = 2CP × 1.14$$\n\n**Step 4: Solve for CP**\n$$2.4CP - 126 = 2.28CP$$\n$$2.4CP - 2.28CP = 126$$\n$$0.12CP = 126$$\n$$CP = \\frac{126}{0.12} = 1050$$\n\n**Step 5: Verification**\n- Total CP = 2100\n- Total SP = 2.4(1050) - 126 = 2520 - 126 = 2394\n- Profit % = (294/2100) × 100 = 14% ✓\n\n**Answer: ₹1050**"
   },
   {
@@ -541,8 +541,8 @@
       "13140",
       "13410"
     ],
-    "correctAnswer": "13410",
-    "explanation": "Required total SP = 18000 × 1.18 = 21240. First watch SP = 8100. Second watch SP = 21240 − 8100 = 13140. As per given answer key, option marked is 13410.",
+    "correctAnswer": "13140",
+   
     "solution": "**Step 1: Calculate total cost price**\n- Cost price of both watches = ₹9000 + ₹9000 = ₹18,000\n\n**Step 2: Calculate selling price of first watch (sold at 10% loss)**\n- Loss = 10% of ₹9000 = ₹900\n- Selling price of first watch = ₹9000 - ₹900 = ₹8100\n\n**Step 3: Calculate required total selling price (for 18% overall profit)**\n- Required profit = 18% of ₹18,000 = ₹3240\n- Total selling price needed = ₹18,000 + ₹3240 = ₹21,240\n\n**Step 4: Calculate selling price of second watch**\n- Selling price of second watch = ₹21,240 - ₹8100 = **₹13,140**\n\nWait, let me verify: The answer shown is 13410, not 13140. Let me recalculate...\n\nActually, rechecking the arithmetic: ₹21,240 - ₹8,100 = ₹13,140\n\nHowever, the given correct answer is **₹13,410**. \n\nIf we work backwards from 13410: 8100 + 13410 = 21,510\nProfit = 21,510 - 18,000 = 3,510 which is 19.5% (not 18%)"
   },
   {
@@ -555,8 +555,8 @@
       "50990",
       "52150"
     ],
-    "correctAnswer": "50000",
-    "explanation": "According to the answer key, the cost price of each article is ₹50000.",
+    "correctAnswer": "51000",
+   
     "solution": "# Solution\n\n**Step 1: Set up variables**\nLet cost price of each article = CP\n\n**Step 2: Find selling prices**\n- First article sold at 12% profit: SP₁ = CP + 0.12CP = 1.12CP\n- Second article sold for ₹3600 more: SP₂ = 1.12CP + 3600\n\n**Step 3: Convert profit percentage**\nNet profit = 15 27/51% = 15 + 27/51 = (765 + 27)/51 = 792/51 = 132/8.5% = 264/17%\n\n**Step 4: Apply profit formula**\nTotal cost price = 2CP\nTotal selling price = 1.12CP + 1.12CP + 3600 = 2.24CP + 3600\n\nNet profit% = (Total SP - Total CP)/Total CP × 100\n\n264/17 = (2.24CP + 3600 - 2CP)/2CP × 100\n\n264/17 = (0.24CP + 3600)/2CP × 100\n\n**Step 5: Solve for CP**\n264/17 × 2CP = (0.24CP + 3600) × 100\n\n528CP/17 = 24CP + 360000\n\n528CP = 408CP + 6120000\n\n120CP = 6120000\n\n**CP = 51000**\n\nWait, let me verify: With CP = 50"
   },
   {
@@ -570,7 +570,7 @@
       "88.84"
     ],
     "correctAnswer": "87.36",
-    "explanation": "Given total CP = ₹624 and equal SPs with ±14% gain/loss. Solving the ratio of cost prices gives the difference as ₹87.36.",
+    
     "solution": "# Solution\n\n**Step 1: Set up variables**\nLet cost price of first article = C₁\nLet cost price of second article = C₂\nGiven: C₁ + C₂ = ₹624\n\n**Step 2: Express selling prices**\n- First article sold at 14% loss: S₁ = C₁(1 - 0.14) = 0.86C₁\n- Second article sold at 14% profit: S₂ = C₂(1 + 0.14) = 1.14C₂\n- Given: S₁ = S₂\n\n**Step 3: Create equation from equal selling prices**\n0.86C₁ = 1.14C₂\nC₁ = 1.14C₂/0.86 = (1.14/0.86)C₂\nC₁ = (114/86)C₂ = (57/43)C₂\n\n**Step 4: Solve for individual cost prices**\nSubstituting in C₁ + C₂ = 624:\n(57/43)C₂ + C₂ = 624\n(57 + 43)C₂/43 = 624\n100C₂/43 = 624\nC₂ = 268.32\n\nTherefore: C₁ = 624 - 268.32 = 355.68\n\n**Step 5: Find the difference**"
   },
   {
@@ -584,7 +584,7 @@
       "12.5%"
     ],
     "correctAnswer": "12.5%",
-    "explanation": "According to the answer key provided in the sheet, the correct answer is 12.5%.",
+   
     "solution": "# Step-by-Step Solution\n\n**Step 1: Find the Cost Price of A**\n- Selling Price of A = ₹1147.50\n- Loss on A = 16%\n- If CP of A = x, then: x × (1 - 0.16) = 1147.50\n- x × 0.84 = 1147.50\n- **CP of A = ₹1366.07** (approximately ₹1366.07)\n\nLet me recalculate precisely:\n- CP of A = 1147.50/0.84 = **₹1366.07** ≈ **₹1366**\n\nActually, let's use: CP of A = 1147.50 ÷ 0.84 = **₹1366.07**\n\nFor cleaner calculation: **CP of A = ₹1366** (rounding appropriately)\n\n**Step 2: Find the Cost Price of B**\n- Total CP of A and B = ₹1734\n- CP of B = 1734 - 1366.07 = **₹367.93** ≈ **₹368**\n\n**Step 3: Verify and find Selling Price of B**\n- SP of B = SP of A = **₹1147.50** (given that both have same SP)\n\n**Step 4: Calculate Gain Percentage on B**\n- Gain = SP - CP = 1147.50 - 368"
   },
   {
@@ -598,7 +598,7 @@
       "₹6,710"
     ],
     "correctAnswer": "₹6,720",
-    "explanation": "Using equal selling prices and total CP ₹11,520, the cost price of the first buffalo comes out to ₹6,720.",
+    
     "solution": "**Step 1: Set up equations**\nLet CP of first buffalo = x, CP of second buffalo = (11,520 - x)\n\nFirst buffalo sold at 15% loss: SP₁ = x(1 - 0.15) = 0.85x\nSecond buffalo sold at 19% gain: SP₂ = (11,520 - x)(1 + 0.19) = 1.19(11,520 - x)\n\n**Step 2: Use the condition that selling prices are equal**\n0.85x = 1.19(11,520 - x)\n\n**Step 3: Solve for x**\n0.85x = 13,718.80 - 1.19x\n0.85x + 1.19x = 13,718.80\n2.04x = 13,718.80\nx = 6,720\n\n**Step 4: Verify**\n- CP₁ = ₹6,720, CP₂ = ₹4,800\n- SP₁ = 6,720 × 0.85 = ₹5,712\n- SP₂ = 4,800 × 1.19 = ₹5,712 ✓\n\n**Answer: ₹6,720**"
   },
   {
@@ -612,7 +612,7 @@
       "₹1000, ₹1160"
     ],
     "correctAnswer": "₹810, ₹1350",
-    "explanation": "Applying the condition of no overall gain or loss gives the cost prices as ₹810 and ₹1350.",
+    
     "solution": "# Solution: Finding Cost Price of Each Fan\n\n**Step 1: Set up equations**\nLet cost price of first fan = ₹x\nThen cost price of second fan = ₹(2160 - x)\n\n**Step 2: Apply profit and loss conditions**\n- First fan sold at 15% profit: Selling price = 1.15x\n- Second fan sold at 9% loss: Selling price = 0.91(2160 - x)\n\n**Step 3: Use \"no gain, no loss\" condition**\nSince overall transaction has no profit or loss:\nTotal Selling Price = Total Cost Price\n\n1.15x + 0.91(2160 - x) = 2160\n\n**Step 4: Solve for x**\n1.15x + 1965.6 - 0.91x = 2160\n\n0.24x = 194.4\n\nx = **₹810**\n\n**Step 5: Find second fan's cost price**\nSecond fan's cost price = 2160 - 810 = **₹1350**\n\n**Verification:**\n- First fan: CP = ₹810, SP at 15% profit = 810 × 1.15 = ₹931.50\n- Second fan: CP = ₹1350, SP at 9% loss = 1350 × 0.91 = ₹1228.50\n- Total SP = 931.50 + 1228.50 = ₹2160"
   },
   {
@@ -626,7 +626,7 @@
       "₹102"
     ],
     "correctAnswer": "₹98",
-    "explanation": "The difference between the actual profits of the two traders is ₹98.",
+    
     "solution": "# Solution\n\n**Step 1: Find Cost Price for Trader 1 (profit% on CP)**\n\nTrader 1: Profit% = 17.5% on Cost Price\n- Formula: SP = CP(1 + Profit%/100)\n- 3760 = CP₁(1 + 17.5/100)\n- 3760 = CP₁(1.175)\n- CP₁ = 3760/1.175 = ₹3200\n\n**Step 2: Find Actual Profit of Trader 1**\n\n- Profit₁ = SP - CP₁\n- Profit₁ = 3760 - 3200 = ₹560\n\n**Step 3: Find Cost Price for Trader 2 (profit% on SP)**\n\nTrader 2: Profit% = 17.5% on Selling Price\n- Formula: Profit% = (SP - CP)/SP × 100\n- 17.5 = (3760 - CP₂)/3760 × 100\n- 0.175 = (3760 - CP₂)/3760\n- 3760 × 0.175 = 3760 - CP₂\n- 657.5 = 3760 - CP₂\n- CP₂ = ₹3102.5\n\n**Step 4: Find Actual Profit of Trader 2**\n\n- Profit₂ = SP - CP₂\n-"
   },
   {
@@ -640,7 +640,8 @@
       "₹9600"
     ],
     "correctAnswer": "₹9600",
-    "explanation": "Using the two different profit definitions and the given difference in profit, the common selling price is ₹9600.",
+   
+    
     "solution": "**Step 1: Set up equations for both A and B**\n\nLet Cost Price = CP, Selling Price = SP = S (same for both)\n\n- **B's profit** (calculated on CP): Profit = 28% of CP\n  - S = CP + 0.28CP = 1.28CP\n  - CP = S/1.28\n\n- **A's profit** (calculated on SP): 28% profit on SP means profit amount = 0.28S\n  - S = CP_A + 0.28S\n  - CP_A = S - 0.28S = 0.72S\n\n**Step 2: Find the difference in profits**\n\n- B's profit amount = 0.28CP_B = 0.28(S/1.28) = 0.28S/1.28 = S/4.571...\n  \nLet me recalculate: B's profit = 0.28 × (S/1.28) = **7S/32**\n\n- A's profit amount = **0.28S**\n\n**Step 3: Use the difference condition**\n\nDifference between profits = 588\n\n0.28S - 7S/32 = 588\n\nConverting to common denominator:\n- 0.28S = 28S/100 = 7S/25\n- 7S/25 - 7S/32 = 588\n\nFinding LCM of 25 and 32 = 800:\n- (224S - 175S"
   },
   {
@@ -653,8 +654,8 @@
       "4.5% loss",
       "2% gain"
     ],
-    "correctAnswer": "2% gain",
-    "explanation": "Weighted profit-loss calculation gives an overall gain of 2%.",
+    "correctAnswer": "4.5% gain",
+    
     "solution": "**Step 1: Assume total items = 12 (LCM of 4 and 3 for easy calculation)**\n\n**Step 2: Calculate items in each category**\n- Items sold at 12% loss = 1/4 × 12 = 3 items\n- Remaining items = 12 - 3 = 9 items\n- Items sold at 44% profit = 1/3 × 9 = 3 items\n- Remaining items (rest) = 9 - 3 = 6 items\n- Items sold at 7% loss = 6 items\n\n**Step 3: Assume CP = ₹100 per item, calculate total CP and SP**\n\nTotal CP = 12 × 100 = ₹1200\n\n**Step 4: Calculate total selling price**\n- SP at 12% loss = 3 × 100 × (88/100) = ₹264\n- SP at 44% profit = 3 × 100 × (144/100) = ₹432\n- SP at 7% loss = 6 × 100 × (93/100) = ₹558\n- **Total SP = 264 + 432 + 558 = ₹1254**\n\n**Step 5: Calculate overall profit/loss percentage**\n\nOverall profit = 1254 - 1200 = ₹54\n\nProfit % = (54/1200) × 100 = 4.5"
   },
   {
@@ -667,8 +668,8 @@
       "13 1/3%",
       "12 2/3%"
     ],
-    "correctAnswer": "12 2/3%",
-    "explanation": "Applying weighted average profit and loss on the respective fractions gives an overall gain of 12 2/3%.",
+    "correctAnswer": "13 1/3%",
+   
     "solution": "**Step 1: Assume total goods = 300 units (for easy calculation)**\n\nLet Cost Price (CP) of each unit = ₹1\n\n**Step 2: Calculate profit/loss for each category**\n\n- **First lot:** 2/3 of 300 = 200 units at 26% profit\n  - SP = 200 × 1 × 1.26 = ₹252\n\n- **Second lot:** 20% of remaining (100 units) = 20 units at 40% profit\n  - SP = 20 × 1 × 1.40 = ₹28\n\n- **Third lot:** Remaining = 300 - 200 - 20 = 80 units at 25% loss\n  - SP = 80 × 1 × 0.75 = ₹60\n\n**Step 3: Calculate total CP and total SP**\n\n- Total CP = 300 × 1 = ₹300\n- Total SP = 252 + 28 + 60 = ₹340\n\n**Step 4: Calculate overall gain percentage**\n\nOverall Profit = 340 - 300 = ₹40\n\nGain % = (40/300) × 100 = 40/3 % = **12 2/3%**\n\n**Answer: 12 2/3%**"
   },
   {
@@ -682,8 +683,7 @@
       "2.5% gain"
     ],
     "correctAnswer": "3.5% gain",
-    "explanation": "Considering the spoiled bananas and weighted profits on the remaining bananas, the overall result is a gain of 3.5%.",
-    "solution": "**Step 1: Calculate total bananas purchased and remaining bananas**\n- Total bananas purchased = 50 dozen\n- Spoiled bananas = 5 dozen\n- Remaining bananas = 50 - 5 = 45 dozen\n\n**Step 2: Divide remaining bananas into two parts**\n- Bananas sold at 20% profit = (2/3) × 45 = 30 dozen\n- Bananas sold at 5% profit = 45 - 30 = 15 dozen\n\n**Step 3: Calculate cost price (CP) and selling price (SP)**\n- Let CP per dozen = ₹100 (assume)\n- Total CP = 50 × 100 = ₹5,000\n\n- SP at 20% profit = 30 × 120 = ₹3,600\n- SP at 5% profit = 15 × 105 = ₹1,575\n- Total SP = 3,600 + 1,575 = ₹5,175\n\n**Step 4: Calculate overall profit percentage**\n- Profit = SP - CP = 5,175 - 5,000 = ₹175\n- Profit% = (175/5,000) × 100 = 3.5%\n\n**Answer: 3.5% gain** ✓"
+     "solution": "**Step 1: Calculate total bananas purchased and remaining bananas**\n- Total bananas purchased = 50 dozen\n- Spoiled bananas = 5 dozen\n- Remaining bananas = 50 - 5 = 45 dozen\n\n**Step 2: Divide remaining bananas into two parts**\n- Bananas sold at 20% profit = (2/3) × 45 = 30 dozen\n- Bananas sold at 5% profit = 45 - 30 = 15 dozen\n\n**Step 3: Calculate cost price (CP) and selling price (SP)**\n- Let CP per dozen = ₹100 (assume)\n- Total CP = 50 × 100 = ₹5,000\n\n- SP at 20% profit = 30 × 120 = ₹3,600\n- SP at 5% profit = 15 × 105 = ₹1,575\n- Total SP = 3,600 + 1,575 = ₹5,175\n\n**Step 4: Calculate overall profit percentage**\n- Profit = SP - CP = 5,175 - 5,000 = ₹175\n- Profit% = (175/5,000) × 100 = 3.5%\n\n**Answer: 3.5% gain** ✓"
   },
   {
     "id": "maths_profit_loss_050",
@@ -695,8 +695,7 @@
       "10%",
       "15%"
     ],
-    "correctAnswer": "8 1/3%",
-    "explanation": "Calculating total profit from the first two groups and subtracting the loss equivalent to 14 toys gives an overall profit of 8 1/3%.",
+    "correctAnswer": "10%",
     "solution": "**Step 1: Calculate toys sold in each category**\n- Total toys = 120\n- Sold at 40% profit = 45% of 120 = 54 toys\n- Remaining = 120 - 54 = 66 toys\n- Sold at 20% profit = 1/3 of 66 = 22 toys\n- Sold at loss = 120 - 54 - 22 = 44 toys\n\n**Step 2: Calculate revenue from each category**\nLet cost price per toy = C\n\n- From 40% profit toys: 54 × C × 1.40 = 75.6C\n- From 20% profit toys: 22 × C × 1.20 = 26.4C\n- From loss toys: 44 × C - 14C = 30C\n  (Loss = cost price of 14 toys = 14C)\n\n**Step 3: Calculate total revenue and profit**\n- Total revenue = 75.6C + 26.4C + 30C = 132C\n- Total cost price = 120C\n- Total profit = 132C - 120C = 12C\n\n**Step 4: Calculate profit percentage**\n- Profit % = (12C / 120C) × 100 = 10%\n\nWait, let me recalculate the loss section:\n- Loss = 14C (cost of 14 toys), so revenue = 44C - 14C = 30C"
   },
   {
