@@ -650,7 +650,7 @@
     "solution": "**Step 1: Set up the equations**\nLet A's salary = ₹x and B's salary = ₹y\n- x + y = 43,000 ... (equation 1)\n\n**Step 2: Express savings**\n- A's savings = 5% of x = 0.05x\n- B's savings = 20% of y = 0.20y\n\n**Step 3: Use the condition that savings are equal**\n0.05x = 0.20y\n- x = 4y ... (equation 2)\n\n**Step 4: Substitute in equation 1**\n4y + y = 43,000\n- 5y = 43,000\n- y = 8,600\n\n**Step 5: Find A's salary**\nx = 4y = 4 × 8,600 = **₹34,400**\n\n**Answer: 34400 ✓**"
   },
   {
-    "id": "maths_percentage_051",     
+    "id": "maths_percentage_051",
     "question": "At the beginning of day 1 of a month, Rajesh has 500 eggs. He sells 20% of the eggs by the end of the day and added b% of the eggs at the beginning of the next day and sold 20% of the eggs at the end of the next day. This pattern continued up to the end of the third day of the month when he is left with 1024 eggs. The value of b is equal to:",
     "options": [
       "220",
@@ -728,7 +728,7 @@
     "solution": "**Step 1: Set up initial values**\nLet original length = L and original breadth = B\nOriginal area = L × B\n\n**Step 2: Calculate new dimensions**\nNew length = L + 13% of L = 1.13L\nNew breadth = B - 8% of B = 0.92B\n\n**Step 3: Calculate new area**\nNew area = 1.13L × 0.92B = 1.0396LB\n\n**Step 4: Find percentage change in area**\nPercentage change = (New area - Original area)/Original area × 100\n= (1.0396LB - LB)/LB × 100\n= 0.0396 × 100\n= 3.96%\n\nSince the result is positive, the area **increased by 3.96%**.\n\n**Answer: 3.96% increased** ✓"
   },
   {
-    "id": "maths_percentage_057",     
+    "id": "maths_percentage_057",
     "question": "Aswin bought a new plot which need to be fenced immediately, due to this the length as well as the breadth of the rectangular working place is reduced by 14%. Find the % decrease in the area.",
     "options": [
       "26.04%",
@@ -832,7 +832,7 @@
     "solution": "# Solution\n\n**Step 1: Set up the initial volume**\nLet the initial side of cube = a\nInitial volume = a³\n\n**Step 2: Find the new side after 15% increase**\nNew side = a + 15% of a = a(1.15) = 1.15a\n\n**Step 3: Calculate the new volume**\nNew volume = (1.15a)³ = 1.15³ × a³ = 1.520875 × a³\n\n**Step 4: Find the percentage increase in volume**\nIncrease in volume = New volume - Initial volume\n= 1.520875a³ - a³ = 0.520875a³\n\nPercentage increase = (0.520875a³/a³) × 100\n= 0.520875 × 100 = 52.0875%\n\n**Step 5: Consider integral part only**\nIntegral part = **52%**\n\n✓ **Answer: 52%**"
   },
   {
-      "id": "maths_percentage_065",
+    "id": "maths_percentage_065",
     "question": "If the radius of a sphere is increased by 16⅔%, then by what percent would its surface area increase (correct to one decimal place)?",
     "options": [
       "34.8%",
@@ -923,7 +923,7 @@
     "solution": "**Step 1: Set up the volume formula**\nVolume of cylinder = πr²h\n\nLet original radius = r and original height = h\nOriginal volume = πr²h\n\n**Step 2: Apply the given changes**\n- New radius = r - 18% of r = 0.82r\n- New height = h + 141% of h = 2.41h\n\n**Step 3: Calculate new volume**\nNew volume = π(0.82r)²(2.41h)\n= π(0.6724r²)(2.41h)\n= 1.6205πr²h\n\n**Step 4: Find percentage change**\nPercentage increase = [(New volume - Original volume) / Original volume] × 100\n= [(1.6205πr²h - πr²h) / πr²h] × 100\n= [0.6205] × 100\n= 62.05%\n\n**Step 5: Round to nearest integer**\n62.05% ≈ **62%**\n\n**Answer: 62%** ✓"
   },
   {
-    "id": "maths_percentage_072",   
+    "id": "maths_percentage_072",
     "question": "If the radius of the cylinder is increased by 25%, then by how much percent must the height be decreased, so that the volume of the cylinder increases by 32% only?",
     "options": [
       "14.73",
@@ -987,7 +987,7 @@
     "questionHi": "एक गुजराती कर्मचारी रामू को प्रमोशन मिला, इस कारण उसकी सैलरी में 26⅔% की वृद्धि हुई। लेकिन काम में असंगतता के कारण उसका वेतन 2550 रु. कम कर दिया गया। रामू को एक परियोजना के लिए दिल्ली स्थानांतरित किया गया, इसलिए उसका वेतन फिर से 12.5% बढ़ गया। अब उसका वर्तमान वेतन 15300 रुपये है। उसकी प्रारंभिक आय ज्ञात कीजिए।"
   },
   {
-    "id": "maths_percentage_051",
+    "id": "maths_percentage_077",
     "question": "[Add content] percentage — Question 51",
     "options": [
       "Option A",
@@ -999,7 +999,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_052",
+    "id": "maths_percentage_078",
     "question": "[Add content] percentage — Question 52",
     "options": [
       "Option A",
@@ -1011,7 +1011,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_053",
+    "id": "maths_percentage_079",
     "question": "[Add content] percentage — Question 53",
     "options": [
       "Option A",
@@ -1023,7 +1023,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_054",
+    "id": "maths_percentage_080",
     "question": "[Add content] percentage — Question 54",
     "options": [
       "Option A",
@@ -1035,7 +1035,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_055",
+    "id": "maths_percentage_081",
     "question": "[Add content] percentage — Question 55",
     "options": [
       "Option A",
@@ -1047,7 +1047,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_056",
+    "id": "maths_percentage_082",
     "question": "[Add content] percentage — Question 56",
     "options": [
       "Option A",
@@ -1059,7 +1059,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_057",
+    "id": "maths_percentage_083",
     "question": "[Add content] percentage — Question 57",
     "options": [
       "Option A",
@@ -1071,7 +1071,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_058",
+    "id": "maths_percentage_084",
     "question": "[Add content] percentage — Question 58",
     "options": [
       "Option A",
@@ -1083,7 +1083,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_059",
+    "id": "maths_percentage_085",
     "question": "[Add content] percentage — Question 59",
     "options": [
       "Option A",
@@ -1095,7 +1095,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_060",
+    "id": "maths_percentage_086",
     "question": "[Add content] percentage — Question 60",
     "options": [
       "Option A",
@@ -1107,7 +1107,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_061",
+    "id": "maths_percentage_087",
     "question": "[Add content] percentage — Question 61",
     "options": [
       "Option A",
@@ -1119,7 +1119,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_062",
+    "id": "maths_percentage_088",
     "question": "[Add content] percentage — Question 62",
     "options": [
       "Option A",
@@ -1131,7 +1131,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_063",
+    "id": "maths_percentage_089",
     "question": "[Add content] percentage — Question 63",
     "options": [
       "Option A",
@@ -1143,7 +1143,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_064",
+    "id": "maths_percentage_090",
     "question": "[Add content] percentage — Question 64",
     "options": [
       "Option A",
@@ -1155,7 +1155,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_065",
+    "id": "maths_percentage_091",
     "question": "[Add content] percentage — Question 65",
     "options": [
       "Option A",
@@ -1167,7 +1167,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_066",
+    "id": "maths_percentage_092",
     "question": "[Add content] percentage — Question 66",
     "options": [
       "Option A",
@@ -1179,7 +1179,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_067",
+    "id": "maths_percentage_093",
     "question": "[Add content] percentage — Question 67",
     "options": [
       "Option A",
@@ -1191,7 +1191,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_068",
+    "id": "maths_percentage_094",
     "question": "[Add content] percentage — Question 68",
     "options": [
       "Option A",
@@ -1203,7 +1203,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_069",
+    "id": "maths_percentage_095",
     "question": "[Add content] percentage — Question 69",
     "options": [
       "Option A",
@@ -1215,7 +1215,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_070",
+    "id": "maths_percentage_096",
     "question": "[Add content] percentage — Question 70",
     "options": [
       "Option A",
@@ -1227,7 +1227,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_071",
+    "id": "maths_percentage_097",
     "question": "[Add content] percentage — Question 71",
     "options": [
       "Option A",
@@ -1239,7 +1239,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_072",
+    "id": "maths_percentage_098",
     "question": "[Add content] percentage — Question 72",
     "options": [
       "Option A",
@@ -1251,7 +1251,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_073",
+    "id": "maths_percentage_099",
     "question": "[Add content] percentage — Question 73",
     "options": [
       "Option A",
@@ -1263,7 +1263,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_074",
+    "id": "maths_percentage_100",
     "question": "[Add content] percentage — Question 74",
     "options": [
       "Option A",
@@ -1275,7 +1275,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_075",
+    "id": "maths_percentage_101",
     "question": "[Add content] percentage — Question 75",
     "options": [
       "Option A",
@@ -1287,7 +1287,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_076",
+    "id": "maths_percentage_102",
     "question": "[Add content] percentage — Question 76",
     "options": [
       "Option A",
@@ -1299,7 +1299,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_077",
+    "id": "maths_percentage_103",
     "question": "[Add content] percentage — Question 77",
     "options": [
       "Option A",
@@ -1311,7 +1311,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_078",
+    "id": "maths_percentage_104",
     "question": "[Add content] percentage — Question 78",
     "options": [
       "Option A",
@@ -1323,7 +1323,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_079",
+    "id": "maths_percentage_105",
     "question": "[Add content] percentage — Question 79",
     "options": [
       "Option A",
@@ -1335,7 +1335,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_080",
+    "id": "maths_percentage_106",
     "question": "[Add content] percentage — Question 80",
     "options": [
       "Option A",
@@ -1347,7 +1347,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_081",
+    "id": "maths_percentage_107",
     "question": "[Add content] percentage — Question 81",
     "options": [
       "Option A",
@@ -1359,7 +1359,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_082",
+    "id": "maths_percentage_108",
     "question": "[Add content] percentage — Question 82",
     "options": [
       "Option A",
@@ -1371,7 +1371,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_083",
+    "id": "maths_percentage_109",
     "question": "[Add content] percentage — Question 83",
     "options": [
       "Option A",
@@ -1383,7 +1383,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_084",
+    "id": "maths_percentage_110",
     "question": "[Add content] percentage — Question 84",
     "options": [
       "Option A",
@@ -1395,7 +1395,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_085",
+    "id": "maths_percentage_111",
     "question": "[Add content] percentage — Question 85",
     "options": [
       "Option A",
@@ -1407,7 +1407,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_086",
+    "id": "maths_percentage_112",
     "question": "[Add content] percentage — Question 86",
     "options": [
       "Option A",
@@ -1419,7 +1419,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_087",
+    "id": "maths_percentage_113",
     "question": "[Add content] percentage — Question 87",
     "options": [
       "Option A",
@@ -1431,7 +1431,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_088",
+    "id": "maths_percentage_114",
     "question": "[Add content] percentage — Question 88",
     "options": [
       "Option A",
@@ -1443,7 +1443,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_089",
+    "id": "maths_percentage_115",
     "question": "[Add content] percentage — Question 89",
     "options": [
       "Option A",
@@ -1455,7 +1455,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_090",
+    "id": "maths_percentage_116",
     "question": "[Add content] percentage — Question 90",
     "options": [
       "Option A",
@@ -1467,7 +1467,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_091",
+    "id": "maths_percentage_117",
     "question": "[Add content] percentage — Question 91",
     "options": [
       "Option A",
@@ -1479,7 +1479,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_092",
+    "id": "maths_percentage_118",
     "question": "[Add content] percentage — Question 92",
     "options": [
       "Option A",
@@ -1491,7 +1491,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_093",
+    "id": "maths_percentage_119",
     "question": "[Add content] percentage — Question 93",
     "options": [
       "Option A",
@@ -1503,7 +1503,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_094",
+    "id": "maths_percentage_120",
     "question": "[Add content] percentage — Question 94",
     "options": [
       "Option A",
@@ -1515,7 +1515,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_095",
+    "id": "maths_percentage_121",
     "question": "[Add content] percentage — Question 95",
     "options": [
       "Option A",
@@ -1527,7 +1527,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_096",
+    "id": "maths_percentage_122",
     "question": "[Add content] percentage — Question 96",
     "options": [
       "Option A",
@@ -1539,7 +1539,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_097",
+    "id": "maths_percentage_123",
     "question": "[Add content] percentage — Question 97",
     "options": [
       "Option A",
@@ -1551,7 +1551,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_098",
+    "id": "maths_percentage_124",
     "question": "[Add content] percentage — Question 98",
     "options": [
       "Option A",
@@ -1563,7 +1563,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_099",
+    "id": "maths_percentage_125",
     "question": "[Add content] percentage — Question 99",
     "options": [
       "Option A",
@@ -1575,7 +1575,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_100",
+    "id": "maths_percentage_126",
     "question": "[Add content] percentage — Question 100",
     "options": [
       "Option A",
@@ -1587,7 +1587,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_101",
+    "id": "maths_percentage_127",
     "question": "[Add content] percentage — Question 101",
     "options": [
       "Option A",
@@ -1599,7 +1599,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_102",
+    "id": "maths_percentage_128",
     "question": "[Add content] percentage — Question 102",
     "options": [
       "Option A",
@@ -1611,7 +1611,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_103",
+    "id": "maths_percentage_129",
     "question": "[Add content] percentage — Question 103",
     "options": [
       "Option A",
@@ -1623,7 +1623,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_104",
+    "id": "maths_percentage_130",
     "question": "[Add content] percentage — Question 104",
     "options": [
       "Option A",
@@ -1635,7 +1635,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_105",
+    "id": "maths_percentage_131",
     "question": "[Add content] percentage — Question 105",
     "options": [
       "Option A",
@@ -1647,7 +1647,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_106",
+    "id": "maths_percentage_132",
     "question": "[Add content] percentage — Question 106",
     "options": [
       "Option A",
@@ -1659,7 +1659,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_107",
+    "id": "maths_percentage_133",
     "question": "[Add content] percentage — Question 107",
     "options": [
       "Option A",
@@ -1671,7 +1671,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_108",
+    "id": "maths_percentage_134",
     "question": "[Add content] percentage — Question 108",
     "options": [
       "Option A",
@@ -1683,7 +1683,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_109",
+    "id": "maths_percentage_135",
     "question": "[Add content] percentage — Question 109",
     "options": [
       "Option A",
@@ -1695,7 +1695,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_110",
+    "id": "maths_percentage_136",
     "question": "[Add content] percentage — Question 110",
     "options": [
       "Option A",
@@ -1707,7 +1707,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_111",
+    "id": "maths_percentage_137",
     "question": "[Add content] percentage — Question 111",
     "options": [
       "Option A",
@@ -1719,7 +1719,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_112",
+    "id": "maths_percentage_138",
     "question": "[Add content] percentage — Question 112",
     "options": [
       "Option A",
@@ -1731,7 +1731,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_113",
+    "id": "maths_percentage_139",
     "question": "[Add content] percentage — Question 113",
     "options": [
       "Option A",
@@ -1743,7 +1743,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_114",
+    "id": "maths_percentage_140",
     "question": "[Add content] percentage — Question 114",
     "options": [
       "Option A",
@@ -1755,7 +1755,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_115",
+    "id": "maths_percentage_141",
     "question": "[Add content] percentage — Question 115",
     "options": [
       "Option A",
@@ -1767,7 +1767,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_116",
+    "id": "maths_percentage_142",
     "question": "[Add content] percentage — Question 116",
     "options": [
       "Option A",
@@ -1779,7 +1779,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_117",
+    "id": "maths_percentage_143",
     "question": "[Add content] percentage — Question 117",
     "options": [
       "Option A",
@@ -1791,7 +1791,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_118",
+    "id": "maths_percentage_144",
     "question": "[Add content] percentage — Question 118",
     "options": [
       "Option A",
@@ -1803,7 +1803,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_119",
+    "id": "maths_percentage_145",
     "question": "[Add content] percentage — Question 119",
     "options": [
       "Option A",
@@ -1815,7 +1815,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_120",
+    "id": "maths_percentage_146",
     "question": "[Add content] percentage — Question 120",
     "options": [
       "Option A",
@@ -1827,7 +1827,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_121",
+    "id": "maths_percentage_147",
     "question": "[Add content] percentage — Question 121",
     "options": [
       "Option A",
@@ -1839,7 +1839,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_122",
+    "id": "maths_percentage_148",
     "question": "[Add content] percentage — Question 122",
     "options": [
       "Option A",
@@ -1851,7 +1851,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_123",
+    "id": "maths_percentage_149",
     "question": "[Add content] percentage — Question 123",
     "options": [
       "Option A",
@@ -1863,7 +1863,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_124",
+    "id": "maths_percentage_150",
     "question": "[Add content] percentage — Question 124",
     "options": [
       "Option A",
@@ -1875,7 +1875,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_125",
+    "id": "maths_percentage_151",
     "question": "[Add content] percentage — Question 125",
     "options": [
       "Option A",
@@ -1887,7 +1887,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_126",
+    "id": "maths_percentage_152",
     "question": "[Add content] percentage — Question 126",
     "options": [
       "Option A",
@@ -1899,7 +1899,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_127",
+    "id": "maths_percentage_153",
     "question": "[Add content] percentage — Question 127",
     "options": [
       "Option A",
@@ -1911,7 +1911,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_128",
+    "id": "maths_percentage_154",
     "question": "[Add content] percentage — Question 128",
     "options": [
       "Option A",
@@ -1923,7 +1923,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_129",
+    "id": "maths_percentage_155",
     "question": "[Add content] percentage — Question 129",
     "options": [
       "Option A",
@@ -1935,7 +1935,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_130",
+    "id": "maths_percentage_156",
     "question": "[Add content] percentage — Question 130",
     "options": [
       "Option A",
@@ -1947,7 +1947,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_131",
+    "id": "maths_percentage_157",
     "question": "[Add content] percentage — Question 131",
     "options": [
       "Option A",
@@ -1959,7 +1959,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_132",
+    "id": "maths_percentage_158",
     "question": "[Add content] percentage — Question 132",
     "options": [
       "Option A",
@@ -1971,7 +1971,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_133",
+    "id": "maths_percentage_159",
     "question": "[Add content] percentage — Question 133",
     "options": [
       "Option A",
@@ -1983,7 +1983,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_134",
+    "id": "maths_percentage_160",
     "question": "[Add content] percentage — Question 134",
     "options": [
       "Option A",
@@ -1995,7 +1995,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_135",
+    "id": "maths_percentage_161",
     "question": "[Add content] percentage — Question 135",
     "options": [
       "Option A",
@@ -2007,7 +2007,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_136",
+    "id": "maths_percentage_162",
     "question": "[Add content] percentage — Question 136",
     "options": [
       "Option A",
@@ -2019,7 +2019,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_137",
+    "id": "maths_percentage_163",
     "question": "[Add content] percentage — Question 137",
     "options": [
       "Option A",
@@ -2031,7 +2031,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_138",
+    "id": "maths_percentage_164",
     "question": "[Add content] percentage — Question 138",
     "options": [
       "Option A",
@@ -2043,7 +2043,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_139",
+    "id": "maths_percentage_165",
     "question": "[Add content] percentage — Question 139",
     "options": [
       "Option A",
@@ -2055,7 +2055,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_140",
+    "id": "maths_percentage_166",
     "question": "[Add content] percentage — Question 140",
     "options": [
       "Option A",
@@ -2067,7 +2067,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_141",
+    "id": "maths_percentage_167",
     "question": "[Add content] percentage — Question 141",
     "options": [
       "Option A",
@@ -2079,7 +2079,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_142",
+    "id": "maths_percentage_168",
     "question": "[Add content] percentage — Question 142",
     "options": [
       "Option A",
@@ -2091,7 +2091,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_143",
+    "id": "maths_percentage_169",
     "question": "[Add content] percentage — Question 143",
     "options": [
       "Option A",
@@ -2103,7 +2103,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_144",
+    "id": "maths_percentage_170",
     "question": "[Add content] percentage — Question 144",
     "options": [
       "Option A",
@@ -2115,7 +2115,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_145",
+    "id": "maths_percentage_171",
     "question": "[Add content] percentage — Question 145",
     "options": [
       "Option A",
@@ -2127,7 +2127,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_146",
+    "id": "maths_percentage_172",
     "question": "[Add content] percentage — Question 146",
     "options": [
       "Option A",
@@ -2139,7 +2139,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_147",
+    "id": "maths_percentage_173",
     "question": "[Add content] percentage — Question 147",
     "options": [
       "Option A",
@@ -2151,7 +2151,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_148",
+    "id": "maths_percentage_174",
     "question": "[Add content] percentage — Question 148",
     "options": [
       "Option A",
@@ -2163,7 +2163,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_149",
+    "id": "maths_percentage_175",
     "question": "[Add content] percentage — Question 149",
     "options": [
       "Option A",
@@ -2175,7 +2175,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_150",
+    "id": "maths_percentage_176",
     "question": "[Add content] percentage — Question 150",
     "options": [
       "Option A",
@@ -2187,7 +2187,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_151",
+    "id": "maths_percentage_177",
     "question": "[Add content] percentage — Question 151",
     "options": [
       "Option A",
@@ -2199,7 +2199,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_152",
+    "id": "maths_percentage_178",
     "question": "[Add content] percentage — Question 152",
     "options": [
       "Option A",
@@ -2211,7 +2211,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_153",
+    "id": "maths_percentage_179",
     "question": "[Add content] percentage — Question 153",
     "options": [
       "Option A",
@@ -2223,7 +2223,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_154",
+    "id": "maths_percentage_180",
     "question": "[Add content] percentage — Question 154",
     "options": [
       "Option A",
@@ -2235,7 +2235,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_155",
+    "id": "maths_percentage_181",
     "question": "[Add content] percentage — Question 155",
     "options": [
       "Option A",
@@ -2247,7 +2247,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_156",
+    "id": "maths_percentage_182",
     "question": "[Add content] percentage — Question 156",
     "options": [
       "Option A",
@@ -2259,7 +2259,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_157",
+    "id": "maths_percentage_183",
     "question": "[Add content] percentage — Question 157",
     "options": [
       "Option A",
@@ -2271,7 +2271,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_158",
+    "id": "maths_percentage_184",
     "question": "[Add content] percentage — Question 158",
     "options": [
       "Option A",
@@ -2283,7 +2283,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_159",
+    "id": "maths_percentage_185",
     "question": "[Add content] percentage — Question 159",
     "options": [
       "Option A",
@@ -2295,7 +2295,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_160",
+    "id": "maths_percentage_186",
     "question": "[Add content] percentage — Question 160",
     "options": [
       "Option A",
@@ -2307,7 +2307,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_161",
+    "id": "maths_percentage_187",
     "question": "[Add content] percentage — Question 161",
     "options": [
       "Option A",
@@ -2319,7 +2319,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_162",
+    "id": "maths_percentage_188",
     "question": "[Add content] percentage — Question 162",
     "options": [
       "Option A",
@@ -2331,7 +2331,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_163",
+    "id": "maths_percentage_189",
     "question": "[Add content] percentage — Question 163",
     "options": [
       "Option A",
@@ -2343,7 +2343,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_164",
+    "id": "maths_percentage_190",
     "question": "[Add content] percentage — Question 164",
     "options": [
       "Option A",
@@ -2355,7 +2355,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_165",
+    "id": "maths_percentage_191",
     "question": "[Add content] percentage — Question 165",
     "options": [
       "Option A",
@@ -2367,7 +2367,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_166",
+    "id": "maths_percentage_192",
     "question": "[Add content] percentage — Question 166",
     "options": [
       "Option A",
@@ -2379,7 +2379,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_167",
+    "id": "maths_percentage_193",
     "question": "[Add content] percentage — Question 167",
     "options": [
       "Option A",
@@ -2391,7 +2391,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_168",
+    "id": "maths_percentage_194",
     "question": "[Add content] percentage — Question 168",
     "options": [
       "Option A",
@@ -2403,7 +2403,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_169",
+    "id": "maths_percentage_195",
     "question": "[Add content] percentage — Question 169",
     "options": [
       "Option A",
@@ -2415,7 +2415,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_170",
+    "id": "maths_percentage_196",
     "question": "[Add content] percentage — Question 170",
     "options": [
       "Option A",
@@ -2427,7 +2427,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_171",
+    "id": "maths_percentage_197",
     "question": "[Add content] percentage — Question 171",
     "options": [
       "Option A",
@@ -2439,7 +2439,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_172",
+    "id": "maths_percentage_198",
     "question": "[Add content] percentage — Question 172",
     "options": [
       "Option A",
@@ -2451,7 +2451,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_173",
+    "id": "maths_percentage_199",
     "question": "[Add content] percentage — Question 173",
     "options": [
       "Option A",
@@ -2463,7 +2463,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_174",
+    "id": "maths_percentage_200",
     "question": "[Add content] percentage — Question 174",
     "options": [
       "Option A",
@@ -2475,7 +2475,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_175",
+    "id": "maths_percentage_201",
     "question": "[Add content] percentage — Question 175",
     "options": [
       "Option A",
@@ -2487,7 +2487,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_176",
+    "id": "maths_percentage_202",
     "question": "[Add content] percentage — Question 176",
     "options": [
       "Option A",
@@ -2499,7 +2499,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_177",
+    "id": "maths_percentage_203",
     "question": "[Add content] percentage — Question 177",
     "options": [
       "Option A",
@@ -2511,7 +2511,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_178",
+    "id": "maths_percentage_204",
     "question": "[Add content] percentage — Question 178",
     "options": [
       "Option A",
@@ -2523,7 +2523,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_179",
+    "id": "maths_percentage_205",
     "question": "[Add content] percentage — Question 179",
     "options": [
       "Option A",
@@ -2535,7 +2535,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_180",
+    "id": "maths_percentage_206",
     "question": "[Add content] percentage — Question 180",
     "options": [
       "Option A",
@@ -2547,7 +2547,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_181",
+    "id": "maths_percentage_207",
     "question": "[Add content] percentage — Question 181",
     "options": [
       "Option A",
@@ -2559,7 +2559,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_182",
+    "id": "maths_percentage_208",
     "question": "[Add content] percentage — Question 182",
     "options": [
       "Option A",
@@ -2571,7 +2571,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_183",
+    "id": "maths_percentage_209",
     "question": "[Add content] percentage — Question 183",
     "options": [
       "Option A",
@@ -2583,7 +2583,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_184",
+    "id": "maths_percentage_210",
     "question": "[Add content] percentage — Question 184",
     "options": [
       "Option A",
@@ -2595,7 +2595,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_185",
+    "id": "maths_percentage_211",
     "question": "[Add content] percentage — Question 185",
     "options": [
       "Option A",
@@ -2607,7 +2607,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_186",
+    "id": "maths_percentage_212",
     "question": "[Add content] percentage — Question 186",
     "options": [
       "Option A",
@@ -2619,7 +2619,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_187",
+    "id": "maths_percentage_213",
     "question": "[Add content] percentage — Question 187",
     "options": [
       "Option A",
@@ -2631,7 +2631,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_188",
+    "id": "maths_percentage_214",
     "question": "[Add content] percentage — Question 188",
     "options": [
       "Option A",
@@ -2643,7 +2643,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_189",
+    "id": "maths_percentage_215",
     "question": "[Add content] percentage — Question 189",
     "options": [
       "Option A",
@@ -2655,7 +2655,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_190",
+    "id": "maths_percentage_216",
     "question": "[Add content] percentage — Question 190",
     "options": [
       "Option A",
@@ -2667,7 +2667,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_191",
+    "id": "maths_percentage_217",
     "question": "[Add content] percentage — Question 191",
     "options": [
       "Option A",
@@ -2679,7 +2679,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_192",
+    "id": "maths_percentage_218",
     "question": "[Add content] percentage — Question 192",
     "options": [
       "Option A",
@@ -2691,7 +2691,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_193",
+    "id": "maths_percentage_219",
     "question": "[Add content] percentage — Question 193",
     "options": [
       "Option A",
@@ -2703,7 +2703,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_194",
+    "id": "maths_percentage_220",
     "question": "[Add content] percentage — Question 194",
     "options": [
       "Option A",
@@ -2715,7 +2715,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_195",
+    "id": "maths_percentage_221",
     "question": "[Add content] percentage — Question 195",
     "options": [
       "Option A",
@@ -2727,7 +2727,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_196",
+    "id": "maths_percentage_222",
     "question": "[Add content] percentage — Question 196",
     "options": [
       "Option A",
@@ -2739,7 +2739,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_197",
+    "id": "maths_percentage_223",
     "question": "[Add content] percentage — Question 197",
     "options": [
       "Option A",
@@ -2751,7 +2751,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_198",
+    "id": "maths_percentage_224",
     "question": "[Add content] percentage — Question 198",
     "options": [
       "Option A",
@@ -2763,7 +2763,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_199",
+    "id": "maths_percentage_225",
     "question": "[Add content] percentage — Question 199",
     "options": [
       "Option A",
@@ -2775,7 +2775,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_200",
+    "id": "maths_percentage_226",
     "question": "[Add content] percentage — Question 200",
     "options": [
       "Option A",
@@ -2787,7 +2787,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_201",
+    "id": "maths_percentage_227",
     "question": "[Add content] percentage — Question 201",
     "options": [
       "Option A",
@@ -2799,7 +2799,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_202",
+    "id": "maths_percentage_228",
     "question": "[Add content] percentage — Question 202",
     "options": [
       "Option A",
@@ -2811,7 +2811,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_203",
+    "id": "maths_percentage_229",
     "question": "[Add content] percentage — Question 203",
     "options": [
       "Option A",
@@ -2823,7 +2823,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_204",
+    "id": "maths_percentage_230",
     "question": "[Add content] percentage — Question 204",
     "options": [
       "Option A",
@@ -2835,7 +2835,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_205",
+    "id": "maths_percentage_231",
     "question": "[Add content] percentage — Question 205",
     "options": [
       "Option A",
@@ -2847,7 +2847,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_206",
+    "id": "maths_percentage_232",
     "question": "[Add content] percentage — Question 206",
     "options": [
       "Option A",
@@ -2859,7 +2859,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_207",
+    "id": "maths_percentage_233",
     "question": "[Add content] percentage — Question 207",
     "options": [
       "Option A",
@@ -2871,7 +2871,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_208",
+    "id": "maths_percentage_234",
     "question": "[Add content] percentage — Question 208",
     "options": [
       "Option A",
@@ -2883,7 +2883,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_209",
+    "id": "maths_percentage_235",
     "question": "[Add content] percentage — Question 209",
     "options": [
       "Option A",
@@ -2895,7 +2895,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_210",
+    "id": "maths_percentage_236",
     "question": "[Add content] percentage — Question 210",
     "options": [
       "Option A",
@@ -2907,7 +2907,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_211",
+    "id": "maths_percentage_237",
     "question": "[Add content] percentage — Question 211",
     "options": [
       "Option A",
@@ -2919,7 +2919,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_212",
+    "id": "maths_percentage_238",
     "question": "[Add content] percentage — Question 212",
     "options": [
       "Option A",
@@ -2931,7 +2931,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_213",
+    "id": "maths_percentage_239",
     "question": "[Add content] percentage — Question 213",
     "options": [
       "Option A",
@@ -2943,7 +2943,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_214",
+    "id": "maths_percentage_240",
     "question": "[Add content] percentage — Question 214",
     "options": [
       "Option A",
@@ -2955,7 +2955,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_215",
+    "id": "maths_percentage_241",
     "question": "[Add content] percentage — Question 215",
     "options": [
       "Option A",
@@ -2967,7 +2967,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_216",
+    "id": "maths_percentage_242",
     "question": "[Add content] percentage — Question 216",
     "options": [
       "Option A",
@@ -2979,7 +2979,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_217",
+    "id": "maths_percentage_243",
     "question": "[Add content] percentage — Question 217",
     "options": [
       "Option A",
@@ -2991,7 +2991,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_218",
+    "id": "maths_percentage_244",
     "question": "[Add content] percentage — Question 218",
     "options": [
       "Option A",
@@ -3003,7 +3003,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_219",
+    "id": "maths_percentage_245",
     "question": "[Add content] percentage — Question 219",
     "options": [
       "Option A",
@@ -3015,7 +3015,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_220",
+    "id": "maths_percentage_246",
     "question": "[Add content] percentage — Question 220",
     "options": [
       "Option A",
@@ -3027,7 +3027,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_221",
+    "id": "maths_percentage_247",
     "question": "[Add content] percentage — Question 221",
     "options": [
       "Option A",
@@ -3039,7 +3039,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_222",
+    "id": "maths_percentage_248",
     "question": "[Add content] percentage — Question 222",
     "options": [
       "Option A",
@@ -3051,7 +3051,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_223",
+    "id": "maths_percentage_249",
     "question": "[Add content] percentage — Question 223",
     "options": [
       "Option A",
@@ -3063,7 +3063,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_224",
+    "id": "maths_percentage_250",
     "question": "[Add content] percentage — Question 224",
     "options": [
       "Option A",
@@ -3075,7 +3075,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_225",
+    "id": "maths_percentage_251",
     "question": "[Add content] percentage — Question 225",
     "options": [
       "Option A",
@@ -3087,7 +3087,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_226",
+    "id": "maths_percentage_252",
     "question": "[Add content] percentage — Question 226",
     "options": [
       "Option A",
@@ -3099,7 +3099,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_227",
+    "id": "maths_percentage_253",
     "question": "[Add content] percentage — Question 227",
     "options": [
       "Option A",
@@ -3111,7 +3111,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_228",
+    "id": "maths_percentage_254",
     "question": "[Add content] percentage — Question 228",
     "options": [
       "Option A",
@@ -3123,7 +3123,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_229",
+    "id": "maths_percentage_255",
     "question": "[Add content] percentage — Question 229",
     "options": [
       "Option A",
@@ -3135,7 +3135,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_230",
+    "id": "maths_percentage_256",
     "question": "[Add content] percentage — Question 230",
     "options": [
       "Option A",
@@ -3147,7 +3147,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_231",
+    "id": "maths_percentage_257",
     "question": "[Add content] percentage — Question 231",
     "options": [
       "Option A",
@@ -3159,7 +3159,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_232",
+    "id": "maths_percentage_258",
     "question": "[Add content] percentage — Question 232",
     "options": [
       "Option A",
@@ -3171,7 +3171,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_233",
+    "id": "maths_percentage_259",
     "question": "[Add content] percentage — Question 233",
     "options": [
       "Option A",
@@ -3183,7 +3183,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_234",
+    "id": "maths_percentage_260",
     "question": "[Add content] percentage — Question 234",
     "options": [
       "Option A",
@@ -3195,7 +3195,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_235",
+    "id": "maths_percentage_261",
     "question": "[Add content] percentage — Question 235",
     "options": [
       "Option A",
@@ -3207,7 +3207,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_236",
+    "id": "maths_percentage_262",
     "question": "[Add content] percentage — Question 236",
     "options": [
       "Option A",
@@ -3219,7 +3219,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_237",
+    "id": "maths_percentage_263",
     "question": "[Add content] percentage — Question 237",
     "options": [
       "Option A",
@@ -3231,7 +3231,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_238",
+    "id": "maths_percentage_264",
     "question": "[Add content] percentage — Question 238",
     "options": [
       "Option A",
@@ -3243,7 +3243,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_239",
+    "id": "maths_percentage_265",
     "question": "[Add content] percentage — Question 239",
     "options": [
       "Option A",
@@ -3255,7 +3255,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_240",
+    "id": "maths_percentage_266",
     "question": "[Add content] percentage — Question 240",
     "options": [
       "Option A",
@@ -3267,7 +3267,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_241",
+    "id": "maths_percentage_267",
     "question": "[Add content] percentage — Question 241",
     "options": [
       "Option A",
@@ -3279,7 +3279,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_242",
+    "id": "maths_percentage_268",
     "question": "[Add content] percentage — Question 242",
     "options": [
       "Option A",
@@ -3291,7 +3291,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_243",
+    "id": "maths_percentage_269",
     "question": "[Add content] percentage — Question 243",
     "options": [
       "Option A",
@@ -3303,7 +3303,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_244",
+    "id": "maths_percentage_270",
     "question": "[Add content] percentage — Question 244",
     "options": [
       "Option A",
@@ -3315,7 +3315,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_245",
+    "id": "maths_percentage_271",
     "question": "[Add content] percentage — Question 245",
     "options": [
       "Option A",
@@ -3327,7 +3327,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_246",
+    "id": "maths_percentage_272",
     "question": "[Add content] percentage — Question 246",
     "options": [
       "Option A",
@@ -3339,7 +3339,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_247",
+    "id": "maths_percentage_273",
     "question": "[Add content] percentage — Question 247",
     "options": [
       "Option A",
@@ -3351,7 +3351,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_248",
+    "id": "maths_percentage_274",
     "question": "[Add content] percentage — Question 248",
     "options": [
       "Option A",
@@ -3363,7 +3363,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_249",
+    "id": "maths_percentage_275",
     "question": "[Add content] percentage — Question 249",
     "options": [
       "Option A",
@@ -3375,7 +3375,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_250",
+    "id": "maths_percentage_276",
     "question": "[Add content] percentage — Question 250",
     "options": [
       "Option A",
@@ -3387,7 +3387,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_251",
+    "id": "maths_percentage_277",
     "question": "[Add content] percentage — Question 251",
     "options": [
       "Option A",
@@ -3399,7 +3399,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_252",
+    "id": "maths_percentage_278",
     "question": "[Add content] percentage — Question 252",
     "options": [
       "Option A",
@@ -3411,7 +3411,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_253",
+    "id": "maths_percentage_279",
     "question": "[Add content] percentage — Question 253",
     "options": [
       "Option A",
@@ -3423,7 +3423,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_254",
+    "id": "maths_percentage_280",
     "question": "[Add content] percentage — Question 254",
     "options": [
       "Option A",
@@ -3435,7 +3435,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_255",
+    "id": "maths_percentage_281",
     "question": "[Add content] percentage — Question 255",
     "options": [
       "Option A",
@@ -3447,7 +3447,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_256",
+    "id": "maths_percentage_282",
     "question": "[Add content] percentage — Question 256",
     "options": [
       "Option A",
@@ -3459,7 +3459,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_257",
+    "id": "maths_percentage_283",
     "question": "[Add content] percentage — Question 257",
     "options": [
       "Option A",
@@ -3471,7 +3471,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_258",
+    "id": "maths_percentage_284",
     "question": "[Add content] percentage — Question 258",
     "options": [
       "Option A",
@@ -3483,7 +3483,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_259",
+    "id": "maths_percentage_285",
     "question": "[Add content] percentage — Question 259",
     "options": [
       "Option A",
@@ -3495,7 +3495,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_260",
+    "id": "maths_percentage_286",
     "question": "[Add content] percentage — Question 260",
     "options": [
       "Option A",
@@ -3507,7 +3507,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_261",
+    "id": "maths_percentage_287",
     "question": "[Add content] percentage — Question 261",
     "options": [
       "Option A",
@@ -3519,7 +3519,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_262",
+    "id": "maths_percentage_288",
     "question": "[Add content] percentage — Question 262",
     "options": [
       "Option A",
@@ -3531,7 +3531,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_263",
+    "id": "maths_percentage_289",
     "question": "[Add content] percentage — Question 263",
     "options": [
       "Option A",
@@ -3543,7 +3543,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_264",
+    "id": "maths_percentage_290",
     "question": "[Add content] percentage — Question 264",
     "options": [
       "Option A",
@@ -3555,7 +3555,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_265",
+    "id": "maths_percentage_291",
     "question": "[Add content] percentage — Question 265",
     "options": [
       "Option A",
@@ -3567,7 +3567,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_266",
+    "id": "maths_percentage_292",
     "question": "[Add content] percentage — Question 266",
     "options": [
       "Option A",
@@ -3579,7 +3579,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_267",
+    "id": "maths_percentage_293",
     "question": "[Add content] percentage — Question 267",
     "options": [
       "Option A",
@@ -3591,7 +3591,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_268",
+    "id": "maths_percentage_294",
     "question": "[Add content] percentage — Question 268",
     "options": [
       "Option A",
@@ -3603,7 +3603,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_269",
+    "id": "maths_percentage_295",
     "question": "[Add content] percentage — Question 269",
     "options": [
       "Option A",
@@ -3615,7 +3615,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_270",
+    "id": "maths_percentage_296",
     "question": "[Add content] percentage — Question 270",
     "options": [
       "Option A",
@@ -3627,7 +3627,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_271",
+    "id": "maths_percentage_297",
     "question": "[Add content] percentage — Question 271",
     "options": [
       "Option A",
@@ -3639,7 +3639,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_272",
+    "id": "maths_percentage_298",
     "question": "[Add content] percentage — Question 272",
     "options": [
       "Option A",
@@ -3651,7 +3651,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_273",
+    "id": "maths_percentage_299",
     "question": "[Add content] percentage — Question 273",
     "options": [
       "Option A",
@@ -3663,7 +3663,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_274",
+    "id": "maths_percentage_300",
     "question": "[Add content] percentage — Question 274",
     "options": [
       "Option A",
@@ -3675,7 +3675,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_275",
+    "id": "maths_percentage_301",
     "question": "[Add content] percentage — Question 275",
     "options": [
       "Option A",
@@ -3687,7 +3687,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_276",
+    "id": "maths_percentage_302",
     "question": "[Add content] percentage — Question 276",
     "options": [
       "Option A",
@@ -3699,7 +3699,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_277",
+    "id": "maths_percentage_303",
     "question": "[Add content] percentage — Question 277",
     "options": [
       "Option A",
@@ -3711,7 +3711,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_278",
+    "id": "maths_percentage_304",
     "question": "[Add content] percentage — Question 278",
     "options": [
       "Option A",
@@ -3723,7 +3723,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_279",
+    "id": "maths_percentage_305",
     "question": "[Add content] percentage — Question 279",
     "options": [
       "Option A",
@@ -3735,7 +3735,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_280",
+    "id": "maths_percentage_306",
     "question": "[Add content] percentage — Question 280",
     "options": [
       "Option A",
@@ -3747,7 +3747,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_281",
+    "id": "maths_percentage_307",
     "question": "[Add content] percentage — Question 281",
     "options": [
       "Option A",
@@ -3759,7 +3759,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_282",
+    "id": "maths_percentage_308",
     "question": "[Add content] percentage — Question 282",
     "options": [
       "Option A",
@@ -3771,7 +3771,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_283",
+    "id": "maths_percentage_309",
     "question": "[Add content] percentage — Question 283",
     "options": [
       "Option A",
@@ -3783,7 +3783,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_284",
+    "id": "maths_percentage_310",
     "question": "[Add content] percentage — Question 284",
     "options": [
       "Option A",
@@ -3795,7 +3795,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_285",
+    "id": "maths_percentage_311",
     "question": "[Add content] percentage — Question 285",
     "options": [
       "Option A",
@@ -3807,7 +3807,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_286",
+    "id": "maths_percentage_312",
     "question": "[Add content] percentage — Question 286",
     "options": [
       "Option A",
@@ -3819,7 +3819,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_287",
+    "id": "maths_percentage_313",
     "question": "[Add content] percentage — Question 287",
     "options": [
       "Option A",
@@ -3831,7 +3831,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_288",
+    "id": "maths_percentage_314",
     "question": "[Add content] percentage — Question 288",
     "options": [
       "Option A",
@@ -3843,7 +3843,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_289",
+    "id": "maths_percentage_315",
     "question": "[Add content] percentage — Question 289",
     "options": [
       "Option A",
@@ -3855,7 +3855,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_290",
+    "id": "maths_percentage_316",
     "question": "[Add content] percentage — Question 290",
     "options": [
       "Option A",
@@ -3867,7 +3867,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_291",
+    "id": "maths_percentage_317",
     "question": "[Add content] percentage — Question 291",
     "options": [
       "Option A",
@@ -3879,7 +3879,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_292",
+    "id": "maths_percentage_318",
     "question": "[Add content] percentage — Question 292",
     "options": [
       "Option A",
@@ -3891,7 +3891,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_293",
+    "id": "maths_percentage_319",
     "question": "[Add content] percentage — Question 293",
     "options": [
       "Option A",
@@ -3903,7 +3903,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_294",
+    "id": "maths_percentage_320",
     "question": "[Add content] percentage — Question 294",
     "options": [
       "Option A",
@@ -3915,7 +3915,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_295",
+    "id": "maths_percentage_321",
     "question": "[Add content] percentage — Question 295",
     "options": [
       "Option A",
@@ -3927,7 +3927,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_296",
+    "id": "maths_percentage_322",
     "question": "[Add content] percentage — Question 296",
     "options": [
       "Option A",
@@ -3939,7 +3939,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_297",
+    "id": "maths_percentage_323",
     "question": "[Add content] percentage — Question 297",
     "options": [
       "Option A",
@@ -3951,7 +3951,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_298",
+    "id": "maths_percentage_324",
     "question": "[Add content] percentage — Question 298",
     "options": [
       "Option A",
@@ -3963,7 +3963,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_299",
+    "id": "maths_percentage_325",
     "question": "[Add content] percentage — Question 299",
     "options": [
       "Option A",
@@ -3975,7 +3975,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_percentage_300",
+    "id": "maths_percentage_326",
     "question": "[Add content] percentage — Question 300",
     "options": [
       "Option A",

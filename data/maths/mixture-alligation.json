@@ -675,7 +675,7 @@
     "solutionHi": "प्रारंभिक दूध अंश M मानें। दो बार प्रतिस्थापन के बाद दूध = M×(3/4)^2 = 36%। अतः M = 64%।"
   },
   {
-    "id": "mixture_alligation_040",
+    "id": "maths_mixture_alligation_051",
     "question": "In 65 litres of a mixture of kerosene and petrol, the ratio of kerosene to petrol is 3:2. In order to make this ratio 4:5, how many litres of petrol should be added to the given mixture?",
     "options": [
       "29.25",
@@ -689,7 +689,7 @@
     "solutionHi": "मिट्टी का तेल = 39 L तथा पेट्रोल = 26 L। यदि x लीटर पेट्रोल मिलाया जाए तो 39/(26+x)=4/5। हल करने पर x = 22.75 L।"
   },
   {
-    "id": "mixture_alligation_041",
+    "id": "maths_mixture_alligation_052",
     "question": "The ratio of milk and water in a vessel is 4:7. If 25 litres water is added, the ratio becomes 6:13. Find the initial quantity of mixture (in litres).",
     "options": [
       "150",
@@ -703,7 +703,7 @@
     "solutionHi": "दूध = 4x और पानी = 7x मानें। 4x/(7x+25)=6/13। हल करने पर x=15। अतः प्रारंभिक मिश्रण = 11x = 165 लीटर।"
   },
   {
-    "id": "mixture_alligation_042",
+    "id": "maths_mixture_alligation_053",
     "question": "The ratio of milk and water in a vessel is 8:5. If 44 litres milk and 44 litres water are added, then milk becomes 28.56% more than water. Find the initial quantity of water.",
     "options": [
       "48",
@@ -717,7 +717,7 @@
     "solutionHi": "दूध = 8x तथा पानी = 5x मानें। नई मात्रा का अनुपात 9:7 होगा। (8x+44)/(5x+44)=9/7। हल करने पर x=8। अतः प्रारंभिक पानी = 40 लीटर।"
   },
   {
-    "id": "mixture_alligation_043",
+    "id": "maths_mixture_alligation_054",
     "question": "Babulal had 19 litres of giloy juice in which giloy and water were in the ratio 2:9. He sold 2.5 litres of juice. Later he added some water and the ratio of giloy and water became 1:5. How much water was added?",
     "options": [
       "1.5 litres",
@@ -731,7 +731,7 @@
     "solutionHi": "प्रारंभ में गिलोय = 38/11 L और पानी = 171/11 L। 2.5 L बेचने के बाद गिलोय = 3 L तथा पानी = 13.5 L बचता है। 3/(13.5+x)=1/5 से x = 1.5 L।"
   },
   {
-    "id": "mixture_alligation_044",
+    "id": "maths_mixture_alligation_055",
     "question": "When 1 litre water is added to a mixture of milk and water, the new mixture contains 25% milk. When 2 litres milk is added to the new mixture, the resultant mixture contains 40% milk. What is the percentage of milk in the original mixture?",
     "options": [
       "33.33%",
@@ -745,7 +745,7 @@
     "solutionHi": "M और T क्रमशः दूध व कुल मिश्रण मानें। M/(T+1)=1/4 तथा (M+2)/(T+3)=2/5। हल करने पर M=1 और T=3। अतः प्रारंभिक दूध प्रतिशत = 33.33%।"
   },
   {
-    "id": "mixture_alligation_045",
+    "id": "maths_mixture_alligation_056",
     "question": "In an x litre solution of alcohol and water, the ratio of alcohol and water is 5:7. If 5 litres alcohol and 11 litres water are added, the percentage of alcohol becomes 40%. Find x.",
     "options": [
       "84",
@@ -759,7 +759,7 @@
     "solutionHi": "प्रारंभिक अल्कोहल = 5x/12। नई स्थिति में (5x/12+5)/(x+16)=2/5। हल करने पर x=84 प्राप्त होता है।"
   },
   {
-    "id": "mixture_alligation_046",
+    "id": "maths_mixture_alligation_057",
     "question": "A vessel contains acid and water in the ratio 13:4. 15.5 litres of mixture is removed and replaced by 1.5 litres water and 3 litres acid. If the final mixture contains 25% water, what was the initial quantity of mixture?",
     "options": [
       "34",
@@ -773,7 +773,7 @@
     "solutionHi": "कुल मिश्रण V लीटर मानें। प्रारंभिक पानी = 4V/17। निकाले गए पानी और जोड़े गए पानी को समायोजित कर अंतिम पानी = V/4 रखें। हल करने पर V = 34 लीटर।"
   },
   {
-    "id": "mixture_alligation_047",
+    "id": "maths_mixture_alligation_058",
     "question": "A vessel contains 2.5 litres water and 10 litres milk. 20% of the mixture is removed. Then x litres water is added to reverse the ratio of water and milk. Then y litres milk is added to reverse the ratio again. Find y.",
     "options": [
       "100",
@@ -787,7 +787,7 @@
     "solutionHi": "20% निकालने पर पानी = 2 L और दूध = 8 L बचता है। अनुपात उलटने हेतु 6 L पानी मिलाया जाता है। पुनः अनुपात उलटने हेतु कुल दूध 32 L होना चाहिए। अतः अतिरिक्त दूध = 24 L। उत्तर कुंजी विकल्प (c) देती है।"
   },
   {
-    "id": "mixture_alligation_048",
+    "id": "maths_mixture_alligation_059",
     "question": "A bottle is full of Dettol. One-third of it is taken out and the bottle is refilled with water. This operation is repeated four times. Find the final ratio of Dettol and water in the bottle.",
     "options": [
       "16:65",
@@ -801,7 +801,7 @@
     "solutionHi": "हर बार डेटॉल की मात्रा 2/3 रह जाती है। 4 बार बाद डेटॉल = (2/3)^4 = 16/81। पानी = 65/81। अतः अनुपात = 16:65।"
   },
   {
-    "id": "mixture_alligation_049",
+    "id": "maths_mixture_alligation_060",
     "question": "A vessel contains milk and water in the ratio 5:3. Some mixture is removed and replaced by water. After the operation, the ratio becomes 5:7. Find the fraction of mixture removed.",
     "options": [
       "1/2",
@@ -815,7 +815,7 @@
     "solutionHi": "निकाला गया अंश x मानें। प्रतिस्थापन के बाद दूध का अंश (5/8)(1−x) होगा। अंतिम दूध अंश 5/12 है। हल करने पर x=1/3 प्राप्त होता है।"
   },
   {
-    "id": "mixture_alligation_050",
+    "id": "maths_mixture_alligation_061",
     "question": "In a vessel containing milk and water, 25% of the mixture is removed and replaced with water. This process is repeated twice. If milk left is 36%, find the initial percentage of milk.",
     "options": [
       "64%",
@@ -1179,7 +1179,7 @@
     "solutionHi": "दूध का अंश = (3/5)×(4/5)², विकल्पों के अनुसार उत्तर 24:26 है।"
   },
   {
-    "id": "maths_mixture_alligation_051",
+    "id": "maths_mixture_alligation_087",
     "question": "[Add content] mixture-alligation — Question 51",
     "options": [
       "Option A",
@@ -1191,7 +1191,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_052",
+    "id": "maths_mixture_alligation_088",
     "question": "[Add content] mixture-alligation — Question 52",
     "options": [
       "Option A",
@@ -1203,7 +1203,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_053",
+    "id": "maths_mixture_alligation_089",
     "question": "[Add content] mixture-alligation — Question 53",
     "options": [
       "Option A",
@@ -1215,7 +1215,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_054",
+    "id": "maths_mixture_alligation_090",
     "question": "[Add content] mixture-alligation — Question 54",
     "options": [
       "Option A",
@@ -1227,7 +1227,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_055",
+    "id": "maths_mixture_alligation_091",
     "question": "[Add content] mixture-alligation — Question 55",
     "options": [
       "Option A",
@@ -1239,7 +1239,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_056",
+    "id": "maths_mixture_alligation_092",
     "question": "[Add content] mixture-alligation — Question 56",
     "options": [
       "Option A",
@@ -1251,7 +1251,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_057",
+    "id": "maths_mixture_alligation_093",
     "question": "[Add content] mixture-alligation — Question 57",
     "options": [
       "Option A",
@@ -1263,7 +1263,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_058",
+    "id": "maths_mixture_alligation_094",
     "question": "[Add content] mixture-alligation — Question 58",
     "options": [
       "Option A",
@@ -1275,7 +1275,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_059",
+    "id": "maths_mixture_alligation_095",
     "question": "[Add content] mixture-alligation — Question 59",
     "options": [
       "Option A",
@@ -1287,7 +1287,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_060",
+    "id": "maths_mixture_alligation_096",
     "question": "[Add content] mixture-alligation — Question 60",
     "options": [
       "Option A",
@@ -1299,7 +1299,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_061",
+    "id": "maths_mixture_alligation_097",
     "question": "[Add content] mixture-alligation — Question 61",
     "options": [
       "Option A",
@@ -1611,7 +1611,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_087",
+    "id": "maths_mixture_alligation_123",
     "question": "[Add content] mixture-alligation — Question 87",
     "options": [
       "Option A",
@@ -1623,7 +1623,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_088",
+    "id": "maths_mixture_alligation_124",
     "question": "[Add content] mixture-alligation — Question 88",
     "options": [
       "Option A",
@@ -1635,7 +1635,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_089",
+    "id": "maths_mixture_alligation_125",
     "question": "[Add content] mixture-alligation — Question 89",
     "options": [
       "Option A",
@@ -1647,7 +1647,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_090",
+    "id": "maths_mixture_alligation_126",
     "question": "[Add content] mixture-alligation — Question 90",
     "options": [
       "Option A",
@@ -1659,7 +1659,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_091",
+    "id": "maths_mixture_alligation_127",
     "question": "[Add content] mixture-alligation — Question 91",
     "options": [
       "Option A",
@@ -1671,7 +1671,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_092",
+    "id": "maths_mixture_alligation_128",
     "question": "[Add content] mixture-alligation — Question 92",
     "options": [
       "Option A",
@@ -1683,7 +1683,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_093",
+    "id": "maths_mixture_alligation_129",
     "question": "[Add content] mixture-alligation — Question 93",
     "options": [
       "Option A",
@@ -1695,7 +1695,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_094",
+    "id": "maths_mixture_alligation_130",
     "question": "[Add content] mixture-alligation — Question 94",
     "options": [
       "Option A",
@@ -1707,7 +1707,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_095",
+    "id": "maths_mixture_alligation_131",
     "question": "[Add content] mixture-alligation — Question 95",
     "options": [
       "Option A",
@@ -1719,7 +1719,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_096",
+    "id": "maths_mixture_alligation_132",
     "question": "[Add content] mixture-alligation — Question 96",
     "options": [
       "Option A",
@@ -1731,7 +1731,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_097",
+    "id": "maths_mixture_alligation_133",
     "question": "[Add content] mixture-alligation — Question 97",
     "options": [
       "Option A",
@@ -2043,7 +2043,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_123",
+    "id": "maths_mixture_alligation_159",
     "question": "[Add content] mixture-alligation — Question 123",
     "options": [
       "Option A",
@@ -2055,7 +2055,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_124",
+    "id": "maths_mixture_alligation_160",
     "question": "[Add content] mixture-alligation — Question 124",
     "options": [
       "Option A",
@@ -2067,7 +2067,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_125",
+    "id": "maths_mixture_alligation_161",
     "question": "[Add content] mixture-alligation — Question 125",
     "options": [
       "Option A",
@@ -2079,7 +2079,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_126",
+    "id": "maths_mixture_alligation_162",
     "question": "[Add content] mixture-alligation — Question 126",
     "options": [
       "Option A",
@@ -2091,7 +2091,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_127",
+    "id": "maths_mixture_alligation_163",
     "question": "[Add content] mixture-alligation — Question 127",
     "options": [
       "Option A",
@@ -2103,7 +2103,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_128",
+    "id": "maths_mixture_alligation_164",
     "question": "[Add content] mixture-alligation — Question 128",
     "options": [
       "Option A",
@@ -2115,7 +2115,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_129",
+    "id": "maths_mixture_alligation_165",
     "question": "[Add content] mixture-alligation — Question 129",
     "options": [
       "Option A",
@@ -2127,7 +2127,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_130",
+    "id": "maths_mixture_alligation_166",
     "question": "[Add content] mixture-alligation — Question 130",
     "options": [
       "Option A",
@@ -2139,7 +2139,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_131",
+    "id": "maths_mixture_alligation_167",
     "question": "[Add content] mixture-alligation — Question 131",
     "options": [
       "Option A",
@@ -2151,7 +2151,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_132",
+    "id": "maths_mixture_alligation_168",
     "question": "[Add content] mixture-alligation — Question 132",
     "options": [
       "Option A",
@@ -2163,7 +2163,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_133",
+    "id": "maths_mixture_alligation_169",
     "question": "[Add content] mixture-alligation — Question 133",
     "options": [
       "Option A",
@@ -2475,7 +2475,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_159",
+    "id": "maths_mixture_alligation_195",
     "question": "[Add content] mixture-alligation — Question 159",
     "options": [
       "Option A",
@@ -2487,7 +2487,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_160",
+    "id": "maths_mixture_alligation_196",
     "question": "[Add content] mixture-alligation — Question 160",
     "options": [
       "Option A",
@@ -2499,7 +2499,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_161",
+    "id": "maths_mixture_alligation_197",
     "question": "[Add content] mixture-alligation — Question 161",
     "options": [
       "Option A",
@@ -2511,7 +2511,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_162",
+    "id": "maths_mixture_alligation_198",
     "question": "[Add content] mixture-alligation — Question 162",
     "options": [
       "Option A",
@@ -2523,7 +2523,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_163",
+    "id": "maths_mixture_alligation_199",
     "question": "[Add content] mixture-alligation — Question 163",
     "options": [
       "Option A",
@@ -2535,7 +2535,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_164",
+    "id": "maths_mixture_alligation_200",
     "question": "[Add content] mixture-alligation — Question 164",
     "options": [
       "Option A",
@@ -2547,7 +2547,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_165",
+    "id": "maths_mixture_alligation_201",
     "question": "[Add content] mixture-alligation — Question 165",
     "options": [
       "Option A",
@@ -2559,7 +2559,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_166",
+    "id": "maths_mixture_alligation_202",
     "question": "[Add content] mixture-alligation — Question 166",
     "options": [
       "Option A",
@@ -2571,7 +2571,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_167",
+    "id": "maths_mixture_alligation_203",
     "question": "[Add content] mixture-alligation — Question 167",
     "options": [
       "Option A",
@@ -2583,7 +2583,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_168",
+    "id": "maths_mixture_alligation_204",
     "question": "[Add content] mixture-alligation — Question 168",
     "options": [
       "Option A",
@@ -2595,7 +2595,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_169",
+    "id": "maths_mixture_alligation_205",
     "question": "[Add content] mixture-alligation — Question 169",
     "options": [
       "Option A",
@@ -2907,7 +2907,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_195",
+    "id": "maths_mixture_alligation_231",
     "question": "[Add content] mixture-alligation — Question 195",
     "options": [
       "Option A",
@@ -2919,7 +2919,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_196",
+    "id": "maths_mixture_alligation_232",
     "question": "[Add content] mixture-alligation — Question 196",
     "options": [
       "Option A",
@@ -2931,7 +2931,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_197",
+    "id": "maths_mixture_alligation_233",
     "question": "[Add content] mixture-alligation — Question 197",
     "options": [
       "Option A",
@@ -2943,7 +2943,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_198",
+    "id": "maths_mixture_alligation_234",
     "question": "[Add content] mixture-alligation — Question 198",
     "options": [
       "Option A",
@@ -2955,7 +2955,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_199",
+    "id": "maths_mixture_alligation_235",
     "question": "[Add content] mixture-alligation — Question 199",
     "options": [
       "Option A",
@@ -2967,7 +2967,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_200",
+    "id": "maths_mixture_alligation_236",
     "question": "[Add content] mixture-alligation — Question 200",
     "options": [
       "Option A",
@@ -2979,7 +2979,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_201",
+    "id": "maths_mixture_alligation_237",
     "question": "[Add content] mixture-alligation — Question 201",
     "options": [
       "Option A",
@@ -2991,7 +2991,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_202",
+    "id": "maths_mixture_alligation_238",
     "question": "[Add content] mixture-alligation — Question 202",
     "options": [
       "Option A",
@@ -3003,7 +3003,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_203",
+    "id": "maths_mixture_alligation_239",
     "question": "[Add content] mixture-alligation — Question 203",
     "options": [
       "Option A",
@@ -3015,7 +3015,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_204",
+    "id": "maths_mixture_alligation_240",
     "question": "[Add content] mixture-alligation — Question 204",
     "options": [
       "Option A",
@@ -3027,7 +3027,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_205",
+    "id": "maths_mixture_alligation_241",
     "question": "[Add content] mixture-alligation — Question 205",
     "options": [
       "Option A",
@@ -3339,7 +3339,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_231",
+    "id": "maths_mixture_alligation_267",
     "question": "[Add content] mixture-alligation — Question 231",
     "options": [
       "Option A",
@@ -3351,7 +3351,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_232",
+    "id": "maths_mixture_alligation_268",
     "question": "[Add content] mixture-alligation — Question 232",
     "options": [
       "Option A",
@@ -3363,7 +3363,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_233",
+    "id": "maths_mixture_alligation_269",
     "question": "[Add content] mixture-alligation — Question 233",
     "options": [
       "Option A",
@@ -3375,7 +3375,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_234",
+    "id": "maths_mixture_alligation_270",
     "question": "[Add content] mixture-alligation — Question 234",
     "options": [
       "Option A",
@@ -3387,7 +3387,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_235",
+    "id": "maths_mixture_alligation_271",
     "question": "[Add content] mixture-alligation — Question 235",
     "options": [
       "Option A",
@@ -3399,7 +3399,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_236",
+    "id": "maths_mixture_alligation_272",
     "question": "[Add content] mixture-alligation — Question 236",
     "options": [
       "Option A",
@@ -3411,7 +3411,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_237",
+    "id": "maths_mixture_alligation_273",
     "question": "[Add content] mixture-alligation — Question 237",
     "options": [
       "Option A",
@@ -3423,7 +3423,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_238",
+    "id": "maths_mixture_alligation_274",
     "question": "[Add content] mixture-alligation — Question 238",
     "options": [
       "Option A",
@@ -3435,7 +3435,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_239",
+    "id": "maths_mixture_alligation_275",
     "question": "[Add content] mixture-alligation — Question 239",
     "options": [
       "Option A",
@@ -3447,7 +3447,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_240",
+    "id": "maths_mixture_alligation_276",
     "question": "[Add content] mixture-alligation — Question 240",
     "options": [
       "Option A",
@@ -3459,7 +3459,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_241",
+    "id": "maths_mixture_alligation_277",
     "question": "[Add content] mixture-alligation — Question 241",
     "options": [
       "Option A",
@@ -3771,7 +3771,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_267",
+    "id": "maths_mixture_alligation_303",
     "question": "[Add content] mixture-alligation — Question 267",
     "options": [
       "Option A",
@@ -3783,7 +3783,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_268",
+    "id": "maths_mixture_alligation_304",
     "question": "[Add content] mixture-alligation — Question 268",
     "options": [
       "Option A",
@@ -3795,7 +3795,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_269",
+    "id": "maths_mixture_alligation_305",
     "question": "[Add content] mixture-alligation — Question 269",
     "options": [
       "Option A",
@@ -3807,7 +3807,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_270",
+    "id": "maths_mixture_alligation_306",
     "question": "[Add content] mixture-alligation — Question 270",
     "options": [
       "Option A",
@@ -3819,7 +3819,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_271",
+    "id": "maths_mixture_alligation_307",
     "question": "[Add content] mixture-alligation — Question 271",
     "options": [
       "Option A",
@@ -3831,7 +3831,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_272",
+    "id": "maths_mixture_alligation_308",
     "question": "[Add content] mixture-alligation — Question 272",
     "options": [
       "Option A",
@@ -3843,7 +3843,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_273",
+    "id": "maths_mixture_alligation_309",
     "question": "[Add content] mixture-alligation — Question 273",
     "options": [
       "Option A",
@@ -3855,7 +3855,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_274",
+    "id": "maths_mixture_alligation_310",
     "question": "[Add content] mixture-alligation — Question 274",
     "options": [
       "Option A",
@@ -3867,7 +3867,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_275",
+    "id": "maths_mixture_alligation_311",
     "question": "[Add content] mixture-alligation — Question 275",
     "options": [
       "Option A",
@@ -3879,7 +3879,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_276",
+    "id": "maths_mixture_alligation_312",
     "question": "[Add content] mixture-alligation — Question 276",
     "options": [
       "Option A",
@@ -3891,7 +3891,7 @@
     "explanation": "Replace with real SSC CGL question."
   },
   {
-    "id": "maths_mixture_alligation_277",
+    "id": "maths_mixture_alligation_313",
     "question": "[Add content] mixture-alligation — Question 277",
     "options": [
       "Option A",

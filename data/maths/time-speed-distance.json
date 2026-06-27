@@ -399,7 +399,6 @@
       "620 km"
     ],
     "correctAnswer": "420 km",
-    
     "solution": "# Solution\n\n**Step 1: Set up equations using Time = Distance/Speed**\n\nLet original speed = s km/h and distance = d km\n\n- Original time: t = d/s\n- At (s + 10) km/h: time = d/(s+10) = d/s - 1\n- At (s + 20) km/h: time = d/(s+20) = d/s - 0.75\n\n**Step 2: Form first equation from the second condition**\n\n$$\\frac{d}{s} - \\frac{d}{s+10} = 1$$\n\n$$d\\left(\\frac{s+10-s}{s(s+10)}\\right) = 1$$\n\n$$\\frac{10d}{s(s+10)} = 1$$\n\n$$10d = s(s+10)$$ ... (Equation 1)\n\n**Step 3: Form second equation from the third condition**\n\n$$\\frac{d}{s} - \\frac{d}{s+20} = 0.75$$\n\n$$d\\left(\\frac{20}{s(s+20)}\\right) = 0.75$$\n\n$$20d = 0.75s(s+20)$$\n\n$$80d = 3s(s+20)$$ ... (Equation 2)\n\n**Step 4: Solve by elimination**\n\nFrom Equation 1: d = s(s+10)/10\n\nSubstitute in Equation 2:\n$$80"
   },
   {
@@ -413,7 +412,6 @@
       "15.8 km/h"
     ],
     "correctAnswer": "14.4 km/h",
-    
     "solution": "**Step 1: Set up equations using Distance = Speed × Time**\n\nLet distance = D km, and current time = t hours\n\n- At 12 km/h: D = 12 × (t + 2)  ... reaches at 2 PM (2 hours later)\n- At 18 km/h: D = 18 × t  ... reaches at 12 noon (current time)\n\n**Step 2: Solve for distance and current time**\n\nFrom both equations:\n12(t + 2) = 18t\n12t + 24 = 18t\n24 = 6t\n**t = 4 hours**\n\nTherefore: **D = 18 × 4 = 72 km**\n\n**Step 3: Find required speed to reach at 1 PM**\n\nTo reach at 1 PM, time available = t + 1 = 4 + 1 = 5 hours\n\nRequired speed = Distance/Time = 72/5 = **14.4 km/h**\n\n**Answer: 14.4 km/h** ✓"
   },
   {
@@ -427,7 +425,6 @@
       "9:40 AM"
     ],
     "correctAnswer": "9:00 AM",
-    
     "solution": "**Step 1: Set up equations using the given conditions**\n\nLet distance = d km and scheduled time to reach = t hours (from 8:20 AM)\n\n- At 10 km/h: Time taken = d/10 hours, and he's 8 min (2/15 hr) late\n  - d/10 = t + 2/15 ... (equation 1)\n\n- At 16 km/h: Time taken = d/16 hours, and he's 10 min (1/6 hr) early\n  - d/16 = t - 1/6 ... (equation 2)\n\n**Step 2: Solve for distance (d)**\n\nSubtract equation 2 from equation 1:\n- d/10 - d/16 = (t + 2/15) - (t - 1/6)\n- d(8-5)/(80) = 2/15 + 1/6\n- 3d/80 = 4/30 + 5/30 = 9/30 = 3/10\n- d = (3/10) × (80/3) = 8 km\n\n**Step 3: Solve for scheduled time (t)**\n\nSubstitute d = 8 in equation 2:\n- 8/16 = t - 1/6\n- 1/2 = t - 1/6\n- t = 1/2 + 1/6 = 3/6 +"
   },
   {
@@ -441,7 +438,6 @@
       "12"
     ],
     "correctAnswer": "12",
-    
     "solution": "**Step 1: Set up equations using Distance = Speed × Time**\n\nLet distance = d km, and departure time = t (in hours after some reference)\n\n- At 8 km/h: reaches at 10:15 AM → d = 8 × (10:15 - t)\n- At 15 km/h: reaches at 9:40 AM → d = 15 × (9:40 - t)\n\n**Step 2: Find the time difference and equate distances**\n\nTime difference between 10:15 AM and 9:40 AM = 35 minutes = 7/12 hours\n\nSince both travel the same distance:\n8(10:15 - t) = 15(9:40 - t)\n\nLet (10:15 - t) = T₁ and (9:40 - t) = T₂\nThen: T₁ - T₂ = 7/12\n\nFrom 8T₁ = 15T₂:\n8T₁ = 15T₂\nT₁ = (15/8)T₂\n\n**Step 3: Solve for time taken at each speed**\n\n(15/8)T₂ - T₂ = 7/12\n(7/8)T₂ = 7/12\nT₂ = 2/3 hours = 40 minutes\n\nTherefore: T₁ = T₂ + 7/12 = 2/3"
   },
   {
@@ -455,7 +451,6 @@
       "12"
     ],
     "correctAnswer": "12",
-   
     "solution": "**Step 1: Set up variables**\nLet J = Jeevan's speed, N = Neeru's speed, D = distance between homes\n\n**Step 2: Use Scenario 1 (both leave at 8:00 AM, meet at 8:04 AM)**\nTime = 4 minutes\n- Distance covered: 4J + 4N = D\n- Therefore: J + N = D/4 ... (equation 1)\n\n**Step 3: Use Scenario 2 (Neeru leaves at 8:00 AM, Jeevan leaves at 8:03 AM, meet at 8:05 AM)**\n- Neeru walks for 5 minutes, Jeevan walks for 2 minutes\n- Distance covered: 5N + 2J = D ... (equation 2)\n\n**Step 4: Solve for J and N**\nFrom equation 1: D = 4(J + N)\n\nSubstitute into equation 2:\n- 5N + 2J = 4J + 4N\n- 5N - 4N = 4J - 2J\n- N = 2J\n\n**Step 5: Find time for Jeevan to reach Neeru's home**\nFrom equation 1: J + N = D/4\n- J + 2J = D/4\n- 3J = D/4\n- D = 12J\n\nTime for Jeevan to walk distance D:\n- Time = D/J"
   },
   {
@@ -469,7 +464,6 @@
       "11.7"
     ],
     "correctAnswer": "10.8",
-   
     "solution": "**Step 1: Apply the relative speed meeting formula**\n\nWhen two objects meet and then continue, if they take times t₁ and t₂ after meeting:\n$$\\frac{Speed_A}{Speed_B} = \\sqrt{\\frac{t_2}{t_1}}$$\n\nHere, A takes 2.45 hours and B takes 4.05 hours after crossing.\n\n**Step 2: Calculate the speed ratio**\n\n$$\\frac{Speed_A}{Speed_B} = \\sqrt{\\frac{4.05}{2.45}}$$\n\n$$= \\sqrt{1.6531} = 1.286$$\n\n**Step 3: Find A's speed**\n\nGiven B's speed = 8.4 km/h\n\n$$Speed_A = 1.286 × 8.4 = 10.8 \\text{ km/h}$$\n\n**Verification:** \n- Ratio = 10.8/8.4 = 1.286\n- √(4.05/2.45) = √1.6531 ≈ 1.286 ✓\n\n**Answer: 10.8 km/h** ✓"
   },
   {
@@ -483,7 +477,6 @@
       "96 km/h"
     ],
     "correctAnswer": "80 km/h",
-    
     "solution": "# Step-by-Step Solution\n\n**Step 1: Set up the relationship using the trains problem formula.**\n\nWhen two trains meet and then reach their destinations:\n$$\\frac{t_1}{t_2} = \\sqrt{\\frac{v_2}{v_1}}$$\n\nWhere:\n- t₁ = 8 hours 32 minutes = 8 + 32/60 = 256/30 hours (time for Calcutta Mail after meeting)\n- t₂ = 14 hours 42 minutes = 14 + 42/60 = 222/15 hours (time for Bombay Mail after meeting)\n- v₁ = 105 km/h (speed of Calcutta Mail)\n- v₂ = ? (speed of Bombay Mail)\n\n**Step 2: Simplify the times.**\n\n- t₁ = 256/30 = 128/15 hours\n- t₂ = 222/15 hours\n\n**Step 3: Apply the formula.**\n\n$$\\frac{128/15}{222/15} = \\sqrt{\\frac{v_2}{105}}$$\n\n$$\\frac{128}{222} = \\sqrt{\\frac{v_2}{105}}$$\n\n$$\\frac{64}{111} = \\sqrt{\\frac{v_2}{105}}$$\n\n**Step 4: Square both sides and solve.**\n\n$$\\frac{4096}{12321} = \\frac{v_2"
   },
   {
@@ -497,7 +490,6 @@
       "3⅗"
     ],
     "correctAnswer": "3⅗",
-   
     "solution": "**Step 1: Set up the relationship between speeds**\n- Let B's speed = b km/h\n- A's speed = 1.2b km/h (20% more than B)\n\n**Step 2: Use the meeting point concept**\n- Let they meet after time t hours\n- Distance covered by A before meeting = 1.2bt\n- Distance covered by B before meeting = bt\n\n**Step 3: Apply the time-after-meeting condition**\n- After meeting, A covers B's initial distance in 2.5 hours\n- After meeting, B covers A's initial distance in x hours\n\nUsing: Distance = Speed × Time\n- 1.2bt = b × 2.5 (A's equation)\n- bt = 1.2b × x (B's equation)\n\n**Step 4: Solve for x**\nFrom A's equation: 1.2t = 2.5\n- t = 2.5/1.2 = 25/12\n\nFrom B's equation: t = 1.2x\n- 25/12 = 1.2x\n- x = 25/(12 × 1.2) = 25/14.4 = 250/144 = 125/72\n\nConverting: 125/72 = 1.736... = 1 + 53/72\n\n**Step 5: Alternative approach (using speed ratio)**\n- Speed ratio A:B = 1.2:1 = 6:5\n- Time ratio after meeting = Inverse"
   },
   {
@@ -511,7 +503,6 @@
       "10:30 AM"
     ],
     "correctAnswer": "10:00 AM",
-   
     "solution": "**Step 1: Set up the relationship using the given formula**\n\nWhen two objects start simultaneously and cross each other, if they take times t₁ and t₂ after crossing to reach their destinations:\n\nTime to meet = √(t₁ × t₂)\n\nHere, t₁ = 80 minutes (Ram's time after crossing)\nt₂ = 45 minutes (Shyam's time after crossing)\n\n**Step 2: Calculate the meeting time**\n\nTime to meet = √(80 × 45)\n= √3600\n= 60 minutes\n\n**Step 3: Find the meeting time**\n\nThey start at 9:00 AM and meet after 60 minutes\n\nMeeting time = 9:00 AM + 60 minutes = **10:00 AM**\n\n**Answer: 10:00 AM ✓**"
   },
   {
@@ -525,7 +516,6 @@
       "72 min"
     ],
     "correctAnswer": "60 min",
-   
     "solution": "**Step-by-step Solution:**\n\n**Step 1: Set up variables**\n- Let A's speed = a, B's speed = b\n- Let they meet at time t minutes\n- Distance from P to meeting point = at\n- Distance from Q to meeting point = bt\n\n**Step 2: Use the given information**\n- After meeting, A takes 54 minutes to reach Q: A covers distance bt in 54 minutes\n  - Therefore: bt = 54a ... (equation 1)\n  \n- After meeting, B takes 24 minutes to reach P: B covers distance at in 24 minutes\n  - Therefore: at = 24b ... (equation 2)\n\n**Step 3: Find the ratio of speeds**\nFrom equation 1: b/a = 54/t\nFrom equation 2: a/b = 24/t\n\nMultiplying these equations:\n(b/a) × (a/b) = (54/t) × (24/t)\n1 = 1296/t²\nt² = 1296\nt = 36 minutes\n\n**Step 4: Calculate total time for B**\nFrom equation 2: at = 24b\n36a = 24b\na/b = 24/36 = 2/3\n\nTotal distance covered by B = bt + 24b = b(t + 24) = b(36 + 24)\n\nTotal time for B = (b × 60)/b = 36 + 24 = **60 minutes**"
   },
   {
@@ -539,7 +529,6 @@
       "960"
     ],
     "correctAnswer": "972",
-   
     "solution": "# Step-by-Step Solution\n\n**Step 1: Set up the relationship using the meeting point concept**\n\nWhen two people travel towards each other and meet:\n- Let Arvind's speed = $v_A = 54$ km/h\n- Let Surbhi's speed = $v_S$ (unknown)\n- After meeting, Arvind takes 6 hours to reach B\n- After meeting, Surbhi takes 24 hours to reach A\n\n**Step 2: Apply the formula for speeds after meeting**\n\nFor two travelers meeting and then completing their journeys:\n$$\\frac{v_A}{v_S} = \\sqrt{\\frac{t_A}{t_S}}$$\n\nwhere $t_A$ and $t_S$ are times taken after meeting.\n\n$$\\frac{54}{v_S} = \\sqrt{\\frac{6}{24}} = \\sqrt{\\frac{1}{4}} = \\frac{1}{2}$$\n\n$$v_S = 108 \\text{ km/h}$$\n\n**Step 3: Find time taken to meet**\n\nUsing the formula: $\\frac{t_A}{t_S} = \\frac{v_A^2}{v_S^2}$\n\n$$\\frac{6}{24} = \\frac{54^2}{v_S^2}$$\n\nFrom this, if time to meet = $t$, then:\n$$\\frac{54 \\cdot t}{108 \\cdot t}"
   },
   {
@@ -553,7 +542,6 @@
       "10:25 AM"
     ],
     "correctAnswer": "10:27 AM",
-   
     "solution": "**Step 1: Find the speed ratio of A and B**\n\nWhen they first meet at 10:00 AM:\n- A has covered 60% of the track\n- B has covered 40% of the track (remaining part)\n- They took the same time, so speed ratio: $S_A : S_B = 60 : 40 = 3 : 2$\n\n**Step 2: Find the time for A to complete one full circle**\n\nA returns to P at 10:12 AM, meaning A covers 100% of the track in 12 minutes.\n\n**Step 3: Find the time for B to complete one full circle**\n\nUsing the speed ratio $S_A : S_B = 3 : 2$:\n\nIf A takes 12 minutes for the full circle, then:\n$$\\frac{T_A}{T_B} = \\frac{S_B}{S_A} = \\frac{2}{3}$$\n\n$$\\frac{12}{T_B} = \\frac{2}{3}$$\n\n$$T_B = 12 × \\frac{3}{2} = 18 \\text{ minutes}$$\n\n**Step 4: Calculate B's return time**\n\nB starts at 10:00 AM and takes 18 minutes to return to P:\n$$10:00 \\text{ AM} + 18 \\text{ minutes} = 10:18 \\text{ AM}$$\n\nWait, let me verify with the correct answer"
   },
   {
@@ -567,7 +555,6 @@
       "16"
     ],
     "correctAnswer": "12",
-   
     "solution": "**Step 1:** Identify the difference in speeds\n- Speed without stoppages = 70 km/h\n- Speed with stoppages = 56 km/h\n- Loss in speed = 70 - 56 = 14 km/h\n\n**Step 2:** Interpret the speed loss\nThe loss of 14 km/h means the train covers 14 km less in 1 hour due to stoppages.\n\n**Step 3:** Calculate stopping time\nIf the train loses 14 km at a speed of 70 km/h, the time spent in stoppages is:\n\nTime = Distance/Speed = 14/70 hours\n\n**Step 4:** Convert to minutes\nTime in minutes = (14/70) × 60 = (1/5) × 60 = 12 minutes\n\nWait, let me recalculate:\nTime = 14/70 × 60 = 840/70 = 12 minutes\n\nActually, the correct approach: In 1 hour with stoppages, it travels 56 km instead of 70 km.\nTime spent traveling = 56/70 hours = 4/5 hours\nStopping time = 1 - 4/5 = 1/5 hours = 12 minutes\n\n**Step 5:** Verify with option\nHowever, checking: 56/70 = 0.8 hours of actual travel\nStopping time = (1 - 0.8) × 60 = 0.2"
   },
   {
@@ -581,7 +568,6 @@
       "15"
     ],
     "correctAnswer": "10",
-    
     "solution": "**Step 1: Understand the given information**\n- Speed excluding stoppages = 78 km/h\n- Speed including stoppages = 65 km/h\n- Need to find: Stoppage time per hour\n\n**Step 2: Calculate distance covered in 1 hour with stoppages**\nIn 1 hour, the bus covers 65 km (including stoppages)\n\n**Step 3: Calculate time spent actually moving**\nDistance covered = 65 km at speed of 78 km/h\nTime spent moving = Distance/Speed = 65/78 hours\n\n**Step 4: Calculate stoppage time per hour**\nStoppage time = 1 hour - (65/78) hours\n= (78 - 65)/78 hours\n= 13/78 hours\n= 1/6 hours\n\n**Step 5: Convert to minutes**\nStoppage time = (1/6) × 60 minutes = **10 minutes**\n\n**Answer: 10 minutes** ✓"
   },
   {
@@ -595,7 +581,6 @@
       "558 km"
     ],
     "correctAnswer": "552 km",
-    
     "solution": "# Time, Speed & Distance Solution\n\n**Step 1: Identify the pattern**\n- Hour 1: Speed = 35 km/h, Distance = 35 km\n- Hour 2: Speed = 37 km/h, Distance = 37 km\n- Hour 3: Speed = 39 km/h, Distance = 39 km\n- And so on...\n\nThis forms an arithmetic sequence: 35, 37, 39, ..., up to 12 terms\n\n**Step 2: Find the 12th term**\n- First term (a) = 35\n- Common difference (d) = 2\n- nth term = a + (n-1)d\n- 12th term = 35 + (12-1)×2 = 35 + 22 = 57 km\n\n**Step 3: Apply arithmetic series sum formula**\nSum = (n/2) × (first term + last term)\n\nTotal distance = (12/2) × (35 + 57)\n= 6 × 92\n= **552 km**\n\n✓ **Answer: 552 km** (Option 2)"
   },
   {
@@ -609,11 +594,10 @@
       "9"
     ],
     "correctAnswer": "8",
-    
     "solution": "# Solution: Time, Speed & Distance\n\n**Step 1: Identify the pattern**\n- Initial speed (1st hour): 21 km/h\n- Speed increases by 3 km/h every hour\n- Speed in each hour: 21, 24, 27, 30, 33, 36, 39, 42 km/h\n\n**Step 2: Calculate distance covered in each hour**\n- Hour 1: 21 km\n- Hour 2: 24 km\n- Hour 3: 27 km\n- Hour 4: 30 km\n- Hour 5: 33 km\n- Hour 6: 36 km\n- Hour 7: 39 km\n- Hour 8: 42 km\n\n**Step 3: Find the sum using arithmetic progression formula**\n- This is an AP with: a = 21, d = 3, n = ?\n- Sum = n/2 × (2a + (n-1)d) = 252\n\nSolving: n/2 × (42 + 3n - 3) = 252\n- n/2 × (39 + 3n) = 252\n- 3n² + 39n = 504\n- n² + 13n - 168 = 0\n- (n + 21)(n - 8) = 0\n- n = 8 (taking positive value)\n\n**Step 4: Verification**\nSum of 8 hours = 21 +"
   },
   {
-    "id": "maths_time_speed_distance_044",
+    "id": "maths_time_speed_distance_045",
     "question": "A man walks at a speed of 42 km/h. After every 13 km, he takes a rest for 9 minutes. How much time will he take to cover a distance of 91 km?",
     "questionHindi": "एक व्यक्ति 42 किमी/घंटा की चाल से चलता है। वह प्रत्येक 13 किमी के बाद 9 मिनट आराम करता है। उसे 91 किमी की दूरी तय करने में कितना समय लगेगा?",
     "options": [
@@ -623,11 +607,10 @@
       "193 minutes"
     ],
     "correctAnswer": "184 minutes",
-    
     "solution": "**Step 1: Calculate the number of rest stops**\n- Rest is taken after every 13 km\n- Total distance = 91 km\n- Number of rest stops = 91 ÷ 13 = 7 segments\n- Number of rests = 7 - 1 = 6 rests (rest is not taken after the final segment)\n\n**Step 2: Calculate walking time**\n- Speed = 42 km/h\n- Time = Distance ÷ Speed = 91 ÷ 42 hours\n- Time = 91/42 = 13/6 hours\n- Convert to minutes: (13/6) × 60 = 130 minutes\n\n**Step 3: Calculate total rest time**\n- Rest duration = 9 minutes per rest\n- Total rest time = 6 × 9 = 54 minutes\n\n**Step 4: Calculate total time**\n- Total time = Walking time + Rest time\n- Total time = 130 + 54 = **184 minutes**\n\n**Answer: 184 minutes** ✓"
   },
   {
-    "id": "maths_time_speed_distance_045",
+    "id": "maths_time_speed_distance_046",
     "question": "A train travels at a speed of 66 km/h and halts at five junctions for the same duration. It covers 1485 km in one day. For how long (in minutes) does the train stop at each junction?",
     "questionHindi": "एक ट्रेन 66 किमी/घंटा की चाल से यात्रा करती है और पाँच जंक्शनों पर समान समय के लिए रुकती है। वह एक दिन में 1485 किमी की दूरी तय करती है। प्रत्येक जंक्शन पर वह कितने मिनट रुकती है?",
     "options": [
@@ -637,11 +620,10 @@
       "20"
     ],
     "correctAnswer": "18",
-  
     "solution": "**Step 1: Convert speed to km/min for easier calculation**\n- Speed = 66 km/h = 66/60 km/min = 1.1 km/min\n\n**Step 2: Calculate total time in one day**\n- One day = 24 hours = 24 × 60 = 1440 minutes\n\n**Step 3: Calculate actual running time**\n- Distance covered = 1485 km\n- Running time = Distance/Speed = 1485/1.1 = 1350 minutes\n\n**Step 4: Calculate total halt time**\n- Total halt time = Total time - Running time\n- Total halt time = 1440 - 1350 = 90 minutes\n\n**Step 5: Calculate halt time per junction**\n- Number of junctions = 5\n- Halt time per junction = 90/5 = 18 minutes\n\n**Answer: 18 minutes** ✓"
   },
   {
-    "id": "maths_time_speed_distance_046",
+    "id": "maths_time_speed_distance_047",
     "question": "Anuj drives at 70 km/h and takes 3 halts of 10 minutes each. Anup drives at 80 km/h and takes 4 halts of 15 minutes each. If Anuj takes 8.5 hours to reach B, then how much time does Anup take?",
     "questionHindi": "अनुज 70 किमी/घंटा की गति से चलता है और 10-10 मिनट के 3 पड़ाव लेता है। अनुप 80 किमी/घंटा की गति से चलता है और 15-15 मिनट के 4 पड़ाव लेता है। यदि अनुज को B तक पहुँचने में 8.5 घंटे लगते हैं, तो अनुप को कितना समय लगेगा?",
     "options": [
@@ -651,11 +633,10 @@
       "4 h"
     ],
     "correctAnswer": "7 h",
-   
     "solution": "**Step 1: Calculate the distance traveled by Anuj**\n\nAnuj's total time = 8.5 hours\nHalt time = 3 × 10 = 30 minutes = 0.5 hours\nActual driving time = 8.5 - 0.5 = 8 hours\n\nDistance = Speed × Time = 70 × 8 = 560 km\n\n**Step 2: Calculate Anup's halt time**\n\nAnup's halts = 4 × 15 minutes = 60 minutes = 1 hour\n\n**Step 3: Calculate Anup's driving time**\n\nDistance is the same = 560 km\nAnup's speed = 80 km/h\nDriving time = Distance ÷ Speed = 560 ÷ 80 = 7 hours\n\n**Step 4: Calculate Anup's total time**\n\nTotal time = Driving time + Halt time = 7 + 1 = 8 hours\n\n**Wait, let me recalculate:**\n\nAnup's driving time = 7 hours\nAnup's halt time = 1 hour\nTotal time = 7 + 1 = 8 hours\n\nHowever, checking the correct answer given (7 h), the question likely asks for **only driving time** or the answer format differs.\n\nIf the answer is 7 h, it represents **Anup's driving time only = 7 hours**.\n\n**Answer: 7 hours**"
   },
   {
-    "id": "maths_time_speed_distance_047",
+    "id": "maths_time_speed_distance_048",
     "question": "Rahul and Mithun each travel 30 km. The sum of their speeds is 70 km/h and the total time taken by both is 2 hours 6 minutes. What is the difference between their speeds?",
     "questionHindi": "राहुल और मिथुन प्रत्येक 30 किमी की दूरी तय करते हैं। उनकी चालों का योग 70 किमी/घंटा है और कुल समय 2 घंटे 6 मिनट है। उनकी चालों में अंतर कितना है?",
     "options": [
@@ -665,11 +646,10 @@
       "35 km/h"
     ],
     "correctAnswer": "30 km/h",
-   
     "solution": "**Step 1: Set up the equations**\n\nLet Rahul's speed = r km/h and Mithun's speed = m km/h\n\nGiven:\n- r + m = 70 ... (equation 1)\n- Total time = 2 hours 6 minutes = 2 + 6/60 = 2.1 hours = 21/10 hours\n\n**Step 2: Express time equation**\n\nTime = Distance/Speed\n\nFor Rahul: 30/r hours\nFor Mithun: 30/m hours\n\nTotal time: 30/r + 30/m = 21/10 ... (equation 2)\n\n**Step 3: Simplify equation 2**\n\n30/r + 30/m = 21/10\n\n30(m + r)/(rm) = 21/10\n\nSubstitute r + m = 70:\n\n30(70)/(rm) = 21/10\n\n2100/(rm) = 21/10\n\nrm = 2100 × 10/21 = 1000 ... (equation 3)\n\n**Step 4: Find the difference**\n\nWe have:\n- r + m = 70\n- rm = 1000\n\nUsing (r - m)² = (r + m)² - 4rm:\n\n(r - m)² = 70² - 4(1000) = 4900 - 4000 = 900\n\nr - m = √900 = 30\n\n**Answer: 30"
   },
   {
-    "id": "maths_time_speed_distance_048",
+    "id": "maths_time_speed_distance_049",
     "question": "A car takes p minutes to travel 350 km with average speed u km/h. Another car takes q minutes to travel the same distance with average speed v km/h. If u − v = 5 and q − p = 140, then what is the value of u?",
     "questionHindi": "एक कार u किमी/घंटा की औसत चाल से 350 किमी की दूरी तय करने में p मिनट लेती है। दूसरी कार v किमी/घंटा की औसत चाल से वही दूरी q मिनट में तय करती है। यदि u − v = 5 तथा q − p = 140 हो, तो u का मान क्या है?",
     "options": [
@@ -679,11 +659,10 @@
       "20"
     ],
     "correctAnswer": "30",
-    
     "solution": "# Solution: Time, Speed & Distance\n\n**Step 1: Write the time-distance relationships**\n\nFor Car 1: Time = Distance/Speed\n$$p = \\frac{350}{u} \\times 60 \\text{ minutes}$$\n$$p = \\frac{21000}{u}$$\n\nFor Car 2: Similarly,\n$$q = \\frac{21000}{v}$$\n\n**Step 2: Use the condition q − p = 140**\n\n$$\\frac{21000}{v} - \\frac{21000}{u} = 140$$\n\n$$21000\\left(\\frac{1}{v} - \\frac{1}{u}\\right) = 140$$\n\n$$\\frac{1}{v} - \\frac{1}{u} = \\frac{140}{21000} = \\frac{1}{150}$$\n\n$$\\frac{u-v}{uv} = \\frac{1}{150}$$\n\n**Step 3: Substitute u − v = 5**\n\n$$\\frac{5}{uv} = \\frac{1}{150}$$\n\n$$uv = 750$$\n\n**Step 4: Solve the system of equations**\n\nWe have:\n- u − v = 5  →  u = v + 5\n- uv = 750\n\nSubstitute:\n$$(v + 5)v = 750$$\n$$v^2 + 5v - 750 = 0$$\n\nUsing the quadratic formula or"
   },
   {
-    "id": "maths_time_speed_distance_049",
+    "id": "maths_time_speed_distance_050",
     "question": "Akshat completes his journey in 20 hours. He covers half the distance at 57 km/h and the remaining half at 95 km/h. What is the total length of the journey?",
     "questionHindi": "अक्षत अपनी यात्रा 20 घंटे में पूरी करता है। वह आधी दूरी 57 किमी/घंटा की चाल से और शेष आधी दूरी 95 किमी/घंटा की चाल से तय करता है। यात्रा की कुल दूरी कितनी है?",
     "options": [
@@ -693,11 +672,10 @@
       "1425"
     ],
     "correctAnswer": "1425",
-   
     "solution": "**Step 1: Set up the equation**\nLet total distance = D km\n- First half distance = D/2 at 57 km/h\n- Second half distance = D/2 at 95 km/h\n- Total time = 20 hours\n\n**Step 2: Write time formula**\nTime = Distance/Speed\n\nTime for first half = (D/2)/57 = D/114 hours\nTime for second half = (D/2)/95 = D/190 hours\n\n**Step 3: Apply total time condition**\nD/114 + D/190 = 20\n\n**Step 4: Solve for D**\nFinding LCM of 114 and 190 = 10,830\n\n(95D + 57D)/10,830 = 20\n\n152D/10,830 = 20\n\n152D = 216,600\n\nD = 1,425 km\n\n**Answer: 1425 km ✓**"
   },
   {
-    "id": "maths_time_speed_distance_050",
+    "id": "maths_time_speed_distance_051",
     "question": "Mohan travels three equal distances at speeds of 12 km/h, 18 km/h and 24 km/h. If he takes a total of 39 hours, then what is the total distance covered?",
     "questionHindi": "मोहन 12 किमी/घंटा, 18 किमी/घंटा और 24 किमी/घंटा की चाल से तीन समान दूरियाँ तय करता है। यदि उसे कुल 39 घंटे लगते हैं, तो उसके द्वारा तय की गई कुल दूरी कितनी है?",
     "options": [
@@ -707,11 +685,10 @@
       "654 km"
     ],
     "correctAnswer": "648 km",
-    
     "solution": "**Step 1: Set up the equation using Time = Distance/Speed**\n\nLet each equal distance = d km\n\n- Time for first segment: d/12 hours\n- Time for second segment: d/18 hours\n- Time for third segment: d/24 hours\n\n**Step 2: Form the total time equation**\n\nd/12 + d/18 + d/24 = 39\n\n**Step 3: Find LCM and solve for d**\n\nLCM(12, 18, 24) = 72\n\n(6d + 4d + 3d)/72 = 39\n\n13d/72 = 39\n\n13d = 2808\n\nd = 216 km\n\n**Step 4: Calculate total distance**\n\nTotal distance = 3d = 3 × 216 = **648 km**\n\n✓ Answer Confirmed: **648 km**"
   },
   {
-    "id": "time_speed_distance_051",  
+    "id": "time_speed_distance_051",
     "question": "Vipin travels one-third of the distance of a journey at a speed of 30 km/h and the remaining distance at a speed of 40 km/h. If he took a total of 12 hours to complete the journey, what was the total distance (in km) of the journey?",
     "options": [
       "445",
@@ -841,7 +818,7 @@
     "solution": "# Step-by-Step Solution\n\n**Step 1: Define variables**\n- Let speed of slow local = x km/h\n- Speed of fast local = (x + 10) km/h\n- Distance = 150 km\n\n**Step 2: Write time equations**\n- Time taken by slow local = 150/x hours\n- Time taken by fast local = 150/(x+10) hours\n\n**Step 3: Set up equation using given condition**\nFast local takes 45 minutes (= 3/4 hour) less than slow local:\n\n$$\\frac{150}{x} - \\frac{150}{x+10} = \\frac{3}{4}$$\n\n**Step 4: Solve the equation**\n$$\\frac{150(x+10) - 150x}{x(x+10)} = \\frac{3}{4}$$\n\n$$\\frac{1500}{x(x+10)} = \\frac{3}{4}$$\n\n$$6000 = 3x(x+10)$$\n\n$$6000 = 3x^2 + 30x$$\n\n$$3x^2 + 30x - 6000 = 0$$\n\n$$x^2 + 10x - 2000 = 0$$\n\nUsing the quadratic formula or factoring:\n$$(x + 50)(x - 40) = 0$$\n\nx = 40 or x = -50\n\nSince speed cannot be negative, x = 40\n\n**Step"
   },
   {
-      "id": "time_speed_distance_061",
+    "id": "time_speed_distance_061",
     "question": "The speed of train A is 25 km/h more than the speed of train B. A takes 4 hours less to travel 300 km than train B takes to travel 250 km. What is the speed of train A (in km/h)?",
     "options": [
       "65",
@@ -880,7 +857,7 @@
     "solution": "# Solution\n\n**Step 1: Set up variables**\n- Let time taken by express train = t hours\n- Then time taken by passenger train = (t + 5) hours\n- Distance = 1176 km\n\n**Step 2: Express speeds in terms of t**\n- Speed of express train = 1176/t km/h\n- Speed of passenger train = 1176/(t+5) km/h\n\n**Step 3: Use the speed difference condition**\nGiven: Speed of passenger train is 70 km/h less than express train\n\n$$\\frac{1176}{t} - \\frac{1176}{t+5} = 70$$\n\n**Step 4: Solve for t**\n$$\\frac{1176(t+5) - 1176t}{t(t+5)} = 70$$\n\n$$\\frac{1176 × 5}{t(t+5)} = 70$$\n\n$$\\frac{5880}{t(t+5)} = 70$$\n\n$$5880 = 70t(t+5)$$\n\n$$t^2 + 5t = 84$$\n\n$$t^2 + 5t - 84 = 0$$\n\n$$(t + 12)(t - 7) = 0$$\n\nSince t must be positive: **t = 7 hours**\n\n**Step 5: Find passenger train time**\nTime taken by passenger train = t + 5 = 7 + 5 = **17 hours**"
   },
   {
-      "id": "time_speed_distance_064",
+    "id": "time_speed_distance_064",
     "question": "The distance between two railway stations is 1176 km. To cover this distance, an express train takes 5 hours less than a passenger train while the average speed of the passenger train is 70 km/h less than that of the express train. The time taken by the passenger train to complete the travel is:",
     "options": [
       "18 hours",
