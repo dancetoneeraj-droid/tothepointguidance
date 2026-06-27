@@ -1,715 +1,962 @@
 [
-    {
-      "id": "reasoning_coding_decoding_001",
-      "question": "A military code writes SYSTEM as SYSMET and NEARER as AENRER. Using the same code, FRACTION can be written as:",
-      "options": [
-        "CARFTION",
-        "FRACNOIT",
-        "NOITCARF",
-        "CARFNOIT"
-      ],
-      "correctAnswer": "CARFNOIT",
-      "explanation": "The code reverses letter groups. FRACTION → (FRAC)(TION) → (CARF)(NOIT) = CARFNOIT."
-    },
-    {
-      "id": "reasoning_coding_decoding_002",
-      "question": "In a certain code, '256' means 'red colour chalk', '589' means 'green colour flower' and '254' means 'white colour chalk'. The digit that indicates 'white' is:",
-      "options": [
-        "2",
-        "4",
-        "5",
-        "8"
-      ],
-      "correctAnswer": "4",
-      "explanation": "Comparing the codes shows 5 = colour and 2 = chalk. Therefore 4 represents white."
-    },
-    {
-      "id": "reasoning_coding_decoding_003",
-      "question": "If RAMON is written as 12345 and DINESH as 675849, then HAMAM will be written as:",
-      "options": [
-        "92233",
-        "92323",
-        "93322",
-        "93232"
-      ],
-      "correctAnswer": "92323",
-      "explanation": "Using the letter-digit mapping derived from RAMON and DINESH, HAMAM = 92323."
-    },
-    {
-      "id": "reasoning_coding_decoding_004",
-      "question": "If LSJXVC is the code for MUMBAI, then the code for DELHI is:",
-      "options": [
-        "CCIDD",
-        "CDKGH",
-        "CCJFG",
-        "CCIFE"
-      ],
-      "correctAnswer": "CCIDD",
-      "explanation": "Letters are shifted backward by increasing values: -1, -2, -3, -4, -5. Applying the same pattern to DELHI gives CCIDD."
-    },
-    {
-      "id": "reasoning_coding_decoding_005",
-      "question": "If every alternate letter of the English alphabet from B onwards is written in lower case and the remaining letters are capitalized, then how is the first month of the second half of the year written?",
-      "options": [
-        "JuLY",
-        "jULy",
-        "jUly",
-        "jUlY"
-      ],
-      "correctAnswer": "jUlY",
-      "explanation": "The alphabet pattern becomes A, b, C, d, E, f... The month JULY is therefore written as jUlY."
-    },
-    {
-      "id": "reasoning_coding_decoding_006",
-      "question": "The letters from A to Z are numbered from 1 to 26 respectively. If GHI = 1578 and DEF = 912, then ABC is equal to:",
-      "options": [
-        "492",
-        "468",
-        "262",
-        "246"
-      ],
-      "correctAnswer": "246",
-      "explanation": "GHI = 789 × 2 = 1578 and DEF = 456 × 2 = 912. Therefore ABC = 123 × 2 = 246."
-    },
-    {
-      "id": "reasoning_coding_decoding_007",
-      "question": "What is the missing term (@) in ACPQ : BESU :: MNGI : @ ?",
-      "options": [
-        "NPJL",
-        "NOJM",
-        "NPIL",
-        "NPJM"
-      ],
-      "correctAnswer": "NPJM",
-      "explanation": "Letters increase by +1, +2, +3 and +4 respectively. MNGI becomes NPJM."
-    },
-    {
-      "id": "reasoning_coding_decoding_008",
-      "question": "In a code language, 'MATHEMATICS' is written as 'LBSIDNZUHDR'. How is 'CHEMISTRY' written in that code language?",
-      "options": [
-        "DIDLHRSSX",
-        "BIDNHTSSX",
-        "BIDLHTSSX",
-        "DGFLIRUQZ"
-      ],
-      "correctAnswer": "BIDNHTSSX",
-      "explanation": "The pattern alternates between -1 and +1 shifts. Applying it to CHEMISTRY gives BIDNHTSSX."
-    },
-    {
-      "id": "reasoning_coding_decoding_009",
-      "question": "In the English alphabet, the first 4 letters are written in reverse order, then the next 4 letters are reversed, and so on. At the end Y and Z are interchanged. Which is the fourth letter to the right of the 13th letter?",
-      "options": [
-        "N",
-        "T",
-        "H",
-        "I"
-      ],
-      "correctAnswer": "T",
-      "explanation": "The sequence becomes DCBA HGFE LKJI PONM TSRQ XWVU ZY. The required letter is T."
-    },
-    {
-      "id": "reasoning_coding_decoding_010",
-      "question": "If the order of letters in the English alphabet is reversed and each letter represents the letter occupying the same position, then which code represents 'LUCKNOW'?",
-      "options": [
-        "OGXPMLD",
-        "OGXQMLE",
-        "OFXPMLE",
-        "OFXPMLD"
-      ],
-      "correctAnswer": "OFXPMLD",
-      "explanation": "Using the reverse alphabet mapping (A↔Z, B↔Y, etc.), LUCKNOW becomes OFXPMLD."
-    },
-    {
-      "id": "reasoning_coding_decoding_011",
-      "question": "If 'ZERO' is written as 'CHUR', then how is 'PLAYER' written?",
-      "options": [
-        "SOCAGT",
-        "SODBGT",
-        "SODBHT",
-        "SODBHU"
-      ],
-      "correctAnswer": "SODBHU",
-      "explanation": "Each letter is shifted by +3 positions. PLAYER becomes SODBHU."
-    },
-    {
-      "id": "reasoning_coding_decoding_012",
-      "question": "The letters of the word 'INCOMPREHENSIBILITIES' are arranged alphabetically in reverse order. How many positions of the letters remain unchanged?",
-      "options": [
-        "None",
-        "One",
-        "Two",
-        "Three"
-      ],
-      "correctAnswer": "Two",
-      "explanation": "After arranging the letters in reverse alphabetical order, two letters remain in their original positions."
-    },
-    {
-      "id": "reasoning_coding_decoding_013",
-      "question": "If in a certain code, 'ABCD' is written as 24 and 'EFGH' is written as 1680, then how is 'IJKL' written?",
-      "options": [
-        "11880",
-        "11240",
-        "7920",
-        "5940"
-      ],
-      "correctAnswer": "11880",
-      "explanation": "The code is the product of alphabetical positions. IJKL = 9 × 10 × 11 × 12 = 11880."
-    },
-    {
-      "id": "reasoning_coding_decoding_014",
-      "question": "If in a certain code, 'POT' is written as 'ATOP' and 'TRAP' is written as 'APART', then how is 'ARENA' written?",
-      "options": [
-        "AARENA",
-        "AANREA",
-        "AANEAR",
-        "AANERA"
-      ],
-      "correctAnswer": "AANERA",
-      "explanation": "The code adds an 'A' at the beginning and reverses the remaining letters. ARENA becomes AANERA."
-    },
-    {
-      "id": "reasoning_coding_decoding_015",
-      "question": "In some code, letters P, Q, R, S and T represent the numbers 4, 5, 10, 12 and 15. If Q − S = 2S and T = R + S + 3, then the value of P + R − T is:",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "Cannot be determined"
-      ],
-      "correctAnswer": "2",
-      "explanation": "Solving the conditions gives P = 10, Q = 15, R = 4, S = 5 and T = 12. Therefore P + R − T = 10 + 4 − 12 = 2."
-    },
-      {
-        "id": "reasoning_coding_decoding_016",
-        "question": "In a certain code language 'CONSTRUCTION' is written as 'EMPQVPWAVGQL'. What will be the code for 'DESTRUCTION' in the same language?",
-        "options": [
-          "FCURTSERKMP",
-          "EFTVSVDVJPO",
-          "FCURTSFSLOQ",
-          "Cannot be determined"
-        ],
-        "correctAnswer": "FCURTSERKMP",
-        "explanation": "The letters are alternately shifted by +2 and -2. Applying the same pattern to DESTRUCTION gives FCURTSERKMP."
-      },
-      {
-        "id": "reasoning_coding_decoding_017",
-        "question": "In a certain code language, 'YEARLY' is written as 'BVZIOB'. What will be the code for 'ANNUAL' in the same language?",
-        "options": [
-          "ZFMOMM",
-          "ZNNFZA",
-          "ZMMFZO",
-          "ZXAMMO"
-        ],
-        "correctAnswer": "ZMMFZO",
-        "explanation": "Each letter is replaced by its opposite letter in the alphabet (A↔Z, B↔Y, C↔X, etc.). Therefore ANNUAL is coded as ZMMFZO."
-      },
-      {
-        "id": "reasoning_coding_decoding_018",
-        "question": "In a certain code language 'EASY' is written as '5117'. In the same code language, how will 'BEAM' be written?",
-        "options": [
-          "4512",
-          "4567",
-          "2514",
-          "2563"
-        ],
-        "correctAnswer": "2514",
-        "explanation": "Each letter is replaced by its alphabetical position, and for two-digit positions the digits are summed. B=2, E=5, A=1, M=13→1+3=4. Hence BEAM = 2514."
-      },
-      {
-        "id": "reasoning_coding_decoding_019",
-        "question": "If 'SPECIAL' is written as '65' in a certain code language, what will 'CONNECT' be coded as?",
-        "options": [
-          "70",
-          "64",
-          "32",
-          "74"
-        ],
-        "correctAnswer": "74",
-        "explanation": "The code is the sum of the alphabetical positions of all letters. CONNECT = 3+15+14+14+5+3+20 = 74."
-      },
-      {
-        "id": "reasoning_coding_decoding_020",
-        "question": "In a certain code language, 'ISSUE' is written as '341145'. In the same code language, what will be the code for 'DATES'?",
-        "options": [
-          "4567",
-          "340045",
-          "4120519",
-          "7600"
-        ],
-        "correctAnswer": "4120519",
-        "explanation": "The code is formed by concatenating the alphabetical positions of the letters. D=4, A=1, T=20, E=5, S=19 → 4120519."
-      },
-      {
-          "id": "reasoning_coding_decoding_021",
-          "question": "In a certain code language, 'DELETE' is written as '#@^@%@' and 'GRAM' is written as '!?*&'. How is 'TELEGRAM' written in that code language?",
-          "options": [
-            "%@^@^?*&",
-            "%@^@!?^&",
-            "%@*@!?*&",
-            "%@^@!?*&"
-          ],
-          "correctAnswer": "%@^@!?*&",
-          "explanation": "Using the mappings D=#, E=@, L=^, T=%, G=!, R=?, A=*, M=&, TELEGRAM becomes %@^@!?*&."
-        },
-        {
-          "id": "reasoning_coding_decoding_022",
-          "question": "In a certain code language, 'NUMBER' is written as '156897' and 'BARREN' is written as '847791'. How is 'RUBBER' written in that code language?",
-          "options": [
-            "759597",
-            "758897",
-            "795957",
-            "795579"
-          ],
-          "correctAnswer": "758897",
-          "explanation": "From the given mappings: R=7, U=5, B=8, E=9. Therefore RUBBER = 758897."
-        },
-        {
-          "id": "reasoning_coding_decoding_023",
-          "question": "If 'S' denotes 'multiplied by', 'P' denotes 'subtracted from', 'R' denotes 'added to' and 'Q' denotes 'divided by', then 14641 Q 121 P 100 S 2 R 100 = ?",
-          "options": [
-            "48",
-            "21",
-            "61",
-            "31"
-          ],
-          "correctAnswer": "21",
-          "explanation": "Replacing the symbols: 14641 ÷ 121 − 100 × 2 + 100 = 121 − 200 + 100 = 21."
-        },
-        {
-          "id": "reasoning_coding_decoding_024",
-          "question": "In a certain code language, 'MATERIAL' is written as 'RIALMATE'. How is 'REMEMBER' written in that code language?",
-          "options": [
-            "REMEREBM",
-            "MBEREMER",
-            "MBERREME",
-            "MBERREEM"
-          ],
-          "correctAnswer": "MBERREME",
-          "explanation": "The word is divided into two equal parts and the parts are interchanged. REMEMBER → REME + MBER → MBERREME."
-        },
-        {
-          "id": "reasoning_coding_decoding_025",
-          "question": "In a certain code language, 'CERTAIN' is written as 'DFSTBJO'. How is 'CRICKET' written in that code language?",
-          "options": [
-            "DSJBLFU",
-            "DSJDLFU",
-            "DSJCLFU",
-            "DSJCLFV"
-          ],
-          "correctAnswer": "DSJCLFU",
-          "explanation": "Each letter is shifted one step forward in the alphabet. Applying the same pattern to CRICKET gives DSJCLFU."
-        },
-        {
-          "id": "reasoning_coding_decoding_026",
-          "question": "If 'A' denotes 'added to', 'B' denotes 'divided by', 'C' denotes 'multiplied by' and 'D' denotes 'subtracted from', then 87 B 3 C 4 A 4 D 50 = ?",
-          "options": [
-            "65",
-            "75",
-            "70",
-            "80"
-          ],
-          "correctAnswer": "70",
-          "explanation": "Replacing the symbols: 87 ÷ 3 × 4 + 4 − 50 = 29 × 4 + 4 − 50 = 116 + 4 − 50 = 70."
-        },
-        {
-          "id": "reasoning_coding_decoding_027",
-          "question": "In a certain code language, 'TERMITE' is written as 'UDSLJSF'. How is 'MINISTER' written in that code language?",
-          "options": [
-            "NHOHSTFQ",
-            "NHHOTSFQ",
-            "NHOHTSFQ",
-            "NHOHTSQF"
-          ],
-          "correctAnswer": "NHOHTSFQ",
-          "explanation": "Applying the same alternating letter transformation used in TERMITE gives MINISTER → NHOHTSFQ."
-        },
-        {
-          "id": "reasoning_coding_decoding_028",
-          "question": "In a certain code language, 'DANGER' is written as '145237' and 'RANCOR' is written as '745967'. How is 'RAGE' written in that code language?",
-          "options": [
-            "7231",
-            "7234",
-            "7423",
-            "7441"
-          ],
-          "correctAnswer": "7423",
-          "explanation": "From the given mappings: R=7, A=4, G=2, E=3. Therefore RAGE = 7423."
-        },
-        {
-          "id": "reasoning_coding_decoding_029",
-          "question": "If 'S' denotes 'multiplied by', 'V' denotes 'subtracted from', 'M' denotes 'added to' and 'L' denotes 'divided by', then 12 V 3 M 441 L 21 S 8 = ?",
-          "options": [
-            "661",
-            "170",
-            "174",
-            "177"
-          ],
-          "correctAnswer": "177",
-          "explanation": "Replacing the symbols: 12 − 3 + 441 ÷ 21 × 8 = 9 + 21 × 8 = 9 + 168 = 177."
-        },
-        {
-          "id": "reasoning_coding_decoding_030",
-          "question": "In a certain code language, 'MOTHER' is written as 'NPUGDQ'. How is 'ORANGE' written in that code language?",
-          "options": [
-            "PSBMDF",
-            "PSBMFD",
-            "PBSMFD",
-            "PSBDMF"
-          ],
-          "correctAnswer": "PSBMFD",
-          "explanation": "Applying the same letter shifting pattern used in MOTHER → NPUGDQ gives ORANGE → PSBMFD."
-        },
-
-          {
-            "id": "reasoning_coding_decoding_031",
-            "question": "9.4, 10.6, ?, 14.2, 16.6, 19.4",
-            "options": ["12.2", "13.4", "15.2", "13.2"],
-            "correctAnswer": "12.2",
-            "explanation": "Differences are +1.2, +1.6, +2.0, +2.4, +2.8. Missing term = 10.6 + 1.6 = 12.2."
-          },
-          {
-            "id": "reasoning_coding_decoding_032",
-            "question": "146, 145, 142, 135, ?, 89",
-            "options": ["125", "120", "95", "110"],
-            "correctAnswer": "120",
-            "explanation": "Subtract consecutive odd numbers: -1, -3, -7, -15, -31. Missing term = 135 - 15 = 120."
-          },
-          {
-            "id": "reasoning_coding_decoding_033",
-            "question": "112, 103, 121, 94, 130, ?",
-            "options": ["125", "105", "85", "95"],
-            "correctAnswer": "85",
-            "explanation": "Pattern alternates -9, +18, -27, +36, -45. Missing term = 130 - 45 = 85."
-          },
-          {
-            "id": "reasoning_coding_decoding_034",
-            "question": "3, 5, ?, 43, 177, 891",
-            "options": ["23", "21", "10", "13"],
-            "correctAnswer": "13",
-            "explanation": "Multiply by increasing numbers and add 1: 3×1+2=5, 5×2+3=13, 13×3+4=43, 43×4+5=177, 177×5+6=891."
-          },
-          {
-            "id": "reasoning_coding_decoding_035",
-            "question": "5080, ?, 1016, 304.8, 60.96",
-            "options": ["2520", "3520", "2540", "4250"],
-            "correctAnswer": "2540",
-            "explanation": "Successively divide by 2, 2.5, 3.333..., 5. Missing term = 5080 ÷ 2 = 2540 and 2540 ÷ 2.5 = 1016."
-          },
-          {
-            "id": "reasoning_coding_decoding_036",
-            "question": "4, 3, 5, 14, 64, ?",
-            "options": ["128", "360", "428", "528"],
-            "correctAnswer": "428",
-            "explanation": "Multiply by increasing integers and subtract 1: 4×1−1=3, 3×2−1=5, 5×3−1=14, 14×4−1=55, then 64×? pattern gives 428. Missing term = 428."
-          },
-          {
-            "id": "reasoning_coding_decoding_037",
-            "question": "24, 25, 27, 33, 57, ?",
-            "options": ["109", "177", "182", "144"],
-            "correctAnswer": "177",
-            "explanation": "Differences: +1, +2, +6, +24, +120 (factorials). Missing term = 57 + 120 = 177."
-          },
-          {
-            "id": "reasoning_coding_decoding_038",
-            "question": "?, 54, 64, 81, 107, 144",
-            "options": ["49", "46", "40", "44"],
-            "correctAnswer": "40",
-            "explanation": "Differences are +14, +10, +17, +26, +37. Working backward, first term = 54 − 14 = 40."
-          },
-          {
-            "id": "reasoning_coding_decoding_039",
-            "question": "32, 48, ?, 36, 18, 27",
-            "options": ["26", "25", "24", "28"],
-            "correctAnswer": "24",
-            "explanation": "Pattern alternates ×1.5 and ÷2: 32×1.5=48, 48÷2=24, 24×1.5=36, 36÷2=18, 18×1.5=27."
-          },
-          {
-            "id": "reasoning_coding_decoding_040",
-            "question": "23, 53, 95, 151, 223, ?",
-            "options": ["333", "323", "313", "303"],
-            "correctAnswer": "313",
-            "explanation": "Differences are 30, 42, 56, 72. Increase by 12, 14, 16, next 18. Next difference = 90. Missing term = 223 + 90 = 313."
-          },
-          {
-            "id": "reasoning_coding_decoding_041",
-            "question": "18, 9.5, 10.5, ?, 96",
-            "options": ["21", "22", "23", "28"],
-            "correctAnswer": "23",
-            "explanation": "18÷2+0.5=9.5, 9.5×1+1=10.5, 10.5×2+2=23, 23×4+4=96."
-          },
-          {
-                "id": "reasoning_coding_decoding_042",
-            "question": "16, 8, 24, 32, ?, 88",
-            "options": ["45", "56", "65", "76"],
-            "correctAnswer": "56",
-            "explanation": "Operations repeat: ÷2, ×3, +8, +24, +32. Thus 32 + 24 = 56 and 56 + 32 = 88."
-          },
-          {
-            "id": "reasoning_coding_decoding_043",
-            "question": "62, 98, 142, 194, 254, ?",
-            "options": ["288", "298", "322", "222"],
-            "correctAnswer": "322",
-            "explanation": "Differences are +36, +44, +52, +60. Increase by 8 each time. Next difference = 68. Missing term = 254 + 68 = 322."
-          },
-            {
-              "id": "reasoning_coding_decoding_044",
-              "question": "119, 132, 125.5, 138.5, 132, ?",
-              "options": ["153", "148.5", "153.5", "145"],
-              "correctAnswer": "145",
-              "explanation": "Pattern alternates +13 and -6.5. 119+13=132, 132-6.5=125.5, 125.5+13=138.5, 138.5-6.5=132, 132+13=145."
-            },
-            {
-              "id": "reasoning_coding_decoding_045",
-              "question": "416, 208, 208, 312, 624, ?",
-              "options": ["1524", "1560", "1539", "1575"],
-              "correctAnswer": "1560",
-              "explanation": "Pattern: ÷2, ×1, ×1.5, ×2, ×2.5. 416÷2=208, 208×1=208, 208×1.5=312, 312×2=624, 624×2.5=1560."
-            },
-            {
-              "id": "reasoning_coding_decoding_046",
-              "question": "14, 29, 60, 123, ?, 505",
-              "options": ["276", "325", "288", "250"],
-              "correctAnswer": "250",
-              "explanation": "Pattern: ×2+1, ×2+2, ×2+3, ×2+4, ×2+5. 123×2+4=250 and 250×2+5=505."
-            },
-            {
-              "id": "reasoning_coding_decoding_047",
-              "question": "2442, 2351, 2261, 2140, 1996, ?",
-              "options": ["1785", "1719", "1827", "1848"],
-              "correctAnswer": "1827",
-              "explanation": "Differences: -91, -90, -121, -144. These are 9²+10, 9²+9, 11², 12². Continuing with 13²=169. Missing term = 1996−169 = 1827."
-            },
-
-              {
-                "id": "reasoning_coding_decoding_048",
-                "question": "6, 25, 96, ?, 568, 567",
-                "options": ["295", "275", "265", "285"],
-                "correctAnswer": "285",
-                "explanation": "Pattern: ×5−5, ×4−4, ×3−3, ×2−2, ×1−1. 6×5−5=25, 25×4−4=96, 96×3−3=285, 285×2−2=568, 568×1−1=567."
-              },
-              {
-                "id": "reasoning_coding_decoding_049",
-                "question": "17640, 5880, ?, 294, 49, 7",
-                "options": ["1480", "1540", "1470", "1610"],
-                "correctAnswer": "1470",
-                "explanation": "Successively divide by 3, 4, 5, 6, 7. 17640÷3=5880, 5880÷4=1470, 1470÷5=294, 294÷6=49, 49÷7=7."
-              },
-              {
-                "id": "reasoning_coding_decoding_050",
-                "question": "116, 134, 170, 224, ?, 386",
-                "options": ["296", "248", "312", "298"],
-                "correctAnswer": "296",
-                "explanation": "Differences are +18, +36, +54, +72, +90. Missing term = 224+72 = 296 and 296+90 = 386."
-              },
-              {
-                "id": "reasoning_coding_decoding_051",
-                "question": "216, 235, 257, 285, 322, ?",
-                "options": ["371", "370", "381", "399"],
-                "correctAnswer": "371",
-                "explanation": "Differences: +19, +22, +28, +37. Second differences: +3, +6, +9, next +12. Next difference = 37+12 = 49. Missing term = 322+49 = 371."
-              },
-              {
-                "id": "reasoning_coding_decoding_052",
-                "question": "15, 58, 230, 918, ?",
-                "options": ["3450", "3448", "3960", "3670"],
-                "correctAnswer": "3670",
-                "explanation": "Pattern: ×4−2. 15×4−2=58, 58×4−2=230, 230×4−2=918, 918×4−2=3670."
-              },
-              {
-                "id": "reasoning_coding_decoding_053",
-                "question": "4, 6, 15, 49, 201, ?",
-                "options": ["1025", "1870", "1011", "1054"],
-                "correctAnswer": "1011",
-                "explanation": "Pattern: ×1+2, ×2+3, ×3+4, ×4+5, ×5+6. 201×5+6 = 1011."
-              },
-              {
-                    "id": "reasoning_coding_decoding_054",
-                "question": "250, 250, 125, 375, 93.75, ?",
-                "options": ["478.25", "495.75", "480.25", "468.75"],
-                "correctAnswer": "468.75",
-                "explanation": "Pattern alternates ×1, ÷2, ×3, ÷4, ×5. 250×1=250, 250÷2=125, 125×3=375, 375÷4=93.75, 93.75×5=468.75."
-              },
-              {
-                "id": "reasoning_coding_decoding_055",
-                "question": "3, 7, 20, 41, 122, ?",
-                "options": ["255", "245", "265", "225"],
-                "correctAnswer": "245",
-                "explanation": "Pattern alternates ×2+1, ×3−1. 3×2+1=7, 7×3−1=20, 20×2+1=41, 41×3−1=122, 122×2+1=245."
-              },
-                {
-                  "id": "reasoning_coding_decoding_056",
-                  "question": "In a certain code language, 'KENT' is coded as '*9*7' and 'BENT' is coded as '*79'. What is the code for 'B' in that language?",
-                  "options": ["*", "9", "^", "."],
-                  "correctAnswer": "^",
-                  "explanation": "KENT and BENT share E, N and T. The common symbols are *, 9 and 7. The remaining symbol '^' represents B."
-                },
-                {
-                  "id": "reasoning_coding_decoding_057",
-                  "question": "In a certain code language, 'TALKER' is coded as a combination of symbols and 'TALKED' is coded as another combination. What is the code for 'D' in that language?",
-                  "options": ["%", "!", "£", "θ"],
-                  "correctAnswer": "£",
-                  "explanation": "Both words differ only in the last letter (R and D). Comparing the codes, the changed symbol corresponds to D."
-                },
-                {
-                  "id": "reasoning_coding_decoding_058",
-                  "question": "In a certain code language, '4378' is coded as 'IDOL' and '7832' is coded as 'IDLE'. What is the code for '2' in that language?",
-                  "options": ["O", "L", "E", "I"],
-                  "correctAnswer": "E",
-                  "explanation": "Common digits 7, 8 and 3 correspond to common letters I, D and L. The extra digit 2 corresponds to E."
-                },
-                {
-                  "id": "reasoning_coding_decoding_059",
-                  "question": "In a certain code language, 'TALE' is coded as '7234', 'TOLK' as '9172', 'KITE' as '1283' and 'SEAN' as '3064'. What is the code for 'SON'?",
-                  "options": ["906", "916", "896", "914"],
-                  "correctAnswer": "906",
-                  "explanation": "From the given codes: S=9, O=0 and N=6. Therefore SON = 906."
-                },
-                {
-                  "id": "reasoning_coding_decoding_060",
-                  "question": "In a certain language, 'PIC VIC NIC' means 'winter is cold', 'TO NIC RE' means 'summer is hot', and 'RE THO PA' means 'nights are hot'. Which of the following is the code for 'summer'?",
-                  "options": ["TO", "NIC", "PIC", "VIC"],
-                  "correctAnswer": "TO",
-                  "explanation": "'NIC' is common in the first two statements and means 'is'. 'RE' is common in the second and third statements and means 'hot'. Therefore the remaining code 'TO' means 'summer'."
-                },
-                {
-                  "id": "reasoning_coding_decoding_061",
-                  "question": "'123' means 'bright little boy', '145' means 'tall big boy' and '637' means 'beautiful little flower'. Which digit means 'bright'?",
-                  "options": ["1", "2", "3", "4"],
-                  "correctAnswer": "2",
-                  "explanation": "Digit 1 is common to the first and second statements, so it means 'boy'. Digit 3 is common to the first and third statements, so it means 'little'. Therefore digit 2 means 'bright'."
-                },
-                {
-                  "id": "reasoning_coding_decoding_062",
-                  "question": "In a certain code, 48 means 'which school' and 968 means 'college and school'. What is the code for 'school'?",
-                  "options": ["6", "4", "9", "8"],
-                  "correctAnswer": "8",
-                  "explanation": "The common word in both statements is 'school'. The common digit is 8. Hence school = 8."
-                },
-                {
-                  "id": "reasoning_coding_decoding_063",
-                  "question": "AYRRJC : CATTLE :: NCPDCAR : ?",
-                  "options": ["SUBJECTS", "NEGLECT", "PERFECT", "OPERATE"],
-                  "correctAnswer": "OPERATE",
-                  "explanation": "AYRRJC rearranges to CATTLE using a specific letter arrangement pattern. Applying the same pattern to NCPDCAR gives OPERATE."
-                },
-                {
-                    "id": "reasoning_coding_decoding_064",
-                  "question": "Each of the letters in the word 'STUDENT' is arranged in alphabetical order. How many letters are there in the English alphabetical series between the letter that is second from the left and the one that is fourth from the right in the new arrangement?",
-                  "options": ["17", "13", "11", "15"],
-                  "correctAnswer": "13",
-                  "explanation": "Alphabetical arrangement: D,E,N,S,T,T,U. Second from left = E and fourth from right = S. Letters between E and S = 13."
-                },
-                {
-                  "id": "reasoning_coding_decoding_065",
-                  "question": "Select the letter cluster that can replace the question mark in the series: MCFI, NEKP, OGPW, PIUD, ?",
-                  "options": ["NKYD", "QLYL", "QKZK", "QKZL"],
-                  "correctAnswer": "NKYD",
-                  "explanation": "The letters follow a positional pattern across each term. Applying the same pattern gives NKYD."
-                },
-                {
-                  "id": "reasoning_coding_decoding_066",
-                  "question": "Select the letter cluster that can replace the question mark in the series: WZWT, WWOH, WRGV, WVYJ, ?",
-                  "options": ["WJQX", "WJQW", "WHPX", "WJPX"],
-                  "correctAnswer": "WJQX",
-                  "explanation": "Each position follows a separate alphabetical sequence. The next term is WJQX."
-                },
-                {
-                  "id": "reasoning_coding_decoding_067",
-                  "question": "In a certain code, 48 means 'which school' and 968 means 'college and school'. What is the code for 'school'?",
-                  "options": ["6", "4", "9", "8"],
-                  "correctAnswer": "8",
-                  "explanation": "The common digit in both codes is 8, which corresponds to the common word 'school'."
-                },
-                {
-                  "id": "reasoning_coding_decoding_068",
-                  "question": "In a certain language, 'PIC VIC NIC' means 'winter is cold', 'TO NIC RE' means 'summer is hot', and 'RE THO PA' means 'nights are hot'. Which of the following is the code for 'summer'?",
-                  "options": ["TO", "NIC", "PIC", "VIC"],
-                  "correctAnswer": "TO",
-                  "explanation": "After identifying NIC = is and RE = hot, the remaining code TO corresponds to summer."
-                },
-                {
-                  "id": "reasoning_coding_decoding_069",
-                  "question": "'123' means 'bright little boy', '145' means 'tall big boy' and '637' means 'beautiful little flower'. Which digit means 'bright'?",
-                  "options": ["1", "2", "3", "4"],
-                  "correctAnswer": "2",
-                  "explanation": "1 = boy and 3 = little. Therefore 2 = bright."
-                },
-                {
-                  "id": "reasoning_coding_decoding_070",
-                  "question": "In a certain code language, 'TALE' is coded as '7234', 'TOLK' as '9172', 'KITE' as '1283' and 'SEAN' as '3064'. What is the code for 'SON'?",
-                  "options": ["906", "916", "896", "914"],
-                  "correctAnswer": "906",
-                  "explanation": "S = 9, O = 0 and N = 6. Hence SON = 906."
-                },
-                {
-                  "id": "reasoning_coding_decoding_071",
-                  "question": "In a certain code language, '4378' is coded as 'IDOL' and '7832' is coded as 'IDLE'. What is the code for '2'?",
-                  "options": ["O", "L", "E", "I"],
-                  "correctAnswer": "E",
-                  "explanation": "Comparing the two coded forms, digit 2 corresponds to E."
-                },
-                {
-                  "id": "reasoning_coding_decoding_072",
-                  "question": "In a certain code language, 'TALKER' and 'TALKED' are coded differently. What is the code for 'D'?",
-                  "options": ["%", "!", "£", "θ"],
-                  "correctAnswer": "£",
-                  "explanation": "The only changed letter between TALKER and TALKED is D replacing R. The changed symbol represents D."
-                },
-                {
-                  "id": "reasoning_coding_decoding_073",
-                  "question": "In a certain code language, 'KENT' is coded as '*9*7' and 'BENT' is coded as '^*79'. What is the code for 'B'?",
-                  "options": ["*", "9", "^", "."],
-                  "correctAnswer": "^",
-                  "explanation": "The symbol unique to BENT is '^', so it represents B."
-                },
-                {
-                          "id": "reasoning_coding_decoding_074",
-                  "question": "Select the set in which the numbers are related in the same way as the following sets: (45,15,3) and (120,40,8).",
-                  "options": ["(165,55,9)", "(175,55,11)", "(165,54,11)", "(165,55,11)"],
-                  "correctAnswer": "(165,55,11)",
-                  "explanation": "First number ÷ second number = third number. 165 ÷ 55 = 3 and the internal relation matches the given pattern."
-                },
-                {
-                  "id": "reasoning_coding_decoding_075",
-                  "question": "Select the set in which the numbers are related in the same way as the following sets: (111,16,7) and (167,14,12).",
-                  "options": ["(190,21,9)", "(140,8,17)", "(131,12,11)", "(108,9,12)"],
-                  "correctAnswer": "(108,9,12)",
-                  "explanation": "The numbers follow the same arithmetic relationship as the given examples. Option D satisfies the pattern."
-                },
-                  {
-                    "id": "reasoning_coding_decoding_076",
-                    "question": "In each of the following questions, the second word is formed by rearranging the letters of the first word according to a specific pattern. Identify the pattern and apply it to the third word. NUMERAL : UEALRMN :: ALGEBRA : ?",
-                    "options": ["LRBAGEA", "BARLAGE", "LERAGBA", "LERABGA"],
-                    "correctAnswer": "LERABGA",
-                    "explanation": "NUMERAL → UEALRMN follows the position pattern 2,4,6,1,3,5,7. Applying the same pattern to ALGEBRA gives LERABGA."
-                  },
-                  {
-                    "id": "reasoning_coding_decoding_077",
-                    "question": "Find the odd one out from the given alternatives.",
-                    "options": ["TDS", "GST", "VAT", "DNA"],
-                    "correctAnswer": "DNA",
-                    "explanation": "TDS, GST and VAT are forms of taxes, whereas DNA is a biological term. Hence DNA is the odd one out."
-                  },
-                  {
-                    "id": "reasoning_coding_decoding_078",
-                    "question": "In a certain code language, MOUSE is coded as 45291 and RAT as 786. How is STORE coded in that language?",
-                    "options": ["96571", "97653", "98345", "96278"],
-                    "correctAnswer": "96571",
-                    "explanation": "From MOUSE = 45291, we get M=4, O=5, U=2, S=9, E=1. From RAT = 786, we get R=7, A=8, T=6. Therefore STORE = S-T-O-R-E = 9-6-5-7-1 = 96571."
-                  },
-                  {
-                    "id": "reasoning_coding_decoding_079",
-                    "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series: ACE, EIM, IOU, MUC, ?",
-                    "options": ["QSA", "UHG", "QAK", "CGD"],
-                    "correctAnswer": "QSA",
-                    "explanation": "Each position advances by 4 letters cyclically: A→E→I→M→Q, C→I→O→U→S, E→M→U→C→A. Hence the next term is QSA."
-                  },
-                  {
-                        "id": "reasoning_coding_decoding_080",
-                    "question": "In each of the following questions, a specific alphabetic coding pattern has been applied to the first word to form the second word. Identify the same coding pattern and apply it to the third word. COUNTRY : FRXQWUB :: EXAMINE : ?",
-                    "options": ["HAPDLQH", "HADPLQH", "HAHPLDQ", "GBQDVWB"],
-                    "correctAnswer": "HADPLQH",
-                    "explanation": "In COUNTRY → FRXQWUB, each letter is shifted forward by 3 positions. Applying the same rule to EXAMINE gives HADPLQH."
-                  },
-      
+  {
+    "id": "reasoning_coding_decoding_001",
+    "question": "A military code writes SYSTEM as SYSMET and NEARER as AENRER. Using the same code, FRACTION can be written as:",
+    "options": [
+      "CARFTION",
+      "FRACNOIT",
+      "NOITCARF",
+      "CARFNOIT"
+    ],
+    "correctAnswer": "CARFNOIT",
+    "explanation": "The code reverses letter groups. FRACTION → (FRAC)(TION) → (CARF)(NOIT) = CARFNOIT."
+  },
+  {
+    "id": "reasoning_coding_decoding_002",
+    "question": "In a certain code, '256' means 'red colour chalk', '589' means 'green colour flower' and '254' means 'white colour chalk'. The digit that indicates 'white' is:",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "8"
+    ],
+    "correctAnswer": "4",
+    "explanation": "Comparing the codes shows 5 = colour and 2 = chalk. Therefore 4 represents white."
+  },
+  {
+    "id": "reasoning_coding_decoding_003",
+    "question": "If RAMON is written as 12345 and DINESH as 675849, then HAMAM will be written as:",
+    "options": [
+      "92233",
+      "92323",
+      "93322",
+      "93232"
+    ],
+    "correctAnswer": "92323",
+    "explanation": "Using the letter-digit mapping derived from RAMON and DINESH, HAMAM = 92323."
+  },
+  {
+    "id": "reasoning_coding_decoding_004",
+    "question": "If LSJXVC is the code for MUMBAI, then the code for DELHI is:",
+    "options": [
+      "CCIDD",
+      "CDKGH",
+      "CCJFG",
+      "CCIFE"
+    ],
+    "correctAnswer": "CCIDD",
+    "explanation": "Letters are shifted backward by increasing values: -1, -2, -3, -4, -5. Applying the same pattern to DELHI gives CCIDD."
+  },
+  {
+    "id": "reasoning_coding_decoding_005",
+    "question": "If every alternate letter of the English alphabet from B onwards is written in lower case and the remaining letters are capitalized, then how is the first month of the second half of the year written?",
+    "options": [
+      "JuLY",
+      "jULy",
+      "jUly",
+      "jUlY"
+    ],
+    "correctAnswer": "jUlY",
+    "explanation": "The alphabet pattern becomes A, b, C, d, E, f... The month JULY is therefore written as jUlY."
+  },
+  {
+    "id": "reasoning_coding_decoding_006",
+    "question": "The letters from A to Z are numbered from 1 to 26 respectively. If GHI = 1578 and DEF = 912, then ABC is equal to:",
+    "options": [
+      "492",
+      "468",
+      "262",
+      "246"
+    ],
+    "correctAnswer": "246",
+    "explanation": "GHI = 789 × 2 = 1578 and DEF = 456 × 2 = 912. Therefore ABC = 123 × 2 = 246."
+  },
+  {
+    "id": "reasoning_coding_decoding_007",
+    "question": "What is the missing term (@) in ACPQ : BESU :: MNGI : @ ?",
+    "options": [
+      "NPJL",
+      "NOJM",
+      "NPIL",
+      "NPJM"
+    ],
+    "correctAnswer": "NPJM",
+    "explanation": "Letters increase by +1, +2, +3 and +4 respectively. MNGI becomes NPJM."
+  },
+  {
+    "id": "reasoning_coding_decoding_008",
+    "question": "In a code language, 'MATHEMATICS' is written as 'LBSIDNZUHDR'. How is 'CHEMISTRY' written in that code language?",
+    "options": [
+      "DIDLHRSSX",
+      "BIDNHTSSX",
+      "BIDLHTSSX",
+      "DGFLIRUQZ"
+    ],
+    "correctAnswer": "BIDNHTSSX",
+    "explanation": "The pattern alternates between -1 and +1 shifts. Applying it to CHEMISTRY gives BIDNHTSSX."
+  },
+  {
+    "id": "reasoning_coding_decoding_009",
+    "question": "In the English alphabet, the first 4 letters are written in reverse order, then the next 4 letters are reversed, and so on. At the end Y and Z are interchanged. Which is the fourth letter to the right of the 13th letter?",
+    "options": [
+      "N",
+      "T",
+      "H",
+      "I"
+    ],
+    "correctAnswer": "T",
+    "explanation": "The sequence becomes DCBA HGFE LKJI PONM TSRQ XWVU ZY. The required letter is T."
+  },
+  {
+    "id": "reasoning_coding_decoding_010",
+    "question": "If the order of letters in the English alphabet is reversed and each letter represents the letter occupying the same position, then which code represents 'LUCKNOW'?",
+    "options": [
+      "OGXPMLD",
+      "OGXQMLE",
+      "OFXPMLE",
+      "OFXPMLD"
+    ],
+    "correctAnswer": "OFXPMLD",
+    "explanation": "Using the reverse alphabet mapping (A↔Z, B↔Y, etc.), LUCKNOW becomes OFXPMLD."
+  },
+  {
+    "id": "reasoning_coding_decoding_011",
+    "question": "If 'ZERO' is written as 'CHUR', then how is 'PLAYER' written?",
+    "options": [
+      "SOCAGT",
+      "SODBGT",
+      "SODBHT",
+      "SODBHU"
+    ],
+    "correctAnswer": "SODBHU",
+    "explanation": "Each letter is shifted by +3 positions. PLAYER becomes SODBHU."
+  },
+  {
+    "id": "reasoning_coding_decoding_012",
+    "question": "The letters of the word 'INCOMPREHENSIBILITIES' are arranged alphabetically in reverse order. How many positions of the letters remain unchanged?",
+    "options": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "correctAnswer": "Two",
+    "explanation": "After arranging the letters in reverse alphabetical order, two letters remain in their original positions."
+  },
+  {
+    "id": "reasoning_coding_decoding_013",
+    "question": "If in a certain code, 'ABCD' is written as 24 and 'EFGH' is written as 1680, then how is 'IJKL' written?",
+    "options": [
+      "11880",
+      "11240",
+      "7920",
+      "5940"
+    ],
+    "correctAnswer": "11880",
+    "explanation": "The code is the product of alphabetical positions. IJKL = 9 × 10 × 11 × 12 = 11880."
+  },
+  {
+    "id": "reasoning_coding_decoding_014",
+    "question": "If in a certain code, 'POT' is written as 'ATOP' and 'TRAP' is written as 'APART', then how is 'ARENA' written?",
+    "options": [
+      "AARENA",
+      "AANREA",
+      "AANEAR",
+      "AANERA"
+    ],
+    "correctAnswer": "AANERA",
+    "explanation": "The code adds an 'A' at the beginning and reverses the remaining letters. ARENA becomes AANERA."
+  },
+  {
+    "id": "reasoning_coding_decoding_015",
+    "question": "In some code, letters P, Q, R, S and T represent the numbers 4, 5, 10, 12 and 15. If Q − S = 2S and T = R + S + 3, then the value of P + R − T is:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Cannot be determined"
+    ],
+    "correctAnswer": "2",
+    "explanation": "Solving the conditions gives P = 10, Q = 15, R = 4, S = 5 and T = 12. Therefore P + R − T = 10 + 4 − 12 = 2."
+  },
+  {
+    "id": "reasoning_coding_decoding_016",
+    "question": "In a certain code language 'CONSTRUCTION' is written as 'EMPQVPWAVGQL'. What will be the code for 'DESTRUCTION' in the same language?",
+    "options": [
+      "FCURTSERKMP",
+      "EFTVSVDVJPO",
+      "FCURTSFSLOQ",
+      "Cannot be determined"
+    ],
+    "correctAnswer": "FCURTSERKMP",
+    "explanation": "The letters are alternately shifted by +2 and -2. Applying the same pattern to DESTRUCTION gives FCURTSERKMP."
+  },
+  {
+    "id": "reasoning_coding_decoding_017",
+    "question": "In a certain code language, 'YEARLY' is written as 'BVZIOB'. What will be the code for 'ANNUAL' in the same language?",
+    "options": [
+      "ZFMOMM",
+      "ZNNFZA",
+      "ZMMFZO",
+      "ZXAMMO"
+    ],
+    "correctAnswer": "ZMMFZO",
+    "explanation": "Each letter is replaced by its opposite letter in the alphabet (A↔Z, B↔Y, C↔X, etc.). Therefore ANNUAL is coded as ZMMFZO."
+  },
+  {
+    "id": "reasoning_coding_decoding_018",
+    "question": "In a certain code language 'EASY' is written as '5117'. In the same code language, how will 'BEAM' be written?",
+    "options": [
+      "4512",
+      "4567",
+      "2514",
+      "2563"
+    ],
+    "correctAnswer": "2514",
+    "explanation": "Each letter is replaced by its alphabetical position, and for two-digit positions the digits are summed. B=2, E=5, A=1, M=13→1+3=4. Hence BEAM = 2514."
+  },
+  {
+    "id": "reasoning_coding_decoding_019",
+    "question": "If 'SPECIAL' is written as '65' in a certain code language, what will 'CONNECT' be coded as?",
+    "options": [
+      "70",
+      "64",
+      "32",
+      "74"
+    ],
+    "correctAnswer": "74",
+    "explanation": "The code is the sum of the alphabetical positions of all letters. CONNECT = 3+15+14+14+5+3+20 = 74."
+  },
+  {
+    "id": "reasoning_coding_decoding_020",
+    "question": "In a certain code language, 'ISSUE' is written as '341145'. In the same code language, what will be the code for 'DATES'?",
+    "options": [
+      "4567",
+      "340045",
+      "4120519",
+      "7600"
+    ],
+    "correctAnswer": "4120519",
+    "explanation": "The code is formed by concatenating the alphabetical positions of the letters. D=4, A=1, T=20, E=5, S=19 → 4120519."
+  },
+  {
+    "id": "reasoning_coding_decoding_021",
+    "question": "In a certain code language, 'DELETE' is written as '#@^@%@' and 'GRAM' is written as '!?*&'. How is 'TELEGRAM' written in that code language?",
+    "options": [
+      "%@^@^?*&",
+      "%@^@!?^&",
+      "%@*@!?*&",
+      "%@^@!?*&"
+    ],
+    "correctAnswer": "%@^@!?*&",
+    "explanation": "Using the mappings D=#, E=@, L=^, T=%, G=!, R=?, A=*, M=&, TELEGRAM becomes %@^@!?*&."
+  },
+  {
+    "id": "reasoning_coding_decoding_022",
+    "question": "In a certain code language, 'NUMBER' is written as '156897' and 'BARREN' is written as '847791'. How is 'RUBBER' written in that code language?",
+    "options": [
+      "759597",
+      "758897",
+      "795957",
+      "795579"
+    ],
+    "correctAnswer": "758897",
+    "explanation": "From the given mappings: R=7, U=5, B=8, E=9. Therefore RUBBER = 758897."
+  },
+  {
+    "id": "reasoning_coding_decoding_023",
+    "question": "If 'S' denotes 'multiplied by', 'P' denotes 'subtracted from', 'R' denotes 'added to' and 'Q' denotes 'divided by', then 14641 Q 121 P 100 S 2 R 100 = ?",
+    "options": [
+      "48",
+      "21",
+      "61",
+      "31"
+    ],
+    "correctAnswer": "21",
+    "explanation": "Replacing the symbols: 14641 ÷ 121 − 100 × 2 + 100 = 121 − 200 + 100 = 21."
+  },
+  {
+    "id": "reasoning_coding_decoding_024",
+    "question": "In a certain code language, 'MATERIAL' is written as 'RIALMATE'. How is 'REMEMBER' written in that code language?",
+    "options": [
+      "REMEREBM",
+      "MBEREMER",
+      "MBERREME",
+      "MBERREEM"
+    ],
+    "correctAnswer": "MBERREME",
+    "explanation": "The word is divided into two equal parts and the parts are interchanged. REMEMBER → REME + MBER → MBERREME."
+  },
+  {
+    "id": "reasoning_coding_decoding_025",
+    "question": "In a certain code language, 'CERTAIN' is written as 'DFSTBJO'. How is 'CRICKET' written in that code language?",
+    "options": [
+      "DSJBLFU",
+      "DSJDLFU",
+      "DSJCLFU",
+      "DSJCLFV"
+    ],
+    "correctAnswer": "DSJCLFU",
+    "explanation": "Each letter is shifted one step forward in the alphabet. Applying the same pattern to CRICKET gives DSJCLFU."
+  },
+  {
+    "id": "reasoning_coding_decoding_026",
+    "question": "If 'A' denotes 'added to', 'B' denotes 'divided by', 'C' denotes 'multiplied by' and 'D' denotes 'subtracted from', then 87 B 3 C 4 A 4 D 50 = ?",
+    "options": [
+      "65",
+      "75",
+      "70",
+      "80"
+    ],
+    "correctAnswer": "70",
+    "explanation": "Replacing the symbols: 87 ÷ 3 × 4 + 4 − 50 = 29 × 4 + 4 − 50 = 116 + 4 − 50 = 70."
+  },
+  {
+    "id": "reasoning_coding_decoding_027",
+    "question": "In a certain code language, 'TERMITE' is written as 'UDSLJSF'. How is 'MINISTER' written in that code language?",
+    "options": [
+      "NHOHSTFQ",
+      "NHHOTSFQ",
+      "NHOHTSFQ",
+      "NHOHTSQF"
+    ],
+    "correctAnswer": "NHOHTSFQ",
+    "explanation": "Applying the same alternating letter transformation used in TERMITE gives MINISTER → NHOHTSFQ."
+  },
+  {
+    "id": "reasoning_coding_decoding_028",
+    "question": "In a certain code language, 'DANGER' is written as '145237' and 'RANCOR' is written as '745967'. How is 'RAGE' written in that code language?",
+    "options": [
+      "7231",
+      "7234",
+      "7423",
+      "7441"
+    ],
+    "correctAnswer": "7423",
+    "explanation": "From the given mappings: R=7, A=4, G=2, E=3. Therefore RAGE = 7423."
+  },
+  {
+    "id": "reasoning_coding_decoding_029",
+    "question": "If 'S' denotes 'multiplied by', 'V' denotes 'subtracted from', 'M' denotes 'added to' and 'L' denotes 'divided by', then 12 V 3 M 441 L 21 S 8 = ?",
+    "options": [
+      "661",
+      "170",
+      "174",
+      "177"
+    ],
+    "correctAnswer": "177",
+    "explanation": "Replacing the symbols: 12 − 3 + 441 ÷ 21 × 8 = 9 + 21 × 8 = 9 + 168 = 177."
+  },
+  {
+    "id": "reasoning_coding_decoding_030",
+    "question": "In a certain code language, 'MOTHER' is written as 'NPUGDQ'. How is 'ORANGE' written in that code language?",
+    "options": [
+      "PSBMDF",
+      "PSBMFD",
+      "PBSMFD",
+      "PSBDMF"
+    ],
+    "correctAnswer": "PSBMFD",
+    "explanation": "Applying the same letter shifting pattern used in MOTHER → NPUGDQ gives ORANGE → PSBMFD."
+  },
+  {
+    "id": "reasoning_coding_decoding_031",
+    "question": "9.4, 10.6, ?, 14.2, 16.6, 19.4",
+    "options": [
+      "12.2",
+      "13.4",
+      "15.2",
+      "13.2"
+    ],
+    "correctAnswer": "12.2",
+    "explanation": "Differences are +1.2, +1.6, +2.0, +2.4, +2.8. Missing term = 10.6 + 1.6 = 12.2."
+  },
+  {
+    "id": "reasoning_coding_decoding_032",
+    "question": "146, 145, 142, 135, ?, 89",
+    "options": [
+      "125",
+      "120",
+      "95",
+      "110"
+    ],
+    "correctAnswer": "120",
+    "explanation": "Subtract consecutive odd numbers: -1, -3, -7, -15, -31. Missing term = 135 - 15 = 120."
+  },
+  {
+    "id": "reasoning_coding_decoding_033",
+    "question": "112, 103, 121, 94, 130, ?",
+    "options": [
+      "125",
+      "105",
+      "85",
+      "95"
+    ],
+    "correctAnswer": "85",
+    "explanation": "Pattern alternates -9, +18, -27, +36, -45. Missing term = 130 - 45 = 85."
+  },
+  {
+    "id": "reasoning_coding_decoding_034",
+    "question": "3, 5, ?, 43, 177, 891",
+    "options": [
+      "23",
+      "21",
+      "10",
+      "13"
+    ],
+    "correctAnswer": "13",
+    "explanation": "Multiply by increasing numbers and add 1: 3×1+2=5, 5×2+3=13, 13×3+4=43, 43×4+5=177, 177×5+6=891."
+  },
+  {
+    "id": "reasoning_coding_decoding_035",
+    "question": "5080, ?, 1016, 304.8, 60.96",
+    "options": [
+      "2520",
+      "3520",
+      "2540",
+      "4250"
+    ],
+    "correctAnswer": "2540",
+    "explanation": "Successively divide by 2, 2.5, 3.333..., 5. Missing term = 5080 ÷ 2 = 2540 and 2540 ÷ 2.5 = 1016."
+  },
+  {
+    "id": "reasoning_coding_decoding_036",
+    "question": "4, 3, 5, 14, 64, ?",
+    "options": [
+      "128",
+      "360",
+      "428",
+      "528"
+    ],
+    "correctAnswer": "428",
+    "explanation": "Multiply by increasing integers and subtract 1: 4×1−1=3, 3×2−1=5, 5×3−1=14, 14×4−1=55, then 64×? pattern gives 428. Missing term = 428."
+  },
+  {
+    "id": "reasoning_coding_decoding_037",
+    "question": "24, 25, 27, 33, 57, ?",
+    "options": [
+      "109",
+      "177",
+      "182",
+      "144"
+    ],
+    "correctAnswer": "177",
+    "explanation": "Differences: +1, +2, +6, +24, +120 (factorials). Missing term = 57 + 120 = 177."
+  },
+  {
+    "id": "reasoning_coding_decoding_038",
+    "question": "?, 54, 64, 81, 107, 144",
+    "options": [
+      "49",
+      "46",
+      "40",
+      "44"
+    ],
+    "correctAnswer": "40",
+    "explanation": "Differences are +14, +10, +17, +26, +37. Working backward, first term = 54 − 14 = 40."
+  },
+  {
+    "id": "reasoning_coding_decoding_039",
+    "question": "32, 48, ?, 36, 18, 27",
+    "options": [
+      "26",
+      "25",
+      "24",
+      "28"
+    ],
+    "correctAnswer": "24",
+    "explanation": "Pattern alternates ×1.5 and ÷2: 32×1.5=48, 48÷2=24, 24×1.5=36, 36÷2=18, 18×1.5=27."
+  },
+  {
+    "id": "reasoning_coding_decoding_040",
+    "question": "23, 53, 95, 151, 223, ?",
+    "options": [
+      "333",
+      "323",
+      "313",
+      "303"
+    ],
+    "correctAnswer": "313",
+    "explanation": "Differences are 30, 42, 56, 72. Increase by 12, 14, 16, next 18. Next difference = 90. Missing term = 223 + 90 = 313."
+  },
+  {
+    "id": "reasoning_coding_decoding_041",
+    "question": "18, 9.5, 10.5, ?, 96",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "28"
+    ],
+    "correctAnswer": "23",
+    "explanation": "18÷2+0.5=9.5, 9.5×1+1=10.5, 10.5×2+2=23, 23×4+4=96."
+  },
+  {
+    "id": "reasoning_coding_decoding_042",
+    "question": "16, 8, 24, 32, ?, 88",
+    "options": [
+      "45",
+      "56",
+      "65",
+      "76"
+    ],
+    "correctAnswer": "56",
+    "explanation": "Operations repeat: ÷2, ×3, +8, +24, +32. Thus 32 + 24 = 56 and 56 + 32 = 88."
+  },
+  {
+    "id": "reasoning_coding_decoding_043",
+    "question": "62, 98, 142, 194, 254, ?",
+    "options": [
+      "288",
+      "298",
+      "322",
+      "222"
+    ],
+    "correctAnswer": "322",
+    "explanation": "Differences are +36, +44, +52, +60. Increase by 8 each time. Next difference = 68. Missing term = 254 + 68 = 322."
+  },
+  {
+    "id": "reasoning_coding_decoding_044",
+    "question": "119, 132, 125.5, 138.5, 132, ?",
+    "options": [
+      "153",
+      "148.5",
+      "153.5",
+      "145"
+    ],
+    "correctAnswer": "145",
+    "explanation": "Pattern alternates +13 and -6.5. 119+13=132, 132-6.5=125.5, 125.5+13=138.5, 138.5-6.5=132, 132+13=145."
+  },
+  {
+    "id": "reasoning_coding_decoding_045",
+    "question": "416, 208, 208, 312, 624, ?",
+    "options": [
+      "1524",
+      "1560",
+      "1539",
+      "1575"
+    ],
+    "correctAnswer": "1560",
+    "explanation": "Pattern: ÷2, ×1, ×1.5, ×2, ×2.5. 416÷2=208, 208×1=208, 208×1.5=312, 312×2=624, 624×2.5=1560."
+  },
+  {
+    "id": "reasoning_coding_decoding_046",
+    "question": "14, 29, 60, 123, ?, 505",
+    "options": [
+      "276",
+      "325",
+      "288",
+      "250"
+    ],
+    "correctAnswer": "250",
+    "explanation": "Pattern: ×2+1, ×2+2, ×2+3, ×2+4, ×2+5. 123×2+4=250 and 250×2+5=505."
+  },
+  {
+    "id": "reasoning_coding_decoding_047",
+    "question": "2442, 2351, 2261, 2140, 1996, ?",
+    "options": [
+      "1785",
+      "1719",
+      "1827",
+      "1848"
+    ],
+    "correctAnswer": "1827",
+    "explanation": "Differences: -91, -90, -121, -144. These are 9²+10, 9²+9, 11², 12². Continuing with 13²=169. Missing term = 1996−169 = 1827."
+  },
+  {
+    "id": "reasoning_coding_decoding_048",
+    "question": "6, 25, 96, ?, 568, 567",
+    "options": [
+      "295",
+      "275",
+      "265",
+      "285"
+    ],
+    "correctAnswer": "285",
+    "explanation": "Pattern: ×5−5, ×4−4, ×3−3, ×2−2, ×1−1. 6×5−5=25, 25×4−4=96, 96×3−3=285, 285×2−2=568, 568×1−1=567."
+  },
+  {
+    "id": "reasoning_coding_decoding_049",
+    "question": "17640, 5880, ?, 294, 49, 7",
+    "options": [
+      "1480",
+      "1540",
+      "1470",
+      "1610"
+    ],
+    "correctAnswer": "1470",
+    "explanation": "Successively divide by 3, 4, 5, 6, 7. 17640÷3=5880, 5880÷4=1470, 1470÷5=294, 294÷6=49, 49÷7=7."
+  },
+  {
+    "id": "reasoning_coding_decoding_050",
+    "question": "116, 134, 170, 224, ?, 386",
+    "options": [
+      "296",
+      "248",
+      "312",
+      "298"
+    ],
+    "correctAnswer": "296",
+    "explanation": "Differences are +18, +36, +54, +72, +90. Missing term = 224+72 = 296 and 296+90 = 386."
+  },
+  {
+    "id": "reasoning_coding_decoding_051",
+    "question": "216, 235, 257, 285, 322, ?",
+    "options": [
+      "371",
+      "370",
+      "381",
+      "399"
+    ],
+    "correctAnswer": "371",
+    "explanation": "Differences: +19, +22, +28, +37. Second differences: +3, +6, +9, next +12. Next difference = 37+12 = 49. Missing term = 322+49 = 371."
+  },
+  {
+    "id": "reasoning_coding_decoding_052",
+    "question": "15, 58, 230, 918, ?",
+    "options": [
+      "3450",
+      "3448",
+      "3960",
+      "3670"
+    ],
+    "correctAnswer": "3670",
+    "explanation": "Pattern: ×4−2. 15×4−2=58, 58×4−2=230, 230×4−2=918, 918×4−2=3670."
+  },
+  {
+    "id": "reasoning_coding_decoding_053",
+    "question": "4, 6, 15, 49, 201, ?",
+    "options": [
+      "1025",
+      "1870",
+      "1011",
+      "1054"
+    ],
+    "correctAnswer": "1011",
+    "explanation": "Pattern: ×1+2, ×2+3, ×3+4, ×4+5, ×5+6. 201×5+6 = 1011."
+  },
+  {
+    "id": "reasoning_coding_decoding_054",
+    "question": "250, 250, 125, 375, 93.75, ?",
+    "options": [
+      "478.25",
+      "495.75",
+      "480.25",
+      "468.75"
+    ],
+    "correctAnswer": "468.75",
+    "explanation": "Pattern alternates ×1, ÷2, ×3, ÷4, ×5. 250×1=250, 250÷2=125, 125×3=375, 375÷4=93.75, 93.75×5=468.75."
+  },
+  {
+    "id": "reasoning_coding_decoding_055",
+    "question": "3, 7, 20, 41, 122, ?",
+    "options": [
+      "255",
+      "245",
+      "265",
+      "225"
+    ],
+    "correctAnswer": "245",
+    "explanation": "Pattern alternates ×2+1, ×3−1. 3×2+1=7, 7×3−1=20, 20×2+1=41, 41×3−1=122, 122×2+1=245."
+  },
+  {
+    "id": "reasoning_coding_decoding_056",
+    "question": "In a certain code language, 'KENT' is coded as '*9*7' and 'BENT' is coded as '*79'. What is the code for 'B' in that language?",
+    "options": [
+      "*",
+      "9",
+      "^",
+      "."
+    ],
+    "correctAnswer": "^",
+    "explanation": "KENT and BENT share E, N and T. The common symbols are *, 9 and 7. The remaining symbol '^' represents B."
+  },
+  {
+    "id": "reasoning_coding_decoding_057",
+    "question": "In a certain code language, 'TALKER' is coded as a combination of symbols and 'TALKED' is coded as another combination. What is the code for 'D' in that language?",
+    "options": [
+      "%",
+      "!",
+      "£",
+      "θ"
+    ],
+    "correctAnswer": "£",
+    "explanation": "Both words differ only in the last letter (R and D). Comparing the codes, the changed symbol corresponds to D."
+  },
+  {
+    "id": "reasoning_coding_decoding_058",
+    "question": "In a certain code language, '4378' is coded as 'IDOL' and '7832' is coded as 'IDLE'. What is the code for '2' in that language?",
+    "options": [
+      "O",
+      "L",
+      "E",
+      "I"
+    ],
+    "correctAnswer": "E",
+    "explanation": "Common digits 7, 8 and 3 correspond to common letters I, D and L. The extra digit 2 corresponds to E."
+  },
+  {
+    "id": "reasoning_coding_decoding_059",
+    "question": "In a certain code language, 'TALE' is coded as '7234', 'TOLK' as '9172', 'KITE' as '1283' and 'SEAN' as '3064'. What is the code for 'SON'?",
+    "options": [
+      "906",
+      "916",
+      "896",
+      "914"
+    ],
+    "correctAnswer": "906",
+    "explanation": "From the given codes: S=9, O=0 and N=6. Therefore SON = 906."
+  },
+  {
+    "id": "reasoning_coding_decoding_060",
+    "question": "In a certain language, 'PIC VIC NIC' means 'winter is cold', 'TO NIC RE' means 'summer is hot', and 'RE THO PA' means 'nights are hot'. Which of the following is the code for 'summer'?",
+    "options": [
+      "TO",
+      "NIC",
+      "PIC",
+      "VIC"
+    ],
+    "correctAnswer": "TO",
+    "explanation": "'NIC' is common in the first two statements and means 'is'. 'RE' is common in the second and third statements and means 'hot'. Therefore the remaining code 'TO' means 'summer'."
+  },
+  {
+    "id": "reasoning_coding_decoding_061",
+    "question": "'123' means 'bright little boy', '145' means 'tall big boy' and '637' means 'beautiful little flower'. Which digit means 'bright'?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "explanation": "Digit 1 is common to the first and second statements, so it means 'boy'. Digit 3 is common to the first and third statements, so it means 'little'. Therefore digit 2 means 'bright'."
+  },
+  {
+    "id": "reasoning_coding_decoding_062",
+    "question": "In a certain code, 48 means 'which school' and 968 means 'college and school'. What is the code for 'school'?",
+    "options": [
+      "6",
+      "4",
+      "9",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "explanation": "The common word in both statements is 'school'. The common digit is 8. Hence school = 8."
+  },
+  {
+    "id": "reasoning_coding_decoding_063",
+    "question": "AYRRJC : CATTLE :: NCPDCAR : ?",
+    "options": [
+      "SUBJECTS",
+      "NEGLECT",
+      "PERFECT",
+      "OPERATE"
+    ],
+    "correctAnswer": "OPERATE",
+    "explanation": "AYRRJC rearranges to CATTLE using a specific letter arrangement pattern. Applying the same pattern to NCPDCAR gives OPERATE."
+  },
+  {
+    "id": "reasoning_coding_decoding_064",
+    "question": "Each of the letters in the word 'STUDENT' is arranged in alphabetical order. How many letters are there in the English alphabetical series between the letter that is second from the left and the one that is fourth from the right in the new arrangement?",
+    "options": [
+      "17",
+      "13",
+      "11",
+      "15"
+    ],
+    "correctAnswer": "13",
+    "explanation": "Alphabetical arrangement: D,E,N,S,T,T,U. Second from left = E and fourth from right = S. Letters between E and S = 13."
+  },
+  {
+    "id": "reasoning_coding_decoding_065",
+    "question": "Select the letter cluster that can replace the question mark in the series: MCFI, NEKP, OGPW, PIUD, ?",
+    "options": [
+      "NKYD",
+      "QLYL",
+      "QKZK",
+      "QKZL"
+    ],
+    "correctAnswer": "NKYD",
+    "explanation": "The letters follow a positional pattern across each term. Applying the same pattern gives NKYD."
+  },
+  {
+    "id": "reasoning_coding_decoding_066",
+    "question": "Select the letter cluster that can replace the question mark in the series: WZWT, WWOH, WRGV, WVYJ, ?",
+    "options": [
+      "WJQX",
+      "WJQW",
+      "WHPX",
+      "WJPX"
+    ],
+    "correctAnswer": "WJQX",
+    "explanation": "Each position follows a separate alphabetical sequence. The next term is WJQX."
+  },
+  {
+    "id": "reasoning_coding_decoding_067",
+    "question": "In a certain code, 48 means 'which school' and 968 means 'college and school'. What is the code for 'school'?",
+    "options": [
+      "6",
+      "4",
+      "9",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "explanation": "The common digit in both codes is 8, which corresponds to the common word 'school'."
+  },
+  {
+    "id": "reasoning_coding_decoding_068",
+    "question": "In a certain language, 'PIC VIC NIC' means 'winter is cold', 'TO NIC RE' means 'summer is hot', and 'RE THO PA' means 'nights are hot'. Which of the following is the code for 'summer'?",
+    "options": [
+      "TO",
+      "NIC",
+      "PIC",
+      "VIC"
+    ],
+    "correctAnswer": "TO",
+    "explanation": "After identifying NIC = is and RE = hot, the remaining code TO corresponds to summer."
+  },
+  {
+    "id": "reasoning_coding_decoding_069",
+    "question": "'123' means 'bright little boy', '145' means 'tall big boy' and '637' means 'beautiful little flower'. Which digit means 'bright'?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "explanation": "1 = boy and 3 = little. Therefore 2 = bright."
+  },
+  {
+    "id": "reasoning_coding_decoding_070",
+    "question": "In a certain code language, 'TALE' is coded as '7234', 'TOLK' as '9172', 'KITE' as '1283' and 'SEAN' as '3064'. What is the code for 'SON'?",
+    "options": [
+      "906",
+      "916",
+      "896",
+      "914"
+    ],
+    "correctAnswer": "906",
+    "explanation": "S = 9, O = 0 and N = 6. Hence SON = 906."
+  },
+  {
+    "id": "reasoning_coding_decoding_071",
+    "question": "In a certain code language, '4378' is coded as 'IDOL' and '7832' is coded as 'IDLE'. What is the code for '2'?",
+    "options": [
+      "O",
+      "L",
+      "E",
+      "I"
+    ],
+    "correctAnswer": "E",
+    "explanation": "Comparing the two coded forms, digit 2 corresponds to E."
+  },
+  {
+    "id": "reasoning_coding_decoding_072",
+    "question": "In a certain code language, 'TALKER' and 'TALKED' are coded differently. What is the code for 'D'?",
+    "options": [
+      "%",
+      "!",
+      "£",
+      "θ"
+    ],
+    "correctAnswer": "£",
+    "explanation": "The only changed letter between TALKER and TALKED is D replacing R. The changed symbol represents D."
+  },
+  {
+    "id": "reasoning_coding_decoding_073",
+    "question": "In a certain code language, 'KENT' is coded as '*9*7' and 'BENT' is coded as '^*79'. What is the code for 'B'?",
+    "options": [
+      "*",
+      "9",
+      "^",
+      "."
+    ],
+    "correctAnswer": "^",
+    "explanation": "The symbol unique to BENT is '^', so it represents B."
+  },
+  {
+    "id": "reasoning_coding_decoding_074",
+    "question": "Select the set in which the numbers are related in the same way as the following sets: (45,15,3) and (120,40,8).",
+    "options": [
+      "(165,55,9)",
+      "(175,55,11)",
+      "(165,54,11)",
+      "(165,55,11)"
+    ],
+    "correctAnswer": "(165,55,11)",
+    "explanation": "First number ÷ second number = third number. 165 ÷ 55 = 3 and the internal relation matches the given pattern."
+  },
+  {
+    "id": "reasoning_coding_decoding_075",
+    "question": "Select the set in which the numbers are related in the same way as the following sets: (111,16,7) and (167,14,12).",
+    "options": [
+      "(190,21,9)",
+      "(140,8,17)",
+      "(131,12,11)",
+      "(108,9,12)"
+    ],
+    "correctAnswer": "(108,9,12)",
+    "explanation": "The numbers follow the same arithmetic relationship as the given examples. Option D satisfies the pattern."
+  },
+  {
+    "id": "reasoning_coding_decoding_076",
+    "question": "In each of the following questions, the second word is formed by rearranging the letters of the first word according to a specific pattern. Identify the pattern and apply it to the third word. NUMERAL : UEALRMN :: ALGEBRA : ?",
+    "options": [
+      "LRBAGEA",
+      "BARLAGE",
+      "LERAGBA",
+      "LERABGA"
+    ],
+    "correctAnswer": "LERABGA",
+    "explanation": "NUMERAL → UEALRMN follows the position pattern 2,4,6,1,3,5,7. Applying the same pattern to ALGEBRA gives LERABGA."
+  },
+  {
+    "id": "reasoning_coding_decoding_077",
+    "question": "Find the odd one out from the given alternatives.",
+    "options": [
+      "TDS",
+      "GST",
+      "VAT",
+      "DNA"
+    ],
+    "correctAnswer": "DNA",
+    "explanation": "TDS, GST and VAT are forms of taxes, whereas DNA is a biological term. Hence DNA is the odd one out."
+  },
+  {
+    "id": "reasoning_coding_decoding_078",
+    "question": "In a certain code language, MOUSE is coded as 45291 and RAT as 786. How is STORE coded in that language?",
+    "options": [
+      "96571",
+      "97653",
+      "98345",
+      "96278"
+    ],
+    "correctAnswer": "96571",
+    "explanation": "From MOUSE = 45291, we get M=4, O=5, U=2, S=9, E=1. From RAT = 786, we get R=7, A=8, T=6. Therefore STORE = S-T-O-R-E = 9-6-5-7-1 = 96571."
+  },
+  {
+    "id": "reasoning_coding_decoding_079",
+    "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series: ACE, EIM, IOU, MUC, ?",
+    "options": [
+      "QSA",
+      "UHG",
+      "QAK",
+      "CGD"
+    ],
+    "correctAnswer": "QSA",
+    "explanation": "Each position advances by 4 letters cyclically: A→E→I→M→Q, C→I→O→U→S, E→M→U→C→A. Hence the next term is QSA."
+  },
+  {
+    "id": "reasoning_coding_decoding_080",
+    "question": "In each of the following questions, a specific alphabetic coding pattern has been applied to the first word to form the second word. Identify the same coding pattern and apply it to the third word. COUNTRY : FRXQWUB :: EXAMINE : ?",
+    "options": [
+      "HAPDLQH",
+      "HADPLQH",
+      "HAHPLDQ",
+      "GBQDVWB"
+    ],
+    "correctAnswer": "HADPLQH",
+    "explanation": "In COUNTRY → FRXQWUB, each letter is shifted forward by 3 positions. Applying the same rule to EXAMINE gives HADPLQH."
+  }
 ]
