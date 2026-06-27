@@ -31,7 +31,7 @@ function parseQuizId(quizId: string): CompletedQuizInfo {
 }
 
 export default function AdminPage() {
-  const { user } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const router = useRouter();
 
   const [searchId, setSearchId] = useState("");
@@ -41,14 +41,14 @@ export default function AdminPage() {
   const [resetting, setResetting] = useState<string | null>(null);
   const [resetDone, setResetDone] = useState<string[]>([]);
 
-  // Redirect non-admins
+  // Redirect non-admins once auth has finished loading
   useEffect(() => {
-    if (user !== undefined && !isAdminEmail(user?.email)) {
+    if (!authLoading && !isAdminEmail(user?.email)) {
       router.replace("/");
     }
-  }, [user, router]);
+  }, [user, authLoading, router]);
 
-  if (user === undefined) {
+  if (authLoading) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-zinc-950">
         <Loader2 className="h-8 w-8 animate-spin text-violet-400" />
