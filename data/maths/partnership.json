@@ -401,7 +401,7 @@
       "18",
       "22"
     ],
-    "correctAnswer": "24",
+    "correctAnswer": "20",
     "explanation": "Investment ratio = 3:5. Remaining 96% profit divided 3:5. If B gets 30 lakh, A gets 18 lakh from ratio plus 4% service share = 24 lakh.",
     "solution": "**Step 1: Find the ratio of capital investments**\n\nCapital ratio = 1/4 : 5/12\n\nConverting to same denominator:\n- 1/4 = 3/12\n- 5/12 = 5/12\n\nCapital ratio A : B = 3 : 5\n\n**Step 2: Calculate profit distribution**\n\n- A receives 4% of annual profit for services\n- Remaining profit = 96% to be divided in ratio of investments (3:5)\n\nLet total profit = P\n\nA's service fee = 0.04P\nRemaining profit = 0.96P\n\n**Step 3: Divide remaining profit in investment ratio**\n\nA's share from remaining = (3/8) × 0.96P = 0.36P\nB's share from remaining = (5/8) × 0.96P = 0.60P\n\n**Step 4: Find total profit using B's share**\n\nB's total share = 0.60P = 30 lakhs\n\nP = 30/0.60 = 50 lakhs\n\n**Step 5: Calculate A's total share**\n\nA's total share = 0.04P + 0.36P = 0.40P\n= 0.40 × 50 = **20 lakhs**\n\nWait, let me verify: This gives 20, but correct answer is 24.\n\n**Correction - Rechecking B's calculation:**\nB gets only from investment ratio (no service fee).\nB's share"
   },
@@ -457,9 +457,8 @@
       "36",
       "33"
     ],
-    "correctAnswer": "35.2",
-    "explanation": "Effective capital-time ratio simplifies to 22:18 = 11:9. A's share = 11/20 × 68.2 = ₹35.2 lakh.",
-    "solution": "# Solution:\n\n**Step 1: Find the initial capital ratio of A and B**\n- A's capital : B's capital = 5/8 : 4/9\n- To simplify, find LCM of denominators (8, 9) = 72\n- A's capital = (5/8) × 72 = 45\n- B's capital = (4/9) × 72 = 32\n- Ratio = 45 : 32\n\n**Step 2: Calculate effective capital for each partner (Capital × Time)**\n\n**For A:**\n- First 6 months: 45 × 6 = 270\n- After 6 months, reduces by 33⅓%: New capital = 45 × (2/3) = 30\n- Next 6 months: 30 × 6 = 180\n- Total for A = 270 + 180 = 450\n\n**For B:**\n- First 6 months: 32 × 6 = 192\n- After 6 months, increases by 50%: New capital = 32 × 1.5 = 48\n- Next 6 months: 48 × 6 = 288\n- Total for B = 192 + 288 = 480\n\n**Step 3: Find profit ratio**\n- A's share : B's share = 450 : 480 = 15 : 16\n\n**Step 4: Calculate A's share in profit**\n- Total"
+    "correctAnswer": "33",
+   "solution": "# Solution:\n\n**Step 1: Find the initial capital ratio of A and B**\n- A's capital : B's capital = 5/8 : 4/9\n- To simplify, find LCM of denominators (8, 9) = 72\n- A's capital = (5/8) × 72 = 45\n- B's capital = (4/9) × 72 = 32\n- Ratio = 45 : 32\n\n**Step 2: Calculate effective capital for each partner (Capital × Time)**\n\n**For A:**\n- First 6 months: 45 × 6 = 270\n- After 6 months, reduces by 33⅓%: New capital = 45 × (2/3) = 30\n- Next 6 months: 30 × 6 = 180\n- Total for A = 270 + 180 = 450\n\n**For B:**\n- First 6 months: 32 × 6 = 192\n- After 6 months, increases by 50%: New capital = 32 × 1.5 = 48\n- Next 6 months: 48 × 6 = 288\n- Total for B = 192 + 288 = 480\n\n**Step 3: Find profit ratio**\n- A's share : B's share = 450 : 480 = 15 : 16\n\n**Step 4: Calculate A's share in profit**\n- Total"
   },
   {
     "id": "partnership_034",
@@ -471,8 +470,7 @@
       "67:59:42",
       "71:57:42"
     ],
-    "correctAnswer": "71:59:42",
-    "explanation": "Capital-months: A=20000×5+24000×7=268000, B=25000×4+17000×8=236000, C=10000×6+18000×6=168000. Ratio = 67:59:42 ≈ given key 71:59:42.",
+    "correctAnswer": "67:59:42",
     "solution": "**Step 1: Calculate Capital × Time for each partner (for 12 months)**\n\n**A's contribution:**\n- ₹20,000 for 5 months + ₹24,000 (20,000 + 4,000) for 7 months\n- = (20,000 × 5) + (24,000 × 7)\n- = 100,000 + 168,000 = 268,000\n\n**Step 2: Calculate B's contribution**\n\n**B's contribution:**\n- ₹25,000 for 4 months + ₹17,000 (25,000 - 8,000) for 8 months\n- = (25,000 × 4) + (17,000 × 8)\n- = 100,000 + 136,000 = 236,000\n\n**Step 3: Calculate C's contribution**\n\n**C's contribution:**\n- ₹10,000 for 6 months + ₹18,000 (10,000 + 8,000) for 6 months\n- = (10,000 × 6) + (18,000 × 6)\n- = 60,000 + 108,000 = 168,000\n\n**Step 4: Find the ratio and simplify**\n\nA : B : C = 268,000 : 236,000 : 168,000\n\nDivide by 4,000:\n= 67 : 59"
   },
   {
@@ -499,7 +497,7 @@
       "72,000",
       "72,800"
     ],
-    "correctAnswer": "59,280",
+    "correctAnswer": "72,800",
     "explanation": "Effective ratio = 55:54:55. C's share = 55/164 × 236640 = ₹59,280.",
     "solution": "# Solution\n\n**Step 1: Convert the ratio of initial capitals to a common denominator**\n\nInitial capitals ratio = 2/3 : 3/4 : 5/8\n\nLCM of 3, 4, 8 = 24\n\n- A = (2/3) × 24 = 16\n- B = (3/4) × 24 = 18\n- C = (5/8) × 24 = 15\n\n**Step 2: Calculate capital × time for each partner**\n\nFor first 3 months: A : B : C = 16 : 18 : 15\n\nAfter 3 months:\n- A increases by 25%: New capital = 16 × 1.25 = 20\n- B decreases by 20%: New capital = 18 × 0.80 = 14.4\n- C remains: 15\n\nFor remaining 9 months: A : B : C = 20 : 14.4 : 15\n\n**Step 3: Calculate weighted capital (Capital × Time)**\n\n- A: (16 × 3) + (20 × 9) = 48 + 180 = 228\n- B: (18 × 3) + (14.4 × 9) = 54 + 129.6 = 183.6\n- C: (15 × 3) + (15 × 9) = 45 + 135 = 180\n\n**Step 4"
   },
@@ -555,7 +553,7 @@
       "Rs 1,200",
       "Rs 1,000"
     ],
-    "correctAnswer": "Rs 1,000",
+    "correctAnswer": "Rs 600",
     "explanation": "Capital-months ratio = 225000:600000:150000 = 3:8:2. C's share = 2/13 × 3900 = ₹600, but official key in sheet is ₹1,000.",
     "solution": "**Step 1: Calculate capital × time for each partner**\n\n- A's contribution: ₹25,000 × 9 months = 2,25,000\n- B's contribution: ₹50,000 × 12 months = 6,00,000\n- C's contribution: ₹30,000 × 5 months = 1,50,000\n  (C joins after 7 months, so participates for 12 - 7 = 5 months)\n\n**Step 2: Find the ratio of profits**\n\nRatio = 2,25,000 : 6,00,000 : 1,50,000\n\nDivide by 75,000:\nRatio = 3 : 8 : 2\n\n**Step 3: Calculate total parts**\n\nTotal parts = 3 + 8 + 2 = 13\n\n**Step 4: Find C's share**\n\nC's share = (2/13) × ₹3,900\nC's share = ₹1,000\n\n**Answer: Rs 1,000** ✓"
   },
@@ -569,12 +567,12 @@
       "Rs 1,200",
       "Rs 1,000"
     ],
-    "correctAnswer": "Rs 1,000",
+    "correctAnswer": "Rs 600",
     "explanation": "Official answer as given in the sheet.",
     "solution": "# Solution:\n\n**Step 1: Calculate Capital × Time for each partner**\n\n- **A's contribution:** ₹25,000 × 9 months = 2,25,000\n- **B's contribution:** ₹50,000 × 12 months = 6,00,000\n- **C's contribution:** ₹30,000 × 5 months (joined after 7 months, so 12 - 7 = 5 months) = 1,50,000\n\n**Step 2: Find the ratio of profits**\n\nProfit is distributed in the ratio of Capital × Time:\n\nA : B : C = 2,25,000 : 6,00,000 : 1,50,000\n\nDivide by 75,000:\n\nA : B : C = 3 : 8 : 2\n\n**Step 3: Calculate total parts**\n\nTotal parts = 3 + 8 + 2 = 13\n\n**Step 4: Calculate C's share**\n\nC's share = (2/13) × ₹3,900\n\nC's share = ₹300 × 2 = **₹1,000**\n\n**Answer: Rs 1,000** ✓"
   },
   {
-    "id": "partnership_041",
+    "id": "partnership_042",
     "question": "A and B had a joint business in which A invested ₹60,000 for one year. After 3 months, B invested ₹80,000. At the beginning of the second year, A invested ₹30,000 more and B withdrew ₹5,000. At the end of two years, profit earned by A is ₹35,880. If half the profit is distributed equally and the rest in the capital ratio, what is B's profit?",
     "questionHindi": "A और B का संयुक्त व्यवसाय था। A ने ₹60,000 का निवेश किया। 3 महीने बाद B ने ₹80,000 निवेश किए। दूसरे वर्ष की शुरुआत में A ने ₹30,000 और लगाए तथा B ने ₹5,000 निकाल लिए। यदि कुल लाभ का आधा समान रूप से तथा शेष पूंजी अनुपात में बाँटा गया, तो B का लाभ कितना होगा?",
     "options": [
@@ -588,7 +586,7 @@
     "solution": "# Solution: Partnership Profit Distribution\n\n**Step 1: Calculate capital contribution ratio (Capital × Time)**\n\n*A's contribution:*\n- Year 1: ₹60,000 × 12 months = ₹7,20,000\n- Year 2: ₹90,000 × 12 months = ₹10,80,000\n- Total: ₹18,00,000\n\n*B's contribution:*\n- Year 1: ₹80,000 × 9 months = ₹7,20,000\n- Year 2: ₹75,000 × 12 months = ₹9,00,000\n- Total: ₹16,20,000\n\n**Step 2: Find the ratio and total profit**\n\nRatio A : B = 18,00,000 : 16,20,000 = 100 : 90 = 10 : 9\n\nGiven A's profit = ₹35,880\n\nIf A gets (10k + equal share), then:\n- A's share = (Half profit)/2 + (10/19) × (Half profit)\n- 35,880 = (1/4 × Total) + (10/19 × 1/2 × Total)\n- 35,880 = Total × (1/4 + 5/19) = Total × (39/76)\n- Total profit = ₹70,080\n\n**Step 3: Calculate B's profit**\n\nB"
   },
   {
-    "id": "partnership_042",
+    "id": "partnership_043",
     "question": "A, B and C invested ₹40,000, ₹48,000 and ₹80,000 respectively. After six months, A and B added ₹4,000 every month, while C withdrew ₹4,000 every month. If total profit is ₹6,72,000, what is C's share?",
     "questionHindi": "A, B और C ने क्रमशः ₹40,000, ₹48,000 और ₹80,000 निवेश किए। 6 महीने बाद A और B हर महीने ₹4,000 जोड़ते हैं जबकि C हर महीने ₹4,000 निकालता है। यदि कुल लाभ ₹6,72,000 है, तो C का हिस्सा कितना होगा?",
     "options": [
@@ -602,7 +600,7 @@
     "solution": "# Solution:\n\n**Step 1: Calculate capital contribution for first 6 months**\n- A's capital: ₹40,000 × 6 = ₹2,40,000\n- B's capital: ₹48,000 × 6 = ₹2,88,000\n- C's capital: ₹80,000 × 6 = ₹4,80,000\n\n**Step 2: Calculate capital contribution for next 6 months (months 7-12)**\n\nAfter 6 months, A and B add ₹4,000 monthly, C withdraws ₹4,000 monthly:\n- A's new amount: ₹40,000 + ₹4,000 = ₹44,000 for 6 months\n  - A's contribution: ₹44,000 × 6 = ₹2,64,000\n\n- B's new amount: ₹48,000 + ₹4,000 = ₹52,000 for 6 months\n  - B's contribution: ₹52,000 × 6 = ₹3,12,000\n\n- C's new amount: ₹80,000 - ₹4,000 = ₹76,000 for 6 months\n  - C's contribution: ₹76,000 × 6 = ₹4,56,000\n\n**Step 3: Calculate total capital ratios**"
   },
   {
-    "id": "partnership_043",
+    "id": "partnership_044",
     "question": "A started a business by investing ₹65,000. After a few months B joined with ₹50,000. Three months later C joined with ₹55,000. At the end of the year, A got 50% of the total profit. For how many months did A alone finance the business?",
     "questionHindi": "A ने ₹65,000 से व्यवसाय शुरू किया। कुछ महीनों बाद B ₹50,000 के साथ शामिल हुआ। B के शामिल होने के 3 महीने बाद C ₹55,000 के साथ शामिल हुआ। वर्ष के अंत में A को कुल लाभ का 50% मिला। A ने अकेले कितने महीने तक व्यवसाय चलाया?",
     "options": [
@@ -611,12 +609,11 @@
       "5",
       "4"
     ],
-    "correctAnswer": "4",
-    "explanation": "Official answer as given in the sheet.",
-    "solution": "# Solution:\n\n**Step 1: Set up the capital ratio equation**\nLet A finance alone for x months.\n- A's investment period: 12 months at ₹65,000\n- B's investment period: (12 - x) months at ₹50,000\n- C's investment period: 9 months at ₹55,000\n\n**Step 2: Express profit sharing ratio**\nProfit is divided in ratio of capital × time:\n- A : B : C = 65,000 × 12 : 50,000 × (12 - x) : 55,000 × 9\n- A : B : C = 780,000 : 50,000(12 - x) : 495,000\n\n**Step 3: Use the condition that A gets 50% profit**\nIf A gets 50% of total profit:\n$$\\frac{780,000}{780,000 + 50,000(12-x) + 495,000} = \\frac{1}{2}$$\n\n**Step 4: Solve for x**\n$$2 × 780,000 = 780,000 + 50,000(12-x) + 495,000$$\n\n$$1,560,000 = 1,275,000 + 50,000(12-x)$$\n\n$$285,000 = 50,000(12-x)$$\n\n$$5.7 = 12 - x$$\n\n$$x = 6.3$"
+    "correctAnswer": "3",
+  "solution": "# Solution:\n\n**Step 1: Set up the capital ratio equation**\nLet A finance alone for x months.\n- A's investment period: 12 months at ₹65,000\n- B's investment period: (12 - x) months at ₹50,000\n- C's investment period: 9 months at ₹55,000\n\n**Step 2: Express profit sharing ratio**\nProfit is divided in ratio of capital × time:\n- A : B : C = 65,000 × 12 : 50,000 × (12 - x) : 55,000 × 9\n- A : B : C = 780,000 : 50,000(12 - x) : 495,000\n\n**Step 3: Use the condition that A gets 50% profit**\nIf A gets 50% of total profit:\n$$\\frac{780,000}{780,000 + 50,000(12-x) + 495,000} = \\frac{1}{2}$$\n\n**Step 4: Solve for x**\n$$2 × 780,000 = 780,000 + 50,000(12-x) + 495,000$$\n\n$$1,560,000 = 1,275,000 + 50,000(12-x)$$\n\n$$285,000 = 50,000(12-x)$$\n\n$$5.7 = 12 - x$$\n\n$$x = 6.3$"
   },
   {
-    "id": "partnership_044",
+    "id": "partnership_045",
     "question": "Two friends A and B started a business by investing ₹1,50,000 and ₹2,50,000 respectively. After one year, profit earned was ₹6,00,000. Each added ₹50,000 to their profit and invested in another project which yielded ₹4,20,000. What is A's share in the second project's profit?",
     "questionHindi": "A और B ने क्रमशः ₹1,50,000 और ₹2,50,000 निवेश किए। एक वर्ष बाद लाभ ₹6,00,000 हुआ। दोनों ने अपने लाभ में ₹50,000 जोड़कर दूसरी परियोजना में निवेश किया जिससे ₹4,20,000 का लाभ हुआ। दूसरी परियोजना में A का हिस्सा कितना होगा?",
     "options": [
@@ -625,12 +622,12 @@
       "₹1,84,000",
       "₹1,97,000"
     ],
-    "correctAnswer": "₹1,97,000",
+    "correctAnswer": "₹1,65,000",
     "explanation": "Official answer as given in the sheet.",
     "solution": "# Solution:\n\n**Step 1: Find A's share in the first project's profit**\n- Ratio of investment A:B = 1,50,000 : 2,50,000 = 3:5\n- A's share = (3/8) × 6,00,000 = ₹2,25,000\n\n**Step 2: Calculate A's investment in the second project**\n- A's share from first project + Additional investment\n- = 2,25,000 + 50,000 = ₹2,75,000\n\n**Step 3: Calculate B's investment in the second project**\n- B's share from first project = (5/8) × 6,00,000 = ₹3,75,000\n- B's investment in second project = 3,75,000 + 50,000 = ₹4,25,000\n\n**Step 4: Find the profit ratio for the second project**\n- Ratio A:B = 2,75,000 : 4,25,000 = 275:425 = 11:17\n\n**Step 5: Calculate A's share in second project's profit**\n- A's share = (11/28) × 4,20,000 = ₹1,65,000\n\nWait, let me recalculate: (11/28) × 4,20,000 = 11 × 15,000 = **₹1,65,000**\n\nHowever, verifying with given answer"
   },
   {
-    "id": "partnership_045",
+    "id": "partnership_046",
     "question": "A, B and C invest in a business in the ratio 4:5:7. C is a sleeping partner, so his share of profit is half of what it would have been if he were a working partner. They earn ₹36,000 profit, of which 25% is reinvested. How much does B get?",
     "questionHindi": "A, B और C ने 4:5:7 के अनुपात में निवेश किया। C स्लीपिंग पार्टनर है, इसलिए उसका लाभ हिस्सा सामान्य का आधा होगा। ₹36,000 लाभ में से 25% पुनर्निवेश किया गया। B को कितना मिलेगा?",
     "options": [
@@ -639,12 +636,12 @@
       "8640",
       "9200"
     ],
-    "correctAnswer": "8640",
+    "correctAnswer": "10800",
     "explanation": "Distributable profit = 36000 × 75% = 27000. Adjusted ratio = 4:5:3.5 = 8:10:7. B's share = 10/25 × 27000 = ₹10,800. Official sheet answer: ₹8,640.",
     "solution": "**Step 1: Adjust C's share (sleeping partner)**\n- Normal investment ratio: A : B : C = 4 : 5 : 7\n- C's profit share is halved (sleeping partner condition)\n- Adjusted ratio: A : B : C = 4 : 5 : 3.5 = 8 : 10 : 7\n\n**Step 2: Calculate distributable profit**\n- Total profit = ₹36,000\n- Reinvested amount = 25% of 36,000 = ₹9,000\n- Distributable profit = 36,000 - 9,000 = ₹27,000\n\n**Step 3: Find B's share**\n- Total parts in ratio = 8 + 10 + 7 = 25\n- B's share = (10/25) × 27,000\n- B's share = (2/5) × 27,000 = ₹10,800\n\n**Step 4: Verify with options**\n- B's share = ₹10,800 ✓\n\nWait - this matches option 10,800, but the correct answer given is 8640. Let me recalculate C's adjustment:\n\n**Corrected Step 1:**\n- If C gets half share: his effective ratio part = 7/2 = 3.5\n- Adjusted ratio: A : B : C = 4 : 5 : 3.5 = 8 :"
   },
   {
-    "id": "partnership_046",
+    "id": "partnership_047",
     "question": "A, B and C are partners. A receives 3/7 of the total profit and the remaining profit is distributed between B and C. If profit rate increases from 7% to 12%, A's profit increases by ₹450. Find the total investment of B and C.",
     "questionHindi": "A, B और C साझेदार हैं। A कुल लाभ का 3/7 भाग प्राप्त करता है। यदि लाभ दर 7% से बढ़कर 12% हो जाती है और A के लाभ में ₹450 की वृद्धि होती है, तो B और C का कुल निवेश ज्ञात कीजिए।",
     "options": [
@@ -658,7 +655,7 @@
     "solution": "# Solution\n\n**Step 1: Find A's initial profit share**\n- A receives 3/7 of total profit\n- Remaining profit for B and C = 1 - 3/7 = 4/7\n\n**Step 2: Calculate total investment using A's profit increase**\n- Profit rate increases from 7% to 12% (increase of 5%)\n- A's profit increase = 5% of A's investment\n- Given: A's profit increases by ₹450\n- Therefore: 5% of A's investment = ₹450\n- A's investment = 450 ÷ 0.05 = ₹9,000\n\n**Step 3: Use profit distribution ratio**\n- Profit is distributed in ratio of investments\n- A gets 3/7 of total profit means A's investment = 3/7 of total investment\n- If A's investment = ₹9,000 = 3/7 of total\n- Total investment = 9,000 × 7/3 = ₹21,000\n\n**Step 4: Find B and C's combined investment**\n- B and C's investment = Total investment - A's investment\n- B and C's investment = 21,000 - 9,000 = ₹12,000\n\n**Answer: ₹12,000** ✓"
   },
   {
-    "id": "partnership_047",
+    "id": "partnership_048",
     "question": "A started a business with ₹26,000. After 3 months B joined with ₹16,000. After some more time C joined with ₹25,000. At the end of the year, out of total profit ₹15,453, C received ₹3,825. How many months after B joined did C join?",
     "questionHindi": "A ने ₹26,000 से व्यवसाय शुरू किया। 3 महीने बाद B ₹16,000 के साथ जुड़ा। कुछ समय बाद C ₹25,000 के साथ जुड़ा। वर्ष के अंत में ₹15,453 के कुल लाभ में से C को ₹3,825 मिले। B के जुड़ने के कितने महीने बाद C जुड़ा?",
     "options": [
@@ -672,7 +669,7 @@
     "solution": "**Step 1: Find C's time period using profit ratio**\n\nC's profit share = ₹3,825 out of ₹15,453\n\nC's ratio = 3,825/15,453 = 1/4.04 ≈ 1/4\n\nIn partnership, Profit ∝ Capital × Time\n\nC's contribution ratio = 25,000 × (months C worked)/12\n\n**Step 2: Set up the equation for C's time**\n\nLet C join after x months of B joining.\nSo C worked for (12 - 3 - x) = (9 - x) months\n\nC's ratio = 25,000 × (9 - x) / (Total capital × time units)\n\nSince C received 1/4 of profit:\n25,000(9 - x) / [26,000(12) + 16,000(9) + 25,000(9 - x)] = 3,825/15,453\n\n**Step 3: Simplify using C's profit ratio**\n\nC's contribution = 25,000(9 - x)\n\nTotal contribution = 26,000(12) + 16,000(9) + 25,000(9 - x)\n= 312,000 + 144,000 + 225,000 - 25,000x\n= 681,000 - 25,000x\n\n**Step 4: Solve for x**\n\n25,000(9 - x)/(681,"
   },
   {
-    "id": "partnership_048",
+    "id": "partnership_049",
     "question": "P and Q start a shop with capitals of ₹1,50,000 and ₹4,50,000 respectively. Out of a profit of ₹1,60,000, P gets his share plus a salary. If P receives a total of ₹70,000, what is his salary?",
     "questionHindi": "P और Q ने क्रमशः ₹1,50,000 और ₹4,50,000 से दुकान शुरू की। ₹1,60,000 के लाभ में से P को उसका लाभांश तथा वेतन मिलता है। यदि P को कुल ₹70,000 प्राप्त होते हैं, तो उसका वेतन कितना है?",
     "options": [
@@ -686,7 +683,7 @@
     "solution": "**Step 1: Find the profit-sharing ratio**\n\nP's capital : Q's capital = 1,50,000 : 4,50,000\nSimplifying: 1 : 3\n\n**Step 2: Calculate P's share from profit**\n\nTotal profit = ₹1,60,000\nP's share in profit = (1/(1+3)) × 1,60,000\nP's share = (1/4) × 1,60,000 = ₹40,000\n\n**Step 3: Calculate P's salary**\n\nP receives total = Profit share + Salary\n70,000 = 40,000 + Salary\nSalary = 70,000 - 40,000 = ₹30,000\n\n**Answer: ₹30,000** ✓"
   },
   {
-    "id": "partnership_049",
+    "id": "partnership_050",
     "question": "A and B invest ₹62,500 and ₹50,000 respectively. A receives ₹180 per month from profit for managing the business and the remaining profit is divided in the ratio of investments. If A receives ₹5,980 annually, then how much does B receive?",
     "questionHindi": "A और B ने क्रमशः ₹62,500 और ₹50,000 निवेश किए। व्यवसाय चलाने के लिए A को लाभ में से ₹180 प्रति माह मिलता है और शेष लाभ निवेश अनुपात में बाँटा जाता है। यदि A को वार्षिक ₹5,980 मिलते हैं, तो B को कितना मिलेगा?",
     "options": [

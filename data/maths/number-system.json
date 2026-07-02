@@ -793,9 +793,8 @@
       "136",
       "104"
     ],
-    "correctAnswer": "136",
-    "explanation": "136² ≡ 16 (mod 168), and powers repeat. Simplifying gives remainder 136.",
-    "solution": "# Solution: Finding remainder when 136^58 is divided by 168\n\n**Step 1: Factor 168**\n168 = 8 × 21 = 8 × 3 × 7\n\n**Step 2: Use Chinese Remainder Theorem**\nFind 136^58 (mod 8), (mod 3), and (mod 7) separately.\n\n**Step 3: Calculate modulo each factor**\n\n- **Mod 8:** 136 ≡ 0 (mod 8) → 136^58 ≡ 0 (mod 8)\n\n- **Mod 3:** 136 ≡ 1 (mod 3) → 136^58 ≡ 1 (mod 3)\n\n- **Mod 7:** 136 ≡ 3 (mod 7)\n  - By Fermat's Little Theorem: 3^6 ≡ 1 (mod 7)\n  - 58 = 6(9) + 4\n  - 3^58 ≡ 3^4 ≡ 81 ≡ 4 (mod 7)\n\n**Step 4: Combine using CRT**\nFind x such that:\n- x ≡ 0 (mod 8)\n- x ≡ 1 (mod 3)\n- x ≡ 4 (mod 7)\n\nFrom x"
+    "correctAnswer": "88",
+  "solution": "# Solution: Finding remainder when 136^58 is divided by 168\n\n**Step 1: Factor 168**\n168 = 8 × 21 = 8 × 3 × 7\n\n**Step 2: Use Chinese Remainder Theorem**\nFind 136^58 (mod 8), (mod 3), and (mod 7) separately.\n\n**Step 3: Calculate modulo each factor**\n\n- **Mod 8:** 136 ≡ 0 (mod 8) → 136^58 ≡ 0 (mod 8)\n\n- **Mod 3:** 136 ≡ 1 (mod 3) → 136^58 ≡ 1 (mod 3)\n\n- **Mod 7:** 136 ≡ 3 (mod 7)\n  - By Fermat's Little Theorem: 3^6 ≡ 1 (mod 7)\n  - 58 = 6(9) + 4\n  - 3^58 ≡ 3^4 ≡ 81 ≡ 4 (mod 7)\n\n**Step 4: Combine using CRT**\nFind x such that:\n- x ≡ 0 (mod 8)\n- x ≡ 1 (mod 3)\n- x ≡ 4 (mod 7)\n\nFrom x"
   },
   {
     "id": "maths_number_system_058",
@@ -835,8 +834,7 @@
       "121",
       "125"
     ],
-    "correctAnswer": "89",
-    "explanation": "Using Euler's theorem φ(126)=36. 501 ≡ 33 (mod 36). Simplifying 5^33 (mod 126) gives 89.",
+    "correctAnswer": "125",
     "solution": "# Solution: Finding remainder when 5^501 is divided by 126\n\n**Step 1: Factor 126**\n126 = 2 × 63 = 2 × 9 × 7\n\nUse Chinese Remainder Theorem (CRT): Find remainders when 5^501 is divided by 2, 9, and 7 separately.\n\n**Step 2: Find 5^501 mod 2, mod 9, and mod 7**\n\n- **mod 2:** 5 ≡ 1 (mod 2) → 5^501 ≡ 1 (mod 2)\n\n- **mod 9:** 5^1 ≡ 5, 5^2 ≡ 25 ≡ 7, 5^3 ≡ 35 ≡ 8, 5^4 ≡ 40 ≡ 4, 5^5 ≡ 20 ≡ 2, 5^6 ≡ 10 ≡ 1 (mod 9)\n  - Cycle length = 6. Since 501 = 6(83) + 3, we have 5^501 ≡ 5^3 ≡ 8 (mod 9)\n\n- **mod 7:** 5^1 ≡ 5, 5^2 ≡ 4,"
   },
   {
@@ -877,9 +875,8 @@
       "2",
       "6"
     ],
-    "correctAnswer": "2",
-    "explanation": "Using Euler theorem and modular reduction, p = 9 and q = 7. Therefore p − q = 2.",
-    "solution": "**Step 1: Find p (remainder when 7^84 is divided by 342)**\n\nFactor 342 = 2 × 171 = 2 × 9 × 19\n\nUsing Chinese Remainder Theorem:\n- 7^84 mod 2 = 1\n- 7^84 mod 9: Since φ(9) = 6, and 84 = 14(6), we get 7^84 ≡ 1 (mod 9)\n- 7^84 mod 19: Since φ(19) = 18, and 84 = 4(18) + 12, we get 7^84 ≡ 7^12 (mod 19)\n\nCalculate 7^12 mod 19: 7^2 = 49 ≡ 11 (mod 19), 7^4 ≡ 121 ≡ 7 (mod 19), 7^12 ≡ 7^3 ≡ 343 ≡ 1 (mod 19)\n\nSo: p ≡ 1 (mod 2), p ≡ 1 (mod 9), p ≡ 1 (mod 19)\nTherefore, **p = 1**\n\n**Step 2: Find q (remainder when 7^84 is divided by 344)**\n\nFactor 344 = 8 × 43\n\nUsing Chinese"
+    "correctAnswer": "0",
+   "solution": "**Step 1: Find p (remainder when 7^84 is divided by 342)**\n\nFactor 342 = 2 × 171 = 2 × 9 × 19\n\nUsing Chinese Remainder Theorem:\n- 7^84 mod 2 = 1\n- 7^84 mod 9: Since φ(9) = 6, and 84 = 14(6), we get 7^84 ≡ 1 (mod 9)\n- 7^84 mod 19: Since φ(19) = 18, and 84 = 4(18) + 12, we get 7^84 ≡ 7^12 (mod 19)\n\nCalculate 7^12 mod 19: 7^2 = 49 ≡ 11 (mod 19), 7^4 ≡ 121 ≡ 7 (mod 19), 7^12 ≡ 7^3 ≡ 343 ≡ 1 (mod 19)\n\nSo: p ≡ 1 (mod 2), p ≡ 1 (mod 9), p ≡ 1 (mod 19)\nTherefore, **p = 1**\n\n**Step 2: Find q (remainder when 7^84 is divided by 344)**\n\nFactor 344 = 8 × 43\n\nUsing Chinese"
   },
   {
     "id": "maths_number_system_064",
@@ -891,7 +888,7 @@
       "2",
       "-4"
     ],
-    "correctAnswer": "4",
+    "correctAnswer": "-2",
     "explanation": "3 powers mod 5 cycle as 3,4,2,1. Since 61284 is divisible by 4, x=1. Also 4^n mod 6 = 4, so y=4. Hence 2x−y = 2−4 = -2.",
     "solution": "# Solution\n\n**Finding x (remainder when 3^61284 is divided by 5):**\n\nStep 1: Find the pattern of powers of 3 modulo 5.\n- 3¹ ≡ 3 (mod 5)\n- 3² ≡ 9 ≡ 4 (mod 5)\n- 3³ ≡ 12 ≡ 2 (mod 5)\n- 3⁴ ≡ 6 ≡ 1 (mod 5)\n\nThe pattern repeats every 4 powers.\n\nStep 2: Find 61284 mod 4.\n- 61284 = 4 × 15321 + 0\n- So 61284 ≡ 0 (mod 4)\n\nTherefore: 3^61284 ≡ 3⁰ ≡ 1 (mod 5)\n**Thus, x = 1**\n\n**Finding y (remainder when 4^96 is divided by 6):**\n\nStep 3: Find the pattern of powers of 4 modulo 6.\n- 4¹ ≡ 4 (mod 6)\n- 4² ≡ 16 ≡ 4 (mod 6)\n- 4³ ≡ 64 ≡ 4 (mod 6)\n\nAll powers of 4"
   },
@@ -933,9 +930,8 @@
       "58",
       "76"
     ],
-    "correctAnswer": "52",
-    "explanation": "102 = 2 × 51. Using modular arithmetic and Chinese Remainder Theorem, 2^100 leaves remainder 52 when divided by 102.",
-    "solution": "# Solution: Remainder when 2^100 is divided by 102\n\n**Step 1: Factor 102**\n102 = 2 × 51 = 2 × 3 × 17\n\n**Step 2: Find 2^100 mod 102 using Chinese Remainder Theorem**\nWe need:\n- 2^100 mod 2 = 0 (since 2^100 is even)\n- 2^100 mod 51\n- 2^100 mod 17\n\n**Step 3: Find 2^100 mod 51**\nBy Euler's theorem: φ(51) = 51(1 - 1/3)(1 - 1/17) = 32\n\nSo 2^32 ≡ 1 (mod 51)\n\n100 = 32 × 3 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 51)\n\n**Step 4: Find 2^100 mod 17**\nBy Fermat's Little Theorem: 2^16 ≡ 1 (mod 17)\n\n100 = 16 × 6 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 17)\n\n**Step 5: Apply CRT**\nWe need x such that:\n- x ≡ 0 (mod 2"
+    "correctAnswer": "16",
+   "solution": "# Solution: Remainder when 2^100 is divided by 102\n\n**Step 1: Factor 102**\n102 = 2 × 51 = 2 × 3 × 17\n\n**Step 2: Find 2^100 mod 102 using Chinese Remainder Theorem**\nWe need:\n- 2^100 mod 2 = 0 (since 2^100 is even)\n- 2^100 mod 51\n- 2^100 mod 17\n\n**Step 3: Find 2^100 mod 51**\nBy Euler's theorem: φ(51) = 51(1 - 1/3)(1 - 1/17) = 32\n\nSo 2^32 ≡ 1 (mod 51)\n\n100 = 32 × 3 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 51)\n\n**Step 4: Find 2^100 mod 17**\nBy Fermat's Little Theorem: 2^16 ≡ 1 (mod 17)\n\n100 = 16 × 6 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 17)\n\n**Step 5: Apply CRT**\nWe need x such that:\n- x ≡ 0 (mod 2"
   },
   {
     "id": "maths_number_system_068",
@@ -975,7 +971,7 @@
       "1",
       "7"
     ],
-    "correctAnswer": "0",
+    "correctAnswer": "6",
     "explanation": "For numbers with 3 or more digits of 7, last three digits are 777 and 777 ≡ 1 (mod 8). First term gives 7, second gives 5, remaining 98 terms each contribute 1. Total = 7 + 5 + 98 = 110 ≡ 6 (mod 8).",
     "solution": "# Solution: Remainder when dividing by 8\n\n**Step 1: Express each term in the form 7 × (repunit)**\n\n7 = 7 × 1\n77 = 7 × 11\n777 = 7 × 111\n7777 = 7 × 1111\n...and so on\n\nSo the sum = 7(1 + 11 + 111 + 1111 + ... up to 100 terms)\n\n**Step 2: Find remainders of repunits (1, 11, 111, ...) when divided by 8**\n\n- 1 ÷ 8 → remainder = 1\n- 11 ÷ 8 → remainder = 3\n- 111 ÷ 8 → remainder = 7\n- 1111 ÷ 8 → remainder = 7\n- 11111 ÷ 8 → remainder = 7\n- (Pattern: 1, 3, 7, 7, 7, 7, ...)\n\n**Step 3: Sum remainders for 100 terms**\n\nSum of remainders = 1 + 3 + 7 + 7 + 7 + ... (98 times 7)\n= 1 + 3 + 7(98)\n= 4 + 686\n= 690\n\n**Step 4: Find remainder of (690) when divided by 8**\n\n690"
   },
@@ -989,8 +985,7 @@
       "27",
       "7"
     ],
-    "correctAnswer": "27",
-    "explanation": "Since 100 ≡ -1 (mod 101), each block '72' contributes alternately. There are 499 complete blocks and one extra digit 7. Simplifying gives remainder 27.",
+    "correctAnswer": "20",
     "solution": "# Solution:\n\n**Step 1: Identify the pattern**\nThe number 727272727272... with 999 digits is formed by repeating \"72\" continuously.\nSince 999 is odd, the last digit is 7.\nSo we have: 72 repeated 499 times, plus one final 7.\n\n**Step 2: Express mathematically**\nThe number can be written as:\n$$N = \\underbrace{72727272...72}_{499 \\text{ times}} \\, 7$$\n\nOr: $N = 72 \\times 10^{997} + 72 \\times 10^{995} + ... + 72 \\times 10^1 + 7$\n\n**Step 3: Factor out and simplify**\n$$N = 72(10^{997} + 10^{995} + ... + 10^3 + 10^1) + 7$$\n\nThis is a geometric series with first term $10^1$, ratio $10^2 = 100$, and 499 terms:\n$$N = 72 \\times 10 \\times \\frac{100^{499} - 1}{100 - 1} + 7 = 720 \\times \\frac{100^{499} - 1}{99} + 7$$\n\n**Step 4: Find remainder when divided by 101**\nSince $100 \\equiv -1 \\pmod{101}$:\n- $100^{499} \\equiv"
   },
   {
@@ -1003,8 +998,7 @@
       "7",
       "1"
     ],
-    "correctAnswer": "9",
-    "explanation": "N = 10^99 − 1. Since 10^6 ≡ 1 (mod 13), 10^99 ≡ 10^3 ≡ 12 (mod 13). Therefore N ≡ 12 − 1 = 11 (mod 13).",
+    "correctAnswer": "11",
     "solution": "# Solution\n\n**Step 1: Identify the number N**\nN = 999...9 (99 nines) = 10^99 - 1\n\n**Step 2: Find the pattern of powers of 10 modulo 13**\n- 10^1 ≡ 10 (mod 13)\n- 10^2 ≡ 9 (mod 13)\n- 10^3 ≡ 12 (mod 13)\n- 10^4 ≡ 3 (mod 13)\n- 10^5 ≡ 4 (mod 13)\n- 10^6 ≡ 1 (mod 13)\n\nThe pattern repeats with period 6.\n\n**Step 3: Find 10^99 (mod 13)**\nSince 99 = 6 × 16 + 3, we have:\n10^99 ≡ 10^3 ≡ 12 (mod 13)\n\n**Step 4: Calculate N (mod 13)**\nN = 10^99 - 1 ≡ 12 - 1 ≡ 11 (mod 13)\n\nWait, let me verify: The remainder should be 9.\n\n**Correction - Direct approach:**\nN = 999...9 (99 nines)\n\nUsing the formula: 999...9 (n nines) ≡ -1"
   },
   {
@@ -1017,8 +1011,7 @@
       "1001",
       "115"
     ],
-    "correctAnswer": "134",
-    "explanation": "Σ[n(n+1)] from 1 to 99 = Σn² + Σn = 99×100×199/6 + 99×100/2 = 333300. Dividing 333300 by 1111 leaves remainder 134.",
+    "correctAnswer": "0",
     "solution": "# Solution\n\n**Step 1: Find the general formula for the sum**\n\nThe sum is: 1×2 + 2×3 + 3×4 + ... + 99×100\n\nFor the general term: r(r+1) = r² + r\n\nSum = Σ(r=1 to 99) r(r+1) = Σr² + Σr\n\n**Step 2: Apply summation formulas**\n\nUsing:\n- Σ(r=1 to n) r² = n(n+1)(2n+1)/6\n- Σ(r=1 to n) r = n(n+1)/2\n\nFor n = 99:\n- Σr² = 99(100)(199)/6 = 328,350\n- Σr = 99(100)/2 = 4,950\n\nSum = 328,350 + 4,950 = **333,300**\n\n**Step 3: Divide by 1111**\n\n333,300 ÷ 1111 = 300 remainder r\n\nCheck: 1111 × 300 = 333,300\n\nWait, let me recalculate: 333,300 ÷ 1111 = 300.027...\n\n1111 × 300 = 333,300 ✗\n\nActually: 333,300 = 1111 × 300 + remainder\n\n1111 × 300 = 333,300"
   },
   {
@@ -1037,7 +1030,7 @@
   },
   {
     "id": "maths_number_system_075",
-    "question": "Number System — Question 76 (add real content in datas/maths/number-system.json)",
+    "question": "Number System",
     "options": [
       "Option A",
       "Option B",
@@ -1045,9 +1038,7 @@
       "Option D"
     ],
     "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System.",
-    "solution": "I'd be happy to help solve an SSC CGL Number System question, but I notice that the specific question content, data, and options are not provided in your message. You've indicated \"Question 76\" but haven't included:\n\n1. The actual question statement\n2. Option A, B, C, and D values\n3. The mathematical problem to solve\n\n**Please provide:**\n- The complete question text\n- All four options with their values\n- Any relevant numerical data\n\nOnce you share these details, I'll deliver a clear 3-5 step solution with the answer confirmation."
-  },
+    "solution": "no quesion today, stay happy"},
   {
     "id": "maths_number_system_077",
     "question": "Number System — Question 77 (add real content in datas/maths/number-system.json)",
