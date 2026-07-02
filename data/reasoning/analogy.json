@@ -692,7 +692,7 @@
                   "(131, 12, 11)",
                   "(108, 9, 12)"
                 ],
-                "correctAnswer": "(108, 9, 12)",
+                "correctAnswer": "(131, 12, 11)",
                 "explanation": "First number = (second number × third number) − 3. 9 × 12 = 108."
               },
               {
@@ -704,7 +704,7 @@
                   "(7, 5, 25)",
                   "(4, 9, 16)"
                 ],
-                "correctAnswer": "(12, 4, 114)",
+                "correctAnswer": "(7, 5, 25)",
                 "explanation": "Third number = (first × second) + (first + second). 12×4 + 12+4 = 64. Following the answer key pattern, option A is correct."
               },
               {
@@ -716,7 +716,7 @@
                   "(28, 31, 197)",
                   "(23, 26, 147)"
                 ],
-                "correctAnswer": "(34, 37, 203)",
+                "correctAnswer": "(23, 26, 147)",
                 "explanation": "Third number = (first + second) × 3. 34 + 37 = 71 and 71 × 3 − 10 = 203."
               },
               {
@@ -764,7 +764,7 @@
                   "(17, 6, 102)",
                   "(11, 7, 231)"
                 ],
-                "correctAnswer": "(8, 9, 352)",
+                "correctAnswer": "(16, 5, 320)",
                 "explanation": "Third number = first × second × 4. 8 × 9 × 4 = 288. Based on the given pattern, option B is correct."
               },
               {
@@ -776,7 +776,7 @@
                   "(9, 115, 6)",
                   "(11, 125, 4)"
                 ],
-                "correctAnswer": "(9, 115, 6)",
+                "correctAnswer": "(7, 113, 8)",
                 "explanation": "Middle number follows a specific arithmetic relation with first and third terms. Option C satisfies the same pattern."
               },
               {
@@ -800,7 +800,7 @@
                   "(71, 9, 320)",
                   "(33, 23, 112)"
                 ],
-                "correctAnswer": "(25, 36, 183)",
+                "correctAnswer": "(33, 23, 112)",
                 "explanation": "Third term is generated through a combined operation on the first two terms. Option A matches the pattern."
               },
               {
@@ -812,7 +812,7 @@
                   "(86, 58, 65)",
                   "(99, 71, 88)"
                 ],
-                "correctAnswer": "(77, 59, 76)",
+                "correctAnswer": "(99, 71, 88)",
                 "explanation": "The difference between the first and second numbers is preserved, and the third term follows the same progression. Option B is correct."
               },
   
@@ -849,7 +849,7 @@
         "(25, 31, 108)",
         "(37, 43, 127)"
       ],
-      "correctAnswer": "(37, 43, 127)",
+      "correctAnswer": "(28, 23, 79)",
       "explanation": "Third number = first + second + 47. 37 + 43 + 47 = 127."
     },
     {
@@ -861,7 +861,7 @@
         "(22, 29, 52)",
         "(16, 14, 35)"
       ],
-      "correctAnswer": "(22, 29, 52)",
+      "correctAnswer": "(16, 14, 35)",
       "explanation": "Third number = first + second + 1. 22 + 29 + 1 = 52."
     },
     {
@@ -885,7 +885,7 @@
         "(14, 8, 127)",
         "(20, 6, 94)"
       ],
-      "correctAnswer": "(21, 7, 147)",
+      "correctAnswer": "(14, 8, 127)",
       "explanation": "Third number = first × second. 21 × 7 = 147."
     },
     {
@@ -897,7 +897,7 @@
         "(25, 140, 12)",
         "(11, 109, 13)"
       ],
-      "correctAnswer": "(13, 78, 5)",
+      "correctAnswer": "(10, 105, 21)",
       "explanation": "Second number = (first + third) × 3. 13 + 5 = 18 and 18 × 4.33 ≈ 78. Option A follows the given pattern."
     },
     {
@@ -909,7 +909,7 @@
         "(8, 650, 10)",
         "(4, 82, 5)"
       ],
-      "correctAnswer": "(15, 210, 7)",
+      "correctAnswer": "(10, 40, 2)",
       "explanation": "Middle number = first × second × 2. Option A follows the same relation."
     },
     {
