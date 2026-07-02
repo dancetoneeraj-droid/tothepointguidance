@@ -659,7 +659,7 @@
       "7⅗ days",
       "7⅕ days"
     ],
-    "correctAnswer": "7⅖ days",
+    "correctAnswer": "7⅕ days",
     "solution": "**Step 1: Find work rates**\n- Shivam's rate = 1/6 work per day\n- Vivek's rate = 1/24 work per day\n\n**Step 2: Set up equation**\nLet total days to complete work = x days\n\n- Vivek works for x days\n- Shivam works for (x - 3) days\n\nEquation: (x - 3) × (1/6) + x × (1/24) = 1\n\n**Step 3: Solve for x**\n(x - 3)/6 + x/24 = 1\n\nMultiply by 24:\n4(x - 3) + x = 24\n4x - 12 + x = 24\n5x = 36\nx = 36/5 = 7⅖ days\n\n**Step 4: Verify**\n- Shivam works: 36/5 - 3 = 21/5 days → Work = (21/5) × (1/6) = 21/30 = 7/10\n- Vivek works: 36/5 days → Work = (36/5) × (1/24) = 36/120 = 3/10\n- Total: 7/10 + 3/10 = 1 ✓\n\n**Answer: 7⅖ days**"
   },
   {
@@ -672,7 +672,7 @@
       "5 8/25 days",
       "5 24/25 days"
     ],
-    "correctAnswer": "5 24/25 days",
+    "correctAnswer": "5 13/25 days",
     "solution": "# Solution:\n\n**Step 1: Find work rates**\n- Nirbhay's rate = 1/19 work per day\n- Vismay's rate = 1/6 work per day\n\n**Step 2: Set up the equation**\nLet total time to complete work = x days\n\n- Nirbhay works for (x - 4) days\n- Vismay works for x days\n\nWork equation:\n$$\\frac{x-4}{19} + \\frac{x}{6} = 1$$\n\n**Step 3: Solve for x**\nMultiply through by 114 (LCM of 19 and 6):\n$$6(x-4) + 19x = 114$$\n$$6x - 24 + 19x = 114$$\n$$25x = 138$$\n$$x = \\frac{138}{25} = 5\\frac{13}{25}$$\n\n**Step 4: Verify**\nWork by Nirbhay: $\\frac{138/25 - 4}{19} = \\frac{38/25}{19} = \\frac{2}{25}$\n\nWork by Vismay: $\\frac{138/25}{6} = \\frac{138}{150} = \\frac{23}{25}$\n\nTotal: $\\frac{2}{25} + \\frac{23}{25} = 1$ ✓\n\n**Answer: 5 24/25"
   },
   {
@@ -711,7 +711,7 @@
       "7 days",
       "8 days"
     ],
-    "correctAnswer": "5 days",
+    "correctAnswer": "7 days",
     "solution": "**Step 1: Find work rates per day**\n- A's rate = 1/10 per day\n- B's rate = 1/12 per day\n- C's rate = 1/15 per day\n\n**Step 2: Set up the equation**\nLet total time = x days\n\n- C works for x days\n- A leaves 5 days before completion, so A works for (x - 5) days\n- B leaves 2 days after A, so B works for (x - 5 - 2) = (x - 7) days\n\n**Step 3: Write the work equation**\n$$\\frac{x-5}{10} + \\frac{x-7}{12} + \\frac{x}{15} = 1$$\n\n**Step 4: Solve for x**\nTaking LCM of 10, 12, 15 = 60\n\n$$\\frac{6(x-5) + 5(x-7) + 4x}{60} = 1$$\n\n$$6x - 30 + 5x - 35 + 4x = 60$$\n\n$$15x - 65 = 60$$\n\n$$15x = 125$$\n\n$$x = \\frac{125}{15} = \\frac{25}{3} ≈ 8.33 \\text{ days}$$\n\n**Note:** The closest answer is **5 days** (option given), though the calculated value suggests approximately 8.33 days. Using x ="
   },
   {
@@ -763,7 +763,7 @@
       "10",
       "12"
     ],
-    "correctAnswer": "10",
+    "correctAnswer": "12",
     "solution": "**Step 1: Find the work rates**\n- A's rate = 1/18 per day\n- B's rate = 1/72 per day\n- C is 33⅓% more efficient than B, so C's rate = 1/72 × (4/3) = 1/54 per day\n\n**Step 2: Set up the equation using work completion**\nLet total days to complete work = x days\n- A worked for (x - 8) days\n- B worked for x days\n- C worked for (x - 17) days\n\nWork equation: (x-8)/18 + x/72 + (x-17)/54 = 1\n\n**Step 3: Find LCM and solve**\nLCM of 18, 72, 54 = 216\n\nMultiply equation by 216:\n- 12(x-8) + 3x + 4(x-17) = 216\n- 12x - 96 + 3x + 4x - 68 = 216\n- 19x - 164 = 216\n- 19x = 380\n- x = 20 days\n\n**Step 4: Calculate A's working days**\nA worked for = x - 8 = 20 - 8 = **10 days**\n\n**Answer: 10**"
   },
   {
@@ -776,7 +776,7 @@
       "12",
       "15"
     ],
-    "correctAnswer": "14",
+    "correctAnswer": "13",
     "solution": "**Step 1: Find work rates**\n- Anil's rate = 1/20 per day\n- Sunil's rate = 1/40 per day\n- Bimal's rate = 1/b per day (unknown)\n\n**Step 2: Calculate work done by Anil alone (first 3 days)**\n- Work by Anil = 3 × (1/20) = 3/20\n- Remaining work = 1 - 3/20 = 17/20\n\n**Step 3: Determine Bimal's contribution**\n- Bimal did 10% of total job = 10/100 = 1/10\n- Remaining work after Bimal's contribution = 17/20 - 1/10 = 17/20 - 2/20 = 15/20 = 3/4\n- This 3/4 work was done by Anil and Sunil together\n\n**Step 4: Find time for Anil and Sunil to complete 3/4 work**\n- Combined rate of Anil and Sunil = 1/20 + 1/40 = 3/40 per day\n- Time = (3/4) ÷ (3/40) = (3/4) × (40/3) = 10 days\n\n**Step 5: Calculate total time**\n- Total days = 3 (Anil alone) + 10 (Anil + Sunil"
   },
   {
@@ -828,7 +828,7 @@
       "16 days",
       "12 days"
     ],
-    "correctAnswer": "24 days",
+    "correctAnswer": "48 days",
     "solution": "**Step 1: Set up work rate equations**\n\nLet A, B, and C complete the work in a, b, and c days respectively.\n\n- A + B together: 1/a + 1/b = 1/12\n- B + C together: 1/b + 1/c = 1/16\n\n**Step 2: Use the given condition about actual work done**\n\nA works 5 days + B works 7 days + C works 13 days = 1 complete work\n\nTherefore: 5/a + 7/b + 13/c = 1 ... (equation 3)\n\n**Step 3: Express relationships from equations 1 and 2**\n\nFrom equation 1: 1/a = 1/12 - 1/b\n\nFrom equation 2: 1/c = 1/16 - 1/b\n\n**Step 4: Substitute into equation 3**\n\n5(1/12 - 1/b) + 7/b + 13(1/16 - 1/b) = 1\n\n5/12 - 5/b + 7/b + 13/16 - 13/b = 1\n\n5/12 + 13/16 + (7 - 5 - 13)/b = 1\n\n5/12 + 13/16 - 11/b = 1\n\nFinding common denominator (48): 20/48 + 39/48 - 11/b ="
   },
   {
@@ -907,7 +907,7 @@
       "97 4/7 days",
       "92 4/7 days"
     ],
-    "correctAnswer": "87 4/7 days",
+    "correctAnswer": "92 4/7 days",
     "explanation": "Using pair efficiencies and solving, Reena's efficiency = 7/612. Therefore time = 612/7 = 87 4/7 days.",
     "solution": "**Step 1: Set up equations using work rates**\n\nLet Reena's work rate = 1/R, Riya's = 1/Y, Geeta's = 1/G (work per day)\n\n- 1/R + 1/Y = 1/36 ... (i)\n- 1/Y + 1/G = 1/54 ... (ii)\n- 1/R + 1/G = 1/81 ... (iii)\n\n**Step 2: Add all three equations**\n\n(1/R + 1/Y) + (1/Y + 1/G) + (1/R + 1/G) = 1/36 + 1/54 + 1/81\n\n2(1/R + 1/Y + 1/G) = 1/36 + 1/54 + 1/81\n\n**Step 3: Calculate the sum on the right side**\n\nLCM of 36, 54, 81 = 108\n\n- 1/36 = 3/108\n- 1/54 = 2/108\n- 1/81 = 4/3 ÷ 108 = (converting: 1/81 = 1.333.../108) = 4/324... \n\nActually: 1/36 + 1/54 + 1/81 = (3 + 2 + 4)/108 = 9/108 ="
   },

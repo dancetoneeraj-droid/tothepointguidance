@@ -404,7 +404,7 @@
               "(72, 40, 24)",
               "(72, 48, 24)"
             ],
-            "correctAnswer": "(81, 63, 45)",
+            "correctAnswer": "(72, 48, 24)",
             "explanation": "All numbers are multiples of 9 with common difference 18."
           },
           {
@@ -428,7 +428,7 @@
               "(9, 84, 45)",
               "(11, 111, 84)"
             ],
-            "correctAnswer": "(7, 49, 98)",
+            "correctAnswer": "(8, 64, 46)",
             "explanation": "Second = square of first and third = first × second ÷  ? Pattern best matched by option 1."
           },
           {
@@ -452,7 +452,7 @@
               "(34, 24, 14)",
               "(26, 32, 42)"
             ],
-            "correctAnswer": "(42, 34, 16)",
+            "correctAnswer": "(24, 16, 0)",
             "explanation": "Third number = First − Second."
           },
           {
@@ -476,7 +476,7 @@
               "(29, 57, 14)",
               "(21, 51, 17)"
             ],
-            "correctAnswer": "(29, 57, 14)",
+            "correctAnswer": "(29, 57, 13)",
             "explanation": "Middle number = First + 2 × Third."
           },
           {
@@ -488,7 +488,7 @@
               "(12, 24, 47)",
               "(9, 27, 81)"
             ],
-            "correctAnswer": "(9, 27, 81)",
+            "correctAnswer": "(4, 20, 56)",
             "explanation": "Second = First × 3 and Third = Second × 3."
           },
           {
@@ -500,7 +500,7 @@
               "(6, 7, 8)",
               "(12, 16, 20)"
             ],
-            "correctAnswer": "(9, 12, 15)",
+            "correctAnswer": "(6, 7, 8)",
             "explanation": "All numbers are multiplied by the same factor (×3)."
           },
           {
@@ -512,7 +512,7 @@
               "(8, 19, 11)",
               "(5, 13, 11)"
             ],
-            "correctAnswer": "(8, 19, 11)",
+            "correctAnswer": "(8, 12, 19)",
             "explanation": "Sum of first and third = 37. Option 3 also gives 8 + 11 + 19 = 38, matching closest structural pattern."
           },
           {
@@ -536,7 +536,7 @@
               "(6, 12, 22)",
               "(5, 12, 20)"
             ],
-            "correctAnswer": "(5, 12, 20)",
+            "correctAnswer": "(7, 12, 22)",
             "explanation": "Pattern: ×2+2. 6→14→30. Similarly 5→12→26 (closest matching pattern among options)."
           },
             {
@@ -548,7 +548,7 @@
                 "(4, 8, 19, 34)",
                 "(8, 13, 22, 38)"
               ],
-              "correctAnswer": "(4, 8, 19, 34)",
+              "correctAnswer": "(3, 8, 18, 33)",
               "explanation": "Differences are +5, +10, +15. Option (4, 8, 19, 34) has differences +4, +11, +15, which follows the increasing-difference pattern most closely and is the accepted answer."
             },
             {

@@ -725,7 +725,7 @@
       "2 litres",
       "1 litre"
     ],
-    "correctAnswer": "1 litre",
+    "correctAnswer": "1.5 litres",
     "questionHi": "बाबूलाल के पास 19 लीटर गिलोय जूस था जिसमें गिलोय और पानी का अनुपात 2:9 था। उसने 2.5 लीटर जूस बेच दिया। बाद में पानी मिलाने पर अनुपात 1:5 हो गया। कितना पानी मिलाया गया?",
     "solution": "Initially giloy = 19×2/11 = 38/11 L, water = 171/11 L. After selling 2.5 L, remaining giloy = 33/11 = 3 L and water = 13.5 L. Let x L water be added. Then 3/(13.5+x)=1/5. ⇒ 15 = 13.5+x ⇒ x = 1.5 L. (Answer key marks option a).",
     "solutionHi": "प्रारंभ में गिलोय = 38/11 L और पानी = 171/11 L। 2.5 L बेचने के बाद गिलोय = 3 L तथा पानी = 13.5 L बचता है। 3/(13.5+x)=1/5 से x = 1.5 L।"
@@ -739,7 +739,7 @@
       "28.57%",
       "30%"
     ],
-    "correctAnswer": "33.33%",
+    "correctAnswer": "28.57%",
     "questionHi": "यदि दूध-पानी के मिश्रण में 1 लीटर पानी मिलाया जाए तो दूध 25% रह जाता है। फिर 2 लीटर दूध मिलाने पर दूध 40% हो जाता है। प्रारंभिक मिश्रण में दूध का प्रतिशत ज्ञात कीजिए।",
     "solution": "Let milk = M and total mixture = T. After adding 1 L water: M/(T+1)=1/4 ⇒ T=4M−1. After adding 2 L milk: (M+2)/(T+3)=2/5. Substituting T=4M−1 gives M=1 and T=3. Hence milk percentage initially = 1/3 ×100 = 33.33%.",
     "solutionHi": "M और T क्रमशः दूध व कुल मिश्रण मानें। M/(T+1)=1/4 तथा (M+2)/(T+3)=2/5। हल करने पर M=1 और T=3। अतः प्रारंभिक दूध प्रतिशत = 33.33%।"
@@ -767,7 +767,7 @@
       "51",
       "49.5"
     ],
-    "correctAnswer": "34",
+    "correctAnswer": "41",
     "questionHi": "एक बर्तन में अम्ल और पानी का अनुपात 13:4 है। 15.5 लीटर मिश्रण निकालकर 1.5 लीटर पानी और 3 लीटर अम्ल मिलाया जाता है। अंतिम मिश्रण में पानी 25% है। प्रारंभिक मिश्रण की मात्रा ज्ञात कीजिए।",
     "solution": "Let total mixture = V. Initial water = 4V/17. Water removed = (4/17)×15.5. Final water = 4V/17 − 62/17 + 1.5. Given final water = V/4. Solving gives V = 34 litres.",
     "solutionHi": "कुल मिश्रण V लीटर मानें। प्रारंभिक पानी = 4V/17। निकाले गए पानी और जोड़े गए पानी को समायोजित कर अंतिम पानी = V/4 रखें। हल करने पर V = 34 लीटर।"
@@ -829,7 +829,7 @@
     "solutionHi": "प्रारंभिक दूध अंश M मानें। दो बार प्रतिस्थापन के बाद दूध = M×(3/4)^2 = 36%। अतः M = 64%।"
   },
   {
-    "id": "mixture_alligation_051",
+    "id": "mixture_alligation_062",
     "question": "From a container having pure milk, 35% is replaced by water and the process is repeated thrice. At the end of the third operation, the purity of the milk is?",
     "options": [
       "21 12/80%",
@@ -843,7 +843,7 @@
     "solutionHi": "शुद्धता = (65/100)^3 × 100 = 27.4625% = 27 37/80%"
   },
   {
-    "id": "mixture_alligation_052",
+    "id": "mixture_alligation_063",
     "question": "A container contains 25 litre of milk. From this container, 5 litre of milk is taken out and replaced by water. This process is further repeated two times. How much milk is there in the container now?",
     "options": [
       "11.5 litre",
@@ -857,7 +857,7 @@
     "solutionHi": "शेष दूध = 25 × (20/25)^3 = 12.8 लीटर"
   },
   {
-    "id": "mixture_alligation_053",
+    "id": "mixture_alligation_064",
     "question": "A vessel is full of 90 litre milk. 18 litre milk is taken out and replaced by water and again this process is repeated 2 times. The amount of milk left after the 3rd replacement is?",
     "options": [
       "11.52 litre",
@@ -871,7 +871,7 @@
     "solutionHi": "शेष दूध = 90 × (4/5)^3 = 46.08 लीटर"
   },
   {
-    "id": "mixture_alligation_054",
+    "id": "mixture_alligation_065",
     "question": "A drum contains 165 litres of ethanol. 44 litres of this liquid is removed and replaced with water. 44 litres of this mixture is again removed and replaced with water. How much water is present in the drum now?",
     "options": [
       "80.55",
@@ -885,7 +885,7 @@
     "solutionHi": "पानी = 165[1-(121/165)^2] = 76.26 लीटर"
   },
   {
-    "id": "mixture_alligation_055",
+    "id": "mixture_alligation_066",
     "question": "A vessel is full of 80L milk. If 10L milk is taken out and replaced by water, then 16L mixture is taken out and replaced by water, then 8L mixture is taken out and replaced by water and finally 20L mixture is taken out and replaced by water. At the end of the 4th process the amount of water in the mixture is?",
     "options": [
       "37.8L",
@@ -899,7 +899,7 @@
     "solutionHi": "शेष दूध = 37.8 लीटर, अतः पानी = 80−37.8 = 42.2 लीटर"
   },
   {
-    "id": "mixture_alligation_056",
+    "id": "mixture_alligation_067",
     "question": "A jar is filled with milk. A person replaces 25% of milk with water. He repeats the same process 5 times and as a result there is 1458 ml of milk left in the jar. The initial quantity of milk in the jar was?",
     "options": [
       "4.096L",
@@ -913,7 +913,7 @@
     "solutionHi": "प्रारम्भिक मात्रा = 1458 ÷ (3/4)^5 = 6144 ml = 6.144 लीटर"
   },
   {
-    "id": "mixture_alligation_057",
+    "id": "mixture_alligation_068",
     "question": "From a container of wine, a thief has stolen 15 litre of wine and replaced it with same quantity of water. He repeated the same process thrice. Thus ratio of wine and water becomes 343 : 169. Find the initial amount of wine.",
     "options": [
       "90",
@@ -921,13 +921,13 @@
       "105",
       "120"
     ],
-    "correctAnswer": "105",
+    "correctAnswer": "120",
     "questionHi": "एक पात्र से 15 लीटर वाइन निकालकर उतना ही पानी भर दिया जाता है। यह प्रक्रिया कुल 3 बार की जाती है। अंत में वाइन और पानी का अनुपात 343 : 169 हो जाता है। प्रारम्भिक वाइन की मात्रा ज्ञात कीजिए।",
     "solution": "(1-15/V)^3 = 343/512 = (7/8)^3 ⇒ 1-15/V=7/8 ⇒ V=120",
     "solutionHi": "(1-15/V)^3 = 343/512 ⇒ V = 120 लीटर"
   },
   {
-    "id": "mixture_alligation_058",
+    "id": "mixture_alligation_069",
     "question": "A cask having a capacity of 600 litres is initially filled with wine. From this cask y litres of wine are first drawn and replaced with water. From this mixture, 120 litres are drawn and replaced with water. Again 120 litres are drawn and replaced with water. The ratio of wine to water is now 12 : 13. What is the value of y?",
     "options": [
       "100",
@@ -941,7 +941,7 @@
     "solutionHi": "(1-y/600)(4/5)^2 = 12/25 ⇒ y = 150"
   },
   {
-    "id": "mixture_alligation_059",
+    "id": "mixture_alligation_070",
     "question": "From a cask filled with wine, 75 litres are first drawn and replaced with water. From this mixture, 60 litres are drawn and replaced with water. The ratio of wine to water is now 3:2. How many litres of wine did the cask initially hold?",
     "options": [
       "225",
@@ -955,7 +955,7 @@
     "solutionHi": "(1-75/V)(1-60/V)=3/5 ⇒ V=300 लीटर"
   },
   {
-    "id": "mixture_alligation_060",
+    "id": "mixture_alligation_071",
     "question": "A vessel is completely filled with milk. 27 litres of milk is taken out and replaced by water. Again 15 litres of mixture is taken out and replaced by water. Now concentration of milk becomes 71.11%. What is the capacity of the container?",
     "options": [
       "105 litre",
@@ -969,7 +969,7 @@
     "solutionHi": "(1-27/V)(1-15/V)=64/90 ⇒ V=135 लीटर"
   },
   {
-    "id": "mixture_alligation_061",
+    "id": "mixture_alligation_072",
     "question": "A container contains 71.2L of pure milk. 20% of the solution is taken out and replaced with water. This process is repeated n times. Find the minimum value of n for which the milk concentration becomes less than 46.8%.",
     "options": [
       "6",
@@ -983,7 +983,7 @@
     "solutionHi": "(4/5)^4 = 40.96% < 46.8%, अतः n = 4"
   },
   {
-    "id": "mixture_alligation_062",
+    "id": "mixture_alligation_073",
     "question": "10% of a 50% alcohol solution is replaced with water. From the resulting solution, again 20% is replaced with water. Finally half the solution is replaced with water. What is the concentration of alcohol in the final solution?",
     "options": [
       "10%",
@@ -997,7 +997,7 @@
     "solutionHi": "50% × 0.9 × 0.8 × 0.5 = 18%"
   },
   {
-    "id": "mixture_alligation_063",
+    "id": "mixture_alligation_074",
     "question": "A solution contains 75L petrol, 110L diesel and 100L kerosene. 30% of this solution is replaced by kerosene and then 2/7 of the obtained solution is replaced by diesel. Find the quantity of petrol in the mixture now.",
     "options": [
       "40.5L",
@@ -1011,7 +1011,7 @@
     "solutionHi": "शेष पेट्रोल = 75 × (1−0.30) × (1−2/7) = 37.5 लीटर"
   },
   {
-    "id": "mixture_alligation_064",
+    "id": "mixture_alligation_075",
     "question": "A jar contains a mixture of 175 ml water and 700 ml alcohol. Rohit takes out 10% of the mixture and substitutes it by water of the same amount. The process is repeated once again. The percentage of water in the mixture is now?",
     "options": [
       "35.2",
@@ -1025,7 +1025,7 @@
     "solutionHi": "अल्कोहल = 700×(0.9)² = 567 ml, पानी = 308 ml ⇒ पानी % = 35.2%"
   },
   {
-    "id": "mixture_alligation_065",
+    "id": "mixture_alligation_076",
     "question": "The ratio of milk to water in a 100 litres mixture is 2:3. 10 litres of this mixture is withdrawn and replaced with milk. This process is repeated 2 more times. What is the percentage of milk in the final mixture?",
     "options": [
       "56.26%",
@@ -1039,7 +1039,7 @@
     "solutionHi": "शेष पानी = 60×(0.9)³ = 43.74L, अतः दूध = 56.26%"
   },
   {
-    "id": "mixture_alligation_066",
+    "id": "mixture_alligation_077",
     "question": "A solution contains acid and water in the ratio 4:5. If 20% of the solution is replaced by water, then what will be the ratio of acid and water in the new solution?",
     "options": [
       "10:7",
@@ -1053,7 +1053,7 @@
     "solutionHi": "अम्ल = 16/45 तथा पानी = 29/45 ⇒ अनुपात = 16:29"
   },
   {
-    "id": "mixture_alligation_067",
+    "id": "mixture_alligation_078",
     "question": "A large container has a 50 litre mixture of juice and water in the ratio 3:2. To this, a 60 litre juice and water mixture having ratio 2:1 is added. After this, 11 litre of the solution is replaced with pure juice. What is the ratio of water to juice in the final mixture?",
     "options": [
       "37:18",
@@ -1067,7 +1067,7 @@
     "solutionHi": "अंत में पानी : रस = 40.5 : 69.5 = 18 : 37"
   },
   {
-    "id": "mixture_alligation_068",
+    "id": "mixture_alligation_079",
     "question": "A vessel contained a solution of acid and water in which water was 64%. Four litres of the solution was taken out and the same quantity of water was added. If the resulting solution contains 30% acid, the quantity of water in the solution at the beginning was:",
     "options": [
       "11.36",
@@ -1081,7 +1081,7 @@
     "solutionHi": "कुल घोल 24 लीटर ⇒ पानी = 64% × 24 = 15.36 लीटर"
   },
   {
-    "id": "mixture_alligation_069",
+    "id": "mixture_alligation_080",
     "question": "A vessel has 45 litres of solution of alcohol and water, having 60% alcohol. How many litres of the solution must be withdrawn and replaced by the same quantity of water so that the resulting solution would have 35% alcohol?",
     "options": [
       "20.25",
@@ -1095,7 +1095,7 @@
     "solutionHi": "27(1−x/45)=15.75 ⇒ x = 18.75 लीटर"
   },
   {
-    "id": "mixture_alligation_070",
+    "id": "mixture_alligation_081",
     "question": "A vessel contains a mixture of O₂ and N₂. The quantity of O₂ is 36% of total mixture. Some quantity of mixture is taken out and replaced by N₂. This process is repeated once more. Now O₂ becomes 16% of total mixture. If total mixture was 18 litres, find the quantity withdrawn each time.",
     "options": [
       "12L",
@@ -1109,7 +1109,7 @@
     "solutionHi": "0.36(1−x/18)²=0.16 ⇒ x = 6 लीटर"
   },
   {
-    "id": "mixture_alligation_071",
+    "id": "mixture_alligation_082",
     "question": "The ratio of milk and water in a mixture is 7:5. How much part of the mixture should be replaced by water so that ratio of milk and water becomes 2:3?",
     "options": [
       "11/35",
@@ -1123,7 +1123,7 @@
     "solutionHi": "(7/12)(1−x)=2/5 ⇒ x = 13/24"
   },
   {
-    "id": "mixture_alligation_072",
+    "id": "mixture_alligation_083",
     "question": "A bottle is filled with liquid of which 4 parts are water and 5 parts are fruit extract. How much of the mixture must be drawn off and replaced with water so that the mixture may be half water and half fruit extract?",
     "options": [
       "9/10",
@@ -1137,7 +1137,7 @@
     "solutionHi": "(5/9)(1−x)=1/2 ⇒ x = 1/10"
   },
   {
-    "id": "mixture_alligation_073",
+    "id": "mixture_alligation_084",
     "question": "A vessel contains a solution of two liquids A and B in the ratio 5:3. When 10 litres of the solution is taken out and replaced by the same quantity of B, the ratio of A and B becomes 10:11. Find the quantity of solution in the vessel.",
     "options": [
       "42",
@@ -1151,7 +1151,7 @@
     "solutionHi": "समीकरण हल करने पर V = 42 लीटर"
   },
   {
-    "id": "mixture_alligation_074",
+    "id": "mixture_alligation_085",
     "question": "A beaker contains a mixture of two liquids X and Y in the ratio 5:3. When 6 litres of the mixture is drawn off and replaced with Y, the ratio of X and Y becomes 5:7. How many litres of liquid X was contained initially?",
     "options": [
       "18.25",
@@ -1165,7 +1165,7 @@
     "solutionHi": "कुल मिश्रण = 18 लीटर ⇒ X = 11.25 लीटर"
   },
   {
-    "id": "mixture_alligation_075",
+    "id": "mixture_alligation_086",
     "question": "A vessel contains milk and water in the ratio 3:2. If 20% of the mixture is removed and replaced by water, then again 20% of the mixture is removed and replaced by water. Find the final ratio of milk and water.",
     "options": [
       "24:26",

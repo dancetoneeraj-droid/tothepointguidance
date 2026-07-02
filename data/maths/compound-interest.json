@@ -21,7 +21,7 @@
       "21 7/9%",
       "11 7/9%"
     ],
-    "correctAnswer": "11 7/9%",
+    "correctAnswer": "22 2/9%",
     "explanation": "(1331/729) = (11³/9³). Hence (1+r/100)³ = (11/9)³. Therefore r = (2/9)×100 = 22.22% = 22 2/9%.",
     "solution": "# Solution\n\n**Step 1: Set up the compound interest formula**\n\nLet Principal = P and Rate = R% per annum\n\n$$A = P\\left(1 + \\frac{R}{100}\\right)^n$$\n\nGiven: A/P = 1331/729 and n = 3 years\n\n$$\\left(1 + \\frac{R}{100}\\right)^3 = \\frac{1331}{729}$$\n\n**Step 2: Recognize the perfect cubes**\n\n$$1331 = 11^3 \\text{ and } 729 = 9^3$$\n\n$$\\left(1 + \\frac{R}{100}\\right)^3 = \\frac{11^3}{9^3} = \\left(\\frac{11}{9}\\right)^3$$\n\n**Step 3: Take cube root on both sides**\n\n$$1 + \\frac{R}{100} = \\frac{11}{9}$$\n\n$$\\frac{R}{100} = \\frac{11}{9} - 1 = \\frac{11-9}{9} = \\frac{2}{9}$$\n\n**Step 4: Calculate R**\n\n$$R = \\frac{2}{9} \\times 100 = \\frac{200}{9} = 22\\frac{2}{9}\\%$$\n\n**Step 5: Verify (this seems inconsistent with given answer)**\n\nConverting: $22\\frac{2}{9}\\"
   },

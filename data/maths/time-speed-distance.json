@@ -688,7 +688,7 @@
     "solution": "**Step 1: Set up the equation using Time = Distance/Speed**\n\nLet each equal distance = d km\n\n- Time for first segment: d/12 hours\n- Time for second segment: d/18 hours\n- Time for third segment: d/24 hours\n\n**Step 2: Form the total time equation**\n\nd/12 + d/18 + d/24 = 39\n\n**Step 3: Find LCM and solve for d**\n\nLCM(12, 18, 24) = 72\n\n(6d + 4d + 3d)/72 = 39\n\n13d/72 = 39\n\n13d = 2808\n\nd = 216 km\n\n**Step 4: Calculate total distance**\n\nTotal distance = 3d = 3 × 216 = **648 km**\n\n✓ Answer Confirmed: **648 km**"
   },
   {
-    "id": "time_speed_distance_051",
+    "id": "time_speed_distance_052",
     "question": "Vipin travels one-third of the distance of a journey at a speed of 30 km/h and the remaining distance at a speed of 40 km/h. If he took a total of 12 hours to complete the journey, what was the total distance (in km) of the journey?",
     "options": [
       "445",
@@ -701,7 +701,7 @@
     "solution": "**Step 1: Set up the distance variables**\nLet total distance = D km\n- First part = D/3 km (at 30 km/h)\n- Second part = 2D/3 km (at 40 km/h)\n\n**Step 2: Write the time equation**\nUsing Time = Distance/Speed:\n- Time for first part = (D/3)/30 = D/90 hours\n- Time for second part = (2D/3)/40 = 2D/120 = D/60 hours\n\n**Step 3: Apply total time condition**\nTotal time = 12 hours\n$$\\frac{D}{90} + \\frac{D}{60} = 12$$\n\n**Step 4: Solve for D**\nFind LCM of 90 and 60 = 180\n\n$$\\frac{2D}{180} + \\frac{3D}{180} = 12$$\n\n$$\\frac{5D}{180} = 12$$\n\n$$D = \\frac{12 × 180}{5} = \\frac{2160}{5} = 432 \\text{ km}$$\n\n**Step 5: Verification**\n- Time for D/3: 144/30 = 4.8 hours\n- Time for 2D/3: 288/40 = 7.2 hours\n- Total: 4.8 + 7.2 = 12 hours ✓\n\n**Answer: 432"
   },
   {
-    "id": "time_speed_distance_052",
+    "id": "time_speed_distance_053",
     "question": "A person travelled 120 km by steamer, 450 km by train and 60 km by horse. It took him 13 hours 30 minutes. If the speed of the train is 3 times that of the horse and 1.5 times that of the steamer, then what is the speed (in km/h) of the steamer?",
     "options": [
       "30",
@@ -714,7 +714,7 @@
     "solution": "**Step 1: Define variables based on given relationships**\n\nLet speed of steamer = s km/h\n\nGiven: Speed of train = 1.5s km/h (train is 1.5 times steamer)\n\nSpeed of horse = s/3 km/h (train is 3 times horse, so horse = train/3 = 1.5s/3 = s/3)\n\n**Step 2: Set up the time equation**\n\nTime = Distance/Speed\n\nTotal time = 120/s + 450/(1.5s) + 60/(s/3) = 13.5 hours\n\n**Step 3: Simplify each term**\n\n- Steamer: 120/s\n- Train: 450/(1.5s) = 300/s\n- Horse: 60/(s/3) = 180/s\n\n**Step 4: Solve for s**\n\n120/s + 300/s + 180/s = 13.5\n\n600/s = 13.5\n\ns = 600/13.5 = 600/(27/2) = 600 × 2/27 = 1200/27 ≈ 44.44\n\nLet me recalculate: 13 hours 30 minutes = 13.5 hours = 27/2 hours\n\ns = 600 ÷ (27/2) = 600 × 2/27 = **30 km/h**\n\n**Answer: 30 km"
   },
   {
-    "id": "time_speed_distance_053",
+    "id": "time_speed_distance_054",
     "question": "A train covers 360 km at a uniform speed. If the speed had been 10 km/h more, it would have taken 3 hours less for the journey. What is the speed of the train (in km/h)?",
     "options": [
       "40",
@@ -722,12 +722,11 @@
       "30",
       "50"
     ],
-    "correctAnswer": "30",
-    "explanation": "Let speed = x km/h. Then 360/x − 360/(x+10) = 3. Solving gives x = 30 km/h.",
-    "solution": "**Step 1: Set up the equation using Time = Distance/Speed**\n\nLet the actual speed of the train be x km/h.\n\n- Actual time = 360/x hours\n- Time with increased speed = 360/(x+10) hours\n\n**Step 2: Form the equation from the given condition**\n\nThe train takes 3 hours less with increased speed:\n\n360/x - 360/(x+10) = 3\n\n**Step 3: Solve the equation**\n\n360(x+10) - 360x = 3x(x+10)\n\n360x + 3600 - 360x = 3x² + 30x\n\n3600 = 3x² + 30x\n\n3x² + 30x - 3600 = 0\n\nx² + 10x - 1200 = 0\n\n**Step 4: Factor the quadratic equation**\n\n(x + 40)(x - 30) = 0\n\nx = -40 or x = 30\n\nSince speed cannot be negative, x = 30 km/h\n\n**Verification:** At 30 km/h: time = 360/30 = 12 hours. At 40 km/h: time = 360/40 = 9 hours. Difference = 3 hours ✓\n\n**Answer: 30 km/h**"
+    "correctAnswer": "40",
+   "solution": "**Step 1: Set up the equation using Time = Distance/Speed**\n\nLet the actual speed of the train be x km/h.\n\n- Actual time = 360/x hours\n- Time with increased speed = 360/(x+10) hours\n\n**Step 2: Form the equation from the given condition**\n\nThe train takes 3 hours less with increased speed:\n\n360/x - 360/(x+10) = 3\n\n**Step 3: Solve the equation**\n\n360(x+10) - 360x = 3x(x+10)\n\n360x + 3600 - 360x = 3x² + 30x\n\n3600 = 3x² + 30x\n\n3x² + 30x - 3600 = 0\n\nx² + 10x - 1200 = 0\n\n**Step 4: Factor the quadratic equation**\n\n(x + 40)(x - 30) = 0\n\nx = -40 or x = 30\n\nSince speed cannot be negative, x = 30 km/h\n\n**Verification:** At 30 km/h: time = 360/30 = 12 hours. At 40 km/h: time = 360/40 = 9 hours. Difference = 3 hours ✓\n\n**Answer: 30 km/h**"
   },
   {
-    "id": "time_speed_distance_054",
+    "id": "time_speed_distance_055",
     "question": "A truck covers a distance of 480 km at a certain speed. If the speed is decreased by 8 km/h, it would take 2 hours more to cover the same distance. 50% of its original speed (in km/h) is:",
     "options": [
       "20",
@@ -740,7 +739,7 @@
     "solution": "**Step 1: Set up the equation**\nLet original speed = s km/h\n\n- Time at original speed: t₁ = 480/s hours\n- Time at reduced speed: t₂ = 480/(s-8) hours\n- Given: t₂ - t₁ = 2 hours\n\n**Step 2: Form the equation**\n$$\\frac{480}{s-8} - \\frac{480}{s} = 2$$\n\n**Step 3: Solve for s**\n$$\\frac{480s - 480(s-8)}{s(s-8)} = 2$$\n\n$$\\frac{480s - 480s + 3840}{s(s-8)} = 2$$\n\n$$\\frac{3840}{s(s-8)} = 2$$\n\n$$3840 = 2s(s-8)$$\n\n$$1920 = s² - 8s$$\n\n$$s² - 8s - 1920 = 0$$\n\n**Step 4: Factorize**\n$$(s - 48)(s + 40) = 0$$\n\nSince speed cannot be negative: **s = 48 km/h**\n\n**Step 5: Find 50% of original speed**\n50% of 48 = 24 km/h\n\n**Answer: 24** ✓"
   },
   {
-    "id": "time_speed_distance_055",
+    "id": "time_speed_distance_056",
     "question": "A truck covers a distance of 384 km at a certain speed. If the speed is decreased by 16 km/h, it will take 2 hours more to cover the same distance. 75% of its original speed (in km/h) is:",
     "options": [
       "45",
@@ -753,7 +752,7 @@
     "solution": "**Step 1: Set up the equation using Time = Distance/Speed**\n\nLet original speed = s km/h\n\n- Time at original speed: t₁ = 384/s\n- Time at reduced speed: t₂ = 384/(s-16)\n\n**Step 2: Use the condition that reduced speed takes 2 hours more**\n\n384/(s-16) - 384/s = 2\n\n**Step 3: Solve the equation**\n\n384s - 384(s-16) = 2s(s-16)\n\n384s - 384s + 6144 = 2s² - 32s\n\n6144 = 2s² - 32s\n\n2s² - 32s - 6144 = 0\n\ns² - 16s - 3072 = 0\n\n**Step 4: Apply quadratic formula or factorization**\n\n(s - 64)(s + 48) = 0\n\ns = 64 km/h (taking positive value)\n\n**Step 5: Find 75% of original speed**\n\n75% of 64 = 0.75 × 64 = **48 km/h**\n\n**Answer: 48** ✓"
   },
   {
-    "id": "time_speed_distance_056",
+    "id": "time_speed_distance_057",
     "question": "A train is to cover 370 km at a uniform speed. After running 100 km, the train could run at a speed 5 km/h less than its normal speed due to some technical fault. The train got delayed by 36 minutes. What is the normal speed of the train?",
     "options": [
       "48",
@@ -766,7 +765,7 @@
     "solution": "**Step 1: Set up the equation with variable**\nLet the normal speed = x km/h\n- Distance at normal speed = 100 km\n- Remaining distance = 370 - 100 = 270 km\n- Reduced speed = (x - 5) km/h\n\n**Step 2: Calculate time for each segment**\n- Time for first 100 km = 100/x hours\n- Time for remaining 270 km at reduced speed = 270/(x-5) hours\n\n**Step 3: Apply the delay condition**\nThe train got delayed by 36 minutes = 36/60 = 3/5 hours\n\nTime at reduced speed - Time at normal speed = Delay\n\n$$\\frac{270}{x-5} - \\frac{270}{x} = \\frac{3}{5}$$\n\n**Step 4: Solve the equation**\n$$\\frac{270x - 270(x-5)}{x(x-5)} = \\frac{3}{5}$$\n\n$$\\frac{270 × 5}{x(x-5)} = \\frac{3}{5}$$\n\n$$\\frac{1350}{x(x-5)} = \\frac{3}{5}$$\n\n$$1350 × 5 = 3x(x-5)$$\n\n$$6750 = 3x^2 - 15x$$\n\n$$3x^2 - 15x - 6750 = 0$$\n\n$$x^2"
   },
   {
-    "id": "time_speed_distance_057",
+    "id": "time_speed_distance_058",
     "question": "Due to traffic, the speed of a car is reduced by 15 km/h, so it takes 1.5 hours more to cover a distance of 1260 km. Find the initial speed of the car.",
     "options": [
       "100 km/h",
@@ -779,7 +778,7 @@
     "solution": "# Solution:\n\n**Step 1: Set up the equation**\nLet initial speed = x km/h\n- Normal time = 1260/x hours\n- Reduced speed = (x - 15) km/h\n- New time = 1260/(x - 15) hours\n\n**Step 2: Use the time difference condition**\nAccording to the problem:\n$$\\frac{1260}{x-15} - \\frac{1260}{x} = 1.5$$\n\n**Step 3: Solve the equation**\n$$1260\\left(\\frac{1}{x-15} - \\frac{1}{x}\\right) = 1.5$$\n\n$$1260\\left(\\frac{x - (x-15)}{x(x-15)}\\right) = 1.5$$\n\n$$1260 \\times \\frac{15}{x(x-15)} = 1.5$$\n\n$$18900 = 1.5x(x-15)$$\n\n$$12600 = x(x-15)$$\n\n$$x^2 - 15x - 12600 = 0$$\n\n**Step 4: Factorize**\n$$(x - 120)(x + 105) = 0$$\n\n$$x = 120 \\text{ or } x = -105$$\n\nSince speed cannot be negative, x = 120 km/h\n\n**Verification:** Time at 120 km/h = 10.5 hours; Time at 105 km/"
   },
   {
-    "id": "time_speed_distance_058",
+    "id": "time_speed_distance_059",
     "question": "An aeroplane has to cover 3360 km distance. Due to bad weather, it starts flying 75 minutes late but still reaches on time because its speed is 200 km/h more than its actual speed. Find the actual speed of the aeroplane.",
     "options": [
       "640 km/h",
@@ -792,7 +791,7 @@
     "solution": "**Step 1: Set up the equation using Time = Distance/Speed**\n\nLet actual speed = x km/h\n- Actual time = 3360/x hours\n- New speed = (x + 200) km/h\n- New time = 3360/(x + 200) hours\n\n**Step 2: Use the delay condition**\n\nThe aeroplane starts 75 minutes late but reaches on time, meaning:\n- Time saved = 75 minutes = 75/60 = 5/4 hours\n\nTherefore:\n$$\\frac{3360}{x} - \\frac{3360}{x+200} = \\frac{5}{4}$$\n\n**Step 3: Solve the equation**\n\n$$3360\\left(\\frac{1}{x} - \\frac{1}{x+200}\\right) = \\frac{5}{4}$$\n\n$$3360\\left(\\frac{x+200-x}{x(x+200)}\\right) = \\frac{5}{4}$$\n\n$$3360 \\times \\frac{200}{x(x+200)} = \\frac{5}{4}$$\n\n$$\\frac{672000}{x(x+200)} = \\frac{5}{4}$$\n\n$$672000 \\times 4 = 5 \\times x(x+200)$$\n\n$$2688000 = 5x^2 + 1000x$$\n\n$$5x^2 + 1000x - 2688000"
   },
   {
-    "id": "time_speed_distance_059",
+    "id": "time_speed_distance_060",
     "question": "Due to inclement weather, an airplane reduced its speed by 150 km/h and reached its destination 4500 km away 1.5 hours late. Then the scheduled duration of the flight was:",
     "options": [
       "4.5 hours",
@@ -800,12 +799,12 @@
       "6 hours",
       "5 hours"
     ],
-    "correctAnswer": "5 hours",
+    "correctAnswer": "6 hours",
     "explanation": "Let scheduled speed = x. Then 4500/(x−150) − 4500/x = 1.5. Solving gives x = 900 km/h. Scheduled duration = 4500/900 = 5 hours.",
     "solution": "**Step 1: Set up variables**\nLet the original speed = v km/h\nLet the scheduled time = t hours\n\n**Step 2: Form equations using Distance = Speed × Time**\n- Original flight: 4500 = v × t  ... (1)\n- Delayed flight: 4500 = (v - 150) × (t + 1.5)  ... (2)\n\n**Step 3: Expand equation (2)**\n4500 = vt + 1.5v - 150t - 225\n4500 = 4500 + 1.5v - 150t - 225  [substituting vt = 4500 from (1)]\n0 = 1.5v - 150t - 225\n150t = 1.5v - 225\nt = v/100 - 1.5  ... (3)\n\n**Step 4: Substitute back into equation (1)**\n4500 = v(v/100 - 1.5)\n4500 = v²/100 - 1.5v\n450000 = v² - 150v\nv² - 150v - 450000 = 0\n\nUsing the quadratic formula or factoring: (v - 750)(v + 600) = 0\nSince v > 0, v = 750 km/h\n\n**Step 5: Find scheduled time**\nt = 4500/750 = **5 hours**\n\n✓ **Answer:"
   },
   {
-    "id": "time_speed_distance_060",
+    "id": "time_speed_distance_061",
     "question": "A fast local of Mumbai takes 45 minutes less than a slow local for a journey of 150 km. If the speed of the fast local is 10 km/h more than that of the slow local, find the speed (in km/h) of the slow local train.",
     "options": [
       "30",
@@ -813,12 +812,11 @@
       "45",
       "35"
     ],
-    "correctAnswer": "35",
-    "explanation": "Let slow speed = x. Then 150/x − 150/(x+10) = 45/60. Solving gives x = 40 km/h mathematically, but the answer marked in the sheet is 35 km/h.",
+    "correctAnswer": "40",
     "solution": "# Step-by-Step Solution\n\n**Step 1: Define variables**\n- Let speed of slow local = x km/h\n- Speed of fast local = (x + 10) km/h\n- Distance = 150 km\n\n**Step 2: Write time equations**\n- Time taken by slow local = 150/x hours\n- Time taken by fast local = 150/(x+10) hours\n\n**Step 3: Set up equation using given condition**\nFast local takes 45 minutes (= 3/4 hour) less than slow local:\n\n$$\\frac{150}{x} - \\frac{150}{x+10} = \\frac{3}{4}$$\n\n**Step 4: Solve the equation**\n$$\\frac{150(x+10) - 150x}{x(x+10)} = \\frac{3}{4}$$\n\n$$\\frac{1500}{x(x+10)} = \\frac{3}{4}$$\n\n$$6000 = 3x(x+10)$$\n\n$$6000 = 3x^2 + 30x$$\n\n$$3x^2 + 30x - 6000 = 0$$\n\n$$x^2 + 10x - 2000 = 0$$\n\nUsing the quadratic formula or factoring:\n$$(x + 50)(x - 40) = 0$$\n\nx = 40 or x = -50\n\nSince speed cannot be negative, x = 40\n\n**Step"
   },
   {
-    "id": "time_speed_distance_061",
+    "id": "time_speed_distance_062",
     "question": "The speed of train A is 25 km/h more than the speed of train B. A takes 4 hours less to travel 300 km than train B takes to travel 250 km. What is the speed of train A (in km/h)?",
     "options": [
       "65",
@@ -831,7 +829,7 @@
     "solution": "# Solution\n\n**Step 1: Set up variables**\n- Let speed of train B = b km/h\n- Then speed of train A = (b + 25) km/h\n\n**Step 2: Write time equations**\n- Time taken by A to travel 300 km = 300/(b + 25) hours\n- Time taken by B to travel 250 km = 250/b hours\n\n**Step 3: Form the equation using given condition**\nAccording to the problem, A takes 4 hours less:\n\n$$\\frac{250}{b} - \\frac{300}{b+25} = 4$$\n\n**Step 4: Solve for b**\n$$\\frac{250(b+25) - 300b}{b(b+25)} = 4$$\n\n$$250b + 6250 - 300b = 4b(b+25)$$\n\n$$-50b + 6250 = 4b^2 + 100b$$\n\n$$4b^2 + 150b - 6250 = 0$$\n\n$$2b^2 + 75b - 3125 = 0$$\n\nUsing the quadratic formula or factoring: b = 25 km/h\n\n**Step 5: Find speed of train A**\nSpeed of train A = b + 25 = 25 + 25 = **50 km/h**\n\n✓ **Correct Answer: 50**"
   },
   {
-    "id": "time_speed_distance_062",
+    "id": "time_speed_distance_063",
     "question": "A car did a journey in t hours. Had the average speed been x km/h greater, the journey would have taken y hours less. How long was the journey?",
     "options": [
       "x(t−y)ty",
@@ -844,7 +842,7 @@
     "solution": "**Step 1: Set up the distance equation**\n\nLet actual speed = s km/h and distance = D km\n\nFrom the journey: D = s × t\n\n**Step 2: Set up equation for increased speed scenario**\n\nWith speed increased by x km/h: (s + x) × (t - y) = D\n\n**Step 3: Equate both expressions for distance**\n\nSince both equal D:\n- s × t = (s + x) × (t - y)\n- st = st - sy + xt - xy\n- 0 = -sy + xt - xy\n- sy = xt - xy\n- sy = x(t - y)\n- s = x(t - y)/y\n\n**Step 4: Calculate the distance**\n\nD = s × t = [x(t - y)/y] × t\n\nD = **x(t - y)t/y** or **x(t - y)ty⁻¹**\n\n**Answer: x(t−y)ty⁻¹**"
   },
   {
-    "id": "time_speed_distance_063",
+    "id": "time_speed_distance_064",
     "question": "The distance between two railway stations is 1176 km. To cover this distance, an express train takes 5 hours less than a passenger train while the average speed of the passenger train is 70 km/h less than that of the express train. The time taken by the passenger train is:",
     "options": [
       "18 hours",
@@ -857,7 +855,7 @@
     "solution": "# Solution\n\n**Step 1: Set up variables**\n- Let time taken by express train = t hours\n- Then time taken by passenger train = (t + 5) hours\n- Distance = 1176 km\n\n**Step 2: Express speeds in terms of t**\n- Speed of express train = 1176/t km/h\n- Speed of passenger train = 1176/(t+5) km/h\n\n**Step 3: Use the speed difference condition**\nGiven: Speed of passenger train is 70 km/h less than express train\n\n$$\\frac{1176}{t} - \\frac{1176}{t+5} = 70$$\n\n**Step 4: Solve for t**\n$$\\frac{1176(t+5) - 1176t}{t(t+5)} = 70$$\n\n$$\\frac{1176 × 5}{t(t+5)} = 70$$\n\n$$\\frac{5880}{t(t+5)} = 70$$\n\n$$5880 = 70t(t+5)$$\n\n$$t^2 + 5t = 84$$\n\n$$t^2 + 5t - 84 = 0$$\n\n$$(t + 12)(t - 7) = 0$$\n\nSince t must be positive: **t = 7 hours**\n\n**Step 5: Find passenger train time**\nTime taken by passenger train = t + 5 = 7 + 5 = **17 hours**"
   },
   {
-    "id": "time_speed_distance_064",
+    "id": "time_speed_distance_065",
     "question": "The distance between two railway stations is 1176 km. To cover this distance, an express train takes 5 hours less than a passenger train while the average speed of the passenger train is 70 km/h less than that of the express train. The time taken by the passenger train to complete the travel is:",
     "options": [
       "18 hours",
@@ -865,12 +863,11 @@
       "23 hours",
       "12 hours"
     ],
-    "correctAnswer": "17 hours",
-    "explanation": "Let express speed = x km/h. Then passenger speed = x−70. Given 1176/(x−70) − 1176/x = 5. Solving gives x = 168 km/h. Passenger speed = 98 km/h, and time = 1176/98 = 12 hours. However, the answer marked in the sheet is 17 hours.",
-    "solution": "# Solution:\n\n**Step 1: Set up variables**\n- Let time taken by express train = t hours\n- Then time taken by passenger train = (t + 5) hours\n- Distance = 1176 km (same for both)\n\n**Step 2: Express speeds in terms of t**\n- Speed of express train = 1176/t km/h\n- Speed of passenger train = 1176/(t+5) km/h\n\n**Step 3: Use the speed difference condition**\nSpeed of express train - Speed of passenger train = 70\n\n$$\\frac{1176}{t} - \\frac{1176}{t+5} = 70$$\n\n**Step 4: Solve for t**\n$$\\frac{1176(t+5) - 1176t}{t(t+5)} = 70$$\n\n$$\\frac{1176 × 5}{t(t+5)} = 70$$\n\n$$\\frac{5880}{t(t+5)} = 70$$\n\n$$5880 = 70t(t+5)$$\n\n$$t(t+5) = 84$$\n\n$$t^2 + 5t - 84 = 0$$\n\n$$(t + 12)(t - 7) = 0$$\n\n$$t = 7$$ (taking positive value)\n\n**Step 5: Find passenger train's time**\nTime taken by passenger train = t + 5 = 7 + 5 = **17 hours**\n\n**Answer"
+    "correctAnswer": "12 hours",
+   "solution": "# Solution:\n\n**Step 1: Set up variables**\n- Let time taken by express train = t hours\n- Then time taken by passenger train = (t + 5) hours\n- Distance = 1176 km (same for both)\n\n**Step 2: Express speeds in terms of t**\n- Speed of express train = 1176/t km/h\n- Speed of passenger train = 1176/(t+5) km/h\n\n**Step 3: Use the speed difference condition**\nSpeed of express train - Speed of passenger train = 70\n\n$$\\frac{1176}{t} - \\frac{1176}{t+5} = 70$$\n\n**Step 4: Solve for t**\n$$\\frac{1176(t+5) - 1176t}{t(t+5)} = 70$$\n\n$$\\frac{1176 × 5}{t(t+5)} = 70$$\n\n$$\\frac{5880}{t(t+5)} = 70$$\n\n$$5880 = 70t(t+5)$$\n\n$$t(t+5) = 84$$\n\n$$t^2 + 5t - 84 = 0$$\n\n$$(t + 12)(t - 7) = 0$$\n\n$$t = 7$$ (taking positive value)\n\n**Step 5: Find passenger train's time**\nTime taken by passenger train = t + 5 = 7 + 5 = **17 hours**\n\n**Answer"
   },
   {
-    "id": "time_speed_distance_065",
+    "id": "time_speed_distance_066",
     "question": "A train runs first 75 km at a certain uniform speed and next 90 km at an average speed of 10 km/h more than the normal speed. If it takes 3 hours to complete the journey, then how much time will the train take to cover 300 km with normal speed?",
     "options": [
       "5 hours 15 minutes",
@@ -883,7 +880,7 @@
     "solution": "# Solution:\n\n**Step 1: Set up the equation**\n- Let normal speed = x km/h\n- Speed for next 90 km = (x + 10) km/h\n- Total time = 3 hours\n\nUsing Time = Distance/Speed:\n$$\\frac{75}{x} + \\frac{90}{x+10} = 3$$\n\n**Step 2: Solve the equation**\nMultiply through by x(x + 10):\n$$75(x + 10) + 90x = 3x(x + 10)$$\n\n$$75x + 750 + 90x = 3x^2 + 30x$$\n\n$$165x + 750 = 3x^2 + 30x$$\n\n$$3x^2 - 135x - 750 = 0$$\n\n$$x^2 - 45x - 250 = 0$$\n\n**Step 3: Factor the quadratic**\n$$(x - 50)(x + 5) = 0$$\n\nTherefore: x = 50 km/h (taking positive value)\n\n**Step 4: Calculate time for 300 km at normal speed**\n$$\\text{Time} = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{300}{50} = 6 \\text{ hours}$$\n\n**Answer: 6 hours** ✓"
   },
   {
-    "id": "time_speed_distance_066",
+    "id": "time_speed_distance_067",
     "question": "A taxi goes from City A to City B at an average speed of 84 km/h. In the return journey due to traffic the average speed of the taxi falls by 24 km/h. Find the average speed of the taxi (in km/h) for the total journey.",
     "options": [
       "72",
@@ -896,7 +893,7 @@
     "solution": "**Step 1: Find the speed for return journey**\n- Speed from A to B = 84 km/h\n- Speed decreases by 24 km/h on return\n- Return speed = 84 - 24 = 60 km/h\n\n**Step 2: Set up the formula for average speed**\nFor a round trip with equal distances:\n$$\\text{Average Speed} = \\frac{2 \\times v_1 \\times v_2}{v_1 + v_2}$$\n\nwhere v₁ = 84 km/h and v₂ = 60 km/h\n\n**Step 3: Calculate average speed**\n$$\\text{Average Speed} = \\frac{2 \\times 84 \\times 60}{84 + 60}$$\n\n$$= \\frac{10080}{144}$$\n\n$$= 70 \\text{ km/h}$$\n\n**Answer: 70 km/h** ✓"
   },
   {
-    "id": "time_speed_distance_067",
+    "id": "time_speed_distance_068",
     "question": "If the distance between A and B is 1089 km, Vishal goes from A to B with speed 104 km/h and returns to A with speed 125 km/h. Find the average speed of Vishal (rounded off to two decimal places).",
     "options": [
       "111.79 km/h",
@@ -909,7 +906,7 @@
     "solution": "**Step 1: Calculate time taken from A to B**\n- Distance = 1089 km, Speed = 104 km/h\n- Time₁ = Distance/Speed = 1089/104 = 10.47115 hours\n\n**Step 2: Calculate time taken from B to A**\n- Distance = 1089 km, Speed = 125 km/h\n- Time₂ = Distance/Speed = 1089/125 = 8.712 hours\n\n**Step 3: Calculate total distance and total time**\n- Total Distance = 1089 + 1089 = 2178 km\n- Total Time = 10.47115 + 8.712 = 19.18315 hours\n\n**Step 4: Calculate average speed**\n- Average Speed = Total Distance/Total Time\n- Average Speed = 2178/19.18315 = 113.54 km/h\n\n**Answer: 113.54 km/h** ✓"
   },
   {
-    "id": "time_speed_distance_068",
+    "id": "time_speed_distance_069",
     "question": "The speed of a car going from A to B is 110 km/h, while coming back its speed is 76 km/h. What is the average speed during the entire journey?",
     "options": [
       "89 83/93 km/h",
@@ -922,7 +919,7 @@
     "solution": "**Step 1: Identify the formula for average speed**\nWhen distance is the same both ways, use:\n$$\\text{Average Speed} = \\frac{2v_1v_2}{v_1 + v_2}$$\n\nwhere v₁ = 110 km/h and v₂ = 76 km/h\n\n**Step 2: Apply the formula**\n$$\\text{Average Speed} = \\frac{2 × 110 × 76}{110 + 76} = \\frac{16,720}{186}$$\n\n**Step 3: Simplify the fraction**\nDivide both numerator and denominator by 2:\n$$= \\frac{8,360}{93}$$\n\n**Step 4: Convert to mixed number**\n$$8,360 ÷ 93 = 89 \\text{ remainder } 83$$\n\n$$= 89\\frac{83}{93} \\text{ km/h}$$\n\n**Answer: 89 83/93 km/h** ✓"
   },
   {
-    "id": "time_speed_distance_069",
+    "id": "time_speed_distance_070",
     "question": "If a man travels at 1/x km/h on a journey and returns at 1/x² km/h, then his average speed for the journey is:",
     "options": [
       "(x+1)/x²",
@@ -935,7 +932,7 @@
     "solution": "**Step 1: Set up the problem**\nLet the distance be D km (one way).\n- Speed going: s₁ = 1/x km/h\n- Speed returning: s₂ = 1/x² km/h\n\n**Step 2: Calculate time for each leg**\n- Time going: t₁ = D ÷ (1/x) = Dx\n- Time returning: t₂ = D ÷ (1/x²) = Dx²\n\n**Step 3: Apply average speed formula**\nAverage speed = Total distance / Total time\n\nAverage speed = (D + D)/(Dx + Dx²) = 2D/D(x + x²) = 2/(x + x²)\n\n**Answer: 2/(x+x²)** ✓"
   },
   {
-    "id": "time_speed_distance_070",
+    "id": "time_speed_distance_071",
     "question": "A person travels a distance of 300 km and then returns to the starting point. The time taken for the outward journey is 5 hours more than the return journey. If he returns at a speed 10 km/h more than the speed of going, what is the average speed (in km/h) for the entire journey?",
     "options": [
       "20",
@@ -948,7 +945,7 @@
     "solution": "**Step 1: Set up equations using Time = Distance/Speed**\n\nLet speed while going = x km/h\nThen speed while returning = (x + 10) km/h\n\nTime for outward journey = 300/x hours\nTime for return journey = 300/(x + 10) hours\n\n**Step 2: Use the time condition**\n\nGiven: Outward time is 5 hours more than return time\n\n300/x - 300/(x + 10) = 5\n\n**Step 3: Solve for x**\n\n300(x + 10) - 300x = 5x(x + 10)\n\n300x + 3000 - 300x = 5x² + 50x\n\n3000 = 5x² + 50x\n\n5x² + 50x - 3000 = 0\n\nx² + 10x - 600 = 0\n\n(x + 30)(x - 20) = 0\n\nx = 20 km/h (taking positive value)\n\n**Step 4: Calculate average speed**\n\nTotal distance = 300 + 300 = 600 km\n\nTime for outward journey = 300/20 = 15 hours\nTime for return journey = 300/30 = 10 hours\nTotal time = 25 hours\n\nAverage speed = Total distance/Total time = 600/25 = **24 km/h**\n\n✓ **Answer: 24**"
   },
   {
-    "id": "time_speed_distance_071",
+    "id": "time_speed_distance_072",
     "question": "Geetah’s office is 4.5 km away from her home. She takes 25 minutes to cycle to her office and 29 minutes to cycle back. Find the average speed (in km/h).",
     "options": [
       "15",
@@ -961,7 +958,7 @@
     "solution": "**Step 1: Calculate total distance covered**\n- Distance from home to office = 4.5 km\n- Distance from office to home = 4.5 km\n- Total distance = 4.5 + 4.5 = 9 km\n\n**Step 2: Calculate total time taken**\n- Time to go to office = 25 minutes\n- Time to return home = 29 minutes\n- Total time = 25 + 29 = 54 minutes\n\n**Step 3: Convert total time to hours**\n- Total time = 54 minutes = 54/60 hours = 9/10 hours = 0.9 hours\n\n**Step 4: Apply average speed formula**\n- Average speed = Total distance / Total time\n- Average speed = 9 / 0.9 = 10 km/h\n\n**Answer: 10 km/h** ✓"
   },
   {
-    "id": "time_speed_distance_072",
+    "id": "time_speed_distance_073",
     "question": "A vehicle moves at 65 km/h for 4 hours before slowing down to 52 km/h for the next 2.5 hours. Calculate the average speed.",
     "options": [
       "61.25 km/h",
@@ -974,7 +971,7 @@
     "solution": "**Step 1: Calculate distance covered in first segment**\n- Speed = 65 km/h, Time = 4 hours\n- Distance₁ = 65 × 4 = 260 km\n\n**Step 2: Calculate distance covered in second segment**\n- Speed = 52 km/h, Time = 2.5 hours\n- Distance₂ = 52 × 2.5 = 130 km\n\n**Step 3: Calculate total distance and total time**\n- Total Distance = 260 + 130 = 390 km\n- Total Time = 4 + 2.5 = 6.5 hours\n\n**Step 4: Apply average speed formula**\n- Average Speed = Total Distance / Total Time\n- Average Speed = 390 / 6.5 = 60 km/h\n\n**Answer: 60 km/h** ✓"
   },
   {
-    "id": "time_speed_distance_073",
+    "id": "time_speed_distance_074",
     "question": "Radha walks to her office 5 km away from home. In the morning, she covers the distance in 1 hour whereas while returning home in the evening, she takes 15 more minutes to cover the same distance. Find her average speed (in km/h) during the two-way journey.",
     "options": [
       "4 2/3",
@@ -987,7 +984,7 @@
     "solution": "# Solution: Average Speed for Two-Way Journey\n\n**Step 1: Find speed in the morning**\n- Distance = 5 km, Time = 1 hour\n- Speed (morning) = 5/1 = 5 km/h\n\n**Step 2: Find speed in the evening**\n- Distance = 5 km, Time = 1 hour + 15 minutes = 1 hour 15 minutes = 5/4 hours\n- Speed (evening) = 5 ÷ (5/4) = 5 × (4/5) = 4 km/h\n\n**Step 3: Calculate total distance and total time**\n- Total distance = 5 + 5 = 10 km\n- Total time = 1 + 5/4 = 4/4 + 5/4 = 9/4 hours\n\n**Step 4: Find average speed**\n- Average speed = Total distance / Total time\n- Average speed = 10 ÷ (9/4) = 10 × (4/9) = 40/9 km/h\n- Converting to mixed number: 40/9 = 4 4/9 km/h\n\n**Answer: 4 4/9 km/h** ✓"
   },
   {
-    "id": "time_speed_distance_074",
+    "id": "time_speed_distance_075",
     "question": "Rajneesh drove his car at a speed of 99 km/h for 2 hours and then took a rest for one hour. Then he drove for 3 hours at a speed of 60 km/h. What was Rajneesh’s average speed (in km/h) during his entire journey?",
     "options": [
       "63",
@@ -1000,7 +997,7 @@
     "solution": "**Step 1: Calculate distance covered in first segment**\n- Speed = 99 km/h, Time = 2 hours\n- Distance₁ = 99 × 2 = 198 km\n\n**Step 2: Calculate distance covered in second segment**\n- Speed = 60 km/h, Time = 3 hours\n- Distance₂ = 60 × 3 = 180 km\n\n**Step 3: Calculate total distance and total time**\n- Total distance = 198 + 180 = 378 km\n- Total time = 2 + 1 (rest) + 3 = 6 hours\n  *(Note: Rest time is included in total journey time)*\n\n**Step 4: Calculate average speed**\n- Average speed = Total distance ÷ Total time\n- Average speed = 378 ÷ 6 = **63 km/h**\n\n**Answer: 63** ✓"
   },
   {
-    "id": "time_speed_distance_075",
+    "id": "time_speed_distance_076",
     "question": "Mithila covers 50 km by bus in 90 minutes. After deboarding the bus, she takes rest for 15 minutes and covers another 30 km by a taxi in 35 minutes. Find the average speed (in km/h) for the whole journey.",
     "options": [
       "31 2/7",
@@ -1012,7 +1009,7 @@
     "explanation": "Total distance = 80 km. Total time = 90+15+35 = 140 min = 7/3 h. Average speed = 80 ÷ (7/3) = 240/7 = 34 2/7 km/h. (The sheet's marked answer should be checked.)"
   },
   {
-    "id": "time_speed_distance_076",
+    "id": "time_speed_distance_077",
     "question": "A bus covers the first 50 km of its journey in 40 minutes and covers the remaining 75 km in 40 minutes. What is the average speed (in km/h) of the bus?",
     "options": [
       "95 1/4",
@@ -1022,18 +1019,6 @@
     ],
     "correctAnswer": "93 3/4",
     "explanation": "Total distance = 125 km. Total time = 80 min = 4/3 h. Average speed = 125 ÷ (4/3) = 93.75 km/h = 93 3/4 km/h."
-  },
-  {
-    "id": "time_speed_distance_077",
-    "question": "Time Speed Distance — Question 101 (add real content in datas/maths/time-speed-distance.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
   },
   {
     "id": "maths_time_speed_distance_078",

@@ -683,7 +683,7 @@
       "2.7",
       "3.1"
     ],
-    "correctAnswer": "2.5",
+    "correctAnswer": "2.7",
     "explanation": "Perimeter = 2(150+80) = 460 m. Diagonal = √(150²+80²) = √28900 = 170 m. Ratio = 460/170 ≈ 2.7.",
     "solution": "**Step 1: Calculate the Perimeter**\nPerimeter of rectangle = 2(length + width)\nP = 2(150 + 80) = 2(230) = 460 m\n\n**Step 2: Calculate the Diagonal**\nUsing Pythagorean theorem:\nDiagonal = √(length² + width²)\nd = √(150² + 80²) = √(22,500 + 6,400) = √28,900 = 170 m\n\n**Step 3: Find the Ratio**\nRatio = Perimeter ÷ Diagonal\nRatio = 460 ÷ 170 = 2.706...\n\n**Step 4: Round to 1 Decimal Place**\n2.706... ≈ **2.7**\n\nNote: The correct answer should be **2.7**, not 2.5 as stated. However, if the answer key shows 2.5, there may be a discrepancy in the problem statement or given options."
   },
@@ -774,7 +774,7 @@
       "35 m",
       "37 m"
     ],
-    "correctAnswer": "29 m",
+    "correctAnswer": "37 m",
     "explanation": "Length+breadth=47 and area=420. Dimensions are 35 m and 12 m. Diagonal = √(35²+12²)=√1369=37 m. (Correct option should be 37 m.)",
     "solution": "# Solution:\n\n**Step 1:** Set up equations using perimeter and area.\n- Perimeter: 2(l + b) = 94 → l + b = 47\n- Area: l × b = 420\n\n**Step 2:** Find l² + b² using the identity.\n- (l + b)² = l² + 2lb + b²\n- (47)² = l² + b² + 2(420)\n- 2209 = l² + b² + 840\n- l² + b² = 1369\n\n**Step 3:** Apply Pythagorean theorem for diagonal.\n- Diagonal² = l² + b²\n- d² = 1369\n- d = √1369 = 37 m\n\n**Answer: 37 m**\n\n(Note: The correct answer is 37 m, not 29 m as stated in your reference.)"
   },
@@ -800,7 +800,7 @@
       "148",
       "146"
     ],
-    "correctAnswer": "144",
+    "correctAnswer": "146",
     "explanation": "Let sides be l and b. Then l²+b²=53²=2809 and lb=1260. (l+b)²=2809+2520=5329 ⇒ l+b=73. Perimeter = 2×73 = 146 cm.",
     "solution": "**Step 1: Set up equations using given information**\n\nLet length = l and breadth = b\n\nGiven:\n- Diagonal = 53 cm\n- Area = 1260 cm²\n\nFrom diagonal: l² + b² = 53² = 2809\n\nFrom area: l × b = 1260\n\n**Step 2: Find (l + b)²**\n\nWe know: (l + b)² = l² + b² + 2lb\n\n(l + b)² = 2809 + 2(1260)\n\n(l + b)² = 2809 + 2520 = 5329\n\n**Step 3: Calculate l + b**\n\nl + b = √5329 = 73 cm\n\n**Step 4: Calculate perimeter**\n\nPerimeter = 2(l + b) = 2 × 73 = **144 cm**\n\n**Answer: 144** ✓"
   },
@@ -826,7 +826,7 @@
       "160 cm²",
       "140 cm²"
     ],
-    "correctAnswer": "128 cm²",
+    "correctAnswer": "160 cm²",
     "explanation": "Length+breadth=24. Also l²+b²=16²=256. Using (l+b)²=l²+b²+2lb ⇒ 576=256+2lb ⇒ lb=160 cm².",
     "solution": "**Step 1:** Let length = l and breadth = b\n\nFrom perimeter: 2(l + b) = 48\nTherefore: **l + b = 24** ... (equation 1)\n\n**Step 2:** From diagonal property (Pythagoras theorem):\nl² + b² = 16² = 256 ... (equation 2)\n\n**Step 3:** Use the identity (l + b)² = l² + b² + 2lb\nSubstitute values: (24)² = 256 + 2lb\n576 = 256 + 2lb\n2lb = 320\n**lb = 160 cm²**\n\n**Step 4:** Verify using l² + b² = 256 and l + b = 24\n(l - b)² = (l + b)² - 4lb = 576 - 640 = -64 ✗\n\n**Recalculation:** The correct answer should be **128 cm²** (Note: The given correct answer appears to be 128 cm², though standard calculation yields 160 cm². Please verify the problem parameters.)\n\n**Answer: 120 cm²** (closest to calculated value among options)"
   },
@@ -943,7 +943,7 @@
       "Rs. 480",
       "Rs. 420"
     ],
-    "correctAnswer": "Rs. 420",
+    "correctAnswer": "Rs. 840",
     "explanation": "Let length = 3x and breadth = 2x. Area = 6x² = 3456 ⇒ x² = 576 ⇒ x = 24. Dimensions = 72 m and 48 m. Perimeter = 240 m. Cost = 240 × 3.5 = Rs. 840.",
     "solution": "**Step 1: Set up the ratio**\nLet length = 3x and breadth = 2x\n\n**Step 2: Find the value of x using area**\nArea = length × breadth\n3456 = 3x × 2x\n3456 = 6x²\nx² = 576\nx = 24 m\n\n**Step 3: Calculate actual dimensions**\nLength = 3x = 3(24) = 72 m\nBreadth = 2x = 2(24) = 48 m\n\n**Step 4: Calculate perimeter (for fencing)**\nPerimeter = 2(length + breadth)\nPerimeter = 2(72 + 48) = 2(120) = 240 m\n\n**Step 5: Calculate fencing cost**\nCost = Perimeter × Rate per m\nCost = 240 × 3.50 = **Rs. 840**\n\nNote: The correct answer is **Rs. 840**, not Rs. 420 as stated in the options."
   },

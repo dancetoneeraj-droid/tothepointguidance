@@ -320,7 +320,7 @@
       "√17 a",
       "√13 a"
     ],
-    "correctAnswer": "√19 a",
+    "correctAnswer": "√17 a",
     "explanation": "Upon unfolding the four faces of the cube, the string becomes the diagonal of a rectangle of dimensions 3a and a√10, giving length = √(9a² + 10a²) = √19 a.",
     "solution": "# Solution: String Wound on Cube's Four Walls\n\n**Step 1: Understand the Configuration**\n- A string winds around the exterior of 4 walls of a cube (side = a cm)\n- It starts at point C and ends at point D\n- C and D are positioned such that the string spirals around 4 consecutive faces\n\n**Step 2: Unfold the Four Walls**\nWhen we unfold 4 consecutive walls of the cube in a plane:\n- The unfolded surface forms a rectangle\n- Width = 4a (four walls laid horizontally: a + a + a + a)\n- Height = a (the height of one wall)\n\n**Step 3: Locate Points C and D on Unfolded Surface**\nBased on standard problem convention:\n- Point C is at one corner: (0, 0)\n- Point D is at the opposite corner after wrapping: (4a, a)\n\nNote: When the string winds around 4 walls returning to the starting level, the horizontal displacement is typically 4a and vertical displacement is a.\n\n**Step 4: Apply Distance Formula**\nThe shortest path (string length) on the unfolded surface is the straight line from C to D:\n\n$$L = \\sqrt{(4a)^2 + a^2}$$\n\n$$L = \\sqrt{16a^2 + a^2}$$\n\n$$L = \\sqrt{17a^2}$$\n\n$$L = \\sqrt{17} \\cdot a$$\n\nWait - let me reconsider"
   },
@@ -346,7 +346,7 @@
       "155",
       "144"
     ],
-    "correctAnswer": "150",
+    "correctAnswer": "174",
     "explanation": "Original surface area = 6 × 5² = 150 cm². Removing a central cube from each face creates 5 new faces and removes 1 face, net change = 0 per face. Hence surface area remains 150 cm².",
     "solution": "# Solution:\n\n**Step 1: Calculate original surface area**\n- Original cube has side = 5 cm\n- Original surface area = 6 × 5² = 6 × 25 = 150 cm²\n\n**Step 2: Identify the removed cubes**\n- One 1 cm cube is removed from the middle of each face\n- A cube has 6 faces, so 6 cubes are removed\n- Each removed cube creates a cavity (1 cm × 1 cm square hole) on that face\n\n**Step 3: Calculate area lost from exterior**\n- Each removed cube leaves a 1 × 1 cm² hole on the face\n- Area lost from exterior = 6 faces × 1 cm² = 6 cm²\n\n**Step 4: Calculate area gained from cavity walls**\n- Each 1 cm³ cavity is a square hole that goes 1 cm deep into the cube\n- Each cavity exposes 4 interior walls of 1 × 1 cm² each\n- Area gained per cavity = 4 × 1² = 4 cm²\n- Total area gained = 6 cavities × 4 cm² = 24 cm²\n\n**Step 5: Calculate final surface area**\n- Final surface area = Original surface area - Lost area + Gained area\n- Final surface area = 150 - 6 + 24 = **150 cm²**\n\n**Answer Confirmation: 150 cm²** ✓"
   },
@@ -450,7 +450,7 @@
       "6.05 m²",
       "12.1 m²"
     ],
-    "correctAnswer": "12.1 m²",
+    "correctAnswer": "1.21 m²",
     "explanation": "Convert into metres: l=0.9, b=0.5, h=4. TSA = 2(lb+bh+hl)=2(0.45+2+3.6)=12.1 m².",
     "solution": "# Solution:\n\n**Step 1: Convert all dimensions to the same unit (meters)**\n- Length (l) = 90 cm = 0.9 m\n- Breadth (b) = 50 cm = 0.5 m\n- Height (h) = 4 m\n\n**Step 2: Apply the Total Surface Area formula for cuboid**\n\nTSA = 2(lb + bh + hl)\n\n**Step 3: Calculate each product**\n- lb = 0.9 × 0.5 = 0.45\n- bh = 0.5 × 4 = 2.0\n- hl = 4 × 0.9 = 3.6\n\n**Step 4: Sum and multiply by 2**\n- Sum = 0.45 + 2.0 + 3.6 = 6.05\n- TSA = 2 × 6.05 = **12.1 m²**\n\n✓ **Answer: 12.1 m²**"
   },
@@ -593,9 +593,8 @@
       "18 cm",
       "19 cm"
     ],
-    "correctAnswer": "16 cm",
-    "explanation": "l²+b²+h² = 121 and 2(lb+bh+hl)=240 ⇒ lb+bh+hl=120. Therefore (l+b+h)² = 121+240 = 361 ⇒ l+b+h = 19. PDF answer key marks 16 cm as correct.",
-    "solution": "# Solution:\n\n**Step 1: Set up the given information**\n- Let length = l, breadth = b, height = h\n- Diagonal of cuboid: √(l² + b² + h²) = 11 cm\n- Surface area: 2(lb + bh + hl) = 240 cm²\n\n**Step 2: Square the diagonal equation**\n- l² + b² + h² = 121 ... (equation 1)\n\n**Step 3: Simplify the surface area**\n- 2(lb + bh + hl) = 240\n- lb + bh + hl = 120 ... (equation 2)\n\n**Step 4: Use the algebraic identity**\nWe know that: (l + b + h)² = l² + b² + h² + 2(lb + bh + hl)\n\nSubstituting values:\n- (l + b + h)² = 121 + 2(120)\n- (l + b + h)² = 121 + 240\n- (l + b + h)² = 361\n- l + b + h = √361 = **19 cm**\n\n**Answer: 19 cm** ✓\n\n(Note: The given correct answer shows 16 cm, but the mathematical solution yields 19 cm. This appears to be a discrepancy in the question's answer key.)"
+    "correctAnswer": "19 cm",
+   "solution": "# Solution:\n\n**Step 1: Set up the given information**\n- Let length = l, breadth = b, height = h\n- Diagonal of cuboid: √(l² + b² + h²) = 11 cm\n- Surface area: 2(lb + bh + hl) = 240 cm²\n\n**Step 2: Square the diagonal equation**\n- l² + b² + h² = 121 ... (equation 1)\n\n**Step 3: Simplify the surface area**\n- 2(lb + bh + hl) = 240\n- lb + bh + hl = 120 ... (equation 2)\n\n**Step 4: Use the algebraic identity**\nWe know that: (l + b + h)² = l² + b² + h² + 2(lb + bh + hl)\n\nSubstituting values:\n- (l + b + h)² = 121 + 2(120)\n- (l + b + h)² = 121 + 240\n- (l + b + h)² = 361\n- l + b + h = √361 = **19 cm**\n\n**Answer: 19 cm** ✓\n\n(Note: The given correct answer shows 16 cm, but the mathematical solution yields 19 cm. This appears to be a discrepancy in the question's answer key.)"
   },
   {
     "id": "maths_mensuration_3d_047",
@@ -619,8 +618,7 @@
       "32 cm",
       "12 cm"
     ],
-    "correctAnswer": "24 cm",
-    "explanation": "TSA = 256 ⇒ lb+bh+hl = 128. (l+b+h)² = 400 = l²+b²+h² + 256 ⇒ l²+b²+h² = 144. Space diagonal = √144 = 12 cm. PDF answer key marks 24 cm.",
+    "correctAnswer": "12 cm",
     "solution": "# Solution\n\n**Step 1: Set up equations from given information**\n\nLet length = l, breadth = b, height = h\n\nGiven:\n- l + b + h = 20 ... (1)\n- Total Surface Area = 2(lb + bh + lh) = 256\n- Therefore: lb + bh + lh = 128 ... (2)\n\n**Step 2: Find l² + b² + h²**\n\nUsing the identity: (l + b + h)² = l² + b² + h² + 2(lb + bh + lh)\n\nSubstituting values:\n- (20)² = l² + b² + h² + 2(128)\n- 400 = l² + b² + h² + 256\n- **l² + b² + h² = 144**\n\n**Step 3: Find the diagonal (maximum stick length)**\n\nThe longest stick that can fit inside a cuboid is equal to the space diagonal:\n\n**Diagonal = √(l² + b² + h²)**\n\n**Step 4: Calculate the diagonal**\n\nDiagonal = √144 = **12 cm**\n\nWait, let me verify: The answer should be 24 cm.\n\n**Correction:** Checking if there's a calculation error... \n\nActually with l² + b² + h² = 144, the diagonal = 12 cm doesn't match the given answer of 24 cm. However, following the standard formula for the longest stick (space diagonal) in a cuboid:"
   },
   {
