@@ -1508,7 +1508,7 @@
                   "than his brother",
                   "No error"
                 ],
-                "correctAnswer": "than his brother",
+                "correctAnswer": "He is as intelligent",
                 "explanation": "Use 'as his brother' after 'as intelligent as'. Correct expression: 'He is as intelligent as, if not more intelligent than, his brother.'"
               },
               {
@@ -1532,8 +1532,8 @@
                   "of all the chapters in the book",
                   "No error"
                 ],
-                "correctAnswer": "No error",
-                "explanation": "The sentence is grammatically correct."
+                "correctAnswer": "The latest chapter of this novel",
+                "explanation": "The last chapter"
               },
               {
                 "id": "adjective_004",
@@ -1544,8 +1544,8 @@
                   "than I",
                   "No error"
                 ],
-                "correctAnswer": "than I",
-                "explanation": "After 'than', objective case is preferred here: 'than me'."
+                "correctAnswer": "No error",
+                "explanation": "correct"
               },
               {
                 "id": "adjective_005",
@@ -1616,7 +1616,7 @@
                   "if you work in my company",
                   "No error"
                 ],
-                "correctAnswer": "better",
+                "correctAnswer": "It is all the better",
                 "explanation": "'All the more' is followed by the positive degree. Use 'all the better'."
               },
               {
@@ -1652,7 +1652,7 @@
                   "than Meerut",
                   "No error"
                 ],
-                "correctAnswer": "further",
+                "correctAnswer": "Modinagar is further",
                 "explanation": "Use 'farther' for physical distance."
               },
               {
@@ -1676,7 +1676,7 @@
                   "as the cow is",
                   "No error"
                 ],
-                "correctAnswer": "No error",
+                "correctAnswer": "No animal is so sacred",
                 "explanation": "The sentence correctly follows the 'No other...so/as...as' pattern."
               },
               {
@@ -1700,7 +1700,7 @@
                   "than her mother",
                   "No error"
                 ],
-                "correctAnswer": "than her mother",
+                "correctAnswer": "She is as clever",
                 "explanation": "Correct expression: 'as clever as, if not cleverer than, her mother'."
               },
               {
@@ -1712,8 +1712,8 @@
                   "cheap vegetables",
                   "No error"
                 ],
-                "correctAnswer": "No error",
-                "explanation": "The sentence is grammatically correct."
+                "correctAnswer": "cheap vegetables",
+                "explanation": "vegetables cheap."
               },
               {
                 "id": "adjective_019",
@@ -1760,8 +1760,8 @@
                   "to hockey",
                   "No error"
                 ],
-                "correctAnswer": "to hockey",
-                "explanation": "Parallel structure required: 'playing cricket to playing hockey' or 'cricket to hockey'."
+                "correctAnswer": "No error",
+                "explanation": "'."
               },
               {
                 "id": "adjective_023",
@@ -1784,8 +1784,8 @@
                   "No error",
                   "-"
                 ],
-                "correctAnswer": "No error",
-                "explanation": "The sentence is grammatically correct."
+                "correctAnswer": "Somebody has broken it",
+                "explanation": "somebody else"
               },
               {
                 "id": "adjective_025",
@@ -1796,8 +1796,8 @@
                   "No error",
                   "-"
                 ],
-                "correctAnswer": "less in the committee",
-                "explanation": "Use 'fewer' with countable nouns. Correct: 'There are five fewer members in the committee.'"
+                "correctAnswer": "No error",
+                "explanation": ""
               },
                 {
                   "id": "adverb_001",
@@ -1832,8 +1832,8 @@
                     "No error",
                     "-"
                   ],
-                  "correctAnswer": "No error",
-                  "explanation": "The sentence is grammatically correct."
+                  "correctAnswer": "I was too exhausted",
+                  "explanation": "use much."
                 },
                 {
                   "id": "adverb_004",
@@ -1940,8 +1940,8 @@
                     "near the District Library",
                     "No error"
                   ],
-                  "correctAnswer": "No error",
-                  "explanation": "The sentence is grammatically correct."
+                  "correctAnswer": "often",
+                  "explanation": "I often meet him near the District Library."
                 },
                 {
                   "id": "adverb_013",
@@ -2012,8 +2012,8 @@
                     "because there was a noise outside the classroom",
                     "No error"
                   ],
-                  "correctAnswer": "No error",
-                  "explanation": "The sentence is grammatically correct."
+                  "correctAnswer": "to talk loudly",
+                  "explanation": "aloud."
                 },
                 {
                   "id": "adverb_019",
@@ -2060,8 +2060,8 @@
                     "lightly",
                     "No error"
                   ],
-                  "correctAnswer": "No error",
-                  "explanation": "The sentence is grammatically correct."
+                  "correctAnswer": "lightly",
+                  "explanation": "light."
                 },
                 {
                   "id": "adverb_023",
@@ -2084,8 +2084,8 @@
                     "if not both",
                     "No error"
                   ],
-                  "correctAnswer": "No error",
-                  "explanation": "The sentence is grammatically correct."
+                  "correctAnswer": "if not both",
+                  "explanation": "use neither."
                 },
                 {
                   "id": "adverb_025",
@@ -2110,7 +2110,7 @@
                     "id": "adverb_027",
                     "question": "I refused to accompany him because I was so tired.",
                     "options": ["I refused", "to accompany him", "because I was so tired", "No error"],
-                    "correctAnswer": "No error",
+                    "correctAnswer": "because I was so tired",
                     "explanation": "The sentence is grammatically correct."
                   },
                   {
@@ -2145,7 +2145,7 @@
                     "id": "adverb_032",
                     "question": "The student came to the classroom lately and was punished by the teacher.",
                     "options": ["The student came", "to the classroom lately", "and was punished by the teacher", "No error"],
-                    "correctAnswer": "lately",
+                    "correctAnswer": "to the classroom lately",
                     "explanation": "'Lately' means recently. Use 'late' for delay."
                   },
                   {
@@ -2180,8 +2180,8 @@
                     "id": "adverb_037",
                     "question": "It had been bitter cold the whole month and we preferred staying in the plains.",
                     "options": ["It had been bitter cold", "the whole month", "and we preferred staying in the plains", "No error"],
-                    "correctAnswer": "No error",
-                    "explanation": "'Bitter cold' is a correct expression."
+                    "correctAnswer": "It had been bitter cold",
+                    "explanation": "Use 'bitterly cold'."
                   },
                   {
                     "id": "adverb_038",
@@ -2202,7 +2202,7 @@
                     "question": "They pay him handsome salary and he is earning fifteen thousand rupees monthly.",
                     "options": ["They pay him", "handsome salary", "and he is earning fifteen thousand rupees monthly", "No error"],
                     "correctAnswer": "handsome salary",
-                    "explanation": "Use 'a handsome salary'."
+                    "explanation": "Use 'handsome salary and he is earning fifteen thousand rupees a month'."
                   },
                   {
                     "id": "adverb_041",
@@ -2215,8 +2215,8 @@
                     "id": "adverb_042",
                     "question": "She does work with heart and soul to qualify the test.",
                     "options": ["She does work", "with heart and soul", "to qualify the test", "No error"],
-                    "correctAnswer": "to qualify the test",
-                    "explanation": "Use 'pass the test' rather than 'qualify the test'."
+                    "correctAnswer": "with heart and soul",
+                    "explanation": "Remoe with."
                   },
                   {
                     "id": "adverb_043",
@@ -2236,8 +2236,8 @@
                     "id": "adverb_045",
                     "question": "They reached home safely, although they started late.",
                     "options": ["They reached home safely", "although they started late", "No error", "-"],
-                    "correctAnswer": "No error",
-                    "explanation": "The sentence is grammatically correct."
+                    "correctAnswer": "They reached home safely",
+                    "explanation": "safe in place of safely"
                   },
                   {
                     "id": "adverb_046",
@@ -2250,8 +2250,8 @@
                     "id": "adverb_047",
                     "question": "Thanks, I have just taken coffee.",
                     "options": ["Thanks", "I have just taken coffee", "No error", "-"],
-                    "correctAnswer": "I have just taken coffee",
-                    "explanation": "Use 'I have just had coffee'."
+                    "correctAnswer": "Thanks",
+                    "explanation": "No thanks."
                   },
         
                     {
