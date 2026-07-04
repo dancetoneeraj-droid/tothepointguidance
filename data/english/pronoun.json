@@ -1200,7 +1200,7 @@
             "explanation": "Replace 'her' with 'hers'. A possessive pronoun is required."
           },
             {
-              "id": "adjective_001",
+              "id": "pronoun_101",
               "question": "There were no less than fifty persons in the dining hall.",
               "options": [
                 "There were",
@@ -1208,11 +1208,11 @@
                 "fifty persons in the dining hall",
                 "No error"
               ],
-              "correctAnswer": "No error",
-              "explanation": "'No less than' is correctly used to mean 'as many as'."
+              "correctAnswer": "no less than",
+              "explanation": "'no fewer than."
             },
             {
-              "id": "adjective_002",
+              "id": "pronoun_102",
               "question": "Few remarks that he made were offensive to my brother.",
               "options": [
                 "Few remarks",
@@ -1221,14 +1221,14 @@
                 "No error"
               ],
               "correctAnswer": "Few remarks",
-              "explanation": "'A few remarks' may be more appropriate depending on the intended meaning."
+              "explanation": "use 'the few'"
             },
             {
-              "id": "adjective_003",
+              "id": "pronoun_103",
               "question": "It is a worth seeing movie and you must not miss it.",
               "options": [
-                "It is a worth",
-                "seeing movie",
+                "It is a",
+                "worth seeing movie",
                 "and you must not miss it",
                 "No error"
               ],
@@ -1236,7 +1236,7 @@
               "explanation": "Use 'worth-seeing movie' or 'a movie worth seeing'."
             },
             {
-              "id": "adjective_004",
+              "id": "pronoun_104",
               "question": "Of all the students Rita was less worried when the date for the annual examination was announced.",
               "options": [
                 "Of all the students",
@@ -1248,7 +1248,7 @@
               "explanation": "Use the superlative form 'least worried' when comparing all students."
             },
             {
-              "id": "adjective_005",
+              "id": "pronoun_105",
               "question": "Even the most perfect person in the world is said to have erred when there was time to act.",
               "options": [
                 "Even the most perfect person",
@@ -1260,7 +1260,7 @@
               "explanation": "'Perfect' does not generally take comparative or superlative forms."
             },
             {
-              "id": "adjective_006",
+              "id": "pronoun_106",
               "question": "I was surprised to see every student sitting quietly in the class, even though the teacher was not present.",
               "options": [
                 "I was surprised",
@@ -1272,7 +1272,7 @@
               "explanation": "The sentence is grammatically correct."
             },
             {
-              "id": "adjective_007",
+              "id": "pronoun_107",
               "question": "Whole India expressed anger over the hijacking of Air India Boeing Jet by militant at Karachi.",
               "options": [
                 "Whole India",
@@ -1284,7 +1284,7 @@
               "explanation": "Use 'The whole of India' or 'All India'."
             },
             {
-              "id": "adjective_008",
+              "id": "pronoun_108",
               "question": "I like him because he is the most interesting fellow because of his amiable nature.",
               "options": [
                 "I like him",
@@ -1296,7 +1296,7 @@
               "explanation": "Likely 'a very interesting fellow' unless comparison among a group is intended."
             },
             {
-              "id": "adjective_009",
+              "id": "pronoun_109",
               "question": "The meeting was postponed because only the few persons were present there.",
               "options": [
                 "The meeting was postponed",
@@ -1308,7 +1308,7 @@
               "explanation": "Use 'a few persons' or 'few persons' depending on the context."
             },
             {
-              "id": "adjective_010",
+              "id": "pronoun_110",
               "question": "In the opinion of everyone she is wiser than beautiful.",
               "options": [
                 "In the opinion of everyone",
@@ -1320,7 +1320,7 @@
               "explanation": "The structure should be 'more wise than beautiful' or 'wiser than she is beautiful'."
             },
             {
-              "id": "adjective_011",
+              "id": "pronoun_111",
               "question": "The tiger is swifter than any animal.",
               "options": [
                 "The tiger is",
@@ -1332,7 +1332,7 @@
               "explanation": "Use 'any other animal' because the tiger itself is an animal."
             },
             {
-              "id": "adjective_012",
+                  "id": "pronoun_112",
               "question": "He had to cut a sorry figure when he realised that he had no any money in his purse.",
               "options": [
                 "He had to cut a sorry figure",
@@ -1344,7 +1344,7 @@
               "explanation": "Use either 'no money' or 'not any money'."
             },
             {
-              "id": "adjective_013",
+              "id": "pronoun_113",
               "question": "Of the three ministers, which do you think, is going to prove more successful.",
               "options": [
                 "Of the three ministers",
@@ -1356,7 +1356,7 @@
               "explanation": "Use 'most successful' when comparing three."
             },
             {
-              "id": "adjective_014",
+              "id": "pronoun_114",
               "question": "Neither she is intelligent nor hard working and still she expects to secure first class.",
               "options": [
                 "Neither she is intelligent",
@@ -1368,7 +1368,7 @@
               "explanation": "Use 'She is neither intelligent nor hardworking'."
             },
             {
-              "id": "adjective_015",
+              "id": "pronoun_115",
               "question": "I requested him to lend me few books that might help me in my study.",
               "options": [
                 "I requested him",
@@ -1380,7 +1380,7 @@
               "explanation": "Use 'a few books'."
             },
             {
-              "id": "adjective_016",
+              "id": "pronoun_116",
               "question": "Your essay should not exceed more than two hundred words.",
               "options": [
                 "Your essay",
@@ -1392,7 +1392,7 @@
               "explanation": "'Exceed' already implies 'more than'."
             },
             {
-              "id": "adjective_017",
+              "id": "pronoun_117",
               "question": "Tanya is more intelligent than any other boy in her class.",
               "options": [
                 "Tanya is",
@@ -1404,7 +1404,7 @@
               "explanation": "Likely should be 'student' or 'girl' depending on context."
             },
             {
-              "id": "adjective_018",
+              "id": "pronoun_118",
               "question": "The two last pictures of a very competent director have not proved a success.",
               "options": [
                 "The two last pictures",
@@ -1416,7 +1416,7 @@
               "explanation": "Preferred form: 'The last two pictures'."
             },
             {
-              "id": "adjective_019",
+              "id": "pronoun_119",
               "question": "He is the tallest than anybody in our team.",
               "options": [
                 "He is",
@@ -1428,7 +1428,7 @@
               "explanation": "Use either 'taller than anybody' or 'the tallest in our team'."
             },
             {
-              "id": "adjective_020",
+              "id": "pronoun_120",
               "question": "Nobody likes him because he is a worst teacher.",
               "options": [
                 "Nobody likes him",
@@ -1440,7 +1440,7 @@
               "explanation": "Use 'the worst teacher' or 'a very bad teacher'."
             },
             {
-              "id": "adjective_021",
+              "id": "pronoun_121",
               "question": "I was surprised to see her speak with somewhat anger.",
               "options": [
                 "I was surprised",
@@ -1452,7 +1452,7 @@
               "explanation": "Use 'with some anger' or 'somewhat angrily'."
             },
             {
-              "id": "adjective_022",
+              "id": "pronoun_122",
               "question": "My brother is elder than me although he looks younger.",
               "options": [
                 "My brother is",
@@ -1464,7 +1464,7 @@
               "explanation": "Use 'older than me'."
             },
             {
-              "id": "adjective_023",
+              "id": "pronoun_123",
               "question": "Could you please give me any money to buy the newspaper?",
               "options": [
                 "Could you please",
@@ -1476,7 +1476,7 @@
               "explanation": "Use 'some money' in affirmative requests."
             },
             {
-              "id": "adjective_024",
+                  "id": "pronoun_124",
               "question": "Privatisation offers the most ideal situation for consumers because private sector is very conscious of quality.",
               "options": [
                 "Privatisation offers",
@@ -1488,7 +1488,7 @@
               "explanation": "'Ideal' does not usually take a superlative form."
             },
             {
-              "id": "adjective_025",
+              "id": "pronoun_125",
               "question": "Little care on your part would have made you more successful than your friend.",
               "options": [
                 "Little care",
@@ -1500,7 +1500,7 @@
               "explanation": "Use 'A little care' to indicate a small amount of care."
             },
               {
-                "id": "adjective_001",
+                "id": "pronoun_126",
                 "question": "He is as intelligent if not more intelligent than his brother.",
                 "options": [
                   "He is as intelligent",
@@ -1512,7 +1512,7 @@
                 "explanation": "Use 'as his brother' after 'as intelligent as'. Correct expression: 'He is as intelligent as, if not more intelligent than, his brother.'"
               },
               {
-                "id": "adjective_002",
+                "id": "pronoun_127",
                 "question": "She is better than any girl that studies in our class.",
                 "options": [
                   "She is better",
@@ -1524,7 +1524,7 @@
                 "explanation": "Use 'any other girl' because she is also a member of the class."
               },
               {
-                "id": "adjective_003",
+                "id": "pronoun_128",
                 "question": "The latest chapter of this novel is the most comprehensive of all the chapters in the book.",
                 "options": [
                   "The latest chapter of this novel",
@@ -1536,7 +1536,7 @@
                 "explanation": "The last chapter"
               },
               {
-                "id": "adjective_004",
+                "id": "pronoun_129",
                 "question": "She was not punished though she came later than I.",
                 "options": [
                   "She was not punished",
@@ -1548,7 +1548,7 @@
                 "explanation": "correct"
               },
               {
-                "id": "adjective_005",
+                "id": "pronoun_130",
                 "question": "She is the best and beautiful girl of our village.",
                 "options": [
                   "She is the best",
@@ -1560,7 +1560,7 @@
                 "explanation": "Use parallel degree: 'the best and the most beautiful girl'."
               },
               {
-                "id": "adjective_006",
+                "id": "pronoun_131",
                 "question": "My book is superior than yours although it has cost me much less.",
                 "options": [
                   "My book is superior",
@@ -1572,7 +1572,7 @@
                 "explanation": "'Superior' takes the preposition 'to', not 'than'."
               },
               {
-                "id": "adjective_007",
+                "id": "pronoun_132",
                 "question": "Of all other my neighbours he is the kindest and most considerate to others.",
                 "options": [
                   "Of all other my neighbours",
@@ -1584,7 +1584,7 @@
                 "explanation": "Use 'Of all my neighbours' or 'Among all my neighbours'."
               },
               {
-                "id": "adjective_008",
+                "id": "pronoun_133",
                 "question": "'Arabian Nights' is the most adventurous of any books written so far.",
                 "options": [
                   "'Arabian Nights' is",
@@ -1596,7 +1596,7 @@
                 "explanation": "Use 'of all books written so far' or 'than any other book'."
               },
               {
-                "id": "adjective_009",
+                "id": "pronoun_134",
                 "question": "The works of Shakespeare are more famous than any other English dramatist.",
                 "options": [
                   "The works of Shakespeare are",
@@ -1608,7 +1608,7 @@
                 "explanation": "Comparison should be between works and works. Use 'than the works of any other English dramatist'."
               },
               {
-                "id": "adjective_010",
+                "id": "pronoun_135",
                 "question": "It is all the more better if you work in my company.",
                 "options": [
                   "It is all the more",
@@ -1620,7 +1620,7 @@
                 "explanation": "'All the more' is followed by the positive degree. Use 'all the better'."
               },
               {
-                "id": "adjective_011",
+                              "id": "pronoun_136",
                 "question": "These kind of roses are very popular.",
                 "options": [
                   "These kind of roses",
@@ -1632,7 +1632,7 @@
                 "explanation": "Use 'This kind of roses' or 'These kinds of roses'."
               },
               {
-                "id": "adjective_012",
+                "id": "pronoun_137",
                 "question": "He doesn't need your help because he is too intelligent.",
                 "options": [
                   "He doesn't need your help",
@@ -1644,7 +1644,7 @@
                 "explanation": "'Too' implies an undesirable excess. Use 'very intelligent'."
               },
               {
-                "id": "adjective_013",
+                "id": "pronoun_138",
                 "question": "Modinagar is further from Dehradun than Meerut.",
                 "options": [
                   "Modinagar is further",
@@ -1656,7 +1656,7 @@
                 "explanation": "Use 'farther' for physical distance."
               },
               {
-                "id": "adjective_014",
+                "id": "pronoun_139",
                 "question": "It was bitter cold and we preferred not to go out that night.",
                 "options": [
                   "It was bitter cold",
@@ -1668,7 +1668,7 @@
                 "explanation": "Use 'bitterly cold'."
               },
               {
-                "id": "adjective_015",
+                "id": "pronoun_140",
                 "question": "No animal is so sacred to the Hindus as the cow is.",
                 "options": [
                   "No animal is so sacred",
@@ -1680,7 +1680,7 @@
                 "explanation": "The sentence correctly follows the 'No other...so/as...as' pattern."
               },
               {
-                "id": "adjective_016",
+                "id": "pronoun_141",
                 "question": "The food tasted deliciously and we enjoyed it to our fill.",
                 "options": [
                   "The food tasted",
@@ -1692,7 +1692,7 @@
                 "explanation": "Linking verbs take adjectives. Use 'delicious'."
               },
               {
-                "id": "adjective_017",
+                "id": "pronoun_142",
                 "question": "She is as clever if not cleverer than her mother.",
                 "options": [
                   "She is as clever",
@@ -1704,7 +1704,7 @@
                 "explanation": "Correct expression: 'as clever as, if not cleverer than, her mother'."
               },
               {
-                "id": "adjective_018",
+                "id": "pronoun_143",
                 "question": "She went to the wholesale market and bought cheap vegetables.",
                 "options": [
                   "She went to the wholesale market",
@@ -1716,7 +1716,7 @@
                 "explanation": "vegetables cheap."
               },
               {
-                "id": "adjective_019",
+                "id": "pronoun_144",
                 "question": "There is no other name more glorious than Sardar Patel in the history of India.",
                 "options": [
                   "There is no other name",
@@ -1728,7 +1728,7 @@
                 "explanation": "Use 'than that of Sardar Patel' because comparison is between names."
               },
               {
-                "id": "adjective_020",
+                "id": "pronoun_145",
                 "question": "He only is responsible for the problems which I am facing today.",
                 "options": [
                   "He only is responsible",
@@ -1740,7 +1740,7 @@
                 "explanation": "Use 'He alone is responsible'."
               },
               {
-                "id": "adjective_021",
+                "id": "pronoun_146",
                 "question": "Mr. Chopra is more senior to me in service.",
                 "options": [
                   "Mr. Chopra is",
@@ -1752,7 +1752,7 @@
                 "explanation": "'Senior' itself is comparative. Use 'senior to me'."
               },
               {
-                "id": "adjective_022",
+                "id": "pronoun_147",
                 "question": "The boys prefer playing cricket to hockey.",
                 "options": [
                   "The boys prefer",
@@ -1764,7 +1764,7 @@
                 "explanation": "'."
               },
               {
-                "id": "adjective_023",
+                        "id": "pronoun_148",
                 "question": "Because of her frank nature I like her the most.",
                 "options": [
                   "Because of her frank nature",
@@ -1776,7 +1776,7 @@
                 "explanation": "Use 'very much' unless comparison within a specific group is intended."
               },
               {
-                "id": "adjective_024",
+                "id": "pronoun_149",
                 "question": "She has not broken the window. Somebody has broken it.",
                 "options": [
                   "She has not broken the window",
@@ -1788,7 +1788,7 @@
                 "explanation": "somebody else"
               },
               {
-                "id": "adjective_025",
+                "id": "pronoun_150",
                 "question": "There are five members less in the committee.",
                 "options": [
                   "There are five members",
@@ -1800,7 +1800,7 @@
                 "explanation": ""
               },
                 {
-                  "id": "adverb_001",
+                  "id": "pronoun_151",
                   "question": "Although I was in Delhi last month I never met him.",
                   "options": [
                     "Although I was",
@@ -1812,7 +1812,7 @@
                   "explanation": "Use 'did not meet' instead of 'never met' with a definite past time reference ('last month')."
                 },
                 {
-                  "id": "adverb_002",
+                  "id": "pronoun_152",
                   "question": "One should face the misfortunes of life manly.",
                   "options": [
                     "One should face",
@@ -1824,7 +1824,7 @@
                   "explanation": "Use 'manfully' (adverb) instead of 'manly' (adjective)."
                 },
                 {
-                  "id": "adverb_003",
+                  "id": "pronoun_153",
                   "question": "When I got home I was too exhausted.",
                   "options": [
                     "When I got home",
@@ -1836,7 +1836,7 @@
                   "explanation": "use much."
                 },
                 {
-                  "id": "adverb_004",
+                  "id": "pronoun_154",
                   "question": "I did not know hardly anyone in the city and so felt lonely.",
                   "options": [
                     "I did not know",
@@ -1848,7 +1848,7 @@
                   "explanation": "Double negatives should be avoided. Use 'I knew hardly anyone' or 'I did not know anyone'."
                 },
                 {
-                  "id": "adverb_005",
+                  "id": "pronoun_155",
                   "question": "I rarely find something in his character that I can admire.",
                   "options": [
                     "I rarely find",
@@ -1860,7 +1860,7 @@
                   "explanation": "Use 'anything' instead of 'something' after a negative or restrictive adverb like 'rarely'."
                 },
                 {
-                  "id": "adverb_006",
+                  "id": "pronoun_156",
                   "question": "You have acted nobler than all of us.",
                   "options": [
                     "You have acted",
@@ -1872,7 +1872,7 @@
                   "explanation": "Use the adverb 'more nobly' because it modifies the verb 'acted'."
                 },
                 {
-                  "id": "adverb_007",
+                  "id": "pronoun_157",
                   "question": "He is enough kind to help everybody in need.",
                   "options": [
                     "He is enough kind",
@@ -1884,7 +1884,7 @@
                   "explanation": "Use 'kind enough' because 'enough' follows the adjective it modifies."
                 },
                 {
-                  "id": "adverb_008",
+                  "id": "pronoun_158",
                   "question": "Don't stop anywhere. Go home fastly.",
                   "options": [
                     "Don't stop anywhere",
@@ -1896,7 +1896,7 @@
                   "explanation": "'Fast' itself is both adjective and adverb. 'Fastly' is incorrect."
                 },
                 {
-                  "id": "adverb_009",
+                  "id": "pronoun_159",
                   "question": "He has no time to read novels and no desire neither.",
                   "options": [
                     "He has no time",
@@ -1908,7 +1908,7 @@
                   "explanation": "Use 'either' instead of 'neither' in this construction."
                 },
                 {
-                  "id": "adverb_010",
+                      "id": "pronoun_160",
                   "question": "He has not seldom visited his parents since he left this place.",
                   "options": [
                     "He has not seldom",
@@ -1920,7 +1920,7 @@
                   "explanation": "Use 'has often visited' or 'has not infrequently visited'. The expression is awkward and incorrect."
                 },
                 {
-                  "id": "adverb_011",
+                  "id": "pronoun_161",
                   "question": "It was much hot yesterday and we didn't go out.",
                   "options": [
                     "It was much hot",
@@ -1932,7 +1932,7 @@
                   "explanation": "Use 'very hot' instead of 'much hot'."
                 },
                 {
-                  "id": "adverb_012",
+                  "id": "pronoun_162",
                   "question": "I meet him often near the District Library.",
                   "options": [
                     "I meet him",
@@ -1944,7 +1944,7 @@
                   "explanation": "I often meet him near the District Library."
                 },
                 {
-                  "id": "adverb_013",
+                  "id": "pronoun_163",
                   "question": "I told her as blunt as I could but she was not convinced.",
                   "options": [
                     "I told her",
@@ -1956,7 +1956,7 @@
                   "explanation": "Use 'as bluntly as I could' because an adverb is needed to modify 'told'."
                 },
                 {
-                  "id": "adverb_014",
+                  "id": "pronoun_164",
                   "question": "What to talk of tea they did not offer us even water.",
                   "options": [
                     "What to talk of tea",
@@ -1968,7 +1968,7 @@
                   "explanation": "The correct idiom is 'let alone tea' or 'not to speak of tea'."
                 },
                 {
-                  "id": "adverb_015",
+                  "id": "pronoun_165",
                   "question": "My mother works very quicker than I at embroidery.",
                   "options": [
                     "My mother works",
@@ -1980,7 +1980,7 @@
                   "explanation": "Use 'much quicker' or simply 'quicker'. 'Very' is not used with comparative adjectives."
                 },
                 {
-                  "id": "adverb_016",
+                  "id": "pronoun_166",
                   "question": "If you like to succeed in life, you must learn how to think independent.",
                   "options": [
                     "If you like to succeed in life",
@@ -1992,7 +1992,7 @@
                   "explanation": "Use 'independently' because an adverb is required after 'think'."
                 },
                 {
-                  "id": "adverb_017",
+                  "id": "pronoun_167",
                   "question": "She is sure a great singer and no other singer is a match for her.",
                   "options": [
                     "She is sure",
@@ -2004,7 +2004,7 @@
                   "explanation": "Use 'surely' instead of 'sure' as an adverb."
                 },
                 {
-                  "id": "adverb_018",
+                  "id": "pronoun_168",
                   "question": "The teacher asked the students to talk loudly because there was a noise outside the classroom.",
                   "options": [
                     "The teacher asked the students",
@@ -2016,7 +2016,7 @@
                   "explanation": "aloud."
                 },
                 {
-                  "id": "adverb_019",
+                  "id": "pronoun_169",
                   "question": "It is better to be frugal but don't be miser in giving alms.",
                   "options": [
                     "It is better to be frugal",
@@ -2028,7 +2028,7 @@
                   "explanation": "Use the adjective 'miserly' instead of the noun 'miser'."
                 },
                 {
-                  "id": "adverb_020",
+                  "id": "pronoun_170",
                   "question": "It is a pity that our leaders are misusing our hardly won liberty.",
                   "options": [
                     "It is a pity that",
@@ -2040,7 +2040,7 @@
                   "explanation": "Use 'hard-won liberty'. 'Hardly won' changes the meaning."
                 },
                 {
-                  "id": "adverb_021",
+                  "id": "pronoun_171",
                   "question": "She knows swimming well.",
                   "options": [
                     "She knows",
@@ -2052,7 +2052,7 @@
                   "explanation": "Use 'can swim well'. 'Know' is not generally used with skills in this context."
                 },
                 {
-                  "id": "adverb_022",
+                      "id": "pronoun_172",
                   "question": "You are advised to travel lightly.",
                   "options": [
                     "You are advised",
@@ -2064,7 +2064,7 @@
                   "explanation": "light."
                 },
                 {
-                  "id": "adverb_023",
+                  "id": "pronoun_173",
                   "question": "The Tatas are regarded the most successful industrialist of modern India.",
                   "options": [
                     "The Tatas are regarded",
@@ -2076,7 +2076,7 @@
                   "explanation": "After 'regarded', use 'as'. Correct form: 'The Tatas are regarded as the most successful industrialists of modern India.'"
                 },
                 {
-                  "id": "adverb_024",
+                  "id": "pronoun_174",
                   "question": "She is either honest or intelligent, if not both.",
                   "options": [
                     "She is either honest",
@@ -2088,7 +2088,7 @@
                   "explanation": "use neither."
                 },
                 {
-                  "id": "adverb_025",
+                  "id": "pronoun_175",
                   "question": "When she received telephone, she ran straightly to home.",
                   "options": [
                     "When she received telephone",
@@ -2100,154 +2100,154 @@
                   "explanation": "Use 'straight' instead of 'straightly'. 'Straight' functions as both adjective and adverb."
                 },
                   {
-                    "id": "adverb_026",
+                    "id": "pronoun_176",
                     "question": "I never remember to have met a more interesting man in my life.",
                     "options": ["I never remember", "to have met", "a more interesting man", "No error"],
                     "correctAnswer": "I never remember",
                     "explanation": "Use 'I do not remember' or 'I never remember having met'."
                   },
                   {
-                    "id": "adverb_027",
+                    "id": "pronoun_177",
                     "question": "I refused to accompany him because I was so tired.",
                     "options": ["I refused", "to accompany him", "because I was so tired", "No error"],
                     "correctAnswer": "because I was so tired",
                     "explanation": "The sentence is grammatically correct."
                   },
                   {
-                    "id": "adverb_028",
+                    "id": "pronoun_178",
                     "question": "She did this work as good as she could do.",
                     "options": ["She did this work", "as good as", "she could do", "No error"],
                     "correctAnswer": "as good as",
                     "explanation": "Use 'as well as' because an adverb is required to modify the verb."
                   },
                   {
-                    "id": "adverb_029",
+                    "id": "pronoun_179",
                     "question": "This fruit tastes more sweetly than any other fruit.",
                     "options": ["This fruit tastes", "more sweetly", "than any other fruit", "No error"],
                     "correctAnswer": "more sweetly",
                     "explanation": "Use 'sweeter' because taste is a linking verb and requires an adjective."
                   },
                   {
-                    "id": "adverb_030",
+                    "id": "pronoun_180",
                     "question": "Raja Ram Mohan Roy tried to eradicate social evils with tooth and nail.",
                     "options": ["Raja Ram Mohan Roy tried", "to eradicate social evils", "with tooth and nail", "No error"],
                     "correctAnswer": "with tooth and nail",
                     "explanation": "The correct idiom is 'to fight tooth and nail', not 'eradicate with tooth and nail'."
                   },
                   {
-                    "id": "adverb_031",
+                    "id": "pronoun_181",
                     "question": "We seldom or ever go to the movie these days because we don't like moving out.",
                     "options": ["We seldom or ever", "go to the movie these days", "because we don't like moving out", "No error"],
                     "correctAnswer": "We seldom or ever",
                     "explanation": "Use 'seldom or never'."
                   },
                   {
-                    "id": "adverb_032",
+                    "id": "pronoun_182",
                     "question": "The student came to the classroom lately and was punished by the teacher.",
                     "options": ["The student came", "to the classroom lately", "and was punished by the teacher", "No error"],
                     "correctAnswer": "to the classroom lately",
                     "explanation": "'Lately' means recently. Use 'late' for delay."
                   },
                   {
-                    "id": "adverb_033",
+                    "id": "pronoun_183",
                     "question": "He looks full of energy today because he soundly slept last night.",
                     "options": ["He looks full of energy today", "because he soundly slept", "last night", "No error"],
                     "correctAnswer": "because he soundly slept",
                     "explanation": "Use 'slept soundly'. The adverb should follow the verb."
                   },
                   {
-                    "id": "adverb_034",
+                        "id": "pronoun_184",
                     "question": "I care a fig for such a worthless fellow.",
                     "options": ["I care", "a fig", "for such a worthless fellow", "No error"],
                     "correctAnswer": "I care",
                     "explanation": "The idiom is 'I don't care a fig'."
                   },
                   {
-                    "id": "adverb_035",
+                    "id": "pronoun_185",
                     "question": "She had barely nothing to eat when she came to me last month.",
                     "options": ["She had barely", "nothing to eat", "when she came to me last month", "No error"],
                     "correctAnswer": "nothing to eat",
                     "explanation": "Double negative. Use 'barely anything to eat'."
                   },
                   {
-                    "id": "adverb_036",
+                    "id": "pronoun_186",
                     "question": "Have you secured first class? Yes, I have not secured it.",
                     "options": ["Have you secured first class", "Yes", "I have not secured it", "No error"],
                     "correctAnswer": "I have not secured it",
                     "explanation": "The reply is logically incorrect. It should be 'I have secured it'."
                   },
                   {
-                    "id": "adverb_037",
+                    "id": "pronoun_187",
                     "question": "It had been bitter cold the whole month and we preferred staying in the plains.",
                     "options": ["It had been bitter cold", "the whole month", "and we preferred staying in the plains", "No error"],
                     "correctAnswer": "It had been bitter cold",
                     "explanation": "Use 'bitterly cold'."
                   },
                   {
-                    "id": "adverb_038",
+                    "id": "pronoun_188",
                     "question": "Don't be unreasonable angry with me because I understand your problem.",
                     "options": ["Don't be", "unreasonable angry", "with me because I understand your problem", "No error"],
                     "correctAnswer": "unreasonable angry",
                     "explanation": "Use 'unreasonably angry'. An adverb is needed."
                   },
                   {
-                    "id": "adverb_039",
+                    "id": "pronoun_189",
                     "question": "Never in the history of India there has been as brave a lady as Rani Lakshmi Bai.",
                     "options": ["Never in the history of India", "there has been", "as brave a lady as Rani Lakshmi Bai", "No error"],
                     "correctAnswer": "there has been",
                     "explanation": "After a negative adverb at the beginning, inversion is required: 'has there been'."
                   },
                   {
-                    "id": "adverb_040",
+                    "id": "pronoun_190",
                     "question": "They pay him handsome salary and he is earning fifteen thousand rupees monthly.",
                     "options": ["They pay him", "handsome salary", "and he is earning fifteen thousand rupees monthly", "No error"],
                     "correctAnswer": "handsome salary",
                     "explanation": "Use 'handsome salary and he is earning fifteen thousand rupees a month'."
                   },
                   {
-                    "id": "adverb_041",
+                    "id": "pronoun_191",
                     "question": "Only I read poetry because I am much interested in it.",
                     "options": ["Only I read poetry", "because I am much interested in it", "No error", "-"],
                     "correctAnswer": "Only I read poetry",
                     "explanation": "Use 'I only read poetry' or 'Only I read poetry' depending on meaning; here placement is incorrect."
                   },
                   {
-                    "id": "adverb_042",
+                    "id": "pronoun_192",
                     "question": "She does work with heart and soul to qualify the test.",
                     "options": ["She does work", "with heart and soul", "to qualify the test", "No error"],
                     "correctAnswer": "with heart and soul",
                     "explanation": "Remoe with."
                   },
                   {
-                    "id": "adverb_043",
+                    "id": "pronoun_193",
                     "question": "The teacher refused to consider him as an honest boy.",
                     "options": ["The teacher refused", "to consider him as", "an honest boy", "No error"],
                     "correctAnswer": "to consider him as",
                     "explanation": "After 'consider', 'as' should not be used."
                   },
                   {
-                    "id": "adverb_044",
+                    "id": "pronoun_194",
                     "question": "The principal appointed him as an office boy in his office.",
                     "options": ["The principal appointed", "him as an office boy", "in his office", "No error"],
                     "correctAnswer": "him as an office boy",
                     "explanation": "After 'appoint', 'as' should not be used."
                   },
                   {
-                    "id": "adverb_045",
+                    "id": "pronoun_195",
                     "question": "They reached home safely, although they started late.",
                     "options": ["They reached home safely", "although they started late", "No error", "-"],
                     "correctAnswer": "They reached home safely",
                     "explanation": "safe in place of safely"
                   },
                   {
-                    "id": "adverb_046",
+                        "id": "pronoun_196",
                     "question": "The robbers behaved gentlemanly with the ladies.",
                     "options": ["The robbers behaved", "gentlemanly", "with the ladies", "No error"],
                     "correctAnswer": "gentlemanly",
                     "explanation": "Use 'like gentlemen' or 'gently'. 'Gentlemanly' is primarily an adjective."
                   },
                   {
-                    "id": "adverb_047",
+                    "id": "pronoun_197",
                     "question": "Thanks, I have just taken coffee.",
                     "options": ["Thanks", "I have just taken coffee", "No error", "-"],
                     "correctAnswer": "Thanks",
@@ -2255,7 +2255,7 @@
                   },
         
                     {
-                      "id": "adverb_048",
+                      "id": "pronoun_198",
                       "question": "Hardly had the train left the station when it suddenly stopped due to a technical fault.",
                       "options": [
                         "Hardly had the train",
@@ -2267,7 +2267,7 @@
                       "explanation": "The correlative conjunction with 'Hardly' is 'when'. The inversion 'Hardly had the train left...' is also correctly used."
                     },
                     {
-                      "id": "adverb_049",
+                      "id": "pronoun_199",
                       "question": "Scarcely had the meeting begun than the chairman announced his resignation.",
                       "options": [
                         "Scarcely had the meeting begun",
@@ -2279,7 +2279,7 @@
                       "explanation": "The correct pair is 'Scarcely...when', not 'Scarcely...than'. Correct sentence: 'Scarcely had the meeting begun when the chairman announced his resignation.'"
                     },
                     {
-                      "id": "adverb_050",
+                      "id": "pronoun_200",
                       "question": "No sooner the verdict was announced than the crowd erupted into celebration.",
                       "options": [
                         "No sooner",
