@@ -25,7 +25,14 @@ import { AppShell } from "@/components/layout/AppShell";
 import { getDailyPlan, isDayPublished, MAX_PUBLISHED_DAY } from "@/lib/daily-plans";
 import { hasAnyDeckForDay, hasDeckForDay } from "@/lib/study-decks";
 import { hasComprehensionForDay } from "@/lib/comprehension";
-import { formatEnglishGrammarQuizLabel, formatTopic, getDayAccess, isDayFullyComplete } from "@/lib/day-system";
+import {
+  formatEnglishGrammarQuizLabel,
+  formatReasoningQuizLabel,
+  formatTopic,
+  getDayAccess,
+  getReasoningQuizLabel,
+  isDayFullyComplete,
+} from "@/lib/day-system";
 import {
   getDayProgress,
   hasCompletedQuiz,
@@ -313,8 +320,11 @@ export default function DayPage({
         ? [
             {
               id: "reasoning",
-              label: "Reasoning Practice",
-              subtitle: `${formatTopic(plan.reasoning.topic)} · ${plan.reasoning.questions} questions · ${plan.reasoning.duration} min`,
+              label: formatReasoningQuizLabel(
+                plan.reasoning.topic,
+                plan.reasoning.label
+              ),
+              subtitle: `${formatReasoningQuizLabel(plan.reasoning.topic, plan.reasoning.label)} · ${plan.reasoning.questions} questions · ${plan.reasoning.duration} min`,
               kind: "quiz" as const,
               subject: "reasoning" as const,
               completed: dayProgress.reasoning.completed,

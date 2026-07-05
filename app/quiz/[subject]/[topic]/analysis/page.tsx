@@ -27,7 +27,9 @@ import { canAccessDay } from "@/lib/premium-access";
 import {
   formatEnglishGrammarQuizLabel,
   formatQuizTitle,
+  formatReasoningQuizLabel,
   formatTopic,
+  getReasoningQuizLabel,
 } from "@/lib/day-system";
 import { getDailyPlan } from "@/lib/daily-plans";
 import { useAuth } from "@/components/providers/AuthProvider";
@@ -119,16 +121,16 @@ export default function QuizAnalysisPage({
     Math.min(100, 100 - Math.round((averageSecondsPerQuestion / 90) * 100))
   );
   const plan = getDailyPlan(day);
-  const title = formatQuizTitle(
-    subject,
-    topic,
-    day,
-    plan?.english.grammarQuizLabel
-  );
+  const title = formatQuizTitle(subject, topic, day, {
+    englishLabel: plan?.english.grammarQuizLabel,
+    reasoningLabel: getReasoningQuizLabel(plan, topic),
+  });
   const topicLabel =
     subject === "english"
       ? formatEnglishGrammarQuizLabel(plan?.english.grammarQuizLabel)
-      : formatTopic(topic);
+      : subject === "reasoning"
+        ? formatReasoningQuizLabel(topic, getReasoningQuizLabel(plan, topic))
+        : formatTopic(topic);
 
   return (
     <ProtectedRoute>

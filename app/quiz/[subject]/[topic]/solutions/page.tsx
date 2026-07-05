@@ -16,7 +16,7 @@ import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { Card } from "@/components/ui/Card";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { canAccessDay } from "@/lib/premium-access";
-import { formatQuizTitle } from "@/lib/day-system";
+import { formatQuizTitle, getReasoningQuizLabel } from "@/lib/day-system";
 import { getDailyPlan } from "@/lib/daily-plans";
 import { loadQuizAnalytics } from "@/lib/api/ecosystem";
 import { getQuizReviewRecord } from "@/lib/storage";
@@ -96,12 +96,10 @@ export default function QuizSolutionsPage({
     data.questionIds
   );
   const plan = getDailyPlan(day);
-  const title = formatQuizTitle(
-    subject,
-    topic,
-    day,
-    plan?.english.grammarQuizLabel
-  );
+  const title = formatQuizTitle(subject, topic, day, {
+    englishLabel: plan?.english.grammarQuizLabel,
+    reasoningLabel: getReasoningQuizLabel(plan, topic),
+  });
   const correctCount = questions.filter(
     (question) => getReviewStatus(question, data.answers) === "correct"
   ).length;

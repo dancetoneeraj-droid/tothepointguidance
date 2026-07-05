@@ -236,16 +236,36 @@ export function formatEnglishGrammarQuizLabel(customLabel?: string): string {
   return customLabel?.trim() || "Grammar";
 }
 
+export function formatReasoningQuizLabel(
+  topic: string,
+  customLabel?: string
+): string {
+  return customLabel?.trim() || formatTopic(topic);
+}
+
+export function getReasoningQuizLabel(
+  plan: DailyPlan | null | undefined,
+  topic: string
+): string | undefined {
+  if (!plan) return undefined;
+  const extra = plan.reasoningQuizzes?.find((q) => q.topic === topic);
+  if (extra?.label) return extra.label;
+  if (plan.reasoning?.topic === topic) return plan.reasoning.label;
+  return undefined;
+}
+
 export function formatQuizTitle(
   subject: string,
   topic: string,
   day: number,
-  englishLabel?: string
+  options?: { englishLabel?: string; reasoningLabel?: string }
 ): string {
   const name =
     subject === "english"
-      ? formatEnglishGrammarQuizLabel(englishLabel)
-      : formatTopic(topic);
+      ? formatEnglishGrammarQuizLabel(options?.englishLabel)
+      : subject === "reasoning"
+        ? formatReasoningQuizLabel(topic, options?.reasoningLabel)
+        : formatTopic(topic);
   return `${name} — Day ${day}`;
 }
 
