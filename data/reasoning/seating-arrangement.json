@@ -220,10 +220,10 @@
       "passage": "Eight persons are sitting in two parallel rows and facing each other. In Row1 L, M, N, and O are seated and face south. In Row2 U, V, W, and X are seated and face north. All the information is not necessarily in the same order. U sits second to the left of X. L sits third to the right of M. W sits adjacent to X. W does not sit at the end of the row. O sits immediate right of N. N does not sit opposite to W.",
       "questions": [
         {
-          "question": "In which of the following statement two persons are not sitting together?",
-          "options": ["Only II", "Only I and III", "Only III", "All I, II, and III", "None of these"],
-          "correctAnswer": "All I, II, and III",
-          "explanation": "Final arrangement: O N M L / V U W X. LN, XU and WV are not adjacent."
+          "question": "N is sitting between which of the following persons?",
+          "options": ["L & M", "O & M", "L & O", "N is on one of the ends", "None of these"],
+          "correctAnswer": "O & M",
+          "explanation": "N is sitting between O and M. as sitting arrangement is L O N M / U W V X"
         },
         {
           "question": "Four of the five among the following are similar in such a way to form a group, who among the following doesn’t belong to the group?",
@@ -234,20 +234,20 @@
         {
           "question": "Who among the following person sits second to the left of W?",
           "options": ["No one", "X", "V", "U", "None of the above"],
-          "correctAnswer": "V",
+          "correctAnswer": "No one",
           "explanation": "Row2 arrangement is V U W X. Second to the left of W is V."
         },
         {
           "question": "Which of the following statement is/are false? I. Only one person sits between O and M II. W sits immediate left of X III. L and V are diagonally opposite to each other.",
           "options": ["Only I and III", "Only III", "Only I and II", "Only II", "None of the statement is false"],
-          "correctAnswer": "Only III",
-          "explanation": "Statements I and II are true. L and V are not diagonally opposite."
+          "correctAnswer": "None of the statement is false",
+          "explanation": "all statement correct"
         },
         {
           "question": "Who among the following person sits opposite to N?",
           "options": ["X", "V", "W", "U", "None of the above"],
-          "correctAnswer": "U",
-          "explanation": "N is seated opposite U."
+          "correctAnswer": "X",
+          "explanation": "N is seated opposite X."
         }
       ]
     },
@@ -258,8 +258,8 @@
         {
           "question": "Who among the following person lives on floor 6?",
           "options": ["G", "H", "D", "E", "None of these"],
-          "correctAnswer": "G",
-          "explanation": "Final floors from bottom to top: F, C, E, H, B, G, A, D."
+          "correctAnswer": "D",
+          "explanation": "Final floors from bottom to top: F, C, E, H, B, D, A, G."
         },
         {
           "question": "On which of the following floor does A live?",
@@ -270,8 +270,8 @@
         {
           "question": "How many persons live between G and H?",
           "options": ["One", "Two", "Three", "More than three", "None"],
-          "correctAnswer": "One",
-          "explanation": "H is on floor 4 and G is on floor 6. Only B sits between them."
+          "correctAnswer": "Three",
+          "explanation": ""
         },
         {
           "question": "Who among the following person live on floor 2?",
