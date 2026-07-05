@@ -1692,7 +1692,310 @@
                           ],
                           "correctAnswer": "Kitchen Cabinet",
                           "explanation": "The Kitchen Cabinet is an informal body consisting of the Prime Minister's trusted advisors and has no constitutional basis. :contentReference[oaicite:9]{index=9}"
-                        }
+                        },
+        
+                          {
+                            "id": "gk_revision_156",
+                            "question": "Consider the following statements regarding the jurisdiction of the Supreme Court of India:\n1. The Supreme Court has exclusive original jurisdiction over disputes between the Union and one or more States.\n2. The Supreme Court can refuse to entertain a petition filed under Article 32.\n\nWhich of the statements given above is/are correct?\n\nभारत के सर्वोच्च न्यायालय के क्षेत्राधिकार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. सर्वोच्च न्यायालय को संघ और एक या अधिक राज्यों के बीच विवादों पर अनन्य मूल क्षेत्राधिकार प्राप्त है।\n2. सर्वोच्च न्यायालय अनुच्छेद 32 के अंतर्गत दायर याचिका को सुनने से मना कर सकता है।\n\nउपरोक्त कथनों में से कौन-सा/से सही है/हैं?",
+                            "options": [
+                              "1 only / केवल 1",
+                              "2 only / केवल 2",
+                              "Both 1 and 2 / 1 और 2 दोनों",
+                              "Neither 1 nor 2 / न तो 1, न ही 2"
+                            ],
+                            "correctAnswer": "1 only / केवल 1",
+                            "explanation": "Article 131 provides exclusive original jurisdiction, while Article 32 is itself a Fundamental Right and ordinarily cannot be refused."
+                          },
+                          {
+                            "id": "gk_revision_157",
+                            "question": "Consider the following statements:\n1. The writ jurisdiction of the High Court is wider than that of the Supreme Court.\n2. A High Court can issue writs even for the enforcement of legal rights.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. उच्च न्यायालय का रिट क्षेत्राधिकार सर्वोच्च न्यायालय से अधिक व्यापक है।\n2. उच्च न्यायालय विधिक अधिकारों के प्रवर्तन हेतु भी रिट जारी कर सकता है।\n\nउपरोक्त कथनों में से कौन-सा/से सही है/हैं?",
+                            "options": [
+                              "1 only / केवल 1",
+                              "2 only / केवल 2",
+                              "Both 1 and 2 / 1 और 2 दोनों",
+                              "Neither 1 nor 2 / न तो 1, न ही 2"
+                            ],
+                            "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+                            "explanation": "Article 226 empowers High Courts to issue writs for Fundamental Rights as well as 'any other purpose'."
+                          },
+                          {
+                            "id": "gk_revision_158",
+                            "question": "Consider the following statements regarding the Collegium System:\n1. It is expressly mentioned in the Constitution of India.\n2. It was established through judicial interpretation.\n\nWhich of the statements given above is/are correct?\n\nकॉलेजियम प्रणाली के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. इसका स्पष्ट उल्लेख भारतीय संविधान में किया गया है।\n2. इसकी स्थापना न्यायिक व्याख्या द्वारा हुई।\n\nउपरोक्त कथनों में से कौन-सा/से सही है/हैं?",
+                            "options": [
+                              "1 only / केवल 1",
+                              "2 only / केवल 2",
+                              "Both 1 and 2 / 1 और 2 दोनों",
+                              "Neither 1 nor 2 / न तो 1, न ही 2"
+                            ],
+                            "correctAnswer": "2 only / केवल 2",
+                            "explanation": "The Collegium System is judge-made and evolved through the Judges Cases."
+                          },
+                          {
+                            "id": "gk_revision_159",
+                            "question": "Consider the following statements:\n1. The advisory opinion of the Supreme Court under Article 143 is binding on the President.\n2. The President may seek the opinion of the Supreme Court on questions of law or public importance.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. अनुच्छेद 143 के अंतर्गत सर्वोच्च न्यायालय की सलाह राष्ट्रपति पर बाध्यकारी होती है।\n2. राष्ट्रपति विधि अथवा लोक महत्व के प्रश्नों पर सर्वोच्च न्यायालय की राय मांग सकते हैं।\n\nउपरोक्त कथनों में से कौन-सा/से सही है/हैं?",
+                            "options": [
+                              "1 only / केवल 1",
+                              "2 only / केवल 2",
+                              "Both 1 and 2 / 1 और 2 दोनों",
+                              "Neither 1 nor 2 / न तो 1, न ही 2"
+                            ],
+                            "correctAnswer": "2 only / केवल 2",
+                            "explanation": "The advisory opinion under Article 143 is not binding on the President."
+                          },
+                          {
+                            "id": "gk_revision_160",
+                            "question": "Consider the following statements:\n1. Every State must have its own separate High Court.\n2. Parliament may establish a common High Court for two or more States.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. प्रत्येक राज्य का अपना पृथक उच्च न्यायालय होना अनिवार्य है।\n2. संसद दो या दो से अधिक राज्यों के लिए एक साझा उच्च न्यायालय स्थापित कर सकती है।\n\nउपरोक्त कथनों में से कौन-सा/से सही है/हैं?",
+                            "options": [
+                              "1 only / केवल 1",
+                              "2 only / केवल 2",
+                              "Both 1 and 2 / 1 और 2 दोनों",
+                              "Neither 1 nor 2 / न तो 1, न ही 2"
+                            ],
+                            "correctAnswer": "2 only / केवल 2",
+                            "explanation": "The Constitution permits a common High Court for two or more States or Union Territories."
+                          },
+                          {
+                            "id": "gk_revision_161",
+                            "question": "Consider the following statements:\n1. Every High Court is a Court of Record.\n2. Every Court of Record has the power to punish for its own contempt.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. प्रत्येक उच्च न्यायालय अभिलेख न्यायालय (Court of Record) है।\n2. प्रत्येक अभिलेख न्यायालय को अपने अवमानना के लिए दंड देने की शक्ति प्राप्त है।\n\nउपरोक्त कथनों में से कौन-सा/से सही है/हैं?",
+                            "options": [
+                              "1 only / केवल 1",
+                              "2 only / केवल 2",
+                              "Both 1 and 2 / 1 और 2 दोनों",
+                              "Neither 1 nor 2 / न तो 1, न ही 2"
+                            ],
+                            "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+                            "explanation": "Articles 129 and 215 declare the Supreme Court and High Courts as Courts of Record with contempt powers."
+                          },
+                          {
+                            "id": "gk_revision_162",
+                            "question": "Consider the following statements:\n1. The retirement age of a Supreme Court Judge is higher than that of a High Court Judge.\n2. The salaries of both Supreme Court and High Court Judges are charged on the Consolidated Fund of India.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. सर्वोच्च न्यायालय के न्यायाधीश की सेवानिवृत्ति आयु उच्च न्यायालय के न्यायाधीश से अधिक होती है।\n2. सर्वोच्च न्यायालय तथा उच्च न्यायालय के न्यायाधीशों के वेतन भारत की संचित निधि पर भारित होते हैं।\n\nउपरोक्त कथनों में से कौन-सा/से सही है/हैं?",
+                            "options": [
+                              "1 only / केवल 1",
+                              "2 only / केवल 2",
+                              "Both 1 and 2 / 1 और 2 दोनों",
+                              "Neither 1 nor 2 / न तो 1, न ही 2"
+                            ],
+                            "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+                            "explanation": "Supreme Court Judges retire at 65 years, High Court Judges at 62 years, and their salaries are charged on the Consolidated Fund of India."
+                          },
+                
+                            {
+                              "id": "gk_revision_163",
+                              "question": "Consider the following statements regarding the Supreme Court of India:\n1. The appellate jurisdiction of the Supreme Court extends to constitutional, civil and criminal matters.\n2. Every appeal from a High Court automatically lies before the Supreme Court.\n\nWhich of the statements given above is/are correct?\n\nभारत के सर्वोच्च न्यायालय के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. सर्वोच्च न्यायालय का अपीलीय क्षेत्राधिकार संवैधानिक, दीवानी तथा आपराधिक मामलों तक विस्तृत है।\n2. प्रत्येक उच्च न्यायालय के निर्णय के विरुद्ध स्वतः सर्वोच्च न्यायालय में अपील की जा सकती है।\n\nउपरोक्त कथनों में से कौन-सा/से सही है/हैं?",
+                              "options": [
+                                "1 only / केवल 1",
+                                "2 only / केवल 2",
+                                "Both 1 and 2 / 1 और 2 दोनों",
+                                "Neither 1 nor 2 / न तो 1, न ही 2"
+                              ],
+                              "correctAnswer": "1 only / केवल 1",
+                              "explanation": "Articles 132–134 govern appellate jurisdiction. Appeals are not automatic in every case."
+                            },
+                            {
+                              "id": "gk_revision_164",
+                              "question": "Consider the following statements:\n1. The Supreme Court is a Court of Record under Article 129.\n2. Being a Court of Record, it can punish only subordinate courts for contempt.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. सर्वोच्च न्यायालय अनुच्छेद 129 के अंतर्गत अभिलेख न्यायालय (Court of Record) है।\n2. अभिलेख न्यायालय होने के कारण यह केवल अधीनस्थ न्यायालयों को अवमानना के लिए दंडित कर सकता है।",
+                              "options": [
+                                "1 only / केवल 1",
+                                "2 only / केवल 2",
+                                "Both 1 and 2 / 1 और 2 दोनों",
+                                "Neither 1 nor 2 / न तो 1, न ही 2"
+                              ],
+                              "correctAnswer": "1 only / केवल 1",
+                              "explanation": "The Supreme Court can punish any person for contempt of itself, not merely subordinate courts."
+                            },
+                            {
+                              "id": "gk_revision_165",
+                              "question": "Consider the following statements:\n1. A distinguished jurist can be appointed as a Judge of the Supreme Court.\n2. A distinguished jurist can also be appointed directly as a Judge of a High Court.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. एक विशिष्ट विधिवेत्ता को सर्वोच्च न्यायालय का न्यायाधीश नियुक्त किया जा सकता है।\n2. एक विशिष्ट विधिवेत्ता को सीधे उच्च न्यायालय का न्यायाधीश भी नियुक्त किया जा सकता है।",
+                              "options": [
+                                "1 only / केवल 1",
+                                "2 only / केवल 2",
+                                "Both 1 and 2 / 1 और 2 दोनों",
+                                "Neither 1 nor 2 / न तो 1, न ही 2"
+                              ],
+                              "correctAnswer": "1 only / केवल 1",
+                              "explanation": "The qualification of 'distinguished jurist' exists only for Supreme Court judges under Article 124."
+                            },
+                            {
+                              "id": "gk_revision_166",
+                              "question": "Consider the following statements:\n1. Article 226 empowers High Courts to issue writs for enforcement of Fundamental Rights.\n2. High Courts may also issue writs for any other legal purpose.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. अनुच्छेद 226 उच्च न्यायालय को मौलिक अधिकारों के प्रवर्तन हेतु रिट जारी करने की शक्ति देता है।\n2. उच्च न्यायालय किसी अन्य विधिक उद्देश्य के लिए भी रिट जारी कर सकता है।",
+                              "options": [
+                                "1 only / केवल 1",
+                                "2 only / केवल 2",
+                                "Both 1 and 2 / 1 और 2 दोनों",
+                                "Neither 1 nor 2 / न तो 1, न ही 2"
+                              ],
+                              "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+                              "explanation": "Article 226 has a wider scope than Article 32."
+                            },
+                            {
+                              "id": "gk_revision_167",
+                              "question": "Consider the following statements regarding review and advisory jurisdiction:\n1. Article 137 provides the Supreme Court with the power to review its own judgments.\n2. Article 143 empowers the President to seek the advisory opinion of the Supreme Court.\n\nWhich of the statements given above is/are correct?\n\nसमीक्षा एवं परामर्शी क्षेत्राधिकार के संबंध में निम्नलिखित कथनों पर विचार कीजिए:\n1. अनुच्छेद 137 सर्वोच्च न्यायालय को अपने निर्णयों की समीक्षा करने की शक्ति देता है।\n2. अनुच्छेद 143 राष्ट्रपति को सर्वोच्च न्यायालय से परामर्श मांगने की शक्ति देता है।",
+                              "options": [
+                                "1 only / केवल 1",
+                                "2 only / केवल 2",
+                                "Both 1 and 2 / 1 और 2 दोनों",
+                                "Neither 1 nor 2 / न तो 1, न ही 2"
+                              ],
+                              "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+                              "explanation": "Articles 137 and 143 respectively deal with review and advisory jurisdiction."
+                            },
+                            {
+                              "id": "gk_revision_168",
+                              "question": "Consider the following statements:\n1. The First Judges Case upheld Executive primacy in judicial appointments.\n2. The Second Judges Case established the Collegium System.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. प्रथम न्यायाधीश मामला (1981) ने न्यायिक नियुक्तियों में कार्यपालिका की प्रधानता को स्वीकार किया।\n2. द्वितीय न्यायाधीश मामला (1993) ने कॉलेजियम प्रणाली की स्थापना की।",
+                              "options": [
+                                "1 only / केवल 1",
+                                "2 only / केवल 2",
+                                "Both 1 and 2 / 1 और 2 दोनों",
+                                "Neither 1 nor 2 / न तो 1, न ही 2"
+                              ],
+                              "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+                              "explanation": "Executive primacy existed until the Second Judges Case created the Collegium."
+                            },
+                            {
+                              "id": "gk_revision_169",
+                              "question": "Consider the following statements:\n1. The Third Judges Case arose out of a Presidential Reference.\n2. After the Third Judges Case, the Supreme Court Collegium for appointments consists of the CJI and four senior-most judges.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. तृतीय न्यायाधीश मामला राष्ट्रपति के संदर्भ (Presidential Reference) से उत्पन्न हुआ था।\n2. इसके बाद सर्वोच्च न्यायालय कॉलेजियम में भारत के मुख्य न्यायाधीश तथा चार वरिष्ठतम न्यायाधीश शामिल होते हैं।",
+                              "options": [
+                                "1 only / केवल 1",
+                                "2 only / केवल 2",
+                                "Both 1 and 2 / 1 और 2 दोनों",
+                                "Neither 1 nor 2 / न तो 1, न ही 2"
+                              ],
+                              "correctAnswer": "Both 1 and 2 / 1 और 2 दोनों",
+                              "explanation": "The 1998 Presidential Reference expanded the Collegium to five members."
+                            },
+                            {
+                              "id": "gk_revision_170",
+                              "question": "Consider the following statements:\n1. The 99th Constitutional Amendment sought to establish the National Judicial Appointments Commission (NJAC).\n2. The Supreme Court upheld the constitutional validity of the NJAC.\n\nWhich of the statements given above is/are correct?\n\nनिम्नलिखित कथनों पर विचार कीजिए:\n1. 99वें संविधान संशोधन द्वारा राष्ट्रीय न्यायिक नियुक्ति आयोग (NJAC) की स्थापना का प्रयास किया गया।\n2. सर्वोच्च न्यायालय ने NJAC को संवैधानिक रूप से वैध ठहराया।",
+                              "options": [
+                                "1 only / केवल 1",
+                                "2 only / केवल 2",
+                                "Both 1 and 2 / 1 और 2 दोनों",
+                                "Neither 1 nor 2 / न तो 1, न ही 2"
+                              ],
+                              "correctAnswer": "1 only / केवल 1",
+                              "explanation": "The NJAC Act and the 99th Amendment were struck down by the Supreme Court in 2015."
+                            },
+                            {
+                              "id": "gk_revision_171",
+                              "question": "Which one of the following Articles empowers the High Courts to exercise superintendence over all subordinate courts?\n\nनिम्नलिखित में से कौन-सा अनुच्छेद उच्च न्यायालय को अधीनस्थ न्यायालयों पर अधीक्षण की शक्ति प्रदान करता है?",
+                              "options": [
+                                "Article 225 / अनुच्छेद 225",
+                                "Article 226 / अनुच्छेद 226",
+                                "Article 227 / अनुच्छेद 227",
+                                "Article 228 / अनुच्छेद 228"
+                              ],
+                              "correctAnswer": "Article 227 / अनुच्छेद 227",
+                              "explanation": "Article 227 provides the High Court with supervisory jurisdiction over subordinate courts."
+                            },
+                            {
+                              "id": "gk_revision_172",
+                              "question": "The constitutional provision relating to the seat of the Supreme Court of India is:\n\nभारत के सर्वोच्च न्यायालय के मुख्यालय (Seat) से संबंधित संवैधानिक प्रावधान कौन-सा है?",
+                              "options": [
+                                "Article 124 / अनुच्छेद 124",
+                                "Article 126 / अनुच्छेद 126",
+                                "Article 130 / अनुच्छेद 130",
+                                "Article 131 / अनुच्छेद 131"
+                              ],
+                              "correctAnswer": "Article 130 / अनुच्छेद 130",
+                              "explanation": "Article 130 provides that the seat of the Supreme Court shall be Delhi unless the CJI, with the President's approval, appoints another place."
+                            },
+                    
+                              {
+                                "id": "gk_revision_173",
+                                "question": "Which one of the following Articles provides for the appointment of an Acting Chief Justice of India?\n\nनिम्नलिखित में से कौन-सा अनुच्छेद भारत के कार्यवाहक मुख्य न्यायाधीश की नियुक्ति से संबंधित है?",
+                                "options": [
+                                  "Article 124 / अनुच्छेद 124",
+                                  "Article 125 / अनुच्छेद 125",
+                                  "Article 126 / अनुच्छेद 126",
+                                  "Article 127 / अनुच्छेद 127"
+                                ],
+                                "correctAnswer": "Article 126 / अनुच्छेद 126",
+                                "explanation": "Article 126 provides for the appointment of an Acting Chief Justice of India."
+                              },
+                              {
+                                "id": "gk_revision_174",
+                                "question": "Under which Article can ad hoc Judges be appointed to the Supreme Court?\n\nसर्वोच्च न्यायालय में तदर्थ (Ad hoc) न्यायाधीशों की नियुक्ति किस अनुच्छेद के अंतर्गत की जाती है?",
+                                "options": [
+                                  "Article 126 / अनुच्छेद 126",
+                                  "Article 127 / अनुच्छेद 127",
+                                  "Article 128 / अनुच्छेद 128",
+                                  "Article 129 / अनुच्छेद 129"
+                                ],
+                                "correctAnswer": "Article 127 / अनुच्छेद 127",
+                                "explanation": "Article 127 provides for the appointment of ad hoc Judges in the Supreme Court."
+                              },
+                              {
+                                "id": "gk_revision_175",
+                                "question": "The power of the Supreme Court to punish for contempt flows from:\n\nसर्वोच्च न्यायालय की अवमानना के लिए दंड देने की शक्ति किस अनुच्छेद से प्राप्त होती है?",
+                                "options": [
+                                  "Article 129 / अनुच्छेद 129",
+                                  "Article 131 / अनुच्छेद 131",
+                                  "Article 137 / अनुच्छेद 137",
+                                  "Article 143 / अनुच्छेद 143"
+                                ],
+                                "correctAnswer": "Article 129 / अनुच्छेद 129",
+                                "explanation": "Article 129 declares the Supreme Court as a Court of Record with contempt powers."
+                              },
+                              {
+                                "id": "gk_revision_176",
+                                "question": "Which one of the following is NOT a qualification for appointment as a Judge of the Supreme Court?\n\nनिम्नलिखित में से कौन-सी सर्वोच्च न्यायालय के न्यायाधीश की नियुक्ति की योग्यता नहीं है?",
+                                "options": [
+                                  "Judge of a High Court for at least 5 years / कम-से-कम 5 वर्ष तक उच्च न्यायालय का न्यायाधीश",
+                                  "Advocate of a High Court for at least 10 years / कम-से-कम 10 वर्ष तक उच्च न्यायालय का अधिवक्ता",
+                                  "Distinguished Jurist in the opinion of the President / राष्ट्रपति की राय में विशिष्ट विधिवेत्ता",
+                                  "Minimum age of 45 years / न्यूनतम आयु 45 वर्ष"
+                                ],
+                                "correctAnswer": "Minimum age of 45 years / न्यूनतम आयु 45 वर्ष",
+                                "explanation": "The Constitution prescribes no minimum age for appointment as a Supreme Court Judge."
+                              },
+                              {
+                                "id": "gk_revision_177",
+                                "question": "The retirement age of a Judge of a High Court in India is:\n\nभारत में उच्च न्यायालय के न्यायाधीश की सेवानिवृत्ति आयु कितनी है?",
+                                "options": [
+                                  "60 years / 60 वर्ष",
+                                  "62 years / 62 वर्ष",
+                                  "65 years / 65 वर्ष",
+                                  "68 years / 68 वर्ष"
+                                ],
+                                "correctAnswer": "62 years / 62 वर्ष",
+                                "explanation": "High Court Judges retire at the age of 62 years."
+                              },
+                              {
+                                "id": "gk_revision_178",
+                                "question": "Which Constitutional Amendment attempted to replace the Collegium System with the National Judicial Appointments Commission (NJAC)?\n\nकिस संविधान संशोधन ने कॉलेजियम प्रणाली के स्थान पर राष्ट्रीय न्यायिक नियुक्ति आयोग (NJAC) स्थापित करने का प्रयास किया था?",
+                                "options": [
+                                  "97th Amendment / 97वाँ संशोधन",
+                                  "98th Amendment / 98वाँ संशोधन",
+                                  "99th Amendment / 99वाँ संशोधन",
+                                  "100th Amendment / 100वाँ संशोधन"
+                                ],
+                                "correctAnswer": "99th Amendment / 99वाँ संशोधन",
+                                "explanation": "The 99th Constitutional Amendment introduced the NJAC, which was struck down in 2015."
+                              },
+                              {
+                                "id": "gk_revision_179",
+                                "question": "Which one of the following Articles empowers the Supreme Court to review its own judgments?\n\nनिम्नलिखित में से कौन-सा अनुच्छेद सर्वोच्च न्यायालय को अपने निर्णयों की समीक्षा करने की शक्ति देता है?",
+                                "options": [
+                                  "Article 136 / अनुच्छेद 136",
+                                  "Article 137 / अनुच्छेद 137",
+                                  "Article 141 / अनुच्छेद 141",
+                                  "Article 142 / अनुच्छेद 142"
+                                ],
+                                "correctAnswer": "Article 137 / अनुच्छेद 137",
+                                "explanation": "Article 137 empowers the Supreme Court to review its own judgments."
+                              },
+                              {
+                                "id": "gk_revision_180",
+                                "question": "The writ jurisdiction of the Supreme Court under Article 32 differs from that of the High Court under Article 226 because:\n\nअनुच्छेद 32 के अंतर्गत सर्वोच्च न्यायालय का रिट क्षेत्राधिकार अनुच्छेद 226 के अंतर्गत उच्च न्यायालय के रिट क्षेत्राधिकार से इसलिए भिन्न है क्योंकि—",
+                                "options": [
+                                  "Article 32 is confined only to enforcement of Fundamental Rights / अनुच्छेद 32 केवल मौलिक अधिकारों के प्रवर्तन तक सीमित है",
+                                  "Article 226 can be exercised only for Fundamental Rights / अनुच्छेद 226 केवल मौलिक अधिकारों के लिए ही प्रयोग किया जा सकता है",
+                                  "Both have exactly the same scope / दोनों का क्षेत्राधिकार समान है",
+                                  "The Supreme Court can issue writs only against the Union Government / सर्वोच्च न्यायालय केवल संघ सरकार के विरुद्ध ही रिट जारी कर सकता है"
+                                ],
+                                "correctAnswer": "Article 32 is confined only to enforcement of Fundamental Rights / अनुच्छेद 32 केवल मौलिक अधिकारों के प्रवर्तन तक सीमित है",
+                                "explanation": "Article 226 has a wider ambit as it extends to 'any other purpose' in addition to Fundamental Rights."
+                              }
 
 
 

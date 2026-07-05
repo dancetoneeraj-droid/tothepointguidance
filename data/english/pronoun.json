@@ -2288,7 +2288,309 @@
                       ],
                       "correctAnswer": "the verdict was announced",
                       "explanation": "After 'No sooner', inversion is required. Correct sentence: 'No sooner was the verdict announced than the crowd erupted into celebration.'"
-                    }
+                    }, 
+                      {
+                        "id": "pronoun_201",
+                        "question": "None but cowards is afraid of fighting.",
+                        "options": [
+                          "None but cowards",
+                          "is afraid",
+                          "of fighting",
+                          "No error"
+                        ],
+                        "correctAnswer": "is afraid",
+                        "explanation": "'None but + plural noun' takes a plural verb. Correct: 'None but cowards are afraid of fighting.'"
+                      },
+                      {
+                        "id": "pronoun_202",
+                        "question": "Many a bride have been burnt and killed for dowry.",
+                        "options": [
+                          "Many a bride",
+                          "have been burnt",
+                          "and killed for dowry",
+                          "No error"
+                        ],
+                        "correctAnswer": "have been burnt",
+                        "explanation": "'Many a' is followed by a singular noun and singular verb. Use 'has been burnt'."
+                      },
+                      {
+                        "id": "pronoun_203",
+                        "question": "Each of these players have been warned not to repeat the silly mistake.",
+                        "options": [
+                          "Each of these players",
+                          "have been warned",
+                          "not to repeat the silly mistake",
+                          "No error"
+                        ],
+                        "correctAnswer": "have been warned",
+                        "explanation": "'Each' is singular and requires a singular verb. Use 'has been warned'."
+                      },
+                      {
+                        "id": "pronoun_204",
+                        "question": "Lime and soda is a digestive drink.",
+                        "options": [
+                          "Lime and soda",
+                          "is",
+                          "a digestive drink",
+                          "No error"
+                        ],
+                        "correctAnswer": "No error",
+                        "explanation": "'Lime and soda' is treated as one drink, so the singular verb 'is' is correct."
+                      },
+                      {
+                        "id": "pronoun_205",
+                        "question": "The mother as well as her children were brought to the police station for interrogation.",
+                        "options": [
+                          "The mother as well as her children",
+                          "were brought",
+                          "to the police station for interrogation",
+                          "No error"
+                        ],
+                        "correctAnswer": "were brought",
+                        "explanation": "'As well as' does not change the number of the subject. Use 'was brought'."
+                      },
+                      {
+                        "id": "pronoun_206",
+                        "question": "His benevolence and kindness are admired by his friends.",
+                        "options": [
+                          "His benevolence and kindness",
+                          "are admired",
+                          "by his friends",
+                          "No error"
+                        ],
+                        "correctAnswer": "are admired",
+                        "explanation": "'Benevolence and kindness' express a single quality, so a singular verb is preferred. Use 'is admired'."
+                      },
+                      {
+                        "id": "pronoun_207",
+                        "question": "She never has and never will allow her only son to join Army.",
+                        "options": [
+                          "She never has",
+                          "and never will allow",
+                          "her only son to join Army",
+                          "No error"
+                        ],
+                        "correctAnswer": "She never has",
+                        "explanation": "Maintain parallel structure: 'She has never allowed and never will allow...'"
+                      },
+                      {
+                        "id": "pronoun_208",
+                        "question": "Three parts of the lesson are yet to be completed.",
+                        "options": [
+                          "Three parts",
+                          "of the lesson",
+                          "are yet to be completed",
+                          "No error"
+                        ],
+                        "correctAnswer": "No error",
+                        "explanation": "The plural subject 'Three parts' correctly takes the plural verb 'are'."
+                      },
+                      {
+                        "id": "pronoun_209",
+                        "question": "She is intelligent but her sister dull.",
+                        "options": [
+                          "She is intelligent",
+                          "but her sister",
+                          "dull",
+                          "No error"
+                        ],
+                        "correctAnswer": "dull",
+                        "explanation": "The helping verb is omitted. Correct: '...but her sister is dull.'"
+                      },
+                      {
+                        "id": "pronoun_210",
+                        "question": "Intelligence, as well as knowledge of the subject are required to grasp the meaning of the book.",
+                        "options": [
+                          "Intelligence, as well as knowledge of the subject",
+                          "are required",
+                          "to grasp the meaning of the book",
+                          "No error"
+                        ],
+                        "correctAnswer": "are required",
+                        "explanation": "With 'as well as', the verb agrees with the first subject. Use 'is required'."
+                      },
+      
+                        {
+                          "id": "pronoun_211",
+                          "question": "Twenty officers have been dismissed and thirty left on their own.",
+                          "options": [
+                            "Twenty officers",
+                            "have been dismissed",
+                            "and thirty left on their own",
+                            "No error"
+                          ],
+                          "correctAnswer": "and thirty left on their own",
+                          "explanation": "The auxiliary verb is missing. Correct: '...and thirty were left on their own.'"
+                        },
+                        {
+                          "id": "pronoun_212",
+                          "question": "Every word and every line in the poems of Wordsworth sings about the blessings of nature.",
+                          "options": [
+                            "Every word and every line",
+                            "in the poems of Wordsworth",
+                            "sings about the blessings of nature",
+                            "No error"
+                          ],
+                          "correctAnswer": "No error",
+                          "explanation": "When each subject is preceded by 'Every', the verb remains singular. 'Sings' is correct."
+                        },
+                        {
+                          "id": "pronoun_213",
+                          "question": "So honestly he worked that he was rewarded by the chairman of the company.",
+                          "options": [
+                            "So honestly",
+                            "he worked",
+                            "that he was rewarded by the chairman of the company",
+                            "No error"
+                          ],
+                          "correctAnswer": "So honestly",
+                          "explanation": "Use 'So hard' or 'He worked so honestly'. 'Honestly' does not naturally modify 'worked' in this construction."
+                        },
+                        {
+                          "id": "pronoun_214",
+                          "question": "Riches, and not character bring you respect these days.",
+                          "options": [
+                            "Riches, and not character",
+                            "bring you respect",
+                            "these days",
+                            "No error"
+                          ],
+                          "correctAnswer": "bring you respect",
+                          "explanation": "'Riches' is treated as a singular noun meaning wealth. Use 'brings you respect'."
+                        },
+                        {
+                          "id": "pronoun_215",
+                          "question": "The sum and substance of the passage is beyond my understanding.",
+                          "options": [
+                            "The sum and substance",
+                            "of the passage",
+                            "is beyond my understanding",
+                            "No error"
+                          ],
+                          "correctAnswer": "No error",
+                          "explanation": "'The sum and substance' is an idiomatic singular expression meaning 'the essence'; therefore 'is' is correct."
+                        },
+                        {
+                          "id": "pronoun_216",
+                          "question": "None but those with honest record needs to come to me for help.",
+                          "options": [
+                            "None but those",
+                            "with honest record",
+                            "needs to come to me for help",
+                            "No error"
+                          ],
+                          "correctAnswer": "needs to come to me for help",
+                          "explanation": "'None but those' refers to a plural subject. Use 'need to come'."
+                        },
+                        {
+                          "id": "pronoun_217",
+                          "question": "Four miles are not a long distance for a young person like you.",
+                          "options": [
+                            "Four miles",
+                            "are not",
+                            "a long distance for a young person like you",
+                            "No error"
+                          ],
+                          "correctAnswer": "are not",
+                          "explanation": "A distance is treated as a single unit. Use 'is not'."
+                        },
+                        {
+                          "id": "pronoun_218",
+                          "question": "No sooner he was brought here than he began to feel uneasy.",
+                          "options": [
+                            "No sooner",
+                            "he was brought here",
+                            "than he began to feel uneasy",
+                            "No error"
+                          ],
+                          "correctAnswer": "he was brought here",
+                          "explanation": "After 'No sooner', inversion is required. Correct: 'No sooner was he brought here than...'"
+                        },
+                        {
+                          "id": "pronoun_219",
+                          "question": "Not only will he go there but also he will stay.",
+                          "options": [
+                            "Not only will he go there",
+                            "but also",
+                            "he will stay",
+                            "No error"
+                          ],
+                          "correctAnswer": "he will stay",
+                          "explanation": "Maintain parallel structure: 'Not only will he go there, but he will also stay.'"
+                        },
+                        {
+                          "id": "pronoun_220",
+                          "question": "He, like the other members of his family were left shelterless as a result of flood in the town.",
+                          "options": [
+                            "He, like the other members of his family",
+                            "were left shelterless",
+                            "as a result of flood in the town",
+                            "No error"
+                          ],
+                          "correctAnswer": "were left shelterless",
+                          "explanation": "The phrase 'like the other members...' is parenthetical. The verb agrees with 'He'. Use 'was left shelterless'."
+                        },
+                        {
+                          "id": "pronoun_221",
+                          "question": "The river was overflown and the villagers fled.",
+                          "options": [
+                            "The river",
+                            "was overflown",
+                            "and the villagers fled",
+                            "No error"
+                          ],
+                          "correctAnswer": "was overflown",
+                          "explanation": "Use 'overflowed', not 'overflown'. Correct: 'The river overflowed...'"
+                        },
+                        {
+                          "id": "pronoun_222",
+                          "question": "She lay the cup on the table in the morning.",
+                          "options": [
+                            "She lay",
+                            "the cup on the table",
+                            "in the morning",
+                            "No error"
+                          ],
+                          "correctAnswer": "She lay",
+                          "explanation": "The past tense of 'lay' (to put) is 'laid'. Correct: 'She laid the cup...'"
+                        },
+                        {
+                          "id": "pronoun_223",
+                          "question": "Neither does he study nor works.",
+                          "options": [
+                            "Neither does he study",
+                            "nor works",
+                            "No error",
+                            ""
+                          ],
+                          "correctAnswer": "nor works",
+                          "explanation": "After the auxiliary 'does', use the base form of the verb. Correct: 'nor work'."
+                        },
+                        {
+                          "id": "pronoun_224",
+                          "question": "It is high time you start earning.",
+                          "options": [
+                            "It is high time",
+                            "you start earning",
+                            "No error",
+                            ""
+                          ],
+                          "correctAnswer": "you start earning",
+                          "explanation": "After 'It is high time', the verb should be in the past subjunctive. Correct: 'you started earning.'"
+                        },
+                        {
+                          "id": "pronoun_225",
+                          "question": "The match will be telecasted today.",
+                          "options": [
+                            "The match",
+                            "will be telecasted",
+                            "today",
+                            "No error"
+                          ],
+                          "correctAnswer": "will be telecasted",
+                          "explanation": "The correct past participle is 'telecast'. Correct: 'The match will be telecast today.'"
+                        }
+
     
 
 

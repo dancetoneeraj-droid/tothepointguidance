@@ -974,306 +974,331 @@
     "questionHi": "यदि वर्गाकार आधार वाले एक नियमित समकोण पिरामिड की ऊँचाई 20% बढ़ा दी जाए तथा इसके आधार की भुजा की लंबाई 10% कम कर दी जाए, तो इसके आयतन में प्रतिशत परिवर्तन क्या होगा?",
     "solution": "# Solution\n\n**Step 1: Recall the volume formula for a square pyramid**\nVolume of square pyramid = (1/3) × base area × height\nV = (1/3) × a² × h\nwhere a = side length of base, h = height\n\n**Step 2: Express the new dimensions**\n- New height: h' = h + 20% of h = 1.2h\n- New side length: a' = a - 10% of a = 0.9a\n\n**Step 3: Calculate the new volume**\nV' = (1/3) × (0.9a)² × (1.2h)\nV' = (1/3) × 0.81a² × 1.2h\nV' = (1/3) × 0.972 × a² × h\nV' = 0.972V\n\n**Step 4: Find the percentage change**\nChange = V' - V = 0.972V - V = -0.028V\nPercentage change = (-0.028V/V) × 100 = -2.8%\n\n**Answer: 2.8% decrease** ✓"
   },
-  {
-    "id": "maths_percentage_076",
-    "question": "A Gujarati employee Ramu got promotion, due to this his salary is increased by 26⅔%. But due to his inconsistency in work his salary reduced by Rs. 2550. Ramu was transferred to Delhi for a project so his salary is again increased by 12.5%. Now his current salary is Rs. 15300. Find his initial income.",
-    "options": [
-      "Rs.12750",
-      "Rs.15750",
-      "Rs.11250",
-      "Rs.12000"
-    ],
-    "correctAnswer": "Rs.12750",
-    "questionHi": "एक गुजराती कर्मचारी रामू को प्रमोशन मिला, इस कारण उसकी सैलरी में 26⅔% की वृद्धि हुई। लेकिन काम में असंगतता के कारण उसका वेतन 2550 रु. कम कर दिया गया। रामू को एक परियोजना के लिए दिल्ली स्थानांतरित किया गया, इसलिए उसका वेतन फिर से 12.5% बढ़ गया। अब उसका वर्तमान वेतन 15300 रुपये है। उसकी प्रारंभिक आय ज्ञात कीजिए।"
-  },
-  {
-    "id": "maths_percentage_077",
-    "question": "[Add content] percentage — Question 51",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_078",
-    "question": "[Add content] percentage — Question 52",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_079",
-    "question": "[Add content] percentage — Question 53",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_080",
-    "question": "[Add content] percentage — Question 54",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_081",
-    "question": "[Add content] percentage — Question 55",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_082",
-    "question": "[Add content] percentage — Question 56",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_083",
-    "question": "[Add content] percentage — Question 57",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_084",
-    "question": "[Add content] percentage — Question 58",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_085",
-    "question": "[Add content] percentage — Question 59",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_086",
-    "question": "[Add content] percentage — Question 60",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_087",
-    "question": "[Add content] percentage — Question 61",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_088",
-    "question": "[Add content] percentage — Question 62",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_089",
-    "question": "[Add content] percentage — Question 63",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_090",
-    "question": "[Add content] percentage — Question 64",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_091",
-    "question": "[Add content] percentage — Question 65",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_092",
-    "question": "[Add content] percentage — Question 66",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_093",
-    "question": "[Add content] percentage — Question 67",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_094",
-    "question": "[Add content] percentage — Question 68",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_095",
-    "question": "[Add content] percentage — Question 69",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_096",
-    "question": "[Add content] percentage — Question 70",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_097",
-    "question": "[Add content] percentage — Question 71",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_098",
-    "question": "[Add content] percentage — Question 72",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_099",
-    "question": "[Add content] percentage — Question 73",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
-  {
-    "id": "maths_percentage_100",
-    "question": "[Add content] percentage — Question 74",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
-  },
+    {
+      "id": "maths_percentage_076",
+      "question": "Amelia saves 68% of her monthly income. If her monthly expenditure is ₹25,720, then what is her monthly saving?",
+      "options": [
+        "₹54,655",
+        "₹35,720",
+        "₹64,655",
+        "₹80,375"
+      ],
+      "correctAnswer": "₹54,655",
+      "questionHi": "अमेलिया अपनी मासिक आय का 68% बचाती है। यदि उसका मासिक व्यय ₹25,720 है, तो उसकी मासिक बचत कितनी है?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_077",
+      "question": "A man spends 72% of his salary and saves ₹5,740 per month. What is 10% of his annual salary?",
+      "options": [
+        "₹21,600",
+        "₹24,600",
+        "₹28,400",
+        "₹20,500"
+      ],
+      "correctAnswer": "₹24,600",
+      "questionHi": "एक व्यक्ति अपने वेतन का 72% खर्च करता है तथा प्रति माह ₹5,740 बचाता है। उसके वार्षिक वेतन का 10% कितना होगा?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_078",
+      "question": "Radha spends 25% of her salary on food, 16% on house rent, 13% on entertainment and 9% on conveyance. If her monthly savings are ₹24,827, what is her monthly salary?",
+      "options": [
+        "₹53,800",
+        "₹65,900",
+        "₹71,300",
+        "₹67,100"
+      ],
+      "correctAnswer": "₹67,100",
+      "questionHi": "राधा अपने वेतन का 25% भोजन पर, 16% मकान किराये पर, 13% मनोरंजन पर तथा 9% परिवहन पर खर्च करती है। यदि उसकी मासिक बचत ₹24,827 है, तो उसका मासिक वेतन कितना है?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_079",
+      "question": "Ayush spends 25% of an amount on insurance, 26% on food, 23% on children's education and 19% on recreation. He deposits the remaining ₹26,600 in the bank. How much does he spend on food and recreation together?",
+      "options": [
+        "₹1,95,000",
+        "₹1,83,000",
+        "₹1,62,000",
+        "₹1,71,000"
+      ],
+      "correctAnswer": "₹1,71,000",
+      "questionHi": "आयुष एक राशि का 25% बीमा, 26% भोजन, 23% बच्चों की शिक्षा तथा 19% मनोरंजन पर खर्च करता है। शेष ₹26,600 बैंक में जमा करता है। भोजन और मनोरंजन पर कुल कितना खर्च करता है?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_080",
+      "question": "Ramesh spends 40% of his monthly salary on food, 18% on house rent, 12% on entertainment and 5% on conveyance. Due to a family function, he borrows ₹16,000 to meet expenses of ₹20,000. What is his monthly salary?",
+      "options": [
+        "₹16,500",
+        "₹15,000",
+        "₹16,000",
+        "₹18,000"
+      ],
+      "correctAnswer": "₹16,000",
+      "questionHi": "रमेश अपनी मासिक आय का 40% भोजन पर, 18% मकान किराये पर, 12% मनोरंजन पर तथा 5% परिवहन पर खर्च करता है। पारिवारिक समारोह के कारण ₹20,000 के खर्च में ₹16,000 उधार लेने पड़ते हैं। उसका मासिक वेतन कितना है?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_081",
+      "question": "Rima spends 35% of her monthly income on food and 15% of the remaining on clothes. She saves 40% of the remaining income. If her monthly salary is ₹27,500, how much does she save every month?",
+      "options": [
+        "₹6,077.5",
+        "₹6,170.5",
+        "₹6,277.5",
+        "₹6,370.5"
+      ],
+      "correctAnswer": "₹6,277.5",
+      "questionHi": "रीमा अपनी मासिक आय का 35% भोजन पर तथा शेष का 15% कपड़ों पर खर्च करती है। इसके बाद बची राशि का 40% बचाती है। यदि उसकी मासिक आय ₹27,500 है, तो वह प्रति माह कितनी बचत करती है?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_082",
+      "question": "Sandeep spends 32% of his annual income on food, 20% of the remaining on travelling and 35% of the remaining on clothes. He still saves ₹70,720 annually. What is his annual income?",
+      "options": [
+        "₹1,44,000",
+        "₹3,75,000",
+        "₹2,00,000",
+        "₹2,50,000"
+      ],
+      "correctAnswer": "₹2,50,000",
+      "questionHi": "संदीप अपनी वार्षिक आय का 32% भोजन पर, शेष का 20% यात्रा पर तथा फिर शेष का 35% कपड़ों पर खर्च करता है। इसके बाद भी वह ₹70,720 प्रतिवर्ष बचाता है। उसकी वार्षिक आय कितनी है?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_083",
+      "question": "A man spends 35% of his monthly income on food and four-thirteenths of the remaining on transport. His savings of ₹6,300 are equal to 20% of the balance remaining after spending on food and transport. What is his monthly income?",
+      "options": [
+        "₹67,500",
+        "₹72,000",
+        "₹70,000",
+        "₹63,000"
+      ],
+      "correctAnswer": "₹70,000",
+      "questionHi": "एक व्यक्ति अपनी मासिक आय का 35% भोजन पर तथा शेष का 4/13 भाग परिवहन पर खर्च करता है। ₹6,300 की बचत भोजन एवं परिवहन के बाद बची राशि का 20% है। उसकी मासिक आय कितनी है?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_084",
+      "question": "Mr. Chauhan spent 20% of his income on food and 15% on children's education. He spent 40% of the remaining on entertainment and transport together and 30% of the remaining on medical expenses. He was left with ₹8,775. What was his monthly income?",
+      "options": [
+        "₹45,000",
+        "₹42,000",
+        "₹40,000",
+        "₹36,000"
+      ],
+      "correctAnswer": "₹40,000",
+      "questionHi": "श्री चौहान ने अपनी आय का 20% भोजन पर, 15% बच्चों की शिक्षा पर, शेष का 40% मनोरंजन एवं परिवहन पर तथा शेष का 30% चिकित्सा पर खर्च किया। अंत में ₹8,775 बचे। उनकी मासिक आय कितनी थी?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_085",
+      "question": "Rajan spent 10% of his salary on rent, 20% of the remaining on transport, 40% of the balance on food and 80% of the remaining on various bills. He deposited ₹5,000 in the bank and kept ₹1,480 for petty expenses. What was his monthly salary?",
+      "options": [
+        "₹75,000",
+        "₹80,000",
+        "₹82,500",
+        "₹64,800"
+      ],
+      "correctAnswer": "₹82,500",
+      "questionHi": "राजन ने अपने वेतन का 10% किराये पर, शेष का 20% परिवहन पर, फिर शेष का 40% भोजन पर तथा उसके बाद शेष का 80% विभिन्न बिलों पर खर्च किया। उसने ₹5,000 बैंक में जमा किए और ₹1,480 अपने पास रखे। उसका मासिक वेतन कितना था?",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_086",
+      "question": "A person spends 12.5% of his income on food, 18% of the remaining on travelling and 20% of the remaining on education. His total expenditure is ₹3,450. Find his total income.",
+      "options": [
+        "₹5,000",
+        "₹8,000",
+        "₹10,000",
+        "₹12,000"
+      ],
+      "correctAnswer": "₹5,000",
+      "questionHi": "एक व्यक्ति अपनी आय का 12.5% भोजन पर, शेष का 18% यात्रा पर तथा उसके बाद शेष का 20% शिक्षा पर खर्च करता है। उसका कुल खर्च ₹3,450 है। उसकी कुल आय ज्ञात कीजिए।",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_percentage_087",
+      "question": "Raju spends 10% of his income on transport and 20% on food. He spends 30% of the remaining income on clothing and saves the rest. If his savings are ₹26,460, then what is his total expenditure on food and clothing together?",
+      "options": [
+        "₹22,140",
+        "₹23,440",
+        "₹24,480",
+        "₹26,420"
+      ],
+      "correctAnswer": "₹24,480",
+      "questionHi": "राजू अपनी आय का 10% परिवहन पर तथा 20% भोजन पर खर्च करता है। शेष आय का 30% कपड़ों पर खर्च करता है तथा बाकी बचा लेता है। यदि उसकी बचत ₹26,460 है, तो भोजन और कपड़ों पर कुल कितना खर्च हुआ?",
+      "solution": "video solution will be added soon"
+    },
+      {
+        "id": "maths_percentage_088",
+        "question": "A person gives 30% of his salary to his friend. He invests 40% of the remaining salary in a chit fund. Out of the remaining income, he invests in an insurance scheme and PPF in the ratio 4:3. If the difference between the total amount invested in the chit fund and insurance scheme together and the amount given to his friend is ₹19,800, what is his salary?",
+        "options": [
+          "₹80,000",
+          "₹90,000",
+          "₹1,00,000",
+          "₹1,10,000"
+        ],
+        "correctAnswer": "₹1,00,000",
+        "questionHi": "एक व्यक्ति अपने वेतन का 30% अपने मित्र को देता है। शेष वेतन का 40% चिट फंड में निवेश करता है। बची हुई राशि को बीमा योजना और PPF में 4:3 के अनुपात में निवेश करता है। यदि चिट फंड और बीमा योजना में कुल निवेश तथा मित्र को दी गई राशि का अंतर ₹19,800 है, तो उसका वेतन कितना है?",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_089",
+        "question": "A family's monthly income is ₹35,000. After all expenditures, they save 8% of their income. Health expenditure is 50% more than food expenditure. Food expenditure is three times the entertainment expenditure. Health expenditure is half of the education expenditure. Rent is one-third of the combined expenditure on food, health and education. Find the expenditure on education.",
+        "options": [
+          "₹12,600",
+          "₹8,400",
+          "₹13,200",
+          "₹7,700"
+        ],
+        "correctAnswer": "₹13,200",
+        "questionHi": "एक परिवार की मासिक आय ₹35,000 है। सभी खर्चों के बाद वह 8% बचत करता है। स्वास्थ्य पर खर्च, भोजन पर खर्च से 50% अधिक है। भोजन पर खर्च, मनोरंजन पर खर्च का तीन गुना है। स्वास्थ्य पर खर्च, शिक्षा पर खर्च का आधा है। किराया, भोजन + स्वास्थ्य + शिक्षा पर कुल खर्च का एक-तिहाई है। शिक्षा पर कितना खर्च होता है?",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_090",
+        "question": "A person's monthly salary was ₹50,000. He spent 50% on personal and family expenses, taxes were 20% of these expenses and philanthropy was 15% of the taxes. After a 40% salary increase, he maintained the same percentage on personal expenses, but taxes became 30% of personal expenses and philanthropy became 20% of taxes. By what percentage are the new savings more or less than the earlier savings?",
+        "options": [
+          "16.4% less",
+          "8.2% more",
+          "8.2% less",
+          "16.4% more"
+        ],
+        "correctAnswer": "8.2% less",
+        "questionHi": "एक व्यक्ति का मासिक वेतन ₹50,000 था। वह 50% व्यक्तिगत एवं पारिवारिक खर्च पर, उसका 20% कर तथा कर का 15% परोपकार में खर्च करता था। वेतन में 40% वृद्धि के बाद व्यक्तिगत खर्च का प्रतिशत समान रहा, लेकिन कर व्यक्तिगत खर्च का 30% तथा परोपकार कर का 20% हो गया। नई बचत पुरानी बचत की तुलना में कितने प्रतिशत अधिक या कम है?",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_091",
+        "question": "Three candidates contested an election and received 1,234, 8,448 and 20,180 votes respectively. What percentage of the total votes did the winning candidate receive? (Rounded off to two decimal places)",
+        "options": [
+          "55.26%",
+          "48.25%",
+          "58.25%",
+          "67.58%"
+        ],
+        "correctAnswer": "67.58%",
+        "questionHi": "तीन उम्मीदवारों को क्रमशः 1,234, 8,448 तथा 20,180 मत प्राप्त हुए। विजेता उम्मीदवार को कुल मतों का कितना प्रतिशत प्राप्त हुआ? (दो दशमलव स्थान तक)",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_092",
+        "question": "There were two candidates in an election. One candidate got 41% of the total votes and lost by 5,580 votes. Find the total number of votes.",
+        "options": [
+          "28,000",
+          "31,000",
+          "34,000",
+          "37,000"
+        ],
+        "correctAnswer": "31,000",
+        "questionHi": "एक चुनाव में दो उम्मीदवार थे। एक उम्मीदवार को कुल मतों का 41% प्राप्त हुआ और वह 5,580 मतों से हार गया। कुल मतों की संख्या ज्ञात कीजिए।",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_093",
+        "question": "A, B and C contested an election. All the votes polled were valid. A got 38% of the total votes. For every 45 votes polled, B got 18 votes. The winner got 5,760 more votes than the candidate who received the least votes. Find the total number of votes polled.",
+        "options": [
+          "37,200",
+          "38,400",
+          "36,000",
+          "32,000"
+        ],
+        "correctAnswer": "38,400",
+        "questionHi": "A, B और C ने चुनाव लड़ा। सभी मत वैध थे। A को कुल मतों का 38% मिला। प्रत्येक 45 मतों में B को 18 मत मिले। विजेता को सबसे कम मत पाने वाले उम्मीदवार से 5,760 अधिक मत मिले। कुल मतों की संख्या ज्ञात कीजिए।",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_094",
+        "question": "Raju, Ravi and Ashok contested an election. Five percent of the votes were invalid. Raju got 30% of the total votes and Ravi got 32% of the total votes. The winner got 5,136 more votes than the candidate with the least votes. Find the total number of votes polled.",
+        "options": [
+          "171,200",
+          "64,200",
+          "171,220",
+          "172,100"
+        ],
+        "correctAnswer": "171,200",
+        "questionHi": "राजू, रवि और अशोक ने चुनाव लड़ा। 5% मत अमान्य थे। राजू को कुल मतों का 30% तथा रवि को 32% मत मिले। विजेता को सबसे कम मत पाने वाले उम्मीदवार से 5,136 अधिक मत मिले। कुल मतों की संख्या ज्ञात कीजिए।",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_095",
+        "question": "Three candidates contested an election. The third candidate got 20% of the total votes. The difference between the winner and the first runner-up was 20% of the total votes. If the difference between the first runner-up and the second runner-up was 37,000 votes, how many votes did the winner receive?",
+        "options": [
+          "1,80,000",
+          "1,85,000",
+          "1,75,000",
+          "1,95,000"
+        ],
+        "correctAnswer": "1,80,000",
+        "questionHi": "एक चुनाव में तीन उम्मीदवार थे। तीसरे उम्मीदवार को कुल मतों का 20% मिला। विजेता और प्रथम उपविजेता के मतों का अंतर कुल मतों का 20% था। यदि प्रथम तथा द्वितीय उपविजेता के मतों का अंतर 37,000 था, तो विजेता को कितने मत मिले?",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_096",
+        "question": "Hari, Kamal and Lalit contested an election in which 6,050 votes were polled and all votes were valid. Kamal got 42% more votes than the total votes obtained by Hari and Lalit together. Lalit obtained 8% of the total votes. How many votes did Hari obtain?",
+        "options": [
+          "2,016",
+          "1,556",
+          "1,912",
+          "1,668"
+        ],
+        "correctAnswer": "1,912",
+        "questionHi": "हरि, कमल और ललित ने चुनाव लड़ा जिसमें 6,050 मत पड़े और सभी मत वैध थे। कमल को हरि और ललित के कुल मतों से 42% अधिक मत मिले। ललित को कुल मतों का 8% प्राप्त हुआ। हरि को कितने मत मिले?",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_097",
+        "question": "Three-sevenths of the voters promised to vote for A and the remaining promised to vote for B. On the last day, 12% of A's supporters and 20% of B's supporters changed their decision. A lost the election by 234 votes. Find the total number of voters.",
+        "options": [
+          "13,650",
+          "14,555",
+          "15,550",
+          "12,525"
+        ],
+        "correctAnswer": "15,550",
+        "questionHi": "3/7 मतदाताओं ने A को तथा शेष ने B को वोट देने का वादा किया। अंतिम दिन A के 12% तथा B के 20% समर्थकों ने अपना निर्णय बदल दिया। A, 234 मतों से हार गया। कुल मतदाताओं की संख्या ज्ञात कीजिए।",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_098",
+        "question": "In an election, candidate X got 70% of the valid votes. If 20% of the total votes were declared invalid and the total number of votes was 6,40,000, then how many valid votes were polled in favour of candidate X?",
+        "options": [
+          "3,58,400",
+          "4,50,000",
+          "4,00,000",
+          "3,58,000"
+        ],
+        "correctAnswer": "3,58,400",
+        "questionHi": "एक चुनाव में उम्मीदवार X को कुल वैध मतों का 70% प्राप्त हुआ। यदि कुल मतों का 20% अमान्य था तथा कुल मत 6,40,000 थे, तो X के पक्ष में पड़े वैध मतों की संख्या ज्ञात कीजिए।",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_099",
+        "question": "In an election between two candidates, 25% of the votes were invalid and one candidate received 45% of the valid votes. If the total number of votes cast was 16,00,000, what was the number of valid votes received by the winning candidate?",
+        "options": [
+          "7,00,000",
+          "6,60,000",
+          "6,50,000",
+          "7,10,000"
+        ],
+        "correctAnswer": "6,60,000",
+        "questionHi": "दो उम्मीदवारों के बीच हुए चुनाव में 25% मत अमान्य थे तथा एक उम्मीदवार को कुल वैध मतों का 45% प्राप्त हुआ। यदि कुल मतों की संख्या 16,00,000 थी, तो विजेता उम्मीदवार को कितने वैध मत प्राप्त हुए?",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_percentage_100",
+        "question": "In an election between two candidates, one candidate got 54% of the valid votes. If 8% of the total votes were invalid and the total number of votes was 7,500, by how many votes did the winning candidate win?",
+        "options": [
+          "566",
+          "552",
+          "574",
+          "580"
+        ],
+        "correctAnswer": "552",
+        "questionHi": "दो उम्मीदवारों के बीच हुए चुनाव में एक उम्मीदवार को कुल वैध मतों का 54% प्राप्त हुआ। यदि कुल मतों का 8% अमान्य था तथा कुल मत 7,500 थे, तो विजेता कितने मतों से जीता?",
+        "solution": "video solution will be added soon"
+      },
   {
     "id": "maths_percentage_101",
     "question": "[Add content] percentage — Question 75",
