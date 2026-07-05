@@ -16,7 +16,8 @@ import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { Card } from "@/components/ui/Card";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { canAccessDay } from "@/lib/premium-access";
-import { formatTopic } from "@/lib/day-system";
+import { formatQuizTitle } from "@/lib/day-system";
+import { getDailyPlan } from "@/lib/daily-plans";
 import { loadQuizAnalytics } from "@/lib/api/ecosystem";
 import { getQuizReviewRecord } from "@/lib/storage";
 import { getQuestionBank } from "@/lib/quiz-loader";
@@ -94,7 +95,13 @@ export default function QuizSolutionsPage({
     getQuestionBank(subject as "maths" | "reasoning" | "gk", topic),
     data.questionIds
   );
-  const title = `${formatTopic(topic)} — Day ${day}`;
+  const plan = getDailyPlan(day);
+  const title = formatQuizTitle(
+    subject,
+    topic,
+    day,
+    plan?.english.grammarQuizLabel
+  );
   const correctCount = questions.filter(
     (question) => getReviewStatus(question, data.answers) === "correct"
   ).length;

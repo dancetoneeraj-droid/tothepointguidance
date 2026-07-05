@@ -24,7 +24,12 @@ import { formatMarks } from "@/lib/quiz/scoring";
 import { getReviewQuestions, getReviewStatus } from "@/lib/quiz/review";
 import { getQuestionBank } from "@/lib/quiz-loader";
 import { canAccessDay } from "@/lib/premium-access";
-import { formatTopic } from "@/lib/day-system";
+import {
+  formatEnglishGrammarQuizLabel,
+  formatQuizTitle,
+  formatTopic,
+} from "@/lib/day-system";
+import { getDailyPlan } from "@/lib/daily-plans";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { getQuizReviewRecord } from "@/lib/storage";
 
@@ -113,7 +118,17 @@ export default function QuizAnalysisPage({
     0,
     Math.min(100, 100 - Math.round((averageSecondsPerQuestion / 90) * 100))
   );
-  const title = `${formatTopic(topic)} — Day ${day}`;
+  const plan = getDailyPlan(day);
+  const title = formatQuizTitle(
+    subject,
+    topic,
+    day,
+    plan?.english.grammarQuizLabel
+  );
+  const topicLabel =
+    subject === "english"
+      ? formatEnglishGrammarQuizLabel(plan?.english.grammarQuizLabel)
+      : formatTopic(topic);
 
   return (
     <ProtectedRoute>
@@ -380,12 +395,14 @@ export default function QuizAnalysisPage({
                       <p className="text-xs font-semibold uppercase tracking-[0.22em] text-violet-300">
                         {subject === "gk"
                           ? "General Knowledge"
+                          : subject === "english"
+                            ? "English"
                           : subject === "reasoning"
                             ? "Reasoning"
                             : "Mathematics"}
                       </p>
                       <p className="mt-2 text-xl font-semibold text-white">
-                        {formatTopic(topic)}
+                        {topicLabel}
                       </p>
                     </div>
                     <div className="rounded-2xl border border-violet-400/20 bg-violet-500/10 px-4 py-3 text-right">

@@ -25,7 +25,7 @@ import { AppShell } from "@/components/layout/AppShell";
 import { getDailyPlan, isDayPublished, MAX_PUBLISHED_DAY } from "@/lib/daily-plans";
 import { hasAnyDeckForDay, hasDeckForDay } from "@/lib/study-decks";
 import { hasComprehensionForDay } from "@/lib/comprehension";
-import { formatTopic, getDayAccess, isDayFullyComplete } from "@/lib/day-system";
+import { formatEnglishGrammarQuizLabel, formatTopic, getDayAccess, isDayFullyComplete } from "@/lib/day-system";
 import {
   getDayProgress,
   hasCompletedQuiz,
@@ -282,6 +282,9 @@ export default function DayPage({
 
     const isDay1NounFlow = dayNum === 1 && plan.english.grammarQuiz === "noun";
     const hasInlineGrammarQuiz = !!plan.english.grammarQuiz;
+    const grammarQuizLabel = formatEnglishGrammarQuizLabel(
+      plan.english.grammarQuizLabel
+    );
 
     return [
       ...plan.maths.map((mathTopic, index) => ({
@@ -380,8 +383,8 @@ export default function DayPage({
                 {
                   id: `english-grammar-quiz-action-${plan.english.grammarQuiz}`,
                   label: dayProgress.english.grammar
-                    ? "View Grammar Quiz"
-                    : "Grammar Quiz",
+                    ? `View ${grammarQuizLabel} Quiz`
+                    : `${grammarQuizLabel} Quiz`,
                   onClick: () =>
                     router.push(`/quiz/english/${plan.english.grammarQuiz}?day=${dayNum}`),
                 },

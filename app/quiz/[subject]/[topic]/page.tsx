@@ -19,7 +19,7 @@ import {
   unpauseQuizDraft,
 } from "@/lib/quiz/session-persistence";
 import { getDailyPlan } from "@/lib/daily-plans";
-import { formatTopic } from "@/lib/day-system";
+import { formatQuizTitle } from "@/lib/day-system";
 import { MATHS_QUIZ_DURATION, MATHS_QUIZ_QUESTIONS } from "@/lib/maths-topics";
 import {
   getQuizReviewRecord,
@@ -194,7 +194,12 @@ export default function QuizPage({
     };
   }, [frozenQuiz, subject]);
 
-  const title = `${formatTopic(topic)} — Day ${day}`;
+  const title = formatQuizTitle(
+    subject,
+    topic,
+    day,
+    plan?.english.grammarQuizLabel
+  );
   const analysisPath = `/quiz/${subject}/${topic}/analysis?day=${day}`;
   const solutionsPath = `/quiz/${subject}/${topic}/solutions?day=${day}`;
   const returnPath = `/day/${day}`;

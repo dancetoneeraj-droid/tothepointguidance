@@ -231,6 +231,24 @@ export function formatTopic(topic: string): string {
     .join(" ");
 }
 
+/** English grammar quizzes may use a shared bank slug (e.g. pronoun); show a friendly label instead. */
+export function formatEnglishGrammarQuizLabel(customLabel?: string): string {
+  return customLabel?.trim() || "Grammar";
+}
+
+export function formatQuizTitle(
+  subject: string,
+  topic: string,
+  day: number,
+  englishLabel?: string
+): string {
+  const name =
+    subject === "english"
+      ? formatEnglishGrammarQuizLabel(englishLabel)
+      : formatTopic(topic);
+  return `${name} — Day ${day}`;
+}
+
 export { formatMathsTopic };
 
 export function getLockedDaysPreview(

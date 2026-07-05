@@ -39,6 +39,8 @@ export interface EnglishConfig {
   grammarMindmap?: string;
   vocabNotes?: string;
   grammarQuiz?: string;
+  /** Display name for the grammar quiz (e.g. "Grammar", "Noun"). Defaults to "Grammar". */
+  grammarQuizLabel?: string;
   /** Fixed 0-based start index in the grammar question bank. When set, ignores progressive stored index. */
   grammarQuizFrom?: number;
   comprehensionQuiz?: string;
