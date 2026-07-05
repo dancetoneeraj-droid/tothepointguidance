@@ -472,7 +472,7 @@
     },
     {
       "day": 11,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "simple-interest",
@@ -506,8 +506,10 @@
       },
       "reasoning": {
         "topic": "puzzle",
-        "questions": 50,
-        "duration": 45
+        "questions": 25,
+        "duration": 25,
+        "reasoningLabel": "Number series",
+        "label": "Number Series"
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day3-polity.pdf",
