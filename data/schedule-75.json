@@ -500,7 +500,9 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day3-grammar.pdf",
+        "grammarQuiz": "pronoun",
+        "grammarQuizLabel": "Grammar",
+        "grammarQuizFrom": 200,
         "vocabPdf": "/content/english/day3-vocab.pdf",
         "comprehensionPdf": "/content/english/day3-comprehension.pdf"
       },
