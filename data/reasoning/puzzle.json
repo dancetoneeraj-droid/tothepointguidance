@@ -193,8 +193,8 @@
       "id": "reasoning_puzzle_028",
       "question": "?, 11, 44, 52, 832, 864",
       "options": ["9", "5", "8", "2"],
-      "correctAnswer": "8",
-      "explanation": "Pattern: +3, ×4, +8, ×16, +32. Therefore first term = 11 - 3 = 8."
+      "correctAnswer": "9",
+      "explanation": "Pattern: +2, ×4, +8, ×16, +32. Therefore first term = 11 - 2 = 8."
     },
     {
       "id": "reasoning_puzzle_029",
@@ -214,15 +214,15 @@
       "id": "reasoning_puzzle_031",
       "question": "20, 39, 12, 47, 8.4, ?",
       "options": ["49.4", "50.2", "48.6", "48.4"],
-      "correctAnswer": "50.2",
-      "explanation": "Pattern alternates: +19, ÷3.25, +35, ÷5.595..., +41.8. Hence missing term = 8.4 + 41.8 = 50.2."
+      "correctAnswer": "49.4",
+      "explanation": " "
     },
     {
       "id": "reasoning_puzzle_032",
       "question": "120, 129, 142, 165, 204, ?",
       "options": ["269", "270", "258", "265"],
-      "correctAnswer": "269",
-      "explanation": "Differences are +9, +13, +23, +39, +65. Second differences double (+4, +10, +16, +26). Missing term = 204 + 65 = 269."
+      "correctAnswer": "265",
+      "explanation": ""
     },
     {
       "id": "reasoning_puzzle_033",
@@ -278,8 +278,8 @@
         "id": "reasoning_puzzle_040",
         "question": "?, 932, 959, 982, 1000, 1012",
         "options": ["910", "912", "902", "900"],
-        "correctAnswer": "912",
-        "explanation": "Differences are +20, +27, +23, +18, +12. Hence the missing term = 932 - 20 = 912."
+        "correctAnswer": "902",
+        "explanation": ""
       },
       {
         "id": "reasoning_puzzle_041",
@@ -299,8 +299,8 @@
         "id": "reasoning_puzzle_043",
         "question": "?, 344, 362, 384, 400, 424",
         "options": ["320", "318", "330", "324"],
-        "correctAnswer": "320",
-        "explanation": "Differences are +24, +18, +22, +16, +24. Missing term = 344 - 24 = 320."
+        "correctAnswer": "324",
+        "explanation": " "
       },
       {
         "id": "reasoning_puzzle_044",
@@ -330,22 +330,22 @@
           "id": "reasoning_puzzle_047",
           "question": "5, 10, 20, 60, ?, 720, 2880",
           "options": ["120", "180", "210", "240"],
-          "correctAnswer": "240",
-          "explanation": "Pattern: ×2, ×2, ×3, ×4, ×3, ×4. Hence missing term = 60 × 4 = 240."
+          "correctAnswer": "180",
+          "explanation": ""
         },
         {
           "id": "reasoning_puzzle_048",
           "question": "4096, 256, ?, 8, 4, 0.25",
           "options": ["32", "128", "64", "16"],
-          "correctAnswer": "64",
-          "explanation": "Pattern: ÷16, ÷4, ÷8, ÷2, ÷16. Missing term = 256 ÷ 4 = 64."
+          "correctAnswer": "128",
+          "explanation": ""
         },
         {
           "id": "reasoning_puzzle_049",
           "question": "5, 9, 12, 28, ?, 69, 76",
           "options": ["38", "33", "31", "35"],
-          "correctAnswer": "35",
-          "explanation": "Pattern alternates: +4, +3, +16, +7, +34, +7. Therefore, missing term = 28 + 7 = 35."
+          "correctAnswer": "33",
+          "explanation": "  "
         },
         {
           "id": "reasoning_puzzle_050",

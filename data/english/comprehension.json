@@ -835,5 +835,69 @@
       }
     ]
   }
-}
+},
+  "11": {
+    "rc": {
+      "title": "Reading Comprehension",
+      "directions": "Read the following passage carefully and answer the questions that follow. Choose the most appropriate option.",
+      "passage": "India is located between two major drug-producing regions: Afghanistan, Pakistan, and Iran to the west and Myanmar, Thailand, and Laos to the east. While the West has historically dominated heroin production, the International Narcotics Control Board has said Myanmar has become the world’s leading source of illicit opium while East and Southeast Asia remain major sources of methamphetamine. Officials have said drugs are being received at Gujarat, Kerala, and Tamil Nadu via maritime routes. Similarly, some drugs are produced domestically using illegally diverted pharmaceutical ingredients, aided by the fact that individuals possessing small quantities of heroin can attract up to six months’ imprisonment, whereas drugmakers that cannot account for lakhs of doses often face only slaps on the wrist. The rise of Myanmar, where the territory under ethnic armed organisations is expanding, as a key source is also troubling since it shares a border with India. The Narcotics Control Bureau has noted a dramatic surge in the use of drones to smuggle drugs across borders, especially over Punjab. Traffickers are organising over the darknet and using cryptocurrencies. The pillars of India’s response thus aim to keep the enforcement regime from being out-innovated and improve regulatory certainty.",
+      "questions": [
+        {
+          "question": "Q1. According to the passage, why is India particularly vulnerable to drug trafficking?",
+          "options": [
+            "It has no coastal boundaries.",
+            "It is located between two major drug-producing regions.",
+            "It has the world's largest pharmaceutical industry.",
+            "It shares borders only with Myanmar."
+          ],
+          "answer": "It is located between two major drug-producing regions.",
+          "explanation": "The passage states that India lies between major drug-producing regions to its west and east, making it particularly vulnerable to drug trafficking."
+        },
+        {
+          "question": "Q2. According to the International Narcotics Control Board, which country has become the world's leading source of illicit opium?",
+          "options": [
+            "Afghanistan",
+            "Pakistan",
+            "Myanmar",
+            "Thailand"
+          ],
+          "answer": "Myanmar",
+          "explanation": "The passage mentions that Myanmar has become the world's leading source of illicit opium."
+        },
+        {
+          "question": "Q3. Which method of drug smuggling has witnessed a dramatic increase according to the Narcotics Control Bureau?",
+          "options": [
+            "Submarine routes",
+            "Postal services",
+            "Drones crossing borders",
+            "Railway transport"
+          ],
+          "answer": "Drones crossing borders",
+          "explanation": "The passage highlights a dramatic surge in the use of drones to smuggle drugs across borders, especially over Punjab."
+        },
+        {
+          "question": "Q4. Which of the following technologies are traffickers using to organize and facilitate drug trafficking?",
+          "options": [
+            "Artificial Intelligence and Blockchain",
+            "Darknet and cryptocurrencies",
+            "Satellite phones and GPS",
+            "Cloud computing and social media"
+          ],
+          "answer": "Darknet and cryptocurrencies",
+          "explanation": "The passage states that traffickers are organising over the darknet and using cryptocurrencies."
+        },
+        {
+          "question": "Q5. What is the primary objective of India's response to the growing drug menace, according to the passage?",
+          "options": [
+            "To completely eliminate pharmaceutical manufacturing",
+            "To increase imprisonment for all drug users",
+            "To ensure enforcement keeps pace with evolving trafficking methods and improve regulatory certainty",
+            "To ban the use of drones across the country"
+          ],
+          "answer": "To ensure enforcement keeps pace with evolving trafficking methods and improve regulatory certainty",
+          "explanation": "The passage concludes that India's response focuses on preventing the enforcement regime from being out-innovated while improving regulatory certainty."
+        }
+      ]
+    }
+  }
 }
