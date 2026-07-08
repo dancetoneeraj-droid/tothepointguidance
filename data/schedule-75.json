@@ -503,8 +503,7 @@
         "grammarQuiz": "pronoun",
         "grammarQuizLabel": "Grammar",
         "grammarQuizFrom": 200,
-        "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+        "vocabPdf": "/content/english/day3-vocab.pdf"
       },
       "reasoning": {
         "topic": "puzzle",
@@ -513,7 +512,6 @@
         "label": "Number Series Quiz"
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day3-polity.pdf",
         "revisionQuiz": "revision",
         "revisionTopic": "Day 10 GK revision"
       }
@@ -548,17 +546,25 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day4-grammar.pdf",
+        "grammarPdf": "https://drive.google.com/file/d/1MwC7TVFznLNkhLqUUfEUz3OY_AJkLKdX/view?usp=drive_link",
+        "grammarQuiz": "pronoun",
+        "grammarQuizLabel": "Tense",
+        "grammarQuizFrom": 225,
+        "grammarQuizQuestions": 30,
+        "grammarQuizDuration": 12,
         "vocabPdf": "/content/english/day4-vocab.pdf",
         "comprehensionPdf": "/content/english/day4-comprehension.pdf"
       },
       "reasoning": {
         "topic": "analogy",
-        "questions": 50,
-        "duration": 45
+        "questions": 20,
+        "duration": 25,
+         "label": "Syllogism Quiz"
+
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day4-economics.pdf",
+        "todayTopicPdf": "https://drive.google.com/file/d/1Sy4lcoECJOG64wNnJtdmeq8TxoVZxtp5/view?usp=drive_link",
+        "todayTopicPdf2": "https://drive.google.com/file/d/1jggWQYli2tZkJ-3Q_AnI9ZtDOhDhoz9h/view?usp=drive_link",
         "revisionQuiz": "revision",
         "revisionTopic": "Day 11 GK revision"
       }
@@ -595,7 +601,12 @@
       "english": {
         "grammarPdf": "/content/english/day5-grammar.pdf",
         "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "grammarQuiz": "pronoun",
+        "grammarQuizLabel": "Tense",
+        "grammarQuizFrom": 255,
+        "grammarQuizQuestions": 30,
+        "grammarQuizDuration": 12
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -604,6 +615,7 @@
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day5-science.pdf",
+       
         "revisionQuiz": "revision",
         "revisionTopic": "Day 12 GK revision"
       }

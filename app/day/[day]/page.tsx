@@ -292,6 +292,8 @@ export default function DayPage({
     const grammarQuizLabel = formatEnglishGrammarQuizLabel(
       plan.english.grammarQuizLabel
     );
+    const grammarQuizQuestions = plan.english.grammarQuizQuestions ?? 25;
+    const grammarQuizDuration = plan.english.grammarQuizDuration ?? 10;
 
     return [
       ...plan.maths.map((mathTopic, index) => ({
@@ -369,7 +371,7 @@ export default function DayPage({
         subtitle: isDay1NounFlow
           ? "NOUN basic PDF reading · 20-30 min read time"
           : hasInlineGrammarQuiz
-            ? "Grammar PDF + Quiz · 25 questions · 10 min"
+            ? `Grammar PDF + Quiz · ${grammarQuizQuestions} questions · ${grammarQuizDuration} min`
             : plan.english.grammarMindmap
               ? "Grammar PDF + mind map revision"
               : "Grammar PDF notes",

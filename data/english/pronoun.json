@@ -2589,7 +2589,739 @@
                           ],
                           "correctAnswer": "will be telecasted",
                           "explanation": "The correct past participle is 'telecast'. Correct: 'The match will be telecast today.'"
-                        }
+                        },
+    
+                          {
+                            "id": "pronoun_226",
+                            "question": "She is often coming to me on Sundays.",
+                            "options": [
+                              "She",
+                              "is often coming",
+                              "to me on Sundays.",
+                              "No error"
+                            ],
+                            "correctAnswer": "is often coming",
+                            "explanation": "Use the simple present tense for habitual actions. Correct: 'She often comes to me on Sundays.'"
+                          },
+                          {
+                            "id": "pronoun_227",
+                            "question": "She just completed the letter then.",
+                            "options": [
+                              "She",
+                              "just completed",
+                              "the letter then.",
+                              "No error"
+                            ],
+                            "correctAnswer": "just completed",
+                            "explanation": "Use the present perfect with 'just'. Correct: 'She has just completed the letter.'"
+                          },
+                          {
+                            "id": "pronoun_228",
+                            "question": "It came to my notice lately.",
+                            "options": [
+                              "It came",
+                              "to my notice",
+                              "lately.",
+                              "No error"
+                            ],
+                            "correctAnswer": "It came",
+                            "explanation": "Use the present perfect with 'lately'. Correct: 'It has come to my notice lately.'"
+                          },
+                          {
+                            "id": "pronoun_229",
+                            "question": "My brother has returned from training two months back.",
+                            "options": [
+                              "My brother",
+                              "has returned",
+                              "from training two months back.",
+                              "No error"
+                            ],
+                            "correctAnswer": "has returned",
+                            "explanation": "Use the simple past with a definite past time expression. Correct: 'My brother returned from training two months back.'"
+                          },
+                          {
+                            "id": "pronoun_230",
+                            "question": "I know him for the last twenty years.",
+                            "options": [
+                              "I know",
+                              "him",
+                              "for the last twenty years.",
+                              "No error"
+                            ],
+                            "correctAnswer": "I know",
+                            "explanation": "Use the present perfect for an action continuing from the past. Correct: 'I have known him for the last twenty years.'"
+                          },
+                          {
+                            "id": "pronoun_231",
+                            "question": "I never met him this morning.",
+                            "options": [
+                              "I never met",
+                              "him",
+                              "this morning.",
+                              "No error"
+                            ],
+                            "correctAnswer": "I never met",
+                            "explanation": "Use the present perfect when the time period is not yet over. Correct: 'I have never met him this morning.'"
+                          },
+                          {
+                            "id": "pronoun_232",
+                            "question": "She did not write the letter till now.",
+                            "options": [
+                              "She did not write",
+                              "the letter",
+                              "till now.",
+                              "No error"
+                            ],
+                            "correctAnswer": "She did not write",
+                            "explanation": "Use the present perfect with 'till now'. Correct: 'She has not written the letter till now.'"
+                          },
+                          {
+                            "id": "pronoun_233",
+                            "question": "He was having a number of books.",
+                            "options": [
+                              "He was having",
+                              "a number of",
+                              "books.",
+                              "No error"
+                            ],
+                            "correctAnswer": "He was having",
+                            "explanation": "The verb 'have' is generally not used in the continuous tense to show possession. Correct: 'He had a number of books.'"
+                          },
+                          {
+                            "id": "pronoun_234",
+                            "question": "The news of his death has been declared so far.",
+                            "options": [
+                              "The news of his death",
+                              "has been declared",
+                              "so far.",
+                              "No error"
+                            ],
+                            "correctAnswer": "has been declared",
+                            "explanation": "Use 'has been announced' instead of 'has been declared' for news. Correct: 'The news of his death has been announced so far.'"
+                          },
+                          {
+                            "id": "pronoun_235",
+                            "question": "The dog was barking the whole night.",
+                            "options": [
+                              "The dog",
+                              "was barking",
+                              "the whole night.",
+                              "No error"
+                            ],
+                            "correctAnswer": "was barking",
+                            "explanation": "Use the simple past for a completed action covering the whole period. Correct: 'The dog barked the whole night.'"
+                          },
+                  
+                            {
+                              "id": "pronoun_236",
+                              "question": "For the last six months he is working on this problem.",
+                              "options": [
+                                "For the last six months",
+                                "he is working",
+                                "on this problem.",
+                                "No error"
+                              ],
+                              "correctAnswer": "he is working",
+                              "explanation": "Use the present perfect continuous for an action continuing from the past. Correct: 'For the last six months he has been working on this problem.'"
+                            },
+                            {
+                              "id": "pronoun_237",
+                              "question": "Last week I had met him twice.",
+                              "options": [
+                                "Last week",
+                                "I had met",
+                                "him twice.",
+                                "No error"
+                              ],
+                              "correctAnswer": "I had met",
+                              "explanation": "Use the simple past with a definite past time expression. Correct: 'Last week I met him twice.'"
+                            },
+                            {
+                              "id": "pronoun_238",
+                              "question": "I found that someone picked my pocket.",
+                              "options": [
+                                "I found",
+                                "that someone picked",
+                                "my pocket.",
+                                "No error"
+                              ],
+                              "correctAnswer": "that someone picked",
+                              "explanation": "The theft occurred before 'I found', so use the past perfect. Correct: 'I found that someone had picked my pocket.'"
+                            },
+                            {
+                              "id": "pronoun_239",
+                              "question": "By the time she returned he typed all letters.",
+                              "options": [
+                                "By the time she returned",
+                                "he typed",
+                                "all letters.",
+                                "No error"
+                              ],
+                              "correctAnswer": "he typed",
+                              "explanation": "Use the past perfect for an action completed before another past action. Correct: 'By the time she returned he had typed all the letters.'"
+                            },
+                            {
+                              "id": "pronoun_240",
+                              "question": "She rang me up after she decided to go.",
+                              "options": [
+                                "She rang me up",
+                                "after she decided",
+                                "to go.",
+                                "No error"
+                              ],
+                              "correctAnswer": "after she decided",
+                              "explanation": "The decision happened before the call, so use the past perfect. Correct: 'She rang me up after she had decided to go.'"
+                            },
+                            {
+                              "id": "pronoun_241",
+                              "question": "How long is she working in the office?",
+                              "options": [
+                                "How long",
+                                "is she working",
+                                "in the office?",
+                                "No error"
+                              ],
+                              "correctAnswer": "is she working",
+                              "explanation": "Use the present perfect continuous to ask about duration. Correct: 'How long has she been working in the office?'"
+                            },
+                            {
+                              "id": "pronoun_242",
+                              "question": "The house is belonging to me for the last twenty years.",
+                              "options": [
+                                "The house",
+                                "is belonging",
+                                "to me for the last twenty years.",
+                                "No error"
+                              ],
+                              "correctAnswer": "is belonging",
+                              "explanation": "The verb 'belong' is not used in the continuous tense. Correct: 'The house has belonged to me for the last twenty years.'"
+                            },
+                            {
+                              "id": "pronoun_243",
+                              "question": "My house is facing the East.",
+                              "options": [
+                                "My house",
+                                "is facing",
+                                "the East.",
+                                "No error"
+                              ],
+                              "correctAnswer": "is facing",
+                              "explanation": "Use the simple present for a permanent position. Correct: 'My house faces the East.'"
+                            },
+                            {
+                                "id": "pronoun_244",
+                              "question": "Manav has broker a cup last evening.",
+                              "options": [
+                                "Manav",
+                                "has broker",
+                                "a cup last evening.",
+                                "No error"
+                              ],
+                              "correctAnswer": "has broker",
+                              "explanation": "Use the simple past with a definite past time expression. Also, 'broker' should be 'broken'/'broke'. Correct: 'Manav broke a cup last evening.'"
+                            },
+                            {
+                              "id": "pronoun_245",
+                              "question": "My mother is rarely sleeping at noons.",
+                              "options": [
+                                "My mother",
+                                "is rarely sleeping",
+                                "at noons.",
+                                "No error"
+                              ],
+                              "correctAnswer": "is rarely sleeping",
+                              "explanation": "Use the simple present for habitual actions. Correct: 'My mother rarely sleeps at noon.'"
+                            },
+                            
+                              {
+                                  "id": "pronoun_246",
+                                "question": "They still write letters today.",
+                                "options": [
+                                  "They still",
+                                  "write letters",
+                                  "today.",
+                                  "No error"
+                                ],
+                                "correctAnswer": "today.",
+                                "explanation": "Use 'these days' instead of 'today' to indicate a present habit. Correct: 'They still write letters these days.'"
+                              },
+                              {
+                                "id": "pronoun_247",
+                                "question": "I own this plot of land since my youth.",
+                                "options": [
+                                  "I own",
+                                  "this plot of land",
+                                  "since my youth.",
+                                  "No error"
+                                ],
+                                "correctAnswer": "I own",
+                                "explanation": "Use the present perfect with 'since'. Correct: 'I have owned this plot of land since my youth.'"
+                              },
+                              {
+                                "id": "pronoun_248",
+                                "question": "They found that the tap ran.",
+                                "options": [
+                                  "They found",
+                                  "that the tap ran",
+                                  ".",
+                                  "No error"
+                                ],
+                                "correctAnswer": "that the tap ran",
+                                "explanation": "The tap was already running when they found it, so use the past perfect continuous. Correct: 'They found that the tap had been running.'"
+                              },
+                              {
+                                "id": "pronoun_249",
+                                "question": "I cannot believe that he is wasting time all along his life.",
+                                "options": [
+                                  "I cannot believe",
+                                  "that he is wasting time",
+                                  "all along his life.",
+                                  "No error"
+                                ],
+                                "correctAnswer": "that he is wasting time",
+                                "explanation": "Use the present perfect continuous for an action continuing over a long period. Correct: 'I cannot believe that he has been wasting time all his life.'"
+                              },
+                              {
+                                "id": "pronoun_250",
+                                "question": "They brought him home when he died.",
+                                "options": [
+                                  "They brought",
+                                  "him home",
+                                  "when he died.",
+                                  "No error"
+                                ],
+                                "correctAnswer": "when he died",
+                                "explanation": "The death occurred before they brought him home. Correct: 'They brought him home after he had died.'"
+                              },
+                              {
+                                "id": "pronoun_251",
+                                "question": "We have written the letter last evening.",
+                                "options": [
+                                  "We have written",
+                                  "the letter",
+                                  "last evening.",
+                                  "No error"
+                                ],
+                                "correctAnswer": "We have written",
+                                "explanation": "Use the simple past with a definite past time expression. Correct: 'We wrote the letter last evening.'"
+                              },
+                              {
+                                "id": "pronoun_252",
+                                "question": "He worked for three hours when I met him.",
+                                "options": [
+                                  "He worked",
+                                  "for three hours",
+                                  "when I met him.",
+                                  "No error"
+                                ],
+                                "correctAnswer": "He worked",
+                                "explanation": "Use the past perfect continuous for an action continuing before another past action. Correct: 'He had been working for three hours when I met him.'"
+                              },
+                              {
+                                "id": "pronoun_253",
+                                "question": "Mahmood Gazanavi has invaded India many times.",
+                                "options": [
+                                  "Mahmood Gazanavi",
+                                  "has invaded",
+                                  "India many times.",
+                                  "No error"
+                                ],
+                                "correctAnswer": "has invaded",
+                                "explanation": "Use the simple past for historical events. Correct: 'Mahmood Gazanavi invaded India many times.'"
+                              },
+                              {
+                                "id": "pronoun_254",
+                                "question": "When I met her last year, she was married for three years.",
+                                "options": [
+                                  "When I met her last year,",
+                                  "she was married",
+                                  "for three years.",
+                                  "No error"
+                                ],
+                                "correctAnswer": "she was married",
+                                "explanation": "Use the past perfect to show duration before a past event. Correct: 'When I met her last year, she had been married for three years.'"
+                              },
+                              {
+                                "id": "pronoun_255",
+                                "question": "How long will you know Ritu on her next birthday?",
+                                "options": [
+                                  "How long",
+                                  "will you know",
+                                  "Ritu on her next birthday?",
+                                  "No error"
+                                ],
+                                "correctAnswer": "will you know",
+                                "explanation": "Use the future perfect to express duration up to a future point. Correct: 'How long will you have known Ritu on her next birthday?'"
+                              },
+                          
+                                {
+                                  "id": "pronoun_256",
+                                  "question": "When I reached the station, the train already left.",
+                                  "options": [
+                                    "When I reached the station,",
+                                    "the train already left.",
+                                    "",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "the train already left.",
+                                  "explanation": "Use the past perfect for an action completed before another past action. Correct: 'When I reached the station, the train had already left.'"
+                                },
+                                {
+                                  "id": "pronoun_257",
+                                  "question": "He has been living here since ten years.",
+                                  "options": [
+                                    "He has been living",
+                                    "here",
+                                    "since ten years.",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "since ten years.",
+                                  "explanation": "Use 'for' with a period of time and 'since' with a point of time. Correct: 'He has been living here for ten years.'"
+                                },
+                                {
+                                  "id": "pronoun_258",
+                                  "question": "I am reading this book for two hours.",
+                                  "options": [
+                                    "I am reading",
+                                    "this book",
+                                    "for two hours.",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "I am reading",
+                                  "explanation": "Use the present perfect continuous for an action continuing for a duration. Correct: 'I have been reading this book for two hours.'"
+                                },
+                                {
+                                  "id": "pronoun_259",
+                                  "question": "She did not see him since Monday.",
+                                  "options": [
+                                    "She did not see",
+                                    "him",
+                                    "since Monday.",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "She did not see",
+                                  "explanation": "Use the present perfect with 'since'. Correct: 'She has not seen him since Monday.'"
+                                },
+                                {
+                                  "id": "pronoun_260",
+                                  "question": "He is knowing the answer.",
+                                  "options": [
+                                    "He",
+                                    "is knowing",
+                                    "the answer.",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "is knowing",
+                                  "explanation": "The verb 'know' is a stative verb and is not normally used in the continuous tense. Correct: 'He knows the answer.'"
+                                },
+                                {
+                                  "id": "pronoun_261",
+                                  "question": "I have seen him yesterday.",
+                                  "options": [
+                                    "I have seen",
+                                    "him",
+                                    "yesterday.",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "I have seen",
+                                  "explanation": "Use the simple past with a definite past time expression. Correct: 'I saw him yesterday.'"
+                                },
+                                {
+                                  "id": "pronoun_262",
+                                  "question": "The patient died before the doctor arrived.",
+                                  "options": [
+                                    "The patient died",
+                                    "before the doctor arrived.",
+                                    "",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "The patient died",
+                                  "explanation": "Use the past perfect for the earlier of two past actions. Correct: 'The patient had died before the doctor arrived.'"
+                                },
+                                {
+                                  "id": "pronoun_263",
+                                  "question": "I am living in Delhi since 2015.",
+                                  "options": [
+                                    "I am living",
+                                    "in Delhi",
+                                    "since 2015.",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "I am living",
+                                  "explanation": "Use the present perfect continuous with 'since'. Correct: 'I have been living in Delhi since 2015.'"
+                                },
+                                {
+                                  "id": "pronoun_264",
+                                  "question": "He completed the work before I reached there.",
+                                  "options": [
+                                    "He completed",
+                                    "the work",
+                                    "before I reached there.",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "He completed",
+                                  "explanation": "Use the past perfect for an action completed before another past action. Correct: 'He had completed the work before I reached there.'"
+                                },
+                                {
+                                  "id": "pronoun_265",
+                                  "question": "The baby is crying since morning.",
+                                  "options": [
+                                    "The baby",
+                                    "is crying",
+                                    "since morning.",
+                                    "No error"
+                                  ],
+                                  "correctAnswer": "is crying",
+                                  "explanation": "Use the present perfect continuous for an action continuing since a point of time. Correct: 'The baby has been crying since morning.'"
+                                },
+                  
+                                  {
+                                    "id": "pronoun_266",
+                                    "question": "How can I come as it still drizzles?",
+                                    "options": [
+                                      "How can I come",
+                                      "as it still drizzles",
+                                      "?",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "as it still drizzles",
+                                    "explanation": "Use the present perfect for an action that has continued up to the present. Correct: 'How can I come as it has been drizzling?'"
+                                  },
+                                  {
+                                    "id": "pronoun_267",
+                                    "question": "By two o'clock yesterday I called on her twice but she was not at home.",
+                                    "options": [
+                                      "By two o'clock yesterday",
+                                      "I called on her twice",
+                                      "but she was not at home.",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "I called on her twice",
+                                    "explanation": "Use the past perfect with 'by' + a point of past time. Correct: 'By two o'clock yesterday I had called on her twice but she was not at home.'"
+                                  },
+                                  {
+                                    "id": "pronoun_268",
+                                    "question": "It is looking that he may not come tonight.",
+                                    "options": [
+                                      "It",
+                                      "is looking",
+                                      "that he may not come tonight.",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "is looking",
+                                    "explanation": "Use 'looks' instead of the continuous form. Correct: 'It looks that he may not come tonight.'"
+                                  },
+                                  {
+                                    "id": "pronoun_269",
+                                    "question": "I found that he was recently discharged from the hospital.",
+                                    "options": [
+                                      "I found",
+                                      "that he was recently discharged",
+                                      "from the hospital.",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "that he was recently discharged",
+                                    "explanation": "The discharge happened before 'I found', so use the past perfect. Correct: 'I found that he had recently been discharged from the hospital.'"
+                                  },
+                                  {
+                                    "id": "pronoun_270",
+                                    "question": "A little later I realized that my luggage was stolen.",
+                                    "options": [
+                                      "A little later",
+                                      "I realized",
+                                      "that my luggage was stolen.",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "that my luggage was stolen",
+                                    "explanation": "The theft occurred before the realization, so use the past perfect. Correct: 'A little later I realized that my luggage had been stolen.'"
+                                  },
+                                  {
+                                    "id": "pronoun_271",
+                                    "question": "Where are you keeping your money when you go out?",
+                                    "options": [
+                                      "Where are you keeping",
+                                      "your money",
+                                      "when you go out?",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "Where are you keeping",
+                                    "explanation": "Use the simple present for habitual actions. Correct: 'Where do you keep your money when you go out?'"
+                                  },
+                                  {
+                                    "id": "pronoun_272",
+                                    "question": "I admired him since the day I met him.",
+                                    "options": [
+                                      "I admired",
+                                      "him",
+                                      "since the day I met him.",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "I admired",
+                                    "explanation": "Use the present perfect with 'since'. Correct: 'I have admired him since the day I met him.'"
+                                  },
+                                  {
+                                    "id": "pronoun_273",
+                                    "question": "When at last we reached school the bell was already rung.",
+                                    "options": [
+                                      "When at last we reached school",
+                                      "the bell was already rung",
+                                      ".",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "the bell was already rung",
+                                    "explanation": "Use the past perfect active form. Correct: 'When at last we reached school, the bell had already rung.'"
+                                  },
+                                  {
+                                    "id": "pronoun_274",
+                                    "question": "I am sorry that you left your book in the library when you came here last time.",
+                                    "options": [
+                                      "I am sorry",
+                                      "that you left your book in the library",
+                                      "when you came here last time.",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "that you left your book in the library",
+                                    "explanation": "The action happened before another past event, so use the past perfect. Correct: 'I am sorry that you had left your book in the library when you came here last time.'"
+                                  },
+                                  {
+                                          "id": "pronoun_275",
+                                    "question": "I am leaving for my office early every morning.",
+                                    "options": [
+                                      "I am leaving",
+                                      "for my office",
+                                      "early every morning.",
+                                      "No error"
+                                    ],
+                                    "correctAnswer": "I am leaving",
+                                    "explanation": "Use the simple present for habitual actions. Correct: 'I leave for my office early every morning.'"
+                                  },
+                  
+                                    {
+                                      "id": "pronoun_276",
+                                      "question": "What do you look at the road? Does something happen there?",
+                                      "options": [
+                                        "What do you look",
+                                        "at the road?",
+                                        "Does something happen there?",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "What do you look",
+                                      "explanation": "Use 'look at' for seeing and 'look' with 'why' to ask the reason. Correct: 'Why are you looking at the road? Has something happened there?'"
+                                    },
+                                    {
+                                      "id": "pronoun_277",
+                                      "question": "My wife paints furniture whenever she had time.",
+                                      "options": [
+                                        "My wife paints furniture",
+                                        "whenever",
+                                        "she had time.",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "she had time.",
+                                      "explanation": "Use the simple present in both clauses for habitual actions. Correct: 'My wife paints furniture whenever she has time.'"
+                                    },
+                                    {
+                                      "id": "pronoun_278",
+                                      "question": "Of late she did not go to any movie.",
+                                      "options": [
+                                        "Of late",
+                                        "she did not go",
+                                        "to any movie.",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "she did not go",
+                                      "explanation": "Use the present perfect with 'of late'. Correct: 'Of late she has not gone to any movie.'"
+                                    },
+                                    {
+                                            "id": "pronoun_279",
+                                      "question": "This is the best book that he ever read.",
+                                      "options": [
+                                        "This is the best book",
+                                        "that he ever read.",
+                                        "",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "that he ever read.",
+                                      "explanation": "Use the present perfect after a superlative referring to the present. Correct: 'This is the best book that he has ever read.'"
+                                    },
+                                    {
+                                      "id": "pronoun_280",
+                                      "question": "I didn't know what she is writing for the last two years.",
+                                      "options": [
+                                        "I didn't know",
+                                        "what she is writing",
+                                        "for the last two years.",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "what she is writing",
+                                      "explanation": "Use the past perfect continuous because the action was continuing before a past point. Correct: 'I didn't know what she had been writing for the last two years.'"
+                                    },
+                                    {
+                                        "id": "pronoun_281",
+                                      "question": "By the time she comes he will complete the work.",
+                                      "options": [
+                                        "By the time she comes",
+                                        "he will complete",
+                                        "the work.",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "he will complete",
+                                      "explanation": "Use the future perfect for an action completed before another future action. Correct: 'By the time she comes he will have completed the work.'"
+                                    },
+                                    {
+                                      "id": "pronoun_282",
+                                      "question": "The book will be written by next year.",
+                                      "options": [
+                                        "The book",
+                                        "will be written",
+                                        "by next year.",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "will be written",
+                                      "explanation": "Use the future perfect passive with 'by' + future time. Correct: 'The book will have been written by next year.'"
+                                    },
+                                    {
+                                        "id": "pronoun_283",
+                                      "question": "I saw that the book lay on the table.",
+                                      "options": [
+                                        "I saw",
+                                        "that the book lay",
+                                        "on the table.",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "that the book lay",
+                                      "explanation": "Use 'was lying' to indicate the position at that moment. Correct: 'I saw that the book was lying on the table.'"
+                                    },
+                                    {
+                                      "id": "pronoun_284",
+                                      "question": "She will already return home when he arrives.",
+                                      "options": [
+                                        "She will already return",
+                                        "home",
+                                        "when he arrives.",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "She will already return",
+                                      "explanation": "Use the future perfect for an action completed before another future action. Correct: 'She will already have returned home when he arrives.'"
+                                    },
+                                    {
+                                        "id": "pronoun_285",
+                                      "question": "Don't worry since she just had her breakfast.",
+                                      "options": [
+                                        "Don't worry",
+                                        "since she just had",
+                                        "her breakfast.",
+                                        "No error"
+                                      ],
+                                      "correctAnswer": "since she just had",
+                                      "explanation": "Use the present perfect with 'just'. Correct: 'Don't worry since she has just had her breakfast.'"
+                                    }
+                            
+                    
+                          
+                    
+                  
+
 
     
 

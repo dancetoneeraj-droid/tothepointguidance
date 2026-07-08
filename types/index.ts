@@ -43,6 +43,10 @@ export interface EnglishConfig {
   grammarQuizLabel?: string;
   /** Fixed 0-based start index in the grammar question bank. When set, ignores progressive stored index. */
   grammarQuizFrom?: number;
+  /** Question count for the grammar quiz. Defaults to 25. */
+  grammarQuizQuestions?: number;
+  /** Duration in minutes for the grammar quiz. Defaults to 10. */
+  grammarQuizDuration?: number;
   comprehensionQuiz?: string;
 }
 

@@ -1001,303 +1001,185 @@
   },
   {
     "id": "maths_trigonometry_076",
-    "question": "Trigonometry — Question 51 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "A simplified value of (sinθ/(1+cosθ) + (1+cosθ)/sinθ) × 1/(tanθ+cotθ) is:",
+    "options": ["cosθ", "2sinθ", "sinθ", "2cosθ"],
+    "correctAnswer": "2cosθ",
+    "solution": "video solution be added soon"
   },
   {
-        "id": "maths_trigonometry_077",
-    "question": "Trigonometry — Question 52 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "id": "maths_trigonometry_077",
+    "question": "The value of ((sinθ − cosθ)(1 + tanθ + cotθ))/(1 + sinθcosθ) is:",
+    "options": ["secθ − cosecθ", "cosecθ − secθ", "sinθ + cosθ", "tanθ − cotθ"],
+    "correctAnswer": "cosecθ − secθ",
+    "solution": "video solution be added soon"
   },
   {
-    "id": "maths_trigonometry_078_x",
-    "question": "Trigonometry — Question 53 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "id": "maths_trigonometry_078",
+    "question": "If ((sinθ−cosecθ)(cosθ−secθ))/(tan²θ−sin²θ) = r³, then r = ?",
+    "options": ["sinθ cosθ", "tanθ", "cotθ", "cosecθ secθ"],
+    "correctAnswer": "sinθ cosθ",
+    "solution": "video solution be added soon"
   },
   {
-    "id": "maths_trigonometry_079_x",
-    "question": "Trigonometry — Question 54 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "id": "maths_trigonometry_079",
+    "question": "Simplify: √((1+cosP)/(1−cosP))",
+    "options": ["cosecP + cotP", "tanP + tanP", "secP − tanP", "cosecP − cotP"],
+    "correctAnswer": "cosecP + cotP",
+    "solution": "video solution be added soon"
   },
   {
-    "id": "maths_trigonometry_080_x",
-    "question": "Trigonometry — Question 55 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "id": "maths_trigonometry_080",
+    "question": "If √((1−cosθ)/(1+cosθ)) × √((cosecθ−cotθ)/(cosecθ+cotθ)) = (1−r)/(1+r), then the value of r is:",
+    "options": ["sinθ", "cosecθ", "secθ", "cosθ"],
+    "correctAnswer": "sinθ",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_081",
-    "question": "Trigonometry — Question 56 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "If (1 + tan²θ) + (1 + tan²θ)⁻¹ = k, then √k = ?",
+    "options": ["cosecθ secθ", "cosecθ cosθ", "sinθ cosecθ", "sinθ secθ"],
+    "correctAnswer": "cosecθ secθ",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_082",
-    "question": "Trigonometry — Question 57 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "The value of tan²θ + cot²θ − sec²θ cosec²θ is:",
+    "options": ["-1", "-2", "1", "0"],
+    "correctAnswer": "-2",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_083",
-    "question": "Trigonometry — Question 58 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "The value of sec²θ/cosec²θ + cosec²θ/sec²θ − (sec²θ + cosec²θ) is:",
+    "options": ["1", "-2", "0", "2"],
+    "correctAnswer": "-2",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_084",
-    "question": "Trigonometry — Question 59 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "If 0° < θ < 90°, then √((sec²θ + cosec²θ)/(tan²θ − sin²θ)) is equal to:",
+    "options": ["sec³θ", "sin²θ", "cosec³θ", "sec²θ"],
+    "correctAnswer": "cosec³θ",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_085",
-    "question": "Trigonometry — Question 60 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "The value of (secθ cosecθ)/(2 + tan²θ + cot²θ) is equal to:",
+    "options": ["secθ cosecθ", "secθ sinθ", "sinθ cosθ", "cosθ cosecθ"],
+    "correctAnswer": "sinθ cosθ",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_086",
-    "question": "Trigonometry — Question 61 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "For 0° < θ < 90°, the value of ((1+cosθ−sin²θ)/(sinθ(1+cosθ))) × √((sec²θ+cosec²θ)/(tanθ+cotθ)) is:",
+    "options": ["tanθ", "secθ", "cosecθ", "cotθ"],
+    "correctAnswer": "cosecθ",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_087",
-    "question": "Trigonometry — Question 62 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "What is the value of cosx cosecx − sinx secx?",
+    "options": ["cot2x/2", "tan2x", "cot2x", "2cot2x"],
+    "correctAnswer": "cot2x/2",
+    "solution": "video solution be added soon"
   },
   {
-    "id": "maths_trigonometry_088",
-    "question": "Trigonometry — Question 63 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+        "id": "maths_trigonometry_088",
+    "question": "If Psin60° = Qcosec45°, then find (P² + Q²)/(P² − Q²).",
+    "options": ["11/7", "11/5", "5/11", "7/11"],
+    "correctAnswer": "11/7",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_089",
-    "question": "Trigonometry — Question 64 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "If A = 22.5°, then the value of 10√2 sin2A − 7√2 cos2A + 9 tan2A is:",
+    "options": ["12", "15", "10", "6"],
+    "correctAnswer": "12",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_090",
-    "question": "Trigonometry — Question 65 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "Evaluate: 8sec²45° + 20sin²30° + 15tan45°",
+    "options": ["43", "28", "36", "42"],
+    "correctAnswer": "36",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_091",
-    "question": "Trigonometry — Question 66 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "The value of (4tan²30° + (1/4)sin²90° + (1/8)cot²60° + sin²30°cos²45°)/(sin60°cos30° − cos60°sin30°) is:",
+    "options": ["1¾", "4", "2½", "3½"],
+    "correctAnswer": "2½",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_092",
-    "question": "Trigonometry — Question 67 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "The value of (tan²30° + sin²90° + cot²60° + sin²30°cos²45°)/(sin60°cos30° − cos60°sin30°) is:",
+    "options": ["25/12", "43/12", "37/12", "47/12"],
+    "correctAnswer": "43/12",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_093",
-    "question": "Trigonometry — Question 68 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "If (k − kcot²30°)/(1 + cot²30°) = sin²60° + 4tan²45° − cosec²60°, then the value of k (correct to two decimal places) is:",
+    "options": ["5.55", "-6.83", "-5.58", "6.83"],
+    "correctAnswer": "5.55",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_094",
-    "question": "Trigonometry — Question 69 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "The value of m[sinθ + 2cos²ϕ + 3sinθ + 4cos²ϕ + ... + 18cos²ϕ] is a perfect square of an integer, where θ = 30°, ϕ = 45° and 150 ≤ m ≤ 180. Find m.",
+    "options": ["161", "152", "168", "176"],
+    "correctAnswer": "152",
+    "solution": "video solution be added soon"
   },
   {
-    "id": "maths_trigonometry_095",
-    "question": "Trigonometry — Question 70 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+      "id": "maths_trigonometry_095",
+    "question": "If sec(90° − 3θ/2) = √2, 0° < θ < 90°, then the value of 2sinθ + 4cos2θ is:",
+    "options": ["4", "2", "3", "6"],
+    "correctAnswer": "3",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_096",
-    "question": "Trigonometry — Question 71 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "What is the value of tan570°?",
+    "options": ["-1/√3", "-√3", "1/√3", "√3"],
+    "correctAnswer": "-1/√3",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_097",
-    "question": "Trigonometry — Question 72 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "If A is an acute angle, the simplified form of [cos(π−A)·cot((π/2)+A)·cos(−A)]/[tan(π+A)·tan((3π/2)+A)·sin(2π−A)] is:",
+    "options": ["cos²A", "sinA", "sin²A", "cosA"],
+    "correctAnswer": "cosA",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_098",
-    "question": "Trigonometry — Question 73 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "Evaluate: (4/3)cot²(π/6) + 3cos²150° − 4cosec²45° + 8sin(π/2)",
+    "options": ["25/4", "13/2", "-1", "-7/2"],
+    "correctAnswer": "13/2",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_099",
-    "question": "Trigonometry — Question 74 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "If A is an acute angle, then the simplified form of [cos(π−A)·cot((π/2)+A)·cos(−A)]/[tan(π+A)·tan((3π/2)+A)·sin(2π−A)] is:",
+    "options": ["cos²A", "sinA", "sin²A", "cosA"],
+    "correctAnswer": "cosA",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_100",
-    "question": "Trigonometry — Question 75 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "question": "cosec2910° + sec4260° + tan2565° + cot1755° = ?",
+    "options": ["3", "1", "4", "0"],
+    "correctAnswer": "0",
+    "solution": "video solution be added soon"
+  },
+  {
+    "id": "maths_trigonometry_101",
+    "question": "tan4384° + cot6814° = ?",
+    "options": ["-1", "0", "2", "1"],
+    "correctAnswer": "-1",
+    "solution": "video solution be added soon"
   },
   {
     "id": "maths_trigonometry_101",

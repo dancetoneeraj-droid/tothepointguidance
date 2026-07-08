@@ -959,6 +959,266 @@
       ],
       "correctAnswer": "(16, 31, 39)",
       "explanation": "Third number = first + second − 8. 16 + 31 − 8 = 39."
-    }
+    },
+      {
+        "id": "reasoning_analogy_081",
+        "question": "Statements:\nAll Lines is Heat.\nOnly a few Small is Waste.\nOnly a few Lines is Small.\n\nConclusions:\nI. Some Lines are Waste.\nII. All Waste is Heat is a possibility.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If only conclusion II follows.",
+        "explanation": "Conclusion I does not definitely follow. Conclusion II is possible as there is no contradiction in considering all Waste as Heat."
+      },
+      {
+        "id": "reasoning_analogy_082",
+        "question": "Statements:\nAll Lines is Heat.\nOnly a few Small is Waste.\nOnly a few Lines is Small.\n\nConclusions:\nI. All Heat is Small is a possibility.\nII. No Line is Small.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If only conclusion I follows.",
+        "explanation": "All Heat being Small is possible as it does not violate any statement. Conclusion II contradicts 'Only a few Lines is Small'."
+      },
+      {
+        "id": "reasoning_analogy_083",
+        "question": "Statements:\nOnly a few Names is Divya.\nNo Name is Suman.\nSome Mohit is Name.\n\nConclusions:\nI. Some Divya is not Suman.\nII. Some Divya is Mohit.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If only conclusion I follows.",
+        "explanation": "Some Divya are Names and no Name is Suman, so some Divya are not Suman. No definite relation exists between Divya and Mohit."
+      },
+      {
+        "id": "reasoning_analogy_084",
+        "question": "Statements:\nOnly a few Names is Divya.\nNo Name is Suman.\nSome Mohit is Name.\n\nConclusions:\nI. All Name is Divya is a possibility.\nII. Some Suman is Mohit.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I or II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If only conclusion I follows.",
+        "explanation": "All Names being Divya is possible. Some Suman being Mohit cannot be concluded."
+      },
+      {
+        "id": "reasoning_analogy_085",
+        "question": "Statements:\nAll Van are Mix.\nOnly a few Mix are Low.\nSome System are Van.\n\nConclusions:\nI. Some Low are System is a possibility.\nII. Some Mix are System.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If both conclusions I and II follow.",
+        "explanation": "Some Systems are Vans and all Vans are Mix, so some Mix are System. Some Low are System is also possible."
+      },
+      {
+        "id": "reasoning_analogy_086",
+        "question": "Statements:\nAll Van are Mix.\nOnly a few Mix are Low.\nSome System are Van.\n\nConclusions:\nI. No Van is Low.\nII. All Van are System.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If neither conclusion I nor II follows.",
+        "explanation": "Neither statement can be concluded from the given information."
+      },
+      {
+        "id": "reasoning_analogy_087",
+        "question": "Statements:\nNo Books are Open.\nAll Open are Good.\nOnly a few Pages are Books.\n\nConclusions:\nI. No Open is Page.\nII. Some Good is Book is a possibility.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If only conclusion II follows.",
+        "explanation": "No relation is definite between Open and Page. Some Good being Book is possible."
+      },
+      {
+        "id": "reasoning_analogy_088",
+        "question": "Statements:\nNo Books are Open.\nAll Open are Good.\nOnly a few Pages are Books.\n\nConclusions:\nI. All Page is Book is a possibility.\nII. Some Page are Good.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If only conclusion I follows.",
+        "explanation": "All Pages being Books is possible. Some Page being Good is not definite."
+      },
+      {
+        "id": "reasoning_analogy_089",
+        "question": "Statements:\nAll Grapes are Biscuits.\nNo Grape is Papaya.\nAll Dates are Grapes.\n\nConclusions:\nI. No Dates is Papaya.\nII. All Grapes are Dates.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If only conclusion I follows.",
+        "explanation": "Dates are Grapes and no Grape is Papaya, so no Date is Papaya. The converse of the third statement does not follow."
+      },
+      {
+        "id": "reasoning_analogy_090",
+        "question": "Statements:\nAll Grapes are Biscuits.\nNo Grape is Papaya.\nAll Dates are Grapes.\n\nConclusions:\nI. Some Papaya is Biscuit is a possibility.\nII. All Biscuits are Dates.",
+        "options": [
+          "If only conclusion I follows.",
+          "If only conclusion II follows.",
+          "If either conclusion I or II follows.",
+          "If neither conclusion I nor II follows.",
+          "If both conclusions I and II follow."
+        ],
+        "correctAnswer": "If only conclusion I follows.",
+        "explanation": "Papaya can overlap with Biscuits outside Grapes. Conclusion II is the converse and does not follow."
+      },
+        {
+          "id": "reasoning_analogy_091",
+          "question": "Statements:\nOnly a few Bridge are Calm.\nOnly a few Paint are Calm.\nSome Paint is not Can.\n\nConclusions:\nI. All Can is Paint is a possibility.\nII. All Bridge is Calm is a possibility.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If both conclusions I and II follow.",
+          "explanation": "Both possibilities are valid as they do not contradict any given statement."
+        },
+        {
+                    "id": "reasoning_analogy_092",
+          "question": "Statements:\nOnly a few Bridge are Calm.\nOnly a few Paint are Calm.\nSome Paint is not Can.\n\nConclusions:\nI. No Can is Calm.\nII. All Paint is Bridge.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If neither conclusion I nor II follows.",
+          "explanation": "Neither conclusion can be definitely inferred from the given statements."
+        },
+        {
+          "id": "reasoning_analogy_093",
+          "question": "Statements:\nOnly a few Press are Break.\nAll People are Break.\nOnly a few Break are Slow.\n\nConclusions:\nI. All People is Press.\nII. Some People can be Press.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If only conclusion II follows.",
+          "explanation": "People being Press is possible, but 'All People are Press' cannot be concluded."
+        },
+        {
+          "id": "reasoning_analogy_094",
+          "question": "Statements:\nOnly a few Press are Break.\nAll People are Break.\nOnly a few Break are Slow.\n\nConclusions:\nI. No Break is Slow.\nII. All Slow is Press.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If neither conclusion I nor II follows.",
+          "explanation": "Neither conclusion follows from the given information."
+        },
+        {
+          "id": "reasoning_analogy_095",
+          "question": "Statements:\nNo Glow is Entry.\nAll Entry is Stop.\nOnly a few Stop is Skip.\n\nConclusions:\nI. All Skip is Entry is a possibility.\nII. All Glow is Stop.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If only conclusion I follows.",
+          "explanation": "Conclusion I is a valid possibility. Conclusion II does not follow."
+        },
+        {
+          "id": "reasoning_analogy_096",
+          "question": "Statements:\nNo Glow is Entry.\nAll Entry is Stop.\nOnly a few Stop is Skip.\n\nConclusions:\nI. Some Glow is Stop.\nII. No Stop is Glow.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If neither conclusion I nor II follows.",
+          "explanation": "No direct relation exists between Glow and Stop; both conclusions fail."
+        },
+        {
+          "id": "reasoning_analogy_097",
+          "question": "Statements:\nSome Inch is Clue.\nNo Inch is End.\nOnly a few End is Pull.\n\nConclusions:\nI. All End is Clue is a possibility.\nII. Some Pull is Inch.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If only conclusion I follows.",
+          "explanation": "End and Clue can completely overlap as neither is restricted. Some Pull being Inch is impossible because End and Inch are disjoint."
+        },
+        {
+          "id": "reasoning_analogy_098",
+          "question": "Statements:\nSome Inch is Clue.\nNo Inch is End.\nOnly a few End is Pull.\n\nConclusions:\nI. Some Inch is Pull is a possibility.\nII. All Clue is Inch.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If only conclusion I follows.",
+          "explanation": "Inch and Pull may overlap outside End. Conclusion II is not definite."
+        },
+        {
+          "id": "reasoning_analogy_099",
+          "question": "Statements:\nAll Screw is Hit.\nNo Jack is Moved.\nNo Hit is Jack.\n\nConclusions:\nI. Some Moved is Screw.\nII. No Screw is Moved.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If neither conclusion I nor II follows.",
+          "explanation": "No relation is established between Screw and Moved."
+        },
+        {
+          "id": "reasoning_analogy_100",
+          "question": "Statements:\nAll Screw is Hit.\nNo Jack is Moved.\nNo Hit is Jack.\n\nConclusions:\nI. No Screw is Jack.\nII. Some Hit is Moved.",
+          "options": [
+            "If only conclusion I follows.",
+            "If only conclusion II follows.",
+            "If either conclusion I or II follows.",
+            "If neither conclusion I nor II follows.",
+            "If both conclusions I and II follow."
+          ],
+          "correctAnswer": "If only conclusion I follows.",
+          "explanation": "Since all Screws are Hits and no Hit is Jack, no Screw can be Jack. Nothing definite can be concluded about Hit and Moved."
+        }
 ]
 

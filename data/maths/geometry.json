@@ -447,7 +447,7 @@
       "320°",
       "225°"
     ],
-    "correctAnswer": "150°",
+    "correctAnswer": "270°",
     "explanation": "Using co-interior and corresponding angle properties in parallel lines, 2x + y = 150°.",
     "solution": "# Solution\n\n**Step 1: Identify the parallel lines and transversals**\nSince line l is parallel to m, we can use properties of parallel lines cut by transversals (corresponding angles, alternate angles, and co-interior angles).\n\n**Step 2: Apply the property of co-interior angles**\nWhen a transversal cuts two parallel lines, co-interior angles (also called consecutive interior angles) are supplementary, meaning they add up to 180°.\n\n**Step 3: Use angle relationships**\nBased on the figure (typical SSC CGL setup):\n- Angles on a straight line sum to 180°\n- If x and y are angles formed by transversals with parallel lines, apply the supplementary angle property\n\n**Step 4: Set up the equation**\nFor parallel lines cut by transversals:\n- x + y = 150° (derived from angle sum properties with the parallel lines)\n\n**Step 5: Calculate 2x + y**\nFrom the angle relationships and the constraint that co-interior angles sum to 180°:\n- 2x + y = x + (x + y) = x + 150°\n- Using the parallel line properties: 2x + y = **150°**\n\n**Answer: 150°** ✓"
   },
@@ -462,7 +462,7 @@
       "115°",
       "126°"
     ],
-    "correctAnswer": "126°",
+    "correctAnswer": "148°",
     "explanation": "Applying parallel line angle relationships gives x = 126°.",
     "solution": "# Solution:\n\n**Step 1: Identify the parallel lines and transversals**\n- AB || CD || EF (three parallel lines)\n- Two transversals cut through these parallel lines\n- We need to find angle x° using properties of parallel lines\n\n**Step 2: Apply the property of co-interior angles**\n- When a transversal cuts two parallel lines, co-interior angles (same-side interior angles) are supplementary (sum to 180°)\n- For parallel lines AB and CD with a transversal: if one angle is given, we can find the corresponding angle at CD\n\n**Step 3: Use alternate/corresponding angles**\n- Since AB || CD || EF, angles formed at each parallel line follow predictable patterns\n- Corresponding angles are equal, and alternate angles are equal\n- Track the angle through the parallel lines from the given information\n\n**Step 4: Calculate x°**\n- Based on the angle relationships with three parallel lines:\n- If the exterior angle or reference angle is 54°, then:\n- x° = 180° - 54° = 126° (using supplementary angles)\n\n**Answer: x° = 126°** ✓"
   },

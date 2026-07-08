@@ -101,8 +101,12 @@ export default function QuizPage({
         };
       }
     } else if (subject === "english") {
-      questionCount = Math.min(ENGLISH_QUIZ_QUESTIONS, bank.length);
-      durationMinutes = ENGLISH_QUIZ_DURATION;
+      questionCount = Math.min(
+        plan.english.grammarQuizQuestions ?? ENGLISH_QUIZ_QUESTIONS,
+        bank.length
+      );
+      durationMinutes =
+        plan.english.grammarQuizDuration ?? ENGLISH_QUIZ_DURATION;
       if (plan.english.grammarQuizFrom !== undefined) {
         const slice = resolveQuizSlice(bank, plan.english.grammarQuizFrom, questionCount);
         return {
