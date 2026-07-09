@@ -473,6 +473,7 @@
     ],
     "correctAnswer": "5",
     "explanation": "Using divisibility rules of 88, determine the maximum valid x and the corresponding y. Substituting the values gives 5x − 7y = 5.",
+    "videoUrl": "https://youtu.be/b_ZbXyufHOc",
     "solution": "# Solution\n\n**Step 1: Divisibility Rule for 88**\n88 = 8 × 11, so the number must be divisible by both 8 and 11.\n\n**Step 2: Apply Divisibility Rule for 8**\nA number is divisible by 8 if its last 3 digits are divisible by 8.\nLast 3 digits: y2 → 100y + 20 must be divisible by 8\n\nTesting values: y = 2, 4, 6 work (422, 422, 622... → checking: 20y + 4 ≡ 0 mod 8)\n- y = 2: 420 ÷ 8 = 52.5 ✗\n- y = 4: 440 ÷ 8 = 55 ✓\n- y = 6: 460 ÷ 8 = 57.5 ✗\n\n**Therefore: y = 4**\n\n**Step 3: Apply Divisibility Rule for 11**\nAlternating sum of digits = 0 (mod 11)\n(2 + 9 + x + 4 + y + 2) - (0 + 4 + 8 + 3) ≡ 0 (mod 11)\n(17 + x + y) - 15 ≡ 0 (mod 11)\n(2 + x +"
   },
   {

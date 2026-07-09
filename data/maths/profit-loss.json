@@ -640,7 +640,7 @@
       "₹9600"
     ],
     "correctAnswer": "₹9600",
-   
+   "videoUrl": "https://youtu.be/sxw-Luutpyk",
     
     "solution": "**Step 1: Set up equations for both A and B**\n\nLet Cost Price = CP, Selling Price = SP = S (same for both)\n\n- **B's profit** (calculated on CP): Profit = 28% of CP\n  - S = CP + 0.28CP = 1.28CP\n  - CP = S/1.28\n\n- **A's profit** (calculated on SP): 28% profit on SP means profit amount = 0.28S\n  - S = CP_A + 0.28S\n  - CP_A = S - 0.28S = 0.72S\n\n**Step 2: Find the difference in profits**\n\n- B's profit amount = 0.28CP_B = 0.28(S/1.28) = 0.28S/1.28 = S/4.571...\n  \nLet me recalculate: B's profit = 0.28 × (S/1.28) = **7S/32**\n\n- A's profit amount = **0.28S**\n\n**Step 3: Use the difference condition**\n\nDifference between profits = 588\n\n0.28S - 7S/32 = 588\n\nConverting to common denominator:\n- 0.28S = 28S/100 = 7S/25\n- 7S/25 - 7S/32 = 588\n\nFinding LCM of 25 and 32 = 800:\n- (224S - 175S"
   },
