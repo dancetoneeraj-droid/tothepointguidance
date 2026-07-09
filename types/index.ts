@@ -16,6 +16,8 @@ export interface Question {
   explanationHi?: string;
   /** AI-generated step-by-step solution (added via add-solutions script). */
   solution?: string;
+  /** YouTube video URL for coaching-style video solution (shown after quiz attempt). */
+  videoUrl?: string;
   /** Shared passage/scenario text for set-based questions (e.g. seating arrangement puzzles). */
   passage?: string;
   /** 1-based position of this question within its passage group. */

@@ -7,8 +7,6 @@ import {
   ArrowLeft,
   CheckCircle2,
   Circle,
-  GraduationCap,
-  Lightbulb,
   XCircle,
 } from "lucide-react";
 import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
@@ -22,6 +20,7 @@ import { loadQuizAnalytics } from "@/lib/api/ecosystem";
 import { getQuizReviewRecord } from "@/lib/storage";
 import { getQuestionBank } from "@/lib/quiz-loader";
 import { getReviewQuestions, getReviewStatus } from "@/lib/quiz/review";
+import { QuestionSolutionPanel } from "@/components/quiz/QuestionSolutionPanel";
 
 function resolveImageUrl(url: string): string {
   const fileMatch = /\/file\/d\/([^/?]+)/.exec(url);
@@ -285,41 +284,7 @@ export default function QuizSolutionsPage({
                     )}
                   </div>
 
-                  <div className="border-t border-white/10 px-5 py-5 sm:px-6">
-                    <div className="flex items-center gap-2 text-emerald-300">
-                      <GraduationCap className="h-4 w-4" />
-                      <p className="text-sm font-semibold uppercase tracking-[0.18em]">
-                        Explanation / Solution
-                      </p>
-                    </div>
-                    <div className="mt-3 rounded-2xl border border-white/10 bg-black/20 p-4 sm:p-5">
-                      {question.explanation || question.solution ? (
-                        <p className="text-sm leading-7 text-zinc-200 whitespace-pre-wrap">
-                          {question.explanation ?? question.solution}
-                        </p>
-                      ) : (
-                        <div className="flex items-start gap-3 text-sm text-zinc-400">
-                          <Lightbulb className="mt-0.5 h-4 w-4 text-amber-300" />
-                          <p>
-                            Detailed explanation has not been added for this question
-                            yet. The correct answer for coaching review is{" "}
-                            <span className="font-medium text-violet-200">
-                              {question.correctAnswer}
-                            </span>
-                            .
-                          </p>
-                        </div>
-                      )}
-                      {question.explanationHi ? (
-                        <p
-                          className="mt-4 border-t border-white/10 pt-4 text-sm leading-7 text-amber-50/90 whitespace-pre-wrap"
-                          lang="hi"
-                        >
-                          {question.explanationHi}
-                        </p>
-                      ) : null}
-                    </div>
-                  </div>
+                  <QuestionSolutionPanel question={question} />
                 </Card>
                 </div>
               );
