@@ -983,7 +983,7 @@
           "If neither conclusion I nor II follows.",
           "If both conclusions I and II follow."
         ],
-        "correctAnswer": "If only conclusion I follows.",
+        "correctAnswer": "If neither conclusion I nor II follows.",
         "explanation": "All Heat being Small is possible as it does not violate any statement. Conclusion II contradicts 'Only a few Lines is Small'."
       },
       {
@@ -1009,7 +1009,7 @@
           "If neither conclusion I or II follows.",
           "If both conclusions I and II follow."
         ],
-        "correctAnswer": "If only conclusion I follows.",
+        "correctAnswer": "If neither conclusion I or II follows.",
         "explanation": "All Names being Divya is possible. Some Suman being Mohit cannot be concluded."
       },
       {
@@ -1061,7 +1061,7 @@
           "If neither conclusion I nor II follows.",
           "If both conclusions I and II follow."
         ],
-        "correctAnswer": "If only conclusion I follows.",
+        "correctAnswer": "If neither conclusion I nor II follows.",
         "explanation": "All Pages being Books is possible. Some Page being Good is not definite."
       },
       {
@@ -1100,7 +1100,7 @@
             "If neither conclusion I nor II follows.",
             "If both conclusions I and II follow."
           ],
-          "correctAnswer": "If both conclusions I and II follow.",
+          "correctAnswer": "If only conclusion I follows.",
           "explanation": "Both possibilities are valid as they do not contradict any given statement."
         },
         {
@@ -1165,7 +1165,7 @@
             "If neither conclusion I nor II follows.",
             "If both conclusions I and II follow."
           ],
-          "correctAnswer": "If neither conclusion I nor II follows.",
+          "correctAnswer": "If either conclusion I or II follows.",
           "explanation": "No direct relation exists between Glow and Stop; both conclusions fail."
         },
         {
@@ -1204,7 +1204,7 @@
             "If neither conclusion I nor II follows.",
             "If both conclusions I and II follow."
           ],
-          "correctAnswer": "If neither conclusion I nor II follows.",
+          "correctAnswer": "If either conclusion I or II follows.",
           "explanation": "No relation is established between Screw and Moved."
         },
         {
