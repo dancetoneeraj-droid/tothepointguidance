@@ -379,15 +379,15 @@
             "id": "reasoning_puzzle_054",
             "question": "18, 24, 25, 28, 26, ?, 21",
             "options": ["22", "25", "23", "26"],
-            "correctAnswer": "23",
-            "explanation": "Pattern: +6, +1, +3, −2, −3, −2. Missing term = 23."
+            "correctAnswer": "26",
+            "explanation": "Two interleaved series: odd terms 18, 25, 26, 21 (+7, +1, −5) and even terms 24, 28, 26 (+4, −2). Missing term = 26."
           },
           {
             "id": "reasoning_puzzle_055",
             "question": "486, 162, 108, ?, 144, 240",
             "options": ["54", "72", "108", "81"],
-            "correctAnswer": "72",
-            "explanation": "Pattern: ÷3, ÷1.5, ÷1.5, ×2, ×5/3. Missing term = 72."
+            "correctAnswer": "108",
+            "explanation": "Pattern: ÷3, ÷1.5, ÷1, ×4/3, ×5/3. Missing term = 108."
           },
           {
             "id": "reasoning_puzzle_056",
@@ -399,23 +399,23 @@
           {
             "id": "reasoning_puzzle_057",
             "question": "2, 3.44, 5.13, 7.09, ?, 11.9",
-            "options": ["9.54", "8.96", "9.12", "8.56"],
-            "correctAnswer": "9.54",
-            "explanation": "Successive increments: +1.44, +1.69, +1.96, +2.25, +2.56. Missing term = 9.54."
+            "options": ["9.34", "8.96", "9.12", "8.56"],
+            "correctAnswer": "9.34",
+            "explanation": "Successive increments are squares of 1.2, 1.3, 1.4, 1.5, 1.6 (+1.44, +1.69, +1.96, +2.25, +2.56). Missing term = 7.09 + 2.25 = 9.34."
           },
           {
             "id": "reasoning_puzzle_058",
             "question": "21, 38, 57, 80, 109, 140, ?",
             "options": ["181", "177", "169", "173"],
-            "correctAnswer": "173",
-            "explanation": "Add consecutive primes: +17, +19, +23, +29, +31, +33. Missing term = 173."
+            "correctAnswer": "177",
+            "explanation": "Add consecutive primes: +17, +19, +23, +29, +31, +37. Missing term = 140 + 37 = 177."
           },
           {
             "id": "reasoning_puzzle_059",
             "question": "9, 5, 6, 10.50, ?, 60",
             "options": ["20.50", "20", "21.50", "23"],
-            "correctAnswer": "20",
-            "explanation": "Alternate operations: −4, ×1.2, +4.5, ×(40/21), +40. Missing term = 20."
+            "correctAnswer": "23",
+            "explanation": "Alternate operations: −4, ×6/5, +9/2, ×46/21, +37. Missing term = 10.50 × 46/21 = 23."
           },
           {
             "id": "reasoning_puzzle_060",
@@ -442,8 +442,8 @@
             "id": "reasoning_puzzle_063",
             "question": "?, 3080, 616, 77, 7, 0.5",
             "options": ["3080", "12320", "6160", "4620"],
-            "correctAnswer": "12320",
-            "explanation": "Successively divide by 4, 5, 8, 11, 14. Missing term = 12320."
+            "correctAnswer": "6160",
+            "explanation": "Successively divide by 2, 5, 8, 11, 14. Missing term = 6160."
           },
           
             {
@@ -457,8 +457,8 @@
               "id": "reasoning_puzzle_065",
               "question": "33, 41, 56, ?, 115, 163",
               "options": ["79", "83", "84", "80"],
-              "correctAnswer": "84",
-              "explanation": "Pattern: +8, +15, +28, +31, +48. Missing term = 84."
+              "correctAnswer": "80",
+              "explanation": "Differences: +8, +15, +24, +35, +48. Second differences increase by 2 each time (+7, +9, +11, +13). Missing term = 56 + 24 = 80."
             },
             {
               "id": "reasoning_puzzle_066",
@@ -485,8 +485,8 @@
               "id": "reasoning_puzzle_069",
               "question": "?, 545, 538, 527, 508, 473",
               "options": ["550", "552", "560", "548"],
-              "correctAnswer": "548",
-              "explanation": "Differences are −3, −7, −11, −19, −35. Working backward gives the missing term as 548."
+              "correctAnswer": "550",
+              "explanation": "Differences: −5, −7, −11, −19, −35. Missing term = 550."
             },
             {
               "id": "reasoning_puzzle_070",
@@ -506,29 +506,29 @@
               "id": "reasoning_puzzle_072",
               "question": "?, 1, 1, 2, 7, 34, 203, 1420",
               "options": ["0.4", "0.5", "4", "2"],
-              "correctAnswer": "0.5",
-              "explanation": "Pattern: ×1+0, ×2−1, ×3+1, ×4−1, ×5−1, ×6−1, ×7−1. Working backward gives 0.5."
+              "correctAnswer": "2",
+              "explanation": ""
             },
             {
               "id": "reasoning_puzzle_073",
               "question": "60, 65, 75, 105, 225, ?, 4425",
               "options": ["1050", "975", "900", "825"],
-              "correctAnswer": "675",
-              "explanation": "Pattern: +5, +10, +30, +120, ×3, ×6. Missing term = 225 × 3 = 675."
+              "correctAnswer": "825",
+              "explanation": "Increments: +5, +10 (×2), +30 (×3), +120 (×4), +600 (×5), +3600 (×6). Missing term = 225 + 600 = 825."
             },
             {
               "id": "reasoning_puzzle_074",
               "question": "12, 13, 15, 21, 45, ?, 885",
               "options": ["165", "180", "75", "135"],
-              "correctAnswer": "180",
-              "explanation": "Pattern: +1, +2, +6, +24, ×4, ×5−15. Missing term = 180."
+              "correctAnswer": "165",
+              "explanation": "Increments: +1, +2 (×2), +6 (×3), +24 (×4), +120 (×5), +720 (×6). Missing term = 45 + 120 = 165."
             },
             {
               "id": "reasoning_puzzle_075",
               "question": "7, ?, 3, 5, 14, 58.50",
               "options": ["2", "3", "4", "1"],
-              "correctAnswer": "2",
-              "explanation": "Pattern: −5, +1, +2, ×2.8, ×4.1786. Missing term = 2."
+              "correctAnswer": "3",
+              "explanation": ""
             }
 
 
