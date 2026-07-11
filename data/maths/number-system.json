@@ -359,7 +359,8 @@
       "5",
       "8"
     ],
-    "correctAnswer": "6",
+    "correctAnswer": "3",
+    "videoUrl": "https://youtu.be/VkuUWM941a8",
     "explanation": "Using the divisibility rule of 11 on the 50-digit repeating sequence, N leaves remainder 5 when divided by 11. Therefore, the smallest number to be added is 11 − 5 = 6.",
     "solution": "# Solution:\n\n**Step 1:** Identify the pattern of the 50-digit number.\n- N = 123456789012345678901234567890... (repeating pattern of 1-9-0)\n- The pattern \"1234567890\" repeats 5 times to make 50 digits\n\n**Step 2:** Apply the divisibility rule for 11.\n- A number is divisible by 11 if the difference between the sum of digits at odd positions and even positions is divisible by 11.\n- Alternating sum = (sum of odd position digits) - (sum of even position digits)\n\n**Step 3:** Calculate the alternating sum for one complete cycle \"1234567890\".\n- Odd positions (1st, 3rd, 5th, 7th, 9th): 1 + 3 + 5 + 7 + 9 = 25\n- Even positions (2nd, 4th, 6th, 8th, 10th): 2 + 4 + 6 + 8 + 0 = 20\n- Alternating sum per cycle = 25 - 20 = 5\n\n**Step 4:** Calculate total alternating sum for 5 complete cycles.\n- Total alternating sum = 5 × 5 = 25\n\n**Step 5:** Find the remainder when divided by 11.\n- 25 = 11 × 2 + 3\n- Remainder = 3\n- To make"
   },
@@ -387,7 +388,7 @@
       "27",
       "34"
     ],
-    "correctAnswer": "32",
+    "correctAnswer": "23",
     "explanation": "For divisibility by 33, the number must be divisible by both 3 and 11. Prime digits are {2,3,5,7}. The combination A=7, B=5, C=3 satisfies the conditions and gives maximum value: 2×7 + 3×5 + 3 = 32.",
     "solution": "# Solution\n\n**Step 1: Divisibility Rule for 33**\nA number is divisible by 33 if it's divisible by both 3 and 11 (since 33 = 3 × 11).\n\n**Step 2: Apply Divisibility by 3**\nSum of all digits must be divisible by 3:\n5 + 2 + A + 6 + B + 7 + C ≡ 0 (mod 3)\n20 + A + B + C ≡ 0 (mod 3)\nA + B + C ≡ 1 (mod 3)\n\n**Step 3: Apply Divisibility by 11**\nAlternating sum of digits must be divisible by 11:\n(5 + A + B + C) - (2 + 6 + 7) ≡ 0 (mod 11)\nA + B + C - 10 ≡ 0 (mod 11)\nA + B + C ≡ 10 (mod 11)\n\n**Step 4: Find A + B + C**\nFrom mod 3: A + B + C ∈ {1, 4, 7, 10, 13, 16, 19, ...}\nFrom mod 11: A + B + C ∈ {10, 21, 32, ...}\n\nCommon value: A + B + C = 10 (since digits are"
   },
