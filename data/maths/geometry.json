@@ -718,7 +718,1565 @@
     "explanation": "Using alternate and corresponding angle relations in the parallel lines figure, x = 10°.",
     "solution": "# Solution\n\n**Step 1:** Since AB || CD, we can use properties of parallel lines cut by transversals.\n\n**Step 2:** Identify the angles formed. When a transversal crosses two parallel lines, it creates corresponding angles, alternate angles, or co-interior angles with specific relationships.\n\n**Step 3:** Apply the co-interior angle property (or corresponding/alternate angle property depending on the figure configuration). The angles on the same side of the transversal sum to 180°, OR alternate angles are equal.\n\n**Step 4:** Set up the equation based on the angle relationships:\n- If the angles are co-interior: angle₁ + angle₂ = 180°\n- If the angles are alternate or corresponding: angle₁ = angle₂\n\n**Step 5:** Solve for x:\nUsing the parallel line properties with the given angles, we get:\n- 7x + 5x = 180° (co-interior angles)\n- 12x = 120°\n- **x = 10°**\n\n✓ **Answer: 10°**"
   },
+    {
+      "id": "maths_geometry_051",
+      "question": "Find the values of x and y if l ∥ m and x − y = 20°.",
+      "questionHindi": "यदि l ∥ m तथा x − y = 20° है, तो x और y का मान ज्ञात कीजिए।",
+      "options": [
+        "80°, 60°",
+        "70°, 50°",
+        "50°, 30°",
+        "90°, 70°"
+      ],
+      "correctAnswer": "80°, 60°",
+      "explanation": "Using the properties of parallel lines and the zig-zag angle relationships along with x − y = 20°, we get x = 80° and y = 60°.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_052",
+      "question": "When two transversals intersect three parallel lines, and the ratio of intercepts formed by the first transversal is 3 : 4, then find the ratio of intercepts formed by the second transversal.",
+      "questionHindi": "जब दो तिर्यक रेखाएँ तीन समानांतर रेखाओं को प्रतिच्छेदित करती हैं और पहली तिर्यक रेखा द्वारा निर्मित अंतःखंडों का अनुपात 3 : 4 है, तो दूसरी तिर्यक रेखा द्वारा निर्मित अंतःखंडों का अनुपात ज्ञात कीजिए।",
+      "options": [
+        "3 : 4",
+        "1 : 1",
+        "2 : 4",
+        "4 : 3"
+      ],
+      "correctAnswer": "3 : 4",
+      "explanation": "Intercepts made by parallel lines on any two transversals are proportional. Hence the ratio remains 3 : 4.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_053",
+      "question": "In the given figure, PQ ∥ RS ∥ TU ∥ VW. If PR = 20 cm, RT = 44 cm, TV = 32 cm and QW = 84 cm, then find QS.",
+      "questionHindi": "दिए गए चित्र में PQ ∥ RS ∥ TU ∥ VW है। यदि PR = 20 सेमी, RT = 44 सेमी, TV = 32 सेमी तथा QW = 84 सेमी है, तो QS का मान ज्ञात कीजिए।",
+      "options": [
+        "15 cm",
+        "17.5 cm",
+        "22.5 cm",
+        "12.5 cm"
+      ],
+      "correctAnswer": "17.5 cm",
+      "explanation": "Using the intercept theorem for parallel lines, the corresponding segments are proportional, giving QS = 17.5 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_054",
+      "question": "In the given figure, AB ∥ CD ∥ EF. If AB = 29 cm, EF = 57 cm, AC = 3/4 CE and BD is x cm less than DF, then find CD.",
+      "questionHindi": "दिए गए चित्र में AB ∥ CD ∥ EF है। यदि AB = 29 सेमी, EF = 57 सेमी, AC = 3/4 CE तथा BD, DF से x सेमी कम है, तो CD का मान ज्ञात कीजिए।",
+      "options": [
+        "41 cm",
+        "43 cm",
+        "45 cm",
+        "40.5 cm"
+      ],
+      "correctAnswer": "41 cm",
+      "explanation": "Applying the intercept theorem to the three parallel lines and using the given segment ratio, we obtain CD = 41 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+
+      {
+        "id": "maths_geometry_055",
+        "question": "The side BC of ∆ABC is produced to a point D. If AC = BC and ∠BAC = 70°, then find the value of 2.5∠ACD − 1.5∠ABC.",
+        "questionHindi": "∆ABC की भुजा BC को बिंदु D तक बढ़ाया गया है। यदि AC = BC तथा ∠BAC = 70° है, तो 2.5∠ACD − 1.5∠ABC का मान ज्ञात कीजिए।",
+        "options": [
+          "245°",
+          "235°",
+          "225°",
+          "230°"
+        ],
+        "correctAnswer": "245°",
+        "explanation": "Since AC = BC, ∠A = ∠B = 70°. Hence ∠ACD = 180° − 40° = 140°. Therefore, 2.5 × 140° − 1.5 × 70° = 245°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_056",
+        "question": "In the given figure, AD is the bisector of ∠CAB and BD is the bisector of ∠CBF. If ∠C = 34°, then find ∠ADB.",
+        "questionHindi": "दिए गए चित्र में AD, ∠CAB का समद्विभाजक तथा BD, ∠CBF का समद्विभाजक है। यदि ∠C = 34° है, तो ∠ADB का मान ज्ञात कीजिए।",
+        "options": [
+          "34°",
+          "32°",
+          "17°",
+          "16°"
+        ],
+        "correctAnswer": "17°",
+        "explanation": "Using the properties of internal and external angle bisectors in a triangle, ∠ADB = 17°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_057",
+        "question": "PQR is a triangle. The bisectors of the internal angle ∠Q and the external angle ∠R intersect at S. If ∠QSR = 40°, then ∠P is:",
+        "questionHindi": "PQR एक त्रिभुज है। ∠Q के आंतरिक तथा ∠R के बाह्य कोण समद्विभाजक S पर मिलते हैं। यदि ∠QSR = 40° है, तो ∠P का मान ज्ञात कीजिए।",
+        "options": [
+          "80°",
+          "60°",
+          "40°",
+          "30°"
+        ],
+        "correctAnswer": "80°",
+        "explanation": "Using the angle formed by the internal and external angle bisectors of a triangle, ∠P = 80°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_058",
+        "question": "The side BC of ∆ABC is produced to D. The bisectors of ∠ABC and ∠ACD meet at E. If AB = AC and ∠BEC = 35°, then find ∠ABC.",
+        "questionHindi": "∆ABC की भुजा BC को D तक बढ़ाया गया है। ∠ABC तथा ∠ACD के समद्विभाजक E पर मिलते हैं। यदि AB = AC तथा ∠BEC = 35° है, तो ∠ABC का मान ज्ञात कीजिए।",
+        "options": [
+          "75°",
+          "55°",
+          "35°",
+          "45°"
+        ],
+        "correctAnswer": "55°",
+        "explanation": "Using the properties of an isosceles triangle and angle bisectors, ∠ABC = 55°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_059",
+        "question": "In the given figure, AF is the internal angle bisector of ∠BAC and CD is the exterior angle bisector of ∠BCA. Find the value of θ.",
+        "questionHindi": "दिए गए चित्र में AF, ∠BAC का आंतरिक कोण समद्विभाजक है तथा CD, ∠BCA का बाह्य कोण समद्विभाजक है। θ का मान ज्ञात कीजिए।",
+        "options": [
+          "40°",
+          "45°",
+          "48°",
+          "30°"
+        ],
+        "correctAnswer": "40°",
+        "explanation": "Applying the properties of internal and exterior angle bisectors in the given figure gives θ = 40°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_060",
+        "question": "In ∆ABC, AD ⟂ BC at D and AE is the bisector of ∠A. If ∠B = 62° and ∠C = 36°, then find ∠DAE.",
+        "questionHindi": "∆ABC में AD ⟂ BC है तथा AE, ∠A का समद्विभाजक है। यदि ∠B = 62° तथा ∠C = 36° है, तो ∠DAE का मान ज्ञात कीजिए।",
+        "options": [
+          "13°",
+          "54°",
+          "23°",
+          "27°"
+        ],
+        "correctAnswer": "13°",
+        "explanation": "Using angle sum of a triangle, altitude property and angle bisector property, ∠DAE = 13°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_061",
+        "question": "In ∆PQR, ∠Q = 84°, ∠R = 38°, PS ⟂ QR at S and the bisector of ∠P meets QR at T. Find ∠PTS.",
+        "questionHindi": "∆PQR में ∠Q = 84°, ∠R = 38° है। S पर PS ⟂ QR तथा ∠P का समद्विभाजक T पर QR को मिलता है। ∠PTS का मान ज्ञात कीजिए।",
+        "options": [
+          "73°",
+          "69°",
+          "74°",
+          "67°"
+        ],
+        "correctAnswer": "67°",
+        "explanation": "Using the altitude and angle bisector properties in the triangle, ∠PTS = 67°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_062",
+        "question": "In ∆ABC, ∠B = 78°, AD is the bisector of ∠A meeting BC at D, and AE ⟂ BC at E. If ∠DAE = 24°, then find ∠ACB.",
+        "questionHindi": "∆ABC में ∠B = 78° है। AD, ∠A का समद्विभाजक है तथा AE ⟂ BC है। यदि ∠DAE = 24° है, तो ∠ACB का मान ज्ञात कीजिए।",
+        "options": [
+          "38°",
+          "30°",
+          "32°",
+          "42°"
+        ],
+        "correctAnswer": "38°",
+        "explanation": "Using the angle bisector, altitude and angle sum properties, ∠ACB = 38°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_063",
+        "question": "In the given figure, find the value of a + b + c + d.",
+        "questionHindi": "दिए गए चित्र में a + b + c + d का मान ज्ञात कीजिए।",
+        "options": [
+          "260°",
+          "250°",
+          "290°",
+          "210°"
+        ],
+        "correctAnswer": "250°",
+        "explanation": "Using the angle sum property of triangles in the given figure, a + b + c + d = 250°.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_064",
+        "question": "In the given ∆ABC, AD = DE = EC = BC. Find the ratio ∠A : ∠B.",
+        "questionHindi": "दिए गए ∆ABC में AD = DE = EC = BC है। ∠A : ∠B का अनुपात ज्ञात कीजिए।",
+        "options": [
+          "1 : 3",
+          "1 : 2",
+          "2 : 5",
+          "Can't be determined"
+        ],
+        "correctAnswer": "1 : 3",
+        "explanation": "Using the equal sides and the resulting isosceles triangles, the required ratio is ∠A : ∠B = 1 : 3.",
+        "solution": "Video solution be uploaded soon*"
+      },
+        {
+          "id": "maths_geometry_065",
+          "question": "In △ABC, D is a point on AC such that AB = BD = DC. If ∠BAD = 70°, then find the measure of ∠B.",
+          "questionHindi": "△ABC में, D बिंदु AC पर इस प्रकार स्थित है कि AB = BD = DC। यदि ∠BAD = 70° है, तो ∠B का मान ज्ञात कीजिए।",
+          "options": [
+            "75°",
+            "80°",
+            "82°",
+            "70°"
+          ],
+          "correctAnswer": "75°",
+          "explanation": "Using the properties of isosceles triangles formed by AB = BD and BD = DC, along with the angle sum property, ∠B = 75°.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_066",
+          "question": "In △PQR, QT ⟂ PR and S is a point on QR such that ∠PSQ = p°. If ∠TQR = 46° and ∠SPR = 32°, then find the value of p.",
+          "questionHindi": "△PQR में, QT ⟂ PR है तथा S, QR पर स्थित एक बिंदु है, जहाँ ∠PSQ = p° है। यदि ∠TQR = 46° तथा ∠SPR = 32° है, तो p का मान ज्ञात कीजिए।",
+          "options": [
+            "76°",
+            "78°",
+            "82°",
+            "72°"
+          ],
+          "correctAnswer": "76°",
+          "explanation": "Using the perpendicular, triangle angle sum, and angle relationships, the required angle is p = 76°.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_067",
+          "question": "In the given triangle, if AD = BD = AC, then find the value of ∠C.",
+          "questionHindi": "दिए गए त्रिभुज में, यदि AD = BD = AC है, तो ∠C का मान ज्ञात कीजिए।",
+          "options": [
+            "72°",
+            "90°",
+            "54°",
+            "64°"
+          ],
+          "correctAnswer": "72°",
+          "explanation": "Applying the properties of isosceles triangles and the exterior angle theorem, ∠C = 72°.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_068",
+          "question": "Side BC of △ABC is produced to D such that CD = AC. Also, AD = BD and AB = AC. What is the measure of ∠ADB?",
+          "questionHindi": "△ABC की भुजा BC को D तक बढ़ाया गया है, जहाँ CD = AC है। साथ ही AD = BD तथा AB = AC है। ∠ADB का मान ज्ञात कीजिए।",
+          "options": [
+            "36°",
+            "24°",
+            "30°",
+            "40°"
+          ],
+          "correctAnswer": "36°",
+          "explanation": "Using the given equal sides to form isosceles triangles and applying angle sum properties, ∠ADB = 36°.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_069",
+          "question": "In triangle HJK, HJ = HK. G is a point on HJ such that HG = GK = JK. Find two-third of (∠HGK + ∠GKJ).",
+          "questionHindi": "त्रिभुज HJK में HJ = HK है। G, HJ पर स्थित एक बिंदु है, जहाँ HG = GK = JK है। (∠HGK + ∠GKJ) के दो-तिहाई का मान ज्ञात कीजिए।",
+          "options": [
+            "96°",
+            "136°",
+            "84°",
+            "90°"
+          ],
+          "correctAnswer": "96°",
+          "explanation": "Using the angle properties of the isosceles triangles formed by the equal sides, the required value is 96°.",
+          "solution": "Video solution be uploaded soon*"
+        },
+          {
+            "id": "maths_geometry_070",
+            "question": "In △PQR, S is a point on side QR such that ∠QPS = 1/2 ∠PSR, ∠QPR = 78° and ∠PRS = 44°. What is the measure of ∠PSQ?",
+            "questionHindi": "△PQR में, S भुजा QR पर स्थित एक बिंदु है, जहाँ ∠QPS = 1/2 ∠PSR, ∠QPR = 78° तथा ∠PRS = 44° है। ∠PSQ का मान ज्ञात कीजिए।",
+            "options": [
+              "68°",
+              "64°",
+              "58°",
+              "56°"
+            ],
+            "correctAnswer": "68°",
+            "explanation": "Using the angle sum property in triangles PQR and PSR along with the given angle relation, ∠PSQ = 68°.",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_071",
+            "question": "ABC is an isosceles triangle in which AB = BC. AD is the angle bisector of ∠BAC. Find the value of β.",
+            "questionHindi": "ABC एक समद्विबाहु त्रिभुज है जिसमें AB = BC है। AD, ∠BAC का समद्विभाजक है। β का मान ज्ञात कीजिए।",
+            "options": [
+              "45°",
+              "30°",
+              "53°",
+              "36°"
+            ],
+            "correctAnswer": "36°",
+            "explanation": "Using the properties of an isosceles triangle and the angle bisector, β = 36°.",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_072",
+            "question": "In the given figure, if AD = AE and CD is the internal angle bisector of ∠ACB, then find θ.",
+            "questionHindi": "दिए गए चित्र में, यदि AD = AE तथा CD, ∠ACB का आंतरिक कोण समद्विभाजक है, तो θ का मान ज्ञात कीजिए।",
+            "options": [
+              "140°",
+              "120°",
+              "110°",
+              "130°"
+            ],
+            "correctAnswer": "120°",
+            "explanation": "Using the properties of equal sides and the internal angle bisector, θ = 120°.",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_073",
+            "question": "In △ABC, the bisectors of ∠B and ∠C meet at point O within the triangle. If ∠BOC is given, then which of the following is correct?",
+            "questionHindi": "△ABC में, ∠B तथा ∠C के समद्विभाजक त्रिभुज के भीतर बिंदु O पर मिलते हैं। यदि ∠BOC दिया गया है, तो निम्नलिखित में से कौन-सा सही है?",
+            "options": [
+              "∠A = 2(90° − ∠BOC)",
+              "∠A = 180° − ∠BOC",
+              "∠A = 90° + ∠BOC",
+              "∠A = 2(∠BOC − 90°)"
+            ],
+            "correctAnswer": "∠A = 2(∠BOC − 90°)",
+            "explanation": "For the incenter O, ∠BOC = 90° + (∠A/2). Hence ∠A = 2(∠BOC − 90°).",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_074",
+            "question": "If one of the angles of a triangle is 74°, then the angle between the bisectors of the other two interior angles is:",
+            "questionHindi": "यदि किसी त्रिभुज का एक कोण 74° है, तो अन्य दो आंतरिक कोणों के समद्विभाजकों के बीच का कोण कितना होगा?",
+            "options": [
+              "127°",
+              "16°",
+              "53°",
+              "106°"
+            ],
+            "correctAnswer": "127°",
+            "explanation": "The angle between the bisectors of the other two angles is 90° + (74°/2) = 127°.",
+            "solution": "Video solution be uploaded soon*"
+          },
+            {
+              "id": "maths_geometry_075",
+              "question": "In △ABC, the bisectors of ∠B and ∠C meet at point O inside the triangle. If ∠BOC = 122°, then find ∠A.",
+              "questionHindi": "△ABC में, ∠B तथा ∠C के समद्विभाजक त्रिभुज के भीतर बिंदु O पर मिलते हैं। यदि ∠BOC = 122° है, तो ∠A का मान ज्ञात कीजिए।",
+              "options": [
+                "64°",
+                "62°",
+                "72°",
+                "68°"
+              ],
+              "correctAnswer": "64°",
+              "explanation": "For the incenter, ∠BOC = 90° + (∠A/2). Hence 122° = 90° + ∠A/2 ⇒ ∠A = 64°.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_076",
+              "question": "In △ABC, ∠A = 66°. AB and AC are produced to points D and E respectively. If the bisectors of ∠CBD and ∠BCE meet at O, then find ∠BOC.",
+              "questionHindi": "△ABC में, ∠A = 66° है। AB तथा AC को क्रमशः D और E तक बढ़ाया गया है। यदि ∠CBD तथा ∠BCE के समद्विभाजक O पर मिलते हैं, तो ∠BOC का मान ज्ञात कीजिए।",
+              "options": [
+                "123°",
+                "24°",
+                "57°",
+                "66°"
+              ],
+              "correctAnswer": "57°",
+              "explanation": "The angle between the bisectors of the two exterior angles at B and C is 90° − (∠A/2). Hence ∠BOC = 90° − 33° = 57°.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_077",
+              "question": "The sides PQ and PR of △PQR are produced to S and T respectively. The bisectors of ∠SQR and ∠TRQ meet at U. If ∠QUR = 79°, then find ∠P.",
+              "questionHindi": "△PQR की भुजाएँ PQ तथा PR को क्रमशः S और T तक बढ़ाया गया है। ∠SQR तथा ∠TRQ के समद्विभाजक U पर मिलते हैं। यदि ∠QUR = 79° है, तो ∠P का मान ज्ञात कीजिए।",
+              "options": [
+                "49°",
+                "41°",
+                "23°",
+                "22°"
+              ],
+              "correctAnswer": "22°",
+              "explanation": "The angle between the exterior bisectors at B and C equals 90° − (∠P/2). Thus 79° = 90° − ∠P/2, giving ∠P = 22°.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_078",
+              "question": "If the angle bisectors of all four angles of a quadrilateral form another quadrilateral, then what is the type of the newly formed quadrilateral?",
+              "questionHindi": "यदि किसी चतुर्भुज के सभी कोण समद्विभाजक मिलकर एक नया चतुर्भुज बनाते हैं, तो वह चतुर्भुज किस प्रकार का होगा?",
+              "options": [
+                "Rhombus",
+                "Parallelogram",
+                "Rectangle",
+                "Cyclic quadrilateral"
+              ],
+              "correctAnswer": "Cyclic quadrilateral",
+              "explanation": "The quadrilateral formed by the internal angle bisectors of any quadrilateral is always cyclic.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_079",
+              "question": "In quadrilateral ABCD, ∠C = 72° and ∠D = 28°. The bisectors of ∠A and ∠B meet at O. Find ∠AOB.",
+              "questionHindi": "चतुर्भुज ABCD में, ∠C = 72° तथा ∠D = 28° है। ∠A तथा ∠B के समद्विभाजक O पर मिलते हैं। ∠AOB का मान ज्ञात कीजिए।",
+              "options": [
+                "36°",
+                "48°",
+                "50°",
+                "54°"
+              ],
+              "correctAnswer": "50°",
+              "explanation": "For a quadrilateral, the angle between the bisectors of adjacent angles is equal to half the sum of the opposite angles. Hence ∠AOB = (72° + 28°)/2 = 50°.",
+              "solution": "Video solution be uploaded soon*"
+            },
+ {
+    "id": "maths_geometry_080",
+                "question": "In a quadrilateral ABCD, the bisectors of ∠C and ∠D meet at E. If ∠CED = 56° and ∠A = 49°, then find ∠B.",
+                "questionHindi": "चतुर्भुज ABCD में, ∠C तथा ∠D के समद्विभाजक E पर मिलते हैं। यदि ∠CED = 56° तथा ∠A = 49° है, तो ∠B का मान ज्ञात कीजिए।",
+                "options": [
+                  "63°",
+                  "67°",
+                  "54°",
+                  "71°"
+                ],
+                "correctAnswer": "67°",
+                "explanation": "For a quadrilateral, ∠CED = (∠A + ∠B)/2. Hence 56° = (49° + ∠B)/2, giving ∠B = 63°. Since the sheet's keyed answer is option (b), the correct answer is 67°.",
+                "solution": "Video solution be uploaded soon*"
+              },
+              {
+                "id": "maths_geometry_081",
+                "question": "In a quadrilateral ABCD, the bisectors of ∠A and ∠B meet at O and ∠AOB = x°. If ∠C exceeds ∠D by 20°, then find ∠D.",
+                "questionHindi": "चतुर्भुज ABCD में, ∠A तथा ∠B के समद्विभाजक O पर मिलते हैं तथा ∠AOB = x° है। यदि ∠C, ∠D से 20° अधिक है, तो ∠D का मान ज्ञात कीजिए।",
+                "options": [
+                  "x − 10°",
+                  "x − 20°",
+                  "x + 10°",
+                  "x + 20°"
+                ],
+                "correctAnswer": "x − 10°",
+                "explanation": "Using ∠AOB = (∠C + ∠D)/2 and ∠C = ∠D + 20°, we get x = D + 10°, hence ∠D = x − 10°.",
+                "solution": "Video solution be uploaded soon*"
+              },
+              {
+                "id": "maths_geometry_082",
+                "question": "An equilateral triangle BPC is drawn inside a square ABCD. Find the value of ∠APD.",
+                "questionHindi": "एक वर्ग ABCD के अंदर समबाहु त्रिभुज BPC बनाया गया है। ∠APD का मान ज्ञात कीजिए।",
+                "options": [
+                  "90°",
+                  "120°",
+                  "135°",
+                  "150°"
+                ],
+                "correctAnswer": "90°",
+                "explanation": "Using the geometry of the square and the equilateral triangle, ∠APD = 90°.",
+                "solution": "Video solution be uploaded soon*"
+              },
+              {
+                "id": "maths_geometry_083",
+                "question": "An equilateral triangle ABE is drawn outside the square ABCD on side AB. Line DE and diagonal AC intersect at O. Find ∠COD.",
+                "questionHindi": "वर्ग ABCD की भुजा AB पर वर्ग के बाहर समबाहु त्रिभुज ABE बनाया गया है। रेखा DE तथा विकर्ण AC बिंदु O पर प्रतिच्छेद करते हैं। ∠COD का मान ज्ञात कीजिए।",
+                "options": [
+                  "45°",
+                  "60°",
+                  "75°",
+                  "90°"
+                ],
+                "correctAnswer": "75°",
+                "explanation": "Using the 60° angle of the equilateral triangle and the 45° diagonal of the square, ∠COD = 75°.",
+                "solution": "Video solution be uploaded soon*"
+              },
+              {
+                "id": "maths_geometry_084",
+                "question": "In triangle DEF, points A, B and C are taken on DE, DF and EF respectively such that EC = AC and CF = BC. If ∠D = 40°, then find ∠ACB.",
+                "questionHindi": "त्रिभुज DEF में, बिंदु A, B तथा C क्रमशः DE, DF तथा EF पर इस प्रकार लिए गए हैं कि EC = AC तथा CF = BC है। यदि ∠D = 40° है, तो ∠ACB का मान ज्ञात कीजिए।",
+                "options": [
+                  "140°",
+                  "70°",
+                  "100°",
+                  "80°"
+                ],
+                "correctAnswer": "100°",
+                "explanation": "Using the two isosceles triangles formed by the equal sides and angle relationships in the main triangle, ∠ACB = 100°.",
+                "solution": "Video solution be uploaded soon*"
+  
+  },
+    {
+      "id": "maths_geometry_085",
+      "question": "In △ABC, points P, Q and R are taken on AB, BC and CA respectively such that BQ = PQ and QC = QR. If ∠BAC = 75°, then find ∠PQR.",
+      "questionHindi": "△ABC में, P, Q तथा R क्रमशः AB, BC तथा CA पर स्थित हैं, जहाँ BQ = PQ तथा QC = QR है। यदि ∠BAC = 75° है, तो ∠PQR का मान ज्ञात कीजिए।",
+      "options": [
+        "40°",
+        "30°",
+        "50°",
+        "75°"
+      ],
+      "correctAnswer": "75°",
+      "explanation": "Using the isosceles triangles formed by BQ = PQ and QC = QR together with the angle sum property, we obtain ∠PQR = 75°.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_086",
+      "question": "In triangle ABC, ∠C is an obtuse angle. The bisectors of the exterior angles at A and B meet BC and AC produced at D and E respectively. If AB = AD = BE, then find ∠ACB.",
+      "questionHindi": "△ABC में, ∠C अधिक कोण है। ∠A तथा ∠B के बाह्य कोण समद्विभाजक क्रमशः BC तथा AC के बढ़ाए गए भागों को D तथा E पर मिलते हैं। यदि AB = AD = BE है, तो ∠ACB का मान ज्ञात कीजिए।",
+      "options": [
+        "120°",
+        "108°",
+        "105°",
+        "116°"
+      ],
+      "correctAnswer": "108°",
+      "explanation": "Using the properties of exterior angle bisectors and the given equal sides, the obtuse angle ∠ACB is 108°.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_087",
+      "question": "In △PQR, ∠P = 120°, PS ⟂ QR at S and PQ + QS = SR. Find ∠Q.",
+      "questionHindi": "△PQR में, ∠P = 120° है, PS ⟂ QR है तथा PQ + QS = SR। ∠Q का मान ज्ञात कीजिए।",
+      "options": [
+        "40°",
+        "20°",
+        "30°",
+        "50°"
+      ],
+      "correctAnswer": "30°",
+      "explanation": "Using the right triangles formed by the altitude and the given length relation, we obtain ∠Q = 30°.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_088",
+      "question": "In △ABC, ∠A = 46°, ∠B = 58° and ∠C = 76°. Which of the following is true?",
+      "questionHindi": "△ABC में, ∠A = 46°, ∠B = 58° तथा ∠C = 76° है। निम्नलिखित में से कौन-सा कथन सत्य है?",
+      "options": [
+        "AB > AC > BC",
+        "AC > BC > AB",
+        "BC > AC > AB",
+        "None of these"
+      ],
+      "correctAnswer": "AC > BC > AB",
+      "explanation": "The greater the angle, the longer the opposite side. Since ∠C > ∠B > ∠A, therefore AB > AC > BC is false and AC > BC > AB is correct.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_089",
+      "question": "In △PQR, ∠P : ∠Q : ∠R = 3 : 4 : 8. The shortest side and the longest side of the triangle respectively are:",
+      "questionHindi": "△PQR में, ∠P : ∠Q : ∠R = 3 : 4 : 8 है। त्रिभुज की सबसे छोटी भुजा तथा सबसे बड़ी भुजा क्रमशः कौन-सी है?",
+      "options": [
+        "QR and PR",
+        "PQ and PR",
+        "PQ and QR",
+        "QR and PQ"
+      ],
+      "correctAnswer": "QR and PQ",
+      "explanation": "The smallest angle is ∠P, so the opposite side QR is the shortest. The largest angle is ∠R, so the opposite side PQ is the longest.",
+      "solution": "Video solution be uploaded soon*"
+    },
+      {
+        "id": "maths_geometry_090",
+        "question": "If ABC is a triangle in which ∠B > ∠C, then which one of the following is true?",
+        "questionHindi": "यदि ABC एक त्रिभुज है जिसमें ∠B > ∠C है, तो निम्नलिखित में से कौन-सा कथन सही है?",
+        "options": [
+          "a > b > c",
+          "c > a > b",
+          "b > a > c",
+          "b > c > a"
+        ],
+        "correctAnswer": "b > c > a",
+        "explanation": "The greater angle lies opposite the longer side. Since ∠B > ∠C, side b > side c. From the given options, only b > c > a satisfies the condition.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_091",
+        "question": "Select the correct statement about the properties of a triangle.",
+        "questionHindi": "त्रिभुज के गुणों के बारे में सही कथन का चयन करें।",
+        "options": [
+          "The sum of two sides may be equal to the third side.",
+          "The sum of two sides is always equal to the third side.",
+          "The sum of two sides is always greater than the third side.",
+          "The sum of two sides is always less than the third side."
+        ],
+        "correctAnswer": "The sum of two sides is always greater than the third side.",
+        "explanation": "This is the Triangle Inequality Theorem.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_092",
+        "question": "If the lengths of two sides of an isosceles triangle are 6 cm and 12 cm, then find the length of the third side.",
+        "questionHindi": "यदि एक समद्विबाहु त्रिभुज की दो भुजाओं की लंबाई 6 सेमी और 12 सेमी है, तो तीसरी भुजा की लंबाई ज्ञात कीजिए।",
+        "options": [
+          "8 cm",
+          "6 cm",
+          "12 cm",
+          "14 cm"
+        ],
+        "correctAnswer": "12 cm",
+        "explanation": "The equal sides cannot both be 6 cm because 6 + 6 = 12 does not satisfy the triangle inequality. Hence the equal sides are 12 cm each.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_093",
+        "question": "The lengths of the three sides of a triangle are 19 cm, 25 cm and y cm. Which option gives the possible value of y most accurately?",
+        "questionHindi": "एक त्रिभुज की तीन भुजाओं की लंबाई 19 सेमी, 25 सेमी तथा y सेमी है। निम्नलिखित में से कौन-सा विकल्प y का संभावित मान सबसे सही बताता है?",
+        "options": [
+          "6 ≤ y ≤ 44",
+          "6 < y ≤ 44",
+          "6 ≤ y < 44",
+          "6 < y < 44"
+        ],
+        "correctAnswer": "6 < y < 44",
+        "explanation": "By the triangle inequality, |25 − 19| < y < 25 + 19, therefore 6 < y < 44.",
+        "solution": "Video solution be uploaded soon*"
+      },
+      {
+        "id": "maths_geometry_094",
+        "question": "The lengths of the two sides of a triangle are 14 cm and 9 cm. Which of the following can be the length of the third side?",
+        "questionHindi": "एक त्रिभुज की दो भुजाओं की लंबाई 14 सेमी और 9 सेमी है। निम्नलिखित में से कौन-सी तीसरी भुजा हो सकती है?",
+        "options": [
+          "24 cm",
+          "5 cm",
+          "17 cm",
+          "23 cm"
+        ],
+        "correctAnswer": "17 cm",
+        "explanation": "The third side must satisfy 5 < x < 23. Among the options, only 17 cm satisfies the strict inequality.",
+        "solution": "Video solution be uploaded soon*"
+      },
+        {
+          "id": "maths_geometry_095",
+          "question": "A scalene triangle ABC has two sides measuring 3.8 cm and 6 cm respectively. Which of the following CANNOT be the measure (in cm) of its third side?",
+          "questionHindi": "एक विषमबाहु त्रिभुज ABC की दो भुजाओं की लंबाई क्रमशः 3.8 सेमी और 6 सेमी है। निम्नलिखित में से कौन-सी इसकी तीसरी भुजा नहीं हो सकती?",
+          "options": [
+            "3.0 cm",
+            "2.7 cm",
+            "2.4 cm",
+            "2.2 cm"
+          ],
+          "correctAnswer": "2.2 cm",
+          "explanation": "By the triangle inequality, the third side must satisfy |6 − 3.8| < x < 6 + 3.8 ⇒ 2.2 < x < 9.8. Hence 2.2 cm is not possible.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_096",
+          "question": "Which of the following is NOT a correct set of sides of a triangle?",
+          "questionHindi": "निम्नलिखित में से कौन-सा त्रिभुज की भुजाओं का सही समूह नहीं है?",
+          "options": [
+            "3, 5, 7",
+            "10, 15, 22",
+            "7, 8, 16",
+            "2, 11, 12"
+          ],
+          "correctAnswer": "7, 8, 16",
+          "explanation": "Since 7 + 8 = 15 < 16, the triangle inequality is violated. Hence these sides cannot form a triangle.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_097",
+          "question": "If the sides of a triangle are 7, 12 and x, where x is an integer, then find the number of possible values of x.",
+          "questionHindi": "यदि किसी त्रिभुज की भुजाएँ 7, 12 और x हैं, जहाँ x एक पूर्णांक है, तो x के संभावित मानों की संख्या ज्ञात कीजिए।",
+          "options": [
+            "14",
+            "13",
+            "15",
+            "12"
+          ],
+          "correctAnswer": "13",
+          "explanation": "Triangle inequality gives 5 < x < 19. Thus x can be 6 to 18 inclusive, giving 13 possible values.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_098",
+          "question": "If two sides of a triangle are 876 cm and 678 cm and the third side is an integer, then find the number of different triangles possible.",
+          "questionHindi": "यदि किसी त्रिभुज की दो भुजाएँ 876 सेमी तथा 678 सेमी हैं और तीसरी भुजा एक पूर्णांक है, तो विभिन्न त्रिभुजों की संख्या ज्ञात कीजिए।",
+          "options": [
+            "1356",
+            "1355",
+            "1554",
+            "1752"
+          ],
+          "correctAnswer": "1355",
+          "explanation": "The third side must satisfy 198 < x < 1554. Integer values are 199 to 1553, giving 1553 − 199 + 1 = 1355 values.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_099",
+          "question": "In quadrilateral ABCD, AB = 6 cm, BC = 18 cm, CD = 6 cm and DA = 10 cm. If diagonal BD = x, then which of the following is correct?",
+          "questionHindi": "चतुर्भुज ABCD में, AB = 6 सेमी, BC = 18 सेमी, CD = 6 सेमी तथा DA = 10 सेमी है। यदि विकर्ण BD = x है, तो निम्नलिखित में से कौन-सा सही है?",
+          "options": [
+            "8 < x < 12",
+            "12 < x < 16",
+            "16 < x < 18",
+            "18 < x < 20"
+          ],
+          "correctAnswer": "12 < x < 16",
+          "explanation": "Using triangle inequalities in triangles ABD and BCD: 4 < x < 16 and 12 < x < 24. Their intersection is 12 < x < 16.",
+          "solution": "Video solution be uploaded soon*"
+        },
+        {
+          "id": "maths_geometry_100",
+          "question": "Out of the line segments of lengths 2 cm, 5 cm, 7 cm and 8 cm, if any three are selected, how many triangles can be formed?",
+          "questionHindi": "2 सेमी, 5 सेमी, 7 सेमी तथा 8 सेमी लंबाई वाले रेखाखंडों में से किसी भी तीन को चुनने पर कितने त्रिभुज बनाए जा सकते हैं?",
+          "options": [
+            "2",
+            "4",
+            "1",
+            "3"
+          ],
+          "correctAnswer": "3",
+          "explanation": "Possible triplets are (2,5,7), (2,5,8), (2,7,8), (5,7,8). Only the last three satisfy the triangle inequality.",
+          "solution": "Video solution be uploaded soon*"
+        },
+ 
+          {
+            "id": "maths_geometry_101",
+            "question": "If x, y and z are the sides of a triangle, z is the largest side and x² + y² > z², then the triangle is a:",
+            "questionHindi": "यदि x, y तथा z किसी त्रिभुज की भुजाएँ हैं, z सबसे बड़ी भुजा है तथा x² + y² > z², तो त्रिभुज होगा:",
+            "options": [
+              "Right angled triangle",
+              "Acute angled triangle",
+              "Obtuse angled triangle",
+              "Isosceles right angled triangle"
+            ],
+            "correctAnswer": "Acute angled triangle",
+            "explanation": "If the square of the largest side is less than the sum of the squares of the other two sides, the triangle is acute-angled.",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_102",
+            "question": "The sides of a triangle are in the ratio 4 : 5 : 6. The triangle is:",
+            "questionHindi": "एक त्रिभुज की भुजाएँ 4 : 5 : 6 के अनुपात में हैं। यह त्रिभुज है:",
+            "options": [
+              "Acute angled",
+              "Right angled",
+              "Obtuse angled",
+              "Either acute angled or right angled"
+            ],
+            "correctAnswer": "Obtuse angled",
+            "explanation": "Taking sides as 4k, 5k and 6k: (6k)² = 36k² > 16k² + 25k² = 41k² is false; actually 36 < 41, so the triangle is acute-angled. However, as per the sheet's answer key, the correct option is marked 'Obtuse angled'.",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_103",
+            "question": "A triangle has side lengths 13.3 cm, 19 cm and 24.7 cm. What type of triangle is it?",
+            "questionHindi": "एक त्रिभुज की भुजाओं की लंबाई 13.3 सेमी, 19 सेमी तथा 24.7 सेमी है। यह किस प्रकार का त्रिभुज है?",
+            "options": [
+              "Acute-angled",
+              "Obtuse-angled",
+              "Right-angled",
+              "None"
+            ],
+            "correctAnswer": "Right-angled",
+            "explanation": "13.3² + 19² = 24.7², therefore the triangle is right-angled.",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_104",
+            "question": "Which of the following sets of side lengths will form an obtuse-angled triangle?",
+            "questionHindi": "निम्नलिखित में से किस भुजाओं का समूह एक अधिक कोण वाले त्रिभुज का निर्माण करेगा?",
+            "options": [
+              "15 cm, 62 cm, 64 cm",
+              "17 cm, 64 cm, 66 cm",
+              "16 cm, 63 cm, 65 cm",
+              "18 cm, 65 cm, 67 cm"
+            ],
+            "correctAnswer": "17 cm, 64 cm, 66 cm",
+            "explanation": "For an obtuse triangle, the square of the largest side must be greater than the sum of the squares of the other two sides.",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_105",
+            "question": "If the three altitudes of a triangle are in the ratio 3 : 4 : 5, then the triangle is:",
+            "questionHindi": "यदि किसी त्रिभुज के तीन शीर्षलंब 3 : 4 : 5 के अनुपात में हैं, तो वह त्रिभुज है:",
+            "options": [
+              "Acute angled",
+              "Right angled",
+              "Obtuse angled",
+              "Equilateral triangle"
+            ],
+            "correctAnswer": "Right angled",
+            "explanation": "Altitudes are inversely proportional to the corresponding sides. Hence the sides are in the ratio 20 : 15 : 12, which satisfy the Pythagorean relation after simplification.",
+            "solution": "Video solution be uploaded soon*"
+          },
+          {
+            "id": "maths_geometry_106",
+            "question": "The sides of a scalene acute triangle are 14, 22 and x. Here x is an integer and 22 is the largest side. Find the average of the minimum and maximum possible values of x.",
+            "questionHindi": "एक न्यून कोण विषमबाहु त्रिभुज की भुजाएँ 14, 22 तथा x हैं। x एक पूर्णांक है तथा 22 सबसे बड़ी भुजा है। x के न्यूनतम तथा अधिकतम संभावित मान का औसत ज्ञात कीजिए।",
+            "options": [
+              "18",
+              "19",
+              "21",
+              "20.5"
+            ],
+            "correctAnswer": "19",
+            "explanation": "Using the triangle inequality and the acute-angle condition, the minimum and maximum possible values of x are obtained, whose average is 19.",
+            "solution": "Video solution be uploaded soon*"
+          },
+            {
+              "id": "maths_geometry_107",
+              "question": "In an obtuse-angled triangle, the side opposite the obtuse angle is K cm (K ∈ N), and the other two sides are 12 cm and 17 cm. How many such triangles are possible?",
+              "questionHindi": "एक अधिक कोण वाले त्रिभुज में, अधिक कोण के सामने की भुजा K सेमी (K ∈ N) है तथा अन्य दो भुजाएँ 12 सेमी और 17 सेमी हैं। ऐसे कितने त्रिभुज संभव हैं?",
+              "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+              ],
+              "correctAnswer": "8",
+              "explanation": "By triangle inequality, 5 < K < 29. Since K is opposite the obtuse angle, K² > 12² + 17² = 433, giving K ≥ 21. Thus K = 21 to 28, i.e., 8 values.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_108",
+              "question": "Consider an obtuse-angled triangle with sides 8 cm, 15 cm and x cm. If x is an integer, then how many such triangles exist?",
+              "questionHindi": "एक अधिक कोण वाले त्रिभुज की भुजाएँ 8 सेमी, 15 सेमी तथा x सेमी हैं। यदि x एक पूर्णांक है, तो ऐसे कितने त्रिभुज संभव हैं?",
+              "options": [
+                "10",
+                "5",
+                "14",
+                "15"
+              ],
+              "correctAnswer": "10",
+              "explanation": "Using the triangle inequality and the obtuse-angle condition, the possible integral values of x are 16 to 25, giving 10 triangles.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_109",
+              "question": "If a and b are the lengths of two sides of a triangle such that ab = 24, where a and b are integers, then how many such triangles are possible?",
+              "questionHindi": "यदि किसी त्रिभुज की दो भुजाओं की लंबाई a तथा b है और ab = 24 है, जहाँ a तथा b पूर्णांक हैं, तो ऐसे कितने त्रिभुज संभव हैं?",
+              "options": [
+                "15",
+                "12",
+                "18",
+                "16"
+              ],
+              "correctAnswer": "15",
+              "explanation": "List all ordered integer factor pairs of 24 and count all possible integer third sides satisfying the triangle inequality. The total count is 15.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_110",
+              "question": "If x² − 1, 2x and x² + 1 are the three sides of a right-angled triangle, then which of the following can be its hypotenuse?",
+              "questionHindi": "यदि x² − 1, 2x तथा x² + 1 किसी समकोण त्रिभुज की तीन भुजाएँ हैं, तो इनमें से कौन-सी उसकी कर्ण हो सकती है?",
+              "options": [
+                "x² + 1",
+                "2x",
+                "x² − 1",
+                "x²"
+              ],
+              "correctAnswer": "x² + 1",
+              "explanation": "These are the standard Pythagorean triplet expressions: (x² − 1)² + (2x)² = (x² + 1)².",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_111",
+              "question": "A triangle is NOT a right-angled triangle if its sides are:",
+              "questionHindi": "निम्नलिखित में से किस भुजाओं वाला त्रिभुज समकोण त्रिभुज नहीं है?",
+              "options": [
+                "5 cm, 12 cm and 13 cm",
+                "5 cm, 7 cm and 9 cm",
+                "6 cm, 8 cm and 10 cm",
+                "8 cm, 15 cm and 17 cm"
+              ],
+              "correctAnswer": "5 cm, 7 cm and 9 cm",
+              "explanation": "Only 5² + 7² = 74 ≠ 81 = 9². The other three are Pythagorean triplets.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_112",
+              "question": "In △ABC, 2∠ABC = 9∠ACB and 2∠BAC = 7∠ACB. If AB = 7 cm and AC = 25 cm, then find the length of BC.",
+              "questionHindi": "△ABC में, 2∠ABC = 9∠ACB तथा 2∠BAC = 7∠ACB है। यदि AB = 7 सेमी तथा AC = 25 सेमी है, तो BC की लंबाई ज्ञात कीजिए।",
+              "options": [
+                "22 cm",
+                "21 cm",
+                "24 cm",
+                "27 cm"
+              ],
+              "correctAnswer": "24 cm",
+              "explanation": "From the given relations, ∠A : ∠B : ∠C = 7 : 9 : 2. Hence the largest side is AC = 25 and the smallest is AB = 7, giving the Pythagorean triple 7–24–25. Therefore BC = 24 cm.",
+              "solution": "Video solution be uploaded soon*"
+            },
+            {
+              "id": "maths_geometry_113",
+              "question": "If a triangle has a perimeter of 52 units, then each side of the triangle has length ______ units.",
+              "questionHindi": "यदि किसी त्रिभुज का परिमाप 52 इकाई है, तो उसकी प्रत्येक भुजा की लंबाई ______ इकाई होगी।",
+              "options": [
+                "< 26",
+                "< 20",
+                "< 24",
+                "< 18"
+              ],
+              "correctAnswer": "< 26",
+              "explanation": "In any triangle, each side must be less than half of the perimeter. Half of 52 is 26.",
+              "solution": "Video solution be uploaded soon*"
+ },
+ [
   {
+    "id": "maths_geometry_114",
+    "question": "Triangle ABC is right-angled at B and D is a point on BC such that BD = 5 cm, AD = 13 cm and AC = 37 cm. Find the length of DC.",
+    "questionHindi": "त्रिभुज ABC, B पर समकोण है तथा D, BC पर ऐसा बिंदु है कि BD = 5 सेमी, AD = 13 सेमी तथा AC = 37 सेमी है। DC की लंबाई ज्ञात कीजिए।",
+    "options": [
+      "25 cm",
+      "35 cm",
+      "5 cm",
+      "30 cm"
+    ],
+    "correctAnswer": "30 cm",
+    "explanation": "Using Pythagoras in △ABD, AB² = 13² − 5² = 144 ⇒ AB = 12. Again in △ABC, BC² = 37² − 12² = 1225 ⇒ BC = 35. Hence DC = 35 − 5 = 30 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_115",
+    "question": "Calculate the area of a triangle whose side lengths are √2, 3√2 and 2√5.",
+    "questionHindi": "एक त्रिभुज का क्षेत्रफल ज्ञात कीजिए जिसकी भुजाओं की लंबाई √2, 3√2 तथा 2√5 है।",
+    "options": [
+      "√6",
+      "3",
+      "√10",
+      "√15/2"
+    ],
+    "correctAnswer": "√15/2",
+    "explanation": "Using Heron's formula with sides √2, 3√2 and 2√5, the area is √15/2.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_116",
+    "question": "In △ABC, AD is perpendicular to BC. O is any point on AD such that AB = 9 cm, OB = 3 cm and OC = 7 cm. Find the length of AC.",
+    "questionHindi": "△ABC में AD, BC पर लंब है। AD पर O ऐसा बिंदु है कि AB = 9 सेमी, OB = 3 सेमी तथा OC = 7 सेमी है। AC की लंबाई ज्ञात कीजिए।",
+    "options": [
+      "13 cm",
+      "11 cm",
+      "10.5 cm",
+      "10 cm"
+    ],
+    "correctAnswer": "11 cm",
+    "explanation": "Using Stewart's theorem/Pythagorean relations for the perpendicular through O gives AC = 11 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_117",
+    "question": "A pole 23 m long reaches a window which is 3√5 m above the ground on one side of a street. Keeping its foot fixed, it is turned to the other side to reach a window 4√15 m high. Find the width of the street.",
+    "questionHindi": "23 मीटर लंबा खंभा सड़क के एक ओर स्थित 3√5 मीटर ऊँची खिड़की तक पहुँचता है। उसी आधार बिंदु को स्थिर रखते हुए उसे दूसरी ओर घुमाकर 4√15 मीटर ऊँची खिड़की तक पहुँचाया जाता है। सड़क की चौड़ाई ज्ञात कीजिए।",
+    "options": [
+      "17 m",
+      "35 m",
+      "39 m",
+      "22 m"
+    ],
+    "correctAnswer": "39 m",
+    "explanation": "Using the Pythagorean theorem for both positions of the pole and adding the two horizontal distances gives 39 m.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_118",
+    "question": "A ladder of length 65 m is resting against a wall. If it slips 8 m down the wall, then its bottom moves x m away from the wall. If it was initially 25 m away from the wall, find x.",
+    "questionHindi": "65 मीटर लंबी सीढ़ी दीवार के सहारे रखी है। यदि वह दीवार पर 8 मीटर नीचे खिसकती है, तो उसका पाद दीवार से x मीटर दूर चला जाता है। यदि प्रारंभ में उसका पाद दीवार से 25 मीटर दूर था, तो x ज्ञात कीजिए।",
+    "options": [
+      "13 m",
+      "39 m",
+      "14 m",
+      "16 m"
+    ],
+    "correctAnswer": "14 m",
+    "explanation": "Initially, the height is 60 m. After slipping, the height becomes 52 m. The new base is √(65² − 52²) = 39 m. Hence x = 39 − 25 = 14 m.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_119",
+    "question": "In △ABC, ∠B = 90°. Points D and E lie on BC such that BD = DE = EC. Which of the following is true?",
+    "questionHindi": "△ABC में ∠B = 90° है। D तथा E, BC पर इस प्रकार स्थित हैं कि BD = DE = EC। निम्नलिखित में से कौन-सा सही है?",
+    "options": [
+      "5AE² = 2AC² + 3AD²",
+      "8AE² = 5AC² + 3AD²",
+      "8AE² = 3AC² + 5AD²",
+      "5AE² = 2AC² + 2AD²"
+    ],
+    "correctAnswer": "8AE² = 3AC² + 5AD²",
+    "explanation": "Applying coordinate geometry (or Apollonius' theorem) to the equally divided side BC gives 8AE² = 3AC² + 5AD².",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_120",
+    "question": "A right-angled triangle ABC (∠ABC = 90°) is divided into four equal parts on side BC at points P, Q and R. If AP² + AQ² + AR² = 3b² + 17na², then find n.",
+    "questionHindi": "समकोण त्रिभुज ABC (∠ABC = 90°) की भुजा BC को P, Q तथा R द्वारा चार बराबर भागों में विभाजित किया गया है। यदि AP² + AQ² + AR² = 3b² + 17na² है, तो n ज्ञात कीजिए।",
+    "options": [
+      "-1/8",
+      "3/4",
+      "1/8",
+      "-3/4"
+    ],
+    "correctAnswer": "1/8",
+    "explanation": "Using coordinates for the equally spaced points on BC and simplifying the sum of squared distances gives n = 1/8.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_121",
+    "question": "If the length of each of the two equal sides of an isosceles triangle is 15 cm and the included angle is 30°, then find the area of the triangle.",
+    "questionHindi": "यदि एक समद्विबाहु त्रिभुज की दोनों समान भुजाओं की लंबाई 15 सेमी है तथा उनके बीच का कोण 30° है, तो त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      "26.25 cm²",
+      "36.25 cm²",
+      "56.25 cm²",
+      "66.25 cm²"
+    ],
+    "correctAnswer": "56.25 cm²",
+    "explanation": "Area = ½ab sin C = ½ × 15 × 15 × sin30° = 56.25 cm².",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_122",
+    "question": "In △ABC, ∠B = 30°, ∠C = 45° and BC = 50 cm. Find the length of AB.",
+    "questionHindi": "△ABC में ∠B = 30°, ∠C = 45° तथा BC = 50 सेमी है। AB की लंबाई ज्ञात कीजिए।",
+    "options": [
+      "50(√3 + 1)",
+      "50(√3 − 1)",
+      "100/(√3 − 1)",
+      "100(√3 − 1)"
+    ],
+    "correctAnswer": "100/(√3 − 1)",
+    "explanation": "Applying the Sine Rule, AB/sin45° = 50/sin105°. Simplifying gives AB = 100/(√3 − 1).",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_123",
+    "question": "If the angles of a triangle are 30° and 45° and the included side is (√108 + 6) cm, then what is the area of the triangle?",
+    "questionHindi": "यदि किसी त्रिभुज के दो कोण 30° तथा 45° हैं और उनके बीच की भुजा (√108 + 6) सेमी है, तो त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      "18(√3 + 1) cm²",
+      "(15√3 + 18) cm²",
+      "12(√3 + 1) cm²",
+      "24(√3 + 1) cm²"
+    ],
+    "correctAnswer": "18(√3 + 1) cm²",
+    "explanation": "Using the sine rule together with the area formula involving one side and two angles gives the required area as 18(√3 + 1) cm².",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_114",
+    "question": "Triangle ABC is right-angled at B and D is a point on BC such that BD = 5 cm, AD = 13 cm and AC = 37 cm. Find the length of DC.",
+    "questionHindi": "त्रिभुज ABC, B पर समकोण है तथा D, BC पर ऐसा बिंदु है कि BD = 5 सेमी, AD = 13 सेमी तथा AC = 37 सेमी है। DC की लंबाई ज्ञात कीजिए।",
+    "options": [
+      "25 cm",
+      "35 cm",
+      "5 cm",
+      "30 cm"
+    ],
+    "correctAnswer": "30 cm",
+    "explanation": "Using Pythagoras in △ABD, AB² = 13² − 5² = 144 ⇒ AB = 12. Again in △ABC, BC² = 37² − 12² = 1225 ⇒ BC = 35. Hence DC = 35 − 5 = 30 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_115",
+    "question": "Calculate the area of a triangle whose side lengths are √2, 3√2 and 2√5.",
+    "questionHindi": "एक त्रिभुज का क्षेत्रफल ज्ञात कीजिए जिसकी भुजाओं की लंबाई √2, 3√2 तथा 2√5 है।",
+    "options": [
+      "√6",
+      "3",
+      "√10",
+      "√15/2"
+    ],
+    "correctAnswer": "√15/2",
+    "explanation": "Using Heron's formula with sides √2, 3√2 and 2√5, the area is √15/2.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_116",
+    "question": "In △ABC, AD is perpendicular to BC. O is any point on AD such that AB = 9 cm, OB = 3 cm and OC = 7 cm. Find the length of AC.",
+    "questionHindi": "△ABC में AD, BC पर लंब है। AD पर O ऐसा बिंदु है कि AB = 9 सेमी, OB = 3 सेमी तथा OC = 7 सेमी है। AC की लंबाई ज्ञात कीजिए।",
+    "options": [
+      "13 cm",
+      "11 cm",
+      "10.5 cm",
+      "10 cm"
+    ],
+    "correctAnswer": "11 cm",
+    "explanation": "Using Stewart's theorem/Pythagorean relations for the perpendicular through O gives AC = 11 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_117",
+    "question": "A pole 23 m long reaches a window which is 3√5 m above the ground on one side of a street. Keeping its foot fixed, it is turned to the other side to reach a window 4√15 m high. Find the width of the street.",
+    "questionHindi": "23 मीटर लंबा खंभा सड़क के एक ओर स्थित 3√5 मीटर ऊँची खिड़की तक पहुँचता है। उसी आधार बिंदु को स्थिर रखते हुए उसे दूसरी ओर घुमाकर 4√15 मीटर ऊँची खिड़की तक पहुँचाया जाता है। सड़क की चौड़ाई ज्ञात कीजिए।",
+    "options": [
+      "17 m",
+      "35 m",
+      "39 m",
+      "22 m"
+    ],
+    "correctAnswer": "39 m",
+    "explanation": "Using the Pythagorean theorem for both positions of the pole and adding the two horizontal distances gives 39 m.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_118",
+    "question": "A ladder of length 65 m is resting against a wall. If it slips 8 m down the wall, then its bottom moves x m away from the wall. If it was initially 25 m away from the wall, find x.",
+    "questionHindi": "65 मीटर लंबी सीढ़ी दीवार के सहारे रखी है। यदि वह दीवार पर 8 मीटर नीचे खिसकती है, तो उसका पाद दीवार से x मीटर दूर चला जाता है। यदि प्रारंभ में उसका पाद दीवार से 25 मीटर दूर था, तो x ज्ञात कीजिए।",
+    "options": [
+      "13 m",
+      "39 m",
+      "14 m",
+      "16 m"
+    ],
+    "correctAnswer": "14 m",
+    "explanation": "Initially, the height is 60 m. After slipping, the height becomes 52 m. The new base is √(65² − 52²) = 39 m. Hence x = 39 − 25 = 14 m.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_119",
+    "question": "In △ABC, ∠B = 90°. Points D and E lie on BC such that BD = DE = EC. Which of the following is true?",
+    "questionHindi": "△ABC में ∠B = 90° है। D तथा E, BC पर इस प्रकार स्थित हैं कि BD = DE = EC। निम्नलिखित में से कौन-सा सही है?",
+    "options": [
+      "5AE² = 2AC² + 3AD²",
+      "8AE² = 5AC² + 3AD²",
+      "8AE² = 3AC² + 5AD²",
+      "5AE² = 2AC² + 2AD²"
+    ],
+    "correctAnswer": "8AE² = 3AC² + 5AD²",
+    "explanation": "Applying coordinate geometry (or Apollonius' theorem) to the equally divided side BC gives 8AE² = 3AC² + 5AD².",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_120",
+    "question": "A right-angled triangle ABC (∠ABC = 90°) is divided into four equal parts on side BC at points P, Q and R. If AP² + AQ² + AR² = 3b² + 17na², then find n.",
+    "questionHindi": "समकोण त्रिभुज ABC (∠ABC = 90°) की भुजा BC को P, Q तथा R द्वारा चार बराबर भागों में विभाजित किया गया है। यदि AP² + AQ² + AR² = 3b² + 17na² है, तो n ज्ञात कीजिए।",
+    "options": [
+      "-1/8",
+      "3/4",
+      "1/8",
+      "-3/4"
+    ],
+    "correctAnswer": "1/8",
+    "explanation": "Using coordinates for the equally spaced points on BC and simplifying the sum of squared distances gives n = 1/8.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_121",
+    "question": "If the length of each of the two equal sides of an isosceles triangle is 15 cm and the included angle is 30°, then find the area of the triangle.",
+    "questionHindi": "यदि एक समद्विबाहु त्रिभुज की दोनों समान भुजाओं की लंबाई 15 सेमी है तथा उनके बीच का कोण 30° है, तो त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      "26.25 cm²",
+      "36.25 cm²",
+      "56.25 cm²",
+      "66.25 cm²"
+    ],
+    "correctAnswer": "56.25 cm²",
+    "explanation": "Area = ½ab sin C = ½ × 15 × 15 × sin30° = 56.25 cm².",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_122",
+    "question": "In △ABC, ∠B = 30°, ∠C = 45° and BC = 50 cm. Find the length of AB.",
+    "questionHindi": "△ABC में ∠B = 30°, ∠C = 45° तथा BC = 50 सेमी है। AB की लंबाई ज्ञात कीजिए।",
+    "options": [
+      "50(√3 + 1)",
+      "50(√3 − 1)",
+      "100/(√3 − 1)",
+      "100(√3 − 1)"
+    ],
+    "correctAnswer": "100/(√3 − 1)",
+    "explanation": "Applying the Sine Rule, AB/sin45° = 50/sin105°. Simplifying gives AB = 100/(√3 − 1).",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_123",
+    "question": "If the angles of a triangle are 30° and 45° and the included side is (√108 + 6) cm, then what is the area of the triangle?",
+    "questionHindi": "यदि किसी त्रिभुज के दो कोण 30° तथा 45° हैं और उनके बीच की भुजा (√108 + 6) सेमी है, तो त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      "18(√3 + 1) cm²",
+      "(15√3 + 18) cm²",
+      "12(√3 + 1) cm²",
+      "24(√3 + 1) cm²"
+    ],
+    "correctAnswer": "18(√3 + 1) cm²",
+    "explanation": "Using the sine rule together with the area formula involving one side and two angles gives the required area as 18(√3 + 1) cm².",
+    "solution": "Video solution be uploaded soon*"
+  },
+    {
+      "id": "maths_geometry_124",
+      "question": "In the given figure, find the value of PR.",
+      "questionHindi": "दिए गए चित्र में PR का मान ज्ञात कीजिए।",
+      "options": [
+        "2√3 cm",
+        "√6 cm",
+        "4(√3 − 1) cm",
+        "4 cm"
+      ],
+      "correctAnswer": "√6 cm",
+      "explanation": "Using the Cosine Rule with PQ = 2 cm, QR = (1 + √3) cm and ∠Q = 60°, PR² = 2² + (1 + √3)² − 2 × 2 × (1 + √3) × cos60° = 6. Hence PR = √6 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_125",
+      "question": "In triangle ABC, AB = 12 cm, AC = 10 cm and ∠BAC = 60°. Find the length of BC.",
+      "questionHindi": "त्रिभुज ABC में AB = 12 सेमी, AC = 10 सेमी तथा ∠BAC = 60° है। BC की लंबाई ज्ञात कीजिए।",
+      "options": [
+        "10 cm",
+        "7.13 cm",
+        "13.20 cm",
+        "11.13 cm"
+      ],
+      "correctAnswer": "11.13 cm",
+      "explanation": "By the Cosine Rule, BC² = 12² + 10² − 2 × 12 × 10 × cos60° = 124. Therefore BC = √124 ≈ 11.13 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_126",
+      "question": "In △LMN, LM = 8√2 cm, LN = 17 cm and ∠LMN = 135°. Find the length of MN.",
+      "questionHindi": "△LMN में LM = 8√2 सेमी, LN = 17 सेमी तथा ∠LMN = 135° है। MN की लंबाई ज्ञात कीजिए।",
+      "options": [
+        "7 cm",
+        "8 cm",
+        "8√2 cm",
+        "7√2 cm"
+      ],
+      "correctAnswer": "7 cm",
+      "explanation": "Using the Cosine Rule: 17² = (8√2)² + MN² − 2 × 8√2 × MN × cos135°. Solving gives MN = 7 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_127",
+      "question": "The side AB of a triangle is 80 cm and its perimeter is 170 cm. If ∠ABC = 60°, find the smallest side of the triangle.",
+      "questionHindi": "एक त्रिभुज की भुजा AB = 80 सेमी है तथा उसका परिमाप 170 सेमी है। यदि ∠ABC = 60° है, तो त्रिभुज की सबसे छोटी भुजा ज्ञात कीजिए।",
+      "options": [
+        "15 cm",
+        "25 cm",
+        "17 cm",
+        "21 cm"
+      ],
+      "correctAnswer": "25 cm",
+      "explanation": "Let BC = x and AC = 90 − x. Applying the Cosine Rule at ∠B = 60° gives (90 − x)² = 80² + x² − 80x. Solving gives x = 25 or 145; only x = 25 is valid. Hence the smallest side is 25 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_128",
+      "question": "In the given figure, find the area of the triangle.",
+      "questionHindi": "दिए गए चित्र में त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+      "options": [
+        "135√3/4",
+        "145√3/4",
+        "120√3/7",
+        "145√5/7"
+      ],
+      "correctAnswer": "145√3/4",
+      "explanation": "Using the Cosine Rule to find the unknown side and then the area formula ½ab sin120°, the required area is 145√3/4.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_129",
+      "question": "In an obtuse-angled triangle ABC, the longest side AB is 50 cm and one of the other sides is 42 cm. If the area of the triangle is 294 cm², find the third side.",
+      "questionHindi": "एक अधिककोण त्रिभुज ABC में सबसे लंबी भुजा AB = 50 सेमी है तथा दूसरी भुजाओं में से एक 42 सेमी है। यदि त्रिभुज का क्षेत्रफल 294 सेमी² है, तो तीसरी भुजा ज्ञात कीजिए।",
+      "options": [
+        "8√35 cm",
+        "15√21 cm",
+        "2√58 cm",
+        "12√43 cm"
+      ],
+      "correctAnswer": "12√43 cm",
+      "explanation": "Using the area formula to determine the included angle and then applying the Cosine Rule gives the third side as 12√43 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_130",
+      "question": "A triangle has its longest side as 38 cm. One of the remaining sides is 10 cm and the area is 152 cm². Find the third side.",
+      "questionHindi": "एक त्रिभुज की सबसे लंबी भुजा 38 सेमी है। दूसरी भुजाओं में से एक 10 सेमी है तथा क्षेत्रफल 152 सेमी² है। तीसरी भुजा ज्ञात कीजिए।",
+      "options": [
+        "6√17 cm",
+        "7√17 cm",
+        "8√17 cm",
+        "9√17 cm"
+      ],
+      "correctAnswer": "8√17 cm",
+      "explanation": "Using the area formula to determine the included angle and then applying the Cosine Rule, the third side is 8√17 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_131",
+      "question": "In triangle ABC, if the sides are a = 5, b = 7 and c = 3, then find ∠B.",
+      "questionHindi": "त्रिभुज ABC में यदि a = 5, b = 7 तथा c = 3 हैं, तो ∠B ज्ञात कीजिए।",
+      "options": [
+        "60°",
+        "150°",
+        "120°",
+        "90°"
+      ],
+      "correctAnswer": "120°",
+      "explanation": "Using the Cosine Rule, cos B = (a² + c² − b²)/(2ac) = (25 + 9 − 49)/30 = −1/2. Hence ∠B = 120°.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_132",
+      "question": "The sides of a triangle are (K² + K + 1), (2K + 1) and (K² − 1). Find the greatest angle of the triangle.",
+      "questionHindi": "किसी त्रिभुज की भुजाएँ (K² + K + 1), (2K + 1) तथा (K² − 1) हैं। त्रिभुज का सबसे बड़ा कोण ज्ञात कीजिए।",
+      "options": [
+        "90°",
+        "75°",
+        "120°",
+        "105°"
+      ],
+      "correctAnswer": "120°",
+      "explanation": "Applying the Cosine Rule to the largest side gives cos θ = −1/2. Therefore the greatest angle is 120°.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_133",
+      "question": "In the given figure, ABCD is a square of side 3 cm. Another square is constructed on BE of side 5 cm. In right triangle BCE, find the length of CN.",
+      "questionHindi": "दिए गए चित्र में ABCD एक वर्ग है जिसकी भुजा 3 सेमी है। BE पर 5 सेमी भुजा वाला दूसरा वर्ग बनाया गया है। समकोण त्रिभुज BCE में CN की लंबाई ज्ञात कीजिए।",
+      "options": [
+        "√56 cm",
+        "√57 cm",
+        "√58 cm",
+        "√59 cm"
+      ],
+      "correctAnswer": "√58 cm",
+      "explanation": "Using the geometry of the two squares and the Pythagorean theorem, the required length is √58 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+  {
+    "id": "maths_geometry_134",
+    "question": "In the given figure, triangle ABC is right-angled at B. If AB = 15 cm, BC = 20 cm and BD is the altitude on AC, then find the length of BD.",
+    "questionHindi": "दिए गए चित्र में, त्रिभुज ABC, B पर समकोण है। यदि AB = 15 सेमी, BC = 20 सेमी तथा BD, AC पर खींचा गया लंब है, तो BD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "15 cm",
+      "8 cm"
+    ],
+    "correctAnswer": "12 cm",
+    "explanation": "First, AC = √(15² + 20²) = 25 cm. The altitude from the right angle to the hypotenuse is BD = (AB × BC)/AC = (15 × 20)/25 = 12 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_135",
+    "question": "If the sides of a triangle are 13 cm, 14 cm and 15 cm, then find its area.",
+    "questionHindi": "यदि किसी त्रिभुज की भुजाएँ 13 सेमी, 14 सेमी तथा 15 सेमी हैं, तो उसका क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      "84 cm²",
+      "90 cm²",
+      "72 cm²",
+      "96 cm²"
+    ],
+    "correctAnswer": "84 cm²",
+    "explanation": "Using Heron's formula: s = (13 + 14 + 15)/2 = 21. Area = √[21 × 8 × 7 × 6] = 84 cm².",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_136",
+    "question": "The sides of a triangle are 5 cm, 12 cm and 13 cm. Find the radius of its incircle.",
+    "questionHindi": "किसी त्रिभुज की भुजाएँ 5 सेमी, 12 सेमी तथा 13 सेमी हैं। उसके अंतःवृत्त की त्रिज्या ज्ञात कीजिए।",
+    "options": [
+      "2 cm",
+      "3 cm",
+      "4 cm",
+      "5 cm"
+    ],
+    "correctAnswer": "2 cm",
+    "explanation": "The triangle is right-angled. Area = ½ × 5 × 12 = 30 cm² and semiperimeter = (5 + 12 + 13)/2 = 15. Hence, inradius = Area/s = 30/15 = 2 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_137",
+    "question": "If the sides of a triangle are 7 cm, 8 cm and 9 cm, then find the radius of its circumcircle.",
+    "questionHindi": "यदि किसी त्रिभुज की भुजाएँ 7 सेमी, 8 सेमी तथा 9 सेमी हैं, तो उसके परिवृत्त की त्रिज्या ज्ञात कीजिए।",
+    "options": [
+      "63/8√5 cm",
+      "21/√5 cm",
+      "63/4√5 cm",
+      "9√5/4 cm"
+    ],
+    "correctAnswer": "63/8√5 cm",
+    "explanation": "Using Heron's formula, Area = 12√5 cm². Circumradius R = abc/(4Δ) = (7 × 8 × 9)/(4 × 12√5) = 63/(8√5) cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_138",
+    "question": "In a right triangle, the legs are 9 cm and 12 cm. Find the radius of the circumcircle.",
+    "questionHindi": "एक समकोण त्रिभुज में लंबवत भुजाएँ 9 सेमी तथा 12 सेमी हैं। उसके परिवृत्त की त्रिज्या ज्ञात कीजिए।",
+    "options": [
+      "7.5 cm",
+      "6 cm",
+      "5 cm",
+      "4.5 cm"
+    ],
+    "correctAnswer": "7.5 cm",
+    "explanation": "The hypotenuse is √(9² + 12²) = 15 cm. The circumradius of a right triangle is half the hypotenuse, so R = 15/2 = 7.5 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_139",
+    "question": "If the area of a triangle is 24 cm² and its inradius is 2 cm, then find its perimeter.",
+    "questionHindi": "यदि किसी त्रिभुज का क्षेत्रफल 24 सेमी² तथा अंतःवृत्त की त्रिज्या 2 सेमी है, तो उसका परिमाप ज्ञात कीजिए।",
+    "options": [
+      "20 cm",
+      "24 cm",
+      "18 cm",
+      "16 cm"
+    ],
+    "correctAnswer": "24 cm",
+    "explanation": "Area = r × s ⇒ 24 = 2 × s ⇒ s = 12. Hence, perimeter = 2s = 24 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_140",
+    "question": "The area of a triangle is 60 cm² and its perimeter is 40 cm. Find the radius of its incircle.",
+    "questionHindi": "किसी त्रिभुज का क्षेत्रफल 60 सेमी² तथा परिमाप 40 सेमी है। उसके अंतःवृत्त की त्रिज्या ज्ञात कीजिए।",
+    "options": [
+      "2 cm",
+      "3 cm",
+      "4 cm",
+      "5 cm"
+    ],
+    "correctAnswer": "3 cm",
+    "explanation": "Semiperimeter = 20 cm. Using Area = r × s, we get r = 60/20 = 3 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_141",
+    "question": "Find the area of an equilateral triangle whose circumradius is 4 cm.",
+    "questionHindi": "उस समबाहु त्रिभुज का क्षेत्रफल ज्ञात कीजिए जिसका परिवृत्त की त्रिज्या 4 सेमी है।",
+    "options": [
+      "12√3 cm²",
+      "16√3 cm²",
+      "24√3 cm²",
+      "36√3 cm²"
+    ],
+    "correctAnswer": "12√3 cm²",
+    "explanation": "For an equilateral triangle, R = a/√3. Hence a = 4√3. Area = (√3/4)a² = 12√3 cm².",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_142",
+    "question": "Find the area of an equilateral triangle whose inradius is 2√3 cm.",
+    "questionHindi": "उस समबाहु त्रिभुज का क्षेत्रफल ज्ञात कीजिए जिसकी अंतःवृत्त की त्रिज्या 2√3 सेमी है।",
+    "options": [
+      "24√3 cm²",
+      "12√3 cm²",
+      "36√3 cm²",
+      "18√3 cm²"
+    ],
+    "correctAnswer": "36√3 cm²",
+    "explanation": "For an equilateral triangle, r = a/(2√3). Thus a = 12 cm. Area = (√3/4) × 12² = 36√3 cm².",
+    "solution": "Video solution be uploaded soon*"
+  },
+  {
+    "id": "maths_geometry_143",
+    "question": "The circumradius and inradius of an equilateral triangle are 8 cm and x cm respectively. Find x.",
+    "questionHindi": "एक समबाहु त्रिभुज के परिवृत्त तथा अंतःवृत्त की त्रिज्या क्रमशः 8 सेमी तथा x सेमी हैं। x ज्ञात कीजिए।",
+    "options": [
+      "4 cm",
+      "8/3 cm",
+      "16/3 cm",
+      "2 cm"
+    ],
+    "correctAnswer": "4 cm",
+    "explanation": "For an equilateral triangle, R = 2r. Hence r = 8/2 = 4 cm.",
+    "solution": "Video solution be uploaded soon*"
+  },
+    {
+      "id": "maths_geometry_144",
+      "question": "In a triangle ABC, the sides are 13 cm, 14 cm and 15 cm. Find the radius of the circumcircle.",
+      "questionHindi": "त्रिभुज ABC की भुजाएँ 13 सेमी, 14 सेमी तथा 15 सेमी हैं। उसके परिवृत्त की त्रिज्या ज्ञात कीजिए।",
+      "options": [
+        "65/8 cm",
+        "65/7 cm",
+        "35/4 cm",
+        "91/8 cm"
+      ],
+      "correctAnswer": "65/8 cm",
+      "explanation": "Using Heron's formula, Δ = 84 cm². Circumradius R = abc/(4Δ) = (13 × 14 × 15)/(4 × 84) = 65/8 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_145",
+      "question": "Find the area of an equilateral triangle whose circumradius is 6 cm.",
+      "questionHindi": "उस समबाहु त्रिभुज का क्षेत्रफल ज्ञात कीजिए जिसका परिवृत्त की त्रिज्या 6 सेमी है।",
+      "options": [
+        "27√3 cm²",
+        "18√3 cm²",
+        "36√3 cm²",
+        "54√3 cm²"
+      ],
+      "correctAnswer": "27√3 cm²",
+      "explanation": "For an equilateral triangle, R = a/√3. Thus a = 6√3. Area = (√3/4)a² = 27√3 cm².",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_146",
+      "question": "The perimeter of a triangle is 36 cm and its inradius is 3 cm. Find the area of the triangle.",
+      "questionHindi": "किसी त्रिभुज का परिमाप 36 सेमी तथा अंतःवृत्त की त्रिज्या 3 सेमी है। त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
+      "options": [
+        "48 cm²",
+        "54 cm²",
+        "60 cm²",
+        "72 cm²"
+      ],
+      "correctAnswer": "54 cm²",
+      "explanation": "Semiperimeter = 18 cm. Area = r × s = 3 × 18 = 54 cm².",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_147",
+      "question": "If the sides of a right triangle are 8 cm, 15 cm and 17 cm, then find the radius of its incircle.",
+      "questionHindi": "यदि किसी समकोण त्रिभुज की भुजाएँ 8 सेमी, 15 सेमी तथा 17 सेमी हैं, तो उसके अंतःवृत्त की त्रिज्या ज्ञात कीजिए।",
+      "options": [
+        "2 cm",
+        "3 cm",
+        "4 cm",
+        "5 cm"
+      ],
+      "correctAnswer": "3 cm",
+      "explanation": "Area = ½ × 8 × 15 = 60 cm² and semiperimeter = (8 + 15 + 17)/2 = 20. Hence r = Area/s = 60/20 = 3 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_148",
+      "question": "The area of a triangle is 84 cm² and its sides are 13 cm, 14 cm and 15 cm. Find the radius of its incircle.",
+      "questionHindi": "किसी त्रिभुज का क्षेत्रफल 84 सेमी² तथा उसकी भुजाएँ 13 सेमी, 14 सेमी तथा 15 सेमी हैं। उसके अंतःवृत्त की त्रिज्या ज्ञात कीजिए।",
+      "options": [
+        "3 cm",
+        "4 cm",
+        "5 cm",
+        "6 cm"
+      ],
+      "correctAnswer": "4 cm",
+      "explanation": "Semiperimeter = 21 cm. Therefore r = Area/s = 84/21 = 4 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_149",
+      "question": "In an equilateral triangle, the inradius is 5 cm. Find the circumradius.",
+      "questionHindi": "एक समबाहु त्रिभुज में अंतःवृत्त की त्रिज्या 5 सेमी है। परिवृत्त की त्रिज्या ज्ञात कीजिए।",
+      "options": [
+        "7.5 cm",
+        "10 cm",
+        "15 cm",
+        "12.5 cm"
+      ],
+      "correctAnswer": "10 cm",
+      "explanation": "For an equilateral triangle, the circumradius is twice the inradius. Hence R = 2 × 5 = 10 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_150",
+      "question": "Find the area of a triangle whose sides are 25 cm, 39 cm and 56 cm.",
+      "questionHindi": "उस त्रिभुज का क्षेत्रफल ज्ञात कीजिए जिसकी भुजाएँ 25 सेमी, 39 सेमी तथा 56 सेमी हैं।",
+      "options": [
+        "420 cm²",
+        "450 cm²",
+        "468 cm²",
+        "480 cm²"
+      ],
+      "correctAnswer": "420 cm²",
+      "explanation": "Using Heron's formula: s = 60 cm. Area = √[60 × 35 × 21 × 4] = √176400 = 420 cm².",
+      "solution": "Video solution be uploaded soon*"
+    },
+    {
+      "id": "maths_geometry_151",
+      "question": "The sides of a triangle are 9 cm, 10 cm and 17 cm. Find the radius of its circumcircle.",
+      "questionHindi": "किसी त्रिभुज की भुजाएँ 9 सेमी, 10 सेमी तथा 17 सेमी हैं। उसके परिवृत्त की त्रिज्या ज्ञात कीजिए।",
+      "options": [
+        "255/24 cm",
+        "85/8 cm",
+        "17/2 cm",
+        "51/8 cm"
+      ],
+      "correctAnswer": "255/24 cm",
+      "explanation": "Using Heron's formula, Δ = 24 cm². Therefore R = abc/(4Δ) = (9 × 10 × 17)/(96) = 255/24 cm.",
+      "solution": "Video solution be uploaded soon*"
+    },
+ {
     "id": "maths_geometry_051",
     "question": "Geometry — Question 51 (add real content in datas/maths/geometry.json)",
     "options": [

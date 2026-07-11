@@ -353,6 +353,183 @@
           "options": ["1600", "800", "900", "400"],
           "correctAnswer": "800",
           "explanation": "Pattern alternates ×2, ÷4, ×6, ÷8, ×10. Missing term = 400 × 2 = 800."
-        }
+        },
+          {
+            "id": "reasoning_puzzle_051",
+            "question": "15, 17, 20, 30, 45, ?, 106",
+            "options": ["77", "71", "82", "69"],
+            "correctAnswer": "71",
+            "explanation": "Pattern: +2, +3, ×1.5, +15, +26, +35. Missing term = 71."
+          },
+          {
+            "id": "reasoning_puzzle_052",
+            "question": "20.48, 25.60, 32, 40, ?, 62.50",
+            "options": ["50", "48", "60", "55"],
+            "correctAnswer": "50",
+            "explanation": "Pattern: ×1.25 repeatedly. Missing term = 40 × 1.25 = 50."
+          },
+          {
+            "id": "reasoning_puzzle_053",
+            "question": "50, 62, 87, 138, 241, ?",
+            "options": ["452", "448", "435", "468"],
+            "correctAnswer": "448",
+            "explanation": "Pattern: ×2 −38, ×2 −37, ×2 −36, ×2 −35, ×2 −34. Missing term = 448."
+          },
+          {
+            "id": "reasoning_puzzle_054",
+            "question": "18, 24, 25, 28, 26, ?, 21",
+            "options": ["22", "25", "23", "26"],
+            "correctAnswer": "23",
+            "explanation": "Pattern: +6, +1, +3, −2, −3, −2. Missing term = 23."
+          },
+          {
+            "id": "reasoning_puzzle_055",
+            "question": "486, 162, 108, ?, 144, 240",
+            "options": ["54", "72", "108", "81"],
+            "correctAnswer": "72",
+            "explanation": "Pattern: ÷3, ÷1.5, ÷1.5, ×2, ×5/3. Missing term = 72."
+          },
+          {
+            "id": "reasoning_puzzle_056",
+            "question": "72, 19, ?, 17, 120, 16, 145",
+            "options": ["96", "108", "88", "92"],
+            "correctAnswer": "96",
+            "explanation": "Two interleaved series: 72, 96, 120, 145 and 19, 17, 16. Missing term = 96."
+          },
+          {
+            "id": "reasoning_puzzle_057",
+            "question": "2, 3.44, 5.13, 7.09, ?, 11.9",
+            "options": ["9.54", "8.96", "9.12", "8.56"],
+            "correctAnswer": "9.54",
+            "explanation": "Successive increments: +1.44, +1.69, +1.96, +2.25, +2.56. Missing term = 9.54."
+          },
+          {
+            "id": "reasoning_puzzle_058",
+            "question": "21, 38, 57, 80, 109, 140, ?",
+            "options": ["181", "177", "169", "173"],
+            "correctAnswer": "173",
+            "explanation": "Add consecutive primes: +17, +19, +23, +29, +31, +33. Missing term = 173."
+          },
+          {
+            "id": "reasoning_puzzle_059",
+            "question": "9, 5, 6, 10.50, ?, 60",
+            "options": ["20.50", "20", "21.50", "23"],
+            "correctAnswer": "20",
+            "explanation": "Alternate operations: −4, ×1.2, +4.5, ×(40/21), +40. Missing term = 20."
+          },
+          {
+            "id": "reasoning_puzzle_060",
+            "question": "125, 89, ?, 48, 39, 35",
+            "options": ["58", "64", "60", "63"],
+            "correctAnswer": "64",
+            "explanation": "Subtract squares: −36, −25, −16, −9, −4. Missing term = 64."
+          },
+          {
+            "id": "reasoning_puzzle_061",
+            "question": "13, 27, 55, ?, 223, 447",
+            "options": ["113", "111", "109", "110"],
+            "correctAnswer": "111",
+            "explanation": "Pattern: ×2 +1 repeatedly. Missing term = 55 × 2 + 1 = 111."
+          },
+          {
+            "id": "reasoning_puzzle_062",
+            "question": "3, 6, 18, 90, 630, ?, 90090",
+            "options": ["6930", "5670", "6960", "6300"],
+            "correctAnswer": "6930",
+            "explanation": "Multiply by consecutive integers: ×2, ×3, ×5, ×7, ×11, ×13. Missing term = 6930."
+          },
+          {
+            "id": "reasoning_puzzle_063",
+            "question": "?, 3080, 616, 77, 7, 0.5",
+            "options": ["3080", "12320", "6160", "4620"],
+            "correctAnswer": "12320",
+            "explanation": "Successively divide by 4, 5, 8, 11, 14. Missing term = 12320."
+          },
+          
+            {
+              "id": "reasoning_puzzle_064",
+              "question": "5, 11, 34, 137, ?, 4117",
+              "options": ["584", "752", "686", "832"],
+              "correctAnswer": "686",
+              "explanation": "Pattern: ×2+1, ×3+1, ×4+1, ×5+1, ×6+1. Missing term = 137 × 5 + 1 = 686."
+            },
+            {
+              "id": "reasoning_puzzle_065",
+              "question": "33, 41, 56, ?, 115, 163",
+              "options": ["79", "83", "84", "80"],
+              "correctAnswer": "84",
+              "explanation": "Pattern: +8, +15, +28, +31, +48. Missing term = 84."
+            },
+            {
+              "id": "reasoning_puzzle_066",
+              "question": "118, 127, 252, 301, 1030, ?",
+              "options": ["1148", "1151", "1075", "1126"],
+              "correctAnswer": "1151",
+              "explanation": "Pattern alternates: +9, ×2−2, +49, ×3+127, +121. Missing term = 1030 + 121 = 1151."
+            },
+            {
+              "id": "reasoning_puzzle_067",
+              "question": "61, 59, ?, 51, 44, 33, 20",
+              "options": ["54", "56", "55", "53"],
+              "correctAnswer": "56",
+              "explanation": "Differences are −2, −3, −5, −7, −11, −13 (consecutive primes). Missing term = 56."
+            },
+            {
+              "id": "reasoning_puzzle_068",
+              "question": "3, 5, 15, ?, 315, 1565",
+              "options": ["45", "65", "30", "75"],
+              "correctAnswer": "65",
+              "explanation": "Pattern: ×1+2, ×2+5, ×4+5, ×5−10, ×5−10. Missing term = 65."
+            },
+            {
+              "id": "reasoning_puzzle_069",
+              "question": "?, 545, 538, 527, 508, 473",
+              "options": ["550", "552", "560", "548"],
+              "correctAnswer": "548",
+              "explanation": "Differences are −3, −7, −11, −19, −35. Working backward gives the missing term as 548."
+            },
+            {
+              "id": "reasoning_puzzle_070",
+              "question": "0.4, 3, 19, 134, ?, 9658",
+              "options": ["1068", "1073", "1071", "1065"],
+              "correctAnswer": "1073",
+              "explanation": "Pattern: ×5+1, ×6+1, ×7+1, ×8+1, ×9+1. Missing term = 134 × 8 + 1 = 1073."
+            },
+            {
+              "id": "reasoning_puzzle_071",
+              "question": "600, 519, 465, 429, 405, ?",
+              "options": ["420", "402", "415", "389"],
+              "correctAnswer": "389",
+              "explanation": "Differences: −81, −54, −36, −24, −16 (each divided by 1.5). Missing term = 405 − 16 = 389."
+            },
+            {
+              "id": "reasoning_puzzle_072",
+              "question": "?, 1, 1, 2, 7, 34, 203, 1420",
+              "options": ["0.4", "0.5", "4", "2"],
+              "correctAnswer": "0.5",
+              "explanation": "Pattern: ×1+0, ×2−1, ×3+1, ×4−1, ×5−1, ×6−1, ×7−1. Working backward gives 0.5."
+            },
+            {
+              "id": "reasoning_puzzle_073",
+              "question": "60, 65, 75, 105, 225, ?, 4425",
+              "options": ["1050", "975", "900", "825"],
+              "correctAnswer": "675",
+              "explanation": "Pattern: +5, +10, +30, +120, ×3, ×6. Missing term = 225 × 3 = 675."
+            },
+            {
+              "id": "reasoning_puzzle_074",
+              "question": "12, 13, 15, 21, 45, ?, 885",
+              "options": ["165", "180", "75", "135"],
+              "correctAnswer": "180",
+              "explanation": "Pattern: +1, +2, +6, +24, ×4, ×5−15. Missing term = 180."
+            },
+            {
+              "id": "reasoning_puzzle_075",
+              "question": "7, ?, 3, 5, 14, 58.50",
+              "options": ["2", "3", "4", "1"],
+              "correctAnswer": "2",
+              "explanation": "Pattern: −5, +1, +2, ×2.8, ×4.1786. Missing term = 2."
+            }
+
 
 ]

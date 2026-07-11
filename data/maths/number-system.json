@@ -1033,819 +1033,1086 @@
   },
   {
     "id": "maths_number_system_075",
-    "question": "Number System",
+    "question": "What is the remainder when 3^0 + 3^1 + 3^2 + ... + 3^200 is divided by 13?",
+    "questionHindi": "जब 3^0 + 3^1 + 3^2 + ... + 3^200 को 13 से विभाजित किया जाता है, तो शेषफल क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "3",
+      "12",
+      "8"
     ],
-    "correctAnswer": "Option A",
-    "solution": "no quesion today, stay happy"},
+    "correctAnswer": "3",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_076",
+    "question": "The expression 555777 + 777555 is divisible by which of the following?\nI. 2\nII. 3\nIII. 37\nSelect the correct answer using the code given below.",
+    "questionHindi": "व्यंजक 555777 + 777555 निम्नलिखित में से किससे विभाज्य है?\nI. 2\nII. 3\nIII. 37\nनीचे दिए गए कूट का प्रयोग करके सही उत्तर चुनिए।",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "correctAnswer": "I, II and III",
+    "solution": "Video solution will be added soon"
+  },
   {
     "id": "maths_number_system_077",
-    "question": "Number System — Question 77 (add real content in datas/maths/number-system.json)",
+    "question": "If n is a positive number, then what is the sum of all the distinct remainders obtained by dividing 4^n + 6^n + 9^n + 11^n by 10, for different values of n?",
+    "questionHindi": "यदि n एक धनात्मक संख्या है, तो n के विभिन्न मानों के लिए 4^n + 6^n + 9^n + 11^n को 10 से विभाजित करने पर प्राप्त सभी विभिन्न शेषफलों का योग क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "4",
+      "6",
+      "7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "6",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_078",
-    "question": "Number System — Question 78 (add real content in datas/maths/number-system.json)",
+    "question": "If 'a' is a natural number, then (7a² + 7a) is always divisible by:",
+    "questionHindi": "यदि 'a' एक प्राकृतिक संख्या है, तो (7a² + 7a) सदैव किससे विभाज्य होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7 and 14 both",
+      "7 only",
+      "14 only",
+      "21 only"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "14 only",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_079",
-    "question": "Number System — Question 79 (add real content in datas/maths/number-system.json)",
+    "question": "If n is a natural number, then n³ − n is always divisible by _____.",
+    "questionHindi": "यदि n एक प्राकृतिक संख्या है, तो n³ − n सदैव _____ से विभाज्य होता है।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "6",
+      "5",
+      "8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "6",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_080",
-    "question": "Number System — Question 80 (add real content in datas/maths/number-system.json)",
+    "question": "Find the largest number which exactly divides every number of the form (n³ − n)(n − 2), where n is a natural number greater than 2.",
+    "questionHindi": "यदि n, 2 से बड़ी कोई प्राकृतिक संख्या है, तो (n³ − n)(n − 2) सदैव किस सबसे बड़ी संख्या से विभाज्य होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "24",
+      "12",
+      "48"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "24",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_081",
-    "question": "Number System — Question 81 (add real content in datas/maths/number-system.json)",
+    "question": "If x is any positive even number, then x^65 − x will always be divisible by:",
+    "questionHindi": "यदि x कोई धनात्मक सम संख्या है, तो x^65 − x सदैव किससे विभाज्य होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "10",
+      "8",
+      "12"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "8",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_082",
-    "question": "Number System — Question 82 (add real content in datas/maths/number-system.json)",
+    "question": "K being any odd number greater than 1, k^33 − k is always divisible by:",
+    "questionHindi": "यदि K, 1 से बड़ी कोई विषम संख्या है, तो k^33 − k सदैव किससे विभाज्य होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24",
+      "13",
+      "5",
+      "15"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "24",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_083",
-    "question": "Number System — Question 83 (add real content in datas/maths/number-system.json)",
+    "question": "64329 is divided by a number and there are three consecutive remainders 175, 114 and 213. Find the sum of the digits of that divisor.",
+    "questionHindi": "64329 को एक संख्या से विभाजित किया जाता है तथा लगातार तीन शेषफल 175, 114 और 213 प्राप्त होते हैं। उस भाजक के अंकों का योग ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7",
+      "9",
+      "8",
+      "11"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "11",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_084",
-    "question": "Number System — Question 84 (add real content in datas/maths/number-system.json)",
+    "question": "Find the least number which when divided successively by 5, 3 and 7 leaves remainders 2, 1 and 2 respectively.",
+    "questionHindi": "वह सबसे छोटी संख्या ज्ञात कीजिए जिसे क्रमशः 5, 3 और 7 से भाग देने पर क्रमशः 2, 1 और 2 शेषफल प्राप्त हों।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "37",
+      "141",
+      "46",
+      "51"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "141",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_085",
-    "question": "Number System — Question 85 (add real content in datas/maths/number-system.json)",
+    "question": "Find the number which when successively divided by 3, 5 and 7 leaves remainders 2, 1 and 3 respectively, and the last quotient is 3.",
+    "questionHindi": "वह संख्या ज्ञात कीजिए जिसे क्रमशः 3, 5 और 7 से भाग देने पर क्रमशः 2, 1 और 3 शेषफल प्राप्त हों तथा अंतिम भागफल 3 हो।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "360",
+      "362",
+      "365",
+      "367"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "365",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_086",
-    "question": "Number System — Question 86 (add real content in datas/maths/number-system.json)",
+    "question": "If a number is successively divided by 7, 4 and 3, it leaves remainders 5, 3 and 2 respectively. If the order of the divisors is reversed, then what will be the successive remainders?",
+    "questionHindi": "यदि एक संख्या को क्रमशः 7, 4 और 3 से विभाजित किया जाता है, तो क्रमशः 5, 3 और 2 शेषफल प्राप्त होते हैं। यदि विभाजकों का क्रम उलट दिया जाए, तो क्रमशः शेषफल क्या होंगे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1, 3, 6",
+      "2, 4, 3",
+      "0, 2, 6",
+      "1, 3, 5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "0, 2, 6",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_087",
-    "question": "Number System — Question 87 (add real content in datas/maths/number-system.json)",
+    "question": "Successive division of a number by 2, 3, 5 and 7 gives remainders 1, 4, 0 and 5 respectively. What will be the sum of the remainders if the same number is successively divided by 7, 5, 3 and 2?",
+    "questionHindi": "किसी संख्या को क्रमशः 2, 3, 5 और 7 से विभाजित करने पर क्रमशः 1, 4, 0 और 5 शेषफल प्राप्त होते हैं। यदि उसी संख्या को क्रमशः 7, 5, 3 तथा 2 से विभाजित किया जाए, तो शेषफलों का योग क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "9",
+      "10",
+      "17"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "10",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_088",
-    "question": "Number System — Question 88 (add real content in datas/maths/number-system.json)",
+    "question": "A number divided by 13 leaves a remainder 1 and if the quotient thus obtained is divided by 5, we get a remainder of 3. What will be the remainder if the number is divided by 65?",
+    "questionHindi": "13 से विभाजित करने पर एक संख्या 1 शेष छोड़ती है तथा प्राप्त भागफल को 5 से विभाजित करने पर 3 शेष प्राप्त होता है। यदि उसी संख्या को 65 से विभाजित किया जाए, तो शेषफल क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "28",
+      "16",
+      "18",
+      "40"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "40",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_089",
-    "question": "Number System — Question 89 (add real content in datas/maths/number-system.json)",
+    "question": "When a number is successively divided by 3, 4 and 7, the remainders obtained are 2, 3 and 5 respectively. What will be the remainder when the same number is divided by 84?",
+    "questionHindi": "जब किसी संख्या को क्रमशः 3, 4 और 7 से विभाजित किया जाता है, तो क्रमशः 2, 3 और 5 शेषफल प्राप्त होते हैं। उसी संख्या को 84 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "71",
+      "30",
+      "48",
+      "53"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "53",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_090",
-    "question": "Number System — Question 90 (add real content in datas/maths/number-system.json)",
+    "question": "When a number X is successively divided by 9, 8 and 7, it gives remainders 4, 5 and 3 respectively. Find the value of X that lies between 5200 and 5400.",
+    "questionHindi": "जब कोई संख्या X क्रमशः 9, 8 और 7 से विभाजित होती है, तो क्रमशः 4, 5 और 3 शेष देती है। X का वह मान ज्ञात कीजिए जो 5200 और 5400 के बीच है।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5305",
+      "5314",
+      "5286",
+      "None"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5286",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_091",
-    "question": "Number System — Question 91 (add real content in datas/maths/number-system.json)",
+    "question": "Which of the following can't be the unit digit of a perfect square?",
+    "questionHindi": "निम्नलिखित में से कौन-सा अंक किसी पूर्ण वर्ग का इकाई अंक नहीं हो सकता है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "8",
+      "9",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "8",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_092",
-    "question": "Number System — Question 92 (add real content in datas/maths/number-system.json)",
+    "question": "The digit in the unit's place of the product 81 × 82 × 83 × ... × 89 is:",
+    "questionHindi": "81 × 82 × 83 × ... × 89 के गुणनफल का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "2",
+      "6",
+      "8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "0",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_093",
-    "question": "Number System — Question 93 (add real content in datas/maths/number-system.json)",
+    "question": "What is the unit digit of 167 × 2183 × 497 × 839 × 235 × 111 × 1039 × 251 × 563?",
+    "questionHindi": "167 × 2183 × 497 × 839 × 235 × 111 × 1039 × 251 × 563 का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "5",
+      "1",
+      "7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_094",
-    "question": "Number System — Question 94 (add real content in datas/maths/number-system.json)",
+    "question": "What is the unit digit in the product 1 × 3 × 5 × 7 × 9 × ... × 999?",
+    "questionHindi": "1 × 3 × 5 × 7 × 9 × ... × 999 के गुणनफल का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "3",
+      "5",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_095",
-    "question": "Number System — Question 95 (add real content in datas/maths/number-system.json)",
+    "question": "What is the unit digit of the sum of the first 111 whole numbers?",
+    "questionHindi": "प्रथम 111 पूर्ण संख्याओं के योग का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "6",
+      "5",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_096",
-    "question": "Number System — Question 96 (add real content in datas/maths/number-system.json)",
+    "question": "For any natural number n, 756^n − 345^n always ends with:",
+    "questionHindi": "किसी भी प्राकृतिक संख्या n के लिए, 756^n − 345^n का अंतिम अंक सदैव क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5",
+      "3",
+      "7",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "1",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_097",
-    "question": "Number System — Question 97 (add real content in datas/maths/number-system.json)",
+    "question": "What is the digit in the unit's place of 25^1?",
+    "questionHindi": "25^1 के इकाई स्थान पर कौन-सा अंक होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2",
+      "8",
+      "1",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "8",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_098",
-    "question": "Number System — Question 98 (add real content in datas/maths/number-system.json)",
+    "question": "The rightmost non-zero digit of the number 30^2928 is:",
+    "questionHindi": "संख्या 30^2928 का सबसे दायाँ गैर-शून्य अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "3",
+      "7",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "1",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_099",
-    "question": "Number System — Question 99 (add real content in datas/maths/number-system.json)",
+    "question": "Find the digit in the thousands position of 5^3 × 2^1001.",
+    "questionHindi": "5^3 × 2^1001 का हजारवें स्थान का अंक ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2",
+      "4",
+      "0",
+      "8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "4",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_100",
-    "question": "Number System — Question 100 (add real content in datas/maths/number-system.json)",
+    "question": "If the unit's digit of 2^x is 8, then what is the unit's digit of 2^(x+3)?",
+    "questionHindi": "यदि 2^x का इकाई अंक 8 है, तो 2^(x+3) का इकाई अंक क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "3",
+      "7",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "3",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_101",
-    "question": "Number System — Question 101 (add real content in datas/maths/number-system.json)",
+    "question": "The remainder when 731⁷³² is divided by 9 is 'a'. Then the unit's place of a³³²²¹¹ is:",
+    "questionHindi": "731⁷³² को 9 से विभाजित करने पर शेषफल a प्राप्त होता है। तब a³³²²¹¹ का इकाई अंक ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "2",
+      "1",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "1",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_102",
-    "question": "Number System — Question 102 (add real content in datas/maths/number-system.json)",
+    "question": "If the unit digit of 6348 × 24989 × 36ᴺ is (N − 2), then what is the value of N?",
+    "questionHindi": "यदि 6348 × 24989 × 36ᴺ का इकाई अंक (N − 2) है, तो N का मान क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7",
+      "4",
+      "8",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "8",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_103",
-    "question": "Number System — Question 103 (add real content in datas/maths/number-system.json)",
+    "question": "The unit's digit of (1373)³⁶ − (1442)²⁰ is:",
+    "questionHindi": "(1373)³⁶ − (1442)²⁰ का इकाई अंक है:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "5",
+      "2",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_104",
-    "question": "Number System — Question 104 (add real content in datas/maths/number-system.json)",
+    "question": "The digit in the unit's place of the product (2153)¹⁶⁷ × (8267)¹⁵³ is:",
+    "questionHindi": "गुणनफल (2153)¹⁶⁷ × (8267)¹⁵³ के इकाई स्थान पर अंक होगा:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "3",
+      "7",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "9",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_105",
-    "question": "Number System — Question 105 (add real content in datas/maths/number-system.json)",
+    "question": "What is the unit digit of (217)⁴¹³ × (819)⁵⁴⁷ × (414)⁶²⁴ × (342)⁸¹²?",
+    "questionHindi": "(217)⁴¹³ × (819)⁵⁴⁷ × (414)⁶²⁴ × (342)⁸¹² का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2",
+      "4",
+      "6",
+      "8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "8",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_106",
-    "question": "Number System — Question 106 (add real content in datas/maths/number-system.json)",
+    "question": "The unit digit of (137¹³)⁴⁷ is:",
+    "questionHindi": "(137¹³)⁴⁷ का इकाई अंक है:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "3",
+      "5",
+      "7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "3",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_107",
-    "question": "Number System — Question 107 (add real content in datas/maths/number-system.json)",
+    "question": "What is the unit digit of 17¹⁹²³²⁹?",
+    "questionHindi": "17¹⁹²³²⁹ का इकाई अंक ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "3",
+      "7",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "3",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_108",
-    "question": "Number System — Question 108 (add real content in datas/maths/number-system.json)",
+    "question": "If x = (164)¹⁶⁹ + (333)³³⁷ − (727)⁷²⁶, then what is the unit digit of x?",
+    "questionHindi": "यदि x = (164)¹⁶⁹ + (333)³³⁷ − (727)⁷²⁶, तो x का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5",
+      "9",
+      "8",
+      "7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "8",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_109",
-    "question": "Number System — Question 109 (add real content in datas/maths/number-system.json)",
+    "question": "Find the unit digit of 1! + 2! + 3! + 4! + 5! + ... + 3333! ?",
+    "questionHindi": "1! + 2! + 3! + 4! + 5! + ... + 3333! का इकाई अंक ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "9",
+      "3",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "3",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_110",
-    "question": "Number System — Question 110 (add real content in datas/maths/number-system.json)",
+    "question": "What is the unit digit of 973²³⁴! × 234⁹⁷³! ?",
+    "questionHindi": "973²³⁴! × 234⁹⁷³! का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2",
+      "6",
+      "7",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "6",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_111",
-    "question": "Number System — Question 111 (add real content in datas/maths/number-system.json)",
+    "question": "What is the unit digit of 1³ + 2³ + 3³ + 4³ + 5³ + ... + 101³?",
+    "questionHindi": "1³ + 2³ + 3³ + 4³ + 5³ + ... + 101³ का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "5",
+      "6",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "1",
+    "solution": "Video solution will be added soon"
   },
   {
     "id": "maths_number_system_112",
-    "question": "Number System — Question 112 (add real content in datas/maths/number-system.json)",
+    "question": "What is the unit digit of 1⁵ + 2⁵ + 3⁵ + 4⁵ + 5⁵ + ... + 98⁵?",
+    "questionHindi": "1⁵ + 2⁵ + 3⁵ + 4⁵ + 5⁵ + ... + 98⁵ का इकाई अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "5",
+      "2",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "1",
+    "solution": "Video solution will be added soon"
   },
-  {
-    "id": "maths_number_system_113",
-    "question": "Number System — Question 113 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_114",
-    "question": "Number System — Question 114 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_115",
-    "question": "Number System — Question 115 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_116",
-    "question": "Number System — Question 116 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_117",
-    "question": "Number System — Question 117 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_118",
-    "question": "Number System — Question 118 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_119",
-    "question": "Number System — Question 119 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_120",
-    "question": "Number System — Question 120 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_121",
-    "question": "Number System — Question 121 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_122",
-    "question": "Number System — Question 122 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_123",
-    "question": "Number System — Question 123 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_124",
-    "question": "Number System — Question 124 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_125",
-    "question": "Number System — Question 125 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_126",
-    "question": "Number System — Question 126 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_127",
-    "question": "Number System — Question 127 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_128",
-    "question": "Number System — Question 128 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_129",
-    "question": "Number System — Question 129 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_130",
-    "question": "Number System — Question 130 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_131",
-    "question": "Number System — Question 131 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_132",
-    "question": "Number System — Question 132 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_133",
-    "question": "Number System — Question 133 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_134",
-    "question": "Number System — Question 134 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_135",
-    "question": "Number System — Question 135 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_136",
-    "question": "Number System — Question 136 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_137",
-    "question": "Number System — Question 137 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_138",
-    "question": "Number System — Question 138 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_139",
-    "question": "Number System — Question 139 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_140",
-    "question": "Number System — Question 140 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_141",
-    "question": "Number System — Question 141 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_142",
-    "question": "Number System — Question 142 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
-  {
-    "id": "maths_number_system_143",
-    "question": "Number System — Question 143 (add real content in datas/maths/number-system.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
-  },
+    {
+      "id": "maths_number_system_113",
+      "question": "How many terms are there in the A.P. 7, 13, 19, ………. 205?",
+      "questionHindi": "A.P. 7, 13, 19, ............ 205 में कितने पद हैं?",
+      "options": [
+        "31",
+        "32",
+        "34",
+        "36"
+      ],
+      "correctAnswer": "34",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_114",
+      "question": "Find the number of terms in the series ………. the sum of which is 300?",
+      "questionHindi": "श्रृंखला ………. में पदों की संख्या ज्ञात कीजिए, जिसका योग 300 है?",
+      "options": [
+        "25",
+        "36",
+        "25 and 36 both",
+        "None"
+      ],
+      "correctAnswer": "25 and 36 both",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_115",
+      "question": "What is the maximum value of the sum of the numbers 36, 33, 30, 27, 24……..?",
+      "questionHindi": "संख्याओं 36, 33, 30, 27, 24…….. के योग का अधिकतम मान क्या है?",
+      "options": [
+        "240",
+        "237",
+        "234",
+        "231"
+      ],
+      "correctAnswer": "234",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_116",
+      "question": "What is the sum of all three-digit numbers divisible by 7?",
+      "questionHindi": "7 से विभाज्य सभी तीन अंकीय संख्याओं का योग क्या है?",
+      "options": [
+        "70336",
+        "70707",
+        "72000",
+        "71407"
+      ],
+      "correctAnswer": "70336",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_117",
+      "question": "What is the sum of all 3 digit numbers that give a remainder of 5 when they are divided by 50?",
+      "questionHindi": "उन सभी 3 अंकों की संख्याओं का योग क्या है जो 50 से विभाजित होने पर 5 शेषफल देती हैं?",
+      "options": [
+        "9005",
+        "9540",
+        "9600",
+        "9640"
+      ],
+      "correctAnswer": "9540",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_118",
+      "question": "What is the sum of all natural numbers between 100 and 400 which are divisible by 13?",
+      "questionHindi": "100 तथा 400 के मध्य सभी प्राकृतिक संख्याओं का योग क्या है जो 13 से विभाज्य हैं?",
+      "options": [
+        "5681",
+        "5334",
+        "5434",
+        "5761"
+      ],
+      "correctAnswer": "5681",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_119",
+      "question": "The first and last terms of an A.P. are 20 and 55. If the sum of its terms is 600, then the number of terms will be?",
+      "questionHindi": "किसी समान्तर श्रेढ़ी (A.P.) का प्रथम पद और अंतिम पद क्रमशः 20 और 55 है। यदि इसके पदों का योगफल 600 है, तो पदों की संख्या ज्ञात कीजिए।",
+      "options": [
+        "15",
+        "16",
+        "17",
+        "14"
+      ],
+      "correctAnswer": "16",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_120",
+      "question": "If 15th and 28th terms of an A.P. be 208 and 416 respectively, then its 49th term is:",
+      "questionHindi": "यदि किसी समान्तर श्रेढ़ी (A.P.) का 15वाँ तथा 28वाँ पद क्रमशः 208 तथा 416 है, तो उसका 49वाँ पद ज्ञात कीजिए।",
+      "options": [
+        "755",
+        "749",
+        "752",
+        "751"
+      ],
+      "correctAnswer": "752",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_121",
+      "question": "If the sum of first 14 terms of any A.P. is 1050 and its first term is 10, then find the 20th term.",
+      "questionHindi": "यदि किसी समान्तर श्रेणी के प्रथम 14 पदों का योग 1050 है और इसका प्रथम पद 10 है, तो 20वाँ पद ज्ञात कीजिए।",
+      "options": [
+        "200",
+        "201",
+        "203",
+        "202"
+      ],
+      "correctAnswer": "200",
+      "solution": "Video solution will be added soon"
+    },
+    {
+      "id": "maths_number_system_122",
+      "question": "Find the sum of first 32 terms of an A.P. if fifth term is 108 and 28th term is 250?",
+      "questionHindi": "एक A.P. के पहले 32 पदों का योग ज्ञात कीजिए यदि पाँचवाँ पद 108 है और 28वाँ पद 250 है।",
+      "options": [
+        "5728",
+        "5600",
+        "5278",
+        "5872"
+      ],
+      "correctAnswer": "5728",
+      "solution": "Video solution will be added soon"
+    },
+      {
+        "id": "maths_number_system_123",
+        "question": "Sum of first 25 terms of an A.P. is 525. Sum of the next 25 terms is 725. What is the common difference?",
+        "questionHindi": "किसी AP के पहले 25 पदों का योग 525 है। अगले 25 पदों का योग 725 है। सार्व अंतर क्या है?",
+        "options": [
+          "2/3",
+          "4/5",
+          "5/6",
+          "3/4"
+        ],
+        "correctAnswer": "2/3",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_124",
+        "question": "If the square of the 7th term of an arithmetic progression with positive common difference equals the product of the 3rd and 17th terms, then the ratio of the first term to the common difference is:",
+        "questionHindi": "यदि धनात्मक उभयनिष्ठ अंतर वाली समान्तर श्रेणी के 7वें पद का वर्ग तीसरे और 17वें पदों के गुणनफल के बराबर है, तो पहले पद का उभयनिष्ठ अंतर से क्या अनुपात है?",
+        "options": [
+          "2 : 3",
+          "3 : 2",
+          "3 : 4",
+          "4 : 3"
+        ],
+        "correctAnswer": "2 : 3",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_125",
+        "question": "If the sum of the first 100 terms of an arithmetic progression is 50, and the sum of the first 200 terms is 90, then what is the sum of the first 300 terms of the progression?",
+        "questionHindi": "यदि एक समान्तर श्रेणी के पहले 100 पदों का योग 50 है, और पहले 200 पदों का योग 90 है, तो श्रेणी के पहले 300 पदों का योग क्या है?",
+        "options": [
+          "140",
+          "100",
+          "130",
+          "120"
+        ],
+        "correctAnswer": "120",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_126",
+        "question": "All the page numbers from a book are added, beginning at page 1. However, one page number was added twice by mistake. The sum obtained was 1000. Which page number was added twice?",
+        "questionHindi": "किसी पुस्तक के सभी पृष्ठ संख्याएँ जोड़ दी जाती हैं, पृष्ठ 1 से शुरू होती हैं। हालाँकि, गलती से एक पृष्ठ संख्या दो बार जोड़ दी गई थी। योग 1000 प्राप्त हुआ। कौन-सी पृष्ठ संख्या दो बार जोड़ी गई थी?",
+        "options": [
+          "8",
+          "10",
+          "45",
+          "20"
+        ],
+        "correctAnswer": "10",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_127",
+        "question": "What is the sum of first 200 terms of the given series? 1 + 5 + 6 + 10 + 11 + 15 + 16 + 20 + ..........",
+        "questionHindi": "दी गई श्रृंखला 1 + 5 + 6 + 10 + 11 + 15 + 16 + 20 + .......... के पहले 200 पदों का योग क्या है?",
+        "options": [
+          "49400",
+          "49600",
+          "50100",
+          "48300"
+        ],
+        "correctAnswer": "50100",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_128",
+        "question": "If A = 1 – 10 + 3 – 12 + 5 – 14 + 7 + … upto 60 terms, then what is the value of A?",
+        "questionHindi": "यदि A = 1 – 10 + 3 – 12 + 5 – 14 + 7 + … 60 पदों तक है, तो A का मान क्या है?",
+        "options": [
+          "-360",
+          "-310",
+          "-240",
+          "-270"
+        ],
+        "correctAnswer": "-270",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_129",
+        "question": "Find 5 – 8 + 13 + 7 – 11 + 17 + 9 – 14 + 21 + …….. upto 99 terms.",
+        "questionHindi": "5 – 8 + 13 + 7 – 11 + 17 + 9 – 14 + 21 + …….. का 99 पदों तक मान ज्ञात कीजिए।",
+        "options": [
+          "1843",
+          "1749",
+          "1815",
+          "1914"
+        ],
+        "correctAnswer": "1914",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_130",
+        "question": "What is the value of the given series?",
+        "questionHindi": "दी गई श्रृंखला का मान क्या है?",
+        "options": [
+          "5050",
+          "4985",
+          "4995",
+          "4950"
+        ],
+        "correctAnswer": "4995",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_131",
+        "question": "What is the sum of all the common terms between the given series S₁ and S₂? S₁ = 2, 9, 16,…..632 and S₂ = 7, 11, 15…..743",
+        "questionHindi": "दी गई श्रंखलाओं S₁ तथा S₂ के मध्य सभी उभयनिष्ठ पदों का योग क्या है? S₁ = 2, 9, 16,…..632 तथा S₂ = 7, 11, 15…..743",
+        "options": [
+          "6974",
+          "6860",
+          "6750",
+          "7140"
+        ],
+        "correctAnswer": "6974",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_132",
+        "question": "What is the sum of first 20 terms of the following series? 1×2 + 2×3 + 3×4 + 4×5 + …",
+        "questionHindi": "दी गई श्रृंखला 1×2 + 2×3 + 3×4 + 4×5 + … के पहले 20 पदों का योग क्या है?",
+        "options": [
+          "2940",
+          "3160",
+          "3080",
+          "3240"
+        ],
+        "correctAnswer": "3080",
+        "solution": "Video solution will be added soon"
+      },
+        {
+          "id": "maths_number_system_134",
+          "question": "Find the value of 32 × 1 + 32 × 2 + 32 × 3 + 32 × 4.",
+          "questionHindi": "32 × 1 + 32 × 2 + 32 × 3 + 32 × 4 का मान ज्ञात कीजिए।",
+          "options": [
+            "68",
+            "72",
+            "74",
+            "64"
+          ],
+          "correctAnswer": "64",
+          "solution": "Video solution will be added soon"
+        },
+        {
+          "id": "maths_number_system_135",
+          "question": "The sum of n terms of a G.P. is in G.P. Find the value of n?",
+          "questionHindi": "एक गुणोत्तर श्रेणी के n पदों का योग GP में है। n का मान ज्ञात कीजिए।",
+          "options": [
+            "5",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": "5",
+          "solution": "Video solution will be added soon"
+        },
+        {
+          "id": "maths_number_system_136",
+          "question": "The sum of 4 + 44 + 444 + ……… up to n terms is:",
+          "questionHindi": "4 + 44 + 444 + ……… का n पदों तक योग क्या है?",
+          "options": [
+            "Option A (as given in PDF)",
+            "Option B (as given in PDF)",
+            "Option C (as given in PDF)",
+            "Option D (as given in PDF)"
+          ],
+          "correctAnswer": "Option C (as given in PDF)",
+          "solution": "Video solution will be added soon"
+        },
+        {
+          "id": "maths_number_system_137",
+          "question": "If a ball is thrown from a height of 500 m on the ground, the ball bounces a fixed fraction of its previous height every time. Find the total distance covered by the ball till it stops.",
+          "questionHindi": "यदि किसी गेंद को 500 मीटर की ऊँचाई से जमीन पर फेंका जाता है, तो गेंद प्रत्येक उछाल में अपनी पिछली ऊँचाई के एक निश्चित भाग तक उछलती है। गेंद के रुकने तक कुल दूरी ज्ञात कीजिए।",
+          "options": [
+            "4500 m",
+            "5000 m",
+            "4200 m",
+            "4000 m"
+          ],
+          "correctAnswer": "4500 m",
+          "solution": "Video solution will be added soon"
+        },
+        {
+          "id": "maths_number_system_138",
+          "question": "If the sum of the first 1743 terms of a GP is 500 and the sum of the first 3486 terms is 900, then what is the sum of the first 5229 terms?",
+          "questionHindi": "यदि किसी GP के पहले 1743 पदों का योग 500 है तथा पहले 3486 पदों का योग 900 है, तो पहले 5229 पदों का योग क्या होगा?",
+          "options": [
+            "1200",
+            "1300",
+            "1220",
+            "1330"
+          ],
+          "correctAnswer": "1220",
+          "solution": "Video solution will be added soon"
+        },
+        {
+          "id": "maths_number_system_139",
+          "question": "For two observations, the sum is S and the product is P. What is the harmonic mean of these two observations?",
+          "questionHindi": "दो अवलोकनों का योग S तथा गुणनफल P है। इन दोनों का हरात्मक माध्य क्या होगा?",
+          "options": [
+            "Option A (formula)",
+            "Option B (formula)",
+            "Option C (formula)",
+            "Option D (formula)"
+          ],
+          "correctAnswer": "Option C (formula)",
+          "solution": "Video solution will be added soon"
+        },
+        {
+          "id": "maths_number_system_140",
+          "question": "If x is the harmonic mean between y and z, then which one of the following is correct?",
+          "questionHindi": "यदि x, y तथा z के बीच का हरात्मक माध्य है, तो निम्नलिखित में से कौन-सा सही है?",
+          "options": [
+            "xy + xz − yz",
+            "xy + xz − 2yz",
+            "xy + xz + yz",
+            "xy + xz − 4yz"
+          ],
+          "correctAnswer": "xy + xz − 2yz",
+          "solution": "Video solution will be added soon"
+        },
+        {
+          "id": "maths_number_system_141",
+          "question": "The harmonic mean and the geometric mean of two numbers are 10 and 12 respectively. What is their arithmetic mean?",
+          "questionHindi": "दो संख्याओं का हरात्मक माध्य 10 तथा गुणोत्तर माध्य 12 है। उनका समान्तर माध्य क्या है?",
+          "options": [
+            "25/3",
+            "√120",
+            "11",
+            "14.4"
+          ],
+          "correctAnswer": "14.4",
+          "solution": "Video solution will be added soon"
+        },
+        {
+          "id": "maths_number_system_142",
+          "question": "If arithmetic and geometric mean of x and y is 8 and 3√7 respectively, then the value of x³ + y³ is?",
+          "questionHindi": "यदि x तथा y का समान्तर माध्य 8 तथा गुणोत्तर माध्य 3√7 है, तो x³ + y³ का मान क्या है?",
+          "options": [
+            "1072",
+            "945",
+            "559",
+            "855"
+          ],
+          "correctAnswer": "1072",
+          "solution": "Video solution will be added soon"
+        },
+        
+          {
+            "id": "maths_number_system_143",
+            "question": "Find the total number of factors of 10500.",
+            "questionHindi": "10500 के कुल कितने गुणनखंड हैं?",
+            "options": ["46", "48", "50", "44"],
+            "correctAnswer": "48",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_144",
+            "question": "x³ + x² + 768 is exactly divisible by x, where x is a positive integer. The number of all such possible values of x is:",
+            "questionHindi": "x³ + x² + 768, x से पूर्णतः विभाज्य है, जहाँ x एक धनात्मक पूर्णांक है। x के ऐसे सभी संभव मानों की संख्या क्या है?",
+            "options": ["20", "16", "18", "15"],
+            "correctAnswer": "18",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_145",
+            "question": "If N is given as in the question, then how many positive factors does N have?",
+            "questionHindi": "यदि N प्रश्नानुसार दिया गया है, तो N के कितने धनात्मक गुणनखंड होंगे?",
+            "options": ["132", "143", "92", "140"],
+            "correctAnswer": "132",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_146",
+            "question": "The total number of factors of the given number is:",
+            "questionHindi": "दिए गए संख्या के गुणनखंडों की कुल संख्या कितनी है?",
+            "options": ["144", "96", "120", "64"],
+            "correctAnswer": "96",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_147",
+            "question": "What is the sum of all the factors of 19600?",
+            "questionHindi": "19600 के सभी गुणनखंडों का योग क्या है?",
+            "options": ["54776", "77454", "45770", "54777"],
+            "correctAnswer": "54777",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_148",
+            "question": "Find the total number of odd factors of 2520.",
+            "questionHindi": "2520 के कुल कितने विषम गुणनखंड हैं?",
+            "options": ["12", "10", "8", "16"],
+            "correctAnswer": "12",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_149",
+            "question": "What is the sum of all the odd factors of 64800?",
+            "questionHindi": "64800 के सभी विषम गुणनखंडों का योग क्या है?",
+            "options": ["3750", "3751", "7502", "7503"],
+            "correctAnswer": "3751",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_150",
+            "question": "Find the total number of even factors of 4200.",
+            "questionHindi": "4200 के कुल कितने सम गुणनखंड हैं?",
+            "options": ["48", "42", "36", "12"],
+            "correctAnswer": "36",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_151",
+            "question": "How many factors of the given number are even?",
+            "questionHindi": "दिए गए संख्या के कितने गुणनखंड सम हैं?",
+            "options": ["40", "280", "320", "84"],
+            "correctAnswer": "280",
+            "solution": "Video solution will be added soon"
+          },
+          {
+            "id": "maths_number_system_152",
+            "question": "Consider the given number N. Which of the following statements is/are correct?\nI. The number of odd factors of N is 60.\nII. The number of even factors of N is 720.",
+            "questionHindi": "दिए गए संख्या N पर विचार कीजिए। निम्नलिखित में से कौन-सा/से कथन सही है/हैं?\nI. N के विषम गुणनखंडों की संख्या 60 है।\nII. N के सम गुणनखंडों की संख्या 720 है।",
+            "options": [
+              "Only (i)",
+              "Only (ii)",
+              "Both (i) and (ii)",
+              "Neither (i) nor (ii)"
+            ],
+            "correctAnswer": "Both (i) and (ii)",
+            "solution": "Video solution will be added soon"
+          },
+            {
+              "id": "maths_number_system_153",
+              "question": "What is the sum of reciprocal of all factors of number 360?",
+              "questionHindi": "संख्या 360 के सभी गुणनखंडों के व्युत्क्रमों का योग क्या है?",
+              "options": ["2.65", "3.25", "3.48", "4.20"],
+              "correctAnswer": "3.25",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_154",
+              "question": "How many factors of the number 21600 are perfect squares?",
+              "questionHindi": "21600 के कितने गुणनखंड पूर्ण वर्ग हैं?",
+              "options": ["12", "6", "15", "10"],
+              "correctAnswer": "12",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_155",
+              "question": "How many factors of 2⁴ × 3⁵ × 10⁴ are perfect squares which are greater than 1?",
+              "questionHindi": "2⁴ × 3⁵ × 10⁴ के कितने गुणनखंड पूर्ण वर्ग हैं जो 1 से बड़े हैं?",
+              "options": ["42", "44", "45", "43"],
+              "correctAnswer": "44",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_156",
+              "question": "How many factors of 2³ × 3³ × 5⁴ × 7² are divisible by 50 but not by 100?",
+              "questionHindi": "2³ × 3³ × 5⁴ × 7² के कितने गुणनखंड 50 से विभाज्य हैं लेकिन 100 से नहीं?",
+              "options": ["42", "40", "36", "38"],
+              "correctAnswer": "36",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_157",
+              "question": "How many factors of 14,400 are divisible by 18 but not by 36?",
+              "questionHindi": "14,400 के कितने गुणनखंड 18 से विभाज्य हैं लेकिन 36 से नहीं?",
+              "options": ["5", "2", "4", "3"],
+              "correctAnswer": "3",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_158",
+              "question": "A natural number n divides 732 and leaves 12 as a remainder. How many values of n are possible?",
+              "questionHindi": "एक प्राकृतिक संख्या n, 732 को विभाजित करने पर 12 शेष छोड़ती है। n के कितने मान संभव हैं?",
+              "options": ["18", "20", "16", "22"],
+              "correctAnswer": "20",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_159",
+              "question": "Which one of the following is correct in respect of the statements given below?\nStatement 1: The smallest natural number having exactly 11 factors is given.\nStatement 2: The smallest natural number having exactly 12 factors is given.\nStatement 3: The smallest natural number having exactly 13 factors is given.",
+              "questionHindi": "निम्नलिखित कथनों के संबंध में सही विकल्प चुनिए:\nकथन 1: ठीक 11 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।\nकथन 2: ठीक 12 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।\nकथन 3: ठीक 13 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।",
+              "options": [
+                "None of the three statements is true",
+                "Statements 1 and 2 are true, but Statement 3 is false",
+                "Statements 1 and 3 are true, but Statement 2 is false",
+                "All the three statements are true"
+              ],
+              "correctAnswer": "Statements 1 and 3 are true, but Statement 2 is false",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_160",
+              "question": "'n' is a number such that 2n has 28 factors and 3n has 30 factors. Then 6n has how many factors?",
+              "questionHindi": "n ऐसी संख्या है कि 2n के 28 गुणनखंड हैं तथा 3n के 30 गुणनखंड हैं। तब 6n के कितने गुणनखंड होंगे?",
+              "options": ["28", "35", "25", "32"],
+              "correctAnswer": "35",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_161",
+              "question": "What is the product of all the factors of 576?",
+              "questionHindi": "576 के सभी गुणनखंडों का गुणनफल क्या है?",
+              "options": ["2^421", "2^419", "2^417", "2^420"],
+              "correctAnswer": "2^421",
+              "solution": "Video solution will be added soon"
+            },
+            {
+              "id": "maths_number_system_162",
+              "question": "How many natural numbers less than 225 have an odd number of factors?",
+              "questionHindi": "225 से कम कितनी प्राकृतिक संख्याओं के गुणनखंडों की संख्या विषम है?",
+              "options": ["12", "11", "15", "14"],
+              "correctAnswer": "14",
+              "solution": "Video solution will be added soon"
+            },
+              {
+                "id": "maths_number_system_163",
+                "question": "If there are 14 factors of N between 1 and √N, then find the total number of factors of N.",
+                "questionHindi": "यदि 1 और √N के बीच N के 14 गुणनखंड हैं, तो N के कुल गुणनखंडों की संख्या ज्ञात कीजिए।",
+                "options": ["28", "30", "31", "33"],
+                "correctAnswer": "31",
+                "solution": "Video solution will be added soon"
+              },
+              {
+                "id": "maths_number_system_164",
+                "question": "If N = 3¹⁴ + 3¹³ − 12, then what is the largest prime factor of N?",
+                "questionHindi": "यदि N = 3¹⁴ + 3¹³ − 12 है, तो N का सबसे बड़ा अभाज्य गुणनखंड ज्ञात कीजिए।",
+                "options": ["11", "79", "13", "73"],
+                "correctAnswer": "73",
+                "solution": "Video solution will be added soon"
+              },
+              {
+                "id": "maths_number_system_165",
+                "question": "How many prime numbers are included in the factorization of 6⁷ × 35³ × 11¹⁰?",
+                "questionHindi": "6⁷ × 35³ × 11¹⁰ के गुणनखंडन में कितनी अभाज्य संख्याएँ सम्मिलित हैं?",
+                "options": ["25", "20", "30", "15"],
+                "correctAnswer": "30",
+                "solution": "Video solution will be added soon"
+              },
+              {
+                "id": "maths_number_system_166",
+                "question": "The total number of 3-digit numbers which have only 3 factors will be?",
+                "questionHindi": "3 अंकों की ऐसी संख्याओं की कुल संख्या कितनी होगी, जिनके केवल 3 गुणनखंड हों?",
+                "options": ["6", "9", "45", "7"],
+                "correctAnswer": "7",
+                "solution": "Video solution will be added soon"
+              },
+              {
+                "id": "maths_number_system_167",
+                "question": "Let p, q, r and s be positive natural numbers having exactly three factors including 1 and the number itself. If q > p and both are two-digit numbers, and r > s and both are one-digit numbers, then the value of the expression (p − q − 1)/(r − s) is:",
+                "questionHindi": "मान लीजिए p, q, r तथा s धनात्मक प्राकृतिक संख्याएँ हैं, जिनके ठीक तीन गुणनखंड हैं (1 तथा स्वयं संख्या सहित)। यदि q > p तथा दोनों दो-अंकीय संख्याएँ हैं, और r > s तथा दोनों एक-अंकीय संख्याएँ हैं, तो व्यंजक (p − q − 1)/(r − s) का मान क्या होगा?",
+                "options": ["−S − 1", "S − 1", "1 − S", "S + 1"],
+                "correctAnswer": "−S − 1",
+                "solution": "Video solution will be added soon"
+              },
   {
     "id": "maths_number_system_144",
     "question": "Number System — Question 144 (add real content in datas/maths/number-system.json)",

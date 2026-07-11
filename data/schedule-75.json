@@ -598,9 +598,7 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day5-grammar.pdf",
-        "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "vocabPdf": "https://drive.google.com/file/d/1UfUdls4pGCT4UXWJ87Dpc4TMc_ULTf1s/view?usp=drive_link",
         "grammarQuiz": "pronoun",
         "grammarQuizLabel": "Tense",
         "grammarQuizFrom": 255,
@@ -609,8 +607,10 @@
       },
       "reasoning": {
         "topic": "coding-decoding",
-        "questions": 50,
-        "duration": 45
+        "label": "Number Series Quiz",
+        "questions": 25,
+        "duration": 25,
+        "from": 50
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day5-science.pdf",
