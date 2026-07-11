@@ -899,5 +899,69 @@
         }
       ]
     }
+  },
+  "12": { 
+    "cloze": {
+      "title": "Cloze Test",
+      "directions": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. Choose the correct answer for each question.",
+      "passage": "India is located between two major drug-producing regions: Afghanistan, Pakistan, and Iran to the west and Myanmar, Thailand, and Laos to the east. While the West has historically dominated heroin production, Myanmar has become the world's leading source of illicit (1)______. Officials have stated that drugs are being received through maritime routes at Gujarat, Kerala, and (2)______. The Narcotics Control Bureau has also noted a dramatic surge in the use of (3)______ to smuggle drugs across borders, especially over Punjab. Traffickers are increasingly organising over the (4)______ and using cryptocurrencies. India's response aims to ensure that its enforcement regime is not out-innovated while improving regulatory (5)______.",
+      "questions": [
+        {
+          "question": "Blank (1):",
+          "options": [
+            "opium",
+            "cocaine",
+            "hashish",
+            "morphine"
+          ],
+          "answer": "opium",
+          "explanation": "Myanmar has become the world's leading source of illicit opium, making 'opium' the correct answer."
+        },
+        {
+          "question": "Blank (2):",
+          "options": [
+            "Tamil Nadu",
+            "Odisha",
+            "Goa",
+            "West Bengal"
+          ],
+          "answer": "Tamil Nadu",
+          "explanation": "The passage mentions Gujarat, Kerala, and Tamil Nadu as key maritime entry points for drugs."
+        },
+        {
+          "question": "Blank (3):",
+          "options": [
+            "drones",
+            "satellites",
+            "submarines",
+            "balloons"
+          ],
+          "answer": "drones",
+          "explanation": "The Narcotics Control Bureau has reported a sharp increase in the use of drones for cross-border drug smuggling."
+        },
+        {
+          "question": "Blank (4):",
+          "options": [
+            "darknet",
+            "internet",
+            "broadcast",
+            "newspapers"
+          ],
+          "answer": "darknet",
+          "explanation": "Drug traffickers increasingly organise over the darknet and use cryptocurrencies for illicit activities."
+        },
+        {
+          "question": "Blank (5):",
+          "options": [
+            "certainty",
+            "confusion",
+            "expansion",
+            "delay"
+          ],
+          "answer": "certainty",
+          "explanation": "India's response seeks to improve regulatory certainty while strengthening enforcement against evolving drug trafficking methods."
+        }
+      ]
+    }
   }
 }

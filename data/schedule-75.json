@@ -552,8 +552,7 @@
         "grammarQuizFrom": 225,
         "grammarQuizQuestions": 30,
         "grammarQuizDuration": 12,
-        "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "vocabPdf": "/content/english/day4-vocab.pdf"
       },
       "reasoning": {
         "topic": "analogy",
@@ -592,7 +591,8 @@
         }
       ],
       "english": {
-        "vocabPdf": "https://drive.google.com/file/d/1UfUdls4pGCT4UXWJ87Dpc4TMc_ULTf1s/view?usp=drive_link",
+
+        "grammarPdf": "https://drive.google.com/file/d/1UfUdls4pGCT4UXWJ87Dpc4TMc_ULTf1s/view?usp=drive_link",
         "grammarQuiz": "pronoun",
         "grammarQuizLabel": "Tense",
         "grammarQuizFrom": 255,
@@ -607,7 +607,7 @@
         "from": 50
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "todayTopicPdf": "https://drive.google.com/file/d/13Tuim5hgPz2SXm_ax99U6df6fQ4NzFsn/view?usp=drive_link",
        
         "revisionQuiz": "revision",
         "revisionTopic": "Day 12 GK revision"
