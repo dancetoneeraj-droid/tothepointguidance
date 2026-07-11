@@ -963,5 +963,154 @@
         }
       ]
     }
-  }
+  },
+  "13": {
+      "parajumble": {
+        "title": "Para Jumbles",
+        "directions": "Each sentence has been split into four parts (P, Q, R, S) given in jumbled order. Select the option that arranges them into a meaningful sentence.",
+        "items": [
+          {
+            "parts": [
+              {
+                "label": "P",
+                "text": "However, alongside the celebrations, public debates have also emerged regarding donations, land transactions and fund management."
+              },
+              {
+                "label": "Q",
+                "text": "The Ram Mandir in Ayodhya is one of the most significant religious and cultural developments in modern India."
+              },
+              {
+                "label": "R",
+                "text": "These discussions have led some critics to use the phrase 'Ram Mandir loot'."
+              },
+              {
+                "label": "S",
+                "text": "For millions of devotees, it represents the fulfillment of a centuries-old aspiration."
+              }
+            ],
+            "options": [
+              "QSPR",
+              "SQPR",
+              "PQRS",
+              "QRPS"
+            ],
+            "answer": "QSPR",
+            "explanation": "Q introduces the topic. S explains its significance. P introduces the contrasting debates. R concludes with the result of those debates."
+          },
+          {
+            "parts": [
+              {
+                "label": "P",
+                "text": "Large religious projects involving substantial public donations naturally attract scrutiny."
+              },
+              {
+                "label": "Q",
+                "text": "It is important to distinguish between verified facts and unproven allegations."
+              },
+              {
+                "label": "R",
+                "text": "Some groups have demanded greater transparency in financial records and procurement."
+              },
+              {
+                "label": "S",
+                "text": "The temple trust has rejected allegations of wrongdoing and stated that procedures were properly followed."
+              }
+            ],
+            "options": [
+              "QPRS",
+              "PQRS",
+              "RQPS",
+              "QSRP"
+            ],
+            "answer": "QPRS",
+            "explanation": "Q establishes the principle of separating facts from allegations. P explains why scrutiny exists. R mentions demands for transparency. S presents the response of the temple trust."
+          },
+          {
+            "parts": [
+              {
+                "label": "P",
+                "text": "Property prices increased, tourism expanded and new businesses emerged."
+              },
+              {
+                "label": "Q",
+                "text": "The rapid development of Ayodhya has transformed the city's economy."
+              },
+              {
+                "label": "R",
+                "text": "However, some residents have expressed concerns about rising costs and displacement."
+              },
+              {
+                "label": "S",
+                "text": "These concerns highlight the challenges associated with large development projects."
+              }
+            ],
+            "options": [
+              "QPRS",
+              "PQRS",
+              "QRSP",
+              "RPQS"
+            ],
+            "answer": "QPRS",
+            "explanation": "Q introduces the economic transformation. P provides examples of development. R presents the contrasting concerns. S concludes with the broader implication."
+          },
+          {
+            "parts": [
+              {
+                "label": "P",
+                "text": "Unfortunately, some criminals exploit religious sentiments through fake donation drives."
+              },
+              {
+                "label": "Q",
+                "text": "The phrase 'Ram Mandir loot' is also used in another context."
+              },
+              {
+                "label": "R",
+                "text": "They may impersonate temple representatives or create fraudulent online campaigns."
+              },
+              {
+                "label": "S",
+                "text": "Therefore, devotees should contribute only through officially recognized channels."
+              }
+            ],
+            "options": [
+              "QPRS",
+              "PQRS",
+              "RQSP",
+              "QRPS"
+            ],
+            "answer": "QPRS",
+            "explanation": "Q introduces the alternate meaning of the phrase. P explains the fraud. R describes the methods used by fraudsters. S ends with the precautionary advice."
+          },
+          {
+            "parts": [
+              {
+                "label": "P",
+                "text": "Independent audits and clear financial disclosures can strengthen public confidence."
+              },
+              {
+                "label": "Q",
+                "text": "Transparency is essential for maintaining public trust in institutions managing donated funds."
+              },
+              {
+                "label": "R",
+                "text": "At the same time, criticism should be based on credible evidence rather than rumours."
+              },
+              {
+                "label": "S",
+                "text": "Such a balanced approach respects both public accountability and religious faith."
+              }
+            ],
+            "options": [
+              "QPRS",
+              "PQRS",
+              "RQPS",
+              "SPQR"
+            ],
+            "answer": "QPRS",
+            "explanation": "Q introduces the importance of transparency. P explains how transparency can be achieved. R stresses responsible criticism. S concludes with the balanced outcome."
+          }
+        ]
+      }
+    }
+
 }
