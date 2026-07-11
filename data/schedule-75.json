@@ -570,7 +570,7 @@
     },
     {
       "day": 13,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "time-speed-distance",
@@ -583,12 +583,6 @@
           "questions": 25,
           "duration": 25,
           "from": 75
-        },
-        {
-          "topic": "partnership",
-          "questions": 25,
-          "duration": 25,
-          "from": 50
         },
         {
           "topic": "geometry",
