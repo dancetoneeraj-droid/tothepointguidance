@@ -48,3 +48,7 @@ export function quizCompletionId(
 ): string {
   return `day${day}-${subject}-${topic}`;
 }
+
+export function comprehensionRecordId(day: number): string {
+  return `day${day}-english-comprehension`;
+}

@@ -647,474 +647,514 @@
     "explanation": "Volume = √(3 × 12 × 16) = √576 = 24 m³. Capacity = 24 × 1000 = 24000 litres.",
     "solution": "# Solution\n\n**Step 1: Set up equations for three adjacent faces**\n\nLet the dimensions of cuboid be length (l), breadth (b), and height (h).\n\nThree adjacent faces have areas:\n- lb = 3 ... (1)\n- bh = 12 ... (2)\n- hl = 16 ... (3)\n\n**Step 2: Multiply all three equations**\n\n(lb)(bh)(hl) = 3 × 12 × 16\n\nl²b²h² = 576\n\n(lbh)² = 576\n\nlbh = 24 m³\n\n**Step 3: Convert to litres**\n\nVolume = 24 m³\n\nSince 1 m³ = 1000 litres:\n\nCapacity = 24 × 1000 = **24,000 litres**\n\n**Answer: 24000 litres** ✓"
   },
-  {
-    "id": "maths_mensuration_3d_051",
-    "question": "Mensuration 3d — Question 51 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_052",
-    "question": "Mensuration 3d — Question 52 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_053",
-    "question": "Mensuration 3d — Question 53 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_054",
-    "question": "Mensuration 3d — Question 54 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_055",
-    "question": "Mensuration 3d — Question 55 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_056",
-    "question": "Mensuration 3d — Question 56 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_057",
-    "question": "Mensuration 3d — Question 57 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_058",
-    "question": "Mensuration 3d — Question 58 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_059",
-    "question": "Mensuration 3d — Question 59 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_060",
-    "question": "Mensuration 3d — Question 60 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_061",
-    "question": "Mensuration 3d — Question 61 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_062",
-    "question": "Mensuration 3d — Question 62 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_063",
-    "question": "Mensuration 3d — Question 63 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_064",
-    "question": "Mensuration 3d — Question 64 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_065",
-    "question": "Mensuration 3d — Question 65 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_066",
-    "question": "Mensuration 3d — Question 66 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_067",
-    "question": "Mensuration 3d — Question 67 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_068",
-    "question": "Mensuration 3d — Question 68 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_069",
-    "question": "Mensuration 3d — Question 69 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_070",
-    "question": "Mensuration 3d — Question 70 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_071",
-    "question": "Mensuration 3d — Question 71 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_072",
-    "question": "Mensuration 3d — Question 72 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_073",
-    "question": "Mensuration 3d — Question 73 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_074",
-    "question": "Mensuration 3d — Question 74 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_075",
-    "question": "Mensuration 3d — Question 75 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_076",
-    "question": "Mensuration 3d — Question 76 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_077",
-    "question": "Mensuration 3d — Question 77 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_078",
-    "question": "Mensuration 3d — Question 78 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_079",
-    "question": "Mensuration 3d — Question 79 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_080",
-    "question": "Mensuration 3d — Question 80 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_081",
-    "question": "Mensuration 3d — Question 81 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_082",
-    "question": "Mensuration 3d — Question 82 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_083",
-    "question": "Mensuration 3d — Question 83 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_084",
-    "question": "Mensuration 3d — Question 84 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_085",
-    "question": "Mensuration 3d — Question 85 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_086",
-    "question": "Mensuration 3d — Question 86 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_087",
-    "question": "Mensuration 3d — Question 87 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_088",
-    "question": "Mensuration 3d — Question 88 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
-  {
-    "id": "maths_mensuration_3d_089",
-    "question": "Mensuration 3d — Question 89 (add real content in datas/maths/mensuration-3d.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
-  },
+    {
+      "id": "maths_mensuration_3d_051",
+      "question": "The areas of three adjacent faces of a solid cuboid are 66 cm², 192 cm² and 198 cm². What is the volume (in cm³) of the cuboid?",
+      "questionHindi": "एक ठोस घनाभ के तीन आसन्न फलकों के क्षेत्रफल 66 cm², 192 cm² और 198 cm² हैं। घनाभ का आयतन (cm³ में) ज्ञात कीजिए।",
+      "options": [
+        "1782",
+        "1792",
+        "1584",
+        "1594"
+      ],
+      "correctAnswer": "1584",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_052",
+      "question": "The volume of a cuboid is 3600 cubic cm. The areas of two adjacent faces are 225 square cm and 144 square cm. What is the area of the other adjacent face?",
+      "questionHindi": "एक घनाभ का आयतन 3600 घन सेमी है। दो आसन्न फलकों का क्षेत्रफल 225 वर्ग सेमी और 144 वर्ग सेमी है। दूसरे आसन्न फलक का क्षेत्रफल क्या है?",
+      "options": [
+        "400 square cm",
+        "360 square cm",
+        "320 square cm",
+        "300 square cm"
+      ],
+      "correctAnswer": "400 square cm",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_053",
+      "question": "The ratio of the length, width and height of a closed cuboid is given as 6 : 3 : 2. The total surface area of this cuboid is given as 1800 cm². Find the volume (in cm³) of this cuboid.",
+      "questionHindi": "एक संवृत घनाभ की लंबाई, चौड़ाई और ऊँचाई का अनुपात 6 : 3 : 2 दिया गया है। इस घनाभ का संपूर्ण पृष्ठीय क्षेत्रफल 1800 cm² दिया गया है। इस घनाभ का आयतन (cm³ में) ज्ञात कीजिए।",
+      "options": [
+        "4650",
+        "4800",
+        "4200",
+        "4500"
+      ],
+      "correctAnswer": "4800",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_054",
+      "question": "The length, breadth and height of a cuboid are in the ratio of 6 : 4 : 3. If the total surface area of the cuboid is 972 cm², what is the length (in cm) of the diagonal of the cuboid?",
+      "questionHindi": "एक घनाभ की लंबाई, मोटाई और ऊंचाई का अनुपात 6 : 4 : 3 है। यदि घनाभ का कुल सतह क्षेत्रफल 972 cm² है, तो घनाभ के विकर्ण की लंबाई (सेमी में) क्या है?",
+      "options": [
+        "5√65",
+        "3√61",
+        "3√65",
+        "5√61"
+      ],
+      "correctAnswer": "3√61",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_055",
+      "question": "The volume of a rectangular block is 12288 m³. Its dimensions are in the ratio of 4 : 3 : 2. If the entire surface is polished at the rate of 2 paise per m², then find the total cost of polishing.",
+      "questionHindi": "एक आयताकार खंड का आयतन 12288 m³ है। इसके आयाम 4 : 3 : 2 के अनुपात में हैं। यदि संपूर्ण पृष्ठ को 2 पैसे/m² की दर से पॉलिश किया जाए, तो पॉलिश करने की कुल लागत ज्ञात कीजिए।",
+      "options": [
+        "Rs. 33.28",
+        "Rs. 44.42",
+        "Rs. 66.56",
+        "Rs. 11.14"
+      ],
+      "correctAnswer": "Rs. 66.56",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_056",
+      "question": "The length, width and height of a room are in the ratio 5 : 4 : 2. If in a new room, the length is increased by 40% and the width by 25%, how will the volume of the room change for the total area of the four walls of the room to stay the same as before?",
+      "questionHindi": "एक कमरे की लंबाई, चौड़ाई और ऊंचाई का अनुपात 5 : 4 : 2 है। यदि एक नए कमरे में लंबाई को 40% से और चौड़ाई को 25% से बढ़ाया जाता है, कमरे के चारों दीवारों के कुल क्षेत्रफल को एक समान रखने हेतु कमरे के आयतन में क्या बदलाव किया जाएगा?",
+      "options": [
+        "Remain the same / पहले जैसे ही होगा",
+        "Increase by 31.25% / 31.25% बढ़ोत्तरी होगी",
+        "Increase by 20.25% / 20.25% बढ़ोत्तरी होगी",
+        "Increase by 10% / 10% बढ़ोत्तरी होगी"
+      ],
+      "correctAnswer": "Remain the same / पहले जैसे ही होगा",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_057",
+      "question": "The length, breadth and height of a hall are 10 m, 20 m and 15 m respectively. Find the cost of whitewashing the walls of the inside of the hall and ceiling at the rate of ₹10.20/m².",
+      "questionHindi": "एक हॉल की लंबाई, चौड़ाई और ऊंचाई क्रमशः 10 m, 20 m और 15 m है। हॉल के अंदर की दीवारों और भीतरी छत को ₹10.20/m² की दर से सफेदी करने का खर्च ज्ञात कीजिए।",
+      "options": [
+        "₹13,394",
+        "₹11,220",
+        "₹15,320",
+        "₹16,542"
+      ],
+      "correctAnswer": "₹11,220",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_058",
+      "question": "A room has length 15 feet, width 12 feet and height 10 feet. It has one door of dimensions 8 ft × 3.5 ft, and 2 windows of size 5 ft × 3 ft. Find the cost of painting the four walls and the ceiling at ₹50 per ft².",
+      "questionHindi": "किसी कमरे की लंबाई 15 फीट, चौड़ाई 12 फीट और ऊंचाई 10 फीट है। इसमें 8 फीट × 3.5 फीट भुजाओं वाला एक दरवाजा है और 5 फीट × 3 फीट आकार की दो खिड़कियां हैं। ₹50 प्रति ft² की दर से चारों दीवारों और छत को पेंट करने की लागत ज्ञात करें।",
+      "options": [
+        "19,600",
+        "21,200",
+        "24,100",
+        "33,100"
+      ],
+      "correctAnswer": "24,100",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_059",
+      "question": "6 cubes, each of edge 4 cm, are joined end to end. What is the total surface area of the resulting cuboid?",
+      "questionHindi": "6 घन जिसके, प्रत्येक किनारे 4 सेमी हैं, सिरे से सिरे तक जोड़े जाते हैं। परिणामी घनाभ का कुल क्षेत्रफल क्या है?",
+      "options": [
+        "416 cm²",
+        "496 cm²",
+        "576 cm²",
+        "208 cm²"
+      ],
+      "correctAnswer": "416 cm²",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_060",
+      "question": "Three cubes of equal volume are joined end to end. Find the surface area of the resulting cuboid if the diagonal of the cube is 6√3 cm.",
+      "questionHindi": "बराबर आयतन वाले तीन घनों को सिरे से सिरे सटाकर आपस में जोड़ा जाता है। यदि घन का विकर्ण 6√3 cm है, तो परिणामी घनाभ का पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+      "options": [
+        "509 cm²",
+        "504 cm²",
+        "516 cm²",
+        "512 cm²"
+      ],
+      "correctAnswer": "504 cm²",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_061",
+      "question": "The sides of the three cubes of metal are 15 cm, 18 cm and 25 cm, respectively. Find the side (in cm) of the new cube formed by melting these cubes together.",
+      "questionHindi": "धातु के तीन घनों की भुजाएँ क्रमशः 15 सेमी, 18 सेमी और 25 सेमी हैं। इन घनों को एक साथ पिघलाकर बने नए घन की भुजा (सेमी में) ज्ञात कीजिए?",
+      "options": [
+        "9∛388",
+        "6∛388",
+        "7∛388",
+        "4∛388"
+      ],
+      "correctAnswer": "6∛388",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_062",
+      "question": "125 identical cubes are cut from a big cube and all the smaller cubes are arranged in a row to form a long cuboid. What is the percentage increase in the total surface area of the cuboid over the total surface area of the cube?",
+      "questionHindi": "एक बड़े घन से 125 छोटे एक समान घन काटे गए हैं। इन घनों को एक कतार में रखकर एक लंबा घनाभ बनाया जाता है। ज्ञात करें बड़े घन के मुकाबले घनाभ के सम्पूर्ण पृष्ठ क्षेत्रफल में कितने % की वृद्धि हुई?",
+      "options": [
+        "234(2/3)%",
+        "235(1/3)%",
+        "134(2/3)%",
+        "None of these"
+      ],
+      "correctAnswer": "234(2/3)%",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_063",
+      "question": "The volume of a wall whose height is 10 times its width and whose length is 8 times its height is 51.2 m³. What is the cost (in ₹) of painting the wall on one side at the rate of ₹100/m²?",
+      "questionHindi": "उस दीवार का आयतन 51.2 m³ है, जिसकी ऊंचाई उसकी चौड़ाई से 10 गुनी है और जिसकी लंबाई उसकी ऊंचाई से 8 गुनी है। ₹100/m² की दर से एक तरफ की दीवार को पेंट करने की लागत (₹ में) ज्ञात करें।",
+      "options": [
+        "25500",
+        "25000",
+        "25600",
+        "25920"
+      ],
+      "correctAnswer": "25600",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_064",
+      "question": "The ice compartment in a refrigerator is 36 cm deep, 16 cm high and 12 cm wide. How many ice cubes will it hold, if each cube has 4 cm as its edge?",
+      "questionHindi": "एक रेफ्रिजरेटर में आइस कंपार्टमेंट 36 cm गहरा, 16 cm ऊंचा और 12 cm चौड़ा है। यदि प्रत्येक आइस क्यूब का कोर 4 cm है, तो इसमें कितने आइस क्यूब समाहित हो सकेंगे?",
+      "options": [
+        "216",
+        "54",
+        "108",
+        "27"
+      ],
+      "correctAnswer": "108",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_065",
+      "question": "A right rectangular box's measurements are 1.6 m long, 90 cm wide, and 60 cm in height. Soap cakes of measurement 6 cm × 5 cm × 40 mm are to be packed in the box, so that no space is left. How many cakes can be packed in the box?",
+      "questionHindi": "एक लंब आयताकार डिब्बे की माप, लंबाई 1.6 m, चौड़ाई 90 cm, ऊंचाई 60 cm है। 6 cm × 5 cm × 40 mm आयामों वाले साबुन के केकों को डिब्बे में इस प्रकार पैक किया जाना है कि डिब्बे में कोई खाली जगह न बचे। डिब्बे में कितने केक पैक किए जा सकते हैं?",
+      "options": [
+        "6000",
+        "5600",
+        "6500",
+        "7200"
+      ],
+      "correctAnswer": "7200",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_066",
+      "question": "A wall is constructed with dimensions 22 m long, 9 m high and 72 cm thick. If 20% of the wall is filled with mortar and each brick measures 22 cm × 12 cm × 9 cm, then find the number of bricks required to construct the wall.",
+      "questionHindi": "एक दीवार 22 मीटर लंबी, 9 मीटर ऊंची और 72 सेमी मोटी बनाई गई है। यदि दीवार का 20% हिस्सा गारे से भरा है और प्रत्येक ईंट का माप 22 सेमी × 12 सेमी × 9 सेमी है, तो दीवार बनाने के लिए आवश्यक ईंटों की संख्या ज्ञात कीजिए?",
+      "options": [
+        "42000",
+        "28000",
+        "15400",
+        "48000"
+      ],
+      "correctAnswer": "48000",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_067",
+      "question": "A cuboid of length 36 m, breadth 18 m and height 9 m is melted and recast into a cube. Find the length of the diagonal of the cube.",
+      "questionHindi": "36 m लंबाई, 18 m चौड़ाई और 9 m ऊंचाई वाले एक घनाभ को पिघलाकर एक घन में बदल दिया जाता है। घन के विकर्ण की लंबाई ज्ञात कीजिए।",
+      "options": [
+        "18√3 m",
+        "15√3 m",
+        "12√3 m",
+        "17√3 m"
+      ],
+      "correctAnswer": "18√3 m",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_068",
+      "question": "A cuboid of dimensions 50 cm, 150 cm, 175 cm can be divided into how many identical largest cubes?",
+      "questionHindi": "50 cm, 150 cm, 175 cm विमाओं वाले एक घनाभ को एक जैसे कितने विशालतम घनों में विभाजित किया जा सकता है?",
+      "options": [
+        "75",
+        "84",
+        "85",
+        "90"
+      ],
+      "correctAnswer": "84",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_069",
+      "question": "A rectangular block of length 20 cm, breadth 15 cm and height 10 cm is cut up into an exact number of equal cubes. The least possible number of cubes will be:",
+      "questionHindi": "लंबाई 20 सेमी, चौड़ाई 15 सेमी और ऊंचाई 10 सेमी के आयताकार ब्लॉक को बराबर घनों की सटीक संख्या में काट दिया जाता है। घनों की कम से कम संभव संख्या होगी:",
+      "options": [
+        "12",
+        "16",
+        "20",
+        "24"
+      ],
+      "correctAnswer": "24",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_070",
+      "question": "Identical cubes of the largest possible size are cut from a solid cuboid of size 65 cm × 26 cm × 3.9 cm. What is the total surface area of all the small cubes taken together?",
+      "questionHindi": "एक ठोस घनाभ की माप 65 cm × 26 cm × 3.9 cm है। इस घनाभ में से अधिकतम भुजा वाले समान घन काटे गए हैं। इन घनों का सम्पूर्ण पृष्ठ क्षेत्रफल क्या होगा?",
+      "options": [
+        "30420",
+        "15210",
+        "20280",
+        "16440"
+      ],
+      "correctAnswer": "30420",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_071",
+      "question": "A cuboid has dimensions 8 cm × 10 cm × 12 cm. It is cut into small cubes of side 2 cm. What is the percentage increase in the total surface area?",
+      "questionHindi": "एक घनाभ की आयाम 8 cm × 10 cm × 12 cm है। इसको 2 cm भुजा वाले छोटे घनों में काटा गया है। तब सम्पूर्ण पृष्ठ क्षेत्रफल में वृद्धि % ज्ञात करें?",
+      "options": [
+        "286.2",
+        "314.32",
+        "250.64",
+        "386.5"
+      ],
+      "correctAnswer": "314.32",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_072",
+      "question": "A cuboid whose sides are 8 cm, 27 cm and 64 cm is melted to form a new cube. What is the respective ratio of the total surface area of the cuboid and the cube?",
+      "questionHindi": "एक घनाभ जिसकी भुजाएँ 8 सेमी, 27 सेमी और 64 सेमी हैं, को पिघलाकर एक नया घन बनाया गया है। घनाभ और घन के कुल सतह क्षेत्रफल का संबंधित अनुपात क्या है?",
+      "options": [
+        "307 : 216",
+        "291 : 203",
+        "349 : 248",
+        "329 : 237"
+      ],
+      "correctAnswer": "307 : 216",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_073",
+      "question": "If a cuboid of dimensions 32 cm × 12 cm × 9 cm is melted into two cubes of the same size, what will be the ratio of the surface area of the cuboid to the total surface area of the two cubes?",
+      "questionHindi": "यदि एक घनाभ 32 सेमी × 12 सेमी × 9 सेमी को एक ही आकार के दो घनों में पिघलाकर बदल दिया जाता है, तो घनाभ के सतह क्षेत्रफल और दो घनों के कुल सतह क्षेत्रफल का अनुपात क्या होगा?",
+      "options": [
+        "32 : 39",
+        "37 : 48",
+        "24 : 35",
+        "65 : 72"
+      ],
+      "correctAnswer": "65 : 72",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_074",
+      "question": "A solid metallic cuboid of dimensions 12 cm × 54 cm × 72 cm is melted and converted into 8 cubes of the same size. What is the sum of the lateral surface areas (in cm²) of 2 such cubes?",
+      "questionHindi": "12 cm × 54 cm × 72 cm आयामों वाले धातु के एक ठोस घनाभ को पिघलाया जाता है और इससे समान आकार के 8 घन निर्मित किए जाते हैं। ऐसे 2 घनों के पार्श्व पृष्ठीय क्षेत्रफलों (cm² में) का योग कितना होगा?",
+      "options": [
+        "1944",
+        "2592",
+        "2268",
+        "3888"
+      ],
+      "correctAnswer": "2592",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_075",
+      "question": "The sides of a cuboid are in the ratio 3 : 4 : 5 and its surface area is equal to the surface area of a cube with side 6 units. What is the approximate volume of the cuboid?",
+      "questionHindi": "एक घनाभ की भुजाओं का अनुपात 3 : 4 : 5 है और इसका पृष्ठीय क्षेत्रफल 6 इकाई भुजा वाले घन के पृष्ठीय क्षेत्रफल के बराबर है। घनाभ का अनुमानित आयतन कितना है?",
+      "options": [
+        "210",
+        "150",
+        "240",
+        "180"
+      ],
+      "correctAnswer": "180",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_076",
+      "question": "A solid cube is cut into three cuboids of the same volumes. What is the ratio of the surface area of the cube to the sum of the surface areas of any two of the cuboids so formed?",
+      "questionHindi": "एक ठोस घन को एक ही आयतन के तीन घनाभों में काट दिया जाता है। घन का क्षेत्रफल और किसी भी दो घनाभों के भाग के सतह क्षेत्रों के योग के अनुपात कितना है?",
+      "options": [
+        "27 : 16",
+        "9 : 8",
+        "9 : 10",
+        "27 : 10"
+      ],
+      "correctAnswer": "9 : 10",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_077",
+      "question": "A cuboid of size 50 cm × 40 cm × 30 cm is cut into 8 identical parts by 3 cuts. What is the total surface area of all 8 parts?",
+      "questionHindi": "एक 50 cm × 40 cm × 30 cm माप वाले घनाभ को 3 बार काटकर 8 बराबर भागों में बांट दिया गया है। अब इस प्रकार कुल 8 भागों का सम्पूर्ण पृष्ठ क्षेत्रफल क्या होगा?",
+      "options": [
+        "18800 cm²",
+        "24400 cm²",
+        "36600 cm²",
+        "12640 cm²"
+      ],
+      "correctAnswer": "18800 cm²",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_078",
+      "question": "A field is in the shape of a rectangle of length 90 m and breadth 75 m. In one corner of the field, a pit, which is 18 m long, 15 m broad and 6 m deep, has been dug out. The earth taken out of it is evenly spread over the remaining part of the field. Find the rise in the level of the field.",
+      "questionHindi": "एक खेत एक आयत के आकार का है जिसकी लंबाई 90 मीटर और चौड़ाई 75 मीटर है। खेत के एक कोने में 18 मीटर लंबा, 15 मीटर चौड़ा और 6 मीटर गहरा एक गड्ढा खोदा गया है। इसमें से निकाली गई मिट्टी खेत के शेष भाग में समान रूप से फैलाई हुई है। खेत के स्तर में वृद्धि का पता लगाएं।",
+      "options": [
+        "27 cm",
+        "25 cm",
+        "28 cm",
+        "24 cm"
+      ],
+      "correctAnswer": "25 cm",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_079",
+      "question": "A tank is in the form of a cuboid with length 12 m. If 18 kilolitres of water is removed from it, the water level goes down by 30 cm. What is the width (in m) of the tank?",
+      "questionHindi": "घनाभ के आकार वाले एक टैंक की लंबाई 12 मीटर है। यदि इससे 18 किलोलीटर पानी निकाल लिया जाता है तो इसका जल स्तर 30 सेमी नीचे चला जाता है। टैंक की चौड़ाई (मीटर में) कितनी है?",
+      "options": [
+        "4.5",
+        "4",
+        "5",
+        "5.5"
+      ],
+      "correctAnswer": "5",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_080",
+      "question": "50 men took a dip in a water tank 40 m long and 20 m broad on a religious day. If the average displacement of water by a man is 4 m³, then the rise in the water level in the tank will be:",
+      "questionHindi": "एक धार्मिक दिन पर 50 पुरुषों ने 40m लंबी और 20 m चौड़ी पानी की टंकी में डुबकी लगाई। यदि एक पुरुष द्वारा पानी का औसत विस्थापन 4 m³ है, तो टंकी में पानी के स्तर में कितनी वृद्धि होगी?",
+      "options": [
+        "25 cm",
+        "20 cm",
+        "35 cm",
+        "50 cm"
+      ],
+      "correctAnswer": "25 cm",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_081",
+      "question": "Water flows into a tank which is 200 m long and 150 m wide, through a pipe of cross-section 0.3 m × 0.2 m at 20 km/hour. Then the time (in hours) for the water level in the tank to reach 8 m is:",
+      "questionHindi": "पानी एक टैंक में जो 200 मीटर लंबा और 150 मीटर चौड़ा है, 20 किमी/घंटा पर क्रॉस-सेक्शन 0.3 मीटर × 0.2 मीटर के पाइप के माध्यम से बहता है। फिर 8 मी तक पहुंचने के लिए टैंक में पानी के स्तर के लिए समय (घंटों में) है:",
+      "options": [
+        "50",
+        "120",
+        "150",
+        "200"
+      ],
+      "correctAnswer": "200",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_082",
+      "question": "Water flows into a tank 200 m × 150 m through a rectangular pipe 1.5 m × 1.2 m at the rate of 15 km/h. In what time (in minutes) will the water rise 3 metres?",
+      "questionHindi": "200 मीटर × 150 मीटर के एक टैंक में 1.5 मीटर × 1.2 मीटर के आयताकार पाइप के माध्यम से पानी 15 किमी/घंटा की दर से प्रवाहित होता है, कितने समय में (मिनट में) पानी 3 मीटर तक ऊपर उठेगा?",
+      "options": [
+        "160",
+        "150",
+        "180",
+        "200"
+      ],
+      "correctAnswer": "200",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_083",
+      "question": "Water flows into a tank 180 m × 140 m through a rectangular pipe of 1.2 m × 0.75 m at a rate of 15 km/h. In what time will the water rise by 4 m?",
+      "questionHindi": "1.2 m × 0.75 m के आयताकार पाइप से पानी 15 km/h की दर से 180 m × 140 m के एक टैंक में प्रवाहित होता है। कितने समय में पानी 4 m की ऊंचाई तक भर जाएगा?",
+      "options": [
+        "6 hours 42 minutes",
+        "7 hours 28 minutes",
+        "5 hours 46 minutes",
+        "8 hours 12 minutes"
+      ],
+      "correctAnswer": "7 hours 28 minutes",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_084",
+      "question": "The diagonals of three faces of a cuboid are 13, √281 and 20 linear units. Then the total surface area of the cuboid is:",
+      "questionHindi": "एक घनाभ के तीन सतहों के विकर्ण 13, √281 और 20 यूनिट हैं। तो घनाभ का कुल सतह क्षेत्रफल है-",
+      "options": [
+        "650 square units",
+        "658 square units",
+        "664 square units",
+        "672 square units"
+      ],
+      "correctAnswer": "672 square units",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_085",
+      "question": "If the areas of the adjacent faces of a rectangular block are in the ratio 2 : 3 : 4 and its volume is 9000 cm³, then the length of the shortest side is:",
+      "questionHindi": "यदि आयताकार ब्लॉक के निकटवर्ती सतहों के क्षेत्रफल 2 : 3 : 4 के अनुपात में हैं और इसका आयतन 9000 cm³ है तो सबसे छोटी भुजा की लंबाई है?",
+      "options": [
+        "30cm",
+        "20cm",
+        "15cm",
+        "10cm"
+      ],
+      "correctAnswer": "15cm",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_086",
+      "question": "An iron box with external dimensions 60 cm, 40 cm, and 20 cm is made of 1 cm thick sheet. If 1 cm³ of iron weighs 50 gm, the weight of the empty box is:",
+      "questionHindi": "60cm, 40 cm और 20 cm बाहरी आयामों वाला एक लोहे का बक्सा 1 cm मोटी चादर से बना है। यदि 1 cm³ लोहे का भार 50 gm है, तो खाली बक्से का भार कितना होगा?",
+      "options": [
+        "214.05 kg",
+        "240 kg",
+        "400 kg",
+        "416.40 kg"
+      ],
+      "correctAnswer": "214.05 kg",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_087",
+      "question": "The internal length, breadth and height of a closed box are 10 cm, 8 cm and 6 cm respectively. The total outer surface area of the box is 592 cm². If the walls of the box are of uniform thickness x cm, then x equals:",
+      "questionHindi": "एक बंद बॉक्स की आंतरिक लंबाई, चौड़ाई और ऊंचाई क्रमशः 10 सेंटीमीटर, 8 सेंटीमीटर और 6 सेंटीमीटर है। बॉक्स की बाहरी सतह का कुल क्षेत्रफल 592 cm² है। यदि बॉक्स की दीवारें एक समान मोटाई x सेंटीमीटर की हैं, तो x का मान है:",
+      "options": [
+        "1.5 cm",
+        "1.25 cm",
+        "1 cm",
+        "0.5 cm"
+      ],
+      "correctAnswer": "2 cm",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_088",
+      "question": "An open water tank has 8360 litres of capacity. It is made up of a material and the thickness of material for all four walls is 5 cm. Find the thickness of material in the bottom of that tank. The dimensions of the water tank are 3.3m × 2.6m × 1.1m.",
+      "questionHindi": "एक खुला पानी के टैंक की क्षमता 8360 ltr है, यह ऐसे धातु से बना है जिसकी चारों दीवारों की मोटाई 5 cm है, तब इस टैंक के फर्श की मोटाई क्या होगी, यदि टैंक की माप 3.3m × 2.6m × 1.1m है?",
+      "options": [
+        "4.5 cm",
+        "5.5cm",
+        "6.5 cm",
+        "7.5 cm"
+      ],
+      "correctAnswer": "5 cm",
+      "solution": "Video solution will be uploaded soon."
+    },
+    {
+      "id": "maths_mensuration_3d_089",
+      "question": "A rectangular sheet of metal is 40cm by 15cm. Equal squares of side 4cm are cut off at the corners and the remainder is folded up to form an open rectangular box. The volume of the box is:",
+      "questionHindi": "एक आयताकार धातु की शीट का आयाम 40 cm × 15 cm है, इस शीट के प्रत्येक किनारे से 4 cm भुजा के वर्ग काटे गए हैं, बचे भाग को मोड़कर एक आयताकार बॉक्स बनाया गया है, इस बॉक्स का आयतन क्या होगा?",
+      "options": [
+        "896 cm³",
+        "986 cm³",
+        "600 cm³",
+        "916 cm³"
+      ],
+      "correctAnswer": "896 cm³",
+      "solution": "Video solution will be uploaded soon."
+    },
+
   {
     "id": "maths_mensuration_3d_090",
     "question": "Mensuration 3d — Question 90 (add real content in datas/maths/mensuration-3d.json)",

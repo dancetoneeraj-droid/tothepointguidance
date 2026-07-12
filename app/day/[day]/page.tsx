@@ -463,7 +463,7 @@ export default function DayPage({
         id: "english-comprehension",
         label: "English Comprehension",
         subtitle: hasComprehensionForDay(dayNum)
-          ? "RC + Cloze test + Para jumbles · daily practice"
+          ? "RC + Cloze test + Para jumbles · one attempt · 5 min"
           : isDay1NounFlow
             ? "NOUN basic PDF reading · 20-30 min read time"
             : "Comprehension reading and practice material",
@@ -475,7 +475,9 @@ export default function DayPage({
             ? [
                 {
                   id: "english-comprehension-practice",
-                  label: "Comprehension Practice",
+                  label: dayProgress.english.comprehension
+                    ? "View Comprehension Result"
+                    : "Start Comprehension Quiz",
                   onClick: () => router.push(`/comprehension/${dayNum}`),
                 },
               ]

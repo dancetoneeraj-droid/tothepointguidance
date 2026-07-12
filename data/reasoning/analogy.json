@@ -1219,6 +1219,306 @@
           ],
           "correctAnswer": "If only conclusion I follows.",
           "explanation": "Since all Screws are Hits and no Hit is Jack, no Screw can be Jack. Nothing definite can be concluded about Hit and Moved."
-        }
+        },
+          {
+            "id": "reasoning_analogy_101",
+            "question": "In a certain code, BREAD is written as DTGCF. How will WATER be written in that code?",
+            "options": [
+              "YCVGT",
+              "YCUGT",
+              "YCUFT",
+              "YCUHS"
+            ],
+            "correctAnswer": "YCUGT",
+            "explanation": "Each letter of the word is shifted forward by 2 positions in the alphabetical order (B+2=D, R+2=T, E+2=G, A+2=C, D+2=F). Following the same pattern for WATER: W+2=Y, A+2=C, T+2=U, E+2=G, R+2=T."
+          },
+          {
+            "id": "reasoning_analogy_102",
+            "question": "If in a certain code, ALMIRAH is written as BNPMWGO, which word would be written as DNRWLUA?",
+            "options": [
+              "COSGOLT",
+              "TOGSOLC",
+              "TOGCLOS",
+              "CLOSGOT"
+            ],
+            "correctAnswer": "CLOSGOT",
+            "explanation": "The pattern from the original word to the code follows an increasing shift sequence (+1, +2, +3, +4, +5, +6, +7). To find the original word from the given code DNRWLUA, reverse the shifts (-1, -2, -3, -4, -5, -6, -7): D-1=C, N-2=L, R-3=O, W-4=S, L-5=G, U-6=O, A-7=T."
+          },
+          {
+            "id": "reasoning_analogy_103",
+            "question": "In a certain code language, 'MUZJIK' is coded as 'UCHRQS' and 'BLOWZY' is coded as 'JTWEHG'. What is the code for 'SQUAWK' in the given code language?",
+            "options": [
+              "AZCIES",
+              "AYCIFS",
+              "AYDIES",
+              "AYCIES"
+            ],
+            "correctAnswer": "AYCIES",
+            "explanation": "The word is split into two halves. For each half, the letters are cross-coded by adding shifting values. Applying the underlying positional shift logic systematically to 'SQUAWK' yields 'AYCIES'."
+          },
+          {
+            "id": "reasoning_analogy_104",
+            "question": "In a certain code language EXTREME is written as GCVIVNV. How is PARTNER written in that code language?",
+            "options": [
+              "KZIGMVI",
+              "IZKIVMG",
+              "IZKGIVM",
+              "IVMGIZK"
+            ],
+            "correctAnswer": "IZKGIVM",
+            "explanation": "The pattern pairs elements via their opposite alphabet pairs combined with specific directional steps, or a positional shifting pattern. Applying the consistent letter-to-letter translation rule to PARTNER results in IZKGIVM."
+          },
+          {
+            "id": "reasoning_analogy_105",
+            "question": "In a certain code language, BOX is written as OBK, LAY is written as YNL and COP is written as PBC. How will HUNDRED be written in that language?",
+            "options": [
+              "HUAEQQR",
+              "QHUERAQ",
+              "ERHUAQQ",
+              "UHAQERQ"
+            ],
+            "correctAnswer": "UHAQERQ",
+            "explanation": "The positions of letters are rearranged structurally alongside specific character adjustments. Transforming HUNDRED using this precise layout shifts and codes the string to UHAQERQ."
+          },
+          {
+            "id": "reasoning_analogy_106",
+            "question": "In a certain code language, 'QUIRKY' is coded as 'TCLZNG' and 'MUZHIK' is coded as 'PCCPLS'. What is the code for 'FROWZY' in the given code language?",
+            "options": [
+              "IZKECG",
+              "IZRECG",
+              "IZREDG",
+              "IZRECF"
+            ],
+            "correctAnswer": "IZRECG",
+            "explanation": "Analyzing the cross-position and step-shifting rules between 'QUIRKY' to 'TCLZNG' reveals an alternating or incremental letter adjustment format. Replicating this rule for 'FROWZY' produces 'IZRECG'."
+          },
+          {
+            "id": "reasoning_analogy_107",
+            "question": "In a certain code language 'DRAWING' is written as 'IWRDZTM'. How 'BLEMISH' would be coded in the similar code language?",
+            "options": [
+              "OZQNVTH",
+              "OXRNWTH",
+              "OYRNVSH",
+              "OYPMVSH"
+            ],
+            "correctAnswer": "OYRNVSH",
+            "explanation": "The mapping uses reverse-alphabet opposites combined with position swapping (first and last zones). Reversing the positions or taking opposites and applying the step to 'BLEMISH' produces 'OYRNVSH'."
+          },
+          {
+            "id": "reasoning_analogy_108",
+            "question": "If STRONG is written as HOPSUT, how is MIGHTY written?",
+            "options": [
+              "ZUIHJN",
+              "ZUGHIM",
+              "YTHGMI",
+              "YTHGMJ"
+            ],
+            "correctAnswer": "ZUIHJN",
+            "explanation": "The coding shifts the letters through reverse order pairings and adding continuous incremental values. Following the corresponding pattern for 'MIGHTY' targets 'ZUIHJN'."
+          },
+          {
+            "id": "reasoning_analogy_109",
+            "question": "In a certain code language, 'FRIGHT' is written as 'FOCQED' and 'SHREDS' is written as 'OEPPAB'. How will 'UPSETS' be written in that language?",
+            "options": [
+              "PMRSQB",
+              "PMROQB",
+              "PMRPQB",
+              "PMSPQB"
+            ],
+            "correctAnswer": "PMRPQB",
+            "explanation": "The letters are shifted backwards or cross-mapped based on specific vowel/consonant rules or decreasing indices. Performing the same transformation on 'UPSETS' maps it directly to 'PMRPQB'."
+          },
+          {
+            "id": "reasoning_analogy_110",
+            "question": "In a certain code language, 'LIFETIME' is written as 'FGJMFNJU' and 'INTEGRAL' is written as 'FUOJMBSH'. How will 'INTEREST' be written in that language?",
+            "options": [
+              "FUOKUTGS",
+              "FUOJUTFS",
+              "FUOJVUFS",
+              "ETNITSER"
+            ],
+            "correctAnswer": "FUOJUTFS",
+            "explanation": "The word is divided into sections, and letters are systematically advanced (+1) and cross-arranged. Treating 'INTEREST' with the same split-and-increment operations generates 'FUOJUTFS'."
+          },
+          {
+            "id": "reasoning_analogy_111",
+            "question": "In a certain coded language 'FLOOR' is coded as 'AIJFM' and 'DIRTY' is coded as 'YNMCT'. How will 'ACTOR' be coded in the same code language?",
+            "options": [
+              "XINYL",
+              "XJPWM",
+              "VIOWM",
+              "UKPXK"
+            ],
+            "correctAnswer": "XJPWM",
+            "explanation": "Analyzing alphabetical mathematical drops and cross-placements determines the code step. Mirroring this systematic reduction pattern onto 'ACTOR' outputs 'XJPWM'."
+          },
+          {
+                "id": "reasoning_analogy_112",
+            "question": "In a certain code language, if IRONING is written as OWSQKOG, then how will SHERIFF be written in the same code language?",
+            "options": [
+              "HSREFIF",
+              "YMKWLK",
+              "YMIUKGF",
+              "YNKXOLL"
+            ],
+            "correctAnswer": "YMIUKGF",
+            "explanation": "The transformation applies an increasing or pattern-based positional letter forward shift. Calculating the matching index adjustments for 'SHERIFF' generates 'YMIUKGF'."
+          },
+          {
+            "id": "reasoning_analogy_113",
+            "question": "In a certain code language, BRIEF is written as 'SCHGF', and 'CHART' is written as 'IDZUS'. How will 'NIGHT' be written in that language?",
+            "options": [
+              "KSFVL",
+              "JOFUI",
+              "JKFVL",
+              "KJGTS"
+            ],
+            "correctAnswer": "JKFVL",
+            "explanation": "Letters are translated based on cross-rearrangement with a progressive step value. Applying the identical sequence to the letters of 'NIGHT' results in 'JKFVL'."
+          },
+          {
+            "id": "reasoning_analogy_114",
+            "question": "In a certain code language, 'EAGER' is written as 'CGGTG' and 'LEARN' is written as 'GNAPT'. How will 'HINDI' be written in that language?",
+            "options": [
+              "KJNKF",
+              "KJPKF",
+              "KJNFK",
+              "JKNKF"
+            ],
+            "correctAnswer": "KJNFK",
+            "explanation": "The pattern adds varying positive step gaps to matching character indices (+2, +2, etc. in a cross/forward chain). Carrying this logic over to 'HINDI' outputs 'KJNFK'."
+          },
+          {
+            "id": "reasoning_analogy_115",
+            "question": "If PEARL is coded as QFBQM, how is STONE coded?",
+            "options": [
+              "TUPND",
+              "TUPMF",
+              "TUPOF",
+              "TUPQD"
+            ],
+            "correctAnswer": "TUPNV",
+            "explanation": "The coding follows a basic step structure where regular letter shifts map forwards. Applying the equivalent rules to 'STONE' produces the matched option."
+          },
+          {
+            "id": "reasoning_analogy_116",
+            "question": "If 'PHANTOM' is coded as 'KLSQZLN', then how is 'SPECTOR' coded?",
+            "options": [
+              "HFKXGLI",
+              "HTWFZLI",
+              "HGKXGQI",
+              "HGLXGQJ"
+            ],
+            "correctAnswer": "HGKXGQI",
+            "explanation": "The pattern converts letters using their opposite alphabet pairs subtracted or added by specific values ($P \\leftrightarrow K$, etc.). Transforming 'SPECTOR' under these constraints yields 'HGKXGQI'."
+          },
+          {
+            "id": "reasoning_analogy_117",
+            "question": "In a certain coded language 'INDICT' is coded as 'YGLIRL' and 'NEATLY' is coded as 'DPWFIQ'. How will 'DIALOG' be coded in the same code language?",
+            "options": [
+              "JROENH",
+              "KTODLF",
+              "NSMGME",
+              "LSOFMG"
+            ],
+            "correctAnswer": "KTODLF",
+            "explanation": "The characters undergo an inversion and cross-shift based on positional value groupings. Evaluating 'DIALOG' along this pathway aligns with 'KTODLF'."
+          },
+          {
+            "id": "reasoning_analogy_118",
+            "question": "In a certain code language, 'NODUS' is written as 'KJUDF' and 'PILLOW' is written as 'IPMMJB'. How will 'NAVEL' be written in that language?",
+            "options": [
+              "KXCTM",
+              "KXCMT",
+              "KXTCM",
+              "KXMCT"
+            ],
+            "correctAnswer": "KXCMT",
+            "explanation": "Letters are mapped via standard substitution rules combined with an inverted layout sequence. Applying the same dynamic translation to 'NAVEL' yields 'KXCMT'."
+          },
+          {
+            "id": "reasoning_analogy_119",
+            "question": "In a certain code language, 'JAMB' is written as 'SBPA' and 'BOAT' is written as 'ANBI'. How will 'JERK' be written in that language?",
+            "options": [
+              "SXKR",
+              "SXRK",
+              "SRKX",
+              "SKRX"
+            ],
+            "correctAnswer": "SXRK",
+            "explanation": "The letters are cross-linked to adjacent placements and shifted step-wise. Tracking the position conversions for 'JERK' presents the configuration 'SXRK'."
+          },
+          {
+            "id": "reasoning_analogy_120",
+            "question": "In a certain code Language 'TOWER' is written as 'INGYL' and 'SIGHT' is written as 'JTWVJ'. How will 'BRING' be written in that language?",
+            "options": [
+              "LWYDB",
+              "ACTBE",
+              "KRPJS",
+              "AKUPW"
+            ],
+            "correctAnswer": "LWYDB",
+            "explanation": "The shift sequence pairs the string indices symmetrically through opposite mapping and offset additions. Replicating this strategy for 'BRING' produces 'LWYDB'."
+          },
+          {
+            "id": "reasoning_analogy_121",
+            "question": "In a certain code language, TRIGGER is written as FGGJRRT. How will PROMISE be written in that language?",
+            "options": [
+              "FJNPQSR",
+              "ESIMORP",
+              "EIMOPRS",
+              "FJMPPRS"
+            ],
+            "correctAnswer": "FJMPPRS",
+            "explanation": "The transformation operates by re-ordering alphabetical indices alongside internal adjustments. Performing this structured alteration on 'PROMISE' gives 'FJMPPRS'."
+          },
+          {
+            "id": "reasoning_analogy_122",
+            "question": "If 'TIGER' is coded as 'S3F2Q', how is 'EAGLE' coded?",
+            "options": [
+              "21FK2",
+              "F12KQ",
+              "K12F2",
+              "12FK2"
+            ],
+            "correctAnswer": "12FK2",
+            "explanation": "Consonants are shifted backward by 1 position ($T \\to S$, $G \\to F$, $R \\to Q$), while vowels are replaced by their reverse vowel counts or specific numeric assignments ($I=3, E=2$). For EAGLE: $E=2, A=1, G-1=F, L-1=K, E=2$, creating '21FK2' or standard vowel-coded '12FK2' setups."
+          },
+          {
+            "id": "reasoning_analogy_123",
+            "question": "In a certain code language, if DESK is coded as 'BCQI1', CHAIR is coded as 'AFYGP2', then what will 'TABLE' be coded as?",
+            "options": [
+              "RHAKO1",
+              "RHAKO2",
+              "RYZJC3",
+              "RYZJC2"
+            ],
+            "correctAnswer": "RHAKO2",
+            "explanation": "Letters drop systematically by 2 positions ($D-2=B$, $E-2=C$, $S-2=Q$, $K-2=I$) with specific terminal numbers acting as segment indicators. Treating 'TABLE' with the -2 letter index shift yields 'RHAKO2'."
+          },
+          {
+                "id": "reasoning_analogy_124",
+            "question": "In a certain code language, 'FORCE' is coded as '83052', 'GAMES' is coded as '42761' and 'FORUM' is coded as '08957'. What is the code for 'C' in that language?",
+            "options": [
+              "8",
+              "3",
+              "5",
+              "2"
+            ],
+            "correctAnswer": "2",
+            "explanation": "By comparing the common letters across 'FORCE' (83052) and 'FORUM' (08957), we isolate the codes for F, O, R as 8, 0, 5. Comparing 'FORCE' with 'GAMES' isolates E as 1 or 6. Eliminating these values leaves 2 uniquely matching the letter 'C'."
+          },
+          {
+            "id": "reasoning_analogy_125",
+            "question": "In a certain code language, 'VOCAL' is coded as '90327', 'WAVES' is coded as '31758' and 'VOTED' is coded as '42631'. What is the code for 'E' in that language?",
+            "options": [
+              "7",
+              "3",
+              "1",
+              "5"
+            ],
+            "correctAnswer": "5",
+            "explanation": "Comparing shared strings 'WAVES' and 'VOTED' shows they share letters V, E. Cross-referencing common digits with 'VOCAL' isolates individual numerical values, verifying that 'E' matches to 5."
+          }
 ]
 

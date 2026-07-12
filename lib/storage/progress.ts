@@ -4,6 +4,7 @@ import type {
   DayProgress,
   OverrideRecord,
   QuizReviewRecord,
+  ComprehensionRecord,
   StudentProgress,
   VocabWordProgress,
 } from "@/types";
@@ -12,6 +13,7 @@ import {
   getActiveStudentId,
   loadStore,
   quizCompletionId,
+  comprehensionRecordId,
   saveStore,
   setActiveStudentId,
 } from "./client";
@@ -41,6 +43,7 @@ function createDefaultStore(
     completedDays: [],
     completedQuizzes: [],
     quizReviewRecords: {},
+    comprehensionRecords: {},
     vocabProgress: {},
     vocabDaysCompleted: [],
     overrideHistory: [],
@@ -62,6 +65,7 @@ function createDefaultStore(
 
 function ensureStoreCollections(store: LocalStudentStore): LocalStudentStore {
   if (!store.quizReviewRecords) store.quizReviewRecords = {};
+  if (!store.comprehensionRecords) store.comprehensionRecords = {};
   if (!store.vocabProgress) store.vocabProgress = {};
   if (!store.vocabDaysCompleted) store.vocabDaysCompleted = [];
   if (!store.bookmarkedQuestions) store.bookmarkedQuestions = [];
@@ -284,6 +288,33 @@ export function getQuizReviewRecord(
   if (!store) return null;
   const normalized = ensureStoreCollections(store);
   return normalized.quizReviewRecords[quizCompletionId(day, subject, topic)] ?? null;
+}
+
+export function saveComprehensionRecord(
+  studentId: string,
+  record: ComprehensionRecord
+): void {
+  const store = getStore(studentId);
+  store.comprehensionRecords[comprehensionRecordId(record.day)] = record;
+  saveStore(store);
+}
+
+export function getComprehensionRecord(
+  studentId: string,
+  day: number
+): ComprehensionRecord | null {
+  const store = loadStore(studentId);
+  if (!store) return null;
+  const normalized = ensureStoreCollections(store);
+  return normalized.comprehensionRecords[comprehensionRecordId(day)] ?? null;
+}
+
+export function clearComprehensionRecord(studentId: string, day: number): void {
+  const store = loadStore(studentId);
+  if (!store) return;
+  const normalized = ensureStoreCollections(store);
+  delete normalized.comprehensionRecords[comprehensionRecordId(day)];
+  saveStore(normalized);
 }
 
 export function hasCompletedQuiz(

@@ -649,953 +649,1033 @@
     "explanation": "To maximize numbers greater than 58, take 12 integers above 58 and one sufficiently small integer below 58 to maintain the average.",
     "solution": "# Solution:\n\n**Step 1: Find the total sum**\n- Average of 13 distinct integers = 58\n- Total sum = 13 × 58 = 754\n\n**Step 2: Determine the strategy to maximize numbers greater than 58**\n- To maximize numbers greater than 58, minimize the numbers that are ≤ 58\n- We need at least ONE number ≤ 58 (to keep the average at 58)\n- This leaves 12 numbers that can be > 58\n\n**Step 3: Verify with an example**\n- Let the smallest number = 58 (one number = 58, not greater than 58)\n- Remaining 12 numbers must be > 58 and distinct\n- Minimum values for these 12 numbers: 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70\n- Sum of these 12 numbers = 59 + 60 + ... + 70 = 774\n- But we need total sum = 754\n- Since 774 > 754, we adjust: use 58 + 59 + 60 + ... + 69 = 754 ✓\n\n**Step 4: Confirmation**\n- We have 1 number equal to 58, and 12 numbers greater than 58 (from 59 to 69)\n- All 13 numbers are distinct integers ✓\n- Average = 754"
   },
-  {
-    "id": "maths_average_051",
-    "question": "Average — Question 51 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_052",
-    "question": "Average — Question 52 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_053",
-    "question": "Average — Question 53 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_054",
-    "question": "Average — Question 54 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_055",
-    "question": "Average — Question 55 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_056",
-    "question": "Average — Question 56 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_057",
-    "question": "Average — Question 57 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_058",
-    "question": "Average — Question 58 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_059",
-    "question": "Average — Question 59 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_060",
-    "question": "Average — Question 60 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_061",
-    "question": "Average — Question 61 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_062",
-    "question": "Average — Question 62 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_063",
-    "question": "Average — Question 63 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_064",
-    "question": "Average — Question 64 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_065",
-    "question": "Average — Question 65 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_066",
-    "question": "Average — Question 66 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_067",
-    "question": "Average — Question 67 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_068",
-    "question": "Average — Question 68 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_069",
-    "question": "Average — Question 69 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
-  {
-    "id": "maths_average_070",
-    "question": "Average — Question 70 (add real content in datas/maths/average.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
-  },
+    {
+      "id": "maths_average_051",
+      "question": "The mean of 15 different natural numbers is 13. The maximum value of the second largest of these numbers is:",
+      "questionHi": "15 अलग-अलग प्राकृतिक संख्याओं का माध्य 13 है। इन संख्याओं में दूसरी सबसे बड़ी संख्या का अधिकतम मान क्या है?",
+      "options": [
+        "53",
+        "52",
+        "51",
+        "50"
+      ],
+      "correctAnswer": "51",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_052",
+      "question": "What is the average of numbers from 1 to 50 which are multiples of 2 or 5? (Correct to one decimal place)",
+      "questionHi": "1 से 50 तक की उन संख्याओं का औसत (दशमलव के एक स्थान तक सही) ज्ञात कीजिए, जो 2 या 5 के गुणज हैं।",
+      "options": [
+        "25.4",
+        "25.9",
+        "26.4",
+        "25.8"
+      ],
+      "correctAnswer": "25.8",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_053",
+      "question": "The average of x occurring 5 times and y occurring 7 times is 37. Also, the average of x occurring 7 times and y occurring 5 times is 35. The value of y is:",
+      "questionHi": "x की 5 बार तथा y की 7 बार पुनरावृत्ति होने पर औसत 37 है। इसी प्रकार x की 7 बार तथा y की 5 बार पुनरावृत्ति होने पर औसत 35 है। y का मान ज्ञात कीजिए।",
+      "options": [
+        "30",
+        "27",
+        "42",
+        "45"
+      ],
+      "correctAnswer": "42",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_054",
+      "question": "The average of three numbers a, b and c is 2 more than c. The average of a and b is 48. If d is 10 less than c, then the average of c and d is:",
+      "questionHi": "a, b तथा c तीन संख्याओं का औसत c से 2 अधिक है। a और b का औसत 48 है। यदि d, c से 10 कम है, तो c और d का औसत ज्ञात कीजिए।",
+      "options": [
+        "36",
+        "40",
+        "35",
+        "38"
+      ],
+      "correctAnswer": "40",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_055",
+      "question": "The average of the ages of Sonu, Hari and Govind is 30 years. If their ages are in the ratio 4 : 5 : 6 respectively, then the difference between the ages of Sonu and Govind is:",
+      "questionHi": "सोनू, हरि और गोविंद की आयु का औसत 30 वर्ष है। यदि उनकी आयु क्रमशः 4 : 5 : 6 के अनुपात में है, तो सोनू और गोविंद की आयु में कितना अंतर है?",
+      "options": [
+        "18 years",
+        "21 years",
+        "15 years",
+        "12 years"
+      ],
+      "correctAnswer": "12 years",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_056",
+      "question": "Out of 6 numbers, the sum of the first 5 numbers is 7 times the 6th number. If their average is 136, then the 6th number is:",
+      "questionHi": "6 संख्याओं में से पहली 5 संख्याओं का योग छठी संख्या का 7 गुना है। यदि उनका औसत 136 है, तो छठी संख्या क्या है?",
+      "options": [
+        "102",
+        "84",
+        "96",
+        "116"
+      ],
+      "correctAnswer": "102",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_057",
+      "question": "There are six numbers. The sixth number is 33⅓% more than the average of the first five numbers. If the average of all the six numbers is 34⅚, then what is the 6th number?",
+      "questionHi": "छह संख्याएँ हैं। छठी संख्या पहली पाँच संख्याओं के औसत से 33⅓% अधिक है। यदि सभी छह संख्याओं का औसत 34⅚ है, तो छठी संख्या क्या है?",
+      "options": [
+        "39",
+        "44",
+        "42",
+        "45"
+      ],
+      "correctAnswer": "44",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_058",
+      "question": "When 2 is subtracted from each of the given n numbers, the sum becomes 102. When 5 is subtracted from each of them, the sum becomes 12. What is the average of the given n numbers?",
+      "questionHi": "जब दी गई n संख्याओं में से प्रत्येक में से 2 घटाया जाता है, तो प्राप्त संख्याओं का योग 102 होता है। जब प्रत्येक में से 5 घटाया जाता है, तो योग 12 हो जाता है। दी गई संख्याओं का औसत क्या है?",
+      "options": [
+        "5.8",
+        "5.4",
+        "6.6",
+        "6.2"
+      ],
+      "correctAnswer": "5.8",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_059",
+      "question": "A student finds the average of ten 2-digit numbers. While copying, he writes one number with its digits interchanged. As a result, his answer is 6.3 less than the correct answer. The difference between the digits of that number is:",
+      "questionHi": "एक छात्र दस दो-अंकीय संख्याओं का औसत निकालता है। लिखते समय वह एक संख्या के अंकों को उलट देता है। परिणामस्वरूप उसका उत्तर सही उत्तर से 6.3 कम आता है। जिस संख्या में गलती हुई, उसके अंकों का अंतर कितना है?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": "7",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_average_060",
+      "question": "In a class of 180 students, 45% are girls and the remaining are boys. If the average marks of the girls is 54 and that of the boys is 46, what is the average marks of the whole class?",
+      "questionHi": "180 विद्यार्थियों की एक कक्षा में 45% लड़कियाँ हैं तथा शेष लड़के हैं। यदि लड़कियों के अंकों का औसत 54 तथा लड़कों के अंकों का औसत 46 है, तो पूरी कक्षा का औसत अंक क्या होगा?",
+      "options": [
+        "49.8",
+        "49.7",
+        "49.6",
+        "49.5"
+      ],
+      "correctAnswer": "49.6",
+      "solution": "video solution will be added soon"
+    },
+      {
+        "id": "maths_average_061",
+        "question": "In a class of 60 students, 40% are girls. The average weight of the whole class is 59.2 kg and the average weight of the girls is 55 kg. What is the average weight of the boys?",
+        "questionHi": "60 विद्यार्थियों की एक कक्षा में 40% लड़कियाँ हैं। पूरी कक्षा का औसत वजन 59.2 किग्रा तथा लड़कियों का औसत वजन 55 किग्रा है। लड़कों का औसत वजन कितना है?",
+        "options": [
+          "63 kg",
+          "60 kg",
+          "61 kg",
+          "62 kg"
+        ],
+        "correctAnswer": "62 kg",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_062",
+        "question": "A student appeared in 6 papers. The maximum marks are the same for each paper. His marks in these papers are in the ratio 5 : 6 : 7 : 8 : 9 : 10. Overall he scored 60%. In how many papers did he score less than 50% of the maximum marks?",
+        "questionHi": "एक छात्र 6 पेपरों में उपस्थित हुआ। प्रत्येक पेपर के अधिकतम अंक समान हैं। उसके अंक 5 : 6 : 7 : 8 : 9 : 10 के अनुपात में हैं। कुल मिलाकर उसने 60% अंक प्राप्त किए। उसने कितने पेपरों में अधिकतम अंकों के 50% से कम अंक प्राप्त किए?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctAnswer": "3",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_063",
+        "question": "The average price of three items of furniture is Rs. 16,455. If their prices are in the ratio 3 : 5 : 7, then the price of the cheapest item is:",
+        "questionHi": "फर्नीचर की तीन वस्तुओं का औसत मूल्य ₹16,455 है। यदि उनके मूल्यों का अनुपात 3 : 5 : 7 है, तो सबसे सस्ती वस्तु का मूल्य कितना है?",
+        "options": [
+          "5485",
+          "3291",
+          "7679",
+          "9873"
+        ],
+        "correctAnswer": "3291",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_064",
+        "question": "There are 90 students in a hostel. Due to new admissions, 30 new students join the mess and the daily expenses of the mess increase by Rs. 560, while the average expenditure per head decreases by Rs. 10. What was the original daily expenditure of the mess?",
+        "questionHi": "एक छात्रावास में 90 छात्र हैं। नए प्रवेश के कारण 30 नए छात्र मेस में शामिल होते हैं और मेस का दैनिक खर्च ₹560 बढ़ जाता है, जबकि प्रति छात्र औसत खर्च ₹10 कम हो जाता है। मेस का प्रारंभिक दैनिक खर्च कितना था?",
+        "options": [
+          "4280",
+          "5280",
+          "3680",
+          "4980"
+        ],
+        "correctAnswer": "5280",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_065",
+        "question": "The average weight of the first thirteen persons among fourteen persons is 78 kg. The weight of the 14th person is 39 kg more than the average weight of all the fourteen persons. Find the weight of the 14th person.",
+        "questionHi": "14 व्यक्तियों में से पहले 13 व्यक्तियों का औसत वजन 78 किग्रा है। 14वें व्यक्ति का वजन सभी 14 व्यक्तियों के औसत वजन से 39 किग्रा अधिक है। 14वें व्यक्ति का वजन ज्ञात कीजिए।",
+        "options": [
+          "110 kg",
+          "118 kg",
+          "98 kg",
+          "120 kg"
+        ],
+        "correctAnswer": "110 kg",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_066",
+        "question": "The average income of 35 employees is Rs. K. If the income of the manager is also included, then the average income becomes Rs. 19,000. If the income of the manager is Rs. 54,000, then the value of K is:",
+        "questionHi": "35 कर्मचारियों की औसत आय K रुपये है। यदि प्रबंधक की आय भी शामिल कर ली जाए, तो औसत आय ₹19,000 हो जाती है। यदि प्रबंधक की आय ₹54,000 है, तो K का मान क्या है?",
+        "options": [
+          "Rs. 19,200",
+          "Rs. 18,000",
+          "Rs. 18,800",
+          "Rs. 17,700"
+        ],
+        "correctAnswer": "Rs. 18,800",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_067",
+        "question": "18 friends went to a restaurant for dinner. Seventeen of them spent Rs. 210 each and the last friend spent Rs. 153 more than the average expenditure of all the 18 friends. What is the total amount spent?",
+        "questionHi": "18 मित्र रात्रिभोज के लिए एक रेस्तरां गए। उनमें से 17 ने ₹210-₹210 खर्च किए तथा अंतिम मित्र ने सभी 18 मित्रों के औसत खर्च से ₹153 अधिक खर्च किए। कुल कितना खर्च हुआ?",
+        "options": [
+          "4162",
+          "3516",
+          "3942",
+          "3458"
+        ],
+        "correctAnswer": "4162",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_068",
+        "question": "30 people went to a restaurant for a dinner party. Twenty of them paid Rs. 880 each and the remaining paid Rs. 110 more than the average of the total expenses. What was the total expense?",
+        "questionHi": "30 लोग रात्रिभोज के लिए एक रेस्तरां गए। उनमें से 20 ने ₹880-₹880 दिए तथा शेष प्रत्येक ने कुल औसत खर्च से ₹110 अधिक भुगतान किया। कुल खर्च कितना था?",
+        "options": [
+          "27840",
+          "29360",
+          "24580",
+          "28050"
+        ],
+        "correctAnswer": "28050",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_069",
+        "question": "There are three groups of persons—males, females and children. There are 20 males and the total number of females and children is 4 more than the number of males. The average weights of males, females and children are 54 kg, 49 kg and 30 kg respectively. If the average weight of the whole group is 48.25 kg, then what is the difference between the number of females and children?",
+        "questionHi": "तीन समूह हैं—पुरुष, महिलाएँ और बच्चे। पुरुषों की संख्या 20 है तथा महिलाओं और बच्चों की कुल संख्या पुरुषों से 4 अधिक है। पुरुषों, महिलाओं और बच्चों का औसत वजन क्रमशः 54, 49 और 30 किग्रा है। यदि पूरे समूह का औसत वजन 48.25 किग्रा है, तो महिलाओं और बच्चों की संख्या में कितना अंतर है?",
+        "options": [
+          "17",
+          "10",
+          "7",
+          "14"
+        ],
+        "correctAnswer": "10",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_average_070",
+        "question": "The average monthly expenditure of a family was ₹8,600 during the first three months, ₹9,750 during the next four months and ₹9,920 during the last five months of a year. If the total savings during the year were ₹65,300, then the average monthly income of the family was:",
+        "questionHi": "एक परिवार का औसत मासिक खर्च पहले 3 महीनों में ₹8,600, अगले 4 महीनों में ₹9,750 तथा अंतिम 5 महीनों में ₹9,920 था। यदि पूरे वर्ष की कुल बचत ₹65,300 थी, तो परिवार की औसत मासिक आय कितनी थी?",
+        "options": [
+          "14,975",
+          "15,794",
+          "15,479",
+          "14,597"
+        ],
+        "correctAnswer": "14,975",
+        "solution": "video solution will be added soon"
+      },
+
   {
     "id": "maths_average_071",
-    "question": "Average — Question 71 (add real content in datas/maths/average.json)",
+    "question": "A man bought 16 articles at ₹85 each, 15 at ₹65 each, and 12 at ₹75 each. What is the average price of each article? (Up to two decimal places)",
+    "questionHi": "एक आदमी ने 16 वस्तुएँ प्रत्येक ₹85 की दर से, 15 वस्तुएँ प्रत्येक ₹65 की दर से तथा 12 वस्तुएँ प्रत्येक ₹75 की दर से खरीदीं। प्रत्येक वस्तु का औसत मूल्य क्या है? (दशमलव के दो स्थान तक)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 72.65",
+      "Rs 75.23",
+      "Rs 77.65",
+      "Rs 69.87"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "Rs 75.23",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_072",
-    "question": "Average — Question 72 (add real content in datas/maths/average.json)",
+    "question": "Mohan bought 52 books for ₹1130 per book from one shop and 44 books for ₹920 per book from another shop. What is the average price (in ₹) he paid per book?",
+    "questionHi": "मोहन ने एक दुकान से 52 पुस्तकें ₹1130 प्रति पुस्तक तथा दूसरी दुकान से 44 पुस्तकें ₹920 प्रति पुस्तक की दर से खरीदीं। उसने प्रति पुस्तक औसत कितना मूल्य चुकाया?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1033.75",
+      "1023.75",
+      "1043.75",
+      "1048.75"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "1033.75",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_073",
-    "question": "Average — Question 73 (add real content in datas/maths/average.json)",
+    "question": "College P has 180 students scoring an average of 88 marks and College Q has 320 students scoring an average of 72 marks. Find the average marks of both colleges together.",
+    "questionHi": "कॉलेज P में 180 छात्रों के औसत अंक 88 हैं तथा कॉलेज Q में 320 छात्रों के औसत अंक 72 हैं। दोनों कॉलेजों के छात्रों का संयुक्त औसत ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "82.00",
+      "75.25",
+      "77.76",
+      "80.00"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "77.76",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_074",
-    "question": "Average — Question 74 (add real content in datas/maths/average.json)",
+    "question": "If the average marks of three sections of Class X having 35, 40 and 25 students are 90, 88 and 80 respectively, then the average marks of all the students of Class X is:",
+    "questionHi": "यदि कक्षा X के तीन सेक्शनों में क्रमशः 35, 40 और 25 विद्यार्थी हैं तथा उनके औसत अंक क्रमशः 90, 88 और 80 हैं, तो पूरी कक्षा का औसत अंक क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "76.8",
+      "78.6",
+      "87.6",
+      "86.7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "87.6",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_075",
-    "question": "Average — Question 75 (add real content in datas/maths/average.json)",
+    "question": "The average of n numbers is 58. If each of 65% of the numbers is increased by 16 and each of the remaining numbers is decreased by 9, then the new average is:",
+    "questionHi": "n संख्याओं का औसत 58 है। यदि 65% संख्याओं में प्रत्येक में 16 जोड़ दिया जाए तथा शेष प्रत्येक संख्या में से 9 घटा दिए जाएँ, तो नया औसत क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "67.125",
+      "64.75",
+      "65.25",
+      "66.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "65.25",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_076",
-    "question": "Average — Question 76 (add real content in datas/maths/average.json)",
+    "question": "The ratio of the number of boys to girls in a class is 4 : 15. The average height of the boys is 161.2 cm and the average height of all students is 154.5 cm. What is the average height of the girls? (Correct to one decimal place)",
+    "questionHi": "एक कक्षा में लड़कों और लड़कियों की संख्या का अनुपात 4 : 15 है। लड़कों की औसत ऊँचाई 161.2 सेमी तथा पूरी कक्षा की औसत ऊँचाई 154.5 सेमी है। लड़कियों की औसत ऊँचाई (एक दशमलव स्थान तक) ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "156.8",
+      "147.5",
+      "152.7",
+      "158.2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "152.7",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_077",
-    "question": "Average — Question 77 (add real content in datas/maths/average.json)",
+    "question": "In a hospital, 60% of the patients are men, 25% are women and 15% are children. If their average ages are 40 years, 36 years and 8 years respectively, then the average age of all the patients is:",
+    "questionHi": "एक अस्पताल में 60% मरीज पुरुष, 25% महिलाएँ तथा 15% बच्चे हैं। यदि उनकी औसत आयु क्रमशः 40 वर्ष, 36 वर्ष तथा 8 वर्ष है, तो सभी मरीजों की औसत आयु क्या होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24.3 years",
+      "34.2 years",
+      "32.4 years",
+      "23.4 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "32.4 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_078",
-    "question": "Average — Question 78 (add real content in datas/maths/average.json)",
+    "question": "There are 38 members in group A, 31 members in group B and 52 members in group C. The average amount spent per member is ₹375, ₹309 and ₹298 respectively. Find the overall average expenditure per member.",
+    "questionHi": "समूह A में 38 सदस्य, समूह B में 31 सदस्य तथा समूह C में 52 सदस्य हैं। प्रत्येक सदस्य पर औसत खर्च क्रमशः ₹375, ₹309 तथा ₹298 है। प्रति सदस्य कुल औसत खर्च ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "330",
+      "329",
+      "325",
+      "327"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "327",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_079",
-    "question": "Average — Question 79 (add real content in datas/maths/average.json)",
+    "question": "The average result of 60 students is 38. If the average of the first 22 students is 36 and that of the last 32 students is 32, then the average result of the remaining students is:",
+    "questionHi": "60 छात्रों का औसत परिणाम 38 है। यदि पहले 22 छात्रों का औसत 36 तथा अंतिम 32 छात्रों का औसत 32 है, तो शेष छात्रों का औसत परिणाम क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "77.33",
+      "65.30",
+      "81.9",
+      "52.12"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "77.33",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_080",
-    "question": "Average — Question 80 (add real content in datas/maths/average.json)",
+    "question": "In a company there are 42 employees. The average salary of 27 employees is ₹4100 per month and that of 13 employees is ₹6100 per month. If the average salary of all employees is ₹7200 per month, then what is the average salary of the remaining 2 employees?",
+    "questionHi": "एक कंपनी में 42 कर्मचारी हैं। 27 कर्मचारियों का औसत वेतन ₹4100 प्रति माह तथा 13 कर्मचारियों का औसत वेतन ₹6100 प्रति माह है। यदि सभी कर्मचारियों का औसत वेतन ₹7200 प्रति माह है, तो शेष 2 कर्मचारियों का औसत वेतन कितना होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 57800",
+      "Rs 56200",
+      "Rs 44800",
+      "Rs 54000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "Rs 54000",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_081",
-    "question": "Average — Question 81 (add real content in datas/maths/average.json)",
+    "question": "A library has an average number of 768 visitors on Monday and 258 visitors on every other day. Find the average number of visitors per day in a month of 30 days beginning with Tuesday.",
+    "questionHi": "एक पुस्तकालय में सोमवार को औसतन 768 आगंतुक आते हैं तथा अन्य दिनों में 258 आगंतुक आते हैं। मंगलवार से शुरू होने वाले 30 दिनों के महीने में प्रति दिन औसत आगंतुकों की संख्या ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "362",
+      "263",
+      "236",
+      "326"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "263",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_082",
-    "question": "Average — Question 82 (add real content in datas/maths/average.json)",
+    "question": "In an exhibition, in the month of December starting with Thursday, the average number of visitors on Saturdays is 254, on Sundays is 625 and on all other days is x. If the average number of visitors per day for the whole month is 238, then the value of x is:",
+    "questionHi": "एक प्रदर्शनी में गुरुवार से शुरू होने वाले दिसंबर माह में शनिवार को औसत 254 आगंतुक, रविवार को औसत 625 आगंतुक तथा अन्य दिनों में औसत x आगंतुक आते हैं। यदि पूरे महीने का प्रतिदिन औसत 238 है, तो x का मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "163",
+      "166",
+      "165",
+      "164"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "165",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_083",
-    "question": "Average — Question 83 (add real content in datas/maths/average.json)",
+    "question": "The average temperature in the month of September is 22.5°C. The average temperature for the first 12 days is 21.3°C and for the last 15 days is 23.8°C. What is the average temperature (in °C) for the remaining days of the month?",
+    "questionHi": "सितंबर माह का औसत तापमान 22.5°C है। पहले 12 दिनों का औसत तापमान 21.3°C तथा अंतिम 15 दिनों का औसत तापमान 23.8°C है। शेष दिनों का औसत तापमान (°C में) ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20.5",
+      "21.4",
+      "20.8",
+      "21.2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "21.4",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_084",
-    "question": "Average — Question 84 (add real content in datas/maths/average.json)",
+    "question": "The average temperature for Monday, Tuesday, Wednesday and Thursday was 48°. The average temperature for Tuesday, Wednesday, Thursday and Friday was 52°. If the temperature on Monday was 42°, then the temperature on Friday was:",
+    "questionHi": "सोमवार, मंगलवार, बुधवार और गुरुवार का औसत तापमान 48° था। मंगलवार, बुधवार, गुरुवार और शुक्रवार का औसत तापमान 52° था। यदि सोमवार का तापमान 42° था, तो शुक्रवार का तापमान कितना था?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "58°",
+      "56°",
+      "52°",
+      "50°"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "58°",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_085",
-    "question": "Average — Question 85 (add real content in datas/maths/average.json)",
+    "question": "Out of 72 students in a class, the number of boys is 40% more than the number of girls. The average score of all the students in a test is 63. If the average score of the girls is 30% more than that of the boys, then what is the average score of the girls?",
+    "questionHi": "72 विद्यार्थियों की एक कक्षा में लड़कों की संख्या लड़कियों से 40% अधिक है। सभी विद्यार्थियों का औसत अंक 63 है। यदि लड़कियों का औसत अंक लड़कों से 30% अधिक है, तो लड़कियों का औसत अंक कितना है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "71.5",
+      "74.1",
+      "72.8",
+      "70.2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "74.1",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_086",
-    "question": "Average — Question 86 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 15 persons is increased by 1.2 kg when one person weighing 51 kg is replaced by a new man. What is the weight of the new man?",
+    "questionHi": "15 व्यक्तियों का औसत वजन 1.2 किग्रा बढ़ जाता है जब 51 किग्रा वजन वाले एक व्यक्ति को एक नए व्यक्ति से बदल दिया जाता है। नए व्यक्ति का वजन कितना है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "69 kg",
+      "70 kg",
+      "65 kg",
+      "59 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "69 kg",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_087",
-    "question": "Average — Question 87 (add real content in datas/maths/average.json)",
+    "question": "The average height of 5 boys is 175 cm. A sixth boy joins the group and the average height increases by 1 cm. What is the height of the sixth boy?",
+    "questionHi": "5 लड़कों की औसत ऊँचाई 175 सेमी है। एक छठा लड़का समूह में शामिल होता है और औसत ऊँचाई 1 सेमी बढ़ जाती है। छठे लड़के की ऊँचाई कितनी है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "180 cm",
+      "181 cm",
+      "179 cm",
+      "175 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "181 cm",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_088",
-    "question": "Average — Question 88 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 49 students is 53 kg. When a new student is admitted, the average decreases by 500 g. Find the weight of the new student.",
+    "questionHi": "49 विद्यार्थियों का औसत वजन 53 किग्रा है। एक नए विद्यार्थी के प्रवेश लेने पर औसत 500 ग्राम कम हो जाता है। नए विद्यार्थी का वजन ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "48 kg",
+      "18 kg",
+      "28 kg",
+      "38 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "28 kg",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_089",
-    "question": "Average — Question 89 (add real content in datas/maths/average.json)",
+    "question": "The average age of 57 students of a class is 13 years. If the teacher's age is also included, the average age becomes 14 years. What is the age of the teacher?",
+    "questionHi": "57 विद्यार्थियों की औसत आयु 13 वर्ष है। यदि शिक्षक की आयु भी शामिल कर ली जाए, तो औसत आयु 14 वर्ष हो जाती है। शिक्षक की आयु ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70 years",
+      "69 years",
+      "72 years",
+      "71 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "71 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_090",
-    "question": "Average — Question 90 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 27 students of a class is 53 kg. If the teacher's weight is included, the average rises by 700 grams. Find the weight of the teacher.",
+    "questionHi": "27 विद्यार्थियों का औसत वजन 53 किग्रा है। यदि शिक्षक का वजन भी शामिल कर लिया जाए, तो औसत 700 ग्राम बढ़ जाता है। शिक्षक का वजन कितना है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "65.5 kg",
+      "78.3 kg",
+      "62.8 kg",
+      "72.6 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "72.6 kg",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_091",
-    "question": "Average — Question 91 (add real content in datas/maths/average.json)",
+    "question": "The average age of 35 persons is 40 years. Five new persons with an average age of 35 years joined them. The average age of all the persons is:",
+    "questionHi": "35 व्यक्तियों की औसत आयु 40 वर्ष है। उनमें 35 वर्ष की औसत आयु वाले 5 नए व्यक्ति शामिल होते हैं। सभी व्यक्तियों की औसत आयु क्या होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "39 3/8 years",
+      "39 1/8 years",
+      "39 7/8 years",
+      "39 5/8 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "39 3/8 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_092",
-    "question": "Average — Question 92 (add real content in datas/maths/average.json)",
+    "question": "The average age of a group of 65 men is 32 years. If 5 men join the group, the average age of the 70 men becomes 34 years. What is the average age of those 5 men?",
+    "questionHi": "65 पुरुषों के समूह की औसत आयु 32 वर्ष है। यदि 5 पुरुष और समूह में शामिल होते हैं, तो 70 पुरुषों की औसत आयु 34 वर्ष हो जाती है। बाद में जुड़े 5 पुरुषों की औसत आयु ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "50",
+      "55",
+      "65",
+      "60"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_093",
-    "question": "Average — Question 93 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 20 students of a class was 30.5 kg. After 6 new students joined the class, its average weight increased by 2 kg. Find the average weight of the 6 new students (rounded off to one decimal place).",
+    "questionHi": "एक कक्षा के 20 छात्रों का औसत भार 30.5 किग्रा था। 6 नए छात्रों के शामिल होने पर औसत भार 2 किग्रा बढ़ गया। नए 6 छात्रों का औसत भार (एक दशमलव स्थान तक) ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30.5 kg",
+      "32.5 kg",
+      "39.2 kg",
+      "38.5 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "39.2 kg",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_094",
-    "question": "Average — Question 94 (add real content in datas/maths/average.json)",
+    "question": "The average height of a group of 10 students is 172 cm. Two more students of height 178 cm and 165 cm joined the group and 3 students of average height 160 cm left the group. What is the new average height (rounded off to one decimal place)?",
+    "questionHi": "10 छात्रों के समूह की औसत ऊँचाई 172 सेमी है। 178 सेमी और 165 सेमी ऊँचाई वाले दो छात्र समूह में शामिल हुए तथा 160 सेमी औसत ऊँचाई वाले 3 छात्र समूह छोड़ गए। नई औसत ऊँचाई (एक दशमलव स्थान तक) ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "174.6 cm",
+      "170.5 cm",
+      "175.9 cm",
+      "169.7 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "175.9 cm",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_095",
-    "question": "Average — Question 95 (add real content in datas/maths/average.json)",
+    "question": "If the average of 35 numbers is 22, the average of the first 17 numbers is 19 and the average of the last 17 numbers is 20, then the 18th number is:",
+    "questionHi": "यदि 35 संख्याओं का औसत 22 है, पहली 17 संख्याओं का औसत 19 तथा अंतिम 17 संख्याओं का औसत 20 है, तो 18वीं संख्या क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "133",
+      "107",
+      "132",
+      "108"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "107",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_096",
-    "question": "Average — Question 96 (add real content in datas/maths/average.json)",
+    "question": "The average of 83 results is 48.5. If the average of the first 59 results is 45.5 and that of the last 23 results is 53.5, find the 60th result.",
+    "questionHi": "83 परिणामों का औसत 48.5 है। यदि पहले 59 परिणामों का औसत 45.5 तथा अंतिम 23 परिणामों का औसत 53.5 है, तो 60वाँ परिणाम ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "110.5",
+      "111.5",
+      "108.75",
+      "109.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "110.5",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_097",
-    "question": "Average — Question 97 (add real content in datas/maths/average.json)",
+    "question": "The average of 29 numbers is 38. The average of the first 19 numbers is 34 and that of the last 9 numbers is 48. If the 20th number is excluded, then what is the average of the remaining numbers (correct to one decimal place)?",
+    "questionHi": "29 संख्याओं का औसत 38 है। पहली 19 संख्याओं का औसत 34 तथा अंतिम 9 संख्याओं का औसत 48 है। यदि 20वीं संख्या हटा दी जाए, तो शेष संख्याओं का औसत (एक दशमलव स्थान तक) ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "38.5",
+      "39.25",
+      "37.5",
+      "32"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "37.5",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_098",
-    "question": "Average — Question 98 (add real content in datas/maths/average.json)",
+    "question": "The average marks of 13 students in a subject is 66. If the average of the first seven students is 67 and that of the last seven students is 69, then the marks of the seventh student is:",
+    "questionHi": "एक विषय में 13 विद्यार्थियों के औसत अंक 66 हैं। यदि पहले 7 विद्यार्थियों का औसत 67 तथा अंतिम 7 विद्यार्थियों का औसत 69 है, तो 7वें विद्यार्थी के अंक क्या हैं?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "99",
+      "91",
+      "97",
+      "94"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "97",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_099",
-    "question": "Average — Question 99 (add real content in datas/maths/average.json)",
+    "question": "The mean temperature of a city for a week is 28°C. If the mean temperature for Monday, Tuesday, Wednesday and Thursday is 27.5°C and the mean temperature for Thursday, Friday, Saturday and Sunday is 29°C, then the temperature on Thursday is:",
+    "questionHi": "एक शहर का एक सप्ताह का औसत तापमान 28°C है। यदि सोमवार से गुरुवार तक का औसत तापमान 27.5°C तथा गुरुवार से रविवार तक का औसत तापमान 29°C है, तो गुरुवार का तापमान कितना था?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30°C",
+      "29°C",
+      "31°C",
+      "28°C"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "30°C",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_100",
-    "question": "Average — Question 100 (add real content in datas/maths/average.json)",
+    "question": "The average temperature of a city for the first 16 days of January is 22°C and for the last 16 days is 26°C. If the average temperature for the entire month is 24°C, then what is the temperature on the 16th day?",
+    "questionHi": "जनवरी के पहले 16 दिनों का औसत तापमान 22°C तथा अंतिम 16 दिनों का औसत तापमान 26°C है। यदि पूरे महीने का औसत तापमान 24°C है, तो 16वें दिन का तापमान क्या था?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24°C",
+      "25°C",
+      "23°C",
+      "22°C"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "24°C",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_101",
-    "question": "Average — Question 101 (add real content in datas/maths/average.json)",
+    "question": "The average of 40 numbers is 36. The average of the first 25 numbers is 31 and the average of the last 16 numbers is 43. Find the 25th number.",
+    "questionHi": "40 संख्याओं का औसत 36 है। पहली 25 संख्याओं का औसत 31 तथा अंतिम 16 संख्याओं का औसत 43 है। 25वीं संख्या ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "23",
+      "24",
+      "21",
+      "22"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "23",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_102",
-    "question": "Average — Question 102 (add real content in datas/maths/average.json)",
+    "question": "The average of 41 numbers is 62. The average of the first 18 numbers is 65.5 and the average of the last 24 numbers is 61.5. If the 18th number from the beginning is excluded, then what is the average of the remaining numbers?",
+    "questionHi": "41 संख्याओं का औसत 62 है। पहली 18 संख्याओं का औसत 65.5 तथा अंतिम 24 संख्याओं का औसत 61.5 है। यदि आरंभ से 18वीं संख्या हटा दी जाए, तो शेष संख्याओं का औसत क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "60.725",
+      "61.325",
+      "61.625",
+      "60.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60.725",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_103",
-    "question": "Average — Question 103 (add real content in datas/maths/average.json)",
+    "question": "The average of 25 numbers is 64. The averages of the first 13 numbers and the last 13 numbers are 62.8 and 72.2 respectively. If the 12th number is 61, and the 12th and 13th numbers are excluded, then what is the average of the remaining numbers? (Correct to one decimal place)",
+    "questionHi": "25 संख्याओं का औसत 64 है। पहली 13 संख्याओं का औसत 62.8 तथा अंतिम 13 संख्याओं का औसत 72.2 है। यदि 12वीं संख्या 61 है तथा 12वीं और 13वीं संख्या हटा दी जाए, तो शेष संख्याओं का औसत (एक दशमलव स्थान तक) ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "59.2",
+      "62.2",
+      "60.2",
+      "61.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60.2",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_104",
-    "question": "Average — Question 104 (add real content in datas/maths/average.json)",
+    "question": "Anwesha's marks in a class test of Sanskrit were incorrectly entered as 99 instead of 66. If there are 55 students in the class, then what is the increase in the average marks because of this typing error?",
+    "questionHi": "संस्कृत की एक परीक्षा में अन्वेषा के 66 अंक गलती से 99 दर्ज कर दिए गए। यदि कक्षा में 55 विद्यार्थी हैं, तो इस त्रुटि के कारण औसत अंकों में कितनी वृद्धि हुई?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0.2",
+      "0.8",
+      "0.4",
+      "0.6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "0.6",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_105",
-    "question": "Average — Question 105 (add real content in datas/maths/average.json)",
+    "question": "The average weight of a team of 20 people was calculated to be 59.8 kg. Later it was found that one weight was read as 68 kg instead of 77 kg. What is the correct average weight?",
+    "questionHi": "20 व्यक्तियों की एक टीम का औसत वजन 59.8 किग्रा निकाला गया। बाद में पता चला कि एक वजन 77 किग्रा के स्थान पर 68 किग्रा पढ़ लिया गया था। सही औसत वजन ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70.25 kg",
+      "61.25 kg",
+      "60.25 kg",
+      "60.50 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60.25 kg",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_106",
-    "question": "Average — Question 106 (add real content in datas/maths/average.json)",
+    "question": "The average height of 25 boys was calculated to be 150 cm. Later it was found that 160 cm had been wrongly copied as 135 cm. Find the correct average height.",
+    "questionHi": "25 लड़कों की औसत ऊँचाई 150 सेमी निकाली गई। बाद में पता चला कि 160 सेमी को गलती से 135 सेमी लिख दिया गया था। सही औसत ऊँचाई ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "152 cm",
+      "158 cm",
+      "154 cm",
+      "151 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "151 cm",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_107",
-    "question": "Average — Question 107 (add real content in datas/maths/average.json)",
+    "question": "The average marks of 40 students was found to be 68. If the marks of two students were incorrectly entered as 48 and 64 instead of 84 and 46 respectively, then what is the correct average?",
+    "questionHi": "40 विद्यार्थियों का औसत अंक 68 निकाला गया। दो विद्यार्थियों के अंक 84 और 46 के स्थान पर क्रमशः 48 और 64 दर्ज कर दिए गए। सही औसत ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "68.15",
+      "68.25",
+      "68.35",
+      "68.45"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "68.45",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_108",
-    "question": "Average — Question 108 (add real content in datas/maths/average.json)",
+    "question": "While tabulating marks, one student's marks were recorded as 93 instead of 63, increasing the average by 0.5. What was the number of students in the class?",
+    "questionHi": "अंकों की तालिका बनाते समय एक विद्यार्थी के 63 अंक के स्थान पर 93 अंक दर्ज कर दिए गए, जिससे औसत 0.5 बढ़ गया। कक्षा में विद्यार्थियों की संख्या कितनी थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20",
+      "60",
+      "30",
+      "15"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_109",
-    "question": "Average — Question 109 (add real content in datas/maths/average.json)",
+    "question": "The average weight of some students in a class was 58.4 kg. When 5 students having an average weight of 62.8 kg joined the class, the average weight increased by 0.55 kg. How many students were there initially?",
+    "questionHi": "एक कक्षा में कुछ विद्यार्थियों का औसत वजन 58.4 किग्रा था। 62.8 किग्रा औसत वजन वाले 5 विद्यार्थी शामिल हुए, जिससे औसत वजन 0.55 किग्रा बढ़ गया। प्रारम्भ में विद्यार्थियों की संख्या कितनी थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "35",
+      "25",
+      "40"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "35",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_110",
-    "question": "Average — Question 110 (add real content in datas/maths/average.json)",
+    "question": "The average weight of some students in a class was 60.5 kg. When 8 students having an average weight of 65 kg joined the class, the average weight increased by 0.9 kg. What was the initial number of students?",
+    "questionHi": "एक कक्षा में कुछ विद्यार्थियों का औसत वजन 60.5 किग्रा था। 65 किग्रा औसत वजन वाले 8 विद्यार्थी शामिल हुए, जिससे औसत वजन 0.9 किग्रा बढ़ गया। प्रारम्भ में विद्यार्थियों की संख्या कितनी थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "32",
+      "37",
+      "42",
+      "40"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "32",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_111",
-    "question": "Average — Question 111 (add real content in datas/maths/average.json)",
+    "question": "The average age of a number of persons in a group was calculated as 35 years, which was 2.5 years more than the correct average because the ages of two persons were recorded as 38.5 years and 40 years instead of 29 years and 22 years respectively. The number of persons in the group was:",
+    "questionHi": "एक समूह में व्यक्तियों की औसत आयु 35 वर्ष निकाली गई, जो सही औसत से 2.5 वर्ष अधिक थी क्योंकि दो व्यक्तियों की आयु 29 वर्ष और 22 वर्ष के स्थान पर क्रमशः 38.5 वर्ष और 40 वर्ष दर्ज कर दी गई थी। समूह में व्यक्तियों की संख्या कितनी थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11",
+      "12",
+      "15",
+      "13"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "11",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_112",
-    "question": "Average — Question 112 (add real content in datas/maths/average.json)",
+    "question": "The average weight of the students in a group is 75.4 kg. Later, four students weighing 72.9 kg, 73.8 kg, 79.5 kg and 87.4 kg joined the group. As a result, the average weight increased by 240 g. What was the number of students in the group initially?",
+    "questionHi": "एक समूह में विद्यार्थियों का औसत वजन 75.4 किग्रा था। बाद में 72.9 किग्रा, 73.8 किग्रा, 79.5 किग्रा और 87.4 किग्रा वजन वाले 4 विद्यार्थी समूह में शामिल हुए। परिणामस्वरूप औसत वजन 240 ग्राम बढ़ गया। प्रारम्भ में समूह में विद्यार्थियों की संख्या कितनी थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "46",
+      "36",
+      "50",
+      "48"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "46",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_113",
-    "question": "Average — Question 113 (add real content in datas/maths/average.json)",
+    "question": "The average weight of some persons in a group is 72 kg. When 5 persons having an average weight of 66.6 kg join and 13 persons having an average weight of 75 kg leave the group, the average weight decreases by 1.65 kg. How many persons were there in the group initially?",
+    "questionHi": "एक समूह में कुछ व्यक्तियों का औसत वजन 72 किग्रा है। जब 66.6 किग्रा औसत वजन वाले 5 व्यक्ति समूह में शामिल होते हैं और 75 किग्रा औसत वजन वाले 13 व्यक्ति समूह छोड़ देते हैं, तो औसत वजन 1.65 किग्रा कम हो जाता है। प्रारम्भ में समूह में कितने व्यक्ति थे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "40",
+      "44",
+      "38",
+      "48"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "48",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_114",
-    "question": "Average — Question 114 (add real content in datas/maths/average.json)",
+    "question": "The average height of a certain number of students in a group is 155.6 cm. If 12 students having an average height of 150.5 cm join the group and 7 students having an average height of 159 cm leave the group, the average height decreases by 34 mm. What was the initial number of students?",
+    "questionHi": "एक समूह में कुछ विद्यार्थियों की औसत ऊँचाई 155.6 सेमी है। यदि 150.5 सेमी औसत ऊँचाई वाले 12 विद्यार्थी समूह में शामिल हों तथा 159 सेमी औसत ऊँचाई वाले 7 विद्यार्थी समूह छोड़ दें, तो औसत ऊँचाई 34 मिमी कम हो जाती है। प्रारम्भ में विद्यार्थियों की संख्या कितनी थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "25",
+      "40",
+      "20"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "20",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_115",
-    "question": "Average — Question 115 (add real content in datas/maths/average.json)",
+    "question": "In an examination, the average score of a student was 71.9. If the student had scored 28 more marks in English, 22 more in Mathematics, 16 more in Computer Science, 14 more in History, 10 less in Hindi and the same marks in all other subjects, then the average score would have been 80.65. How many subjects were there in the examination?",
+    "questionHi": "एक परीक्षा में एक छात्र का औसत अंक 71.9 था। यदि उसे अंग्रेज़ी में 28 अधिक, गणित में 22 अधिक, कंप्यूटर विज्ञान में 16 अधिक, इतिहास में 14 अधिक, हिन्दी में 10 कम अंक मिलते तथा अन्य विषयों में अंक समान रहते, तो उसका औसत 80.65 हो जाता। परीक्षा में कुल कितने विषय थे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "7",
+      "9",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "8",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_116",
-    "question": "Average — Question 116 (add real content in datas/maths/average.json)",
+    "question": "Three numbers are such that if the average of any two of them is added to the third number, the sums obtained are 168, 174 and 180 respectively. What is the average of the original three numbers?",
+    "questionHi": "तीन संख्याएँ ऐसी हैं कि यदि किसी भी दो का औसत तीसरी संख्या में जोड़ दिया जाए, तो प्राप्त योग क्रमशः 168, 174 और 180 हैं। मूल तीनों संख्याओं का औसत क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "86",
+      "87",
+      "89",
+      "84"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "87",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_117",
-    "question": "Average — Question 117 (add real content in datas/maths/average.json)",
+    "question": "The average of 12 numbers is 47. The average of the first 5 numbers is 45 and that of the next 4 numbers is 52. If the 10th number is 10 less than the 11th number and is 5 more than the 12th number, then what is the average of the 11th and 12th numbers?",
+    "questionHi": "12 संख्याओं का औसत 47 है। पहली 5 संख्याओं का औसत 45 तथा अगली 4 संख्याओं का औसत 52 है। यदि 10वीं संख्या, 11वीं संख्या से 10 कम तथा 12वीं संख्या से 5 अधिक है, तो 11वीं और 12वीं संख्याओं का औसत क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "46.5",
+      "47.5",
+      "44.5",
+      "42.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "46.5",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_118",
-    "question": "Average — Question 118 (add real content in datas/maths/average.json)",
+    "question": "The average of 24 numbers is 56. The average of the first 10 numbers is 71.7 and that of the next 11 numbers is 42. The last three numbers are in the ratio 1/2 : 1/3 : 5/12. What is the average of the 22nd and 24th numbers?",
+    "questionHi": "24 संख्याओं का औसत 56 है। पहली 10 संख्याओं का औसत 71.7 तथा अगली 11 संख्याओं का औसत 42 है। अंतिम तीन संख्याएँ 1/2 : 1/3 : 5/12 के अनुपात में हैं। 22वीं और 24वीं संख्या का औसत ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "60.5",
+      "58",
+      "55",
+      "49.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "49.5",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_119",
-    "question": "Average — Question 119 (add real content in datas/maths/average.json)",
+    "question": "Samrat has an average of 51 after 11 completed innings. How much does he need to score in his next innings to raise his average by another 2 runs?",
+    "questionHi": "11 पारियाँ पूरी करने के बाद सम्राट का औसत 51 है। अपने औसत को 2 रन बढ़ाने के लिए अगली पारी में उसे कितने रन बनाने होंगे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "75",
+      "78",
+      "80",
+      "82"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "75",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_120",
-    "question": "Average — Question 120 (add real content in datas/maths/average.json)",
+    "question": "A batsman makes 96 runs in his 13th innings and thus his average increases by 3. Find his average after 13 innings.",
+    "questionHi": "एक बल्लेबाज़ अपनी 13वीं पारी में 96 रन बनाता है, जिससे उसका औसत 3 रन बढ़ जाता है। 13 पारियों के बाद उसका औसत ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "65",
+      "50",
+      "70",
+      "60"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_121",
-    "question": "Average — Question 121 (add real content in datas/maths/average.json)",
+    "question": "A cricketer had a certain average of runs for his first 64 innings. In his 65th innings, he got out for 0. This brought down his average by 2 runs. His new average of runs is:",
+    "questionHi": "एक क्रिकेटर का पहली 64 पारियों का एक निश्चित औसत था। 65वीं पारी में वह बिना कोई रन बनाए आउट हो गया। इससे उसका औसत 2 रन कम हो गया। उसका नया औसत कितना है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "130",
+      "128",
+      "70",
+      "68"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "128",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_122",
-    "question": "Average — Question 122 (add real content in datas/maths/average.json)",
+    "question": "The batting average for 40 innings of a cricket player is 50 runs. His highest score exceeds his lowest score by 172 runs. If these two innings are excluded, the average of the remaining 38 innings is 48 runs. What is the highest score of the player?",
+    "questionHi": "एक क्रिकेट खिलाड़ी की 40 पारियों का बल्लेबाजी औसत 50 रन है। उसका सर्वोच्च स्कोर उसके न्यूनतम स्कोर से 172 रन अधिक है। यदि इन दोनों पारियों को हटा दिया जाए, तो शेष 38 पारियों का औसत 48 रन है। खिलाड़ी का सर्वोच्च स्कोर क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "165 runs",
+      "170 runs",
+      "172 runs",
+      "174 runs"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "174 runs",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_123",
-    "question": "Average — Question 123 (add real content in datas/maths/average.json)",
+    "question": "A bowler's bowling average is 24.85 runs per wicket. In the next match, he takes 5 wickets for 52 runs and his average decreases by 0.85. How many wickets had he taken before this match?",
+    "questionHi": "एक गेंदबाज़ का गेंदबाज़ी औसत 24.85 रन प्रति विकेट है। अगले मैच में वह 52 रन देकर 5 विकेट लेता है और उसका औसत 0.85 कम हो जाता है। इस मैच से पहले उसने कुल कितने विकेट लिए थे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "80",
+      "75",
+      "85",
+      "90"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "75",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_124",
-    "question": "Average — Question 124 (add real content in datas/maths/average.json)",
+    "question": "The average score obtained by Jitendra and Umar is 70, the average score obtained by Umar and Shyamal is 56, while the average score obtained by Shyamal and Jitendra is 78. What is the average score obtained by Jitendra, Umar and Shyamal?",
+    "questionHi": "जितेन्द्र और उमर द्वारा प्राप्त अंकों का औसत 70 है, उमर और श्यामल का औसत 56 है तथा श्यामल और जितेन्द्र का औसत 78 है। जितेन्द्र, उमर और श्यामल तीनों का औसत अंक क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "67",
+      "68",
+      "69",
+      "69.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "68",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_125",
-    "question": "Average — Question 125 (add real content in datas/maths/average.json)",
+    "question": "The average monthly income of P and Q is ₹55,050. The average monthly income of Q and R is ₹62,250 and the average monthly income of P and R is ₹54,200. What is the monthly income of P?",
+    "questionHi": "P और Q की औसत मासिक आय ₹55,050 है। Q और R की औसत मासिक आय ₹62,250 तथा P और R की औसत मासिक आय ₹54,200 है। P की मासिक आय कितनी है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 47,000",
+      "Rs 48,200",
+      "Rs 45,600",
+      "Rs 51,220"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "Rs 47,000",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_126",
-    "question": "Average — Question 126 (add real content in datas/maths/average.json)",
+    "question": "The average weight of A, B and C is 77 kg. If the average weight of A and B is 68 kg and that of B and C is 83 kg, then the weight of B is:",
+    "questionHi": "A, B और C का औसत वजन 77 किग्रा है। यदि A और B का औसत वजन 68 किग्रा तथा B और C का औसत वजन 83 किग्रा है, तो B का वजन कितना है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "71 kg",
+      "74 kg",
+      "67 kg",
+      "73 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "67 kg",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_127",
-    "question": "Average — Question 127 (add real content in datas/maths/average.json)",
+    "question": "The average weight of A, B and C is 84 kg. Another man D joins the group and the average becomes 80 kg. If another man E, whose weight is 3 kg more than D, replaces A, then the average weight of B, C, D and E becomes 79 kg. What is the weight of A?",
+    "questionHi": "A, B और C का औसत वजन 84 किग्रा है। D के शामिल होने पर औसत 80 किग्रा हो जाता है। फिर D से 3 किग्रा अधिक वजन वाला E, A की जगह लेता है और B, C, D तथा E का औसत 79 किग्रा हो जाता है। A का वजन कितना है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "72 kg",
+      "74 kg",
+      "75 kg",
+      "76 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "74 kg",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_128",
-    "question": "Average — Question 128 (add real content in datas/maths/average.json)",
+    "question": "According to Raghav, his weight is more than 64 kg but less than 74 kg. His sister says it is more than 60 kg but less than 69 kg. His mother says it cannot be more than 68 kg and his father says it cannot be more than 67 kg. If all are correct, what is the average of all possible integral weights of Raghav?",
+    "questionHi": "राघव के अनुसार उसका वजन 64 किग्रा से अधिक तथा 74 किग्रा से कम है। उसकी बहन के अनुसार उसका वजन 60 किग्रा से अधिक तथा 69 किग्रा से कम है। उसकी माँ के अनुसार वजन 68 किग्रा से अधिक नहीं हो सकता और पिता के अनुसार 67 किग्रा से अधिक नहीं हो सकता। यदि सभी सही हैं, तो राघव के सभी संभावित पूर्णांक वजन का औसत क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "66",
+      "67",
+      "68",
+      "65"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "66",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_129",
-    "question": "Average — Question 129 (add real content in datas/maths/average.json)",
+    "question": "There are some children in a camp and their average weight is 40 kg. If 5 children having an average weight of 36 kg join the camp, or if 5 children having an average weight of 43.2 kg leave the camp, the average weight remains the same in both cases. How many children were there in the camp initially?",
+    "questionHi": "एक शिविर में कुछ बच्चों का औसत वजन 40 किग्रा है। यदि 36 किग्रा औसत वजन वाले 5 बच्चे शिविर में शामिल हो जाएँ अथवा 43.2 किग्रा औसत वजन वाले 5 बच्चे शिविर छोड़ दें, तो दोनों स्थितियों में औसत वजन समान रहता है। प्रारम्भ में शिविर में कितने बच्चे थे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "34",
+      "45",
+      "40",
+      "50"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "45",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_average_130",

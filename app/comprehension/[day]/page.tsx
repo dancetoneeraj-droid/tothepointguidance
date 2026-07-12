@@ -6,7 +6,6 @@ import {
   ArrowLeft,
   BookOpenText,
   CheckCircle2,
-  RotateCcw,
   ScrollText,
   Shuffle,
   XCircle,
@@ -18,7 +17,7 @@ import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { canAccessDay } from "@/lib/premium-access";
-import { markEnglishSection } from "@/lib/storage";
+import { markEnglishSection, getComprehensionRecord, saveComprehensionRecord } from "@/lib/storage";
 import {
   getComprehensionForDay,
   hasComprehensionForDay,
@@ -34,16 +33,44 @@ export default function ComprehensionPage({
 }) {
   const { day: dayParam } = use(params);
   const dayNum = parseInt(dayParam, 10);
-  const { studentId, progress, user } = useAuth();
+  const { studentId, progress, user, refreshProgress } = useAuth();
 
   const set = useMemo(() => getComprehensionForDay(dayNum), [dayNum]);
 
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [result, setResult] = useState<ScoreResult | null>(null);
+  const [restored, setRestored] = useState(false);
 
   const DURATION = 5 * 60;
   const [timeLeft, setTimeLeft] = useState(DURATION);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  useEffect(() => {
+    if (!studentId) return;
+    const saved = getComprehensionRecord(studentId, dayNum);
+    if (saved) {
+      setAnswers(saved.answers);
+      setResult(saved.result);
+      setTimeLeft(0);
+      setRestored(true);
+    }
+  }, [studentId, dayNum]);
+
+  const persistAttempt = async (
+    nextAnswers: Record<string, string>,
+    score: ScoreResult
+  ) => {
+    if (!studentId) return;
+    saveComprehensionRecord(studentId, {
+      day: dayNum,
+      answers: nextAnswers,
+      result: score,
+      completedAt: new Date().toISOString(),
+    });
+    await markEnglishSection(studentId, dayNum, "comprehension");
+    await refreshProgress();
+    setRestored(false);
+  };
 
   useEffect(() => {
     if (result !== null) {
@@ -68,7 +95,7 @@ export default function ComprehensionPage({
     if (timerExpired && set) {
       const score = scoreComprehension(set, answers);
       setResult(score);
-      void markEnglishSection(studentId ?? "", dayNum, "comprehension");
+      void persistAttempt(answers, score);
       if (typeof window !== "undefined") window.scrollTo({ top: 0, behavior: "smooth" });
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -122,15 +149,10 @@ export default function ComprehensionPage({
   const handleSubmit = () => {
     const score = scoreComprehension(set, answers);
     setResult(score);
-    void markEnglishSection(studentId, dayNum, "comprehension");
+    void persistAttempt(answers, score);
     if (typeof window !== "undefined") {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  };
-
-  const handleRetake = () => {
-    setAnswers({});
-    setResult(null);
   };
 
   const answeredCount = Object.keys(answers).length;
@@ -175,7 +197,7 @@ export default function ComprehensionPage({
             </div>
           </header>
 
-          {submitted && result ? <ScoreCard result={result} /> : null}
+          {submitted && result ? <ScoreCard result={result} restored={restored} /> : null}
 
           {/* Reading Comprehension */}
           {set.rc && (
@@ -270,18 +292,12 @@ export default function ComprehensionPage({
 
           <div className="flex flex-col gap-3 sm:flex-row sm:justify-end">
             {submitted ? (
-              <>
-                <Link href={`/day/${dayNum}`}>
-                  <Button variant="secondary" className="w-full sm:w-auto">
-                    <ArrowLeft className="h-4 w-4" />
-                    Back to Day {dayNum}
-                  </Button>
-                </Link>
-                <Button className="w-full sm:w-auto" onClick={handleRetake}>
-                  <RotateCcw className="h-4 w-4" />
-                  Practice again
+              <Link href={`/day/${dayNum}`}>
+                <Button variant="secondary" className="w-full sm:w-auto">
+                  <ArrowLeft className="h-4 w-4" />
+                  Back to Day {dayNum}
                 </Button>
-              </>
+              </Link>
             ) : (
               <Button
                 size="lg"
@@ -386,12 +402,23 @@ function QuestionBlock({
   );
 }
 
-function ScoreCard({ result }: { result: ScoreResult }) {
+function ScoreCard({
+  result,
+  restored,
+}: {
+  result: ScoreResult;
+  restored?: boolean;
+}) {
   return (
     <Card
       glow
       className="border-white/10 bg-[linear-gradient(180deg,rgba(124,58,237,0.10),rgba(255,255,255,0.02))] p-6"
     >
+      {restored ? (
+        <p className="mb-4 text-xs text-violet-300">
+          Your completed attempt. This quiz can only be taken once.
+        </p>
+      ) : null}
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">

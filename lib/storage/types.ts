@@ -2,6 +2,7 @@ import type {
   DayProgress,
   OverrideRecord,
   QuizReviewRecord,
+  ComprehensionRecord,
   VocabWordProgress,
 } from "@/types";
 
@@ -19,6 +20,7 @@ export interface LocalStudentStore {
   completedDays: number[];
   completedQuizzes: string[];
   quizReviewRecords: Record<string, QuizReviewRecord>;
+  comprehensionRecords: Record<string, ComprehensionRecord>;
   /** Per-word vocabulary revision progress (keyed by word id). */
   vocabProgress: Record<string, VocabWordProgress>;
   /** Days on which the vocabulary task has been completed at least once. */

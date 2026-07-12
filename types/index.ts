@@ -183,6 +183,21 @@ export interface QuizReviewRecord {
   completedAt: string;
 }
 
+export interface ComprehensionRecord {
+  day: number;
+  answers: Record<string, string>;
+  result: {
+    total: number;
+    correct: number;
+    wrong: number;
+    unattempted: number;
+    marks: number;
+    maxMarks: number;
+    accuracy: number;
+  };
+  completedAt: string;
+}
+
 export interface PendingTask {
   id: string;
   day: number;

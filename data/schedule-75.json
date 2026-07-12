@@ -624,12 +624,6 @@
           "from": 50
         },
         {
-          "topic": "di",
-          "questions": 25,
-          "duration": 25,
-          "from": 50
-        },
-        {
           "topic": "mensuration-3d",
           "questions": 25,
           "duration": 25,
@@ -643,18 +637,22 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day6-grammar.pdf",
-        "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+        "grammarQuiz": "pronoun",
+        "grammarQuizLabel": "VOICE",
+        "grammarQuizFrom": 285,
+        "grammarQuizQuestions": 30,
+        "grammarQuizDuration": 12,
+        "vocabPdf": "/content/english/day6-vocab.pdf"
       },
       "reasoning": {
-        "topic": "puzzle",
-        "questions": 50,
-        "duration": 45
+        "topic": "analogy",
+        "label": "Coding Decoding Quiz",
+        "questions": 25,
+        "duration": 25,
+        "from": 100
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
-        "revisionQuiz": "revision",
+        "todayTopicPdf": "https://drive.google.com/file/d/1M5UGIC9b6U28JkxtbA25PqSfYJlusI_l/view?usp=drive_link",
         "revisionTopic": "Day 13 GK revision"
       }
     },
