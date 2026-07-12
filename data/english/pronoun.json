@@ -3315,15 +3315,1074 @@
                                       ],
                                       "correctAnswer": "since she just had",
                                       "explanation": "Use the present perfect with 'just'. Correct: 'Don't worry since she has just had her breakfast.'"
-                                    }
-                            
-                    
-                          
-                    
-                  
-
-
-    
-
-
+},
+  {
+    "id": "pronoun_286",
+    "question": "He bought new scissors.",
+    "options": [
+      "New scissors were bought by him.",
+      "New scissors was bought by him.",
+      "New scissors had been bought by him.",
+      "New scissors are bought by him."
+    ],
+    "correctAnswer": "New scissors were bought by him.",
+    "explanation": "The active voice is in the Simple Past tense ('bought'). Since 'scissors' is a plural noun, it takes the plural past auxiliary verb 'were' followed by the past participle 'bought'."
+  },
+  {
+    "id": "pronoun_287",
+    "question": "They have brought news for you.",
+    "options": [
+      "News have been brought for you by them.",
+      "News has been brought for you by them.",
+      "News was brought for you by them.",
+      "News is brought for you by them."
+    ],
+    "correctAnswer": "News has been brought for you by them.",
+    "explanation": "The active voice is in the Present Perfect tense ('have brought'). 'News' is an uncountable noun and treats as singular, so it takes the singular auxiliary verb 'has been' followed by the past participle 'brought'."
+  },
+  {
+    "id": "pronoun_288",
+    "question": "The minister has issued orders for his transfer.",
+    "options": [
+      "Orders for his transfer have been issued by the minister.",
+      "Orders for his transfer has been issued by the minister.",
+      "Orders for his transfer were issued by the minister.",
+      "Orders for his transfer had been issued by the minister."
+    ],
+    "correctAnswer": "Orders for his transfer have been issued by the minister.",
+    "explanation": "The active voice uses the Present Perfect tense. The plural object 'orders' requires the plural auxiliary 'have been' followed by the past participle 'issued'."
+  },
+  {
+    "id": "pronoun_289",
+    "question": "I received summons yesterday.",
+    "options": [
+      "Summons were received by me yesterday.",
+      "Summons has been received by me yesterday.",
+      "Summons was received by me yesterday.",
+      "Summons is received by me yesterday."
+    ],
+    "correctAnswer": "Summons was received by me yesterday.",
+    "explanation": "'Summons' is a singular noun despite ending in 's'. The active voice is in the Simple Past tense, so it uses the singular auxiliary verb 'was' followed by the past participle 'received'."
+  },
+  {
+        "id": "pronoun_290",
+    "question": "He has repaired his quarters.",
+    "options": [
+      "His quarters has been repaired by him.",
+      "His quarters have been repaired by him.",
+      "His quarters were repaired by him.",
+      "His quarters are repaired by him."
+    ],
+    "correctAnswer": "His quarters have been repaired by him.",
+    "explanation": "The active voice uses the Present Perfect tense. The noun 'quarters' (lodgings) is plural and requires the plural auxiliary 'have been' followed by the past participle 'repaired'."
+  },
+  {
+    "id": "pronoun_291",
+    "question": "Which book do you like most?",
+    "options": [
+      "Which book is liked most by you?",
+      "Which book was liked most by you?",
+      "Which book has been liked most by you?",
+      "Which book is being liked most by you?"
+    ],
+    "correctAnswer": "Which book is liked most by you?",
+    "explanation": "The active sentence is an interrogative sentence in the Simple Present tense ('do... like'). The passive structure uses 'is' + past participle 'liked'."
+  },
+  {
+    "id": "pronoun_292",
+    "question": "Who did this work?",
+    "options": [
+      "By whom is this work done?",
+      "Who was this work done by?",
+      "By whom had this work been done?",
+      "Who did this work by?"
+    ],
+    "correctAnswer": "Who was this work done by?",
+    "explanation": "For interrogative sentences starting with 'Who' in the Simple Past tense, the passive can be framed as 'Who + was + object + past participle + by'."
+  },
+  {
+    "id": "pronoun_293",
+    "question": "What are you teaching?",
+    "options": [
+      "What is taught by you?",
+      "What was being taught by you?",
+      "What is being taught by you?",
+      "What has been taught by you?"
+    ],
+    "correctAnswer": "What is being taught by you?",
+    "explanation": "The active voice is in the Present Continuous tense ('are teaching'). The passive equivalent uses 'is being' + past participle 'taught'."
+  },
+  {
+    "id": "pronoun_294",
+    "question": "Whom do you like most?",
+    "options": [
+      "Who is liked most by you?",
+      "Whom is liked most by you?",
+      "Who was liked most by you?",
+      "Who has been liked most by you?"
+    ],
+    "correctAnswer": "Who is liked most by you?",
+    "explanation": "The question word 'Whom' acts as the object in the active voice and changes into the subject pronoun 'Who' in the passive voice, followed by 'is' + past participle for Simple Present tense."
+  },
+  {
+    "id": "pronoun_295",
+    "question": "Who has taught you English?",
+    "options": [
+      "By whom have you been taught English?",
+      "By whom has you been taught English?",
+      "Who had been taught English by you?",
+      "By whom English has been taught to you?"
+    ],
+    "correctAnswer": "By whom have you been taught English?",
+    "explanation": "The active sentence is in the Present Perfect tense ('has taught'). When converting to passive, 'Who' changes to 'By whom', and since 'you' is the target subject, it takes the auxiliary verb 'have been'."
+  },
+  {
+    "id": "pronoun_296",
+    "question": "What is he teaching you?",
+    "options": [
+      "What is being taught to you by him?",
+      "What was being taught to you by him?",
+      "What has been taught to you by him?",
+      "What is taught to you by him?"
+    ],
+    "correctAnswer": "What is being taught to you by him?",
+    "explanation": "The active voice is in the Present Continuous tense ('is teaching'). The passive voice converts this into 'is being' + past participle 'taught'."
+  },
+  {
+    "id": "pronoun_297",
+    "question": "What caused this loss?",
+    "options": [
+      "What was this loss caused by?",
+      "What is this loss caused by?",
+      "By what has this loss been caused?",
+      "What had this loss been caused by?"
+    ],
+    "correctAnswer": "What was this loss caused by?",
+    "explanation": "The active sentence is in the Simple Past tense. The passive configuration uses 'was' + past participle 'caused' + preposition 'by'."
+  },
+  {
+    "id": "pronoun_298",
+    "question": "Which student took you home?",
+    "options": [
+      "By which student were you taken home?",
+      "By which student was you taken home?",
+      "Which student had you been taken home by?",
+      "By which student you were taken home?"
+    ],
+    "correctAnswer": "By which student were you taken home?",
+    "explanation": "The sentence is in the Simple Past tense. 'Which student' becomes 'By which student', and the subject pronoun 'you' requires the past plural auxiliary verb 'were'."
+  },
+  {
+    "id": "pronoun_299",
+    "question": "Nobody can mend this wall.",
+    "options": [
+      "This wall can be mended by nobody.",
+      "This wall cannot be mended.",
+      "This wall could not be mended.",
+      "This wall cannot mended."
+    ],
+    "correctAnswer": "This wall cannot be mended.",
+    "explanation": "When the active sentence uses a negative indefinite pronoun like 'Nobody', it changes to a negative passive construction ('cannot be' + past participle) without needing to retain 'by nobody' at the end."
+  },
+  {
+    "id": "pronoun_300",
+    "question": "Nobody saw him going out.",
+    "options": [
+      "He was seen going out by nobody.",
+      "He was not seen going out.",
+      "He had not been seen going out.",
+      "He is not seen going out."
+    ],
+    "correctAnswer": "He was not seen going out.",
+    "explanation": "The active voice uses the Simple Past with a negative pronoun 'Nobody'. The passive voice incorporates the negative into the verb clause ('was not seen') and drops the vague agent."
+  },
+  {
+    "id": "pronoun_301",
+    "question": "Somebody has stolen my books.",
+    "options": [
+      "My books have been stolen by somebody.",
+      "My books has been stolen.",
+      "My books have been stolen.",
+      "My books were stolen."
+    ],
+    "correctAnswer": "My books have been stolen.",
+    "explanation": "When changing to passive voice, vague subjects like 'Somebody' are usually omitted. Since 'my books' is plural, the Present Perfect tense changes from 'has stolen' to 'have been stolen'."
+  },
+  {
+    "id": "pronoun_302",
+    "question": "One should do one's duty.",
+    "options": [
+      "One's duty should be done by one.",
+      "Duty should be done.",
+      "Duty must be done.",
+      "Duty should be do."
+    ],
+    "correctAnswer": "Duty should be done.",
+    "explanation": "In sentences expressing a general rule or moral obligation with the indefinite pronoun 'One', both 'one' and 'one's' are dropped in the passive voice, simplifying the statement to 'Duty should be done'."
+  },
+  {
+    "id": "pronoun_303",
+    "question": "Somebody told us to wait outside.",
+    "options": [
+      "We were told to wait outside by somebody.",
+      "We were told to wait outside.",
+      "We had been told to wait outside.",
+      "Us were told to wait outside."
+    ],
+    "correctAnswer": "We were told to wait outside.",
+    "explanation": "The vague active subject 'Somebody' is dropped. The object 'us' becomes the subjective pronoun 'We', which takes the plural past auxiliary 'were' + past participle 'told'."
+  },
+  {
+    "id": "pronoun_304",
+    "question": "We worship God.",
+    "options": [
+      "God is worshipped by us.",
+      "God is worshipped.",
+      "God was worshipped.",
+      "God has been worshipped."
+    ],
+    "correctAnswer": "God is worshipped.",
+    "explanation": "In general truths or common human actions, the subject pronoun 'We' can be omitted in the passive layout, rendering it as 'God is worshipped' in the Simple Present tense."
+  },
+  {
+    "id": "pronoun_305",
+    "question": "They say so.",
+    "options": [
+      "It is said so.",
+      "It was said so.",
+      "So is said by them.",
+      "It has been said so."
+    ],
+    "correctAnswer": "It is said so.",
+    "explanation": "Phrases like 'They say so' use an introductory dummy pronoun 'It' in the passive layout, resulting in 'It is said so' for the Simple Present tense."
+  },
+  {
+    "id": "pronoun_306",
+    "question": "Some people have seen the ghosts.",
+    "options": [
+      "The ghosts have been seen by some people.",
+      "The ghosts has been seen by some people.",
+      "The ghosts were seen by some people.",
+      "The ghosts have seen by some people."
+    ],
+    "correctAnswer": "The ghosts have been seen by some people.",
+    "explanation": "Because 'Some people' is not completely vague in this specific context, the agent is kept. The plural object 'The ghosts' takes the Present Perfect passive verb 'have been seen'."
+  },
+  {
+    "id": "pronoun_307",
+    "question": "The Police arrested the thief.",
+    "options": [
+      "The thief was arrested by the police.",
+      "The thief was arrested.",
+      "The thief had been arrested.",
+      "The thief is arrested."
+    ],
+    "correctAnswer": "The thief was arrested.",
+    "explanation": "Since it is the standard duty of the police to make arrests, mentioning 'by the police' is redundant and thus omitted in the standard passive construction."
+  },
+  {
+    "id": "pronoun_308",
+    "question": "The university will declare the result soon.",
+    "options": [
+      "The result will be declared soon.",
+      "The result will declare soon by the university.",
+      "The result would be declared soon.",
+      "The result will have been declared soon."
+    ],
+    "correctAnswer": "The result will be declared soon.",
+    "explanation": "The active sentence uses the Simple Future tense ('will declare'). In the passive form, it becomes 'will be declared'. The phrase 'by the university' is omitted because the context makes the declaring body obvious."
+  },
+  {
+    "id": "pronoun_309",
+    "question": "They hope that he will pass.",
+    "options": [
+      "It is hoped that he will pass.",
+      "It was hoped that he will pass.",
+      "He is hoped to pass.",
+      "That he will pass is hoped by them."
+    ],
+    "correctAnswer": "It is hoped that he will pass.",
+    "explanation": "Sentences reporting general expectations or beliefs using 'They hope...' use an introductory 'It is hoped' construction in the passive voice."
+  },
+  {
+    "id": "pronoun_310",
+    "question": "People believe that he will return soon.",
+    "options": [
+      "It was believed that he will return soon.",
+      "He is believed to return soon.",
+      "It is believed by people that he will return soon.",
+      "He will be believed to return soon."
+    ],
+    "correctAnswer": "He is believed to return soon.",
+    "explanation": "Active sentences structured as 'People believe that + subject + verb' can be dynamically turned into an infinitive passive construction: 'He is believed to return soon'."
+  },
+  {
+    "id": "pronoun_311",
+    "question": "We decided that we would leave early.",
+    "options": [
+      "It is decided that we would leave early.",
+      "It was decided that we would leave early.",
+      "We were decided to leave early.",
+      "That we would leave early was decided by us."
+    ],
+    "correctAnswer": "It was decided that we would leave early.",
+    "explanation": "The main verb 'decided' is in the Simple Past tense, so the complex sentence transforms using the past introductory passive 'It was decided that...'"
+  },
+  {
+    "id": "pronoun_312",
+    "question": "Nobody knows how rich he is.",
+    "options": [
+      "It is not known how rich he is.",
+      "It was not known how rich he is.",
+      "How rich he is is known by nobody.",
+      "It is known how rich he is."
+    ],
+    "correctAnswer": "It is not known how rich he is.",
+    "explanation": "The negative subject 'Nobody' combined with the Simple Present verb 'knows' alters into the negative passive phrasing 'It is not known...'"
+  },
+  {
+    "id": "pronoun_313",
+    "question": "He expects that he will pass.",
+    "options": [
+      "It is expected that he will pass.",
+      "He is expected to pass.",
+      "He expects to be passed.",
+      "It was expected that he will pass."
+    ],
+    "correctAnswer": "He is expected to pass.",
+    "explanation": "When the subject of the main clause and the subordinate clause are identical ('He'), the construction turns into a concise passive infinitive phrase: 'He is expected to pass'."
+  },
+  {
+    "id": "pronoun_314",
+    "question": "He has given me a book.",
+    "options": [
+      "I have been given a book by him.",
+      "I has been given a book by him.",
+      "A book was given to me by him.",
+      "I was given a book by him."
+    ],
+    "correctAnswer": "I have been given a book by him.",
+    "explanation": "This sentence contains a double object ('me' and 'a book'). Taking the indirect object 'me' as the new subject, the Present Perfect tense becomes 'I have been given a book by him'."
+  },
+  {
+    "id": "pronoun_315",
+    "question": "They will ask me a question.",
+    "options": [
+      "A question will be asked of me by them.",
+      "I would be asked a question by them.",
+      "A question will ask to me by them.",
+      "I will be ask a question by them."
+    ],
+    "correctAnswer": "A question will be asked of me by them.",
+    "explanation": "When shifting the direct object 'a question' to the front in a Simple Future setup, the appropriate preposition to use with the verb 'ask' is 'of' (i.e., 'asked of me')."
+  },
+  {
+    "id": "pronoun_316",
+    "question": "They made him Captain.",
+    "options": [
+      "He was made captain.",
+      "Captain was made him by them.",
+      "He has been made captain.",
+      "He was made captain by them."
+    ],
+    "correctAnswer": "He was made captain.",
+    "explanation": "For sentences containing a factitive object/objective complement ('Captain'), the indirect pronoun 'him' becomes the subject 'He', and vague active agents like 'They' are dropped."
+  },
+  {
+    "id": "pronoun_317",
+    "question": "She told me a story.",
+    "options": [
+      "A story was told to me by her.",
+      "A story was told me by her.",
+      "I had been told a story by her.",
+      "A story is told to me by her."
+    ],
+    "correctAnswer": "A story was told to me by her.",
+    "explanation": "Using the direct object 'a story' as the subject in the Simple Past tense requires introducing the preposition 'to' before the indirect object ('told to me')."
+  },
+  {
+    "id": "pronoun_318",
+    "question": "He bought me a scooter.",
+    "options": [
+      "A scooter was bought for me by him.",
+      "A scooter was bought to me by him.",
+      "I was bought a scooter by him.",
+      "A scooter has been bought for me by him."
+    ],
+    "correctAnswer": "A scooter was bought for me by him.",
+    "explanation": "With the verb 'bought', when the direct object ('a scooter') is converted into the passive subject, the correct tracking preposition for the beneficiary is 'for' ('bought for me')."
+  },
+  {
+    "id": "pronoun_319",
+    "question": "I shall read you this report.",
+    "options": [
+      "You will be read this report.",
+      "This report shall be read to you by me.",
+      "You shall be read this report by me.",
+      "You will read this report."
+    ],
+    "correctAnswer": "You will be read this report.",
+    "explanation": "Using the indirect object 'you' as the new subject shifts the future modal auxiliary from 'shall' to 'will', rendering 'You will be read this report'."
+  },
+  {
+    "id": "pronoun_320",
+    "question": "They refused him admission to the college.",
+    "options": [
+      "Admission to the college was refused to him.",
+      "He was refused admission to the college by them.",
+      "He had been refused admission to the college.",
+      "Admission to the college has been refused to him."
+    ],
+    "correctAnswer": "Admission to the college was refused to him.",
+    "explanation": "Taking the direct object 'Admission to the college' as the primary focus, the Simple Past structure turns into 'was refused to him' while omitting the vague pronoun 'they'."
+  },
+  {
+    "id": "pronoun_321",
+    "question": "I have offered him a job.",
+    "options": [
+      "He has been offered a job by me.",
+      "A job has offered to him by me.",
+      "He have been offered a job by me.",
+      "He was offered a job by me."
+    ],
+    "correctAnswer": "He has been offered a job by me.",
+    "explanation": "The active voice is in the Present Perfect tense ('have offered'). Shifting the indirect object 'him' to the subject 'He' matches it with the singular auxiliary verb form 'has been offered'."
+  },
+  {
+    "id": "pronoun_322",
+    "question": "I shall show him the library.",
+    "options": [
+      "He will be shown the library by me.",
+      "The library shall be shown to him by me.",
+      "He shall be shown the library by me.",
+      "He would be shown the library by me."
+    ],
+    "correctAnswer": "He will be shown the library by me.",
+    "explanation": "The target subject 'He' switches the active future framing 'shall' over to 'will', turning into 'He will be shown...'."
+  },
+  {
+    "id": "pronoun_323",
+    "question": "She did not lend me money.",
+    "options": [
+      "I was not lent money by her.",
+      "Money was not lent me by her.",
+      "I am not lent money by her.",
+      "I had not been lent money by her."
+    ],
+    "correctAnswer": "I was not lent money by her.",
+    "explanation": "The negative Simple Past active 'did not lend' translates to 'was not lent' when tracking from the personal pronoun subject 'I'."
+  },
+  {
+    "id": "pronoun_324",
+    "question": "Twenty members comprise the committee.",
+    "options": [
+      "The committee is comprised of twenty members.",
+      "The committee is comprised by twenty members.",
+      "The committee has been comprised of twenty members.",
+      "The committee was comprised of twenty members."
+    ],
+    "correctAnswer": "The committee is comprised of twenty members.",
+    "explanation": "Certain active verbs change their associated linking prepositions when inverted. The verb 'comprise' uniquely swaps out the standard 'by' for 'of' in its passive voice formulation."
+  },
+  {
+    "id": "pronoun_325",
+    "question": "I do not expect it from you.",
+    "options": [
+      "It is not expected of you by me.",
+      "It is not expected from you by me.",
+      "It was not expected of you by me.",
+      "It has not been expected of you."
+    ],
+    "correctAnswer": "It is not expected of you by me.",
+    "explanation": "In the passive construction for this sentence, the prepositional combination modifies from 'expect... from' over into 'expected of you'."
+  },
+  {
+    "id": "pronoun_326",
+    "question": "The angry mob thronged the roads.",
+    "options": [
+      "The roads were thronged by the angry mob.",
+      "The roads were thronged with the angry mob.",
+      "The roads had been thronged with the angry mob.",
+      "The roads are thronged with the angry mob."
+    ],
+    "correctAnswer": "The roads were thronged with the angry mob.",
+    "explanation": "The past tense verb 'thronged' requires the distinct connecting preposition 'with' instead of 'by' when introducing the instrument/agent in the passive voice."
+  },
+  {
+    "id": "pronoun_327",
+    "question": "A blow of lathi killed the dog.",
+    "options": [
+      "The dog was killed by a blow of lathi.",
+      "The dog was killed with a blow of lathi.",
+      "The dog had been killed with a blow of lathi.",
+      "The dog is killed with a blow of lathi."
+    ],
+    "correctAnswer": "The dog was killed with a blow of lathi.",
+    "explanation": "When an inanimate tool or object serves as the instrument causing an action, the preposition 'with' replaces 'by' in the passive layout."
+  },
+  {
+    "id": "pronoun_328",
+    "question": "Do you know the lady?",
+    "options": [
+      "Is the lady known to you?",
+      "Is the lady known by you?",
+      "Was the lady known to you?",
+      "Has the lady been known to you?"
+    ],
+    "correctAnswer": "Is the lady known to you?",
+    "explanation": "The participle 'known' uniquely pairs with the tracking preposition 'to' rather than 'by' when linking back to the subject actor."
+  },
+  {
+    "id": "pronoun_329",
+    "question": "The book contains much information.",
+    "options": [
+      "Much information is contained by the book.",
+      "Much information is contained in the book.",
+      "Much information was contained in the book.",
+      "Much information has been contained in the book."
+    ],
+    "correctAnswer": "Much information is contained in the book.",
+    "explanation": "The verb 'contains' takes the preposition 'in' within passive layouts ('contained in the book')."
+  },
+  {
+    "id": "pronoun_330",
+    "question": "The servant annoyed the master.",
+    "options": [
+      "The master was annoyed with the servant.",
+      "The master was annoyed at the servant.",
+      "The master was annoyed by the servant.",
+      "The master had been annoyed with the servant."
+    ],
+    "correctAnswer": "The master was annoyed with the servant.",
+    "explanation": "When the object of annoyance is a person ('the servant'), the past participle 'annoyed' maps to the preposition 'with'."
+  },
+  {
+    "id": "pronoun_331",
+    "question": "His behaviour surprised everyone.",
+    "options": [
+      "Everyone was surprised by his behaviour.",
+      "Everyone was surprised at his behaviour.",
+      "Everyone was surprised with his behaviour.",
+      "Everyone had been surprised at his behaviour."
+    ],
+    "correctAnswer": "Everyone was surprised at his behaviour.",
+    "explanation": "The verb 'surprised' traditionally uses the specific tracking preposition 'at' when reacting to actions, properties, or behaviors."
+  },
+  {
+    "id": "pronoun_332",
+    "question": "His insolence has annoyed the teacher.",
+    "options": [
+      "The teacher has been annoyed at his insolence.",
+      "The teacher has been annoyed with his insolence.",
+      "The teacher was annoyed at his insolence.",
+      "The teacher have been annoyed at his insolence."
+    ],
+    "correctAnswer": "The teacher has been annoyed at his insolence.",
+    "explanation": "Unlike annoying a person, being annoyed by a behavioral trait ('his insolence') triggers the preposition 'at' in Present Perfect passive phrasing."
+  },
+  {
+    "id": "pronoun_333",
+    "question": "Their jokes disgusted me.",
+    "options": [
+      "I was disgusted by their jokes.",
+      "I was disgusted at their jokes.",
+      "I was disgusted with their jokes.",
+      "I had been disgusted at their jokes."
+    ],
+    "correctAnswer": "I was disgusted at their jokes.",
+    "explanation": "The emotional reaction verb 'disgusted' takes 'at' when paired against abstract situational triggers like 'jokes'."
+  },
+  {
+    "id": "pronoun_334",
+    "question": "Material life always disgusts him.",
+    "options": [
+      "He is always disgusted with material life.",
+      "He is always disgusted at material life.",
+      "He is always disgusted by material life.",
+      "He was always disgusted with material life."
+    ],
+    "correctAnswer": "He is always disgusted with material life.",
+    "explanation": "When dealing with continuous states or settings ('material life'), 'disgusted' links via the preposition 'with'."
+  },
+  {
+    "id": "pronoun_335",
+    "question": "They keep the details on the computers.",
+    "options": [
+      "The details are kept on computers by them.",
+      "The details are kept on computers.",
+      "The details were kept on computers.",
+      "The details have been kept on computers."
+    ],
+    "correctAnswer": "The details are kept on computers.",
+    "explanation": "The active Simple Present tense transitions into 'are kept'. The vague pronoun subject 'They' is naturally removed from the passive conclusion."
+  },
+  {
+    "id": "pronoun_336",
+    "question": "My sister bore a son last year.",
+    "options": [
+      "A son was born to my sister last year.",
+      "A son was born by my sister last year.",
+      "A son had been born to my sister last year.",
+      "A son was borne to my sister last year."
+    ],
+    "correctAnswer": "A son was born to my sister last year.",
+    "explanation": "The passive form of giving birth uses the phrase 'was born to' rather than using 'by' to link the maternal relationship."
+  },
+  {
+    "id": "pronoun_337",
+    "question": "Her looks impressed everybody.",
+    "options": [
+      "Everybody was impressed with her looks.",
+      "Everybody was impressed by her looks.",
+      "Everybody was impressed at her looks.",
+      "Everybody had been impressed with her looks."
+    ],
+    "correctAnswer": "Everybody was impressed with her looks.",
+    "explanation": "The psychological state verb 'impressed' standardly coordinates with the preposition 'with'."
+  },
+  {
+    "id": "pronoun_338",
+    "question": "Their idle talk will vex you.",
+    "options": [
+      "You will be vexed by their idle talk.",
+      "You will be vexed at their idle talk.",
+      "You would be vexed at their idle talk.",
+      "You will be vexed with their idle talk."
+    ],
+    "correctAnswer": "You will be vexed at their idle talk.",
+    "explanation": "The passive form of 'vex' pairs up with the preposition 'at' when dealing with abstract irritants like 'talk'."
+  },
+  {
+    "id": "pronoun_339",
+    "question": "The movie does not interest her.",
+    "options": [
+      "She is not interested by the movie.",
+      "She is not interested in the movie.",
+      "She was not interested in the movie.",
+      "She has not been interested in the movie."
+    ],
+    "correctAnswer": "She is not interested in the movie.",
+    "explanation": "The verb 'interest' is coupled exclusively with the preposition 'in' within passive expressions."
+  },
+  {
+    "id": "pronoun_340",
+    "question": "Your explanation will not satisfy your boss.",
+    "options": [
+      "Your boss will not be satisfied by your explanation.",
+      "Your boss will not be satisfied with your explanation.",
+      "Your boss would not be satisfied with your explanation.",
+      "Your boss will not satisfy with your explanation."
+    ],
+    "correctAnswer": "Your boss will not be satisfied with your explanation.",
+    "explanation": "The verb 'satisfied' relies on the specific preposition 'with' when inverted into the passive voice."
+  },
+  {
+    "id": "pronoun_341",
+    "question": "His actions pleased his father.",
+    "options": [
+      "His father was pleased with his actions.",
+      "His father was pleased by his actions.",
+      "His father was pleased at his actions.",
+      "His father had been pleased with his actions."
+    ],
+    "correctAnswer": "His father was pleased with his actions.",
+    "explanation": "The past participle 'pleased' takes 'with' to detail the trigger or cause of satisfaction."
+  },
+  {
+    "id": "pronoun_342",
+    "question": "Her behaviour shocked me.",
+    "options": [
+      "I was shocked by her behaviour.",
+      "I was shocked at her behaviour.",
+      "I was shocked with her behaviour.",
+      "I had been shocked at her behaviour."
+    ],
+    "correctAnswer": "I was shocked at her behaviour.",
+    "explanation": "The verb 'shocked' natively dictates the usage of the preposition 'at' over 'by'."
+  },
+  {
+    "id": "pronoun_343",
+    "question": "His failure in life disappointed his wife.",
+    "options": [
+      "His wife was disappointed at his failure in life.",
+      "His wife was disappointed with his failure in life.",
+      "His wife was disappointed by his failure in life.",
+      "His wife had been disappointed at his failure in life."
+    ],
+    "correctAnswer": "His wife was disappointed at his failure in life.",
+    "explanation": "Disappointment regarding situational actions or outcomes is expressed using 'disappointed at'."
+  },
+  {
+    "id": "pronoun_344",
+    "question": "The sound of the blast alarmed the villagers.",
+    "options": [
+      "The villagers were alarmed by the sound of the blast.",
+      "The villagers were alarmed at the sound of the blast.",
+      "The villagers were alarmed with the sound of the blast.",
+      "The villagers had been alarmed at the sound of the blast."
+    ],
+    "correctAnswer": "The villagers were alarmed at the sound of the blast.",
+    "explanation": "The passive form of 'alarmed' joins with the preposition 'at' when connected to situational external indicators."
+  },
+  {
+    "id": "pronoun_345",
+    "question": "Arnav is to help his sister.",
+    "options": [
+      "Arnav's sister is to be helped by him.",
+      "Arnav's sister was to be helped by him.",
+      "Arnav's sister is to helped by him.",
+      "Arnav's sister has to be helped by him."
+    ],
+    "correctAnswer": "Arnav's sister is to be helped by him.",
+    "explanation": "Infinitive active phrases structured as 'is/am/are + to + verb' switch into 'is/am/are + to be + past participle' within passive transformations."
+  },
+  {
+    "id": "pronoun_346",
+    "question": "Shaurya has to distribute sweets.",
+    "options": [
+      "Sweets have to be distributed by Shaurya.",
+      "Sweets has to be distributed by Shaurya.",
+      "Sweets had to be distributed by Shaurya.",
+      "Sweets are to be distributed by Shaurya."
+    ],
+    "correctAnswer": "Sweets have to be distributed by Shaurya.",
+    "explanation": "The active infinitive 'has to distribute' maps to 'have to be distributed' because the targeted plural object 'Sweets' takes a plural auxiliary verb."
+  },
+  {
+    "id": "pronoun_347",
+    "question": "They saw the police chasing a terrorist.",
+    "options": [
+      "A terrorist was seen being chased by the police.",
+      "A terrorist was seen chasing by the police.",
+      "A terrorist had been seen being chased by the police.",
+      "A terrorist was saw being chased by the police."
+    ],
+    "correctAnswer": "A terrorist was seen being chased by the police.",
+    "explanation": "When an active verb of perception ('saw') is paired with a participle complement ('chasing'), the core object is pulled forward, establishing the passive format 'was seen being chased'."
+  },
+  {
+    "id": "pronoun_348",
+    "question": "She was to write a book on animals.",
+    "options": [
+      "A book on animals was to be written by her.",
+      "A book on animals is to be written by her.",
+      "A book on animals had to be written by her.",
+      "A book on animals was to written by her."
+    ],
+    "correctAnswer": "A book on animals was to be written by her.",
+    "explanation": "The past infinitive layout 'was to write' upgrades directly to 'was to be written' in its corresponding passive voice conversion."
+  },
+  {
+    "id": "pronoun_349",
+    "question": "They found him helping the poor.",
+    "options": [
+      "The poor were found being helped by them.",
+      "The poor was found being helped by them.",
+      "He was found helping the poor by them.",
+      "The poor had been found being helped."
+    ],
+    "correctAnswer": "The poor were found being helped by them.",
+    "explanation": "The participle structure 'found him helping' shifts focus onto the targeted group 'the poor', which requires the plural past passive marker 'were found being helped'."
+  },
+  {
+    "id": "pronoun_350",
+    "question": "What are you listening to?",
+    "options": [
+      "What is being listened to by you?",
+      "What is being listened by you?",
+      "What was being listened to by you?",
+      "What has been listened to by you?"
+    ],
+    "correctAnswer": "What is being listened to by you?",
+    "explanation": "Prepositional verbs ('listening to') must completely retain their following prepositions intact within passive phrasing ('listened to by you')."
+  },
+  {
+    "id": "pronoun_351",
+    "question": "They were searching for the lost book.",
+    "options": [
+      "The lost book was being searched for by them.",
+      "The lost book was being searched by them.",
+      "The lost book had been searched for by them.",
+      "The lost book were being searched for."
+    ],
+    "correctAnswer": "The lost book was being searched for by them.",
+    "explanation": "The Past Continuous active 'were searching for' translates over into 'was being searched for'. The pronoun agent tracking can be retained here."
+  },
+  {
+    "id": "pronoun_352",
+    "question": "The Government cannot dispense with computers.",
+    "options": [
+      "Computers cannot be dispensed with by the Government.",
+      "Computers cannot be dispensed by the Government.",
+      "Computers could not be dispensed with by the Government.",
+      "Computers cannot dispensed with by the Government."
+    ],
+    "correctAnswer": "Computers cannot be dispensed with by the Government.",
+    "explanation": "The modal phrase 'cannot dispense with' correctly converts to 'cannot be dispensed with', keeping the intrinsic preposition 'with' fixed directly to the verb."
+  },
+  {
+    "id": "pronoun_353",
+    "question": "I have never heard of such an accident.",
+    "options": [
+      "Such an accident has never been heard of.",
+      "Such an accident have never been heard of.",
+      "Such an accident was never heard of.",
+      "Such an accident has never been heard."
+    ],
+    "correctAnswer": "Such an accident has never been heard of.",
+    "explanation": "The active phrase 'have never heard of' converts into 'has never been heard of' while dropping the subject pronoun 'I' as it is evident."
+  },
+  {
+    "id": "pronoun_354",
+    "question": "All his friends will laugh at him.",
+    "options": [
+      "He will be laughed at by all his friends.",
+      "He will be laughed by all his friends.",
+      "He would be laughed at by all his friends.",
+      "He will laughed at by all his friends."
+    ],
+    "correctAnswer": "He will be laughed at by all his friends.",
+    "explanation": "The future form 'will laugh at' scales over to 'will be laughed at', maintaining the mandatory preposition 'at' before adding the agent phrase."
+  },
+  {
+    "id": "pronoun_355",
+    "question": "Do not discriminate against the poor.",
+    "options": [
+      "The poor should not be discriminated against.",
+      "The poor should not be discriminated.",
+      "Let the poor not be discriminated.",
+      "The poor must not be discriminated against."
+    ],
+    "correctAnswer": "The poor should not be discriminated against.",
+    "explanation": "Negative imperatives containing moral mandates or suggestions are best structured with 'should not be + past participle', tracking the essential preposition 'against'."
+  },
+  {
+    "id": "pronoun_356",
+    "question": "I made him write a letter.",
+    "options": [
+      "He was made to write a letter by me.",
+      "He was made write a letter by me.",
+      "He had been made to write a letter by me.",
+      "A letter was made to write by him."
+    ],
+    "correctAnswer": "He was made to write a letter by me.",
+    "explanation": "Causative verbs like 'make' drop 'to' in the active voice (bare infinitive) but require the full infinitive ('to write') when transitioned into passive frameworks."
+  },
+  {
+    "id": "pronoun_357",
+    "question": "She let me stay in her home.",
+    "options": [
+      "I was let stay in her home.",
+      "I was let to stay in her home.",
+      "I am let stay in her home.",
+      "I was allowed to stay in her home by her."
+    ],
+    "correctAnswer": "I was let stay in her home.",
+    "explanation": "Unlike other causative verbs, 'let' remains followed by a bare infinitive ('stay' instead of 'to stay') even within its passive presentation."
+  },
+  {
+    "id": "pronoun_358",
+    "question": "She bade me leave the room.",
+    "options": [
+      "I was bidden to leave the room by her.",
+      "I was bid leave the room by her.",
+      "I was bidden leave the room by her.",
+      "I had been bidden to leave the room."
+    ],
+    "correctAnswer": "I was bidden to leave the room by her.",
+    "explanation": "The verb 'bade' uses the past participle 'bidden' in the passive layout and shifts its following bare infinitive over into a full infinitive ('to leave')."
+  },
+  {
+    "id": "pronoun_359",
+    "question": "They heard her sing a song.",
+    "options": [
+      "She was heard to sing a song by them.",
+      "She was heard sing a song by them.",
+      "A song was heard to be sung by her.",
+      "She had been heard to sing a song."
+    ],
+    "correctAnswer": "She was heard to sing a song by them.",
+    "explanation": "Verbs of perception ('heard') require transforming the following bare infinitive into a full infinitive structure ('to sing') inside a passive matrix."
+  },
+  {
+    "id": "pronoun_360",
+    "question": "I saw him go.",
+    "options": [
+      "He was seen to go by me.",
+      "He was seen go by me.",
+      "He had been seen to go by me.",
+      "He is seen to go by me."
+    ],
+    "correctAnswer": "He was seen to go by me.",
+    "explanation": "The Simple Past bare infinitive combination 'saw him go' alters mechanically into the full infinitive passive pattern 'was seen to go'."
+  },
+  {
+    "id": "pronoun_361",
+    "question": "Obey your teacher.",
+    "options": [
+      "Your teacher should be obeyed.",
+      "Let your teacher be obeyed.",
+      "Your teacher must be obeyed.",
+      "You are ordered to obey your teacher."
+    ],
+    "correctAnswer": "Your teacher should be obeyed.",
+    "explanation": "Imperative sentences conveying standard moral advice are most appropriately transformed using 'should be + past participle'."
+  },
+  {
+    "id": "pronoun_362",
+    "question": "Do it as early as possible.",
+    "options": [
+      "It should be done as early as possible.",
+      "Let it be done as early as possible.",
+      "It must be done as early as possible.",
+      "It can be done as early as possible."
+    ],
+    "correctAnswer": "It should be done as early as possible.",
+    "explanation": "An imperative task or objective action translates effectively into the passive voice using the tracking syntax 'should be done'."
+  },
+  {
+    "id": "pronoun_363",
+    "question": "Do not go out.",
+    "options": [
+      "You are ordered not to go out.",
+      "You are forbidden to go out.",
+      "Let you not go out.",
+      "You should not go out."
+    ],
+    "correctAnswer": "You are forbidden to go out.",
+    "explanation": "Intransitive imperative commands ('Go out') cannot take 'Let'. They convert by explicitly framing the underlying intent, such as 'You are forbidden to go out'."
+  },
+  {
+    "id": "pronoun_364",
+    "question": "Prevent him from going out.",
+    "options": [
+      "He should be prevented from going out.",
+      "Let him be prevented from going out.",
+      "He must be prevented from going out.",
+      "You are ordered to prevent him from going out."
+    ],
+    "correctAnswer": "He should be prevented from going out.",
+    "explanation": "This continuous caution or advice maps into the passive using 'should be' followed by the complete prepositional string 'prevented from going out'."
+  },
+  {
+    "id": "pronoun_365",
+    "question": "Please enter by this door.",
+    "options": [
+      "You are requested to enter by this door.",
+      "Let you enter by this door.",
+      "You should enter by this door.",
+      "Please be entered by this door."
+    ],
+    "correctAnswer": "You are requested to enter by this door.",
+    "explanation": "Imperatives containing the word 'Please' explicitly swap the marker out for the standard introductory passive string 'You are requested to'."
+  },
+  {
+    "id": "pronoun_366",
+    "question": "Do not insult the weak.",
+    "options": [
+      "The weak should not be insulted.",
+      "Let the weak not be insulted.",
+      "The weak must not be insulted.",
+      "You are ordered not to insult the weak."
+    ],
+    "correctAnswer": "The weak should not be insulted.",
+    "explanation": "Moral guidance items framed negatively are systematically updated using 'should not be' + past participle."
+  },
+  {
+    "id": "pronoun_367",
+    "question": "Get out of the room.",
+    "options": [
+      "You are ordered to get out of the room.",
+      "Let you get out of the room.",
+      "You should get out of the room.",
+      "The room should be gotten out of."
+    ],
+    "correctAnswer": "You are ordered to get out of the room.",
+    "explanation": "Direct authoritative commands lacking a direct object require introducing an explicit prefix defining the context, specifically: 'You are ordered to'."
+  },
+  {
+    "id": "pronoun_368",
+    "question": "Kindly give me some money.",
+    "options": [
+      "You are requested kindly to give me some money.",
+      "Let some money be given to me.",
+      "Kindly let some money be given.",
+      "You are ordered to give me money."
+    ],
+    "correctAnswer": "You are requested kindly to give me some money.",
+    "explanation": "The polite imperative adverb 'Kindly' is restructured into the formal passive greeting: 'You are requested kindly to'."
+  },
+  {
+    "id": "pronoun_369",
+    "question": "Let me sleep here.",
+    "options": [
+      "I may be allowed to sleep here.",
+      "Let sleeping here be done by me.",
+      "I should be allowed to sleep here.",
+      "Let me be slept here."
+    ],
+    "correctAnswer": "I may be allowed to sleep here.",
+    "explanation": "Imperatives starting with 'Let me' expressing a personal request convert into passive permissions via 'I may be allowed to'."
+  },
+  {
+    "id": "pronoun_370",
+    "question": "Let them watch the match.",
+    "options": [
+      "They may be allowed to watch the match.",
+      "Let the match be watched by them.",
+      "They should be allowed to watch the match.",
+      "The match may be watched by them."
+    ],
+    "correctAnswer": "They may be allowed to watch the match.",
+    "explanation": "An active structure running as 'Let + third-person pronoun + verb' translates cleanly to 'They may be allowed to...'"
+  },
+  {
+    "id": "pronoun_371",
+    "question": "Let us watch T.V.",
+    "options": [
+      "T.V. should be watched by us.",
+      "It is suggested that we should watch T.V.",
+      "Let T.V. be watched by us.",
+      "We may be allowed to watch T.V."
+    ],
+    "correctAnswer": "T.V. should be watched by us.",
+    "explanation": "When 'Let us' proposes a shared activity with a clear object ('T.V.'), it scales over to: 'Object + should be + past participle + by us'."
+  },
+  {
+    "id": "pronoun_372",
+    "question": "Let us not hurt anybody.",
+    "options": [
+      "Nobody should be hurt by us.",
+      "Let nobody be hurt by us.",
+      "Anybody should not be hurt by us.",
+      "It is suggested not to hurt anybody."
+    ],
+    "correctAnswer": "Nobody should be hurt by us.",
+    "explanation": "The negative inclusive suggestion 'Let us not hurt anybody' maps over to the clear absolute passive declaration: 'Nobody should be hurt by us'."
+  },
+  {
+    "id": "pronoun_373",
+    "question": "Let us go now.",
+    "options": [
+      "It is suggested that we should go now.",
+      "We should be gone now.",
+      "Let it be gone by us now.",
+      "We are allowed to go now."
+    ],
+    "correctAnswer": "It is suggested that we should go now.",
+    "explanation": "When an active phrase starting with 'Let us' contains no object ('go now'), it represents a pure suggestion and updates to 'It is suggested that we should go now'."
+  },
+  {
+            "id": "pronoun_374",
+    "question": "Let us enter college. (request)",
+    "options": [
+      "We might be allowed to enter college.",
+      "It is suggested that we should enter college.",
+      "Let college be entered by us.",
+      "We should be allowed to enter college."
+    ],
+    "correctAnswer": "We might be allowed to enter college.",
+    "explanation": "When explicitly designated as a request rather than a general suggestion, a 'Let us' initiative maps into the conditional passive permission string 'We might be allowed to'."
+  }
+                        
 ]
