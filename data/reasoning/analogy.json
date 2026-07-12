@@ -1229,7 +1229,7 @@
               "YCUFT",
               "YCUHS"
             ],
-            "correctAnswer": "YCUGT",
+            "correctAnswer": "YCVGT",
             "explanation": "Each letter of the word is shifted forward by 2 positions in the alphabetical order (B+2=D, R+2=T, E+2=G, A+2=C, D+2=F). Following the same pattern for WATER: W+2=Y, A+2=C, T+2=U, E+2=G, R+2=T."
           },
           {
@@ -1349,7 +1349,7 @@
               "VIOWM",
               "UKPXK"
             ],
-            "correctAnswer": "XJPWM",
+            "correctAnswer": "VIOWM",
             "explanation": "Analyzing alphabetical mathematical drops and cross-placements determines the code step. Mirroring this systematic reduction pattern onto 'ACTOR' outputs 'XJPWM'."
           },
           {
@@ -1373,7 +1373,7 @@
               "JKFVL",
               "KJGTS"
             ],
-            "correctAnswer": "JKFVL",
+            "correctAnswer": "JOFUI",
             "explanation": "Letters are translated based on cross-rearrangement with a progressive step value. Applying the identical sequence to the letters of 'NIGHT' results in 'JKFVL'."
           },
           {
@@ -1385,7 +1385,7 @@
               "KJNFK",
               "JKNKF"
             ],
-            "correctAnswer": "KJNFK",
+            "correctAnswer": "KJNKF",
             "explanation": "The pattern adds varying positive step gaps to matching character indices (+2, +2, etc. in a cross/forward chain). Carrying this logic over to 'HINDI' outputs 'KJNFK'."
           },
           {
@@ -1397,7 +1397,7 @@
               "TUPOF",
               "TUPQD"
             ],
-            "correctAnswer": "TUPNV",
+            "correctAnswer": "TUPMF",
             "explanation": "The coding follows a basic step structure where regular letter shifts map forwards. Applying the equivalent rules to 'STONE' produces the matched option."
           },
           {
@@ -1409,7 +1409,7 @@
               "HGKXGQI",
               "HGLXGQJ"
             ],
-            "correctAnswer": "HGKXGQI",
+            "correctAnswer": "HTWFZLI",
             "explanation": "The pattern converts letters using their opposite alphabet pairs subtracted or added by specific values ($P \\leftrightarrow K$, etc.). Transforming 'SPECTOR' under these constraints yields 'HGKXGQI'."
           },
           {
@@ -1421,7 +1421,7 @@
               "NSMGME",
               "LSOFMG"
             ],
-            "correctAnswer": "KTODLF",
+            "correctAnswer": "LSOFMG",
             "explanation": "The characters undergo an inversion and cross-shift based on positional value groupings. Evaluating 'DIALOG' along this pathway aligns with 'KTODLF'."
           },
           {
@@ -1433,7 +1433,7 @@
               "KXTCM",
               "KXMCT"
             ],
-            "correctAnswer": "KXCMT",
+            "correctAnswer": "KXCTM",
             "explanation": "Letters are mapped via standard substitution rules combined with an inverted layout sequence. Applying the same dynamic translation to 'NAVEL' yields 'KXCMT'."
           },
           {
@@ -1445,7 +1445,7 @@
               "SRKX",
               "SKRX"
             ],
-            "correctAnswer": "SXRK",
+            "correctAnswer": "SXKR",
             "explanation": "The letters are cross-linked to adjacent placements and shifted step-wise. Tracking the position conversions for 'JERK' presents the configuration 'SXRK'."
           },
           {
@@ -1457,7 +1457,7 @@
               "KRPJS",
               "AKUPW"
             ],
-            "correctAnswer": "LWYDB",
+            "correctAnswer": "AKUPW",
             "explanation": "The shift sequence pairs the string indices symmetrically through opposite mapping and offset additions. Replicating this strategy for 'BRING' produces 'LWYDB'."
           },
           {
@@ -1481,7 +1481,7 @@
               "K12F2",
               "12FK2"
             ],
-            "correctAnswer": "12FK2",
+            "correctAnswer": "21FK2",
             "explanation": "Consonants are shifted backward by 1 position ($T \\to S$, $G \\to F$, $R \\to Q$), while vowels are replaced by their reverse vowel counts or specific numeric assignments ($I=3, E=2$). For EAGLE: $E=2, A=1, G-1=F, L-1=K, E=2$, creating '21FK2' or standard vowel-coded '12FK2' setups."
           },
           {
@@ -1493,7 +1493,7 @@
               "RYZJC3",
               "RYZJC2"
             ],
-            "correctAnswer": "RHAKO2",
+            "correctAnswer": "RYZJC2",
             "explanation": "Letters drop systematically by 2 positions ($D-2=B$, $E-2=C$, $S-2=Q$, $K-2=I$) with specific terminal numbers acting as segment indicators. Treating 'TABLE' with the -2 letter index shift yields 'RHAKO2'."
           },
           {
@@ -1505,7 +1505,7 @@
               "5",
               "2"
             ],
-            "correctAnswer": "2",
+            "correctAnswer": "3",
             "explanation": "By comparing the common letters across 'FORCE' (83052) and 'FORUM' (08957), we isolate the codes for F, O, R as 8, 0, 5. Comparing 'FORCE' with 'GAMES' isolates E as 1 or 6. Eliminating these values leaves 2 uniquely matching the letter 'C'."
           },
           {
@@ -1517,7 +1517,7 @@
               "1",
               "5"
             ],
-            "correctAnswer": "5",
+            "correctAnswer": "1",
             "explanation": "Comparing shared strings 'WAVES' and 'VOTED' shows they share letters V, E. Cross-referencing common digits with 'VOCAL' isolates individual numerical values, verifying that 'E' matches to 5."
           }
 ]
