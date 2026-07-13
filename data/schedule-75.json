@@ -658,7 +658,7 @@
     },
     {
       "day": 15,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "ratio-proportion",
@@ -687,17 +687,23 @@
       ],
       "english": {
         "grammarPdf": "/content/english/day7-grammar.pdf",
-        "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "grammarQuiz": "pronoun",
+        "grammarQuizLabel": "VOICE",
+        "grammarQuizFrom": 315,
+        "grammarQuizQuestions": 30,
+        "grammarQuizDuration": 12,
+        "vocabPdf": "/content/english/day7-vocab.pdf"
       },
       "reasoning": {
         "topic": "analogy",
-        "questions": 50,
-        "duration": 45
+        "questions": 25,
+        "duration": 25,
+        "from": 125
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
         "revisionQuiz": "revision",
+        "from": 180
         "revisionTopic": "Day 14 GK revision"
       }
     },
