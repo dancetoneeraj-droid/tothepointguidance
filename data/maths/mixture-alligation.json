@@ -231,7 +231,8 @@
     ],
     "correctAnswer": "100 kg",
     "questionHi": "200 kg, 300 kg और 500 kg क्षमता वाले तीन बक्से क्रमशः गेहूँ की तीन किस्मों A1, B1 और C1 से पूरी तरह भरे हैं। तीनों बक्से खाली करके तीनों प्रकार के गेहूँ को अच्छी तरह मिलाया गया और मिश्रण को बक्सों में वापस रखा गया। तीसरे बक्से में A1 प्रकार के गेहूँ की कितनी kg मात्रा होगी?",
-    "solution": "# Solution\n\n**Step 1: Find total quantity of wheat**\n- Box 1 (A1): 200 kg\n- Box 2 (B1): 300 kg\n- Box 3 (C1): 500 kg\n- Total wheat = 200 + 300 + 500 = 1000 kg\n\n**Step 2: Find proportion of A1 wheat in total mixture**\n- Proportion of A1 = 200/1000 = 1/5 = 20%\n\n**Step 3: Calculate A1 wheat in third box**\n- Third box capacity = 500 kg\n- A1 wheat in third box = 20% of 500 kg\n- A1 wheat in third box = (1/5) × 500 = **100 kg**\n\n**Answer Confirmation: 100 kg** ✓"
+    "solution": "# Solution\n\n**Step 1: Find total quantity of wheat**\n- Box 1 (A1): 200 kg\n- Box 2 (B1): 300 kg\n- Box 3 (C1): 500 kg\n- Total wheat = 200 + 300 + 500 = 1000 kg\n\n**Step 2: Find proportion of A1 wheat in total mixture**\n- Proportion of A1 = 200/1000 = 1/5 = 20%\n\n**Step 3: Calculate A1 wheat in third box**\n- Third box capacity = 500 kg\n- A1 wheat in third box = 20% of 500 kg\n- A1 wheat in third box = (1/5) × 500 = **100 kg**\n\n**Answer Confirmation: 100 kg** ✓",
+    "videoUrl": "https://youtu.be/OkUKNFOygx4"
   },
   {
     "id": "maths_mixture_alligation_019",
@@ -1263,7 +1264,7 @@
     "solutionHi": "वीडियो समाधान जल्द ही अपलोड किया जाएगा।"
   },
   {
-          "id": "mixture_alligation_093",
+    "id": "mixture_alligation_093",
     "question": "A solution of volume 40 liters has dye and water in the proportion 2:3. Water is added to the solution to change this proportion to 2:5. If one-fourth of this diluted solution is taken out, how many liters of dye must be added to the remaining solution to bring the proportion back to 2:3?",
     "options": [
       "8",
@@ -1599,7 +1600,7 @@
     "solutionHi": "वीडियो समाधान जल्द ही अपलोड किया जाएगा।"
   },
   {
-                  "id": "mixture_alligation_117",
+    "id": "mixture_alligation_117",
     "question": "Solution A contains 10% acid and solution B contains 30% acid. In what ratio should solution A be mixed with solution B to obtain a mixture containing 25% acid?",
     "options": [
       "1:2",
@@ -1739,7 +1740,7 @@
     "solutionHi": "वीडियो समाधान जल्द ही अपलोड किया जाएगा।"
   },
   {
-        "id": "mixture_alligation_127",
+    "id": "mixture_alligation_127",
     "question": "A vessel contains 20 litres of a mixture of milk and water in the ratio 7:3. How much water should be added so that the ratio of milk and water becomes 7:5?",
     "options": [
       "4 litres",
@@ -1809,7 +1810,7 @@
     "solutionHi": "वीडियो समाधान जल्द ही अपलोड किया जाएगा।"
   },
   {
-          "id": "mixture_alligation_132",
+    "id": "mixture_alligation_132",
     "question": "Ravi has 1458 litres of a mixture of milk and water. The ratio of milk to water in this mixture is 8:1. How much water (in litres) should Ravi add so that the ratio of milk and water becomes 6:5?",
     "options": [
       "918",
@@ -1893,7 +1894,7 @@
     "solutionHi": "वीडियो समाधान जल्द ही अपलोड किया जाएगा।"
   },
   {
-          "id": "mixture_alligation_138",
+    "id": "mixture_alligation_138",
     "question": "In an x litre solution of alcohol and water, the ratio of alcohol and water is 5:7. If 5 litres of alcohol and 11 litres of water are added, the percentage of alcohol in the resulting solution becomes 40%. Find the value of x.",
     "options": [
       "84",
@@ -1949,7 +1950,7 @@
     "solutionHi": "वीडियो समाधान जल्द ही अपलोड किया जाएगा।"
   },
   {
-        "id": "mixture_alligation_142",
+    "id": "mixture_alligation_142",
     "question": "A container contains 40 litres of concentrated syrup. 4 litres of it is taken out and replaced with water. The same process is repeated three more times. At the end, what percentage of the solution in the container is syrup?",
     "options": [
       "67.23%",

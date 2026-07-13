@@ -266,7 +266,7 @@
     "solution": "**Step 1:** Apply the formula (a + b)² = a² + 2ab + b²\n\n(5x + 4y)² = 25x² + 40xy + 16y²\n\n**Step 2:** Apply the formula (a - b)² = a² - 2ab + b²\n\n(5x - 4y)² = 25x² - 40xy + 16y²\n\n**Step 3:** Add both expressions\n\n(5x + 4y)² + (5x - 4y)² = (25x² + 40xy + 16y²) + (25x² - 40xy + 16y²)\n\n**Step 4:** Combine like terms\n\n= 25x² + 25x² + 40xy - 40xy + 16y² + 16y²\n= 50x² + 0 + 32y²\n= 50x² + 32y²\n\n**Answer: 50x² + 32y²** ✓"
   },
   {
-    "id": "maths_ algebra_020",
+    "id": "maths_algebra_020",
     "question": "If x = 8 + √5 and y = 8 - √5, then the value of x² + y² is:",
     "questionHindi": "यदि x = 8 + √5 और y = 8 - √5 हैं, तो x² + y² का मान क्या है?",
     "options": [
@@ -1180,1307 +1180,1306 @@
     "correctAnswer": "433/64",
     "solution": "Video solution will be uploaded soon."
   },
-    {
-      "id": "maths_algebra_088",
-      "question": "If (a + b) = 16 and a³ + b³ = 1456, then what is the value of ab?",
-      "questionHindi": "यदि (a + b) = 16 और a³ + b³ = 1456, तो ab का मान क्या है?",
-      "options": [
-        "50",
-        "48",
-        "64",
-        "55"
-      ],
-      "correctAnswer": "55",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_089",
-      "question": "If 3a + 2b = 27 and 27a³ + 8b³ = 1458, then find 2ab.",
-      "questionHindi": "यदि 3a + 2b = 27 और 27a³ + 8b³ = 1458, तो 2ab का मान ज्ञात कीजिए।",
-      "options": [
-        "72",
-        "70",
-        "77",
-        "75"
-      ],
-      "correctAnswer": "75",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_090",
-      "question": "If a − b = 27 and a³ − b³ = 5427, then the value of ab will be:",
-      "questionHindi": "यदि a − b = 27 और a³ − b³ = 5427 तो ab का मान होगाः",
-      "options": [
-        "-176",
-        "-110",
-        "-152",
-        "-140"
-      ],
-      "correctAnswer": "-176",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_091",
-      "question": "If 64/27 a³ − 125/64 b³ = 3878 and 4/3 a − 5/4 b = 3, then find 10ab?",
-      "questionHindi": "यदि 64/27 a³ − 125/64 b³ = 3878 और 4/3 a − 5/4 b = 3 है, तो 10ab ज्ञात कीजिये ?",
-      "options": [
-        "210",
-        "230",
-        "220",
-        "240"
-      ],
-      "correctAnswer": "240",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_092",
-      "question": "If x + y = 13 and x² + y² = 101, then the value of x³ + y³ will be:",
-      "questionHindi": "यदि x + y = 13 और x² + y² = 101, तो x³ + y³ का मान होगाः",
-      "options": [
-        "767",
-        "949",
-        "793",
-        "871"
-      ],
-      "correctAnswer": "871",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_093",
-      "question": "If a + b = 7/3 and a² + b² = 31/9, then find 27(a³ + b³).",
-      "questionHindi": "यदि a + b = 7/3 और a² + b² = 31/9, तो 27(a³ + b³) का मान ज्ञात कीजिए।",
-      "options": [
-        "117",
-        "154",
-        "126",
-        "168"
-      ],
-      "correctAnswer": "154",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_094",
-      "question": "If a² + b² = 95 and ab = 13, (a > 0, b > 0) then the value of (a³ + b³) is:",
-      "questionHindi": "यदि a² + b² = 95 और ab = 13, (a > 0, b > 0) है तो (a³ + b³) का मान है:",
-      "options": [
-        "861",
-        "968",
-        "1100",
-        "902"
-      ],
-      "correctAnswer": "902",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_095",
-      "question": "If 16x² + y² = 48 and xy = 2, x, y > 0, then the value of 64x³ + y³ is:",
-      "questionHindi": "यदि 16x² + y² = 48 और xy = 2, x, y > 0 है, तो 64x³ + y³ का मान ज्ञात करें।",
-      "options": [
-        "320",
-        "340",
-        "300",
-        "240"
-      ],
-      "correctAnswer": "320",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_096",
-      "question": "If a² + b² = 135 and ab = 7, (a > 0, b > 0) then the value of (a³ − b³) is:",
-      "questionHindi": "यदि a² + b² = 135 और ab = 7, (a > 0, b > 0) है तो (a³ − b³) का मान है:",
-      "options": [
-        "1562",
-        "1408",
-        "1420",
-        "1350"
-      ],
-      "correctAnswer": "1408",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_097",
-      "question": "If x² + y² = 45 and x − y = 5, then what is the value of x³ − y³?",
-      "questionHindi": "यदि x² + y² = 45 और x − y = 5 है, तो x³ − y³ का मान ज्ञात करें।",
-      "options": [
-        "150",
-        "250",
-        "-25",
-        "275"
-      ],
-      "correctAnswer": "250",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_098",
-      "question": "If a³ + b³ = 218 and a + b = 2, then the value of 1/a + 1/b is:",
-      "questionHindi": "यदि a³ + b³ = 218 और a + b = 2 है, तो 1/a + 1/b का मान है:",
-      "options": [
-        "2/35",
-        "-2/35",
-        "1/17",
-        "1/12"
-      ],
-      "correctAnswer": "-2/35",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_099",
-      "question": "If x + y = 12 and xy = 27, x > y, then the value of (x³ − y³) is:",
-      "questionHindi": "यदि x + y = 12 और xy = 27, x > y है, तो (x³ − y³) का मान ज्ञात करें।",
-      "options": [
-        "720",
-        "702",
-        "724",
-        "710"
-      ],
-      "correctAnswer": "702",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_100",
-      "question": "If x + y = 17 and xy = 25, x > y, then the value of (x³ − y³) is:",
-      "questionHindi": "यदि x + y = 17 और xy = 25, x > y है, तो (x³ − y³) का मान क्या है?",
-      "options": [
-        "792√21",
-        "702√21",
-        "724√23",
-        "none"
-      ],
-      "correctAnswer": "792√21",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_101",
-      "question": "If 2x + 3y = 4 and 4x² + 9y² = 64, then what is the value of 8x³ + 27y³?",
-      "questionHindi": "यदि 2x + 3y = 4 और 4x² + 9y² = 64, तो 8x³ + 27y³ का मान क्या है?",
-      "options": [
-        "352",
-        "325",
-        "235",
-        "253"
-      ],
-      "correctAnswer": "352",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_102",
-      "question": "If x² + 4y² = 53 and x − 2y = 5, then what is the value of x³ − 8y³?",
-      "questionHindi": "यदि x² + 4y² = 53 और x − 2y = 5 तो x³ − 8y³ का मान ज्ञात करें।",
-      "options": [
-        "-85",
-        "335",
-        "155",
-        "85"
-      ],
-      "correctAnswer": "335",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_103",
-      "question": "If x + y = 14 and x³ + y³ = 1064, then the value of x² − y² will be (where x > y):",
-      "questionHindi": "यदि x + y = 14 और x³ + y³ = 1064 है, तो x² − y² का मान होगा (जहाँ x > y):",
-      "options": [
-        "84",
-        "112",
-        "70",
-        "78"
-      ],
-      "correctAnswer": "112",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_104",
-      "question": "If a³ − b³ = 602 & a − b = 2, then find the value of (a² + b²).",
-      "questionHindi": "यदि a³ − b³ = 602 & a − b = 2, तो (a² + b²) का मान ज्ञात कीजिए ?",
-      "options": [
-        "156",
-        "240",
-        "202",
-        "260"
-      ],
-      "correctAnswer": "202",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_105",
-      "question": "If a − b = 4 and a³ − b³ = 88, then find the value of a² − b².",
-      "questionHindi": "यदि a − b = 4 और a³ − b³ = 88 है, तो a² − b² का मान क्या होगा?",
-      "options": [
-        "6√6",
-        "9√6",
-        "7√6",
-        "8√6"
-      ],
-      "correctAnswer": "8√6",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_106",
-      "question": "If 2a − b = 3 and 8a³ − b³ = 999, then find the value of 4a² − b².",
-      "questionHindi": "यदि 2a − b = 3 और 8a³ − b³ = 999 है, तो 4a² − b² का मान ज्ञात कीजिए।",
-      "options": [
-        "63",
-        "65",
-        "61",
-        "67"
-      ],
-      "correctAnswer": "63",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_107",
-      "question": "If p + r = 21 and pr = 38, then find the value of p³ − r³.",
-      "questionHindi": "यदि p + r = 21 और pr = 38 है, तो p³ − r³ का मान ज्ञात कीजिए।",
-      "options": [
-        "6113",
-        "6851",
-        "5851",
-        "6013"
-      ],
-      "correctAnswer": "6113",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_108",
-      "question": "If x³ + y³ = 416 and x + y = 8, then find x⁴ + y⁴.",
-      "questionHindi": "यदि x³ + y³ = 416 और x + y = 8 है, तो x⁴ + y⁴ का मान ज्ञात कीजिए।",
-      "options": [
-        "3002",
-        "3204",
-        "3004",
-        "3104"
-      ],
-      "correctAnswer": "3104",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_109",
-      "question": "If a + b = p and ab = q, then (a⁴ + b⁴) is equal to:",
-      "questionHindi": "यदि a + b = p, ab = q, तो (a⁴ + b⁴) का मान ज्ञात कीजिए।",
-      "options": [
-        "p⁴ − 2p²q² + q²",
-        "p⁴ − 4p²q² + 2q²",
-        "p⁴ − 4p²q + q²",
-        "p⁴ − 4p²q + 2q²"
-      ],
-      "correctAnswer": "p⁴ − 4p²q + 2q²,",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_110",
-      "question": "If 8a³ + 27b³ = 168 and 2a + 3b = 4, then find the value of 16a⁴ + 81b⁴?",
-      "questionHindi": "यदि 8a³ + 27b³ = 168 और 2a + 3b = 4 है, तो 16a⁴ + 81b⁴ का मान ज्ञात कीजिए ?",
-      "options": [
-        "26",
-        "30",
-        "28",
-        "32"
-      ],
-      "correctAnswer": "32",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_111",
-      "question": "If x + y = 4 and x³ + y³ = 12, then the value of x⁴ + y⁴ will be:",
-      "questionHindi": "यदि x + y = 4 और x³ + y³ = 12 है, तो x⁴ + y⁴ का मान होगाः",
-      "options": [
-        "146/9",
-        "131/9",
-        "143/9",
-        "127/9"
-      ],
-      "correctAnswer": "146/9",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_112",
-      "question": "If a³ − b³ = 260 and a − b = 8, then a⁴ + b⁴ = ?",
-      "questionHindi": "यदि a³ − b³ = 260 और a − b = 8 है, तो a⁴ + b⁴ का मान ज्ञात कीजिये।",
-      "options": [
-        "1682.5",
-        "1628.5",
-        "1862.5",
-        "1268.5"
-      ],
-      "correctAnswer": "1628.5",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_113",
-      "question": "If 25a² + 4b² = 124 and ab = 3, then find 125a³ − 8b³.",
-      "questionHindi": "यदि 25a² + 4b² = 124 और ab = 3 है, तो 125a³ − 8b³ का मान ज्ञात कीजिए।",
-      "options": [
-        "1322",
-        "1264",
-        "1232",
-        "1412"
-      ],
-      "correctAnswer": "1322",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_114",
-      "question": "If a² + b² = 69 and a⁴ + b⁴ = 3409, then the value of a³ + b³ is:",
-      "questionHindi": "यदि a² + b² = 69 और a⁴ + b⁴ = 3409 है, तो a³ + b³ का मान है:",
-      "options": [
-        "506",
-        "407",
-        "429",
-        "473"
-      ],
-      "correctAnswer": "506",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_115",
-      "question": "If 5x + 9y = 5 and 125x³ + 729y³ = 120, then what is the value of the product of x and y?",
-      "questionHindi": "यदि 5x + 9y = 5 और 125x³ + 729y³ = 120 है, तो x और y का गुणनफल होगा ?",
-      "options": [
-        "1/9",
-        "1/135",
-        "1/45",
-        "1/75"
-      ],
-      "correctAnswer": "1/135",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_116",
-      "question": "If x − y = 4 and x³ − y³ = 316, y > 0, then the value of x⁴ − y⁴ is:",
-      "questionHindi": "यदि x − y = 4 और x³ − y³ = 316, y > 0 है, तो x⁴ − y⁴ का मान ज्ञात करें।",
-      "options": [
-        "2482",
-        "2320",
-        "2500",
-        "2401"
-      ],
-      "correctAnswer": "2482",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_117",
-      "question": "If x³ = 116 + y³ and x = 4 + y, then find (x + y).",
-      "questionHindi": "यदि x³ = 116 + y³ और x = 4 + y है, तो (x + y) ज्ञात कीजिए।",
-      "options": [
-        "15/√6",
-        "10√3/7",
-        "10√3",
-        "10/√3"
-      ],
-      "correctAnswer": "10/✓3",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_118",
-      "question": "If a + b = 2 and ab = 4, then find the value of a⁴ + b⁴ + ab³ + ba³.",
-      "questionHindi": "यदि a + b = 2 तथा ab = 4 है, तो a⁴ + b⁴ + ab³ + ba³ का मान ज्ञात कीजिए।",
-      "options": [
-        "18",
-        "-16",
-        "-32",
-        "24"
-      ],
-      "correctAnswer": "-32",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_119",
-      "question": "If x + y = 3 and x² + y² = 7, then find the value of x⁶ + y⁶.",
-      "questionHindi": "यदि x + y = 3, x² + y² = 7 तो x⁶ + y⁶ का मान ज्ञात कीजिये?",
-      "options": [
-        "322",
-        "342",
-        "321",
-        "329"
-      ],
-      "correctAnswer": "322",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_120",
-      "question": "If 16x² + y² = 65/36 and xy = 1/18, x, y > 0, then what is the value of 64x³ + y³?",
-      "questionHindi": "यदि 16x² + y² = 65/36 और xy = 1/18, x, y > 0 है, तो 64x³ + y³ का मान क्या होगा?",
-      "options": [
-        "19/4",
-        "19/18",
-        "27/8",
-        "19/8"
-      ],
-      "correctAnswer": "19/8",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_121",
-      "question": "If 3x + 2y = 15 & xy = 6, then find 3/2 x³ + 4/9 y³.",
-      "questionHindi": "यदि 3x + 2y = 15 और xy = 6, तो 3/2 x³ + 4/9 y³ ज्ञात कीजिए?",
-      "options": [
-        "98.6",
-        "97.5",
-        "95.8",
-        "92.5"
-      ],
-      "correctAnswer": "92.5",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_122",
-      "question": "If 2x − y = 2 and xy = 3/2, then what is the value of 1/2 (x³ − y³/8)?",
-      "questionHindi": "यदि 2x − y = 2 और xy = 3/2 है, तो 1/2 (x³ − y³/8) का मान ज्ञात करें?",
-      "options": [
-        "13/8",
-        "13/4",
-        "13/9",
-        "13/2"
-      ],
-      "correctAnswer": "13/4",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_123",
-      "question": "If (4a − 3b) = 1, ab = 1/2, where a > 0, b > 0, what is the value of 64a³ + 27b³?",
-      "questionHindi": "यदि (4a − 3b) = 1, ab = 1/2, जहाँ a > 0 और b > 0 है, तो 64a³ + 27b³ का मान क्या है?",
-      "options": [
-        "15",
-        "25",
-        "35",
-        "20"
-      ],
-      "correctAnswer": "19",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_124",
-      "question": "If (x³ + y³)^(2/3) = x² + y², then what is the value of (x² + y²)/xy (where x ≠ 0, y ≠ 0)?",
-      "questionHindi": "यदि (x³ + y³)^(2/3) = x² + y², तो (x² + y²)/xy (जहाँ x ≠ 0, y ≠ 0) का मान क्या होगा?",
-      "options": [
-        "2/3",
-        "3/2",
-        "1",
-        "2"
-      ],
-      "correctAnswer": "2",
-      "solution": "Video solution will be uploaded soon."
-    },
-    {
-      "id": "maths_algebra_125",
-      "question": "If a³ + 3a² + 3a = 63, then the value of a² + 2a is:",
-      "questionHindi": "यदि a³ + 3a² + 3a = 63 तो a² + 2a का मान है-",
-      "options": [
-        "22",
-        "19",
-        "15",
-        "8"
-      ],
-      "correctAnswer": "15",
-      "solution": "Video solution will be uploaded soon."
-    },
-      {
-        "id": "maths_algebra_126",
-        "question": "x, y are two positive numbers such that x > y. If x⁴ + y⁴ = 706 and xy = 15, then the value of 2x + 3y is:",
-        "questionHindi": "x, y दो ऐसी धनात्मक संख्याएँ हैं कि x > y। यदि x⁴ + y⁴ = 706 और xy = 15, तो 2x + 3y का मान ज्ञात करें।",
-        "options": [
-          "19",
-          "20",
-          "18",
-          "15"
-        ],
-        "correctAnswer": "19",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_127",
-        "question": "The sum of two numbers is 59 and their product is 1150. Find the sum of their squares.",
-        "questionHindi": "दो संख्याओं का योग 59 है और उनका गुणनफल 1150 है। उनके वर्गों का योग ज्ञात कीजिए।",
-        "options": [
-          "1176",
-          "1181",
-          "1183",
-          "1178"
-        ],
-        "correctAnswer": "1181",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_128",
-        "question": "If the difference between two numbers is 5 and the difference between their cubes is 1850, then the difference between their squares is:",
-        "questionHindi": "यदि दो संख्याओं का अंतर 5 है और उनके घनों का अंतर 1850 है, तो उनके वर्गों के मध्य कितना अंतर होगा?",
-        "options": [
-          "5√482",
-          "5√483",
-          "5√484",
-          "5√485"
-        ],
-        "correctAnswer": "5√485",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_129",
-        "question": "If a = 26 and b = 22, then the value of (a³ − b³)/(a² − b²) − 3ab/(a + b) is:",
-        "questionHindi": "यदि a = 26 और b = 22 है, तो (a³ − b³)/(a² − b²) − 3ab/(a + b) का मान ज्ञात कीजिए।",
-        "options": [
-          "5/3",
-          "13/11",
-          "1/3",
-          "11/13"
-        ],
-        "correctAnswer": "1/3",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_130",
-        "question": "On simplification, [(x³ − y³) / (x[(x + y)² − 3xy])] ÷ [(y[(x − y)² + 3xy]) / (x³ + y³)] × [((x + y)² − (x − y)²) / (x² − y²)] is equal to:",
-        "questionHindi": "सरलीकरण करने पर, [(x³ − y³) / (x[(x + y)² − 3xy])] ÷ [(y[(x − y)² + 3xy]) / (x³ + y³)] × [((x + y)² − (x − y)²) / (x² − y²)] का मान ज्ञात कीजिए।",
-        "options": [
-          "4",
-          "1",
-          "1/2",
-          "1/4"
-        ],
-        "correctAnswer": "4",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_131",
-        "question": "If P = (x³ + y³)/((x − y)² + 3xy), Q = ((x + y)² − 3xy)/(x³ − y³) and R = ((x + y)² + (x − y)²)/(x² − y²), then what is the value of (P ÷ Q) × R?",
-        "questionHindi": "यदि P = (x³ + y³)/((x − y)² + 3xy), Q = ((x + y)² − 3xy)/(x³ − y³) और R = ((x + y)² + (x − y)²)/(x² − y²) है, तो (P ÷ Q) × R का मान क्या है?",
-        "options": [
-          "2xy",
-          "1",
-          "2(x² + y²)",
-          "4xy"
-        ],
-        "correctAnswer": "2(x² + y²)",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_132",
-        "question": "Simplify the given expression: [((a + x)(ax² − x³)) / (a³ + x³)] × [(a² − ax + x²) / (a²x² + x⁴)] ÷ [((a² − 2ax + x²)(a − x)) / (a⁴ − x⁴)] (where a ≠ x)",
-        "questionHindi": "दिए गए व्यंजक को सरलीकृत कीजिए: [((a + x)(ax² − x³)) / (a³ + x³)] × [(a² − ax + x²) / (a²x² + x⁴)] ÷ [((a² − 2ax + x²)(a − x)) / (a⁴ − x⁴)] (जहाँ a ≠ x)",
-        "options": [
-          "a − x",
-          "a² − x²",
-          "(a − x)/(a + x)",
-          "a⁴ − x⁴"
-        ],
-        "correctAnswer": "a − x",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_133",
-        "question": "If x = 3.5, then what is the value of (x² + 3x + 9)/(x² − 25) ÷ (x³ − 27)/(x² + 3x − 10) × ((x − 4)² − 1)/(x² − 4) = ?",
-        "questionHindi": "यदि x = 3.5 है, तो (x² + 3x + 9)/(x² − 25) ÷ (x³ − 27)/(x² + 3x − 10) × ((x − 4)² − 1)/(x² − 4) का मान कितना होगा?",
-        "options": [
-          "2/9",
-          "2/11",
-          "1/4",
-          "1/5"
-        ],
-        "correctAnswer": "2/11",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_134",
-        "question": "The value of [((m² + n²)(m − n) − (m − n)³)] / (m²n − mn²) is:",
-        "questionHindi": "[((m² + n²)(m − n) − (m − n)³)] / (m²n − mn²) का मान क्या है?",
-        "options": [
-          "m + n",
-          "m − n",
-          "2",
-          "m/n"
-        ],
-        "correctAnswer": "2",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_135",
-        "question": "If x(x − 4) = 2, then x⁶ − 88x³ − 13 = ?",
-        "questionHindi": "यदि x(x − 4) = 2 है, तो x⁶ − 88x³ − 13 = ?",
-        "options": [
-          "-6",
-          "-4",
-          "-5",
-          "-2"
-        ],
-        "correctAnswer": "-5",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_136",
-        "question": "If 2a² − a − 2 = 0, then find 8a⁶ − 13a³ − 3 = ?",
-        "questionHindi": "यदि 2a² − a − 2 = 0 है, तो 8a⁶ − 13a³ − 3 का मान ज्ञात कीजिए ?",
-        "options": [
-          "1",
-          "2",
-          "0",
-          "5"
-        ],
-        "correctAnswer": "5",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_137",
-        "question": "If x² − 2x + 4 = 0, then x⁵ − 2x⁴ + 30 = ?",
-        "questionHindi": "यदि x² − 2x + 4 = 0 है, तो x⁵ − 2x⁴ + 30 का मान क्या होगा?",
-        "options": [
-          "62",
-          "63",
-          "64",
-          "60"
-        ],
-        "correctAnswer": "62",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_138",
-        "question": "If x² + 3x + 9 = 0, then x⁵ + 3x⁴ + 260 = ?",
-        "questionHindi": "यदि x² + 3x + 9 = 0 है, तब x⁵ + 3x⁴ + 260 का मान ज्ञात करें?",
-        "options": [
-          "17",
-          "23",
-          "19",
-          "14"
-        ],
-        "correctAnswer": "17",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_139",
-        "question": "If 1/x + 1/7 = 1/(x + 7), then x⁴⁹ − 343x⁴⁶ + x³ + 17 = ?",
-        "questionHindi": "यदि 1/x + 1/7 = 1/(x + 7) है, तो x⁴⁹ − 343x⁴⁶ + x³ + 17 का मान ज्ञात करें।",
-        "options": [
-          "289",
-          "0",
-          "-326",
-          "360"
-        ],
-        "correctAnswer": "-326",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_140",
-        "question": "If 1/p + 1/q = 1/(p + q), then p³ − q³ = ?",
-        "questionHindi": "यदि 1/p + 1/q = 1/(p + q) है, तो p³ − q³ का मान ज्ञात करें।",
-        "options": [
-          "p − q",
-          "pq",
-          "0",
-          "p³ + q³"
-        ],
-        "correctAnswer": "0",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_141",
-        "question": "If 24√3x³ + 2√2y³ = (2√3x + √2y)(Ax² + Bxy + Cy²), then (2A + √6B − C) is equal to:",
-        "questionHindi": "अगर 24√3x³ + 2√2y³ = (2√3x + √2y)(Ax² + Bxy + Cy²) है, तो (2A + √6B − C) किसके बराबर है:",
-        "options": [
-          "10",
-          "14",
-          "6",
-          "8"
-        ],
-        "correctAnswer": "14",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_142",
-        "question": "If 250√2x³ − 5√5y³ = (5√2x − √5y) × (Ax² + Bxy + Cy²), then the value of (A + C − √10B) is:",
-        "questionHindi": "यदि 250√2x³ − 5√5y³ = (5√2x − √5y) × (Ax² + Bxy + Cy²) है, तो (A + C − √10B) का मान है:",
-        "options": [
-          "10",
-          "5",
-          "55",
-          "2√5"
-        ],
-        "correctAnswer": "55",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_143",
-        "question": "If 8x³ − 27y³ = (Ax + By)(Cx² − Dy² + 6xy), then (A + B + C − D) is equal to:",
-        "questionHindi": "यदि 8x³ − 27y³ = (Ax + By)(Cx² − Dy² + 6xy), तो (A + B + C − D) बराबर है:",
-        "options": [
-          "-12",
-          "12",
-          "9",
-          "15"
-        ],
-        "correctAnswer": "12",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_144",
-        "question": "If 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² − Npq), then the positive value of √(S² + M² + 2N²) is:",
-        "questionHindi": "यदि 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² − Npq) है, तो √(S² + M² + 2N²) का धनात्मक मान क्या है?",
-        "options": [
-          "10",
-          "8",
-          "9",
-          "12"
-        ],
-        "correctAnswer": "10",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_145",
-        "question": "If x⁶ − 512y⁶ = (x² + Ay²)(x⁴ − Bx²y² + Cy⁴), then what is the value of (A + B − C)?",
-        "questionHindi": "यदि x⁶ − 512y⁶ = (x² + Ay²)(x⁴ − Bx²y² + Cy⁴) है, तो (A + B − C) का मान ज्ञात कीजिए।",
-        "options": [
-          "-80",
-          "-72",
-          "72",
-          "48"
-        ],
-        "correctAnswer": "-80",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_146",
-        "question": "If 8(x + y)³ − 27(x − y)³ = (5y − x)(Ax² + By² + Cxy), then what is the value of (A + B − C)?",
-        "questionHindi": "यदि 8(x + y)³ − 27(x − y)³ = (5y − x)(Ax² + By² + Cxy) है, तो (A + B − C) का मान ज्ञात करें।",
-        "options": [
-          "16",
-          "-26",
-          "36",
-          "-16"
-        ],
-        "correctAnswer": "16",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_147",
-        "question": "If (x + y)³ + 27(x − y)³ = (Ax − 2y)(Bx² + Cxy + 13y²), then the value of A − B − C is:",
-        "questionHindi": "यदि (x + y)³ + 27(x − y)³ = (Ax − 2y)(Bx² + Cxy + 13y²) है, तो A − B − C का मान ज्ञात करें।",
-        "options": [
-          "27",
-          "20",
-          "15",
-          "13"
-        ],
-        "correctAnswer": "20",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_148",
-        "question": "Given that (2x + y)³ − (x + 2y)³ = (x − y)[A(x² + y²) + Bxy], the value of (2A − B) is:",
-        "questionHindi": "दिया गया है कि (2x + y)³ − (x + 2y)³ = (x − y)[A(x² + y²) + Bxy] है, तो (2A − B) का मान ज्ञात करें।",
-        "options": [
-          "7",
-          "6",
-          "0",
-          "1"
-        ],
-        "correctAnswer": "1",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_149",
-        "question": "If (x + 2y)³ + (2x − y)³ = (3x + y)[Ax² + By² + Cxy], then the value of (3A − B − C) : (A + B + C) is:",
-        "questionHindi": "यदि (x + 2y)³ + (2x − y)³ = (3x + y)[Ax² + By² + Cxy] है, तो (3A − B − C) : (A + B + C) का मान क्या है?",
-        "options": [
-          "2:5",
-          "1:7",
-          "5:7",
-          "3:4"
-        ],
-        "correctAnswer": "5:7",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_150",
-        "question": "If (Xa³ − Yb³) / (Za − Tb) = (0.36a² + 0.30ab + 0.25b²), then find (X + Y) / (Z − T)?",
-        "questionHindi": "यदि (Xa³ − Yb³) / (Za − Tb) = (0.36a² + 0.30ab + 0.25b²) है, तो (X + Y) / (Z − T) ज्ञात कीजिए?",
-        "options": [
-          "3.40",
-          "3.41",
-          "-3.41",
-          "1.2"
-        ],
-        "correctAnswer": "-3.41",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_151",
-        "question": "3[a − 1/a] + [a − 1/a]³ = ?",
-        "questionHindi": "3[a − 1/a] + [a − 1/a]³ = ?",
-        "options": [
-          "a³ − 1/a³",
-          "a³ + 1/a³",
-          "a² − 1/a³",
-          "a² − 1/a²"
-        ],
-        "correctAnswer": "a³ − 1/a³",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_152",
-        "question": "What is the simplified form of the following expression? (x − 1/y)³ + (x + 1/y)³",
-        "questionHindi": "निम्नलिखित व्यंजक का सरलीकृत रूप क्या है? (x − 1/y)³ + (x + 1/y)³",
-        "options": [
-          "2x(x² − 3/y²)",
-          "-2x(x² + 3/y²)",
-          "2x(x² + 3/y²)",
-          "x(x² − 3/y²)"
-        ],
-        "correctAnswer": "2x(x² + 3/y²)",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_153",
-        "question": "Simplify the given expression: (x − 2/x)³ − (x + 2/x)³",
-        "questionHindi": "दिए गए व्यंजक का मान ज्ञात करें: (x − 2/x)³ − (x + 2/x)³",
-        "options": [
-          "-4(3x + 4/x³)",
-          "-4(3x − 4/x³)",
-          "-4(x + 4/x³)",
-          "2(x − 4/x³)"
-        ],
-        "correctAnswer": "-4(3x + 4/x³)",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_154",
-        "question": "Simplify the given expression: ((x + 3)³ + (x − 3)³) / (x² + 27)",
-        "questionHindi": "दिए गए व्यंजक ((x + 3)³ + (x − 3)³) / (x² + 27) को सरल बनाएं:",
-        "options": [
-          "3x",
-          "x",
-          "4x",
-          "2x"
-        ],
-        "correctAnswer": "2x",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_155",
-        "question": "Find the square root of (3 + √5)³ + (3 − √5)³.",
-        "questionHindi": "(3 + √5)³ + (3 − √5)³ का वर्गमूल ज्ञात कीजिये ?",
-        "options": [
-          "9",
-          "12",
-          "14",
-          "6"
-        ],
-        "correctAnswer": "12",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_156",
-        "question": "If (3x + 2y)³ + (3x − 2y)³ = 3kx(3x² + 4y²), then the value of k will be:",
-        "questionHindi": "यदि (3x + 2y)³ + (3x − 2y)³ = 3kx(3x² + 4y²) है, तो k का मान ज्ञात करें।",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
-        "correctAnswer": "2",
-        "solution": "Video solution will be uploaded soon."
-      },
-      {
-        "id": "maths_algebra_157",
-        "question": "If (2x + 3y)³ − (2x − 3y)³ = 3y[Ax² + By²], then what is the value of (A − B)?",
-        "questionHindi": "यदि (2x + 3y)³ − (2x − 3y)³ = 3y[Ax² + By²] है, तो (A − B) का मान क्या होगा?",
-        "options": [
-          "12",
-          "9",
-          "3",
-          "6"
-        ],
-        "correctAnswer": "12",
-        "solution": "Video solution will be uploaded soon."
-      },
-        {
-          "id": "maths_algebra_158",
-          "question": "If (4x + 2y)³ + (4x − 2y)³ = 16(Ax³ + Bxy²), then what is the value of ½√(A² + B²)?",
-          "questionHindi": "यदि (4x + 2y)³ + (4x − 2y)³ = 16(Ax³ + Bxy²), तो ½√(A² + B²) का मान क्या है?",
-          "options": [
-            "8",
-            "3",
-            "5",
-            "7"
-          ],
-          "correctAnswer": "5",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_159",
-          "question": "If (3x + 2y)³ − (2x + 3y)³ = M(x³ − y³) + Nxy(x − y), then find (M − N)?",
-          "questionHindi": "यदि (3x + 2y)³ − (2x + 3y)³ = M(x³ − y³) + Nxy(x − y), तो (M − N) ज्ञात कीजिये?",
-          "options": [
-            "1",
-            "7",
-            "4",
-            "8"
-          ],
-          "correctAnswer": "8",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_160",
-          "question": "If (x³ + 3x) / (3x² + 1) = 234 / 109, then x² + 5 = ?",
-          "questionHindi": "यदि (x³ + 3x) / (3x² + 1) = 234 / 109 है, तो x² + 5 का मान क्या होगा?",
-          "options": [
-            "31",
-            "41",
-            "38",
-            "46"
-          ],
-          "correctAnswer": "41",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_161",
-          "question": "If (64x³ + 108x) / (144x² + 27) = 1463 / 734, then find (8x − 43)².",
-          "questionHindi": "यदि (64x³ + 108x) / (144x² + 27) = 1463 / 734 है, तो (8x − 43)² का मान ज्ञात कीजिये।",
-          "options": [
-            "64",
-            "81",
-            "100",
-            "121"
-          ],
-          "correctAnswer": "100",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_162",
-          "question": "If x = 2 + √3, then find the value of x⁴ − 8x³ + 16x².",
-          "questionHindi": "यदि x = 2 + √3 है, तो x⁴ − 8x³ + 16x² का मान ज्ञात कीजिए।",
-          "options": [
-            "-1",
-            "1",
-            "0",
-            "2"
-          ],
-          "correctAnswer": "1",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_163",
-          "question": "If x = ∛5 + 2, then the value of x³ − 6x² + 12x − 12 is equal to:",
-          "questionHindi": "यदि x = ∛5 + 2 है, तो x³ − 6x² + 12x − 12 का मान किसके बराबर है?",
-          "options": [
-            "0",
-            "2",
-            "1",
-            "-7"
-          ],
-          "correctAnswer": "1",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_164",
-          "question": "If √x = √3 − √5, then the value of x² − 16x + 6 is:",
-          "questionHindi": "यदि √x = √3 − √5 है, तो x² − 16x + 6 का मान है?",
-          "options": [
-            "0",
-            "4",
-            "-2",
-            "2"
-          ],
-          "correctAnswer": "-2",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_165",
-          "question": "If x = 2 + 2^(2/3) + 2^(1/3), then what is the value of x³ − 6x² + 6x + 18?",
-          "questionHindi": "यदि x = 2 + 2^(2/3) + 2^(1/3) है, तो x³ − 6x² + 6x + 18 का मान क्या है?",
-          "options": [
-            "30",
-            "20",
-            "10",
-            "22"
-          ],
-          "correctAnswer": "22",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_166",
-          "question": "If x = 7 + 7^(2/3) + 7^(1/3), then which of the options below is correct?",
-          "questionHindi": "यदि x = 7 + 7^(2/3) + 7^(1/3) है, तो नीचे दिए गए विकल्पों में से कौन सा विकल्प सही है?",
-          "options": [
-            "x³ + 21x² − 126x − 252 = 0",
-            "x³ + 21x² − 126x + 252 = 0",
-            "x³ − 21x² − 126x + 252 = 0",
-            "x³ − 21x² + 126x − 252 = 0"
-          ],
-          "correctAnswer": "x³ − 21x² + 126x − 252 = 0",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_167",
-          "question": "If x = ∛2 + ∛3 + 1, then find the value of [(x − 1)³ − 5]³ / (x − 1)³.",
-          "questionHindi": "यदि x = ∛2 + ∛3 + 1 है, तो [(x − 1)³ − 5]³ / (x − 1)³ का मान ज्ञात कीजिए।",
-          "options": [
-            "18",
-            "36",
-            "54",
-            "108"
-          ],
-          "correctAnswer": "108",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_168",
-          "question": "If x + y = 1 and xy(xy − 2) = 16, then the value of x⁴ + y⁴ = ?",
-          "questionHindi": "यदि x + y = 1 और xy(xy − 2) = 16 है, तो x⁴ + y⁴ का मान क्या है?",
-          "options": [
-            "31",
-            "27",
-            "39",
-            "33"
-          ],
-          "correctAnswer": "33",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_169",
-          "question": "What term should be added to 169a⁻² + 1.44b² to make it a perfect square?",
-          "questionHindi": "169a⁻² + 1.44b² को पूर्ण वर्ग बनाने के लिए इसमें कौन सा पद जोड़ा जाना चाहिए?",
-          "options": [
-            "3.12 ba⁻¹",
-            "3.22 ba⁻¹",
-            "4.5 a⁻¹b",
-            "4.2 ba⁻¹"
-          ],
-          "correctAnswer": "3.12 ba⁻¹",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_170",
-          "question": "For what value(s) of k will the expression p + ⅑√p + k² be a perfect square?",
-          "questionHindi": "k के किस मान/किन मानों के लिए व्यंजक p + ⅑√p + k² एक पूर्ण वर्ग होगा?",
-          "options": [
-            "k = ±1/8",
-            "k = ±1/9",
-            "k = ±1/21",
-            "k = ±1/18"
-          ],
-          "correctAnswer": "k = ±1/18",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_171",
-          "question": "If √(x² + 3x + 38) + √(x² + 3x − 17) = 11, then find √(x² + 3x + 38) − √(x² + 3x − 17) = ?",
-          "questionHindi": "यदि √(x² + 3x + 38) + √(x² + 3x − 17) = 11 है, तो √(x² + 3x + 38) − √(x² + 3x − 17) का मान ज्ञात कीजिए।",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "7"
-          ],
-          "correctAnswer": "5",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_172",
-          "question": "If √(8x³ + 53x² − 71x + 60) + √(8x³ + 53x² − 71x − 93) = 17, then find √(8x³ + 53x² − 71x + 60) − √(8x³ + 53x² − 71x − 93) = ?",
-          "questionHindi": "यदि √(8x³ + 53x² − 71x + 60) + √(8x³ + 53x² − 71x − 93) = 17 है, तो √(8x³ + 53x² − 71x + 60) − √(8x³ + 53x² − 71x − 93) का मान ज्ञात कीजिए।",
-          "options": [
-            "8",
-            "7",
-            "10",
-            "9"
-          ],
-          "correctAnswer": "9",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_173",
-          "question": "If ∛(t + 40) − ∛(t − 20) = 5, then ∛(t + 40)² + ∛(t − 20)² + ∛((t + 40)(t − 20)) = ?",
-          "questionHindi": "यदि ∛(t + 40) − ∛(t − 20) = 5 है, तो ∛(t + 40)² + ∛(t − 20)² + ∛((t + 40)(t − 20)) का मान क्या होगा?",
-          "options": [
-            "14",
-            "12",
-            "10",
-            "13"
-          ],
-          "correctAnswer": "12",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_174",
-          "question": "If p = 999, then the value of ∛(p(p² + 3p + 3) + 1) is:",
-          "questionHindi": "यदि p = 999 है, तो ∛(p(p² + 3p + 3) + 1) का मान है:",
-          "options": [
-            "1000",
-            "999",
-            "998",
-            "1002"
-          ],
-          "correctAnswer": "1000",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_175",
-          "question": "If p = 101, then the value of ∛(p(p² − 3p + 3) − 1) is:",
-          "questionHindi": "यदि p = 101 है, तो ∛(p(p² − 3p + 3) − 1) का मान है:",
-          "options": [
-            "100",
-            "101",
-            "102",
-            "99"
-          ],
-          "correctAnswer": "100",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_176",
-          "question": "If p = 127, then the value of ∛(p(p² − 6p + 12) − 8) is:",
-          "questionHindi": "यदि p = 127 है, तो ∛(p(p² − 6p + 12) − 8) का मान है:",
-          "options": [
-            "125",
-            "127",
-            "129",
-            "123"
-          ],
-          "correctAnswer": "125",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_177",
-          "question": "Find the value of [m(m² + 3m + 3) + 1] / [m(m + 2) + 1] when m = 87.",
-          "questionHindi": "यदि m = 87 है, तो [m(m² + 3m + 3) + 1] / [m(m + 2) + 1] का मान ज्ञात कीजिए।",
-          "options": [
-            "88",
-            "87",
-            "90",
-            "96"
-          ],
-          "correctAnswer": "88",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_178",
-          "question": "What is the value of 64x³ + 38x²y + 20xy² + y³, when x = 3 and y = -4?",
-          "questionHindi": "x = 3 और y = -4 होने पर 64x³ + 38x²y + 20xy² + y³ का मान ज्ञात कीजिए:",
-          "options": [
-            "1236",
-            "488",
-            "536",
-            "1256"
-          ],
-          "correctAnswer": "488",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_179",
-          "question": "If x + y = 14, then the value of x³ + y³ + 42xy is:",
-          "questionHindi": "यदि x + y = 14 है, तो x³ + y³ + 42xy का मान है:",
-          "options": [
-            "2744",
-            "2644",
-            "2742",
-            "2714"
-          ],
-          "correctAnswer": "2744",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_180",
-          "question": "If y = 2x + 1, then what is the value of (8x³ − y³ + 6xy)?",
-          "questionHindi": "यदि y = 2x + 1 है, तो (8x³ − y³ + 6xy) का मान ज्ञात करें।",
-          "options": [
-            "-15",
-            "1",
-            "-1",
-            "15"
-          ],
-          "correctAnswer": "-1",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_181",
-          "question": "If x = √2 + 1 and y = √2/3, then what is the value of (x − 2y − 1)(x² + 4y² + 2xy − 2x − 2y + 1)?",
-          "questionHindi": "यदि x = √2 + 1 और y = √2/3 है, तो (x − 2y − 1)(x² + 4y² + 2xy − 2x − 2y + 1) का मान क्या है?",
-          "options": [
-            "38√2/27",
-            "4√2/3",
-            "13√2/9",
-            "40√2/27"
-          ],
-          "correctAnswer": "38√2/27",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_182",
-          "question": "If 4x + 3a = 0, then what is the value of (x² + ax + a²) / (x³ − a³) − (x² − ax + a²) / (x³ + a³)?",
-          "questionHindi": "यदि 4x + 3a = 0 है, तो (x² + ax + a²) / (x³ − a³) − (x² − ax + a²) / (x³ + a³) का मान क्या होगा?",
-          "options": [
-            "-32/7a",
-            "7/a",
-            "-4/7a",
-            "24/7a"
-          ],
-          "correctAnswer": "-32/7a",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_183",
-          "question": "If x² = 17x + y, y² = x + 17y and x ≠ y, then find √(x² + y² + 1)?",
-          "questionHindi": "यदि x² = 17x + y, y² = x + 17y और x ≠ y है, तो √(x² + y² + 1) ज्ञात कीजिये?",
-          "options": [
-            "15",
-            "16",
-            "17",
-            "18"
-          ],
-          "correctAnswer": "18",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_184",
-          "question": "If a + b = 1 and a² + b² = 2, then find a⁵ + b⁵ = ?",
-          "questionHindi": "यदि a + b = 1 और a² + b² = 2 है, तो a⁵ + b⁵ ज्ञात कीजिए?",
-          "options": [
-            "19/4",
-            "17/4",
-            "37/8",
-            "7/2"
-          ],
-          "correctAnswer": "19/4",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_185",
-          "question": "If x + y = 19 and xy = 9, then find x√x + y√y?",
-          "questionHindi": "यदि x + y = 19 और xy = 9 है, तो x√x + y√y ज्ञात कीजिये?",
-          "options": [
-            "80",
-            "100",
-            "125",
-            "110"
-          ],
-          "correctAnswer": "110",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_186",
-          "question": "Let a and b be two positive real numbers such that a√a + b√b = 32 and a√b + b√a = 31. What is the value of 5(a + b)/7?",
-          "questionHindi": "मान लीजिए a और b दो धनात्मक वास्तविक संख्याएँ हैं जैसे कि a√a + b√b = 32 और a√b + b√a = 31 है, तो 5(a + b)/7 का मान क्या है?",
-          "options": [
-            "5",
-            "7",
-            "9",
-            "15"
-          ],
-          "correctAnswer": "15",
-          "solution": "Video solution will be uploaded soon."
-        },
-        {
-          "id": "maths_algebra_187",
-          "question": "What is the value of the following expression: 2² · (x^a / x^b)^(a + b) × 3² · (x^b / x^c)^(b + c) × 6⁻² · (x^c / x^a)^(a + c)?",
-          "questionHindi": "निम्नलिखित व्यंजक का मान क्या होगा: 2² · (x^a / x^b)^(a + b) × 3² · (x^b / x^c)^(b + c) × 6⁻² · (x^c / x^a)^(a + c)?",
-          "options": [
-            "0",
-            "1",
-            "x^(a+b+c)",
-            "x^(a² + b² + c²)"
-          ],
-          "correctAnswer": "1",
-          "solution": "Video solution will be uploaded soon."
-        },
-  
+  {
+    "id": "maths_algebra_088",
+    "question": "If (a + b) = 16 and a³ + b³ = 1456, then what is the value of ab?",
+    "questionHindi": "यदि (a + b) = 16 और a³ + b³ = 1456, तो ab का मान क्या है?",
+    "options": [
+      "50",
+      "48",
+      "64",
+      "55"
+    ],
+    "correctAnswer": "55",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_089",
+    "question": "If 3a + 2b = 27 and 27a³ + 8b³ = 1458, then find 2ab.",
+    "questionHindi": "यदि 3a + 2b = 27 और 27a³ + 8b³ = 1458, तो 2ab का मान ज्ञात कीजिए।",
+    "options": [
+      "72",
+      "70",
+      "77",
+      "75"
+    ],
+    "correctAnswer": "75",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_090",
+    "question": "If a − b = 27 and a³ − b³ = 5427, then the value of ab will be:",
+    "questionHindi": "यदि a − b = 27 और a³ − b³ = 5427 तो ab का मान होगाः",
+    "options": [
+      "-176",
+      "-110",
+      "-152",
+      "-140"
+    ],
+    "correctAnswer": "-176",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_091",
+    "question": "If 64/27 a³ − 125/64 b³ = 3878 and 4/3 a − 5/4 b = 3, then find 10ab?",
+    "questionHindi": "यदि 64/27 a³ − 125/64 b³ = 3878 और 4/3 a − 5/4 b = 3 है, तो 10ab ज्ञात कीजिये ?",
+    "options": [
+      "210",
+      "230",
+      "220",
+      "240"
+    ],
+    "correctAnswer": "240",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_092",
+    "question": "If x + y = 13 and x² + y² = 101, then the value of x³ + y³ will be:",
+    "questionHindi": "यदि x + y = 13 और x² + y² = 101, तो x³ + y³ का मान होगाः",
+    "options": [
+      "767",
+      "949",
+      "793",
+      "871"
+    ],
+    "correctAnswer": "871",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_093",
+    "question": "If a + b = 7/3 and a² + b² = 31/9, then find 27(a³ + b³).",
+    "questionHindi": "यदि a + b = 7/3 और a² + b² = 31/9, तो 27(a³ + b³) का मान ज्ञात कीजिए।",
+    "options": [
+      "117",
+      "154",
+      "126",
+      "168"
+    ],
+    "correctAnswer": "154",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_094",
+    "question": "If a² + b² = 95 and ab = 13, (a > 0, b > 0) then the value of (a³ + b³) is:",
+    "questionHindi": "यदि a² + b² = 95 और ab = 13, (a > 0, b > 0) है तो (a³ + b³) का मान है:",
+    "options": [
+      "861",
+      "968",
+      "1100",
+      "902"
+    ],
+    "correctAnswer": "902",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_095",
+    "question": "If 16x² + y² = 48 and xy = 2, x, y > 0, then the value of 64x³ + y³ is:",
+    "questionHindi": "यदि 16x² + y² = 48 और xy = 2, x, y > 0 है, तो 64x³ + y³ का मान ज्ञात करें।",
+    "options": [
+      "320",
+      "340",
+      "300",
+      "240"
+    ],
+    "correctAnswer": "320",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_096",
+    "question": "If a² + b² = 135 and ab = 7, (a > 0, b > 0) then the value of (a³ − b³) is:",
+    "questionHindi": "यदि a² + b² = 135 और ab = 7, (a > 0, b > 0) है तो (a³ − b³) का मान है:",
+    "options": [
+      "1562",
+      "1408",
+      "1420",
+      "1350"
+    ],
+    "correctAnswer": "1408",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_097",
+    "question": "If x² + y² = 45 and x − y = 5, then what is the value of x³ − y³?",
+    "questionHindi": "यदि x² + y² = 45 और x − y = 5 है, तो x³ − y³ का मान ज्ञात करें।",
+    "options": [
+      "150",
+      "250",
+      "-25",
+      "275"
+    ],
+    "correctAnswer": "250",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_098",
+    "question": "If a³ + b³ = 218 and a + b = 2, then the value of 1/a + 1/b is:",
+    "questionHindi": "यदि a³ + b³ = 218 और a + b = 2 है, तो 1/a + 1/b का मान है:",
+    "options": [
+      "2/35",
+      "-2/35",
+      "1/17",
+      "1/12"
+    ],
+    "correctAnswer": "-2/35",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_099",
+    "question": "If x + y = 12 and xy = 27, x > y, then the value of (x³ − y³) is:",
+    "questionHindi": "यदि x + y = 12 और xy = 27, x > y है, तो (x³ − y³) का मान ज्ञात करें।",
+    "options": [
+      "720",
+      "702",
+      "724",
+      "710"
+    ],
+    "correctAnswer": "702",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_100",
+    "question": "If x + y = 17 and xy = 25, x > y, then the value of (x³ − y³) is:",
+    "questionHindi": "यदि x + y = 17 और xy = 25, x > y है, तो (x³ − y³) का मान क्या है?",
+    "options": [
+      "792√21",
+      "702√21",
+      "724√23",
+      "none"
+    ],
+    "correctAnswer": "792√21",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_101",
+    "question": "If 2x + 3y = 4 and 4x² + 9y² = 64, then what is the value of 8x³ + 27y³?",
+    "questionHindi": "यदि 2x + 3y = 4 और 4x² + 9y² = 64, तो 8x³ + 27y³ का मान क्या है?",
+    "options": [
+      "352",
+      "325",
+      "235",
+      "253"
+    ],
+    "correctAnswer": "352",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_102",
+    "question": "If x² + 4y² = 53 and x − 2y = 5, then what is the value of x³ − 8y³?",
+    "questionHindi": "यदि x² + 4y² = 53 और x − 2y = 5 तो x³ − 8y³ का मान ज्ञात करें।",
+    "options": [
+      "-85",
+      "335",
+      "155",
+      "85"
+    ],
+    "correctAnswer": "335",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_103",
+    "question": "If x + y = 14 and x³ + y³ = 1064, then the value of x² − y² will be (where x > y):",
+    "questionHindi": "यदि x + y = 14 और x³ + y³ = 1064 है, तो x² − y² का मान होगा (जहाँ x > y):",
+    "options": [
+      "84",
+      "112",
+      "70",
+      "78"
+    ],
+    "correctAnswer": "112",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_104",
+    "question": "If a³ − b³ = 602 & a − b = 2, then find the value of (a² + b²).",
+    "questionHindi": "यदि a³ − b³ = 602 & a − b = 2, तो (a² + b²) का मान ज्ञात कीजिए ?",
+    "options": [
+      "156",
+      "240",
+      "202",
+      "260"
+    ],
+    "correctAnswer": "202",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_105",
+    "question": "If a − b = 4 and a³ − b³ = 88, then find the value of a² − b².",
+    "questionHindi": "यदि a − b = 4 और a³ − b³ = 88 है, तो a² − b² का मान क्या होगा?",
+    "options": [
+      "6√6",
+      "9√6",
+      "7√6",
+      "8√6"
+    ],
+    "correctAnswer": "8√6",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_106",
+    "question": "If 2a − b = 3 and 8a³ − b³ = 999, then find the value of 4a² − b².",
+    "questionHindi": "यदि 2a − b = 3 और 8a³ − b³ = 999 है, तो 4a² − b² का मान ज्ञात कीजिए।",
+    "options": [
+      "63",
+      "65",
+      "61",
+      "67"
+    ],
+    "correctAnswer": "63",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_107",
+    "question": "If p + r = 21 and pr = 38, then find the value of p³ − r³.",
+    "questionHindi": "यदि p + r = 21 और pr = 38 है, तो p³ − r³ का मान ज्ञात कीजिए।",
+    "options": [
+      "6113",
+      "6851",
+      "5851",
+      "6013"
+    ],
+    "correctAnswer": "6113",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_108",
+    "question": "If x³ + y³ = 416 and x + y = 8, then find x⁴ + y⁴.",
+    "questionHindi": "यदि x³ + y³ = 416 और x + y = 8 है, तो x⁴ + y⁴ का मान ज्ञात कीजिए।",
+    "options": [
+      "3002",
+      "3204",
+      "3004",
+      "3104"
+    ],
+    "correctAnswer": "3104",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_109",
+    "question": "If a + b = p and ab = q, then (a⁴ + b⁴) is equal to:",
+    "questionHindi": "यदि a + b = p, ab = q, तो (a⁴ + b⁴) का मान ज्ञात कीजिए।",
+    "options": [
+      "p⁴ − 2p²q² + q²",
+      "p⁴ − 4p²q² + 2q²",
+      "p⁴ − 4p²q + q²",
+      "p⁴ − 4p²q + 2q²"
+    ],
+    "correctAnswer": "p⁴ − 4p²q + 2q²,",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_110",
+    "question": "If 8a³ + 27b³ = 168 and 2a + 3b = 4, then find the value of 16a⁴ + 81b⁴?",
+    "questionHindi": "यदि 8a³ + 27b³ = 168 और 2a + 3b = 4 है, तो 16a⁴ + 81b⁴ का मान ज्ञात कीजिए ?",
+    "options": [
+      "26",
+      "30",
+      "28",
+      "32"
+    ],
+    "correctAnswer": "32",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_111",
+    "question": "If x + y = 4 and x³ + y³ = 12, then the value of x⁴ + y⁴ will be:",
+    "questionHindi": "यदि x + y = 4 और x³ + y³ = 12 है, तो x⁴ + y⁴ का मान होगाः",
+    "options": [
+      "146/9",
+      "131/9",
+      "143/9",
+      "127/9"
+    ],
+    "correctAnswer": "146/9",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_112",
+    "question": "If a³ − b³ = 260 and a − b = 8, then a⁴ + b⁴ = ?",
+    "questionHindi": "यदि a³ − b³ = 260 और a − b = 8 है, तो a⁴ + b⁴ का मान ज्ञात कीजिये।",
+    "options": [
+      "1682.5",
+      "1628.5",
+      "1862.5",
+      "1268.5"
+    ],
+    "correctAnswer": "1628.5",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_113",
+    "question": "If 25a² + 4b² = 124 and ab = 3, then find 125a³ − 8b³.",
+    "questionHindi": "यदि 25a² + 4b² = 124 और ab = 3 है, तो 125a³ − 8b³ का मान ज्ञात कीजिए।",
+    "options": [
+      "1322",
+      "1264",
+      "1232",
+      "1412"
+    ],
+    "correctAnswer": "1322",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_114",
+    "question": "If a² + b² = 69 and a⁴ + b⁴ = 3409, then the value of a³ + b³ is:",
+    "questionHindi": "यदि a² + b² = 69 और a⁴ + b⁴ = 3409 है, तो a³ + b³ का मान है:",
+    "options": [
+      "506",
+      "407",
+      "429",
+      "473"
+    ],
+    "correctAnswer": "506",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_115",
+    "question": "If 5x + 9y = 5 and 125x³ + 729y³ = 120, then what is the value of the product of x and y?",
+    "questionHindi": "यदि 5x + 9y = 5 और 125x³ + 729y³ = 120 है, तो x और y का गुणनफल होगा ?",
+    "options": [
+      "1/9",
+      "1/135",
+      "1/45",
+      "1/75"
+    ],
+    "correctAnswer": "1/135",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_116",
+    "question": "If x − y = 4 and x³ − y³ = 316, y > 0, then the value of x⁴ − y⁴ is:",
+    "questionHindi": "यदि x − y = 4 और x³ − y³ = 316, y > 0 है, तो x⁴ − y⁴ का मान ज्ञात करें।",
+    "options": [
+      "2482",
+      "2320",
+      "2500",
+      "2401"
+    ],
+    "correctAnswer": "2482",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_117",
+    "question": "If x³ = 116 + y³ and x = 4 + y, then find (x + y).",
+    "questionHindi": "यदि x³ = 116 + y³ और x = 4 + y है, तो (x + y) ज्ञात कीजिए।",
+    "options": [
+      "15/√6",
+      "10√3/7",
+      "10√3",
+      "10/√3"
+    ],
+    "correctAnswer": "10/✓3",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_118",
+    "question": "If a + b = 2 and ab = 4, then find the value of a⁴ + b⁴ + ab³ + ba³.",
+    "questionHindi": "यदि a + b = 2 तथा ab = 4 है, तो a⁴ + b⁴ + ab³ + ba³ का मान ज्ञात कीजिए।",
+    "options": [
+      "18",
+      "-16",
+      "-32",
+      "24"
+    ],
+    "correctAnswer": "-32",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_119",
+    "question": "If x + y = 3 and x² + y² = 7, then find the value of x⁶ + y⁶.",
+    "questionHindi": "यदि x + y = 3, x² + y² = 7 तो x⁶ + y⁶ का मान ज्ञात कीजिये?",
+    "options": [
+      "322",
+      "342",
+      "321",
+      "329"
+    ],
+    "correctAnswer": "322",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_120",
+    "question": "If 16x² + y² = 65/36 and xy = 1/18, x, y > 0, then what is the value of 64x³ + y³?",
+    "questionHindi": "यदि 16x² + y² = 65/36 और xy = 1/18, x, y > 0 है, तो 64x³ + y³ का मान क्या होगा?",
+    "options": [
+      "19/4",
+      "19/18",
+      "27/8",
+      "19/8"
+    ],
+    "correctAnswer": "19/8",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_121",
+    "question": "If 3x + 2y = 15 & xy = 6, then find 3/2 x³ + 4/9 y³.",
+    "questionHindi": "यदि 3x + 2y = 15 और xy = 6, तो 3/2 x³ + 4/9 y³ ज्ञात कीजिए?",
+    "options": [
+      "98.6",
+      "97.5",
+      "95.8",
+      "92.5"
+    ],
+    "correctAnswer": "92.5",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_122",
+    "question": "If 2x − y = 2 and xy = 3/2, then what is the value of 1/2 (x³ − y³/8)?",
+    "questionHindi": "यदि 2x − y = 2 और xy = 3/2 है, तो 1/2 (x³ − y³/8) का मान ज्ञात करें?",
+    "options": [
+      "13/8",
+      "13/4",
+      "13/9",
+      "13/2"
+    ],
+    "correctAnswer": "13/4",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_123",
+    "question": "If (4a − 3b) = 1, ab = 1/2, where a > 0, b > 0, what is the value of 64a³ + 27b³?",
+    "questionHindi": "यदि (4a − 3b) = 1, ab = 1/2, जहाँ a > 0 और b > 0 है, तो 64a³ + 27b³ का मान क्या है?",
+    "options": [
+      "15",
+      "25",
+      "35",
+      "20"
+    ],
+    "correctAnswer": "19",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_124",
+    "question": "If (x³ + y³)^(2/3) = x² + y², then what is the value of (x² + y²)/xy (where x ≠ 0, y ≠ 0)?",
+    "questionHindi": "यदि (x³ + y³)^(2/3) = x² + y², तो (x² + y²)/xy (जहाँ x ≠ 0, y ≠ 0) का मान क्या होगा?",
+    "options": [
+      "2/3",
+      "3/2",
+      "1",
+      "2"
+    ],
+    "correctAnswer": "2",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_125",
+    "question": "If a³ + 3a² + 3a = 63, then the value of a² + 2a is:",
+    "questionHindi": "यदि a³ + 3a² + 3a = 63 तो a² + 2a का मान है-",
+    "options": [
+      "22",
+      "19",
+      "15",
+      "8"
+    ],
+    "correctAnswer": "15",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_126",
+    "question": "x, y are two positive numbers such that x > y. If x⁴ + y⁴ = 706 and xy = 15, then the value of 2x + 3y is:",
+    "questionHindi": "x, y दो ऐसी धनात्मक संख्याएँ हैं कि x > y। यदि x⁴ + y⁴ = 706 और xy = 15, तो 2x + 3y का मान ज्ञात करें।",
+    "options": [
+      "19",
+      "20",
+      "18",
+      "15"
+    ],
+    "correctAnswer": "19",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_127",
+    "question": "The sum of two numbers is 59 and their product is 1150. Find the sum of their squares.",
+    "questionHindi": "दो संख्याओं का योग 59 है और उनका गुणनफल 1150 है। उनके वर्गों का योग ज्ञात कीजिए।",
+    "options": [
+      "1176",
+      "1181",
+      "1183",
+      "1178"
+    ],
+    "correctAnswer": "1181",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_128",
+    "question": "If the difference between two numbers is 5 and the difference between their cubes is 1850, then the difference between their squares is:",
+    "questionHindi": "यदि दो संख्याओं का अंतर 5 है और उनके घनों का अंतर 1850 है, तो उनके वर्गों के मध्य कितना अंतर होगा?",
+    "options": [
+      "5√482",
+      "5√483",
+      "5√484",
+      "5√485"
+    ],
+    "correctAnswer": "5√485",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_129",
+    "question": "If a = 26 and b = 22, then the value of (a³ − b³)/(a² − b²) − 3ab/(a + b) is:",
+    "questionHindi": "यदि a = 26 और b = 22 है, तो (a³ − b³)/(a² − b²) − 3ab/(a + b) का मान ज्ञात कीजिए।",
+    "options": [
+      "5/3",
+      "13/11",
+      "1/3",
+      "11/13"
+    ],
+    "correctAnswer": "1/3",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_130",
+    "question": "On simplification, [(x³ − y³) / (x[(x + y)² − 3xy])] ÷ [(y[(x − y)² + 3xy]) / (x³ + y³)] × [((x + y)² − (x − y)²) / (x² − y²)] is equal to:",
+    "questionHindi": "सरलीकरण करने पर, [(x³ − y³) / (x[(x + y)² − 3xy])] ÷ [(y[(x − y)² + 3xy]) / (x³ + y³)] × [((x + y)² − (x − y)²) / (x² − y²)] का मान ज्ञात कीजिए।",
+    "options": [
+      "4",
+      "1",
+      "1/2",
+      "1/4"
+    ],
+    "correctAnswer": "4",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_131",
+    "question": "If P = (x³ + y³)/((x − y)² + 3xy), Q = ((x + y)² − 3xy)/(x³ − y³) and R = ((x + y)² + (x − y)²)/(x² − y²), then what is the value of (P ÷ Q) × R?",
+    "questionHindi": "यदि P = (x³ + y³)/((x − y)² + 3xy), Q = ((x + y)² − 3xy)/(x³ − y³) और R = ((x + y)² + (x − y)²)/(x² − y²) है, तो (P ÷ Q) × R का मान क्या है?",
+    "options": [
+      "2xy",
+      "1",
+      "2(x² + y²)",
+      "4xy"
+    ],
+    "correctAnswer": "2(x² + y²)",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_132",
+    "question": "Simplify the given expression: [((a + x)(ax² − x³)) / (a³ + x³)] × [(a² − ax + x²) / (a²x² + x⁴)] ÷ [((a² − 2ax + x²)(a − x)) / (a⁴ − x⁴)] (where a ≠ x)",
+    "questionHindi": "दिए गए व्यंजक को सरलीकृत कीजिए: [((a + x)(ax² − x³)) / (a³ + x³)] × [(a² − ax + x²) / (a²x² + x⁴)] ÷ [((a² − 2ax + x²)(a − x)) / (a⁴ − x⁴)] (जहाँ a ≠ x)",
+    "options": [
+      "a − x",
+      "a² − x²",
+      "(a − x)/(a + x)",
+      "a⁴ − x⁴"
+    ],
+    "correctAnswer": "a − x",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_133",
+    "question": "If x = 3.5, then what is the value of (x² + 3x + 9)/(x² − 25) ÷ (x³ − 27)/(x² + 3x − 10) × ((x − 4)² − 1)/(x² − 4) = ?",
+    "questionHindi": "यदि x = 3.5 है, तो (x² + 3x + 9)/(x² − 25) ÷ (x³ − 27)/(x² + 3x − 10) × ((x − 4)² − 1)/(x² − 4) का मान कितना होगा?",
+    "options": [
+      "2/9",
+      "2/11",
+      "1/4",
+      "1/5"
+    ],
+    "correctAnswer": "2/11",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_134",
+    "question": "The value of [((m² + n²)(m − n) − (m − n)³)] / (m²n − mn²) is:",
+    "questionHindi": "[((m² + n²)(m − n) − (m − n)³)] / (m²n − mn²) का मान क्या है?",
+    "options": [
+      "m + n",
+      "m − n",
+      "2",
+      "m/n"
+    ],
+    "correctAnswer": "2",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_135",
+    "question": "If x(x − 4) = 2, then x⁶ − 88x³ − 13 = ?",
+    "questionHindi": "यदि x(x − 4) = 2 है, तो x⁶ − 88x³ − 13 = ?",
+    "options": [
+      "-6",
+      "-4",
+      "-5",
+      "-2"
+    ],
+    "correctAnswer": "-5",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_136",
+    "question": "If 2a² − a − 2 = 0, then find 8a⁶ − 13a³ − 3 = ?",
+    "questionHindi": "यदि 2a² − a − 2 = 0 है, तो 8a⁶ − 13a³ − 3 का मान ज्ञात कीजिए ?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "5"
+    ],
+    "correctAnswer": "5",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_137",
+    "question": "If x² − 2x + 4 = 0, then x⁵ − 2x⁴ + 30 = ?",
+    "questionHindi": "यदि x² − 2x + 4 = 0 है, तो x⁵ − 2x⁴ + 30 का मान क्या होगा?",
+    "options": [
+      "62",
+      "63",
+      "64",
+      "60"
+    ],
+    "correctAnswer": "62",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_138",
+    "question": "If x² + 3x + 9 = 0, then x⁵ + 3x⁴ + 260 = ?",
+    "questionHindi": "यदि x² + 3x + 9 = 0 है, तब x⁵ + 3x⁴ + 260 का मान ज्ञात करें?",
+    "options": [
+      "17",
+      "23",
+      "19",
+      "14"
+    ],
+    "correctAnswer": "17",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_139",
+    "question": "If 1/x + 1/7 = 1/(x + 7), then x⁴⁹ − 343x⁴⁶ + x³ + 17 = ?",
+    "questionHindi": "यदि 1/x + 1/7 = 1/(x + 7) है, तो x⁴⁹ − 343x⁴⁶ + x³ + 17 का मान ज्ञात करें।",
+    "options": [
+      "289",
+      "0",
+      "-326",
+      "360"
+    ],
+    "correctAnswer": "-326",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_140",
+    "question": "If 1/p + 1/q = 1/(p + q), then p³ − q³ = ?",
+    "questionHindi": "यदि 1/p + 1/q = 1/(p + q) है, तो p³ − q³ का मान ज्ञात करें।",
+    "options": [
+      "p − q",
+      "pq",
+      "0",
+      "p³ + q³"
+    ],
+    "correctAnswer": "0",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_141",
+    "question": "If 24√3x³ + 2√2y³ = (2√3x + √2y)(Ax² + Bxy + Cy²), then (2A + √6B − C) is equal to:",
+    "questionHindi": "अगर 24√3x³ + 2√2y³ = (2√3x + √2y)(Ax² + Bxy + Cy²) है, तो (2A + √6B − C) किसके बराबर है:",
+    "options": [
+      "10",
+      "14",
+      "6",
+      "8"
+    ],
+    "correctAnswer": "14",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_142",
+    "question": "If 250√2x³ − 5√5y³ = (5√2x − √5y) × (Ax² + Bxy + Cy²), then the value of (A + C − √10B) is:",
+    "questionHindi": "यदि 250√2x³ − 5√5y³ = (5√2x − √5y) × (Ax² + Bxy + Cy²) है, तो (A + C − √10B) का मान है:",
+    "options": [
+      "10",
+      "5",
+      "55",
+      "2√5"
+    ],
+    "correctAnswer": "55",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_143",
+    "question": "If 8x³ − 27y³ = (Ax + By)(Cx² − Dy² + 6xy), then (A + B + C − D) is equal to:",
+    "questionHindi": "यदि 8x³ − 27y³ = (Ax + By)(Cx² − Dy² + 6xy), तो (A + B + C − D) बराबर है:",
+    "options": [
+      "-12",
+      "12",
+      "9",
+      "15"
+    ],
+    "correctAnswer": "12",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_144",
+    "question": "If 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² − Npq), then the positive value of √(S² + M² + 2N²) is:",
+    "questionHindi": "यदि 6√6p³ + 2√2q³ = (√6p + √2q)(Sp² + Mq² − Npq) है, तो √(S² + M² + 2N²) का धनात्मक मान क्या है?",
+    "options": [
+      "10",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "10",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_145",
+    "question": "If x⁶ − 512y⁶ = (x² + Ay²)(x⁴ − Bx²y² + Cy⁴), then what is the value of (A + B − C)?",
+    "questionHindi": "यदि x⁶ − 512y⁶ = (x² + Ay²)(x⁴ − Bx²y² + Cy⁴) है, तो (A + B − C) का मान ज्ञात कीजिए।",
+    "options": [
+      "-80",
+      "-72",
+      "72",
+      "48"
+    ],
+    "correctAnswer": "-80",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_146",
+    "question": "If 8(x + y)³ − 27(x − y)³ = (5y − x)(Ax² + By² + Cxy), then what is the value of (A + B − C)?",
+    "questionHindi": "यदि 8(x + y)³ − 27(x − y)³ = (5y − x)(Ax² + By² + Cxy) है, तो (A + B − C) का मान ज्ञात करें।",
+    "options": [
+      "16",
+      "-26",
+      "36",
+      "-16"
+    ],
+    "correctAnswer": "16",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_147",
+    "question": "If (x + y)³ + 27(x − y)³ = (Ax − 2y)(Bx² + Cxy + 13y²), then the value of A − B − C is:",
+    "questionHindi": "यदि (x + y)³ + 27(x − y)³ = (Ax − 2y)(Bx² + Cxy + 13y²) है, तो A − B − C का मान ज्ञात करें।",
+    "options": [
+      "27",
+      "20",
+      "15",
+      "13"
+    ],
+    "correctAnswer": "20",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_148",
+    "question": "Given that (2x + y)³ − (x + 2y)³ = (x − y)[A(x² + y²) + Bxy], the value of (2A − B) is:",
+    "questionHindi": "दिया गया है कि (2x + y)³ − (x + 2y)³ = (x − y)[A(x² + y²) + Bxy] है, तो (2A − B) का मान ज्ञात करें।",
+    "options": [
+      "7",
+      "6",
+      "0",
+      "1"
+    ],
+    "correctAnswer": "1",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_149",
+    "question": "If (x + 2y)³ + (2x − y)³ = (3x + y)[Ax² + By² + Cxy], then the value of (3A − B − C) : (A + B + C) is:",
+    "questionHindi": "यदि (x + 2y)³ + (2x − y)³ = (3x + y)[Ax² + By² + Cxy] है, तो (3A − B − C) : (A + B + C) का मान क्या है?",
+    "options": [
+      "2:5",
+      "1:7",
+      "5:7",
+      "3:4"
+    ],
+    "correctAnswer": "5:7",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_150",
+    "question": "If (Xa³ − Yb³) / (Za − Tb) = (0.36a² + 0.30ab + 0.25b²), then find (X + Y) / (Z − T)?",
+    "questionHindi": "यदि (Xa³ − Yb³) / (Za − Tb) = (0.36a² + 0.30ab + 0.25b²) है, तो (X + Y) / (Z − T) ज्ञात कीजिए?",
+    "options": [
+      "3.40",
+      "3.41",
+      "-3.41",
+      "1.2"
+    ],
+    "correctAnswer": "-3.41",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_151",
+    "question": "3[a − 1/a] + [a − 1/a]³ = ?",
+    "questionHindi": "3[a − 1/a] + [a − 1/a]³ = ?",
+    "options": [
+      "a³ − 1/a³",
+      "a³ + 1/a³",
+      "a² − 1/a³",
+      "a² − 1/a²"
+    ],
+    "correctAnswer": "a³ − 1/a³",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_152",
+    "question": "What is the simplified form of the following expression? (x − 1/y)³ + (x + 1/y)³",
+    "questionHindi": "निम्नलिखित व्यंजक का सरलीकृत रूप क्या है? (x − 1/y)³ + (x + 1/y)³",
+    "options": [
+      "2x(x² − 3/y²)",
+      "-2x(x² + 3/y²)",
+      "2x(x² + 3/y²)",
+      "x(x² − 3/y²)"
+    ],
+    "correctAnswer": "2x(x² + 3/y²)",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_153",
+    "question": "Simplify the given expression: (x − 2/x)³ − (x + 2/x)³",
+    "questionHindi": "दिए गए व्यंजक का मान ज्ञात करें: (x − 2/x)³ − (x + 2/x)³",
+    "options": [
+      "-4(3x + 4/x³)",
+      "-4(3x − 4/x³)",
+      "-4(x + 4/x³)",
+      "2(x − 4/x³)"
+    ],
+    "correctAnswer": "-4(3x + 4/x³)",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_154",
+    "question": "Simplify the given expression: ((x + 3)³ + (x − 3)³) / (x² + 27)",
+    "questionHindi": "दिए गए व्यंजक ((x + 3)³ + (x − 3)³) / (x² + 27) को सरल बनाएं:",
+    "options": [
+      "3x",
+      "x",
+      "4x",
+      "2x"
+    ],
+    "correctAnswer": "2x",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_155",
+    "question": "Find the square root of (3 + √5)³ + (3 − √5)³.",
+    "questionHindi": "(3 + √5)³ + (3 − √5)³ का वर्गमूल ज्ञात कीजिये ?",
+    "options": [
+      "9",
+      "12",
+      "14",
+      "6"
+    ],
+    "correctAnswer": "12",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_156",
+    "question": "If (3x + 2y)³ + (3x − 2y)³ = 3kx(3x² + 4y²), then the value of k will be:",
+    "questionHindi": "यदि (3x + 2y)³ + (3x − 2y)³ = 3kx(3x² + 4y²) है, तो k का मान ज्ञात करें।",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_157",
+    "question": "If (2x + 3y)³ − (2x − 3y)³ = 3y[Ax² + By²], then what is the value of (A − B)?",
+    "questionHindi": "यदि (2x + 3y)³ − (2x − 3y)³ = 3y[Ax² + By²] है, तो (A − B) का मान क्या होगा?",
+    "options": [
+      "12",
+      "9",
+      "3",
+      "6"
+    ],
+    "correctAnswer": "12",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_158",
+    "question": "If (4x + 2y)³ + (4x − 2y)³ = 16(Ax³ + Bxy²), then what is the value of ½√(A² + B²)?",
+    "questionHindi": "यदि (4x + 2y)³ + (4x − 2y)³ = 16(Ax³ + Bxy²), तो ½√(A² + B²) का मान क्या है?",
+    "options": [
+      "8",
+      "3",
+      "5",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_159",
+    "question": "If (3x + 2y)³ − (2x + 3y)³ = M(x³ − y³) + Nxy(x − y), then find (M − N)?",
+    "questionHindi": "यदि (3x + 2y)³ − (2x + 3y)³ = M(x³ − y³) + Nxy(x − y), तो (M − N) ज्ञात कीजिये?",
+    "options": [
+      "1",
+      "7",
+      "4",
+      "8"
+    ],
+    "correctAnswer": "8",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_160",
+    "question": "If (x³ + 3x) / (3x² + 1) = 234 / 109, then x² + 5 = ?",
+    "questionHindi": "यदि (x³ + 3x) / (3x² + 1) = 234 / 109 है, तो x² + 5 का मान क्या होगा?",
+    "options": [
+      "31",
+      "41",
+      "38",
+      "46"
+    ],
+    "correctAnswer": "41",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_161",
+    "question": "If (64x³ + 108x) / (144x² + 27) = 1463 / 734, then find (8x − 43)².",
+    "questionHindi": "यदि (64x³ + 108x) / (144x² + 27) = 1463 / 734 है, तो (8x − 43)² का मान ज्ञात कीजिये।",
+    "options": [
+      "64",
+      "81",
+      "100",
+      "121"
+    ],
+    "correctAnswer": "100",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_162",
+    "question": "If x = 2 + √3, then find the value of x⁴ − 8x³ + 16x².",
+    "questionHindi": "यदि x = 2 + √3 है, तो x⁴ − 8x³ + 16x² का मान ज्ञात कीजिए।",
+    "options": [
+      "-1",
+      "1",
+      "0",
+      "2"
+    ],
+    "correctAnswer": "1",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_163",
+    "question": "If x = ∛5 + 2, then the value of x³ − 6x² + 12x − 12 is equal to:",
+    "questionHindi": "यदि x = ∛5 + 2 है, तो x³ − 6x² + 12x − 12 का मान किसके बराबर है?",
+    "options": [
+      "0",
+      "2",
+      "1",
+      "-7"
+    ],
+    "correctAnswer": "1",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_164",
+    "question": "If √x = √3 − √5, then the value of x² − 16x + 6 is:",
+    "questionHindi": "यदि √x = √3 − √5 है, तो x² − 16x + 6 का मान है?",
+    "options": [
+      "0",
+      "4",
+      "-2",
+      "2"
+    ],
+    "correctAnswer": "-2",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_165",
+    "question": "If x = 2 + 2^(2/3) + 2^(1/3), then what is the value of x³ − 6x² + 6x + 18?",
+    "questionHindi": "यदि x = 2 + 2^(2/3) + 2^(1/3) है, तो x³ − 6x² + 6x + 18 का मान क्या है?",
+    "options": [
+      "30",
+      "20",
+      "10",
+      "22"
+    ],
+    "correctAnswer": "22",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_166",
+    "question": "If x = 7 + 7^(2/3) + 7^(1/3), then which of the options below is correct?",
+    "questionHindi": "यदि x = 7 + 7^(2/3) + 7^(1/3) है, तो नीचे दिए गए विकल्पों में से कौन सा विकल्प सही है?",
+    "options": [
+      "x³ + 21x² − 126x − 252 = 0",
+      "x³ + 21x² − 126x + 252 = 0",
+      "x³ − 21x² − 126x + 252 = 0",
+      "x³ − 21x² + 126x − 252 = 0"
+    ],
+    "correctAnswer": "x³ − 21x² + 126x − 252 = 0",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_167",
+    "question": "If x = ∛2 + ∛3 + 1, then find the value of [(x − 1)³ − 5]³ / (x − 1)³.",
+    "questionHindi": "यदि x = ∛2 + ∛3 + 1 है, तो [(x − 1)³ − 5]³ / (x − 1)³ का मान ज्ञात कीजिए।",
+    "options": [
+      "18",
+      "36",
+      "54",
+      "108"
+    ],
+    "correctAnswer": "108",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_168",
+    "question": "If x + y = 1 and xy(xy − 2) = 16, then the value of x⁴ + y⁴ = ?",
+    "questionHindi": "यदि x + y = 1 और xy(xy − 2) = 16 है, तो x⁴ + y⁴ का मान क्या है?",
+    "options": [
+      "31",
+      "27",
+      "39",
+      "33"
+    ],
+    "correctAnswer": "33",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_169",
+    "question": "What term should be added to 169a⁻² + 1.44b² to make it a perfect square?",
+    "questionHindi": "169a⁻² + 1.44b² को पूर्ण वर्ग बनाने के लिए इसमें कौन सा पद जोड़ा जाना चाहिए?",
+    "options": [
+      "3.12 ba⁻¹",
+      "3.22 ba⁻¹",
+      "4.5 a⁻¹b",
+      "4.2 ba⁻¹"
+    ],
+    "correctAnswer": "3.12 ba⁻¹",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_170",
+    "question": "For what value(s) of k will the expression p + ⅑√p + k² be a perfect square?",
+    "questionHindi": "k के किस मान/किन मानों के लिए व्यंजक p + ⅑√p + k² एक पूर्ण वर्ग होगा?",
+    "options": [
+      "k = ±1/8",
+      "k = ±1/9",
+      "k = ±1/21",
+      "k = ±1/18"
+    ],
+    "correctAnswer": "k = ±1/18",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_171",
+    "question": "If √(x² + 3x + 38) + √(x² + 3x − 17) = 11, then find √(x² + 3x + 38) − √(x² + 3x − 17) = ?",
+    "questionHindi": "यदि √(x² + 3x + 38) + √(x² + 3x − 17) = 11 है, तो √(x² + 3x + 38) − √(x² + 3x − 17) का मान ज्ञात कीजिए।",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_172",
+    "question": "If √(8x³ + 53x² − 71x + 60) + √(8x³ + 53x² − 71x − 93) = 17, then find √(8x³ + 53x² − 71x + 60) − √(8x³ + 53x² − 71x − 93) = ?",
+    "questionHindi": "यदि √(8x³ + 53x² − 71x + 60) + √(8x³ + 53x² − 71x − 93) = 17 है, तो √(8x³ + 53x² − 71x + 60) − √(8x³ + 53x² − 71x − 93) का मान ज्ञात कीजिए।",
+    "options": [
+      "8",
+      "7",
+      "10",
+      "9"
+    ],
+    "correctAnswer": "9",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_173",
+    "question": "If ∛(t + 40) − ∛(t − 20) = 5, then ∛(t + 40)² + ∛(t − 20)² + ∛((t + 40)(t − 20)) = ?",
+    "questionHindi": "यदि ∛(t + 40) − ∛(t − 20) = 5 है, तो ∛(t + 40)² + ∛(t − 20)² + ∛((t + 40)(t − 20)) का मान क्या होगा?",
+    "options": [
+      "14",
+      "12",
+      "10",
+      "13"
+    ],
+    "correctAnswer": "12",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_174",
+    "question": "If p = 999, then the value of ∛(p(p² + 3p + 3) + 1) is:",
+    "questionHindi": "यदि p = 999 है, तो ∛(p(p² + 3p + 3) + 1) का मान है:",
+    "options": [
+      "1000",
+      "999",
+      "998",
+      "1002"
+    ],
+    "correctAnswer": "1000",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_175",
+    "question": "If p = 101, then the value of ∛(p(p² − 3p + 3) − 1) is:",
+    "questionHindi": "यदि p = 101 है, तो ∛(p(p² − 3p + 3) − 1) का मान है:",
+    "options": [
+      "100",
+      "101",
+      "102",
+      "99"
+    ],
+    "correctAnswer": "100",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_176",
+    "question": "If p = 127, then the value of ∛(p(p² − 6p + 12) − 8) is:",
+    "questionHindi": "यदि p = 127 है, तो ∛(p(p² − 6p + 12) − 8) का मान है:",
+    "options": [
+      "125",
+      "127",
+      "129",
+      "123"
+    ],
+    "correctAnswer": "125",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_177",
+    "question": "Find the value of [m(m² + 3m + 3) + 1] / [m(m + 2) + 1] when m = 87.",
+    "questionHindi": "यदि m = 87 है, तो [m(m² + 3m + 3) + 1] / [m(m + 2) + 1] का मान ज्ञात कीजिए।",
+    "options": [
+      "88",
+      "87",
+      "90",
+      "96"
+    ],
+    "correctAnswer": "88",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_178",
+    "question": "What is the value of 64x³ + 38x²y + 20xy² + y³, when x = 3 and y = -4?",
+    "questionHindi": "x = 3 और y = -4 होने पर 64x³ + 38x²y + 20xy² + y³ का मान ज्ञात कीजिए:",
+    "options": [
+      "1236",
+      "488",
+      "536",
+      "1256"
+    ],
+    "correctAnswer": "488",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_179",
+    "question": "If x + y = 14, then the value of x³ + y³ + 42xy is:",
+    "questionHindi": "यदि x + y = 14 है, तो x³ + y³ + 42xy का मान है:",
+    "options": [
+      "2744",
+      "2644",
+      "2742",
+      "2714"
+    ],
+    "correctAnswer": "2744",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_180",
+    "question": "If y = 2x + 1, then what is the value of (8x³ − y³ + 6xy)?",
+    "questionHindi": "यदि y = 2x + 1 है, तो (8x³ − y³ + 6xy) का मान ज्ञात करें।",
+    "options": [
+      "-15",
+      "1",
+      "-1",
+      "15"
+    ],
+    "correctAnswer": "-1",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_181",
+    "question": "If x = √2 + 1 and y = √2/3, then what is the value of (x − 2y − 1)(x² + 4y² + 2xy − 2x − 2y + 1)?",
+    "questionHindi": "यदि x = √2 + 1 और y = √2/3 है, तो (x − 2y − 1)(x² + 4y² + 2xy − 2x − 2y + 1) का मान क्या है?",
+    "options": [
+      "38√2/27",
+      "4√2/3",
+      "13√2/9",
+      "40√2/27"
+    ],
+    "correctAnswer": "38√2/27",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_182",
+    "question": "If 4x + 3a = 0, then what is the value of (x² + ax + a²) / (x³ − a³) − (x² − ax + a²) / (x³ + a³)?",
+    "questionHindi": "यदि 4x + 3a = 0 है, तो (x² + ax + a²) / (x³ − a³) − (x² − ax + a²) / (x³ + a³) का मान क्या होगा?",
+    "options": [
+      "-32/7a",
+      "7/a",
+      "-4/7a",
+      "24/7a"
+    ],
+    "correctAnswer": "-32/7a",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_183",
+    "question": "If x² = 17x + y, y² = x + 17y and x ≠ y, then find √(x² + y² + 1)?",
+    "questionHindi": "यदि x² = 17x + y, y² = x + 17y और x ≠ y है, तो √(x² + y² + 1) ज्ञात कीजिये?",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctAnswer": "18",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_184",
+    "question": "If a + b = 1 and a² + b² = 2, then find a⁵ + b⁵ = ?",
+    "questionHindi": "यदि a + b = 1 और a² + b² = 2 है, तो a⁵ + b⁵ ज्ञात कीजिए?",
+    "options": [
+      "19/4",
+      "17/4",
+      "37/8",
+      "7/2"
+    ],
+    "correctAnswer": "19/4",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_185",
+    "question": "If x + y = 19 and xy = 9, then find x√x + y√y?",
+    "questionHindi": "यदि x + y = 19 और xy = 9 है, तो x√x + y√y ज्ञात कीजिये?",
+    "options": [
+      "80",
+      "100",
+      "125",
+      "110"
+    ],
+    "correctAnswer": "110",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_186",
+    "question": "Let a and b be two positive real numbers such that a√a + b√b = 32 and a√b + b√a = 31. What is the value of 5(a + b)/7?",
+    "questionHindi": "मान लीजिए a और b दो धनात्मक वास्तविक संख्याएँ हैं जैसे कि a√a + b√b = 32 और a√b + b√a = 31 है, तो 5(a + b)/7 का मान क्या है?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "15"
+    ],
+    "correctAnswer": "15",
+    "solution": "Video solution will be uploaded soon."
+  },
+  {
+    "id": "maths_algebra_187",
+    "question": "What is the value of the following expression: 2² · (x^a / x^b)^(a + b) × 3² · (x^b / x^c)^(b + c) × 6⁻² · (x^c / x^a)^(a + c)?",
+    "questionHindi": "निम्नलिखित व्यंजक का मान क्या होगा: 2² · (x^a / x^b)^(a + b) × 3² · (x^b / x^c)^(b + c) × 6⁻² · (x^c / x^a)^(a + c)?",
+    "options": [
+      "0",
+      "1",
+      "x^(a+b+c)",
+      "x^(a² + b² + c²)"
+    ],
+    "correctAnswer": "1",
+    "solution": "Video solution will be uploaded soon."
+  },
   {
     "id": "maths_algebra_188",
     "question": "Algebra — Question 188 (add real content in datas/maths/algebra.json)",

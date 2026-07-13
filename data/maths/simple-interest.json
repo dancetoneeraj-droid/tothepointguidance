@@ -324,1145 +324,1215 @@
     "explanation": "P = (9570 × 100)/(11 × 3) = ₹29,000.",
     "solution": "# Simple Interest Problem Solution\n\n**Given:**\n- Rate (R) = 11% p.a.\n- Time (T) = 3 years\n- Simple Interest (SI) = Rs 9,570\n- Principal (P) = ?\n\n**Step 1: Recall the Simple Interest formula**\n$$SI = \\frac{P \\times R \\times T}{100}$$\n\n**Step 2: Substitute the known values**\n$$9,570 = \\frac{P \\times 11 \\times 3}{100}$$\n\n**Step 3: Simplify**\n$$9,570 = \\frac{P \\times 33}{100}$$\n\n**Step 4: Solve for P**\n$$P = \\frac{9,570 \\times 100}{33}$$\n\n$$P = \\frac{957,000}{33}$$\n\n$$P = 29,000$$\n\n**Verification:**\nSI = (29,000 × 11 × 3)/100 = 9,570 ✓\n\n**Answer: Rs 29,000** ✓"
   },
-    {
-      "id": "maths_simple_interest_026",
-      "question": "A borrowed a loan from B at 8% simple interest for 2 years and repaid the loan with interest totalling ₹1,91,864. The amount of loan taken by A is:",
-      "options": [
-        "₹1,68,920",
-        "₹1,66,540",
-        "₹1,64,492",
-        "₹1,65,400"
-      ],
-      "correctAnswer": "₹1,65,400",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_027",
-      "question": "The simple interest per annum on a sum of Rs x at the rate of 7⅔% for 2½ years is Rs 862.50. Find x.",
-      "options": [
-        "Rs 3200",
-        "Rs 4500",
-        "Rs 2850",
-        "Rs 3875"
-      ],
-      "correctAnswer": "Rs 4500",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_028",
-      "question": "A sum at simple interest at 7.5% per annum amounts to Rs 11,025 after 3 years. What is the simple interest?",
-      "options": [
-        "Rs 2150",
-        "Rs 2275",
-        "Rs 2025",
-        "Rs 2100"
-      ],
-      "correctAnswer": "Rs 2025",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_029",
-      "question": "If Seema invests ₹17,650 in an account that yields 8.5% p.a. simple interest, then how much (to the nearest ₹) will she have after 5 years?",
-      "options": [
-        "25151",
-        "21155",
-        "21551",
-        "25115"
-      ],
-      "correctAnswer": "25151",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_030",
-      "question": "Archana took a loan of Rs 78,000 from a bank on 24 January 2012 at 8¾% p.a. simple interest and paid it back on 18 June 2012. Find the total amount paid by Archana.",
-      "options": [
-        "Rs 80723",
-        "Rs 90730",
-        "Rs 85733",
-        "Rs 88730"
-      ],
-      "correctAnswer": "Rs 80723",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_031",
-      "question": "A certain sum is invested at simple interest at y% per annum for 3½ years. Had it been invested at (y + 4)% per annum at simple interest, it would have fetched Rs 4,452 more as interest. What is the sum?",
-      "options": [
-        "30400",
-        "31800",
-        "42800",
-        "42400"
-      ],
-      "correctAnswer": "31800",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_032",
-      "question": "A certain sum amounts to Rs 22,494 in 7 years at x% per annum on simple interest. If the rate had been (x + 4)%, the amount after 7 years would have been Rs 25,917. Find the sum invested.",
-      "options": [
-        "11975",
-        "12275",
-        "12175",
-        "12225"
-      ],
-      "correctAnswer": "12225",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_033",
-      "question": "The simple interest on a sum of money in 6 years at 15% per annum is Rs 1,440 less than the simple interest accrued on the same sum in 9 years at 18% per annum. What is the sum?",
-      "options": [
-        "2000",
-        "2400",
-        "2700",
-        "1800"
-      ],
-      "correctAnswer": "2000",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_034",
-      "question": "The amount received on a certain sum for 2⅖ years at 15% p.a. simple interest is Rs 507 less than the simple interest on the same sum for 9½ years at the same rate. Find the sum.",
-      "options": [
-        "8000",
-        "7400",
-        "7600",
-        "7800"
-      ],
-      "correctAnswer": "7800",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_035",
-      "question": "A certain sum invested at 8% per annum for 3½ years at simple interest is Rs 2,944 less than the simple interest on the same sum for 10 years at double the rate of interest. Find the sum.",
-      "options": [
-        "9800",
-        "9200",
-        "9000",
-        "9500"
-      ],
-      "correctAnswer": "9200",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_036",
-      "question": "The simple interest on a certain sum for 9½ years at the rate of 13% p.a. is ₹3,080 less than the amount of the same sum for 4½ years at the same rate. Find the sum.",
-      "options": [
-        "8700",
-        "8500",
-        "8600",
-        "8800"
-      ],
-      "correctAnswer": "8800",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_037",
-      "question": "How long (in years) will a sum of money invested at 6% per annum simple interest increase its value by 40%?",
-      "options": [
-        "5⅔",
-        "4⅓",
-        "6⅔",
-        "6⅓"
-      ],
-      "correctAnswer": "6⅔",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_038",
-      "question": "In a certain time, a sum of money becomes five times itself if the rate of interest is 16% p.a. Then the certain time (in years) is:",
-      "options": [
-        "32",
-        "38",
-        "25",
-        "30"
-      ],
-      "correctAnswer": "25",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_039",
-      "question": "A sum at simple interest of 8% p.a. becomes 7/5 of itself in how many years?",
-      "options": [
-        "5",
-        "2½",
-        "3½",
-        "4"
-      ],
-      "correctAnswer": "5",
-      "explanation": "Video solution will be added soon."
-    },
-    {
-      "id": "maths_simple_interest_040",
-      "question": "In how many years will a sum of money be 12 times itself at 44% per annum simple interest?",
-      "options": [
-        "35 years",
-        "20 years",
-        "25 years",
-        "30 years"
-      ],
-      "correctAnswer": "25 years",
-      "explanation": "Video solution will be added soon."
-    },
-      {
-        "id": "maths_simple_interest_041",
-        "question": "A certain sum becomes 3 times itself in 10 years at a certain simple interest rate per annum. In how many years will it become 10 times itself at the same simple interest rate per annum?",
-        "options": [
-          "45",
-          "42",
-          "35",
-          "40"
-        ],
-        "correctAnswer": "45",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_042",
-        "question": "A certain amount will become six times in 20 years. How long does it take for the same amount to become 5 times? Assume the same rate of simple interest in each case.",
-        "options": [
-          "16 years 8 months",
-          "15 years 8 months",
-          "15 years",
-          "16 years"
-        ],
-        "correctAnswer": "16 years",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_043",
-        "question": "If a sum of money at simple interest becomes 36 times in 100 years, then it will become 29 times in:",
-        "options": [
-          "48 years",
-          "90 years",
-          "80 years",
-          "87 years"
-        ],
-        "correctAnswer": "80 years",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_044",
-        "question": "A certain sum of money becomes 5 times in 15 years when invested at simple interest. In how much time (years and months) will it become 12 times of itself at the same rate of simple interest?",
-        "options": [
-          "41 years 3 months",
-          "40 years 6 months",
-          "39 years 9 months",
-          "42 years 4 months"
-        ],
-        "correctAnswer": "41 years 3 months",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_045",
-        "question": "A certain sum of money becomes seven times itself when invested at a certain rate of simple interest in 14 years. How much time (in years, rounded off to 2 decimal places) will it take to become 18 times itself at the same rate?",
-        "options": [
-          "27.33",
-          "39.67",
-          "42.78",
-          "35.5"
-        ],
-        "correctAnswer": "39.67",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_046",
-        "question": "If a sum of money at simple interest becomes 11/8 times in 7.5 years, then it will become 19/12 times in:",
-        "options": [
-          "9 years 4 months",
-          "12 years 3 months",
-          "10 years 9 months",
-          "11 years 8 months"
-        ],
-        "correctAnswer": "11 years 8 months",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_047",
-        "question": "A sum of money invested at simple interest becomes 7 times itself in 12 years. How many times will it become in 42 years?",
-        "options": [
-          "19 times",
-          "37 times",
-          "22 times",
-          "21 times"
-        ],
-        "correctAnswer": "22 times",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_048",
-        "question": "A sum of money becomes five times its original value in 15 years when invested at a certain simple interest rate. If the sum was invested for twice the time at the same rate of interest, what would be the final amount?",
-        "options": [
-          "The money becomes 7 times its original value",
-          "The money becomes 9 times its original value",
-          "The money becomes 6 times its original value",
-          "The money becomes 8 times its original value"
-        ],
-        "correctAnswer": "The money becomes 9 times its original value",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_049",
-        "question": "A sum of money invested at simple interest triples itself in 8 years and becomes n times in 20 years. What is the value of n?",
-        "options": [
-          "5",
-          "6",
-          "7.5",
-          "9"
-        ],
-        "correctAnswer": "6",
-        "explanation": "Video solution will be added soon."
-      },
-      {
-        "id": "maths_simple_interest_050",
-        "question": "In a certain time, a sum becomes 5 times at the rate of 6% per annum on simple interest. At what rate of interest will the same sum become 8 times in the same duration?",
-        "options": [
-          "8.5%",
-          "10.5%",
-          "5.5%",
-          "12.5%"
-        ],
-        "correctAnswer": "10.5%",
-        "explanation": "Video solution will be added soon."
-      },
+  {
+    "id": "maths_simple_interest_026",
+    "question": "A borrowed a loan from B at 8% simple interest for 2 years and repaid the loan with interest totalling ₹1,91,864. The amount of loan taken by A is:",
+    "options": [
+      "₹1,68,920",
+      "₹1,66,540",
+      "₹1,64,492",
+      "₹1,65,400"
+    ],
+    "correctAnswer": "₹1,65,400",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_027",
+    "question": "The simple interest per annum on a sum of Rs x at the rate of 7⅔% for 2½ years is Rs 862.50. Find x.",
+    "options": [
+      "Rs 3200",
+      "Rs 4500",
+      "Rs 2850",
+      "Rs 3875"
+    ],
+    "correctAnswer": "Rs 4500",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_028",
+    "question": "A sum at simple interest at 7.5% per annum amounts to Rs 11,025 after 3 years. What is the simple interest?",
+    "options": [
+      "Rs 2150",
+      "Rs 2275",
+      "Rs 2025",
+      "Rs 2100"
+    ],
+    "correctAnswer": "Rs 2025",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_029",
+    "question": "If Seema invests ₹17,650 in an account that yields 8.5% p.a. simple interest, then how much (to the nearest ₹) will she have after 5 years?",
+    "options": [
+      "25151",
+      "21155",
+      "21551",
+      "25115"
+    ],
+    "correctAnswer": "25151",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_030",
+    "question": "Archana took a loan of Rs 78,000 from a bank on 24 January 2012 at 8¾% p.a. simple interest and paid it back on 18 June 2012. Find the total amount paid by Archana.",
+    "options": [
+      "Rs 80723",
+      "Rs 90730",
+      "Rs 85733",
+      "Rs 88730"
+    ],
+    "correctAnswer": "Rs 80723",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_031",
+    "question": "A certain sum is invested at simple interest at y% per annum for 3½ years. Had it been invested at (y + 4)% per annum at simple interest, it would have fetched Rs 4,452 more as interest. What is the sum?",
+    "options": [
+      "30400",
+      "31800",
+      "42800",
+      "42400"
+    ],
+    "correctAnswer": "31800",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_032",
+    "question": "A certain sum amounts to Rs 22,494 in 7 years at x% per annum on simple interest. If the rate had been (x + 4)%, the amount after 7 years would have been Rs 25,917. Find the sum invested.",
+    "options": [
+      "11975",
+      "12275",
+      "12175",
+      "12225"
+    ],
+    "correctAnswer": "12225",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_033",
+    "question": "The simple interest on a sum of money in 6 years at 15% per annum is Rs 1,440 less than the simple interest accrued on the same sum in 9 years at 18% per annum. What is the sum?",
+    "options": [
+      "2000",
+      "2400",
+      "2700",
+      "1800"
+    ],
+    "correctAnswer": "2000",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_034",
+    "question": "The amount received on a certain sum for 2⅖ years at 15% p.a. simple interest is Rs 507 less than the simple interest on the same sum for 9½ years at the same rate. Find the sum.",
+    "options": [
+      "8000",
+      "7400",
+      "7600",
+      "7800"
+    ],
+    "correctAnswer": "7800",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_035",
+    "question": "A certain sum invested at 8% per annum for 3½ years at simple interest is Rs 2,944 less than the simple interest on the same sum for 10 years at double the rate of interest. Find the sum.",
+    "options": [
+      "9800",
+      "9200",
+      "9000",
+      "9500"
+    ],
+    "correctAnswer": "9200",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_036",
+    "question": "The simple interest on a certain sum for 9½ years at the rate of 13% p.a. is ₹3,080 less than the amount of the same sum for 4½ years at the same rate. Find the sum.",
+    "options": [
+      "8700",
+      "8500",
+      "8600",
+      "8800"
+    ],
+    "correctAnswer": "8800",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_037",
+    "question": "How long (in years) will a sum of money invested at 6% per annum simple interest increase its value by 40%?",
+    "options": [
+      "5⅔",
+      "4⅓",
+      "6⅔",
+      "6⅓"
+    ],
+    "correctAnswer": "6⅔",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_038",
+    "question": "In a certain time, a sum of money becomes five times itself if the rate of interest is 16% p.a. Then the certain time (in years) is:",
+    "options": [
+      "32",
+      "38",
+      "25",
+      "30"
+    ],
+    "correctAnswer": "25",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_039",
+    "question": "A sum at simple interest of 8% p.a. becomes 7/5 of itself in how many years?",
+    "options": [
+      "5",
+      "2½",
+      "3½",
+      "4"
+    ],
+    "correctAnswer": "5",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_040",
+    "question": "In how many years will a sum of money be 12 times itself at 44% per annum simple interest?",
+    "options": [
+      "35 years",
+      "20 years",
+      "25 years",
+      "30 years"
+    ],
+    "correctAnswer": "25 years",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_041",
+    "question": "A certain sum becomes 3 times itself in 10 years at a certain simple interest rate per annum. In how many years will it become 10 times itself at the same simple interest rate per annum?",
+    "options": [
+      "45",
+      "42",
+      "35",
+      "40"
+    ],
+    "correctAnswer": "45",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_042",
+    "question": "A certain amount will become six times in 20 years. How long does it take for the same amount to become 5 times? Assume the same rate of simple interest in each case.",
+    "options": [
+      "16 years 8 months",
+      "15 years 8 months",
+      "15 years",
+      "16 years"
+    ],
+    "correctAnswer": "16 years",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_043",
+    "question": "If a sum of money at simple interest becomes 36 times in 100 years, then it will become 29 times in:",
+    "options": [
+      "48 years",
+      "90 years",
+      "80 years",
+      "87 years"
+    ],
+    "correctAnswer": "80 years",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_044",
+    "question": "A certain sum of money becomes 5 times in 15 years when invested at simple interest. In how much time (years and months) will it become 12 times of itself at the same rate of simple interest?",
+    "options": [
+      "41 years 3 months",
+      "40 years 6 months",
+      "39 years 9 months",
+      "42 years 4 months"
+    ],
+    "correctAnswer": "41 years 3 months",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_045",
+    "question": "A certain sum of money becomes seven times itself when invested at a certain rate of simple interest in 14 years. How much time (in years, rounded off to 2 decimal places) will it take to become 18 times itself at the same rate?",
+    "options": [
+      "27.33",
+      "39.67",
+      "42.78",
+      "35.5"
+    ],
+    "correctAnswer": "39.67",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_046",
+    "question": "If a sum of money at simple interest becomes 11/8 times in 7.5 years, then it will become 19/12 times in:",
+    "options": [
+      "9 years 4 months",
+      "12 years 3 months",
+      "10 years 9 months",
+      "11 years 8 months"
+    ],
+    "correctAnswer": "11 years 8 months",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_047",
+    "question": "A sum of money invested at simple interest becomes 7 times itself in 12 years. How many times will it become in 42 years?",
+    "options": [
+      "19 times",
+      "37 times",
+      "22 times",
+      "21 times"
+    ],
+    "correctAnswer": "22 times",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_048",
+    "question": "A sum of money becomes five times its original value in 15 years when invested at a certain simple interest rate. If the sum was invested for twice the time at the same rate of interest, what would be the final amount?",
+    "options": [
+      "The money becomes 7 times its original value",
+      "The money becomes 9 times its original value",
+      "The money becomes 6 times its original value",
+      "The money becomes 8 times its original value"
+    ],
+    "correctAnswer": "The money becomes 9 times its original value",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_049",
+    "question": "A sum of money invested at simple interest triples itself in 8 years and becomes n times in 20 years. What is the value of n?",
+    "options": [
+      "5",
+      "6",
+      "7.5",
+      "9"
+    ],
+    "correctAnswer": "6",
+    "explanation": "Video solution will be added soon."
+  },
+  {
+    "id": "maths_simple_interest_050",
+    "question": "In a certain time, a sum becomes 5 times at the rate of 6% per annum on simple interest. At what rate of interest will the same sum become 8 times in the same duration?",
+    "options": [
+      "8.5%",
+      "10.5%",
+      "5.5%",
+      "12.5%"
+    ],
+    "correctAnswer": "10.5%",
+    "explanation": "Video solution will be added soon."
+  },
   {
     "id": "maths_simple_interest_051",
-    "question": "Simple Interest — Question 51 (add real content in datas/maths/simple-interest.json)",
+    "question": "In how many years will Rs.1,900 produce an interest of 798 at the rate of 7% simple interest per annum?",
+    "questionHi": "7% वार्षिक साधारण ब्याज की दर से कितने वर्ष में 1,900 रु. पर रु. 798 का ब्याज एकत्र हो जाएगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "8",
+      "9",
+      "5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "6",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_052",
-    "question": "Simple Interest — Question 52 (add real content in datas/maths/simple-interest.json)",
+    "question": "In how much time will a sum of Rs. 5250 amounts to Rs. 9870 at the rate of 11 percent per annum at simple interest?",
+    "questionHi": "5250 रुपये की एक राशि 11 प्रतिशत प्रतिवर्ष की दर से कितने समय में साधारण ब्याज पर 9870 रुपये हो जायेगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6 years",
+      "8 years",
+      "7 years",
+      "9 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_053",
-    "question": "Simple Interest — Question 53 (add real content in datas/maths/simple-interest.json)",
+    "question": "In what time will ₹3,720 amount to 5,282.4 at 12% simple interest per annum?",
+    "questionHi": "12% वार्षिक साधारण ब्याज की दर से कितने समय में ₹3,720 की राशि पर प्राप्त मिश्रधन ₹5,282.4 होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3 years",
+      "3(1/2) years",
+      "5(1/2) years",
+      "5 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "3(1/2) years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_054",
-    "question": "Simple Interest — Question 54 (add real content in datas/maths/simple-interest.json)",
+    "question": "In how much time (in years, rounded off to 2 decimal places) will 10,800 amount to 24,800 if invested at simple interest at the rate of 15.5% per annum?",
+    "questionHi": "यदि 15.5% प्रति वर्ष की दर से साधारण ब्याज पर निवेश किया जाए तो कितने समय में (वर्षों में, 2 decimal स्थानों तक पूर्णांकित) ₹10,800 की राशि ₹24,800 हो जाएगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7.72",
+      "8.36",
+      "9.54",
+      "6.89"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8.36",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_055",
-    "question": "Simple Interest — Question 55 (add real content in datas/maths/simple-interest.json)",
+    "question": "A person borrowed 1760 at 6% per annum and 2240 at 9% per annum at simple interest for the same period. He had to pay 1536 in all as interest. Find the time (in years).",
+    "questionHi": "एक व्यक्ति ने समान अवधि के लिए 6% प्रति वर्ष की दर से ₹ 1760 और प्रति वर्ष 9% की दर से साधारण ब्याज पर ₹ 2240 उधार लिए। उसे ब्याज के रूप में कुल मिलाकर ₹1536 चुकाने पड़े। समय ज्ञात कीजिए (वर्षों में)।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8 years",
+      "14 years",
+      "12 years",
+      "15 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "12 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_056",
-    "question": "Simple Interest — Question 56 (add real content in datas/maths/simple-interest.json)",
+    "question": "A person borrowed Rs 9000 at 7%, Rs 12000 at 8% and Rs 15000 at 9% simple interest per annum. He had to pay Rs 50700 at the end of n years. What is the value of n?",
+    "questionHi": "एक व्यक्ति ने 9000 रुपये 7%, 12000 रुपये 8% और 15000 रुपये 9% साधारण ब्याज प्रति वर्ष की दर से उधार लिए। उसे n वर्ष के अंत में 50700 रुपये का भुगतान करना पड़ा। n का मान क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "5",
+      "4",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "5",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_057",
-    "question": "Simple Interest — Question 57 (add real content in datas/maths/simple-interest.json)",
+    "question": "Aravind deposited 18,500 for 5 years at simple interest. After 5 years, he received 4,625 as interest. The annual rate of interest was:",
+    "questionHi": "अरविंद ने साधारण ब्याज पर 5 वर्षों के लिए ₹18,500 जमा किए। 5 वर्षों के बाद, उन्हें ब्याज के रूप में ₹4,625 प्राप्त हुए। ब्याज की वार्षिक दर थी:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1.6%",
+      "6.5%",
+      "5%",
+      "7%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "5%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_058",
-    "question": "Simple Interest — Question 58 (add real content in datas/maths/simple-interest.json)",
+    "question": "Salim borrowed Rs.7,200 from the bank for some project at simple interest. After a period of 3 years, the amount will be Rs.9,576. What was the rate of interest?",
+    "questionHi": "सलीम ने साधारण ब्याज पर किसी प्रोजेक्ट के लिए बैंक से रु. 7,200 उधार लिए। 3 वर्ष की अवधि के बाद, राशि रु. 9,576 हो जाएगी। ब्याज दर क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10%",
+      "11%",
+      "9%",
+      "12%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "11%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_059",
-    "question": "Simple Interest — Question 59 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of ₹13,500 amount to 15,500 in 4 years at a rate of simple interest p.a. What is the rate of interest?",
+    "questionHi": "₹13,500 की राशि 4 वर्षों में साधारण ब्याज दर पर ₹15,500 हो जाती है। ब्याज दर क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3(5/9)%",
+      "4(4/9)%",
+      "3(1/3)%",
+      "3%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "3(1/3)%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_060",
-    "question": "Simple Interest — Question 60 (add real content in datas/maths/simple-interest.json)",
+    "question": "A certain sum amounts to 15,748 in 3 years at r% p.a. simple interest. The same sum amounts to 16,510 at (r+2)% p.a. simple interest in the same time. What is the value of r?",
+    "questionHi": "एक निश्चित धनराशि r% वार्षिक साधारण ब्याज पर 3 वर्षों में 15,748 हो जाती है। वह धनराशि (r+2)% वार्षिक साधारण ब्याज पर उतने ही समय में 16,510 हो जाती है। r का मान ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "8.5",
+      "9.5",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8.5",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_061",
-    "question": "Simple Interest — Question 61 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money becomes 79/16 times of itself in 35 years at r% of SI. What is the value of r?",
+    "questionHi": "कोई धनराशि r% साधारण ब्याज की दर पर 35 वर्षों में स्वयं का 79/16 गुना हो जाता है। r का मान क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10.5%",
+      "11.25%",
+      "10.8%",
+      "12.5%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "11.25%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_062",
-    "question": "Simple Interest — Question 62 (add real content in datas/maths/simple-interest.json)",
+    "question": "A certain sum was invested on simple interest. The amount to which it had grown in 5 years was 1(1/4) times the amount to which it had grown in 3 years. The percentage rate of interest was:",
+    "questionHi": "कोई निश्चित राशि साधारण ब्याज पर निवेश की गई थी। 5 वर्ष के उपरांत प्राप्त होने वाला मिश्रधन, 3 वर्ष में प्राप्त होने वाला मिश्रधन का 1(1/4) गुना था। ब्याज की प्रतिशत दर थीः",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10%",
+      "20%",
+      "25%",
+      "15%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "25%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_063",
-    "question": "Simple Interest — Question 63 (add real content in datas/maths/simple-interest.json)",
+    "question": "A person lent Rs. 23000 to B for 3 years and Rs. 19000 to C for 4 years on simple interest at the same rate of interest and received Rs. 3625 in all from both of them as interest. What is the annual rate of interest?",
+    "questionHi": "एक व्यक्ति ने B को 3 वर्षों के लिए 23000 रुपये तथा C को 4 वर्षों के लिए 19000 रुपये ब्याज की समान दर से साधारण ब्याज पर उधार दिए तथा दोनों से कुल 3625 रुपये ब्याज के रूप में प्राप्त किए। ब्याज की वार्षिक दर क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1.5 percent",
+      "3 percent",
+      "2.5 percent",
+      "4 percent"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "2.5 percent",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_064",
-    "question": "Simple Interest — Question 64 (add real content in datas/maths/simple-interest.json)",
+    "question": "A man borrowed ₹29,000 for 3 years and ₹45,000 for 5 years at the same rate of simple interest. If he paid a total interest of 62,400, then what was the rate of interest?",
+    "questionHi": "एक आदमी ने साधारण ब्याज की समान दर पर 3 साल के लिए ₹29,000 और 5 साल के लिए ₹45,000 उधार लिए। यदि उसने कुल ब्याज ₹62,400 का भुगतान किया, तो ब्याज की दर क्या थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "27%",
+      "18%",
+      "25%",
+      "20%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "20%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_065",
-    "question": "Simple Interest — Question 65 (add real content in datas/maths/simple-interest.json)",
+    "question": "The difference between the simple interest of two banks on Rs 8000 in 3 years is Rs 800. If the rate of interest per annum in two banks is R1 and R2, then what is the value of R1 - R2? (where R1 > R2)",
+    "questionHi": "3 वर्ष में Rs 8000 पर दो बैंको के साधारण ब्याज का अंतर Rs 800 है। यदि दो बैंको में ब्याज की प्रतिवर्ष दर R1 और R2 है, तो R1-R2 का मान क्या है ? (जहाँ R1 > R2)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2(1/3)%",
+      "1(1/3)%",
+      "3(1/3)%",
+      "5(1/3)%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "3(1/3)%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_066",
-    "question": "Simple Interest — Question 66 (add real content in datas/maths/simple-interest.json)",
+    "question": "Mukund invests a sum of ₹5400 and Sachin invests a sum of ₹9400 at the same rate of simple interest per annum. If, at the end of 5 years, Sachin gets 1960 more interest than Mukund, then find the rate of interest per annum (in percentage).",
+    "questionHi": "वार्षिक साधारण ब्याज की समान दर पर मुकुंद ₹5400 की राशि का निवेश करता है और सचिन  ₹9400 की राशि का निवेश करता है। यदि 5 वर्ष के अंत में, सचिन को मुकुंद से ₹1960 अधिक ब्याज प्राप्त होता है, तो वार्षिक ब्याज की दर (प्रतिशत में) ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3.8",
+      "6.8",
+      "2.8",
+      "4.8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "4.8",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_067",
-    "question": "Simple Interest — Question 67 (add real content in datas/maths/simple-interest.json)",
+    "question": "The ratio of principal and amount is 5 : 6 in a certain time. It will become 4 : 7 after 5 years. Find the rate of interest.",
+    "questionHi": "एक निश्चित समय में मूलधन और मिश्रधन का अनुपात 5:6 है। यह 5 साल बाद 4:7 हो जाएगा। ब्याज की दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11%",
+      "11.5%",
+      "10%",
+      "13%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "11%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_068",
-    "question": "Simple Interest — Question 68 (add real content in datas/maths/simple-interest.json)",
+    "question": "If the ratio of principal and amount in current year at simple interest is 9 : 17 and after 27.5 more years this ratio will become 15 : 43. Find the rate of simple interest?",
+    "questionHi": "यदि साधारण ब्याज की दर पर वर्तमान वर्ष में मूलधन और मिश्रधन का अनुपात 9:17 हो जाता है और अगले 27.5 वर्षों के बाद यह अनुपात 15:43 हो जाएगा। साधारण ब्याज की दर ज्ञात कीजिये?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3(5/9)%",
+      "4(4/9)%",
+      "3(1/3)%",
+      "3%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "3(1/3)%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_069",
-    "question": "Simple Interest — Question 69 (add real content in datas/maths/simple-interest.json)",
+    "question": "The simple interest on a sum of money is 9/35 of the sum. If the number of years is numerically 5/7 times of rate percent per annum, then the rate percent per annum is",
+    "questionHi": "किसी राशि का साधारण ब्याज उसके मूलधन का 9/35 है। यदि दिए गए धन पर वर्षों की संख्या का मान वार्षिक दर प्रतिशत के आंकिक मान का 5/7 गुना हो, तो ब्याज दर क्या होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9",
+      "7",
+      "6",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "6",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_070",
-    "question": "Simple Interest — Question 70 (add real content in datas/maths/simple-interest.json)",
+    "question": "The simple interest on a certain amount of money is 45% of the principal amount. The time for which the money was lent is four-fifth of the numerical value of the rate percent per annum. What is the rate percent per annum?",
+    "questionHi": "एक निश्चित राशि पर साधारण ब्याज, मूलधन राशि के 45% के बराबर है। उधारी अवधि के समय का आंकिक मान, प्रतिशत वार्षिक दर के आंकिक मान के 4/5 के बराबर है। वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15%",
+      "7.5%",
+      "9.5%",
+      "12%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "7.5%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_071",
-    "question": "Simple Interest — Question 71 (add real content in datas/maths/simple-interest.json)",
+    "question": "The simple interest on a certain sum is one-fifth of the sum and the interest rate percent annum is 3.2 times the number of years. If the rate of interest increases by 4%, then the simple interest (in Rs.) on Rs. 7,500 for 4 years is:",
+    "questionHi": "एक निश्चित राशि पर साधारण ब्याज राशि का पांचवां हिस्सा है और प्रतिवर्ष ब्याज दर प्रतिशत वर्षों की संख्या का 3.2 गुना है। यदि ब्याज की दर में 4% की वृद्धि होती है, तो ₹7,500 पर 4 वर्षों के लिए साधारण ब्याज (₹ में) कितना होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3,000",
+      "2,500",
+      "3,600",
+      "5,100"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "3,600",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_072",
-    "question": "Simple Interest — Question 72 (add real content in datas/maths/simple-interest.json)",
+    "question": "A man took a loan of Rs 32,400 at a certain rate of simple interest per annum. The rate of interest is one-fourth of the number of years for which the loan is taken. If he paid Rs 11,664 as interest at the end loan period, the rate of interest was:",
+    "questionHi": "एक आदमी ने वार्षिक साधारण ब्याज की एक निश्चित दर पर रू. 32,400 का ऋण लिया। ब्याज की दर उन वर्षों की संख्या का एक चौथाई है, जितने अवधि के लिए ऋण लिया गया। यदि उसने ऋण अवधि के अंत में रू.11,664 ब्याज का भुगतान किया, तो ब्याज की दर थी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3%",
+      "8%",
+      "5%",
+      "12%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "3%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_073",
-    "question": "Simple Interest — Question 73 (add real content in datas/maths/simple-interest.json)",
+    "question": "If x, y, z are three sum of money such that y is the simple interest on x and z is the simple interest on y for the same time and at the same rate of interest, then what is the relation between x, y, z we have.",
+    "questionHi": "तीन राशियां x, y, z इस प्रकार हैं कि y, x का साधारण ब्याज तथा z, y का साधारण ब्याज है। इन दोनों स्थितियों में यदि समय तथा वार्षिक दर समान हो तो x, y तथा z में सम्बन्ध क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "xyz = 1",
+      "x^2 = yz",
+      "z^2 = xy",
+      "y^2 = xz"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "y^2 = xz",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_074",
-    "question": "Simple Interest — Question 74 (add real content in datas/maths/simple-interest.json)",
+    "question": "A certain sum of money, invested on simple interest, amounts to Rs. 756 in 2 years and to Rs.873 in 3.5 years. Find the sum (in Rs.)",
+    "questionHi": "साधारण ब्याज पर निवेश की गई एक निश्चित राशि 2 वर्षों में 756 रुपये और 3.5 वर्षों में 873 रुपये हो जाती है। राशि ज्ञात कीजिए (रुपये में)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "500",
+      "700",
+      "600",
+      "400"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "600",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_075",
-    "question": "Simple Interest — Question 75 (add real content in datas/maths/simple-interest.json)",
+    "question": "If a sum of money amounts to Rs.2502 in 3 years and Rs.3087 in 5.5 years at the same rate of simple interest per annum. Then the rate of simple interest is",
+    "questionHi": "यदि कोई राशि साधारण ब्याज की एक ही (वार्षिक) दर पर 3 वर्ष में 2502 रु और 5.5 वर्ष में 3087 रु हो जाती है तो साधारण ब्याज की दर ज्ञात करें?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11%",
+      "13%",
+      "19%",
+      "17%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "13%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_076",
-    "question": "Simple Interest — Question 76 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money becomes Rs. 8,928 in two years and Rs. 10,224 in 3(1/2) years at simple interest. Find out the rate of interest.",
+    "questionHi": "एक निश्चित धनराशि वार्षिक साधारण ब्याज दर पर दो वर्ष में रू.8,928 और 3(1/2) वर्ष में Rs. 10,224 हो जाती है। वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9%",
+      "15%",
+      "12%",
+      "10%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "12%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_077",
-    "question": "Simple Interest — Question 77 (add real content in datas/maths/simple-interest.json)",
+    "question": "A certain sum amounts to Rs 16956 in 4 years and to Rs 19116 in 6(1/2) years at a certain rate percent per annum, interest being simple in both the cases. The rate of interest per annum is?",
+    "questionHi": "एक निश्चित राशि 4 वर्षों में 16956 रुपये और 6(1/2) वर्षों में 19116 रुपये प्रति वर्ष एक निश्चित दर प्रतिशत पर, ब्याज दोनों मामलों में सरल है। प्रति वर्ष ब्याज की दर क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6.5%",
+      "7.5%",
+      "6.4%",
+      "7.8%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "6.4%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_078",
-    "question": "Simple Interest — Question 78 (add real content in datas/maths/simple-interest.json)",
+    "question": "A certain sum amounts of 81840 in 3 years and to 92400 in 5 years at x% p.a. under simple interest. If the rate of interest becomes (x+2)%, then in how many years will the same sum double itself?",
+    "questionHi": "x% वार्षिक साधारण ब्याज की दर पर, कोई निश्चित राशि 3 वर्ष में 81,840 और 5 वर्ष में 92,400 हो जाती है। यदि ब्याज दर (x+2)% हो जाती है, तो कितने वर्ष में वही राशि स्वयं की दोगुनी हो जाएगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12(1/2)",
+      "8",
+      "10",
+      "20"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "10",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_079",
-    "question": "Simple Interest — Question 79 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum lent at simple interest amounts to Rs 6,240.80 in one year and to Rs 7,563.20 in 4 years. The sum (in Rs) and the rate of interest per annum, respectively are:",
+    "questionHi": "साधारण ब्याज पर एक ऋण राशि 1 वर्ष में रु 6,240.80 तथा 4 वर्ष में 7,563.20 हो जाती है क्रमशः वह धनराशि (रु में) और वार्षिक ब्याज की दर ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6,200, 8.5%",
+      "5,800, 8.5%",
+      "5,800, 7.6%",
+      "6,200, 7.6%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "5,800, 7.6%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_080",
-    "question": "Simple Interest — Question 80 (add real content in datas/maths/simple-interest.json)",
+    "question": "The ratio of numerical value of rate of interest and time period at a sum invested is 5 : 2 and men get 22.5% of invested sum as interest. Find at the same rate how much interest man will get on the sum of Rs. 1600 for two year?",
+    "questionHi": "एक धनराशि पर साधारण ब्याज की वार्षिक दर और दिए गए समय का संख्यात्मक मान का अनुपात 5:2 है और व्यक्ति को निवेश की राशि का 22.5% हिस्सा ब्याज के रूप में प्राप्त होता है। समान ब्याज की दर से व्यक्ति को 1600 रुपये पर 2 वर्ष में कुल कितना ब्याज मिलेगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "240 Rs.",
+      "180 Rs.",
+      "160 Rs.",
+      "250 Rs."
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "240 Rs.",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_081",
-    "question": "Simple Interest — Question 81 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of ₹10,500 amounts to ₹13,825 in 3(4/5) years at a certain rate percent per annum simple interest. What will be the simple interest (in ₹) on the same sum for 5 years at double the earlier rate?",
+    "questionHi": "₹10,500 की राशि एक निश्चित वार्षिक साधारण ब्याज दर पर 3(4/5) वर्षों में ₹13,825 हो जाती है। उसी राशि पर पहले की दर से दोगुनी दर पर 5 वर्षों का साधारण ब्याज (₹ में) क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8,750",
+      "8,470",
+      "8,560",
+      "8,620"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8,750",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_082",
-    "question": "Simple Interest — Question 82 (add real content in datas/maths/simple-interest.json)",
+    "question": "A certain sum amounts to ₹12,360 in 3 years and to ₹14,400 in 5 years at a certain rate percent per annum simple interest. If the rate of interest is increased by 2%, in how many years will the same sum double itself?",
+    "questionHi": "एक निश्चित राशि एक निश्चित वार्षिक साधारण ब्याज दर पर 3 वर्षों में ₹12,360 और 5 वर्षों में ₹14,400 हो जाती है। यदि ब्याज दर में 2% की वृद्धि की जाती है, तो कितने वर्षों में वही राशि दोगुनी हो जाएगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "9",
+      "10",
+      "12"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "10",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_083",
-    "question": "Simple Interest — Question 83 (add real content in datas/maths/simple-interest.json)",
+    "question": "The simple interest on a sum of money for 3 years at 12% per annum is ₹2,880. What will be the compound interest on the same sum for 2 years at the same rate, compounded annually?",
+    "questionHi": "किसी राशि पर 12% वार्षिक दर से 3 वर्षों का साधारण ब्याज ₹2,880 है। उसी राशि पर समान दर से 2 वर्षों का चक्रवृद्धि ब्याज क्या होगा, यदि ब्याज वार्षिक रूप से संयोजित होता है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹2,016",
+      "₹1,987.20",
+      "₹2,073.60",
+      "₹1,920"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹2,073.60",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_084",
-    "question": "Simple Interest — Question 84 (add real content in datas/maths/simple-interest.json)",
+    "question": "A person invested one-third of his capital at 7%, one-fourth at 8% and the remainder at 10% simple interest per annum. If his annual income from interest is ₹561, find the total capital.",
+    "questionHi": "एक व्यक्ति ने अपनी पूंजी का एक तिहाई 7% पर, एक चौथाई 8% पर और शेष 10% वार्षिक साधारण ब्याज पर निवेश किया। यदि ब्याज से उसकी वार्षिक आय ₹561 है, तो कुल पूंजी ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹6,000",
+      "₹5,600",
+      "₹6,600",
+      "₹7,200"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹6,600",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_085",
-    "question": "Simple Interest — Question 85 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money doubles itself in 8 years at simple interest. In how many years will it become 4 times of itself at the same rate of interest?",
+    "questionHi": "कोई धनराशि साधारण ब्याज पर 8 वर्षों में स्वयं की दोगुनी हो जाती है। समान ब्याज दर पर यह कितने वर्षों में स्वयं की 4 गुनी हो जाएगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16 years",
+      "24 years",
+      "20 years",
+      "32 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "24 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_086",
-    "question": "Simple Interest — Question 86 (add real content in datas/maths/simple-interest.json)",
+    "question": "If the simple interest on a certain sum of money for 2 years at 5% per annum is ₹1,600, find the compound interest on the same sum at the same rate and for the same time.",
+    "questionHi": "यदि एक निश्चित धनराशि पर 2 वर्षों के लिए 5% वार्षिक दर से साधारण ब्याज ₹1,600 है, तो उसी राशि पर समान दर और समान समय के लिए चक्रवृद्धि ब्याज ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,640",
+      "₹1,620",
+      "₹1,680",
+      "₹1,650"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹1,640",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_087",
-    "question": "Simple Interest — Question 87 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money invested at simple interest triples itself in 15 years. Find the rate of interest per annum.",
+    "questionHi": "साधारण ब्याज पर निवेश की गई कोई धनराशि 15 वर्षों में स्वयं की तीन गुनी हो जाती है। वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13(1/3)%",
+      "12.5%",
+      "15%",
+      "10%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "13(1/3)%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_088",
-    "question": "Simple Interest — Question 88 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of ₹4,000 is lent for 5 years at the rate of r% per annum simple interest and another sum of ₹4,500 is lent for 4 years at the rate of (r+1)% per annum simple interest. If the total interest earned is ₹3,480, find the value of r.",
+    "questionHi": "₹4,000 की राशि r% वार्षिक साधारण ब्याज की दर से 5 वर्षों के लिए उधार दी जाती है और ₹4,500 की एक अन्य राशि (r+1)% वार्षिक साधारण ब्याज की दर से 4 वर्षों के लिए उधार दी जाती है। यदि अर्जित कुल ब्याज ₹3,480 है, तो r का मान ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "9",
+      "8.5",
+      "9.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8.5",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_089",
-    "question": "Simple Interest — Question 89 (add real content in datas/maths/simple-interest.json)",
+    "question": "What equal annual installment will discharge a debt of ₹6,450 due in 4 years at 5% per annum simple interest?",
+    "questionHi": "5% वार्षिक साधारण ब्याज की दर से 4 वर्षों में देय ₹6,450 के ऋण को चुकाने के लिए वार्षिक किस्त की राशि क्या होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,500",
+      "₹1,600",
+      "₹1,450",
+      "₹1,550"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹1,500",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_090",
-    "question": "Simple Interest — Question 90 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of ₹15,000 is lent in two parts, one part at 8% per annum and the other at 10% per annum simple interest. If the average annual interest received is 9.2%, find the two parts.",
+    "questionHi": "₹15,000 की राशि को दो भागों में उधार दिया जाता है, एक भाग को 8% वार्षिक और दूसरे भाग को 10% वार्षिक साधारण ब्याज पर। यदि प्राप्त औसत वार्षिक ब्याज 9.2% है, तो दोनों भाग ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹6,000 and ₹9,000",
+      "₹7,000 and ₹8,000",
+      "₹5,000 and ₹10,000",
+      "₹6,500 and ₹8,500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹6,000 and ₹9,000",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_091",
-    "question": "Simple Interest — Question 91 (add real content in datas/maths/simple-interest.json)",
+    "question": "The ratio of principal and amount after a certain time at simple interest is 4 : 5. After 3 more years, the ratio becomes 5 : 7. Find the annual rate of interest.",
+    "questionHi": "साधारण ब्याज पर एक निश्चित समय के बाद मूलधन और मिश्रधन का अनुपात 4 : 5 है। अगले 3 वर्षों के बाद, यह अनुपात 5 : 7 हो जाता है। वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5%",
+      "6%",
+      "7%",
+      "8%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "5%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_092",
-    "question": "Simple Interest — Question 92 (add real content in datas/maths/simple-interest.json)",
+    "question": "In how many years will the simple interest on a sum of money be equal to the principal at the rate of 6(1/4)% per annum?",
+    "questionHi": "6(1/4)% वार्षिक दर से कितने वर्षों में किसी धनराशि पर साधारण ब्याज मूलधन के बराबर हो जाएगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12 years",
+      "16 years",
+      "15 years",
+      "20 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "16 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_093",
-    "question": "Simple Interest — Question 93 (add real content in datas/maths/simple-interest.json)",
+    "question": "A man borrowed a certain sum at 6% per annum simple interest for the first 2 years, 9% per annum for the next 3 years and 14% per annum for the period beyond 5 years. If he pays a total interest of ₹11,400 at the end of 9 years, find the sum borrowed.",
+    "questionHi": "एक व्यक्ति ने एक निश्चित राशि पहले 2 वर्षों के लिए 6% वार्षिक साधारण ब्याज दर पर, अगले 3 वर्षों के लिए 9% वार्षिक दर पर और 5 वर्षों से अधिक की अवधि के लिए 14% वार्षिक दर पर उधार ली। यदि वह 9 वर्षों के अंत में कुल ₹11,400 ब्याज का भुगतान करता है, तो उधार ली गई राशि ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹12,000",
+      "₹15,000",
+      "₹20,000",
+      "₹18,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹15,000",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_094",
-    "question": "Simple Interest — Question 94 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money amounts to ₹7,200 in 2 years and to ₹8,700 in 7 years at simple interest. Find the principal sum.",
+    "questionHi": "कोई धनराशि साधारण ब्याज पर 2 वर्षों में ₹7,200 और 7 वर्षों में ₹8,700 हो जाती है। मूलधन राशि ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹6,000",
+      "₹6,600",
+      "₹6,500",
+      "₹6,200"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹6,600",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_095",
-    "question": "Simple Interest — Question 95 (add real content in datas/maths/simple-interest.json)",
+    "question": "The simple interest on a sum of money is 1/9 of the principal, and the number of years is equal to the rate percent per annum. Find the rate percent per annum.",
+    "questionHi": "किसी धनराशि पर साधारण ब्याज मूलधन का 1/9 है, और वर्षों की संख्या वार्षिक दर प्रतिशत के बराबर है। वार्षिक दर प्रतिशत ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3%",
+      "3(1/3)%",
+      "4%",
+      "2(1/2)%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "3(1/3)%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_096",
-    "question": "Simple Interest — Question 96 (add real content in datas/maths/simple-interest.json)",
+    "question": "If a sum of money at simple interest becomes 11/8 times of itself in 5 years, what is the rate of interest per annum?",
+    "questionHi": "यदि साधारण ब्याज पर कोई धनराशि 5 वर्षों में स्वयं की 11/8 गुना हो जाती है, तो वार्षिक ब्याज दर क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7.5%",
+      "6.5%",
+      "8%",
+      "7%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "7.5%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_097",
-    "question": "Simple Interest — Question 97 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of ₹5,000 amounts to ₹6,500 in 3 years at a certain rate of simple interest. If the rate of interest is increased by 3%, what will be the new amount in the same period?",
+    "questionHi": "₹5,000 की राशि एक निश्चित साधारण ब्याज दर पर 3 वर्षों में ₹6,500 हो जाती है। यदि ब्याज दर में 3% की वृद्धि की जाती है, तो उसी अवधि में नया मिश्रधन क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹6,950",
+      "₹7,000",
+      "₹6,800",
+      "₹7,150"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹6,950",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_098",
-    "question": "Simple Interest — Question 98 (add real content in datas/maths/simple-interest.json)",
+    "question": "The difference between the simple interest received from two different banks on ₹3,000 for 3 years is ₹45. Find the difference between their interest rates.",
+    "questionHi": "दो अलग-अलग बैंकों से ₹3,000 पर 3 वर्षों में प्राप्त साधारण ब्याज का अंतर ₹45 है। उनकी ब्याज दरों के बीच का अंतर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0.5%",
+      "0.25%",
+      "0.75%",
+      "1%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "0.5%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_099",
-    "question": "Simple Interest — Question 99 (add real content in datas/maths/simple-interest.json)",
+    "question": "A person borrows ₹4,000 at 5% p.a. simple interest. He immediately lends it to another person at 6(1/4)% p.a. simple interest for 2 years. Find his gain in the transaction per year.",
+    "questionHi": "एक व्यक्ति 5% वार्षिक साधारण ब्याज दर पर ₹4,000 उधार लेता है। वह इसे तुरंत दूसरे व्यक्ति को 2 वर्षों के लिए 6(1/4)% वार्षिक साधारण ब्याज दर पर उधार दे देता है। इस लेनदेन में प्रति वर्ष उसका लाभ ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹50",
+      "₹60",
+      "₹45",
+      "₹75"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹50",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_100",
-    "question": "Simple Interest — Question 100 (add real content in datas/maths/simple-interest.json)",
+    "question": "At what rate percent per annum simple interest will a sum of money triple itself in 25 years?",
+    "questionHi": "किस वार्षिक साधारण ब्याज दर प्रतिशत पर कोई धनराशि 25 वर्षों में स्वयं की तीन गुनी हो जाएगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6%",
+      "8%",
+      "10%",
+      "12%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_101",
-    "question": "Simple Interest — Question 101 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money amounts to ₹9,440 in 3 years and to ₹10,400 in 5 years at a certain rate of simple interest. Find the annual rate of interest.",
+    "questionHi": "एक निश्चित साधारण ब्याज दर पर कोई धनराशि 3 वर्षों में ₹9,440 और 5 वर्षों में ₹10,400 हो जाती है। वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5%",
+      "6%",
+      "6.5%",
+      "4%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "6%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_102",
-    "question": "Simple Interest — Question 102 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of ₹2,400 amounts to ₹3,264 in 4 years at a certain rate of simple interest. If the rate of interest is decreased by 1%, what will be the amount at the end of 4 years?",
+    "questionHi": "₹2,400 की राशि एक निश्चित साधारण ब्याज दर पर 4 वर्षों में ₹3,264 हो जाती है। यदि ब्याज दर में 1% की कमी की जाती है, तो 4 वर्षों के अंत में मिश्रधन क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹3,168",
+      "₹3,200",
+      "₹3,120",
+      "₹3,048"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹3,168",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_103",
-    "question": "Simple Interest — Question 103 (add real content in datas/maths/simple-interest.json)",
+    "question": "The simple interest on a certain sum of money for 2.5 years at 12% per annum is ₹40 less than the simple interest on the same sum for 3.5 years at 10% per annum. Find the sum.",
+    "questionHi": "एक निश्चित धनराशि पर 12% वार्षिक दर से 2.5 वर्षों का साधारण ब्याज, उसी राशि पर 10% वार्षिक दर से 3.5 वर्षों के साधारण ब्याज से ₹40 कम है। राशि ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹800",
+      "₹1,000",
+      "₹1,200",
+      "₹750"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹800",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_104",
-    "question": "Simple Interest — Question 104 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of ₹1,600 gives a simple interest of ₹252 in 2 years and 3 months. Find the annual rate of interest.",
+    "questionHi": "₹1,600 की राशि पर 2 वर्ष 3 महीने में ₹252 का साधारण ब्याज प्राप्त होता है। वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6%",
+      "7%",
+      "6.5%",
+      "7.5%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "7%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_105",
-    "question": "Simple Interest — Question 105 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money invested at simple interest amounts to ₹8,800 in 3 years and to ₹10,000 in 5 years. Find the principal sum.",
+    "questionHi": "साधारण ब्याज पर निवेश की गई कोई धनराशि 3 वर्षों में ₹8,800 और 5 वर्षों में ₹10,000 हो जाती है। मूलधन राशि ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹7,000",
+      "₹6,500",
+      "₹7,200",
+      "₹6,800"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹7,000",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_106",
-    "question": "Simple Interest — Question 106 (add real content in datas/maths/simple-interest.json)",
+    "question": "A lent ₹5,000 to B for 2 years and ₹3,000 to C for 4 years on simple interest at the same rate of interest and received ₹2,200 in all from both as interest. Find the rate of interest per annum.",
+    "questionHi": "A ने B को 2 वर्षों के लिए ₹5,000 और C को 4 वर्षों के लिए ₹3,000 समान साधारण ब्याज दर पर उधार दिए और दोनों से ब्याज के रूप में कुल ₹2,200 प्राप्त किए। वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8%",
+      "10%",
+      "9%",
+      "7%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "10%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_107",
-    "question": "Simple Interest — Question 107 (add real content in datas/maths/simple-interest.json)",
+    "question": "The simple interest on a sum of money is 4/9 of the principal. If the number of years is equal to the rate percent per annum, find the number of years.",
+    "questionHi": "किसी धनराशि पर साधारण ब्याज मूलधन का 4/9 है। यदि वर्षों की संख्या वार्षिक दर प्रतिशत के बराबर है, तो वर्षों की संख्या ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6 years",
+      "6(2/3) years",
+      "5 years",
+      "7 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "6(2/3) years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_108",
-    "question": "Simple Interest — Question 108 (add real content in datas/maths/simple-interest.json)",
+    "question": "A man invested one-third of his wealth at 4%, one-fourth at 5% and the remainder at 6% simple interest per annum. If his total annual interest income is ₹615, find his total wealth.",
+    "questionHi": "एक व्यक्ति ने अपनी संपत्ति का एक तिहाई 4% पर, एक चौथाई 5% पर और शेष 6% वार्षिक साधारण ब्याज पर निवेश किया। यदि उसकी कुल वार्षिक ब्याज आय ₹615 है, तो उसकी कुल संपत्ति ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹12,000",
+      "₹11,500",
+      "₹12,500",
+      "₹10,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "12,000",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_109",
-    "question": "Simple Interest — Question 109 (add real content in datas/maths/simple-interest.json)",
+    "question": "In what time will a sum of money double itself at 12.5% per annum simple interest?",
+    "questionHi": "12.5% वार्षिक साधारण ब्याज दर पर कोई धनराशि कितने समय में स्वयं की दोगुनी हो जाएगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6 years",
+      "8 years",
+      "7 years",
+      "9 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_110",
-    "question": "Simple Interest — Question 110 (add real content in datas/maths/simple-interest.json)",
+    "question": "The ratio of principal and simple interest for 5 years is 10 : 3. Find the annual rate of interest.",
+    "questionHi": "मूलधन और 5 वर्षों के साधारण ब्याज का अनुपात 10 : 3 है। वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6%",
+      "5%",
+      "7%",
+      "8%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "6%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_111",
-    "question": "Simple Interest — Question 111 (add real content in datas/maths/simple-interest.json)",
+    "question": "A certain sum of money amounts to ₹8,400 in 3 years and to ₹10,000 in 5 years at a certain rate percent per annum simple interest. What will be the simple interest (in ₹) on the same sum for 4 years at half the earlier rate?",
+    "questionHi": "एक निश्चित राशि एक निश्चित वार्षिक साधारण ब्याज दर पर 3 वर्षों में ₹8,400 और 5 वर्षों में ₹10,000 हो जाती है। उसी राशि पर पहले की आधी दर पर 4 वर्षों का साधारण ब्याज (₹ में) क्या होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,600",
+      "₹1,200",
+      "₹1,400",
+      "₹1,800"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹1,600",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_112",
-    "question": "Simple Interest — Question 112 (add real content in datas/maths/simple-interest.json)",
+    "question": "If a sum of money at simple interest becomes 7/5 times of itself in 4 years, what is the rate of interest per annum?",
+    "questionHi": "यदि साधारण ब्याज पर कोई धनराशि 4 वर्षों में स्वयं की 7/5 गुना हो जाती है, तो वार्षिक ब्याज दर क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8%",
+      "10%",
+      "12%",
+      "6%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "10%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_113",
-    "question": "Simple Interest — Question 113 (add real content in datas/maths/simple-interest.json)",
+    "question": "The difference between the simple interest received from two different sources on ₹1,500 for 3 years is ₹13.50. Find the difference between their rates of interest.",
+    "questionHi": "दो अलग-अलग स्रोतों से ₹1,500 पर 3 वर्षों में प्राप्त साधारण ब्याज का अंतर ₹13.50 है। उनकी ब्याज दरों के बीच का अंतर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0.3%",
+      "0.4%",
+      "0.5%",
+      "0.25%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "0.3%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_114",
-    "question": "Simple Interest — Question 114 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of ₹7,000 is divided into two parts such that the simple interest on the first part for 3 years at 6% p.a. is equal to the simple interest on the second part for 4 years at 7% p.a. Find the first part.",
+    "questionHi": "₹7,000 की राशि को दो भागों में इस प्रकार विभाजित किया जाता है कि पहले भाग पर 6% वार्षिक दर से 3 वर्षों का साधारण ब्याज, दूसरे भाग पर 7% वार्षिक दर से 4 वर्षों के साधारण ब्याज के बराबर है। पहला भाग ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹4,200",
+      "₹4,000",
+      "₹3,800",
+      "₹4,500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹4,200",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_115",
-    "question": "Simple Interest — Question 115 (add real content in datas/maths/simple-interest.json)",
+    "question": "At what rate percent per annum simple interest will the interest on a sum of money be 2/5 of the principal in 5 years?",
+    "questionHi": "किस वार्षिक साधारण ब्याज दर प्रतिशत पर किसी धनराशि का 5 वर्षों में ब्याज मूलधन का 2/5 होगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6%",
+      "8%",
+      "10%",
+      "5%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_116",
-    "question": "Simple Interest — Question 116 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money amounts to ₹11,250 in 3 years and to ₹14,250 in 7 years at simple interest. Find the sum.",
+    "questionHi": "कोई धनराशि साधारण ब्याज पर 3 वर्षों में ₹11,250 और 7 वर्षों में ₹14,250 हो जाती है। राशि ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹9,000",
+      "₹8,500",
+      "₹9,500",
+      "₹8,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹9,000",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_117",
-    "question": "Simple Interest — Question 117 (add real content in datas/maths/simple-interest.json)",
+    "question": "A person borrows ₹5,000 for 2 years at 4% per annum simple interest. He immediately lends it to another person at 6(1/4)% per annum simple interest for 2 years. Find his total gain in the transaction.",
+    "questionHi": "एक व्यक्ति 4% वार्षिक साधारण ब्याज दर पर 2 वर्षों के लिए ₹5,000 उधार लेता है। वह इसे तुरंत दूसरे व्यक्ति को 2 वर्षों के लिए 6(1/4)% वार्षिक साधारण ब्याज दर पर उधार दे देता है। इस लेनदेन में उसका कुल लाभ ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹225",
+      "₹250",
+      "₹112.50",
+      "₹125"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹225",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_118",
-    "question": "Simple Interest — Question 118 (add real content in datas/maths/simple-interest.json)",
+    "question": "The simple interest on a sum of money is 16/25 of the principal. If the number of years is equal to the rate percent per annum, find the rate of interest per annum.",
+    "questionHi": "किसी धनराशि पर साधारण ब्याज मूलधन का 16/25 है। यदि वर्षों की संख्या वार्षिक दर प्रतिशत के बराबर है, तो वार्षिक ब्याज दर ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8%",
+      "6%",
+      "10%",
+      "12%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "8%",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_119",
-    "question": "Simple Interest — Question 119 (add real content in datas/maths/simple-interest.json)",
+    "question": "What equal half-yearly installment will discharge a debt of ₹4,620 due in 2 years at 10% per annum simple interest?",
+    "questionHi": "10% वार्षिक साधारण ब्याज की दर से 2 वर्षों में देय ₹4,620 के ऋण को चुकाने के लिए अर्धवार्षिक किस्त की राशि क्या होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,000",
+      "₹1,050",
+      "₹1,100",
+      "₹1,150"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "₹1,050",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_120",
-    "question": "Simple Interest — Question 120 (add real content in datas/maths/simple-interest.json)",
+    "question": "A sum of money doubles itself in 5 years at a certain rate of simple interest. In how many years will it become 8 times of itself at the same rate?",
+    "questionHi": "कोई धनराशि एक निश्चित साधारण ब्याज दर पर 5 वर्षों में स्वयं की दोगुनी हो जाती है। समान दर पर यह कितने वर्षों में स्वयं की 8 गुनी हो जाएगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "35 years",
+      "30 years",
+      "25 years",
+      "40 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Simple Interest."
+    "correctAnswer": "35 years",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_simple_interest_121",

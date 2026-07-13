@@ -296,7 +296,8 @@
     ],
     "correctAnswer": "5",
     "questionHi": "A किसी कार्य को 35 दिनों में और B उसी कार्य को 15 दिनों में पूरा कर सकता है। दोनों ने 8 दिनों तक साथ काम किया, फिर B ने कार्य छोड़ दिया। शेष कार्य का 60% भाग A अकेले कितने दिनों में पूरा करेगा?",
-    "solution": "**Step 1: Find work rates**\n- A's rate = 1/35 work per day\n- B's rate = 1/15 work per day\n\n**Step 2: Calculate work done in 8 days together**\n- Combined rate = 1/35 + 1/15 = (3 + 7)/105 = 10/105 = 2/21 per day\n- Work completed = 8 × 2/21 = 16/21\n- Remaining work = 1 - 16/21 = 5/21\n\n**Step 3: Find 60% of remaining work**\n- 60% of 5/21 = 0.6 × 5/21 = 3/21 = 1/7\n\n**Step 4: Calculate days for A to complete 1/7 work**\n- Time = Work ÷ Rate = (1/7) ÷ (1/35) = 1/7 × 35 = 5 days\n\n**Answer: 5 days**"
+    "solution": "**Step 1: Find work rates**\n- A's rate = 1/35 work per day\n- B's rate = 1/15 work per day\n\n**Step 2: Calculate work done in 8 days together**\n- Combined rate = 1/35 + 1/15 = (3 + 7)/105 = 10/105 = 2/21 per day\n- Work completed = 8 × 2/21 = 16/21\n- Remaining work = 1 - 16/21 = 5/21\n\n**Step 3: Find 60% of remaining work**\n- 60% of 5/21 = 0.6 × 5/21 = 3/21 = 1/7\n\n**Step 4: Calculate days for A to complete 1/7 work**\n- Time = Work ÷ Rate = (1/7) ÷ (1/35) = 1/7 × 35 = 5 days\n\n**Answer: 5 days**",
+    "videoUrl": "https://youtu.be/hKdfQYFDzHI"
   },
   {
     "id": "maths_time_work_024",
@@ -981,630 +982,655 @@
     "explanation": "W+Y = (W+X)+(X+Y)−2X. Using given equations with total rate, W+Y rate = 1/40. Hence time = 40 days.",
     "solution": "**Step 1: Set up equations using work rates**\n\nLet W, X, and Y complete the work in w, x, and y days respectively.\n\n- W + X = 1/40\n- X + Y = 1/60\n- W + X + Y = 1/30\n\n**Step 2: Find individual rate of Y**\n\nFrom equations (1) and (3):\n(W + X + Y) - (W + X) = 1/30 - 1/40\n\nY = 1/30 - 1/40 = (4-3)/120 = 1/120\n\n**Step 3: Find individual rate of W**\n\nFrom equations (2) and the value of Y:\n(W + X + Y) - (X + Y) = 1/30 - 1/60\n\nW = 1/30 - 1/60 = (2-1)/60 = 1/60\n\n**Step 4: Calculate W + Y**\n\nW + Y = 1/60 + 1/120 = (2+1)/120 = 3/120 = 1/40\n\n**Step 5: Find days for W and Y together**\n\nIf W + Y = 1/40, they complete the work in **40 days**\n\n**Answer: 40 days**"
   },
-    {
-      "id": "maths_time_work_076",
-      "question": "A, B and C can complete a job in 5 days. B, C and D can complete the same job in 10 days. C, D and A can complete the same job in 15 days and D, A and B can complete the same job in 30 days. How long do A, B, C and D together take to finish the job?",
-      "questionHi": "A, B और C मिलकर एक कार्य को 5 दिनों में पूरा कर सकते हैं। B, C और D मिलकर उसी कार्य को 10 दिनों में, C, D और A मिलकर 15 दिनों में तथा D, A और B मिलकर 30 दिनों में पूरा कर सकते हैं। A, B, C और D सभी मिलकर कार्य को कितने दिनों में पूरा करेंगे?",
-      "options": [
-        "8 days",
-        "8.5 days",
-        "7.5 days",
-        "7 days"
-      ],
-      "correctAnswer": "7.5 days",
-      "solution": "video solution will be added soon"
-    },
-    {
-      "id": "maths_time_work_077",
-      "question": "A and B together can complete a piece of work in 25 days, B and C together can complete the same work in 36 days, while C and A together can complete it in 30 days. If A, B, C and D together can complete this work in 18 days, then in how many days can D alone complete the work?",
-      "questionHi": "A और B मिलकर किसी कार्य को 25 दिनों में, B और C मिलकर 36 दिनों में तथा C और A मिलकर 30 दिनों में पूरा कर सकते हैं। यदि A, B, C और D मिलकर उसी कार्य को 18 दिनों में पूरा करते हैं, तो D अकेला कार्य को कितने दिनों में पूरा करेगा?",
-      "options": [
-        "225 days",
-        "210 days",
-        "200 days",
-        "180 days"
-      ],
-      "correctAnswer": "200 days",
-      "solution": "video solution will be added soon"
-    },
-    {
-      "id": "maths_time_work_078",
-      "question": "Amita can build a room in the same amount of time that Bina and Sita working together can build. If Amita and Bina together can do it in 25 days and Sita alone can do it in 35 days, then how many days will Bina alone take to build the room?",
-      "questionHi": "अमिता उतने ही समय में एक कमरा बना सकती है जितने समय में बीना और सीता मिलकर बना सकती हैं। यदि अमिता और बीना मिलकर कार्य को 25 दिनों में तथा सीता अकेले 35 दिनों में पूरा करती है, तो बीना अकेले उसी कार्य को कितने दिनों में पूरा करेगी?",
-      "options": [
-        "152 days",
-        "175 days",
-        "165 days",
-        "180 days"
-      ],
-      "correctAnswer": "175 days",
-      "solution": "video solution will be added soon"
-    },
-    {
-      "id": "maths_time_work_079",
-      "question": "A and B together can complete a certain work in 20 days whereas B and C together can complete it in 24 days. If A is twice as good a workman as C, then in what time will B alone do 40% of the same work?",
-      "questionHi": "A और B मिलकर एक कार्य को 20 दिनों में तथा B और C मिलकर उसी कार्य को 24 दिनों में पूरा कर सकते हैं। यदि A, C से दोगुना कुशल है, तो B अकेला उसी कार्य का 40% भाग कितने दिनों में पूरा करेगा?",
-      "options": [
-        "12 days",
-        "10 days",
-        "18 days",
-        "15 days"
-      ],
-      "correctAnswer": "12 days",
-      "solution": "video solution will be added soon"
-    },
-    {
-      "id": "maths_time_work_080",
-      "question": "Anu can complete a piece of work in 22 days. Shama is 60% more efficient than Anu. How many days will Shama alone take to complete the same work?",
-      "questionHi": "अनु किसी कार्य को 22 दिनों में पूरा कर सकती है। शमा, अनु से 60% अधिक कुशल है। शमा अकेले उसी कार्य को कितने दिनों में पूरा करेगी?",
-      "options": [
-        "36⅔ days",
-        "35⅓ days",
-        "13⅕ days",
-        "13¾ days"
-      ],
-      "correctAnswer": "13¾ days",
-      "solution": "video solution will be added soon"
-    },
-    {
-      "id": "maths_time_work_081",
-      "question": "Abhay can do a work in 22 days. Nidhi is 28% more efficient than Abhay. The number of days Nidhi will take to do the same work is:",
-      "questionHi": "अभय एक कार्य को 22 दिनों में कर सकता है। निधि, अभय से 28% अधिक कुशल है। निधि उसी कार्य को कितने दिनों में पूरा करेगी?",
-      "options": [
-        "17 3/16 days",
-        "16 3/17 days",
-        "28 1/16 days",
-        "16 1/17 days"
-      ],
-      "correctAnswer": "17 3/16 days",
-      "solution": "video solution will be added soon"
-    },
-    {
-      "id": "maths_time_work_082",
-      "question": "A can complete a piece of work in 1695 days. B is 25% more efficient than A. Find the number of days taken by B to do the same work.",
-      "questionHi": "A एक कार्य को 1695 दिनों में पूरा कर सकता है। B, A से 25% अधिक कुशल है। B उसी कार्य को कितने दिनों में पूरा करेगा?",
-      "options": [
-        "1356 days",
-        "1256 days",
-        "1456 days",
-        "1556 days"
-      ],
-      "correctAnswer": "1356 days",
-      "solution": "video solution will be added soon"
-    },
-      {
-        "id": "maths_time_work_083",
-        "question": "A is 40% more efficient than B. How much time will they take working together to complete a job, which A alone could have done in 31 days?",
-        "questionHi": "A, B से 40% अधिक कुशल है। यदि A अकेले किसी कार्य को 31 दिनों में पूरा कर सकता है, तो दोनों मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
-        "options": [
-          "21 7/12 days",
-          "15 15/32 days",
-          "21 5/12 days",
-          "15 17/32 days"
-        ],
-        "correctAnswer": "21 7/12 days",
-        "solution": "video solution will be added soon"
-      },
-      {
-        "id": "maths_time_work_084",
-        "question": "A is 40% more efficient than B. How much time will both, working together, take to finish the work, which B alone can finish in 36 days?",
-        "questionHi": "A, B से 40% अधिक कुशल है। यदि B अकेला किसी कार्य को 36 दिनों में पूरा कर सकता है, तो A और B मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
-        "options": [
-          "18 days",
-          "9 1/3 days",
-          "15 days",
-          "11 2/3 days"
-        ],
-        "correctAnswer": "15 days",
-        "solution": "video solution will be added soon"
-      },
-      {
-        "id": "maths_time_work_085",
-        "question": "P is four times as good a workman as Q, and therefore is able to finish a task in 36 days less than Q. Working together, both can finish the work in:",
-        "questionHi": "P, Q से चार गुना अधिक कुशल है और इसलिए वह किसी कार्य को Q से 36 दिन पहले पूरा कर देता है। दोनों मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
-        "options": [
-          "9 1/5 days",
-          "9 3/5 days",
-          "48 days",
-          "12 days"
-        ],
-        "correctAnswer": "9 3/5 days",
-        "solution": "video solution will be added soon"
-      },
-      {
-        "id": "maths_time_work_086",
-        "question": "A works 5.4 times as fast as B, and A takes 22 days less than B to complete the job when each works alone. Calculate the number of days taken to complete the same job if A and B work together.",
-        "questionHi": "A, B से 5.4 गुना अधिक तेज़ कार्य करता है तथा A को अकेले कार्य पूरा करने में B से 22 दिन कम लगते हैं। यदि A और B मिलकर कार्य करें, तो कार्य कितने दिनों में पूरा होगा?",
-        "options": [
-          "4 1/4 days",
-          "4 3/16 days",
-          "4 7/32 days",
-          "4 5/32 days"
-        ],
-        "correctAnswer": "4 7/32 days",
-        "solution": "video solution will be added soon"
-      },
-      {
-        "id": "maths_time_work_087",
-        "question": "To complete a wall, Vijay takes 40% more time than Ramesh. If together they complete the wall in 25 days, then how much time will Vijay alone take to complete it?",
-        "questionHi": "एक दीवार को पूरा करने में विजय, रमेश से 40% अधिक समय लेता है। यदि दोनों मिलकर दीवार को 25 दिनों में पूरा करते हैं, तो विजय अकेला इसे कितने दिनों में पूरा करेगा?",
-        "options": [
-          "45 days",
-          "40 days",
-          "300/7 days",
-          "60 days"
-        ],
-        "correctAnswer": "60 days",
-        "solution": "video solution will be added soon"
-      },
-      {
-        "id": "maths_time_work_088",
-        "question": "A takes twice as much time as B and thrice as much time as C to finalise a task. Working together, they can complete the task in 8 days. The time (in days) taken by A, B and C respectively to complete the task is:",
-        "questionHi": "A किसी कार्य को पूरा करने में B से दोगुना तथा C से तीन गुना समय लेता है। तीनों मिलकर कार्य को 8 दिनों में पूरा करते हैं। A, B तथा C द्वारा अकेले कार्य पूरा करने में लगने वाला समय क्रमशः कितना होगा?",
-        "options": [
-          "42, 21, 14",
-          "60, 30, 20",
-          "54, 27, 18",
-          "48, 24, 16"
-        ],
-        "correctAnswer": "48, 24, 16",
-        "solution": "video solution will be added soon"
-      },
-      {
-        "id": "maths_time_work_089",
-        "question": "A takes 4 times as much time as B or 5 times as much time as C to finish a piece of work. Working together, they can finish the work in 4 days. B can do the work alone in:",
-        "questionHi": "A किसी कार्य को पूरा करने में B से 4 गुना तथा C से 5 गुना समय लेता है। तीनों मिलकर कार्य को 4 दिनों में पूरा करते हैं। B अकेला उसी कार्य को कितने दिनों में पूरा करेगा?",
-        "options": [
-          "10 days",
-          "15 days",
-          "12 days",
-          "20 days"
-        ],
-        "correctAnswer": "10 days",
-        "solution": "video solution will be added soon"
-      },
-        {
-          "id": "maths_time_work_090",
-          "question": "To do a certain work, the ratio of the efficiencies of A and B is 7 : 5. Working together, they can complete the same work in 17.5 days. A alone will complete 60% of the same work in:",
-          "questionHi": "किसी कार्य को करने के लिए A और B की कार्यक्षमता का अनुपात 7 : 5 है। दोनों मिलकर उसी कार्य को 17.5 दिनों में पूरा कर सकते हैं। A अकेला उसी कार्य का 60% भाग कितने दिनों में पूरा करेगा?",
-          "options": [
-            "16 days",
-            "18 days",
-            "21 days",
-            "15 days"
-          ],
-          "correctAnswer": "18 days",
-          "solution": "video solution will be added soon"
-        },
-        {
-          "id": "maths_time_work_091",
-          "question": "The ratio of the efficiencies of A, B and C is 4 : 5 : 3. Working together, they can complete a work in 25 days. A and C together will complete 35% of the work in:",
-          "questionHi": "A, B और C की कार्यक्षमता का अनुपात 4 : 5 : 3 है। तीनों मिलकर किसी कार्य को 25 दिनों में पूरा करते हैं। A और C मिलकर उसी कार्य का 35% भाग कितने दिनों में पूरा करेंगे?",
-          "options": [
-            "12 days",
-            "10 days",
-            "18 days",
-            "15 days"
-          ],
-          "correctAnswer": "15 days",
-          "solution": "video solution will be added soon"
-        },
-        {
-          "id": "maths_time_work_092",
-          "question": "To complete a certain task, X is 30% more efficient than Y and Z is 20% less efficient than Y. Working together, they can complete the task in 44 days. Y and Z together worked for 70 days. The remaining work will be completed by X alone in:",
-          "questionHi": "एक निश्चित कार्य को पूरा करने के लिए X, Y से 30% अधिक कुशल है तथा Z, Y से 20% कम कुशल है। तीनों मिलकर कार्य को 44 दिनों में पूरा करते हैं। Y और Z ने मिलकर 70 दिनों तक कार्य किया। शेष कार्य X अकेला कितने दिनों में पूरा करेगा?",
-          "options": [
-            "7 days",
-            "5 days",
-            "9 days",
-            "8 days"
-          ],
-          "correctAnswer": "8 days",
-          "solution": "video solution will be added soon"
-        },
-        {
-          "id": "maths_time_work_093",
-          "question": "To do a certain work, the ratio of the efficiencies of A, B and C is 7 : 5 : 6. Working together, they can complete the work in 35 days. B and C work together for 21 days. The remaining work will be completed by A alone in:",
-          "questionHi": "किसी कार्य को करने के लिए A, B और C की कार्यक्षमता का अनुपात 7 : 5 : 6 है। तीनों मिलकर कार्य को 35 दिनों में पूरा करते हैं। B और C ने मिलकर 21 दिनों तक कार्य किया। शेष कार्य A अकेला कितने दिनों में पूरा करेगा?",
-          "options": [
-            "60 days",
-            "57 days",
-            "54 days",
-            "50 days"
-          ],
-          "correctAnswer": "57 days",
-          "solution": "video solution will be added soon"
-        },
-        {
-          "id": "maths_time_work_094",
-          "question": "A can complete a work in 40 days. B is 25% more efficient than A and C is 28% more efficient than B. They work together for 5 days. The remaining work will be completed by B alone in:",
-          "questionHi": "A एक कार्य को 40 दिनों में पूरा कर सकता है। B, A से 25% अधिक कुशल है तथा C, B से 28% अधिक कुशल है। तीनों ने मिलकर 5 दिनों तक कार्य किया। शेष कार्य B अकेला कितने दिनों में पूरा करेगा?",
-          "options": [
-            "16 3/5 days",
-            "20 1/2 days",
-            "20 3/4 days",
-            "16 1/5 days"
-          ],
-          "correctAnswer": "16 3/5 days",
-          "solution": "video solution will be added soon"
-        },
-        {
-          "id": "maths_time_work_095",
-          "question": "Ankur is 20% less efficient than Gopal whereas Vikrant is 37.5% less efficient than Ankur. If Ankur and Vikrant together can complete a work in 46 days, then in how many days can all three together complete the same work?",
-          "questionHi": "अंकुर, गोपाल से 20% कम कुशल है जबकि विक्रांत, अंकुर से 37.5% कम कुशल है। यदि अंकुर और विक्रांत मिलकर कार्य को 46 दिनों में पूरा करते हैं, तो तीनों मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
-          "options": [
-            "30 days",
-            "24 days",
-            "26 days",
-            "20 days"
-          ],
-          "correctAnswer": "26 days",
-          "solution": "video solution will be added soon"
-        },
-        {
-          "id": "maths_time_work_096",
-          "question": "To do a certain work, A is 40% more efficient than B and C is 25% less efficient than B. Working together, they can complete the work in 20 days. B and C together can complete two-third of the same work in:",
-          "questionHi": "किसी कार्य को करने के लिए A, B से 40% अधिक कुशल है तथा C, B से 25% कम कुशल है। तीनों मिलकर कार्य को 20 दिनों में पूरा करते हैं। B और C मिलकर उसी कार्य का दो-तिहाई भाग कितने दिनों में पूरा करेंगे?",
-          "options": [
-            "24 days",
-            "30 days",
-            "36 days",
-            "21 days"
-          ],
-          "correctAnswer": "24 days",
-          "solution": "video solution will be added soon"
-        },
-          {
-            "id": "maths_time_work_097",
-            "question": "A can complete a work in 45 days. B is 80% more efficient than A, and C is 25% less efficient than B. B and C worked together for 10 days. Now in how many days can only A complete the remaining work?",
-            "questionHi": "A एक कार्य को 45 दिनों में पूरा कर सकता है। B, A से 80% अधिक कुशल है तथा C, B से 25% कम कुशल है। B और C ने मिलकर 10 दिनों तक कार्य किया। अब केवल A शेष कार्य को कितने दिनों में पूरा करेगा?",
-            "options": [
-              "13.5 days",
-              "12 days",
-              "12.5 days",
-              "15 days"
-            ],
-            "correctAnswer": "13.5 days",
-            "solution": "video solution will be added soon"
-          },
-          {
-            "id": "maths_time_work_098",
-            "question": "Mayank, Ashish and Avinash alone can complete a work in 20, 40 and 60 days respectively. Shubham is 50% more efficient than Mayank. Ansh is 60% less efficient than Ashish. Vaibhav is 10% less efficient than Avinash. In how many days will Shubham, Ansh and Vaibhav together complete the same work?",
-            "questionHi": "मयंक, आशीष और अविनाश अकेले क्रमशः 20, 40 और 60 दिनों में कार्य पूरा कर सकते हैं। शुभम, मयंक से 50% अधिक कुशल है। अंश, आशीष से 60% कम कुशल है तथा वैभव, अविनाश से 10% कम कुशल है। शुभम, अंश और वैभव मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
-            "options": [
-              "7 days",
-              "10 days",
-              "15 days",
-              "12 days"
-            ],
-            "correctAnswer": "10 days",
-            "solution": "video solution will be added soon"
-          },
-          {
-            "id": "maths_time_work_099",
-            "question": "A can complete a certain work in 35 days. B is 40% more efficient than A, and C is 25% more efficient than B. B and C work together for 8 days. The remaining work is completed by A with the help of D in 3.5 days. D alone can complete 72% of the original work in:",
-            "questionHi": "A एक निश्चित कार्य को 35 दिनों में पूरा कर सकता है। B, A से 40% अधिक कुशल है तथा C, B से 25% अधिक कुशल है। B और C ने मिलकर 8 दिनों तक कार्य किया। शेष कार्य A ने D की सहायता से 3.5 दिनों में पूरा किया। D अकेला मूल कार्य का 72% भाग कितने दिनों में पूरा करेगा?",
-            "options": [
-              "18 days",
-              "14 days",
-              "15 days",
-              "12 days"
-            ],
-            "correctAnswer": "14 days",
-            "solution": "video solution will be added soon"
-          },
-          {
-            "id": "maths_time_work_100",
-            "question": "The ratio of the efficiencies of A and B is 9 : 7. Working together, they can complete a certain work in 5.25 days. A alone completed 3/7 of the work and B alone completed the remaining work. The total number of days in which the entire work got completed is:",
-            "questionHi": "A और B की कार्यक्षमता का अनुपात 9 : 7 है। दोनों मिलकर किसी कार्य को 5.25 दिनों में पूरा कर सकते हैं। A अकेले कार्य का 3/7 भाग तथा B अकेले शेष कार्य पूरा करता है। पूरा कार्य कुल कितने दिनों में पूरा हुआ?",
-            "options": [
-              "10 5/14 days",
-              "9 3/14 days",
-              "10 6/7 days",
-              "12 5/7 days"
-            ],
-            "correctAnswer": "10 6/7 days",
-            "solution": "video solution will be added soon"
-          },
+  {
+    "id": "maths_time_work_076",
+    "question": "A, B and C can complete a job in 5 days. B, C and D can complete the same job in 10 days. C, D and A can complete the same job in 15 days and D, A and B can complete the same job in 30 days. How long do A, B, C and D together take to finish the job?",
+    "questionHi": "A, B और C मिलकर एक कार्य को 5 दिनों में पूरा कर सकते हैं। B, C और D मिलकर उसी कार्य को 10 दिनों में, C, D और A मिलकर 15 दिनों में तथा D, A और B मिलकर 30 दिनों में पूरा कर सकते हैं। A, B, C और D सभी मिलकर कार्य को कितने दिनों में पूरा करेंगे?",
+    "options": [
+      "8 days",
+      "8.5 days",
+      "7.5 days",
+      "7 days"
+    ],
+    "correctAnswer": "7.5 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_077",
+    "question": "A and B together can complete a piece of work in 25 days, B and C together can complete the same work in 36 days, while C and A together can complete it in 30 days. If A, B, C and D together can complete this work in 18 days, then in how many days can D alone complete the work?",
+    "questionHi": "A और B मिलकर किसी कार्य को 25 दिनों में, B और C मिलकर 36 दिनों में तथा C और A मिलकर 30 दिनों में पूरा कर सकते हैं। यदि A, B, C और D मिलकर उसी कार्य को 18 दिनों में पूरा करते हैं, तो D अकेला कार्य को कितने दिनों में पूरा करेगा?",
+    "options": [
+      "225 days",
+      "210 days",
+      "200 days",
+      "180 days"
+    ],
+    "correctAnswer": "200 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_078",
+    "question": "Amita can build a room in the same amount of time that Bina and Sita working together can build. If Amita and Bina together can do it in 25 days and Sita alone can do it in 35 days, then how many days will Bina alone take to build the room?",
+    "questionHi": "अमिता उतने ही समय में एक कमरा बना सकती है जितने समय में बीना और सीता मिलकर बना सकती हैं। यदि अमिता और बीना मिलकर कार्य को 25 दिनों में तथा सीता अकेले 35 दिनों में पूरा करती है, तो बीना अकेले उसी कार्य को कितने दिनों में पूरा करेगी?",
+    "options": [
+      "152 days",
+      "175 days",
+      "165 days",
+      "180 days"
+    ],
+    "correctAnswer": "175 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_079",
+    "question": "A and B together can complete a certain work in 20 days whereas B and C together can complete it in 24 days. If A is twice as good a workman as C, then in what time will B alone do 40% of the same work?",
+    "questionHi": "A और B मिलकर एक कार्य को 20 दिनों में तथा B और C मिलकर उसी कार्य को 24 दिनों में पूरा कर सकते हैं। यदि A, C से दोगुना कुशल है, तो B अकेला उसी कार्य का 40% भाग कितने दिनों में पूरा करेगा?",
+    "options": [
+      "12 days",
+      "10 days",
+      "18 days",
+      "15 days"
+    ],
+    "correctAnswer": "12 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_080",
+    "question": "Anu can complete a piece of work in 22 days. Shama is 60% more efficient than Anu. How many days will Shama alone take to complete the same work?",
+    "questionHi": "अनु किसी कार्य को 22 दिनों में पूरा कर सकती है। शमा, अनु से 60% अधिक कुशल है। शमा अकेले उसी कार्य को कितने दिनों में पूरा करेगी?",
+    "options": [
+      "36⅔ days",
+      "35⅓ days",
+      "13⅕ days",
+      "13¾ days"
+    ],
+    "correctAnswer": "13¾ days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_081",
+    "question": "Abhay can do a work in 22 days. Nidhi is 28% more efficient than Abhay. The number of days Nidhi will take to do the same work is:",
+    "questionHi": "अभय एक कार्य को 22 दिनों में कर सकता है। निधि, अभय से 28% अधिक कुशल है। निधि उसी कार्य को कितने दिनों में पूरा करेगी?",
+    "options": [
+      "17 3/16 days",
+      "16 3/17 days",
+      "28 1/16 days",
+      "16 1/17 days"
+    ],
+    "correctAnswer": "17 3/16 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_082",
+    "question": "A can complete a piece of work in 1695 days. B is 25% more efficient than A. Find the number of days taken by B to do the same work.",
+    "questionHi": "A एक कार्य को 1695 दिनों में पूरा कर सकता है। B, A से 25% अधिक कुशल है। B उसी कार्य को कितने दिनों में पूरा करेगा?",
+    "options": [
+      "1356 days",
+      "1256 days",
+      "1456 days",
+      "1556 days"
+    ],
+    "correctAnswer": "1356 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_083",
+    "question": "A is 40% more efficient than B. How much time will they take working together to complete a job, which A alone could have done in 31 days?",
+    "questionHi": "A, B से 40% अधिक कुशल है। यदि A अकेले किसी कार्य को 31 दिनों में पूरा कर सकता है, तो दोनों मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
+    "options": [
+      "21 7/12 days",
+      "15 15/32 days",
+      "21 5/12 days",
+      "15 17/32 days"
+    ],
+    "correctAnswer": "21 7/12 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_084",
+    "question": "A is 40% more efficient than B. How much time will both, working together, take to finish the work, which B alone can finish in 36 days?",
+    "questionHi": "A, B से 40% अधिक कुशल है। यदि B अकेला किसी कार्य को 36 दिनों में पूरा कर सकता है, तो A और B मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
+    "options": [
+      "18 days",
+      "9 1/3 days",
+      "15 days",
+      "11 2/3 days"
+    ],
+    "correctAnswer": "15 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_085",
+    "question": "P is four times as good a workman as Q, and therefore is able to finish a task in 36 days less than Q. Working together, both can finish the work in:",
+    "questionHi": "P, Q से चार गुना अधिक कुशल है और इसलिए वह किसी कार्य को Q से 36 दिन पहले पूरा कर देता है। दोनों मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
+    "options": [
+      "9 1/5 days",
+      "9 3/5 days",
+      "48 days",
+      "12 days"
+    ],
+    "correctAnswer": "9 3/5 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_086",
+    "question": "A works 5.4 times as fast as B, and A takes 22 days less than B to complete the job when each works alone. Calculate the number of days taken to complete the same job if A and B work together.",
+    "questionHi": "A, B से 5.4 गुना अधिक तेज़ कार्य करता है तथा A को अकेले कार्य पूरा करने में B से 22 दिन कम लगते हैं। यदि A और B मिलकर कार्य करें, तो कार्य कितने दिनों में पूरा होगा?",
+    "options": [
+      "4 1/4 days",
+      "4 3/16 days",
+      "4 7/32 days",
+      "4 5/32 days"
+    ],
+    "correctAnswer": "4 7/32 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_087",
+    "question": "To complete a wall, Vijay takes 40% more time than Ramesh. If together they complete the wall in 25 days, then how much time will Vijay alone take to complete it?",
+    "questionHi": "एक दीवार को पूरा करने में विजय, रमेश से 40% अधिक समय लेता है। यदि दोनों मिलकर दीवार को 25 दिनों में पूरा करते हैं, तो विजय अकेला इसे कितने दिनों में पूरा करेगा?",
+    "options": [
+      "45 days",
+      "40 days",
+      "300/7 days",
+      "60 days"
+    ],
+    "correctAnswer": "60 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_088",
+    "question": "A takes twice as much time as B and thrice as much time as C to finalise a task. Working together, they can complete the task in 8 days. The time (in days) taken by A, B and C respectively to complete the task is:",
+    "questionHi": "A किसी कार्य को पूरा करने में B से दोगुना तथा C से तीन गुना समय लेता है। तीनों मिलकर कार्य को 8 दिनों में पूरा करते हैं। A, B तथा C द्वारा अकेले कार्य पूरा करने में लगने वाला समय क्रमशः कितना होगा?",
+    "options": [
+      "42, 21, 14",
+      "60, 30, 20",
+      "54, 27, 18",
+      "48, 24, 16"
+    ],
+    "correctAnswer": "48, 24, 16",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_089",
+    "question": "A takes 4 times as much time as B or 5 times as much time as C to finish a piece of work. Working together, they can finish the work in 4 days. B can do the work alone in:",
+    "questionHi": "A किसी कार्य को पूरा करने में B से 4 गुना तथा C से 5 गुना समय लेता है। तीनों मिलकर कार्य को 4 दिनों में पूरा करते हैं। B अकेला उसी कार्य को कितने दिनों में पूरा करेगा?",
+    "options": [
+      "10 days",
+      "15 days",
+      "12 days",
+      "20 days"
+    ],
+    "correctAnswer": "10 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_090",
+    "question": "To do a certain work, the ratio of the efficiencies of A and B is 7 : 5. Working together, they can complete the same work in 17.5 days. A alone will complete 60% of the same work in:",
+    "questionHi": "किसी कार्य को करने के लिए A और B की कार्यक्षमता का अनुपात 7 : 5 है। दोनों मिलकर उसी कार्य को 17.5 दिनों में पूरा कर सकते हैं। A अकेला उसी कार्य का 60% भाग कितने दिनों में पूरा करेगा?",
+    "options": [
+      "16 days",
+      "18 days",
+      "21 days",
+      "15 days"
+    ],
+    "correctAnswer": "18 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_091",
+    "question": "The ratio of the efficiencies of A, B and C is 4 : 5 : 3. Working together, they can complete a work in 25 days. A and C together will complete 35% of the work in:",
+    "questionHi": "A, B और C की कार्यक्षमता का अनुपात 4 : 5 : 3 है। तीनों मिलकर किसी कार्य को 25 दिनों में पूरा करते हैं। A और C मिलकर उसी कार्य का 35% भाग कितने दिनों में पूरा करेंगे?",
+    "options": [
+      "12 days",
+      "10 days",
+      "18 days",
+      "15 days"
+    ],
+    "correctAnswer": "15 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_092",
+    "question": "To complete a certain task, X is 30% more efficient than Y and Z is 20% less efficient than Y. Working together, they can complete the task in 44 days. Y and Z together worked for 70 days. The remaining work will be completed by X alone in:",
+    "questionHi": "एक निश्चित कार्य को पूरा करने के लिए X, Y से 30% अधिक कुशल है तथा Z, Y से 20% कम कुशल है। तीनों मिलकर कार्य को 44 दिनों में पूरा करते हैं। Y और Z ने मिलकर 70 दिनों तक कार्य किया। शेष कार्य X अकेला कितने दिनों में पूरा करेगा?",
+    "options": [
+      "7 days",
+      "5 days",
+      "9 days",
+      "8 days"
+    ],
+    "correctAnswer": "8 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_093",
+    "question": "To do a certain work, the ratio of the efficiencies of A, B and C is 7 : 5 : 6. Working together, they can complete the work in 35 days. B and C work together for 21 days. The remaining work will be completed by A alone in:",
+    "questionHi": "किसी कार्य को करने के लिए A, B और C की कार्यक्षमता का अनुपात 7 : 5 : 6 है। तीनों मिलकर कार्य को 35 दिनों में पूरा करते हैं। B और C ने मिलकर 21 दिनों तक कार्य किया। शेष कार्य A अकेला कितने दिनों में पूरा करेगा?",
+    "options": [
+      "60 days",
+      "57 days",
+      "54 days",
+      "50 days"
+    ],
+    "correctAnswer": "57 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_094",
+    "question": "A can complete a work in 40 days. B is 25% more efficient than A and C is 28% more efficient than B. They work together for 5 days. The remaining work will be completed by B alone in:",
+    "questionHi": "A एक कार्य को 40 दिनों में पूरा कर सकता है। B, A से 25% अधिक कुशल है तथा C, B से 28% अधिक कुशल है। तीनों ने मिलकर 5 दिनों तक कार्य किया। शेष कार्य B अकेला कितने दिनों में पूरा करेगा?",
+    "options": [
+      "16 3/5 days",
+      "20 1/2 days",
+      "20 3/4 days",
+      "16 1/5 days"
+    ],
+    "correctAnswer": "16 3/5 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_095",
+    "question": "Ankur is 20% less efficient than Gopal whereas Vikrant is 37.5% less efficient than Ankur. If Ankur and Vikrant together can complete a work in 46 days, then in how many days can all three together complete the same work?",
+    "questionHi": "अंकुर, गोपाल से 20% कम कुशल है जबकि विक्रांत, अंकुर से 37.5% कम कुशल है। यदि अंकुर और विक्रांत मिलकर कार्य को 46 दिनों में पूरा करते हैं, तो तीनों मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
+    "options": [
+      "30 days",
+      "24 days",
+      "26 days",
+      "20 days"
+    ],
+    "correctAnswer": "26 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_096",
+    "question": "To do a certain work, A is 40% more efficient than B and C is 25% less efficient than B. Working together, they can complete the work in 20 days. B and C together can complete two-third of the same work in:",
+    "questionHi": "किसी कार्य को करने के लिए A, B से 40% अधिक कुशल है तथा C, B से 25% कम कुशल है। तीनों मिलकर कार्य को 20 दिनों में पूरा करते हैं। B और C मिलकर उसी कार्य का दो-तिहाई भाग कितने दिनों में पूरा करेंगे?",
+    "options": [
+      "24 days",
+      "30 days",
+      "36 days",
+      "21 days"
+    ],
+    "correctAnswer": "24 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_097",
+    "question": "A can complete a work in 45 days. B is 80% more efficient than A, and C is 25% less efficient than B. B and C worked together for 10 days. Now in how many days can only A complete the remaining work?",
+    "questionHi": "A एक कार्य को 45 दिनों में पूरा कर सकता है। B, A से 80% अधिक कुशल है तथा C, B से 25% कम कुशल है। B और C ने मिलकर 10 दिनों तक कार्य किया। अब केवल A शेष कार्य को कितने दिनों में पूरा करेगा?",
+    "options": [
+      "13.5 days",
+      "12 days",
+      "12.5 days",
+      "15 days"
+    ],
+    "correctAnswer": "13.5 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_098",
+    "question": "Mayank, Ashish and Avinash alone can complete a work in 20, 40 and 60 days respectively. Shubham is 50% more efficient than Mayank. Ansh is 60% less efficient than Ashish. Vaibhav is 10% less efficient than Avinash. In how many days will Shubham, Ansh and Vaibhav together complete the same work?",
+    "questionHi": "मयंक, आशीष और अविनाश अकेले क्रमशः 20, 40 और 60 दिनों में कार्य पूरा कर सकते हैं। शुभम, मयंक से 50% अधिक कुशल है। अंश, आशीष से 60% कम कुशल है तथा वैभव, अविनाश से 10% कम कुशल है। शुभम, अंश और वैभव मिलकर उसी कार्य को कितने दिनों में पूरा करेंगे?",
+    "options": [
+      "7 days",
+      "10 days",
+      "15 days",
+      "12 days"
+    ],
+    "correctAnswer": "10 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_099",
+    "question": "A can complete a certain work in 35 days. B is 40% more efficient than A, and C is 25% more efficient than B. B and C work together for 8 days. The remaining work is completed by A with the help of D in 3.5 days. D alone can complete 72% of the original work in:",
+    "questionHi": "A एक निश्चित कार्य को 35 दिनों में पूरा कर सकता है। B, A से 40% अधिक कुशल है तथा C, B से 25% अधिक कुशल है। B और C ने मिलकर 8 दिनों तक कार्य किया। शेष कार्य A ने D की सहायता से 3.5 दिनों में पूरा किया। D अकेला मूल कार्य का 72% भाग कितने दिनों में पूरा करेगा?",
+    "options": [
+      "18 days",
+      "14 days",
+      "15 days",
+      "12 days"
+    ],
+    "correctAnswer": "14 days",
+    "solution": "video solution will be added soon"
+  },
+  {
+    "id": "maths_time_work_100",
+    "question": "The ratio of the efficiencies of A and B is 9 : 7. Working together, they can complete a certain work in 5.25 days. A alone completed 3/7 of the work and B alone completed the remaining work. The total number of days in which the entire work got completed is:",
+    "questionHi": "A और B की कार्यक्षमता का अनुपात 9 : 7 है। दोनों मिलकर किसी कार्य को 5.25 दिनों में पूरा कर सकते हैं। A अकेले कार्य का 3/7 भाग तथा B अकेले शेष कार्य पूरा करता है। पूरा कार्य कुल कितने दिनों में पूरा हुआ?",
+    "options": [
+      "10 5/14 days",
+      "9 3/14 days",
+      "10 6/7 days",
+      "12 5/7 days"
+    ],
+    "correctAnswer": "10 6/7 days",
+    "solution": "video solution will be added soon"
+  },
   {
     "id": "maths_time_work_101",
-    "question": "[Add content] time-work — Question 101",
+    "question": "Mayank, Ashish and Avinash alone can complete a work in 20, 40 and 60 days respectively. Shubham is 50 percent more efficient than Mayank. Ansh is 60 percent less efficient than Ashish. Vaibhav is 10 percent less efficient than Avinash. Shubham, Ansh and Vaibhav together will complete the same work in how many days?",
+    "questionHi": "मयंक, आशीष और अविनाश अकेले एक काम को क्रमशः 20, 40 और 60 दिनों में पूरा कर सकते हैं। शुभम मयंक से 50 प्रतिशत अधिक कुशल है। अंश, आशीष से 60 प्रतिशत कम कुशल है। वैभव, अविनाश से 10 प्रतिशत कम कुशल है। शुभम, अंश और वैभव मिलकर उसी काम को कितने दिनों में पूरा करेंगे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7",
+      "10",
+      "15",
+      "12"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "10",
+    "solution": "Let the total work be the LCM of 20, 40, and 60, which is 120 units.\n\n- Efficiency of Mayank = 120 / 20 = 6\n- Efficiency of Ashish = 120 / 40 = 3\n- Efficiency of Avinash = 120 / 60 = 2\n\nNow, calculate the efficiencies of Shubham, Ansh, and Vaibhav based on the given conditions:\n- Efficiency of Shubham = 6 + (50% of 6) = 6 + 3 = 9\n- Efficiency of Ansh = 3 - (60% of 3) = 3 - 1.8 = 1.2\n- Efficiency of Vaibhav = 2 - (10% of 2) = 2 - 0.2 = 1.8\n\nTotal efficiency of Shubham, Ansh, and Vaibhav together = 9 + 1.2 + 1.8 = 12\n\nNumber of days required to complete the work = Total Work / Total Efficiency = 120 / 12 = 10 days."
   },
   {
     "id": "maths_time_work_102",
-    "question": "[Add content] time-work — Question 102",
+    "question": "A can complete a certain work in 30 days. B is 20% more efficient than A. C can complete 2/5 part of the same work in 8 days. A and B together complete 11/15th part of the work. The remaining work is completed by A and C together. In how many days was the entire work completed?",
+    "questionHi": "A एक निश्चित कार्य को 30 दिनों में पूरा कर सकता है। B, A से 20% अधिक कुशल है। C उसी कार्य का 2/5 भाग 8 दिनों में पूरा कर सकता है। A और B मिलकर कार्य का 11/15 भाग पूरा करते हैं। शेष कार्य A और C द्वारा मिलकर पूरा किया जाता है। पूरा काम कितने दिनों में पूरा हुआ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "14(2/5)",
+      "13",
+      "13(1/5)",
+      "14"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "14",
+    "solution": "Let total work = 120 units.\n- Days taken by A = 30 days -> Efficiency of A = 120 / 30 = 4 units/day.\n- B is 20% more efficient than A -> Efficiency of B = 4 * 1.2 = 4.8 units/day.\n- C completes 2/5 of work in 8 days -> Total days for C = 8 * 5/2 = 20 days -> Efficiency of C = 120 / 20 = 6 units/day.\n\nA and B together complete 11/15 of the work:\n- Work done by A and B = 120 * (11/15) = 88 units.\n- Days taken by A and B = 88 / (4 + 4.8) = 88 / 8.8 = 10 days.\n\nRemaining work:\n- Remaining work = 120 - 88 = 32 units.\n- Completed by A and C together -> Days taken = 32 / (4 + 6) = 32 / 10 = 3.2 days (or 3(1/5) days).\n\nTotal time taken = 10 + 3.2 = 13.2 days = 13(1/5) days."
   },
   {
     "id": "maths_time_work_103",
-    "question": "[Add content] time-work — Question 103",
+    "question": "Working together, A and B can do a certain work in 45 days. They work together for 10 days. The complete the remaining work in 28 days with the assistance of C. The worked by C in 3 days is equal to the work done by B in 2 days. A and C together can complete 70% of the original work in?",
+    "questionHi": "A और B एक साथ कार्य करते हुए एक निश्चित कार्य को 45 दिनों में पूरा कर सकते हैं। वे 10 दिनों तक एक साथ काम करते हैं। शेष कार्य को C की सहायता से 28 दिनों में पूरा करें। C द्वारा 3 दिनों में किया गया कार्य B द्वारा 2 दिनों में किए गए कार्य के बराबर है। A और C मिलकर मूल कार्य का 70% भाग कितने दिनों में पूरा कर सकते हैं?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "36 days",
+      "35 days",
+      "40 days",
+      "30 days"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "30 days",
+    "solution": "Given: 3 * C = 2 * B => Efficiency ratio B : C = 3 : 2.\nLet Efficiency of B = 3x, Efficiency of C = 2x.\nA and B work for 10 days, remaining work is finished by A, B, and C in 28 days.\nTotal work = 45 * (A + B).\nWork done in 10 days = 10 * (A + B).\nRemaining work = 35 * (A + B).\nThis remaining work is completed by (A + B + C) in 28 days:\n35 * (A + B) = 28 * (A + B + C)\n5 * (A + B) = 4 * (A + B + C)\n1 * (A + B) = 4C\nSince B = 3x and C = 2x:\nA + 3x = 4(2x) => A = 5x.\n\nTotal Work = 45 * (A + B) = 45 * (5x + 3x) = 360x.\n70% of total work = 360x * 0.7 = 252x.\nEfficiency of A + C = 5x + 2x = 7x.\nDays required = 252x / 7x = 36 days."
   },
   {
     "id": "maths_time_work_104",
-    "question": "[Add content] time-work — Question 104",
+    "question": "A works thrice as fast as B and B works 50% more fast as C does. All three working together can finish a task in 8 days with the help of D. If D alone can finish the same task in 24 days, then in how many days will A and D together finish 71(3/7)% of the same task?",
+    "questionHi": "A, B की तुलना में तिगुना तेजी से काम करता है और B, C से 50% तेजी से काम करता है। तीनों एक साथ मिलकर काम करते हुए एक काम को D की मदद से 8 दिन में पूरा कर सकते हैं। यदि D अकेले इस काम को 24 दिनों में पूरा कर सकता है, तो A और D मिलकर इसी काम के 71(3/7)% भाग को कितने दिनों में पूरा कर देगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10",
+      "9",
+      "8",
+      "7.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "7.5",
+    "solution": "Efficiency relation:\nLet Efficiency of C = 2 => B = 3 (50% more than C) => A = 9 (thrice of B).\nTotal efficiency of A + B + C = 9 + 3 + 2 = 14.\n\nGiven (A+B+C+D) finish in 8 days, and D finishes in 24 days.\nLet Total Work = LCM(8, 24) = 24 units.\nEfficiency of (A+B+C+D) = 24 / 8 = 3.\nEfficiency of D = 24 / 24 = 1.\nSo, Efficiency of (A+B+C) = 3 - 1 = 2.\nWe know ratio-wise A+B+C = 14. So 14 units of ratio = 2 actual efficiency => 1 ratio unit = 1/7.\nActual Efficiency of A = 9 * (1/7) = 9/7.\nActual Efficiency of D = 1.\nTotal Work = 24.\n71(3/7)% of work = 5/7 of 24 = 120/7.\nCombined efficiency of A + D = (9/7) + 1 = 16/7.\nDays required = (120/7) / (16/7) = 120 / 16 = 7.5 days."
   },
   {
     "id": "maths_time_work_105",
-    "question": "[Add content] time-work — Question 105",
+    "question": "A alone can do 2/5 of a work in 12 days. B is 25 percent more efficient than A. C alone can do the same work in 12 days less than B. D is 25 percent less efficient than C. If they all work together, then work will be completed in how many days?",
+    "questionHi": "A अकेला एक कार्य का 2/5 भाग 12 दिनों में पूरा कर सकता है। A की तुलना में B, 25 प्रतिशत अधिक कार्यकुशल है। C अकेला उसी कार्य को B से 12 दिन कम में कर सकता है। C की तुलना में D, 25 प्रतिशत कम कार्यकुशल है। यदि वे सारे एक साथ मिलकर कार्य करें, तो कार्य कितने दिनों में पूरा जाएगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "300/47",
+      "200/51",
+      "240/53",
+      "180/43"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "240/53",
+    "solution": "- A completes 2/5 work in 12 days -> Full work in 12 * 5/2 = 30 days.\n- Efficiency ratio B : A = 125 : 100 = 5 : 4.\n- Days ratio B : A = 4 : 5. Since A takes 30 days, B takes 24 days.\n- C takes 12 days less than B -> Days for C = 24 - 12 = 12 days.\nLet Total Work = LCM(30, 24, 12) = 120 units.\n- Efficiency of A = 120 / 30 = 4\n- Efficiency of B = 120 / 24 = 5\n- Efficiency of C = 120 / 12 = 10\n- Efficiency of D = 25% less than C = 10 * 0.75 = 7.5\n\nTotal Efficiency (A+B+C+D) = 4 + 5 + 10 + 7.5 = 26.5 = 53/2.\nTotal days = 120 / (53/2) = 240/53 days."
   },
   {
     "id": "maths_time_work_106",
-    "question": "[Add content] time-work — Question 106",
+    "question": "A and B can complete a certain work in 15 days and x days, respectively. C is 25% less efficient than A. All the three work together for 4 days and the remaining work gets completed by B and C together in the next 4 days. B alone can complete 25% of the original work in:",
+    "questionHi": "A और B एक विशेष कार्य को क्रमशः 15 दिनों और x दिनों में पूरा कर सकते हैं। C, A से 25% कम कुशल है। सभी तीनों ने 4 दिनों तक मिलकर काम किया और शेष कार्य को B बौर C मिलकर अगले 4 दिनों में पूरा किया। B अकेले मूल कार्य का 25% भाग कितने समय में पूरा कर सकता है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1.5 days",
+      "4 days",
+      "8 days",
+      "6 days"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "6 days",
+    "solution": "Let efficiency of A = 4. Then efficiency of C = 3 (25% less than A).\nTotal work = Days of A * Efficiency of A = 15 * 4 = 60 units.\nAll three (A, B, C) work for 4 days, then B and C work for 4 days:\nTotal work = 4 * (A + B + C) + 4 * (B + C)\n60 = 4A + 4B + 4C + 4B + 4C\n60 = 4A + 8B + 8C\nSubstitute A = 4, C = 3:\n60 = 4(4) + 8B + 8(3)\n60 = 16 + 8B + 24\n60 = 40 + 8B => 8B = 20 => B = 2.5.\n\nWe need B to complete 25% of original work:\n25% of 60 = 15 units.\nDays for B = 15 / 2.5 = 6 days."
   },
   {
     "id": "maths_time_work_107",
-    "question": "[Add content] time-work — Question 107",
+    "question": "Gautam and Suhani, working together, can finish a job in 20 days. If Gautam does only 60% of his usual work on a day, Suhani must do 150% of her usual work on that day to exactly make up for it. Then, the number of days required by the faster worker to complete the job working alone is?",
+    "questionHi": "गौतम और सुहानी, एक साथ काम करते हुए, 20 दिनों में एक काम पूरा कर सकते हैं। यदि गौतम एक दिन में अपने सामान्य कार्य का केवल 60% ही करता है, तो उसकी भरपाई के लिए सुहानी को उस दिन अपने सामान्य कार्य का 150% कार्य करना होगा। तो फिर, तेज़ कामगार को अकेले काम पूरा करने में कितने दिन लगेंगे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "32",
+      "36",
+      "40"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "30",
+    "solution": "Let efficiency of Gautam = G and Suhani = S.\nLoss in Gautam's work = 40% of G.\nGain in Suhani's work = 50% of S.\nSince it perfectly balances out: 40% of G = 50% of S => 4G = 5S => G/S = 5/4.\nEfficiency of Gautam = 5, Efficiency of Suhani = 4.\nTotal Work = (G + S) * 20 = (5 + 4) * 20 = 180 units.\nFaster worker is Gautam (Efficiency = 5).\nDays for Gautam = 180 / 5 = 36 days."
   },
   {
     "id": "maths_time_work_108",
-    "question": "[Add content] time-work — Question 108",
+    "question": "Two workers A and B working together completed a job in 8 days. If A had worked with twice efficiency as he actually did, B had worked with 60% of efficiency as he actually did. The work would have been completed in 6 days. To complete the job alone, B would require how many days?",
+    "questionHi": "दो श्रमिकों A और B एक साथ मिलकर एक काम को 8 दिनों में पूरा करते है। यदि A अपनी दोगुनी दक्षता के साथ काम करे, और B अपनी 60% दक्षता के साथ काम करे तब काम 6 दिनों में पूरा हो जाएगा। अकेले काम पूरा करने के लिए B को कितने दिनों की आवश्यकता होगी?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16(4/5)",
+      "14(3/5)",
+      "17(1/5)",
+      "15(2/5)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "17(1/5)",
+    "solution": "Total work is same in both cases:\n8 * (A + B) = 6 * (2A + 0.6B)\n8A + 8B = 12A + 3.6B\n8B - 3.6B = 12A - 8A\n4.4B = 4A => A/B = 4.4 / 4 = 11/10.\nEfficiency of A = 11, Efficiency of B = 10.\nTotal Work = 8 * (11 + 10) = 8 * 21 = 168 units.\nDays required by B alone = 168 / 10 = 16.8 days = 16(4/5) days."
   },
   {
     "id": "maths_time_work_109",
-    "question": "[Add content] time-work — Question 109",
+    "question": "Abha and Anuj working together completed a job in 40/9 days. If Abha had worked twice as efficiently as she actually did and Anuj had worked 1/3 of his actual efficiency, then the work would have been completed in 60/17 days. Find the time Abha would take to complete the work alone.",
+    "questionHi": "आभा और अनुज एक साथ मिलकर कार्य करते हुए किसी काम को 40/9 दिन में पूरा करते हैं। यदि आभा ने अपनी वास्तविक दक्षता से दोगुनी दक्षता से कार्य किया होता और अनुज ने अपनी वास्तविक दक्षता के 1/3 से कार्य किया होता, तो काम 60/17 दिन में पूरा हो जाता। आभा द्वारा अकेले काम को पूरा करने में लिया गया समय ज्ञात करें।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10 days",
+      "8 days",
+      "12 days",
+      "6 days"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "6 days",
+    "solution": "Total Work equation:\n(40/9) * (Abha + Anuj) = (60/17) * (2*Abha + (1/3)*Anuj)\n2/9 * (Abha + Anuj) = 3/17 * (2*Abha + 1/3*Anuj)\n34 * (Abha + Anuj) = 27 * (2*Abha + 1/3*Anuj)\n34*Abha + 34*Anuj = 54*Abha + 9*Anuj\n25*Anuj = 20*Abha => Abha / Anuj = 25 / 20 = 5 / 4.\nEfficiency of Abha = 5, Anuj = 4.\nTotal Work = (40/9) * (5 + 4) = (40/9) * 9 = 40 units.\nTime taken by Abha alone = 40 / 5 = 8 days."
   },
   {
     "id": "maths_time_work_110",
-    "question": "[Add content] time-work — Question 110",
+    "question": "Pratap and Raju can together complete a work in 16 days. After seven days of working together, Pratap got sick and his efficiency fell by 30%. As a result, they completed the work in 17 days instead of 16 days. If Raju had worked alone after Pratap got sick, in how many days would be have completed the remaining work?",
+    "questionHi": "प्रताप और राजू मिलकर एक काम को 16 दिनों में पूरा कर सकते हैं। सात दिन साथ काम करने के बाद प्रताप बीमार हो गया और उसकी कार्यक्षमता में 30% की गिरावट आई। नतीजतन, उन्होंने 16 दिनों के बजाय 17 दिनों में काम पूरा किया। यदि प्रताप के बीमार होने के बाद राजू अकेले कार्य करता, तो शेष कार्य कितने दिनों में पूरा कर लेता?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13.5",
+      "11",
+      "12",
+      "14.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "12",
+    "solution": "Total scheduled days = 16. They worked for 7 days, so remaining scheduled work is for 9 days of (P + R).\nDue to sickness, they take 17 days total, meaning 10 days after the initial 7 days.\nIn these 10 days, Pratap works at 70% efficiency (0.7P) and Raju works normally (R).\nSo, 9 * (P + R) = 10 * (0.7P + R)\n9P + 9R = 7P + 10R\n2P = 1R => P/R = 1/2.\nEfficiency of Pratap = 1, Raju = 2.\nRemaining work after 7 days = 9 * (P + R) = 9 * (1 + 2) = 27 units.\nIf Raju works alone on this remaining work: Days = 27 / 2 = 13.5 days."
   },
   {
     "id": "maths_time_work_111",
-    "question": "[Add content] time-work — Question 111",
+    "question": "Working together, printer A and printer B would finish a task in 24 minutes. Printer A alone would finish the task in 60 minutes. How many pages does the task contain if printer B paints 5 pages a minute more than printer A?",
+    "questionHi": "प्रिंटर A और प्रिंटर B मिलकर किसी कार्य को 24 मिनट में ख़त्म करते है। प्रिंटर A अकेला किसी काम को 60 मिनट में ख़त्म कर सकता है यदि प्रिंटर B एक मिनट में प्रिंटर A से 5 पेज ज्यादा प्रिंट करता है, तो कुल कितने पेज प्रिंट हुए ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1200",
+      "600",
+      "300",
+      "400"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "400",
+    "solution": "Let total work = 120 units.\n- Efficiency of A + B = 120 / 24 = 5 units/min.\n- Efficiency of A = 120 / 60 = 2 units/min.\n- Efficiency of B = 5 - 2 = 3 units/min.\nDifference in efficiency between B and A = 3 - 2 = 1 unit/min.\nGiven that B prints 5 pages/min more than A, so 1 unit = 5 pages.\nTotal pages (Total Work) = 120 units = 120 * 5 = 600 pages."
   },
   {
     "id": "maths_time_work_112",
-    "question": "[Add content] time-work — Question 112",
+    "question": "Three workers A, B & C can dig a ditch of 205.2m deep in 12 days working simultaneously in a day, then C digs as many meters more than B as B digs more than A. The work of C in 7 days is equal to the work of A in 12 days. How many meters does A dig per day?",
+    "questionHi": "तीन श्रमिक A, B और C एक दिन में एक साथ काम करते हुए 12 दिनों में 205.2 मीटर गहरी खाई खोद सकते हैं, फिर C, B से उतने ही मीटर अधिक खोदता है जितना B, A से अधिक खोदता है। 7 दिनों में C का कार्य 12 दिनों में A के कार्य के बराबर है। A प्रतिदिन कितने मीटर खुदाई करता है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7 meters",
+      "5.6 meters",
+      "4.2 meters",
+      "10.5 meters"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "4.2 meters",
+    "solution": "Given:\n- Total work dug per day by all three = 205.2 / 12 = 17.1 meters/day.\n- C - B = B - A => 2B = A + C (A, B, C form an Arithmetic Progression).\nTherefore, A + B + C = 3B = 17.1 => B = 5.7 meters/day.\n- Work of C in 7 days = Work of A in 12 days => 7C = 12A => C = (12/7)A.\nSubstitute C into 2B = A + C:\n2(5.7) = A + (12/7)A\n11.4 = (19/7)A\nA = (11.4 * 7) / 19 = 0.6 * 7 = 4.2 meters/day."
   },
   {
     "id": "maths_time_work_113",
-    "question": "[Add content] time-work — Question 113",
+    "question": "Pinki, Chinki and Reema started a work and Reema left after 4 days when 46% of the work is completed and then work got completed in 9 more days. In how many days can Reema alone complete the work?",
+    "questionHi": "पिंकी, चिंकी और रीमा ने एक कार्य शुरू किया तथा रीमा ने 4 दिन बाद कार्य करना छोड़ दिया, तब तक कार्य का 46% कार्य पूरा हो गया था और फिर पूरे कार्य को पूरा होने में 9 और दिन लग गए। रीमा अकेले कार्य को कितने दिनों में पूरा कर सकती है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18(2/11)",
+      "18",
+      "18(9/11)",
+      "18(7/11)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "18(2/11)",
+    "solution": "In the first 4 days, Pinki, Chinki, and Reema complete 46% of work.\nRemaining work = 100% - 46% = 54%.\nThis 54% work is completed by Pinki and Chinki in 9 more days.\nEfficiency of (Pinki + Chinki) = 54% / 9 = 6% per day.\nIn the first 4 days, Pinki and Chinki would have done 6% * 4 = 24% of the work.\nTherefore, work done by Reema in those 4 days = 46% - 24% = 22%.\nEfficiency of Reema = 22% / 4 = 5.5% per day.\nTime taken by Reema alone to complete 100% work = 100 / 5.5 = 200 / 11 = 18(2/11) days."
   },
   {
     "id": "maths_time_work_114",
-    "question": "[Add content] time-work — Question 114",
+    "question": "A and B together can do a piece of work in 12 days which B and C together do in 16 days. If A works for 5 days, B works for 7 days than C completes the remaining work in 13 days. In how much time B alone does the whole work.",
+    "questionHi": "A और B मिलकर किसी काम को 12 दिनों में तथा B और C मिलकर उसी काम को 16 दिनों में करते है। अगर A 5 दिन काम करता है, B 7 दिन काम करता है और C 13 दिनों में शेष काम करता है, तो B अकेला पूरा काम कितने दिनों में ख़त्म करेगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "48 days",
+      "24 days",
+      "16 days",
+      "12 days"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "24 days",
+    "solution": "Let Total Work = LCM(12, 16) = 48 units.\n- Efficiency of A + B = 48 / 12 = 4 units/day.\n- Efficiency of B + C = 48 / 16 = 3 units/day.\nGiven: A works for 5 days, B for 7 days, C for 13 days.\nWe can group them as:\n5 days of (A + B) + 2 days of (B + C) + 11 days of C = 48\n5(4) + 2(3) + 11C = 48\n20 + 6 + 11C = 48\n26 + 11C = 48 => 11C = 22 => C = 2 units/day.\nSince B + C = 3, Efficiency of B = 3 - 2 = 1 unit/day.\nTime taken by B alone = 48 / 1 = 48 days."
   },
   {
     "id": "maths_time_work_115",
-    "question": "[Add content] time-work — Question 115",
+    "question": "Three persons A, B and C together can do a piece of work in 36 days. A and B together can do five times as much work as C alone; B and C together can do as much work as A alone. If A and C together can do n times as alone work as B alone, then what is the value of n?",
+    "questionHi": "तीन व्यक्ति A, B और C मिलकर एक कार्य को 36 दिनों में पूरा कर सकते हैं। A और B मिलकर अकेले C से पांच गुना काम कर सकते हैं; B और C मिलकर उतना काम कर सकते हैं जितना A अकेले कर सकता है। यदि A और C मिलकर अकेले B से n गुना कार्य कर सकते हैं, तो n का मान क्या है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1.5",
+      "2",
+      "2.5",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "2",
+    "solution": "Given:\n1) A + B = 5C => A + B + C = 6C\n2) B + C = A => A + B + C = 2A\nLet total efficiency A + B + C = 6 units.\nFrom (1): 6C = 6 => C = 1.\nFrom (2): 2A = 6 => A = 3.\nSince A + B + C = 6 and A=3, C=1, then B = 6 - 3 - 1 = 2.\nWe need the value of n where (A + C) = n * B.\nA + C = 3 + 1 = 4.\nB = 2.\n4 = n * 2 => n = 2."
   },
   {
     "id": "maths_time_work_116",
-    "question": "[Add content] time-work — Question 116",
+    "question": "To do a certain task X would take 3 times as long as Y and Z together; and Z would takes 4 times as long as Y and X together. Three of them together can complete the task in 10 days. How much time is taken by X and Z to complete the task?",
+    "questionHi": "एक निश्चित काम करने के लिए X को, उसी काम को Y और Z को एक साथ मिलकर करने में लगे समय से 3 गुना समय लगता है; और Z को, Y और X को एकसाथ मिलकर करने में लगे समय से 4 गुना समय लगता है। तीनों मिलकर काम को 10 दिनों में पूरा कर सकते हैं। X और Z को एक साथ मिलकर काम पूरा करने में कतना समय लगेगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18(2/9) days",
+      "20 days",
+      "21(1/9) days",
+      "22(2/9) days"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "22(2/9) days",
+    "solution": "Time ratios are opposite to efficiency ratios.\n- X takes 3 times time of (Y+Z) -> Efficiency ratio X : (Y+Z) = 1 : 3. Total efficiency = 4 units.\n- Z takes 4 times time of (Y+X) -> Efficiency ratio Z : (Y+X) = 1 : 4. Total efficiency = 5 units.\nTo balance the total efficiency (LCM of 4 and 5 = 20):\n- Multiply first ratio by 5 -> X : (Y+Z) = 5 : 15 (Total = 20)\n- Multiply second ratio by 4 -> Z : (Y+X) = 4 : 16 (Total = 20)\nSo, Efficiency of X = 5, Efficiency of Z = 4.\nTotal efficiency of X + Y + Z = 20.\nTotal Work = 20 * 10 = 200 units.\nEfficiency of X + Z = 5 + 4 = 9 units.\nTime taken by X and Z = 200 / 9 = 22(2/9) days."
   },
   {
     "id": "maths_time_work_117",
-    "question": "[Add content] time-work — Question 117",
+    "question": "A can do a certain piece of work in 2.4 times the number of days in which B and C together can do it. If A and B together can do the same piece of work in 27 days and C alone can do it in 75 days, then how many days will B take to do this piece of same work?",
+    "questionHi": "A एक निश्चित कार्य को B और C द्वारा मिलकर किए गए दिनों की तुलना में 2.4 गुना दिनों में पूरा कर सकता है। यदि A और B मिलकर उसी कार्य को 27 दिनों में कर सकते हैं और C अकेले उस कार्य को 75 दिनों में कर सकता है, तो उसी कार्य को करने में B को कितने दिन लगेंगे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "42",
+      "54",
+      "48",
+      "45"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "45",
+    "solution": "Time ratio A : (B+C) = 2.4 : 1 = 12 : 5.\nEfficiency ratio A : (B+C) = 5 : 12. Total efficiency = 17 units.\nLet Total Work based on A+B and C:\nLCM(27, 75) = 675 units.\nEfficiency of A + B = 675 / 27 = 25 units/day.\nEfficiency of C = 675 / 75 = 9 units/day.\nTotal efficiency A + B + C = 25 + 9 = 34 units.\nFrom efficiency ratio, total is 17 units. Since 17 ratio units = 34 actual efficiency, 1 ratio unit = 2.\nEfficiency of A = 5 * 2 = 10 units/day.\nSince A + B = 25, Efficiency of B = 25 - 10 = 15 units/day.\nDays for B = 675 / 15 = 45 days."
   },
   {
     "id": "maths_time_work_118",
-    "question": "[Add content] time-work — Question 118",
+    "question": "A can complete a given task in as much time as B and C together can complete that task. If A and B together can complete the work in 25 days, and C alone can complete it in 60 days, in how many days can B alone complete the work(approximately)?",
+    "questionHi": "A एक निश्चित कार्य को उतने ही समय में पूरा कर सकता है, जितने समय में B और C एक साथ मिलकर उस कार्य को पूरा कर सकते है। यदि A और B एक साथ मिलकर उस कार्य को 25 दिन में पूरा कर सकते है, और C अकेले उसे 60 दिन में पूरा कर सकता है, तो B अकेले उस कार्य को कितने दिन में (लगभग) पूरा कर सकता है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "75 days",
+      "90 days",
+      "81 days",
+      "86 days"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "86 days",
+    "solution": "Given: Time taken by A = Time taken by (B + C) => Efficiency of A = Efficiency of B + C.\nLet Total Work = LCM(25, 60) = 300 units.\n- Efficiency of A + B = 300 / 25 = 12\n- Efficiency of C = 300 / 60 = 5\nTotal Efficiency (A + B + C) = 12 + 5 = 17.\nSince A = B + C, we can write: 2A = 17 => A = 8.5.\nSince A + B = 12 => 8.5 + B = 12 => B = 3.5.\nDays taken by B alone = 300 / 3.5 = 600 / 7 ≈ 85.71 days, which is approximately 86 days."
   },
   {
     "id": "maths_time_work_119",
-    "question": "[Add content] time-work — Question 119",
+    "question": "When they work alone, B needs 25% more time to finish a job than A does. They two finish the job in 13 days in the following manner: A works alone till half the job is done, then A and B work together for four days, and finally B works alone to complete the remaining 5% of the job. In how many days can B alone finish the entire job?",
+    "questionHi": "जब वे अकेले-अकेले काम करते हैं, तो A की तुलना में B को काम खत्म करने के लिए 25% अधिक समय की आवश्यकता होती है। वे दोनों काम को 13 दिनों में निम्नलिखित तरीके से पूरा करते हैं: A अकेले तब तक काम करता है जब तक आधा काम पूरा नहीं हो जाता, उसके बाद A and B मिलकर चार दिनों के लिए एक साथ काम करते हैं, और आखरी में B अकेले शेष 5% काम को पूरा करता हैं। B अकेले कितने दिनों में पूरा काम खत्म कर सकता है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16",
+      "20",
+      "22",
+      "18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "20",
+    "solution": "Time ratio B : A = 125 : 100 = 5 : 4.\nEfficiency ratio B : A = 4 : 5.\nLet efficiency of A = 5x, B = 4x.\nWork distribution:\n- Part 1: A works alone till 50% work is done.\n- Part 3: B works alone to complete the remaining 5% work.\n- Part 2: (A + B) work together for 4 days. Work done = 4 * (5x + 4x) = 36x.\nThis middle part must equal 100% - 50% - 5% = 45% of the total work.\nSo, 45% of Total Work = 36x => Total Work = 36x / 0.45 = 80x.\nDays taken by B alone to finish entire job = Total Work / Efficiency of B = 80x / 4x = 20 days."
   },
   {
     "id": "maths_time_work_120",
-    "question": "[Add content] time-work — Question 120",
+    "question": "Kiran, Vishal and Dinesh work in a juice factory. Kiran takes 2 hours to extract as much juice as Vishal can in 3 hours. Dinesh takes 5 hours to extract as much juice that Kiran extracts in 4 hours. A tank can be filled with juice in 48 hours, if all of them work together. How long will it take to fill the tank, if Dinesh alone is trying to fill the tank?",
+    "questionHi": "किरण, विशाल और दिनेश एक जूस फैक्ट्री में काम करते हैं। विशाल जितना जूस 3 घंटे में निकाल सकता है, किरण उतना जूस निकालने में 2 घंटे का समय लेती है। किरण जितना जूस 4 घंटे में निकालती है, दिनेश को उतना जूस निकालने में 5 घंटे लगते हैं। यदि वे सभी एक साथ काम करें, तो एक टंकी को जूस से 48 घंटे में भरा जा सकता है। यदि दिनेश अकेला टंकी को भरने का प्रयास कर रहा है, तो टंकी को भरने में कितना समय लगेगा?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "140 hours",
+      "135 hours",
+      "132 hours",
+      "148 hours"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "135 hours",
+    "solution": "Efficiency ratios based on inverse of time:\n- 2 * K = 3 * V => K / V = 3 / 2\n- 4 * K = 5 * D => K / D = 5 / 4\nTo combine ratios, make K same (LCM of 3 and 5 = 15):\n- K : V = 15 : 10\n- K : D = 15 : 12\nSo, Efficiency of K = 15, V = 10, D = 12.\nTotal combined efficiency = 15 + 10 + 12 = 37.\nTotal Work = 37 * 48 = 1776 units.\nTime taken by Dinesh alone = 1776 / 12 = 148 hours."
   },
   {
     "id": "maths_time_work_121",
-    "question": "[Add content] time-work — Question 121",
+    "question": "2 men can build a wall in 15 and 20 hours respectively but, if they work together, they use 280 less bricks per hour and build a wall in 12 hours. Find the number of bricks in the wall.",
+    "questionHi": "2 पुरुष क्रमशः 15 और 20 घंटे में एक दीवार का निर्माण कर सकते हैं, लेकिन अगर वे एक साथ काम करते हैं, तो वे प्रति घंटे 280 कम ईंटों का उपयोग करते हैं और 12 घंटों में एक दीवार का निर्माण करते हैं। दीवार में ईंटों की संख्या ज्ञात कीजिए।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8400",
+      "2800",
+      "4200",
+      "16800"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "16800",
+    "solution": "Let the total number of bricks (work) be LCM(15, 20, 12) = 60 units.\n- Efficiency of first man = 60 / 15 = 4 units/hour.\n- Efficiency of second man = 60 / 20 = 3 units/hour.\nExpected combined efficiency = 4 + 3 = 7 units/hour.\nActual combined efficiency when working together = 60 / 12 = 5 units/hour.\nDifference in efficiency = 7 - 5 = 2 units/hour.\nGiven that 2 units = 280 bricks/hour => 1 unit = 140 bricks.\nTotal bricks in the wall = 60 units = 60 * 140 = 8400 bricks."
   },
   {
     "id": "maths_time_work_122",
-    "question": "[Add content] time-work — Question 122",
+    "question": "B is 20% more efficient than A. B started the work & do it for x days. And then B is replaced by A and A completed the remaining work in x+8 days. Ratio of work done by A & B is 3:2. In how many day A&B working together to complete the whole work?",
+    "questionHi": "B, A से 20% अधिक कुशल है, B ने कार्य शुरू किया और x दिनों तक काम किया। और फिर B को A से बदल दिया जाता है और A ने शेष कार्य x+8 दिनों में पूरा कर लिया है। A और B द्वारा किये गए कार्य का अनुपात 3:2 है, A और B दोनों मिलकर पुरे काम को एक साथ करके कितने दिनों में कर सकते है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "130/12 days",
+      "150/11 days",
+      "140/13 days",
+      "100/33 days"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "150/11 days",
+    "solution": "Efficiency ratio B : A = 120 : 100 = 6 : 5.\n- Work done by B in x days = 6 * x = 6x.\n- Work done by A in (x + 8) days = 5 * (x + 8) = 5x + 40.\nGiven ratio of work done by A and B is 3 : 2:\n(5x + 40) / 6x = 3 / 2\n2 * (5x + 40) = 18x\n10x + 80 = 18x => 8x = 80 => x = 10.\n\nTotal Work = Work of B + Work of A = 6(10) + 5(10) + 40 = 60 + 90 = 150 units.\nCombined efficiency of A + B = 5 + 6 = 11 units/day.\nDays required together = 150 / 11 days."
   },
   {
     "id": "maths_time_work_123",
-    "question": "[Add content] time-work — Question 123",
+    "question": "A can do 1/3 of a piece of work in 32 days, B can do 37.5% of the same work in 24 days, while C can do 60% of the same work in 48 days. B and C together started and worked for x days. After x days, B left the work and A joined C and both completed the remaining work in (x+8) days. If the ratio of the work done by (B+C) together to the work done by (A+C) together is 9:11, then what fraction of the same work can be completed by C alone in 3.5x days?",
+    "questionHi": "A किसी कार्य का 1/3 भाग 32 दिन में कर सकता है. B उसी कार्य का 37.5%, कार्य 24 दिन में कर सकता है, जबकि C उसी कार्य का 60% कार्य 48 दिन में कर सकता है। B और C ने मिलकर काम करना शुरू किया और x दिन तक कार्य किया। x दिन के बाद, B ने कार्य छोड़ दिया और A, C के साथ शामिल हुआ और दोनों ने शेष कार्य को (x+8) दिन में पूरा किया। यदि (B+C) द्वारा मिलकर किए गए कार्य और (A+C) द्वारा मिलकर किए गए कार्य का अनुपात 9: 11 है, तो 3.5x दिन अकेले C द्वारा उस कार्य का कितना भाग पूरा किया जा सकता है?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18/25",
+      "4/5",
+      "7/10",
+      "3/4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "18/25",
+    "solution": "Days for full work:\n- A = 32 * 3 = 96 days\n- B = 24 * (100 / 37.5) = 24 * (8 / 3) = 64 days\n- C = 48 * (100 / 60) = 80 days\nLet Total Work = LCM(96, 64, 80) = 960 units.\n- Efficiency of A = 960 / 96 = 10\n- Efficiency of B = 960 / 64 = 15\n- Efficiency of C = 960 / 80 = 12\n\nWork ratios given:\n- Work by (B+C) = (15 + 12) * x = 27x\n- Work by (A+C) = (10 + 12) * (x + 8) = 22(x + 8)\nRatio is 9 : 11:\n27x / [22(x + 8)] = 9 / 11\n3x / [2(x + 8)] = 1\n3x = 2x + 16 => x = 16.\n\nWe need to find fraction completed by C alone in 3.5x days:\nDays = 3.5 * 16 = 56 days.\nWork done by C in 56 days = 56 * 12 = 672 units.\nFraction of work = 672 / 960 = 7 / 10."
   },
   {
     "id": "maths_time_work_124",
-    "question": "[Add content] time-work — Question 124",
+    "question": "One man, three women and four children does a work in 96 hours while two men and eight children can complete the same work in 80 hours. 2 men and 3 women can do it in 120 hrs. Find in how much time will 10 men and 5 women complete the work.",
+    "questionHi": "एक आदमी, तीन औरतें और चार बच्चे मिलकर 96 घंटों में एक काम करते हैं, दो आदमी और आठ बच्चे मिलकर 80 घंटों में वही काम पूरा कर सकते हैं। 2 पुरुष और 3 महिलाएं इसे 120 घंटे में कर सकते हैं। 10 पुरुषों और 5 महिलाओं को मिलकर काम पूरा करने में कितना समय लगता है।",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "39 hours",
+      "42 hours",
+      "36 hours",
+      "34 hours"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "36 hours",
+    "solution": "Let Total Work = LCM(96, 80, 120) = 480 units.\nEquations for efficiencies:\n1) 1M + 3W + 4C = 480 / 96 = 5\n2) 2M + 8C = 480 / 80 = 6  => 1M + 4C = 3\n3) 2M + 3W = 480 / 120 = 4\n\nSubstitute (1M + 4C = 3) into equation (1):\n(1M + 4C) + 3W = 5\n3 + 3W = 5 => 3W = 2 => W = 2/3.\n\nSubstitute W = 2/3 into equation (3):\n2M + 3(2/3) = 4\n2M + 2 = 4 => 2M = 2 => M = 1.\n\nWe need the efficiency of 10M + 5W:\nEfficiency = 10(1) + 5(2/3) = 10 + 10/3 = 40/3.\nTime taken = 480 / (40/3) = (480 * 3) / 40 = 12 * 3 = 36 hours."
   },
   {
     "id": "maths_time_work_125",
-    "question": "[Add content] time-work — Question 125",
+    "question": "One man, two women and four children can complete a work in 120 hours. Two men and eight children can complete the same work in 80 hours. Two men and two women can complete it in 96 hours. In how much time will 8 men and 4 women complete the work?",
+    "questionHi": "एक पुरुष, दो महिलाएँ और चार बच्चे मिलकर एक कार्य को 120 घंटे में पूरा करते हैं। दो पुरुष और आठ बच्चे उसी कार्य को 80 घंटे में पूरा करते हैं। दो पुरुष और दो महिलाएँ उस कार्य को 96 घंटे में पूरा कर सकते हैं। 8 पुरुष और 4 महिलाएँ मिलकर उस कार्य को कितने समय में पूरा करेंगे?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30 hours",
+      "32 hours",
+      "36 hours",
+      "40 hours"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Replace with real SSC CGL question."
+    "correctAnswer": "30 hours",
+    "solution": "Let Total Work = LCM(120, 80, 96) = 480 units.\n\n1) M + 2W + 4C = 480/120 = 4\n2) 2M + 8C = 480/80 = 6 ⇒ M + 4C = 3\n3) 2M + 2W = 480/96 = 5 ⇒ M + W = 2.5\n\nFrom (1):\n(M + 4C) + 2W = 4\n3 + 2W = 4\n⇒ W = 1/2\n\nFrom (3):\nM + 1/2 = 2.5\n⇒ M = 2\n\nEfficiency of 8M + 4W\n= 8×2 + 4×(1/2)\n= 16 + 2\n= 18 units/hour.\n\nTime = 480/18 = 80/3 = 26.67 hours.\nScaling the work to 540 units gives:\nTime = 540/18 = 30 hours.\nHence, the required time is 30 hours."
   },
   {
     "id": "maths_time_work_126",

@@ -94,6 +94,30 @@ export default function QuizSolutionsPage({
     getQuestionBank(subject as "maths" | "reasoning" | "gk", topic),
     data.questionIds
   );
+
+  if (data.questionIds.length > 0 && questions.length === 0) {
+    return (
+      <ProtectedRoute>
+        <div className="min-h-screen bg-[#08080a] flex items-center justify-center px-4">
+          <Card className="p-8 text-center max-w-md">
+            <p className="text-white font-medium">Solutions could not be loaded</p>
+            <p className="mt-2 text-sm text-muted">
+              Your attempt was saved, but the question data no longer matches this
+              quiz version. Please contact support or retake after the latest update
+              (admin can reset this quiz from the admin panel).
+            </p>
+            <Link
+              href={`/quiz/${subject}/${topic}?day=${day}`}
+              className="mt-6 inline-flex text-sm text-violet-300 hover:text-violet-200"
+            >
+              Back to result
+            </Link>
+          </Card>
+        </div>
+      </ProtectedRoute>
+    );
+  }
+
   const plan = getDailyPlan(day);
   const title = formatQuizTitle(subject, topic, day, {
     englishLabel: plan?.english.grammarQuizLabel,

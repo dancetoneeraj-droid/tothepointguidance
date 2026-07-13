@@ -425,7 +425,8 @@
       "9:40 AM"
     ],
     "correctAnswer": "9:00 AM",
-    "solution": "**Step 1: Set up equations using the given conditions**\n\nLet distance = d km and scheduled time to reach = t hours (from 8:20 AM)\n\n- At 10 km/h: Time taken = d/10 hours, and he's 8 min (2/15 hr) late\n  - d/10 = t + 2/15 ... (equation 1)\n\n- At 16 km/h: Time taken = d/16 hours, and he's 10 min (1/6 hr) early\n  - d/16 = t - 1/6 ... (equation 2)\n\n**Step 2: Solve for distance (d)**\n\nSubtract equation 2 from equation 1:\n- d/10 - d/16 = (t + 2/15) - (t - 1/6)\n- d(8-5)/(80) = 2/15 + 1/6\n- 3d/80 = 4/30 + 5/30 = 9/30 = 3/10\n- d = (3/10) × (80/3) = 8 km\n\n**Step 3: Solve for scheduled time (t)**\n\nSubstitute d = 8 in equation 2:\n- 8/16 = t - 1/6\n- 1/2 = t - 1/6\n- t = 1/2 + 1/6 = 3/6 +"
+    "solution": "**Step 1: Set up equations using the given conditions**\n\nLet distance = d km and scheduled time to reach = t hours (from 8:20 AM)\n\n- At 10 km/h: Time taken = d/10 hours, and he's 8 min (2/15 hr) late\n  - d/10 = t + 2/15 ... (equation 1)\n\n- At 16 km/h: Time taken = d/16 hours, and he's 10 min (1/6 hr) early\n  - d/16 = t - 1/6 ... (equation 2)\n\n**Step 2: Solve for distance (d)**\n\nSubtract equation 2 from equation 1:\n- d/10 - d/16 = (t + 2/15) - (t - 1/6)\n- d(8-5)/(80) = 2/15 + 1/6\n- 3d/80 = 4/30 + 5/30 = 9/30 = 3/10\n- d = (3/10) × (80/3) = 8 km\n\n**Step 3: Solve for scheduled time (t)**\n\nSubstitute d = 8 in equation 2:\n- 8/16 = t - 1/6\n- 1/2 = t - 1/6\n- t = 1/2 + 1/6 = 3/6 +",
+    "videoUrl": "https://youtu.be/WOGJ_zQ-fVE"
   },
   {
     "id": "maths_time_speed_distance_032",
@@ -438,7 +439,8 @@
       "12"
     ],
     "correctAnswer": "12",
-    "solution": "**Step 1: Set up equations using Distance = Speed × Time**\n\nLet distance = d km, and departure time = t (in hours after some reference)\n\n- At 8 km/h: reaches at 10:15 AM → d = 8 × (10:15 - t)\n- At 15 km/h: reaches at 9:40 AM → d = 15 × (9:40 - t)\n\n**Step 2: Find the time difference and equate distances**\n\nTime difference between 10:15 AM and 9:40 AM = 35 minutes = 7/12 hours\n\nSince both travel the same distance:\n8(10:15 - t) = 15(9:40 - t)\n\nLet (10:15 - t) = T₁ and (9:40 - t) = T₂\nThen: T₁ - T₂ = 7/12\n\nFrom 8T₁ = 15T₂:\n8T₁ = 15T₂\nT₁ = (15/8)T₂\n\n**Step 3: Solve for time taken at each speed**\n\n(15/8)T₂ - T₂ = 7/12\n(7/8)T₂ = 7/12\nT₂ = 2/3 hours = 40 minutes\n\nTherefore: T₁ = T₂ + 7/12 = 2/3"
+    "solution": "**Step 1: Set up equations using Distance = Speed × Time**\n\nLet distance = d km, and departure time = t (in hours after some reference)\n\n- At 8 km/h: reaches at 10:15 AM → d = 8 × (10:15 - t)\n- At 15 km/h: reaches at 9:40 AM → d = 15 × (9:40 - t)\n\n**Step 2: Find the time difference and equate distances**\n\nTime difference between 10:15 AM and 9:40 AM = 35 minutes = 7/12 hours\n\nSince both travel the same distance:\n8(10:15 - t) = 15(9:40 - t)\n\nLet (10:15 - t) = T₁ and (9:40 - t) = T₂\nThen: T₁ - T₂ = 7/12\n\nFrom 8T₁ = 15T₂:\n8T₁ = 15T₂\nT₁ = (15/8)T₂\n\n**Step 3: Solve for time taken at each speed**\n\n(15/8)T₂ - T₂ = 7/12\n(7/8)T₂ = 7/12\nT₂ = 2/3 hours = 40 minutes\n\nTherefore: T₁ = T₂ + 7/12 = 2/3",
+    "videoUrl": "https://youtu.be/l1yZ-BEwsi0"
   },
   {
     "id": "maths_time_speed_distance_033",
@@ -542,7 +544,8 @@
       "10:25 AM"
     ],
     "correctAnswer": "10:27 AM",
-    "solution": "**Step 1: Find the speed ratio of A and B**\n\nWhen they first meet at 10:00 AM:\n- A has covered 60% of the track\n- B has covered 40% of the track (remaining part)\n- They took the same time, so speed ratio: $S_A : S_B = 60 : 40 = 3 : 2$\n\n**Step 2: Find the time for A to complete one full circle**\n\nA returns to P at 10:12 AM, meaning A covers 100% of the track in 12 minutes.\n\n**Step 3: Find the time for B to complete one full circle**\n\nUsing the speed ratio $S_A : S_B = 3 : 2$:\n\nIf A takes 12 minutes for the full circle, then:\n$$\\frac{T_A}{T_B} = \\frac{S_B}{S_A} = \\frac{2}{3}$$\n\n$$\\frac{12}{T_B} = \\frac{2}{3}$$\n\n$$T_B = 12 × \\frac{3}{2} = 18 \\text{ minutes}$$\n\n**Step 4: Calculate B's return time**\n\nB starts at 10:00 AM and takes 18 minutes to return to P:\n$$10:00 \\text{ AM} + 18 \\text{ minutes} = 10:18 \\text{ AM}$$\n\nWait, let me verify with the correct answer"
+    "solution": "**Step 1: Find the speed ratio of A and B**\n\nWhen they first meet at 10:00 AM:\n- A has covered 60% of the track\n- B has covered 40% of the track (remaining part)\n- They took the same time, so speed ratio: $S_A : S_B = 60 : 40 = 3 : 2$\n\n**Step 2: Find the time for A to complete one full circle**\n\nA returns to P at 10:12 AM, meaning A covers 100% of the track in 12 minutes.\n\n**Step 3: Find the time for B to complete one full circle**\n\nUsing the speed ratio $S_A : S_B = 3 : 2$:\n\nIf A takes 12 minutes for the full circle, then:\n$$\\frac{T_A}{T_B} = \\frac{S_B}{S_A} = \\frac{2}{3}$$\n\n$$\\frac{12}{T_B} = \\frac{2}{3}$$\n\n$$T_B = 12 × \\frac{3}{2} = 18 \\text{ minutes}$$\n\n**Step 4: Calculate B's return time**\n\nB starts at 10:00 AM and takes 18 minutes to return to P:\n$$10:00 \\text{ AM} + 18 \\text{ minutes} = 10:18 \\text{ AM}$$\n\nWait, let me verify with the correct answer",
+    "videoUrl": "https://youtu.be/uz-vV9udJWI"
   },
   {
     "id": "maths_time_speed_distance_041",
@@ -723,7 +726,7 @@
       "50"
     ],
     "correctAnswer": "40",
-   "solution": "**Step 1: Set up the equation using Time = Distance/Speed**\n\nLet the actual speed of the train be x km/h.\n\n- Actual time = 360/x hours\n- Time with increased speed = 360/(x+10) hours\n\n**Step 2: Form the equation from the given condition**\n\nThe train takes 3 hours less with increased speed:\n\n360/x - 360/(x+10) = 3\n\n**Step 3: Solve the equation**\n\n360(x+10) - 360x = 3x(x+10)\n\n360x + 3600 - 360x = 3x² + 30x\n\n3600 = 3x² + 30x\n\n3x² + 30x - 3600 = 0\n\nx² + 10x - 1200 = 0\n\n**Step 4: Factor the quadratic equation**\n\n(x + 40)(x - 30) = 0\n\nx = -40 or x = 30\n\nSince speed cannot be negative, x = 30 km/h\n\n**Verification:** At 30 km/h: time = 360/30 = 12 hours. At 40 km/h: time = 360/40 = 9 hours. Difference = 3 hours ✓\n\n**Answer: 30 km/h**"
+    "solution": "**Step 1: Set up the equation using Time = Distance/Speed**\n\nLet the actual speed of the train be x km/h.\n\n- Actual time = 360/x hours\n- Time with increased speed = 360/(x+10) hours\n\n**Step 2: Form the equation from the given condition**\n\nThe train takes 3 hours less with increased speed:\n\n360/x - 360/(x+10) = 3\n\n**Step 3: Solve the equation**\n\n360(x+10) - 360x = 3x(x+10)\n\n360x + 3600 - 360x = 3x² + 30x\n\n3600 = 3x² + 30x\n\n3x² + 30x - 3600 = 0\n\nx² + 10x - 1200 = 0\n\n**Step 4: Factor the quadratic equation**\n\n(x + 40)(x - 30) = 0\n\nx = -40 or x = 30\n\nSince speed cannot be negative, x = 30 km/h\n\n**Verification:** At 30 km/h: time = 360/30 = 12 hours. At 40 km/h: time = 360/40 = 9 hours. Difference = 3 hours ✓\n\n**Answer: 30 km/h**"
   },
   {
     "id": "maths_time_speed_distance_055",
@@ -864,7 +867,7 @@
       "12 hours"
     ],
     "correctAnswer": "12 hours",
-   "solution": "# Solution:\n\n**Step 1: Set up variables**\n- Let time taken by express train = t hours\n- Then time taken by passenger train = (t + 5) hours\n- Distance = 1176 km (same for both)\n\n**Step 2: Express speeds in terms of t**\n- Speed of express train = 1176/t km/h\n- Speed of passenger train = 1176/(t+5) km/h\n\n**Step 3: Use the speed difference condition**\nSpeed of express train - Speed of passenger train = 70\n\n$$\\frac{1176}{t} - \\frac{1176}{t+5} = 70$$\n\n**Step 4: Solve for t**\n$$\\frac{1176(t+5) - 1176t}{t(t+5)} = 70$$\n\n$$\\frac{1176 × 5}{t(t+5)} = 70$$\n\n$$\\frac{5880}{t(t+5)} = 70$$\n\n$$5880 = 70t(t+5)$$\n\n$$t(t+5) = 84$$\n\n$$t^2 + 5t - 84 = 0$$\n\n$$(t + 12)(t - 7) = 0$$\n\n$$t = 7$$ (taking positive value)\n\n**Step 5: Find passenger train's time**\nTime taken by passenger train = t + 5 = 7 + 5 = **17 hours**\n\n**Answer"
+    "solution": "# Solution:\n\n**Step 1: Set up variables**\n- Let time taken by express train = t hours\n- Then time taken by passenger train = (t + 5) hours\n- Distance = 1176 km (same for both)\n\n**Step 2: Express speeds in terms of t**\n- Speed of express train = 1176/t km/h\n- Speed of passenger train = 1176/(t+5) km/h\n\n**Step 3: Use the speed difference condition**\nSpeed of express train - Speed of passenger train = 70\n\n$$\\frac{1176}{t} - \\frac{1176}{t+5} = 70$$\n\n**Step 4: Solve for t**\n$$\\frac{1176(t+5) - 1176t}{t(t+5)} = 70$$\n\n$$\\frac{1176 × 5}{t(t+5)} = 70$$\n\n$$\\frac{5880}{t(t+5)} = 70$$\n\n$$5880 = 70t(t+5)$$\n\n$$t(t+5) = 84$$\n\n$$t^2 + 5t - 84 = 0$$\n\n$$(t + 12)(t - 7) = 0$$\n\n$$t = 7$$ (taking positive value)\n\n**Step 5: Find passenger train's time**\nTime taken by passenger train = t + 5 = 7 + 5 = **17 hours**\n\n**Answer"
   },
   {
     "id": "maths_time_speed_distance_066",

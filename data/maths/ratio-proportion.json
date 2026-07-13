@@ -645,1650 +645,1789 @@
     "explanation": "If a/b=c/d=k, then (a+b)/(c+d)=k=a/c. Hence a+b:c+d equals a:c.",
     "solution": "# Solution\n\n**Step 1: Express the given ratio condition**\nLet a:b = c:d = k (some constant)\n\nTherefore:\n- a = bk\n- c = dk\n\n**Step 2: Find the ratio a:c**\na:c = bk:dk = b:d\n\n**Step 3: Check each option by substituting a = bk and c = dk**\n\n**Option (a+b:c+d):**\n- a+b : c+d = bk+b : dk+d\n- = b(k+1) : d(k+1)\n- = b : d\n\n**Step 4: Compare with a:c**\nSince a:c = b:d and a+b:c+d = b:d\n\nTherefore: **a+b:c+d = a:c** ✓\n\n**Answer: a+b:c+d**"
   },
-  {
-    "id": "maths_ratio_proportion_051",
-    "question": "Ratio Proportion — Question 51 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_052",
-    "question": "Ratio Proportion — Question 52 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_053",
-    "question": "Ratio Proportion — Question 53 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_054",
-    "question": "Ratio Proportion — Question 54 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_055",
-    "question": "Ratio Proportion — Question 55 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_056",
-    "question": "Ratio Proportion — Question 56 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_057",
-    "question": "Ratio Proportion — Question 57 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_058",
-    "question": "Ratio Proportion — Question 58 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_059",
-    "question": "Ratio Proportion — Question 59 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_060",
-    "question": "Ratio Proportion — Question 60 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_061",
-    "question": "Ratio Proportion — Question 61 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_062",
-    "question": "Ratio Proportion — Question 62 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_063",
-    "question": "Ratio Proportion — Question 63 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_064",
-    "question": "Ratio Proportion — Question 64 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_065",
-    "question": "Ratio Proportion — Question 65 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_066",
-    "question": "Ratio Proportion — Question 66 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_067",
-    "question": "Ratio Proportion — Question 67 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_068",
-    "question": "Ratio Proportion — Question 68 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_069",
-    "question": "Ratio Proportion — Question 69 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_070",
-    "question": "Ratio Proportion — Question 70 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_071",
-    "question": "Ratio Proportion — Question 71 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_072",
-    "question": "Ratio Proportion — Question 72 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_073",
-    "question": "Ratio Proportion — Question 73 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_074",
-    "question": "Ratio Proportion — Question 74 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_075",
-    "question": "Ratio Proportion — Question 75 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_076",
-    "question": "Ratio Proportion — Question 76 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_077",
-    "question": "Ratio Proportion — Question 77 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_078",
-    "question": "Ratio Proportion — Question 78 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_079",
-    "question": "Ratio Proportion — Question 79 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_080",
-    "question": "Ratio Proportion — Question 80 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_081",
-    "question": "Ratio Proportion — Question 81 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_082",
-    "question": "Ratio Proportion — Question 82 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_083",
-    "question": "Ratio Proportion — Question 83 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_084",
-    "question": "Ratio Proportion — Question 84 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_085",
-    "question": "Ratio Proportion — Question 85 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_086",
-    "question": "Ratio Proportion — Question 86 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_087",
-    "question": "Ratio Proportion — Question 87 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_088",
-    "question": "Ratio Proportion — Question 88 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_089",
-    "question": "Ratio Proportion — Question 89 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_090",
-    "question": "Ratio Proportion — Question 90 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_091",
-    "question": "Ratio Proportion — Question 91 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_092",
-    "question": "Ratio Proportion — Question 92 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_093",
-    "question": "Ratio Proportion — Question 93 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_094",
-    "question": "Ratio Proportion — Question 94 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_095",
-    "question": "Ratio Proportion — Question 95 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_096",
-    "question": "Ratio Proportion — Question 96 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_097",
-    "question": "Ratio Proportion — Question 97 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_098",
-    "question": "Ratio Proportion — Question 98 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_099",
-    "question": "Ratio Proportion — Question 99 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_100",
-    "question": "Ratio Proportion — Question 100 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_101",
-    "question": "Ratio Proportion — Question 101 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_102",
-    "question": "Ratio Proportion — Question 102 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_103",
-    "question": "Ratio Proportion — Question 103 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_104",
-    "question": "Ratio Proportion — Question 104 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_105",
-    "question": "Ratio Proportion — Question 105 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_106",
-    "question": "Ratio Proportion — Question 106 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_107",
-    "question": "Ratio Proportion — Question 107 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_108",
-    "question": "Ratio Proportion — Question 108 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_109",
-    "question": "Ratio Proportion — Question 109 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_110",
-    "question": "Ratio Proportion — Question 110 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_111",
-    "question": "Ratio Proportion — Question 111 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_112",
-    "question": "Ratio Proportion — Question 112 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_113",
-    "question": "Ratio Proportion — Question 113 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_114",
-    "question": "Ratio Proportion — Question 114 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_115",
-    "question": "Ratio Proportion — Question 115 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_116",
-    "question": "Ratio Proportion — Question 116 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_117",
-    "question": "Ratio Proportion — Question 117 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_118",
-    "question": "Ratio Proportion — Question 118 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_119",
-    "question": "Ratio Proportion — Question 119 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_120",
-    "question": "Ratio Proportion — Question 120 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_121",
-    "question": "Ratio Proportion — Question 121 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_122",
-    "question": "Ratio Proportion — Question 122 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_123",
-    "question": "Ratio Proportion — Question 123 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_124",
-    "question": "Ratio Proportion — Question 124 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_125",
-    "question": "Ratio Proportion — Question 125 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_126",
-    "question": "Ratio Proportion — Question 126 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_127",
-    "question": "Ratio Proportion — Question 127 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_128",
-    "question": "Ratio Proportion — Question 128 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_129",
-    "question": "Ratio Proportion — Question 129 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_130",
-    "question": "Ratio Proportion — Question 130 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_131",
-    "question": "Ratio Proportion — Question 131 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_132",
-    "question": "Ratio Proportion — Question 132 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_133",
-    "question": "Ratio Proportion — Question 133 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_134",
-    "question": "Ratio Proportion — Question 134 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_135",
-    "question": "Ratio Proportion — Question 135 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_136",
-    "question": "Ratio Proportion — Question 136 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_137",
-    "question": "Ratio Proportion — Question 137 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_138",
-    "question": "Ratio Proportion — Question 138 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_139",
-    "question": "Ratio Proportion — Question 139 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_140",
-    "question": "Ratio Proportion — Question 140 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_141",
-    "question": "Ratio Proportion — Question 141 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_142",
-    "question": "Ratio Proportion — Question 142 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_143",
-    "question": "Ratio Proportion — Question 143 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_144",
-    "question": "Ratio Proportion — Question 144 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_145",
-    "question": "Ratio Proportion — Question 145 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_146",
-    "question": "Ratio Proportion — Question 146 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_147",
-    "question": "Ratio Proportion — Question 147 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_148",
-    "question": "Ratio Proportion — Question 148 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_149",
-    "question": "Ratio Proportion — Question 149 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_150",
-    "question": "Ratio Proportion — Question 150 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_151",
-    "question": "Ratio Proportion — Question 151 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_152",
-    "question": "Ratio Proportion — Question 152 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_153",
-    "question": "Ratio Proportion — Question 153 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_154",
-    "question": "Ratio Proportion — Question 154 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_155",
-    "question": "Ratio Proportion — Question 155 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_156",
-    "question": "Ratio Proportion — Question 156 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_157",
-    "question": "Ratio Proportion — Question 157 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_158",
-    "question": "Ratio Proportion — Question 158 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_159",
-    "question": "Ratio Proportion — Question 159 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_160",
-    "question": "Ratio Proportion — Question 160 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_161",
-    "question": "Ratio Proportion — Question 161 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_162",
-    "question": "Ratio Proportion — Question 162 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_163",
-    "question": "Ratio Proportion — Question 163 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_164",
-    "question": "Ratio Proportion — Question 164 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_165",
-    "question": "Ratio Proportion — Question 165 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_166",
-    "question": "Ratio Proportion — Question 166 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_167",
-    "question": "Ratio Proportion — Question 167 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_168",
-    "question": "Ratio Proportion — Question 168 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_169",
-    "question": "Ratio Proportion — Question 169 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_170",
-    "question": "Ratio Proportion — Question 170 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_171",
-    "question": "Ratio Proportion — Question 171 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_172",
-    "question": "Ratio Proportion — Question 172 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_173",
-    "question": "Ratio Proportion — Question 173 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_174",
-    "question": "Ratio Proportion — Question 174 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_175",
-    "question": "Ratio Proportion — Question 175 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_176",
-    "question": "Ratio Proportion — Question 176 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_177",
-    "question": "Ratio Proportion — Question 177 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_178",
-    "question": "Ratio Proportion — Question 178 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_179",
-    "question": "Ratio Proportion — Question 179 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_180",
-    "question": "Ratio Proportion — Question 180 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_181",
-    "question": "Ratio Proportion — Question 181 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_182",
-    "question": "Ratio Proportion — Question 182 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_183",
-    "question": "Ratio Proportion — Question 183 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_184",
-    "question": "Ratio Proportion — Question 184 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_185",
-    "question": "Ratio Proportion — Question 185 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_186",
-    "question": "Ratio Proportion — Question 186 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
-  {
-    "id": "maths_ratio_proportion_187",
-    "question": "Ratio Proportion — Question 187 (add real content in datas/maths/ratio-proportion.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
-  },
+    {
+      "id": "maths_ratio_051",
+      "question": "If p/q = r/s, then find ((p+q)/(r+s))^2.",
+      "questionHi": "यदि p/q = r/s, तो ((p+q)/(r+s))^2 ज्ञात कीजिए?",
+      "options": [
+        "pq/rs",
+        "((p-r)/(q-s))^2",
+        "pr/qs",
+        "1"
+      ],
+      "correctAnswer": "pq/rs",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_ratio_052",
+      "question": "Find a, if (x+y+z) ≠ 0 & x/(3x+y+z) = y/(x+3y+z) = z/(x+y+3z) = 2a?",
+      "questionHi": "a ज्ञात कीजिये, यदि (x+y+z) ≠ 0 & x/(3x+y+z) = y/(x+3y+z) = z/(x+y+3z) = 2a है?",
+      "options": [
+        "1/15",
+        "1/10",
+        "1/5",
+        "1/2"
+      ],
+      "correctAnswer": "1/10",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_ratio_053",
+      "question": "If x/(xa+yb+zc) = y/(ya+zb+xc) = z/(za+xb+yc) & x=y=z ≠ 0, then each ratio equals to?",
+      "questionHi": "यदि x/(xa+yb+zc) = y/(ya+zb+xc) = z/(za+xb+yc) & x=y=z ≠ 0, तो प्रत्येक अनुपात किसके बराबर है?",
+      "options": [
+        "1/(a-b-c)",
+        "1/(a-b+c)",
+        "1/(a+b-c)",
+        "1/(a+b+c)"
+      ],
+      "correctAnswer": "1/(a+b+c)",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_ratio_054",
+      "question": "If a/(b+c) = b/(c+a) = c/(a+b), then which one of the following statements is correct?",
+      "questionHi": "यदि a/(b+c) = b/(c+a) = c/(a+b) है, तो निम्नलिखित में से कौन-सा कथन सही हैं?",
+      "options": [
+        "Each fraction is equal to 1 or -1",
+        "Each fraction is equal to 1/2 or 1",
+        "Each fraction is equal to 1/2 or -1",
+        "Each fraction is equal to 1/2 only"
+      ],
+      "correctAnswer": "Each fraction is equal to 1/2 or -1",
+      "solution": "video solution will be added soon"
+    },
+    {
+      "id": "maths_ratio_055",
+      "question": "If z/(x-2y) = (2z+x)/2y = 2x/z, then find the value of (x+y+z)/z = ?",
+      "questionHi": "यदि z/(x-2y) = (2z+x)/2y = 2x/z है, तो (x+y+z)/z का मान क्या होगा?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "4"
+      ],
+      "correctAnswer": "4",
+      "solution": "video solution will be added soon"
+    },
+      {
+        "id": "maths_ratio_056",
+        "question": "If (x - y) : (y - z) : (z - k) = 2 : 3 : 5, then find z : (x + k)?",
+        "questionHi": "यदि x - y : y - z : z - k = 2 : 3 : 5 तो z : (x + k) ज्ञात कीजिये?",
+        "options": [
+          "1:2",
+          "2:1",
+          "1:3",
+          "1:4"
+        ],
+        "correctAnswer": "1:2",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_057",
+        "question": "If a/b = b/c = c/d, then a/d in terms of b and c is equal to:",
+        "questionHi": "यदि a/b = b/c = c/d तो b और c के संदर्भ में a/d का मान निम्न में से किसके बराबर होगा?",
+        "options": [
+          "(b/c)^3",
+          "(b/c)^2",
+          "(b/c)^1.5",
+          "(b/c)^0.5"
+        ],
+        "correctAnswer": "(b/c)^3",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_058",
+        "question": "If (m + n) : (m - n) = 7 : 3, then (m^3 + n^3) : (m^3 - n^3) = ?",
+        "questionHi": "यदि (m + n) : (m - n) = 7 : 3 तो (m^3 + n^3) : (m^3 - n^3) = ?",
+        "options": [
+          "117 : 133",
+          "133 : 117",
+          "17 : 133",
+          "117 : 13"
+        ],
+        "correctAnswer": "133 : 117",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_059",
+        "question": "If (x^3 + y^3) : (x^2 - xy + y^2) = 3 : 1 and (x^2 - y^2) : (x + y) = 5 : 6, then what is 2x : 3y?",
+        "questionHi": "यदि (x^3 + y^3) : (x^2 - xy + y^2) = 3 : 1 और (x^2 - y^2) : (x + y) = 5 : 6 है तो 2x : 3y का मान क्या है?",
+        "options": [
+          "46:39",
+          "44:18",
+          "35:16",
+          "41:12"
+        ],
+        "correctAnswer": "46:39",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_060",
+        "question": "If x(1/a + 1/b) = 12, then find (x + 6a)(x - 6a)^-1 + (x + 6b)(x - 6b)^-1?",
+        "questionHi": "यदि x(1/a + 1/b) = 12, तो (x + 6a)(x - 6a)^-1 + (x + 6b)(x - 6b)^-1 ज्ञात कीजिए?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "2",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_061",
+        "question": "If x = √6 / (√3 + √2), then find the value of (x + √3)/(x - √3) + (x + √2)/(x - √2) = ?",
+        "questionHi": "यदि x = √6 / (√3 + √2) है, तो (x + √3)/(x - √3) + (x + √2)/(x - √2) का मान क्या होगा?",
+        "options": [
+          "2",
+          "√(2/3)",
+          "√(3/2)",
+          "1/√6"
+        ],
+        "correctAnswer": "2",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_062",
+        "question": "If (4a + 7b)(4c - 7d) = (4a - 7b)(4c + 7d), then which one of the following is correct?",
+        "questionHi": "यदि (4a + 7b)(4c - 7d) = (4a - 7b)(4c + 7d) है, तो निम्नलिखित में से कौन-सा एक सही है?",
+        "options": [
+          "a/b = c/d",
+          "a/d = c/b",
+          "a/b = d/c",
+          "4a/7b = c/d"
+        ],
+        "correctAnswer": "a/b = c/d",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_063",
+        "question": "If (a + b)/(b + c) = (c + d)/(d + a) where a ≠ c, then which of the following is correct?",
+        "questionHi": "अगर (a + b)/(b + c) = (c + d)/(d + a) जहां a ≠ c है, तो निम्नलिखित में से कौन सा सही है?",
+        "options": [
+          "a + b = c + d",
+          "a + c = b + d",
+          "a - b - c + d = 0",
+          "a + b + c + d = 0"
+        ],
+        "correctAnswer": "a + b + c + d = 0",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_064",
+        "question": "If (3a + 6b + c + 2d) × (3a - 6b - c + 2d) = (3a - 6b + c - 2d) × (3a + 6b - c - 2d), then which one of the following is correct?",
+        "questionHi": "यदि (3a + 6b + c + 2d) × (3a - 6b - c + 2d) = (3a - 6b + c - 2d) × (3a + 6b - c - 2d) तो निम्नलिखित में से कौन सा सही है?",
+        "options": [
+          "ab = cd",
+          "ac = bd",
+          "ad = bc",
+          "ad + bc = 0"
+        ],
+        "correctAnswer": "ac = bd",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_065",
+        "question": "What is the value of x, if (b + √(b^2 - 2bx)) / (b - √(b^2 - 2bx)) = a?",
+        "questionHi": "यदि (b + √(b^2 - 2bx)) / (b - √(b^2 - 2bx)) = a है तो x का मान ज्ञात करे।",
+        "options": [
+          "ab / (a + b)",
+          "2ab / (a + 1)^2",
+          "2ab / (a + 1)",
+          "ab / (a + b)^2"
+        ],
+        "correctAnswer": "2ab / (a + 1)^2",
+        "solution": "video solution will be added soon"
+      },
+      {
+        "id": "maths_ratio_066",
+        "question": "If ((1 - px) / (1 + px)) * √( (1 + qx) / (1 - qx) ) = 1, then x = ?",
+        "questionHi": "यदि ((1 - px) / (1 + px)) * √( (1 + qx) / (1 - qx) ) = 1 है तो x का मान ज्ञात करे।",
+        "options": [
+          "p * √( (2p - q)/q )",
+          "q * √( (2q - p)/p )",
+          "(1/q) * √( (2p - q)/q )",
+          "(1/p) * √( (2p - q)/q )"
+        ],
+        "correctAnswer": "(1/q) * √( (2p - q)/q )",
+        "solution": "video solution will be added soon"
+      },
+        {
+          "id": "maths_ratio_067",
+          "question": "If the ratio of sum of two numbers, difference of two numbers and product of two numbers are 13 : 3 : 160, then find the sum of squares of two numbers.",
+          "questionHi": "यदि दो संख्याओं के योग, अंतर और गुणनफल का अनुपात 13:3:160 है, तो उन दो संख्याओं के वर्ग का योग ज्ञात कीजिए?",
+          "options": [
+            "1921",
+            "1424",
+            "2000",
+            "1536"
+          ],
+          "correctAnswer": "1424",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_068",
+          "question": "If four distinct positive numbers, a, b, c and d, in the order given are in proportion, then which of the following options is NOT correct?",
+          "questionHi": "यदि चार अलग-अलग धनात्मक संख्याएँ a, b, c और d दिए गए क्रम में समानुपात में हैं, तो निम्नलिखित में से कौन-सा विकल्प सही नहीं है?",
+          "options": [
+            "b, a, d and c, in the order given are in proportion. / b, a, d और c दिए गए क्रम में समानुपात में हैं।",
+            "c, d, b and a, in the order given are in proportion. / c, d, b और a दिए गए क्रम में समानुपात में हैं।",
+            "d, c, b and a, in the order given are in proportion. / d, c, b और a दिए गए क्रम में समानुपात में हैं।",
+            "a, c, b and d, in the order given are in the proportion. / a, c, b और d दिए गए क्रम में समानुपात में हैं।"
+          ],
+          "correctAnswer": "a, c, b and d, in the order given are in the proportion. / a, c, b और d दिए गए क्रम में समानुपात में हैं।",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_069",
+          "question": "In a proportion, the 1st, 2nd and 4th terms are 51, 68 and 108, respectively. What is the 3rd term?",
+          "questionHi": "एक समानुपात में, पहला, दूसरा और चौथा पद क्रमशः 51, 68 और 108 हैं। तीसरा पद क्या है?",
+          "options": [
+            "17",
+            "20",
+            "15",
+            "81"
+          ],
+          "correctAnswer": "81",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_070",
+          "question": "In a proportion, the product of the first and fourth terms is 70 and that of the second and third terms is 3.5y. The value of y is:",
+          "questionHi": "किसी अनुपात (proportion) में, पहले और चौथे पद का गुणनफल 70 है तथा दूसरे और तीसरे पद का गुणनफल 3.5y है। y के मान की गणना करें।",
+          "options": [
+            "17",
+            "20",
+            "15",
+            "22"
+          ],
+          "correctAnswer": "20",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_071",
+          "question": "Find the third proportional to 23 and 31.",
+          "questionHi": "23 और 31 का तृतीयानुपाती (third proportional) ज्ञात करें।",
+          "options": [
+            "21/961",
+            "31/23",
+            "23/31",
+            "961/23"
+          ],
+          "correctAnswer": "961/23",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_072",
+          "question": "The third proportional to 7 1/5 and 11 is:",
+          "questionHi": "7 1/5 और 11 का तीसरा समानुपाती है:",
+          "options": [
+            "16 29/36",
+            "15 29/36",
+            "16 31/36",
+            "16 19/36"
+          ],
+          "correctAnswer": "16 29/36",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_073",
+          "question": "What is the third proportional of 2√3 and 6√5?",
+          "questionHi": "2√3 और 6√5 का तृतीय समानुपाती क्या है।",
+          "options": [
+            "50√6",
+            "40√3",
+            "20√6",
+            "30√3"
+          ],
+          "correctAnswer": "30√3",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_074",
+          "question": "If the third proportion to 9 and 42 is 3α + 7, then find the value of α?",
+          "questionHi": "यदि 9 और 42 का तीसरा अनुपात 3α + 7 है, तो α का मान ज्ञात कीजिए?",
+          "options": [
+            "63",
+            "196",
+            "189",
+            "65"
+          ],
+          "correctAnswer": "63",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_075",
+          "question": "The third proportional to x^0.25 / y^1.5 * z^3.5 and x^0.25 * y^0.25 / x^-0.25 is:",
+          "questionHi": "x^0.25 / y^1.5 * z^3.5 और x^0.25 * y^0.25 / x^-0.25 का तृतीयानुपाती ज्ञात कीजिए।",
+          "options": [
+            "y^3 / (x^3 * z^3)",
+            "y^2 / (x^2 * z^3)",
+            "y^2 / (x^2 * z^2)",
+            "y^2 / (x^3 * z^2)"
+          ],
+          "correctAnswer": "y^2 / (x^3 * z^2)",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_076",
+          "question": "If the third proportional of 3x^2 and 4xy is 48, then find the positive value of y.",
+          "questionHi": "यदि 3x^2 और 4xy का तृतीयानुपाती 48 है, तो y का धनात्मक मान ज्ञात कीजिए।",
+          "options": [
+            "3",
+            "5",
+            "2",
+            "4"
+          ],
+          "correctAnswer": "3",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_077",
+          "question": "Find the third proportional of (3 + √2) and 2√7.",
+          "questionHi": "(3 + √2) और 2√7 का तृतीयानुपाती ज्ञात कीजिए।",
+          "options": [
+            "2(3 + √2)",
+            "(12 - √8)",
+            "4(3 - √2)",
+            "4(12 - √8)"
+          ],
+          "correctAnswer": "4(3 - √2)",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_078",
+          "question": "Find the natural number obtained when the number 13 is subtracted from the mean proportional of 75 and 12.",
+          "questionHi": "जब संख्या 13 को 75 और 12 के माध्य अनुपात से घटाया जाए तो प्राप्त प्राकृतिक संख्या ज्ञात कीजिए।",
+          "options": [
+            "14",
+            "30",
+            "27",
+            "17"
+          ],
+          "correctAnswer": "17",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_079",
+          "question": "What is the mean proportional between 2.5 and 0.625?",
+          "questionHi": "2.5 और 0.625 के बीच मध्यानुपाती क्या है?",
+          "options": [
+            "12.5",
+            "1.25",
+            "0.0015625",
+            "0.125"
+          ],
+          "correctAnswer": "1.25",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_080",
+          "question": "What is the mean proportional of 8.41 and 16.81?",
+          "questionHi": "8.41 और 16.81 का माध्य आनुपातिक क्या है?",
+          "options": [
+            "13.69",
+            "9.88",
+            "11.89",
+            "12.79"
+          ],
+          "correctAnswer": "11.89",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_081",
+          "question": "Find the mean proportion of 5.76 and 0.88. (rounded off to two decimal places)",
+          "questionHi": "5.76 और 0.88 का माध्यानुपात (mean proportion) ज्ञात कीजिए। (दो दशमलव स्थानों तक पूर्णांकित)",
+          "options": [
+            "2.25",
+            "2.85",
+            "2.54",
+            "2.34"
+          ],
+          "correctAnswer": "2.25",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_082",
+          "question": "What is the mean proportion of (15 + √200) & (27 - √648)?",
+          "questionHi": "(15 + √200) & (27 - √648) के बीच मध्यानुपाती क्या है?",
+          "options": [
+            "3√5",
+            "4√5",
+            "√15",
+            "5√3"
+          ],
+          "correctAnswer": "3√5",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_083",
+          "question": "Find the mean proportional between (4 + √5) and (12 - √80).",
+          "questionHi": "(4 + √5) और (12 - √80) के बीच का मध्यानुपाती ज्ञात कीजिए।",
+          "options": [
+            "√39",
+            "2√(7 - √5)",
+            "√(7 - √5)",
+            "2(7 + √5)"
+          ],
+          "correctAnswer": "2√(7 - √5)",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_084",
+          "question": "Find the mean proportion between (p - q)/(p + q) & (pq)^2 / (p^2 - q^2)?",
+          "questionHi": "(p - q)/(p + q) & (pq)^2 / (p^2 - q^2) के बीच मध्यानुपाती ज्ञात कीजिए?",
+          "options": [
+            "pq / (p - q)",
+            "(p - q) / pq",
+            "(p + q) / pq",
+            "pq / (p + q)"
+          ],
+          "correctAnswer": "pq / (p + q)",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_085",
+          "question": "The mean proportion of a^2 / b^3 and 9b^2 / 4a^3 is:",
+          "questionHi": "a^2 / b^3 और 9b^2 / 4a^3 का मध्यानुपात ज्ञात कीजिए।",
+          "options": [
+            "4√ab",
+            "3 / 2√ab",
+            "3 / 2(ab)",
+            "3 / 4(ab)"
+          ],
+          "correctAnswer": "3 / 2√ab",
+          "solution": "video solution will be added soon"
+        },
+        {
+          "id": "maths_ratio_086",
+          "question": "Find the mean proportional of (x + y)^4 and (x - y)^4.",
+          "questionHi": "(x + y)^4 और (x - y)^4 का मध्यानुपाती ज्ञात कीजिए।",
+          "options": [
+            "(x^2 - y^2)^3",
+            "(x^2 - y^2)",
+            "(x^2 - y^2)^2",
+            "(x^2 - y^2)^4"
+          ],
+          "correctAnswer": "(x^2 - y^2)^2",
+          "solution": "video solution will be added soon"
+        },
+          {
+            "id": "maths_ratio_087",
+            "question": "If 2x + 1, x + 2, 2 and 5 are in proportion, then what is the mean proportional between 3.5(1 - x) and 8(1 + x)?",
+            "questionHi": "यदि 2x + 1, x + 2, 2 और 5 समानुपात में है, तो 3.5(1 - x) और 8(1 + x) का मध्यानुपाती क्या है?",
+            "options": [
+              "5.5",
+              "4.25",
+              "5.25",
+              "4.5"
+            ],
+            "correctAnswer": "4.5",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_088",
+            "question": "What is the fourth proportional to 189, 273 and 153?",
+            "questionHi": "189, 273 और 153 का चौथा अनुपातिक क्या है?",
+            "options": [
+              "117",
+              "299",
+              "221",
+              "187"
+            ],
+            "correctAnswer": "221",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_089",
+            "question": "Find the fourth proportional to 0.48, 0.84 and 32.",
+            "questionHi": "0.48, 0.84 और 32 का चतुर्थानुपाती (fourth proportional) ज्ञात करें।",
+            "options": [
+              "34",
+              "65",
+              "43",
+              "56"
+            ],
+            "correctAnswer": "56",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_090",
+            "question": "What is the fourth proportional to 13 1/2, 9 3/4 and 7 4/5?",
+            "questionHi": "13 1/2, 9 3/4 और 7 4/5 का चतुर्थानुपाती क्या है?",
+            "options": [
+              "5 19/30",
+              "7 9/20",
+              "6 11/24",
+              "5 17/24"
+            ],
+            "correctAnswer": "5 19/30",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_091",
+            "question": "Find the fourth proportional of 12^3.5, 3^1.2 & 4^1.2?",
+            "questionHi": "12^3.5, 3^1.2 & 4^1.2 का चौथा आनुपातिक ज्ञात कीजिए?",
+            "options": [
+              "12^-2.3",
+              "3^2.4",
+              "12^-1.1",
+              "4^2.4"
+            ],
+            "correctAnswer": "12^-1.1",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_092",
+            "question": "What is the fourth proportional of 3√5, 5√8 & 3√10?",
+            "questionHi": "3√5, 5√8 और 3√10 का चौथा अनुपात क्या है?",
+            "options": [
+              "10√5",
+              "40√2",
+              "30",
+              "20"
+            ],
+            "correctAnswer": "20",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_093",
+            "question": "Find the fourth proportional of 3 hours 20 minutes, 1 hour 50 minutes, and 6 hours 20 minutes.",
+            "questionHi": "3 घंटा 20 मिनट, 1 घंटा 50 मिनट और 6 घंटा 20 मिनट का चतुर्थानुपाती ज्ञात करें।",
+            "options": [
+              "3 hours 19 minutes",
+              "4 hours 29 minutes",
+              "4 hours 19 minutes",
+              "3 hours 29 minutes"
+            ],
+            "correctAnswer": "3 hours 29 minutes",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_094",
+            "question": "If F1 and F2 are the fourth proportional to (2/7, 7/12, 8) and (5/6, 4/3, 10), respectively, then what is F1 : F2 ?",
+            "questionHi": "यदि F1 और F2 क्रमशः (2/7, 7/12, 8) तथा (5/6, 4/3, 10) के चतुर्थानुपाती हैं, तो F1 : F2 का मान ज्ञात कीजिए।",
+            "options": [
+              "16:9",
+              "49:48",
+              "49:16",
+              "25:16"
+            ],
+            "correctAnswer": "49:48",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_095",
+            "question": "The fourth proportional to 4, a and 16a is 81. What is the value of a?",
+            "questionHi": "4, a और 16a का चौथा अनुपात 81 है। a का मान क्या है?",
+            "options": [
+              "13/2",
+              "9/2",
+              "11/2",
+              "5/2"
+            ],
+            "correctAnswer": "9/2",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_096",
+            "question": "Find the fourth proportional of (x^4 - y^4), (x + y) & (x + y), provided x ≠ y?",
+            "questionHi": "(x^4 - y^4), (x + y) & (x + y) का चौथा आनुपातिक ज्ञात कीजिए, यदि x ≠ y?",
+            "options": [
+              "(x^2 - y^2)^-1",
+              "(x^2 - y^2)^-2",
+              "(x^2 + y^2)^-1",
+              "(x^2 + y^2)^-2"
+            ],
+            "correctAnswer": "(x^2 - y^2)^-1",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_097",
+            "question": "Find the fourth proportional to: (a + b)^2 * (a^3 - b^3), (a^3 + b^3), (a^2 - b^2)?",
+            "questionHi": "(a + b)^2 * (a^3 - b^3), (a^3 + b^3), (a^2 - b^2) का चौथा आनुपातिक ज्ञात करे?",
+            "options": [
+              "(a^2 - ab + b^2)/(a + b)",
+              "(a^2 + ab + b^2)/(a - b)",
+              "1",
+              "(a^2 + ab + b^2)/(a^2 - b^2)"
+            ],
+            "correctAnswer": "1",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_098",
+            "question": "The fourth proportional of a, c and bc is d. The fourth proportional of bc^2/a, ad/c and c is:",
+            "questionHi": "a, c और bc का चतुर्थानुपाती d है। bc^2/a, ad/c और c का चतुर्थानुपाती ज्ञात कीजिए।",
+            "options": [
+              "c",
+              "b",
+              "a",
+              "d"
+            ],
+            "correctAnswer": "a",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_099",
+            "question": "If a is the tertiary ratio of 0.4 and 0.8, and b is the mean proportional of 13.5 and 0.24. Then find the value of a + b?",
+            "questionHi": "यदि a, 0.4 और 0.8 का तृतीयानुपाती है, और b, 13.5 और 0.24 का मध्यानुपाती है, तो a + b का मान ज्ञात कीजिये?",
+            "options": [
+              "3.8",
+              "2.9",
+              "3.6",
+              "3.4"
+            ],
+            "correctAnswer": "3.4",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_100",
+            "question": "What is the ratio of the fourth proportional to 2, 5, 4 and the mean proportional between 2.5 and 0.016?",
+            "questionHi": "2, 5, 4 के चौथे समानुपाती और 2.5 और 0.016 के मध्य समानुपाती माध्य का अनुपात क्या है?",
+            "options": [
+              "5:1",
+              "10:1",
+              "50:1",
+              "25:1"
+            ],
+            "correctAnswer": "50:1",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_101",
+            "question": "If p is the third proportional to 3, 9, then what is the fourth proportional to 6, p, 4?",
+            "questionHi": "यदि 3, 9 का तृतीयानुपात p है, तो 6, p, 4 का चतुर्थानुपात ज्ञात करें।",
+            "options": [
+              "3/2",
+              "18",
+              "2√3",
+              "9/2"
+            ],
+            "correctAnswer": "18",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_102",
+            "question": "Fourth proportion to 12, 18 and 6 is same as the third proportion to k and 6. What is the value of k?",
+            "questionHi": "12, 18 और 6 का चतुर्थानुपात k और 6 के तृतीयानुपात के बराबर है। k का मान ज्ञात करें।",
+            "options": [
+              "3√6",
+              "13.5",
+              "4",
+              "3"
+            ],
+            "correctAnswer": "4",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_103",
+            "question": "The ratio of third proportional to X and Y and fourth proportional to X, Y and Z is 7 : 22, then the ratio Z : Y is:",
+            "questionHi": "X और Y के तीसरे समानुपाती तथा X, Y और Z के चौथे समानुपाती का अनुपात 7 : 22 है, तो Z : Y का अनुपात क्या है?",
+            "options": [
+              "22:7",
+              "1:5",
+              "49:484",
+              "7:22"
+            ],
+            "correctAnswer": "22:7",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_104",
+            "question": "If x is a natural number such that 18 is the third proportional to (x + 2) and (x + 6), what is the value of x?",
+            "questionHi": "यदि x एक प्राकृत संख्या है और यह इस प्रकार है कि (x + 2) और (x + 6) का तृतीय समानुपाती 18 है, तो x का मान ज्ञात करें।",
+            "options": [
+              "6",
+              "9",
+              "4",
+              "8"
+            ],
+            "correctAnswer": "6",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_105",
+            "question": "The third proportional to x and x + 100 is 405, find the value of x (where x > 100).",
+            "questionHi": "x तथा x + 100 का तृतीयानुपाती 405 है, x का मान ज्ञात कीजिए (जहां x > 100) है।",
+            "options": [
+              "225",
+              "115",
+              "125",
+              "180"
+            ],
+            "correctAnswer": "125",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_106",
+            "question": "Find two numbers such that their mean proportional is 18 and the third proportional to them is 144.",
+            "questionHi": "दो ऐसी संख्याओं को ज्ञात करें जिनका औसत आनुपातिक 18 और तीसरा आनुपातिक 144 हैं।",
+            "options": [
+              "6 and 42",
+              "3 and 18",
+              "9 and 36",
+              "6 and 12"
+            ],
+            "correctAnswer": "9 and 36",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_107",
+            "question": "Four distinct positive numbers, 'a', 'b', 'c' and 'd', in the order given, are in proportion. 'b' is 35 more than 'a' and 'd' is 60 more than 'c'. The product of 'a' and 'c' is 5376. What is the sum of 'a', 'b', 'c' and 'd'?",
+            "questionHi": "चार अलग-अलग धनात्मक संख्याएँ, 'a', 'b', 'c' और 'd' दिए गए क्रम में समानुपात में हैं। 'b', 'a' से 35 अधिक है और 'd', 'c' से 60 अधिक है। 'a' और 'c' का गुणनफल 5376 है। 'a', 'b', 'c' और 'd' का योग ज्ञात करें।",
+            "options": [
+              "397",
+              "398",
+              "399",
+              "400"
+            ],
+            "correctAnswer": "399",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_108",
+            "question": "When x is subtracted from each of 55, 50, 23 and 22, the resulting numbers, in this order, are in proportion. What is the fourth proportion of 3, 7 and x?",
+            "questionHi": "जब 55, 50, 23 और 22 में से प्रत्येक से x को घटाया जाता है, तो परिणामी संख्याएँ, इसी क्रम में, समानुपात में होती हैं। 3, 7 और x का चतुर्थानुपाती ज्ञात कीजिए।",
+            "options": [
+              "35",
+              "32",
+              "38",
+              "36"
+            ],
+            "correctAnswer": "35",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_109",
+            "question": "If x is subtracted from each of 23, 39, 32 and 56, the numbers so obtained, in this order, are in proportion. What is the mean proportional between (x + 4) and (3x + 1)?",
+            "questionHi": "यदि x को 23, 39, 32 और 56 में से प्रत्येक से घटाया जाता है, तो इस क्रम में, प्राप्त संख्याएँ समानुपात में हैं। (x + 4) और (3x + 1) के बीच का मध्य आनुपातिक क्या है?",
+            "options": [
+              "15",
+              "10",
+              "12",
+              "14"
+            ],
+            "correctAnswer": "12",
+            "solution": "video solution will be added soon"
+          },
+          {
+            "id": "maths_ratio_110",
+            "question": "When x is subtracted from each of the numbers 64, 81, 85 and 109, the numbers so obtained in this order are in proportion. What is the mean proportional between (x + 3) and (2x - 1)?",
+            "questionHi": "संख्याओं 64, 81, 85 और 109 प्रत्येक में से x को घटाने पर प्राप्त होने वाली संख्याएँ इसी क्रम में समानुपाती हैं। (x + 3) और (2x - 1) के बीच मध्यानुपाती कितना होगा?",
+            "options": [
+              "15",
+              "30",
+              "18",
+              "20"
+            ],
+            "correctAnswer": "15",
+            "solution": "video solution will be added soon"
+          },
+
+            {
+              "id": "maths_ratio_111",
+              "question": "When x is subtracted from each of 21, 22, 60 and 64, the numbers so obtained, in this order, are in proportion. What is the mean proportional between (x + 1) and (7x + 8)?",
+              "questionHi": "जब 21, 22, 60 और 64 में से प्रत्येक से x घटाया जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। (x + 1) और (7x + 8) के बीच मध्यानुपाती क्या है?",
+              "options": [
+                "27",
+                "18",
+                "24",
+                "21"
+              ],
+              "correctAnswer": "24",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_112",
+              "question": "If x is subtracted from each of the numbers 20, 37, 54 and 105, then the numbers so obtained in this order are in proportion. What is the mean proportional between (7x - 5) and (x + 1)?",
+              "questionHi": "यदि संख्याओं 20, 37, 54 और 105 में से प्रत्येक से x घटाया जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। (7x - 5) और (x + 1) के बीच मध्यानुपाती क्या है?",
+              "options": [
+                "8",
+                "9",
+                "6",
+                "12"
+              ],
+              "correctAnswer": "6",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_113",
+              "question": "When x is added to each of 2, 3, 30 and 35, then the numbers obtained in this order, are in proportion. What is the mean proportional between (x + 7) and (x - 2)?",
+              "questionHi": "जब 2, 3, 30 और 35 में से प्रत्येक में x जोड़ा जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। (x + 7) और (x - 2) के बीच मध्यानुपाती क्या है?",
+              "options": [
+                "7",
+                "5",
+                "6",
+                "4"
+              ],
+              "correctAnswer": "6",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_114",
+              "question": "When x is added to each of 9, 15, 21 and 31, the numbers so obtained, in this order, are in proportion. What is the mean proportional between (3x - 2) and (5x + 4)?",
+              "questionHi": "जब 9, 15, 21 और 31 में से प्रत्येक में x जोड़ा जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। (3x - 2) और (5x + 4) के बीच मध्यानुपाती क्या है?",
+              "options": [
+                "42",
+                "35",
+                "20",
+                "30"
+              ],
+              "correctAnswer": "30",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_115",
+              "question": "What is the value of x so that when x is added to each of the numbers 11, 19, 23 and 38, the numbers obtained in this order are in proportion?",
+              "questionHi": "x का मान क्या है ताकि जब संख्याओं 11, 19, 23 और 38 में से प्रत्येक में x जोड़ा जाए, तो इस क्रम में प्राप्त संख्याएँ समानुपात में हों?",
+              "options": [
+                "2",
+                "5",
+                "3",
+                "4"
+              ],
+              "correctAnswer": "5",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_116",
+              "question": "If x is added to each of 12, 28, 21 and 45, the numbers so obtained, in this order, are in proportion. What is the value of (x + 3) : (4x - 1)?",
+              "questionHi": "यदि 12, 28, 21 और 45 में से प्रत्येक में x जोड़ा जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। (x + 3) : (4x - 1) का मान क्या है?",
+              "options": [
+                "3:4",
+                "5:6",
+                "1:2",
+                "2:3"
+              ],
+              "correctAnswer": "2:3",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_117",
+              "question": "If (x - 2) is subtracted from each of 24, 30, 36 and 46, then the numbers so obtained in this order are in proportion. Find the value of x.",
+              "questionHi": "यदि 24, 30, 36 और 46 में से प्रत्येक से (x - 2) घटाया जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। x का मान ज्ञात कीजिए।",
+              "options": [
+                "6",
+                "8",
+                "4",
+                "5"
+              ],
+              "correctAnswer": "8",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_118",
+              "question": "If x is added to each of 7, 13, 19 and 31, then the numbers so obtained in this order are in proportion. What is the fourth proportional to 3, 5 and x?",
+              "questionHi": "यदि 7, 13, 19 और 31 में से प्रत्येक में x जोड़ा जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। 3, 5 और x का चतुर्थानुपाती क्या है?",
+              "options": [
+                "10",
+                "8",
+                "5",
+                "15"
+              ],
+              "correctAnswer": "10",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_119",
+              "question": "If the numbers 4, 8, 11 and 21 are increased by x, they are in proportion. Find the mean proportional between (x + 4) and (11x + 1).",
+              "questionHi": "यदि संख्याओं 4, 8, 11 और 21 में x की वृद्धि की जाती है, तो वे समानुपात में होती हैं। (x + 4) और (11x + 1) के बीच मध्यानुपाती ज्ञात कीजिए।",
+              "options": [
+                "14",
+                "12",
+                "15",
+                "10"
+              ],
+              "correctAnswer": "12",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_120",
+              "question": "When x is added to each of 8, 14, 20 and 32, the numbers so obtained, in this order, are in proportion. What is the value of (x + 4)(3x + 1)?",
+              "questionHi": "जब 8, 14, 20 और 32 में से प्रत्येक में x जोड़ा जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। (x + 4)(3x + 1) का मान क्या है?",
+              "options": [
+                "128",
+                "112",
+                "144",
+                "100"
+              ],
+              "correctAnswer": "112",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_121",
+              "question": "If a, b, c are in continued proportion, then find the value of (a^2 + ab + b^2)/(b^2 + bc + c^2)?",
+              "questionHi": "यदि a, b, c सतत समानुपात में हैं, तो (a^2 + ab + b^2)/(b^2 + bc + c^2) का मान ज्ञात कीजिए?",
+              "options": [
+                "a/c",
+                "c/a",
+                "a/b",
+                "b/c"
+              ],
+              "correctAnswer": "a/c",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_122",
+              "question": "If x, y, z are in continued proportion, then (x + y)^2 / (y + z)^2 is equal to:",
+              "questionHi": "यदि x, y, z सतत समानुपात में हैं, तो (x + y)^2 / (y + z)^2 किसके बराबर है:",
+              "options": [
+                "x/z",
+                "z/x",
+                "x/y",
+                "y/z"
+              ],
+              "correctAnswer": "x/z",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_123",
+              "question": "If a, b, c and d are in continued proportion, then value of (a - b)^2 + (b - c)^2 + (c - d)^2 is equal to:",
+              "questionHi": "यदि a, b, c और d सतत समानुपात में हैं, तो (a - b)^2 + (b - c)^2 + (c - d)^2 का मान किसके बराबर है:",
+              "options": [
+                "(a - d)^2",
+                "a^2 - d^2",
+                "(a + d)^2",
+                "none of these"
+              ],
+              "correctAnswer": "(a - d)^2",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_124",
+              "question": "If x/y = z/w, then which of the following is true by componendo and dividendo?",
+              "questionHi": "यदि x/y = z/w है, तो युगांतरानुपात (componendo and dividendo) द्वारा निम्नलिखित में से कौन सा सत्य है?",
+              "options": [
+                "(x + y)/(x - y) = (z + w)/(z - w)",
+                "(x + z)/(x - z) = (y + w)/(y - w)",
+                "(x - y)/(x + y) = (w - z)/(w + z)",
+                "(x + w)/(x - w) = (z + y)/(z - y)"
+              ],
+              "correctAnswer": "(x + y)/(x - y) = (z + w)/(z - w)",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_125",
+              "question": "The inverted ratio of 3 : 5 is:",
+              "questionHi": "3 : 5 का व्युत्क्रमानुपात (inverted ratio) क्या है?",
+              "options": [
+                "5:3",
+                "3:5",
+                "9:25",
+                "25:9"
+              ],
+              "correctAnswer": "5:3",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_126",
+              "question": "The duplicate ratio of 4 : 7 is:",
+              "questionHi": "4 : 7 का वर्गानुपात (duplicate ratio) क्या है?",
+              "options": [
+                "2:√7",
+                "16:49",
+                "7:4",
+                "49:16"
+              ],
+              "correctAnswer": "16:49",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_127",
+              "question": "The sub-duplicate ratio of 81 : 121 is:",
+              "questionHi": "81 : 121 का वर्गमूलानुपात (sub-duplicate ratio) क्या है?",
+              "options": [
+                "9:11",
+                "11:9",
+                "6561:14641",
+                "3:4"
+              ],
+              "correctAnswer": "9:11",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_128",
+              "question": "The triplicate ratio of 2 : 3 is:",
+              "questionHi": "2 : 3 का घनानुपात (triplicate ratio) क्या है?",
+              "options": [
+                "4:9",
+                "8:27",
+                "27:8",
+                "√2:√3"
+              ],
+              "correctAnswer": "8:27",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_129",
+              "question": "The sub-triplicate ratio of 125 : 343 is:",
+              "questionHi": "125 : 343 का घनमूलानुपात (sub-triplicate ratio) क्या है?",
+              "options": [
+                "25:49",
+                "7:5",
+                "5:7",
+                "15:21"
+              ],
+              "correctAnswer": "5:7",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_130",
+              "question": "Find the compound ratio of 2 : 3, 6 : 11 and 11 : 2.",
+              "questionHi": "2 : 3, 6 : 11 और 11 : 2 का जटिल अनुपात (compound ratio) ज्ञात कीजिए।",
+              "options": [
+                "1:2",
+                "2:1",
+                "1:1",
+                "3:2"
+              ],
+              "correctAnswer": "2:1",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_131",
+              "question": "If the compound ratio of (x + 2) : 3 and 5 : (x + 3) is 10 : 7, then find the positive value of x.",
+              "questionHi": "यदि (x + 2) : 3 और 5 : (x + 3) का जटिल अनुपात 10 : 7 है, तो x का धनात्मक मान ज्ञात कीजिए।",
+              "options": [
+                "4",
+                "2",
+                "5",
+                "3"
+              ],
+              "correctAnswer": "4",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_132",
+              "question": "The ratio of the number of boys and girls in a school is 7 : 5. If there are 2400 students in total, find the number of girls.",
+              "questionHi": "एक स्कूल में लड़कों और लड़कियों की संख्या का अनुपात 7 : 5 है। यदि कुल 2400 छात्र हैं, तो लड़कियों की संख्या ज्ञात कीजिए।",
+              "options": [
+                "1000",
+                "1400",
+                "1200",
+                "800"
+              ],
+              "correctAnswer": "1000",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_133",
+              "question": "An amount of $4200 is divided among A, B, and C in the ratio 2 : 3 : 7. What is the share of B?",
+              "questionHi": "$4200 की राशि को A, B और C में 2 : 3 : 7 के अनुपात में विभाजित किया गया है। B का हिस्सा क्या है?",
+              "options": [
+                "700",
+                "1050",
+                "2450",
+                "1400"
+              ],
+              "correctAnswer": "1050",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_134",
+              "question": "The sides of a triangle are in the ratio 1/2 : 1/3 : 1/4. If the perimeter is 52 cm, find the length of the smallest side.",
+              "questionHi": "एक त्रिभुज की भुजाएँ 1/2 : 1/3 : 1/4 के अनुपात में हैं। यदि परिमाप 52 सेमी है, तो सबसे छोटी भुजा की लंबाई ज्ञात कीजिए।",
+              "options": [
+                "24 cm",
+                "18 cm",
+                "12 cm",
+                "16 cm"
+              ],
+              "correctAnswer": "12 cm",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_135",
+              "question": "Two numbers are in the ratio 3 : 4. If 5 is added to each, the ratio becomes 7 : 9. Find the larger number.",
+              "questionHi": "दो संख्याएँ 3 : 4 के अनुपात में हैं। यदि प्रत्येक में 5 जोड़ दिया जाए, तो अनुपात 7 : 9 हो जाता है। बड़ी संख्या ज्ञात कीजिए।",
+              "options": [
+                "30",
+                "40",
+                "20",
+                "25"
+              ],
+              "correctAnswer": "40",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_136",
+              "question": "If A : B = 2 : 3 and B : C = 4 : 5, then find A : B : C.",
+              "questionHi": "यदि A : B = 2 : 3 और B : C = 4 : 5 है, तो A : B : C ज्ञात कीजिए।",
+              "options": [
+                "8:12:15",
+                "2:4:5",
+                "6:9:15",
+                "8:10:15"
+              ],
+              "correctAnswer": "8:12:15",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_137",
+              "question": "The ratio of incomes of two persons is 9 : 7 and the ratio of their expenditures is 4 : 3. If each of them manages to save $2000 per month, find their monthly incomes.",
+              "questionHi": "दो व्यक्तियों की आय का अनुपात 9 : 7 है और उनके खर्च का अनुपात 4 : 3 है। यदि उनमें से प्रत्येक प्रति माह $2000 बचाने में सफल रहता है, तो उनकी मासिक आय ज्ञात कीजिए।",
+              "options": [
+                "$18000, $14000",
+                "$9000, $7000",
+                "$27000, $21000",
+                "$13500, $10500"
+              ],
+              "correctAnswer": "$18000, $14000",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_138",
+              "question": "What number must be added to each term of the ratio 7 : 11 so that it may become equal to 3 : 4?",
+              "questionHi": "7 : 11 के अनुपात के प्रत्येक पद में कौन सी संख्या जोड़ी जानी चाहिए ताकि यह 3 : 4 के बराबर हो जाए?",
+              "options": [
+                "5",
+                "6",
+                "7",
+                "8"
+              ],
+              "correctAnswer": "5",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_139",
+              "question": "If 40% of a number is equal to two-third of another number, what is the ratio of first number to the second number?",
+              "questionHi": "यदि किसी संख्या का 40% दूसरी संख्या के दो-तिहाई के बराबर है, तो पहली संख्या का दूसरी संख्या से अनुपात क्या है?",
+              "options": [
+                "2:5",
+                "3:7",
+                "5:3",
+                "7:3"
+              ],
+              "correctAnswer": "5:3",
+              "solution": "video solution will be added soon"
+            },
+            {
+              "id": "maths_ratio_140",
+              "question": "A sum of money is to be distributed among A, B, C, D in the proportion of 5 : 2 : 4 : 3. If C gets $1000 more than D, what is B's share?",
+              "questionHi": "A, B, C, D के बीच 5 : 2 : 4 : 3 के अनुपात में एक राशि वितरित की जानी है। यदि C को D से $1000 अधिक मिलते हैं, तो B का हिस्सा क्या है?",
+              "options": [
+                "$500",
+                "$1500",
+                "$2000",
+                "$2500"
+              ],
+              "correctAnswer": "$2000",
+              "solution": "video solution will be added soon"
+            },
+              {
+                "id": "maths_ratio_141",
+                "question": "Two numbers are in the ratio 1 : 3. If their sum is 240, then find their difference.",
+                "questionHi": "दो संख्याएँ 1 : 3 के अनुपात में हैं। यदि उनका योग 240 है, तो उनका अंतर ज्ञात कीजिए।",
+                "options": [
+                  "120",
+                  "108",
+                  "60",
+                  "180"
+                ],
+                "correctAnswer": "120",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_142",
+                "question": "If x : y = 5 : 2, then find the value of (8x + 9y) : (8x + 2y).",
+                "questionHi": "यदि x : y = 5 : 2 है, तो (8x + 9y) : (8x + 2y) का मान ज्ञात कीजिए।",
+                "options": [
+                  "22:29",
+                  "26:61",
+                  "29:22",
+                  "61:26"
+                ],
+                "correctAnswer": "29:22",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_143",
+                "question": "The ratio of three numbers is 3 : 4 : 5 and the sum of their squares is 1250. Find the sum of the numbers.",
+                "questionHi": "तीन संख्याओं का अनुपात 3 : 4 : 5 है और उनके वर्गों का योग 1250 है। संख्याओं का योग ज्ञात कीजिए।",
+                "options": [
+                  "30",
+                  "50",
+                  "60",
+                  "90"
+                ],
+                "correctAnswer": "60",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_144",
+                "question": "If a : b = c : d = e : f = 1 : 2, then find (pa + qc + re) : (pb + qd + rf).",
+                "questionHi": "यदि a : b = c : d = e : f = 1 : 2 है, तो (pa + qc + re) : (pb + qd + rf) ज्ञात कीजिए।",
+                "options": [
+                  "1:2",
+                  "2:1",
+                  "p:q",
+                  "q:r"
+                ],
+                "correctAnswer": "1:2",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_145",
+                "question": "A sum of $7000 is divided among A, B, and C such that A gets 50% of what B and C together get, and B gets 2/5th of what A and C together get. Find the share of C.",
+                "questionHi": "$7000 की राशि को A, B और C में इस प्रकार विभाजित किया जाता है कि A को B और C को मिलाकर मिलने वाली राशि का 50% मिलता है, और B को A और C को मिलाकर मिलने वाली राशि का 2/5 भाग मिलता है। C का हिस्सा ज्ञात कीजिए।",
+                "options": [
+                  "$2333",
+                  "$3000",
+                  "$2667",
+                  "$2500"
+                ],
+                "correctAnswer": "$2667",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_146",
+                "question": "What is the least number that must be subtracted from each of the numbers 14, 17, 34 and 42 so that the remainders may be proportional?",
+                "questionHi": "संख्याओं 14, 17, 34 और 42 में से प्रत्येक में से कौन सी न्यूनतम संख्या घटाई जानी चाहिए ताकि शेषफल समानुपाती हो जाएँ?",
+                "options": [
+                  "0",
+                  "1",
+                  "2",
+                  "3"
+                ],
+                "correctAnswer": "2",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_147",
+                "question": "If a : b = 3 : 4, b : c = 5 : 7 and c : d = 8 : 9, then find the ratio of a : d.",
+                "questionHi": "यदि a : b = 3 : 4, b : c = 5 : 7 और c : d = 8 : 9 है, तो a : d का अनुपात ज्ञात कीजिए।",
+                "options": [
+                  "3:7",
+                  "7:3",
+                  "10:21",
+                  "21:10"
+                ],
+                "correctAnswer": "10:21",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_148",
+                "question": "The total number of coins in a bag is 465, consisting of $1, 50-paise and 25-paise coins. Their values are in the ratio of 5 : 3 : 1. Find the number of 50-paise coins.",
+                "questionHi": "एक बैग में सिक्कों की कुल संख्या 465 है, जिसमें $1, 50-पैसे और 25-पैसे के सिक्के शामिल हैं। उनके मूल्यों का अनुपात 5 : 3 : 1 है। 50-पैसे के सिक्कों की संख्या ज्ञात कीजिए।",
+                "options": [
+                  "155",
+                  "150",
+                  "145",
+                  "135"
+                ],
+                "correctAnswer": "155",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_149",
+                "question": "If 15% of A = 20% of B, then find A : B.",
+                "questionHi": "यदि A का 15% = B का 20% है, तो A : B ज्ञात कीजिए।",
+                "options": [
+                  "3:4",
+                  "4:3",
+                  "15:20",
+                  "20:15"
+                ],
+                "correctAnswer": "4:3",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_150",
+                "question": "The salaries of A, B, and C are in the ratio 2 : 3 : 5. If increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be the new ratio of their salaries?",
+                "questionHi": "A, B और C के वेतनों का अनुपात 2 : 3 : 5 है। यदि उनके वेतनों में क्रमशः 15%, 10% और 20% की वृद्धि की जाती है, तो उनके वेतनों का नया अनुपात क्या होगा?",
+                "options": [
+                  "3:3:10",
+                  "10:11:20",
+                  "23:33:60",
+                  "cannot be determined"
+                ],
+                "correctAnswer": "23:33:60",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_151",
+                "question": "If x : y = 3 : 4, then find the value of (7x + 3y) : (7x - 3y).",
+                "questionHi": "यदि x : y = 3 : 4 है, तो (7x + 3y) : (7x - 3y) का मान ज्ञात कीजिए।",
+                "options": [
+                  "4:3",
+                  "5:2",
+                  "11:3",
+                  "37:19"
+                ],
+                "correctAnswer": "11:3",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_152",
+                "question": "The ratio of age of a man and his wife is 4 : 3. After 4 years, this ratio will be 9 : 7. If at the time of marriage, the ratio was 5 : 3, then how many years ago were they married?",
+                "questionHi": "एक पुरुष और उसकी पत्नी की आयु का अनुपात 4 : 3 है। 4 वर्ष बाद, यह अनुपात 9 : 7 हो जाएगा। यदि विवाह के समय यह अनुपात 5 : 3 था, तो उनका विवाह कितने वर्ष पहले हुआ था?",
+                "options": [
+                  "8 years",
+                  "10 years",
+                  "12 years",
+                  "15 years"
+                ],
+                "correctAnswer": "12 years",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_153",
+                "question": "Find the compound ratio of duplicate ratio of 4 : 5 and triplicate ratio of 1 : 2.",
+                "questionHi": "4 : 5 के वर्गानुपात और 1 : 2 के घनानुपात का जटिल अनुपात ज्ञात कीजिए।",
+                "options": [
+                  "2:25",
+                  "16:25",
+                  "4:25",
+                  "8:25"
+                ],
+                "correctAnswer": "2:25",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_154",
+                "question": "If A : B = 1/2 : 3/8, B : C = 1/3 : 5/9 and C : D = 5/6 : 3/4, then find the ratio A : B : C : D.",
+                "questionHi": "यदि A : B = 1/2 : 3/8, B : C = 1/3 : 5/9 और C : D = 5/6 : 3/4 है, तो अनुपात A : B : C : D ज्ञात कीजिए।",
+                "options": [
+                  "4:6:8:10",
+                  "6:4:8:10",
+                  "6:8:9:10",
+                  "8:6:10:9"
+                ],
+                "correctAnswer": "8:6:10:9",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_155",
+                "question": "Two numbers are in the ratio 3 : 5. If 9 is subtracted from each, the new numbers are in the ratio 12 : 23. Find the smaller number.",
+                "questionHi": "दो संख्याएँ 3 : 5 के अनुपात में हैं। यदि प्रत्येक में से 9 घटा दिया जाए, तो नई संख्याएँ 12 : 23 के अनुपात में हो जाती हैं। छोटी संख्या ज्ञात कीजिए।",
+                "options": [
+                  "27",
+                  "33",
+                  "49",
+                  "55"
+                ],
+                "correctAnswer": "33",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_156",
+                "question": "If 2A = 3B = 4C, then find A : B : C.",
+                "questionHi": "यदि 2A = 3B = 4C है, तो A : B : C ज्ञात कीजिए।",
+                "options": [
+                  "2:3:4",
+                  "4:3:2",
+                  "6:4:3",
+                  "3:4:6"
+                ],
+                "correctAnswer": "6:4:3",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_157",
+                "question": "Gold is 19 times as heavy as water and copper is 9 times as heavy as water. In what ratio should these metals be mixed so that the mixture may be 15 times as heavy as water?",
+                "questionHi": "सोना, पानी से 19 गुना भारी है और तांबा, पानी से 9 गुना भारी है। इन धातुओं को किस अनुपात में मिलाया जाना चाहिए ताकि मिश्रण पानी से 15 गुना भारी हो जाए?",
+                "options": [
+                  "1:1",
+                  "2:3",
+                  "3:2",
+                  "4:3"
+                ],
+                "correctAnswer": "3:2",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_158",
+                "question": "The mean proportional between 0.08 and 0.18 is:",
+                "questionHi": "0.08 और 0.18 के बीच मध्यानुपाती क्या है?",
+                "options": [
+                  "0.12",
+                  "0.14",
+                  "0.16",
+                  "0.012"
+                ],
+                "correctAnswer": "0.12",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_159",
+                "question": "If x is the third proportional to 9 and 12, then what is the value of x?",
+                "questionHi": "यदि x, 9 और 12 का तृतीयानुपाती है, तो x का मान क्या है?",
+                "options": [
+                  "14",
+                  "16",
+                  "18",
+                  "20"
+                ],
+                "correctAnswer": "16",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_160",
+                "question": "What is the fourth proportional to 5, 8, 15?",
+                "questionHi": "5, 8, 15 का चतुर्थानुपाती क्या है?",
+                "options": [
+                  "20",
+                  "24",
+                  "28",
+                  "30"
+                ],
+                "correctAnswer": "24",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_161",
+                "question": "If x/5 = y/8, then find (x + 5) : (y + 8).",
+                "questionHi": "यदि x/5 = y/8 है, तो (x + 5) : (y + 8) ज्ञात कीजिए।",
+                "options": [
+                  "5:8",
+                  "8:5",
+                  "13:5",
+                  "5:13"
+                ],
+                "correctAnswer": "5:8",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_162",
+                "question": "An amount of $2430 is divided among A, B, and C such that if their shares be reduced by $5, $10, and $15 respectively, the remainders shall be in the ratio of 3 : 4 : 5. Find the share of B.",
+                "questionHi": "$2430 की एक राशि को A, B और C में इस प्रकार विभाजित किया जाता है कि यदि उनके हिस्सों को क्रमशः $5, $10 और $15 कम कर दिया जाए, तो शेषफल 3 : 4 : 5 के अनुपात में होंगे। B का हिस्सा ज्ञात कीजिए।",
+                "options": [
+                  "$605",
+                  "$790",
+                  "$810",
+                  "$1010"
+                ],
+                "correctAnswer": "$810",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_163",
+                "question": "If a/3 = b/4 = c/7, then find the value of (a + b + c)/c.",
+                "questionHi": "यदि a/3 = b/4 = c/7 है, तो (a + b + c)/c का मान ज्ञात कीजिए।",
+                "options": [
+                  "1",
+                  "2",
+                  "3",
+                  "7"
+                ],
+                "correctAnswer": "2",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_164",
+                "question": "In a library, the ratio of story books to other books is 7 : 2 and there are 1512 story books. Due to a new collection, some more story books are added and the ratio becomes 15 : 4. Find the number of new story books added.",
+                "questionHi": "एक पुस्तकालय में, कहानी की किताबों का अन्य किताबों से अनुपात 7 : 2 है और वहां 1512 कहानी की किताबें हैं। एक नए संग्रह के कारण, कुछ और कहानी की किताबें जोड़ी जाती हैं और अनुपात 15 : 4 हो जाता है। जोड़ी गई नई कहानी की किताबों की संख्या ज्ञात कीजिए।",
+                "options": [
+                  "84",
+                  "108",
+                  "96",
+                  "120"
+                ],
+                "correctAnswer": "108",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_165",
+                "question": "The ratio of the number of sides of two regular polygons is 5 : 6 and the ratio of their interior angles is 24 : 25. Find the number of sides of these polygons.",
+                "questionHi": "दो सम बहुभुजों की भुजाओं की संख्या का अनुपात 5 : 6 है और उनके आंतरिक कोणों का अनुपात 24 : 25 है। इन बहुभुजों की भुजाओं की संख्या ज्ञात कीजिए।",
+                "options": [
+                  "5, 6",
+                  "10, 12",
+                  "15, 18",
+                  "20, 24"
+                ],
+                "correctAnswer": "10, 12",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_166",
+                "question": "If (a + b) : (b + c) : (c + a) = 6 : 7 : 8 and a + b + c = 14, then find the value of c.",
+                "questionHi": "यदि (a + b) : (b + c) : (c + a) = 6 : 7 : 8 और a + b + c = 14 है, तो c का मान ज्ञात कीजिए।",
+                "options": [
+                  "6",
+                  "7",
+                  "8",
+                  "14"
+                ],
+                "correctAnswer": "6",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_167",
+                "question": "The incomes of A and B are in the ratio 3 : 2 and their expenditures are in the ratio 5 : 3. If both save $200, find the income of A.",
+                "questionHi": "A और B की आय 3 : 2 के अनुपात में है और उनके खर्च 5 : 3 के अनुपात में हैं। यदि दोनों $200 बचाते हैं, तो A की आय ज्ञात कीजिए।",
+                "options": [
+                  "$1200",
+                  "$1800",
+                  "$2400",
+                  "$3000"
+                ],
+                "correctAnswer": "$1200",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_168",
+                "question": "If x : y = 3 : 1, then find the value of (x^3 - y^3) : (x^3 + y^3).",
+                "questionHi": "यदि x : y = 3 : 1 है, तो (x^3 - y^3) : (x^3 + y^3) का मान ज्ञात कीजिए।",
+                "options": [
+                  "13:14",
+                  "14:13",
+                  "10:11",
+                  "11:10"
+                ],
+                "correctAnswer": "13:14",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_169",
+                "question": "The ratio of numbers of boys and girls in a school of 720 students is 7 : 5. How many more girls should be admitted to make the ratio 1 : 1?",
+                "questionHi": "720 छात्रों वाले एक स्कूल में लड़कों और लड़कियों की संख्या का अनुपात 7 : 5 है। अनुपात को 1 : 1 करने के लिए कितनी और लड़कियों को प्रवेश दिया जाना चाहिए?",
+                "options": [
+                  "90",
+                  "120",
+                  "240",
+                  "360"
+                ],
+                "correctAnswer": "120",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_170",
+                "question": "If a : b = 2 : 3 and b : c = 4 : 5, then find the value of a^2 : b^2 : bc.",
+                "questionHi": "यदि a : b = 2 : 3 और b : c = 4 : 5 है, तो a^2 : b^2 : bc का मान ज्ञात कीजिए।",
+                "options": [
+                  "4:9:45",
+                  "16:36:45",
+                  "16:36:15",
+                  "4:36:45"
+                ],
+                "correctAnswer": "16:36:45",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_171",
+                "question": "The sub-triplicate ratio of 8 : 27 is:",
+                "questionHi": "8 : 27 का घनमूलानुपात (sub-triplicate ratio) क्या है?",
+                "options": [
+                  "2:3",
+                  "3:2",
+                  "4:9",
+                  "64:729"
+                ],
+                "correctAnswer": "2:3",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_172",
+                "question": "What is the third proportional of 0.36 and 0.48?",
+                "questionHi": "0.36 और 0.48 का तृतीयानुपाती क्या है?",
+                "options": [
+                  "0.64",
+                  "0.42",
+                  "0.56",
+                  "0.72"
+                ],
+                "correctAnswer": "0.64",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_173",
+                "question": "If A : B = 2 : 1, B : C = 3 : 2, C : D = 4 : 3, then find A : B : C : D.",
+                "questionHi": "यदि A : B = 2 : 1, B : C = 3 : 2, C : D = 4 : 3 है, तो A : B : C : D ज्ञात कीजिए।",
+                "options": [
+                  "2:1:3:2",
+                  "2:3:4:3",
+                  "24:12:8:6",
+                  "12:6:4:3"
+                ],
+                "correctAnswer": "12:6:4:3",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_174",
+                "question": "The product of two positive numbers is 4752 and their ratio is 11 : 12. Find the smaller number.",
+                "questionHi": "दो धनात्मक संख्याओं का गुणनफल 4752 है और उनका अनुपात 11 : 12 है। छोटी संख्या ज्ञात कीजिए।",
+                "options": [
+                  "66",
+                  "72",
+                  "60",
+                  "54"
+                ],
+                "correctAnswer": "66",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_175",
+                "question": "If x : y = 4 : 7, then find the value of (2x + 3y) : (3x + 4y).",
+                "questionHi": "यदि x : y = 4 : 7 है, तो (2x + 3y) : (3x + 4y) का मान ज्ञात कीजिए।",
+                "options": [
+                  "29:40",
+                  "40:29",
+                  "31:44",
+                  "44:31"
+                ],
+                "correctAnswer": "29:40",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_176",
+                "question": "A sum of $3115 is divided among A, B, and C such that if $25, $28 and $32 be diminished from their shares respectively, their remaining shares shall be in the ratio 8 : 15 : 20. Find the share of A.",
+                "questionHi": "$3115 की राशि को A, B और C में इस प्रकार विभाजित किया जाता है कि यदि उनके हिस्सों से क्रमशः $25, $28 और $32 कम कर दिए जाएँ, तो उनके शेष हिस्से 8 : 15 : 20 के अनुपात में होंगे। A का हिस्सा ज्ञात कीजिए।",
+                "options": [
+                  "$565",
+                  "$585",
+                  "$605",
+                  "$625"
+                ],
+                "correctAnswer": "$585",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_177",
+                "question": "If A : B = 5 : 7 and B : C = 6 : 11, then find A : B : C.",
+                "questionHi": "यदि A : B = 5 : 7 और B : C = 6 : 11 है, तो A : B : C ज्ञात कीजिए।",
+                "options": [
+                  "30:42:77",
+                  "5:7:11",
+                  "30:42:66",
+                  "35:42:77"
+                ],
+                "correctAnswer": "30:42:77",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_178",
+                "question": "The ratio of prices of two houses was 16 : 23. Two years later, when the price of the first house increased by 10% and that of the second by $477, the ratio of their prices became 11 : 20. Find the original price of the first house.",
+                "questionHi": "दो मकानों की कीमतों का अनुपात 16 : 23 था। दो वर्ष बाद, जब पहले मकान की कीमत में 10% की वृद्धि हुई और दूसरे मकान की कीमत में $477 की वृद्धि हुई, तो उनकी कीमतों का अनुपात 11 : 20 हो गया। पहले मकान की वास्तविक कीमत ज्ञात कीजिए।",
+                "options": [
+                  "$1200",
+                  "$1280",
+                  "$1600",
+                  "$1800"
+                ],
+                "correctAnswer": "$1280",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_179",
+                "question": "If a : b = 5 : 9 and b : c = 4 : 7, then find a : b : c.",
+                "questionHi": "यदि a : b = 5 : 9 और b : c = 4 : 7 है, तो a : b : c ज्ञात कीजिए।",
+                "options": [
+                  "20:36:63",
+                  "5:4:7",
+                  "20:36:54",
+                  "15:27:42"
+                ],
+                "correctAnswer": "20:36:63",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_180",
+                "question": "Two numbers are in the ratio 4 : 5. If 30 is subtracted from each, the ratio becomes 1 : 2. Find the sum of the numbers.",
+                "questionHi": "दो संख्याएँ 4 : 5 के अनुपात में हैं। यदि प्रत्येक में से 30 घटा दिया जाए, तो अनुपात 1 : 2 हो जाता है। संख्याओं का योग ज्ञात कीजिए।",
+                "options": [
+                  "70",
+                  "90",
+                  "100",
+                  "120"
+                ],
+                "correctAnswer": "90",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_181",
+                "question": "If x : y = 2 : 5, then find the value of (3x + 2y) : (2x + 5y).",
+                "questionHi": "यदि x : y = 2 : 5 है, तो (3x + 2y) : (2x + 5y) का मान ज्ञात कीजिए।",
+                "options": [
+                  "16:29",
+                  "29:16",
+                  "14:27",
+                  "27:14"
+                ],
+                "correctAnswer": "16:29",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_182",
+                "question": "The fourth proportional to 0.12, 0.21, 8 is:",
+                "questionHi": "0.12, 0.21, 8 का चतुर्थानुपाती क्या है?",
+                "options": [
+                  "14",
+                  "16",
+                  "12",
+                  "18"
+                ],
+                "correctAnswer": "14",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_183",
+                "question": "An amount of $1300 is divided among A, B, C, and D such that A's share / B's share = B's share / C's share = C's share / D's share = 2/3. Find A's share.",
+                "questionHi": "$1300 की एक राशि को A, B, C और D में इस प्रकार विभाजित किया जाता है कि A का हिस्सा / B का हिस्सा = B का हिस्सा / C का हिस्सा = C का हिस्सा / D का हिस्सा = 2/3 है। A का हिस्सा ज्ञात कीजिए।",
+                "options": [
+                  "$160",
+                  "$240",
+                  "$360",
+                  "$540"
+                ],
+                "correctAnswer": "$160",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_184",
+                "question": "The mean proportional of 0.32 and 0.02 is:",
+                "questionHi": "0.32 और 0.02 का मध्यानुपाती क्या है?",
+                "options": [
+                  "0.08",
+                  "0.04",
+                  "0.06",
+                  "0.16"
+                ],
+                "correctAnswer": "0.08",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_185",
+                "question": "If x : y = 3 : 4, then find the value of (x^2y + xy^2) : (x^3 + y^3).",
+                "questionHi": "यदि x : y = 3 : 4 है, तो (x^2y + xy^2) : (x^3 + y^3) का मान ज्ञात कीजिए।",
+                "options": [
+                  "12:13",
+                  "13:12",
+                  "84:91",
+                  "11:12"
+                ],
+                "correctAnswer": "12:13",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_186",
+                "question": "The ratio of the age of a father to that of his son is 5 : 2. If the product of their ages is 1000, then find the father's age after 10 years.",
+                "questionHi": "एक पिता और उसके पुत्र की आयु का अनुपात 5 : 2 है। यदि उनकी आयु का गुणनफल 1000 है, तो 10 वर्ष बाद पिता की आयु ज्ञात कीजिए।",
+                "options": [
+                  "50 years",
+                  "60 years",
+                  "40 years",
+                  "55 years"
+                ],
+                "correctAnswer": "60 years",
+                "solution": "video solution will be added soon"
+              },
+              {
+                "id": "maths_ratio_187",
+                "question": "If x : y : z = 2 : 3 : 5, then find the value of (x + y + z) / (3x + y - z).",
+                "questionHi": "यदि x : y : z = 2 : 3 : 5 है, तो (x + y + z) / (3x + y - z) का मान ज्ञात कीजिए।",
+                "options": [
+                  "2",
+                  "3",
+                  "5",
+                  "4"
+                ],
+                "correctAnswer": "5",
+                "solution": "video solution will be added soon"
+              },
+ 
   {
     "id": "maths_ratio_proportion_188",
     "question": "Ratio Proportion — Question 188 (add real content in datas/maths/ratio-proportion.json)",
