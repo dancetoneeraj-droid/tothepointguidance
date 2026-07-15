@@ -1521,7 +1521,7 @@
             "explanation": "Comparing shared strings 'WAVES' and 'VOTED' shows they share letters V, E. Cross-referencing common digits with 'VOCAL' isolates individual numerical values, verifying that 'E' matches to 5."
           },
           {
-            "id": "reasoning_analogy_001",
+            "id": "reasoning_analogy_126",
             "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.\n\n98 : 115 :: 74 : ? :: 67 : 84",
             "options": [
               "85",
@@ -1533,7 +1533,7 @@
             "explanation": "98 → 115 (+17) and 67 → 84 (+17). Therefore, 74 + 17 = 91."
           },
           {
-            "id": "reasoning_analogy_002",
+            "id": "reasoning_analogy_127",
             "question": "Select the option that is related to the fifth number in the same way as the fourth number is related to the third number and the second number is related to the first number.\n\n37 : 43 :: 23 : 31 :: 17 : ?",
             "options": [
               "23",
@@ -1545,7 +1545,7 @@
             "explanation": "37 → 43 (+6) and 23 → 31 (+8). The intended pattern appears to map prime numbers to the next suitable prime. Hence 17 → 23."
           },
           {
-            "id": "reasoning_analogy_003",
+            "id": "reasoning_analogy_128",
             "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n16 : 20 :: 256 : ? :: 49 : 56",
             "options": [
               "272",
@@ -1557,7 +1557,7 @@
             "explanation": "16 → 20 (+4) and 49 → 56 (+7). The middle pair follows the same relation using the corresponding arithmetic operation. Hence 256 → 272."
           },
           {
-            "id": "reasoning_analogy_004",
+            "id": "reasoning_analogy_129",
             "question": "Select the option that is related to the fourth term in the same way as the first term is related to the second term and the fifth term is related to the sixth term.\n\n56 : 9 :: ? : 16 :: 704 : 27",
             "options": [
               "256",
@@ -1569,7 +1569,7 @@
             "explanation": "56 = 7 × 8 and 7 + 2 = 9. Similarly, 704 = 22 × 32 gives 27 by the same pattern. Applying the relation, the required number is 256."
           },
           {
-            "id": "reasoning_analogy_005",
+            "id": "reasoning_analogy_130",
             "question": "Select the option that is related to the fourth term in the same way as the first term is related to the second term and the fifth term is related to the sixth term.\n\n8 : 496 :: ? : 204 :: 9 : 711",
             "options": [
               "6",
@@ -1581,7 +1581,7 @@
             "explanation": "The relation is based on multiplying three consecutive numbers starting from the given number: 8 × 9 × 10 = 720 (pattern-based). Applying the same logic gives the required value as 11. (Verify with the original image.)"
           },
           {
-            "id": "reasoning_analogy_006",
+            "id": "reasoning_analogy_131",
             "question": "Select the option that is related to the fourth term in the same way as the first term is related to the second term and the fifth term is related to the sixth term.\n\n201 : 9 :: ? : 12 :: 366 : 14",
             "options": [
               "321",
@@ -1593,7 +1593,7 @@
             "explanation": "The mapping is based on a numerical operation performed on the whole number to obtain the second value. Applying the same operation for the missing term gives 288. (Verify from the original source.)"
           },
           {
-            "id": "reasoning_analogy_007",
+            "id": "reasoning_analogy_132",
             "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.\n\n21 : 70 :: 13 : ? :: 19 : 64",
             "options": [
               "58",
@@ -1605,7 +1605,7 @@
             "explanation": "21 → 70 and 19 → 64 follow the same arithmetic relation. Applying the identical pattern to 13 gives 46."
           },
           {
-            "id": "reasoning_analogy_008",
+            "id": "reasoning_analogy_133",
             "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.\n\n1 : 7 :: 3 : 215 :: 4 : ?",
             "options": [
               "453",
@@ -1617,7 +1617,7 @@
             "explanation": "The relation follows the cube of the number minus/plus a constant pattern. Applying the same logic for 4 gives 511. (Verify with the original image.)"
           },
           {
-            "id": "reasoning_analogy_009",
+            "id": "reasoning_analogy_134",
             "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.\n\n84 : 49 :: 156 : 91 :: 96 : ?",
             "options": [
               "59",
@@ -1629,7 +1629,7 @@
             "explanation": "84 → 49 and 156 → 91 follow the same numerical transformation. Applying the identical pattern to 96 gives 56."
           },
           {
-            "id": "reasoning_analogy_010",
+            "id": "reasoning_analogy_135",
             "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n21 : 112 :: 36 : ? :: 51 : 272",
             "options": [
               "192",
@@ -1641,7 +1641,7 @@
             "explanation": "The relation is based on multiplying the number by a fixed arithmetic expression. Applying the same pattern to 36 gives 192. (Verify with the original source.)"
           },
           {
-            "id": "reasoning_analogy_011",
+            "id": "reasoning_analogy_136",
             "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.\n\n88.4 : 64 :: 72.8 : ? :: 96.2 : 71.8",
             "options": [
               "51.2",
@@ -1653,7 +1653,7 @@
             "explanation": "A similar decimal transformation is applied to each pair. Applying the same rule to 72.8 gives 49. (Needs verification from the original image.)"
           },
           {
-            "id": "reasoning_analogy_012",
+            "id": "reasoning_analogy_137",
             "question": "Select the option that is related to the fifth term in the same way as the second term is related to the first term and the fourth term is related to the third term.\n\n132 : 10 :: 42 : 5 :: 272 : ?",
             "options": [
               "15",
@@ -1665,7 +1665,7 @@
             "explanation": "The second number is obtained by applying the same numerical operation to the first number. Hence, for 272 the required value is 16."
           },
           {
-            "id": "reasoning_analogy_013",
+            "id": "reasoning_analogy_138",
             "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.\n\n14 : 44.8 :: 9 : ? :: 8 : 25.6",
             "options": [
               "29.4",
@@ -1677,7 +1677,7 @@
             "explanation": "The second term is obtained by multiplying the first term by 3.2. Therefore, 9 × 3.2 = 28.8."
           },
           {
-            "id": "reasoning_analogy_014",
+                      "id": "reasoning_analogy_139",
             "question": "Select the option that is related to the fifth number in the same way as the fourth number is related to the third number and the second number is related to the first number.\n\n4867 : 9574 :: 635 : 473 :: 573 : ?",
             "options": [
               "746",
@@ -1689,7 +1689,7 @@
             "explanation": "The relation is based on rearranging the digits according to a fixed pattern. Applying the same rearrangement to 573 gives 746. (Verify with the original image.)"
           },
           {
-            "id": "reasoning_analogy_015",
+            "id": "reasoning_analogy_140",
             "question": "Select the option that is related to the fifth number in the same way as the fourth number is related to the third number and the second number is related to the first number.\n\n56 : 51 :: 71 : 64 :: 69 : ?",
             "options": [
               "60",
@@ -1701,7 +1701,7 @@
             "explanation": "A similar numerical transformation is applied to each pair. Applying the same rule to 69 gives 61. (Verify with the original source.)"
           },
           {
-            "id": "reasoning_analogy_016",
+            "id": "reasoning_analogy_141",
             "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n49 : 63 :: 64 : ? :: 81 : 99",
             "options": [
               "80",
@@ -1713,7 +1713,7 @@
             "explanation": "49 → 63 (+14) and 81 → 99 (+18). Applying the corresponding pattern to 64 gives 80. (Verify from the original image.)"
           },
           {
-            "id": "reasoning_analogy_017",
+            "id": "reasoning_analogy_142",
             "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n36 : 42 :: 81 : ? :: 100 : 110",
             "options": [
               "90",
@@ -1725,7 +1725,7 @@
             "explanation": "The second number is obtained by adding a value related to the square root of the first number. Applying the same logic to 81 gives 90. (Needs manual verification.)"
           },
           {
-            "id": "reasoning_analogy_018",
+            "id": "reasoning_analogy_143",
             "question": "Select the option that is related to the fourth term in the same way as the first term is related to the second term and the fifth term is related to the sixth term.\n\n13 : 52 :: ? : 84 :: 19 : 76",
             "options": [
               "21",
@@ -1737,7 +1737,7 @@
             "explanation": "The second term is obtained by multiplying the first term by 4. Therefore, 84 ÷ 4 = 21."
           },
           {
-            "id": "reasoning_analogy_019",
+            "id": "reasoning_analogy_144",
             "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.\n\n72 : 27 :: 63 : ? :: 54 : 45",
             "options": [
               "36",
@@ -1749,7 +1749,7 @@
             "explanation": "The digits of the number are rearranged according to the same pattern. Applying the same transformation to 63 gives 36."
           },
           {
-            "id": "reasoning_analogy_020",
+            "id": "reasoning_analogy_145",
             "question": "Select the option that is related to the fourth number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n18 : 54 :: ? : 96 :: 27 : 81",
             "options": [
               "30",
@@ -1761,7 +1761,7 @@
             "explanation": "18 × 3 = 54 and 27 × 3 = 81. Therefore, the missing number satisfies ? × 3 = 96, so ? = 32."
           },
           {
-            "id": "reasoning_analogy_021",
+            "id": "reasoning_analogy_146",
             "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n45 : 72 :: 36 : ? :: 27 : 54",
             "options": [
               "63",
@@ -1773,7 +1773,7 @@
             "explanation": "45 → 72 and 27 → 54 follow the same arithmetic pattern. Applying the same relation to 36 gives 63. (Verify with the original image.)"
           },
           {
-            "id": "reasoning_analogy_022",
+            "id": "reasoning_analogy_147",
             "question": "Select the option that is related to the fifth term in the same way as the second term is related to the first term and the fourth term is related to the third term.\n\n128 : 16 :: 200 : 20 :: 288 : ?",
             "options": [
               "22",
@@ -1785,7 +1785,7 @@
             "explanation": "The second term is obtained using a fixed numerical operation on the first term. Applying the same rule to 288 gives 24."
           },
           {
-            "id": "reasoning_analogy_023",
+            "id": "reasoning_analogy_148",
             "question": "Select the option that is related to the fourth number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n63 : 81 :: ? : 121 :: 35 : 49",
             "options": [
               "99",
@@ -1797,7 +1797,7 @@
             "explanation": "63 → 81 and 35 → 49 follow the same arithmetic relation. Therefore, the missing number is 99."
           },
           {
-            "id": "reasoning_analogy_024",
+            "id": "reasoning_analogy_149",
             "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n84 : 168 :: 126 : ? :: 63 : 126",
             "options": [
               "242",
@@ -1809,7 +1809,7 @@
             "explanation": "The second number is obtained by doubling the first number. Applying the same relation to 126 gives 252."
           },
           {
-            "id": "reasoning_analogy_025",
+            "id": "reasoning_analogy_150",
             "question": "Select the option that is related to the fifth number in the same way as the fourth number is related to the third number and the second number is related to the first number.\n\n9574 : 4759 :: 8462 : 2684 :: 5731 : ?",
             "options": [
               "3157",

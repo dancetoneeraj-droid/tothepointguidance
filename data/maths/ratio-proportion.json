@@ -704,10 +704,10 @@
       "options": [
         "1",
         "2",
-        "5",
+        "37/12",
         "4"
       ],
-      "correctAnswer": "4",
+      "correctAnswer": "37/12",
       "solution": "video solution will be added soon"
     },
       {
@@ -824,7 +824,7 @@
           "ad = bc",
           "ad + bc = 0"
         ],
-        "correctAnswer": "ac = bd",
+        "correctAnswer": "ad = bc",
         "solution": "video solution will be added soon"
       },
       {
@@ -850,7 +850,7 @@
           "(1/q) * √( (2p - q)/q )",
           "(1/p) * √( (2p - q)/q )"
         ],
-        "correctAnswer": "(1/q) * √( (2p - q)/q )",
+        "correctAnswer": "(1/p) * √( (2p - q)/q )",
         "solution": "video solution will be added soon"
       },
         {
@@ -876,7 +876,7 @@
             "d, c, b and a, in the order given are in proportion. / d, c, b और a दिए गए क्रम में समानुपात में हैं।",
             "a, c, b and d, in the order given are in the proportion. / a, c, b और d दिए गए क्रम में समानुपात में हैं।"
           ],
-          "correctAnswer": "a, c, b and d, in the order given are in the proportion. / a, c, b और d दिए गए क्रम में समानुपात में हैं।",
+          "correctAnswer": "c, d, b and a, in the order given are in the proportion. / c, d, b और a दिए गए क्रम में समानुपात में हैं।",
           "solution": "video solution will be added soon"
         },
         {
@@ -928,7 +928,7 @@
             "16 31/36",
             "16 19/36"
           ],
-          "correctAnswer": "16 29/36",
+          "correctAnswer": "15 29/36",
           "solution": "video solution will be added soon"
         },
         {
@@ -967,7 +967,7 @@
             "y^2 / (x^2 * z^2)",
             "y^2 / (x^3 * z^2)"
           ],
-          "correctAnswer": "y^2 / (x^3 * z^2)",
+          "correctAnswer": "y^2 / (x^2 * z^3)",
           "solution": "video solution will be added soon"
         },
         {
