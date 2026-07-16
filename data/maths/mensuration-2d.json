@@ -192,7 +192,8 @@
     ],
     "correctAnswer": "3 and 8",
     "questionHi": "यदि किसी त्रिभुज की एक भुजा 7 है, इसका परिमाप 18 के बराबर है और क्षेत्रफल √108 है, तो अन्य दो भुजाएँ ज्ञात कीजिए।",
-    "solution": "# Solution\n\n**Step 1: Set up the equations**\nLet the three sides be 7, x, and y.\n- Perimeter: 7 + x + y = 18\n- Therefore: x + y = 11 ... (equation 1)\n\n**Step 2: Apply Heron's formula for area**\nSemi-perimeter: s = 18/2 = 9\n\nArea = √[s(s-a)(s-b)(s-c)] = √216\n\n√[9(9-7)(9-x)(9-y)] = √216\n\n√[9 × 2 × (9-x)(9-y)] = √216\n\n18(9-x)(9-y) = 216\n\n(9-x)(9-y) = 12 ... (equation 2)\n\n**Step 3: Expand equation 2**\n81 - 9y - 9x + xy = 12\n\n81 - 9(x + y) + xy = 12\n\n81 - 9(11) + xy = 12\n\n81 - 99 + xy = 12\n\nxy = 30 ... (equation 3)\n\n**Step 4: Solve the system**\nFrom equations 1 and 3:\n- x + y = 11\n- xy = 30\n\nThese are roots of: t² - 11t + 30 = 0\n\n(t - 3)(t - 8) = 0\n\nt = 3 or t ="
+    "solution": "# Solution\n\n**Step 1: Set up the equations**\nLet the three sides be 7, x, and y.\n- Perimeter: 7 + x + y = 18\n- Therefore: x + y = 11 ... (equation 1)\n\n**Step 2: Apply Heron's formula for area**\nSemi-perimeter: s = 18/2 = 9\n\nArea = √[s(s-a)(s-b)(s-c)] = √216\n\n√[9(9-7)(9-x)(9-y)] = √216\n\n√[9 × 2 × (9-x)(9-y)] = √216\n\n18(9-x)(9-y) = 216\n\n(9-x)(9-y) = 12 ... (equation 2)\n\n**Step 3: Expand equation 2**\n81 - 9y - 9x + xy = 12\n\n81 - 9(x + y) + xy = 12\n\n81 - 9(11) + xy = 12\n\n81 - 99 + xy = 12\n\nxy = 30 ... (equation 3)\n\n**Step 4: Solve the system**\nFrom equations 1 and 3:\n- x + y = 11\n- xy = 30\n\nThese are roots of: t² - 11t + 30 = 0\n\n(t - 3)(t - 8) = 0\n\nt = 3 or t =",
+    "videoUrl": "https://youtu.be/mdkfrZ5NRZw"
   },
   {
     "id": "maths_mensuration_2d_016",
@@ -205,7 +206,8 @@
     ],
     "correctAnswer": "15",
     "questionHi": "एक त्रिभुज की भुजाओं की लंबाई x cm, x + 13 cm और x + 26 cm है। यदि इसका क्षेत्रफल 126 वर्ग cm है, तो x का मान ज्ञात कीजिए।",
-    "solution": "# Solution using Heron's Formula\n\n**Step 1: Set up the semi-perimeter (s)**\n- Sides: a = x, b = x + 13, c = x + 26\n- s = (x + x + 13 + x + 26)/2 = (3x + 39)/2\n\n**Step 2: Calculate (s - a), (s - b), (s - c)**\n- s - a = (3x + 39)/2 - x = (x + 39)/2\n- s - b = (3x + 39)/2 - (x + 13) = (x + 13)/2\n- s - c = (3x + 39)/2 - (x + 26) = (x - 13)/2\n\n**Step 3: Apply Heron's Formula**\n- Area² = s(s-a)(s-b)(s-c)\n- 126² = [(3x + 39)/2] × [(x + 39)/2] × [(x + 13)/2] × [(x - 13)/2]\n- 15876 = (1/16)(3x + 39)(x + 39)(x + 13)(x - 13)\n\n**Step 4: Simplify and solve**\n- 254016 = 3(x + 13)(x + 39)(x + 13)(x - 13)\n- 254016 = 3(x + 13)²(x²"
+    "solution": "# Solution using Heron's Formula\n\n**Step 1: Set up the semi-perimeter (s)**\n- Sides: a = x, b = x + 13, c = x + 26\n- s = (x + x + 13 + x + 26)/2 = (3x + 39)/2\n\n**Step 2: Calculate (s - a), (s - b), (s - c)**\n- s - a = (3x + 39)/2 - x = (x + 39)/2\n- s - b = (3x + 39)/2 - (x + 13) = (x + 13)/2\n- s - c = (3x + 39)/2 - (x + 26) = (x - 13)/2\n\n**Step 3: Apply Heron's Formula**\n- Area² = s(s-a)(s-b)(s-c)\n- 126² = [(3x + 39)/2] × [(x + 39)/2] × [(x + 13)/2] × [(x - 13)/2]\n- 15876 = (1/16)(3x + 39)(x + 39)(x + 13)(x - 13)\n\n**Step 4: Simplify and solve**\n- 254016 = 3(x + 13)(x + 39)(x + 13)(x - 13)\n- 254016 = 3(x + 13)²(x²",
+    "videoUrl": "https://youtu.be/KGjEpNakQJg"
   },
   {
     "id": "maths_mensuration_2d_017",
@@ -244,7 +246,8 @@
     ],
     "correctAnswer": "30 cm²",
     "questionHi": "त्रिभुज ABC में, AB = 17 cm, BC = 12 cm, AC = √241 cm तथा AD ⟂ BC है, तो ∆ADC का क्षेत्रफल ज्ञात करें।",
-    "solution": "**Step 1: Find the area of triangle ABC using Heron's formula.**\n\nSemi-perimeter: $s = \\frac{17 + 12 + \\sqrt{241}}{2} = \\frac{29 + \\sqrt{241}}{2}$\n\nSince √241 ≈ 15.52, we have $s ≈ 22.26$\n\nAlternatively, use the formula: Area² = $s(s-a)(s-b)(s-c)$\n\nOr check if it's a right triangle: $17^2 + 12^2 = 289 + 144 = 433$ and $(\\sqrt{241})^2 = 241$\n\nSince $17^2 = 289$ and $12^2 + (\\sqrt{241})^2 = 144 + 241 = 385$, check: $12^2 + (\\sqrt{241})^2 ≠ 17^2$\n\n**Step 2: Use the perpendicular distance formula.**\n\nLet BD = x, then DC = 12 - x\n\nIn right triangle ABD: $AD^2 + x^2 = 17^2 = 289$ ... (1)\n\nIn right triangle ADC: $AD^2 + (12-x)^2 = 241$ ... (2)\n\n**Step 3: Solve for x and AD.**\n\nFrom (1) - (2):\n$x^2 - (12-"
+    "solution": "**Step 1: Find the area of triangle ABC using Heron's formula.**\n\nSemi-perimeter: $s = \\frac{17 + 12 + \\sqrt{241}}{2} = \\frac{29 + \\sqrt{241}}{2}$\n\nSince √241 ≈ 15.52, we have $s ≈ 22.26$\n\nAlternatively, use the formula: Area² = $s(s-a)(s-b)(s-c)$\n\nOr check if it's a right triangle: $17^2 + 12^2 = 289 + 144 = 433$ and $(\\sqrt{241})^2 = 241$\n\nSince $17^2 = 289$ and $12^2 + (\\sqrt{241})^2 = 144 + 241 = 385$, check: $12^2 + (\\sqrt{241})^2 ≠ 17^2$\n\n**Step 2: Use the perpendicular distance formula.**\n\nLet BD = x, then DC = 12 - x\n\nIn right triangle ABD: $AD^2 + x^2 = 17^2 = 289$ ... (1)\n\nIn right triangle ADC: $AD^2 + (12-x)^2 = 241$ ... (2)\n\n**Step 3: Solve for x and AD.**\n\nFrom (1) - (2):\n$x^2 - (12-",
+    "videoUrl": "https://youtu.be/jz9hjSs3ag0"
   },
   {
     "id": "maths_mensuration_2d_020",
@@ -270,7 +273,8 @@
     ],
     "correctAnswer": "312/√455",
     "questionHi": "किसी त्रिभुज की ऊँचाइयाँ क्रमशः 2 cm, 3 cm और 4 cm हैं। त्रिभुज का परिमाप ज्ञात करें।",
-    "solution": "# Solution\n\n**Step 1: Use the relationship between area and altitudes**\n\nLet the three sides of the triangle be a, b, and c with corresponding altitudes h₁ = 2, h₂ = 3, and h₃ = 4.\n\nSince Area = ½ × base × height:\n- A = ½ × a × 2 = a\n- A = ½ × b × 3 = 3b/2\n- A = ½ × c × 4 = 2c\n\n**Step 2: Express sides in terms of area**\n\nFrom the equations above:\n- a = A\n- b = 2A/3\n- c = A/2\n\n**Step 3: Apply Heron's formula**\n\nSemi-perimeter: s = (a + b + c)/2 = (A + 2A/3 + A/2)/2 = (13A/6)/2 = 13A/12\n\nUsing Heron's formula: A² = s(s-a)(s-b)(s-c)\n\n- s - a = 13A/12 - A = A/12\n- s - b = 13A/12 - 2A/3 = 3A/4\n- s - c = 13A/12 - A/2 = 7A/12\n\n**Step 4: Solve for A**\n\nA² = (13A/12) × (A/12) × (3A/4"
+    "solution": "# Solution\n\n**Step 1: Use the relationship between area and altitudes**\n\nLet the three sides of the triangle be a, b, and c with corresponding altitudes h₁ = 2, h₂ = 3, and h₃ = 4.\n\nSince Area = ½ × base × height:\n- A = ½ × a × 2 = a\n- A = ½ × b × 3 = 3b/2\n- A = ½ × c × 4 = 2c\n\n**Step 2: Express sides in terms of area**\n\nFrom the equations above:\n- a = A\n- b = 2A/3\n- c = A/2\n\n**Step 3: Apply Heron's formula**\n\nSemi-perimeter: s = (a + b + c)/2 = (A + 2A/3 + A/2)/2 = (13A/6)/2 = 13A/12\n\nUsing Heron's formula: A² = s(s-a)(s-b)(s-c)\n\n- s - a = 13A/12 - A = A/12\n- s - b = 13A/12 - 2A/3 = 3A/4\n- s - c = 13A/12 - A/2 = 7A/12\n\n**Step 4: Solve for A**\n\nA² = (13A/12) × (A/12) × (3A/4",
+    "videoUrl": "https://youtube.com/shorts/wjEC3p-dJtM"
   },
   {
     "id": "maths_mensuration_2d_022",
