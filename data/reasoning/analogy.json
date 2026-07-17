@@ -1700,125 +1700,149 @@
             "correctAnswer": "61",
             "explanation": "A similar numerical transformation is applied to each pair. Applying the same rule to 69 gives 61. (Verify with the original source.)"
           },
-          {
-            "id": "reasoning_analogy_141",
-            "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n49 : 63 :: 64 : ? :: 81 : 99",
-            "options": [
-              "80",
-              "78",
-              "82",
-              "84"
-            ],
-            "correctAnswer": "80",
-            "explanation": "49 → 63 (+14) and 81 → 99 (+18). Applying the corresponding pattern to 64 gives 80. (Verify from the original image.)"
-          },
-          {
-            "id": "reasoning_analogy_142",
-            "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n36 : 42 :: 81 : ? :: 100 : 110",
-            "options": [
-              "90",
-              "96",
-              "95",
-              "99"
-            ],
-            "correctAnswer": "90",
-            "explanation": "The second number is obtained by adding a value related to the square root of the first number. Applying the same logic to 81 gives 90. (Needs manual verification.)"
-          },
-          {
-            "id": "reasoning_analogy_143",
-            "question": "Select the option that is related to the fourth term in the same way as the first term is related to the second term and the fifth term is related to the sixth term.\n\n13 : 52 :: ? : 84 :: 19 : 76",
-            "options": [
-              "21",
-              "24",
-              "18",
-              "23"
-            ],
-            "correctAnswer": "21",
-            "explanation": "The second term is obtained by multiplying the first term by 4. Therefore, 84 ÷ 4 = 21."
-          },
-          {
-            "id": "reasoning_analogy_144",
-            "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.\n\n72 : 27 :: 63 : ? :: 54 : 45",
-            "options": [
-              "36",
-              "54",
-              "27",
-              "63"
-            ],
-            "correctAnswer": "36",
-            "explanation": "The digits of the number are rearranged according to the same pattern. Applying the same transformation to 63 gives 36."
-          },
-          {
-            "id": "reasoning_analogy_145",
-            "question": "Select the option that is related to the fourth number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n18 : 54 :: ? : 96 :: 27 : 81",
-            "options": [
-              "30",
-              "32",
-              "36",
-              "28"
-            ],
-            "correctAnswer": "32",
-            "explanation": "18 × 3 = 54 and 27 × 3 = 81. Therefore, the missing number satisfies ? × 3 = 96, so ? = 32."
-          },
-          {
-            "id": "reasoning_analogy_146",
-            "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n45 : 72 :: 36 : ? :: 27 : 54",
-            "options": [
-              "63",
-              "54",
-              "58",
-              "60"
-            ],
-            "correctAnswer": "63",
-            "explanation": "45 → 72 and 27 → 54 follow the same arithmetic pattern. Applying the same relation to 36 gives 63. (Verify with the original image.)"
-          },
-          {
-            "id": "reasoning_analogy_147",
-            "question": "Select the option that is related to the fifth term in the same way as the second term is related to the first term and the fourth term is related to the third term.\n\n128 : 16 :: 200 : 20 :: 288 : ?",
-            "options": [
-              "22",
-              "24",
-              "18",
-              "26"
-            ],
-            "correctAnswer": "24",
-            "explanation": "The second term is obtained using a fixed numerical operation on the first term. Applying the same rule to 288 gives 24."
-          },
-          {
-            "id": "reasoning_analogy_148",
-            "question": "Select the option that is related to the fourth number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n63 : 81 :: ? : 121 :: 35 : 49",
-            "options": [
-              "99",
-              "88",
-              "91",
-              "77"
-            ],
-            "correctAnswer": "99",
-            "explanation": "63 → 81 and 35 → 49 follow the same arithmetic relation. Therefore, the missing number is 99."
-          },
-          {
-            "id": "reasoning_analogy_149",
-            "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n84 : 168 :: 126 : ? :: 63 : 126",
-            "options": [
-              "242",
-              "252",
-              "246",
-              "256"
-            ],
-            "correctAnswer": "252",
-            "explanation": "The second number is obtained by doubling the first number. Applying the same relation to 126 gives 252."
-          },
-          {
-            "id": "reasoning_analogy_150",
-            "question": "Select the option that is related to the fifth number in the same way as the fourth number is related to the third number and the second number is related to the first number.\n\n9574 : 4759 :: 8462 : 2684 :: 5731 : ?",
-            "options": [
-              "3157",
-              "7315",
-              "1573",
-              "3517"
-            ],
-            "correctAnswer": "3157",
-            "explanation": "The digits are rearranged according to the same positional pattern in each pair. Applying the identical rearrangement to 5731 gives 3157. (Please verify with the original image.)"
-          }
+            {
+              "id": "reasoning_analogy_141",
+              "question": "Select the option that is related to the third term in the same way as the second term is related to the first term and the sixth term is related to the fifth term.\n\n24 : 840 :: 27 : ? :: 33 : 1452",
+              "questionHindi": "उस विकल्प का चयन कीजिए, जो तीसरे पद से उसी प्रकार संबंधित है, जिस प्रकार दूसरा पद पहले पद से और छठा पद पाँचवें पद से संबंधित है।\n\n24 : 840 :: 27 : ? :: 33 : 1452",
+              "options": [
+                "756",
+                "297",
+                "1026",
+                "729"
+              ],
+              "correctAnswer": "756",
+              "solution": "video solution will be uploaded soon"
+            },
+            {
+              "id": "reasoning_analogy_142",
+              "question": "In each of the following questions, two numbers are given which follow a certain logical or arithmetic relationship. Identify the same pattern and apply it to find the missing number in the second pair. Choose the correct option from the given alternatives.\n\n19384 : 31506 :: 28493 : ?",
+              "questionHindi": "निम्नलिखित प्रत्येक प्रश्न में दो संख्याएँ दी गई हैं जो एक निश्चित तार्किक या अंकगणितीय संबंध का पालन करती हैं। समान पैटर्न की पहचान कीजिए और दूसरे युग्म में लुप्त संख्या ज्ञात कीजिए।\n\n19384 : 31506 :: 28493 : ?",
+              "options": [
+                "40615",
+                "41706",
+                "40617",
+                "39615"
+              ],
+              "correctAnswer": "40617",
+              "solution": "video solution will be uploaded soon"
+            },
+            {
+              "id": "reasoning_analogy_143",
+              "question": "Select the option in which the numbers share the same relationship as that shared by the given pair of numbers.\n\n50 – 130",
+              "questionHindi": "उस विकल्प का चयन कीजिए, जिसमें संख्याएँ वही संबंध साझा करती हैं, जो दिए गए युग्म द्वारा साझा किया जाता है।\n\n50 – 130",
+              "options": [
+                "60 – 120",
+                "30 – 80",
+                "75 – 110",
+                "35 – 120"
+              ],
+              "correctAnswer": "30 – 80",
+              "solution": "video solution will be uploaded soon"
+            },
+            {
+              "id": "reasoning_analogy_144",
+              "question": "Select the option in which the numbers share the same relationship as that shared by the given pair of numbers.\n\n23 – 27",
+              "questionHindi": "उस विकल्प का चयन कीजिए, जिसमें संख्याएँ वही संबंध साझा करती हैं, जो दिए गए युग्म द्वारा साझा किया जाता है।\n\n23 – 27",
+              "options": [
+                "11 – 55",
+                "15 – 25",
+                "15 – 45",
+                "11 – 33"
+              ],
+              "correctAnswer": "11 – 33",
+              "solution": "video solution will be uploaded soon"
+            },
+            {
+              "id": "reasoning_analogy_145",
+              "question": "Select the pair which is related to each other in the same way as the following.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n\n12 : 168\n11 : 145",
+              "questionHindi": "उस युग्म का चयन कीजिए जो एक-दूसरे से उसी प्रकार संबंधित है जिस प्रकार नीचे दिया गया युग्म संबंधित है।\n\n(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना केवल पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए।)\n\n12 : 168\n11 : 145",
+              "options": [
+                "16 : 232",
+                "8 : 88",
+                "5 : 61",
+                "14 : 172"
+              ],
+              "correctAnswer": "14 : 172",
+              "solution": "video solution will be uploaded soon"
+            },
+              {
+                "id": "reasoning_analogy_141",
+                "question": "Select the pair which is related to each other in the same way as the following.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n\n17 : 253\n19 : 271",
+                "questionHindi": "उस युग्म का चयन कीजिए जो एक-दूसरे से उसी प्रकार संबंधित है जिस प्रकार नीचे दिया गया युग्म संबंधित है।\n\n(नोट: संख्याओं को उनके घटक अंकों में तोड़े बिना केवल पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए।)\n\n17 : 253\n19 : 271",
+                "options": [
+                  "23 : 207",
+                  "32 : 387",
+                  "31 : 400",
+                  "21 : 289"
+                ],
+                "correctAnswer": "21 : 289",
+                "solution": "video solution will be uploaded soon"
+              },
+              {
+                "id": "reasoning_analogy_146",
+                "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and fourth number is related to the third number.\n\n2976 : 493 :: 4902 : 814 :: 2466 : ?",
+                "questionHindi": "उस विकल्प का चयन कीजिए जो पाँचवीं संख्या से उसी प्रकार संबंधित है जिस प्रकार दूसरी संख्या पहली संख्या से और चौथी संख्या तीसरी संख्या से संबंधित है।\n\n2976 : 493 :: 4902 : 814 :: 2466 : ?",
+                "options": [
+                  "404",
+                  "412",
+                  "398",
+                  "408"
+                ],
+                "correctAnswer": "408",
+                "solution": "video solution will be uploaded soon"
+              },
+              {
+                "id": "reasoning_analogy_147",
+                "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n\n2943 : 3894 :: 2617 : ? :: 8615 : 9566",
+                "questionHindi": "उस विकल्प का चयन करें जो तीसरी संख्या से उसी प्रकार संबंधित हो जिस प्रकार दूसरी संख्या पहली संख्या से और छठी संख्या पाँचवीं संख्या से संबंधित है।\n\n(नोट: संख्याओं को उनके घटक अंकों में विभाजित किए बिना केवल पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए।)\n\n2943 : 3894 :: 2617 : ? :: 8615 : 9566",
+                "options": [
+                  "3570",
+                  "3568",
+                  "3542",
+                  "3541"
+                ],
+                "correctAnswer": "3568",
+                "solution": "video solution will be uploaded soon"
+              },
+              {
+                "id": "reasoning_analogy_148",
+                "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n\n691 : 4834 :: 514 : 3595 :: 927 : ?",
+                "questionHindi": "उस विकल्प का चयन करें जो तीसरी संख्या से उसी प्रकार संबंधित हो जिस प्रकार दूसरी संख्या पहली संख्या से और छठी संख्या पाँचवीं संख्या से संबंधित है।\n\n(नोट: संख्याओं को उनके घटक अंकों में विभाजित किए बिना केवल पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए।)\n\n691 : 4834 :: 514 : 3595 :: 927 : ?",
+                "options": [
+                  "6495",
+                  "6488",
+                  "6490",
+                  "6486"
+                ],
+                "correctAnswer": "6490",
+                "solution": "video solution will be uploaded soon"
+              },
+              {
+                "id": "reasoning_analogy_149",
+                "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n\n? : 5230 :: 135 : 1898 :: 410 : 5748",
+                "questionHindi": "उस विकल्प का चयन करें जो तीसरी संख्या से उसी प्रकार संबंधित हो जिस प्रकार दूसरी संख्या पहली संख्या से और छठी संख्या पाँचवीं संख्या से संबंधित है।\n\n(नोट: संख्याओं को उनके घटक अंकों में विभाजित किए बिना केवल पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए।)\n\n? : 5230 :: 135 : 1898 :: 410 : 5748",
+                "options": [
+                  "381",
+                  "373",
+                  "374",
+                  "363"
+                ],
+                "correctAnswer": "374",
+                "solution": "video solution will be uploaded soon"
+              },
+                {
+                  "id": "reasoning_analogy_150",
+                  "question": "Select the option that is related to the third number in the same way as the second number is related to the first number and the sixth number is related to the fifth number.\n\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits.)\n\n348 : 4878 :: 615 : ? :: 927 : 12984",
+                  "questionHindi": "उस विकल्प का चयन कीजिए जो तीसरी संख्या से उसी प्रकार संबंधित है जिस प्रकार दूसरी संख्या पहली संख्या से और छठी संख्या पाँचवीं संख्या से संबंधित है।\n\n(नोट: संख्याओं को उनके घटक अंकों में विभाजित किए बिना केवल पूर्ण संख्याओं पर संक्रियाएँ की जानी चाहिए।)\n\n348 : 4878 :: 615 : ? :: 927 : 12984",
+                  "options": [
+                    "8610",
+                    "8622",
+                    "8616",
+                    "8634"
+                  ],
+                  "correctAnswer": "8616",
+                  "solution": "video solution will be uploaded soon"
+                }
+             
 ]
 
