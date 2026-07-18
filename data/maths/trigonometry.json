@@ -1309,11 +1309,11 @@
       "2",
       "1"
     ],
-    "correctAnswer": "-1",
+    "correctAnswer": "0",
     "solution": "video solution be added soon"
   },
   {
-    "id": "maths_trigonometry_110",
+    "id": "maths_trigonometry_102",
     "question": "If cos 27° = x, then the value of tan 63° is:",
     "options": [
       "√(1-x²)/x",
@@ -1321,25 +1321,25 @@
       "√(1+x²)/x",
       "x/√(1-x²)"
     ],
-    "correctAnswer": "√(1-x²)/x",
+    "correctAnswer": "x/√(1-x²)",
     "questionHi": "यदि cos 27° = x, तो tan 63° का मान है:",
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_111",
-    "question": "If cos 9° = a/b then cosec 81° - cos 71° = ?",
+    "id": "maths_trigonometry_103",
+    "question": "If cos 19° = a/b then cosec 19° - cos 71° = ?",
     "options": [
       "b²/(a√(a²-b²))",
-      "a²/√(b²-a²)",
+      "a²/b√(b²-a²)",
       "a²b²/√(a²-b²)",
       "ab/√(b²-a²)"
     ],
-    "correctAnswer": "a²/√(b²-a²)",
+    "correctAnswer": "a²/b√(b²-a²)",
     "questionHi": "यदि cos 9° = a/b तो cosec 81° - cos 71° का मान ज्ञात कीजिए।",
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_112",
+    "id": "maths_trigonometry_104",
     "question": "If cos θ = 24/25, then find cot(90-θ)? SSC CHSL PRE 2024",
     "options": [
       "5/24",
@@ -1352,7 +1352,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_113",
+    "id": "maths_trigonometry_105",
     "question": "If sin 31° = a, then the value of cot 59° is:",
     "options": [
       "√(1-a²)/2a",
@@ -1365,7 +1365,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_114",
+    "id": "maths_trigonometry_106",
     "question": "If tan 40° = a, then find (tan320°-tan310°)/(1+tan320°.tan310°)?",
     "options": [
       "(1-a²)/a",
@@ -1378,7 +1378,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_115",
+    "id": "maths_trigonometry_107",
     "question": "Find the value of the following expression sin(30+θ)-cos(60-θ)? SSC CHSL PRE 2024",
     "options": [
       "2 sin(30+θ)",
@@ -1391,7 +1391,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_116",
+    "id": "maths_trigonometry_108",
     "question": "In a right angled triangle PQR, ∠ Q=90°, PQ = 12 cm, QR = 5 cm. What is the value of cot P - tan R?",
     "options": [
       "5/24",
@@ -1404,7 +1404,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_117",
+    "id": "maths_trigonometry_109",
     "question": "Triangle ABC is a right-angle triangle at B. If tan A = 5/12, then sin A + sin B + sin C will be equal to?",
     "options": [
       "2(1/13)",
@@ -1417,7 +1417,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_118",
+    "id": "maths_trigonometry_110",
     "question": "If A, B and C be the angles of a triangle, then out of the following, the incorrect relation is:",
     "options": [
       "cos(A+B)/2=sinC/2",
@@ -1430,7 +1430,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_119",
+    "id": "maths_trigonometry_111",
     "question": "If A, B and C are the interior angles of Δ ABC, then what is the value of tanA/2+cosec(B+C)/2tanA/2-cosec(B+C)/2? SSC CPO Pre 2024",
     "options": [
       "2",
@@ -1443,7 +1443,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_120",
+    "id": "maths_trigonometry_112",
     "question": "In Δ ABC, right angled at B, if tan A = 1/2, then the value of (sin A(cos C + cos A))/(cos C(sin C - sin A)) is:",
     "options": [
       "2√5",
@@ -1456,7 +1456,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_121",
+    "id": "maths_trigonometry_113",
     "question": "What is the value of (sin 35° + sin 55°)² - 2 sin 35° cos 35°?",
     "options": [
       "0",
@@ -1469,7 +1469,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_122",
+    "id": "maths_trigonometry_114",
     "question": "Evaluate 2(tan 54°)/(cot 36°) - (cot 41°)/(tan 49°)? SSC CHSL TIER - I 2022",
     "options": [
       "-1",
@@ -1482,7 +1482,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_123",
+    "id": "maths_trigonometry_115",
     "question": "What is the value of √((9sin²26°+9sin²64°+36)/(32-7cos²32°-7cos²58°))? SSC CGL Pre 2024",
     "options": [
       "3√5/5",
@@ -1495,7 +1495,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_124",
+    "id": "maths_trigonometry_116",
     "question": "Simplify [1 - sin²32° + 1/(1+tan²58°)]? SSC CGL Pre 2024",
     "options": [
       "1/2",
@@ -1508,7 +1508,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_125",
+    "id": "maths_trigonometry_117",
     "question": "What is the value of 3cosec42°/sec48° - 5cos32°/sin58°? (SSC CPO 2023)",
     "options": [
       "-1",
@@ -1521,7 +1521,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_126",
+    "id": "maths_trigonometry_118",
     "question": "What is the value of 5/2cos37°/sin53° - 1/2(sin²39°+sin²51°)? SSC CHSL TIER - I 2022",
     "options": [
       "sin²51°-sin 53°",
@@ -1534,7 +1534,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_127",
+    "id": "maths_trigonometry_119",
     "question": "Find the value of (cos 65°)/(sin 25°) + (5 sin 19°)/(cos 71°) - (3 cos 28°)/(sin 62°).",
     "options": [
       "3",
@@ -1547,7 +1547,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_128",
+    "id": "maths_trigonometry_120",
     "question": "The value of (3 cos²27° - 5 + 3 cos²63°)/(tan²32° + 4 - cosec²58°) + sin35°cos55° + cos35°sin55° is:",
     "options": [
       "0",
@@ -1555,12 +1555,12 @@
       "1",
       "1(2/3)"
     ],
-    "correctAnswer": "1(2/3)",
+    "correctAnswer": "1/3",
     "questionHi": "(3 cos²27° - 5 + 3 cos²63°)/(tan²32° + 4 - cosec²58°) + sin35°cos55° + cos35°sin55° का मान ज्ञात करें।",
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_129",
+    "id": "maths_trigonometry_121",
     "question": "What is the value of (sin 33°cos 57° + sec 62°sin 28° + cos 33°sin 57° + cosec 62°cos 28°)/(tan 15°tan 35°tan 60°tan 55°tan 75°)?",
     "options": [
       "√3/3",
@@ -1568,12 +1568,12 @@
       "2√3",
       "√3"
     ],
-    "correctAnswer": "2√3",
+    "correctAnswer": "√3",
     "questionHi": "(sin 33°cos 57° + sec 62°sin 28° + cos 33°sin 57° + cosec 62°cos 28°)/(tan 15°tan 35°tan 60°tan 55°tan 75°) का मान ज्ञात करें।",
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_130",
+    "id": "maths_trigonometry_122",
     "question": "Find the value of 2cosec²23°cot²67° - sin²23° - sin²67° - cot²67°.",
     "options": [
       "sec² 23°",
@@ -1581,12 +1581,12 @@
       "tan² 23°",
       "0"
     ],
-    "correctAnswer": "0",
+    "correctAnswer": "sec² 23°",
     "questionHi": "2cosec²23°cot²67° - sin²23° - sin²67° - cot²67° का मान ज्ञात कीजिए।",
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_131",
+    "id": "maths_trigonometry_123",
     "question": "The value of cosec(58°+θ) - sec(32°-θ) + sin 15°sin 35°sec 55°sin 30°sec 75° is:",
     "options": [
       "1",
@@ -1599,7 +1599,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_132",
+    "id": "maths_trigonometry_124",
     "question": "If cosec 31° = x then sin²59° + 1/cosec²31° + tan²59° - 1/sin²59°cosec²59° is equal to:",
     "options": [
       "√(x+1)",
@@ -1612,7 +1612,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_133",
+    "id": "maths_trigonometry_125",
     "question": "If x = sec 57° then cot²33° + sin²57° + sin²33° + cosec²57°cos²33° + sec²33°sin²57° is equal to:",
     "options": [
       "x² + 2",
@@ -1620,12 +1620,12 @@
       "x² + 1",
       "1/(x²+1)"
     ],
-    "correctAnswer": "2x² + 1",
+    "correctAnswer": "x² + 2",
     "questionHi": "यदि x = sec 57° तो cot²33° + sin²57° + sin²33° + cosec²57°cos²33° + sec²33°sin²57° बराबर है:",
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_134",
+    "id": "maths_trigonometry_126",
     "question": "Find the value of sin²pi/32 + sin²7pi/32 + sin²9pi/32 + sin²15pi/32.",
     "options": [
       "8/3",
@@ -1638,7 +1638,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_135",
+    "id": "maths_trigonometry_127",
     "question": "The value of sin²5° + sin²10° + sin²15° + dots + sin²85° + sin²90° is equal to:",
     "options": [
       "9(1/2)",
@@ -1651,7 +1651,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_136",
+    "id": "maths_trigonometry_128",
     "question": "The value of (tan29°cot61° - cosec²61°) + cot²54° - sec²36° + (sin²1° + sin²3° + sin²5° + dots + sin²89°) is:",
     "options": [
       "22(1/2)",
@@ -1664,7 +1664,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_137",
+    "id": "maths_trigonometry_129",
     "question": "The value of ((tan25°cot65°-cosec²65°)+cot²61°-sec²29°)/(sin²5°+sin²7°+sin²9°+dots+sin²85°) is:",
     "options": [
       "-2/41",
@@ -1677,7 +1677,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_138",
+    "id": "maths_trigonometry_130",
     "question": "cos²1° + cos²2° + cos²3° + dots + cos²90° = ?",
     "options": [
       "44.5",
@@ -1690,7 +1690,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_139",
+    "id": "maths_trigonometry_131",
     "question": "Find the value of (tan 1°)/(1+tan 1°) + (tan 2°)/(1+tan 2°) + dots + (tan 89°)/(1+tan 89°).",
     "options": [
       "44.5",
@@ -1703,7 +1703,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_140",
+        "id": "maths_trigonometry_132",
     "question": "tan 7° · tan 11° · tan 23° · tan 30° · tan 45° · tan 67° · tan 79° · tan 83° = ?",
     "options": [
       "√3",
@@ -1716,7 +1716,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_141",
+    "id": "maths_trigonometry_133",
     "question": "The value of cot 13° cot 27° cot 60° cot 63° cot 77° is: SSC CHSL 2023 PRE",
     "options": [
       "√3",
@@ -1729,7 +1729,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_142",
+    "id": "maths_trigonometry_134",
     "question": "What is the value of cos 1° . cos 2° . cos 3° ... cos 177° . cos 178° . cos 179°?",
     "options": [
       "0",
@@ -1742,7 +1742,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_143",
+    "id": "maths_trigonometry_135",
     "question": "Calculate the value of (sin 37°)/(cos 53°) + (2tan 49°)/(cot 41°) - 5(cot 11° · cot 31° · cot 45° · cot 59° · cot 79°) + 3(sin²76.5° + sin²13.5°). SSC SELECTION",
     "options": [
       "1",
@@ -1755,7 +1755,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_144",
+    "id": "maths_trigonometry_136",
     "question": "The value of (tan 50° + sec 50°)/(cot 40° + cosec 40°) + cos²65° + sin 65° cos 25° + tan 30° is:",
     "options": [
       "(√3(√3+1))/3",
@@ -1768,7 +1768,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_145",
+    "id": "maths_trigonometry_137",
     "question": "The value of ((sin 17° + cos 73°)(sec 73° + cosec 17°))/(cosec²71° + cos²15° - tan²19° + cos²75°) is:",
     "options": [
       "1",
@@ -1781,7 +1781,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_146",
+    "id": "maths_trigonometry_138",
     "question": "The value of (tan(45°-alpha))/(cot(45°+alpha)) - ((cos 19° + sin 71°)(sec 19° + cosec 71°))/(tan 12°tan 24°tan 66°tan 78°) is:",
     "options": [
       "-3",
@@ -1794,7 +1794,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_147",
+    "id": "maths_trigonometry_139",
     "question": "2(sin 1° × sec 89°) + 3(cos 11° × cosec 79°) + 5(tan 21° × tan 69°) = ? (SSC CPO 2023)",
     "options": [
       "20",
@@ -1807,7 +1807,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_148",
+    "id": "maths_trigonometry_140",
     "question": "If A + B = 90°, then the expression (cot A)/(cot B) + cos²A + cos²B is equal to: (SSC CPO 2023)",
     "options": [
       "cot² B",
@@ -1820,7 +1820,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_149",
+    "id": "maths_trigonometry_141",
     "question": "The value of (√2tan(60°-θ)tan(30°+θ))/(sin²(45°+θ)+sin²(45°-θ)) is:",
     "options": [
       "1/√2",
@@ -1833,7 +1833,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_150",
+    "id": "maths_trigonometry_142",
     "question": "Evaluate the following expression: (3(cot²46°-sec²44°))/(2(sin²28°+sin²62°)) + (2 cos²60°tan²33°tan²57°)/(sin²(90°-θ)-cot²θ)",
     "options": [
       "-1",
@@ -1846,7 +1846,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_151",
+        "id": "maths_trigonometry_143",
     "question": "The value of (3(cosec²26°-tan²64°)+(cot²42°-sec²48°))/(cot(22°-phi)-cosec²(62°+phi)-tan(phi+68°)+tan²(28°-phi)) is:",
     "options": [
       "3",
@@ -1859,7 +1859,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_152",
+            "id": "maths_trigonometry_144",
     "question": "Evaluate 7((cosec 24°)/(sec 66°))³ + 8((cot 37°)/(tan 53°))⁴ - (2(cosec 24°)/(sec 66°))² + (-3(tan 82°)/(cot 8°))³.",
     "options": [
       "-16",
@@ -1872,7 +1872,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_153",
+    "id": "maths_trigonometry_145",
     "question": "If 6(sec²59°-cot²31°) - 2/3sin²90° - 3tan²56°y · tan²34° = y/3, then the value of y is:",
     "options": [
       "8/5",
@@ -1885,7 +1885,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_154",
+        "id": "maths_trigonometry_146",
     "question": "If cos(2θ+54°) = sin θ, where 0° < (2θ+54°) < 90°, then what is the value of 1/(tan 5θ + cosec 5θ/2)? SSC Selection Post (Phase-XII)",
     "options": [
       "2+√3",
@@ -1898,7 +1898,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_155",
+        "id": "maths_trigonometry_147",
     "question": "If tan(8θ-11°) · tan(11θ-13°) = 1, then find the value of sin10θ + cos5θ?",
     "options": [
       "√3",
@@ -1911,7 +1911,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_156",
+        "id": "maths_trigonometry_148",
     "question": "If tan x = cot(48° + 2x) and 0° < x < 90° then what is the value of x?",
     "options": [
       "12°",
@@ -1924,7 +1924,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_157",
+        "id": "maths_trigonometry_149",
     "question": "If tan(5θ-10°) = cot(5phi+20°), then the value of θ+phi is:",
     "options": [
       "16°",
@@ -1937,7 +1937,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_158",
+        "id": "maths_trigonometry_150",
     "question": "If tan 2θ = cot(θ - 36°), where 2θ is an acute angle, then the value of θ is:",
     "options": [
       "18°",
@@ -1950,7 +1950,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_159",
+        "id": "maths_trigonometry_151",
     "question": "If sin 3θ · sec 2θ = 1, then what is the value of |3 tan²(5θ/2) - 1|?",
     "options": [
       "0",
@@ -1963,7 +1963,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_160",
+        "id": "maths_trigonometry_152",
     "question": "If cosec 2θ = sec(3θ - 15°), then θ is equal to:",
     "options": [
       "22°",
@@ -1976,7 +1976,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_161",
+        "id": "maths_trigonometry_153",
     "question": "If sec(5alpha - 15°) = cosec(15° - 2alpha), then the value of cos alpha + sin 2alpha + tan(1.5alpha) is: SSC CHSL 2023 PRE",
     "options": [
       "√2+1",
@@ -1989,7 +1989,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_162",
+        "id": "maths_trigonometry_154",
     "question": "If 2sec2θ = tan varphi + cot varphi, then one of the values of θ+varphi = ?",
     "options": [
       "pi/2",
@@ -2002,7 +2002,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_163",
+        "id": "maths_trigonometry_155",
     "question": "For what relation between a and b is the equation possible: sin θ = (a+b)/2√ab? (CDS 2023)",
     "options": [
       "a = b",
@@ -2015,7 +2015,7 @@
     "solution": "video solution will be added soon"
   },
   {
-    "id": "maths_trigonometry_164",
+        "id": "maths_trigonometry_156",
     "question": "Trigonometry — Question 139 (add real content in datas/maths/trigonometry.json)",
     "options": [
       "Option A",
@@ -2027,7 +2027,7 @@
     "explanation": "Placeholder for Trigonometry."
   },
   {
-    "id": "maths_trigonometry_165",
+                  "id": "maths_trigonometry_157",
     "question": "Trigonometry — Question 140 (add real content in datas/maths/trigonometry.json)",
     "options": [
       "Option A",
@@ -2039,7 +2039,7 @@
     "explanation": "Placeholder for Trigonometry."
   },
   {
-    "id": "maths_trigonometry_166",
+        "id": "maths_trigonometry_158",
     "question": "Trigonometry — Question 141 (add real content in datas/maths/trigonometry.json)",
     "options": [
       "Option A",
@@ -2051,7 +2051,7 @@
     "explanation": "Placeholder for Trigonometry."
   },
   {
-    "id": "maths_trigonometry_167",
+        "id": "maths_trigonometry_159",
     "question": "Trigonometry — Question 142 (add real content in datas/maths/trigonometry.json)",
     "options": [
       "Option A",

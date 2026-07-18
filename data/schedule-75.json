@@ -703,7 +703,7 @@
       "gk": {
         "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
         "revisionQuiz": "revision",
-        "from": 180,
+        "from": 205,
         "revisionTopic": "Day 14 GK revision"
       }
     },
@@ -737,19 +737,20 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day8-grammar.pdf",
-        "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+        "grammarPdf": "https://drive.google.com/file/d/1YW7oEECEDOpFA_yZmwc2DNG2ZGweXi8X/view?usp=drive_link",
+        "vocabPdf": "/content/english/day8-vocab.pdf"
       },
       "reasoning": {
-        "topic": "coding-decoding",
-        "questions": 50,
-        "duration": 45
+        "topic": "seating-arrangement",
+        "questions": 15,
+        "duration": 20,
+        "from": 25
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+  
         "revisionQuiz": "revision",
-        "revisionTopic": "Day 15 GK revision"
+        "from": 230,
+        "revisionTopic": "Day 16 GK revision"
       }
     },
     {

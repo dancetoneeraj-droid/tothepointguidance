@@ -502,6 +502,222 @@
         "explanation": "Boxes Y and V are between U and Z."
       }
     ]
+  },
+  {
+    "id": "reasoning_seating_arrangement_009",
+    "passage": "A certain number of persons sit in a straight row facing north direction. J doesn't sit adjacent to E. Four persons sit between J and M, who sits third to the left of P, who sits third from the end. More than four persons sit between E and A, who sits second from one of the extreme ends of the row but not an immediate neighbour of P. The one who sits third to the right of E sits fifth to the left of L. E sits equidistance from both C and G. Not more than two persons sit between C and E. C sits fifth from the left end of the row. J sits second to the right of G.",
+    "passageHindi": "उत्तर दिशा की ओर मुख करके एक सीधी पंक्ति में कुछ व्यक्ति बैठे हैं। J, E के निकट नहीं बैठता। J और M के बीच चार व्यक्ति बैठे हैं। M, P के बाईं ओर तीसरे स्थान पर बैठता है तथा P किसी एक छोर से तीसरे स्थान पर बैठता है। E और A के बीच चार से अधिक व्यक्ति बैठे हैं। A किसी एक छोर से दूसरे स्थान पर बैठता है लेकिन P का निकटतम पड़ोसी नहीं है। E के दाईं ओर तीसरे स्थान पर बैठा व्यक्ति, L के बाईं ओर पाँचवें स्थान पर बैठता है। E, C तथा G से समान दूरी पर बैठता है। C और E के बीच दो से अधिक व्यक्ति नहीं बैठे हैं। C बाएँ छोर से पाँचवें स्थान पर बैठता है। J, G के दाईं ओर दूसरे स्थान पर बैठता है।",
+    "questions": [
+      {
+        "question": "Who sits immediately to the left of P?",
+        "questionHindi": "P के ठीक बाईं ओर कौन बैठता है?",
+        "options": [
+          "M",
+          "L",
+          "J",
+          "E",
+          "None of these"
+        ],
+        "correctAnswer": "L",
+        "explanation": "Final arrangement (left to right): A, B, G, E, C, J, L, M, D, P. Hence, L sits immediately to the left of P."
+      },
+      {
+        "question": "How many persons sit between A and G?",
+        "questionHindi": "A और G के बीच कितने व्यक्ति बैठे हैं?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four",
+          "None of these"
+        ],
+        "correctAnswer": "One",
+        "explanation": "Final arrangement: A, B, G, E, C, J, L, M, D, P. Only B sits between A and G."
+      },
+      {
+        "question": "Which of the following persons sits third to the right of C?",
+        "questionHindi": "निम्नलिखित में से कौन C के दाईं ओर तीसरे स्थान पर बैठा है?",
+        "options": [
+          "L",
+          "M",
+          "D",
+          "P",
+          "None of these"
+        ],
+        "correctAnswer": "M",
+        "explanation": "From the final arrangement, C is at the 5th position and M is third to its right."
+      },
+      {
+        "question": "Who sits exactly in the middle of the row?",
+        "questionHindi": "पंक्ति के ठीक मध्य में कौन बैठा है?",
+        "options": [
+          "C",
+          "J",
+          "E",
+          "L",
+          "None of these"
+        ],
+        "correctAnswer": "C",
+        "explanation": "There are 10 persons in the row. The middle position (5th) is occupied by C."
+      },
+      {
+        "question": "If all the persons are arranged in alphabetical order from left to right, whose position remains unchanged?",
+        "questionHindi": "यदि सभी व्यक्तियों को बाएँ से दाएँ वर्णानुक्रम (Alphabetical Order) में बैठाया जाए, तो किसका स्थान अपरिवर्तित रहेगा?",
+        "options": [
+          "A",
+          "C",
+          "J",
+          "P",
+          "None of these"
+        ],
+        "correctAnswer": "P",
+        "explanation": "Original arrangement: A, B, G, E, C, J, L, M, D, P. After alphabetical arrangement: A, B, C, D, E, G, J, L, M, P. Only P remains at the same (last) position."
+      }
+    ]
+  },
+  {
+    "id": "reasoning_seating_arrangement_010",
+    "passage": "Seven bankers namely Rachit, Tarun, Smriti, Shetal, Prerna, Mayank and Krishna hold different designations in the same bank viz. General Manager (GM), Additional General Manager (AGM), Deputy General Manager (DGM), Manager (MG), Assistant Manager (AM), Probationary Officer (PO) and Clerk. The designations are in descending order from General Manager to Clerk. Smriti and the person designated immediately next to Prerna have two designations between them. Rachit is not designated as the General Manager. Neither Mayank nor Prerna is a Deputy General Manager. The designation of Tarun is third to the preceding of Mayank. One person is designated between Shetal and Tarun. Tarun is not a Manager. Smriti is designated higher than Shetal but lower than Prerna and Krishna.",
+    "passageHindi": "सात बैंक कर्मचारी – Rachit, Tarun, Smriti, Shetal, Prerna, Mayank तथा Krishna – एक ही बैंक में विभिन्न पदों पर कार्यरत हैं, अर्थात् General Manager (GM), Additional General Manager (AGM), Deputy General Manager (DGM), Manager (MG), Assistant Manager (AM), Probationary Officer (PO) तथा Clerk। पदों का क्रम GM से Clerk तक अवरोही है। Smriti और Prerna के ठीक अगले पद पर नियुक्त व्यक्ति के बीच दो पद हैं। Rachit, General Manager नहीं है। Mayank और Prerna में से कोई भी Deputy General Manager नहीं है। Tarun का पद, Mayank के पद से तीन स्थान ऊपर है। Shetal और Tarun के बीच एक पद है। Tarun, Manager नहीं है। Smriti का पद Shetal से ऊँचा है, लेकिन Prerna तथा Krishna से नीचे है।",
+    "questions": [
+      {
+        "question": "Who is designated as the Assistant Manager (AM)?",
+        "questionHindi": "Assistant Manager (AM) के पद पर कौन है?",
+        "options": [
+          "Tarun",
+          "Prerna",
+          "Rachit",
+          "Mayank",
+          "None of these"
+        ],
+        "correctAnswer": "Tarun",
+        "explanation": "Final designation order: GM–Krishna, AGM–Mayank, DGM–Rachit, MG–Prerna, AM–Tarun, PO–Smriti, Clerk–Shetal."
+      },
+      {
+        "question": "Which of the following designation is held by Rachit?",
+        "questionHindi": "Rachit निम्नलिखित में से किस पद पर है?",
+        "options": [
+          "GM",
+          "AGM",
+          "DGM",
+          "MG",
+          "PO"
+        ],
+        "correctAnswer": "DGM",
+        "explanation": "According to the final arrangement, Rachit is the Deputy General Manager (DGM)."
+      },
+      {
+        "question": "How many persons are designated between Mayank and Tarun?",
+        "questionHindi": "Mayank और Tarun के बीच कितने व्यक्ति पदानुसार स्थित हैं?",
+        "options": [
+          "None",
+          "One",
+          "Two",
+          "Three",
+          "None of these"
+        ],
+        "correctAnswer": "Two",
+        "explanation": "Mayank is AGM (2nd position) and Tarun is AM (5th position). Rachit and Prerna are between them."
+      },
+      {
+        "question": "Who holds the highest designation in the bank?",
+        "questionHindi": "बैंक में सर्वोच्च पद पर कौन है?",
+        "options": [
+          "Mayank",
+          "Krishna",
+          "Prerna",
+          "Rachit",
+          "None of these"
+        ],
+        "correctAnswer": "Krishna",
+        "explanation": "Krishna is designated as the General Manager (GM), which is the highest post."
+      },
+      {
+        "question": "If Smriti is related to PO, then Prerna is related to which of the following?",
+        "questionHindi": "यदि Smriti का संबंध PO से है, तो उसी प्रकार Prerna का संबंध किससे है?",
+        "options": [
+          "GM",
+          "AGM",
+          "DGM",
+          "MG",
+          "AM"
+        ],
+        "correctAnswer": "MG",
+        "explanation": "Smriti holds the PO designation, similarly Prerna holds the Manager (MG) designation."
+      ]
+    ]
+  },
+  {
+    "id": "reasoning_seating_arrangement_011",
+    "passage": "Seven persons namely A, B, C, D, E, F and G are born in different years – 2002, 2008, 2009, 2012, 2016, 2018 and 2019 and in different cities – Mumbai, Chennai, Delhi, Pune, Bangalore, Jaipur and Hyderabad, but not necessarily in the same order. G is born in a leap year in Delhi. Only two persons are born between G and the one who is born in Chennai. The number of persons born before the one born in Chennai is the same as the number of persons born after D. D is not born in Chennai and is born one year before the one who is born in Hyderabad. D is not born in Hyderabad. B is born ten years after A. F is older than E. The one who is born in Pune is born two persons before the one who is born in Bangalore. A is neither born in Pune nor Jaipur.",
+    "passageHindi": "सात व्यक्ति A, B, C, D, E, F और G का जन्म अलग-अलग वर्षों – 2002, 2008, 2009, 2012, 2016, 2018 और 2019 – तथा अलग-अलग शहरों – Mumbai, Chennai, Delhi, Pune, Bangalore, Jaipur और Hyderabad – में हुआ है, लेकिन आवश्यक नहीं कि इसी क्रम में हो। G का जन्म लीप वर्ष में Delhi में हुआ है। G और Chennai में जन्मे व्यक्ति के बीच केवल दो व्यक्ति हैं। Chennai में जन्मे व्यक्ति से पहले जितने व्यक्ति हैं, उतने ही D के बाद हैं। D का जन्म Chennai में नहीं हुआ तथा उसका जन्म Hyderabad में जन्मे व्यक्ति से एक वर्ष पहले हुआ। D का जन्म Hyderabad में भी नहीं हुआ। B का जन्म A के 10 वर्ष बाद हुआ। F, E से बड़ा है। Pune में जन्मा व्यक्ति, Bangalore में जन्मे व्यक्ति से दो स्थान पहले जन्मा है। A का जन्म न Pune में हुआ है और न ही Jaipur में।",
+    "questions": [
+      {
+        "question": "Who was born in Bangalore?",
+        "questionHindi": "Bangalore में किसका जन्म हुआ था?",
+        "options": [
+          "A",
+          "C",
+          "D",
+          "F",
+          "None of these"
+        ],
+        "correctAnswer": "C",
+        "explanation": "Final arrangement: 2002-A-Mumbai, 2008-G-Delhi, 2009-D-Jaipur, 2012-B-Pune, 2016-F-Chennai, 2018-C-Bangalore, 2019-E-Hyderabad."
+      },
+      {
+        "question": "Which person was born in the year 2019?",
+        "questionHindi": "2019 में किस व्यक्ति का जन्म हुआ था?",
+        "options": [
+          "C",
+          "D",
+          "E",
+          "F",
+          "None of these"
+        ],
+        "correctAnswer": "E",
+        "explanation": "According to the final arrangement, E was born in 2019 in Hyderabad."
+      },
+      {
+        "question": "How many persons were born between G and F?",
+        "questionHindi": "G और F के बीच कितने व्यक्तियों का जन्म हुआ था?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four",
+          "None of these"
+        ],
+        "correctAnswer": "Two",
+        "explanation": "G was born in 2008 and F in 2016. D (2009) and B (2012) lie between them."
+      },
+      {
+        "question": "Which city is associated with person A?",
+        "questionHindi": "व्यक्ति A का संबंध किस शहर से है?",
+        "options": [
+          "Delhi",
+          "Mumbai",
+          "Pune",
+          "Jaipur",
+          "Hyderabad"
+        ],
+        "correctAnswer": "Mumbai",
+        "explanation": "The final arrangement shows that A was born in Mumbai in the year 2002."
+      },
+      {
+        "question": "If G is related to Delhi, then E is related to which of the following?",
+        "questionHindi": "यदि G का संबंध Delhi से है, तो उसी प्रकार E का संबंध किस शहर से है?",
+        "options": [
+          "Mumbai",
+          "Jaipur",
+          "Hyderabad",
+          "Bangalore",
+          "Chennai"
+        ],
+        "correctAnswer": "Hyderabad",
+        "explanation": "G was born in Delhi, similarly E was born in Hyderabad."
+      }
+    ]
   }
 
 ]
