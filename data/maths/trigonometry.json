@@ -918,7 +918,7 @@
       "3 − √2",
       "3 + √2"
     ],
-    "correctAnswer": "2 - √3",
+    "correctAnswer": "2 − √3",
     "explanation": "Let t = tan(θ/2). Then t + 1/t = 4/√3. Solving gives t = 1/√3. Since tanθ + secθ = (1+t)/(1−t), its reciprocal equals 2−√3.",
     "solution": "# Solution\n\n**Step 1:** Simplify the left side by finding a common denominator.\n\n$$\\frac{\\sin\\theta}{1+\\cos\\theta} + \\frac{1+\\cos\\theta}{\\sin\\theta} = \\frac{\\sin^2\\theta + (1+\\cos\\theta)^2}{\\sin\\theta(1+\\cos\\theta)}$$\n\n$$= \\frac{\\sin^2\\theta + 1 + 2\\cos\\theta + \\cos^2\\theta}{\\sin\\theta(1+\\cos\\theta)} = \\frac{2 + 2\\cos\\theta}{\\sin\\theta(1+\\cos\\theta)}$$\n\n$$= \\frac{2(1+\\cos\\theta)}{\\sin\\theta(1+\\cos\\theta)} = \\frac{2}{\\sin\\theta}$$\n\n**Step 2:** Solve for sin θ.\n\n$$\\frac{2}{\\sin\\theta} = \\frac{4}{\\sqrt{3}}$$\n\n$$\\sin\\theta = \\frac{2\\sqrt{3}}{4} = \\frac{\\sqrt{3}}{2}$$\n\nTherefore, **θ = 60°**\n\n**Step 3:** Find tan θ and sec θ at θ = 60°.\n\n- $\\tan 60° = \\sqrt{3}$\n- $\\sec 60° = \\frac{1}{\\cos 60°} = \\frac{1}{"
   },
@@ -1313,760 +1313,706 @@
     "solution": "video solution be added soon"
   },
   {
-    "id": "maths_trigonometry_101",
-    "question": "Trigonometry — Question 76 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_102",
-    "question": "Trigonometry — Question 77 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_103",
-    "question": "Trigonometry — Question 78 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_104",
-    "question": "Trigonometry — Question 79 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_105",
-    "question": "Trigonometry — Question 80 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_106",
-    "question": "Trigonometry — Question 81 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_107",
-    "question": "Trigonometry — Question 82 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_108",
-    "question": "Trigonometry — Question 83 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
-    "id": "maths_trigonometry_109",
-    "question": "Trigonometry — Question 84 (add real content in datas/maths/trigonometry.json)",
-    "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
-    ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
-  },
-  {
     "id": "maths_trigonometry_110",
-    "question": "Trigonometry — Question 85 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $cos 27^{\\circ} = x$, then the value of tan63 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\frac{\\sqrt{1-x^{2}}}{x}$",
+      "$\\frac{x}{\\sqrt{1+x^{2}}}$",
+      "$\\frac{\\sqrt{1+x^{2}}}{x}$",
+      "$\\frac{x}{\\sqrt{1-x^{2}}}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{\\sqrt{1-x^{2}}}{x}$",
+    "questionHi": "यदि $cos 27^{\\circ} = x$, तो tan63° का मान है:",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_111",
-    "question": "Trigonometry — Question 86 (add real content in datas/maths/trigonometry.json)",
+    "question": "If cos $9^{\\circ} = \\frac{a}{b}$ then cosec 81° - cos 71° = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\frac{b^{2}}{a\\sqrt{a^{2}-b^{2}}}$",
+      "$\\frac{a^{2}}{\\sqrt{b^{2}-a^{2}}}$",
+      "$\\frac{a^{2}b^{2}}{\\sqrt{a^{2}-b^{2}}}$",
+      "$\\frac{ab}{\\sqrt{b^{2}-a^{2}}}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{a^{2}}{\\sqrt{b^{2}-a^{2}}}$",
+    "questionHi": "यदि cos $9^{\\circ} = \\frac{a}{b}$ तो cosec 81° - cos 71° का मान ज्ञात कीजिए।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_112",
-    "question": "Trigonometry — Question 87 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $cos \\theta = \\frac{24}{25}$, then find $cot(90-\\theta)$? SSC CHSL PRE 2024",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5/24",
+      "7/24",
+      "7/25",
+      "6/25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "7/24",
+    "questionHi": "यदि $cos \\theta = \\frac{24}{25}$, तो $cot(90-\\theta)$ ज्ञात कीजिए ? SSC CHSL PRE 2024",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_113",
-    "question": "Trigonometry — Question 88 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $sin 31^{\\circ} = a$, then the value of cot 59° is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\frac{\\sqrt{1-a^{2}}}{2a}$",
+      "$\\frac{a}{\\sqrt{1-a^{2}}}$",
+      "$\\frac{\\sqrt{1+a^{2}}}{a}$",
+      "$\\frac{a}{\\sqrt{1+a^{2}}}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{a}{\\sqrt{1-a^{2}}}$",
+    "questionHi": "यदि sin 31° = a है, तो cot 59° का मान ज्ञात कीजिए।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_114",
-    "question": "Trigonometry — Question 89 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $tan 40^{\\circ} = a$, then find $\\frac{tan320^{\\circ}-tan310^{\\circ}}{1+tan320^{\\circ}.tan310^{\\circ}}$?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\frac{1-a^{2}}{a}$",
+      "$\\frac{1+a^{2}}{2a}$",
+      "$\\frac{1-a^{2}}{2a}$",
+      "$\\frac{1+a^{2}}{a}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{1-a^{2}}{2a}$",
+    "questionHi": "यदि $tan 40^{\\circ} = a$ है, तो $\\frac{tan320^{\\circ}-tan310^{\\circ}}{1+tan320^{\\circ}.tan310^{\\circ}}$ का मान ज्ञात कीजिए?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_115",
-    "question": "Trigonometry — Question 90 (add real content in datas/maths/trigonometry.json)",
+    "question": "Find the value of the following expression $sin(30+\theta)-cos(60-\theta)$? SSC CHSL PRE 2024",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2 sin(30+\\theta)",
+      "1",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "0",
+    "questionHi": "निम्नलिखित व्यंजक $sin(30+\theta)-cos(60-\theta)$ का मान ज्ञात कीजिए ? SSC CHSL PRE 2024",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_116",
-    "question": "Trigonometry — Question 91 (add real content in datas/maths/trigonometry.json)",
+    "question": "In a right angled triangle PQR, $\\angle Q=90^{\\circ}$, PQ = 12 cm, QR = 5 cm. What is the value of cot P - tan R?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5/24",
+      "5/6",
+      "5/13",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "0",
+    "questionHi": "एक समकोण त्रिभुज PQR है। $\\angle Q=90^{\\circ}$, PQ = 12 cm, QR = 5 cm, तो cot P - tan R का मान क्या है?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_117",
-    "question": "Trigonometry — Question 92 (add real content in datas/maths/trigonometry.json)",
+    "question": "Triangle ABC is a right-angle triangle at B. If $tan A = \\frac{5}{12}$, then sin A + sin B + sin C will be equal to?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2(1/13)",
+      "1(5/13)",
+      "3(1/13)",
+      "2(4/13)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "2(4/13)",
+    "questionHi": "त्रिभुज ABC, B पर एक समकोण त्रिभुज है। यदि $tan A = \\frac{5}{12}$, तो sin A + sin B + sin C किसके बराबर होगा?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_118",
-    "question": "Trigonometry — Question 93 (add real content in datas/maths/trigonometry.json)",
+    "question": "If A, B and C be the angles of a triangle, then out of the following, the incorrect relation is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$cos\\frac{A+B}{2}=sin\\frac{C}{2}$",
+      "$tan\\frac{A+B}{2}=sec\\frac{C}{2}$",
+      "$cot\\frac{A+B}{2}=tan\\frac{C}{2}$",
+      "$sin\\frac{A+B}{2}=cos\\frac{C}{2}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$tan\\frac{A+B}{2}=sec\\frac{C}{2}$",
+    "questionHi": "यदि A, B और C एक त्रिभुज के कोण हैं, तो निम्नलिखित में से कौन सा संबंध गलत है:",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_119",
-    "question": "Trigonometry — Question 94 (add real content in datas/maths/trigonometry.json)",
+    "question": "If A, B and C are the interior angles of $\\Delta ABC$, then what is the value of $\\{tan\\frac{A}{2}+cosec\\frac{B+C}{2}\\}\\{tan\\frac{A}{2}-cosec\\frac{B+C}{2}\\}$? SSC CPO Pre 2024",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2",
+      "-1",
+      "-2",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "-1",
+    "questionHi": "यदि A, B और C, $\\Delta ABC$ के आंतरिक कोण हैं, तो $\\{tan\\frac{A}{2}+cosec\\frac{B+C}{2}\\}\\{tan\\frac{A}{2}-cosec\\frac{B+C}{2}\\}$ का मान क्या है? SSC CPO Pre 2024",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_120",
-    "question": "Trigonometry — Question 95 (add real content in datas/maths/trigonometry.json)",
+    "question": "In $\\Delta ABC$, right angled at B, if $tan A = \\frac{1}{2}$, then the value of $\\frac{sin A(cos C + cos A)}{cos C(sin C - sin A)}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$2\\sqrt{5}$",
+      "3/4",
+      "1",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "3",
+    "questionHi": "$\\Delta ABC$ में, जो B पर समकोण है, यदि $tan A = \\frac{1}{2}$, तो $\\frac{sin A(cos C + cos A)}{cos C(sin C - sin A)}$ का मान ज्ञात कीजिए।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_121",
-    "question": "Trigonometry — Question 96 (add real content in datas/maths/trigonometry.json)",
+    "question": "What is the value of $(sin 35^{\\circ} + sin 55^{\\circ})^{2} - 2 sin 35^{\\circ} cos 35^{\\circ}$?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "2",
+      "-1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "1",
+    "questionHi": "$(sin 35^{\\circ} + sin 55^{\\circ})^{2} - 2 sin 35^{\\circ} cos 35^{\\circ}$ का मान क्या है?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_122",
-    "question": "Trigonometry — Question 97 (add real content in datas/maths/trigonometry.json)",
+    "question": "Evaluate $2\\frac{tan 54^{\\circ}}{cot 36^{\\circ}} - \\frac{cot 41^{\\circ}}{tan 49^{\\circ}}$? SSC CHSL TIER - I 2022",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-1",
+      "1",
+      "0",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "1",
+    "questionHi": "मूल्यांकन करें: $2\\frac{tan 54^{\\circ}}{cot 36^{\\circ}} - \\frac{cot 41^{\\circ}}{tan 49^{\\circ}}$? SSC CHSL TIER - I 2022",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_123",
-    "question": "Trigonometry — Question 98 (add real content in datas/maths/trigonometry.json)",
+    "question": "What is the value of $\\sqrt{\\frac{9sin^{2}26^{\\circ}+9sin^{2}64^{\\circ}+36}{32-7cos^{2}32^{\\circ}-7cos^{2}58^{\\circ}}}$? SSC CGL Pre 2024",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\frac{3\\sqrt{5}}{5}$",
+      "$\\frac{5\\sqrt{3}}{3}$",
+      "$\\frac{5\\sqrt{5}}{3}$",
+      "$\\frac{3\\sqrt{3}}{5}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{3\\sqrt{5}}{5}$",
+    "questionHi": "$\\sqrt{\\frac{9sin^{2}26^{\\circ}+9sin^{2}64^{\\circ}+36}{32-7cos^{2}32^{\\circ}-7cos^{2}58^{\\circ}}}$ का मान क्या है? SSC CGL Pre 2024",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_124",
-    "question": "Trigonometry — Question 99 (add real content in datas/maths/trigonometry.json)",
+    "question": "Simplify $[1 - sin^{2}32^{\\circ} + \\frac{1}{1+tan^{2}58^{\\circ}}]$? SSC CGL Pre 2024",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1/2",
+      "sin 32°",
+      "1",
+      "$\\sqrt{3}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "1",
+    "questionHi": "$[1 - sin^{2}32^{\\circ} + \\frac{1}{1+tan^{2}58^{\\circ}}]$ को सरल बनाएं? SSC CGL Pre 2024",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_125",
-    "question": "Trigonometry — Question 100 (add real content in datas/maths/trigonometry.json)",
+    "question": "What is the value of $\\frac{3cosec42^{\\circ}}{sec48^{\\circ}} - \\frac{5cos32^{\\circ}}{sin58^{\\circ}}$? (SSC CPO 2023)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-1",
+      "5",
+      "0",
+      "-2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "-2",
+    "questionHi": "$\\frac{3cosec42^{\\circ}}{sec48^{\\circ}} - \\frac{5cos32^{\\circ}}{sin58^{\\circ}}$ का मान क्या है? (SSC CPO 2023)",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_126",
-    "question": "Trigonometry — Question 101 (add real content in datas/maths/trigonometry.json)",
+    "question": "What is the value of $\\frac{5}{2}\\{\\frac{cos37^{\\circ}}{sin53^{\\circ}}\\} - \\frac{1}{2}(sin^{2}39^{\\circ}+sin^{2}51^{\\circ})$? SSC CHSL TIER - I 2022",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$sin^{2}51^{\\circ}-sin 53^{\\circ}$",
+      "$sin 53^{\\circ}+tan 51^{\\circ}$",
+      "2",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "2",
+    "questionHi": "$\\frac{5}{2}\\{\\frac{cos37^{\\circ}}{sin53^{\\circ}}\\} - \\frac{1}{2}(sin^{2}39^{\\circ}+sin^{2}51^{\\circ})$ का मान क्या है? SSC CHSL TIER - I 2022",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_127",
-    "question": "Trigonometry — Question 102 (add real content in datas/maths/trigonometry.json)",
+    "question": "Find the value of $\\frac{cos 65^{\\circ}}{sin 25^{\\circ}} + \\frac{5 sin 19^{\\circ}}{cos 71^{\\circ}} - \\frac{3 cos 28^{\\circ}}{sin 62^{\\circ}}$.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "2",
+      "1",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "3",
+    "questionHi": "$\\frac{cos 65^{\\circ}}{sin 25^{\\circ}} + \\frac{5 sin 19^{\\circ}}{cos 71^{\\circ}} - \\frac{3 cos 28^{\\circ}}{sin 62^{\\circ}}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_128",
-    "question": "Trigonometry — Question 103 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $\\frac{3 cos^{2}27^{\\circ} - 5 + 3 cos^{2}63^{\\circ}}{tan^{2}32^{\\circ} + 4 - cosec^{2}58^{\\circ}} + sin35^{\\circ}cos55^{\\circ} + cos35^{\\circ}sin55^{\\circ}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1/3",
+      "1",
+      "1(2/3)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "1(2/3)",
+    "questionHi": "$\\frac{3 cos^{2}27^{\\circ} - 5 + 3 cos^{2}63^{\\circ}}{tan^{2}32^{\\circ} + 4 - cosec^{2}58^{\\circ}} + sin35^{\\circ}cos55^{\\circ} + cos35^{\\circ}sin55^{\\circ}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_129",
-    "question": "Trigonometry — Question 104 (add real content in datas/maths/trigonometry.json)",
+    "question": "What is the value of $\\frac{sin 33^{\\circ}cos 57^{\\circ} + sec 62^{\\circ}sin 28^{\\circ} + cos 33^{\\circ}sin 57^{\\circ} + cosec 62^{\\circ}cos 28^{\\circ}}{tan 15^{\\circ}tan 35^{\\circ}tan 60^{\\circ}tan 55^{\\circ}tan 75^{\\circ}}$?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\frac{\\sqrt{3}}{3}$",
+      "2",
+      "$2\\sqrt{3}$",
+      "$\\sqrt{3}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$2\\sqrt{3}$",
+    "questionHi": "$\\frac{sin 33^{\\circ}cos 57^{\\circ} + sec 62^{\\circ}sin 28^{\\circ} + cos 33^{\\circ}sin 57^{\\circ} + cosec 62^{\\circ}cos 28^{\\circ}}{tan 15^{\\circ}tan 35^{\\circ}tan 60^{\\circ}tan 55^{\\circ}tan 75^{\\circ}}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_130",
-    "question": "Trigonometry — Question 105 (add real content in datas/maths/trigonometry.json)",
+    "question": "Find the value of $2cosec^{2}23^{\\circ}cot^{2}67^{\\circ} - sin^{2}23^{\\circ} - sin^{2}67^{\\circ} - cot^{2}67^{\\circ}$.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "sec² 23°",
+      "1",
+      "tan² 23°",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "0",
+    "questionHi": "$2cosec^{2}23^{\\circ}cot^{2}67^{\\circ} - sin^{2}23^{\\circ} - sin^{2}67^{\\circ} - cot^{2}67^{\\circ}$ का मान ज्ञात कीजिए।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_131",
-    "question": "Trigonometry — Question 106 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of cosec$(58^{\\circ}+\\Theta) - sec(32^{\\circ}-\\Theta) + sin 15^{\\circ}sin 35^{\\circ}sec 55^{\\circ}sin 30^{\\circ}sec 75^{\\circ}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "2",
+      "1/2",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "1/2",
+    "questionHi": "cosec$(58^{\\circ}+\\Theta) - sec(32^{\\circ}-\\Theta) + sin 15^{\\circ}sin 35^{\\circ}sec 55^{\\circ}sin 30^{\\circ}sec 75^{\\circ}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_132",
-    "question": "Trigonometry — Question 107 (add real content in datas/maths/trigonometry.json)",
+    "question": "If cosec $31^{\\circ} = x$ then $sin^{2}59^{\\circ} + \\frac{1}{cosec^{2}31^{\\circ}} + tan^{2}59^{\\circ} - \\frac{1}{sin^{2}59^{\\circ}cosec^{2}59^{\\circ}}$ is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\sqrt{x+1}$",
+      "$\\sqrt{x^{2}-1}$",
+      "$\\sqrt{x-1}$",
+      "$\\sqrt{x^{2}+1}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\sqrt{x^{2}-1}$",
+    "questionHi": "अगर cosec $31^{\\circ} = x$ है तो $sin^{2}59^{\\circ} + \\frac{1}{cosec^{2}31^{\\circ}} + tan^{2}59^{\\circ} - \\frac{1}{sin^{2}59^{\\circ}cosec^{2}59^{\\circ}}$ किसके बराबर है:",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_133",
-    "question": "Trigonometry — Question 108 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $x = sec 57^{\\circ}$ then $cot^{2}33^{\\circ} + sin^{2}57^{\\circ} + sin^{2}33^{\\circ} + cosec^{2}57^{\\circ}cos^{2}33^{\\circ} + sec^{2}33^{\\circ}sin^{2}57^{\\circ}$ is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "x² + 2",
+      "2x² + 1",
+      "x² + 1",
+      "$\\frac{1}{x^{2}+1}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "2x² + 1",
+    "questionHi": "यदि $x = sec 57^{\\circ}$ तो $cot^{2}33^{\\circ} + sin^{2}57^{\\circ} + sin^{2}33^{\\circ} + cosec^{2}57^{\\circ}cos^{2}33^{\\circ} + sec^{2}33^{\\circ}sin^{2}57^{\\circ}$ बराबर है:",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_134",
-    "question": "Trigonometry — Question 109 (add real content in datas/maths/trigonometry.json)",
+    "question": "Find the value of $sin^{2}\\frac{\\pi}{32} + sin^{2}\\frac{7\\pi}{32} + sin^{2}\\frac{9\\pi}{32} + sin^{2}\\frac{15\\pi}{32}$.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8/3",
+      "2",
+      "7/4",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "2",
+    "questionHi": "$sin^{2}\\frac{\\pi}{32} + sin^{2}\\frac{7\\pi}{32} + sin^{2}\\frac{9\\pi}{32} + sin^{2}\\frac{15\\pi}{32}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_135",
-    "question": "Trigonometry — Question 110 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $sin^{2}5^{\\circ} + sin^{2}10^{\\circ} + sin^{2}15^{\\circ} + \\dots + sin^{2}85^{\\circ} + sin^{2}90^{\\circ}$ is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9(1/2)",
+      "9",
+      "8(1/2)",
+      "10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "9(1/2)",
+    "questionHi": "$sin^{2}5^{\\circ} + sin^{2}10^{\\circ} + sin^{2}15^{\\circ} + \\dots + sin^{2}85^{\\circ} + sin^{2}90^{\\circ}$ का मान किसके बराबर है।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_136",
-    "question": "Trigonometry — Question 111 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $(tan29^{\\circ}cot61^{\\circ} - cosec^{2}61^{\\circ}) + cot^{2}54^{\\circ} - sec^{2}36^{\\circ} + (sin^{2}1^{\\circ} + sin^{2}3^{\\circ} + sin^{2}5^{\\circ} + \\dots + sin^{2}89^{\\circ})$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "22(1/2)",
+      "21",
+      "20(1/2)",
+      "22"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "20(1/2)",
+    "questionHi": "$(tan29^{\\circ}cot61^{\\circ} - cosec^{2}61^{\\circ}) + cot^{2}54^{\\circ} - sec^{2}36^{\\circ} + (sin^{2}1^{\\circ} + sin^{2}3^{\\circ} + sin^{2}5^{\\circ} + \\dots + sin^{2}89^{\\circ})$ का मान है:",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_137",
-    "question": "Trigonometry — Question 112 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $\\frac{(tan25^{\\circ}cot65^{\\circ}-cosec^{2}65^{\\circ})+cot^{2}61^{\\circ}-sec^{2}29^{\\circ}}{sin^{2}5^{\\circ}+sin^{2}7^{\\circ}+sin^{2}9^{\\circ}+\\dots+sin^{2}85^{\\circ}}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-2/41",
+      "4/45",
+      "-1/20",
+      "41"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "-2/41",
+    "questionHi": "$\\frac{(tan25^{\\circ}cot65^{\\circ}-cosec^{2}65^{\\circ})+cot^{2}61^{\\circ}-sec^{2}29^{\\circ}}{sin^{2}5^{\\circ}+sin^{2}7^{\\circ}+sin^{2}9^{\\circ}+\\dots+sin^{2}85^{\\circ}}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_138",
-    "question": "Trigonometry — Question 113 (add real content in datas/maths/trigonometry.json)",
+    "question": "$cos^{2}1^{\\circ} + cos^{2}2^{\\circ} + cos^{2}3^{\\circ} + \\dots + cos^{2}90^{\\circ} = ?$",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44.5",
+      "45",
+      "43",
+      "89"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "44.5",
+    "questionHi": "$cos^{2}1^{\\circ} + cos^{2}2^{\\circ} + cos^{2}3^{\\circ} + \\dots + cos^{2}90^{\\circ} = ?$",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_139",
-    "question": "Trigonometry — Question 114 (add real content in datas/maths/trigonometry.json)",
+    "question": "Find the value of $\\frac{tan 1^{\\circ}}{1+tan 1^{\\circ}} + \\frac{tan 2^{\\circ}}{1+tan 2^{\\circ}} + \\dots + \\frac{tan 89^{\\circ}}{1+tan 89^{\\circ}}$.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44.5",
+      "45",
+      "89",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "44.5",
+    "questionHi": "$\\frac{tan 1^{\\circ}}{1+tan 1^{\\circ}} + \\frac{tan 2^{\\circ}}{1+tan 2^{\\circ}} + \\dots + \\frac{tan 89^{\\circ}}{1+tan 89^{\\circ}}$ का मान ज्ञात कीजिए।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_140",
-    "question": "Trigonometry — Question 115 (add real content in datas/maths/trigonometry.json)",
+    "question": "$tan 7^{\\circ} \\cdot tan 11^{\\circ} \\cdot tan 23^{\\circ} \\cdot tan 30^{\\circ} \\cdot tan 45^{\\circ} \\cdot tan 67^{\\circ} \\cdot tan 79^{\\circ} \\cdot tan 83^{\\circ} = ?$",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\sqrt{3}$",
+      "$\\frac{1}{\\sqrt{3}}$",
+      "$2\\sqrt{3}$",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{1}{\\sqrt{3}}$",
+    "questionHi": "$tan 7^{\\circ} \\cdot tan 11^{\\circ} \\cdot tan 23^{\\circ} \\cdot tan 30^{\\circ} \\cdot tan 45^{\\circ} \\cdot tan 67^{\\circ} \\cdot tan 79^{\\circ} \\cdot tan 83^{\\circ} = ?$",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_141",
-    "question": "Trigonometry — Question 116 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of cot 13° cot 27° cot 60° cot 63° cot 77° is: SSC CHSL 2023 PRE",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\sqrt{3}$",
+      "1",
+      "0",
+      "$\\frac{1}{\\sqrt{3}}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{1}{\\sqrt{3}}$",
+    "questionHi": "cot 13° cot 27° cot 60° cot 63° cot 77° का मान ज्ञात कीजिए। SSC CHSL 2023 PRE",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_142",
-    "question": "Trigonometry — Question 117 (add real content in datas/maths/trigonometry.json)",
+    "question": "What is the value of cos 1° . cos 2° . cos 3° ... cos 177° . cos 178° . cos 179°?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "$\\frac{1}{\\sqrt{2}}$",
+      "1/2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "0",
+    "questionHi": "cos 1° . cos 2° . cos 3° ... cos 177° . cos 178° . cos 179° का मान क्या है?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_143",
-    "question": "Trigonometry — Question 118 (add real content in datas/maths/trigonometry.json)",
+    "question": "Calculate the value of $\\frac{sin 37^{\\circ}}{cos 53^{\\circ}} + \\frac{2tan 49^{\\circ}}{cot 41^{\\circ}} - 5(cot 11^{\\circ} \\cdot cot 31^{\\circ} \\cdot cot 45^{\\circ} \\cdot cot 59^{\\circ} \\cdot cot 79^{\\circ}) + 3(sin^{2}76.5^{\\circ} + sin^{2}13.5^{\\circ})$. SSC SELECTION",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "2",
+      "-1",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "1",
+    "questionHi": "मान ज्ञात कीजिए: $\\frac{sin 37^{\\circ}}{cos 53^{\\circ}} + \\frac{2tan 49^{\\circ}}{cot 41^{\\circ}} - 5(cot 11^{\\circ} \\cdot cot 31^{\\circ} \\cdot cot 45^{\\circ} \\cdot cot 59^{\\circ} \\cdot cot 79^{\\circ}) + 3(sin^{2}76.5^{\\circ} + sin^{2}13.5^{\\circ})$.",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_144",
-    "question": "Trigonometry — Question 119 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $\\frac{tan 50^{\\circ} + sec 50^{\\circ}}{cot 40^{\\circ} + cosec 40^{\\circ}} + cos^{2}65^{\\circ} + sin 65^{\\circ} cos 25^{\\circ} + tan 30^{\\circ}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\frac{\\sqrt{3}(\\sqrt{3}+1)}{3}$",
+      "$2+\\sqrt{3}$",
+      "$\\frac{6+\\sqrt{3}}{3}$",
+      "$1+\\sqrt{3}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{6+\\sqrt{3}}{3}$",
+    "questionHi": "$\\frac{tan 50^{\\circ} + sec 50^{\\circ}}{cot 40^{\\circ} + cosec 40^{\\circ}} + cos^{2}65^{\\circ} + sin 65^{\\circ} cos 25^{\\circ} + tan 30^{\\circ}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_145",
-    "question": "Trigonometry — Question 120 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $\\frac{(sin 17^{\\circ} + cos 73^{\\circ})(sec 73^{\\circ} + cosec 17^{\\circ})}{cosec^{2}71^{\\circ} + cos^{2}15^{\\circ} - tan^{2}19^{\\circ} + cos^{2}75^{\\circ}}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "4",
+      "3",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "2",
+    "questionHi": "$\\frac{(sin 17^{\\circ} + cos 73^{\\circ})(sec 73^{\\circ} + cosec 17^{\\circ})}{cosec^{2}71^{\\circ} + cos^{2}15^{\\circ} - tan^{2}19^{\\circ} + cos^{2}75^{\\circ}}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_146",
-    "question": "Trigonometry — Question 121 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $\\frac{tan(45^{\\circ}-\\alpha)}{cot(45^{\\circ}+\\alpha)} - \\frac{(cos 19^{\\circ} + sin 71^{\\circ})(sec 19^{\\circ} + cosec 71^{\\circ})}{tan 12^{\\circ}tan 24^{\\circ}tan 66^{\\circ}tan 78^{\\circ}}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-3",
+      "0",
+      "-2",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "-3",
+    "questionHi": "$\\frac{tan(45^{\\circ}-\\alpha)}{cot(45^{\\circ}+\\alpha)} - \\frac{(cos 19^{\\circ} + sin 71^{\\circ})(sec 19^{\\circ} + cosec 71^{\\circ})}{tan 12^{\\circ}tan 24^{\\circ}tan 66^{\\circ}tan 78^{\\circ}}$ का मान ज्ञात करों।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_147",
-    "question": "Trigonometry — Question 122 (add real content in datas/maths/trigonometry.json)",
+    "question": "$2(sin 1^{\\circ} \\times sec 89^{\\circ}) + 3(cos 11^{\\circ} \\times cosec 79^{\\circ}) + 5(tan 21^{\\circ} \\times tan 69^{\\circ}) = ?$ (SSC CPO 2023)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20",
+      "12",
+      "11",
+      "10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "10",
+    "questionHi": "$2(sin 1^{\\circ} \\times sec 89^{\\circ}) + 3(cos 11^{\\circ} \\times cosec 79^{\\circ}) + 5(tan 21^{\\circ} \\times tan 69^{\\circ}) = ?$ (SSC CPO 2023)",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_148",
-    "question": "Trigonometry — Question 123 (add real content in datas/maths/trigonometry.json)",
+    "question": "If A + B = 90°, then the expression $\\frac{cot A}{cot B} + cos^{2}A + cos^{2}B$ is equal to: (SSC CPO 2023)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "cot² B",
+      "cosec² A",
+      "cosec² B",
+      "cot A"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "cosec² B",
+    "questionHi": "यदि A + B = 90° तो व्यंजक $\\frac{cot A}{cot B} + cos^{2}A + cos^{2}B$ किसके बराबर है? (SSC CPO 2023)",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_149",
-    "question": "Trigonometry — Question 124 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $\\frac{\\sqrt{2}tan(60^{\\circ}-\\theta)tan(30^{\\circ}+\\theta)}{sin^{2}(45^{\\circ}+\\theta)+sin^{2}(45^{\\circ}-\\theta)}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\frac{1}{\\sqrt{2}}$",
+      "1",
+      "2",
+      "$\\sqrt{2}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\sqrt{2}$",
+    "questionHi": "$\\frac{\\sqrt{2}tan(60^{\\circ}-\\theta)tan(30^{\\circ}+\\theta)}{sin^{2}(45^{\\circ}+\\theta)+sin^{2}(45^{\\circ}-\\theta)}$ का मान क्या होगा?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_150",
-    "question": "Trigonometry — Question 125 (add real content in datas/maths/trigonometry.json)",
+    "question": "Evaluate the following expression: $\\frac{3(cot^{2}46^{\\circ}-sec^{2}44^{\\circ})}{2(sin^{2}28^{\\circ}+sin^{2}62^{\\circ})} + \\frac{2 cos^{2}60^{\\circ}tan^{2}33^{\\circ}tan^{2}57^{\\circ}}{sin^{2}(90^{\\circ}-\\theta)-cot^{2}\\theta}$",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-1",
+      "1",
+      "-2",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "-1",
+    "questionHi": "दिए गए व्यंजक का मान ज्ञात करें: $\\frac{3(cot^{2}46^{\\circ}-sec^{2}44^{\\circ})}{2(sin^{2}28^{\\circ}+sin^{2}62^{\\circ})} + \\frac{2 cos^{2}60^{\\circ}tan^{2}33^{\\circ}tan^{2}57^{\\circ}}{sin^{2}(90^{\\circ}-\\theta)-cot^{2}\\theta}$",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_151",
-    "question": "Trigonometry — Question 126 (add real content in datas/maths/trigonometry.json)",
+    "question": "The value of $\\frac{3(cosec^{2}26^{\\circ}-tan^{2}64^{\\circ})+(cot^{2}42^{\\circ}-sec^{2}48^{\\circ})}{cot(22^{\\circ}-\\phi)-cosec^{2}(62^{\\circ}+\\phi)-tan(\\phi+68^{\\circ})+tan^{2}(28^{\\circ}-\\phi)}$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "2",
+      "-1",
+      "-2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "-2",
+    "questionHi": "$\\frac{3(cosec^{2}26^{\\circ}-tan^{2}64^{\\circ})+(cot^{2}42^{\\circ}-sec^{2}48^{\\circ})}{cot(22^{\\circ}-\\phi)-cosec^{2}(62^{\\circ}+\\phi)-tan(\\phi+68^{\\circ})+tan^{2}(28^{\\circ}-\\phi)}$ का मान क्या होगा?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_152",
-    "question": "Trigonometry — Question 127 (add real content in datas/maths/trigonometry.json)",
+    "question": "Evaluate $7(\\frac{cosec 24^{\\circ}}{sec 66^{\\circ}})^{3} + 8(\\frac{cot 37^{\\circ}}{tan 53^{\\circ}})^{4} - (2\\frac{cosec 24^{\\circ}}{sec 66^{\\circ}})^{2} + (-3\\frac{tan 82^{\\circ}}{cot 8^{\\circ}})^{3}$.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-16",
+      "14",
+      "2",
+      "10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "-16",
+    "questionHi": "$7(\\frac{cosec 24^{\\circ}}{sec 66^{\\circ}})^{3} + 8(\\frac{cot 37^{\\circ}}{tan 53^{\\circ}})^{4} - (2\\frac{cosec 24^{\\circ}}{sec 66^{\\circ}})^{2} + (-3\\frac{tan 82^{\\circ}}{cot 8^{\\circ}})^{3}$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_153",
-    "question": "Trigonometry — Question 128 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $6(sec^{2}59^{\\circ}-cot^{2}31^{\\circ}) - \\frac{2}{3}sin^{2}90^{\\circ} - 3tan^{2}56^{\\circ}y \\cdot tan^{2}34^{\\circ} = \\frac{y}{3}$, then the value of y is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8/5",
+      "-8/5",
+      "2/3",
+      "-2/3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "8/5",
+    "questionHi": "यदि $6(sec^{2}59^{\\circ}-cot^{2}31^{\\circ}) - \\frac{2}{3}sin^{2}90^{\\circ} - 3tan^{2}56^{\\circ}y \\cdot tan^{2}34^{\\circ} = \\frac{y}{3}$ है तो y का मान है:",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_154",
-    "question": "Trigonometry — Question 129 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $cos(2\\theta+54^{\\circ}) = sin \\theta$, where $0^{\\circ} < (2\\theta+54^{\\circ}) < 90^{\\circ}$, then what is the value of $\\frac{1}{tan 5\\theta + cosec \\frac{5\\theta}{2}}$? SSC Selection Post (Phase-XII)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$2+\\sqrt{3}$",
+      "$3\\sqrt{2}$",
+      "$2\\sqrt{3}$",
+      "$2-\\sqrt{3}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$2-\\sqrt{3}$",
+    "questionHi": "यदि $cos(2\\theta+54^{\\circ}) = sin \\theta$, $0^{\\circ} < (2\\theta+54^{\\circ}) < 90^{\\circ}$ है, तो $\\frac{1}{tan 5\\theta + cosec \\frac{5\\theta}{2}}$ का मान ज्ञात कीजिए।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_155",
-    "question": "Trigonometry — Question 130 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $tan(8\\theta-11^{\\circ}) \\cdot tan(11\\theta-13^{\\circ}) = 1$, then find the value of sin10$\\theta$ + cos5$\\theta$?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\sqrt{3}$",
+      "$\\frac{2}{\\sqrt{3}}$",
+      "$\\frac{\\sqrt{3}}{2}$",
+      "$\\frac{3\\sqrt{3}}{4}$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\frac{3\\sqrt{3}}{4}$",
+    "questionHi": "यदि $tan(8\\theta-11^{\\circ}) \\cdot tan(11\\theta-13^{\\circ}) = 1$, तो sin10$\\theta$ + cos5$\\theta$ का मान ज्ञात कीजिए।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_156",
-    "question": "Trigonometry — Question 131 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $tan x = cot(48^{\\circ} + 2x)$ and $0^{\\circ} < x < 90^{\\circ}$ then what is the value of x?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12°",
+      "14°",
+      "16°",
+      "21°"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "14°",
+    "questionHi": "यदि $tan x = cot(48^{\\circ} + 2x)$ और $0^{\\circ} < x < 90^{\\circ}$ तो x का मान ज्ञात करें?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_157",
-    "question": "Trigonometry — Question 132 (add real content in datas/maths/trigonometry.json)",
+    "question": "If tan$(5\\theta-10^{\\circ}) = cot(5\\phi+20^{\\circ})$, then the value of $\\theta+\\phi$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16°",
+      "20°",
+      "18°",
+      "15°"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "16°",
+    "questionHi": "यदि tan$(5\\theta-10^{\\circ}) = cot(5\\phi+20^{\\circ})$ है, तो $\\theta+\\phi$ का मान क्या है?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_158",
-    "question": "Trigonometry — Question 133 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $tan 2\\theta = cot(\\theta - 36^{\\circ})$, where 2$\\theta$ is an acute angle, then the value of $\\theta$ is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18°",
+      "30°",
+      "36°",
+      "42°"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "42°",
+    "questionHi": "यदि $tan 2\\theta = cot(\\theta - 36^{\\circ})$ जहां 2$\\theta$ एक न्यून कोण है, तो $\\theta$ का मान ज्ञात कीजिए।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_159",
-    "question": "Trigonometry — Question 134 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $sin 3\\theta \\cdot sec 2\\theta = 1$, then what is the value of $|3 tan^{2}(5\\theta/2) - 1|$?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "3",
+      "1",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "2",
+    "questionHi": "यदि $sin 3\\theta \\cdot sec 2\\theta = 1$, तो $|3 tan^{2}(5\\theta/2) - 1|$ का मान क्या होगा?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_160",
-    "question": "Trigonometry — Question 135 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $cosec 2\\theta = sec(3\\theta - 15^{\\circ})$, then $\\theta$ is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "22°",
+      "20°",
+      "25°",
+      "21°"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "21°",
+    "questionHi": "यदि $cosec 2\\theta = sec(3\\theta - 15^{\\circ})$ है, तो $\\theta$ का मान ज्ञात करें।",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_161",
-    "question": "Trigonometry — Question 136 (add real content in datas/maths/trigonometry.json)",
+    "question": "If $sec(5\\alpha - 15^{\\circ}) = cosec(15^{\\circ} - 2\\alpha)$, then the value of $cos \\alpha + sin 2\\alpha + tan(1.5\\alpha)$ is: SSC CHSL 2023 PRE",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\sqrt{2}+1$",
+      "$\\sqrt{2}-1$",
+      "$\\sqrt{3}-1$",
+      "$\\sqrt{3}+1$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\sqrt{3}+1$",
+    "questionHi": "यदि $sec(5\\alpha - 15^{\\circ}) = cosec(15^{\\circ} - 2\\alpha)$ है, तो $cos \\alpha + sin 2\\alpha + tan(1.5\\alpha)$ का मान ज्ञात करें। SSC CHSL 2023 PRE",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_162",
-    "question": "Trigonometry — Question 137 (add real content in datas/maths/trigonometry.json)",
+    "question": "If 2sec2$\\theta$ = tan $\\varphi$ + cot $\\varphi$, then one of the values of $\\theta+\\varphi$ = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "$\\pi/2$",
+      "$\\pi/4$",
+      "$\\pi/3$",
+      "$\\pi/6$"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "$\\pi/2$",
+    "questionHi": "यदि 2sec2$\\theta$ = tan $\\varphi$ + cot $\\varphi$, तो $\\theta+\\varphi$ का एक मान होना चाहिए ?",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_163",
-    "question": "Trigonometry — Question 138 (add real content in datas/maths/trigonometry.json)",
+    "question": "For what relation between a and b is the equation possible: $sin \\theta = \\frac{a+b}{2\\sqrt{ab}}$? (CDS 2023)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "a = b",
+      "a > b",
+      "a \\le b",
+      "a \\ge b"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Trigonometry."
+    "correctAnswer": "a = b",
+    "questionHi": "a और b के बीच किस संबंध के लिए समीकरण $sin \\theta = \\frac{a+b}{2\\sqrt{ab}}$ संभव है? (CDS 2023)",
+    "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_164",
