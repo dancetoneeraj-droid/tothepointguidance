@@ -14,7 +14,7 @@ import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { Card } from "@/components/ui/Card";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { canAccessDay } from "@/lib/premium-access";
-import { formatQuizTitle, getReasoningQuizLabel } from "@/lib/day-system";
+import { formatQuizTitle, getReasoningQuizLabel, resolveScheduledQuizFrom } from "@/lib/day-system";
 import { getDailyPlan } from "@/lib/daily-plans";
 import { loadQuizAnalytics } from "@/lib/api/ecosystem";
 import { getQuizReviewRecord } from "@/lib/storage";
@@ -38,12 +38,27 @@ export default function QuizSolutionsPage({
   const { subject, topic } = use(params);
   const searchParams = useSearchParams();
   const day = parseInt(searchParams.get("day") ?? "1", 10);
+  const fromRaw = searchParams.get("from");
+  const fromParam =
+    fromRaw != null && fromRaw !== "" ? parseInt(fromRaw, 10) : undefined;
   const { studentId, user } = useAuth();
 
   const data = useMemo(() => {
     if (!studentId) return null;
 
-    const saved = getQuizReviewRecord(studentId, day, subject, topic);
+    const plan = getDailyPlan(day);
+    const quizFrom = resolveScheduledQuizFrom(
+      plan,
+      subject,
+      topic,
+      fromParam !== undefined && Number.isFinite(fromParam) ? fromParam : undefined
+    );
+
+    const saved =
+      getQuizReviewRecord(studentId, day, subject, topic, quizFrom) ??
+      (quizFrom !== undefined
+        ? getQuizReviewRecord(studentId, day, subject, topic)
+        : null);
     if (saved) return saved;
 
     const recent = loadQuizAnalytics();
@@ -57,7 +72,7 @@ export default function QuizSolutionsPage({
     }
 
     return null;
-  }, [studentId, day, subject, topic]);
+  }, [studentId, day, subject, topic, fromParam]);
 
   if (!canAccessDay(day, user?.email)) {
     return (
@@ -79,7 +94,11 @@ export default function QuizSolutionsPage({
               Complete the quiz first to open coaching-style solutions.
             </p>
             <Link
-              href={`/quiz/${subject}/${topic}?day=${day}`}
+              href={`/quiz/${subject}/${topic}?day=${day}${
+                fromParam !== undefined && Number.isFinite(fromParam)
+                  ? `&from=${fromParam}`
+                  : ""
+              }`}
               className="mt-6 inline-flex text-sm text-violet-300 hover:text-violet-200"
             >
               Back to result
@@ -91,7 +110,7 @@ export default function QuizSolutionsPage({
   }
 
   const questions = getReviewQuestions(
-    getQuestionBank(subject as "maths" | "reasoning" | "gk", topic),
+    getQuestionBank(subject as "maths" | "reasoning" | "gk" | "english", topic),
     data.questionIds
   );
 
@@ -107,7 +126,11 @@ export default function QuizSolutionsPage({
               (admin can reset this quiz from the admin panel).
             </p>
             <Link
-              href={`/quiz/${subject}/${topic}?day=${day}`}
+              href={`/quiz/${subject}/${topic}?day=${day}${
+                fromParam !== undefined && Number.isFinite(fromParam)
+                  ? `&from=${fromParam}`
+                  : ""
+              }`}
               className="mt-6 inline-flex text-sm text-violet-300 hover:text-violet-200"
             >
               Back to result
@@ -130,13 +153,18 @@ export default function QuizSolutionsPage({
     (question) => getReviewStatus(question, data.answers) === "wrong"
   ).length;
   const unattemptedCount = questions.length - correctCount - wrongCount;
+  const quizBackHref = `/quiz/${subject}/${topic}?day=${day}${
+    fromParam !== undefined && Number.isFinite(fromParam)
+      ? `&from=${fromParam}`
+      : ""
+  }`;
 
   return (
     <ProtectedRoute>
       <div className="min-h-screen bg-[#08080a] px-4 py-8 sm:px-6">
         <div className="mx-auto max-w-6xl space-y-6">
           <Link
-            href={`/quiz/${subject}/${topic}?day=${day}`}
+            href={quizBackHref}
             className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:text-white"
           >
             <ArrowLeft className="h-4 w-4" />

@@ -273,6 +273,40 @@ export function getEnglishQuizLabel(
   return undefined;
 }
 
+/**
+ * Resolve the bank `from` offset for a scheduled quiz on a day.
+ * Used so solutions/analysis can load review records saved as `dayN-subject-topic-f{from}`.
+ */
+export function resolveScheduledQuizFrom(
+  plan: DailyPlan | null | undefined,
+  subject: string,
+  topic: string,
+  fromParam?: number
+): number | undefined {
+  if (fromParam !== undefined && Number.isFinite(fromParam)) return fromParam;
+  if (!plan) return undefined;
+
+  if (subject === "maths") {
+    return plan.maths.find((m) => m.topic === topic)?.from;
+  }
+  if (subject === "reasoning") {
+    if (plan.reasoning?.topic === topic) return plan.reasoning.from;
+    return plan.reasoningQuizzes?.find((q) => q.topic === topic)?.from;
+  }
+  if (subject === "english") {
+    const quizzes = (plan.english.grammarQuizzes ?? []).filter(
+      (q) => q.topic === topic
+    );
+    if (quizzes.length === 1) return quizzes[0].from;
+    if (plan.english.grammarQuiz === topic) return plan.english.grammarQuizFrom;
+    return undefined;
+  }
+  if (subject === "gk") {
+    return plan.gk.from;
+  }
+  return undefined;
+}
+
 export function formatQuizTitle(
   subject: string,
   topic: string,

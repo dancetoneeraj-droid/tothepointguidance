@@ -30,6 +30,7 @@ import {
   formatReasoningQuizLabel,
   formatTopic,
   getReasoningQuizLabel,
+  resolveScheduledQuizFrom,
 } from "@/lib/day-system";
 import { getDailyPlan } from "@/lib/daily-plans";
 import { useAuth } from "@/components/providers/AuthProvider";
@@ -43,12 +44,27 @@ export default function QuizAnalysisPage({
   const { subject, topic } = use(params);
   const searchParams = useSearchParams();
   const day = parseInt(searchParams.get("day") ?? "1", 10);
+  const fromRaw = searchParams.get("from");
+  const fromParam =
+    fromRaw != null && fromRaw !== "" ? parseInt(fromRaw, 10) : undefined;
   const { studentId, user } = useAuth();
 
   const data = useMemo(() => {
     if (!studentId) return null;
 
-    const saved = getQuizReviewRecord(studentId, day, subject, topic);
+    const plan = getDailyPlan(day);
+    const quizFrom = resolveScheduledQuizFrom(
+      plan,
+      subject,
+      topic,
+      fromParam !== undefined && Number.isFinite(fromParam) ? fromParam : undefined
+    );
+
+    const saved =
+      getQuizReviewRecord(studentId, day, subject, topic, quizFrom) ??
+      (quizFrom !== undefined
+        ? getQuizReviewRecord(studentId, day, subject, topic)
+        : null);
     if (saved) return saved;
 
     const recent = loadQuizAnalytics();
@@ -62,7 +78,7 @@ export default function QuizAnalysisPage({
     }
 
     return null;
-  }, [studentId, day, subject, topic]);
+  }, [studentId, day, subject, topic, fromParam]);
 
   if (!canAccessDay(day, user?.email)) {
     return (
@@ -137,7 +153,11 @@ export default function QuizAnalysisPage({
       <div className="min-h-screen bg-[#08080a] px-4 sm:px-6 py-8">
         <div className="mx-auto max-w-6xl space-y-6">
           <Link
-            href={`/quiz/${subject}/${topic}?day=${day}`}
+            href={`/quiz/${subject}/${topic}?day=${day}${
+              fromParam !== undefined && Number.isFinite(fromParam)
+                ? `&from=${fromParam}`
+                : ""
+            }`}
             className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:text-white"
           >
             <ArrowLeft className="h-4 w-4" />

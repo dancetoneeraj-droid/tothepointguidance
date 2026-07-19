@@ -247,8 +247,10 @@ export default function QuizPage({
     englishLabel: getEnglishQuizLabel(plan, topic, quizFrom),
     reasoningLabel: getReasoningQuizLabel(plan, topic),
   });
-  const analysisPath = `/quiz/${subject}/${topic}/analysis?day=${day}`;
-  const solutionsPath = `/quiz/${subject}/${topic}/solutions?day=${day}`;
+  const fromQs =
+    quizFrom !== undefined ? `&from=${quizFrom}` : "";
+  const analysisPath = `/quiz/${subject}/${topic}/analysis?day=${day}${fromQs}`;
+  const solutionsPath = `/quiz/${subject}/${topic}/solutions?day=${day}${fromQs}`;
   const returnPath = `/day/${day}`;
   const hasOfficialAttempt = useMemo(
     () =>
@@ -471,8 +473,8 @@ export default function QuizPage({
                 ranking={storedReview.ranking}
                 questions={reviewQuestions}
                 answers={storedReview.answers}
-                solutionsPath={storedReview.solutionsPath}
-                analysisPath={storedReview.analysisPath}
+                solutionsPath={solutionsPath}
+                analysisPath={analysisPath}
               />
             ) : (
               <Card className="mx-auto max-w-2xl border-white/10 bg-[#121218]/90 p-8 text-center">
