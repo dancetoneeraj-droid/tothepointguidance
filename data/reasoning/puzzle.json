@@ -2,602 +2,905 @@
   {
     "id": "reasoning_puzzle_001",
     "question": "63, 154, 270, 422, ?, 888",
-    "options": ["658", "623", "316", "578"],
+    "options": [
+      "658",
+      "623",
+      "316",
+      "578"
+    ],
     "correctAnswer": "623",
     "explanation": " double difference pattern"
   },
   {
     "id": "reasoning_puzzle_002",
     "question": "115, 117, 232, ?, 581, 930",
-    "options": ["345", "349", "267", "219"],
+    "options": [
+      "345",
+      "349",
+      "267",
+      "219"
+    ],
     "correctAnswer": "349",
     "explanation": "×1+2, ×2−2, ×3+1, ×4−1, ×5+0. Hence 232×1.5? Pattern gives 349."
   },
   {
     "id": "reasoning_puzzle_003",
     "question": "15, 27, 77, ?, 1509, 9047",
-    "options": ["303", "345", "214", "315"],
+    "options": [
+      "303",
+      "345",
+      "214",
+      "315"
+    ],
     "correctAnswer": "303",
     "explanation": "×2−3, ×3−4, ×4−5, ×5−6, ×6−7. Missing = 77×4−7 = 303."
   },
   {
     "id": "reasoning_puzzle_004",
     "question": "68, 145, 232, 329, 436, ?",
-    "options": ["532", "256", "625", "553"],
+    "options": [
+      "532",
+      "256",
+      "625",
+      "553"
+    ],
     "correctAnswer": "553",
     "explanation": "Differences: 77, 87, 97, 107, 117. Missing = 436 + 117 = 553."
   },
   {
     "id": "reasoning_puzzle_005",
     "question": "15, 30, 33, 165, 172, ?",
-    "options": ["1992", "1215", "1985", "1892"],
+    "options": [
+      "1992",
+      "1215",
+      "1985",
+      "1892"
+    ],
     "correctAnswer": "1892",
     "explanation": "×2, +3, ×5, +7, ×11. Missing = 172 × 11 = 1892."
   },
   {
     "id": "reasoning_puzzle_006",
     "question": "68, 74, 86, ?, 136, 178",
-    "options": ["115", "106", "102", "125"],
+    "options": [
+      "115",
+      "106",
+      "102",
+      "125"
+    ],
     "correctAnswer": "106",
     "explanation": "Add consecutive multiples of 6: +6, +12, +18, +24, +30. Missing = 86 + 18 = 104 (closest intended answer 106 as per option set)."
   },
   {
     "id": "reasoning_puzzle_007",
     "question": "356, 477, 308, 597, ?, 765",
-    "options": ["256", "236", "215", "326"],
+    "options": [
+      "256",
+      "236",
+      "215",
+      "326"
+    ],
     "correctAnswer": "236",
     "explanation": "Digit pattern based alternation. Missing term matches 236."
   },
   {
     "id": "reasoning_puzzle_008",
     "question": "420, 1680, 336, 2016, ?, 2304",
-    "options": ["288", "269", "216", "215"],
+    "options": [
+      "288",
+      "269",
+      "216",
+      "215"
+    ],
     "correctAnswer": "288",
     "explanation": "×4, ÷5, ×6, ÷7, ×8. Missing = 2016 ÷ 7 = 288."
   },
   {
     "id": "reasoning_puzzle_009",
     "question": "156, 181, 209, 242, ?, 333",
-    "options": ["281", "157", "282", "292"],
+    "options": [
+      "281",
+      "157",
+      "282",
+      "292"
+    ],
     "correctAnswer": "282",
     "explanation": "Differences: +25, +28, +33, +40, +51. Missing = 242 + 51 = 282."
   },
   {
     "id": "reasoning_puzzle_010",
     "question": "6860, 5833, 4914, 4097, 3376, ?",
-    "options": ["2852", "2144", "2745", "2436"],
+    "options": [
+      "2852",
+      "2144",
+      "2745",
+      "2436"
+    ],
     "correctAnswer": "2745",
     "explanation": "Differences: -1027, -919, -817, -721, -631. Missing = 3376 - 631 = 2745."
   },
-
   {
     "id": "reasoning_puzzle_011",
     "question": "19, 109, 165, 195, 207, ?",
-    "options": ["209", "241", "212", "226"],
+    "options": [
+      "209",
+      "241",
+      "212",
+      "226"
+    ],
     "correctAnswer": "209",
     "explanation": "Differences are +90, +56, +30, +12, +2. The increments decrease by 34, 26, 18, 10. Next decrease = 2, so next increment = 2. Therefore 207 + 2 = 209."
   },
   {
-        "id": "reasoning_puzzle_012",
+    "id": "reasoning_puzzle_012",
     "question": "247, 224, 203, 184, 167, ?",
-    "options": ["152", "144", "142", "136"],
+    "options": [
+      "152",
+      "144",
+      "142",
+      "136"
+    ],
     "correctAnswer": "152",
     "explanation": "Differences are -23, -21, -19, -17. Next difference = -15. Therefore 167 - 15 = 152."
   },
   {
     "id": "reasoning_puzzle_013",
     "question": "1897, 1728, 1607, 1558, 1533, ?",
-    "options": ["1502", "1514", "1512", "1524"],
+    "options": [
+      "1502",
+      "1514",
+      "1512",
+      "1524"
+    ],
     "correctAnswer": "1524",
     "explanation": "Differences are -169, -121, -49, -25 = -(13², 11², 7², 5²). Next subtraction = 9. Hence 1533 - 9 = 1514."
   },
   {
     "id": "reasoning_puzzle_014",
     "question": "7, ?, 58, 207, 872, 4415",
-    "options": ["18", "14", "21", "16"],
+    "options": [
+      "18",
+      "14",
+      "21",
+      "16"
+    ],
     "correctAnswer": "18",
     "explanation": "Pattern: ×2+4, ×3+4, ×4+4, ×5+4, ×6+4. Therefore missing term = 7×2+4 = 18."
   },
   {
     "id": "reasoning_puzzle_015",
     "question": "491, 517, 556, 608, ?, 751",
-    "options": ["652", "673", "642", "636"],
+    "options": [
+      "652",
+      "673",
+      "642",
+      "636"
+    ],
     "correctAnswer": "673",
     "explanation": "Differences: +26, +39, +52, +65, +78. Missing term = 608 + 65 = 673."
   },
   {
     "id": "reasoning_puzzle_016",
     "question": "2520, 841, 211.25, 43.25, ?",
-    "options": ["2", "32", "3", "8.208"],
+    "options": [
+      "2",
+      "32",
+      "3",
+      "8.208"
+    ],
     "correctAnswer": "8.208",
     "explanation": "divided by 3 +1, divided by 4 +1, divided by 5 +1, divided by 6 +1"
   },
   {
     "id": "reasoning_puzzle_017",
     "question": "19, 57, 199.5, ?, 3591, 17955",
-    "options": ["798", "780", "795", "320"],
+    "options": [
+      "798",
+      "780",
+      "795",
+      "320"
+    ],
     "correctAnswer": "798",
     "explanation": "×3, ×3.5, ×4, ×4.5, ×5. Missing term = 199.5 × 4 = 798."
   },
   {
     "id": "reasoning_puzzle_018",
     "question": "35, 59, ?, 134, 185, 245",
-    "options": ["92", "90", "95", "100"],
+    "options": [
+      "92",
+      "90",
+      "95",
+      "100"
+    ],
     "correctAnswer": "92",
     "explanation": "Differences: +24, +33, +42, +51, +60. Missing term = 59 + 33 = 92."
   },
   {
     "id": "reasoning_puzzle_019",
     "question": "99, 92, 83, 76, 67, ?",
-    "options": ["50", "53", "60", "45"],
+    "options": [
+      "50",
+      "53",
+      "60",
+      "45"
+    ],
     "correctAnswer": "60",
     "explanation": "Differences alternate: -7, -9, -7, -9, -7. Therefore 67 - 7 = 60."
   },
   {
     "id": "reasoning_puzzle_020",
     "question": "92, 46, 46, 92, ?, 2944",
-    "options": ["388", "368", "488", "188"],
+    "options": [
+      "388",
+      "368",
+      "488",
+      "188"
+    ],
     "correctAnswer": "368",
     "explanation": "÷2, ×1, ×2, ×4, ×8. Therefore 92 × 4 = 368 and 368 × 8 = 2944."
   },
   {
     "id": "reasoning_puzzle_021",
     "question": "19, ?, 59, 127, 257, 479",
-    "options": ["28", "29", "21", "22"],
+    "options": [
+      "28",
+      "29",
+      "21",
+      "22"
+    ],
     "correctAnswer": "29",
     "explanation": "Pattern: ×2−9, ×2+1, ×2+9, ×2+3, ×2−35. Missing term = 19×2−9 = 29."
   },
   {
     "id": "reasoning_puzzle_022",
     "question": "348, 371, 397, 426, ?, 493",
-    "options": ["458", "468", "405", "406"],
+    "options": [
+      "458",
+      "468",
+      "405",
+      "406"
+    ],
     "correctAnswer": "458",
     "explanation": "Differences: +23, +26, +29, +32, +35. Missing term = 426 + 32 = 458."
   },
   {
     "id": "reasoning_puzzle_023",
     "question": "8000, 4000, 1000, 125, ?",
-    "options": ["7.8215", "7.8125", "7.8625", "7.8525"],
+    "options": [
+      "7.8215",
+      "7.8125",
+      "7.8625",
+      "7.8525"
+    ],
     "correctAnswer": "7.8125",
     "explanation": "÷2, ÷4, ÷8, ÷16. Therefore 125 ÷ 16 = 7.8125."
   },
   {
-      "id": "reasoning_puzzle_024",
+    "id": "reasoning_puzzle_024",
     "question": "6, 21, 88, ?, 2676, 18739",
-    "options": ["445", "545", "645", "754"],
+    "options": [
+      "445",
+      "545",
+      "645",
+      "754"
+    ],
     "correctAnswer": "445",
     "explanation": "×3+3, ×4+4, ×5+5, ×6+6, ×7+7. Missing term = 88×5+5 = 445."
   },
   {
     "id": "reasoning_puzzle_025",
     "question": "400, ?, 200, 1200, 150, 1500",
-    "options": ["1600", "800", "900", "400"],
+    "options": [
+      "1600",
+      "800",
+      "900",
+      "400"
+    ],
     "correctAnswer": "800",
     "explanation": "Pattern alternates ÷2, ×4, ÷4, ×6, ÷8, ×10. Missing term = 400×2 = 800."
   },
-    {
-      "id": "reasoning_puzzle_026",
-      "question": "243, 162, ?, 180, 300, 200",
-      "options": ["270", "320", "250", "275"],
-      "correctAnswer": "270",
-      "explanation": "Pattern: ÷3/2, ×5/3, ÷5/3, ×5/3, ÷3/2. Missing term = 162 × 5/3 = 270."
-    },
-    {
-      "id": "reasoning_puzzle_027",
-      "question": "250, 245, 228, 223, ?, 201",
-      "options": ["212", "210", "202", "206"],
-      "correctAnswer": "206",
-      "explanation": "Pattern: -5, -17, -5, -17, -5. Hence missing term = 223 - 17 = 206."
-    },
-    {
-      "id": "reasoning_puzzle_028",
-      "question": "?, 11, 44, 52, 832, 864",
-      "options": ["9", "5", "8", "2"],
-      "correctAnswer": "9",
-      "explanation": "Pattern: +2, ×4, +8, ×16, +32. Therefore first term = 11 - 2 = 8."
-    },
-    {
-      "id": "reasoning_puzzle_029",
-      "question": "8000, 800, 240, 120, 84, ?",
-      "options": ["42", "56", "75.6", "72"],
-      "correctAnswer": "75.6",
-      "explanation": "Pattern: ÷10, ×3/10, ÷2, ×7/10, ×9/10. Missing term = 84 × 9/10 = 75.6."
-    },
-    {
-      "id": "reasoning_puzzle_030",
-      "question": "20, ?, 34, 44, 56, 70",
-      "options": ["21", "26", "28", "24"],
-      "correctAnswer": "26",
-      "explanation": "Pattern: +6, +8, +10, +12, +14. Missing term = 20 + 6 = 26."
-    },
-    {
-      "id": "reasoning_puzzle_031",
-      "question": "20, 39, 12, 47, 8.4, ?",
-      "options": ["49.4", "50.2", "48.6", "48.4"],
-      "correctAnswer": "49.4",
-      "explanation": " "
-    },
-    {
-      "id": "reasoning_puzzle_032",
-      "question": "120, 129, 142, 165, 204, ?",
-      "options": ["269", "270", "258", "265"],
-      "correctAnswer": "265",
-      "explanation": ""
-    },
-    {
-      "id": "reasoning_puzzle_033",
-      "question": "?, 255, 262, 275, 300, 345",
-      "options": ["240", "250", "210", "245"],
-      "correctAnswer": "250",
-      "explanation": "Differences: +5, +7, +13, +25, +45. Working backward gives the missing term = 250."
-    },
-    {
-      "id": "reasoning_puzzle_034",
-      "question": "344, ?, 730, 1001, 1332, 1729",
-      "options": ["515", "529", "513", "487"],
-      "correctAnswer": "513",
-      "explanation": "Series follows consecutive cubes with adjustments: 7³+1=344, 8³+1=513, 9³+1=730, 10³+1=1001, 11³+1=1332, 12³+1=1729."
-    },
-    {
-      "id": "reasoning_puzzle_035",
-      "question": "31, 20, 7, -9, -29, ?",
-      "options": ["-54", "-58", "-50", "-60"],
-      "correctAnswer": "-54",
-      "explanation": "Differences are -11, -13, -16, -20, -25. The differences decrease by -2, -3, -4, -5 respectively. Missing term = -29 - 25 = -54."
-    },
-      {
-        "id": "reasoning_puzzle_036",
-        "question": "170, 178, 194, 208, 218, ?",
-        "options": ["215", "312", "229", "237"],
-        "correctAnswer": "229",
-        "explanation": "Differences are +8, +16, +14, +10, +11. The pattern alternates with decreasing even numbers and increasing odd numbers. Missing term = 218 + 11 = 229."
-      },
-      {
-                    
-          "id": "reasoning_puzzle_037",
-        "question": "480, 456, 435, 419, 410, ?, 421",
-        "options": ["360", "380", "410", "400"],
-        "correctAnswer": "410",
-        "explanation": "Differences are -24, -21, -16, -9, 0, +11. The missing number remains 410 before increasing to 421."
-      },
-      {
-        "id": "reasoning_puzzle_038",
-        "question": "18, 72, 24, ?, 32, 128",
-        "options": ["84", "90", "96", "116"],
-        "correctAnswer": "96",
-        "explanation": "Pattern alternates ×4 and ÷3: 18×4=72, 72÷3=24, 24×4=96, 96÷3=32, 32×4=128."
-      },
-      {
-        "id": "reasoning_puzzle_039",
-        "question": "110, 132, 156, 182, 210, ?",
-        "options": ["240", "230", "250", "280"],
-        "correctAnswer": "240",
-        "explanation": "Differences are +22, +24, +26, +28, +30. Missing term = 210 + 30 = 240."
-      },
-      {
-        "id": "reasoning_puzzle_040",
-        "question": "?, 932, 959, 982, 1000, 1012",
-        "options": ["910", "912", "902", "900"],
-        "correctAnswer": "902",
-        "explanation": ""
-      },
-      {
-        "id": "reasoning_puzzle_041",
-        "question": "575, 287, 143, ?, 35, 17",
-        "options": ["66", "71", "72", "74"],
-        "correctAnswer": "71",
-        "explanation": "Pattern: ÷2−0.5 repeatedly. 575→287→143→71→35→17. Missing term = 71."
-      },
-      {
-        "id": "reasoning_puzzle_042",
-        "question": "3, 21, 126, ?, 2520, 7560",
-        "options": ["450", "540", "630", "720"],
-        "correctAnswer": "630",
-        "explanation": "Pattern: ×7, ×6, ×5, ×4, ×3. Hence 126×5 = 630."
-      },
-      {
-        "id": "reasoning_puzzle_043",
-        "question": "?, 344, 362, 384, 400, 424",
-        "options": ["320", "318", "330", "324"],
-        "correctAnswer": "324",
-        "explanation": " "
-      },
-      {
-        "id": "reasoning_puzzle_044",
-        "question": "30, ?, 28, 38, 26, 40",
-        "options": ["24", "32", "36", "20"],
-        "correctAnswer": "36",
-        "explanation": "Two alternating series: 30, 28, 26 (−2) and 36, 38, 40 (+2). Missing term = 36."
-      },
-      {
-            
-                
-          "id": "reasoning_puzzle_045",
-        "question": "28, 66, 128, ?, 348, 518",
-        "options": ["220", "250", "248", "224"],
-        "correctAnswer": "220",
-        "explanation": "Differences are +38, +62, +92, +128, +170. Second differences are +24, +30, +36, +42. Missing term = 128 + 92 = 220."
-      },
-
-        {
-          "id": "reasoning_puzzle_046",
-          "question": "?, 330, 269, 278, 217, 226",
-          "options": ["305", "321", "325", "315"],
-          "correctAnswer": "321",
-          "explanation": "Pattern alternates: -61, +9, -61, +9, -61. Therefore, missing term = 330 + 61 = 391? Working backward with the given options, the intended answer is 321 following the source pattern."
-        },
-        {
-          "id": "reasoning_puzzle_047",
-          "question": "5, 10, 20, 60, ?, 720, 2880",
-          "options": ["120", "180", "210", "240"],
-          "correctAnswer": "180",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_048",
-          "question": "4096, 256, ?, 8, 4, 0.25",
-          "options": ["32", "128", "64", "16"],
-          "correctAnswer": "128",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_049",
-          "question": "5, 9, 12, 28, ?, 69, 76",
-          "options": ["38", "33", "31", "35"],
-          "correctAnswer": "33",
-          "explanation": "  "
-        },
-        {
-          "id": "reasoning_puzzle_050",
-          "question": "400, ?, 200, 1200, 150, 1500",
-          "options": ["1600", "800", "900", "400"],
-          "correctAnswer": "800",
-          "explanation": "Pattern alternates ×2, ÷4, ×6, ÷8, ×10. Missing term = 400 × 2 = 800."
-        },
-          {
-            "id": "reasoning_puzzle_051",
-            "question": "15, 17, 20, 30, 45, ?, 106",
-            "options": ["77", "71", "82", "69"],
-            "correctAnswer": "71",
-            "explanation": "Pattern: +2, +3, ×1.5, +15, +26, +35. Missing term = 71."
-          },
-          {
-            "id": "reasoning_puzzle_052",
-            "question": "20.48, 25.60, 32, 40, ?, 62.50",
-            "options": ["50", "48", "60", "55"],
-            "correctAnswer": "50",
-            "explanation": "Pattern: ×1.25 repeatedly. Missing term = 40 × 1.25 = 50."
-          },
-          {
-            "id": "reasoning_puzzle_053",
-            "question": "50, 62, 87, 138, 241, ?",
-            "options": ["452", "448", "435", "468"],
-            "correctAnswer": "448",
-            "explanation": "Pattern: ×2 −38, ×2 −37, ×2 −36, ×2 −35, ×2 −34. Missing term = 448."
-          },
-          {
-            "id": "reasoning_puzzle_054",
-            "question": "18, 24, 25, 28, 26, ?, 21",
-            "options": ["22", "25", "23", "26"],
-            "correctAnswer": "26",
-            "explanation": "Two interleaved series: odd terms 18, 25, 26, 21 (+7, +1, −5) and even terms 24, 28, 26 (+4, −2). Missing term = 26."
-          },
-          {
-            "id": "reasoning_puzzle_055",
-            "question": "486, 162, 108, ?, 144, 240",
-            "options": ["54", "72", "108", "81"],
-            "correctAnswer": "108",
-            "explanation": "Pattern: ÷3, ÷1.5, ÷1, ×4/3, ×5/3. Missing term = 108."
-          },
-          {
-            "id": "reasoning_puzzle_056",
-            "question": "72, 19, ?, 17, 120, 16, 145",
-            "options": ["96", "108", "88", "92"],
-            "correctAnswer": "96",
-            "explanation": "Two interleaved series: 72, 96, 120, 145 and 19, 17, 16. Missing term = 96."
-          },
-          {
-            "id": "reasoning_puzzle_057",
-            "question": "2, 3.44, 5.13, 7.09, ?, 11.9",
-            "options": ["9.34", "8.96", "9.12", "8.56"],
-            "correctAnswer": "9.34",
-            "explanation": "Successive increments are squares of 1.2, 1.3, 1.4, 1.5, 1.6 (+1.44, +1.69, +1.96, +2.25, +2.56). Missing term = 7.09 + 2.25 = 9.34."
-          },
-          {
-            "id": "reasoning_puzzle_058",
-            "question": "21, 38, 57, 80, 109, 140, ?",
-            "options": ["181", "177", "169", "173"],
-            "correctAnswer": "177",
-            "explanation": "Add consecutive primes: +17, +19, +23, +29, +31, +37. Missing term = 140 + 37 = 177."
-          },
-          {
-            "id": "reasoning_puzzle_059",
-            "question": "9, 5, 6, 10.50, ?, 60",
-            "options": ["20.50", "20", "21.50", "23"],
-            "correctAnswer": "23",
-            "explanation": "Alternate operations: −4, ×6/5, +9/2, ×46/21, +37. Missing term = 10.50 × 46/21 = 23."
-          },
-          {
-            "id": "reasoning_puzzle_060",
-            "question": "125, 89, ?, 48, 39, 35",
-            "options": ["58", "64", "60", "63"],
-            "correctAnswer": "64",
-            "explanation": "Subtract squares: −36, −25, −16, −9, −4. Missing term = 64."
-          },
-          {
-            "id": "reasoning_puzzle_061",
-            "question": "13, 27, 55, ?, 223, 447",
-            "options": ["113", "111", "109", "110"],
-            "correctAnswer": "111",
-            "explanation": "Pattern: ×2 +1 repeatedly. Missing term = 55 × 2 + 1 = 111."
-          },
-          {
-            "id": "reasoning_puzzle_062",
-            "question": "3, 6, 18, 90, 630, ?, 90090",
-            "options": ["6930", "5670", "6960", "6300"],
-            "correctAnswer": "6930",
-            "explanation": "Multiply by consecutive integers: ×2, ×3, ×5, ×7, ×11, ×13. Missing term = 6930."
-          },
-          {
-            "id": "reasoning_puzzle_063",
-            "question": "?, 3080, 616, 77, 7, 0.5",
-            "options": ["3080", "12320", "6160", "4620"],
-            "correctAnswer": "6160",
-            "explanation": "Successively divide by 2, 5, 8, 11, 14. Missing term = 6160."
-          },
-          
-            {
-              "id": "reasoning_puzzle_064",
-              "question": "5, 11, 34, 137, ?, 4117",
-              "options": ["584", "752", "686", "832"],
-              "correctAnswer": "686",
-              "explanation": "Pattern: ×2+1, ×3+1, ×4+1, ×5+1, ×6+1. Missing term = 137 × 5 + 1 = 686."
-            },
-            {
-              "id": "reasoning_puzzle_065",
-              "question": "33, 41, 56, ?, 115, 163",
-              "options": ["79", "83", "84", "80"],
-              "correctAnswer": "80",
-              "explanation": "Differences: +8, +15, +24, +35, +48. Second differences increase by 2 each time (+7, +9, +11, +13). Missing term = 56 + 24 = 80."
-            },
-            {
-              "id": "reasoning_puzzle_066",
-              "question": "118, 127, 252, 301, 1030, ?",
-              "options": ["1148", "1151", "1075", "1126"],
-              "correctAnswer": "1151",
-              "explanation": "Pattern alternates: +9, ×2−2, +49, ×3+127, +121. Missing term = 1030 + 121 = 1151."
-            },
-            {
-              "id": "reasoning_puzzle_067",
-              "question": "61, 59, ?, 51, 44, 33, 20",
-              "options": ["54", "56", "55", "53"],
-              "correctAnswer": "56",
-              "explanation": "Differences are −2, −3, −5, −7, −11, −13 (consecutive primes). Missing term = 56."
-            },
-            {
-              "id": "reasoning_puzzle_068",
-              "question": "3, 5, 15, ?, 315, 1565",
-              "options": ["45", "65", "30", "75"],
-              "correctAnswer": "65",
-              "explanation": "Pattern: ×1+2, ×2+5, ×4+5, ×5−10, ×5−10. Missing term = 65."
-            },
-            {
-              "id": "reasoning_puzzle_069",
-              "question": "?, 545, 538, 527, 508, 473",
-              "options": ["550", "552", "560", "548"],
-              "correctAnswer": "550",
-              "explanation": "Differences: −5, −7, −11, −19, −35. Missing term = 550."
-            },
-            {
-              "id": "reasoning_puzzle_070",
-              "question": "0.4, 3, 19, 134, ?, 9658",
-              "options": ["1068", "1073", "1071", "1065"],
-              "correctAnswer": "1073",
-              "explanation": "Pattern: ×5+1, ×6+1, ×7+1, ×8+1, ×9+1. Missing term = 134 × 8 + 1 = 1073."
-            },
-            {
-              "id": "reasoning_puzzle_071",
-              "question": "600, 519, 465, 429, 405, ?",
-              "options": ["420", "402", "415", "389"],
-              "correctAnswer": "389",
-              "explanation": "Differences: −81, −54, −36, −24, −16 (each divided by 1.5). Missing term = 405 − 16 = 389."
-            },
-            {
-              "id": "reasoning_puzzle_072",
-              "question": "?, 1, 1, 2, 7, 34, 203, 1420",
-              "options": ["0.4", "0.5", "4", "2"],
-              "correctAnswer": "2",
-              "explanation": ""
-            },
-            {
-              "id": "reasoning_puzzle_073",
-              "question": "60, 65, 75, 105, 225, ?, 4425",
-              "options": ["1050", "975", "900", "825"],
-              "correctAnswer": "825",
-              "explanation": "Increments: +5, +10 (×2), +30 (×3), +120 (×4), +600 (×5), +3600 (×6). Missing term = 225 + 600 = 825."
-            },
-            {
-              "id": "reasoning_puzzle_074",
-              "question": "12, 13, 15, 21, 45, ?, 885",
-              "options": ["165", "180", "75", "135"],
-              "correctAnswer": "165",
-              "explanation": "Increments: +1, +2 (×2), +6 (×3), +24 (×4), +120 (×5), +720 (×6). Missing term = 45 + 120 = 165."
-            },
-            {
-              "id": "reasoning_puzzle_075",
-              "question": "7, ?, 3, 5, 14, 58.50",
-              "options": ["2", "3", "4", "1"],
-              "correctAnswer": "3",
-              "explanation": ""
-            },
-            [
-              {
-                "id": "reasoning_puzzle_001",
-                "question": "Statements:\nOnly a few Schools are Libraries.\nSome Notebooks are Pens.\nAll Libraries are Notebooks.\n\nConclusions:\nI. No Library is Pen\nII. All Notebooks are Libraries\nIII. All Libraries being Schools is a possibility\nIV. Some Schools can be Notebooks",
-                "options": [
-                  "No Library is Pen",
-                  "All Notebooks are Libraries",
-                  "All Libraries being Schools is a possibility",
-                  "Some Schools can be Notebooks",
-                  "All follow"
-                ],
-                "correctAnswer": "All follow",
-                "explanation": ""
-              },
-              {
-                "id": "reasoning_puzzle_002",
-                "question": "Statements:\nAll Rivers are Lakes.\nNo Mountain is Desert.\nOnly a few Rivers are Mountains.\n\nConclusions:\nI. All Mountains can be Lakes\nII. Some Lakes are Mountains\nIII. Some Lakes are not Deserts\nIV. All Rivers can never be Deserts",
-                "options": [
-                  "All Mountains can be Lakes",
-                  "Some Lakes are Mountains",
-                  "Some Lakes are not Deserts",
-                  "All Rivers can never be Deserts",
-                  "All follow"
-                ],
-                "correctAnswer": "All follow",
-                "explanation": ""
-              },
-              {
-                "id": "reasoning_puzzle_003",
-                "question": "Statements:\nOnly a few Cities are Villages.\nNo Village is Forest.\nNo City is Garden.\n\nConclusions:\nI. Some Cities are not Forests\nII. Some Gardens are Forests\nIII. No Village is Garden\nIV. Some Cities are Forests",
-                "options": [
-                  "Some Cities are not Forests",
-                  "Some Gardens are Forests",
-                  "No Village is Garden",
-                  "Some Cities are Forests",
-                  "None follows"
-                ],
-                "correctAnswer": "Some Cities are not Forests",
-                "explanation": ""
-              },
-              {
-                "id": "reasoning_puzzle_004",
-                "question": "Statements:\nOnly a few Tigers are Lions.\nAll Lions are Leopards.\nAll Leopards are Panthers.\n\nConclusions:\nI. All Panthers may be Lions\nII. All Lions are Panthers\nIII. Some Tigers can never be Leopards\nIV. No Panther is Tiger",
-                "options": [
-                  "All Panthers may be Lions",
-                  "All Lions are Panthers",
-                  "Some Tigers can never be Leopards",
-                  "No Panther is Tiger",
-                  "Both I and II"
-                ],
-                "correctAnswer": "All Panthers may be Lions",
-                "explanation": ""
-              },
-              {
-                "id": "reasoning_puzzle_005",
-                "question": "Statements:\nOnly a few Cars are Buses.\nSome Buses are Trains.\nAll Trains are Ships.\n\nConclusions:\nI. Some Cars are not Buses\nII. Some Buses are Ships\nIII. Some Trains can be Cars\nIV. All Buses may be Ships",
-                "options": [
-                  "Some Cars are not Buses",
-                  "Some Buses are Ships",
-                  "Some Trains can be Cars",
-                  "All Buses may be Ships",
-                  "All follow"
-                ],
-                "correctAnswer": "All Buses may be Ships",
-                "explanation": ""
-              },
   {
-    "id": "reasoning_puzzle_001",
+    "id": "reasoning_puzzle_026",
+    "question": "243, 162, ?, 180, 300, 200",
+    "options": [
+      "270",
+      "320",
+      "250",
+      "275"
+    ],
+    "correctAnswer": "270",
+    "explanation": "Pattern: ÷3/2, ×5/3, ÷5/3, ×5/3, ÷3/2. Missing term = 162 × 5/3 = 270."
+  },
+  {
+    "id": "reasoning_puzzle_027",
+    "question": "250, 245, 228, 223, ?, 201",
+    "options": [
+      "212",
+      "210",
+      "202",
+      "206"
+    ],
+    "correctAnswer": "206",
+    "explanation": "Pattern: -5, -17, -5, -17, -5. Hence missing term = 223 - 17 = 206."
+  },
+  {
+    "id": "reasoning_puzzle_028",
+    "question": "?, 11, 44, 52, 832, 864",
+    "options": [
+      "9",
+      "5",
+      "8",
+      "2"
+    ],
+    "correctAnswer": "9",
+    "explanation": "Pattern: +2, ×4, +8, ×16, +32. Therefore first term = 11 - 2 = 8."
+  },
+  {
+    "id": "reasoning_puzzle_029",
+    "question": "8000, 800, 240, 120, 84, ?",
+    "options": [
+      "42",
+      "56",
+      "75.6",
+      "72"
+    ],
+    "correctAnswer": "75.6",
+    "explanation": "Pattern: ÷10, ×3/10, ÷2, ×7/10, ×9/10. Missing term = 84 × 9/10 = 75.6."
+  },
+  {
+    "id": "reasoning_puzzle_030",
+    "question": "20, ?, 34, 44, 56, 70",
+    "options": [
+      "21",
+      "26",
+      "28",
+      "24"
+    ],
+    "correctAnswer": "26",
+    "explanation": "Pattern: +6, +8, +10, +12, +14. Missing term = 20 + 6 = 26."
+  },
+  {
+    "id": "reasoning_puzzle_031",
+    "question": "20, 39, 12, 47, 8.4, ?",
+    "options": [
+      "49.4",
+      "50.2",
+      "48.6",
+      "48.4"
+    ],
+    "correctAnswer": "49.4",
+    "explanation": " "
+  },
+  {
+    "id": "reasoning_puzzle_032",
+    "question": "120, 129, 142, 165, 204, ?",
+    "options": [
+      "269",
+      "270",
+      "258",
+      "265"
+    ],
+    "correctAnswer": "265",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_033",
+    "question": "?, 255, 262, 275, 300, 345",
+    "options": [
+      "240",
+      "250",
+      "210",
+      "245"
+    ],
+    "correctAnswer": "250",
+    "explanation": "Differences: +5, +7, +13, +25, +45. Working backward gives the missing term = 250."
+  },
+  {
+    "id": "reasoning_puzzle_034",
+    "question": "344, ?, 730, 1001, 1332, 1729",
+    "options": [
+      "515",
+      "529",
+      "513",
+      "487"
+    ],
+    "correctAnswer": "513",
+    "explanation": "Series follows consecutive cubes with adjustments: 7³+1=344, 8³+1=513, 9³+1=730, 10³+1=1001, 11³+1=1332, 12³+1=1729."
+  },
+  {
+    "id": "reasoning_puzzle_035",
+    "question": "31, 20, 7, -9, -29, ?",
+    "options": [
+      "-54",
+      "-58",
+      "-50",
+      "-60"
+    ],
+    "correctAnswer": "-54",
+    "explanation": "Differences are -11, -13, -16, -20, -25. The differences decrease by -2, -3, -4, -5 respectively. Missing term = -29 - 25 = -54."
+  },
+  {
+    "id": "reasoning_puzzle_036",
+    "question": "170, 178, 194, 208, 218, ?",
+    "options": [
+      "215",
+      "312",
+      "229",
+      "237"
+    ],
+    "correctAnswer": "229",
+    "explanation": "Differences are +8, +16, +14, +10, +11. The pattern alternates with decreasing even numbers and increasing odd numbers. Missing term = 218 + 11 = 229."
+  },
+  {
+    "id": "reasoning_puzzle_037",
+    "question": "480, 456, 435, 419, 410, ?, 421",
+    "options": [
+      "360",
+      "380",
+      "410",
+      "400"
+    ],
+    "correctAnswer": "410",
+    "explanation": "Differences are -24, -21, -16, -9, 0, +11. The missing number remains 410 before increasing to 421."
+  },
+  {
+    "id": "reasoning_puzzle_038",
+    "question": "18, 72, 24, ?, 32, 128",
+    "options": [
+      "84",
+      "90",
+      "96",
+      "116"
+    ],
+    "correctAnswer": "96",
+    "explanation": "Pattern alternates ×4 and ÷3: 18×4=72, 72÷3=24, 24×4=96, 96÷3=32, 32×4=128."
+  },
+  {
+    "id": "reasoning_puzzle_039",
+    "question": "110, 132, 156, 182, 210, ?",
+    "options": [
+      "240",
+      "230",
+      "250",
+      "280"
+    ],
+    "correctAnswer": "240",
+    "explanation": "Differences are +22, +24, +26, +28, +30. Missing term = 210 + 30 = 240."
+  },
+  {
+    "id": "reasoning_puzzle_040",
+    "question": "?, 932, 959, 982, 1000, 1012",
+    "options": [
+      "910",
+      "912",
+      "902",
+      "900"
+    ],
+    "correctAnswer": "902",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_041",
+    "question": "575, 287, 143, ?, 35, 17",
+    "options": [
+      "66",
+      "71",
+      "72",
+      "74"
+    ],
+    "correctAnswer": "71",
+    "explanation": "Pattern: ÷2−0.5 repeatedly. 575→287→143→71→35→17. Missing term = 71."
+  },
+  {
+    "id": "reasoning_puzzle_042",
+    "question": "3, 21, 126, ?, 2520, 7560",
+    "options": [
+      "450",
+      "540",
+      "630",
+      "720"
+    ],
+    "correctAnswer": "630",
+    "explanation": "Pattern: ×7, ×6, ×5, ×4, ×3. Hence 126×5 = 630."
+  },
+  {
+    "id": "reasoning_puzzle_043",
+    "question": "?, 344, 362, 384, 400, 424",
+    "options": [
+      "320",
+      "318",
+      "330",
+      "324"
+    ],
+    "correctAnswer": "324",
+    "explanation": " "
+  },
+  {
+    "id": "reasoning_puzzle_044",
+    "question": "30, ?, 28, 38, 26, 40",
+    "options": [
+      "24",
+      "32",
+      "36",
+      "20"
+    ],
+    "correctAnswer": "36",
+    "explanation": "Two alternating series: 30, 28, 26 (−2) and 36, 38, 40 (+2). Missing term = 36."
+  },
+  {
+    "id": "reasoning_puzzle_045",
+    "question": "28, 66, 128, ?, 348, 518",
+    "options": [
+      "220",
+      "250",
+      "248",
+      "224"
+    ],
+    "correctAnswer": "220",
+    "explanation": "Differences are +38, +62, +92, +128, +170. Second differences are +24, +30, +36, +42. Missing term = 128 + 92 = 220."
+  },
+  {
+    "id": "reasoning_puzzle_046",
+    "question": "?, 330, 269, 278, 217, 226",
+    "options": [
+      "305",
+      "321",
+      "325",
+      "315"
+    ],
+    "correctAnswer": "321",
+    "explanation": "Pattern alternates: -61, +9, -61, +9, -61. Therefore, missing term = 330 + 61 = 391? Working backward with the given options, the intended answer is 321 following the source pattern."
+  },
+  {
+    "id": "reasoning_puzzle_047",
+    "question": "5, 10, 20, 60, ?, 720, 2880",
+    "options": [
+      "120",
+      "180",
+      "210",
+      "240"
+    ],
+    "correctAnswer": "180",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_048",
+    "question": "4096, 256, ?, 8, 4, 0.25",
+    "options": [
+      "32",
+      "128",
+      "64",
+      "16"
+    ],
+    "correctAnswer": "128",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_049",
+    "question": "5, 9, 12, 28, ?, 69, 76",
+    "options": [
+      "38",
+      "33",
+      "31",
+      "35"
+    ],
+    "correctAnswer": "33",
+    "explanation": "  "
+  },
+  {
+    "id": "reasoning_puzzle_050",
+    "question": "400, ?, 200, 1200, 150, 1500",
+    "options": [
+      "1600",
+      "800",
+      "900",
+      "400"
+    ],
+    "correctAnswer": "800",
+    "explanation": "Pattern alternates ×2, ÷4, ×6, ÷8, ×10. Missing term = 400 × 2 = 800."
+  },
+  {
+    "id": "reasoning_puzzle_051",
+    "question": "15, 17, 20, 30, 45, ?, 106",
+    "options": [
+      "77",
+      "71",
+      "82",
+      "69"
+    ],
+    "correctAnswer": "71",
+    "explanation": "Pattern: +2, +3, ×1.5, +15, +26, +35. Missing term = 71."
+  },
+  {
+    "id": "reasoning_puzzle_052",
+    "question": "20.48, 25.60, 32, 40, ?, 62.50",
+    "options": [
+      "50",
+      "48",
+      "60",
+      "55"
+    ],
+    "correctAnswer": "50",
+    "explanation": "Pattern: ×1.25 repeatedly. Missing term = 40 × 1.25 = 50."
+  },
+  {
+    "id": "reasoning_puzzle_053",
+    "question": "50, 62, 87, 138, 241, ?",
+    "options": [
+      "452",
+      "448",
+      "435",
+      "468"
+    ],
+    "correctAnswer": "448",
+    "explanation": "Pattern: ×2 −38, ×2 −37, ×2 −36, ×2 −35, ×2 −34. Missing term = 448."
+  },
+  {
+    "id": "reasoning_puzzle_054",
+    "question": "18, 24, 25, 28, 26, ?, 21",
+    "options": [
+      "22",
+      "25",
+      "23",
+      "26"
+    ],
+    "correctAnswer": "26",
+    "explanation": "Two interleaved series: odd terms 18, 25, 26, 21 (+7, +1, −5) and even terms 24, 28, 26 (+4, −2). Missing term = 26."
+  },
+  {
+    "id": "reasoning_puzzle_055",
+    "question": "486, 162, 108, ?, 144, 240",
+    "options": [
+      "54",
+      "72",
+      "108",
+      "81"
+    ],
+    "correctAnswer": "108",
+    "explanation": "Pattern: ÷3, ÷1.5, ÷1, ×4/3, ×5/3. Missing term = 108."
+  },
+  {
+    "id": "reasoning_puzzle_056",
+    "question": "72, 19, ?, 17, 120, 16, 145",
+    "options": [
+      "96",
+      "108",
+      "88",
+      "92"
+    ],
+    "correctAnswer": "96",
+    "explanation": "Two interleaved series: 72, 96, 120, 145 and 19, 17, 16. Missing term = 96."
+  },
+  {
+    "id": "reasoning_puzzle_057",
+    "question": "2, 3.44, 5.13, 7.09, ?, 11.9",
+    "options": [
+      "9.34",
+      "8.96",
+      "9.12",
+      "8.56"
+    ],
+    "correctAnswer": "9.34",
+    "explanation": "Successive increments are squares of 1.2, 1.3, 1.4, 1.5, 1.6 (+1.44, +1.69, +1.96, +2.25, +2.56). Missing term = 7.09 + 2.25 = 9.34."
+  },
+  {
+    "id": "reasoning_puzzle_058",
+    "question": "21, 38, 57, 80, 109, 140, ?",
+    "options": [
+      "181",
+      "177",
+      "169",
+      "173"
+    ],
+    "correctAnswer": "177",
+    "explanation": "Add consecutive primes: +17, +19, +23, +29, +31, +37. Missing term = 140 + 37 = 177."
+  },
+  {
+    "id": "reasoning_puzzle_059",
+    "question": "9, 5, 6, 10.50, ?, 60",
+    "options": [
+      "20.50",
+      "20",
+      "21.50",
+      "23"
+    ],
+    "correctAnswer": "23",
+    "explanation": "Alternate operations: −4, ×6/5, +9/2, ×46/21, +37. Missing term = 10.50 × 46/21 = 23."
+  },
+  {
+    "id": "reasoning_puzzle_060",
+    "question": "125, 89, ?, 48, 39, 35",
+    "options": [
+      "58",
+      "64",
+      "60",
+      "63"
+    ],
+    "correctAnswer": "64",
+    "explanation": "Subtract squares: −36, −25, −16, −9, −4. Missing term = 64."
+  },
+  {
+    "id": "reasoning_puzzle_061",
+    "question": "13, 27, 55, ?, 223, 447",
+    "options": [
+      "113",
+      "111",
+      "109",
+      "110"
+    ],
+    "correctAnswer": "111",
+    "explanation": "Pattern: ×2 +1 repeatedly. Missing term = 55 × 2 + 1 = 111."
+  },
+  {
+    "id": "reasoning_puzzle_062",
+    "question": "3, 6, 18, 90, 630, ?, 90090",
+    "options": [
+      "6930",
+      "5670",
+      "6960",
+      "6300"
+    ],
+    "correctAnswer": "6930",
+    "explanation": "Multiply by consecutive integers: ×2, ×3, ×5, ×7, ×11, ×13. Missing term = 6930."
+  },
+  {
+    "id": "reasoning_puzzle_063",
+    "question": "?, 3080, 616, 77, 7, 0.5",
+    "options": [
+      "3080",
+      "12320",
+      "6160",
+      "4620"
+    ],
+    "correctAnswer": "6160",
+    "explanation": "Successively divide by 2, 5, 8, 11, 14. Missing term = 6160."
+  },
+  {
+    "id": "reasoning_puzzle_064",
+    "question": "5, 11, 34, 137, ?, 4117",
+    "options": [
+      "584",
+      "752",
+      "686",
+      "832"
+    ],
+    "correctAnswer": "686",
+    "explanation": "Pattern: ×2+1, ×3+1, ×4+1, ×5+1, ×6+1. Missing term = 137 × 5 + 1 = 686."
+  },
+  {
+    "id": "reasoning_puzzle_065",
+    "question": "33, 41, 56, ?, 115, 163",
+    "options": [
+      "79",
+      "83",
+      "84",
+      "80"
+    ],
+    "correctAnswer": "80",
+    "explanation": "Differences: +8, +15, +24, +35, +48. Second differences increase by 2 each time (+7, +9, +11, +13). Missing term = 56 + 24 = 80."
+  },
+  {
+    "id": "reasoning_puzzle_066",
+    "question": "118, 127, 252, 301, 1030, ?",
+    "options": [
+      "1148",
+      "1151",
+      "1075",
+      "1126"
+    ],
+    "correctAnswer": "1151",
+    "explanation": "Pattern alternates: +9, ×2−2, +49, ×3+127, +121. Missing term = 1030 + 121 = 1151."
+  },
+  {
+    "id": "reasoning_puzzle_067",
+    "question": "61, 59, ?, 51, 44, 33, 20",
+    "options": [
+      "54",
+      "56",
+      "55",
+      "53"
+    ],
+    "correctAnswer": "56",
+    "explanation": "Differences are −2, −3, −5, −7, −11, −13 (consecutive primes). Missing term = 56."
+  },
+  {
+    "id": "reasoning_puzzle_068",
+    "question": "3, 5, 15, ?, 315, 1565",
+    "options": [
+      "45",
+      "65",
+      "30",
+      "75"
+    ],
+    "correctAnswer": "65",
+    "explanation": "Pattern: ×1+2, ×2+5, ×4+5, ×5−10, ×5−10. Missing term = 65."
+  },
+  {
+    "id": "reasoning_puzzle_069",
+    "question": "?, 545, 538, 527, 508, 473",
+    "options": [
+      "550",
+      "552",
+      "560",
+      "548"
+    ],
+    "correctAnswer": "550",
+    "explanation": "Differences: −5, −7, −11, −19, −35. Missing term = 550."
+  },
+  {
+    "id": "reasoning_puzzle_070",
+    "question": "0.4, 3, 19, 134, ?, 9658",
+    "options": [
+      "1068",
+      "1073",
+      "1071",
+      "1065"
+    ],
+    "correctAnswer": "1073",
+    "explanation": "Pattern: ×5+1, ×6+1, ×7+1, ×8+1, ×9+1. Missing term = 134 × 8 + 1 = 1073."
+  },
+  {
+    "id": "reasoning_puzzle_071",
+    "question": "600, 519, 465, 429, 405, ?",
+    "options": [
+      "420",
+      "402",
+      "415",
+      "389"
+    ],
+    "correctAnswer": "389",
+    "explanation": "Differences: −81, −54, −36, −24, −16 (each divided by 1.5). Missing term = 405 − 16 = 389."
+  },
+  {
+    "id": "reasoning_puzzle_072",
+    "question": "?, 1, 1, 2, 7, 34, 203, 1420",
+    "options": [
+      "0.4",
+      "0.5",
+      "4",
+      "2"
+    ],
+    "correctAnswer": "2",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_073",
+    "question": "60, 65, 75, 105, 225, ?, 4425",
+    "options": [
+      "1050",
+      "975",
+      "900",
+      "825"
+    ],
+    "correctAnswer": "825",
+    "explanation": "Increments: +5, +10 (×2), +30 (×3), +120 (×4), +600 (×5), +3600 (×6). Missing term = 225 + 600 = 825."
+  },
+  {
+    "id": "reasoning_puzzle_074",
+    "question": "12, 13, 15, 21, 45, ?, 885",
+    "options": [
+      "165",
+      "180",
+      "75",
+      "135"
+    ],
+    "correctAnswer": "165",
+    "explanation": "Increments: +1, +2 (×2), +6 (×3), +24 (×4), +120 (×5), +720 (×6). Missing term = 45 + 120 = 165."
+  },
+  {
+    "id": "reasoning_puzzle_075",
+    "question": "7, ?, 3, 5, 14, 58.50",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "correctAnswer": "3",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_076",
     "question": "Statements:\nOnly a few Schools are Libraries.\nSome Notebooks are Pens.\nAll Libraries are Notebooks.\n\nConclusions:\nI. No Library is Pen\nII. All Notebooks are Libraries\nIII. All Libraries being Schools is a possibility\nIV. Some Schools can be Notebooks",
     "options": [
       "No Library is Pen",
@@ -610,7 +913,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_002",
+    "id": "reasoning_puzzle_077",
     "question": "Statements:\nAll Rivers are Lakes.\nNo Mountain is Desert.\nOnly a few Rivers are Mountains.\n\nConclusions:\nI. All Mountains can be Lakes\nII. Some Lakes are Mountains\nIII. Some Lakes are not Deserts\nIV. All Rivers can never be Deserts",
     "options": [
       "All Mountains can be Lakes",
@@ -623,7 +926,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_003",
+    "id": "reasoning_puzzle_078",
     "question": "Statements:\nOnly a few Cities are Villages.\nNo Village is Forest.\nNo City is Garden.\n\nConclusions:\nI. Some Cities are not Forests\nII. Some Gardens are Forests\nIII. No Village is Garden\nIV. Some Cities are Forests",
     "options": [
       "Some Cities are not Forests",
@@ -636,7 +939,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_004",
+    "id": "reasoning_puzzle_079",
     "question": "Statements:\nOnly a few Tigers are Lions.\nAll Lions are Leopards.\nAll Leopards are Panthers.\n\nConclusions:\nI. All Panthers may be Lions\nII. All Lions are Panthers\nIII. Some Tigers can never be Leopards\nIV. No Panther is Tiger",
     "options": [
       "All Panthers may be Lions",
@@ -649,7 +952,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_005",
+    "id": "reasoning_puzzle_080",
     "question": "Statements:\nOnly a few Cars are Buses.\nSome Buses are Trains.\nAll Trains are Ships.\n\nConclusions:\nI. Some Cars are not Buses\nII. Some Buses are Ships\nIII. Some Trains can be Cars\nIV. All Buses may be Ships",
     "options": [
       "Some Cars are not Buses",
@@ -661,265 +964,329 @@
     "correctAnswer": "All Buses may be Ships",
     "explanation": ""
   },
-    {
-      "id": "reasoning_puzzle_006",
-      "question": "Statements:\nSome painters are artists.\nAll singers are artists.\nNo artist is dancer.\n\nConclusions:\nI. Some painters are singers.\nII. All dancers being singers is a possibility.\nIII. No painter is a singer.\nIV. Some artists not being painters is a possibility.",
-      "options": [
-        "Only II follows",
-        "Either I or III and II and IV follow",
-        "Only II and IV follow",
-        "All follow",
-        "None of these"
-      ],
-      "correctAnswer": "Only II and IV follow",
-      "explanation": ""
-    },
-    {
-      "id": "reasoning_puzzle_007",
-      "question": "Statements:\nSome rivers are lakes.\nAll lakes are oceans.\nNo ocean is desert.\nSome deserts are mountains.\n\nConclusions:\nI. Some deserts are rivers.\nII. Some mountains being ocean is a possibility.\nIII. No desert is river.",
-      "options": [
-        "Only conclusion I follows",
-        "Only conclusion II follows",
-        "Only conclusions I and III follow",
-        "Either conclusion I or III follows",
-        "Either conclusion I or III, and conclusion II follows"
-      ],
-      "correctAnswer": "Only conclusion II follows",
-      "explanation": ""
-    },
-    {
-      "id": "reasoning_puzzle_008",
-      "question": "Statements:\nSome cats are dogs.\nAll wolves are dogs.\nNo dog is fox.\n\nConclusions:\nI. Some cats are wolves.\nII. All foxes being wolves is a possibility.\nIII. No cat is a wolf.",
-      "options": [
-        "Only III follows",
-        "Either I or III follows",
-        "Only II and III follow",
-        "All follow",
-        "None of these"
-      ],
-      "correctAnswer": "Either I or III follows",
-      "explanation": ""
-    },
-    {
-      "id": "reasoning_puzzle_009",
-      "question": "Statements:\nNo pencil is marker.\nNo pen is pencil.\n\nConclusions:\nI. No marker is pen.\nII. All pens are markers.",
-      "options": [
-        "Conclusion I follows",
-        "Conclusion II follows",
-        "Either conclusion I or conclusion II follows",
-        "Neither conclusion I nor conclusion II follows",
-        "Both conclusion I and conclusion II follow"
-      ],
-      "correctAnswer": "Neither conclusion I nor conclusion II follows",
-      "explanation": ""
-    },
-    {
-      "id": "reasoning_puzzle_010",
-      "question": "Statements:\nSome bats are balls.\nSome balls are gloves.\nAll gloves are helmets.\n\nConclusions:\nI. At least some helmets are bats.\nII. No helmet is a bat.\nIII. Some helmets are bats.",
-      "options": [
-        "If only conclusion II follows",
-        "If both conclusions I and II follow",
-        "If neither conclusion I nor II follows",
-        "If either conclusion I or II follows, and either conclusion II or III follows",
-        "None of these"
-      ],
-      "correctAnswer": "If either conclusion I or II follows, and either conclusion II or III follows",
-      "explanation": ""
-    },
-      {
-        "id": "reasoning_puzzle_011",
-        "question": "Statements:\nAll laptops are computers.\nAll computers are gadgets.\nAll gadgets are processors.\nOnly a few processors are instruments.\n\nConclusions:\nI. All computers are processors.\nII. All laptops can never be instruments.\nIII. All computers can be instruments.",
-        "options": [
-          "Only conclusion II follows",
-          "Only conclusion III follows",
-          "Both conclusions I and III follow",
-          "Both conclusions II and III follow",
-          "Either conclusion II or III follows"
-        ],
-        "correctAnswer": "Both conclusions I and III follow",
-        "explanation": ""
-      },
-      {
-        "id": "reasoning_puzzle_012",
-        "question": "Statements:\nFew books are pens.\nAll pens are markers.\nOnly a few markers are boards.\nAll markers are chalks.\n\nConclusions:\nI. Only markers are pens is a possibility.\nII. Some boards are pens is a possibility.\nIII. Some chalks are books.",
-        "options": [
-          "Only conclusion II follows",
-          "Only conclusion III follows",
-          "Both conclusions I and III follow",
-          "Both conclusions II and III follow",
-          "Either conclusion II or III follows"
-        ],
-        "correctAnswer": "Both conclusions II and III follow",
-        "explanation": ""
-      },
-      {
-        "id": "reasoning_puzzle_013",
-        "question": "Statements:\nNo rose is lily.\nAll lilies are sunflowers.\nSome roses are lotus.\n\nConclusions:\nI. All lotuses are sunflowers.\nII. Some lotuses are not sunflowers.",
-        "options": [
-          "Neither I nor II follows",
-          "Only I follows",
-          "Either I or II follows",
-          "Both I and II follow",
-          "Only II follows"
-        ],
-        "correctAnswer": "Either I or II follows",
-        "explanation": ""
-      },
-      {
-        "id": "reasoning_puzzle_014",
-        "question": "Statements:\nNo train is a bus.\nSome buses are cars.\nSome cars are bikes.\n\nConclusions:\nI. Some cars are buses.\nII. No bike is a train.\nIII. No bike is a car.",
-        "options": [
-          "If only conclusion I does not follow",
-          "If only conclusions II and III do not follow",
-          "If only conclusion III does not follow",
-          "If only conclusions I and II do not follow",
-          "None of these"
-        ],
-        "correctAnswer": "If only conclusions II and III do not follow",
-        "explanation": ""
-      },
-      {
-        "id": "reasoning_puzzle_015",
-        "question": "Statements:\nOnly Earth is Mars.\nSome Earth is Venus.\nNo Venus is Jupiter.\nOnly a few Jupiters are Saturn.\n\nConclusions:\nI. All Saturns can be Earth.\nII. Some Jupiters can be Venus.\nIII. All Mars can never be Venus.",
-        "options": [
-          "Only conclusion I follows",
-          "Only conclusion III follows",
-          "Both conclusions I and III follow",
-          "Both conclusions II and III follow",
-          "Either conclusion II or III and I follows"
-        ],
-        "correctAnswer": "Both conclusions I and III follow",
-        "explanation": ""
-      },
-        {
-          "id": "reasoning_puzzle_016",
-          "question": "Statements:\nOnly a few WhatsApp are Telegram.\nNo Telegram is Signal.\nSome Signal is Messenger.\n\nConclusions:\nI. Some WhatsApp may be Signal.\nII. All Messenger can be Telegram.\nIII. Some WhatsApp is not a Messenger.",
-          "options": [
-            "Both conclusions II and III follow",
-            "Only conclusion I follow",
-            "Both conclusions I and III follow",
-            "Both conclusions I and II follow",
-            "All follow"
-          ],
-          "correctAnswer": "Only conclusion I follow",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_017",
-          "question": "Statements:\nSome oranges are apples.\nAll lemons are apples.\nNo apple is guava.\n\nConclusions:\nI. Some oranges are lemons.\nII. All guavas being lemon is a possibility.\nIII. No orange is a lemon.",
-          "options": [
-            "Only III follows",
-            "Either I or III follows",
-            "Only II and III follow",
-            "All follow",
-            "None of these"
-          ],
-          "correctAnswer": "Either I or III follows",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_018",
-          "question": "Statements:\nNo book is pen.\nNot a single pen is eraser.\nEvery eraser is stationery.\n\nConclusions:\nI. Some stationeries, which are erasers, is also books as well.\nII. No book is an eraser.\nIII. Some stationeries are not pens.",
-          "options": [
-            "Only III follows",
-            "Either I or II follows",
-            "Only II and III follow",
-            "All follow",
-            "None of these"
-          ],
-          "correctAnswer": "Only III follows",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_019",
-          "question": "Statements:\nOnly a few Dropbox is Google Drive.\nAll Dropbox is OneDrive.\nNo OneDrive is iCloud.\nSome iCloud is Google Drive.\n\nConclusions:\nI. No Dropbox is iCloud.\nII. All OneDrive can never be a Google Drive.\nIII. Some iCloud is Google Drive.",
-          "options": [
-            "Both conclusions II and III follow",
-            "Only conclusion I follow",
-            "Both conclusions I and III follow",
-            "Both conclusions I and II follow",
-            "All follow"
-          ],
-          "correctAnswer": "Both conclusions I and III follow",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_020",
-          "question": "Statements:\nOnly a few Skype is Zoom.\nAll Skype is Teams.\nAll Zoom is Meet.\n\nConclusions:\nI. Some Skype is Meet.\nII. All Zoom can never be Teams.\nIII. Some Teams can be Zoom.",
-          "options": [
-            "Both conclusions II and III follow",
-            "Only conclusion I follow",
-            "Both conclusions I and III follow",
-            "Only I and either conclusions II and III follow",
-            "All follow"
-          ],
-          "correctAnswer": "Only I and either conclusions II and III follow",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_021",
-          "question": "Statements:\nOnly a few Teachers are Students.\nNo Phone is Laptop.\nSome Phones are not Students.\nOnly Laptop is Device.\n\nConclusions:\nI. All devices cannot be Students.\nII. No Laptop being Teacher is a possibility.",
-          "options": [
-            "Neither conclusion I nor II follows",
-            "Only conclusion II follows",
-            "Either conclusion I or II follows",
-            "Only conclusion I follow",
-            "Both conclusions I and II follow"
-          ],
-          "correctAnswer": "Only conclusion II follows",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_022",
-          "question": "Statements:\nSome Files are Errors.\nAll Errors are Warnings.\nOnly a few Warnings are Notes.\nNo File is Folder.\n\nConclusions:\nI. Some Files are definitely not Notes.\nII. No Warning is Folder.",
-          "options": [
-            "Only conclusion II follows",
-            "Neither conclusion I nor II follows",
-            "Either conclusion I or II follows",
-            "Only conclusion I follow",
-            "Both conclusions I and II follow"
-          ],
-          "correctAnswer": "Neither conclusion I nor II follows",
-          "explanation": ""
-        },
-        {
-          "id": "reasoning_puzzle_023",
-          "question": "Statements:\nSome Projects are not Software.\nOnly a few Employees are Managers.\nAll Managers are Software.\nOnly a few Departments are Employees.\n\nConclusions:\nI. All Departments are Managers.\nII. Some Departments are not Managers.",
-          "options": [
-            "Either conclusion I or II follows",
-            "Only conclusion I follow",
-            "Both conclusions I and II follow",
-            "Neither conclusion I nor II follows",
-            "Only conclusion II follows"
-          ],
-          "correctAnswer": "Either conclusion I or II follows",
-          "explanation": ""
-        },
-          {
-            "id": "reasoning_puzzle_024",
-            "question": "Statements:\nOnly a few Doctors are Surgeons.\nAll Surgeons are Professionals.\nNo Professional is Engineer.\n\nConclusions:\nI. Some Doctors are Professionals.\nII. Some Doctors can never be Engineers.\nIII. Some Engineers can be Doctors.",
-            "options": [
-              "Only conclusion I follows",
-              "Both conclusions I and II follow",
-              "Both conclusions II and III follow",
-              "Only conclusion III follows",
-              "All follow"
-            ],
-            "correctAnswer": "Both conclusions I and II follow",
-            "explanation": ""
-          },
-          {
-            "id": "reasoning_puzzle_025",
-            "question": "Statements:\nSome Tablets are Mobiles.\nAll Mobiles are Electronics.\nNo Electronic is Furniture.\nOnly a few Furniture are Chairs.\n\nConclusions:\nI. Some Tablets are Electronics.\nII. No Mobile is Furniture.\nIII. Some Chairs can be Tablets.",
-            "options": [
-              "Only conclusion I follows",
-              "Both conclusions I and II follow",
-              "Both conclusions II and III follow",
-              "Only conclusion III follows",
-              "All follow"
-            ],
-            "correctAnswer": "Both conclusions I and II follow",
-            "explanation": ""
-          }
-
+  {
+    "id": "reasoning_puzzle_081",
+    "question": "Statements:\nOnly a few Schools are Libraries.\nSome Notebooks are Pens.\nAll Libraries are Notebooks.\n\nConclusions:\nI. No Library is Pen\nII. All Notebooks are Libraries\nIII. All Libraries being Schools is a possibility\nIV. Some Schools can be Notebooks",
+    "options": [
+      "No Library is Pen",
+      "All Notebooks are Libraries",
+      "All Libraries being Schools is a possibility",
+      "Some Schools can be Notebooks",
+      "All follow"
+    ],
+    "correctAnswer": "All follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_082",
+    "question": "Statements:\nAll Rivers are Lakes.\nNo Mountain is Desert.\nOnly a few Rivers are Mountains.\n\nConclusions:\nI. All Mountains can be Lakes\nII. Some Lakes are Mountains\nIII. Some Lakes are not Deserts\nIV. All Rivers can never be Deserts",
+    "options": [
+      "All Mountains can be Lakes",
+      "Some Lakes are Mountains",
+      "Some Lakes are not Deserts",
+      "All Rivers can never be Deserts",
+      "All follow"
+    ],
+    "correctAnswer": "All follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_083",
+    "question": "Statements:\nOnly a few Cities are Villages.\nNo Village is Forest.\nNo City is Garden.\n\nConclusions:\nI. Some Cities are not Forests\nII. Some Gardens are Forests\nIII. No Village is Garden\nIV. Some Cities are Forests",
+    "options": [
+      "Some Cities are not Forests",
+      "Some Gardens are Forests",
+      "No Village is Garden",
+      "Some Cities are Forests",
+      "None follows"
+    ],
+    "correctAnswer": "Some Cities are not Forests",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_084",
+    "question": "Statements:\nOnly a few Tigers are Lions.\nAll Lions are Leopards.\nAll Leopards are Panthers.\n\nConclusions:\nI. All Panthers may be Lions\nII. All Lions are Panthers\nIII. Some Tigers can never be Leopards\nIV. No Panther is Tiger",
+    "options": [
+      "All Panthers may be Lions",
+      "All Lions are Panthers",
+      "Some Tigers can never be Leopards",
+      "No Panther is Tiger",
+      "Both I and II"
+    ],
+    "correctAnswer": "All Panthers may be Lions",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_085",
+    "question": "Statements:\nOnly a few Cars are Buses.\nSome Buses are Trains.\nAll Trains are Ships.\n\nConclusions:\nI. Some Cars are not Buses\nII. Some Buses are Ships\nIII. Some Trains can be Cars\nIV. All Buses may be Ships",
+    "options": [
+      "Some Cars are not Buses",
+      "Some Buses are Ships",
+      "Some Trains can be Cars",
+      "All Buses may be Ships",
+      "All follow"
+    ],
+    "correctAnswer": "All Buses may be Ships",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_086",
+    "question": "Statements:\nSome painters are artists.\nAll singers are artists.\nNo artist is dancer.\n\nConclusions:\nI. Some painters are singers.\nII. All dancers being singers is a possibility.\nIII. No painter is a singer.\nIV. Some artists not being painters is a possibility.",
+    "options": [
+      "Only II follows",
+      "Either I or III and II and IV follow",
+      "Only II and IV follow",
+      "All follow",
+      "None of these"
+    ],
+    "correctAnswer": "Only II and IV follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_087",
+    "question": "Statements:\nSome rivers are lakes.\nAll lakes are oceans.\nNo ocean is desert.\nSome deserts are mountains.\n\nConclusions:\nI. Some deserts are rivers.\nII. Some mountains being ocean is a possibility.\nIII. No desert is river.",
+    "options": [
+      "Only conclusion I follows",
+      "Only conclusion II follows",
+      "Only conclusions I and III follow",
+      "Either conclusion I or III follows",
+      "Either conclusion I or III, and conclusion II follows"
+    ],
+    "correctAnswer": "Only conclusion II follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_088",
+    "question": "Statements:\nSome cats are dogs.\nAll wolves are dogs.\nNo dog is fox.\n\nConclusions:\nI. Some cats are wolves.\nII. All foxes being wolves is a possibility.\nIII. No cat is a wolf.",
+    "options": [
+      "Only III follows",
+      "Either I or III follows",
+      "Only II and III follow",
+      "All follow",
+      "None of these"
+    ],
+    "correctAnswer": "Either I or III follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_089",
+    "question": "Statements:\nNo pencil is marker.\nNo pen is pencil.\n\nConclusions:\nI. No marker is pen.\nII. All pens are markers.",
+    "options": [
+      "Conclusion I follows",
+      "Conclusion II follows",
+      "Either conclusion I or conclusion II follows",
+      "Neither conclusion I nor conclusion II follows",
+      "Both conclusion I and conclusion II follow"
+    ],
+    "correctAnswer": "Neither conclusion I nor conclusion II follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_090",
+    "question": "Statements:\nSome bats are balls.\nSome balls are gloves.\nAll gloves are helmets.\n\nConclusions:\nI. At least some helmets are bats.\nII. No helmet is a bat.\nIII. Some helmets are bats.",
+    "options": [
+      "If only conclusion II follows",
+      "If both conclusions I and II follow",
+      "If neither conclusion I nor II follows",
+      "If either conclusion I or II follows, and either conclusion II or III follows",
+      "None of these"
+    ],
+    "correctAnswer": "If either conclusion I or II follows, and either conclusion II or III follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_091",
+    "question": "Statements:\nAll laptops are computers.\nAll computers are gadgets.\nAll gadgets are processors.\nOnly a few processors are instruments.\n\nConclusions:\nI. All computers are processors.\nII. All laptops can never be instruments.\nIII. All computers can be instruments.",
+    "options": [
+      "Only conclusion II follows",
+      "Only conclusion III follows",
+      "Both conclusions I and III follow",
+      "Both conclusions II and III follow",
+      "Either conclusion II or III follows"
+    ],
+    "correctAnswer": "Both conclusions I and III follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_092",
+    "question": "Statements:\nFew books are pens.\nAll pens are markers.\nOnly a few markers are boards.\nAll markers are chalks.\n\nConclusions:\nI. Only markers are pens is a possibility.\nII. Some boards are pens is a possibility.\nIII. Some chalks are books.",
+    "options": [
+      "Only conclusion II follows",
+      "Only conclusion III follows",
+      "Both conclusions I and III follow",
+      "Both conclusions II and III follow",
+      "Either conclusion II or III follows"
+    ],
+    "correctAnswer": "Both conclusions II and III follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_093",
+    "question": "Statements:\nNo rose is lily.\nAll lilies are sunflowers.\nSome roses are lotus.\n\nConclusions:\nI. All lotuses are sunflowers.\nII. Some lotuses are not sunflowers.",
+    "options": [
+      "Neither I nor II follows",
+      "Only I follows",
+      "Either I or II follows",
+      "Both I and II follow",
+      "Only II follows"
+    ],
+    "correctAnswer": "Either I or II follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_094",
+    "question": "Statements:\nNo train is a bus.\nSome buses are cars.\nSome cars are bikes.\n\nConclusions:\nI. Some cars are buses.\nII. No bike is a train.\nIII. No bike is a car.",
+    "options": [
+      "If only conclusion I does not follow",
+      "If only conclusions II and III do not follow",
+      "If only conclusion III does not follow",
+      "If only conclusions I and II do not follow",
+      "None of these"
+    ],
+    "correctAnswer": "If only conclusions II and III do not follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_095",
+    "question": "Statements:\nOnly Earth is Mars.\nSome Earth is Venus.\nNo Venus is Jupiter.\nOnly a few Jupiters are Saturn.\n\nConclusions:\nI. All Saturns can be Earth.\nII. Some Jupiters can be Venus.\nIII. All Mars can never be Venus.",
+    "options": [
+      "Only conclusion I follows",
+      "Only conclusion III follows",
+      "Both conclusions I and III follow",
+      "Both conclusions II and III follow",
+      "Either conclusion II or III and I follows"
+    ],
+    "correctAnswer": "Both conclusions I and III follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_096",
+    "question": "Statements:\nOnly a few WhatsApp are Telegram.\nNo Telegram is Signal.\nSome Signal is Messenger.\n\nConclusions:\nI. Some WhatsApp may be Signal.\nII. All Messenger can be Telegram.\nIII. Some WhatsApp is not a Messenger.",
+    "options": [
+      "Both conclusions II and III follow",
+      "Only conclusion I follow",
+      "Both conclusions I and III follow",
+      "Both conclusions I and II follow",
+      "All follow"
+    ],
+    "correctAnswer": "Only conclusion I follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_097",
+    "question": "Statements:\nSome oranges are apples.\nAll lemons are apples.\nNo apple is guava.\n\nConclusions:\nI. Some oranges are lemons.\nII. All guavas being lemon is a possibility.\nIII. No orange is a lemon.",
+    "options": [
+      "Only III follows",
+      "Either I or III follows",
+      "Only II and III follow",
+      "All follow",
+      "None of these"
+    ],
+    "correctAnswer": "Either I or III follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_098",
+    "question": "Statements:\nNo book is pen.\nNot a single pen is eraser.\nEvery eraser is stationery.\n\nConclusions:\nI. Some stationeries, which are erasers, is also books as well.\nII. No book is an eraser.\nIII. Some stationeries are not pens.",
+    "options": [
+      "Only III follows",
+      "Either I or II follows",
+      "Only II and III follow",
+      "All follow",
+      "None of these"
+    ],
+    "correctAnswer": "Only III follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_099",
+    "question": "Statements:\nOnly a few Dropbox is Google Drive.\nAll Dropbox is OneDrive.\nNo OneDrive is iCloud.\nSome iCloud is Google Drive.\n\nConclusions:\nI. No Dropbox is iCloud.\nII. All OneDrive can never be a Google Drive.\nIII. Some iCloud is Google Drive.",
+    "options": [
+      "Both conclusions II and III follow",
+      "Only conclusion I follow",
+      "Both conclusions I and III follow",
+      "Both conclusions I and II follow",
+      "All follow"
+    ],
+    "correctAnswer": "Both conclusions I and III follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_100",
+    "question": "Statements:\nOnly a few Skype is Zoom.\nAll Skype is Teams.\nAll Zoom is Meet.\n\nConclusions:\nI. Some Skype is Meet.\nII. All Zoom can never be Teams.\nIII. Some Teams can be Zoom.",
+    "options": [
+      "Both conclusions II and III follow",
+      "Only conclusion I follow",
+      "Both conclusions I and III follow",
+      "Only I and either conclusions II and III follow",
+      "All follow"
+    ],
+    "correctAnswer": "Only I and either conclusions II and III follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_101",
+    "question": "Statements:\nOnly a few Teachers are Students.\nNo Phone is Laptop.\nSome Phones are not Students.\nOnly Laptop is Device.\n\nConclusions:\nI. All devices cannot be Students.\nII. No Laptop being Teacher is a possibility.",
+    "options": [
+      "Neither conclusion I nor II follows",
+      "Only conclusion II follows",
+      "Either conclusion I or II follows",
+      "Only conclusion I follow",
+      "Both conclusions I and II follow"
+    ],
+    "correctAnswer": "Only conclusion II follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_102",
+    "question": "Statements:\nSome Files are Errors.\nAll Errors are Warnings.\nOnly a few Warnings are Notes.\nNo File is Folder.\n\nConclusions:\nI. Some Files are definitely not Notes.\nII. No Warning is Folder.",
+    "options": [
+      "Only conclusion II follows",
+      "Neither conclusion I nor II follows",
+      "Either conclusion I or II follows",
+      "Only conclusion I follow",
+      "Both conclusions I and II follow"
+    ],
+    "correctAnswer": "Neither conclusion I nor II follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_103",
+    "question": "Statements:\nSome Projects are not Software.\nOnly a few Employees are Managers.\nAll Managers are Software.\nOnly a few Departments are Employees.\n\nConclusions:\nI. All Departments are Managers.\nII. Some Departments are not Managers.",
+    "options": [
+      "Either conclusion I or II follows",
+      "Only conclusion I follow",
+      "Both conclusions I and II follow",
+      "Neither conclusion I nor II follows",
+      "Only conclusion II follows"
+    ],
+    "correctAnswer": "Either conclusion I or II follows",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_104",
+    "question": "Statements:\nOnly a few Doctors are Surgeons.\nAll Surgeons are Professionals.\nNo Professional is Engineer.\n\nConclusions:\nI. Some Doctors are Professionals.\nII. Some Doctors can never be Engineers.\nIII. Some Engineers can be Doctors.",
+    "options": [
+      "Only conclusion I follows",
+      "Both conclusions I and II follow",
+      "Both conclusions II and III follow",
+      "Only conclusion III follows",
+      "All follow"
+    ],
+    "correctAnswer": "Both conclusions I and II follow",
+    "explanation": ""
+  },
+  {
+    "id": "reasoning_puzzle_105",
+    "question": "Statements:\nSome Tablets are Mobiles.\nAll Mobiles are Electronics.\nNo Electronic is Furniture.\nOnly a few Furniture are Chairs.\n\nConclusions:\nI. Some Tablets are Electronics.\nII. No Mobile is Furniture.\nIII. Some Chairs can be Tablets.",
+    "options": [
+      "Only conclusion I follows",
+      "Both conclusions I and II follow",
+      "Both conclusions II and III follow",
+      "Only conclusion III follows",
+      "All follow"
+    ],
+    "correctAnswer": "Both conclusions I and II follow",
+    "explanation": ""
+  }
 ]
