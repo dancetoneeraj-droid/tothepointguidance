@@ -39,6 +39,7 @@ import {
   markEnglishSection,
   markGkMaterials,
   markGkRevisionComplete,
+  markReasoningComplete,
   recordOverride,
   unlockNextDay,
 } from "@/lib/storage/progress";
@@ -158,7 +159,8 @@ export default function DayPage({
     const hasGrammarActions =
       !!plan.english.grammarPdf ||
       !!plan.english.grammarQuiz ||
-      !!plan.english.grammarMindmap;
+      !!plan.english.grammarMindmap ||
+      (plan.english.grammarQuizzes?.length ?? 0) > 0;
     if (!hasGrammarActions && !dayProgress.english.grammar) {
       void markEnglishSection(resolvedStudentId, dayNum, "grammar").then(
         () => void refreshDayState()
@@ -179,6 +181,14 @@ export default function DayPage({
       hasComprehensionForDay(dayNum) || !!plan.english.comprehensionPdf;
     if (!hasComprehensionActions && !dayProgress.english.comprehension) {
       void markEnglishSection(resolvedStudentId, dayNum, "comprehension").then(
+        () => void refreshDayState()
+      );
+    }
+
+    const hasReasoningActions =
+      !!plan.reasoning || (plan.reasoningQuizzes?.length ?? 0) > 0;
+    if (!hasReasoningActions && !dayProgress.reasoning.completed) {
+      void markReasoningComplete(resolvedStudentId, dayNum).then(
         () => void refreshDayState()
       );
     }
@@ -329,11 +339,23 @@ export default function DayPage({
               subtitle: `${formatReasoningQuizLabel(plan.reasoning.topic, plan.reasoning.label)} · ${plan.reasoning.questions} questions · ${plan.reasoning.duration} min`,
               kind: "quiz" as const,
               subject: "reasoning" as const,
-              completed: dayProgress.reasoning.completed,
+              completed: hasCompletedQuiz(
+                studentId,
+                dayNum,
+                "reasoning",
+                plan.reasoning.topic,
+                plan.reasoning.from
+              ),
               actions: [
                 {
                   id: "reasoning-action",
-                  label: dayProgress.reasoning.completed
+                  label: hasCompletedQuiz(
+                    studentId,
+                    dayNum,
+                    "reasoning",
+                    plan.reasoning.topic,
+                    plan.reasoning.from
+                  )
                     ? "View result"
                     : "Start quiz",
                   onClick: () =>
@@ -347,7 +369,13 @@ export default function DayPage({
         : []),
       // Extra reasoning quizzes (e.g. Number Series) — each gets its own card.
       ...(plan.reasoningQuizzes ?? []).map((rq) => {
-        const quizDone = hasCompletedQuiz(studentId, dayNum, "reasoning", rq.topic);
+        const quizDone = hasCompletedQuiz(
+          studentId,
+          dayNum,
+          "reasoning",
+          rq.topic,
+          rq.from
+        );
         return {
           id: `reasoning-${rq.topic}`,
           label: rq.label ?? formatTopic(rq.topic),
@@ -365,59 +393,105 @@ export default function DayPage({
           ],
         };
       }),
-      {
-        id: "english-grammar",
-        label: "English Grammar",
-        subtitle: isDay1NounFlow
-          ? "NOUN basic PDF reading · 20-30 min read time"
-          : hasInlineGrammarQuiz
-            ? `Grammar PDF + Quiz · ${grammarQuizQuestions} questions · ${grammarQuizDuration} min`
-            : plan.english.grammarMindmap
-              ? "Grammar PDF + mind map revision"
-              : "Grammar PDF notes",
-        kind: "reading" as const,
-        subject: "english" as const,
-        completed: dayProgress.english.grammar,
-        actions: [
-          ...(plan.english.grammarPdf
-            ? [
-                {
-                  id: "english-grammar-pdf",
-                  label: isDay1NounFlow ? "Noun PDF" : "Open PDF",
-                  onClick: () =>
-                    void openEnglishResource("grammar", plan.english.grammarPdf),
-                  loading: loadingSection === "english-grammar",
-                },
-              ]
-            : []),
-          ...(hasInlineGrammarQuiz && plan.english.grammarQuiz
-            ? [
-                {
-                  id: `english-grammar-quiz-action-${plan.english.grammarQuiz}`,
-                  label: dayProgress.english.grammar
-                    ? `View ${grammarQuizLabel} Quiz`
-                    : `${grammarQuizLabel} Quiz`,
-                  onClick: () =>
-                    router.push(`/quiz/english/${plan.english.grammarQuiz}?day=${dayNum}`),
-                },
-              ]
-            : []),
-          ...(!isDay1NounFlow && plan.english.grammarMindmap
-            ? [
-                {
-                  id: "english-grammar-mindmap",
-                  label: "Open Mindmap",
-                  onClick: () =>
-                    void openEnglishResource(
-                      "grammar",
-                      plan.english.grammarMindmap
-                    ),
-                  loading: loadingSection === "english-grammar",
-                },
-              ]
-            : []),
-        ],
-      },
+      ...(plan.english.grammarPdf ||
+      plan.english.grammarQuiz ||
+      plan.english.grammarMindmap
+        ? [
+            {
+              id: "english-grammar",
+              label: "English Grammar",
+              subtitle: isDay1NounFlow
+                ? "NOUN basic PDF reading · 20-30 min read time"
+                : hasInlineGrammarQuiz
+                  ? `Grammar PDF + Quiz · ${grammarQuizQuestions} questions · ${grammarQuizDuration} min`
+                  : plan.english.grammarMindmap
+                    ? "Grammar PDF + mind map revision"
+                    : "Grammar PDF notes",
+              kind: "reading" as const,
+              subject: "english" as const,
+              completed: dayProgress.english.grammar,
+              actions: [
+                ...(plan.english.grammarPdf
+                  ? [
+                      {
+                        id: "english-grammar-pdf",
+                        label: isDay1NounFlow ? "Noun PDF" : "Open PDF",
+                        onClick: () =>
+                          void openEnglishResource(
+                            "grammar",
+                            plan.english.grammarPdf
+                          ),
+                        loading: loadingSection === "english-grammar",
+                      },
+                    ]
+                  : []),
+                ...(hasInlineGrammarQuiz && plan.english.grammarQuiz
+                  ? [
+                      {
+                        id: `english-grammar-quiz-action-${plan.english.grammarQuiz}`,
+                        label: dayProgress.english.grammar
+                          ? `View ${grammarQuizLabel} Quiz`
+                          : `${grammarQuizLabel} Quiz`,
+                        onClick: () =>
+                          router.push(
+                            `/quiz/english/${plan.english.grammarQuiz}?day=${dayNum}${
+                              plan.english.grammarQuizFrom !== undefined
+                                ? `&from=${plan.english.grammarQuizFrom}`
+                                : ""
+                            }`
+                          ),
+                      },
+                    ]
+                  : []),
+                ...(!isDay1NounFlow && plan.english.grammarMindmap
+                  ? [
+                      {
+                        id: "english-grammar-mindmap",
+                        label: "Open Mindmap",
+                        onClick: () =>
+                          void openEnglishResource(
+                            "grammar",
+                            plan.english.grammarMindmap
+                          ),
+                        loading: loadingSection === "english-grammar",
+                      },
+                    ]
+                  : []),
+              ],
+            },
+          ]
+        : []),
+      // Extra English grammar quizzes (e.g. two Voice sets on the same bank).
+      ...(plan.english.grammarQuizzes ?? []).map((eq) => {
+        const quizDone = hasCompletedQuiz(
+          studentId,
+          dayNum,
+          "english",
+          eq.topic,
+          eq.from
+        );
+        const label = formatEnglishGrammarQuizLabel(eq.label);
+        const fromQs =
+          eq.from !== undefined ? `&from=${eq.from}` : "";
+        return {
+          id: `english-quiz-${eq.topic}-f${eq.from ?? "x"}`,
+          label,
+          subtitle: `${eq.questions} questions · ${eq.duration} min`,
+          kind: "quiz" as const,
+          subject: "english" as const,
+          completed: quizDone,
+          actions: [
+            {
+              id: `english-quiz-${eq.topic}-f${eq.from ?? "x"}-action`,
+              label: quizDone ? `View ${label}` : `Start ${label}`,
+              onClick: () =>
+                router.push(
+                  `/quiz/english/${eq.topic}?day=${dayNum}${fromQs}`
+                ),
+            },
+          ],
+        };
+      }),
       {
         id: "english-vocabulary",
         label: "English Vocabulary",

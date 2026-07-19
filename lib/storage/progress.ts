@@ -192,6 +192,8 @@ export interface RecordQuizOptions {
   advanceIndex?: boolean;
   /** When false, global solved/correct totals are not incremented again. Default true. */
   countInStats?: boolean;
+  /** Bank offset for this quiz — included in the completion id when set. */
+  from?: number;
 }
 
 export async function recordQuizCompletion(
@@ -208,10 +210,10 @@ export async function recordQuizCompletion(
   },
   options: RecordQuizOptions = {}
 ): Promise<void> {
-  const { advanceIndex = true, countInStats = true } = options;
+  const { advanceIndex = true, countInStats = true, from } = options;
   const store = getStore(studentId);
   const topicKey = `${subject}_${topic}`;
-  const quizId = quizCompletionId(day, subject, topic);
+  const quizId = quizCompletionId(day, subject, topic, from);
 
   if (advanceIndex) {
     store.topicIndices[topicKey] = result.newIndex;
@@ -282,12 +284,16 @@ export function getQuizReviewRecord(
   studentId: string,
   day: number,
   subject: string,
-  topic: string
+  topic: string,
+  from?: number
 ): QuizReviewRecord | null {
   const store = loadStore(studentId);
   if (!store) return null;
   const normalized = ensureStoreCollections(store);
-  return normalized.quizReviewRecords[quizCompletionId(day, subject, topic)] ?? null;
+  return (
+    normalized.quizReviewRecords[quizCompletionId(day, subject, topic, from)] ??
+    null
+  );
 }
 
 export function saveComprehensionRecord(
@@ -321,11 +327,12 @@ export function hasCompletedQuiz(
   studentId: string,
   day: number,
   subject: string,
-  topic: string
+  topic: string,
+  from?: number
 ): boolean {
   const store = loadStore(studentId);
   if (!store) return false;
-  const quizId = quizCompletionId(day, subject, topic);
+  const quizId = quizCompletionId(day, subject, topic, from);
   return store.completedQuizzes.includes(quizId);
 }
 
@@ -422,6 +429,21 @@ export async function markGkRevisionComplete(
   const dayProgress = ensureDayInStore(store, day);
   dayProgress.gk.revisionQuizCompleted = true;
   store.gkProgress[String(day)] = dayProgress.gk;
+  store.dayProgress[String(day)] = dayProgress;
+  saveStore(store);
+}
+
+/** Mark reasoning complete when a day has no reasoning quiz scheduled. */
+export async function markReasoningComplete(
+  studentId: string,
+  day: number
+): Promise<void> {
+  const store = getStore(studentId);
+  const dayProgress = ensureDayInStore(store, day);
+  dayProgress.reasoning = {
+    ...dayProgress.reasoning,
+    completed: true,
+  };
   store.dayProgress[String(day)] = dayProgress;
   saveStore(store);
 }

@@ -4383,6 +4383,1386 @@
     ],
     "correctAnswer": "We might be allowed to enter college.",
     "explanation": "When explicitly designated as a request rather than a general suggestion, a 'Let us' initiative maps into the conditional passive permission string 'We might be allowed to'."
-  }
+  },
+    {
+      "id": "pronoun_375",
+      "question": "Complete the sentence with the correct form of the verb: 'He works hard so that he _______ first.'",
+      "options": [
+        "may stand",
+        "stood",
+        "will stand",
+        "stands"
+      ],
+      "correctAnswer": "may stand",
+      "explanation": "When a subordinate clause denotes purpose and is introduced by 'so that', 'in order that', or 'that', a present tense in the principal clause requires 'may' + base form in the purpose clause."
+    },
+    {
+      "id": "pronoun_376",
+      "question": "Complete the sentence with the correct form of the verb: 'He worked hard in order that he _______ first.'",
+      "options": [
+        "might stand",
+        "may stand",
+        "will stand",
+        "would stand"
+      ],
+      "correctAnswer": "might stand",
+      "explanation": "When the principal clause is in the past tense ('worked'), the purpose clause introduced by 'in order that' uses 'might' + base form."
+    },
+    {
+      "id": "pronoun_377",
+      "question": "Complete the sentence with the correct form of the verb: 'Walk carefully lest you _______.'",
+      "options": [
+        "should fall",
+        "will fall",
+        "may fall",
+        "might fall"
+      ],
+      "correctAnswer": "should fall",
+      "explanation": "The conjunction 'lest' is conventionally followed by the auxiliary verb 'should' in standard English grammar, meaning 'for fear that'."
+    },
+    {
+        "id": "pronoun_378",
+      "question": "Complete the sentence with the correct form of the verb: 'She _______ so hard that she could get first class.'",
+      "options": [
+        "worked",
+        "works",
+        "has worked",
+        "had worked"
+      ],
+      "correctAnswer": "worked",
+      "explanation": "The relative result clause utilizes the past modal construction 'could get', which requires a corresponding past tense ('worked') in the main clause."
+    },
+    {
+          "id": "pronoun_379",
+      "question": "Complete the sentence with the correct form of the verb: 'Although he worked hard, he _______.'",
+      "options": [
+        "failed",
+        "passes",
+        "passed",
+        "has passed"
+      ],
+      "correctAnswer": "failed",
+      "explanation": "'Although' introduces a concession clause indicating a contrasting result. Despite working hard in the past tense, the logical contrast is that he 'failed' (or did not pass)."
+    },
+    {
+      "id": "pronoun_380",
+      "question": "Complete the sentence with the correct form of the verb: 'As he is intelligent, he _______.'",
+      "options": [
+        "will pass",
+        "passed",
+        "fails",
+        "would pass"
+      ],
+      "correctAnswer": "will pass",
+      "explanation": "The clause of reason introduces a present fact ('is'), leading to a predictable future certainty or ability, expressed as 'will pass'."
+    },
+    {
+        "id": "pronoun_381",
+      "question": "Complete the sentence with the correct form of the verb: 'Since he came late, he _______.'",
+      "options": [
+        "was punished",
+        "punished",
+        "is punishing",
+        "will punish"
+      ],
+      "correctAnswer": "was punished",
+      "explanation": "The action requires a passive past voice ('was punished') to logically complement the reason clause stated in the simple past ('came late')."
+    },
+    {
+      "id": "pronoun_382",
+      "question": "Complete the sentence with the correct option: 'She talks as if she _______ rich.'",
+      "options": [
+        "were",
+        "was",
+        "is",
+        "been"
+      ],
+      "correctAnswer": "were",
+      "explanation": "Clauses introduced by 'as if' or 'as though' describing an unreal or hypothetical present state require the subjunctive form 'were' regardless of the subject's person or number."
+    },
+    {
+      "id": "pronoun_383",
+      "question": "Complete the sentence with the correct form of the verb: 'She did this work as I _______ her.'",
+      "options": [
+        "had told",
+        "tell",
+        "tells",
+        "am telling"
+      ],
+      "correctAnswer": "had told",
+      "explanation": "The telling occurred prior to the doing ('did'), so the past perfect tense ('had told') is appropriate to mark the sequence of events."
+    },
+    {
+      "id": "pronoun_384",
+      "question": "Complete the sentence with the correct pronoun: 'He is wiser than _______.'",
+      "options": [
+        "she",
+        "her",
+        "hers",
+        "herself"
+      ],
+      "correctAnswer": "she",
+      "explanation": "In formal English, the conjunction 'than' compares two subjects, implicitly functioning as 'than she is'. Therefore, the subjective pronoun case ('she') is required."
+    },
+    {
+        "id": "pronoun_385",
+      "question": "Complete the sentence with the correct pronoun: 'He loves both of us but he loves her more than _______.'",
+      "options": [
+        "me",
+        "I",
+        "myself",
+        "mine"
+      ],
+      "correctAnswer": "me",
+      "explanation": "Here, the comparison is between two objective targets of his love ('her' and 'me'). The sentence expands logically to 'more than he loves me'."
+    },
+    {
+            "id": "pronoun_386",
+      "question": "Complete the sentence with the correct pronoun: 'Both of us love her but he loves her more than _______.'",
+      "options": [
+        "I",
+        "me",
+        "myself",
+        "mine"
+      ],
+      "correctAnswer": "I",
+      "explanation": "The comparison here targets the subjects doing the loving ('he' and 'I'). The sentence expands logically to 'more than I love her'."
+    },
+    {
+      "id": "pronoun_387",
+      "question": "Complete the sentence with the correct option: 'His shirt is cheaper than _______.'",
+      "options": [
+        "mine",
+        "me",
+        "my",
+        "myself"
+      ],
+      "correctAnswer": "mine",
+      "explanation": "The comparison must remain parallel. You cannot compare a 'shirt' to a person ('me'); it must be compared to another shirt, achieved via the possessive pronoun 'mine'."
+    },
+    {
+        "id": "pronoun_388",
+      "question": "Complete the sentence with the correct option: 'The shirt of Mohan is cheaper than _______.'",
+      "options": [
+        "Sohan's",
+        "that of Sohan",
+        "Sohan",
+        "either Sohan's or that of Sohan"
+      ],
+      "correctAnswer": "either Sohan's or that of Sohan",
+      "explanation": "Both options 'Sohan's' (possessive ellipse for Sohan's shirt) and 'that of Sohan' correctly establish a parallel comparison with 'the shirt of Mohan'."
+    },
+    {
+      "id": "pronoun_389",
+      "question": "Complete the sentence with the correct pronoun: 'She is as good as _______.'",
+      "options": [
+        "I",
+        "me",
+        "myself",
+        "mine"
+      ],
+      "correctAnswer": "I",
+      "explanation": "In formal structures of comparison using 'as... as', the nominative pronoun is preferred because the verb is understood: 'as good as I (am)'."
+    },
+    {
+      "id": "pronoun_390",
+      "question": "Correct the following sentence: 'He believed that he will turn out to be a cheat.'",
+      "options": [
+        "He believed that he would turn out to be a cheat.",
+        "He believes that he will turn out to be a cheat.",
+        "He believed that he will turned out to be a cheat.",
+        "He believed that he will turn out to being a cheat."
+      ],
+      "correctAnswer": "He believed that he would turn out to be a cheat.",
+      "explanation": "By the rule of sequence of tenses, if the principal clause contains a past tense ('believed'), the subordinate object clause must use a past modal variant ('would' instead of 'will')."
+    },
+    {
+        "id": "pronoun_391",
+      "question": "Correct the following sentence: 'Why he came is difficult to understand.'",
+      "options": [
+        "Why he came is difficult to understand.",
+        "Why did he come is difficult to understand.",
+        "Why he had come is difficult to understand.",
+        "That why he came is difficult to understand."
+      ],
+      "correctAnswer": "Why he came is difficult to understand.",
+      "explanation": "The sentence is already correct. The noun clause 'Why he came' acts as the subject and must retain assertive word order (subject + verb), not interrogative order."
+    },
+    {
+      "id": "pronoun_392",
+      "question": "Correct the following sentence: 'I cannot say that he has passed.'",
+      "options": [
+        "I cannot say whether he has passed.",
+        "I cannot say that he had passed.",
+        "I cannot say if he passed.",
+        "I cannot say that he has passed."
+      ],
+      "correctAnswer": "I cannot say whether he has passed.",
+      "explanation": "When expressing uncertainty or doubt, the conjunction 'whether' or 'if' is preferred over the definitive conjunction 'that' in a objective noun clause."
+    },
+    {
+      "id": "pronoun_393",
+      "question": "Correct the following sentence: 'It was difficult to pretend that I am penniless.'",
+      "options": [
+        "It was difficult to pretend that I was penniless.",
+        "It was difficult to pretend that I am being penniless.",
+        "It is difficult to pretend that I am penniless.",
+        "It was difficult to pretend that I had been penniless."
+      ],
+      "correctAnswer": "It was difficult to pretend that I was penniless.",
+      "explanation": "The primary matrix verb is in the past tense ('was'), meaning the subordinate noun clause reporting that pretense must adapt its tense to the past form ('was')."
+    },
+    {
+        "id": "pronoun_394",
+      "question": "Correct the following sentence: 'We did not see that man in the room who was standing in the corner.'",
+      "options": [
+        "We did not see that man who was standing in the corner of the room.",
+        "We did not see that man who was standing in the corner in the room.",
+        "We did not see in the room that man who was standing in the corner.",
+        "We did not see that man in the room, he was standing in the corner."
+      ],
+      "correctAnswer": "We did not see that man who was standing in the corner in the room.",
+      "explanation": "An adjective clause ('who was standing...') must be placed as close as possible to its modifying antecedent ('that man') to avoid ambiguity."
+    },
+    {
+      "id": "pronoun_395",
+      "question": "Correct the following sentence: 'Please go and ask him that he is going there.'",
+      "options": [
+        "Please go and ask him whether he is going there.",
+        "Please go and ask him that if he is going there.",
+        "Please go and ask him that he was going there.",
+        "Please go and ask him for he is going there."
+      ],
+      "correctAnswer": "Please go and ask him whether he is going there.",
+      "explanation": "The verb 'ask' implies an indirect question or uncertainty, requiring the conditional interrogative link 'whether' or 'if' instead of the declarative 'that'."
+    },
+    {
+      "id": "pronoun_396",
+      "question": "Correct the following sentence: 'I did not know that why is he not staying there.'",
+      "options": [
+        "I did not know why he was not staying there.",
+        "I did not know that why he was not staying there.",
+        "I did not know why is he not staying there.",
+        "I did not know that why he is not staying there."
+      ],
+      "correctAnswer": "I did not know why he was not staying there.",
+      "explanation": "Double conjunctions like 'that why' are incorrect. Additionally, indirect questions must follow assertive word order ('he was not') rather than inverted interrogative order ('is he')."
+    },
+    {
+      "id": "pronoun_397",
+      "question": "Correct the following sentence: 'No such boy who is living here will do this.'",
+      "options": [
+        "No such boy as is living here will do this.",
+        "No such boy that is living here will do this.",
+        "No such boy who lives here will do this.",
+        "No such boy whom is living here will do this."
+      ],
+      "correctAnswer": "No such boy as is living here will do this.",
+      "explanation": "The adjective correlative construction 'such' pairs grammatically with 'as' rather than 'who' or 'which' when introducing relative restrictive components."
+    },
+    {
+        "id": "pronoun_398",
+      "question": "Correct the following sentence: 'You should follow the same method which he does.'",
+      "options": [
+        "You should follow the same method that he does.",
+        "You should follow the same method which he did.",
+        "You should follow the same method as he does.",
+        "You should follow same method which he does."
+      ],
+      "correctAnswer": "You should follow the same method that he does.",
+      "explanation": "The phrase 'the same' is conventionally paired with the relative pronoun 'that' (or sometimes 'as') instead of 'which'."
+    },
+    {
+      "id": "pronoun_399",
+      "question": "Correct the following sentence: 'Let us help them who are in greater need than he.'",
+      "options": [
+        "Let us help those who are in greater need than he.",
+        "Let us help them who are in greater need than him.",
+        "Let us help those who are in greater need than him.",
+        "Let us help them whom are in greater need than he."
+      ],
+      "correctAnswer": "Let us help those who are in greater need than he.",
+      "explanation": "When an antecedent pronoun is qualified by a relative clause ('who are...'), 'those' is preferred over the personal object pronoun 'them'."
+    },
+    {
+        "id": "pronoun_400",
+      "question": "Correct the following sentence: 'What you did it cannot be pardoned.'",
+      "options": [
+        "What you did cannot be pardoned.",
+        "What you did that cannot be pardoned.",
+        "Which you did cannot be pardoned.",
+        "Whatever you did it cannot be pardoned."
+      ],
+      "correctAnswer": "What you did cannot be pardoned.",
+      "explanation": "The noun clause 'What you did' functions completely as the subject of the sentence. Adding the pronoun 'it' creates a redundant grammatical subject."
+    },
+    {
+        "id": "pronoun_401",
+      "question": "Correct the following sentence: 'All the books what you bought are not upto the mark.'",
+      "options": [
+        "All the books that you bought are not up to the mark.",
+        "All the books which you bought are not up to the mark.",
+        "All the books what you bought are not up to the mark.",
+        "All books that you bought are not up to the mark."
+      ],
+      "correctAnswer": "All the books that you bought are not up to the mark.",
+      "explanation": "When an antecedent is quantified by limiting modifiers like 'all', 'only', or 'any', the relative pronoun 'that' is strictly preferred over 'what' or 'which'."
+    },
+    {
+            "id": "pronoun_402",
+      "question": "Correct the following sentence: 'There was every reason to believe that he has changed.'",
+      "options": [
+        "There was every reason to believe that he had changed.",
+        "There was every reason to believe that he has changed.",
+        "There is every reason to believe that he has changed.",
+        "There was every reason to believe that he changed."
+      ],
+      "correctAnswer": "There was every reason to believe that he had changed.",
+      "explanation": "The main setting of the narrative is in the past tense ('There was'). The act of changing happened prior to that past belief, necessitating the past perfect tense ('had changed')."
+    },
+    {
+        "id": "pronoun_403",
+      "question": "Correct the following sentence: 'Tell me the reason that they could not marry.'",
+      "options": [
+        "Tell me the reason why they could not marry.",
+        "Tell me the reason that why they could not marry.",
+        "Tell me reason why they could not marry.",
+        "Tell me the reason because they could not marry."
+      ],
+      "correctAnswer": "Tell me the reason why they could not marry.",
+      "explanation": "The relative adverb 'why' is naturally used to introduce adjective clauses that modify nouns denoting causal conditions such as 'the reason'."
+    },
+    {
+        "id": "pronoun_404",
+      "question": "Correct the following sentence: 'It is better to write with a pen whose nib is smooth.'",
+      "options": [
+        "It is better to write with a pen the nib of which is smooth.",
+        "It is better to write with a pen whose nib is smooth.",
+        "It is better to write with a pen of which nib is smooth.",
+        "It is better to write with a pen which nib is smooth."
+      ],
+      "correctAnswer": "It is better to write with a pen the nib of which is smooth.",
+      "explanation": "While 'whose' is frequently used for non-living objects in modern speech, formal traditional grammar prefers 'the + noun + of which' for inanimate antecedents like 'a pen'."
+    },
+    {
+        "id": "pronoun_405",
+      "question": "Correct the following sentence: 'The boy who you know is not going there.'",
+      "options": [
+        "The boy whom you know is not going there.",
+        "The boy who you know is not going there.",
+        "The boy which you know is not going there.",
+        "The boy that you know is not going there."
+      ],
+      "correctAnswer": "The boy whom you know is not going there.",
+      "explanation": "The relative pronoun serves as the object of the verb 'know' inside the clause ('you know him'), meaning the objective relative case 'whom' is required."
+    },
+    {
+        "id": "pronoun_406",
+      "question": "Correct the following sentence: 'He gave me a book and which I like very much.'",
+      "options": [
+        "He gave me a book which I like very much.",
+        "He gave me a book and I like it very much.",
+        "He gave me a book that which I like very much.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "It is grammatically incorrect to place a coordinating conjunction ('and') immediately before a single relative pronoun ('which'). Removing 'and' or changing the structure resolves the error."
+    },
+    {
+        "id": "pronoun_407",
+      "question": "Correct the following sentence: 'He told me that he saw his father last month.'",
+      "options": [
+        "He told me that he had seen his father the previous month.",
+        "He told me that he saw his father the previous month.",
+        "He told me that he had seen his father last month.",
+        "He told me he saw his father last month."
+      ],
+      "correctAnswer": "He told me that he had seen his father the previous month.",
+      "explanation": "In indirect speech, the reporting verb is in the past ('told'), so a simple past action ('saw') shifts to the past perfect ('had seen'), and time expressions like 'last month' shift to 'the previous month'."
+    },
+    {
+        "id": "pronoun_408",
+      "question": "Correct the following sentence: 'I doubt that you can pass the examination.'",
+      "options": [
+        "I doubt whether you can pass the examination.",
+        "I doubt if you can pass the examination.",
+        "I do not doubt that you can pass the examination.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "In affirmative sentences, the verb 'doubt' is followed by 'if' or 'whether' rather than 'that' because it marks an open uncertainty."
+    },
+    {
+        "id": "pronoun_409",
+      "question": "Correct the following sentence: 'I cannot say as to why he was annoyed.'",
+      "options": [
+        "I cannot say why he was annoyed.",
+        "I cannot say as to why was he annoyed.",
+        "I cannot say that why he was annoyed.",
+        "I cannot say as why he was annoyed."
+      ],
+      "correctAnswer": "I cannot say why he was annoyed.",
+      "explanation": "The prepositional connector phrase 'as to' is redundant when preceding an interrogative adverb like 'why' introducing a noun clause."
+    },
+    {
+        "id": "pronoun_410",
+      "question": "Correct the following sentence: 'Man is the only animal which can laugh.'",
+      "options": [
+        "Man is the only animal that can laugh.",
+        "Man is the only animal who can laugh.",
+        "Man is only animal which can laugh.",
+        "Man is the only animal can laugh."
+      ],
+      "correctAnswer": "Man is the only animal that can laugh.",
+      "explanation": "When an antecedent noun is modified by limiting adjectives like 'the only', the relative pronoun 'that' must be used instead of 'which' or 'who'."
+    },
+    {
+        "id": "pronoun_411",
+      "question": "Correct the following sentence: 'The teacher who met us he teaches us Hindi.'",
+      "options": [
+        "The teacher who met us teaches us Hindi.",
+        "The teacher whom met us teaches us Hindi.",
+        "The teacher who met us, he teaches us Hindi.",
+        "The teacher who met us teaches Hindi."
+      ],
+      "correctAnswer": "The teacher who met us teaches us Hindi.",
+      "explanation": "The noun phrase 'The teacher' is already the subject of the main verb 'teaches'. Adding the personal pronoun 'he' is redundant."
+    },
+    {
+                "id": "pronoun_412",
+      "question": "Correct the following sentence: 'Please find out that what he has done.'",
+      "options": [
+        "Please find out what he has done.",
+        "Please find out that what has he done.",
+        "Please find out what has he done.",
+        "Please find out that he has done."
+      ],
+      "correctAnswer": "Please find out what he has done.",
+      "explanation": "A noun clause introduced by a relative interrogative word like 'what' does not require the coordinating or declarative conjunction 'that' in front of it."
+    },
+    {
+        "id": "pronoun_413",
+      "question": "Correct the following sentence: 'It was no use believing that he is honest.'",
+      "options": [
+        "It was no use believing that he was honest.",
+        "It is no use believing that he is honest.",
+        "It was no use believing that he had been honest.",
+        "It was no use believing him to be honest."
+      ],
+      "correctAnswer": "It was no use believing that he was honest.",
+      "explanation": "The governing context establishes a past reference frame ('It was'), so the subordinate nominal predicate clause must follow the sequence of tenses and change 'is' to 'was'."
+    },
+    {
+        "id": "pronoun_414",
+      "question": "Correct the following sentence: 'She gave the reason that she was ill.'",
+      "options": [
+        "She gave the reason why she was ill.",
+        "She gave the reason because she was ill.",
+        "She gave the reason that she had been ill.",
+        "She explained the reason that she was ill."
+      ],
+      "correctAnswer": "She gave the reason why she was ill.",
+      "explanation": "Adjective clauses that define or describe noun concepts related to motivations ('the reason') are correctly introduced using the relative adverb 'why'."
+    },
+    {
+        "id": "pronoun_415",
+      "question": "Correct the following sentence: 'I asked him where he was going and he could give me a lift to college.'",
+      "options": [
+        "I asked him where he was going and whether he could give me a lift to college.",
+        "I asked him where he was going and if he could give me a lift to college.",
+        "I asked him where he was going and that he could give me a lift to college.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The structure contains two coordinate clauses dependent on the reporting verb 'asked'. The second condition requires a conditional interrogative conjunction ('whether' or 'if') to make grammatical sense."
+    },
+    {
+        "id": "pronoun_416",
+      "question": "Correct the following sentence: 'Those who have common sense should realise what is life.'",
+      "options": [
+        "Those who have common sense should realise what life is.",
+        "Those who have common sense should realise what life was.",
+        "Those who have common sense should realise that what life is.",
+        "Those who have common sense should realise what is life."
+      ],
+      "correctAnswer": "Those who have common sense should realise what life is.",
+      "explanation": "Noun clauses embedded as objects within assertions require a standard declarative word order (subject + verb, i.e., 'what life is'), not an inverted interrogative order."
+    },
+    {
+        "id": "pronoun_417",
+      "question": "Correct the following sentence: 'He was talking of the women who, he told, he met in America.'",
+      "options": [
+        "He was talking of the women whom, he said, he had met in America.",
+        "He was talking of the women who, he said, he met in America.",
+        "He was talking of the women whom, he told, he met in America.",
+        "He was talking of the women who he told he met in America."
+      ],
+      "correctAnswer": "He was talking of the women whom, he said, he had met in America.",
+      "explanation": "The objective case pronoun 'whom' is required because it serves as the object of 'met'. Also, 'said' is used instead of 'told' when there is no direct personal object following it, and the past perfect 'had met' correctly orders the events."
+    },
+    {
+        "id": "pronoun_418",
+      "question": "Correct the following sentence: 'He always tells me that If I work hard, I will pass.'",
+      "options": [
+        "He always tells me that if I work hard, I will pass.",
+        "He always tells me if I work hard, I will pass.",
+        "He always tells me that if I shall work hard, I will pass.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The capitalization of 'If' inside the clause is typographically incorrect. Furthermore, in indirect structures, the conjunction 'that' can be explicitly retained or omitted before a conditional clause."
+    },
+    {
+        "id": "pronoun_419",
+      "question": "Correct the following sentence: 'My friend came to see me who was my classmate in school.'",
+      "options": [
+        "My friend, who was my classmate in school, came to see me.",
+        "My friend came to see me, who was my classmate in school.",
+        "My friend came who was my classmate in school to see me.",
+        "To see me came my friend who was my classmate in school."
+      ],
+      "correctAnswer": "My friend, who was my classmate in school, came to see me.",
+      "explanation": "The relative adjective clause ('who was my classmate...') must sit next to its immediate individual antecedent ('My friend') to ensure clarity."
+    },
+    {
+        "id": "pronoun_420",
+      "question": "Correct the following sentence: 'What you say and what you do is not tolerable.'",
+      "options": [
+        "What you say and what you do are not tolerable.",
+        "What you say and what you do is not tolerable.",
+        "That what you say and do are not tolerable.",
+        "What you say and do is not tolerable."
+      ],
+      "correctAnswer": "What you say and what you do are not tolerable.",
+      "explanation": "When two distinct nominal clauses ('What you say' and 'what you do') are joined by the coordinating conjunction 'and', they form a compound subject that requires a plural verb ('are')."
+    },
+    {
+        "id": "pronoun_421",
+      "question": "Correct the following sentence: 'I asked him that if he was still living in Delhi.'",
+      "options": [
+        "I asked him if he was still living in Delhi.",
+        "I asked him whether he was still living in Delhi.",
+        "I asked him that whether he was still living in Delhi.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "Combining a declarative conjunction ('that') with a conditional interrogative conjunction ('if' / 'whether') is incorrect in indirect questions."
+    },
+    {
+        "id": "pronoun_422",
+      "question": "Correct the following sentence: 'My problem is the same that yours.'",
+      "options": [
+        "My problem is the same as yours.",
+        "My problem is same that yours.",
+        "My problem is same as yours.",
+        "My problem is the same that of yours."
+      ],
+      "correctAnswer": "My problem is the same as yours.",
+      "explanation": "When comparing pronouns or elliptical noun phrases directly without a full following clause, 'the same' pairs with the correlative particle 'as'."
+    },
+    {
+        "id": "pronoun_423",
+      "question": "Correct the following sentence: 'They do not know anything what we know.'",
+      "options": [
+        "They do not know anything that we know.",
+        "They do not know anything which we know.",
+        "They do not know anything what we know.",
+        "They do not know everything what we know."
+      ],
+      "correctAnswer": "They do not know anything that we know.",
+      "explanation": "Indefinite pronouns like 'anything', 'nothing', or 'everything' require the restrictive relative pronoun 'that' rather than 'what' or 'which'."
+    },
+    {
+          "id": "pronoun_424",
+      "question": "Correct the following sentence: 'The teacher told the students that honesty is the best policy.'",
+      "options": [
+        "The teacher told the students that honesty is the best policy.",
+        "The teacher told the students that honesty was the best policy.",
+        "The teacher told the students honesty is the best policy.",
+        "The teacher said the students that honesty is the best policy."
+      ],
+      "correctAnswer": "The teacher told the students that honesty is the best policy.",
+      "explanation": "The sentence is already correct. Even when a reporting matrix verb is in the past tense ('told'), a universal truth or proverb retains its present tense form."
+    },
+    {
+        "id": "pronoun_425",
+      "question": "Correct the following sentence: 'I shall do this work when you will pay me.'",
+      "options": [
+        "I shall do this work when you pay me.",
+        "I shall do this work when you will pay me.",
+        "I do this work when you will pay me.",
+        "I shall do this work when you shall pay me."
+      ],
+      "correctAnswer": "I shall do this work when you pay me.",
+      "explanation": "In future temporal adverbial clauses introduced by conditional/time links like 'when', the simple present tense is used instead of the future tense."
+    },
+    {
+        "id": "pronoun_426",
+      "question": "Correct the following sentence: 'I shall lend you my car if you will not misuse it.'",
+      "options": [
+        "I shall lend you my car if you do not misuse it.",
+        "I shall lend you my car if you will not misuse it.",
+        "I would lend you my car if you will not misuse it.",
+        "I shall lend you my car unless you do not misuse it."
+      ],
+      "correctAnswer": "I shall lend you my car if you do not misuse it.",
+      "explanation": "Subordinate conditional clauses introduced by 'if' use the simple present tense ('do not misuse') when predicting a future outcome, not the future modal 'will'."
+    },
+    {
+            "id": "pronoun_427",
+      "question": "Correct the following sentence: 'I would have believed if I saw with my own eyes yesterday.'",
+      "options": [
+        "I would have believed it if I had seen it with my own eyes yesterday.",
+        "I would believe if I had seen with my own eyes yesterday.",
+        "I would have believed if I saw with my own eyes yesterday.",
+        "I had believed if I would see with my own eyes yesterday."
+      ],
+      "correctAnswer": "I would have believed it if I had seen it with my own eyes yesterday.",
+      "explanation": "This is a closed third conditional statement regarding a past event. The structure requires 'would have + past participle' in the main clause and the past perfect ('had seen') in the conditional clause."
+    },
+    {
+        "id": "pronoun_428",
+      "question": "Correct the following sentence: 'If I were you, I shall never help him.'",
+      "options": [
+        "If I were you, I would never help him.",
+        "If I were you, I should never help him.",
+        "If I am you, I shall never help him.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "This is a second conditional sentence representing a hypothetical present/future state. The past subjunctive 'were' in the conditional clause requires a past modal option ('would' or 'should') in the main clause."
+    },
+    {
+        "id": "pronoun_429",
+      "question": "Correct the following sentence: 'If she had a book yesterday she would not have refused to give.'",
+      "options": [
+        "If she had had a book yesterday, she would not have refused to give it.",
+        "If she had a book yesterday, she would not refuse to give.",
+        "Had she a book yesterday, she would not have refused to give.",
+        "If she had had a book yesterday, she will not have refused to give."
+      ],
+      "correctAnswer": "If she had had a book yesterday, she would not have refused to give it.",
+      "explanation": "To indicate past possession in a third conditional statement ('yesterday'), the conditional clause needs the past perfect form 'had had'."
+    },
+    {
+        "id": "pronoun_430",
+      "question": "Correct the following sentence: 'Nothing is so good like we think.'",
+      "options": [
+        "Nothing is so good as we think.",
+        "Nothing is as good like we think.",
+        "Nothing is so good like we think.",
+        "Nothing is so good as what we think."
+      ],
+      "correctAnswer": "Nothing is so good as we think.",
+      "explanation": "Negative comparative assertions are constructed using the correlative dynamic pair 'so... as' rather than 'so... like'."
+    },
+    {
+        "id": "pronoun_431",
+      "question": "Correct the following sentence: 'You have done it because I forbade you.'",
+      "options": [
+        "You have done it although I forbade you.",
+        "You have done it because I did not forbid you.",
+        "You have done it though I forbade you.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "You have done it although I forbade you.",
+      "explanation": "The context implies an action performed in opposition to a command, requiring a concessive conjunction like 'although' or 'though' instead of the causal connector 'because'."
+    },
+    {
+        "id": "pronoun_432",
+      "question": "Correct the following sentence: 'Carry it carefully lest it will break.'",
+      "options": [
+        "Carry it carefully lest it should break.",
+        "Carry it carefully lest it will break.",
+        "Carry it carefully lest it may break.",
+        "Carry it carefully lest it breaks."
+      ],
+      "correctAnswer": "Carry it carefully lest it should break.",
+      "explanation": "The negative conditional connector 'lest' explicitly requires the auxiliary modal 'should' in standard English syntax."
+    },
+    {
+        "id": "pronoun_433",
+      "question": "Correct the following sentence: 'Let us not behave as though we are indifferent to others.'",
+      "options": [
+        "Let us not behave as though we were indifferent to others.",
+        "Let us not behave as though we are indifferent to others.",
+        "Let us not behave as though we had been indifferent to others.",
+        "Let us not behave as though we be indifferent to others."
+      ],
+      "correctAnswer": "Let us not behave as though we were indifferent to others.",
+      "explanation": "Hypothetical clauses introduced by 'as though' or 'as if' require the past subjunctive 'were' to show an unreal state."
+    },
+    {
+        "id": "pronoun_434",
+      "question": "Correct the following sentence: 'When you complete this work, I shall buy you sweets.'",
+      "options": [
+        "When you have completed this work, I shall buy you sweets.",
+        "When you complete this work, I shall buy you sweets.",
+        "When you will complete this work, I shall buy you sweets.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "In future time clauses, both the simple present ('complete') and the present perfect ('have completed') are grammatically acceptable to indicate the completion of an action before the main future action."
+    },
+    {
+        "id": "pronoun_435",
+      "question": "Correct the following sentence: 'By the time the sun set he typed all letters.'",
+      "options": [
+        "By the time the sun set, he had typed all the letters.",
+        "By the time the sun set, he typed all letters.",
+        "By the time the sun had set, he typed all letters.",
+        "By the time the sun set, he has typed all letters."
+      ],
+      "correctAnswer": "By the time the sun set, he had typed all the letters.",
+      "explanation": "The phrase 'by the time' indicates that an action was completed prior to a specific point in the past. This requires the past perfect tense ('had typed') in the main clause."
+    },
+    {
+        "id": "pronoun_436",
+      "question": "Correct the following sentence: 'I have not seen her since she has come back from Delhi.'",
+      "options": [
+        "I have not seen her since she came back from Delhi.",
+        "I have not seen her since she has come back from Delhi.",
+        "I did not see her since she came back from Delhi.",
+        "I had not seen her since she came back from Delhi."
+      ],
+      "correctAnswer": "I have not seen her since she came back from Delhi.",
+      "explanation": "When 'since' functions as a temporal conjunction meaning 'from that past time until now', the clause introduced by 'since' must use the simple past tense ('came')."
+    },
+    {
+          "id": "pronoun_437",
+      "question": "Correct the following sentence: 'Unless she does not mend her behaviour, I shall send her out.'",
+      "options": [
+        "Unless she mends her behaviour, I shall send her out.",
+        "Until she does not mend her behaviour, I shall send her out.",
+        "If she mends her behaviour, I shall send her out.",
+        "Unless she does mend her behaviour, I shall send her out."
+      ],
+      "correctAnswer": "Unless she mends her behaviour, I shall send her out.",
+      "explanation": "The conjunction 'unless' inherent contains a negative meaning ('if... not'). Using a secondary negative ('does not') within the clause creates an incorrect double negative."
+    },
+    {
+        "id": "pronoun_438",
+      "question": "Correct the following sentence: 'After you go through the book, please return it to me.'",
+      "options": [
+        "After you have gone through the book, please return it to me.",
+        "After you go through the book, please return it to me.",
+        "After you will go through the book, please return it to me.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "In future time clauses introduced by 'after', using either the simple present ('go through') or the present perfect ('have gone through') is grammatically correct."
+    },
+    {
+        "id": "pronoun_439",
+      "question": "Correct the following sentence: 'As she is obstinate so she will not obey you.'",
+      "options": [
+        "As she is obstinate, she will not obey you.",
+        "Since she is obstinate so she will not obey you.",
+        "As she is obstinate therefore she will not obey you.",
+        "Because she is obstinate so she will not obey you."
+      ],
+      "correctAnswer": "As she is obstinate, she will not obey you.",
+      "explanation": "Conjunctions of reason like 'as', 'because', and 'since' should not be paired with coordinate correlatives like 'so' or 'therefore' in the main clause."
+    },
+    {
+        "id": "pronoun_440",
+      "question": "Correct the following sentence: 'The child is out since her mother went to market.'",
+      "options": [
+        "The child has been out since her mother went to the market.",
+        "The child is out since her mother went to market.",
+        "The child was out since her mother went to market.",
+        "The child had been out since her mother went to market."
+      ],
+      "correctAnswer": "The child has been out since her mother went to the market.",
+      "explanation": "When a continuing state is anchored by a past event introduced by 'since', the main clause must use the present perfect tense ('has been')."
+    },
+    {
+        "id": "pronoun_441",
+      "question": "Correct the following sentence: 'Though he ran fast still he could not escape from the police.'",
+      "options": [
+        "Though he ran fast, yet he could not escape from the police.",
+        "Though he ran fast, he could not escape from the police.",
+        "Though he ran fast still he could not escape from the police.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The concessive conjunction 'though' pairs with 'yet' or a simple comma in the main clause. It should not be paired with 'still'."
+    },
+    {
+        "id": "pronoun_442",
+      "question": "Correct the following sentence: 'He is a good student but I have much pleasure in granting him scholarship.'",
+      "options": [
+        "He is a good student, and therefore I have much pleasure in granting him a scholarship.",
+        "He is a good student but I have much pleasure in granting him scholarship.",
+        "He is a good student so I have much pleasure in granting him scholarship.",
+        "He is a good student though I have much pleasure in granting him scholarship."
+      ],
+      "correctAnswer": "He is a good student, and therefore I have much pleasure in granting him a scholarship.",
+      "explanation": "The original sentence uses 'but', which incorrectly suggests a contrast. Granting a scholarship logically flows from being a good student, so a causal coordinator like 'and therefore' or 'so' is required."
+    },
+    {
+        "id": "pronoun_443",
+      "question": "Correct the following sentence: 'He started early because he might not get late.'",
+      "options": [
+        "He started early so that he might not get late.",
+        "He started early lest he should get late.",
+        "He started early because he might not get late.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The clause expresses purpose, not a direct cause. This requires purpose structures like 'so that... might not' or the negative purpose clause 'lest... should'."
+    },
+    {
+        "id": "pronoun_444",
+      "question": "Correct the following sentence: 'He had reached office before it started raining.'",
+      "options": [
+        "He had reached office before it started raining.",
+        "He reached office before it started raining.",
+        "He had reached office before it had started raining.",
+        "He reached office before it had started raining."
+      ],
+      "correctAnswer": "He had reached office before it started raining.",
+      "explanation": "The sentence is already correct. When two past actions are linked by 'before', the earlier action uses the past perfect ('had reached') and the later action uses the simple past ('started')."
+    },
+    {
+        "id": "pronoun_445",
+      "question": "Correct the following sentence: 'She rang me up after she decided to go out.'",
+      "options": [
+        "She rang me up after she had decided to go out.",
+        "She rang me up after she decided to go out.",
+        "She had rung me up after she decided to go out.",
+        "She rang me up after she has decided to go out."
+      ],
+      "correctAnswer": "She rang me up after she had decided to go out.",
+      "explanation": "When two past actions are linked by 'after', the action that happened first must be expressed in the past perfect tense ('had decided')."
+    },
+    {
+                "id": "pronoun_446",
+      "question": "Correct the following sentence: 'She is as tall like her mother.'",
+      "options": [
+        "She is as tall as her mother.",
+        "She is so tall like her mother.",
+        "She is as tall like her mother.",
+        "She is tall like her mother."
+      ],
+      "correctAnswer": "She is as tall as her mother.",
+      "explanation": "Affirmative comparisons of equality use the balanced correlative structure 'as + adjective + as'."
+    },
+    {
+              "id": "pronoun_447",
+      "question": "Correct the following sentence: 'Supposing if he refuses you money, what will you do?'",
+      "options": [
+        "Supposing he refuses you money, what will you do?",
+        "If he refuses you money, what will you do?",
+        "Supposing if he refuses you money, what will you do?",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "'Supposing' and 'if' have the same meaning in conditional sentences. Using both together ('supposing if') is redundant, so one must be removed."
+    },
+    {
+        "id": "pronoun_448",
+      "question": "Correct the following sentence: 'When the boys were playing, the teachers were watching them.'",
+      "options": [
+        "While the boys were playing, the teachers were watching them.",
+        "When the boys were playing, the teachers were watching them.",
+        "When the boys played, the teachers were watching them.",
+        "While the boys were playing, the teachers watched them."
+      ],
+      "correctAnswer": "While the boys were playing, the teachers were watching them.",
+      "explanation": "The conjunction 'while' is preferred over 'when' to highlight two continuous actions occurring simultaneously."
+    },
+    {
+        "id": "pronoun_449",
+      "question": "Correct the following sentence: 'Don't go out until you do not hear gun shot.'",
+      "options": [
+        "Don't go out until you hear the gun shot.",
+        "Don't go out until you do not hear gun shot.",
+        "Don't go out unless you do not hear gun shot.",
+        "Don't go out till you do not hear gun shot."
+      ],
+      "correctAnswer": "Don't go out until you hear the gun shot.",
+      "explanation": "The time conjunction 'until' implicitly contains a negative meaning ('up to the time that not'). Adding 'do not' inside the clause creates an incorrect double negative."
+    },
+    {
+        "id": "pronoun_450",
+      "question": "Correct the following sentence: 'You will not get well until you take medicine regularly.'",
+      "options": [
+        "You will not get well unless you take medicine regularly.",
+        "You will not get well until you take medicine regularly.",
+        "You will not get well until you do not take medicine regularly.",
+        "You will not get well unless you do not take medicine regularly."
+      ],
+      "correctAnswer": "You will not get well unless you take medicine regularly.",
+      "explanation": "The sentence requires a conditional constraint ('if you do not take'), which is expressed by 'unless'. 'Until' is used for time limits, making 'unless' the correct choice here."
+    },
+    {
+        "id": "pronoun_451",
+      "question": "Correct the following sentence: 'If I know him, I would invite him.'",
+      "options": [
+        "If I knew him, I would invite him.",
+        "If I know him, I will invite him.",
+        "If I had known him, I would have invited him.",
+        "All the above options are correct conditional forms."
+      ],
+      "correctAnswer": "All the above options are correct conditional forms.",
+      "explanation": "The correct form depends on the intended condition: a real future condition (Option B), a hypothetical present condition (Option A), or a hypothetical past condition (Option C). The original mixed form is incorrect."
+    },
+    {
+        "id": "pronoun_452",
+      "question": "Correct the following sentence: 'I shall show you my garden after you take rest.'",
+      "options": [
+        "I shall show you my garden after you have taken rest.",
+        "I shall show you my garden after you take rest.",
+        "I shall show you my garden after you will take rest.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "In future time clauses introduced by 'after', both the simple present ('take') and the present perfect ('have taken') are grammatically correct options."
+    },
+    {
+        "id": "pronoun_453",
+      "question": "Correct the following sentence: 'She is too weak that she cannot run.'",
+      "options": [
+        "She is so weak that she cannot run.",
+        "She is too weak to run.",
+        "She is very weak that she cannot run.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The intensive modifier 'too' pairs with a to-infinitive ('too weak to run'). If a finite clause introduced by 'that' is used, it must be paired with 'so' ('so weak that')."
+    },
+    {
+        "id": "pronoun_454",
+      "question": "Correct the following sentence: 'She is very kind to me since I fell ill.'",
+      "options": [
+        "She has been very kind to me since I fell ill.",
+        "She is very kind to me since I fell ill.",
+        "She was very kind to me since I fell ill.",
+        "She had been very kind to me since I fell ill."
+      ],
+      "correctAnswer": "She has been very kind to me since I fell ill.",
+      "explanation": "When an ongoing state is anchored by a past time frame introduced by 'since', the main predicate must be in the present perfect tense ('has been')."
+    },
+    {
+        "id": "pronoun_455",
+      "question": "Correct the following sentence: 'I know something what my mother told you.'",
+      "options": [
+        "I know something that my mother told you.",
+        "I know something which my mother told you.",
+        "I know what my mother told you.",
+        "Both A and C are correct."
+      ],
+      "correctAnswer": "Both A and C are correct.",
+      "explanation": "The relative pronoun 'what' contains its own antecedent and cannot follow the noun 'something'. You must either use 'something that' or remove 'something' to leave just the noun clause 'what my mother told you'."
+    },
+    {
+        "id": "pronoun_456",
+      "question": "Correct the following sentence: 'I cannot say what is she doing these days.'",
+      "options": [
+        "I cannot say what she is doing these days.",
+        "I cannot say what is she doing these days.",
+        "I cannot say that what she is doing these days.",
+        "I cannot say what she does these days."
+      ],
+      "correctAnswer": "I cannot say what she is doing these days.",
+      "explanation": "Indirect object noun clauses require assertive word order (subject + verb, i.e., 'what she is doing'), not the inverted question order ('what is she')."
+    },
+    {
+        "id": "pronoun_457",
+      "question": "Correct the following sentence: 'Maruti is one of those motor cars which are liked very much.'",
+      "options": [
+        "Maruti is one of those motor cars which are liked very much.",
+        "Maruti is one of those motor car which are liked very much.",
+        "Maruti is one of those motor cars which is liked very much.",
+        "Maruti is one of those motor cars that is liked very much."
+      ],
+      "correctAnswer": "Maruti is one of those motor cars which are liked very much.",
+      "explanation": "The phrase 'one of those' must be followed by a plural noun ('cars'). The relative pronoun 'which' refers back to this plural noun, so it requires a plural verb ('are')."
+    },
+    {
+        "id": "english_noun_adj_clause_458",
+      "question": "Correct the following sentence: 'I doubt that my father will help you.'",
+      "options": [
+        "I doubt whether my father will help you.",
+        "I doubt if my father will help you.",
+        "I doubt that my father will help you.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "In affirmative sentences, the verb 'doubt' is followed by 'whether' or 'if' to express uncertainty, rather than the definitive conjunction 'that'."
+    },
+    {
+        "id": "english_noun_adj_clause_459",
+      "question": "Correct the following sentence: 'She was singing which I did not like.'",
+      "options": [
+        "She was singing, which I did not like.",
+        "She was singing that I did not like.",
+        "Her singing was which I did not like.",
+        "She was singing what I did not like."
+      ],
+      "correctAnswer": "She was singing, which I did not like.",
+      "explanation": "When 'which' modifies an entire preceding clause ('She was singing') rather than a single noun, it forms a non-restrictive clause that must be preceded by a comma."
+    },
+    {
+        "id": "english_noun_adj_clause_460",
+      "question": "Correct the following sentence: 'Don't go out until you are not well.'",
+      "options": [
+        "Don't go out until you are well.",
+        "Don't go out unless you are well.",
+        "Don't go out until you are not well.",
+        "Don't go out till you are not well."
+      ],
+      "correctAnswer": "Don't go out until you are well.",
+      "explanation": "The time conjunction 'until' already contains a negative meaning. Adding 'not' inside the clause creates an incorrect double negative."
+    },
+    {
+        "id": "english_noun_adj_clause_461",
+      "question": "Correct the following sentence: 'Sanskrit is one of the oldest languages that was spoken by the Aryans.'",
+      "options": [
+        "Sanskrit is one of the oldest languages that were spoken by the Aryans.",
+        "Sanskrit is one of the oldest languages that was spoken by the Aryans.",
+        "Sanskrit is one of the oldest language that were spoken by the Aryans.",
+        "Sanskrit is one of oldest languages which was spoken by the Aryans."
+      ],
+      "correctAnswer": "Sanskrit is one of the oldest languages that were spoken by the Aryans.",
+      "explanation": "The relative pronoun 'that' refers back to the plural noun 'languages', so it requires a plural verb ('were') in the relative clause."
+    },
+    {
+        "id": "english_noun_adj_clause_462",
+      "question": "Correct the following sentence: 'Have you ever met such a boy who has not travelled by train?'",
+      "options": [
+        "Have you ever met such a boy as has not travelled by train?",
+        "Have you ever met such a boy who has not travelled by train?",
+        "Have you ever met a boy such as who has not travelled by train?",
+        "Have you ever met such a boy that has not travelled by train?"
+      ],
+      "correctAnswer": "Have you ever met such a boy as has not travelled by train?",
+      "explanation": "The antecedent modifier 'such' pairs with the relative particle 'as' instead of 'who' or 'which' when introducing a restrictive relative clause."
+    },
+    {
+        "id": "english_noun_adj_clause_463",
+      "question": "Correct the following sentence: 'She behaves with her neighbour as though she is the landlady.'",
+      "options": [
+        "She behaves with her neighbour as though she were the landlady.",
+        "She behaves with her neighbour as though she is the landlady.",
+        "She behaves with her neighbour as though she was the landlady.",
+        "She behaves with her neighbour as though she had been the landlady."
+      ],
+      "correctAnswer": "She behaves with her neighbour as though she were the landlady.",
+      "explanation": "Hypothetical clauses introduced by 'as though' require the past subjunctive 'were' to show an unreal condition."
+    },
+    {
+        "id": "english_noun_adj_clause_464",
+      "question": "Correct the following sentence: 'He said that what he was doing was not correct.'",
+      "options": [
+        "He said that what he was doing was not correct.",
+        "He said what he was doing was not correct.",
+        "He said that what was he doing was not correct.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The sentence is grammatically correct. In indirect speech, the conjunction 'that' before an embedded object noun clause ('what he was doing') can be explicitly included or omitted."
+    },
+    {
+        "id": "english_noun_adj_clause_465",
+      "question": "Correct the following sentence: 'I shall come back by the time you get up.'",
+      "options": [
+        "I shall come back by the time you get up.",
+        "I shall come back by the time you will get up.",
+        "I shall have come back by the time you get up.",
+        "I come back by the time you get up."
+      ],
+      "correctAnswer": "I shall have come back by the time you get up.",
+      "explanation": "The phrase 'by the time' indicates that an action will be completed before a future point. This requires the future perfect tense ('shall have come') in the main clause."
+    },
+    {
+              "id": "pronoun_466",
+      "question": "Correct the following sentence: 'It is the tree whose fruit is not sweet.'",
+      "options": [
+        "It is the tree the fruit of which is not sweet.",
+        "It is the tree whose fruit is not sweet.",
+        "It is the tree of which fruit is not sweet.",
+        "It is the tree which fruit is not sweet."
+      ],
+      "correctAnswer": "It is the tree the fruit of which is not sweet.",
+      "explanation": "Formal traditional grammar avoids using 'whose' for inanimate objects ('the tree'), preferring the structured pattern 'the + noun + of which'."
+    },
+    {
+        "id": "pronoun_467",
+      "question": "Correct the following sentence: 'Though he ran fast still he could not escape from the police.'",
+      "options": [
+        "Though he ran fast, yet he could not escape from the police.",
+        "Though he ran fast, he could not escape from the police.",
+        "Though he ran fast still he could not escape from the police.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The concessive conjunction 'though' should be paired with 'yet' or a simple comma in the main clause, not with 'still'."
+    },
+    {
+        "id": "pronoun_468",
+      "question": "Correct the following sentence: 'When she will marry, she will invite you.'",
+      "options": [
+        "When she marries, she will invite you.",
+        "When she will marry, she will invite you.",
+        "When she shall marry, she will invite you.",
+        "When she marries, she invites you."
+      ],
+      "correctAnswer": "When she marries, she will invite you.",
+      "explanation": "In future time clauses introduced by 'when', the simple present tense ('marries') must be used instead of the future modal 'will'."
+    },
+    {
+        "id": "pronoun_469",
+      "question": "Correct the following sentence: 'Who knows that when will the result be out?'",
+      "options": [
+        "Who knows when the result will be out?",
+        "Who knows that when the result will be out?",
+        "Who knows when will the result be out?",
+        "Who knows that when will the result be out?"
+      ],
+      "correctAnswer": "Who knows when the result will be out?",
+      "explanation": "Using 'that when' is redundant. Additionally, the indirect question clause requires an assertive word order ('the result will be') rather than an inverted order."
+    },
+    {
+        "id": "pronoun_470",
+      "question": "Correct the following sentence: 'When you complete your service, you will be retired on pension.'",
+      "options": [
+        "When you have completed your service, you will be retired on pension.",
+        "When you complete your service, you will be retired on pension.",
+        "When you will complete your service, you will be retired on pension.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "In future time clauses, both the simple present ('complete') and the present perfect ('have completed') are grammatically correct options to indicate a condition before the main action."
+    },
+    {
+        "id": "pronoun_471",
+      "question": "Correct the following sentence: 'You must carry on so that you will succeed.'",
+      "options": [
+        "You must carry on so that you may succeed.",
+        "You must carry on so that you will succeed.",
+        "You must carry on so that you should succeed.",
+        "You must carry on so that you succeeded."
+      ],
+      "correctAnswer": "You must carry on so that you may succeed.",
+      "explanation": "Purpose clauses introduced by 'so that' require the auxiliary verb 'may' when the main clause verb is in the present tense or an imperative form."
+    },
+    {
+        "id": "pronoun_472",
+      "question": "Correct the following sentence: 'Twelve years passed since his uncle has died.'",
+      "options": [
+        "Twelve years have passed since his uncle died.",
+        "Twelve years passed since his uncle died.",
+        "Twelve years have passed since his uncle has died.",
+        "Twelve years passed since his uncle had died."
+      ],
+      "correctAnswer": "Twelve years have passed since his uncle died.",
+      "explanation": "When 'since' links a past event to the present, the main clause uses the present perfect ('have passed') and the clause following 'since' uses the simple past ('died')."
+    },
+    {
+        "id": "pronoun_473",
+      "question": "Correct the following sentence: 'He cannot see clearly unless he will wear glasses.'",
+      "options": [
+        "He cannot see clearly unless he wears glasses.",
+        "He cannot see clearly unless he will wear glasses.",
+        "He cannot see clearly until he wears glasses.",
+        "He cannot see clearly unless he doesn't wear glasses."
+      ],
+      "correctAnswer": "He cannot see clearly unless he wears glasses.",
+      "explanation": "Subordinate conditional clauses introduced by 'unless' use the simple present tense ('wears') to refer to future or habitual states, not the modal 'will'."
+    },
+    {
+        "id": "pronoun_474",
+      "question": "Correct the following sentence: 'Don't go out until you complete the work.'",
+      "options": [
+        "Don't go out until you have completed the work.",
+        "Don't go out until you complete the work.",
+        "Don't go out unless you complete the work.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The sentence is grammatically correct. In future time clauses, both the simple present ('complete') and the present perfect ('have completed') are acceptable."
+    },
+    {
+        "id": "pronoun_475",
+      "question": "Correct the following sentence: 'They are working hard so that they will pass.'",
+      "options": [
+        "They are working hard so that they may pass.",
+        "They are working hard so that they will pass.",
+        "They are working hard so that they should pass.",
+        "They are working hard so that they can pass."
+      ],
+      "correctAnswer": "They are working hard so that they may pass.",
+      "explanation": "A clause of purpose introduced by 'so that' requires the auxiliary 'may' when the main clause is in a present tense frame."
+    },
+    {
+        "id": "pronoun_476",
+      "question": "Correct the following sentence: 'If they had run faster, they could catch the thief last night.'",
+      "options": [
+        "If they had run faster, they could have caught the thief last night.",
+        "If they ran faster, they could catch the thief last night.",
+        "If they had run faster, they could catch the thief last night.",
+        "Had they run faster, they could catch the thief last night."
+      ],
+      "correctAnswer": "If they had run faster, they could have caught the thief last night.",
+      "explanation": "This is a third conditional sentence about a past event ('last night'). The main clause requires the past modal perfect form 'could have caught'."
+    },
+    {
+        "id": "pronoun_477",
+      "question": "Correct the following sentence: 'Were she I, she will not allow you to go.'",
+      "options": [
+        "Were she I, she would not allow you to go.",
+        "Were she me, she would not allow you to go.",
+        "If she was me, she will not allow you to go.",
+        "Were she I, she should not allow you to go."
+      ],
+      "correctAnswer": "Were she I, she would not allow you to go.",
+      "explanation": "This inverted clause ('Were she I') sets up a hypothetical condition, which requires the past modal 'would' in the main clause. The subject case 'I' after the verb 'to be' is formally correct."
+    },
+    {
+        "id": "pronoun_478",
+      "question": "Correct the following sentence: 'They stole the books before the lady returned.'",
+      "options": [
+        "They had stolen the books before the lady returned.",
+        "They stole the books before the lady returned.",
+        "They stole the books before the lady had returned.",
+        "They had stolen the books before the lady had returned."
+      ],
+      "correctAnswer": "They had stolen the books before the lady returned.",
+      "explanation": "When two past events are linked by 'before', the earlier action must be expressed in the past perfect tense ('had stolen')."
+    },
+    {
+        "id": "pronoun_479",
+      "question": "Correct the following sentence: 'As they were in trouble therefore they did not attend marriage.'",
+      "options": [
+        "As they were in trouble, they did not attend the wedding.",
+        "Because they were in trouble therefore they did not attend marriage.",
+        "Since they were in trouble so they did not attend marriage.",
+        "As they were in trouble therefore they did not attend the wedding."
+      ],
+      "correctAnswer": "As they were in trouble, they did not attend the wedding.",
+      "explanation": "Conjunctions of reason like 'as' should not be paired with coordinate markers like 'therefore' or 'so' in the main clause. Additionally, 'wedding' is the preferred term for the event."
+    },
+    {
+        "id": "pronoun_480",
+      "question": "Correct the following sentence: 'Which you did cannot be pardoned.'",
+      "options": [
+        "What you did cannot be pardoned.",
+        "Which you did cannot be pardoned.",
+        "That which you did it cannot be pardoned.",
+        "Whatever you did it cannot be pardoned."
+      ],
+      "correctAnswer": "What you did cannot be pardoned.",
+      "explanation": "The relative pronoun 'what' should be used here because it functions as a nominal clause containing its own antecedent ('the thing that you did')."
+    },
+    {
+        "id": "pronoun_481",
+      "question": "Correct the following sentence: 'When you take your food, see me in the office.'",
+      "options": [
+        "When you have taken your food, see me in the office.",
+        "When you take your food, see me in the office.",
+        "After you will take your food, see me in the office.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The sentence is grammatically correct. In future/imperative time clauses, both the simple present ('take') and the present perfect ('have taken') can be used."
+    },
+    {
+              "id": "pronoun_482",
+      "question": "Correct the following sentence: 'Her name is as glorious in our history as any other leader.'",
+      "options": [
+        "Her name is as glorious in our history as that of any other leader.",
+        "Her name is as glorious in our history as any other leader's.",
+        "Her name is as glorious in our history as any other leader.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The comparison must be parallel. You cannot compare a 'name' directly to a 'leader'. It must be compared to the leader's name, which is achieved using 'that of any other leader' or 'any other leader's'."
+    },
+    {
+      "id": "pronoun_483",
+      "question": "Correct the following sentence: 'The location of your house is more suitable than my house.'",
+      "options": [
+        "The location of your house is more suitable than that of my house.",
+        "The location of your house is more suitable than my house's.",
+        "The location of your house is more suitable than mine.",
+        "Both A and C are correct."
+      ],
+      "correctAnswer": "Both A and C are correct.",
+      "explanation": "The comparison must be parallel. You cannot compare a 'location' to a 'house'. It must be compared to another location, using either 'that of my house' or the pronoun 'mine'."
+    },
+    {
+      "id": "pronoun_484",
+      "question": "Correct the following sentence: 'If she had his intelligence, she would have made a mark in her early life.'",
+      "options": [
+        "If she had had his intelligence, she would have made a mark in her early life.",
+        "If she had his intelligence, she would make a mark in her early life.",
+        "If she had his intelligence, she would have made a mark in her early life.",
+        "Both A and B are correct structural adaptations."
+      ],
+      "correctAnswer": "Both A and B are correct structural adaptations.",
+      "explanation": "The original mixed conditional is incorrect. It must either be a pure second conditional ('If she had... she would make') or a pure third conditional about the past ('If she had had... she would have made')."
+    },
+    {
+      "id": "pronoun_485",
+      "question": "Correct the following sentence: 'Please explain the reason that you did not make the payment on time.'",
+      "options": [
+        "Please explain the reason why you did not make the payment on time.",
+        "Please explain the reason that you did not make the payment on time.",
+        "Please explain why you did not make the payment on time.",
+        "Both A and C are correct."
+      ],
+      "correctAnswer": "Both A and C are correct.",
+      "explanation": "Noun phrases denoting cause ('the reason') should be followed by the relative adverb 'why'. Alternatively, you can drop 'the reason' entirely and just use the noun clause 'why you did not...'."
+    },
+    {
+      "id": "pronoun_486",
+      "question": "Correct the following sentence: 'What India needs are honest leaders.'",
+      "options": [
+        "What India needs is honest leaders.",
+        "What India needs are honest leaders.",
+        "That what India needs is honest leaders.",
+        "What India need are honest leaders."
+      ],
+      "correctAnswer": "What India needs is honest leaders.",
+      "explanation": "When a singular noun clause ('What India needs') serves as the subject, it takes a singular verb ('is'), even if the predicate noun that follows it is plural."
+    },
+    {
+      "id": "pronoun_487",
+      "question": "Correct the following sentence: 'What your mother told me and why she told me is not clear to me.'",
+      "options": [
+        "What your mother told me and why she told me are not clear to me.",
+        "What your mother told me and why she told me is not clear to me.",
+        "That what your mother told me and why she told me are not clear to me.",
+        "What your mother told me and why did she tell me are not clear to me."
+      ],
+      "correctAnswer": "What your mother told me and why she told me are not clear to me.",
+      "explanation": "When two distinct noun clauses are connected by 'and', they form a compound subject that requires a plural verb ('are')."
+    },
+    {
+      "id": "pronoun_488",
+      "question": "Correct the following sentence: 'I do not know that when will he like to go.'",
+      "options": [
+        "I do not know when he will like to go.",
+        "I do not know that when he will like to go.",
+        "I do not know when will he like to go.",
+        "I do not know that when will he like to go."
+      ],
+      "correctAnswer": "I do not know when he will like to go.",
+      "explanation": "Combining the conjunction 'that' with 'when' is incorrect. Additionally, indirect questions must use assertive word order ('he will') rather than inverted order ('will he')."
+    },
+    {
+      "id": "pronoun_489",
+      "question": "Correct the following sentence: 'I told her when she went to Mumbai, I would give her money.'",
+      "options": [
+        "I told her that when she went to Mumbai, I would give her money.",
+        "I told her when she went to Mumbai, I would give her money.",
+        "I told her that when she will go to Mumbai, I would give her money.",
+        "Both A and B are correct."
+      ],
+      "correctAnswer": "Both A and B are correct.",
+      "explanation": "The sentence is grammatically correct. In indirect speech, the conjunction 'that' introducing the main statement can be explicitly included or omitted before the conditional element."
+    }
                         
 ]

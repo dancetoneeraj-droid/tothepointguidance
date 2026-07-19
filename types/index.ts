@@ -34,6 +34,16 @@ export interface MathsQuizConfig {
   from?: number;
 }
 
+export interface EnglishQuizConfig {
+  topic: string;
+  questions: number;
+  duration: number;
+  /** Display name (e.g. "VOICE — Set 1"). */
+  label?: string;
+  /** Fixed 0-based start index in the grammar question bank. */
+  from?: number;
+}
+
 export interface EnglishConfig {
   grammarPdf?: string;
   vocabPdf?: string;
@@ -49,6 +59,8 @@ export interface EnglishConfig {
   grammarQuizQuestions?: number;
   /** Duration in minutes for the grammar quiz. Defaults to 10. */
   grammarQuizDuration?: number;
+  /** Optional extra grammar quizzes (same or different banks) as separate day-page cards. */
+  grammarQuizzes?: EnglishQuizConfig[];
   comprehensionQuiz?: string;
 }
 

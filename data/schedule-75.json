@@ -779,7 +779,7 @@
       "english": {
        
         "grammarQuiz": "pronoun",
-        "grammarQuizLabel": "SENTENCE TYPE",
+        "grammarQuizLabel": "VOICE",
         "grammarQuizFrom": 339,
         "grammarQuizQuestions": 25,
         "grammarQuizDuration": 10,
@@ -797,7 +797,7 @@
     },
     {
       "day": 18,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "geometry",
@@ -812,12 +812,6 @@
           "from": 75
         },
         {
-          "topic": "di",
-          "questions": 25,
-          "duration": 25,
-          "from": 75
-        },
-        {
           "topic": "mensuration-3d",
           "questions": 25,
           "duration": 25,
@@ -825,21 +819,27 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day2-grammar.pdf",
-        "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
-      },
-      "reasoning": {
-        "topic": "analogy",
-        "questions": 50,
-        "duration": 45
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "VOICE — Set 1",
+            "questions": 25,
+            "duration": 12,
+            "from": 372
+          },
+          {
+            "topic": "pronoun",
+            "label": "VOICE — Set 2",
+            "questions": 26,
+            "duration": 12,
+            "from": 397
+          }
+        ]
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day2-geography.pdf",
-        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
-        "todayNotes": "/content/gk/day2-geography-notes.pdf",
         "revisionQuiz": "revision",
-        "revisionTopic": "Day 17 GK revision"
+        "from": 255,
+        "revisionTopic": "Day 18 GK revision"
       }
     },
     {

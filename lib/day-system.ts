@@ -254,6 +254,25 @@ export function getReasoningQuizLabel(
   return undefined;
 }
 
+export function getEnglishQuizLabel(
+  plan: DailyPlan | null | undefined,
+  topic: string,
+  from?: number
+): string | undefined {
+  if (!plan) return undefined;
+  const quizzes = plan.english.grammarQuizzes ?? [];
+  if (from !== undefined) {
+    const match = quizzes.find((q) => q.topic === topic && q.from === from);
+    if (match?.label) return match.label;
+  }
+  const byTopic = quizzes.find((q) => q.topic === topic);
+  if (byTopic?.label) return byTopic.label;
+  if (plan.english.grammarQuiz === topic) {
+    return plan.english.grammarQuizLabel;
+  }
+  return undefined;
+}
+
 export function formatQuizTitle(
   subject: string,
   topic: string,

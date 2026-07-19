@@ -44,9 +44,12 @@ export function saveStore(store: LocalStudentStore): void {
 export function quizCompletionId(
   day: number,
   subject: string,
-  topic: string
+  topic: string,
+  /** When set, ties completion to this bank offset so a new `from` is a fresh quiz. */
+  from?: number
 ): string {
-  return `day${day}-${subject}-${topic}`;
+  const base = `day${day}-${subject}-${topic}`;
+  return from !== undefined ? `${base}-f${from}` : base;
 }
 
 export function comprehensionRecordId(day: number): string {

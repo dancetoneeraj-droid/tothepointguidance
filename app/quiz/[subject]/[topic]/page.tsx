@@ -19,7 +19,7 @@ import {
   unpauseQuizDraft,
 } from "@/lib/quiz/session-persistence";
 import { getDailyPlan } from "@/lib/daily-plans";
-import { formatQuizTitle, getReasoningQuizLabel } from "@/lib/day-system";
+import { formatQuizTitle, getEnglishQuizLabel, getReasoningQuizLabel } from "@/lib/day-system";
 import { MATHS_QUIZ_DURATION, MATHS_QUIZ_QUESTIONS } from "@/lib/maths-topics";
 import {
   getQuizReviewRecord,
@@ -53,6 +53,13 @@ export default function QuizPage({
   const { subject: subjectParam, topic } = use(params);
   const searchParams = useSearchParams();
   const day = parseInt(searchParams.get("day") ?? "1", 10);
+  const fromParamRaw = searchParams.get("from");
+  const fromParam =
+    fromParamRaw != null && fromParamRaw !== ""
+      ? parseInt(fromParamRaw, 10)
+      : undefined;
+  const fromParamValid =
+    fromParam !== undefined && Number.isFinite(fromParam) ? fromParam : undefined;
   const router = useRouter();
   const { studentId, progress, refreshProgress, user } = useAuth();
 
@@ -60,8 +67,35 @@ export default function QuizPage({
   const plan = getDailyPlan(day);
   const hasProgress = Boolean(progress);
 
+  /** Bank offset for this day's quiz config (if any) — used in completion / session ids. */
+  const quizFrom = useMemo(() => {
+    if (fromParamValid !== undefined) return fromParamValid;
+    if (!plan) return undefined;
+    if (subject === "maths") {
+      return plan.maths.find((m) => m.topic === topic)?.from;
+    }
+    if (subject === "english") {
+      const matched = (plan.english.grammarQuizzes ?? []).find(
+        (q) => q.topic === topic
+      );
+      return matched?.from ?? plan.english.grammarQuizFrom;
+    }
+    if (subject === "reasoning") {
+      const extra = plan.reasoningQuizzes?.find((q) => q.topic === topic);
+      const cfg =
+        plan.reasoning && topic === plan.reasoning.topic
+          ? plan.reasoning
+          : extra ?? plan.reasoning;
+      return cfg?.from;
+    }
+    if (subject === "gk") {
+      return plan.gk.from;
+    }
+    return undefined;
+  }, [plan, subject, topic, fromParamValid]);
+
   /** Stable for one visit — progress refresh after submit must not load the next 25 Q. */
-  const sessionLockKey = `${studentId ?? "none"}:${day}:${subject}:${topic}:official`;
+  const sessionLockKey = `${studentId ?? "none"}:${day}:${subject}:${topic}:f${quizFrom ?? "x"}:official`;
 
   type FrozenQuizConfig = {
     questions: ReturnType<typeof resolveQuizSlice>["questions"];
@@ -101,20 +135,31 @@ export default function QuizPage({
         };
       }
     } else if (subject === "english") {
+      const matchedQuiz = (plan.english.grammarQuizzes ?? []).find(
+        (q) =>
+          q.topic === topic &&
+          (quizFrom === undefined || q.from === quizFrom)
+      );
       questionCount = Math.min(
-        plan.english.grammarQuizQuestions ?? ENGLISH_QUIZ_QUESTIONS,
+        matchedQuiz?.questions ??
+          plan.english.grammarQuizQuestions ??
+          ENGLISH_QUIZ_QUESTIONS,
         bank.length
       );
       durationMinutes =
-        plan.english.grammarQuizDuration ?? ENGLISH_QUIZ_DURATION;
-      if (plan.english.grammarQuizFrom !== undefined) {
-        const slice = resolveQuizSlice(bank, plan.english.grammarQuizFrom, questionCount);
+        matchedQuiz?.duration ??
+        plan.english.grammarQuizDuration ??
+        ENGLISH_QUIZ_DURATION;
+      const from =
+        quizFrom ?? matchedQuiz?.from ?? plan.english.grammarQuizFrom;
+      if (from !== undefined) {
+        const slice = resolveQuizSlice(bank, from, questionCount);
         return {
           questions: slice.questions,
           duration: durationMinutes,
           count: questionCount,
           setStart: slice.setStart,
-          storedIndex: plan.english.grammarQuizFrom,
+          storedIndex: from,
           sessionId: buildSessionId(subject, topic, day, slice.setStart),
           subjectLabel: "English",
           isPartial: slice.isPartial,
@@ -182,7 +227,7 @@ export default function QuizPage({
     };
     // Intentionally omit `progress` — refresh after submit must not advance the slice.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [sessionLockKey, plan, subject, topic, day, hasProgress]);
+  }, [sessionLockKey, plan, subject, topic, day, hasProgress, quizFrom]);
 
   const quizConfig = useMemo(() => {
     if (frozenQuiz) return frozenQuiz;
@@ -199,7 +244,7 @@ export default function QuizPage({
   }, [frozenQuiz, subject]);
 
   const title = formatQuizTitle(subject, topic, day, {
-    englishLabel: plan?.english.grammarQuizLabel,
+    englishLabel: getEnglishQuizLabel(plan, topic, quizFrom),
     reasoningLabel: getReasoningQuizLabel(plan, topic),
   });
   const analysisPath = `/quiz/${subject}/${topic}/analysis?day=${day}`;
@@ -207,13 +252,15 @@ export default function QuizPage({
   const returnPath = `/day/${day}`;
   const hasOfficialAttempt = useMemo(
     () =>
-      studentId ? hasCompletedQuiz(studentId, day, subject, topic) : false,
-    [studentId, day, subject, topic]
+      studentId
+        ? hasCompletedQuiz(studentId, day, subject, topic, quizFrom)
+        : false,
+    [studentId, day, subject, topic, quizFrom]
   );
   const storedReview = useMemo(() => {
     if (!studentId) return null;
 
-    const saved = getQuizReviewRecord(studentId, day, subject, topic);
+    const saved = getQuizReviewRecord(studentId, day, subject, topic, quizFrom);
     if (saved) return saved;
 
     const recent = loadQuizAnalytics();
@@ -227,7 +274,7 @@ export default function QuizPage({
     }
 
     return null;
-  }, [studentId, day, subject, topic]);
+  }, [studentId, day, subject, topic, quizFrom]);
   const reviewQuestions = useMemo(() => {
     if (!storedReview) return [];
     const bank = getQuestionBank(subject, topic);
@@ -283,7 +330,8 @@ export default function QuizPage({
           newIndex,
           score: result.score,
           accuracy: result.accuracy,
-        }
+        },
+        { from: quizFrom }
       );
 
       const ranking = await submitQuizToServer({
@@ -302,7 +350,7 @@ export default function QuizPage({
       });
 
       const reviewRecord = {
-        quizId: quizCompletionId(day, subject, topic),
+        quizId: quizCompletionId(day, subject, topic, quizFrom),
         title,
         subject,
         topic,
@@ -355,6 +403,7 @@ export default function QuizPage({
       quizConfig.setStart,
       quizConfig.storedIndex,
       quizConfig.questions,
+      quizFrom,
       refreshProgress,
       title,
       returnPath,
