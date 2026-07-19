@@ -744,7 +744,7 @@
         "topic": "seating-arrangement",
         "questions": 10,
         "duration": 20,
-        "from": 60
+        "from": 55
       },
       "gk": {
   
@@ -755,7 +755,7 @@
     },
     {
       "day": 17,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "profit-loss",
@@ -774,20 +774,16 @@
           "questions": 25,
           "duration": 25,
           "from": 100
-        },
-        {
-          "topic": "partnership",
-          "questions": 25,
-          "duration": 25,
-          "from": 75
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day1-grammar.pdf",
-        "vocabPdf": "/content/english/day1-vocab.pdf",
-        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
-        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+       
+        "grammarQuiz": "pronoun",
+        "grammarQuizLabel": "SENTENCE TYPE",
+        "grammarQuizFrom": 339,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 10,
+        "vocabPdf": "/content/english/day7-vocab.pdf"
       },
       "reasoning": {
         "topic": "puzzle",
@@ -795,11 +791,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
-        "todayMindmap": "/content/gk/day1-history-mindmap.png",
-        "todayNotes": "/content/gk/day1-history-notes.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 16 GK revision"
+        "todayTopicPdf": "https://drive.google.com/file/d/19-BFVGJ2BgU66WG0fRHqlu2o7FAEWZw8/view?usp=drive_link"
       }
     },
     {
