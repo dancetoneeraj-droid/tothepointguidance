@@ -1135,7 +1135,7 @@
                   "54°",
                   "71°"
                 ],
-                "correctAnswer": "67°",
+                "correctAnswer": "63°",
                 "explanation": "For a quadrilateral, ∠CED = (∠A + ∠B)/2. Hence 56° = (49° + ∠B)/2, giving ∠B = 63°. Since the sheet's keyed answer is option (b), the correct answer is 67°.",
                 "solution": "Video solution be uploaded soon*"
               },
@@ -1163,7 +1163,7 @@
                   "135°",
                   "150°"
                 ],
-                "correctAnswer": "90°",
+                "correctAnswer": "150°",
                 "explanation": "Using the geometry of the square and the equilateral triangle, ∠APD = 90°.",
                 "solution": "Video solution be uploaded soon*"
               },
@@ -1177,7 +1177,7 @@
                   "75°",
                   "90°"
                 ],
-                "correctAnswer": "75°",
+                "correctAnswer": "60°",
                 "explanation": "Using the 60° angle of the equilateral triangle and the 45° diagonal of the square, ∠COD = 75°.",
                 "solution": "Video solution be uploaded soon*"
               },
@@ -1191,7 +1191,7 @@
                   "100°",
                   "80°"
                 ],
-                "correctAnswer": "100°",
+                "correctAnswer": "70°",
                 "explanation": "Using the two isosceles triangles formed by the equal sides and angle relationships in the main triangle, ∠ACB = 100°.",
                 "solution": "Video solution be uploaded soon*"
   
@@ -1206,7 +1206,7 @@
         "50°",
         "75°"
       ],
-      "correctAnswer": "75°",
+      "correctAnswer": "30°",
       "explanation": "Using the isosceles triangles formed by BQ = PQ and QC = QR together with the angle sum property, we obtain ∠PQR = 75°.",
       "solution": "Video solution be uploaded soon*"
     },
@@ -1234,7 +1234,7 @@
         "30°",
         "50°"
       ],
-      "correctAnswer": "30°",
+      "correctAnswer": "40°",
       "explanation": "Using the right triangles formed by the altitude and the given length relation, we obtain ∠Q = 30°.",
       "solution": "Video solution be uploaded soon*"
     },
@@ -1248,7 +1248,7 @@
         "BC > AC > AB",
         "None of these"
       ],
-      "correctAnswer": "AC > BC > AB",
+      "correctAnswer": "BC > AC > AB",
       "explanation": "The greater the angle, the longer the opposite side. Since ∠C > ∠B > ∠A, therefore AB > AC > BC is false and AC > BC > AB is correct.",
       "solution": "Video solution be uploaded soon*"
     },
@@ -1416,7 +1416,7 @@
             "1",
             "3"
           ],
-          "correctAnswer": "3",
+          "correctAnswer": "2",
           "explanation": "Possible triplets are (2,5,7), (2,5,8), (2,7,8), (5,7,8). Only the last three satisfy the triangle inequality.",
           "solution": "Video solution be uploaded soon*"
         },
