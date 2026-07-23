@@ -896,7 +896,7 @@
     },
     {
       "day": 20,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "time-work",
@@ -924,19 +924,21 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day4-grammar.pdf",
-        "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "topic": "pronoun",
+        "label": "SENTENCE — Set 4",
+        "questions": 25,
+        "duration": 10,
+        "from": 458
       },
       "reasoning": {
         "topic": "puzzle",
-        "questions": 50,
-        "duration": 45
+        "questions": 25,
+        "duration": 25
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day4-economics.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 19 GK revision"
+       "revisionQuiz": "revision",
+        "from": 281,
+        "revisionTopic": "Day 20 GK revision"
       }
     },
     {
