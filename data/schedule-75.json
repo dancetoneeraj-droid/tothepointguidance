@@ -874,11 +874,11 @@
       ],
       "english": {
         "grammarPdf": "https://drive.google.com/file/d/1K3Eil2L1F8Ul3vLg77kpkvbZnJehLwt0/view?usp=drive_link",
-        "topic": "pronoun",
-        "label": "SENTENCE — Set 3",
-        "questions": 25,
-        "duration": 10,
-        "from": 423
+        "grammarQuiz": "pronoun",
+        "grammarQuizLabel": "SENTENCE — Set 3",
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 10,
+        "grammarQuizFrom": 423
       },
       "reasoning": {
         "topic": "puzzle",
@@ -924,11 +924,15 @@
         }
       ],
       "english": {
-        "topic": "pronoun",
-        "label": "SENTENCE — Set 4",
-        "questions": 25,
-        "duration": 10,
-        "from": 458
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "SENTENCE — Set 4",
+            "questions": 25,
+            "duration": 10,
+            "from": 458
+          }
+        ]
       },
       "reasoning": {
         "topic": "puzzle",
