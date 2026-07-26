@@ -554,7 +554,14 @@ export function useQuizSession(
 
       if (!q) return;
 
-      setAnswers((prev) => ({ ...prev, [q.id]: option }));
+      setAnswers((prev) => {
+        if (prev[q.id] === option) {
+          const next = { ...prev };
+          delete next[q.id];
+          return next;
+        }
+        return { ...prev, [q.id]: option };
+      });
 
     },
 

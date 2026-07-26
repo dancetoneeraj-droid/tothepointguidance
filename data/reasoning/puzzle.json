@@ -926,7 +926,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_078",
+      "id": "reasoning_puzzle_078",
     "question": "Statements:\nOnly a few Cities are Villages.\nNo Village is Forest.\nNo City is Garden.\n\nConclusions:\nI. Some Cities are not Forests\nII. Some Gardens are Forests\nIII. No Village is Garden\nIV. Some Cities are Forests",
     "options": [
       "Some Cities are not Forests",
@@ -966,71 +966,6 @@
   },
   {
     "id": "reasoning_puzzle_081",
-    "question": "Statements:\nOnly a few Schools are Libraries.\nSome Notebooks are Pens.\nAll Libraries are Notebooks.\n\nConclusions:\nI. No Library is Pen\nII. All Notebooks are Libraries\nIII. All Libraries being Schools is a possibility\nIV. Some Schools can be Notebooks",
-    "options": [
-      "No Library is Pen",
-      "All Notebooks are Libraries",
-      "All Libraries being Schools is a possibility",
-      "Some Schools can be Notebooks",
-      "All follow"
-    ],
-    "correctAnswer": "All follow",
-    "explanation": ""
-  },
-  {
-    "id": "reasoning_puzzle_082",
-    "question": "Statements:\nAll Rivers are Lakes.\nNo Mountain is Desert.\nOnly a few Rivers are Mountains.\n\nConclusions:\nI. All Mountains can be Lakes\nII. Some Lakes are Mountains\nIII. Some Lakes are not Deserts\nIV. All Rivers can never be Deserts",
-    "options": [
-      "All Mountains can be Lakes",
-      "Some Lakes are Mountains",
-      "Some Lakes are not Deserts",
-      "All Rivers can never be Deserts",
-      "All follow"
-    ],
-    "correctAnswer": "All follow",
-    "explanation": ""
-  },
-  {
-    "id": "reasoning_puzzle_083",
-    "question": "Statements:\nOnly a few Cities are Villages.\nNo Village is Forest.\nNo City is Garden.\n\nConclusions:\nI. Some Cities are not Forests\nII. Some Gardens are Forests\nIII. No Village is Garden\nIV. Some Cities are Forests",
-    "options": [
-      "Some Cities are not Forests",
-      "Some Gardens are Forests",
-      "No Village is Garden",
-      "Some Cities are Forests",
-      "None follows"
-    ],
-    "correctAnswer": "Some Cities are not Forests",
-    "explanation": ""
-  },
-  {
-    "id": "reasoning_puzzle_084",
-    "question": "Statements:\nOnly a few Tigers are Lions.\nAll Lions are Leopards.\nAll Leopards are Panthers.\n\nConclusions:\nI. All Panthers may be Lions\nII. All Lions are Panthers\nIII. Some Tigers can never be Leopards\nIV. No Panther is Tiger",
-    "options": [
-      "All Panthers may be Lions",
-      "All Lions are Panthers",
-      "Some Tigers can never be Leopards",
-      "No Panther is Tiger",
-      "Both I and II"
-    ],
-    "correctAnswer": "All Panthers may be Lions",
-    "explanation": ""
-  },
-  {
-    "id": "reasoning_puzzle_085",
-    "question": "Statements:\nOnly a few Cars are Buses.\nSome Buses are Trains.\nAll Trains are Ships.\n\nConclusions:\nI. Some Cars are not Buses\nII. Some Buses are Ships\nIII. Some Trains can be Cars\nIV. All Buses may be Ships",
-    "options": [
-      "Some Cars are not Buses",
-      "Some Buses are Ships",
-      "Some Trains can be Cars",
-      "All Buses may be Ships",
-      "All follow"
-    ],
-    "correctAnswer": "All Buses may be Ships",
-    "explanation": ""
-  },
-  {
-    "id": "reasoning_puzzle_086",
     "question": "Statements:\nSome painters are artists.\nAll singers are artists.\nNo artist is dancer.\n\nConclusions:\nI. Some painters are singers.\nII. All dancers being singers is a possibility.\nIII. No painter is a singer.\nIV. Some artists not being painters is a possibility.",
     "options": [
       "Only II follows",
@@ -1039,11 +974,11 @@
       "All follow",
       "None of these"
     ],
-    "correctAnswer": "Only II and IV follow",
+    "correctAnswer": "Either I or III and II and IV follow",
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_087",
+    "id": "reasoning_puzzle_082",
     "question": "Statements:\nSome rivers are lakes.\nAll lakes are oceans.\nNo ocean is desert.\nSome deserts are mountains.\n\nConclusions:\nI. Some deserts are rivers.\nII. Some mountains being ocean is a possibility.\nIII. No desert is river.",
     "options": [
       "Only conclusion I follows",
@@ -1056,7 +991,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_088",
+    "id": "reasoning_puzzle_083",
     "question": "Statements:\nSome cats are dogs.\nAll wolves are dogs.\nNo dog is fox.\n\nConclusions:\nI. Some cats are wolves.\nII. All foxes being wolves is a possibility.\nIII. No cat is a wolf.",
     "options": [
       "Only III follows",
@@ -1069,7 +1004,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_089",
+    "id": "reasoning_puzzle_084",
     "question": "Statements:\nNo pencil is marker.\nNo pen is pencil.\n\nConclusions:\nI. No marker is pen.\nII. All pens are markers.",
     "options": [
       "Conclusion I follows",
@@ -1082,7 +1017,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_090",
+    "id": "reasoning_puzzle_085",
     "question": "Statements:\nSome bats are balls.\nSome balls are gloves.\nAll gloves are helmets.\n\nConclusions:\nI. At least some helmets are bats.\nII. No helmet is a bat.\nIII. Some helmets are bats.",
     "options": [
       "If only conclusion II follows",
@@ -1095,7 +1030,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_091",
+    "id": "reasoning_puzzle_086",
     "question": "Statements:\nAll laptops are computers.\nAll computers are gadgets.\nAll gadgets are processors.\nOnly a few processors are instruments.\n\nConclusions:\nI. All computers are processors.\nII. All laptops can never be instruments.\nIII. All computers can be instruments.",
     "options": [
       "Only conclusion II follows",
@@ -1108,7 +1043,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_092",
+    "id": "reasoning_puzzle_087",
     "question": "Statements:\nFew books are pens.\nAll pens are markers.\nOnly a few markers are boards.\nAll markers are chalks.\n\nConclusions:\nI. Only markers are pens is a possibility.\nII. Some boards are pens is a possibility.\nIII. Some chalks are books.",
     "options": [
       "Only conclusion II follows",
@@ -1121,7 +1056,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_093",
+    "id": "reasoning_puzzle_088",
     "question": "Statements:\nNo rose is lily.\nAll lilies are sunflowers.\nSome roses are lotus.\n\nConclusions:\nI. All lotuses are sunflowers.\nII. Some lotuses are not sunflowers.",
     "options": [
       "Neither I nor II follows",
@@ -1134,7 +1069,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_094",
+        "id": "reasoning_puzzle_089",
     "question": "Statements:\nNo train is a bus.\nSome buses are cars.\nSome cars are bikes.\n\nConclusions:\nI. Some cars are buses.\nII. No bike is a train.\nIII. No bike is a car.",
     "options": [
       "If only conclusion I does not follow",
@@ -1147,7 +1082,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_095",
+    "id": "reasoning_puzzle_090",
     "question": "Statements:\nOnly Earth is Mars.\nSome Earth is Venus.\nNo Venus is Jupiter.\nOnly a few Jupiters are Saturn.\n\nConclusions:\nI. All Saturns can be Earth.\nII. Some Jupiters can be Venus.\nIII. All Mars can never be Venus.",
     "options": [
       "Only conclusion I follows",
@@ -1160,7 +1095,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_096",
+    "id": "reasoning_puzzle_091",
     "question": "Statements:\nOnly a few WhatsApp are Telegram.\nNo Telegram is Signal.\nSome Signal is Messenger.\n\nConclusions:\nI. Some WhatsApp may be Signal.\nII. All Messenger can be Telegram.\nIII. Some WhatsApp is not a Messenger.",
     "options": [
       "Both conclusions II and III follow",
@@ -1173,7 +1108,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_097",
+    "id": "reasoning_puzzle_092",
     "question": "Statements:\nSome oranges are apples.\nAll lemons are apples.\nNo apple is guava.\n\nConclusions:\nI. Some oranges are lemons.\nII. All guavas being lemon is a possibility.\nIII. No orange is a lemon.",
     "options": [
       "Only III follows",
@@ -1186,7 +1121,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_098",
+    "id": "reasoning_puzzle_093",
     "question": "Statements:\nNo book is pen.\nNot a single pen is eraser.\nEvery eraser is stationery.\n\nConclusions:\nI. Some stationeries, which are erasers, is also books as well.\nII. No book is an eraser.\nIII. Some stationeries are not pens.",
     "options": [
       "Only III follows",
@@ -1199,7 +1134,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_099",
+    "id": "reasoning_puzzle_094",
     "question": "Statements:\nOnly a few Dropbox is Google Drive.\nAll Dropbox is OneDrive.\nNo OneDrive is iCloud.\nSome iCloud is Google Drive.\n\nConclusions:\nI. No Dropbox is iCloud.\nII. All OneDrive can never be a Google Drive.\nIII. Some iCloud is Google Drive.",
     "options": [
       "Both conclusions II and III follow",
@@ -1208,11 +1143,11 @@
       "Both conclusions I and II follow",
       "All follow"
     ],
-    "correctAnswer": "Both conclusions I and III follow",
+    "correctAnswer": "Both conclusions I and II follow",
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_100",
+    "id": "reasoning_puzzle_095",
     "question": "Statements:\nOnly a few Skype is Zoom.\nAll Skype is Teams.\nAll Zoom is Meet.\n\nConclusions:\nI. Some Skype is Meet.\nII. All Zoom can never be Teams.\nIII. Some Teams can be Zoom.",
     "options": [
       "Both conclusions II and III follow",
@@ -1221,11 +1156,11 @@
       "Only I and either conclusions II and III follow",
       "All follow"
     ],
-    "correctAnswer": "Only I and either conclusions II and III follow",
+    "correctAnswer": "All follow",
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_101",
+    "id": "reasoning_puzzle_096",
     "question": "Statements:\nOnly a few Teachers are Students.\nNo Phone is Laptop.\nSome Phones are not Students.\nOnly Laptop is Device.\n\nConclusions:\nI. All devices cannot be Students.\nII. No Laptop being Teacher is a possibility.",
     "options": [
       "Neither conclusion I nor II follows",
@@ -1238,7 +1173,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_102",
+    "id": "reasoning_puzzle_097",
     "question": "Statements:\nSome Files are Errors.\nAll Errors are Warnings.\nOnly a few Warnings are Notes.\nNo File is Folder.\n\nConclusions:\nI. Some Files are definitely not Notes.\nII. No Warning is Folder.",
     "options": [
       "Only conclusion II follows",
@@ -1251,7 +1186,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_103",
+    "id": "reasoning_puzzle_098",
     "question": "Statements:\nSome Projects are not Software.\nOnly a few Employees are Managers.\nAll Managers are Software.\nOnly a few Departments are Employees.\n\nConclusions:\nI. All Departments are Managers.\nII. Some Departments are not Managers.",
     "options": [
       "Either conclusion I or II follows",
@@ -1264,7 +1199,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_104",
+    "id": "reasoning_puzzle_099",
     "question": "Statements:\nOnly a few Doctors are Surgeons.\nAll Surgeons are Professionals.\nNo Professional is Engineer.\n\nConclusions:\nI. Some Doctors are Professionals.\nII. Some Doctors can never be Engineers.\nIII. Some Engineers can be Doctors.",
     "options": [
       "Only conclusion I follows",
@@ -1277,7 +1212,7 @@
     "explanation": ""
   },
   {
-    "id": "reasoning_puzzle_105",
+    "id": "reasoning_puzzle_100",
     "question": "Statements:\nSome Tablets are Mobiles.\nAll Mobiles are Electronics.\nNo Electronic is Furniture.\nOnly a few Furniture are Chairs.\n\nConclusions:\nI. Some Tablets are Electronics.\nII. No Mobile is Furniture.\nIII. Some Chairs can be Tablets.",
     "options": [
       "Only conclusion I follows",

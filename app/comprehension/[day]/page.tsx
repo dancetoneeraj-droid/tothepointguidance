@@ -143,7 +143,14 @@ export default function ComprehensionPage({
 
   const select = (key: string, option: string) => {
     if (submitted) return;
-    setAnswers((prev) => ({ ...prev, [key]: option }));
+    setAnswers((prev) => {
+      if (prev[key] === option) {
+        const next = { ...prev };
+        delete next[key];
+        return next;
+      }
+      return { ...prev, [key]: option };
+    });
   };
 
   const handleSubmit = () => {

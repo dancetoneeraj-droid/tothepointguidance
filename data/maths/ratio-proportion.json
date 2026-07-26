@@ -1123,7 +1123,7 @@
               "5.25",
               "4.5"
             ],
-            "correctAnswer": "4.5",
+            "correctAnswer": "5.25",
             "solution": "video solution will be added soon"
           },
           {
@@ -1175,7 +1175,7 @@
               "12^-1.1",
               "4^2.4"
             ],
-            "correctAnswer": "12^-1.1",
+            "correctAnswer": "12^-2.3",
             "solution": "video solution will be added soon"
           },
           {
@@ -1248,12 +1248,12 @@
             "question": "Find the fourth proportional to: (a + b)^2 * (a^3 - b^3), (a^3 + b^3), (a^2 - b^2)?",
             "questionHi": "(a + b)^2 * (a^3 - b^3), (a^3 + b^3), (a^2 - b^2) का चौथा आनुपातिक ज्ञात करे?",
             "options": [
-              "(a^2 - ab + b^2)/(a + b)",
+              "(a^2 - ab + b^2)/(a^2 + ab + b^2)",
               "(a^2 + ab + b^2)/(a - b)",
               "1",
               "(a^2 + ab + b^2)/(a^2 - b^2)"
             ],
-            "correctAnswer": "1",
+            "correctAnswer": "(a^2 - ab + b^2)/(a^2 + ab + b^2)",
             "solution": "video solution will be added soon"
           },
           {

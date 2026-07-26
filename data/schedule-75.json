@@ -941,13 +941,13 @@
       },
       "gk": {
        "revisionQuiz": "revision",
-        "from": 281,
+        "from": 279,
         "revisionTopic": "Day 20 GK revision"
       }
     },
     {
       "day": 21,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "trigonometry",
@@ -975,9 +975,11 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day5-grammar.pdf",
-        "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+       "topic": "pronoun",
+            "label": "NARRATION — Set 1",
+            "questions": 25,
+            "duration": 10,
+            "from": 483
       },
       "reasoning": {
         "topic": "analogy",
@@ -985,9 +987,9 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day5-science.pdf",
+        "todayTopicPdf": "https://drive.google.com/file/d/1jD8jrDAohnOQaPC1mHxWFpt-omJoWfc8/view?usp=drive_link",
         "revisionQuiz": "revision",
-        "revisionTopic": "Day 20 GK revision"
+        "revisionTopic": "Day 21 GK revision"
       }
     },
     {

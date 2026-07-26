@@ -1751,6 +1751,747 @@
     "correctAnswer": "75 km/h",
     "solution": "Video solution will be added soon"
   },
+    {
+      "id": "maths_time_speed_distance_134",
+      "question": "X gets on a lift at the ground floor which goes up at speed of 30 floors per minute whereas Y gets on another lift at the same time on the 50th floor which goes down at the speed of 45 floors per minute. At which floor will their paths cross? (lifts are moving without stopping at any floor)",
+      "questionHindi": "X भूतल पर स्थित लिफ्ट में चढ़ता है जो 30 मंजिल प्रति मिनट की गति से ऊपर जाती है जबकि Y उसी समय 50वीं मंजिल पर एक दूसरी लिफ्ट में चढ़ता है जो 45 मंजिल प्रति मिनट की गति से नीचे जाती है। किस मंजिल पर उनके मार्ग मिलेंगे? (लिफ्ट किसी भी मंजिल पर रुक नहीं रही है)?",
+      "options": [
+        "18th",
+        "25th",
+        "24th",
+        "20th"
+      ],
+      "correctAnswer": "20th",
+      "solution": "Relative speed = 30 + 45 = 75 floors/min. Time taken to cover 50 floors = 50/75 = 2/3 min. Floor reached by X = 30 * (2/3) = 20th floor."
+    },
+    {
+      "id": "maths_time_speed_distance_135",
+      "question": "Train A and B start at the same time. Train A travels at 55 km/hr from station X to station Y and train B travels at 80 km/hr from station Y to station X. They cross each other after 1 hour and 36 minutes. What is the distance (in km) between station X and Y?",
+      "questionHindi": "ट्रेन A और B एक ही समय में शुरू होती है। ट्रेन A स्टेशन X से स्टेशन Y तक 55 कि.मी./घंटा की गति से यात्रा करती है और ट्रेन B स्टेशन Y से स्टेशन X तक की यात्रा 80 कि.मी./घंटा की गति से करती है। वे 1 घंटे और 36 मिनट के बाद एक दूसरे को पार करती है। स्टेशन X और Y के बीच दूरी (कि.मी. में) क्या है?",
+      "options": [
+        "196",
+        "232",
+        "240",
+        "216"
+      ],
+      "correctAnswer": "216",
+      "solution": "Relative speed = 55 + 80 = 135 km/h. Time = 1h 36m = 1.6 hours. Distance = 135 * 1.6 = 216 km."
+    },
+    {
+      "id": "maths_time_speed_distance_136",
+      "question": "The distance between two stations A and B is 200 km. A train runs from A to B at a speed of 75 km/h while another train runs from B to A at a speed of 85 km/h. What will be the distance between the two trains (in km) 3 minutes before they meet?",
+      "questionHindi": "दो स्टेशनों A और B के बीच की दूरी 200 km है। एक ट्रेन A से B की ओर 75 km/h की चाल से चलती है, जबकि दूसरी ट्रेन B से A की ओर 85 km/h की चाल से चलती है। दोनों ट्रेनों के एक-दूसरे से मिलने से 3 मिनट पहले उनके बीच की दूरी (किमी. में) कितनी होगी?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "6"
+      ],
+      "correctAnswer": "8",
+      "solution": "Relative speed = 75 + 85 = 160 km/h. Distance covered in 3 minutes before meeting = 160 * (3/60) = 8 km."
+    },
+    {
+      "id": "maths_time_speed_distance_137",
+      "question": "Vinay and Mahesh are 250 meters apart from each other. They are moving towards each other with the speed of 36 km/h and 54 km/h respectively. In how much time will they meet each other?",
+      "questionHindi": "विनय और महेश एक दूसरे से 250 मीटर दूर हैं। वे क्रमशः 36 किमी/घंटा और 54 किमी / घंटा की गति से एक-दूसरे की ओर बढ़ रहे हैं। वे एक दूसरे से कितने समय में मिलेंगे?",
+      "options": [
+        "20 seconds",
+        "10 seconds",
+        "15 seconds",
+        "12 seconds"
+      ],
+      "correctAnswer": "10 seconds",
+      "solution": "Relative speed = (36 + 54) * (5/18) = 90 * (5/18) = 25 m/s. Time = 250 / 25 = 10 seconds."
+    },
+    {
+      "id": "maths_time_speed_distance_138",
+      "question": "Places A and B are 396 km apart. Train X leaves from A for B and train Y leaves from B for A at the same time on the same day on parallel tracks. Both trains meet after 5½ hours. The speed of Y is 10 km/h more than that of X. What is the speed (in km/h) of Y?",
+      "questionHindi": "स्थान A और B 396 किमी दूरी पर हैं। ट्रेन X को A से B के लिए तथा ट्रेन Y को B से A के लिए समान ट्रैक पर उसी दिन छोड़ा जाता है। दोनों ट्रेनें 5½ घंटे के बाद मिलती हैं। Y की गति X की तुलना में 10 किमी / घंटा अधिक है। Y की गति (किमी / घंटा में) क्या है?",
+      "options": [
+        "31",
+        "54",
+        "41",
+        "56"
+      ],
+      "correctAnswer": "41",
+      "solution": "Relative speed = 396 / 5.5 = 72 km/h. Speed of X + Speed of Y = 72. Given Speed of Y - Speed of X = 10. Speed of Y = (72 + 10) / 2 = 41 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_139",
+      "question": "The driver of a car, which is travelling at a speed of 75 km/h, locates a bus 80 m ahead of him, travelling in the same direction. After 15 seconds, he finds that the bus is 40 m behind the car. What is the speed of the bus (in km/h)?",
+      "questionHindi": "75 km/h की चाल से चल रही कार का चालक, 80m आगे समान दिशा में चल रही एक बस को देखता है। 15 सेकंड बाद वह देखता है कि बस अब कार से 40 m पीछे है। बस की चाल (km/h में) कितनी है?",
+      "options": [
+        "44.2",
+        "42.5",
+        "47.5",
+        "46.2"
+      ],
+      "correctAnswer": "46.2",
+      "solution": "Total relative distance covered = 80 + 40 = 120 m. Relative speed = 120 / 15 = 8 m/s = 8 * (18/5) = 28.8 km/h. Speed of bus = 75 - 28.8 = 46.2 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_140",
+      "question": "On a straight road, a bus is 30 km ahead of a car travelling in the same direction. After 3 hours, the car is 60 km ahead of the bus. If the speed of the bus is 42 km/h, then find the speed of the car.",
+      "questionHindi": "एक सीधी सड़क पर, कोई बस उसी दिशा में चल रही किसी कार से 30km आगे है। 3 घंटे बाद, कार बस से 60 km आगे निकल जाती है। यदि बस की चाल 42 km/h है, तो कार की चाल ज्ञात करें।",
+      "options": [
+        "67 km/h",
+        "72 km/h",
+        "65 km/h",
+        "59 km/h"
+      ],
+      "correctAnswer": "72 km/h",
+      "solution": "Total relative distance covered = 30 + 60 = 90 km. Relative speed = 90 / 3 = 30 km/h. Speed of car = 42 + 30 = 72 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_141",
+      "question": "A car and a bus were travelling in the same direction. At 7:30 a.m. the car travelling at a speed of 72 km/h was 4.2 km behind the bus. At 8.15 a.m. the car was 15.8 km ahead of the bus. What is the ratio of the speed of the car to the speed of the bus?",
+      "questionHindi": "एक कार और एक बस एक ही दिशा में चल रही थीं। सुबह 7:30 a.m. पर 72 km/h की चाल से चल रही कार बस से 4.2 km पीछे थी। सुबह 8.15 a.m. पर कार बस से 15.8 km आगे थी। कार की चाल और बस की चाल का अनुपात क्या है?",
+      "options": [
+        "36:17",
+        "27:17",
+        "9:4",
+        "9:5"
+      ],
+      "correctAnswer": "27:17",
+      "solution": "Time taken = 45 mins = 3/4 hours. Relative distance = 4.2 + 15.8 = 20 km. Relative speed = 20 / (3/4) = 80/3 km/h. Speed of Bus = 72 - 80/3 = 136/3 km/h. Ratio = 72 : 136/3 = 216 : 136 = 27 : 17."
+    },
+    {
+          "id": "maths_time_speed_distance_142",
+      "question": "A train crosses a man going along the railway track at 13.5 km/hr. The man could see the train upto 4 min then find the speed of the train if due to fog he can see upto 1.9 km and length of train is 500 metre?",
+      "questionHindi": "एक ट्रेन 13.5 किमी/घंटा की रफ्तार से रेलवे ट्रैक पर जा रही एक आदमी को पार कर जाती है। आदमी 4 मिनट तक ट्रेन को देख सकता है, यदि कोहरे के कारण वह 1.9 किमी तक देख सकता है और ट्रेन की लंबाई 500 मीटर है, तब ट्रेन की चाल ज्ञात करे ?",
+      "options": [
+        "49.5 km/hr",
+        "54 km/hr",
+        "44 km/hr",
+        "40.5 km/hr"
+      ],
+      "correctAnswer": "49.5 km/hr",
+      "solution": "Total relative distance = 1.9 km (in front) + 0.5 km (train length) = 2.4 km. Time = 4 mins = 4/60 = 1/15 h. Relative speed = 2.4 / (1/15) = 36 km/h. Speed of train = 36 + 13.5 = 49.5 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_143",
+      "question": "A person X starts from a place A and another person Y starts simultaneously from another place B which is d km away from A. They walk in the same direction. X walks at an average speed of u km/h and Y walks at an average speed of v km/h. How far will X have walked before he overtakes Y?",
+      "questionHindi": "एक व्यक्ति X एक स्थान A से शुरू करता है और दूसरा व्यक्ति Y एक साथ दूसरे स्थान B से शुरू करता है जो A से d किमी दूर है। वे एक ही दिशा में चलते हैं। X, u किमी / घंटा की औसत गति से चलता है और Y, v किमी / घंटा की औसत गति से चलता है। Y से आगे निकलने से पहले X कितनी दूर चल चुका होगा?",
+      "options": [
+        "ud / (u - v)",
+        "vd / (u - v)",
+        "(ud - vd) / (u - v)",
+        "(ud + vd) / (u + v)"
+      ],
+      "correctAnswer": "ud / (u - v)",
+      "solution": "Time to overtake t = d / (u - v). Distance walked by X = u * t = ud / (u - v)."
+    },
+    {
+      "id": "maths_time_speed_distance_144",
+      "question": "A ship develops a leak 20 km from the shore. Despite the leak, the ship is able to move towards the shore at a speed of 12 km/hr. However, the ship can stay afloat only for 23 minutes. If a rescue vessel were to leave from the shore towards the ship and it takes 8 minutes to evacuate the crew and passengers of the ship, what should be the minimum speed of the rescue vessel in order to be able to successfully rescue the people aboard the ship?",
+      "questionHindi": "एक जहाज में किनारे से 20 km दूर पर रिसाव शुरू हो जाता है। रिसाव के बावजूद, जहाज किनारे की ओर 12 km/h की रफ्तार से आगे बढ़ने में सक्षम है। हालांकि, जहाज केवल 23 मिनट तक ही जलप्लावित रह सकता है। यदि किनारे से एक बचाव नौका को जहाज की ओर भेजा जाता है और जहाज के चालक दल और यात्रियों को निकालने में 8 मिनट लगते हैं, तो बचाव नौका की न्यूनतम गति क्या होनी चाहिए जिससे लोगों को सफलतापूर्वक बचाया जा सके ?",
+      "options": [
+        "65 km/hr",
+        "67 km/hr",
+        "68 km/hr",
+        "70 km/hr"
+      ],
+      "correctAnswer": "68 km/hr",
+      "solution": "Available time to reach ship = 23 - 8 = 15 minutes = 1/4 hour. Relative speed required = 20 / (1/4) = 80 km/h. Speed of rescue vessel = 80 - 12 = 68 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_145",
+      "question": "The distance covered by A in 10 hours is 27 km less than the distance covered by B in 12 hours. The distance covered by B in 8 hours is 7½ km more than the distance covered by A in 9 hours. If they start moving towards each other from the two ends of a road, 4.2 km in length, at the same time, they will cross each other after?",
+      "questionHindi": "A द्वारा 10 घंटे में तय की गई दूरी, B द्वारा 12 घंटे में तय की गई दूरी से 27 किमी कम है। B द्वारा 8 घंटे में तय की गई दूरी, A द्वारा 9 घंटे में तय की गई दूरी से 7½ किमी अधिक है। यदि वे 4.2 किमी लंबी सड़क के दो सिरों से एक-दूसरे की ओर बढ़ना शुरू करते हैं, तो कितना समय वे एक-दूसरे को पार करेंगे?",
+      "options": [
+        "24 minutes",
+        "21 minutes",
+        "23⅓ minutes",
+        "24⅔ minutes"
+      ],
+      "correctAnswer": "24 minutes",
+      "solution": "12B - 10A = 27 and 8B - 9A = 7.5. Solving gives A = 4.5 km/h, B = 6 km/h. Combined speed = 10.5 km/h. Time = 4.2 / 10.5 = 0.4 h = 24 minutes."
+    },
+    {
+      "id": "maths_time_speed_distance_146",
+      "question": "There is a circular path around a sports field. Rahul takes 15 minutes to drive one round of the field, while Anil takes 18 minutes for the same. Suppose they both start from the same point and at the same time, and go in the same direction. After how many minutes will they meet again at the starting point?",
+      "questionHindi": "एक खेल के मैदान के चारों ओर एक वृत्ताकार पथ है। राहुल को मैदान का एक चक्कर लगाने में 15 मिनट लगते हैं, जब कि अनिल को इसमें 18 मिनट लगते हैं। मान लीजिए कि वे दोनों एक ही बिंदु से और एक ही समय पर शुरू करते हैं और एक ही दिशा में जाते हैं, तो कितने मिनट बाद वे फिर से प्रारंभिक बिंदु पर मिलेंगे ?",
+      "options": [
+        "120 मिनट",
+        "90 मिनट",
+        "100 मिनट",
+        "80 मिनट"
+      ],
+      "correctAnswer": "90 मिनट",
+      "solution": "Time to meet at starting point = LCM(15, 18) = 90 minutes."
+    },
+    {
+              "id": "maths_time_speed_distance_147",
+      "question": "Three bikes, A, B and C, start racing at the same time and from the same point in the same direction in a circular path. A completes a round in 56 sec, B in 48 sec and C in 70 sec. After what time will they meet again at the starting point?",
+      "questionHindi": "तीन बाइक, A, B और C, एक ही समय में और एक ही बिंदु से एक वृत्ताकार पथ में एक ही दिशा में दौड़ना शुरू करते हैं। A एक चक्कर 56 सेकंड में, B 48 सेकंड में और C 70 सेकंड में पूरा करता है। कितने समय बाद वे फिर से प्रारंभिक बिंदु पर मिलेंगे?",
+      "options": [
+        "32 minutes",
+        "20 minutes",
+        "36 minutes",
+        "28 minutes"
+      ],
+      "correctAnswer": "28 minutes",
+      "solution": "LCM(56, 48, 70) = 1680 seconds = 1680 / 60 = 28 minutes."
+    },
+    {
+      "id": "maths_time_speed_distance_148",
+      "question": "A, B and C run on a circular track. Time taken by A, B, and C to complete one round are 6 min, 8 min and 3 min respectively. If they start together at 5 p.m., then at what time will they meet again at the starting point?",
+      "questionHindi": "A, B और C एक वृत्ताकार ट्रैक पर दौड़ते हैं। A, B और C को एक चक्कर पूरा करने में क्रमशः 6 मिनट, 8 मिनट और 3 मिनट का समय लगता है। यदि वे 5 p.m. बजे एक साथ शुरू करते हैं, तो वे आरंभिक बिन्दु पर दोबारा किस समय मिलेंगे?",
+      "options": [
+        "5:12 p.m.",
+        "5:18 p.m.",
+        "5:08 p.m.",
+        "5:24 p.m."
+      ],
+      "correctAnswer": "5:24 p.m.",
+      "solution": "LCM(6, 8, 3) = 24 minutes. Meeting time = 5:00 p.m. + 24 mins = 5:24 p.m."
+    },
+    {
+      "id": "maths_time_speed_distance_149",
+      "question": "In a circular race of 800 m length, Ram and Mohan start at speeds of 25 m/sec and 40 m/sec, respectively, at the same time from the same point. After how much time will they meet for the first time at the starting point, when running in the same direction?",
+      "questionHindi": "800 m लम्बी एक वृत्ताकार दौड़ में, राम और मोहन एक ही समय पर एक ही स्थान से क्रमशः 25 m/sec और 40 m/sec की चाल से दौड़ना आरंभ करते हैं। एक ही दिशा में दौड़ते हुए, कितने समय बाद वे पहली बार प्रारम्भिक स्थान पर मिलेंगे?",
+      "options": [
+        "136 seconds",
+        "120 seconds",
+        "152 seconds",
+        "160 seconds"
+      ],
+      "correctAnswer": "160 seconds",
+      "solution": "Time taken by Ram = 800/25 = 32 s. Time taken by Mohan = 800/40 = 20 s. LCM(32, 20) = 160 seconds."
+    },
+    {
+      "id": "maths_time_speed_distance_150",
+      "question": "In a circular race of 1500m, A and B start running simultaneously at a speed of 27 km/hr and 45 km/hr from the same point and the same time. After how much time will they meet at the starting point for the first time if they are running in the opposite direction?",
+      "questionHindi": "वृत्ताकार पथ पर 1500 m की एक रेस में, A और B एक ही समय पर एक ही बिंदु से 27 km/hr और 45 km/hr की चाल से एक साथ दौड़ना शुरू करते हैं। यदि वे विपरीत दिशा में दौड़ रहे हों, तो कितने समय बाद वे पहली बार प्रारंभिक बिंदु पर मिलेंगे?",
+      "options": [
+        "10 min",
+        "45 min",
+        "35 min",
+        "50 min"
+      ],
+      "correctAnswer": "10 min",
+      "solution": "Time for A = 1500 / (27 * 5/18) = 200 s. Time for B = 1500 / (45 * 5/18) = 120 s. LCM(200, 120) = 600 s = 10 min."
+    },
+    {
+      "id": "maths_time_speed_distance_151",
+      "question": "In a race of 1200 m on a circular track, A and B start from the same place at the same time, running in the same direction with speeds of 18 km/h and 27 km/h respectively. How long after the start of the race will they meet for the first time on the track?",
+      "questionHindi": "वृत्ताकार ट्रैक पर हो रही 1200 m की एक दौड़ में A और B एक ही स्थान से एक ही समय पर, एक ही दिशा में क्रमशः 18 km/h और 27 km/h की चाल से दौड़ना शुरू करते हैं। दौड़ शुरू होने के कितने समय बाद वे ट्रैक पर पहली बार मिलेंगे?",
+      "options": [
+        "240 सेकंड",
+        "520 सेकंड",
+        "300 सेकंड",
+        "480 सेकंड"
+      ],
+      "correctAnswer": "480 सेकंड",
+      "solution": "Relative speed = 27 - 18 = 9 km/h = 9 * (5/18) = 2.5 m/s. Time to meet on track = 1200 / 2.5 = 480 seconds."
+    },
+    {
+      "id": "maths_time_speed_distance_152",
+      "question": "Two friends are running on a circular track of 720 m. They started from the same point and are moving in the same direction with speeds of 1.5 m/s and 3.5 m/s. After how much time will they cross each other for the second time?",
+      "questionHindi": "दो दोस्त 720 मीटर के एक वृत्ताकार ट्रैक पर दौड़ रहे हैं। उन्होंने एक ही बिन्दु से दौड़ना शुरू किया और समान दिशा में 1.5 मीटर / सेकंड और 3.5 मीटर/सेकंड की चाल से दौड़ रहे हैं। कितने समय बाद वे दूसरी बार एक-दूसरे को पार करेंगे?",
+      "options": [
+        "12 minutes",
+        "3.5 minutes",
+        "7 minutes",
+        "10 minutes"
+      ],
+      "correctAnswer": "12 minutes",
+      "solution": "Relative speed = 3.5 - 1.5 = 2 m/s. Time for 1st meeting = 720 / 2 = 360 s. Time for 2nd meeting = 2 * 360 = 720 s = 12 minutes."
+    },
+    {
+      "id": "maths_time_speed_distance_153",
+      "question": "In a circular race of 4225 m, X and Y start from the same point and at the same time at speeds of 54 km/h and 63 km/h. When will they meet again for the first time on the track when they are running in the opposite direction?",
+      "questionHindi": "4225 m की एक वृत्ताकार दौड़ में X और Y एक ही बिंदु से और एक ही समय में 54 km/h और 63 km/h की चाल से दौड़ना आरंभ करते हैं। यदि वे विपरीत दिशा में दौड़ रहें हों, तो ट्रैक पर फिर से कब मिलेंगे?",
+      "options": [
+        "140 seconds",
+        "150 seconds",
+        "130 seconds",
+        "120 seconds"
+      ],
+      "correctAnswer": "130 seconds",
+      "solution": "Relative speed = 54 + 63 = 117 km/h = 117 * (5/18) = 32.5 m/s. Time = 4225 / 32.5 = 130 seconds."
+    },
+    {
+      "id": "maths_time_speed_distance_154",
+      "question": "In a circular path of 600 m, Pankaj starts walking in opposite directions from the same point at the speed of 2.85 m/sec and 5.4 km/h respectively. After how many minutes will they meet for the first time?",
+      "questionHindi": "600 मीटर के वृत्ताकार पथ पर, पंकज एक ही बिंदु से क्रमशः 2.85 मीटर / सेकंड और 5.4 किमी / घंटा की गति से विपरीत दिशाओं में चलना शुरू करता है। वे कितने मिनट बाद पहली बार मिलेंगे?",
+      "options": [
+        "3.2",
+        "2.3",
+        "2.7",
+        "4.7"
+      ],
+      "correctAnswer": "2.3",
+      "solution": "5.4 km/h = 5.4 * (5/18) = 1.5 m/s. Relative speed = 2.85 + 1.5 = 4.35 m/s. Time = 600 / 4.35 ≈ 137.93 seconds ≈ 2.3 minutes."
+    },
+    {
+      "id": "maths_time_speed_distance_155",
+      "question": "A and B are running on a circular track of length 1400 meters. The speed of A is 33 m/sec and the speed of B is 47 m/sec. They start from the same point at the same time in the opposite direction. After how much time will they meet for the second time?",
+      "questionHindi": "A और B 1400 मीटर लम्बे वृत्ताकार ट्रैक पर दौड़ रहे हैं। A की गति 33 मीटर / सेकंड है और B की गति 47 मीटर / सेकंड है। वे एक ही समय पर एक ही बिंदु से विपरीत दिशा में प्रारंभ करते हैं। वे कितने समय बाद दूसरी बार मिलेंगे?",
+      "options": [
+        "33 sec",
+        "38 sec",
+        "35 sec",
+        "32 sec"
+      ],
+      "correctAnswer": "35 sec",
+      "solution": "Relative speed = 33 + 47 = 80 m/s. Time for 1 meeting = 1400 / 80 = 17.5 s. Time for 2nd meeting = 17.5 * 2 = 35 seconds."
+    },
+    {
+      "id": "maths_time_speed_distance_156",
+      "question": "A and B run on a circular path of perimeter 1200 m at different speeds. If they start at the same time and from the same place, but run in opposite directions, they meet for the first time in 3 minutes. If the speed of B is 10.8 km/h then what is the speed (in km/h) of A?",
+      "questionHindi": "A और B, 1200 m परिमाप वाले एक वृत्ताकार पथ पर भिन्न-भिन्न चाल से दौड़ते हैं। यदि वे एक ही समय और एक ही स्थान से प्रारंभ करते हैं, लेकिन विपरीत दिशाओं में दौड़ते हैं, तो वे पहली बार 3 मिनट में मिलते हैं। यदि B की चाल 10.8 km/h है, तो A की चाल (km/h में) क्या है?",
+      "options": [
+        "12.8",
+        "13.2",
+        "12.5",
+        "13.5"
+      ],
+      "correctAnswer": "13.2",
+      "solution": "Relative speed = 1200 m / 180 s = 6.67 m/s = 6.67 * 3.6 = 24 km/h. Speed of A = 24 - 10.8 = 13.2 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_157",
+      "question": "Two people A and B started running from the same point on a circular track of length 400 m in opposite directions with initial speeds of 10 m/sec and 40 m/sec, respectively. Whenever they meet, A's speed doubles and B's speed halves. After what time from the start will they meet for the third time?",
+      "questionHindi": "दो व्यक्ति A और B ने 400 मीटर लंबे वृत्ताकार ट्रैक पर एक ही बिंदु से क्रमशः 10 मीटर / सेकंड और 40 मीटर/सेकंड की प्रारंभिक गति से विपरीत दिशाओं में दौड़ना शुरू किया। जब भी वे मिलते हैं, A की गति दोगुनी हो जाती है और B की गति आधी हो जाती है। प्रारंभ से कितने समय बाद वे तीसरी बार मिलेंगे?",
+      "options": [
+        "30 sec",
+        "24 sec",
+        "26 sec",
+        "28 sec"
+      ],
+      "correctAnswer": "28 sec",
+      "solution": "1st meeting: Rel speed = 10+40=50. Time t1 = 400/50 = 8s. New speeds: A=20, B=20. 2nd meeting: Rel speed = 20+20=40. Time t2 = 400/40 = 10s. New speeds: A=40, B=10. 3rd meeting: Rel speed = 40+10=50. Time t3 = 400/50 = 8s. Total time = 8 + 10 + 8 = 26 seconds."
+    },
+    {
+      "id": "maths_time_speed_distance_158",
+      "question": "There are three persons M, N and P. They are running in the same direction around a circular track of length 150 m. Their speeds are 20 m/sec, 15 m/sec and 12 m/sec, respectively. If they start at same time and same point, then after what time do they meet for the first time?",
+      "questionHindi": "तीन व्यक्ति M, N और P हैं। वे 150 m लंबे एक वृत्ताकार ट्रैक पर एक ही दिशा में दौड़ रहे हैं। उनकी चालें क्रमशः 20 m/sec, 15 m/sec और 12 m/sec हैं। यदि वे एक ही समय पर और एक ही बिंदु से दौड़ना शुरू करते हैं, तो वे कितने समय बाद पहली बार एक-दूसरे से मिलेंगे?",
+      "options": [
+        "15 sec",
+        "16 sec",
+        "150 sec",
+        "240 sec"
+      ],
+      "correctAnswer": "150 sec",
+      "solution": "Relative speeds: M-N = 5 m/s, N-P = 3 m/s. Time M&N meet = 150/5 = 30s. Time N&P meet = 150/3 = 50s. LCM(30, 50) = 150 seconds."
+    },
+    {
+      "id": "maths_time_speed_distance_159",
+      "question": "A, B, and C start running simultaneously, starting from a point, around a circular track of length 900m, with respective speeds of 3 m/s, 5 m/s, and 6 m/s. A and B run in the same direction while C runs in the opposite direction of the other two. After how much time will they meet for the first time?",
+      "questionHindi": "A, B और C एक बिन्दु से प्रारंभ करके क्रमशः 3 m/s, 5 m/s और 6 m/s की चाल से एक ही समय पर 900 m लंबाई वाले एक वृत्ताकार ट्रैक के परितः दौड़ना शुरू करते हैं। A और B एक ही दिशा में दौड़ते हैं, जबकि C उन दोनों के विपरीत दिशा में दौड़ता है। वे पहली बार कितने समय बाद मिलेंगे?",
+      "options": [
+        "12 minutes",
+        "13 minutes",
+        "14 minutes",
+        "15 minutes"
+      ],
+      "correctAnswer": "15 minutes",
+      "solution": "Meetings: A & B (same) = 900 / (5-3) = 450s. A & C (opp) = 900 / (3+6) = 100s. LCM(450, 100) = 900 seconds = 15 minutes."
+    },
+    {
+      "id": "maths_time_speed_distance_160",
+      "question": "Two persons started running on a circular track at a speed of 20 m/s and 30 m/s in opposite directions. If the circumference of the circular track is 100 m, find at how many distinct points they will cross each other?",
+      "questionHindi": "दो व्यक्ति एक वृत्ताकार ट्रैक पर विपरीत दिशाओं में 20 m/s और 30 m/s की चाल से दौड़ना शुरू करते हैं। यदि वृत्ताकार पथ की परिधि 100m है, तो ज्ञात कीजिए कि वे एक-दूसरे को कितने अलग-अलग बिंदुओं पर पार करेंगे?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "10"
+      ],
+      "correctAnswer": "5",
+      "solution": "Speed ratio = 20 : 30 = 2 : 3. For opposite directions, number of distinct meeting points = 2 + 3 = 5."
+    },
+    {
+      "id": "maths_time_speed_distance_161",
+      "question": "Two girls A and B run on a circular track with the speed of 80 m/s and 140 m/s. Find the maximum number of distinct points where they can meet if they run in the opposite direction?",
+      "questionHindi": "दो लड़कियाँ A और B 80 मीटर / सेकंड और 140 मीटर/सेकंड की गति से वृत्ताकार पथ पर दौड़ती हैं, यदि वे विपरीत दिशा में दौड़ती हैं तो अधिकतम कितने अलग-अलग बिंदुओं पर मिल सकती हैं?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": "11",
+      "solution": "Speed ratio = 80 : 140 = 4 : 7. In opposite direction, total distinct points = 4 + 7 = 11."
+    },
+    {
+      "id": "maths_time_speed_distance_162",
+      "question": "Anjali and Babita are running on a circular track in opposite direction from same time at same point with speeds of 8 m/sec and 6 m/sec, respectively. If the length of the circular track is 960 m, how many times distinct points they will meet until they meet at starting point again?",
+      "questionHindi": "अंजलि और बबीता एक वृत्ताकार ट्रैक पर एक ही समय और एक ही बिन्दू से विपरीत दिशाओं में क्रमशः 8 m/sec और 6 m/sec की चाल से दौड़ रही हैं। यदि वृत्ताकार ट्रैक की लंबाई 960 m है, तो अगली मुलाकात शुरुआती बिंदु पर होने से पहले वे अलग-अलग मिलन बिन्दूओं पर कितनी बार मिलेंगी?",
+      "options": [
+        "7 times/बार",
+        "6 times/बार",
+        "12 times/बार",
+        "10 times/बार"
+      ],
+      "correctAnswer": "7 times/बार",
+      "solution": "Ratio = 8 : 6 = 4 : 3. Number of distinct meeting points = 4 + 3 = 7."
+    },
+    {
+      "id": "maths_time_speed_distance_163",
+      "question": "Having started from the same point and at the same time, two runners-P and Q are running around a circular track of length 500 m in opposite directions with the speeds of 6 m/sec and 10 m/sec respectively. If they exchange their speeds after meeting for the first time, who will reach the starting point first?",
+      "questionHindi": "एक ही बिंदु से और एक ही समय पर चलना शुरू करके, दो धावक-P और Q- क्रमशः 6 मीटर / सेकंड और 10 मीटर/सेकंड की गति के साथ विपरीत दिशाओं में 500 मीटर लंबे एक गोलाकार ट्रैक के चारों ओर दौड़ रहे हैं। यदि वे पहली बार मिलने के बाद अपनी गति बदल लेते हैं, तो शुरुआती बिंदु पर सबसे पहले कौन पहुंचेगा?",
+      "options": [
+        "Q",
+        "P",
+        "Both P and Q reach at the same time",
+        "No one of the P and Q"
+      ],
+      "correctAnswer": "Both P and Q reach at the same time",
+      "solution": "Time for 1st meeting t1 = 500 / 16 = 31.25s. P covered 187.5m, Q covered 312.5m. To complete the round, P has 312.5m left and Q has 187.5m left. After swapping speeds (P becomes 10 m/s, Q becomes 6 m/s): Time for P = 312.5 / 10 = 31.25s, Time for Q = 187.5 / 6 = 31.25s. Both reach at the same time."
+    },
+    {
+      "id": "maths_time_speed_distance_164",
+      "question": "A dog saw a cat at a distance of 280 m. The cat started running at the speed of 10 km/h and the dog also ran to catch it with the speed of 24 km/h. How much time will the dog take to catch the cat?",
+      "questionHindi": "एक कुत्ते ने एक बिल्ली को 280 m की दूरी पर देखा। बिल्ली 10 km/h की चाल से दौड़ने लगी और कुत्ता भी 24 km/h की चाल से उसे पकड़ने के लिए दौड़ा। कुत्ता बिल्ली को पकड़ने में कितना समय लेगा?",
+      "options": [
+        "1.4 min",
+        "1.5 min",
+        "1.2 min",
+        "1.3 min"
+      ],
+      "correctAnswer": "1.2 min",
+      "solution": "Relative speed = 24 - 10 = 14 km/h = 14 * (5/18) = 35/9 m/s. Time = 280 / (35/9) = 72 seconds = 1.2 minutes."
+    },
+    {
+      "id": "maths_time_speed_distance_165",
+      "question": "A policeman follows a thief who is 600 m ahead of the policeman. If the policeman and the thief run at speeds of 10 km/h and 8 km/h, respectively, in how much time (in minutes), will the policeman catch the thief?",
+      "questionHindi": "एक पुलिसकर्मी एक चोर का पीछा करता है जो पुलिसकर्मी से 600 मीटर आगे है। यदि पुलिसकर्मी और चोर क्रमशः 10 किमी/घंटा, 8 किमी / घंटा की चाल से दौड़ते हैं। तो पुलिसकर्मी कितने समय (मिनट में) में चोर को पकड़ लेगा?",
+      "options": [
+        "16",
+        "14",
+        "18",
+        "12"
+      ],
+      "correctAnswer": "18",
+      "solution": "Relative speed = 10 - 8 = 2 km/h. Time = 0.6 km / 2 km/h = 0.3 hours = 18 minutes."
+    },
+    {
+      "id": "maths_time_speed_distance_166",
+      "question": "A thief steals a scooter at 1:40 p.m. and drives it at 54 km/h. The theft is discovered at 2:10 p.m. and the owner sets off to chase the thief on another scooter at 72 km/h. At what time will he catch the thief?",
+      "questionHindi": "एक चोर ने दोपहर 1:40 p.m. पर स्कूटर चुराया और इसे 54 km/h की चाल से चलाता है। दोपहर 2:10 p.m. पर चोरी का पता चला और मालिक 72 km/h की चाल से दूसरे स्कूटर से चोर का पीछा करने के लिए निकला। वह किस समय चोर को पकड़ लेगा?",
+      "options": [
+        "3:40 p.m.",
+        "3:20 p.m.",
+        "4:50 p.m.",
+        "4:10 p.m."
+      ],
+      "correctAnswer": "3:40 p.m.",
+      "solution": "Time gap = 30 mins = 0.5 h. Distance covered by thief = 54 * 0.5 = 27 km. Relative speed = 72 - 54 = 18 km/h. Time to catch = 27 / 18 = 1.5 hours. Catch time = 2:10 p.m. + 1h 30m = 3:40 p.m."
+    },
+    {
+      "id": "maths_time_speed_distance_167",
+      "question": "A thief saw a policeman and he started running at a speed of 12 m/s. After a certain time, the policeman starts running behind the thief at a speed of 18 m/s. If the policeman covered a 540 m distance to catch the thief, the time (in seconds) after which the policeman started running is:",
+      "questionHindi": "एक चोर ने एक पुलिसकर्मी को देखा और वह 12 मीटर / सेकेंड की गति से भागने लगा। एक निश्चित समय के बाद, पुलिसकर्मी 18 मीटर/सेकेंड की गति से चोर के पीछे दौड़ना शुरू कर देता है। यदि पुलिसकर्मी ने चोर को पकड़ने के लिए 540 मीटर की दूरी तय की, तो वह समय (सेकंड में) जिसके बाद पुलिसकर्मी ने दौड़ना शुरू कियाः",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "correctAnswer": "15",
+      "solution": "Time policeman ran = 540 / 18 = 30 seconds. Distance thief ran = 540 m. Total time thief ran = 540 / 12 = 45 seconds. Delay before policeman started = 45 - 30 = 15 seconds."
+    },
+    {
+      "id": "maths_time_speed_distance_168",
+      "question": "A policeman saw a thief from a distance of 450 m. When the policeman started chasing him, the thief also started running. The ratio of speeds of the thief to the policeman is 7: 8. After running how much distance (in km) can the policeman catch the thief?",
+      "questionHindi": "एक पुलिसकर्मी ने एक चोर को 450 मीटर की दूरी से देखा। पुलिसकर्मी ने उसका पीछा करना शुरू किया तो चोर भी भागने लगा। चोर की चाल और पुलिसकर्मी की चाल का अनुपात 7:8 है। कितनी दूरी (km में) दौड़ने के बाद पुलिसकर्मी चोर को पकड़ सकता है?",
+      "options": [
+        "3.75",
+        "3.4",
+        "3.6",
+        "3.15"
+      ],
+      "correctAnswer": "3.6",
+      "solution": "Ratio of distance covered = Ratio of speed = 7 : 8. Difference = 1 unit = 450 m. Distance run by policeman = 8 units = 8 * 450 = 3600 m = 3.6 km."
+    },
+    {
+      "id": "maths_time_speed_distance_169",
+      "question": "A thief was spotted by a policeman at a distance of 1200 m and he started chasing him. The thief ran 6.4 km in 52 minutes and the policeman also ran the same distance in 40 minutes. Find the distance the thief had run before he was caught.",
+      "questionHindi": "एक पुलिसकर्मी ने एक चोर को 1200 मीटर की दूरी पर देखा और उसका पीछा करना शुरू कर दिया। चोर 52 मिनट में 6.4 किमी दौड़ा और पुलिसकर्मी भी उतनी ही दूरी 40 मिनट में दौड़ा। चोर पकड़े जाने से पहले कितनी दूरी तय की।",
+      "options": [
+        "2.5 km",
+        "4 km",
+        "3.0 km",
+        "3.5 km"
+      ],
+      "correctAnswer": "4 km",
+      "solution": "Speed ratio (Thief : Police) = (6.4/52) : (6.4/40) = 40 : 52 = 10 : 13. Difference in distance = 13 - 10 = 3 units = 1200 m -> 1 unit = 400 m. Thief's distance = 10 * 400 = 4000 m = 4 km."
+    },
+    {
+      "id": "maths_time_speed_distance_170",
+      "question": "A thief is spotted by a policeman from a distance of 210 m. When the policeman starts the chase, the thief also starts running. If the speed of the thief is 25 km/h and that of the policeman is 32 km/h, then how far would the thief have run (in m) before he is overtaken?",
+      "questionHindi": "एक पुलिसकर्मी को 210 मीटर की दूरी पर एक चोर दिखाई देता है। जब पुलिसकर्मी ने पीछा करना आरंभ किया तो चोर भी भागने लगा। यदि चोर की चाल 25 किमी/घंटा है और पुलिसकर्मी की चाल 32 किमी / घंटा है, तो चोर पकड़े जाने से पहले कितनी दूर (मीटर में) भाग चुका होगा?",
+      "options": [
+        "920",
+        "480",
+        "1200",
+        "750"
+      ],
+      "correctAnswer": "750",
+      "solution": "Speed ratio = 25 : 32. Difference = 7 units = 210 m -> 1 unit = 30 m. Thief's distance = 25 * 30 = 750 m."
+    },
+    {
+      "id": "maths_time_speed_distance_171",
+      "question": "A policeman follows a thief, who is 1250 m ahead of him. The policeman and the thief run at the speed of 10 km/h and 8 km/h, respectively. The distance (in km) run by the thief before he is nabbed by the policeman is:",
+      "questionHindi": "एक पुलिसकर्मी एक चोर का पीछा करता है, जो उससे 1250 मीटर आगे है। पुलिसकर्मी और चोर क्रमशः 10 किमी/घंटा और 8 किमी/घंटा की गति से दौड़ते हैं। पुलिसकर्मी द्वारा पकड़े जाने से पहले चोर द्वारा तय की गई दूरी (किमी में) कितनी है?",
+      "options": [
+        "7",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": "5",
+      "solution": "Speed ratio (Thief : Police) = 8 : 10 = 4 : 5. Difference = 1 unit = 1250 m. Thief distance = 4 * 1250 = 5000 m = 5 km."
+    },
+    {
+      "id": "maths_time_speed_distance_172",
+      "question": "A policeman spots a thief at a distance of 360 m. Both the policeman and the thief simultaneously start running, with the former chasing the latter. While the thief runs at the speed of 8 km/h, the policeman runs at 9.2 km/h. How many metres will the policeman have to run before he catches up with the thief?",
+      "questionHindi": "एक पुलिसकर्मी को 360 मीटर की दूरी पर एक चोर दिखाई देता है। पुलिसकर्मी और चोर दोनों एक साथ भागने लगते हैं और पुलिसकर्मी चोर का पीछा करता है। जहां चोर 8 किमी/घंटा की गति से दौड़ता है, वहीं पुलिसकर्मी 9.2 किमी/घंटा की गति से दौड़ता है। चोर को पकड़ने से पहले पुलिसकर्मी को कितने मीटर दौड़ना होगा?",
+      "options": [
+        "2852",
+        "2714",
+        "2668",
+        "2760"
+      ],
+      "correctAnswer": "2760",
+      "solution": "Relative speed = 9.2 - 8 = 1.2 km/h. Time = 0.36 km / 1.2 = 0.3 h. Distance run by policeman = 9.2 * 0.3 = 2.76 km = 2760 m."
+    },
+    {
+      "id": "maths_time_speed_distance_173",
+      "question": "A policeman chases a thief. The speed of the policeman and thief are 18 km/h and 6 km/h, respectively. If the policeman started 10 minutes late, at what distance will he catch the thief?",
+      "questionHindi": "एक पुलिसकर्मी एक चोर का पीछा करता है। पुलिसकर्मी और चोर की चाल क्रमशः 18 km/h और 6 km/h है। यदि पुलिसकर्मी 10 मिनट देरी से शुरू करता है, तो वह चोर को कितनी दूरी पर पकड़ लेगा?",
+      "options": [
+        "2.0 km",
+        "1.0 km",
+        "1.5 km",
+        "2.5 km"
+      ],
+      "correctAnswer": "1.5 km",
+      "solution": "Head start for thief in 10 mins = 6 * (10/60) = 1 km. Relative speed = 18 - 6 = 12 km/h. Time = 1/12 h. Distance covered by policeman = 18 * (1/12) = 1.5 km."
+    },
+    {
+      "id": "maths_time_speed_distance_174",
+      "question": "A thief takes off on his bike at a certain speed, after seeing a police car at a distance of 250 m. The police car starts chasing the thief and catches him. If the thief runs 1.5 km before being caught and the speed of the police car is 70 km/h then what is the speed of thief's bike (in km/h)?",
+      "questionHindi": "एक चोर 250 मीटर की दूरी पर एक पुलिस कार को देखकर एक निश्चित गति से अपनी बाइक चलाता है। पुलिस की गाड़ी चोर का पीछा करने लगती है और उसे पकड़ लेती है. यदि चोर पकड़े जाने से पहले 1.5 किमी दौड़ता है और पुलिस की गाड़ी की गति 70 किमी/घंटा है, तो चोर की बाइक की गति (किमी/घंटा में) क्या है?",
+      "options": [
+        "65",
+        "60",
+        "55",
+        "50"
+      ],
+      "correctAnswer": "60",
+      "solution": "Distance covered by Police = 1.5 + 0.25 = 1.75 km. Distance by thief = 1.5 km. Ratio of speeds = Ratio of distances = 1.5 : 1.75 = 6 : 7. Speed of thief = (6/7) * 70 = 60 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_175",
+      "question": "A thief is noticed by a policeman from a distance of 650 m. The thief starts running and the policeman chases him. The thief and the policeman run at the rate of 8 km and 10.5 km per hours, respectively. The distance (in metres) between them after 12 minutes is:",
+      "questionHindi": "एक पुलिसकर्मी को 650 मीटर की दूरी से एक चोर दिखाई देता है। चोर भागने लगता है और पुलिसकर्मी उसका पीछा करता है। चोर और पुलिसकर्मी क्रमशः 8 km और 10.5 km प्रति घंटे की दर से दौड़ते हैं। 12 मिनट के बाद उनके बीच की दूरी (m में) कितनी होगी?",
+      "options": [
+        "150",
+        "85",
+        "125",
+        "100"
+      ],
+      "correctAnswer": "150",
+      "solution": "Relative speed = 10.5 - 8 = 2.5 km/h. Distance reduced in 12 mins = 2.5 * (12/60) = 0.5 km = 500 m. Remaining distance = 650 - 500 = 150 m."
+    },
+    {
+      "id": "maths_time_speed_distance_176",
+      "question": "A thief committed a crime and escaped from the spot at a speed of 12 km/h. A security guard started chasing him 20 minutes after the thief started running and caught him in the next 20 minutes. What is the speed (in km/h) of the security guard?",
+      "questionHindi": "एक चोर अपराध करता है और 12 km/h की चाल से उस स्थान से भागता है। चोर के भागने के 20 मिनट बाद एक चौकीदार ने उसका पीछा करना शुरू किया और अगले 20 मिनट में उसे पकड़ लिया। चौकीदार की चाल (km/h में) क्या है?",
+      "options": [
+        "24",
+        "30",
+        "32",
+        "36"
+      ],
+      "correctAnswer": "24",
+      "solution": "Total time thief ran = 20 + 20 = 40 mins = 2/3 h. Distance = 12 * (2/3) = 8 km. Time taken by guard = 20 mins = 1/3 h. Speed of guard = 8 / (1/3) = 24 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_177",
+      "question": "The speed of a thief is 4/5 times the speed of a policeman. The thief covers a distance of 6 km before he was caught by the policeman in 30 minutes. Initially, what was the distance between the policeman and the thief in km?",
+      "questionHindi": "एक चोर की चाल एक पुलिसकर्मी की चाल की 4/5 गुना है। पुलिसकर्मी द्वारा 30 मिनट में पकड़े जाने से पहले चोर 6 km की दूरी तय करता है। शुरुआत में पुलिसकर्मी और चोर के बीच km में दूरी कितनी थी?",
+      "options": [
+        "0.8",
+        "1.0",
+        "1.5",
+        "1.2"
+      ],
+      "correctAnswer": "1.5",
+      "solution": "Ratio of distances = Ratio of speeds = 4 : 5. Distance thief = 4 units = 6 km -> 1 unit = 1.5 km. Initial distance = Difference = 1 unit = 1.5 km."
+    },
+    {
+      "id": "maths_time_speed_distance_178",
+      "question": "A person sees another person snatching a chain from a lady, at a distance of 300 metres. He starts running and catches the thief by running at 10 km/h after running a total distance of 1.5 km. The speed at which the thief was running was:",
+      "questionHindi": "एक व्यक्ति 300 मीटर की दूरी पर दूसरे व्यक्ति को एक महिला से चेन छीनते हुए देखता है। वह दौड़ना शुरू करता है और कुल 1.5 किमी की दूरी तय करने के बाद 10 किमी / घंटा की गति से दौड़कर चोर को पकड़ लेता है। चोर जिस गति से दौड़ रहा था वह थीः",
+      "options": [
+        "8.5 km/h",
+        "9 km/h",
+        "9.5 km/h",
+        "8 km/h"
+      ],
+      "correctAnswer": "8 km/h",
+      "solution": "Distance run by police/person = 1.5 km = 1500 m. Distance run by thief = 1500 - 300 = 1200 m = 1.2 km. Ratio of speeds = Ratio of distances = 1.2 : 1.5 = 4 : 5. Speed of thief = (4/5) * 10 = 8 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_179",
+      "question": "A policeman sees a thief and starts chasing him. The distance between the thief and the policeman is 200 m and the speed of the thief is 8 km/h. If the policeman was able to catch the thief in 20 minutes, then the speed of the policeman is ____ km/h?",
+      "questionHindi": "एक पुलिसकर्मी एक चोर को देखता है और उसका पीछा करना शुरू कर देता है। चोर और पुलिसकर्मी के बीच की दूरी 200 मीटर है और चोर की गति 8 किमी/घंटा है। यदि पुलिसकर्मी 20 मिनट में चोर को पकड़ने में सक्षम था, तो पुलिसकर्मी की गति ____ किमी/घंटा है?",
+      "options": [
+        "8.4",
+        "9.2",
+        "8.6",
+        "8.2"
+      ],
+      "correctAnswer": "8.6",
+      "solution": "Time = 20 mins = 1/3 h. Relative speed = 0.2 km / (1/3 h) = 0.6 km/h. Speed of policeman = 8 + 0.6 = 8.6 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_180",
+      "question": "A policeman chases a thief on a straight road. The policeman catches the thief in 15 minutes if he drives with a speed of 60 km/h and catches the thief in 0.5 hours if he drives with a speed 45 km/h. What should be his driving speed (in km/h) to catch the thief in just 10 minutes?",
+      "questionHindi": "एक पुलिसकर्मी सीधी सड़क पर चोर का पीछा करता है। यदि पुलिसकर्मी 60 km/h की चाल से गाड़ी चलाता है, तो वह चोर को 15 मिनट में पकड़ लेता है और यदि वह 45 km/h की चाल से गाड़ी चलाता है तो चोर को 0.5 घंटे में पकड़ लेता है। केवल 10 मिनट में चोर को पकड़ने के लिए पुलिसकर्मी की गाड़ी की चाल (km/h में) क्या होनी चाहिए?",
+      "options": [
+        "75",
+        "65",
+        "90",
+        "70"
+      ],
+      "correctAnswer": "75",
+      "solution": "Let initial gap = D, speed of thief = V. (60 - V) * 1/4 = D and (45 - V) * 1/2 = D. Solving gives V = 30 km/h, D = 7.5 km. To catch in 10 mins (1/6 h): Rel Speed = 7.5 / (1/6) = 45 km/h. Police speed = 30 + 45 = 75 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_181",
+      "question": "A thief steals an item and escapes, running at 13.5 km/h. A policeman arrives at the spot of the crime after 8 minutes and immediately starts chasing the thief. 28 minutes after the policeman started to chase the thief, there is still a gap of 540 m between the two. At what distance from the spot of the crime would the policeman catch up with the thief, and what is the speed (in km/h) at which the policeman ran?",
+      "questionHindi": "एक चोर एक वस्तु चुराता है और 13.5 Km/h की चाल से भाग जाता है। 8 मिनट बाद एक पुलिसकर्मी अपराध स्थल पर पहुँचता है और तुरंत चोर का पीछा करना शुरू कर देता है। पुलिसकर्मी द्वारा चोर का पीछा करने के 28 मिनट बाद भी दोनों के बीच 540 m की दूरी रहती है। अपराध स्थल से कितनी दूरी पर पुलिसकर्मी चोर को पकड़ पाएगा और पुलिसकर्मी की चाल (Km/h में) क्या है?",
+      "options": [
+        "11.2 km, 16.4",
+        "10.8 km, 16.2",
+        "10.4 km, 16",
+        "12.96 km, 16.2"
+      ],
+      "correctAnswer": "10.8 km, 16.2",
+      "solution": "Total time thief ran = 8 + 28 = 36 mins. Distance covered by thief = 13.5 * (36/60) = 8.1 km. Distance covered by police in 28 mins = 8.1 - 0.54 = 7.56 km. Police speed = 7.56 / (28/60) = 16.2 km/h. Rel speed = 16.2 - 13.5 = 2.7 km/h. Time to catch from start of chase = Initial gap (13.5 * 8/60 = 1.8km) / 2.7 = 2/3 h = 40 mins. Catch distance = 16.2 * (40/60) = 10.8 km."
+    },
+    {
+      "id": "maths_time_speed_distance_182",
+      "question": "Two guns are fired from the same place at an interval of 9 minutes. A person approaching the place observes that 8 minutes 48 seconds have elapsed between the hearing of the sound of the two guns. If the velocity of the sound is 330 m/s, at what speed was the person approaching that place (in km/h)?",
+      "questionHindi": "दो बंदूकें 9 मिनट के अंतराल पर एक ही स्थान से दागी जाती हैं। उस स्थान की ओर आने वाले एक व्यक्ति ने देखा कि दो बंदूकों की आवाज सुनने के बीच 8 मिनट 48 सेकंड का समय बीत चुका है। यदि ध्वनि का वेग 330 मीटर / सेकेंड है, तो व्यक्ति किस गति से (किमी/घंटा में) उस स्थान की ओर आ रहा था?",
+      "options": [
+        "36",
+        "27",
+        "33",
+        "29"
+      ],
+      "correctAnswer": "27",
+      "solution": "Distance covered by sound in (9m - 8m48s = 12s) = Distance covered by person in 8m48s (528s). Speed of person = 330 * (12 / 528) = 7.5 m/s = 7.5 * 3.6 = 27 km/h."
+    },
+    {
+      "id": "maths_time_speed_distance_183",
+      "question": "Two guns were fired from same place at an interval of 32 minutes. But a man sitting in the train going away from the place hears the 2nd firing 35 minutes after the 1st. If the speed of train is 97.2 km/hr. Find the speed of sound (in m/s)?",
+      "questionHindi": "32 मिनट के अंतराल पर एक ही जगह से दो बंदूकें दागी गईं। लेकिन उस जगह से दूर जा रहे ट्रेन में बैठे एक व्यक्ति ने 1 के 35 मिनट बाद दूसरी फायरिंग सुनी। यदि ट्रेन की गति 97.2 किमी/घंटा है। ध्वनि की गति ज्ञात कीजिए (m/s में)?",
+      "options": [
+        "315",
+        "330",
+        "300",
+        "320"
+      ],
+      "correctAnswer": "315",
+      "solution": "Train speed = 97.2 * (5/18) = 27 m/s. Distance covered by sound in (35 - 32 = 3 mins) = Distance covered by train in 35 mins. Speed of sound * 3 = 27 * 35 -> Speed of sound = 315 m/s."
+    },
+    {
+      "id": "maths_time_speed_distance_184",
+      "question": "You travel by Delhi Metro every day from Botanical Garden, Noida to Hauz Khas, Delhi. At Hauz Khas metro station, you see an escalator to get out of the station. The escalator takes 80 seconds. One day, the escalator was not working and you walk up the escalator in 50 seconds. How many minutes does it approximately take you to walk down the working escalator?",
+      "questionHindi": "आप हर दिन दिल्ली मेट्रो से बॉटनिकल गार्डन, नोएडा से हौज खास, दिल्ली तक यात्रा करते हैं। हौज खास मेट्रो स्टेशन पर आपको स्टेशन से बाहर निकलने के लिए एक एस्केलेटर दिखाई देता है। एस्केलेटर में 80 सेकंड लगते हैं। एक दिन, एस्केलेटर काम नहीं कर रहा था और आप 50 सेकंड में एस्केलेटर पर चढ़ जाते हैं। काम कर रहे एस्केलेटर से नीचे चलने में आपको लगभग कितने मिनट लगते हैं?",
+      "options": [
+        "1.5 minutes",
+        "2.8 minutes",
+        "2.2 minutes",
+        "2.6 minutes"
+      ],
+      "correctAnswer": "2.2 minutes",
+      "solution": "Let distance = 400. Escalator speed e = 400/80 = 5. Walking speed w = 400/50 = 8. Walking down against working escalator speed = w - e = 8 - 5 = 3. Time = 400 / 3 ≈ 133.33 seconds ≈ 2.22 minutes."
+    },
+    {
+      "id": "maths_time_speed_distance_185",
+      "question": "Ajit Singh left from place P at 9.30 a.m. for place Q, and David Raj left place Q at 1.30 p.m. for place P. The distance between them is 416 km. If Ajit Singh's speed is 44 km/h and David Raj's speed is 52 km/h, then at what time will they meet each other?",
+      "questionHindi": "अजित सिंह सुबह 9.30 बजे स्थान P से स्थान Q के लिए चलना शुरू करता है और डेविड राज दोपहर 1.30 बजे स्थान Q से स्थान P के लिए चलना शुरू करता है। उनके बीच की दूरी 416 km है। यदि अजित सिंह की चाल 44 km/h है और डेविड राज की चाल 52 km/h है, तो वे एक दूसरे से कितने बजे मिलेंगे?",
+      "options": [
+        "4.30 p.m.",
+        "5 p.m.",
+        "6 p.m.",
+        "4 p.m."
+      ],
+      "correctAnswer": "4 p.m.",
+      "solution": "Time gap (9:30 am to 1:30 pm) = 4 hours. Distance covered by Ajit = 44 * 4 = 176 km. Remaining distance = 416 - 176 = 240 km. Relative speed = 44 + 52 = 96 km/h. Time after 1:30 pm = 240 / 96 = 2.5 hours. Meeting time = 1:30 pm + 2.5 hours = 4:00 p.m."
+    },
+    {
+      "id": "maths_time_speed_distance_186",
+      "question": "The two trains leave Varanasi for Lucknow at 11.00 a.m. and at 11.30 a.m., respectively and travel at a speed of 110 km/h and 140 km/h respectively. How many kilometers from Varanasi will both trains meet?",
+      "questionHindi": "दो ट्रेन वाराणसी से लखनऊ के लिए सुबह 11.00 बजे और 11.30 बजे प्रस्थान करती हैं, क्रमशः 110 किमी / घंटा और 140 किमी / घंटा की गति से चलती है। दोनों ट्रेनें वाराणसी से कितने किलोमीटर की दूरी पर एक दूसरे से मिलेंगी?",
+      "options": [
+        "246⅓ km",
+        "238⅔ km",
+        "255⅓ km",
+        "256⅔ km"
+      ],
+      "correctAnswer": "256⅔ km",
+      "solution": "Distance gap in 30 mins = 110 * 0.5 = 55 km. Relative speed = 140 - 110 = 30 km/h. Time = 55 / 30 = 11/6 h. Meeting distance = 140 * (11/6) = 1540 / 6 = 256⅔ km."
+    },
+    {
+      "id": "maths_time_speed_distance_187",
+      "question": "A train travelling at a speed of 60 km/h leaves station A at 7:00 a.m. and another train travelling at a speed of 84 km/h starts from station A at 9:30 a.m. in the same direction on a parallel track. At what distance (in km) from station A and after how many hours of travel of the second train will they be together? Express your answer in the same order.",
+      "questionHindi": "60 किमी/घंटा की गति से चलने वाली एक ट्रेन स्टेशन A से सुबह 7:00 बजे निकलती है और 84 किमी/घंटा की गति से चलने वाली दूसरी ट्रेन स्टेशन A से सुबह 9:30 बजे समानांतर ट्रैक पर उसी दिशा में चलती है। स्टेशन A से कितनी दूरी (किमी में) पर और दूसरी ट्रेन की यात्रा के कितने घंटे बाद वे एक साथ होंगे? इसी क्रम में अपना उत्तर व्यक्त करें।",
+      "options": [
+        "693, 8.25",
+        "525, 6.25",
+        "375, 6.25",
+        "495, 8.25"
+      ],
+      "correctAnswer": "525, 6.25",
+      "solution": "Distance lead = 60 * 2.5 = 150 km. Relative speed = 84 - 60 = 24 km/h. Time for 2nd train = 150 / 24 = 6.25 hours. Distance = 84 * 6.25 = 525 km."
+    },
+    {
+      "id": "maths_time_speed_distance_188",
+      "question": "A train started from station A and proceeded towards station B at a speed of 212 kmph. 45 minutes later, another train started from station B and proceeded towards station A at 20 kmph. If the distance between the two stations is 855 kms, at what distance from station A will the trains meet? (In km)",
+      "questionHindi": "एक ट्रेन 212 kmph की गति से स्टेशन A से स्टेशन B के लिए चली। 45 मिनट बाद, दूसरी ट्रेन 20 kmph की गति से स्टेशन B से स्टेशन A के लिए चली। यदि दोनों स्टेशनों के बीच की दूरी 855 kms है, तो दोनों ट्रेनें स्टेशन A से कितनी दूरी पर मिलेंगी? (km में).",
+      "options": [
+        "785",
+        "775",
+        "795",
+        "765"
+      ],
+      "correctAnswer": "795",
+      "solution": "Distance covered by Train 1 in 45 mins (3/4 h) = 212 * (3/4) = 159 km. Remaining distance = 855 - 159 = 696 km. Relative speed = 212 + 20 = 232 km/h. Time = 696 / 232 = 3 hours. Distance from station A = 159 + (212 * 3) = 159 + 636 = 795 km."
+    },
+    {
+      "id": "maths_time_speed_distance_189",
+      "question": "A train leaves station A at 5 AM and reaches station B at 9 AM on the same day. Another train leaves station B at 7 AM and reaches station A at 10:30 AM on the same day. The time at which the two trains cross each other is:",
+      "questionHindi": "एक ट्रेन स्टेशन A से सुबह 5 बजे चलती है और उसी दिन सुबह 9 बजे स्टेशन B पहुंचती है। दूसरी ट्रेन सुबह 7 बजे स्टेशन B से निकलती है और उसी दिन सुबह 10:30 बजे स्टेशन A पहुंचती है। मिलने का समय ज्ञात करें?",
+      "options": [
+        "8:26 AM",
+        "7:36 AM",
+        "7:56 AM",
+        "8:14 AM"
+      ],
+      "correctAnswer": "7:56 AM",
+      "solution": "Train 1 duration = 4 h. Train 2 duration = 3.5 h. Let distance = LCM(4, 3.5) = 28. Speed 1 = 7, Speed 2 = 8. Train 1 travels from 5 to 7 AM (2 hours) = 14 km. Remaining = 14 km. Rel speed = 15. Time after 7 AM = 14/15 hours = 56 mins. Meeting time = 7:56 AM."
+    },
+    {
+      "id": "maths_time_speed_distance_190",
+      "question": "A train leaves station A at 8 am and reaches station B at 12 noon. A car leaves station B at 8:30 am and reaches station A at the same time when the train reaches station B. At what time do they meet?",
+      "questionHindi": "एक रेलगाड़ी, सुबह 8 बजे स्टेशन A से निकलती है और दोपहर 12 बजे स्टेशन B पर पहुंचती है। एक कार सुबह 8:30 बजे स्टेशन B से निकलती है और स्टेशन A पर उसी समय पहुंचती है जब रेलगाड़ी स्टेशन B पर पहुंचती है। वे एक-दूसरे से किस समय मिलती है?",
+      "options": [
+        "9:38 am",
+        "10:22 am",
+        "10:08 am",
+        "9:52 am"
+      ],
+      "correctAnswer": "9:52 am",
+      "solution": "Train duration = 4 h (8 am to 12 pm). Car duration = 3.5 h (8:30 am to 12 pm). Let distance = 28. Speed train = 7, Speed car = 8. Train covers in 30 mins (8 to 8:30 am) = 3.5. Remaining distance = 24.5. Rel speed = 15. Time = 24.5 / 15 h = 49/30 h = 1 h 38 mins. Meeting time = 8:30 am + 1h 38m = 10:08 am."
+    }, 
   {
     "id": "maths_time_speed_distance_134",
     "question": "Time Speed Distance — Question 134 (add real content in datas/maths/time-speed-distance.json)",
