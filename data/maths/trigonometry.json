@@ -1639,7 +1639,7 @@
   },
   {
     "id": "maths_trigonometry_127",
-    "question": "The value of sin²5° + sin²10° + sin²15° + dots + sin²85° + sin²90° is equal to:",
+    "question": "The value of sin²5° + sin²10° + sin²15° + ......... + sin²85° + sin²90° is equal to:",
     "options": [
       "9(1/2)",
       "9",
@@ -1647,12 +1647,12 @@
       "10"
     ],
     "correctAnswer": "9(1/2)",
-    "questionHi": "sin²5° + sin²10° + sin²15° + dots + sin²85° + sin²90° का मान किसके बराबर है।",
+    "questionHi": "sin²5° + sin²10° + sin²15° + ........ + sin²85° + sin²90° का मान किसके बराबर है।",
     "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_128",
-    "question": "The value of (tan29°cot61° - cosec²61°) + cot²54° - sec²36° + (sin²1° + sin²3° + sin²5° + dots + sin²89°) is:",
+    "question": "The value of (tan29°cot61° - cosec²61°) + cot²54° - sec²36° + (sin²1° + sin²3° + sin²5° + ......... + sin²89°) is:",
     "options": [
       "22(1/2)",
       "21",
@@ -1660,25 +1660,25 @@
       "22"
     ],
     "correctAnswer": "20(1/2)",
-    "questionHi": "(tan29°cot61° - cosec²61°) + cot²54° - sec²36° + (sin²1° + sin²3° + sin²5° + dots + sin²89°) का मान है:",
+    "questionHi": "(tan29°cot61° - cosec²61°) + cot²54° - sec²36° + (sin²1° + sin²3° + sin²5° + ........ + sin²89°) का मान है:",
     "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_129",
-    "question": "The value of ((tan25°cot65°-cosec²65°)+cot²61°-sec²29°)/(sin²5°+sin²7°+sin²9°+dots+sin²85°) is:",
+    "question": "The value of ((tan25°cot65°-cosec²65°)+cot²61°-sec²29°)/(sin²5°+sin²7°+sin²9°+.......+sin²85°) is:",
     "options": [
-      "-2/41",
+      "-4/41",
       "4/45",
       "-1/20",
       "41"
     ],
-    "correctAnswer": "-2/41",
-    "questionHi": "((tan25°cot65°-cosec²65°)+cot²61°-sec²29°)/(sin²5°+sin²7°+sin²9°+dots+sin²85°) का मान ज्ञात करें।",
+    "correctAnswer": "-4/41",
+    "questionHi": "((tan25°cot65°-cosec²65°)+cot²61°-sec²29°)/(sin²5°+sin²7°+sin²9°+......+sin²85°) का मान ज्ञात करें।",
     "solution": "video solution will be added soon"
   },
   {
     "id": "maths_trigonometry_130",
-    "question": "cos²1° + cos²2° + cos²3° + dots + cos²90° = ?",
+    "question": "cos²1° + cos²2° + cos²3° + ........ + cos²90° = ?",
     "options": [
       "44.5",
       "45",
@@ -1691,7 +1691,7 @@
   },
   {
     "id": "maths_trigonometry_131",
-    "question": "Find the value of (tan 1°)/(1+tan 1°) + (tan 2°)/(1+tan 2°) + dots + (tan 89°)/(1+tan 89°).",
+    "question": "Find the value of (tan 1°)/(1+tan 1°) + (tan 2°)/(1+tan 2°) + ........ + (tan 89°)/(1+tan 89°).",
     "options": [
       "44.5",
       "45",
@@ -1815,7 +1815,7 @@
       "cosec² B",
       "cot A"
     ],
-    "correctAnswer": "cosec² B",
+    "correctAnswer": "cosec² A",
     "questionHi": "यदि A + B = 90° तो व्यंजक (cot A)/(cot B) + cos²A + cos²B किसके बराबर है? (SSC CPO 2023)",
     "solution": "video solution will be added soon"
   },
@@ -1906,7 +1906,7 @@
       "√3/2",
       "3√3/4"
     ],
-    "correctAnswer": "3√3/4",
+    "correctAnswer": "√3",
     "questionHi": "यदि tan(8θ-11°) · tan(11θ-13°) = 1, तो sin10θ + cos5θ का मान ज्ञात कीजिए।",
     "solution": "video solution will be added soon"
   },

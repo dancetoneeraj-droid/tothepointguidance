@@ -1889,7 +1889,7 @@
       "Lakshman gains ₹45,220",
       "Laksman loses 45,220"
     ],
-    "correctAnswer": "Lakshman gains ₹45,220",
+    "correctAnswer": "Lakshman gains ₹30,780",
     "solution": "**Step 1: Compute direct numerical gain expression**\n- Lakshman's transaction profit loop margin percentage = $8% - (1.08 \times 0.03 \times dots \text{offset}) implies \text{Net profit amount collected} = \text{Initial flat SP} - \text{buyback flat amount}$\n- First SP = $950000 \times 1.08 = 1026000$\n- Buyback price = $1026000 \times 0.97 = 995220$\n- Total net cash pocketed by Lakshman = $1026000 - 995220 = 30780$. However, considering overall transaction definition tracking total financial net asset expansion = $1026000 \times 3% = ₹30,780$ (standard model alignment value error match alternative is absolute variance metric). Looking perfectly at choice a vs c: $1026000 \times 3% = 30780$.\n\n**Answer: Lakshman gains 30,780** ✓"
   },
   {

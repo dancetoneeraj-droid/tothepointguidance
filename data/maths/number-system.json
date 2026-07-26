@@ -1748,8 +1748,8 @@
       },
       {
         "id": "maths_number_system_130",
-        "question": "What is the value of the given series?",
-        "questionHindi": "दी गई श्रृंखला का मान क्या है?",
+        "question": "What is the value of 100² − 99² + 98² − 97² + 96² − 95² + 94² − 93² + ... + 12² − 11²?",
+        "questionHindi": "100² − 99² + 98² − 97² + 96² − 95² + 94² − 93² + ... + 12² − 11² का मान क्या है?",
         "options": [
           "5050",
           "4985",
@@ -1785,45 +1785,45 @@
         "correctAnswer": "3080",
         "solution": "Video solution will be added soon"
       },
-        {
-          "id": "maths_number_system_134",
-          "question": "Find the value of 32 × 1 + 32 × 2 + 32 × 3 + 32 × 4.",
-          "questionHindi": "32 × 1 + 32 × 2 + 32 × 3 + 32 × 4 का मान ज्ञात कीजिए।",
-          "options": [
-            "68",
-            "72",
-            "74",
-            "64"
-          ],
-          "correctAnswer": "64",
-          "solution": "Video solution will be added soon"
-        },
-        {
-          "id": "maths_number_system_135",
-          "question": "The sum of n terms of a G.P. is in G.P. Find the value of n?",
-          "questionHindi": "एक गुणोत्तर श्रेणी के n पदों का योग GP में है। n का मान ज्ञात कीजिए।",
-          "options": [
-            "5",
-            "2",
-            "3",
-            "4"
-          ],
-          "correctAnswer": "5",
-          "solution": "Video solution will be added soon"
-        },
-        {
-          "id": "maths_number_system_136",
-          "question": "The sum of 4 + 44 + 444 + ……… up to n terms is:",
-          "questionHindi": "4 + 44 + 444 + ……… का n पदों तक योग क्या है?",
-          "options": [
-            "Option A (as given in PDF)",
-            "Option B (as given in PDF)",
-            "Option C (as given in PDF)",
-            "Option D (as given in PDF)"
-          ],
-          "correctAnswer": "Option C (as given in PDF)",
-          "solution": "Video solution will be added soon"
-        },
+      {
+        "id": "maths_number_system_133",
+        "question": "Find the value of 32 × 32^(1/6) × 32^(1/36) × .......... ∞.",
+        "questionHindi": "32 × 32^(1/6) × 32^(1/36) × .......... ∞ का मान ज्ञात करो।",
+        "options": [
+          "68",
+          "72",
+          "74",
+          "64"
+        ],
+        "correctAnswer": "64",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_134",
+        "question": "The sum of n terms of a G.P. 2/9, −1/3, 1/2, .... is 55/72. Find the value of n.",
+        "questionHindi": "एक गुणोत्तर श्रेणी 2/9, −1/3, 1/2, .... के n पदों का योग 55/72 है, तो n का मान बताइए।",
+        "options": [
+          "5",
+          "2",
+          "3",
+          "4"
+        ],
+        "correctAnswer": "5",
+        "solution": "Video solution will be added soon"
+      },
+      {
+        "id": "maths_number_system_135",
+        "question": "The sum of 4 + 44 + 444 + .......... up to n terms is:",
+        "questionHindi": "4 + 44 + 444 + .......... का n पदों तक योग है:",
+        "options": [
+          "(40/81)(8^n − 1) − 5n/9",
+          "(40/81)(8^n − 1) − 4n/9",
+          "(40/81)(10^n − 1) − 4n/9",
+          "(40/81)(10^n − 1) − 5n/9"
+        ],
+        "correctAnswer": "(40/81)(10^n − 1) − 4n/9",
+        "solution": "Video solution will be added soon"
+      },
         {
           "id": "maths_number_system_137",
           "question": "If a ball is thrown from a height of 500 m on the ground, the ball bounces a fixed fraction of its previous height every time. Find the total distance covered by the ball till it stops.",
@@ -1853,14 +1853,14 @@
         {
           "id": "maths_number_system_139",
           "question": "For two observations, the sum is S and the product is P. What is the harmonic mean of these two observations?",
-          "questionHindi": "दो अवलोकनों का योग S तथा गुणनफल P है। इन दोनों का हरात्मक माध्य क्या होगा?",
+          "questionHindi": "दो अवलोकनों का योग S है तथा गुणनफल P है। इन दो अवलोकनों का हरात्मक (Harmonic) माध्य क्या होगा?",
           "options": [
-            "Option A (formula)",
-            "Option B (formula)",
-            "Option C (formula)",
-            "Option D (formula)"
+            "P/S",
+            "S/(2P)",
+            "2P/S",
+            "2S/P"
           ],
-          "correctAnswer": "Option C (formula)",
+          "correctAnswer": "2P/S",
           "solution": "Video solution will be added soon"
         },
         {
@@ -1921,20 +1921,30 @@
           },
           {
             "id": "maths_number_system_145",
-            "question": "If N is given as in the question, then how many positive factors does N have?",
-            "questionHindi": "यदि N प्रश्नानुसार दिया गया है, तो N के कितने धनात्मक गुणनखंड होंगे?",
-            "options": ["132", "143", "92", "140"],
+            "question": "If N = 5^13 + 5^12 + 5^11 + 5^10, then how many positive factors of N are there?",
+            "questionHindi": "यदि N = 5^13 + 5^12 + 5^11 + 5^10, तो N के कितने धनात्मक गुणनखंड हैं?",
+            "options": [
+              "132",
+              "143",
+              "92",
+              "140"
+            ],
             "correctAnswer": "132",
             "solution": "Video solution will be added soon"
-          },
+          }
           {
             "id": "maths_number_system_146",
-            "question": "The total number of factors of the given number is:",
-            "questionHindi": "दिए गए संख्या के गुणनखंडों की कुल संख्या कितनी है?",
-            "options": ["144", "96", "120", "64"],
+            "question": "Total number of factors of 73³ − 40³ − 33³ is:",
+            "questionHindi": "73³ − 40³ − 33³ के गुणनखंडों की कुल संख्या है:",
+            "options": [
+              "144",
+              "96",
+              "120",
+              "64"
+            ],
             "correctAnswer": "96",
             "solution": "Video solution will be added soon"
-          },
+          }
           {
             "id": "maths_number_system_147",
             "question": "What is the sum of all the factors of 19600?",
@@ -1968,10 +1978,15 @@
             "solution": "Video solution will be added soon"
           },
           {
-            "id": "maths_number_system_151",
-            "question": "How many factors of the given number are even?",
-            "questionHindi": "दिए गए संख्या के कितने गुणनखंड सम हैं?",
-            "options": ["40", "280", "320", "84"],
+            "id": "maths_number_system_135",
+            "question": "How many factors of 2^6 × 3^4 × 5^3 × 7^2 are even?",
+            "questionHindi": "2^6 × 3^4 × 5^3 × 7^2 के कितने गुणनखंड सम (Even) हैं?",
+            "options": [
+              "40",
+              "280",
+              "320",
+              "84"
+            ],
             "correctAnswer": "280",
             "solution": "Video solution will be added soon"
           },

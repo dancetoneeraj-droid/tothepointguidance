@@ -975,11 +975,15 @@
         }
       ],
       "english": {
-       "topic": "pronoun",
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
             "label": "NARRATION — Set 1",
             "questions": 25,
             "duration": 10,
             "from": 483
+          }
+        ]
       },
       "reasoning": {
         "topic": "analogy",
@@ -987,9 +991,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "https://drive.google.com/file/d/1jD8jrDAohnOQaPC1mHxWFpt-omJoWfc8/view?usp=drive_link",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 21 GK revision"
+        "todayTopicPdf": "https://drive.google.com/file/d/1jD8jrDAohnOQaPC1mHxWFpt-omJoWfc8/view?usp=drive_link"
       }
     },
     {
