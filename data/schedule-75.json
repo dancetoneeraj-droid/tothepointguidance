@@ -998,14 +998,9 @@
     },
     {
       "day": 22,
-      "published": false,
+      "published": true,
       "maths": [
-        {
-          "topic": "partnership",
-          "questions": 25,
-          "duration": 25,
-          "from": 100
-        },
+       
         {
           "topic": "geometry",
           "questions": 25,
@@ -1017,18 +1012,25 @@
           "questions": 25,
           "duration": 25,
           "from": 100
-        },
-        {
-          "topic": "di",
-          "questions": 25,
-          "duration": 25,
-          "from": 100
         }
       ],
-      "english": {
-        "grammarPdf": "/content/english/day6-grammar.pdf",
-        "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+     "english": {
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "NARRATION — Set 1",
+            "questions": 25,
+            "duration": 10,
+            "from": 508
+          },
+          {
+            "topic": "pronoun",
+            "label": "NARRATION — Set 2",
+            "questions": 25,
+            "duration": 10,
+            "from": 533
+          }
+        ]
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -1036,9 +1038,11 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 21 GK revision"
+        "materialsNote": "Let's revise what we have learnt so far in Polity",
+        "todayTopicPdf": "https://drive.google.com/file/d/1c6Yx2CZ7K4oXk05fXn8bhsQOI6ZM2D-I/view?usp=drive_link",
+        "todayTopicPdf2": "https://drive.google.com/file/d/19tnD0pmxiTxUFPAdM93PVv3t-9nARvPf/view?usp=drive_link",
+        "todayTopicPdf3": "https://drive.google.com/file/d/1uvUdf1zjsPHEr9XP9m9_xVXcEXQN_vHl/view?usp=drive_link",
+        "todayTopicPdf4": "https://drive.google.com/file/d/1IAjm8eWpEsV45i9Mj2lQ4IDJgnx44ETQ/view?usp=drive_link"
       }
     },
     {

@@ -77,8 +77,12 @@ export interface ReasoningConfig {
 export interface GkConfig {
   todayTopicPdf?: string;
   todayTopicPdf2?: string;
+  todayTopicPdf3?: string;
+  todayTopicPdf4?: string;
   todayMindmap?: string;
   todayNotes?: string;
+  /** Optional subtitle shown on the GK materials card (e.g. revision day intro). */
+  materialsNote?: string;
   revisionQuiz?: string;
   revisionTopic?: string;
   /** Fixed 0-based start index in the revision bank. When set, ignores progressive stored index. */

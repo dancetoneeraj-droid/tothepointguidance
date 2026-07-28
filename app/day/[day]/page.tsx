@@ -196,6 +196,8 @@ export default function DayPage({
     const hasGkMaterialsActions = !!(
       plan.gk.todayTopicPdf ||
       plan.gk.todayTopicPdf2 ||
+      plan.gk.todayTopicPdf3 ||
+      plan.gk.todayTopicPdf4 ||
       plan.gk.todayMindmap ||
       plan.gk.todayNotes
     );
@@ -587,15 +589,19 @@ export default function DayPage({
         : []),
       {
         id: "gk-materials",
-        label: "GK Revision PDF",
-        subtitle: [
-          plan.gk.todayTopicPdf ? "Lecture 1" : null,
-          plan.gk.todayTopicPdf2 ? "Lecture 2" : null,
-          plan.gk.todayMindmap ? "Mindmap" : null,
-          plan.gk.todayNotes ? "Notes" : null,
-        ]
-          .filter(Boolean)
-          .join(" + "),
+        label: plan.gk.materialsNote ? "GK — Polity Revision" : "GK Revision PDF",
+        subtitle:
+          plan.gk.materialsNote ??
+          [
+            plan.gk.todayTopicPdf ? "Lecture 1" : null,
+            plan.gk.todayTopicPdf2 ? "Lecture 2" : null,
+            plan.gk.todayTopicPdf3 ? "Lecture 3" : null,
+            plan.gk.todayTopicPdf4 ? "Lecture 4" : null,
+            plan.gk.todayMindmap ? "Mindmap" : null,
+            plan.gk.todayNotes ? "Notes" : null,
+          ]
+            .filter(Boolean)
+            .join(" + "),
         kind: "reading" as const,
         subject: "gk" as const,
         completed: dayProgress.gk.materialsCompleted,
@@ -604,7 +610,7 @@ export default function DayPage({
             ? [
                 {
                   id: "gk-pdf",
-                  label: "Lecture 1",
+                  label: plan.gk.materialsNote ? "Polity PDF 1" : "Lecture 1",
                   onClick: () => void openGkResource(plan.gk.todayTopicPdf),
                   loading: loadingSection === "gk-materials",
                 },
@@ -614,8 +620,28 @@ export default function DayPage({
             ? [
                 {
                   id: "gk-pdf2",
-                  label: "Lecture 2",
+                  label: plan.gk.materialsNote ? "Polity PDF 2" : "Lecture 2",
                   onClick: () => void openGkResource(plan.gk.todayTopicPdf2),
+                  loading: loadingSection === "gk-materials",
+                },
+              ]
+            : []),
+          ...(plan.gk.todayTopicPdf3
+            ? [
+                {
+                  id: "gk-pdf3",
+                  label: plan.gk.materialsNote ? "Polity PDF 3" : "Lecture 3",
+                  onClick: () => void openGkResource(plan.gk.todayTopicPdf3),
+                  loading: loadingSection === "gk-materials",
+                },
+              ]
+            : []),
+          ...(plan.gk.todayTopicPdf4
+            ? [
+                {
+                  id: "gk-pdf4",
+                  label: plan.gk.materialsNote ? "Polity PDF 4" : "Lecture 4",
+                  onClick: () => void openGkResource(plan.gk.todayTopicPdf4),
                   loading: loadingSection === "gk-materials",
                 },
               ]
