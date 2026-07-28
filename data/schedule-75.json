@@ -987,8 +987,10 @@
       },
       "reasoning": {
         "topic": "analogy",
-        "questions": 50,
-        "duration": 45
+        "questions": 25,
+        "duration": 25,
+        "from": 100,
+        "label": "Number Series Quiz"
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1jD8jrDAohnOQaPC1mHxWFpt-omJoWfc8/view?usp=drive_link"
