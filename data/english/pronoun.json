@@ -5691,6 +5691,882 @@
       ],
       "correctAnswer": "Both A and C are correct.",
       "explanation": "The comparison must be parallel. You cannot compare a 'location' to a 'house'. It must be compared to another location, using either 'that of my house' or the pronoun 'mine'."
-    }
+    },
+      {
+        "id": "pronoun_484",
+        "question": "Convert into indirect speech: I said to him, \"I will not go there tomorrow.\"",
+        "options": [
+          "I told him that I would not go there the next day.",
+          "I told him that I will not go there tomorrow.",
+          "I said to him that I would not go there tomorrow.",
+          "I told him that I shall not go there the next day."
+        ],
+        "correctAnswer": "I told him that I would not go there the next day.",
+        "explanation": "'Said to' changes to 'told', 'will' changes to 'would', and 'tomorrow' changes to 'the next day'."
+      },
+      {
+        "id": "pronoun_485",
+        "question": "Convert into indirect speech: The clerk said to me, \"I will not attend the office tomorrow.\"",
+        "options": [
+          "The clerk told me that he would not attend the office tomorrow.",
+          "The clerk told me that he would not attend the office the next day.",
+          "The clerk said to me that he will not attend the office the next day.",
+          "The clerk told me that I would not attend the office the next day."
+        ],
+        "correctAnswer": "The clerk told me that he would not attend the office the next day.",
+        "explanation": "'Said to' changes to 'told', pronoun 'I' refers to the clerk ('he'), 'will' changes to 'would', and 'tomorrow' changes to 'the next day'."
+      },
+      {
+        "id": "pronoun_486",
+        "question": "Convert into indirect speech: Hari said to them, \"Mohan did not sleep here yesterday.\"",
+        "options": [
+          "Hari told them that Mohan had not slept there the previous day.",
+          "Hari told them that Mohan did not sleep there yesterday.",
+          "Hari said to them that Mohan had not slept here the previous day.",
+          "Hari told them that Mohan did not sleep there the previous day."
+        ],
+        "correctAnswer": "Hari told them that Mohan had not slept there the previous day.",
+        "explanation": "Simple past 'did not sleep' changes to past perfect 'had not slept', 'here' becomes 'there', and 'yesterday' becomes 'the previous day'."
+      },
+      {
+        "id": "pronoun_487",
+        "question": "Convert into indirect speech: Gita said to Rita, \"Will you help me in this work?\"",
+        "options": [
+          "Gita asked Rita if she will help her in that work.",
+          "Gita asked Rita if she would help her in the work.",
+          "Gita told Rita if she would help her in this work.",
+          "Gita asked Rita will she help her in the work."
+        ],
+        "correctAnswer": "Gita asked Rita if she would help her in the work.",
+        "explanation": "'Said to' becomes 'asked', 'if' is used as a conjunction, and modal 'will' changes to 'would'."
+      },
+      {
+        "id": "pronoun_488",
+        "question": "Convert into indirect speech: Sadhna said to me, \"Can you go with me to the station?\"",
+        "options": [
+          "Sadhna asked me if I could go with her to the station.",
+          "Sadhna asked me if I can go with her to the station.",
+          "Sadhna told me if I could go with her to the station.",
+          "Sadhna asked me that if I could go with her to the station."
+        ],
+        "correctAnswer": "Sadhna asked me if I could go with her to the station.",
+        "explanation": "'Can' changes to 'could', 'you' changes to 'I', and 'me' changes to 'her'."
+      },
+      {
+        "id": "pronoun_489",
+        "question": "Convert into indirect speech: Her father said to me, \"Do you know where Prem is?\"",
+        "options": [
+          "Her father asked me whether I knew where Prem was.",
+          "Her father asked me if I know where Prem is.",
+          "Her father told me whether I knew where Prem was.",
+          "Her father asked me do I know where Prem was."
+        ],
+        "correctAnswer": "Her father asked me whether I knew where Prem was.",
+        "explanation": "Present tense question 'do you know... is' changes to past tense assertion 'whether I knew... was'."
+      },
+      {
+        "id": "pronoun_490",
+        "question": "Convert into indirect speech: I said to him, \"Don't you know that I am your friend?\"",
+        "options": [
+          "I asked him if he did not know that I was his friend.",
+          "I told him that he did not know I was his friend.",
+          "I asked him didn't he know that I am his friend.",
+          "I asked him if he does not know that I was his friend."
+        ],
+        "correctAnswer": "I asked him if he did not know that I was his friend.",
+        "explanation": "'Don't you know' changes to 'if he did not know', and 'am' changes to 'was'."
+      },
+      {
+          "id": "pronoun_491",
+        "question": "Convert into indirect speech: Ram said to me, \"Why do you not go home?\"",
+        "options": [
+          "Ram asked me why I did not go home.",
+          "Ram asked me why did I not go home.",
+          "Ram told me why I did not go home.",
+          "Ram asked me why I do not go home."
+        ],
+        "correctAnswer": "Ram asked me why I did not go home.",
+        "explanation": "In WH-questions, the question word ('why') acts as conjunction and word order becomes affirmative ('I did not go')."
+      },
+      {
+        "id": "pronoun_492",
+        "question": "Convert into indirect speech: He said, \"How is your father?\"",
+        "options": [
+          "He asked me how my father was.",
+          "He asked me how was my father.",
+          "He said how my father was.",
+          "He asked me how is my father."
+        ],
+        "correctAnswer": "He asked me how my father was.",
+        "explanation": "Question structure 'how is your father' becomes 'how my father was' in indirect speech."
+      },
+      {
+        "id": "pronoun_493",
+        "question": "Convert into indirect speech: He said to her, \"Go away from here at once.\"",
+        "options": [
+          "He ordered her to go away from there at once.",
+          "He told her to go away from here at once.",
+          "He ordered her that she go away from there at once.",
+          "He asked her to go away from there at once."
+        ],
+        "correctAnswer": "He ordered her to go away from there at once.",
+        "explanation": "Imperative command changes to reporting verb 'ordered' followed by infinitive 'to go', and 'here' becomes 'there'."
+      },
+      {
+        "id": "pronoun_494",
+        "question": "Convert into indirect speech: The teacher said to the boys, \"Work hard.\"",
+        "options": [
+          "The teacher advised the boys to work hard.",
+          "The teacher told the boys to work hard.",
+          "The teacher ordered the boys that they work hard.",
+          "The teacher advised the boys that work hard."
+        ],
+        "correctAnswer": "The teacher advised the boys to work hard.",
+        "explanation": "Giving advice in imperative form uses reporting verb 'advised' + infinitive ('to work hard')."
+      },
+      {
+          "id": "pronoun_495",
+        "question": "Convert into indirect speech: The doctor said to the patient, \"Do not eat much to escape from disease.\"",
+        "options": [
+          "The doctor advised the patient not to eat much to escape from disease.",
+          "The doctor told the patient to not eat much to escape from disease.",
+          "The doctor ordered the patient that he do not eat much to escape from disease.",
+          "The doctor advised the patient do not eat much to escape from disease."
+        ],
+        "correctAnswer": "The doctor advised the patient not to eat much to escape from disease.",
+        "explanation": "Negative imperative 'Do not eat' changes to 'not to eat' with reporting verb 'advised'."
+      },
+      {
+        "id": "pronoun_496",
+        "question": "Convert into indirect speech: The servant said to him, \"Sir, grant me leave for two days.\"",
+        "options": [
+          "The servant requested him to grant him leave for two days.",
+          "The servant asked him to grant me leave for two days.",
+          "The servant told him sir grant him leave for two days.",
+          "The servant requested him that grant him leave for two days."
+        ],
+        "correctAnswer": "The servant requested him to grant him leave for two days.",
+        "explanation": "'Sir' is expressed using the reporting verb 'requested', and verb 'grant' takes 'to grant'."
+      },
+      {
+        "id": "pronoun_497",
+        "question": "Convert into indirect speech: He said, \"Let us wait for our friends.\"",
+        "options": [
+          "He said that they should wait for their friends.",
+          "He said to wait for our friends.",
+          "He proposed that we wait for our friends.",
+          "He said that we will wait for our friends."
+        ],
+        "correctAnswer": "He said that they should wait for their friends.",
+        "explanation": "Suggestions starting with 'Let us' are converted using 'that they/we should'."
+      },
+      {
+        "id": "pronoun_498",
+        "question": "Convert into indirect speech: He shouted, \"Let me go.\"",
+        "options": [
+          "He shouted to me to let him go.",
+          "He shouted that let him go.",
+          "He ordered to let me go.",
+          "He shouted that he wants to go."
+        ],
+        "correctAnswer": "He shouted to me to let him go.",
+        "explanation": "'Let me go' converts to 'to let him go' when reporting a shout/request."
+      },
+      {
+        "id": "pronoun_499",
+        "question": "Convert into indirect speech: The spectators said, \"Bravo! well done.\"",
+        "options": [
+          "The spectators applauded them saying that they had done well.",
+          "The spectators said bravo that they had done well.",
+          "The spectators exclaimed bravo they did well.",
+          "The spectators applauded them that you have done well."
+        ],
+        "correctAnswer": "The spectators applauded them saying that they had done well.",
+        "explanation": "'Bravo' expresses approval and is reported using 'applauded [them] saying that...'."
+      },
+      {
+        "id": "pronoun_500",
+        "question": "Convert into indirect speech: The captain said, \"Hurrah! we have won the match.\"",
+        "options": [
+          "The captain exclaimed with joy that they had won the match.",
+          "The captain said with joy that we have won the match.",
+          "The captain exclaimed with joy that we had won the match.",
+          "The captain exclaimed hurrah that they won the match."
+        ],
+        "correctAnswer": "The captain exclaimed with joy that they had won the match.",
+        "explanation": "'Hurrah!' indicates joy; present perfect 'have won' changes to past perfect 'had won'."
+      },
+      {
+        "id": "pronoun_501",
+        "question": "Convert into indirect speech: The doctor said, \"Alas! The poor man is no more.\"",
+        "options": [
+          "The doctor exclaimed with sorrow that the poor man was no more.",
+          "The doctor said alas that the poor man was no more.",
+          "The doctor exclaimed with sorrow that the poor man is no more.",
+          "The doctor expressed sorrow that the poor man had been no more."
+        ],
+        "correctAnswer": "The doctor exclaimed with sorrow that the poor man was no more.",
+        "explanation": "'Alas!' becomes 'exclaimed with sorrow', and present tense 'is' becomes 'was'."
+      },
+      {
+        "id": "pronoun_502",
+        "question": "Convert into indirect speech: The teacher said to me, \"What a pity you did not follow my advice.\"",
+        "options": [
+          "The teacher expressed regret that it was a great pity that I had not followed his advice.",
+          "The teacher told me what a pity I did not follow his advice.",
+          "The teacher exclaimed that it is a pity I did not follow my advice.",
+          "The teacher expressed regret that what a pity I had not followed his advice."
+        ],
+        "correctAnswer": "The teacher expressed regret that it was a great pity that I had not followed his advice.",
+        "explanation": "'What a pity' expresses regret; simple past 'did not follow' becomes past perfect 'had not followed'."
+      },
+      {
+        "id": "pronoun_503",
+        "question": "Convert into indirect speech: Mohan said, \"Ah, what a bloody deed you have done!\"",
+        "options": [
+          "Mohan exclaimed with sorrow that it was a very bloody deed he had done.",
+          "Mohan said that what a bloody deed you have done.",
+          "Mohan exclaimed with sorrow that what a bloody deed he did.",
+          "Mohan expressed that it was a bloody deed you had done."
+        ],
+        "correctAnswer": "Mohan exclaimed with sorrow that it was a very bloody deed he had done.",
+        "explanation": "Exclamatory 'what a...' becomes 'it was a very...', and present perfect 'have done' becomes past perfect 'had done'."
+      },
+      {
+        "id": "pronoun_504",
+        "question": "Convert into indirect speech: She said, \"How beautiful the rose is!\"",
+        "options": [
+          "She exclaimed with wonder that the rose was very beautiful.",
+          "She said that how beautiful the rose was.",
+          "She exclaimed with wonder that how beautiful the rose is.",
+          "She told that the rose was very beautiful."
+        ],
+        "correctAnswer": "She exclaimed with wonder that the rose was very beautiful.",
+        "explanation": "'How beautiful...' becomes 'exclaimed with wonder that... was very beautiful'."
+      },
+      {
+        "id": "pronoun_505",
+        "question": "Convert into indirect speech: She said, \"What a lazy fellow you are!\"",
+        "options": [
+          "She exclaimed with pity that he was a very lazy fellow.",
+          "She said that what a lazy fellow he was.",
+          "She exclaimed that you are a very lazy fellow.",
+          "She told him that he is a very lazy fellow."
+        ],
+        "correctAnswer": "She exclaimed with pity that he was a very lazy fellow.",
+        "explanation": "Exclamatory structure 'What a lazy fellow...' changes to statement 'he was a very lazy fellow'."
+      },
+      {
+            "id": "pronoun_506",
+        "question": "Convert into indirect speech: She said, \"May God pardon him.\"",
+        "options": [
+          "He prayed that God might pardon him.",
+          "She said that God may pardon him.",
+          "She wished that God will pardon him.",
+          "She prayed God to pardon him."
+        ],
+        "correctAnswer": "He prayed that God might pardon him.",
+        "explanation": "Optative sentences starting with 'May' change reporting verb to 'prayed/wished' and 'may' to 'might'."
+      },
+      {
+        "id": "pronoun_507",
+        "question": "Convert into indirect speech: Ram said to his friend, \"May you succeed in the examination.\"",
+        "options": [
+          "Ram wished that his friend might succeed in the examination.",
+          "Ram told his friend that may he succeed in the examination.",
+          "Ram prayed his friend to succeed in the examination.",
+          "Ram wished that his friend may succeed in the examination."
+        ],
+        "correctAnswer": "Ram wished that his friend might succeed in the examination.",
+        "explanation": "Optative wish converts 'said to' to 'wished' and 'may' to 'might'."
+      },
+      {
+        "id": "pronoun_508",
+        "question": "Convert into indirect speech: They said, \"Long live the Prime Minister.\"",
+        "options": [
+          "They prayed that their Prime Minister might live long.",
+          "They said that long live the Prime Minister.",
+          "They wished the Prime Minister to live long.",
+          "They prayed that the Prime Minister lives long."
+        ],
+        "correctAnswer": "They prayed that their Prime Minister might live long.",
+        "explanation": "'Long live...' is an optative sentence expressing a prayer/wish using 'might live long'."
+      },
+      {
+        "id": "pronoun_509",
+        "question": "Convert into indirect speech: The minister said, \"What a disaster the earthquake is!\"",
+        "options": [
+          "The minister exclaimed with sorrow that the earthquake was a terrible disaster.",
+          "The minister said that what a disaster the earthquake was.",
+          "The minister exclaimed with sorrow that the earthquake is a terrible disaster.",
+          "The minister expressed that the earthquake had been a disaster."
+        ],
+        "correctAnswer": "The minister exclaimed with sorrow that the earthquake was a terrible disaster.",
+        "explanation": "Exclamatory statement transforms into assertive statement with 'exclaimed with sorrow'."
+      },
+      {
+        "id": "pronoun_510",
+        "question": "Convert into indirect speech: The teacher said to the boy, \"I shall report the matter to the Principal if you misbehave again.\"",
+        "options": [
+          "The teacher warned the boy to report the matter to the Principal if he misbehaved again.",
+          "The teacher told the boy that I shall report the matter to the Principal if he misbehaved again.",
+          "The teacher warned the boy that he will report the matter to Principal if he misbehaves again.",
+          "The teacher said to the boy he would report the matter if he misbehaved again."
+        ],
+        "correctAnswer": "The teacher warned the boy to report the matter to the Principal if he misbehaved again.",
+        "explanation": "The statement carries a warning/threat, so the reporting verb becomes 'warned/threatened'."
+      },
+      {
+        "id": "pronoun_511",
+        "question": "Convert into indirect speech: I said, \"When it gets dark, light the lamp.\"",
+        "options": [
+          "I told her to light the lamp when it got dark.",
+          "I said that light the lamp when it gets dark.",
+          "I asked her to light the lamp when it got dark.",
+          "I told her that when it gets dark light the lamp."
+        ],
+        "correctAnswer": "I told her to light the lamp when it got dark.",
+        "explanation": "Imperative instruction 'light the lamp' becomes 'to light the lamp' and 'gets' changes to 'got'."
+      },
+      {
+        "id": "pronoun_512",
+        "question": "Convert into indirect speech: \"Suppose you children go out for a nice long walk,\" She said.",
+        "options": [
+          "She proposed that the children went out for a nice long walk.",
+          "She said that suppose children go out for a nice long walk.",
+          "She asked the children to suppose go out for a long walk.",
+          "She suggested that children go out for a nice long walk."
+        ],
+        "correctAnswer": "She proposed that the children went out for a nice long walk.",
+        "explanation": "'Suppose...' functions as a proposal, reported as 'proposed that... went out'."
+      },
+      {
+        "id": "pronoun_513",
+        "question": "Convert into indirect speech: \"Doctor,\" cried the patient, \"Please tell me how much time I have.\"",
+        "options": [
+          "The patient pleaded with the doctor to tell her how much time she had.",
+          "The patient cried to doctor please tell her how much time she has.",
+          "The patient asked doctor to tell how much time I have.",
+          "The patient requested the doctor that tell her how much time she had."
+        ],
+        "correctAnswer": "The patient pleaded with the doctor to tell her how much time she had.",
+        "explanation": "'Cried... Please' expresses a plea, reported as 'pleaded with... to tell'."
+      },
+      {
+        "id": "pronoun_514",
+        "question": "Convert into indirect speech: He says to me, \"I have never been to your house I shall go with you.\"",
+        "options": [
+          "He tells me that he has never been to my house and therefore he will go with me.",
+          "He told me that he had never been to my house and he would go with me.",
+          "He says to me that he has never been to my house and I shall go with him.",
+          "He tells me that I have never been to his house and he will go with me."
+        ],
+        "correctAnswer": "He tells me that he has never been to my house and therefore he will go with me.",
+        "explanation": "When reporting verb is in present tense ('says to' -> 'tells'), tense in reported speech does not shift to past."
+      },
+      {
+        "id": "pronoun_515",
+        "question": "Convert into indirect speech: He said to me, \"She left Ahmedabad after I had gone.\"",
+        "options": [
+          "He told me that she left Ahmedabad after he had gone.",
+          "He told me that she had left Ahmedabad after he had gone.",
+          "He said to me that she leaves Ahmedabad after he went.",
+          "He told me that she left Ahmedabad after I had gone."
+        ],
+        "correctAnswer": "He told me that she left Ahmedabad after he had gone.",
+        "explanation": "Past perfect 'had gone' remains unchanged, and pronoun 'I' changes to 'he'."
+      },
+      {
+        "id": "pronoun_516",
+        "question": "Convert into indirect speech: She said to him, \"But you are a fool. You do not understand me.\"",
+        "options": [
+          "But she told him that he was a fool because he did not understand her.",
+          "She said to him that you were a fool and did not understand me.",
+          "She told him that he is a fool because he does not understand her.",
+          "She told him that you are a fool as you did not understand her."
+        ],
+        "correctAnswer": "But she told him that he was a fool because he did not understand her.",
+        "explanation": "Present tenses 'are' and 'do not understand' shift to past tenses 'was' and 'did not understand'."
+      },
+      {
+        "id": "pronoun_517",
+        "question": "Convert into indirect speech: Sohan said to me, \"I am your friend. I will never desert you.\"",
+        "options": [
+          "Sohan told me that he was my friend and therefore he would never desert me.",
+          "Sohan told me that I was his friend and I would never desert him.",
+          "Sohan said to me that he is my friend and will never desert me.",
+          "Sohan told me that he was my friend and he will never desert me."
+        ],
+        "correctAnswer": "Sohan told me that he was my friend and therefore he would never desert me.",
+        "explanation": "'am' changes to 'was', 'will' changes to 'would', 'your' changes to 'my', 'you' changes to 'me'."
+      },
+      {
+        "id": "pronoun_518",
+        "question": "Convert into indirect speech: The teacher asked Vina, \"What is your name? Where do you come from?\"",
+        "options": [
+          "The teacher asked Vina what her name was and where she came from.",
+          "The teacher asked Vina what was her name and where did she come from.",
+          "The teacher asked Vina what is your name and where do you come from.",
+          "The teacher told Vina what her name was and where she comes from."
+        ],
+        "correctAnswer": "The teacher asked Vina what her name was and where she came from.",
+        "explanation": "Double WH-questions change to statement word order in past tense: 'what her name was' and 'where she came from'."
+      },
+      {
+        "id": "pronoun_519",
+        "question": "Convert into indirect speech: My friend told Rita, \"I am going out. Will you go along with me?\"",
+        "options": [
+          "My friend told Rita that she was going out and asked her if she would go along with her.",
+          "My friend told Rita that I am going out and will you go along with me.",
+          "My friend asked Rita that she was going out and if she will go along with her.",
+          "My friend told Rita that she went out and asked whether she goes along with her."
+        ],
+        "correctAnswer": "My friend told Rita that she was going out and asked her if she would go along with her.",
+        "explanation": "Combines statement ('she was going out') and question ('asked her if she would go...')."
+      },
+      {
+        "id": "pronoun_520",
+        "question": "Convert into indirect speech: Rahul said to me, \"Where are you going? Can I accompany you?\"",
+        "options": [
+          "Rahul asked me where I was going and if he could accompany me.",
+          "Rahul asked me where was I going and could he accompany me.",
+          "Rahul told me where I was going and if I could accompany him.",
+          "Rahul asked me where I am going and can he accompany me."
+        ],
+        "correctAnswer": "Rahul asked me where I was going and if he could accompany me.",
+        "explanation": "'where are you going' becomes 'where I was going', 'Can I...' becomes 'if he could...'."
+      },
+      {
+        "id": "pronoun_521",
+        "question": "Convert into indirect speech: The teacher said, \"Boys, if you want to pass, you should work hard.\"",
+        "options": [
+          "The teacher told the boys that if they wanted to pass, they should work hard.",
+          "The teacher told the boys if you want to pass you should work hard.",
+          "The teacher advised the boys that if you wanted to pass they should work hard.",
+          "The teacher asked the boys if they want to pass they should work hard."
+        ],
+        "correctAnswer": "The teacher told the boys that if they wanted to pass, they should work hard.",
+        "explanation": "Addressing 'Boys' becomes object 'told the boys', 'want' becomes 'wanted', 'you' becomes 'they'."
+      },
+      {
+        "id": "pronoun_522",
+        "question": "Convert into indirect speech: The teacher said, \"Boys, if you want to pass, why are you not working hard?\"",
+        "options": [
+          "The teacher asked the boys why they were not working hard if they wanted to pass.",
+          "The teacher asked the boys that why are you not working hard if you want to pass.",
+          "The teacher told the boys why were they not working hard if they wanted to pass.",
+          "The teacher asked the boys why they are not working hard if they wanted to pass."
+        ],
+        "correctAnswer": "The teacher asked the boys why they were not working hard if they wanted to pass.",
+        "explanation": "Interrogative structure changes to reported question order 'why they were not working hard'."
+      },
+      {
+            "id": "pronoun_523",
+        "question": "Convert into indirect speech: The teacher said, \"Boys, if you want to pass, work hard.\"",
+        "options": [
+          "The teacher advised the boys to work hard, if they wanted to pass.",
+          "The teacher told the boys that if they want to pass, work hard.",
+          "The teacher ordered the boys to work hard if you wanted to pass.",
+          "The teacher asked the boys to work hard if they want to pass."
+        ],
+        "correctAnswer": "The teacher advised the boys to work hard, if they wanted to pass.",
+        "explanation": "Imperative advice 'work hard' becomes 'advised... to work hard'."
+      },
+      {
+        "id": "pronoun_524",
+        "question": "Convert into indirect speech: \"Will you give me lodging for one night?\" asked the weary traveller, \"Yes\", said my father, \"you are very welcome.\"",
+        "options": [
+          "The weary traveller asked my father if he would give him lodging for one night. My father replied that he would because he was very welcome.",
+          "The weary traveller asked my father will he give him lodging for one night and my father said yes you are welcome.",
+          "The weary traveller told my father to give him lodging for one night and my father welcomed him.",
+          "The weary traveller asked my father if he will give lodging for one night and father agreed."
+        ],
+        "correctAnswer": "The weary traveller asked my father if he would give him lodging for one night. My father replied that he would because he was very welcome.",
+        "explanation": "'Yes' is expanded to affirmative agreement, and 'will' changes to 'would'."
+      },
+      {
+        "id": "pronoun_525",
+        "question": "Convert into indirect speech: The Governor of the town asked the slave, \"How has this hungry lion forgotten his nature?\" The slave replied, \"This very lion which is standing before you was my friend in the woods.\"",
+        "options": [
+          "The Governor of the town asked the slave how the hungry lion had forgotten his nature. To this the slave replied that very lion which was standing before him had been his friend in the woods.",
+          "The Governor of the town asked the slave how has this lion forgotten his nature and slave replied it was his friend.",
+          "The Governor asked the slave how that hungry lion forgot his nature and slave said he is his friend.",
+          "The Governor asked the slave how the hungry lion had forgotten his nature and slave told that lion is standing before you."
+        ],
+        "correctAnswer": "The Governor of the town asked the slave how the hungry lion had forgotten his nature. To this the slave replied that very lion which was standing before him had been his friend in the woods.",
+        "explanation": "Present perfect 'has forgotten' becomes past perfect 'had forgotten', 'is standing' becomes 'was standing'."
+      },
+      {
+        "id": "pronoun_526",
+        "question": "Convert into indirect speech: Seema said to Arnav, \"Will you go to hospital today?\" Arnav said, \"No.\" \"Why?\" asked seema, \"Becuase I am feeling better.\" replied Arnav.",
+        "options": [
+          "Seema asked Arnav if he would go to hospital that day. Arnav replied that he would not. Then Seema asked him why he would not, Arnav replied that he would not go because he was feeling better.",
+          "Seema asked Arnav if he will go to hospital today and Arnav said no because he was better.",
+          "Seema asked Arnav would he go to hospital today and Arnav replied no why because I am feeling better.",
+          "Seema told Arnav to go to hospital today but Arnav said no."
+        ],
+        "correctAnswer": "Seema asked Arnav if he would go to hospital that day. Arnav replied that he would not. Then Seema asked him why he would not, Arnav replied that he would not go because he was feeling better.",
+        "explanation": "Dialogue with 'No' and 'Why' is expanded into complete reporting clauses."
+      },
+      {
+        "id": "pronoun_527",
+        "question": "Convert into indirect speech: The teacher said to Rita, \"Did you finish your work yesterday?\" Rita said, \"No, Sir, my mother was ill.\"",
+        "options": [
+          "The teacher asked Rita if she had finished her work the previous day. Rita replied respectfully that she had not because her mother had been ill.",
+          "The teacher asked Rita did she finish her work yesterday and Rita said no sir my mother was ill.",
+          "The teacher asked Rita if she finished work yesterday and Rita replied respectfully no.",
+          "The teacher told Rita if she had finished work the previous day and Rita said her mother was ill."
+        ],
+        "correctAnswer": "The teacher asked Rita if she had finished her work the previous day. Rita replied respectfully that she had not because her mother had been ill.",
+        "explanation": "Simple past 'did finish' becomes past perfect 'had finished', 'Sir' becomes 'respectfully'."
+      },
+      {
+        "id": "pronoun_528",
+        "question": "Convert into indirect speech: The teacher said, \"If you come before school tomorrow, I will explain it.\" The boys said, \"Sir, we shall do as you say.\"",
+        "options": [
+          "The teacher told the boys that if they came before school the next day, he would explain it. The boys assured him respectfully that they would do as he said.",
+          "The teacher said to boys if they come before school tomorrow he will explain it. The boys said sir we shall do as you say.",
+          "The teacher told boys if you come before school the next day I will explain it.",
+          "The teacher advised the boys to come before school tomorrow to explain it."
+        ],
+        "correctAnswer": "The teacher told the boys that if they came before school the next day, he would explain it. The boys assured him respectfully that they would do as he said.",
+        "explanation": "'come' -> 'came', 'tomorrow' -> 'the next day', 'will' -> 'would', 'Sir' -> 'respectfully'."
+      },
+      {
+        "id": "pronoun_529",
+        "question": "Convert into indirect speech: \"Go down to the bazar. Bring me some oil and lump of ice,\" ordered his master.",
+        "options": [
+          "His master ordered the servant to go down to the bazar and bring him some oil and lump of ice.",
+          "His master ordered to go down to bazar and bring me some oil and ice.",
+          "His master said go down to the bazar and bring him some oil.",
+          "His master ordered that he go down to the bazar and bring some oil."
+        ],
+        "correctAnswer": "His master ordered the servant to go down to the bazar and bring him some oil and lump of ice.",
+        "explanation": "Imperative commands use infinitive 'to go... and bring'."
+      },
+      {
+        "id": "pronoun_530",
+        "question": "Convert into indirect speech: Rameshwar said to his teacher, \"Sir, I did not do my work as I was ill.\"",
+        "options": [
+          "Rameshwar told his teacher respectfully that he had not done his work as he had been ill.",
+          "Rameshwar told his teacher sir that he did not do his work as he was ill.",
+          "Rameshwar asked his teacher respectfully that I did not do my work because I was ill.",
+          "Rameshwar told his teacher that he didn't do work because of illness."
+        ],
+        "correctAnswer": "Rameshwar told his teacher respectfully that he had not done his work as he had been ill.",
+        "explanation": "'Sir' becomes 'respectfully', past simple 'did not do / was' becomes past perfect 'had not done / had been'."
+      },
+      {
+        "id": "pronoun_531",
+        "question": "Convert into indirect speech: Father said to Mohit, \"Dear, why are you sad today?\"",
+        "options": [
+          "Father asked Mohit lovingly why he was sad that day.",
+          "Father asked Mohit dear why are you sad today.",
+          "Father told Mohit lovingly why was he sad that day.",
+          "Father asked Mohit that why he was sad today."
+        ],
+        "correctAnswer": "Father asked Mohit lovingly why he was sad that day.",
+        "explanation": "Term of endearment 'Dear' is reported using adverb 'lovingly'."
+      },
+      {
+        "id": "pronoun_532",
+        "question": "Convert into indirect speech: Father said to Mohit, \"Bring me a glass of water.\"",
+        "options": [
+          "Father asked Mohit to bring him a glass of water.",
+          "Father said to Mohit bring me a glass of water.",
+          "Father ordered Mohit that bring him a glass of water.",
+          "Father told Mohit to bring me a glass of water."
+        ],
+        "correctAnswer": "Father asked Mohit to bring him a glass of water.",
+        "explanation": "Simple imperative request is reported using 'asked/told [person] to bring'."
+      },
+      {
+                "id": "pronoun_533",
+        "question": "Convert into indirect speech: He said, \"O! Son, my daughter will marry the strongest and greatest person. There is no one stronger and greater than you. Will you accept her as your wife?\"",
+        "options": [
+          "Addressing him as his son he told him that his daughter would marry the strongest and greatest person and there was no one stronger and greater than he. So he asked him if he would accept her as his wife.",
+          "He told his son that my daughter will marry the strongest person and asked will you accept her as wife.",
+          "Addressing him as son he said that his daughter will marry strongest person and if he accepts her as wife.",
+          "He said O son my daughter would marry strongest person and will you accept her."
+        ],
+        "correctAnswer": "Addressing him as his son he told him that his daughter would marry the strongest and greatest person and there was no one stronger and greater than he. So he asked him if he would accept her as his wife.",
+        "explanation": "'O! Son' becomes 'Addressing him as his son', 'will' becomes 'would', 'is' becomes 'was'."
+      },
+      {
+        "id": "pronoun_534",
+        "question": "Convert into indirect speech: The policeman said to the thief, \"Rascal, How could you dare do that? Did you not know the punishment of your crime?\"",
+        "options": [
+          "Calling the thief rascal the policeman asked him how he could dare do it and if he had known the punishment of his crime.",
+          "The policeman called thief rascal and asked how could you dare do that and did you know punishment.",
+          "The policeman told the thief rascal how he could dare do that.",
+          "Calling thief rascal policeman asked how could he dare do that and didn't he know punishment."
+        ],
+        "correctAnswer": "Calling the thief rascal the policeman asked him how he could dare do it and if he had known the punishment of his crime.",
+        "explanation": "Epithet 'Rascal' becomes participle clause 'Calling the thief rascal...'; simple past 'did you not know' becomes past perfect 'if he had known'."
+      },
+      {
+        "id": "pronoun_535",
+        "question": "Convert into indirect speech: The girl said to the youngman, \"Who are you? What do you want with me? I have never seen you before? Please take your seat.\"",
+        "options": [
+          "The girl asked the young man who he was and what he wanted with her. Further she told him that she had never seen him before and requested him to take his seat.",
+          "The girl asked young man who are you and what do you want. She said she never saw him before and requested to take seat.",
+          "The girl asked the young man who he was, what he wants and requested him to take his seat.",
+          "The girl told the young man who he was and requested him to take seat."
+        ],
+        "correctAnswer": "The girl asked the young man who he was and what he wanted with her. Further she told him that she had never seen him before and requested him to take his seat.",
+        "explanation": "Combines interrogative, declarative ('she had never seen'), and imperative ('requested him to take his seat')."
+      },
+      {
+        "id": "pronoun_536",
+        "question": "Convert into indirect speech: A farmer took his sons to the field and said, \"There is a treasure hidden here in the earth. If you find it, share it amongst you.\"",
+        "options": [
+          "A farmer took his sons to the field and told them that there was a treasure hidden there in the earth. He advised them to share it amongst them, if they found it.",
+          "A farmer took his sons to field and said there is treasure hidden here and to share it.",
+          "A farmer told his sons that there was treasure hidden here in earth and share it if you find it.",
+          "A farmer advised his sons that treasure was hidden there and share amongst you."
+        ],
+        "correctAnswer": "A farmer took his sons to the field and told them that there was a treasure hidden there in the earth. He advised them to share it amongst them, if they found it.",
+        "explanation": "'is' -> 'was', 'here' -> 'there', conditional 'if you find it' -> 'if they found it', imperative 'share it' -> 'advised them to share it'."
+      },
+      {
+        "id": "pronoun_537",
+        "question": "Convert into indirect speech: The student said, \"May I come in, Sir? I am late today.\" The teacher said, \"Yes, you may but this is not your first chance of getting late.\"",
+        "options": [
+          "The student asked the teacher respectfully if he might come in although he was late that day. The teacher replied that he might, but reminded him that that was not his first chance of getting late.",
+          "The student asked teacher may I come in sir as I am late today and teacher said yes you may.",
+          "The student asked respectfully if he may come in as he was late and teacher said yes but not first chance.",
+          "The student requested the teacher to come in and teacher replied yes."
+        ],
+        "correctAnswer": "The student asked the teacher respectfully if he might come in although he was late that day. The teacher replied that he might, but reminded him that that was not his first chance of getting late.",
+        "explanation": "'May I come in, Sir' -> 'asked respectfully if he might come in'; 'today' -> 'that day'; 'this' -> 'that'."
+      },
+      {
+        "id": "pronoun_538",
+        "question": "Convert into indirect speech: The woman said, \"All travellers are welcome for the sake of one.\" \"Who is that one,\" said the king, \"for whose sake you make all travellers welcome?\" \"It is our lawful king, Robert the Bruce.\", said the old woman.",
+        "options": [
+          "The woman told the king that all travellers were welcome for the sake of one. The king asked the woman who that one was for whose sake she made all travellers welcome. To this the old woman replied that it was their lawful king, Robert the Bruce.",
+          "The woman told the king all travellers are welcome for sake of one and king asked who is that one.",
+          "The woman said all travellers were welcome and king asked who was that one for whose sake she made welcome.",
+          "The old woman told king Robert the Bruce was lawful king."
+        ],
+        "correctAnswer": "The woman told the king that all travellers were welcome for the sake of one. The king asked the woman who that one was for whose sake she made all travellers welcome. To this the old woman replied that it was their lawful king, Robert the Bruce.",
+        "explanation": "Multi-turn dialogue converted with appropriate reporting verbs ('told', 'asked', 'replied') and past tense shifts."
+      },
+      {
+        "id": "pronoun_539",
+        "question": "Convert into indirect speech: \"How pretty you are!\" said the fox to the crow. \"I am sure so beautiful a bird must have a beautiful voice. Cheer up, my dear, will you not sing a few notes for me?\"",
+        "options": [
+          "The fox flattered the crow saying that he was very pretty, and told him that she was sure that so beautiful a bird must have a beautiful voice. She cheered him up lovingly and asked him if he would not sing a few notes for her.",
+          "The fox told the crow how pretty he was and asked him to sing a few notes for her.",
+          "The fox praised the crow that you are pretty and must have beautiful voice so sing for me.",
+          "The fox exclaimed how pretty the crow was and asked will you sing a few notes for me."
+        ],
+        "correctAnswer": "The fox flattered the crow saying that he was very pretty, and told him that she was sure that so beautiful a bird must have a beautiful voice. She cheered him up lovingly and asked him if he would not sing a few notes for her.",
+        "explanation": "Flattery is rendered as 'flattered the crow...'; 'my dear' as 'lovingly'."
+      },
+      {
+        "id": "pronoun_540",
+        "question": "Convert into indirect speech: Ram said to me, \"Thank you for all your help. I could not have finished the work without your help.\"",
+        "options": [
+          "Ram thanked me for all my help and said that he could not have finished the work without my help.",
+          "Ram said thank you to me for all help and he could not finish work.",
+          "Ram thanked me for all your help and said he could not have finished work.",
+          "Ram told me thank you and said he could not finish the work without help."
+        ],
+        "correctAnswer": "Ram thanked me for all my help and said that he could not have finished the work without my help.",
+        "explanation": "'Thank you' becomes verb 'thanked me'; 'your' changes to 'my'."
+      },
+      {
+        "id": "pronoun_541",
+        "question": "Convert into indirect speech: He said to the shopkeeper, \"You are a fool. You have done the opposite of what I desired you to do. Instead of changing the perfume you have changed the shaving cream.\"",
+        "options": [
+          "He reprimanded the shopkeeper saying that he was a fool because he had done the opposite of what he had desired him to do. He informed him that instead of changing the perfume he had changed the shaving cream.",
+          "He told shopkeeper you are a fool because you did opposite of what I desired.",
+          "He called shopkeeper a fool and said he did opposite of what he desired to do.",
+          "He scolded the shopkeeper that he was fool and had changed shaving cream."
+        ],
+        "correctAnswer": "He reprimanded the shopkeeper saying that he was a fool because he had done the opposite of what he had desired him to do. He informed him that instead of changing the perfume he had changed the shaving cream.",
+        "explanation": "Accusatory statement is reported with 'reprimanded... saying that...'; present perfect 'have done' becomes past perfect 'had done'."
+      },
+      {
+        "id": "pronoun_542",
+        "question": "Convert into indirect speech: \"I am a dead man, Hardy \" said Nelson, \"I am going fast, it will be all over with me soon. Let my dear lady have my hair and other things belonging to me.\"",
+        "options": [
+          "Nelson called Hardy near him and told him that he was a dead man and he was going fast because it would be all over with him soon. So he requested Hardy to let his dear lady have his hair and other things belonging to him.",
+          "Nelson told Hardy I am a dead man and going fast so let my lady have my hair.",
+          "Nelson told Hardy that he is a dead man and requested to give his hair to his lady.",
+          "Nelson said to Hardy he was dead man and it will be over soon."
+        ],
+        "correctAnswer": "Nelson called Hardy near him and told him that he was a dead man and he was going fast because it would be all over with him soon. So he requested Hardy to let his dear lady have his hair and other things belonging to him.",
+        "explanation": "'am' -> 'was', 'will' -> 'would', 'my' -> 'his'."
+      },
+      {
+        "id": "pronoun_543",
+        "question": "Convert into indirect speech: A young prince once asked a lady, \"How is it that you are so fascinating?\" The lady felt shy and left the room saying, \"Beauty lies in the eyes of a beholder.\"",
+        "options": [
+          "A young prince once asked a lady how it was that she was so fascinating. She felt shy and left the room saying that beauty lay in the eyes of a beholder.",
+          "A young prince asked a lady how is it that you are fascinating and she left room.",
+          "A young prince asked a lady how it was she was fascinating and she said beauty lies in beholder's eyes.",
+          "A young prince asked a lady why she was fascinating and lady felt shy."
+        ],
+        "correctAnswer": "A young prince once asked a lady how it was that she was so fascinating. She felt shy and left the room saying that beauty lay in the eyes of a beholder.",
+        "explanation": "'how is it' -> 'how it was', 'are' -> 'was', 'lies' -> 'lay'."
+      },
+      {
+        "id": "pronoun_544",
+        "question": "Convert into indirect speech: He said, \"Yes, I have broken the slate.\"",
+        "options": [
+          "He admitted that he had broken the slate.",
+          "He said yes that he broke the slate.",
+          "He confessed that I have broken the slate.",
+          "He admitted that he has broken the slate."
+        ],
+        "correctAnswer": "He admitted that he had broken the slate.",
+        "explanation": "Answering 'Yes' to an accusation is reported as 'admitted that...', present perfect 'have broken' becomes past perfect 'had broken'."
+      },
+      {
+        "id": "pronoun_545",
+        "question": "Convert into indirect speech: He said, \"No, I have not done this.\"",
+        "options": [
+          "He denied that he had done it.",
+          "He said no that he had not done this.",
+          "He denied that I have not done this.",
+          "He refused that he did not do it."
+        ],
+        "correctAnswer": "He denied that he had done it.",
+        "explanation": "'No, I have not...' is reported using 'denied that he had done it' (or 'denied having done it')."
+      },
+      {
+        "id": "pronoun_546",
+        "question": "Convert into indirect speech: The candidate said to the boss, \"I assure you of my best service.\"",
+        "options": [
+          "The candidate assured the boss of his best services.",
+          "The candidate said to the boss that I assure you of my best service.",
+          "The candidate told the boss that he assures him of best service.",
+          "The candidate promised boss to give best service."
+        ],
+        "correctAnswer": "The candidate assured the boss of his best services.",
+        "explanation": "'I assure you...' changes reporting verb directly to 'assured the boss of...'."
+      },
+      {
+        "id": "pronoun_547",
+        "question": "Convert into indirect speech: The doctor said to the patient, \"I hope you are better now.\"",
+        "options": [
+          "The doctor hoped that the patient was better then.",
+          "The doctor told the patient that I hope you are better now.",
+          "The doctor hoped that patient is better now.",
+          "The doctor asked the patient if he was better then."
+        ],
+        "correctAnswer": "The doctor hoped that the patient was better then.",
+        "explanation": "'I hope' becomes reporting verb 'hoped', 'are' becomes 'was', 'now' becomes 'then'."
+      },
+      {
+              "id": "pronoun_548",
+        "question": "Convert into indirect speech: \"Since it is fine, let us go swimming,\" Juliet said to Arnav.",
+        "options": [
+          "Juliet suggested to Arnav that they should go swimming since it was fine.",
+          "Juliet told Arnav that since it is fine let us go swimming.",
+          "Juliet asked Arnav to go swimming as it was fine.",
+          "Juliet proposed Arnav that let them go swimming since it was fine."
+        ],
+        "correctAnswer": "Juliet suggested to Arnav that they should go swimming since it was fine.",
+        "explanation": "'let us go...' functions as a suggestion, reported as 'suggested to... that they should go'."
+      },
+      {
+        "id": "pronoun_549",
+        "question": "Convert into indirect speech: \"How steep the hill is!\" They said, \"We are tired.\"",
+        "options": [
+          "They exclaimed that the hill was very steep and they were tired.",
+          "They said that how steep the hill was and we are tired.",
+          "They exclaimed with sorrow that hill is steep and they are tired.",
+          "They told that the hill was steep and they were tired."
+        ],
+        "correctAnswer": "They exclaimed that the hill was very steep and they were tired.",
+        "explanation": "'How steep...' becomes 'exclaimed that the hill was very steep'; 'are' becomes 'were'."
+      },
+      {
+        "id": "pronoun_550",
+        "question": "Convert into indirect speech: \"Neither a borrower, nor a lender be,\" said he to his son.",
+        "options": [
+          "He advised his son to be neither a borrower nor a lender.",
+          "He told his son that neither a borrower nor a lender be.",
+          "He advised his son that he should not be borrower or lender.",
+          "He ordered his son to not be borrower nor lender."
+        ],
+        "correctAnswer": "He advised his son to be neither a borrower nor a lender.",
+        "explanation": "Proverbial advice is rendered with 'advised... to be neither... nor'."
+      },
+      {
+        "id": "pronoun_551",
+        "question": "Convert into indirect speech: \"Why have you come to disturb me,\" said the master, \"Go away!\"",
+        "options": [
+          "The master scolded his servant for disturbing him and ordered him to go away.",
+          "The master asked why have you come to disturb me and said go away.",
+          "The master asked his servant why he came to disturb him and go away.",
+          "The master told servant why he had come to disturb him and go."
+        ],
+        "correctAnswer": "The master scolded his servant for disturbing him and ordered him to go away.",
+        "explanation": "Combines scolding for disturbance with order 'to go away'."
+      },
+      {
+        "id": "pronoun_552",
+        "question": "Convert into indirect speech: Said Shaurya to Sameer, \"Be up. It is no use wasting time,\" \"But I have no work to do today,\" replied Sameer.",
+        "options": [
+          "Shaurya asked Sameer to be up as it was no use wasting time, but Sameer replied that he had no work to do that day.",
+          "Shaurya told Sameer be up because no use wasting time but Sameer said I have no work today.",
+          "Shaurya advised Sameer to be up as it is no use wasting time and Sameer replied he had no work.",
+          "Shaurya asked Sameer to be up but Sameer said he has no work today."
+        ],
+        "correctAnswer": "Shaurya asked Sameer to be up as it was no use wasting time, but Sameer replied that he had no work to do that day.",
+        "explanation": "'is' -> 'was', 'have' -> 'had', 'today' -> 'that day'."
+      },
+      {
+                "id": "pronoun_553",
+        "question": "Convert into indirect speech: \"Ladies are,\" said the chauffeur, \"waiting outside. They are getting impatient, Sir\"",
+        "options": [
+          "The chauffeur told his master respectfully that the ladies were waiting outside and they were getting impatient.",
+          "The chauffeur told his master sir that ladies are waiting outside.",
+          "The chauffeur told his master that ladies were waiting outside and getting impatient sir.",
+          "The chauffeur asked his master respectfully ladies were waiting outside."
+        ],
+        "correctAnswer": "The chauffeur told his master respectfully that the ladies were waiting outside and they were getting impatient.",
+        "explanation": "'Sir' -> 'respectfully', 'are waiting' -> 'were waiting', 'are getting' -> 'were getting'."
+      },
+      {
+        "id": "pronoun_554",
+        "question": "Convert into indirect speech: \"Mohan made this mess. Let him clear it up,\" said his father.",
+        "options": [
+          "Mohan's father said that Mohan had made the mess and that he was to clear it up.",
+          "Mohan's father said that Mohan made this mess and let him clear it.",
+          "Mohan's father told Mohan to clear up the mess he made.",
+          "Mohan's father said Mohan had made this mess and clear it up."
+        ],
+        "correctAnswer": "Mohan's father said that Mohan had made the mess and that he was to clear it up.",
+        "explanation": "Simple past 'made' becomes past perfect 'had made', 'this' becomes 'the', 'let him' becomes 'he was to'."
+      },
+      {
+        "id": "pronoun_555",
+        "question": "Convert into indirect speech: I said, \"Let Mohan do his worst, he cannot harm me.\"",
+        "options": [
+          "I declared that Mohan might do his worst, he could not harm me.",
+          "I said that let Mohan do his worst he cannot harm me.",
+          "I told that Mohan can do his worst but cannot harm me.",
+          "I declared Mohan to do his worst as he could not harm me."
+        ],
+        "correctAnswer": "I declared that Mohan might do his worst, he could not harm me.",
+        "explanation": "'Let Mohan do...' expresses concession/defiance reported as 'declared that Mohan might do...', and 'cannot' becomes 'could not'."
+      },
+      {
+        "id": "pronoun_556",
+        "question": "Convert into indirect speech: \"Let's give a party\", said Jaya. \"Let's not,\" said her husband.",
+        "options": [
+          "Jaya suggested giving a party, but her husband opposed the idea.",
+          "Jaya said let us give a party but her husband said let us not.",
+          "Jaya suggested that they give party but husband refused.",
+          "Jaya proposed to give a party and her husband said no."
+        ],
+        "correctAnswer": "Jaya suggested giving a party, but her husband opposed the idea.",
+        "explanation": "'Let's give a party' is reported as 'suggested giving a party', and the negative counter 'Let's not' is reported as 'opposed the idea'."
+      }
                         
 ]
