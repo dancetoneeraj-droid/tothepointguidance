@@ -1459,7 +1459,7 @@
               "Right-angled",
               "None"
             ],
-            "correctAnswer": "Right-angled",
+            "correctAnswer": "obtuse-angled",
             "explanation": "13.3² + 19² = 24.7², therefore the triangle is right-angled.",
             "solution": "Video solution be uploaded soon*"
           },
@@ -1473,7 +1473,7 @@
               "16 cm, 63 cm, 65 cm",
               "18 cm, 65 cm, 67 cm"
             ],
-            "correctAnswer": "17 cm, 64 cm, 66 cm",
+            "correctAnswer": "15 cm, 62 cm, 64 cm",
             "explanation": "For an obtuse triangle, the square of the largest side must be greater than the sum of the squares of the other two sides.",
             "solution": "Video solution be uploaded soon*"
           },
@@ -1487,7 +1487,7 @@
               "Obtuse angled",
               "Equilateral triangle"
             ],
-            "correctAnswer": "Right angled",
+            "correctAnswer": "obtuse-angled",
             "explanation": "Altitudes are inversely proportional to the corresponding sides. Hence the sides are in the ratio 20 : 15 : 12, which satisfy the Pythagorean relation after simplification.",
             "solution": "Video solution be uploaded soon*"
           },
@@ -1543,7 +1543,7 @@
                 "18",
                 "16"
               ],
-              "correctAnswer": "15",
+              "correctAnswer": "16",
               "explanation": "List all ordered integer factor pairs of 24 and count all possible integer third sides satisfying the triangle inequality. The total count is 15.",
               "solution": "Video solution be uploaded soon*"
             },
@@ -1627,7 +1627,7 @@
       "√10",
       "√15/2"
     ],
-    "correctAnswer": "√15/2",
+    "correctAnswer": "3",
     "explanation": "Using Heron's formula with sides √2, 3√2 and 2√5, the area is √15/2.",
     "solution": "Video solution be uploaded soon*"
   },
@@ -1697,7 +1697,7 @@
       "1/8",
       "-3/4"
     ],
-    "correctAnswer": "1/8",
+    "correctAnswer": "-1/8",
     "explanation": "Using coordinates for the equally spaced points on BC and simplifying the sum of squared distances gives n = 1/8.",
     "solution": "Video solution be uploaded soon*"
   },
@@ -1725,147 +1725,7 @@
       "100/(√3 − 1)",
       "100(√3 − 1)"
     ],
-    "correctAnswer": "100/(√3 − 1)",
-    "explanation": "Applying the Sine Rule, AB/sin45° = 50/sin105°. Simplifying gives AB = 100/(√3 − 1).",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_123",
-    "question": "If the angles of a triangle are 30° and 45° and the included side is (√108 + 6) cm, then what is the area of the triangle?",
-    "questionHindi": "यदि किसी त्रिभुज के दो कोण 30° तथा 45° हैं और उनके बीच की भुजा (√108 + 6) सेमी है, तो त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
-    "options": [
-      "18(√3 + 1) cm²",
-      "(15√3 + 18) cm²",
-      "12(√3 + 1) cm²",
-      "24(√3 + 1) cm²"
-    ],
-    "correctAnswer": "18(√3 + 1) cm²",
-    "explanation": "Using the sine rule together with the area formula involving one side and two angles gives the required area as 18(√3 + 1) cm².",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_114",
-    "question": "Triangle ABC is right-angled at B and D is a point on BC such that BD = 5 cm, AD = 13 cm and AC = 37 cm. Find the length of DC.",
-    "questionHindi": "त्रिभुज ABC, B पर समकोण है तथा D, BC पर ऐसा बिंदु है कि BD = 5 सेमी, AD = 13 सेमी तथा AC = 37 सेमी है। DC की लंबाई ज्ञात कीजिए।",
-    "options": [
-      "25 cm",
-      "35 cm",
-      "5 cm",
-      "30 cm"
-    ],
-    "correctAnswer": "30 cm",
-    "explanation": "Using Pythagoras in △ABD, AB² = 13² − 5² = 144 ⇒ AB = 12. Again in △ABC, BC² = 37² − 12² = 1225 ⇒ BC = 35. Hence DC = 35 − 5 = 30 cm.",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_115",
-    "question": "Calculate the area of a triangle whose side lengths are √2, 3√2 and 2√5.",
-    "questionHindi": "एक त्रिभुज का क्षेत्रफल ज्ञात कीजिए जिसकी भुजाओं की लंबाई √2, 3√2 तथा 2√5 है।",
-    "options": [
-      "√6",
-      "3",
-      "√10",
-      "√15/2"
-    ],
-    "correctAnswer": "√15/2",
-    "explanation": "Using Heron's formula with sides √2, 3√2 and 2√5, the area is √15/2.",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_116",
-    "question": "In △ABC, AD is perpendicular to BC. O is any point on AD such that AB = 9 cm, OB = 3 cm and OC = 7 cm. Find the length of AC.",
-    "questionHindi": "△ABC में AD, BC पर लंब है। AD पर O ऐसा बिंदु है कि AB = 9 सेमी, OB = 3 सेमी तथा OC = 7 सेमी है। AC की लंबाई ज्ञात कीजिए।",
-    "options": [
-      "13 cm",
-      "11 cm",
-      "10.5 cm",
-      "10 cm"
-    ],
-    "correctAnswer": "11 cm",
-    "explanation": "Using Stewart's theorem/Pythagorean relations for the perpendicular through O gives AC = 11 cm.",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_117",
-    "question": "A pole 23 m long reaches a window which is 3√5 m above the ground on one side of a street. Keeping its foot fixed, it is turned to the other side to reach a window 4√15 m high. Find the width of the street.",
-    "questionHindi": "23 मीटर लंबा खंभा सड़क के एक ओर स्थित 3√5 मीटर ऊँची खिड़की तक पहुँचता है। उसी आधार बिंदु को स्थिर रखते हुए उसे दूसरी ओर घुमाकर 4√15 मीटर ऊँची खिड़की तक पहुँचाया जाता है। सड़क की चौड़ाई ज्ञात कीजिए।",
-    "options": [
-      "17 m",
-      "35 m",
-      "39 m",
-      "22 m"
-    ],
-    "correctAnswer": "39 m",
-    "explanation": "Using the Pythagorean theorem for both positions of the pole and adding the two horizontal distances gives 39 m.",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_118",
-    "question": "A ladder of length 65 m is resting against a wall. If it slips 8 m down the wall, then its bottom moves x m away from the wall. If it was initially 25 m away from the wall, find x.",
-    "questionHindi": "65 मीटर लंबी सीढ़ी दीवार के सहारे रखी है। यदि वह दीवार पर 8 मीटर नीचे खिसकती है, तो उसका पाद दीवार से x मीटर दूर चला जाता है। यदि प्रारंभ में उसका पाद दीवार से 25 मीटर दूर था, तो x ज्ञात कीजिए।",
-    "options": [
-      "13 m",
-      "39 m",
-      "14 m",
-      "16 m"
-    ],
-    "correctAnswer": "14 m",
-    "explanation": "Initially, the height is 60 m. After slipping, the height becomes 52 m. The new base is √(65² − 52²) = 39 m. Hence x = 39 − 25 = 14 m.",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_119",
-    "question": "In △ABC, ∠B = 90°. Points D and E lie on BC such that BD = DE = EC. Which of the following is true?",
-    "questionHindi": "△ABC में ∠B = 90° है। D तथा E, BC पर इस प्रकार स्थित हैं कि BD = DE = EC। निम्नलिखित में से कौन-सा सही है?",
-    "options": [
-      "5AE² = 2AC² + 3AD²",
-      "8AE² = 5AC² + 3AD²",
-      "8AE² = 3AC² + 5AD²",
-      "5AE² = 2AC² + 2AD²"
-    ],
-    "correctAnswer": "8AE² = 3AC² + 5AD²",
-    "explanation": "Applying coordinate geometry (or Apollonius' theorem) to the equally divided side BC gives 8AE² = 3AC² + 5AD².",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_120",
-    "question": "A right-angled triangle ABC (∠ABC = 90°) is divided into four equal parts on side BC at points P, Q and R. If AP² + AQ² + AR² = 3b² + 17na², then find n.",
-    "questionHindi": "समकोण त्रिभुज ABC (∠ABC = 90°) की भुजा BC को P, Q तथा R द्वारा चार बराबर भागों में विभाजित किया गया है। यदि AP² + AQ² + AR² = 3b² + 17na² है, तो n ज्ञात कीजिए।",
-    "options": [
-      "-1/8",
-      "3/4",
-      "1/8",
-      "-3/4"
-    ],
-    "correctAnswer": "1/8",
-    "explanation": "Using coordinates for the equally spaced points on BC and simplifying the sum of squared distances gives n = 1/8.",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_121",
-    "question": "If the length of each of the two equal sides of an isosceles triangle is 15 cm and the included angle is 30°, then find the area of the triangle.",
-    "questionHindi": "यदि एक समद्विबाहु त्रिभुज की दोनों समान भुजाओं की लंबाई 15 सेमी है तथा उनके बीच का कोण 30° है, तो त्रिभुज का क्षेत्रफल ज्ञात कीजिए।",
-    "options": [
-      "26.25 cm²",
-      "36.25 cm²",
-      "56.25 cm²",
-      "66.25 cm²"
-    ],
-    "correctAnswer": "56.25 cm²",
-    "explanation": "Area = ½ab sin C = ½ × 15 × 15 × sin30° = 56.25 cm².",
-    "solution": "Video solution be uploaded soon*"
-  },
-  {
-    "id": "maths_geometry_122",
-    "question": "In △ABC, ∠B = 30°, ∠C = 45° and BC = 50 cm. Find the length of AB.",
-    "questionHindi": "△ABC में ∠B = 30°, ∠C = 45° तथा BC = 50 सेमी है। AB की लंबाई ज्ञात कीजिए।",
-    "options": [
-      "50(√3 + 1)",
-      "50(√3 − 1)",
-      "100/(√3 − 1)",
-      "100(√3 − 1)"
-    ],
-    "correctAnswer": "100/(√3 − 1)",
+    "correctAnswer": "50(√3 − 1)",
     "explanation": "Applying the Sine Rule, AB/sin45° = 50/sin105°. Simplifying gives AB = 100/(√3 − 1).",
     "solution": "Video solution be uploaded soon*"
   },

@@ -407,12 +407,10 @@
         }
       ],
       "english": {
-  
         "grammarQuiz": "pronoun",
         "grammarQuizLabel": "Adverb",
         "grammarQuizFrom": 150,
         "vocabPdf": "/content/english/day1-vocab.pdf",
-        
         "vocabNotes": "/content/english/day1-vocab-notes.pdf"
       },
       "reasoning": {
@@ -432,7 +430,6 @@
       "day": 10,
       "published": true,
       "maths": [
-      
         {
           "topic": "mensuration-3d",
           "questions": 25,
@@ -559,8 +556,7 @@
         "topic": "analogy",
         "questions": 20,
         "duration": 25,
-         "label": "Syllogism Quiz"
-
+        "label": "Syllogism Quiz"
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1Sy4lcoECJOG64wNnJtdmeq8TxoVZxtp5/view?usp=drive_link",
@@ -592,7 +588,6 @@
         }
       ],
       "english": {
-
         "grammarPdf": "https://drive.google.com/file/d/1UfUdls4pGCT4UXWJ87Dpc4TMc_ULTf1s/view?usp=drive_link",
         "grammarQuiz": "pronoun",
         "grammarQuizLabel": "Tense",
@@ -748,7 +743,6 @@
         "from": 55
       },
       "gk": {
-  
         "revisionQuiz": "revision",
         "from": 230,
         "revisionTopic": "Day 16 GK revision"
@@ -778,7 +772,6 @@
         }
       ],
       "english": {
-       
         "grammarQuiz": "pronoun",
         "grammarQuizLabel": "VOICE",
         "grammarQuizFrom": 339,
@@ -886,8 +879,6 @@
         "duration": 25,
         "from": 75,
         "label": "Syllogism Quiz"
-
-
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1CPni0wy5gcWB_6XspTeO3haGk0NWHRZP/view?usp=drive_link",
@@ -940,7 +931,7 @@
         "duration": 25
       },
       "gk": {
-       "revisionQuiz": "revision",
+        "revisionQuiz": "revision",
         "from": 279,
         "revisionTopic": "Day 20 GK revision"
       }
@@ -1000,7 +991,6 @@
       "day": 22,
       "published": true,
       "maths": [
-       
         {
           "topic": "geometry",
           "questions": 25,
@@ -1014,7 +1004,7 @@
           "from": 100
         }
       ],
-     "english": {
+      "english": {
         "grammarQuizzes": [
           {
             "topic": "pronoun",
@@ -1026,7 +1016,7 @@
           {
             "topic": "pronoun",
             "label": "NARRATION — Set 2",
-            "questions": 25,
+            "questions": 20,
             "duration": 10,
             "from": 533
           }
@@ -1047,7 +1037,7 @@
     },
     {
       "day": 23,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "mensuration-3d",
@@ -1069,15 +1059,33 @@
         },
         {
           "topic": "simple-interest",
-          "questions": 25,
-          "duration": 25,
+          "questions": 20,
+          "duration": 20,
           "from": 100
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day7-grammar.pdf",
-        "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "REVISION-1",
+            "questions": 25,
+            "duration": 10,
+            "from": 553
+          },
+          {
+            "topic": "pronoun",
+            "label": "REVISION-2",
+            "questions": 25,
+            "duration": 10,
+            "from": 578
+          }
+        ],
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 0,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1085,9 +1093,11 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 22 GK revision"
+        "materialsNote": "Let's revise what we have learnt so far in Polity",
+        "todayTopicPdf": "https://drive.google.com/file/d/1PyZw8b1Git9XA10mlC0iwmKdiVJX-Uvn/view?usp=drive_link",
+        "todayTopicPdf2": "https://drive.google.com/file/d/1ZDk8sbJoqlWDtktDO80wm-ddupjvSheT/view?usp=drive_link",
+        "todayTopicPdf3": "https://drive.google.com/file/d/1rwEZi4Q3jMpFAAeGScjV5BOGk453P4S_/view?usp=drive_link",
+        "todayTopicPdf4": "https://drive.google.com/file/d/1unV6k0Dub2dXalFspa0sNXbKPLdSjFFB/view?usp=drive_link"
       }
     },
     {
@@ -1122,7 +1132,12 @@
       "english": {
         "grammarPdf": "/content/english/day8-grammar.pdf",
         "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 25,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -1169,7 +1184,12 @@
         "vocabPdf": "/content/english/day1-vocab.pdf",
         "comprehensionPdf": "/content/english/day1-comprehension.pdf",
         "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 50,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -1216,7 +1236,12 @@
       "english": {
         "grammarPdf": "/content/english/day2-grammar.pdf",
         "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 75,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1263,7 +1288,12 @@
       "english": {
         "grammarPdf": "/content/english/day3-grammar.pdf",
         "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 100,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -1308,7 +1338,12 @@
       "english": {
         "grammarPdf": "/content/english/day4-grammar.pdf",
         "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 125,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -1353,7 +1388,12 @@
       "english": {
         "grammarPdf": "/content/english/day5-grammar.pdf",
         "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 150,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1398,7 +1438,12 @@
       "english": {
         "grammarPdf": "/content/english/day6-grammar.pdf",
         "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 175,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -1443,7 +1488,12 @@
       "english": {
         "grammarPdf": "/content/english/day7-grammar.pdf",
         "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 200,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -1488,7 +1538,12 @@
       "english": {
         "grammarPdf": "/content/english/day8-grammar.pdf",
         "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 225,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1535,7 +1590,12 @@
         "vocabPdf": "/content/english/day1-vocab.pdf",
         "comprehensionPdf": "/content/english/day1-comprehension.pdf",
         "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 250,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -1582,7 +1642,12 @@
       "english": {
         "grammarPdf": "/content/english/day2-grammar.pdf",
         "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 275,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -1629,7 +1694,12 @@
       "english": {
         "grammarPdf": "/content/english/day3-grammar.pdf",
         "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 300,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1674,7 +1744,12 @@
       "english": {
         "grammarPdf": "/content/english/day4-grammar.pdf",
         "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 325,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -1719,7 +1794,12 @@
       "english": {
         "grammarPdf": "/content/english/day5-grammar.pdf",
         "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 350,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -1764,7 +1844,12 @@
       "english": {
         "grammarPdf": "/content/english/day6-grammar.pdf",
         "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 375,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1809,7 +1894,12 @@
       "english": {
         "grammarPdf": "/content/english/day7-grammar.pdf",
         "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 400,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -1854,7 +1944,12 @@
       "english": {
         "grammarPdf": "/content/english/day8-grammar.pdf",
         "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 425,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -1901,7 +1996,12 @@
         "vocabPdf": "/content/english/day1-vocab.pdf",
         "comprehensionPdf": "/content/english/day1-comprehension.pdf",
         "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 450,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1948,7 +2048,12 @@
       "english": {
         "grammarPdf": "/content/english/day2-grammar.pdf",
         "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 475,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -1995,7 +2100,12 @@
       "english": {
         "grammarPdf": "/content/english/day3-grammar.pdf",
         "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 500,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -2040,7 +2150,12 @@
       "english": {
         "grammarPdf": "/content/english/day4-grammar.pdf",
         "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 525,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -2084,7 +2199,12 @@
       "english": {
         "grammarPdf": "/content/english/day5-grammar.pdf",
         "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 550,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -2129,7 +2249,12 @@
       "english": {
         "grammarPdf": "/content/english/day6-grammar.pdf",
         "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 575,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -2174,7 +2299,12 @@
       "english": {
         "grammarPdf": "/content/english/day7-grammar.pdf",
         "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 600,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -2219,7 +2349,12 @@
       "english": {
         "grammarPdf": "/content/english/day8-grammar.pdf",
         "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 625,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -2265,7 +2400,12 @@
         "vocabPdf": "/content/english/day1-vocab.pdf",
         "comprehensionPdf": "/content/english/day1-comprehension.pdf",
         "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 650,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -2310,7 +2450,12 @@
       "english": {
         "grammarPdf": "/content/english/day2-grammar.pdf",
         "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 675,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -2354,7 +2499,12 @@
       "english": {
         "grammarPdf": "/content/english/day3-grammar.pdf",
         "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 700,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -2399,7 +2549,12 @@
       "english": {
         "grammarPdf": "/content/english/day4-grammar.pdf",
         "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 725,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -2444,7 +2599,12 @@
       "english": {
         "grammarPdf": "/content/english/day5-grammar.pdf",
         "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 750,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -2485,7 +2645,12 @@
       "english": {
         "grammarPdf": "/content/english/day6-grammar.pdf",
         "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 775,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -2526,7 +2691,12 @@
       "english": {
         "grammarPdf": "/content/english/day7-grammar.pdf",
         "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 800,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -2567,7 +2737,12 @@
       "english": {
         "grammarPdf": "/content/english/day8-grammar.pdf",
         "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 825,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -2610,7 +2785,12 @@
         "vocabPdf": "/content/english/day1-vocab.pdf",
         "comprehensionPdf": "/content/english/day1-comprehension.pdf",
         "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 850,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -2653,7 +2833,12 @@
       "english": {
         "grammarPdf": "/content/english/day2-grammar.pdf",
         "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 875,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -2696,7 +2881,12 @@
       "english": {
         "grammarPdf": "/content/english/day3-grammar.pdf",
         "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 900,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -2737,7 +2927,12 @@
       "english": {
         "grammarPdf": "/content/english/day4-grammar.pdf",
         "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 925,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -2778,7 +2973,12 @@
       "english": {
         "grammarPdf": "/content/english/day5-grammar.pdf",
         "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 950,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -2819,7 +3019,12 @@
       "english": {
         "grammarPdf": "/content/english/day6-grammar.pdf",
         "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 975,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -2860,7 +3065,12 @@
       "english": {
         "grammarPdf": "/content/english/day7-grammar.pdf",
         "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 1000,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -2901,7 +3111,12 @@
       "english": {
         "grammarPdf": "/content/english/day8-grammar.pdf",
         "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 1025,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -2944,7 +3159,12 @@
         "vocabPdf": "/content/english/day1-vocab.pdf",
         "comprehensionPdf": "/content/english/day1-comprehension.pdf",
         "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 1050,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -2987,7 +3207,12 @@
       "english": {
         "grammarPdf": "/content/english/day2-grammar.pdf",
         "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 1075,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -3030,7 +3255,12 @@
       "english": {
         "grammarPdf": "/content/english/day3-grammar.pdf",
         "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 1100,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -3071,7 +3301,12 @@
       "english": {
         "grammarPdf": "/content/english/day4-grammar.pdf",
         "vocabPdf": "/content/english/day4-vocab.pdf",
-        "comprehensionPdf": "/content/english/day4-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day4-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 1125,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -3112,7 +3347,12 @@
       "english": {
         "grammarPdf": "/content/english/day5-grammar.pdf",
         "vocabPdf": "/content/english/day5-vocab.pdf",
-        "comprehensionPdf": "/content/english/day5-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 1150,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -3153,7 +3393,12 @@
       "english": {
         "grammarPdf": "/content/english/day6-grammar.pdf",
         "vocabPdf": "/content/english/day6-vocab.pdf",
-        "comprehensionPdf": "/content/english/day6-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day6-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 19,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -3194,7 +3439,12 @@
       "english": {
         "grammarPdf": "/content/english/day7-grammar.pdf",
         "vocabPdf": "/content/english/day7-vocab.pdf",
-        "comprehensionPdf": "/content/english/day7-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day7-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 44,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -3235,7 +3485,12 @@
       "english": {
         "grammarPdf": "/content/english/day8-grammar.pdf",
         "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 69,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
@@ -3278,7 +3533,12 @@
         "vocabPdf": "/content/english/day1-vocab.pdf",
         "comprehensionPdf": "/content/english/day1-comprehension.pdf",
         "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf"
+        "vocabNotes": "/content/english/day1-vocab-notes.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 94,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "coding-decoding",
@@ -3321,7 +3581,12 @@
       "english": {
         "grammarPdf": "/content/english/day2-grammar.pdf",
         "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 119,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -3364,7 +3629,12 @@
       "english": {
         "grammarPdf": "/content/english/day3-grammar.pdf",
         "vocabPdf": "/content/english/day3-vocab.pdf",
-        "comprehensionPdf": "/content/english/day3-comprehension.pdf"
+        "comprehensionPdf": "/content/english/day3-comprehension.pdf",
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 144,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",

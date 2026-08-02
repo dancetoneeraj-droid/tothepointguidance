@@ -6532,41 +6532,1070 @@
         "correctAnswer": "The chauffeur told his master respectfully that the ladies were waiting outside and they were getting impatient.",
         "explanation": "'Sir' -> 'respectfully', 'are waiting' -> 'were waiting', 'are getting' -> 'were getting'."
       },
-      {
-        "id": "pronoun_554",
-        "question": "Convert into indirect speech: \"Mohan made this mess. Let him clear it up,\" said his father.",
-        "options": [
-          "Mohan's father said that Mohan had made the mess and that he was to clear it up.",
-          "Mohan's father said that Mohan made this mess and let him clear it.",
-          "Mohan's father told Mohan to clear up the mess he made.",
-          "Mohan's father said Mohan had made this mess and clear it up."
-        ],
-        "correctAnswer": "Mohan's father said that Mohan had made the mess and that he was to clear it up.",
-        "explanation": "Simple past 'made' becomes past perfect 'had made', 'this' becomes 'the', 'let him' becomes 'he was to'."
-      },
-      {
-        "id": "pronoun_555",
-        "question": "Convert into indirect speech: I said, \"Let Mohan do his worst, he cannot harm me.\"",
-        "options": [
-          "I declared that Mohan might do his worst, he could not harm me.",
-          "I said that let Mohan do his worst he cannot harm me.",
-          "I told that Mohan can do his worst but cannot harm me.",
-          "I declared Mohan to do his worst as he could not harm me."
-        ],
-        "correctAnswer": "I declared that Mohan might do his worst, he could not harm me.",
-        "explanation": "'Let Mohan do...' expresses concession/defiance reported as 'declared that Mohan might do...', and 'cannot' becomes 'could not'."
-      },
-      {
-        "id": "pronoun_556",
-        "question": "Convert into indirect speech: \"Let's give a party\", said Jaya. \"Let's not,\" said her husband.",
-        "options": [
-          "Jaya suggested giving a party, but her husband opposed the idea.",
-          "Jaya said let us give a party but her husband said let us not.",
-          "Jaya suggested that they give party but husband refused.",
-          "Jaya proposed to give a party and her husband said no."
-        ],
-        "correctAnswer": "Jaya suggested giving a party, but her husband opposed the idea.",
-        "explanation": "'Let's give a party' is reported as 'suggested giving a party', and the negative counter 'Let's not' is reported as 'opposed the idea'."
-      }
+        {
+          "id": "pronoun_554",
+          "question": "Find out which part of the sentence has an error: He does not seem (a) / to be aware (b) / as to his merits. (c) / No error (d)",
+          "options": [
+            "He does not seem",
+            "to be aware",
+            "as to his merits.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'of' instead of 'as to'[cite: 1]."
+        },
+        {
+          "id": "pronoun_555",
+          "question": "Find out which part of the sentence has an error: Between every blow of the hammer (a) / the blacksmith looked up (b) / at the door. (c) / No error (d)",
+          "options": [
+            "Between every blow of the hammer",
+            "the blacksmith looked up",
+            "at the door.",
+            "No error"
+          ],
+          "correctAnswer": "Between every blow of the hammer",
+          "explanation": "Use 'after' instead of 'between'[cite: 1]."
+        },
+        {
+          "id": "pronoun_556",
+          "question": "Find out which part of the sentence has an error: As we see, she appears (a) / to be unreasonable anxious (b) / about pleasing her husband. (c) / No error (d)",
+          "options": [
+            "As we see, she appears",
+            "to be unreasonable anxious",
+            "about pleasing her husband.",
+            "No error"
+          ],
+          "correctAnswer": "about pleasing her husband.",
+          "explanation": "Use 'unreasonably anxious' in place of 'unreasonable anxious'[cite: 1]."
+        },
+        {
+          "id": "pronoun_557",
+          "question": "Find out which part of the sentence has an error: The landscape of Kashmir (a) / is by far (b) / more enchanting of all. (c) / No error (d)",
+          "options": [
+            "The landscape of Kashmir",
+            "is by far",
+            "more enchanting of all.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'the most enchanting' instead of 'more enchanting'[cite: 1]."
+        },
+        {
+          "id": "pronoun_558",
+          "question": "Find out which part of the sentence has an error: She stated to me (a) / as blunt as she could (b) / the reasons why she was opposed to my thoughtless suggestion. (c) / No error (d)",
+          "options": [
+            "She stated to me",
+            "as blunt as she could",
+            "the reasons why she was opposed to my thoughtless suggestion.",
+            "No error"
+          ],
+          "correctAnswer": "as blunt as she could",
+          "explanation": "Use 'bluntly' instead of 'blunt'[cite: 1]."
+        },
+        {
+          "id": "pronoun_559",
+          "question": "Find out which part of the sentence has an error: They were charged (a) / of having sheltered (b) / anarchists. (c) / No error (d)",
+          "options": [
+            "They were charged",
+            "of having sheltered",
+            "anarchists.",
+            "No error"
+          ],
+          "correctAnswer": "of having sheltered",
+          "explanation": "Use 'charged with' instead of 'charged of'[cite: 1]."
+        },
+        {
+          "id": "pronoun_560",
+          "question": "Find out which part of the sentence has an error: It was barely midnight when I arrived home (a) / but I found them both sitting at the table (b) / waiting on me. (c) / No error (d)",
+          "options": [
+            "It was barely midnight when I arrived home",
+            "but I found them both sitting at the table",
+            "waiting on me.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'waiting for' instead of 'waiting on'[cite: 1]."
+        },
+        {
+            "id": "pronoun_561",
+          "question": "Find out which part of the sentence has an error: She can understand Marathi (a) / but she cannot speak it (b) / proper or fluent. (c) / No error (d)",
+          "options": [
+            "She can understand Marathi",
+            "but she cannot speak it",
+            "proper or fluent.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'properly or fluently' instead of 'proper or fluent'[cite: 1]."
+        },
+        {
+            "id": "pronoun_562",
+          "question": "Find out which part of the sentence has an error: Hardly any other monument (a) / in the world is (b) / beautiful as the Taj Mahal. (c) / No error (d)",
+          "options": [
+            "Hardly any other monument",
+            "in the world is",
+            "beautiful as the Taj Mahal.",
+            "No error"
+          ],
+          "correctAnswer": "beautiful as the Taj Mahal.",
+          "explanation": "Add 'as' before 'beautiful' ('as beautiful as')[cite: 1]."
+        },
+        {
+            "id": "pronoun_563",
+          "question": "Find out which part of the sentence has an error: She was noticeably upset (a) / by how indignant he responded (b) / to her final question. (c) / No error (d)",
+          "options": [
+            "She was noticeably upset",
+            "by how indignant he responded",
+            "to her final question.",
+            "No error"
+          ],
+          "correctAnswer": "to her final question.",
+          "explanation": "Use 'indignantly' instead of 'indignant'[cite: 1]."
+        },
+        {
+          "id": "pronoun_564",
+          "question": "Find out which part of the sentence has an error: I don't know why (a) / he has been unreasonably anxious (b) / to solve this problem. (c) / No error (d)",
+          "options": [
+            "I don't know why",
+            "he has been unreasonably anxious",
+            "to solve this problem.",
+            "No error"
+          ],
+          "correctAnswer": "I don't know why",
+          "explanation": "No error[cite: 1]."
+        },
+        {
+            "id": "pronoun_565",
+          "question": "Find out which part of the sentence has an error: The two or three first (a) / chapters of most of the novels (b) / are dull reading. (c) / No error (d)",
+          "options": [
+            "The two or three first",
+            "chapters of most of the novels",
+            "are dull reading.",
+            "No error"
+          ],
+          "correctAnswer": "The two or three first",
+          "explanation": "Use 'the first two or three' instead of 'the two or three first'[cite: 1]."
+        },
+        {
+            "id": "pronoun_566",
+          "question": "Find out which part of the sentence has an error: He had no other wish (a) / but to see his son (b) / fixed up in a steady job. (c) / No error (d)",
+          "options": [
+            "He had no other wish",
+            "but to see his son",
+            "fixed up in a steady job.",
+            "No error"
+          ],
+          "correctAnswer": "fixed up in a steady job.",
+          "explanation": "Use 'than' instead of 'but'[cite: 1]."
+        },
+        {
+            "id": "pronoun_567",
+          "question": "Find out which part of the sentence has an error: This widely publicised detergent is not much (a) / different than the one (b) / which I have been using. (c) / No error (d)",
+          "options": [
+            "This widely publicised detergent is not much",
+            "different than the one",
+            "which I have been using.",
+            "No error"
+          ],
+          "correctAnswer": "which I have been using.",
+          "explanation": "Use 'from' instead of 'than'[cite: 1]."
+        },
+        {
+              "id": "pronoun_568",
+          "question": "Find out which part of the sentence has an error: Lata parted with her mother (a) / with tears but the journey to Delhi (b) / amused her. (c) / No error (d)",
+          "options": [
+            "Lata parted with her mother",
+            "with tears but the journey to Delhi",
+            "amused her.",
+            "No error"
+          ],
+          "correctAnswer": "with tears but the journey to Delhi",
+          "explanation": "Use 'parted from' instead of 'parted with'[cite: 1]."
+        },
+        {
+          "id": "pronoun_569",
+          "question": "Find out which part of the sentence has an error: After toiling very hardly over a long period of time (a) / he found that people (b) / recognised him as a successful person. (c) / No error (d)",
+          "options": [
+            "After toiling very hardly over a long period of time",
+            "he found that people",
+            "recognised him as a successful person.",
+            "No error"
+          ],
+          "correctAnswer": "After toiling very hardly over a long period of time",
+          "explanation": "Use 'hard' instead of 'hardly'[cite: 1]."
+        },
+        {
+            "id": "pronoun_570",
+          "question": "Find out which part of the sentence has an error: Sorry I cannot drink this tea (a) / There is too many sugar in it. (b) / No error (c)",
+          "options": [
+            "Sorry I cannot drink this tea",
+            "There is too many sugar in it.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'too much' instead of 'too many'[cite: 1]."
+        },
+        {
+            "id": "pronoun_571",
+          "question": "Find out which part of the sentence has an error: Although there are some similarities in the qualifications of (a) / both the candidates the differences among them (b) / are considerably pronounced. (c) / No error (d)",
+          "options": [
+            "Although there are some similarities in the qualifications of",
+            "both the candidates the differences among them",
+            "are considerably pronounced.",
+            "No error"
+          ],
+          "correctAnswer": "are considerably pronounced.",
+          "explanation": "Use 'between' instead of 'among'[cite: 1]."
+        },
+        {
+            "id": "pronoun_572",
+          "question": "Find out which part of the sentence has an error: The woman who is certain of her judgement (a) / is sure a match for a man who (b) / doesn't know his own mind. (c) / No error (d)",
+          "options": [
+            "The woman who is certain of her judgement",
+            "is sure a match for a man who",
+            "doesn't know his own mind.",
+            "No error"
+          ],
+          "correctAnswer": "is sure a match for a man who",
+          "explanation": "Use 'surely' instead of 'sure'[cite: 1]."
+        },
+        {
+            "id": "pronoun_573",
+          "question": "Find out which part of the sentence has an error: During the final minutes of his speech (a) / the speaker requested to the audience (b) / to hold its applause. (c) / No error (d)",
+          "options": [
+            "During the final minutes of his speech",
+            "the speaker requested to the audience",
+            "to hold its applause.",
+            "No error"
+          ],
+          "correctAnswer": "the speaker requested to the audience",
+          "explanation": "Omit 'to' after 'requested'[cite: 1]."
+        },
+        {
+            "id": "pronoun_574",
+          "question": "Find out which part of the sentence has an error: He has been trying to search the lost book (a) / since Monday. (b) / No error (c)",
+          "options": [
+            "He has been trying to search the lost book",
+            "since Monday.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'search for' in place of 'search'[cite: 1]."
+        },
+        {
+            "id": "pronoun_575",
+          "question": "Find out which part of the sentence has an error: Journey by Car is as quick (a) / or perhaps quicker than by train. (b) / No error (c)",
+          "options": [
+            "Journey by Car is as quick",
+            "or perhaps quicker than by train.",
+            "No error"
+          ],
+          "correctAnswer": "or perhaps quicker than by train.",
+          "explanation": "Place 'as' after 'quick' ('as quick as')[cite: 1]."
+        },
+        {
+            "id": "pronoun_576",
+          "question": "Find out which part of the sentence has an error: Like the committee has written in its current report (a) / the rules need to be (b) / enforced more strictly. (c) / No error (d)",
+          "options": [
+            "Like the committee has written in its current report",
+            "the rules need to be",
+            "enforced more strictly.",
+            "No error"
+          ],
+          "correctAnswer": "Like the committee has written in its current report",
+          "explanation": "Use 'As' instead of 'Like'[cite: 1]."
+        },
+        {
+            "id": "pronoun_577",
+          "question": "Find out which part of the sentence has an error: There is no other way to end war (a) / except disarmament. (b) / No error (c)",
+          "options": [
+            "There is no other way to end war",
+            "except disarmament.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'than' instead of 'except'[cite: 1]."
+        },
+        {
+            "id": "pronoun_578",
+          "question": "Find out which part of the sentence has an error: Found guilty on murder (a) / the accused was sentenced to death. (b) / No error (c)",
+          "options": [
+            "Found guilty on murder",
+            "the accused was sentenced to death.",
+            "No error"
+          ],
+          "correctAnswer": "the accused was sentenced to death.",
+          "explanation": "Use 'guilty of' instead of 'guilty on'[cite: 1]."
+        },
+        {
+            "id": "pronoun_579",
+          "question": "Find out which part of the sentence has an error: The smuggler yielded for the temptation (a) / and fell into the Police trap. (b) / No error (c)",
+          "options": [
+            "The smuggler yielded for the temptation",
+            "and fell into the Police trap.",
+            "No error"
+          ],
+          "correctAnswer": "the accused was sentenced to death.",
+          "explanation": "Use 'yielded to the temptation' instead of 'yielded for'[cite: 1]."
+        },
+        {
+            "id": "pronoun_580",
+          "question": "Find out which part of the sentence has an error: The girl said that she preferred (a) / the blue gown than the black one. (b) / No error (c)",
+          "options": [
+            "The girl said that she preferred",
+            "the blue gown than the black one.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'to' instead of 'than'[cite: 1]."
+        },
+        {
+            "id": "pronoun_581",
+          "question": "Find out which part of the sentence has an error: She is either intelligent (a) / or honest, if not both. (b) / No error (c)",
+          "options": [
+            "She is either intelligent",
+            "or honest, if not both.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'neither' instead of 'not both'[cite: 1]."
+        },
+        {
+            "id": "pronoun_582",
+          "question": "Find out which part of the sentence has an error: The students repeated the lesson (a) / word by word. (b) / No error (c)",
+          "options": [
+            "The students repeated the lesson",
+            "word by word.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'word for word' instead of 'word by word'[cite: 1]."
+        },
+        {
+            "id": "pronoun_583",
+          "question": "Find out which part of the sentence has an error: I complimented him for his brilliant success (a) / in the examination. (b) / No error (c)",
+          "options": [
+            "I complimented him for his brilliant success",
+            "in the examination.",
+            "No error"
+          ],
+          "correctAnswer": "I complimented him for his brilliant success",
+          "explanation": "Use 'on' in place of 'for'[cite: 1]."
+        },
+        {
+            "id": "pronoun_584",
+          "question": "Find out which part of the sentence has an error: He returned quicker (a) / than I expected. (b) / No error (c)",
+          "options": [
+            "He returned quicker",
+            "than I expected.",
+            "No error"
+          ],
+          "correctAnswer": "than I expected.",
+          "explanation": "Use 'more quickly' instead of 'quicker'[cite: 1]."
+        },
+        {
+            "id": "pronoun_585",
+          "question": "Find out which part of the sentence has an error: The extent to which he is guilty (a) / is not a matter of our consideration. (b) / No error (c)",
+          "options": [
+            "The extent to which he is guilty",
+            "is not a matter of our consideration.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'for our consideration' instead of 'of our consideration'[cite: 1]."
+        },
+        {
+            "id": "pronoun_586",
+          "question": "Find out which part of the sentence has an error: The real important thing to remember (a) / is that language learning requires a lot of practice. (b) / No error (c)",
+          "options": [
+            "The real important thing to remember",
+            "is that language learning requires a lot of practice.",
+            "No error"
+          ],
+          "correctAnswer": "The real important thing to remember",
+          "explanation": "Use 'the really important' instead of 'the real important'[cite: 1]."
+        },
+        {
+            "id": "pronoun_587",
+          "question": "Find out which part of the sentence has an error: These days one hears of less railway accidents (a) / than motor accidents. (b) / No error (c)",
+          "options": [
+            "These days one hears of less railway accidents",
+            "than motor accidents.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'fewer' instead of 'less'[cite: 1]."
+        },
+        {
+            "id": "pronoun_588",
+          "question": "Find out which part of the sentence has an error: Everyone looked uneasy while I was trying to explain why we ought to protest (a) / but in the end no one had any objection of it. (b) / No error (c)",
+          "options": [
+            "Everyone looked uneasy while I was trying to explain why we ought to protest",
+            "but in the end no one had any objection of it.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'to' instead of 'of' ('objection to')[cite: 1]."
+        },
+        {
+            "id": "pronoun_589",
+          "question": "Find out which part of the sentence has an error: They found themselves in competition with men who were as good (a) / if not better than themselves. (b) / No error (c)",
+          "options": [
+            "They found themselves in competition with men who were as good",
+            "if not better than themselves.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Add 'as' after 'good' ('as good as')[cite: 1]."
+        },
+        {
+            "id": "pronoun_590",
+          "question": "Find out which part of the sentence has an error: We should appreciate that the telephones here (a) / have been working as efficient as in the past. (b) / No error (c)",
+          "options": [
+            "We should appreciate that the telephones here",
+            "have been working as efficient as in the past.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'efficiently' instead of 'efficient'[cite: 1]."
+        },
+        {
+            "id": "pronoun_591",
+          "question": "Find out which part of the sentence has an error: The mission in his life is to improve (a) / the lot of the economically deprived and the socially oppressed. (b) / No error (c)",
+          "options": [
+            "The mission in his life is to improve",
+            "the lot of the economically deprived and the socially oppressed.",
+            "No error"
+          ],
+          "correctAnswer": "The mission in his life is to improve",
+          "explanation": "Use 'of' in place of 'in' ('mission of his life')[cite: 1]."
+        },
+        {
+            "id": "pronoun_592",
+          "question": "Find out which part of the sentence has an error: I was promoted to the post of Principal (a) / though I was junior than all the other members of the staff. (b) / No error (c)",
+          "options": [
+            "I was promoted to the post of Principal",
+            "though I was junior than all the other members of the staff.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'junior to' instead of 'junior than'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_40",
+          "question": "Find out which part of the sentence has an error: My friend is equally intelligent (a) / and hard working as your sister. (b) / No error (c)",
+          "options": [
+            "My friend is equally intelligent",
+            "and hard working as your sister.",
+            "No error"
+          ],
+          "correctAnswer": "My friend is equally intelligent",
+          "explanation": "Use 'as' instead of 'equally'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_41",
+          "question": "Find out which part of the sentence has an error: Merely speeches made from all sorts of public platforms (a) / cannot bring about an economic revolution. (b) / No error (c)",
+          "options": [
+            "Merely speeches made from all sorts of public platforms",
+            "cannot bring about an economic revolution.",
+            "No error"
+          ],
+          "correctAnswer": "Merely speeches made from all sorts of public platforms",
+          "explanation": "Use 'Mere' instead of 'Merely'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_42",
+          "question": "Find out which part of the sentence has an error: Do you insist that we met at least once tomorrow (a) / to discuss about the subject. (b) / No error (c)",
+          "options": [
+            "Do you insist that we met at least once tomorrow",
+            "to discuss about the subject.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Delete 'about' after 'discuss'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_43",
+          "question": "Find out which part of the sentence has an error: Our people must work hard with a view (a) / to improving our national economy. (b) / No error (c)",
+          "options": [
+            "Our people must work hard with a view",
+            "to improving our national economy.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'their' instead of 'our'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_44",
+          "question": "Find out which part of the sentence has an error: The tallest among them expressed a keen desire (a) / to sit under the shade of a tree. (b) / No error (c)",
+          "options": [
+            "The tallest among them expressed a keen desire",
+            "to sit under the shade of a tree.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'in the shade' instead of 'under the shade'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_45",
+          "question": "Find out which part of the sentence has an error: Except he and possibly our mother, (a) / all others have agreed to come back soon. (b) / No error (c)",
+          "options": [
+            "Except he and possibly our mother,",
+            "all others have agreed to come back soon.",
+            "No error"
+          ],
+          "correctAnswer": "Except he and possibly our mother,",
+          "explanation": "Use 'him' instead of 'he'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_46",
+          "question": "Find out which part of the sentence has an error: Believe me I couldn't hardly believe (a) / what anyone of them had said. (b) / No error (c)",
+          "options": [
+            "Believe me I couldn't hardly believe",
+            "what anyone of them had said.",
+            "No error"
+          ],
+          "correctAnswer": "Believe me I couldn't hardly believe",
+          "explanation": "Remove 'not' from 'couldn't' (use 'could hardly')[cite: 1]."
+        },
+        {
+          "id": "review_exercise_47",
+          "question": "Find out which part of the sentence has an error: The Socialist Party is as good (a) / if not better than any other political party. (b) / No error (c)",
+          "options": [
+            "The Socialist Party is as good",
+            "if not better than any other political party.",
+            "No error"
+          ],
+          "correctAnswer": "The Socialist Party is as good",
+          "explanation": "Add 'as' after 'good' ('as good as')[cite: 1]."
+        },
+        {
+          "id": "review_exercise_48",
+          "question": "Find out which part of the sentence has an error: I got much less marks in my History paper (a) / which I had offered as an alternative to Economics. (b) / No error (c)",
+          "options": [
+            "I got much less marks in my History paper",
+            "which I had offered as an alternative to Economics.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'fewer' instead of 'less'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_49",
+          "question": "Find out which part of the sentence has an error: The principal forbade us (a) / not to use the entire central hall. (b) / No error (c)",
+          "options": [
+            "The principal forbade us",
+            "not to use the entire central hall.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Delete 'not'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_50",
+          "question": "Find out which part of the sentence has an error: The interviewer asked the candidate (a) / to what district he came from. (b) / No error (c)",
+          "options": [
+            "The interviewer asked the candidate",
+            "to what district he came from.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Delete 'to'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_51",
+          "question": "Find out which part of the sentence has an error: For young Mamu peace in Kashmir (a) / is almost terrible as war. (b) / No error (c)",
+          "options": [
+            "For young Mamu peace in Kashmir",
+            "is almost terrible as war.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Add 'as' after 'almost' ('almost as terrible as')[cite: 1]."
+        },
+        {
+          "id": "review_exercise_52",
+          "question": "Find out which part of the sentence has an error: Everyone felt that the big glittering diamond (a) / was most unique. (b) / No error (c)",
+          "options": [
+            "Everyone felt that the big glittering diamond",
+            "was most unique.",
+            "No error"
+          ],
+          "correctAnswer": "was most unique.",
+          "explanation": "Remove 'most' (unique is absolute)[cite: 1]."
+        },
+        {
+          "id": "review_exercise_53",
+          "question": "Find out which part of the sentence has an error: I advised my son to engage two coolies instead of one (a) / because the luggage was too much heavy for a single coolie. (b) / No error (c)",
+          "options": [
+            "I advised my son to engage two coolies instead of one",
+            "because the luggage was too much heavy for a single coolie.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Delete 'much' (use 'too heavy')[cite: 1]."
+        },
+        {
+          "id": "review_exercise_54",
+          "question": "Find out which part of the sentence has an error: The angry man walked hurriedly into the crowded room (a) / and shouted loud at the guest. (b) / No error (c)",
+          "options": [
+            "The angry man walked hurriedly into the crowded room",
+            "and shouted loud at the guest.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'loudly' instead of 'loud'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_55",
+          "question": "Find out which part of the sentence has an error: I tried on both the dresses (a) / and finally decided to buy the least expensive one. (b) / No error (c)",
+          "options": [
+            "I tried on both the dresses",
+            "and finally decided to buy the least expensive one.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'less expensive' instead of 'least expensive'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_56",
+          "question": "Find out which part of the sentence has an error: It is the duty of every citizen to do his utmost (a) / to defend the hardly won freedom of the country. (b) / No error (c)",
+          "options": [
+            "It is the duty of every citizen to do his utmost",
+            "to defend the hardly won freedom of the country.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'hard won' instead of 'hardly won'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_57",
+          "question": "Find out which part of the sentence has an error: Inspite of working very neat and careful (a) / he could not win even the third prize. (b) / No error (c)",
+          "options": [
+            "Inspite of working very neat and careful",
+            "he could not win even the third prize.",
+            "No error"
+          ],
+          "correctAnswer": "Inspite of working very neat and careful",
+          "explanation": "Use 'very neatly and carefully'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_58",
+          "question": "Find out which part of the sentence has an error: The car flew off the road and fell into the valley (a) / because Anish was driving faster. (b) / No error (c)",
+          "options": [
+            "The car flew off the road and fell into the valley",
+            "because Anish was driving faster.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'fast' instead of 'faster'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_59",
+          "question": "Find out which part of the sentence has an error: Watch how careful the sparrow knits the straws into one another (a) / to form a nest. (b) / No error (c)",
+          "options": [
+            "Watch how careful the sparrow knits the straws into one another",
+            "to form a nest.",
+            "No error"
+          ],
+          "correctAnswer": "Watch how careful the sparrow knits the straws into one another",
+          "explanation": "Use 'how carefully' instead of 'how careful'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_60",
+          "question": "Find out which part of the sentence has an error: Of all the friends I have had (a) / he is the most helpful and less arrogant. (b) / No error (c)",
+          "options": [
+            "Of all the friends I have had",
+            "he is the most helpful and less arrogant.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'least arrogant' instead of 'less arrogant'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_61",
+          "question": "Find out which part of the sentence has an error: Geometry and Drawing are more easier (a) / than Geography and Social studies. (b) / No error (c)",
+          "options": [
+            "Geometry and Drawing are more easier",
+            "than Geography and Social studies.",
+            "No error"
+          ],
+          "correctAnswer": "Geometry and Drawing are more easier",
+          "explanation": "Remove 'more' (easier is already comparative)[cite: 1]."
+        },
+        {
+          "id": "review_exercise_62",
+          "question": "Find out which part of the sentence has an error: He is too intelligent (a) / to make a mistake. (b) / No error (c)",
+          "options": [
+            "He is too intelligent",
+            "to make a mistake.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "No error[cite: 1]."
+        },
+        {
+          "id": "review_exercise_63",
+          "question": "Find out which part of the sentence has an error: My observation is that between Vivek and Shashi, (a) / Vivek is the most intelligent. (b) / No error (c)",
+          "options": [
+            "My observation is that between Vivek and Shashi,",
+            "Vivek is the most intelligent.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'the more intelligent' instead of 'the most intelligent'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_64",
+          "question": "Find out which part of the sentence has an error: The technician reminded them to have a thoroughly cleaning (a) / of the machine after use. (b) / No error (c)",
+          "options": [
+            "The technician reminded them to have a thoroughly cleaning",
+            "of the machine after use.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'thorough cleaning' instead of 'thoroughly cleaning'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_65",
+          "question": "Find out which part of the sentence has an error: First you should think over the meaning of the words (a) / and then use them. (b) / No error (c)",
+          "options": [
+            "First you should think over the meaning of the words",
+            "and then use them.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "No error[cite: 1]."
+        },
+        {
+          "id": "review_exercise_66",
+          "question": "Find out which part of the sentence has an error: With little patience (a) / you will be able to cross this hurdle. (b) / No error (c)",
+          "options": [
+            "With little patience",
+            "you will be able to cross this hurdle.",
+            "No error"
+          ],
+          "correctAnswer": "With little patience",
+          "explanation": "Use 'with a little patience' instead of 'with little patience'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_67",
+          "question": "Find out which part of the sentence has an error: When asked about his children the veteran sportsman said (a) / that his youngest son's health was too good. (b) / No error (c)",
+          "options": [
+            "When asked about his children the veteran sportsman said",
+            "that his youngest son's health was too good.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'very good' instead of 'too good'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_68",
+          "question": "Find out which part of the sentence has an error: To perform this experiment, (a) / drop little sugar into a glass of water. (b) / No error (c)",
+          "options": [
+            "To perform this experiment,",
+            "drop little sugar into a glass of water.",
+            "No error"
+          ],
+          "correctAnswer": "drop little sugar into a glass of water.",
+          "explanation": "Use 'a little' instead of 'little'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_69",
+          "question": "Find out which part of the sentence has an error: As he had taken only few sips (a) / there was still a little water left in the glass. (b) / No error (c)",
+          "options": [
+            "As he had taken only few sips",
+            "there was still a little water left in the glass.",
+            "No error"
+          ],
+          "correctAnswer": "there was still a little water left in the glass.",
+          "explanation": "Use 'a few' instead of 'few'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_70",
+          "question": "Find out which part of the sentence has an error: This town isn't very well-known and there isn't much to see (a) / so a few tourists come here. (b) / No error (c)",
+          "options": [
+            "This town isn't very well-known and there isn't much to see",
+            "so a few tourists come here.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'few' instead of 'a few'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_71",
+          "question": "Find out which part of the sentence has an error: Mr. Smith was accused for murder (a) / but the court found him not guilty and acquitted him. (b) / No error (c)",
+          "options": [
+            "Mr. Smith was accused for murder",
+            "but the court found him not guilty and acquitted him.",
+            "No error"
+          ],
+          "correctAnswer": "Mr. Smith was accused for murder",
+          "explanation": "Use 'accused of' instead of 'accused for'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_72",
+          "question": "Find out which part of the sentence has an error: On his attitude it seems that what he wants (a) / is that the decision making power should rest with him. (b) / No error (c)",
+          "options": [
+            "On his attitude it seems that what he wants",
+            "is that the decision making power should rest with him.",
+            "No error"
+          ],
+          "correctAnswer": "On his attitude it seems that what he wants",
+          "explanation": "Use 'From his attitude' instead of 'On his attitude'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_73",
+          "question": "Find out which part of the sentence has an error: My uncle frequently goes to abroad (a) / on business by air. (b) / No error (c)",
+          "options": [
+            "My uncle frequently goes to abroad",
+            "on business by air.",
+            "No error"
+          ],
+          "correctAnswer": "My uncle frequently goes to abroad",
+          "explanation": "Use 'goes abroad' (delete 'to')[cite: 1]."
+        },
+        {
+          "id": "review_exercise_74",
+          "question": "Find out which part of the sentence has an error: Our laxity in duty increases (a) / with our aversion for work. (b) / No error (c)",
+          "options": [
+            "Our laxity in duty increases",
+            "with our aversion for work.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'aversion to' instead of 'aversion for'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_75",
+          "question": "Find out which part of the sentence has an error: Globalization is not likely to usher economic progress (a) / of the country as we are expecting. (b) / No error (c)",
+          "options": [
+            "Globalization is not likely to usher economic progress",
+            "of the country as we are expecting.",
+            "No error"
+          ],
+          "correctAnswer": "Globalization is not likely to usher economic progress",
+          "explanation": "Use 'usher in' instead of 'usher'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_76",
+          "question": "Find out which part of the sentence has an error: The situation is so tense in the city that even a small incident (a) / can spark communal riots in the city. (b) / No error (c)",
+          "options": [
+            "The situation is so tense in the city that even a small incident",
+            "can spark communal riots in the city.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'spark off' instead of 'spark'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_77",
+          "question": "Find out which part of the sentence has an error: I have advised my brother to dispose off his old car (a) / and buy new one. (b) / No error (c)",
+          "options": [
+            "I have advised my brother to dispose off his old car",
+            "and buy new one.",
+            "No error"
+          ],
+          "correctAnswer": "I have advised my brother to dispose off his old car",
+          "explanation": "Use 'dispose of' instead of 'dispose off'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_78",
+          "question": "Find out which part of the sentence has an error: Our Mathematics teacher often emphasises on the need (a) / for a lot of practice. (b) / No error (c)",
+          "options": [
+            "Our Mathematics teacher often emphasises on the need",
+            "for a lot of practice.",
+            "No error"
+          ],
+          "correctAnswer": "Our Mathematics teacher often emphasises on the need",
+          "explanation": "Delete 'on' after 'emphasises'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_79",
+          "question": "Find out which part of the sentence has an error: Children often quarrel (a) / on petty issues. (b) / No error (c)",
+          "options": [
+            "Children often quarrel",
+            "on petty issues.",
+            "No error"
+          ],
+          "correctAnswer": "on petty issues.",
+          "explanation": "Use 'quarrel over' instead of 'quarrel on'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_80",
+          "question": "Find out which part of the sentence has an error: Young children should not sit close to the TV set (a) / as it affects on their eyes. (b) / No error (c)",
+          "options": [
+            "Young children should not sit close to the TV set",
+            "as it affects on their eyes.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Delete 'on' after 'affects'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_81",
+          "question": "Find out which part of the sentence has an error: I am vexed at him (a) / about what he has done. (b) / No error (c)",
+          "options": [
+            "I am vexed at him",
+            "about what he has done.",
+            "No error"
+          ],
+          "correctAnswer": "I am vexed at him",
+          "explanation": "Use 'vexed with him' instead of 'vexed at him'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_82",
+          "question": "Find out which part of the sentence has an error: This kind of behaviour has not been seen here (a) / since the last four years. (b) / No error (c)",
+          "options": [
+            "This kind of behaviour has not been seen here",
+            "since the last four years.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'for the last four years' instead of 'since the last four years'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_83",
+          "question": "Find out which part of the sentence has an error: Rekha was trying for admission in the engineering college (a) / even though her parents wanted her to take up medicine. (b) / No error (c)",
+          "options": [
+            "Rekha was trying for admission in the engineering college",
+            "even though her parents wanted her to take up medicine.",
+            "No error"
+          ],
+          "correctAnswer": "Rekha was trying for admission in the engineering college",
+          "explanation": "Use 'admission to' instead of 'admission in'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_84",
+          "question": "Find out which part of the sentence has an error: As the party was going we noticed Mr. Roy fall back in his chair (a) / gasping for breath. (b) / No error (c)",
+          "options": [
+            "As the party was going we noticed Mr. Roy fall back in his chair",
+            "gasping for breath.",
+            "No error"
+          ],
+          "correctAnswer": "As the party was going we noticed Mr. Roy fall back in his chair",
+          "explanation": "Use 'was going on' instead of 'was going'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_85",
+          "question": "Find out which part of the sentence has an error: Of all the men known to me none is inclined (a) / to think ill to others. (b) / No error (c)",
+          "options": [
+            "Of all the men known to me none is inclined",
+            "to think ill to others.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'think ill of others' instead of 'think ill to others'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_86",
+          "question": "Find out which part of the sentence has an error: The man told to her that he had not brought his dog out for a walk (a) / as he was afraid that it would rain. (b) / No error (c)",
+          "options": [
+            "The man told to her that he had not brought his dog out for a walk",
+            "as he was afraid that it would rain.",
+            "No error"
+          ],
+          "correctAnswer": "The man told to her that he had not brought his dog out for a walk",
+          "explanation": "Delete 'to' after 'told'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_87",
+          "question": "Find out which part of the sentence has an error: This text-book on Physics, which has been written for under-graduate students, (a) / comprises of fourteen chapters. (b) / No error (c)",
+          "options": [
+            "This text-book on Physics, which has been written for under-graduate students,",
+            "comprises of fourteen chapters.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Remove 'of' after 'comprises'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_88",
+          "question": "Find out which part of the sentence has an error: He went to England to work as a doctor, but returned back (a) / as he could not endure the weather there. (b) / No error (c)",
+          "options": [
+            "He went to England to work as a doctor, but returned back",
+            "as he could not endure the weather there.",
+            "No error"
+          ],
+          "correctAnswer": "He went to England to work as a doctor, but returned back",
+          "explanation": "Remove 'back' after 'returned'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_89",
+          "question": "Find out which part of the sentence has an error: The meeting, scheduled to be held between 2 p.m. to 3 p.m. (a) / was postponed suddenly. (b) / No error (c)",
+          "options": [
+            "The meeting, scheduled to be held between 2 p.m. to 3 p.m.",
+            "was postponed suddenly.",
+            "No error"
+          ],
+          "correctAnswer": "The meeting, scheduled to be held between 2 p.m. to 3 p.m.",
+          "explanation": "Use 'and' in place of 'to' ('between 2 p.m. and 3 p.m.')[cite: 1]."
+        },
+        {
+          "id": "review_exercise_90",
+          "question": "Find out which part of the sentence has an error: Originally they had planned to buy an air-conditioner, but finally settled for an air-cooler (a) / as the cost of the latter was very less. (b) / No error (c)",
+          "options": [
+            "Originally they had planned to buy an air-conditioner, but finally settled for an air-cooler",
+            "as the cost of the latter was very less.",
+            "No error"
+          ],
+          "correctAnswer": "No error",
+          "explanation": "Use 'much' instead of 'very'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_91",
+          "question": "Find out which part of the sentence has an error: What we fail to understand is that the life of a scientist (a) / will always be different from a politician. (b) / No error (c)",
+          "options": [
+            "What we fail to understand is that the life of a scientist",
+            "will always be different from a politician.",
+            "No error"
+          ],
+          "correctAnswer": "will always be different from a politician.",
+          "explanation": "Add 'that of' after 'from' ('different from that of a politician')[cite: 1]."
+        },
+        {
+          "id": "review_exercise_92",
+          "question": "Find out which part of the sentence has an error: He was not considered for promotion because his performance was not (a) / so good as the other members of the organization. (b) / No error (c)",
+          "options": [
+            "He was not considered for promotion because his performance was not",
+            "so good as the other members of the organization.",
+            "No error"
+          ],
+          "correctAnswer": "so good as the other members of the organization.",
+          "explanation": "Use 'that of the other members' instead of 'the other members'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_93",
+          "question": "Find out which part of the sentence has an error: In some tribal areas people worship snakes (a) / and are not scared from them. (b) / No error (c)",
+          "options": [
+            "In some tribal areas people worship snakes",
+            "and are not scared from them.",
+            "No error"
+          ],
+          "correctAnswer": "and are not scared from them.",
+          "explanation": "Use 'scared of' instead of 'scared from'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_94",
+          "question": "Find out which part of the sentence has an error: Not only it is our duty to support our parents (a) / but also to respect them. (b) / No error (c)",
+          "options": [
+            "Not only it is our duty to support our parents",
+            "but also to respect them.",
+            "No error"
+          ],
+          "correctAnswer": "Not only it is our duty to support our parents",
+          "explanation": "Place 'not only' before 'to support'[cite: 1]."
+        },
+        {
+          "id": "review_exercise_95",
+          "question": "Find out which part of the sentence has an error: After nagging constantly for months and administering weekly tests (a) / the teacher was at last pleased for the boy's progress. (b) / No error (c)",
+          "options": [
+            "After nagging constantly for months and administering weekly tests",
+            "the teacher was at last pleased for the boy's progress.",
+            "No error"
+          ],
+          "correctAnswer": "the teacher was at last pleased for the boy's progress.",
+          "explanation": "Use 'pleased with' instead of 'pleased for'[cite: 1]."
+        }
                         
 ]
