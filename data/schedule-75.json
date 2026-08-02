@@ -1102,7 +1102,7 @@
     },
     {
       "day": 24,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "compound-interest",
@@ -1139,15 +1139,33 @@
         "grammarQuizQuestions": 25,
         "grammarQuizDuration": 5
       },
+      "grammarQuizzes": [
+        {
+          "topic": "pronoun",
+          "label": "REVISION-1",
+          "questions": 25,
+          "duration": 10,
+          "from": 603
+        },
+        {
+          "topic": "pronoun",
+          "label": "REVISION-2",
+          "questions": 20,
+          "duration": 8,
+          "from": 628
+        }
+      ],
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 23 GK revision"
+        "materialsNote": "Let's revise what we have learnt so far in Polity",
+        "todayTopicPdf": "https://drive.google.com/file/d/1Sy4lcoECJOG64wNnJtdmeq8TxoVZxtp5/view?usp=drive_link",
+        "todayTopicPdf2": "https://drive.google.com/file/d/1jggWQYli2tZkJ-3Q_AnI9ZtDOhDhoz9h/view?usp=drive_link",
+        "todayTopicPdf3": "https://drive.google.com/file/d/13Tuim5hgPz2SXm_ax99U6df6fQ4NzFsn/view?usp=drive_link",
+        "todayTopicPdf4": "https://drive.google.com/file/d/1M5UGIC9b6U28JkxtbA25PqSfYJlusI_l/view?usp=drive_link"
       }
     },
     {
