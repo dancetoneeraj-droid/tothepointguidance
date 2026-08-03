@@ -1080,7 +1080,12 @@
             "duration": 10,
             "from": 578
           }
-        ]
+        ],
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 0,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1140,7 +1145,12 @@
             "duration": 8,
             "from": 628
           }
-        ]
+        ],
+        "grammarQuiz": "spelling-error",
+        "grammarQuizLabel": "Spelling Error",
+        "grammarQuizFrom": 25,
+        "grammarQuizQuestions": 25,
+        "grammarQuizDuration": 5
       },
       "reasoning": {
         "topic": "analogy",
