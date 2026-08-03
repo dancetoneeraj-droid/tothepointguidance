@@ -1080,12 +1080,7 @@
             "duration": 10,
             "from": 578
           }
-        ],
-        "grammarQuiz": "spelling-error",
-        "grammarQuizLabel": "Spelling Error",
-        "grammarQuizFrom": 0,
-        "grammarQuizQuestions": 25,
-        "grammarQuizDuration": 5
+        ]
       },
       "reasoning": {
         "topic": "puzzle",
@@ -1130,31 +1125,23 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day8-grammar.pdf",
-        "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
-        "grammarQuiz": "spelling-error",
-        "grammarQuizLabel": "Spelling Error",
-        "grammarQuizFrom": 25,
-        "grammarQuizQuestions": 25,
-        "grammarQuizDuration": 5
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "REVISION-1",
+            "questions": 25,
+            "duration": 10,
+            "from": 603
+          },
+          {
+            "topic": "pronoun",
+            "label": "REVISION-2",
+            "questions": 20,
+            "duration": 8,
+            "from": 628
+          }
+        ]
       },
-      "grammarQuizzes": [
-        {
-          "topic": "pronoun",
-          "label": "REVISION-1",
-          "questions": 25,
-          "duration": 10,
-          "from": 603
-        },
-        {
-          "topic": "pronoun",
-          "label": "REVISION-2",
-          "questions": 20,
-          "duration": 8,
-          "from": 628
-        }
-      ],
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
