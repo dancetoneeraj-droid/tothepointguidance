@@ -1198,10 +1198,10 @@
         "grammarQuizzes": [
           {
             "topic": "pronoun",
-            "label": "NARRATION — Set 1",
+            "label": "Revision",
             "questions": 25,
             "duration": 10,
-            "from": 483
+            "from": 648
           }
         ],
         "grammarQuiz": "spelling-error",
@@ -1224,19 +1224,13 @@
     },
     {
       "day": 26,
-      "published": false,
+      "published": true,
       "maths": [
         {
           "topic": "number-system",
-          "questions": 25,
-          "duration": 25,
+          "questions": 17,
+          "duration": 17,
           "from": 150
-        },
-        {
-          "topic": "partnership",
-          "questions": 25,
-          "duration": 25,
-          "from": 125
         },
         {
           "topic": "geometry",
@@ -1252,9 +1246,15 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day2-grammar.pdf",
-        "vocabPdf": "/content/english/day2-vocab.pdf",
-        "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "Revision",
+            "questions": 25,
+            "duration": 10,
+            "from": 673
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 75,
@@ -1267,11 +1267,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day2-geography.pdf",
-        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
-        "todayNotes": "/content/gk/day2-geography-notes.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 25 GK revision"
+        "todayTopicPdf": "https://drive.google.com/file/d/1MQMOlnt3f0WaXu-gVRY1L5MteGsYhaGU/view?usp=drive_link"
       }
     },
     {
