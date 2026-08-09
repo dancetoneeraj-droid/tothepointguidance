@@ -1,0 +1,938 @@
+[
+  {
+    "question": "Which of the following is NOT a correct formula?",
+    "options": [
+      "1+tan²A tan²A= sin²A",
+      "secASinA= TanA",
+      "cosec²A-cot²A= 1",
+      "cos²Acot2A= cot²A-Cos2A"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "निम्िलिखित में से कौि सा सही सूत्र िहीीं है?"
+  },
+  {
+    "question": "If cot A = k, then sin A is equal to: (Presume that A is an acute angle)",
+    "options": [
+      "1/√1+k2",
+      "k2 √1+k2",
+      "1 k",
+      "- 1 k"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि cot A = k है, तो sin A का माि बताइए (माि िें कक A न्यूि कोण है)"
+  },
+  {
+    "question": "If 21tanθ = 20, then (1 + sinθ + cosθ) : (1 - sinθ + cosθ) = ?",
+    "options": [
+      "5 : 2",
+      "3 : 1",
+      "2 : 1",
+      "7 : 3"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If x= 8(sinθ+ cosθ)& y= 9(sinθ-cosθ), then find the value of x² 82+ y² 92?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "2"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 𝒙= 𝟖(𝒔𝒊𝒏𝜽+ 𝒄𝒐𝒔𝜽)& 𝒚= 𝟗(𝒔𝒊𝒏𝜽−𝒄𝒐𝒔𝜽) है, तो"
+  },
+  {
+    "question": "If x=asinθ-bcosθ, y=acosθ+bsinθ, then which of the following is true?",
+    "options": [
+      "x² y² + a2 b2 = 1",
+      "x²+y²=a2- b2",
+      "x²+y²=a2+b2",
+      "x² a2 + y² b2 = 1"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If xcos A - y sinA = 1 and xsinA+ ycosA = 4, then the value of 17x2+ 17y2 is:",
+    "options": [
+      "7",
+      "49",
+      "0",
+      "289"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि xcos A – y sinA = 1 and xsinA+ ycosA = 4 है तो 17𝒙𝟐+ 𝟏𝟕𝒚𝟐 का माि क्या है?"
+  },
+  {
+    "question": "If x = 4cosA + 5sinA and y = 4sinA - 5cosA, then the value of x²+ y² is: -",
+    "options": [
+      "25",
+      "16",
+      "0",
+      "41"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि x = 4cosA + 5sinA और y = 4sinA − 5cosA हो, तो x2 + y2 का माि ज्ञात कीजिए"
+  },
+  {
+    "question": "If 6x= sinθ and 6 x= cos θ, then the value of 8(x²+ 1 x²) is:",
+    "options": [
+      "2",
+      "2/9",
+      "4",
+      "1"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 6x = sin θ और 6/x = cos θ है तो 8(𝒙𝟐+"
+  },
+  {
+    "question": "x= a+ asinα. cosβ, y= b(1+ sinα. sinβ), z= c. cosα, then ( x-a a) 2 + ( y-b b) 2 + ( z c) 2 =?",
+    "options": [
+      "3",
+      "1",
+      "-1",
+      "0"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "(1-sinA. cosA)(sinA+ cosA) =?",
+    "options": [
+      "sin²A-cos²A",
+      "sin³A+ cos³A",
+      "cos²A-sin²A",
+      "0"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sin (A+B) = 1 and cos(A-B) = 3 2 , A + B  90° and A > B, then the value of 5sin2B+4tan2A 2sinBcosA is:",
+    "options": [
+      "20",
+      "26/1 2",
+      "18",
+      "16/1 2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sec x + cos x = 5/2, where x lies between 0° and 90°, then what is the value of sin²x?",
+    "options": [
+      "3/4",
+      "1/2",
+      "1",
+      "1⁄4 SSC CHSL TIER - I 2022"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If t= cos79°, then what is cosec79°(1-cos79°) equal to?",
+    "options": [
+      "√ 1+t 1-t",
+      "t √1-t2",
+      "√1-t2 t",
+      "√ 1-t 1+t’"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि t=cos79°, तो cosec79°(1-cos79°) ककसके बराबर है? (CDS-1 2024)"
+  },
+  {
+    "question": "If 16 sec²θ - 40sec θ + 25 = 0 and θ is an acute angle, then what will be the value of tanθ?",
+    "options": [
+      "4/3",
+      "3/4",
+      "4/5",
+      "3/5"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If 8sin2θ+2cosθ=5,0° <θ< 90°, then the value of tan²θ +sec²θ -sin²θ will be:",
+    "options": [
+      "305/144",
+      "431/144",
+      "23/29",
+      "153/72"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If 3cosα+ 10sin2α= 6 (0< α <90°), Then find cotα=?",
+    "options": [
+      "4/5",
+      "4/3",
+      "1/4",
+      "3/2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If 6-4sin2θ= 7sinθ·cosθ then find cotθ=?",
+    "options": [
+      "2/3",
+      "3/4",
+      "1/3",
+      "3/2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "(1+ sinα)(1+ sinβ)(1+ sinγ) = (1-sinα)(1-sinβ)(1-sinγ) Then value of each side is:",
+    "options": [
+      "± sinαsinβsinγ",
+      "± secα·secβsecγ",
+      "± cosα·cosβ·cosγ",
+      "± tanα·tanβ·tanγ"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "(1+ cosα)(1-sinβ)(1+ cosγ)(1-sinδ) = (1-cosα)(1+ sinβ)(1-cosγ)(1+ sinδ) then value of each term is =?",
+    "options": [
+      "± sinαsinβsinγsinδ",
+      "± secα·secβsecγsecδ",
+      "± cosα·sinβ·cosγsinδ",
+      "± sinα·cosβ·sinγ cosδ"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sinα+ cosβ= 2, then cosα+ sinβ=?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "- 1"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If cosA + cosB + cosC = 3, then what is the value of sinA + sinB + sinC?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "-1"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "( 1-tanθ 1-cotθ) 2 +1=?",
+    "options": [
+      "sec²θ",
+      "cos2 θ",
+      "sin2 θ",
+      "cosec2 θ"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "+1 बराबर है :"
+  },
+  {
+    "question": "If sinθ+ cosecθ= 2, Then sin100θ+ cosec100θ=?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If A= 2(sin⁶θ+ cos⁶θ) -3(sin⁴θ+ cos⁴θ) then the value of 3α such that cos α = √ 3+A 5+A is:",
+    "options": [
+      "45°",
+      "135°",
+      "180°",
+      "90°"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 𝑨= 𝟐(𝐬𝐢𝐧𝟔𝜽+ 𝐜𝐨𝐬𝟔𝜽) −𝟑(𝐬𝐢𝐧𝟒𝜽+ 𝐜𝐨𝐬𝟒𝜽) है तो cos α = √"
+  },
+  {
+    "question": "If 1+ cosx+ cos²x+ cos³x+. . . ∞ terms= 4+ 2√3 , then x =?",
+    "options": [
+      "15°",
+      "30°",
+      "45°",
+      "60°"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Find the value of √ 1-sin³θ 1+sin³θ?",
+    "options": [
+      "Sec3θ-tan³θ",
+      "(Sec3θ-tan³θ)2",
+      "(Sec3θ-tan³θ)2",
+      "Sec3θ+ tan³θ"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "𝟏+𝒔𝒊𝒏𝟑𝜽 का माि ज्ञात कीजिये?"
+  },
+  {
+    "question": "cosθ secθ-1+ cosθ secθ+1 is equal to:",
+    "options": [
+      "2sin2 θ",
+      "2sec2 θ",
+      "2cot2 θ",
+      "2cos2 θ SSC CHSL 2023 PRE"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "The value of sin²θ (tanθ+cotθ) is:",
+    "options": [
+      "2/3",
+      "1",
+      "1/2",
+      "2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "The value of tan²θ-sin²θ 2+tan²θ+cot²θ is∶- tan²θ-sin²θ",
+    "options": [
+      "cosec⁶θ",
+      "cos⁴θ",
+      "sin⁶θ",
+      "sec⁴θ"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "𝟐+𝒕𝒂𝒏𝟐𝜽+𝒄𝒐𝒕𝟐𝜽 का माि क्या है?"
+  },
+  {
+    "question": "The value of √ cosecθ-cotθ cosecθ+cotθ ÷ sinθ 1+cosθ is equal to:",
+    "options": [
+      "1",
+      "cosecθ",
+      "secθ",
+      "1/2"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "𝟏+𝒄𝒐𝒔Ø का मान बराबर है :"
+  },
+  {
+    "question": "The value of 2(sin⁶θ+cos⁶θ) - 3(sin⁴θ+cos⁴θ) cos⁴θ - sin⁴θ - 2cos2θ is:",
+    "options": [
+      "- 2",
+      "1",
+      "- 1",
+      "2"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "का माि है :"
+  },
+  {
+    "question": "The value of cos⁶θ+sin⁶θ+3sin2θcos2θ cosecθsecθ(sinθ+cosθ-1)(sinθ+cosθ+1) is:",
+    "options": [
+      "1",
+      "2",
+      "1/2",
+      "3"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "𝒄𝒐𝒔𝒆𝒄𝜽𝐬𝐞𝐜𝜽(𝐬𝐢𝐧𝜽+𝐜𝐨𝐬𝜽−𝟏)(𝐬𝐢𝐧𝜽+𝐜𝐨𝐬𝜽+𝟏) का मान ज्ञात कीजिए।"
+  },
+  {
+    "question": "The expression (1-2sin2θcos2θ)(cotθ+1)cosθ (sin⁴θ+cos⁴θ)(1+tanθ)cosecθ, 0°<θ<90° , is equal to:",
+    "options": [
+      "cos²θ",
+      "-sin²θ",
+      "sec²θ",
+      "-sec²θ"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "व्यंिक"
+  },
+  {
+    "question": "sin²θ cosθ(1+cosθ) + 1+cosθ cosθ=?",
+    "options": [
+      "2 cosθ",
+      "secθ",
+      "2 secθ",
+      "cosecθ"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "cosecθ cosecθ-1 + cosecθ cosecθ+1 -tan²θ, 0° < θ < 90°, is equal to:",
+    "options": [
+      "2sec2 θ",
+      "sec2 θ + 1",
+      "sec2 θ",
+      "1-tan²θ"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "What is the value of sinA(1+ sinA cosA) + cosA(1+ cosA sinA)?",
+    "options": [
+      "secA + cosecA",
+      "SinA + cosA",
+      "Sin A - cosA",
+      "SecA - cosecA"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "𝒔𝒊𝒏𝑨)का माि क्या है?"
+  },
+  {
+    "question": "( cosecA cotA+tanA) 2 =?",
+    "options": [
+      "2cos2A",
+      "1-sin²A",
+      "sec²A",
+      "secA·tanA"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "value of cos2 (90°-θ) - [ {cos (90°-θ)cosθ} cotθ ] ?",
+    "options": [
+      "4",
+      "2",
+      "0",
+      "1"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "Solve (1-sinθ+cosθ)2 2 :",
+    "options": [
+      "(1-cosθ)(1-sinθ)",
+      "(1+cosθ)(1-sinθ)",
+      "(1+cosθ)(1+sinθ)",
+      "(1-cosθ)(1+sinθ)"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If cos A, sin A, Cot A are in geometric progression, then the value of tan6 A-tan2 A is:",
+    "options": [
+      "1/2",
+      "3",
+      "1/3",
+      "1"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "अगर cos A, sin A, Cot A गुणोत् तर श्रेणी में है तो tan6 A-tan2 A का माि क् या होगा।"
+  },
+  {
+    "question": "If sin x + cos x = c, then sin⁶x + cos⁶x is equal to:",
+    "options": [
+      "1+6c2-3c4 16",
+      "1+6c2-3c4 4",
+      "1+6c2+3c4 16",
+      "1+6c2+3c4 4"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If asinθ+ bcosθ+ c= 0, psinθ+ qcosθ+ r= 0 , then (br-qc)2+ (cp-qr)2=?",
+    "options": [
+      "(ap-bq)2",
+      "(aq-bp)2",
+      "(aq+ bp)2",
+      "(aq-bp)3"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "What is the value of 1 sin4(90-2α) + 1 cos2(90-2α)-1? SSC CHSL PRE 2024 1 sin4(90-2α) + 1",
+    "options": [
+      "sin22α+ tan22α",
+      "sec22α tan22α",
+      "sec22α+ cot22α",
+      "cos22αcot22α"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "𝒄𝒐𝒔𝟐(𝟗𝟎−𝟐𝜶)−𝟏 का माि क्या है?"
+  },
+  {
+    "question": "√ cosecA cosecA-1+ cosecA cosecA+1= 2, then A=?",
+    "options": [
+      "π 2",
+      "π 3",
+      "π 4",
+      "π 6"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "The value of ( cosecA cosecA-1+ cosecA cosecA+1) ( secA secA-1+ secA secA+1) -1 , what A = 600 is:",
+    "options": [
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "A = 600 होने पर ("
+  },
+  {
+    "question": "If (1+sinθ-cosθ) (1+sinθ+cosθ) + (1+sinθ+cosθ) (1+sinθ-cosθ) = 4, then which of the following values will be suitable for θ?",
+    "options": [
+      "90°",
+      "60°",
+      "45°",
+      "30°"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "अगर"
+  },
+  {
+    "question": "If 117 cos2 A+129 sin2 A = 120 and 170 cos2 B + 158 sin2 B = 161, then the value of cosec2 A sec2 B is:",
+    "options": [
+      "1",
+      "9",
+      "4",
+      "16"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 117 cos2 A+129 sin2 A = 120 है और 170 cos2 B + 158 sin2 B = 161 है, तो cosec2 A sec2 B का माि ज्ञात करें।"
+  },
+  {
+    "question": "If sinθ+ sin²θ= 1 then cos²θ+ cos⁴θ=?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sinθ+ sin²θ= 1 then cos⁴θ+ cos⁸θ+ 2cos6θ=?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sinθ+ sin²θ= 1 , Then cos¹²θ+ 3cos10θ+ 3cos8θ+ cos⁶θ-1=?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If cos A = sin²A, and a sin¹²A + b sin¹⁰A + c sin⁸A + sin6 A = 1, then a + b + c = ?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "6"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If cosθ + cos2 θ = 1, find the value of √sin⁴θ+ cos²θ .",
+    "options": [
+      "√2cosθ",
+      "2 cosθ",
+      "√2sinθ",
+      "2 sinθ (SSC CGL 2022)"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sin A+ sin2 A = 1 , then the value of cos4 A + cos6 A is:",
+    "options": [
+      "1",
+      "cos A",
+      "sin A",
+      "0 (SSC CPO 2023)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि sin A+ sin2A = 1 है, तो cos4A + cos6A का मान क्या होगा?"
+  },
+  {
+    "question": "If cosα cosβ= a, sinα sinβ= b, then sin²β=?",
+    "options": [
+      "a2-1 a2+b2",
+      "a2+1 a2-b2",
+      "a2+1 a2+b2",
+      "a2-1 a2-b2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If cosα sinβ= 10 and cosα cosβ= 11, then the value of cos2 is :",
+    "options": [
+      "121/132",
+      "100/221",
+      "88/108",
+      "221/121 SSC CGL 2023 PRE"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि"
+  },
+  {
+    "question": "Tanα=ntanβ, sinα=msinβ, then cos²α=?",
+    "options": [
+      "m2 n2+1",
+      "m2-1 n2-1",
+      "m2+1 n2+1",
+      "m2 n2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If tanθ= sinα-cosα sinα+cosα , Then sinα+ cosα=?",
+    "options": [
+      "±√2 sinθ",
+      "±√2 cosθ",
+      "±√2 tanθ",
+      "±√2 cotθ"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If -sinθ + cosecθ = 6, then what is the value of sinθ + cosecθ ?",
+    "options": [
+      "6",
+      "√40",
+      "√34",
+      "√38 SSC CHSL TIER - I 2022"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If asinθ+ bcosθ= c then acosθ-bsinθ=?",
+    "options": [
+      "±√a2+ b2+ c2",
+      "±√a2+ b2-c2",
+      "±√a2-b2-c2",
+      "±√a2-b2+ c2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If 3sinθ+ 5cosθ= 5, then what is the value of 5sinθ-3cosθ equal to?",
+    "options": [
+      "5",
+      "-3",
+      "-2",
+      "0"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 3sinθ+5cosθ=5, तो 5sinθ-3cosθ का माि ककसके बराबर है? (CDS 2023)"
+  },
+  {
+    "question": "If 3sinx+ 4cosx= 2, then the value of 3cosx-4sinx is equal to:",
+    "options": [
+      "√21",
+      "√23",
+      "21",
+      "√29"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यजि 3 sinx + 4 cosx = 2 है, तो 3 cosx – 4 sinx का मान ज्ञात कीजिए।"
+  },
+  {
+    "question": "Secθ(cosθ +sinθ) = √2 then what is the value of 2sinθ cosθ-sinθ?",
+    "options": [
+      "3√2",
+      "3/√2",
+      "1/√2",
+      "√2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If (a3+b3) sinθ + (a3-b3) cosθ = 7 and (a3+b3) cosθ - (a3-b3) sinθ = 5, then a6+b6=?",
+    "options": [
+      "24",
+      "37",
+      "35",
+      "49"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If cos270 + sin270 = k, then what is the value of cos2270 - sin2270?",
+    "options": [
+      "k√2-k2",
+      "k√k2-2",
+      "k√1-k2",
+      "k√k2-1"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If cos410 + sin410 = k, then what is the value of cos3410 - sin3410?",
+    "options": [
+      "(k2+1) 2/√2-k2",
+      "(k2+1) 2/√k2-2",
+      "(k2-1) 2/√2-k2",
+      "(k2-1) 2/√k2-1"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sinθ-cosθ= 4 5, then find the value of sinθ+ cosθ?",
+    "options": [
+      "5/√34",
+      "5/√24",
+      "√34/5",
+      "√24/5"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 𝒔𝒊𝒏𝜽−𝒄𝒐𝒔𝜽="
+  },
+  {
+    "question": "If sinθ+ cosθ= √11 3, then find cosθ-sinθ?",
+    "options": [
+      "√5/3",
+      "7/3",
+      "5/3",
+      "√7/3"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 𝒔𝒊𝒏𝜽+ 𝒄𝒐𝒔𝜽="
+  },
+  {
+    "question": "If sinθ+ cosθ= 23 17, Then sinθ-cosθ=?",
+    "options": [
+      "± 15/17",
+      "± 9/17",
+      "± 6/17",
+      "± 7/17"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sinθ - cosθ = 1 29 find the value of sinθ + cosθ.",
+    "options": [
+      "41/29",
+      "42/29",
+      "22/29",
+      "2/29"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि sin θ – cos θ = 1/29 है तो sin θ + cos θ का मान ज्ञात करें।"
+  },
+  {
+    "question": "12sinθ+ 35cosθ= 37, then 35sinθ-12cosθ=?",
+    "options": [
+      "0",
+      "1",
+      "37",
+      "12"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "24sinθ+ 7cosθ= 25, then 7sinθ+ 24cosθ=?",
+    "options": [
+      "25",
+      "336/25",
+      "317/24",
+      "275/7"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If 11sinθ+ 60cosθ= 61; 0< θ< 90°, then what is the value of √660(tanθ+ cotθ)?",
+    "options": [
+      "61",
+      "61√2",
+      "122",
+      "122√2"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 11sinθ+60cosθ=61;0<θ<90°, तो √𝟔𝟔𝟎(𝒕𝒂𝒏𝜽+ 𝒄𝒐𝒕𝜽) का मान क्या है?"
+  },
+  {
+    "question": "(a2-b2) sinθ+ 2abcosθ= a2+ b2, then tanθ=?",
+    "options": [
+      "a2-b2 2ab",
+      "2ab a2-b2",
+      "a2-b2 a2+b2",
+      "a2+b2 a2-b2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If sin⁴A a + cos⁴A b = 1 a+b,Then sin⁸A a3 + cos⁸A b3 =?",
+    "options": [
+      "1 (a+b)2",
+      "a2b2 (a+b)2",
+      "1 (a+b)3",
+      "a3b3 (a+b)2"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If x cosθ - y sinθ = √x²+ y² and cos²θ a2+ sin²θ b2 = 1 x²+y², then the correct relation is:",
+    "options": [
+      "x² a2 - y² b2 = 1",
+      "x² b2+ y² a2 = 1",
+      "x² a2+ y² b2 = 1",
+      "x² b2 - y² a2 = 1"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If 24sin4α+ 40cos4α= 15, Then 54tan6α+ 125cosec6α=?",
+    "options": [
+      "729",
+      "762",
+      "716",
+      "625"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "If cos⁴α cos²β+ sin⁴α sin²β= 1, then cos⁴β cos²α+ sin⁴β sin²α=?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "- 1"
+    ],
+    "correctAnswer": "A",
+    "explanation": ""
+  },
+  {
+    "question": "The value of secθ(1-sinθ)(sinθ+cosθ)(secθ+tanθ) sinθ(1+tanθ)+cosθ(1+cotθ) is equal to secθ(1-sinθ)(sinθ+cosθ)(secθ+tanθ) sinθ(1+tanθ)+cosθ(1+cotθ)",
+    "options": [
+      "cosecθsecθ",
+      "sinθcosθ",
+      "2cosθ",
+      "2sinθ"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "का मान बराबर है :"
+  },
+  {
+    "question": "sin⁴θ+ cos⁴θ in terms of sinθ can be written as:",
+    "options": [
+      "2sin4θ+ 2sin2θ-1",
+      "2sin4θ-2sin2θ",
+      "2sin4θ-2sin2θ-1",
+      "2sin4θ-2sin2θ+ 1"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "𝒔𝒊𝒏𝟒𝜽+ 𝒄𝒐𝒔𝟒𝜽 को sinθ के रूप में लििा िा सकता है:"
+  },
+  {
+    "question": "If lcos2θ+ msin2θ= cos²θ(cosec²θ+1) cosec²θ-1 , (where 0° < θ< 90°), then find the value of tanθ?",
+    "options": [
+      "√ l-2 l-m",
+      "√ l-2 m-1",
+      "√ 2-l l-m",
+      "√ l-1 2-m"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि 𝒍𝒄𝒐𝒔𝟐𝜽+ 𝒎𝒔𝒊𝒏𝟐𝜽="
+  },
+  {
+    "question": "The value of expression 1-sin(2t) 1+sin(2t) × cos(t)+sin(t) cos(t)-sin(t) is:",
+    "options": [
+      "1-2tan(t) 1+2tan(t)",
+      "1-tan(t) 1+tan(t)",
+      "1+2tan(t) 1-2tan(t)",
+      "1+tan(t) 1-tan(t)"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "व्यंजक"
+  },
+  {
+    "question": "If θ = 53° then 1 2√1+ sinθ+ √1-sinθ is equal to?",
+    "options": [
+      "cot θ 2",
+      "sec θ 2",
+      "sin θ 2",
+      "cos θ 2"
+    ],
+    "correctAnswer": "A",
+    "explanation": "",
+    "questionHi": "यदि θ = 53°, तो"
+  }
+]

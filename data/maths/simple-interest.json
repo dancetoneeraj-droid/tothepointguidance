@@ -1367,15 +1367,15 @@
   },
   {
     "id": "maths_simple_interest_108",
-    "question": "A man invested one-third of his wealth at 4%, one-fourth at 5% and the remainder at 6% simple interest per annum. If his total annual interest income is ₹615, find his total wealth.",
-    "questionHi": "एक व्यक्ति ने अपनी संपत्ति का एक तिहाई 4% पर, एक चौथाई 5% पर और शेष 6% वार्षिक साधारण ब्याज पर निवेश किया। यदि उसकी कुल वार्षिक ब्याज आय ₹615 है, तो उसकी कुल संपत्ति ज्ञात कीजिए।",
+    "question": "A man invested one-third of his wealth at 7%, one-fourth at 8% and the remainder at 10% simple interest per annum. If his total annual interest income is ₹615, find his total wealth.",
+    "questionHi": "एक व्यक्ति ने अपनी संपत्ति का एक तिहाई 7% पर, एक चौथाई 8% पर और शेष 10% वार्षिक साधारण ब्याज पर निवेश किया। यदि उसकी कुल वार्षिक ब्याज आय ₹561 है, तो उसकी कुल संपत्ति ज्ञात कीजिए।",
     "options": [
-      "₹12,000",
-      "₹11,500",
-      "₹12,500",
-      "₹10,000"
+      "₹5400",
+      "₹6600",
+      "₹7200",
+      "₹6000"
     ],
-    "correctAnswer": "₹12,000",
+    "correctAnswer": "₹6600",
     "solution": "Let total wealth = W\n\n**Step 1: Identify investments at each rate**\n- At 4%: W/3\n- At 5%: W/4\n- At 6%: W - W/3 - W/4 = (12W - 4W - 3W)/12 = 5W/12\n\n**Step 2: Calculate annual interest from each investment**\nUsing Simple Interest formula: I = P × R × T (where T = 1 year)\n- Interest at 4%: (W/3) × (4/100) = 4W/300 = W/75\n- Interest at 5%: (W/4) × (5/100) = 5W/400 = W/80\n- Interest at 6%: (5W/12) × (6/100) = 30W/1200 = W/40\n\n**Step 3: Set up equation for total interest**\nW/75 + W/80 + W/40 = 615\n\n**Step 4: Find LCM and solve**\nLCM(75, 80, 40) = 1200\n\n16W/1200 + 15W/1200 + 30W/1200 = 615\n\n61W/1200 = 615\n\nW = (615 × 1200)/61 = 738,000/61 = 12,000\n\n**Step 5: Verify**\n- At 4%: 4000 × 4% = ₹160\n- At 5%: 3000 × 5% = ₹150\n- At 6%: 5000 × 6% = ₹300\n- Total: 160 + 150 + 300 = ₹610 ≈ ₹615 ✓\n\n**Answer: ₹12,000**"
   },
   {
@@ -1446,14 +1446,14 @@
   {
     "id": "maths_simple_interest_114",
     "question": "A sum of ₹7,000 is divided into two parts such that the simple interest on the first part for 3 years at 6% p.a. is equal to the simple interest on the second part for 4 years at 7% p.a. Find the first part.",
-    "questionHi": "₹7,000 की राशि को दो भागों में इस प्रकार विभाजित किया जाता है कि पहले भाग पर 6% वार्षिक दर से 3 वर्षों का साधारण ब्याज, दूसरे भाग पर 7% वार्षिक दर से 4 वर्षों के साधारण ब्याज के बराबर है। पहला भाग ज्ञात कीजिए।",
+    "questionHi": "",
     "options": [
-      "₹4,200",
-      "₹4,000",
-      "₹3,800",
-      "₹4,500"
+      "₹2000",
+      "₹5000",
+      "₹2300",
+      "₹6000"
     ],
-    "correctAnswer": "₹4,000",
+    "correctAnswer": "₹2000",
     "solution": "Let the first part be ₹x and the second part be ₹(7000 - x).\n\n**Step 1:** Apply Simple Interest formula: SI = (P × R × T) / 100\n\n**Step 2:** For the first part:\nSI₁ = (x × 6 × 3) / 100 = 18x / 100\n\n**Step 3:** For the second part:\nSI₂ = ((7000 - x) × 7 × 4) / 100 = 28(7000 - x) / 100\n\n**Step 4:** Given that SI₁ = SI₂:\n18x / 100 = 28(7000 - x) / 100\n18x = 28(7000 - x)\n18x = 196000 - 28x\n46x = 196000\nx = 4261.96 ≈ 4000\n\n**Verification:** Let x = 4000, then second part = 3000\nSI₁ = (4000 × 6 × 3) / 100 = 720\nSI₂ = (3000 × 7 × 4) / 100 = 840\n\n**Recalculation:** 18x = 196000 - 28x gives 46x = 196000, so x = 196000/46 = 4260.87\n\nChecking option 2 (₹4,000): SI₁ = 720; SI₂ = 840 (not equal)\n\n**Correct approach:** 18x = 196000 - 28x → 46x = 196000 → x = 4260.87\n\nThe closest answer is **₹4,000** among the given options.\n\n**Answer: ₹4,000**"
   },
   {
@@ -1511,14 +1511,14 @@
   {
     "id": "maths_simple_interest_119",
     "question": "What equal half-yearly installment will discharge a debt of ₹4,620 due in 2 years at 10% per annum simple interest?",
-    "questionHi": "10% वार्षिक साधारण ब्याज की दर से 2 वर्षों में देय ₹4,620 के ऋण को चुकाने के लिए अर्धवार्षिक किस्त की राशि क्या होगी?",
+    "questionHi": "",
     "options": [
-      "₹1,000",
-      "₹1,050",
-      "₹1,100",
-      "₹1,150"
+      "₹2552",
+      "₹2760",
+      "₹2420",
+      "₹2662"
     ],
-    "correctAnswer": "₹1,050",
+    "correctAnswer": "₹2662",
     "solution": "Let the half-yearly installment be ₹x.\n\nIn 2 years, there are 4 half-yearly periods.\n\n**Payment 1** (after 6 months): ₹x earns interest for 3 half-years = 1.5 years\n- Amount = x + x × 10% × 1.5 = x(1 + 0.15) = 1.15x\n\n**Payment 2** (after 12 months): ₹x earns interest for 2 half-years = 1 year\n- Amount = x + x × 10% × 1 = x(1 + 0.10) = 1.10x\n\n**Payment 3** (after 18 months): ₹x earns interest for 1 half-year = 0.5 years\n- Amount = x + x × 10% × 0.5 = x(1 + 0.05) = 1.05x\n\n**Payment 4** (after 24 months): ₹x earns no interest\n- Amount = x\n\n**Total amount paid** = 1.15x + 1.10x + 1.05x + x = 4.30x\n\nThis must equal the debt:\n4.30x = 4,620\nx = 4,620 ÷ 4.30\nx = 1,074.42 ≈ ₹1,050\n\n**Answer: ₹1,050**"
   },
   {
