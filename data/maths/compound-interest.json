@@ -2030,1299 +2030,1228 @@
   },
   {
     "id": "maths_compound_interest_159",
-    "question": "Compound Interest — Question 159 (add real content in datas/maths/compound-interest.json)",
+    "question": "If the rate of interest is 20% per annum compounded yearly and the interest on a certain sum in the second year is Rs 250, then what will be the interest on the same sum in the 5th year?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 518",
+      "Rs 360",
+      "Rs 400",
+      "Rs 432"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs 432",
+    "solution": "**Step 1:** Interest of the nth year $= P \\cdot r \\cdot (1+r)^{n-1}$, so successive yearly interests form a GP with ratio $(1+r)$.\n\n**Step 2:** From year 2 to year 5 there are 3 steps.\n$I_5 = I_2 \\times (1.2)^3 = 250 \\times 1.728$\n\n**Step 3:** $I_5 = 432$\n\n**Answer: Rs 432**"
   },
   {
     "id": "maths_compound_interest_160",
-    "question": "Compound Interest — Question 160 (add real content in datas/maths/compound-interest.json)",
+    "question": "The compound interest of the 13th year is 1024. Find the compound interest of the 10th year if the rate of interest is 14(2/7)%.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "443",
+      "512",
+      "343",
+      "686"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "686",
+    "solution": "**Step 1:** $r = 14\\frac{2}{7}\\% = \\frac{100}{7}\\% = \\frac{1}{7}$, so $1 + r = \\frac{8}{7}$.\n\n**Step 2:** Yearly interests form a GP with ratio $\\frac{8}{7}$.\n$I_{13} = I_{10} \\times \\left(\\frac{8}{7}\\right)^3 = I_{10} \\times \\frac{512}{343}$\n\n**Step 3:** $I_{10} = 1024 \\times \\frac{343}{512} = 2 \\times 343 = 686$\n\n**Answer: 686**"
   },
   {
     "id": "maths_compound_interest_161",
-    "question": "Compound Interest — Question 161 (add real content in datas/maths/compound-interest.json)",
+    "question": "If at the same rate of interest, in 2 years the simple interest is ₹42 and the compound interest is ₹51, then what is the principal (in ₹)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44",
+      "49",
+      "42",
+      "53"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "49",
+    "solution": "**Step 1:** SI for 2 years = 42, so SI per year = 21.\n\n**Step 2:** CI − SI = 51 − 42 = 9. This is the interest earned on the first year's interest.\n$21 \\times r = 9 \\Rightarrow r = \\frac{9}{21} = \\frac{3}{7}$\n\n**Step 3:** $P \\times r = 21 \\Rightarrow P = 21 \\times \\frac{7}{3} = 49$\n\n**Answer: 49**"
   },
   {
     "id": "maths_compound_interest_162",
-    "question": "Compound Interest — Question 162 (add real content in datas/maths/compound-interest.json)",
+    "question": "On a certain sum, simple interest for 2 years is ₹9,600 whereas the compound interest compounded annually is ₹10,176. What is the rate of interest per annum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9%",
+      "12%",
+      "10%",
+      "15%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "12%",
+    "solution": "**Step 1:** SI per year $= \\frac{9600}{2} = 4800$.\n\n**Step 2:** CI − SI for 2 years = 10176 − 9600 = 576, which is the interest on the first year's interest.\n$4800 \\times r = 576$\n\n**Step 3:** $r = \\frac{576}{4800} = 0.12 = 12\\%$\n\n**Answer: 12%**"
   },
   {
     "id": "maths_compound_interest_163",
-    "question": "Compound Interest — Question 163 (add real content in datas/maths/compound-interest.json)",
+    "question": "What is the rate of interest (in %) if the simple interest earned on a certain sum for 5 years is Rs 45,000 and the compound interest earned for 2 years is Rs 18,630?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5",
+      "7",
+      "8",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "7",
+    "solution": "**Step 1:** SI for 5 years = 45000, so $P \\cdot r = \\frac{45000}{5} = 9000$ per year.\n\n**Step 2:** CI for 2 years $= P(2r + r^2) = 2Pr + (Pr)r = 18000 + 9000r$.\n\n**Step 3:** $18000 + 9000r = 18630 \\Rightarrow 9000r = 630 \\Rightarrow r = 0.07$\n\n**Answer: 7**"
   },
   {
     "id": "maths_compound_interest_164",
-    "question": "Compound Interest — Question 164 (add real content in datas/maths/compound-interest.json)",
+    "question": "The compound interest and the simple interest for two years on a certain sum of money at a certain rate of interest are Rs.2257.5 and Rs.2100 respectively. Find the principal and rate percent.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6000, 7%",
+      "7500, 8%",
+      "14000, 10%",
+      "7000, 15%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "7000, 15%",
+    "solution": "**Step 1:** SI per year $= \\frac{2100}{2} = 1050$.\n\n**Step 2:** CI − SI = 2257.5 − 2100 = 157.5, the interest on the first year's interest.\n$1050 \\times r = 157.5 \\Rightarrow r = 0.15 = 15\\%$\n\n**Step 3:** $P \\times 0.15 = 1050 \\Rightarrow P = 7000$\n\n**Answer: 7000, 15%**"
   },
   {
     "id": "maths_compound_interest_165",
-    "question": "Compound Interest — Question 165 (add real content in datas/maths/compound-interest.json)",
+    "question": "If the interest earned during the 2nd year on a certain sum is ₹3726, and the rate of interest is 15% per annum compounded annually, then the sum is: (RRB JE 2024)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹21600",
+      "₹20885",
+      "₹21185",
+      "₹20835"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹21600",
+    "solution": "**Step 1:** Interest of the 2nd year $= P \\cdot r \\cdot (1+r)$.\n\n**Step 2:** $P \\times 0.15 \\times 1.15 = 3726$\n$0.1725P = 3726$\n\n**Step 3:** $P = \\frac{3726}{0.1725} = 21600$\n\n**Answer: ₹21600**"
   },
   {
     "id": "maths_compound_interest_166",
-    "question": "Compound Interest — Question 166 (add real content in datas/maths/compound-interest.json)",
+    "question": "The compound interest on a certain principal at the rate of 12.5% per annum compounded annually is Rs.1215 in the third year. Then find the principal.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.7680",
+      "Rs.8640",
+      "Rs.6912",
+      "Rs.9216"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.7680",
+    "solution": "**Step 1:** $r = 12.5\\% = \\frac{1}{8}$, so $1 + r = \\frac{9}{8}$.\n\n**Step 2:** Interest of the 3rd year $= P \\cdot r \\cdot (1+r)^2 = P \\times \\frac{1}{8} \\times \\frac{81}{64} = \\frac{81P}{512}$.\n\n**Step 3:** $\\frac{81P}{512} = 1215 \\Rightarrow P = 1215 \\times \\frac{512}{81} = 15 \\times 512 = 7680$\n\n**Answer: Rs.7680**"
   },
   {
     "id": "maths_compound_interest_167",
-    "question": "Compound Interest — Question 167 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of Rs 20000 is invested for three years at compound interest. The rate of interest for the first year is 20 percent per annum, for the second year it is 15 percent per annum and for the third year it is 10 percent per annum. Find the interest for the third year.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 2190",
+      "Rs 2620",
+      "Rs 2760",
+      "Rs 2340"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs 2760",
+    "solution": "**Step 1:** Amount after year 1 $= 20000 \\times 1.20 = 24000$.\n\n**Step 2:** Amount after year 2 $= 24000 \\times 1.15 = 27600$.\n\n**Step 3:** Interest for the 3rd year $= 27600 \\times 0.10 = 2760$\n\n**Answer: Rs 2760**"
   },
   {
     "id": "maths_compound_interest_168",
-    "question": "Compound Interest — Question 168 (add real content in datas/maths/compound-interest.json)",
+    "question": "The compound interest on a certain sum of money for 1 year 146 days at 14.28% per annum is Rs.408. Then find the principal.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.1920",
+      "Rs.2040",
+      "Rs.1960",
+      "Rs.1880"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.1960",
+    "solution": "**Step 1:** $14.28\\% = \\frac{1}{7}$ and 146 days $= \\frac{146}{365} = \\frac{2}{5}$ year.\n\n**Step 2:** Growth factor $= \\left(\\frac{8}{7}\\right) \\times \\left(1 + \\frac{2}{5} \\cdot \\frac{1}{7}\\right) = \\frac{8}{7} \\times \\frac{37}{35} = \\frac{296}{245}$.\n\n**Step 3:** $CI = P\\left(\\frac{296}{245} - 1\\right) = \\frac{51P}{245} = 408$\n$P = 408 \\times \\frac{245}{51} = 8 \\times 245 = 1960$\n\n**Answer: Rs.1960**"
   },
   {
     "id": "maths_compound_interest_169",
-    "question": "Compound Interest — Question 169 (add real content in datas/maths/compound-interest.json)",
+    "question": "The difference between C.I. and S.I. on a certain sum of money at 15% per annum for 2 years 219 days is Rs.2061. Then find the principal.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.40000",
+      "Rs.48000",
+      "Rs.36000",
+      "Rs.32000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.40000",
+    "solution": "**Step 1:** 219 days $= \\frac{219}{365} = 0.6$ year, so total time = 2.6 years and the part-year rate is $0.6 \\times 15\\% = 9\\%$.\n\n**Step 2:** CI factor $= (1.15)^2 \\times 1.09 - 1 = 1.3225 \\times 1.09 - 1 = 0.441525$.\nSI factor $= 0.15 \\times 2.6 = 0.39$.\n\n**Step 3:** Difference factor $= 0.441525 - 0.39 = 0.051525$.\n$P = \\frac{2061}{0.051525} = 40000$\n\n**Answer: Rs.40000**"
   },
   {
     "id": "maths_compound_interest_170",
-    "question": "Compound Interest — Question 170 (add real content in datas/maths/compound-interest.json)",
+    "question": "The simple interest on a certain sum at the end of three years at 5% p.a. is 1200 rupees. The compound interest on the same sum for the same period at the same rate is (interest compounded yearly):",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1273",
+      "1261",
+      "1272",
+      "1260"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "1261",
+    "solution": "**Step 1:** $P \\times 0.05 \\times 3 = 1200 \\Rightarrow P = 8000$.\n\n**Step 2:** $CI = 8000\\left[(1.05)^3 - 1\\right] = 8000\\,[1.157625 - 1]$.\n\n**Step 3:** $CI = 8000 \\times 0.157625 = 1261$\n\n**Answer: 1261**"
   },
   {
     "id": "maths_compound_interest_171",
-    "question": "Compound Interest — Question 171 (add real content in datas/maths/compound-interest.json)",
+    "question": "The compound interest on a certain sum of money at 8% per annum for 3 years is ₹4,058. Find the simple interest on the same sum for 4 years at 10% p.a. (DP CONSTABLE 2023)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 6520",
+      "Rs 6025",
+      "Rs 6250",
+      "Rs 6052"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs 6250",
+    "solution": "**Step 1:** $(1.08)^3 = 1.259712$, so the CI factor is $0.259712$.\n\n**Step 2:** $P = \\frac{4058}{0.259712} = 15625$.\n\n**Step 3:** $SI = 15625 \\times 0.10 \\times 4 = 6250$\n\n**Answer: Rs 6250**"
   },
   {
     "id": "maths_compound_interest_172",
-    "question": "Compound Interest — Question 172 (add real content in datas/maths/compound-interest.json)",
+    "question": "When the difference between compound and simple interest for three years is ₹228 at 4% interest per annum, the principal is ₹______ (SSC GD 2025)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "46875",
+      "48075",
+      "47295",
+      "46300"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "46875",
+    "solution": "**Step 1:** For 3 years, $CI - SI = P r^2 (3 + r)$.\n\n**Step 2:** $P (0.04)^2 (3.04) = 228$\n$P \\times 0.0016 \\times 3.04 = P \\times 0.004864$\n\n**Step 3:** $P = \\frac{228}{0.004864} = 46875$\n\n**Answer: 46875**"
   },
   {
     "id": "maths_compound_interest_173",
-    "question": "Compound Interest — Question 173 (add real content in datas/maths/compound-interest.json)",
+    "question": "If the difference between C.I and S.I for three years is Rs.840 and the rate of interest is 11(1/9)%, then find the principal.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.21870",
+      "Rs.20780",
+      "Rs.18225",
+      "Rs.24300"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.21870",
+    "solution": "**Step 1:** $r = 11\\frac{1}{9}\\% = \\frac{100}{9}\\% = \\frac{1}{9}$.\n\n**Step 2:** $CI - SI = P r^2 (3 + r) = P \\times \\frac{1}{81} \\times \\frac{28}{9} = \\frac{28P}{729}$.\n\n**Step 3:** $\\frac{28P}{729} = 840 \\Rightarrow P = 840 \\times \\frac{729}{28} = 30 \\times 729 = 21870$\n\n**Answer: Rs.21870**"
   },
   {
     "id": "maths_compound_interest_174",
-    "question": "Compound Interest — Question 174 (add real content in datas/maths/compound-interest.json)",
+    "question": "If the difference between C.I and S.I for one and a half years is Rs.1500 and the rate of interest is 25% compounded half yearly, then find the principal.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.30720",
+      "Rs.20480",
+      "Rs.28800",
+      "Rs.36000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.30720",
+    "solution": "**Step 1:** Half-yearly rate $= 12.5\\% = \\frac{1}{8}$ for 3 periods.\n$CI$ factor $= \\left(\\frac{9}{8}\\right)^3 - 1 = \\frac{729}{512} - 1 = \\frac{217}{512}$\n\n**Step 2:** $SI$ factor $= 25\\% \\times 1.5 = 37.5\\% = \\frac{3}{8} = \\frac{192}{512}$.\n\n**Step 3:** Difference factor $= \\frac{25}{512}$.\n$P = 1500 \\times \\frac{512}{25} = 60 \\times 512 = 30720$\n\n**Answer: Rs.30720**"
   },
   {
     "id": "maths_compound_interest_175",
-    "question": "Compound Interest — Question 175 (add real content in datas/maths/compound-interest.json)",
+    "question": "If the difference between the compound interest, compounded annually, and the simple interest on a certain sum of money at 5% per annum for 3 years is Rs.183, then what is the sum of money invested? (SSC GD 2022)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs. 20,000",
+      "Rs. 28,000",
+      "Rs. 24,000",
+      "Rs. 16,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs. 24,000",
+    "solution": "**Step 1:** For 3 years, $CI - SI = P r^2 (3 + r)$.\n\n**Step 2:** $P (0.05)^2 (3.05) = P \\times 0.0025 \\times 3.05 = P \\times 0.007625$.\n\n**Step 3:** $P = \\frac{183}{0.007625} = 24000$\n\n**Answer: Rs. 24,000**"
   },
   {
     "id": "maths_compound_interest_176",
-    "question": "Compound Interest — Question 176 (add real content in datas/maths/compound-interest.json)",
+    "question": "A person lent a certain sum on simple interest and the same sum on compound interest at a certain rate of interest per annum. If the ratio between the difference of compound interest and simple interest of 2 years and that of 3 years is 25 : 78, then what is the rate of interest per annum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16%",
+      "15%",
+      "10%",
+      "12%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "12%",
+    "solution": "**Step 1:** For 2 years, $CI - SI = P r^2$. For 3 years, $CI - SI = P r^2 (3 + r)$.\n\n**Step 2:** $\\frac{P r^2}{P r^2 (3+r)} = \\frac{25}{78} \\Rightarrow \\frac{1}{3+r} = \\frac{25}{78}$.\n\n**Step 3:** $3 + r = \\frac{78}{25} = 3.12 \\Rightarrow r = 0.12 = 12\\%$\n\n**Answer: 12%**"
   },
   {
     "id": "maths_compound_interest_177",
-    "question": "Compound Interest — Question 177 (add real content in datas/maths/compound-interest.json)",
+    "question": "The difference between compound interest and simple interest on a certain sum at a certain rate for 3 years is Rs. 2541 and for 2 years it is Rs 840. Find the rate of interest per annum.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4%",
+      "2.5%",
+      "7.5%",
+      "3.33%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "2.5%",
+    "solution": "**Step 1:** $D_2 = P r^2 = 840$ and $D_3 = P r^2 (3 + r) = 2541$.\n\n**Step 2:** $\\frac{D_3}{D_2} = 3 + r = \\frac{2541}{840} = 3.025$.\n\n**Step 3:** $r = 0.025 = 2.5\\%$\n\n**Answer: 2.5%**"
   },
   {
     "id": "maths_compound_interest_178",
-    "question": "Compound Interest — Question 178 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of money is accumulating at compound interest at a certain rate of interest. If simple interest instead of compound were reckoned, the interest for the first two years would be diminished by Rs.70 and that for the first three years by Rs.213.5. Find the sum.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "21000 Rs.",
+      "28000 Rs.",
+      "24500 Rs.",
+      "35000 Rs."
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "28000 Rs.",
+    "solution": "**Step 1:** $D_2 = P r^2 = 70$ and $D_3 = P r^2 (3 + r) = 213.5$.\n\n**Step 2:** $3 + r = \\frac{213.5}{70} = 3.05 \\Rightarrow r = 0.05$.\n\n**Step 3:** $P = \\frac{70}{(0.05)^2} = \\frac{70}{0.0025} = 28000$\n\n**Answer: 28000 Rs.**"
   },
   {
     "id": "maths_compound_interest_179",
-    "question": "Compound Interest — Question 179 (add real content in datas/maths/compound-interest.json)",
+    "question": "The compound interest on a sum of money for 2 years is Rs.832 and the simple interest on the same sum for the same period is Rs.800. The difference between the compound interest and the simple interest for 3 years at the same rate will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.92.36",
+      "Rs.75.64",
+      "Rs.98.56",
+      "Rs.106.56"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.98.56",
+    "solution": "**Step 1:** SI per year $= \\frac{800}{2} = 400$. Difference for 2 years = 832 − 800 = 32.\n\n**Step 2:** $400 \\times r = 32 \\Rightarrow r = 0.08$, and $P = \\frac{400}{0.08} = 5000$.\n\n**Step 3:** $D_3 = P r^2 (3 + r) = 5000 \\times 0.0064 \\times 3.08 = 32 \\times 3.08 = 98.56$\n\n**Answer: Rs.98.56**"
   },
   {
     "id": "maths_compound_interest_180",
-    "question": "Compound Interest — Question 180 (add real content in datas/maths/compound-interest.json)",
+    "question": "The ratio of the compound interest earned over 2 years when compounding a principal annually to the simple interest earned for the same principal at the same rate for the same duration is 25:24. Find the ratio of the compound interest earned over 3 years when compounding the same principal annually to the simple interest earned for the same principal at the same rate for 3 years.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "625:576",
+      "79:72",
+      "301:288",
+      "469:432"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "469:432",
+    "solution": "**Step 1:** $\\frac{CI_2}{SI_2} = \\frac{P(2r + r^2)}{2Pr} = \\frac{2 + r}{2} = \\frac{25}{24}$.\n\n**Step 2:** $2 + r = \\frac{25}{12} \\Rightarrow r = \\frac{1}{12}$.\n\n**Step 3:** $CI_3 = P\\left[\\left(\\frac{13}{12}\\right)^3 - 1\\right] = P \\cdot \\frac{469}{1728}$ and $SI_3 = 3P \\cdot \\frac{1}{12} = P \\cdot \\frac{432}{1728}$.\n\n**Step 4:** Ratio $= 469 : 432$\n\n**Answer: 469:432**"
   },
   {
     "id": "maths_compound_interest_181",
-    "question": "Compound Interest — Question 181 (add real content in datas/maths/compound-interest.json)",
+    "question": "The difference between the compound interest and the simple interest on a principal of ₹54,000 is ₹1,215 at the same yearly rate of interest for a period of 2 years. Find the rate of interest. (DP CONSTABLE 2023)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12%",
+      "15%",
+      "18%",
+      "10%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "15%",
+    "solution": "**Step 1:** For 2 years, $CI - SI = P r^2$.\n\n**Step 2:** $54000 \\, r^2 = 1215 \\Rightarrow r^2 = \\frac{1215}{54000} = 0.0225$.\n\n**Step 3:** $r = 0.15 = 15\\%$\n\n**Answer: 15%**"
   },
   {
     "id": "maths_compound_interest_182",
-    "question": "Compound Interest — Question 182 (add real content in datas/maths/compound-interest.json)",
+    "question": "The difference between the compound interest and the simple interest on ₹80,000 at the same rate of interest per annum for 2 years is ₹98. What is the rate of interest per annum? (DP CONSTABLE 2023)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3(1/2)%",
+      "5(1/2)%",
+      "2(1/2)%",
+      "7(1/2)%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "3(1/2)%",
+    "solution": "**Step 1:** For 2 years, $CI - SI = P r^2$.\n\n**Step 2:** $80000 \\, r^2 = 98 \\Rightarrow r^2 = \\frac{98}{80000} = 0.001225$.\n\n**Step 3:** $r = 0.035 = 3.5\\% = 3\\frac{1}{2}\\%$\n\n**Answer: 3(1/2)%**"
   },
   {
     "id": "maths_compound_interest_183",
-    "question": "Compound Interest — Question 183 (add real content in datas/maths/compound-interest.json)",
+    "question": "If the difference between CI and SI on a certain sum of money of Rs.25200 for 2 years is Rs.700, find the rate of interest.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "14(1/7)%",
+      "16(2/3)%",
+      "15%",
+      "13%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "16(2/3)%",
+    "solution": "**Step 1:** For 2 years, $CI - SI = P r^2$.\n\n**Step 2:** $25200 \\, r^2 = 700 \\Rightarrow r^2 = \\frac{700}{25200} = \\frac{1}{36}$.\n\n**Step 3:** $r = \\frac{1}{6} = 16\\frac{2}{3}\\%$\n\n**Answer: 16(2/3)%**"
   },
   {
     "id": "maths_compound_interest_184",
-    "question": "Compound Interest — Question 184 (add real content in datas/maths/compound-interest.json)",
+    "question": "Amit borrowed a sum of 25000 rupees on simple interest. Bhola borrowed the same amount on compound interest (compounded yearly). At the end of 2 years, Bhola had to pay 160 rupees more interest than Amit. The rate of interest charged per annum is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6.4%",
+      "8%",
+      "4%",
+      "4.8%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "8%",
+    "solution": "**Step 1:** For 2 years, $CI - SI = P r^2$.\n\n**Step 2:** $25000 \\, r^2 = 160 \\Rightarrow r^2 = \\frac{160}{25000} = 0.0064$.\n\n**Step 3:** $r = 0.08 = 8\\%$\n\n**Answer: 8%**"
   },
   {
     "id": "maths_compound_interest_185",
-    "question": "Compound Interest — Question 185 (add real content in datas/maths/compound-interest.json)",
+    "question": "A borrowed ₹58,000 from B at 8% per annum simple interest for 2 years. He lent the same sum to C at 10% per annum compound interest, compounded annually for 2 years. How much did he gain (in ₹) in the transaction at the end of 2 years?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3,000",
+      "2,800",
+      "2,900",
+      "2,750"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "2,900",
+    "solution": "**Step 1:** Interest paid to B $= 58000 \\times 0.08 \\times 2 = 9280$.\n\n**Step 2:** Interest received from C $= 58000\\left[(1.1)^2 - 1\\right] = 58000 \\times 0.21 = 12180$.\n\n**Step 3:** Gain $= 12180 - 9280 = 2900$\n\n**Answer: 2,900**"
   },
   {
     "id": "maths_compound_interest_186",
-    "question": "Compound Interest — Question 186 (add real content in datas/maths/compound-interest.json)",
+    "question": "A money-lender borrows money at 6% per annum and pays the interest at the end of the year. He lends it at 8% per annum compound interest compounded half-yearly and receives the interest at the end of the year. In this way, he gains Rs.1512 a year. The amount of money he borrows is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs. 60,000",
+      "Rs. 50,000",
+      "Rs. 55,000",
+      "Rs. 70,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs. 70,000",
+    "solution": "**Step 1:** Lending at 8% compounded half-yearly means 4% for 2 periods.\nEffective rate $= (1.04)^2 - 1 = 0.0816 = 8.16\\%$\n\n**Step 2:** Net gain rate $= 8.16\\% - 6\\% = 2.16\\%$.\n\n**Step 3:** $P \\times 0.0216 = 1512 \\Rightarrow P = 70000$\n\n**Answer: Rs. 70,000**"
   },
   {
     "id": "maths_compound_interest_187",
-    "question": "Compound Interest — Question 187 (add real content in datas/maths/compound-interest.json)",
+    "question": "Akhilesh borrowed ₹50,000 at a certain rate on simple interest and lent the same sum to Rakesh on compound interest, compounded annually at the same rate of interest. At the end of 2 years, Rakesh cleared his loan and then Akhilesh also cleared his loan. In the process, Akhilesh earned ₹180. What was the rate of interest charged per annum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8%",
+      "6%",
+      "7.5%",
+      "5%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "6%",
+    "solution": "**Step 1:** The gain is exactly the 2-year difference, $CI - SI = P r^2$.\n\n**Step 2:** $50000 \\, r^2 = 180 \\Rightarrow r^2 = \\frac{180}{50000} = 0.0036$.\n\n**Step 3:** $r = 0.06 = 6\\%$\n\n**Answer: 6%**"
   },
   {
     "id": "maths_compound_interest_188",
-    "question": "Compound Interest — Question 188 (add real content in datas/maths/compound-interest.json)",
+    "question": "Sudha invested her savings in schemes A and B in the ratio 3:5, each for 1(1/2) years. Scheme A offers interest at a rate of 20% per annum compounded 6-monthly, whereas scheme B offers interest at a rate of 10% per annum compounded annually. If the difference between the interests received from A and B is Rs 152.60, then the money invested in scheme B is: (ICAR Assistant 2022)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 4000",
+      "Rs 4500",
+      "Rs 3000",
+      "Rs 3500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs 3500",
+    "solution": "**Step 1:** Let the investments be $3x$ in A and $5x$ in B.\n\n**Step 2:** Scheme A: 10% per half-year for 3 periods.\n$I_A = 3x\\left[(1.1)^3 - 1\\right] = 3x \\times 0.331 = 0.993x$\n\n**Step 3:** Scheme B: 10% for 1 year then 5% for the half year.\n$I_B = 5x\\,[1.1 \\times 1.05 - 1] = 5x \\times 0.155 = 0.775x$\n\n**Step 4:** $0.993x - 0.775x = 0.218x = 152.60 \\Rightarrow x = 700$.\nMoney in B $= 5x = 3500$\n\n**Answer: Rs 3500**"
   },
   {
     "id": "maths_compound_interest_189",
-    "question": "Compound Interest — Question 189 (add real content in datas/maths/compound-interest.json)",
+    "question": "Rs.8454 is invested in two parts at the rate of 12% per annum compounded annually for 13 years and 15 years respectively. If the amount received on both investments is equal, then find the difference between both investments.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.954",
+      "Rs.894",
+      "Rs.1014",
+      "Rs.1272"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.954",
+    "solution": "**Step 1:** $A(1.12)^{13} = B(1.12)^{15} \\Rightarrow \\frac{A}{B} = (1.12)^2 = \\frac{784}{625}$.\n\n**Step 2:** Let $A = 784k$ and $B = 625k$, so $1409k = 8454 \\Rightarrow k = 6$.\n\n**Step 3:** $A = 4704$, $B = 3750$, difference $= 954$\n\n**Answer: Rs.954**"
   },
   {
     "id": "maths_compound_interest_190",
-    "question": "Compound Interest — Question 190 (add real content in datas/maths/compound-interest.json)",
+    "question": "Ashok has ₹1612 with him. He divided it amongst his sons Raj and Varun and asked them to invest it at 8% rate of interest compounded annually. It was seen that Raj and Varun got the same amount after 15 and 16 years respectively. How much (in ₹) did Ashok give to Raj? (SSC GD 2025)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "687",
+      "837",
+      "875",
+      "775"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "837",
+    "solution": "**Step 1:** $R(1.08)^{15} = V(1.08)^{16} \\Rightarrow \\frac{R}{V} = 1.08 = \\frac{27}{25}$.\n\n**Step 2:** Let $R = 27k$ and $V = 25k$, so $52k = 1612 \\Rightarrow k = 31$.\n\n**Step 3:** $R = 27 \\times 31 = 837$\n\n**Answer: 837**"
   },
   {
     "id": "maths_compound_interest_191",
-    "question": "Compound Interest — Question 191 (add real content in datas/maths/compound-interest.json)",
+    "question": "A man wants to invest Rs.1,34,470 in bank accounts of his two sons whose ages are 12 years and 16 years in such a way that they will get equal amounts at the age of 21 years at the rate of 20% per annum compounded annually. Find the share of the younger brother.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.43750",
+      "Rs.90720",
+      "Rs.97200",
+      "Rs.42250"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.43750",
+    "solution": "**Step 1:** The younger son invests for $21 - 12 = 9$ years, the elder for $21 - 16 = 5$ years.\n\n**Step 2:** $Y(1.2)^9 = E(1.2)^5 \\Rightarrow \\frac{Y}{E} = \\frac{1}{(1.2)^4} = \\frac{625}{1296}$.\n\n**Step 3:** $625k + 1296k = 1921k = 134470 \\Rightarrow k = 70$.\nYounger's share $= 625 \\times 70 = 43750$\n\n**Answer: Rs.43750**"
   },
   {
     "id": "maths_compound_interest_192",
-    "question": "Compound Interest — Question 192 (add real content in datas/maths/compound-interest.json)",
+    "question": "A person deposits a certain amount of money at the start of each year. If the rate of interest is 12.5% per annum compounded annually and the compound interest of the third year is Rs.13020, find how much money is deposited each year.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "40960 Rs.",
+      "25600 Rs.",
+      "38400 Rs.",
+      "30720 Rs."
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "30720 Rs.",
+    "solution": "**Step 1:** Let the yearly deposit be $D$ and $r = \\frac{1}{8}$, so the growth factor is $\\frac{9}{8}$.\n\n**Step 2:** Balance at the start of year 3:\n$\\left(D \\cdot \\frac{9}{8} + D\\right)\\frac{9}{8} + D = D \\cdot \\frac{153}{64} + D = \\frac{217D}{64}$\n\n**Step 3:** Interest of the 3rd year $= \\frac{217D}{64} \\times \\frac{1}{8} = \\frac{217D}{512} = 13020$.\n$D = 13020 \\times \\frac{512}{217} = 60 \\times 512 = 30720$\n\n**Answer: 30720 Rs.**"
   },
   {
     "id": "maths_compound_interest_193",
-    "question": "Compound Interest — Question 193 (add real content in datas/maths/compound-interest.json)",
+    "question": "A man borrowed a sum of money and agreed to pay it off by paying Rs 4200 at the end of the first year and Rs 4410 at the end of the second year. If the rate of compound interest was 5% per annum, find the sum borrowed. (DP CONSTABLE 2023)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 7500",
+      "Rs 8000",
+      "Rs 8500",
+      "Rs 7000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs 8000",
+    "solution": "**Step 1:** The sum borrowed is the present value of both instalments.\n\n**Step 2:** $\\frac{4200}{1.05} = 4000$ and $\\frac{4410}{(1.05)^2} = \\frac{4410}{1.1025} = 4000$.\n\n**Step 3:** Sum $= 4000 + 4000 = 8000$\n\n**Answer: Rs 8000**"
   },
   {
     "id": "maths_compound_interest_194",
-    "question": "Compound Interest — Question 194 (add real content in datas/maths/compound-interest.json)",
+    "question": "A person borrows some money at 10% per annum compound interest for three years. At the end of the second year he deposits Rs. 8470 and at the end of the third year he clears all his debt by paying Rs.13310. What was the money he borrowed?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs. 16000",
+      "Rs. 17000",
+      "Rs. 18000",
+      "Rs. 16997.7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs. 17000",
+    "solution": "**Step 1:** After 2 years the debt is $P(1.1)^2 = 1.21P$. After paying 8470 the balance is $1.21P - 8470$.\n\n**Step 2:** This balance grows for one more year and equals 13310.\n$(1.21P - 8470) \\times 1.1 = 13310$\n\n**Step 3:** $1.21P - 8470 = 12100 \\Rightarrow 1.21P = 20570 \\Rightarrow P = 17000$\n\n**Answer: Rs. 17000**"
   },
   {
     "id": "maths_compound_interest_195",
-    "question": "Compound Interest — Question 195 (add real content in datas/maths/compound-interest.json)",
+    "question": "A person borrowed a sum of ₹30800 at 10% p.a. for 3 years, interest compounded annually. At the end of two years, he paid a sum of ₹13268. At the end of the 3rd year, he paid ₹x to clear off the debt. What is the value of x?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "26200",
+      "26620",
+      "26400",
+      "26510"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "26400",
+    "solution": "**Step 1:** Debt after 2 years $= 30800 \\times (1.1)^2 = 30800 \\times 1.21 = 37268$.\n\n**Step 2:** After paying 13268, the balance is $37268 - 13268 = 24000$.\n\n**Step 3:** $x = 24000 \\times 1.1 = 26400$\n\n**Answer: 26400**"
   },
   {
     "id": "maths_compound_interest_196",
-    "question": "Compound Interest — Question 196 (add real content in datas/maths/compound-interest.json)",
+    "question": "An amount is said to double in 5 years with compound interest. How many years will it take for the amount to grow to 8 times its original value?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15",
+      "16",
+      "17",
+      "18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "15"
   },
   {
     "id": "maths_compound_interest_197",
-    "question": "Compound Interest — Question 197 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum becomes Rs.6,600 in 2 years and Rs.7,920 in 3 years at compound interest. What is the original principal?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.4,000.33",
+      "Rs.5,583.33",
+      "Rs.4,583.33",
+      "Rs.6,583.33"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.4,583.33"
   },
   {
     "id": "maths_compound_interest_198",
-    "question": "Compound Interest — Question 198 (add real content in datas/maths/compound-interest.json)",
+    "question": "Find the compound interest on Rs.8,000 at 12% per annum for 3 years 4 months, compounded annually.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.3,000",
+      "Rs.4,000",
+      "Rs.3,689",
+      "Rs.3,600"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.3,689"
   },
   {
     "id": "maths_compound_interest_199",
-    "question": "Compound Interest — Question 199 (add real content in datas/maths/compound-interest.json)",
+    "question": "A principal of ₹1,00,000 is invested at 10% per annum compound interest, compounded annually. After how many years will the amount grow to ₹1,33,100?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "3"
   },
   {
     "id": "maths_compound_interest_200",
-    "question": "Compound Interest — Question 200 (add real content in datas/maths/compound-interest.json)",
+    "question": "Find the compound interest on Rs.10,000 at 10% per annum for 2 years 6 months, compounded annually.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.2,000",
+      "Rs.2,705",
+      "Rs.2,700",
+      "Rs.2,500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.2,705"
   },
   {
     "id": "maths_compound_interest_201",
-    "question": "Compound Interest — Question 201 (add real content in datas/maths/compound-interest.json)",
+    "question": "A certain amount invested at compound interest of 12% per annum, compounded annually, amounts to Rs.3,136 in 2 years. What is 140% of the amount invested?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.3,600",
+      "Rs.3,800",
+      "Rs.3,500",
+      "Rs.3,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs.3,500"
   },
   {
     "id": "maths_compound_interest_202",
-    "question": "Compound Interest — Question 202 (add real content in datas/maths/compound-interest.json)",
+    "question": "In how many years will ₹50,000 become ₹66,550 at 10% compound interest per annum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "5",
+      "6",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "3"
   },
   {
     "id": "maths_compound_interest_203",
-    "question": "Compound Interest — Question 203 (add real content in datas/maths/compound-interest.json)",
+    "question": "Find the compound interest on ₹7,000 at 9% p.a. for 1 year 8 months, compounded annually",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹2,087.80",
+      "₹1,000.80",
+      "₹1,087.80",
+      "₹2,000.80"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1,087.80"
   },
   {
     "id": "maths_compound_interest_204",
-    "question": "Compound Interest — Question 204 (add real content in datas/maths/compound-interest.json)",
+    "question": "If the amount at the end of the 2nd year and 3rd year on a certain principal at compound interest is ₹12,000 and ₹13,200 respectively, find the rate of interest per annum.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8%",
+      "7%",
+      "10%",
+      "5%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "10%"
   },
   {
     "id": "maths_compound_interest_205",
-    "question": "Compound Interest — Question 205 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum becomes ₹12100 in 2 years at 10% compound interest annually. Find the principal.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹10000",
+      "₹11000",
+      "₹11500",
+      "₹10500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹10000"
   },
   {
     "id": "maths_compound_interest_206",
-    "question": "Compound Interest — Question 206 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum becomes 4 times its original value in 6 years under compound interest. In how many years will it become 16 times of the original amount?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9 years",
+      "12 years",
+      "15 years",
+      "18 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "12 years"
   },
   {
     "id": "maths_compound_interest_207",
-    "question": "Compound Interest — Question 207 (add real content in datas/maths/compound-interest.json)",
+    "question": "If Rs.5000 amounts to Rs.6050 over 2 years with compound interest, what is the annual interest rate?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10%",
+      "9%",
+      "8%",
+      "11%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "10%"
   },
   {
     "id": "maths_compound_interest_208",
-    "question": "Compound Interest — Question 208 (add real content in datas/maths/compound-interest.json)",
+    "question": "What is the compound interest on a sum of Rs. 12,500 at 15% p.a. in 2 years, if the interest is compounded 8-monthly?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4100",
+      "4137.50",
+      "4000",
+      "4200"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "4137.50"
   },
   {
     "id": "maths_compound_interest_209",
-    "question": "Compound Interest — Question 209 (add real content in datas/maths/compound-interest.json)",
+    "question": "A certain amount increases to five times its initial value after 10 years of compounding interest. How many years will it take for it to grow to twenty-five times its original amount?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "22",
+      "20",
+      "19",
+      "18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "20"
   },
   {
     "id": "maths_compound_interest_210",
-    "question": "Compound Interest — Question 210 (add real content in datas/maths/compound-interest.json)",
+    "question": "How much will the compound interest on Rs. 16000 at 20% per annum for 9 months if it is compounded quarterly?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2,222",
+      "2,422",
+      "1,522",
+      "2,522"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "2,522"
   },
   {
     "id": "maths_compound_interest_211",
-    "question": "Compound Interest — Question 211 (add real content in datas/maths/compound-interest.json)",
+    "question": "What is the compound interest on Rs.8000 for 2 year at 10% per annum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1600",
+      "₹1680",
+      "₹1650",
+      "₹1700"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1680"
   },
   {
     "id": "maths_compound_interest_212",
-    "question": "Compound Interest — Question 212 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of money invested at compound interest amounts to twice itself in 4 years. In how many years will it become 8 times itself?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12 years",
+      "10 years",
+      "13 years",
+      "15 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "12 years"
   },
   {
     "id": "maths_compound_interest_213",
-    "question": "Compound Interest — Question 213 (add real content in datas/maths/compound-interest.json)",
+    "question": "A vendor lends ₹74,000 at a rate of 12% compound interest per annum, compounded annually. Find the interest for the 3rd year.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹10,000.90",
+      "₹11,000.50",
+      "₹11,139.07",
+      "₹12,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹11,139.07"
   },
   {
     "id": "maths_compound_interest_214",
-    "question": "Compound Interest — Question 214 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of money becomes three times itself in 3 years at compound interest. What is the rate of interest?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44.2%",
+      "33.3%",
+      "100%",
+      "88%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "44.2%"
   },
   {
     "id": "maths_compound_interest_215",
-    "question": "Compound Interest — Question 215 (add real content in datas/maths/compound-interest.json)",
+    "question": "What will be the compound interest on a sum of ₹25,000 after 3 years at the rate of 10% p.a.?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹8,275",
+      "₹8,175",
+      "₹8,270",
+      "₹8,205"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹8,275"
   },
   {
     "id": "maths_compound_interest_216",
-    "question": "Compound Interest — Question 216 (add real content in datas/maths/compound-interest.json)",
+    "question": "What amount will be paid at the end of 5 years on ₹4,500 at 10% per annum compounded annually?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹7,265.3",
+      "₹7,545.3",
+      "₹7,247.3",
+      "₹7,145.3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹7,247.3"
   },
   {
     "id": "maths_compound_interest_217",
-    "question": "Compound Interest — Question 217 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of money doubles itself at compound interest in 15 years. In how many years will it become eight times?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "40",
+      "42",
+      "35"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "45"
   },
   {
     "id": "maths_compound_interest_218",
-    "question": "Compound Interest — Question 218 (add real content in datas/maths/compound-interest.json)",
+    "question": "Vidhya lent ₹6000 to Kavya for 3 years at the rate of 4% per annum compound interest. Calculate the amount that Vidhya will get after 3 years.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6,849.18",
+      "6,750.18",
+      "6,749.18",
+      "6,649.18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "6,749.18"
   },
   {
     "id": "maths_compound_interest_219",
-    "question": "Compound Interest — Question 219 (add real content in datas/maths/compound-interest.json)",
+    "question": "Calculate the compound interest on ₹5000 for 2 years at 20% per annum when compounded half yearly.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2,120.50",
+      "2,520.50",
+      "2,322.50",
+      "2,320.50"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "2,320.50"
   },
   {
     "id": "maths_compound_interest_220",
-    "question": "Compound Interest — Question 220 (add real content in datas/maths/compound-interest.json)",
+    "question": "A certain sum amounts to ₹1,600 in two years and to ₹2,000 in three years at compound interest when compounded annually. Find the rate of interest.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "21%",
+      "19%",
+      "25%",
+      "20%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "25%"
   },
   {
     "id": "maths_compound_interest_221",
-    "question": "Compound Interest — Question 221 (add real content in datas/maths/compound-interest.json)",
+    "question": "Albert invested an amount of ₹6000 in a fixed deposit scheme for 3 years at a compound interest rate of 5% p.a. How much will Albert get on maturity of the fixed deposit?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6,955.75",
+      "6,445.75",
+      "6,345.75",
+      "6,945.75"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "6,945.75"
   },
   {
     "id": "maths_compound_interest_222",
-    "question": "Compound Interest — Question 222 (add real content in datas/maths/compound-interest.json)",
+    "question": "If the amount is ₹600 and the Principal is ₹450, which is compounded yearly for 1 year, calculate the rate of interest.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "40%",
+      "45%",
+      "33.33%",
+      "35%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "33.33%"
   },
   {
     "id": "maths_compound_interest_223",
-    "question": "Compound Interest — Question 223 (add real content in datas/maths/compound-interest.json)",
+    "question": "At what rate of interest per annum will a sum of ₹15,625 amount to ₹19,683 in 1 year 6 months, if the interest is compounded half-yearly?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16%",
+      "8%",
+      "20%",
+      "18%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "16%"
   },
   {
     "id": "maths_compound_interest_224",
-    "question": "Compound Interest — Question 224 (add real content in datas/maths/compound-interest.json)",
+    "question": "The difference between the CI and SI on a sum of 2 years at 15% p.a. is ₹360. What is the principal?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹15,000",
+      "₹16,000",
+      "₹18,000",
+      "₹20,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹16,000"
   },
   {
     "id": "maths_compound_interest_225",
-    "question": "Compound Interest — Question 225 (add real content in datas/maths/compound-interest.json)",
+    "question": "An amount of ₹2,00,000 is invested at 10% per annum compound interest. After 1 year, the investor withdraws ₹20,000 from the balance. What will be the total amount remaining in the account at the end of the 2nd year?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹2,18,000",
+      "₹2,20,000",
+      "₹2,24,200",
+      "₹2,25,800"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹2,20,000"
   },
   {
     "id": "maths_compound_interest_226",
-    "question": "Compound Interest — Question 226 (add real content in datas/maths/compound-interest.json)",
+    "question": "The compound interest on ₹8,000 for 1 year 6 months at 20% p.a., compounded half-yearly, is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹2,880",
+      "₹2,400",
+      "₹2,648",
+      "₹3,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹2,648"
   },
   {
     "id": "maths_compound_interest_227",
-    "question": "Compound Interest — Question 227 (add real content in datas/maths/compound-interest.json)",
+    "question": "A man deposits ₹1,50,000 at a CI rate of 10% p.a. After the first year's interest is credited, he withdraws 50% of the interest earned. What is his account balance at the end of the second year?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,65,000",
+      "₹1,72,000",
+      "₹1,73,250",
+      "₹1,75,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1,73,250"
   },
   {
     "id": "maths_compound_interest_228",
-    "question": "Compound Interest — Question 228 (add real content in datas/maths/compound-interest.json)",
+    "question": "The amount at the end of the 2nd and 3rd year on a certain principal at CI is ₹4,232 and ₹4,655.20 respectively. Find the rate of interest per annum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12%",
+      "15%",
+      "8%",
+      "10%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "10%"
   },
   {
     "id": "maths_compound_interest_229",
-    "question": "Compound Interest — Question 229 (add real content in datas/maths/compound-interest.json)",
+    "question": "The difference between the compound interest and simple interest on a sum for 2 years at 10% p.a. is ₹15. What is the sum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,000",
+      "₹1,200",
+      "₹1,500",
+      "₹2,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1,500"
   },
   {
     "id": "maths_compound_interest_230",
-    "question": "Compound Interest — Question 230 (add real content in datas/maths/compound-interest.json)",
+    "question": "The amount at the end of the 2nd and 3rd years on a certain principal at Cl is ₹9,680 and ₹10,648 respectively. Find the principal.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹7,000",
+      "₹8,000",
+      "₹8,800",
+      "₹9,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹8,000"
   },
   {
     "id": "maths_compound_interest_231",
-    "question": "Compound Interest — Question 231 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum is invested at compound interest (compounded annually) at a certain rate. The interest earned in the 1st year is Rs. 2,000, and in the 2nd year it is Rs. 2,400. Find 50% of the sum invested.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹4,000",
+      "₹7,000",
+      "₹5,000",
+      "₹8,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹5,000"
   },
   {
     "id": "maths_compound_interest_232",
-    "question": "Compound Interest — Question 232 (add real content in datas/maths/compound-interest.json)",
+    "question": "If Rs. 60,000 is invested at a compound interest of 20% p.a. for 18 months, then find the interest earned given that the sum is compounded every 6 months.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹21,800",
+      "₹12,550",
+      "₹14,670",
+      "₹19,860"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹19,860"
   },
   {
     "id": "maths_compound_interest_233",
-    "question": "Compound Interest — Question 233 (add real content in datas/maths/compound-interest.json)",
+    "question": "A savings scheme offers annual compound interest. A woman deposits ₹10,000. At the end of the first year, the rate of interest is 10%. In the second year, due to inflation, the rate of interest increases to 12.5%, and in the third year it decreases to 8%. Calculate the total interest she receives at the end of 3 years.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹3,265",
+      "₹3,365",
+      "₹3,285",
+      "₹3,460"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹3,365"
   },
   {
     "id": "maths_compound_interest_234",
-    "question": "Compound Interest — Question 234 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of ₹7,500 is invested in a scheme offering r% compound interest for 2 years. Find the value of 'r' if the difference in the simple interest and compound interest for the same amount at the same rate of interest after 2 years is ₹108.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10%",
+      "8%",
+      "12%",
+      "9%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "12%"
   },
   {
     "id": "maths_compound_interest_235",
-    "question": "Compound Interest — Question 235 (add real content in datas/maths/compound-interest.json)",
+    "question": "Gaurav invested ₹'x' in a scheme offering 10% compound interest for three years. Prem invested ₹18,000 in a scheme offering 15% simple interest for four years. Find the interest earned by Gaurav if the interest earned by Prem is ₹'2x - 1,200'.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,215",
+      "₹1,779",
+      "₹1,560",
+      "₹1,986"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1,986"
   },
   {
     "id": "maths_compound_interest_236",
-    "question": "Compound Interest — Question 236 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of money becomes 16 times in 2 years. What is the annual compound interest rate?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "100%",
+      "200%",
+      "300%",
+      "400%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "300%"
   },
   {
     "id": "maths_compound_interest_237",
-    "question": "Compound Interest — Question 237 (add real content in datas/maths/compound-interest.json)",
+    "question": "A certain sum, when invested for 2 years at 12% per annum compound interest, compounded annually, amounts to ₹39,200. Find the sum invested (in ₹)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹32,800",
+      "₹31,250",
+      "₹38,670",
+      "₹36,290"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹31,250"
   },
   {
     "id": "maths_compound_interest_238",
-    "question": "Compound Interest — Question 238 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum is being lent at 10% per annum compound interest (compounding annually). What is the ratio of amount at the end of first year to the amount at the end of second year?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10: 11",
+      "9: 10",
+      "4: 5",
+      "7: 12"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "10: 11"
   },
   {
     "id": "maths_compound_interest_239",
-    "question": "Compound Interest — Question 239 (add real content in datas/maths/compound-interest.json)",
+    "question": "The ratio of the interest received when Rs. (x + 500) is invested at 32% p.a. simple interest for 4 years to the interest received when Rs. (x – 500) is invested at 20% p.a. compound interest, compounded annually for 2 years, is 64:11. Find the value of 'x'?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,600",
+      "₹1,500",
+      "₹1,100",
+      "₹1,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1,500"
   },
   {
     "id": "maths_compound_interest_240",
-    "question": "Compound Interest — Question 240 (add real content in datas/maths/compound-interest.json)",
+    "question": "A man invested ₹30,000 each in two separate schemes at 10% p.a. for 4 years. One scheme gives simple interest, while the other gives compound interest, compounded annually. Find the difference between the total interest earned from both?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,448",
+      "₹1,784",
+      "₹1,189",
+      "₹1,923"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1,923"
   },
   {
     "id": "maths_compound_interest_241",
-    "question": "Compound Interest — Question 241 (add real content in datas/maths/compound-interest.json)",
+    "question": "The amount received on a certain sum at the same annual rate of interest after 3 years and 5 years on compound interest (compounding annually) is ₹5324 and ₹6442.04 respectively. What is that sum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹5000",
+      "₹4200",
+      "₹4000",
+      "₹4800"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹4000"
   },
   {
     "id": "maths_compound_interest_242",
-    "question": "Compound Interest — Question 242 (add real content in datas/maths/compound-interest.json)",
+    "question": "A father deposited ₹60,000 in a compound interest scheme for his son's business when his son was 20 years old. The scheme offers 15% compound interest per annum compounded annually. What will be the total amount his son will receive when he turns 24 years?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,04,940.38",
+      "₹1,12,450",
+      "₹1,45,670.45",
+      "₹1,66,987"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1,04,940.38"
   },
   {
     "id": "maths_compound_interest_243",
-    "question": "Compound Interest — Question 243 (add real content in datas/maths/compound-interest.json)",
+    "question": "Meena took a loan of ₹8,000 at 10% compound interest per annum for 3 years. She repaid ₹4,000 at the end of the 1st year and the rest at the end of the 3rd year. Find the total interest paid by Meena.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1256",
+      "₹1622",
+      "₹1160",
+      "₹1808"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1808"
   },
   {
     "id": "maths_compound_interest_244",
-    "question": "Compound Interest — Question 244 (add real content in datas/maths/compound-interest.json)",
+    "question": "An amount of ₹8,000 is invested at 10% compound interest. What will be the amount after 3 years?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹10,480",
+      "₹10,542",
+      "₹10,648",
+      "₹10,800"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹10,648"
   },
   {
     "id": "maths_compound_interest_245",
-    "question": "Compound Interest — Question 245 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of money is invested at a compound interest rate of 8% p.a. for the first year and 10% p.a. for the second year. If the total interest earned is ₹1,872, what was the original principal?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹8,080",
+      "₹9,957.45",
+      "₹10,450",
+      "₹12,330.56"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹9,957.45"
   },
   {
     "id": "maths_compound_interest_246",
-    "question": "Compound Interest — Question 246 (add real content in datas/maths/compound-interest.json)",
+    "question": "Ravi invested ₹25,000 in two schemes for 3 years. Both schemes offer 12% p.a. interest. One gives simple interest and the other gives compound interest (compounded annually). Find the difference between the interests earned from both schemes?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1123.2",
+      "₹1080.25",
+      "₹1536",
+      "₹1336"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹1123.2"
   },
   {
     "id": "maths_compound_interest_247",
-    "question": "Compound Interest — Question 247 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of ₹6250 amount to ₹7290 in 2 years at compound interest. Find the rate per annum.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8%",
+      "9%",
+      "10%",
+      "11%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "8%"
   },
   {
     "id": "maths_compound_interest_248",
-    "question": "Compound Interest — Question 248 (add real content in datas/maths/compound-interest.json)",
+    "question": "The amount received on a certain sum at same annual rate of interest after 3 years and 5 years on compund interest (compounding annually) is ₹10648 and ₹12884.08 respectively. What is that sum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹9200",
+      "₹7200",
+      "₹8400",
+      "₹8000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹8000"
   },
   {
     "id": "maths_compound_interest_249",
-    "question": "Compound Interest — Question 249 (add real content in datas/maths/compound-interest.json)",
+    "question": "What sum will amount to ₹23,958 in 3 years at the rate of 10 percent per annum at compound interest (compounding annually) ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹18,000",
+      "₹12,000",
+      "₹16,000",
+      "₹15,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹18,000"
   },
   {
     "id": "maths_compound_interest_250",
-    "question": "Compound Interest — Question 250 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum is being lent at 12.5 percent per annum compound interest (compounding annually). What is the ratio of amount at the end of first year to the amount at the end of second year?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8: 9",
+      "7: 8",
+      "9: 11",
+      "9: 10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "8: 9"
   },
   {
     "id": "maths_compound_interest_251",
-    "question": "Compound Interest — Question 251 (add real content in datas/maths/compound-interest.json)",
+    "question": "Find compound interest on ₹1000 for 3 years at the rate of 10% p.a.?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹331",
+      "₹320",
+      "₹300",
+      "₹350"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹331"
   },
   {
     "id": "maths_compound_interest_252",
-    "question": "Compound Interest — Question 252 (add real content in datas/maths/compound-interest.json)",
+    "question": "₹4000 is invested in a scheme of compound interest (compounding annually) at the annual rate of 15%. What will be the difference between compound interest of second year and third year?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹102.5",
+      "₹103.5",
+      "₹105.5",
+      "₹107.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹103.5"
   },
   {
     "id": "maths_compound_interest_253",
-    "question": "Compound Interest — Question 253 (add real content in datas/maths/compound-interest.json)",
+    "question": "₹6000 is invested in a scheme of compound interest (compounding annually) at the annual rate of 20%. What will be the difference between compound interest of second year and third year?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹272",
+      "₹288",
+      "₹278",
+      "₹298"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹288"
   },
   {
     "id": "maths_compound_interest_254",
-    "question": "Compound Interest — Question 254 (add real content in datas/maths/compound-interest.json)",
+    "question": "The amount received on a certain sum at the same annual rate of interest after 3 years and 5 years on compound interest (compounding annually) is Rs. 15972 and Rs. 19326.12 respectively. What is that sum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹10000",
+      "₹12000",
+      "₹11400",
+      "₹14000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹12000"
   },
   {
     "id": "maths_compound_interest_255",
-    "question": "Compound Interest — Question 255 (add real content in datas/maths/compound-interest.json)",
+    "question": "Rs. 12,000 is invested at the rate of 8% p.a. for 4 years at simple interest in scheme 'A'. The amount received from scheme 'A' is then invested for 2 years at rate of 5% p.a., compounded annually in scheme 'B'. Find the amount received from scheme 'B'.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹17,463.6",
+      "₹17,677",
+      "₹11,460.5",
+      "₹17,999"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹17,463.6"
   },
   {
     "id": "maths_compound_interest_256",
-    "question": "Compound Interest — Question 256 (add real content in datas/maths/compound-interest.json)",
+    "question": "A person invested ₹18,000 each in two different schemes for 2 years. One scheme offered 15% p.a. simple interest and the other offered 15% p.a. compound interest, compounded annually. Find the difference between the interest earned from both schemes.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹456",
+      "₹405",
+      "₹489",
+      "₹411"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹405"
   },
   {
     "id": "maths_compound_interest_257",
-    "question": "Compound Interest — Question 257 (add real content in datas/maths/compound-interest.json)",
+    "question": "An amount of ₹'Z' is invested in two different schemes- one offers simple interest at 13% p.a. for 4 years, and the other offers compound interest at 12% p.a. compounded annually for 2 years. If the total amount from the simple interest scheme exceeds the compound interest scheme by ₹78, then find the value of Z.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs. 287",
+      "Rs. 293.66",
+      "Rs. 245.5",
+      "Rs. 299.88"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "Rs. 293.66"
   },
   {
     "id": "maths_compound_interest_258",
-    "question": "Compound Interest — Question 258 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of money invested at compound interest amounts to ₹1,000 in 3 years and ₹1,200 in 4 years. Find the rate of interest?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20%",
+      "30%",
+      "35%",
+      "42%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "20%"
   },
   {
     "id": "maths_compound_interest_259",
-    "question": "Compound Interest — Question 259 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of ₹22,500 is invested at 4% per annum compound interest. What will be the amount after 2 years?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24,500",
+      "24,336",
+      "26,000",
+      "25,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "24,336"
   },
   {
     "id": "maths_compound_interest_260",
-    "question": "Compound Interest — Question 260 (add real content in datas/maths/compound-interest.json)",
+    "question": "07If Roshan lent ₹6,000 at 9% per annum compound interest, what will be the amount needs to pay after 2 years?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹7,528.6",
+      "₹7,428.6",
+      "₹7,128.6",
+      "₹7,228.6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹7,128.6"
   },
   {
     "id": "maths_compound_interest_261",
-    "question": "Compound Interest — Question 261 (add real content in datas/maths/compound-interest.json)",
+    "question": "What interest rate is required for ₹4000 to amount to ₹4840 in 2 years with compound interest?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10%",
+      "9%",
+      "8%",
+      "11%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "10%"
   },
   {
     "id": "maths_compound_interest_262",
-    "question": "Compound Interest — Question 262 (add real content in datas/maths/compound-interest.json)",
+    "question": "A sum of money doubles itself at compound interest in 15 years. In how many years will it become four times?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20 years",
+      "30 years",
+      "45 years",
+      "40 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "30 years"
   },
   {
     "id": "maths_compound_interest_263",
-    "question": "Compound Interest — Question 263 (add real content in datas/maths/compound-interest.json)",
+    "question": "Which of the following is the effective annual rate of interest corresponding to a compound interest rate of 9% per annum compounded half-yearly?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9%",
+      "9.81%",
+      "9.20%",
+      "9.33%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "9.20%"
   },
   {
     "id": "maths_compound_interest_264",
-    "question": "Compound Interest — Question 264 (add real content in datas/maths/compound-interest.json)",
+    "question": "A certain amount of money triples in 8 years under compound interest. How many years will it take for that amount to increase to nine times its original value?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16",
+      "19",
+      "17",
+      "18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "16"
   },
   {
     "id": "maths_compound_interest_265",
-    "question": "Compound Interest — Question 265 (add real content in datas/maths/compound-interest.json)",
+    "question": "The compound interest on a certain principal at 12% per annum for 2 years is ₹265.625. What is the simple interest on the same principal for the same time and rate?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹250",
+      "₹200",
+      "₹300",
+      "₹350"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "₹250"
   },
   {
     "id": "maths_compound_interest_266",
-    "question": "Compound Interest — Question 266 (add real content in datas/maths/compound-interest.json)",
+    "question": "The difference between the compound and simple interest on a sum of ₹12,000 for 2 years is ₹216. Find the rate of interest per annum?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15.42%",
+      "17.42%",
+      "12.42%",
+      "13.42%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Compound Interest."
+    "correctAnswer": "13.42%"
   },
   {
     "id": "maths_compound_interest_267",

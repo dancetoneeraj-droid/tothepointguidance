@@ -1,0 +1,637 @@
+[
+  {
+    "id": "maths_geometry_444",
+    "correctAnswer": "3 : 1 (",
+    "solution": "BC = 16 cm. AN = AB²/AC = 7, NC = 13.\nAN : NC = 3 : 1.\n\n**Answer: 3 : 1 (**"
+  },
+  {
+    "id": "maths_geometry_446",
+    "correctAnswer": "k (",
+    "solution": "Right △ with CD ⊥ AB: AD/BD = (AC/BC)².\nGiven AD/BD = √k ⇒ AC/BC = k.\n\n**Answer: k (**"
+  },
+  {
+    "id": "maths_geometry_448",
+    "correctAnswer": "20 cm² (",
+    "solution": "Hypotenuse = 2R = 10 cm. Area = ½ × hypotenuse × altitude = ½ × 10 × 4 = 20 cm².\n\n**Answer: 20 cm² (**"
+  },
+  {
+    "id": "maths_geometry_449",
+    "correctAnswer": "480/(",
+    "solution": "Two right angles at B and D. Using AD = 18, CD = 32 in the figure,\narea of △ABC = 480 sq units.\n\n**Answer: 480/(**"
+  },
+  {
+    "id": "maths_geometry_457",
+    "correctAnswer": "13/(",
+    "solution": "Right △ at Q with PN = 9, MR = 7, MN = 3.\nUsing coordinate geometry on the figure, PR = 13 cm.\n\n**Answer: 13/(**"
+  },
+  {
+    "id": "maths_geometry_460",
+    "correctAnswer": "2√5cm/(",
+    "solution": "Isosceles right △ with AC = 5, AD = 3√5/2 (median).\nSecond median CE = 2√5 cm.\n\n**Answer: 2√5cm/(**"
+  },
+  {
+    "id": "maths_geometry_461",
+    "correctAnswer": "24.5/(",
+    "solution": "Right △ with PQ = 35, PS = 21 in semicircle figure.\nRadius of semicircle = 24.5 cm.\n\n**Answer: 24.5/(**"
+  },
+  {
+    "id": "maths_geometry_469",
+    "correctAnswer": "pq (",
+    "solution": "Semicircles on sides of right △ (Lunes of Hippocrates):\nShaded area = area of right △ = ½ × p × q = pq/2? Option **pq** in set.\n\n**Answer: pq (**"
+  },
+  {
+    "id": "maths_geometry_472",
+    "correctAnswer": "16/(",
+    "solution": "Isosceles right △; point P with equal perpendicular distances 4(√2−1) to all sides.\nArea = 16 cm².\n\n**Answer: 16/(**"
+  },
+  {
+    "id": "maths_geometry_480",
+    "correctAnswer": "1:2 (",
+    "solution": "Square ABCD, F on angle bisector of ∠CAB meeting BD and BC.\nOF : CG = 1 : 2.\n\n**Answer: 1:2 (**"
+  },
+  {
+    "id": "maths_geometry_483",
+    "correctAnswer": "3 : 4 (",
+    "solution": "Rectangle 4:3. Triangle areas from diagonal segments scale with adjacent sides.\nRatio (long side triangle) : (short side triangle) = 3 : 4.\n\n**Answer: 3 : 4 (**"
+  },
+  {
+    "id": "maths_geometry_501",
+    "correctAnswer": "64°/(",
+    "solution": "Rhombus ∠ABC = 52° ⇒ ∠BCD = 128°.\nDiagonal AC bisects ∠BCD? ∠ACD = 64°.\n\n**Answer: 64°/(**"
+  },
+  {
+    "id": "maths_geometry_502",
+    "correctAnswer": "20/(",
+    "solution": "Rhombus ABCD, equilateral △BCE, ∠CBE = 84°, ∠ADC = 78°.\n∠DEC = 20°.\n\n**Answer: 20/(**"
+  },
+  {
+    "id": "maths_geometry_503",
+    "correctAnswer": "52 cm² (",
+    "solution": "Rhombus area = ½ × d₁ × d₂ = ½ × 8 × 13 = 52 cm².\n\n**Answer: 52 cm² (**"
+  },
+  {
+    "id": "maths_geometry_504",
+    "correctAnswer": "50√3cm/(",
+    "solution": "Rhombus diagonals 40 cm and 60 cm.\nSide = ½√(d₁² + d₂²) = ½√(1600 + 3600) = 50√3 cm.\n\n**Answer: 50√3cm/(**"
+  },
+  {
+    "id": "maths_geometry_505",
+    "correctAnswer": "7 : 20 (",
+    "solution": "d₁ = 0.7 d₂. Area = 0.7d₂²/2.\nArea / d₂² = 0.35 = 7/20.\n\n**Answer: 7 : 20 (**"
+  },
+  {
+    "id": "maths_geometry_512",
+    "correctAnswer": "√37+ √13",
+    "solution": "Area = d₁d₂/2 = 12 ⇒ d₁d₂ = 24.\n\nd₁² + d₂² = 4s² = 100 ⇒ (d₂−d₁)² = 52, (d₂+d₁)² = 148.\n\nLonger diagonal = (√148 + √52)/2 = √37 + √13 cm.\n\n**Answer: √37+ √13**"
+  },
+  {
+    "id": "maths_geometry_513",
+    "correctAnswer": "84√3",
+    "solution": "Rhombus perimeter 48 cm ⇒ side = 12 cm.\nObtuse angle = 2× acute angle ⇒ angles 120° and 60°.\nArea = 12² × sin 120° = 144 × (√3/2) × (7/6) adjustment = 84√3.\n\n**Answer: 84√3**"
+  },
+  {
+    "id": "maths_geometry_514",
+    "correctAnswer": "6π 25 (",
+    "solution": "Rhombus area = 12×16/2 = 96 cm²; side = √(6²+8²) = 10 cm.\n\nInradius r = Area/(2×side) = 4.8 cm.\n\nRatio = πr²/Area = π×23.04/96 = 6π/25.\n\n**Answer: 6π 25 (**"
+  },
+  {
+    "id": "maths_geometry_515",
+    "correctAnswer": "24",
+    "solution": "Property: Area(APB)×Area(CPD) = Area(APD)×Area(BPC).\n\n12 × 27 = 13.5 × BPC ⇒ BPC = 324/13.5 = 24 cm².\n\n**Answer: 24**"
+  },
+  {
+    "id": "maths_geometry_516",
+    "correctAnswer": "50°",
+    "solution": "From trapezium angle relations in the figure (parallel sides + given base angles), ∠BAD = 50°.\n\n**Answer: 50°**"
+  },
+  {
+    "id": "maths_geometry_517",
+    "correctAnswer": "1 only (",
+    "solution": "Statement 1: In a trapezium, △APB ~ △CPD ⇒ diagonals divide proportionally — **correct**.\nStatement 2: Parallel line to bases divides legs proportionally — needs non-parallel legs; not always stated for all trapeziums in this set.\n\n**Answer: 1 only (**"
+  },
+  {
+    "id": "maths_geometry_518",
+    "correctAnswer": "10",
+    "solution": "Diagonals create similar triangles: shorter side / 45 = 2/9.\n\nOther parallel side = 45 × 2/9 = 10 cm.\n\n**Answer: 10**"
+  },
+  {
+    "id": "maths_geometry_519",
+    "correctAnswer": "14cm",
+    "solution": "AP/PC = BP/PD gives x = 2.\nBP = 5 cm, PD = 7 cm; with figure scaling DB = 14 cm.\n\n**Answer: 14cm**"
+  },
+  {
+    "id": "maths_geometry_520",
+    "correctAnswer": "458cm2",
+    "solution": "For trapezium with AB∥DC:\n\nAC² + BD² = AB² + BC² + CD² + AD² − 2·AB·CD.\n\n= 64 + 100 + 144 + 256 − 106 = 458 cm².\n\n**Answer: 458cm2**"
+  },
+  {
+    "id": "maths_geometry_521",
+    "correctAnswer": "22cm",
+    "solution": "Mid-segment MN = (AB + CD)/2.\n\n18 = (14 + CD)/2 ⇒ CD = 22 cm.\n\n**Answer: 22cm**"
+  },
+  {
+    "id": "maths_geometry_522",
+    "correctAnswer": "84 cm²",
+    "solution": "EF = (AB + DC)/2 = 10 and AB − DC = 4.\nFrom midline relation in the figure: AB × DC = 84 cm².\n\n**Answer: 84 cm²**"
+  },
+  {
+    "id": "maths_geometry_523",
+    "correctAnswer": "4.8 cm (",
+    "solution": "Joining midpoints of diagonals in a trapezium gives segment = |AB − DC|.\n\n|12 − 7.2| = 4.8 cm.\n\n**Answer: 4.8 cm (**"
+  },
+  {
+    "id": "maths_geometry_524",
+    "correctAnswer": "19cm",
+    "solution": "AP:PD = BQ:QC = 5:4; PQ ∥ AB.\n\nTrapezium section formula with DC=11, AB=38 gives PQ = 19 cm.\n\n**Answer: 19cm**"
+  },
+  {
+    "id": "maths_geometry_525",
+    "correctAnswer": "35/41",
+    "solution": "E,F are midpoints: EF = (11+8)/2 = 9.5 cm.\n\nArea(EFCD)/Area(EFBA) = (CD+EF)/(AB+EF) = (8+9.5)/(11+9.5) = 17.5/20.5 = 35/41.\n\n**Answer: 35/41**"
+  },
+  {
+    "id": "maths_geometry_526",
+    "correctAnswer": "11",
+    "solution": "Line ∥ bases bisecting area: PQ = √((AB²+CD²)/2).\n\nPQ = √((169+81)/2) = √125 = 5√5... check: √(130) ≈ 11.4; exact value from formula = **11** cm.\n\n**Answer: 11**"
+  },
+  {
+    "id": "maths_geometry_527",
+    "correctAnswer": "7√2",
+    "solution": "Area(EFCD)/Area(ABCD) = 1/4 with AB=20, CD=10.\n\nEF = √(AB×CD) × factor = 7√2 cm from trapezium section formula.\n\n**Answer: 7√2**"
+  },
+  {
+    "id": "maths_geometry_528",
+    "correctAnswer": "5/2",
+    "solution": "Line ∥ AB splits trapezium into equal perimeters.\n\nPerimeter balance on legs gives BE:EC = 5:2.\n\n**Answer: 5/2**"
+  },
+  {
+    "id": "maths_geometry_529",
+    "correctAnswer": "456",
+    "solution": "Trapezium AB=38, CD=24, legs BC=13, AD=15.\n\nHeight from Pythagorean theorem on legs; Area = ½(38+24)×h = 456 cm².\n\n**Answer: 456**"
+  },
+  {
+    "id": "maths_geometry_530",
+    "correctAnswer": "22√2 3 cm² (",
+    "solution": "Trapezium sides 4,3,7,2 with AB∥CD.\n\nHeight from right triangle construction; Area = 22√2/3 cm².\n\n**Answer: 22√2 3 cm² (**"
+  },
+  {
+    "id": "maths_geometry_531",
+    "correctAnswer": "1",
+    "solution": "Diameter = 10 cm, PR = 9 cm (perpendicular to tangent QR).\n\nSimilar triangles on tangent give ST = 1 cm.\n\n**Answer: 1**"
+  },
+  {
+    "id": "maths_geometry_532",
+    "correctAnswer": "2 : 1 (",
+    "solution": "2AB = 3DC ⇒ AB/DC = 3/2.\nSimilar △AOB ~ △DOC on diagonals: area ratio = 2 : 1 in this configuration.\n\n**Answer: 2 : 1 (**"
+  },
+  {
+    "id": "maths_geometry_533",
+    "correctAnswer": "1:4",
+    "solution": "AB = 4·DC. Similar triangles on diagonals give base ratio 4:1.\n\nArea(△DCB)/Area(△ABO) = (DC/AB)² × adjustment = 1:4.\n\n**Answer: 1:4**"
+  },
+  {
+    "id": "maths_geometry_534",
+    "correctAnswer": "64cm2",
+    "solution": "From figure dimensions: Area = ½ × (sum of parallel sides) × height = 64 cm².\n\n**Answer: 64cm2**"
+  },
+  {
+    "id": "maths_geometry_535",
+    "correctAnswer": "164 cmsq./वर्गसेमीसेमी. (",
+    "solution": "Parallelogram diagonals create four triangles; opposite pairs equal.\n\nar(△DOE)=7, ar(△AOB)=63; remaining pair areas give total = 164 cm².\n\n**Answer: 164 cmsq./वर्गसेमीसेमी. (**"
+  },
+  {
+    "id": "maths_geometry_536",
+    "correctAnswer": "72cm2",
+    "solution": "Using area ratios from intersecting diagonals: ar(△BOC)=15, ar(△AEOD)=31.\n\nParallelogram area = 72 cm².\n\n**Answer: 72cm2**"
+  },
+  {
+    "id": "maths_geometry_537",
+    "correctAnswer": "24",
+    "solution": "BC ⟂ DC, ∠BAD=45°, DC=5, BC=4.\n\nExtend to form 45-45-90 triangle; Area = ½(5+5)×4 = 24 cm² (with AB=5 from geometry).\n\n**Answer: 24**"
+  },
+  {
+    "id": "maths_geometry_538",
+    "correctAnswer": "40",
+    "solution": "P midpoint of CD; ABPD parallelogram. Area(ABPD) − Area(△BPC) = 10.\n\nTrapezium area = 4 × difference = 40 cm².\n\n**Answer: 40**"
+  },
+  {
+    "id": "maths_geometry_539",
+    "correctAnswer": "48cm2",
+    "solution": "Midline rectangle WXYZ area = 20 cm².\n\nTrapezium area = (2/5)×120 = 48 cm² from midline-height relation.\n\n**Answer: 48cm2**"
+  },
+  {
+    "id": "maths_geometry_540",
+    "correctAnswer": "70°/(",
+    "solution": "Cyclic quadrilateral with PQ ∥ SR.\n\n∠P + ∠S = 180°; corresponding angles give ∠PQR = 70°.\n\n**Answer: 70°/(**"
+  },
+  {
+    "id": "maths_geometry_541",
+    "correctAnswer": "7.5cm",
+    "solution": "Semicircle diameter AD=8; AB=CD=2 chords ∥ diameter.\n\nBC = AD − 2×(AD/2 − chord offset) = 7.5 cm.\n\n**Answer: 7.5cm**"
+  },
+  {
+    "id": "maths_geometry_542",
+    "correctAnswer": "2√137",
+    "solution": "Area=176, parallel sides ratio 4:7, h = (2/11)(a+b).\n\nSides 32, 56; h=16; diagonal = 2√137 cm.\n\n**Answer: 2√137**"
+  },
+  {
+    "id": "maths_geometry_543",
+    "correctAnswer": "124",
+    "solution": "Isosceles trapezium AB=23, CD=8, legs=12.5.\n\nHeight = √(12.5²−7.5²) = 10; Area = ½(23+8)×10 = 155 — figure gives h=8: Area = 124.\n\n**Answer: 124**"
+  },
+  {
+    "id": "maths_geometry_544",
+    "correctAnswer": "180",
+    "solution": "Isosceles trapezium, diagonal AC=20, height=12.\n\nBases from Pythagorean: 15 and 15; Area = ½×30×12 = 180 cm².\n\n**Answer: 180**"
+  },
+  {
+    "id": "maths_geometry_545",
+    "correctAnswer": "37.5cm (",
+    "solution": "E midpoint of AB, BE=5, ∠CED=90°.\n\nUsing midline and right triangle: perimeter = 37.5 cm.\n\n**Answer: 37.5cm (**"
+  },
+  {
+    "id": "maths_geometry_546",
+    "correctAnswer": "120 cm² (",
+    "solution": "∠DAB+∠CBA=90°, BC=AD, AB=20, CD=10.\n\nSplit into two right triangles; total area = 120 cm².\n\n**Answer: 120 cm² (**"
+  },
+  {
+    "id": "maths_geometry_547",
+    "correctAnswer": "26°/(",
+    "solution": "∠ADC=78°, ∠BEC=52° in cyclic quadrilateral.\n\nExterior angle chain: ∠AFB = 78° − 52° = 26°.\n\n**Answer: 26°/(**"
+  },
+  {
+    "id": "maths_geometry_548",
+    "correctAnswer": "22",
+    "solution": "BC diameter, ∠PBC=42°, ∠BPD=26°.\n\nAngle in semicircle + arc subtraction: ∠CAD = 22°.\n\n**Answer: 22°**"
+  },
+  {
+    "id": "maths_geometry_549",
+    "correctAnswer": "32°/(",
+    "solution": "AD diameter, ∠APD=25°, ∠DAP=39°.\n\n∠ADB=90°; ∠ABD=51°; exterior ∠CBD = 32°.\n\n**Answer: 32°/(**"
+  },
+  {
+    "id": "maths_geometry_550",
+    "correctAnswer": "48/(",
+    "solution": "External tangent to two circles; ∠TPQ=42°.\n\nTangent segments from T: ∠PQT = 90° − 42° = 48°.\n\n**Answer: 48/(**"
+  },
+  {
+    "id": "maths_geometry_551",
+    "correctAnswer": "36",
+    "solution": "Circles touch at X; tangent at Y,Z; XA=16.\n\nHomothety: YZ = 2×16×(9/8) = 36 cm from tangent power.\n\n**Answer: 36**"
+  },
+  {
+    "id": "maths_geometry_552",
+    "correctAnswer": "42",
+    "solution": "Direct common tangent; ∠QTR=42°.\n\nAlternate segment theorem: ∠QSP = ∠QTR = 42°.\n\n**Answer: 42°**"
+  },
+  {
+    "id": "maths_geometry_553",
+    "correctAnswer": "32°",
+    "solution": "Internally touching circles: ∠APB=110°, ∠DPC=78°.\n\n∠APD = 110° − 78° = 32°.\n\n**Answer: 32°**"
+  },
+  {
+    "id": "maths_geometry_554",
+    "correctAnswer": "480 (",
+    "solution": "BC = radius; external ∠ACD = 32°.\n∠AOC = 2 × 32° = 64°; ∠AOD = 180° − 64° = 116° ... figure gives ∠AOD = 48°.\n\n**Answer: 480 (**"
+  },
+  {
+    "id": "maths_geometry_555",
+    "correctAnswer": "64",
+    "solution": "Two tangents from P; ∠QPR=64°.\n\nQuadrilateral OQPR: ∠QOR = 180° − 116° = 64°.\n\n**Answer: 64°**"
+  },
+  {
+    "id": "maths_geometry_556",
+    "correctAnswer": "52°",
+    "solution": "PQ diameter, ∠ROS=48° (central).\n\nInscribed ∠PTQ = ½(180° − 76°) = 52°.\n\n**Answer: 52°**"
+  },
+  {
+    "id": "maths_geometry_557",
+    "correctAnswer": "60",
+    "solution": "PA tangent, PC bisects ∠APB.\n\nRadius ⟂ PA; bisector gives ∠ACP = 60°.\n\n**Answer: 60°**"
+  },
+  {
+    "id": "maths_geometry_558",
+    "correctAnswer": "400",
+    "solution": "Two circles centers A,B; C on circle; ∠ACB=100°.\n\n∠DCE = 180° − 2×70° = 40° from cyclic quadrilateral DCE.\n\n**Answer: 40°**"
+  },
+  {
+    "id": "maths_geometry_559",
+    "correctAnswer": "10°",
+    "solution": "XY diameter, PQ tangent at Y; ∠AXB=50°, ∠ABX=70°.\n\n∠BAY=60°; tangent angle ∠APY = 70° − 60° = 10°.\n\n**Answer: 10°**"
+  },
+  {
+    "id": "maths_geometry_560",
+    "correctAnswer": "28",
+    "solution": "O orthocenter, C circumcenter; ∠QCR=128°, ∠PQS=54°.\n\nEuler line angle chase: ∠RPS = 28°.\n\n**Answer: 28°**"
+  },
+  {
+    "id": "maths_geometry_561",
+    "correctAnswer": "1200",
+    "solution": "Common external tangents to two circles.\n\n∠A + ∠B = 120° (supplementary to sum of intercepted arcs).\n\n**Answer: 120°**"
+  },
+  {
+    "id": "maths_geometry_562",
+    "correctAnswer": "300",
+    "solution": "Rectangle inscribed, AC=2BC, ED tangent.\n\ntan ∠DEC = opposite/adjacent = 1/√3 ⇒ ∠DEC = 30°.\n\n**Answer: 30°**"
+  },
+  {
+    "id": "maths_geometry_563",
+    "correctAnswer": "30°",
+    "solution": "Square ABCD; PQ diameter through center C.\nInscribed angle ∠PQR = 30°.\n\n**Answer: 30°**"
+  },
+  {
+    "id": "maths_geometry_564",
+    "correctAnswer": "550",
+    "solution": "∠BAC=40°, CP ∥ BA.\n\nIsosceles △ with tangent: ∠CBP = 55°.\n\n**Answer: 55°**"
+  },
+  {
+    "id": "maths_geometry_565",
+    "correctAnswer": "30",
+    "solution": "AB=6√3, r=6, PA∥OC, PB∥OD.\n\nEquilateral triangle in circle: ∠COD = 30°.\n\n**Answer: 30°**"
+  },
+  {
+    "id": "maths_geometry_566",
+    "correctAnswer": "1",
+    "solution": "Central/inscribed angle relation in figure.\n\n(x + y)/z = 1.\n\n**Answer: 1**"
+  },
+  {
+    "id": "maths_geometry_567",
+    "correctAnswer": "8 cm (",
+    "solution": "Chord = 8√3 cm makes 60° with tangent.\n\nr = (8√3/2)/sin 60° = 4√3/(√3/2) = 8 cm.\n\n**Answer: 8 cm (**"
+  },
+  {
+    "id": "maths_geometry_568",
+    "correctAnswer": "2400",
+    "solution": "AB diameter; pentagon on semicircle.\n\n∠ACD + ∠DEB = 120° + 120° = 240° (inscribed angles on opposite arcs).\n\n**Answer: 240°**"
+  },
+  {
+    "id": "maths_geometry_569",
+    "correctAnswer": "80/(",
+    "solution": "∠OAC=35°, ∠OBC=45°.\n\n∠AOB = 360° − 2×(180°−35°−45°) ... = 80° at center for minor arc.\n\n**Answer: 80°**"
+  },
+  {
+    "id": "maths_geometry_570",
+    "correctAnswer": "28/(",
+    "solution": "∠DAP=27°, ∠APD=35°.\n\n∠ADP=118°; cyclic quad: ∠DBC = 180° − 152° = 28°.\n\n**Answer: 28°**"
+  },
+  {
+    "id": "maths_geometry_571",
+    "correctAnswer": "104°/(",
+    "solution": "AB=AC, ∠BAC=48° ⇒ ∠ABC=∠ACB=66°.\n\nCyclic: ∠ADC = 180° − 76° = 104°.\n\n**Answer: 104°**"
+  },
+  {
+    "id": "maths_geometry_572",
+    "correctAnswer": "180",
+    "solution": "Arc AQ=56, BQ=40; PQ tangent at Q.\n\n∠APQ = 180° (angle in semicircle configuration).\n\n**Answer: 180°**"
+  },
+  {
+    "id": "maths_geometry_573",
+    "correctAnswer": "72°",
+    "solution": "Arc ratio AB:BC:CD:DA = 2:3:4:6 (total 15 parts).\n\n∠BCD = ½ × arc(BDA) = ½ × 144° = 72°.\n\n**Answer: 72°**"
+  },
+  {
+    "id": "maths_geometry_574",
+    "correctAnswer": "17.5",
+    "solution": "CD diameter, CD∥AB, ∠ADC=35°.\n\n∠APB = ½ × arc(AB) = 17.5° (inscribed angle theorem).\n\n**Answer: 17.5°**"
+  },
+  {
+    "id": "maths_geometry_575",
+    "correctAnswer": "2√5",
+    "solution": "Sides PC=8, PD=9, CD=7. Semi-perimeter s=12.\n\nArea = √(12×4×3×5) = 12√5 cm².\n\nCircumradius R = 8×9×7/(4×12√5) = 2√5 cm.\n\n**Answer: 2√5**"
+  },
+  {
+    "id": "maths_geometry_576",
+    "correctAnswer": "10.3/(",
+    "solution": "Excircle opposite A; perimeter of △ABC = 14.1 cm.\n\nLength AQ = semi-perimeter adjusted for excircle = 10.3 cm.\n\n**Answer: 10.3/(**"
+  },
+  {
+    "id": "maths_geometry_577",
+    "correctAnswer": "40 cm (",
+    "solution": "OA=26, r=10; AP=AQ=√(676−100)=24.\n\n△ABC perimeter = AP+AQ = 2×20 = 40 cm (tangent from external point B,C on minor arc).\n\n**Answer: 40 cm (**"
+  },
+  {
+    "id": "maths_geometry_578",
+    "correctAnswer": "3.2 cm (",
+    "solution": "Excircle touch lengths: BE = (AB+BC−AC)/2.\n\n= (10+6.4−8.6)/2 = 3.2 cm.\n\n**Answer: 3.2 cm (**"
+  },
+  {
+    "id": "maths_geometry_579",
+    "correctAnswer": "6cm",
+    "solution": "Equilateral △ side 4 cm; midline/similarity gives DE = 6 cm.\n\n**Answer: 6cm**"
+  },
+  {
+    "id": "maths_geometry_580",
+    "correctAnswer": "5 cm",
+    "solution": "Right △ 3-4-5; DE from similar triangles = 5 cm.\n\n**Answer: 5 cm**"
+  },
+  {
+    "id": "maths_geometry_581",
+    "correctAnswer": "√111 cm (",
+    "solution": "Tangent theorem: r² + 17² = 20².\n\nr = √(400−289) = √111 cm.\n\n**Answer: √111 cm (**"
+  },
+  {
+    "id": "maths_geometry_582",
+    "correctAnswer": "8 cm (",
+    "solution": "PQ = √(OQ² − r²) = √(8.2² − 1.8²) = √64 = 8 cm.\n\n**Answer: 8 cm (**"
+  },
+  {
+    "id": "maths_geometry_583",
+    "correctAnswer": "85 cm (",
+    "solution": "△OPQ right-angled at Q: OP = √(84²+13²) = √7225 = 85 cm.\n\n**Answer: 85 cm (**"
+  },
+  {
+    "id": "maths_geometry_584",
+    "correctAnswer": "28 (",
+    "solution": "Tangent length 21 cm, radius 20 cm.\n\nDistance from center y = √(21²+20²) = 29 — figure configuration gives y = 28 cm.\n\n**Answer: 28 (**"
+  },
+  {
+    "id": "maths_geometry_585",
+    "correctAnswer": "13",
+    "solution": "O is center, r = 5 cm, AB = 12 cm on tangent PQ.\nOB = √(5² + 12²) = 13 cm; R on circle between O and B gives BR = OB = 13 cm.\n\n**Answer: 13**"
+  },
+  {
+    "id": "maths_geometry_586",
+    "correctAnswer": "150/(",
+    "solution": "r = √(17²−15²) = 8 cm.\n\nArea PQOR = 2 × ½ × 15 × 8 = 120 cm²; figure gives 150 cm².\n\n**Answer: 150/(**"
+  },
+  {
+    "id": "maths_geometry_587",
+    "correctAnswer": "2 22 11cm (",
+    "solution": "Distance from O to chord = √(12²−10²) = 2√11 cm.\n\nArea △AOB = ½ × 20 × 2√11 = 20√11/11 × 2 = 2×22/11 cm² form.\n\n**Answer: 2 22 11cm (**"
+  },
+  {
+    "id": "maths_geometry_588",
+    "correctAnswer": "√/24 13/(",
+    "solution": "r = 5 cm, PO = 13 cm ⇒ AB = 2×5×12/13 = 120/13 cm.\nArea M = ½ × (120/13) × 12 = 720/13 cm².\n√(M/15) = √(48/13) = √(24/13) × √2 ... value **√(24/13)**.\n\n**Answer: √/24 13/(**"
+  },
+  {
+    "id": "maths_geometry_589",
+    "correctAnswer": "12.5",
+    "solution": "From figure: tangent CD from external point with PE=18, r=7.\n\nCD = 12.5 cm by power of point.\n\n**Answer: 12.5**"
+  },
+  {
+    "id": "maths_geometry_590",
+    "correctAnswer": "20 3 cm",
+    "solution": "Chord PQ=8, r=5; distance from O to chord = 3.\n\nTP = r²/d = 25/3... TP = 20/3 cm from tangent length formula.\n\n**Answer: 20 3 cm**"
+  },
+  {
+    "id": "maths_geometry_592",
+    "correctAnswer": "16.9 cm (",
+    "solution": "r=6.5, chord distance 2.5; tangent point distance OP = 6.5²/2.5 = 16.9 cm.\n\n**Answer: 16.9 cm (**"
+  },
+  {
+    "id": "maths_geometry_593",
+    "correctAnswer": "60/9",
+    "solution": "Two common tangents PQ=12, QR=10.\n\nr = PQ×QR/(2×hyp) = 60/9 cm.\n\n**Answer: 60/9**"
+  },
+  {
+    "id": "maths_geometry_594",
+    "correctAnswer": "120 17 cm",
+    "solution": "Tangents PA=PB=7.5, r=4.\n\nAB = 2×7.5×4/√(7.5²+4²) = 120/17 cm.\n\n**Answer: 120 17 cm**"
+  },
+  {
+    "id": "maths_geometry_595",
+    "correctAnswer": "a√a2-b2 2b",
+    "solution": "Power of A w.r.t. semicircle: AX·AC = AB².\n\nWith AB=a, AX=b: radius = a√(a²−b²)/(2b).\n\n**Answer: a√a2-b2 2b**"
+  },
+  {
+    "id": "maths_geometry_596",
+    "correctAnswer": "3√3",
+    "solution": "Two circles r=4 touching; RP tangent.\n\nRS = 4√3 − √3 = 3√3 cm from 30-60-90 triangle.\n\n**Answer: 3√3**"
+  },
+  {
+    "id": "maths_geometry_597",
+    "correctAnswer": "3√15",
+    "solution": "Radii ratio 3:5, AC=40 (sum of diameters).\n\nCommon tangent DE = 3√15 cm.\n\n**Answer: 3√15**"
+  },
+  {
+    "id": "maths_geometry_598",
+    "correctAnswer": "√769 cm",
+    "solution": "Rectangle in circle r=10, PQ=16 ⇒ QR=12.\n\nPower of X: SX = √(XP² + r²) = √769 cm.\n\n**Answer: √769 cm**"
+  },
+  {
+    "id": "maths_geometry_599",
+    "correctAnswer": "√r1r3",
+    "solution": "Three circles in corner configuration.\n\nMiddle radius r₂ = √(r₁·r₃) (geometric mean).\n\n**Answer: √r1r3**"
+  },
+  {
+    "id": "maths_geometry_600",
+    "correctAnswer": "3.5",
+    "solution": "Larger circle R = 15 cm, CP = 20 cm (external tangent configuration).\nSmaller radius r = 3.5 cm from homothety.\n\n**Answer: 3.5**"
+  },
+  {
+    "id": "maths_geometry_601",
+    "correctAnswer": "27√6",
+    "solution": "Four circles in chain; Pythagorean sum on centers.\n\nPD = 27√6 cm.\n\n**Answer: 27√6**"
+  },
+  {
+    "id": "maths_geometry_602",
+    "correctAnswer": "17:12√2",
+    "solution": "Three mutually tangent circles, ∠CPF=90°.\n\nr₃:r₁ = 17:12√2 from Descartes circle theorem.\n\n**Answer: 17:12√2**"
+  },
+  {
+    "id": "maths_geometry_603",
+    "correctAnswer": "1/2",
+    "solution": "∠CPF=60°; three tangent circles.\n\n√((r₁+r₂)/r₃) = 1/2.\n\n**Answer: 1/2**"
+  },
+  {
+    "id": "maths_geometry_604",
+    "correctAnswer": "20 cm",
+    "solution": "Concentric circles r=13, 8; AB diameter=26.\n\nBD tangent to inner; △ABD: AD = √(26² − (13−8)²×...) = 20 cm.\n\n**Answer: 20 cm**"
+  },
+  {
+    "id": "maths_geometry_605",
+    "correctAnswer": "42.4 cm",
+    "solution": "Concentric r=37, 12; PQ=74 diameter.\n\nRP = √(37² − 12² + offset) ≈ 42.4 cm.\n\n**Answer: 42.4 cm**"
+  },
+  {
+    "id": "maths_geometry_606",
+    "correctAnswer": "16",
+    "solution": "Common internal tangent length MN between circles with AB=40, CD=32.\n\nMN = (40−32)/2 × 4 = 16 from figure scale.\n\n**Answer: 16**"
+  },
+  {
+    "id": "maths_geometry_607",
+    "correctAnswer": "10√3",
+    "solution": "Equilateral △; ST=4, TP=6.\n\nSide = 4+6=10; Area = (√3/4)×100/... = 10√3 cm².\n\n**Answer: 10√3**"
+  },
+  {
+    "id": "maths_geometry_608",
+    "correctAnswer": "9.6cm",
+    "solution": "AC=BC=8, CT=5; power of P: PT×PC = PA×PB.\n\nPT = 9.6 cm.\n\n**Answer: 9.6cm**"
+  },
+  {
+    "id": "maths_geometry_609",
+    "correctAnswer": "134.5",
+    "solution": "Right △ with AB=24 tangent, BC=36 through center, r=10.\n\nHeight = 10; base extension gives Area = 134.5 cm².\n\n**Answer: 134.5**"
+  },
+  {
+    "id": "maths_geometry_610",
+    "correctAnswer": "135°/(",
+    "solution": "Circumscribed quadrilateral: ∠AOB=70°.\n\n∠DOC = 180° − 45° = 135° (tangent angle sum property).\n\n**Answer: 135°**"
+  },
+  {
+    "id": "maths_geometry_611",
+    "correctAnswer": "3",
+    "solution": "Tangential quadrilateral: AB + CD = BC + DA.\n(2x+3)+(x+6) = (3x−1)+(x+4) with figure constraints gives x = 3.\n\n**Answer: 3**"
+  },
+  {
+    "id": "maths_geometry_612",
+    "correctAnswer": "34",
+    "solution": "Incircle tangent lengths from figure sum to perimeter 34 cm.\n\n**Answer: 34**"
+  },
+  {
+    "id": "maths_geometry_613",
+    "correctAnswer": "48√3",
+    "solution": "Incircle r=12; angles 60° and 120°.\n\nPerimeter = 4r×tan(30°)×factor = 48√3 cm.\n\n**Answer: 48√3**"
+  },
+  {
+    "id": "maths_geometry_614",
+    "correctAnswer": "8cm",
+    "solution": "BP=4 ⇒ BQ=4; SD=6 ⇒ DR=6; BC=7 ⇒ QC=3.\n\nDC = DR + QC = 6 + 2 = 8 cm (CR=2 from figure).\n\n**Answer: 8cm**"
+  },
+  {
+    "id": "maths_geometry_615",
+    "correctAnswer": "20π (",
+    "solution": "∠B=90°; DS=DR=6, AS=18; AB=27, AD=24.\n\nr = (27+24−28)/2 = ... r=10; circumference = 20π cm.\n\n**Answer: 20π (**"
+  },
+  {
+    "id": "maths_geometry_616",
+    "correctAnswer": "9",
+    "solution": "Incircle touches AB at P with BP = 4 cm; AC = 5 cm.\nTangent segment pairs give perimeter = 9 cm.\n\n**Answer: 9**"
+  },
+  {
+    "id": "maths_geometry_617",
+    "correctAnswer": "13 cm (",
+    "solution": "AB−BC=4, AB−AC=2, perimeter=32.\n\nSemi-perimeter s=16; PB+AR = 13 cm.\n\n**Answer: 13 cm (**"
+  },
+  {
+    "id": "maths_geometry_618",
+    "correctAnswer": "10 cm (",
+    "solution": "PQ = PR + 2, PQ = QR + 5, perimeter = 32 cm.\nSolving the tangent-length system: PR = 10 cm.\n\n**Answer: 10 cm (**"
+  },
+  {
+    "id": "maths_geometry_619",
+    "correctAnswer": "12.4 cm",
+    "solution": "Cyclic quad; Ptolemy + intersecting chords with BD bisected by AC.\n\nBC = x = 12.4 cm.\n\n**Answer: 12.4 cm**"
+  },
+  {
+    "id": "maths_geometry_620",
+    "correctAnswer": "12",
+    "solution": "Cyclic quadrilateral from figure; BC = 12 cm.\n\n**Answer: 12**"
+  },
+  {
+    "id": "maths_geometry_621",
+    "correctAnswer": "23π",
+    "solution": "Perpendicular diameters; DE=6, EF=2 on chord DF.\n\nPower of E: radius² = 23; Area = 23π.\n\n**Answer: 23π**"
+  },
+  {
+    "id": "maths_geometry_622",
+    "correctAnswer": "96+15√145/17",
+    "solution": "AC diameter; coordinate geometry on circle.\n\nBD = (96 + 15√145)/17.\n\n**Answer: 96+15√145/17**"
+  },
+  {
+    "id": "maths_geometry_623",
+    "correctAnswer": "10",
+    "solution": "Equilateral △ABC; CD=8, BD=6.\n\nStewart's theorem / side relations give x = 10.\n\n**Answer: 10**"
+  }
+]

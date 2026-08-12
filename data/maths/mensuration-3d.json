@@ -2396,1346 +2396,1333 @@
   },
   {
     "id": "maths_mensuration_3d_189",
-    "question": "Mensuration 3d — Question 189 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The volumes of two spheres are in the ratio of 512 : 3375. The ratio of their surface areas is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "64:225",
+      "49:325",
+      "27:144",
+      "68:125"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "64:225",
+    "solution": "Volumes go as the cube of the radius: (r₁/r₂)³ = 512/3375, so r₁ : r₂ = 8 : 15.\nSurface areas go as the square of the radius: 8² : 15² = 64 : 225.\nAnswer: 64:225"
   },
   {
     "id": "maths_mensuration_3d_190",
-    "question": "Mensuration 3d — Question 190 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A sphere and a cube have equal surface areas. The ratio of the volume of the sphere to that of the cube is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√3 : √π",
+      "√6 : √π",
+      "√π : √8",
+      "√2 : √π"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "√6 : √π",
+    "solution": "Equal areas: 4πr² = 6a², so a = r√(2π/3).\nRatio = (4/3)πr³ ÷ r³(2π/3)^(3/2) = 2 ÷ √(2π/3) = √(6/π).\nAnswer: √6 : √π"
   },
   {
     "id": "maths_mensuration_3d_191",
-    "question": "Mensuration 3d — Question 191 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Find the surface area of the sphere whose radius is 112 cm and π = 22/7 (in cm²).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "177696",
+      "187696",
+      "157696",
+      "167696"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "157696",
+    "solution": "Surface area = 4πr² = 4 × (22/7) × 112².\n112²= 12544 and (22/7) × 12544 = 39424, so the area is 4 × 39424 = 157696 cm².\nAnswer: 157696"
   },
   {
     "id": "maths_mensuration_3d_192",
-    "question": "Mensuration 3d — Question 192 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The curved surface area of a sphere is 9856 cm². Find its diameter in m.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2.8",
+      "0.28",
+      "5.6",
+      "0.56"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "0.56",
+    "solution": "4 × (22/7) × r² = 9856 gives r² = 9856 × 7/88 = 784, so r = 28 cm.\nDiameter = 56 cm = 0.56 m.\nAnswer: 0.56"
   },
   {
     "id": "maths_mensuration_3d_193",
-    "question": "Mensuration 3d — Question 193 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The cost of painting a spherical vessel of radius 7 cm is ₹18,480. What is the cost of painting per square centimetre? (use π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹33",
+      "₹32",
+      "₹30",
+      "₹31"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "₹30",
+    "solution": "Surface area = 4 × (22/7) × 7² = 616 cm².\nRate = 18480/616 = ₹30 per cm².\nAnswer: ₹30"
   },
   {
     "id": "maths_mensuration_3d_194",
-    "question": "Mensuration 3d — Question 194 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The diameter of a sphere is 14.7 m. What will be the volume of the sphere?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1663.893 m³",
+      "1873.487 m³",
+      "1693.563 m³",
+      "1783.723 m³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1663.893 m³",
+    "solution": "r = 14.7/2 = 7.35 m, so r³ = 397.065375.\nV = (4/3)(22/7)(397.065375) = 88 × 397.065375 ÷ 21 = 1663.893 m³.\nAnswer: 1663.893 m³"
   },
   {
     "id": "maths_mensuration_3d_195",
-    "question": "Mensuration 3d — Question 195 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The volume of the hemisphere (to the nearest integer) with a radius of 5.5 cm is (use π = 3.14):",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "378 cm³",
+      "325 cm³",
+      "348 cm³",
+      "362 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "348 cm³",
+    "solution": "V = (2/3)πr³ = (2/3)(3.14)(166.375) = 348.3 cm³.\nRounded to the nearest integer this is 348 cm³.\nAnswer: 348 cm³"
   },
   {
     "id": "maths_mensuration_3d_196",
-    "question": "Mensuration 3d — Question 196 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "What will be the volume of a sphere with radius 65 cm? (approximately)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4.5 × 10⁶ cm³",
+      "6 × 10⁶ cm³",
+      "1.15 × 10⁶ cm³",
+      "2 × 10⁶ cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1.15 × 10⁶ cm³",
+    "solution": "V = (4/3)π(65)³ = (4/3)π(274625) ≈ 1150347 cm³.\nThat is about 1.15 × 10⁶ cm³.\nAnswer: 1.15 × 10⁶ cm³"
   },
   {
     "id": "maths_mensuration_3d_197",
-    "question": "Mensuration 3d — Question 197 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "What is the radius of a sphere having a volume of 38808 cm³?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "27 cm",
+      "21 cm",
+      "24 cm",
+      "18 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "21 cm",
+    "solution": "(4/3)(22/7)r³ = 38808 gives r³ = 38808 × 21/88 = 9261.\nr = ∛9261 = 21 cm.\nAnswer: 21 cm"
   },
   {
     "id": "maths_mensuration_3d_198",
-    "question": "Mensuration 3d — Question 198 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "If the volume of a sphere is 4851 cm³, then its surface area (in cm²) is: (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1323",
+      "2772",
+      "1337",
+      "1386"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1386",
+    "solution": "(88/21)r³ = 4851 gives r³ = 1157.625, so r = 10.5 cm.\nSurface area = 4 × (22/7) × 110.25 = 1386 cm².\nAnswer: 1386"
   },
   {
     "id": "maths_mensuration_3d_199",
-    "question": "Mensuration 3d — Question 199 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The surface area of a sphere is 2464 cm². Calculate its volume. (Use π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11598.67 cm³",
+      "11498.67 cm³",
+      "11488.67 cm³",
+      "11478.67 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "11498.67 cm³",
+    "solution": "4 × (22/7) × r² = 2464 gives r² = 196, so r = 14 cm.\nV = (4/3)(22/7)(2744) = 241472/21 = 11498.67 cm³.\nAnswer: 11498.67 cm³"
   },
   {
     "id": "maths_mensuration_3d_200",
-    "question": "Mensuration 3d — Question 200 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The cost of painting the surface of a large spherical ball at the rate of ₹2.40 per sq cm is ₹9240. What is the radius (in cm) of the ball? (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16.5",
+      "21",
+      "18.5",
+      "17.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "17.5",
+    "solution": "Painted area = 9240/2.40 = 3850 cm².\n4 × (22/7) × r² = 3850 gives r² = 306.25, so r = 17.5 cm.\nAnswer: 17.5"
   },
   {
     "id": "maths_mensuration_3d_201",
-    "question": "Mensuration 3d — Question 201 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "If the radius of a sphere is increased by 2 cm, its surface area increases by 704 cm². What was the radius of the sphere before the increase? (Use π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12 cm",
+      "11 cm",
+      "13 cm",
+      "14 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "13 cm",
+    "solution": "4π[(r + 2)² − r²] = 704 becomes (88/7)(4r + 4) = 704.\n4r + 4 = 56, so r = 13 cm.\nAnswer: 13 cm"
   },
   {
     "id": "maths_mensuration_3d_202",
-    "question": "Mensuration 3d — Question 202 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Three solid metallic spheres of radii 1 cm, 6 cm and 8 cm, respectively, are melted and recast into a single solid sphere. The radius of the new sphere so formed is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9.0 cm",
+      "5.9 cm",
+      "7.7 cm",
+      "8.5 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "9.0 cm",
+    "solution": "Volume adds, so R³ = 1³ + 6³ + 8³ = 1 + 216 + 512 = 729.\nR = 9.0 cm.\nAnswer: 9.0 cm"
   },
   {
     "id": "maths_mensuration_3d_203",
-    "question": "Mensuration 3d — Question 203 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A metallic solid spherical ball of radius 3 cm is melted and recast into three spherical balls. The radii of two of these balls are 2 cm and 1.5 cm. What is the surface area (in cm²) of the third ball?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25π/2",
+      "25π/4",
+      "50π",
+      "25π"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "25π",
+    "solution": "27 = 8 + 3.375 + r³ gives r³ = 15.625, so r = 2.5 cm.\nSurface area = 4π(2.5)² = 25π cm².\nAnswer: 25π"
   },
   {
     "id": "maths_mensuration_3d_204",
-    "question": "Mensuration 3d — Question 204 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The sum of the radii of two spheres is 10 cm and the sum of their volumes is 880 cm³. What will be the product of their radii?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25 2/3 cm²",
+      "26 1/3 cm²",
+      "33 1/3 cm²",
+      "27 1/3 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "26 1/3 cm²",
+    "solution": "(4/3)(22/7)(r₁³ + r₂³) = 880 gives r₁³ + r₂³ = 210.\n(r₁ + r₂)³ − 3r₁r₂(r₁ + r₂) = 210 becomes 1000 − 30r₁r₂ = 210.\nr₁r₂ = 790/30 = 26 1/3 cm²\nAnswer: 26 1/3 cm²"
   },
   {
     "id": "maths_mensuration_3d_205",
-    "question": "Mensuration 3d — Question 205 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Air is leaking from a spherical-shaped advertising balloon at the rate of 24 cubic feet per minute. If the radius of the balloon is 8 feet, how long would it take for the balloon to empty? Round your answer to the nearest minute. (Use π = 3.14)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "89 minutes",
+      "80 minutes",
+      "65 minutes",
+      "94 minutes"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "89 minutes",
+    "solution": "V = (4/3)(3.14)(512) = 2143.6 cubic feet.\nTime = 2143.6/24 = 89.3 minutes, i.e. 89 minutes to the nearest minute.\nAnswer: 89 minutes"
   },
   {
     "id": "maths_mensuration_3d_206",
-    "question": "Mensuration 3d — Question 206 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The length of the side of a cube is 5.6 cm. What is the volume of the largest sphere that can be taken out of the cube?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "91.98 cm³",
+      "99.96 cm³",
+      "96.98 cm³",
+      "90.69 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "91.98 cm³",
+    "solution": "The largest sphere has diameter equal to the edge, so r = 2.8 cm.\nV = (4/3)(22/7)(21.952) = 91.98 cm³.\nAnswer: 91.98 cm³"
   },
   {
     "id": "maths_mensuration_3d_207",
-    "question": "Mensuration 3d — Question 207 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The length of the largest possible rod that can be placed in a cubical room is 42√3 m. The surface area (in sq m) of the largest possible sphere that fits within the cubical room is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3590",
+      "4589",
+      "2564",
+      "5544"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "5544",
+    "solution": "The rod is the cube's diagonal: a√3 = 42√3, so a = 42 m.\nThe largest sphere has r = 21 m and area 4 × (22/7) × 441 = 5544 sq m.\nAnswer: 5544"
   },
   {
     "id": "maths_mensuration_3d_208",
-    "question": "Mensuration 3d — Question 208 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "There is a wooden sphere of radius 15√3 cm. The total surface area of the largest possible cube cut from the sphere will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "540 cm²",
+      "600 cm²",
+      "5400 cm²",
+      "900 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "5400 cm²",
+    "solution": "The cube's diagonal equals the sphere's diameter: a√3 = 30√3, so a = 30 cm.\nTSA = 6a² = 6 × 900 = 5400 cm².\nAnswer: 5400 cm²"
   },
   {
     "id": "maths_mensuration_3d_209",
-    "question": "Mensuration 3d — Question 209 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "What is the radius of the sphere passing through the corners of the cuboid with edges 8 cm, 12 cm and 24 cm?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10.5 cm",
+      "14 cm",
+      "21 cm",
+      "28 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "14 cm",
+    "solution": "The sphere's diameter is the cuboid's diagonal = √(64 + 144 + 576) = √784 = 28 cm.\nRadius = 14 cm.\nAnswer: 14 cm"
   },
   {
     "id": "maths_mensuration_3d_210",
-    "question": "Mensuration 3d — Question 210 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The ratio between the volume of a sphere and the volume of a circumscribing right circular cylinder is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1 : 1",
+      "2 : 1",
+      "1 : 2",
+      "2 : 3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2 : 3",
+    "solution": "The circumscribing cylinder has the same radius r and height 2r.\nRatio = (4/3)πr³ : 2πr³ = 2 : 3.\nAnswer: 2 : 3"
   },
   {
     "id": "maths_mensuration_3d_211",
-    "question": "Mensuration 3d — Question 211 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A metallic sphere of diameter 40 cm is melted into smaller spheres of radius 0.5 cm. How many such small balls can be made?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6400",
+      "64,000",
+      "32,000",
+      "3200"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "64,000",
+    "solution": "Big radius = 20 cm, so the count is (20/0.5)³ = 40³.\n40³ = 64000 balls.\nAnswer: 64,000"
   },
   {
     "id": "maths_mensuration_3d_212",
-    "question": "Mensuration 3d — Question 212 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A spherical ball of radius 35 cm is melted to form 8000 small balls of equal size. In this process the surface area of the solid is increased by:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1900%",
+      "19900%",
+      "190%",
+      "900%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1900%",
+    "solution": "8000r³ = 35³ gives r = 35/20 = 1.75 cm.\nNew area ÷ old area = 8000 × 1.75²/35² = 20, so the area becomes 20 times.\nIncrease = 19 times = 1900%.\nAnswer: 1900%"
   },
   {
     "id": "maths_mensuration_3d_213",
-    "question": "Mensuration 3d — Question 213 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "If 2744 identical small spheres are made out of a big sphere of radius 7 cm, then what is the surface area of each small sphere?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2π cm²",
+      "3π cm²",
+      "π cm²",
+      "4π cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "π cm²",
+    "solution": "2744r³ = 7³ and ∛2744 = 14, so r = 7/14 = 0.5 cm.\nSurface area = 4π(0.5)² = π cm².\nAnswer: π cm²"
   },
   {
     "id": "maths_mensuration_3d_214",
-    "question": "Mensuration 3d — Question 214 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The diameter of a solid sphere is 3 cm. It is melted and drawn into a wire of diameter 8 mm. The length of the wire is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25 1/4 cm",
+      "26 3/8 cm",
+      "28 1/8 cm",
+      "32 1/4 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "28 1/8 cm",
+    "solution": "Sphere volume = (4/3)π(1.5)³ = 4.5π cm³, and the wire radius is 0.4 cm.\nπ(0.4)²h = 4.5π gives h = 4.5/0.16 = 28.125 cm = 28 1/8 cm\nAnswer: 28 1/8 cm"
   },
   {
     "id": "maths_mensuration_3d_215",
-    "question": "Mensuration 3d — Question 215 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A solid metallic sphere of radius 8.4 cm is melted and recast into a right circular cylinder of radius 12 cm. What is the height of the cylinder?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6.5 cm",
+      "7.0 cm",
+      "5.5 cm",
+      "6.0 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "5.5 cm",
+    "solution": "(4/3)π(8.4)³ = π(12)²h gives 4 × 592.704 = 3 × 144h.\nh = 2370.816/432 = 5.488 ≈ 5.5 cm.\nAnswer: 5.5 cm"
   },
   {
     "id": "maths_mensuration_3d_216",
-    "question": "Mensuration 3d — Question 216 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A solid sphere of radius 3 cm is melted to form a hollow cylinder of height 4 cm and external diameter 10 cm. What is the thickness of the cylinder?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0.42 cm",
+      "0.46 cm",
+      "0.50 cm",
+      "1.00 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1.00 cm",
+    "solution": "Sphere volume = (4/3)π(27) = 36π cm³.\nπ(5² − r²)(4) = 36π gives 25 − r² = 9, so r = 4 cm.\nThickness = 5 − 4 = 1.00 cm.\nAnswer: 1.00 cm"
   },
   {
     "id": "maths_mensuration_3d_217",
-    "question": "Mensuration 3d — Question 217 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Two metallic right circular cones having their heights of 5.2 cm and 6 cm and the radii of their bases 2.8 cm each, have been melted together and recast into a sphere. The diameter of the sphere is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6.4 cm",
+      "5.0 cm",
+      "6.2 cm",
+      "5.6 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "5.6 cm",
+    "solution": "Cones together: (1/3)π(2.8)²(5.2 + 6) = (1/3)π(87.808).\n(4/3)πR³ = (1/3)π(87.808) gives R³ = 21.952, so R = 2.8 cm.\nDiameter = 5.6 cm.\nAnswer: 5.6 cm"
   },
   {
     "id": "maths_mensuration_3d_218",
-    "question": "Mensuration 3d — Question 218 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Some marbles, each of diameter 4.2 cm, are dropped into a cylindrical beaker containing some water and are fully submerged. The diameter of the beaker is 28 cm. Find how many marbles have been dropped in it if the water rises by 15.75 cm.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "225",
+      "275",
+      "250",
+      "290"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "250",
+    "solution": "Water displaced = π(14)²(15.75) = 3087π cm³.\nEach marble = (4/3)π(2.1)³ = 12.348π cm³.\nNumber = 3087/12.348 = 250.\nAnswer: 250"
   },
   {
     "id": "maths_mensuration_3d_219",
-    "question": "Mensuration 3d — Question 219 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The largest sphere is to be carved out of a right circular cylinder of radius 8 cm and height 16 cm. Find the volume of the sphere. (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2200.50 cm³",
+      "2321.63 cm³",
+      "2140.70 cm³",
+      "2145.52 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2145.52 cm³",
+    "solution": "The largest sphere takes the cylinder's radius, r = 8 cm (its diameter 16 cm equals the height).\nV = (4/3)(22/7)(512) = 45056/21 = 2145.52 cm³.\nAnswer: 2145.52 cm³"
   },
   {
     "id": "maths_mensuration_3d_220",
-    "question": "Mensuration 3d — Question 220 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A cylindrical can whose base is horizontal and is of internal radius 3.5 cm contains sufficient water so that when a solid sphere is placed inside it, the water just covers the sphere. The sphere fits in the can exactly. What was the depth (in cm) of water in the can before the sphere was put in?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25/3",
+      "17/3",
+      "7/3",
+      "14/3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "7/3",
+    "solution": "The sphere fits exactly, so r = 3.5 cm and the water finally stands at 2r = 7 cm.\nWater volume = π(3.5)²(7) − (4/3)π(3.5)³ = 85.75π − 57.1667π = 28.5833π.\nDepth before = 28.5833π ÷ 12.25π = 7/3 cm.\nAnswer: 7/3"
   },
   {
     "id": "maths_mensuration_3d_221",
-    "question": "Mensuration 3d — Question 221 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The inner and outer radii of a hollow metal cylinder are 1.1 cm and 4.3 cm respectively, and its height is 16 2/3 cm. It is melted and made into a sphere. What will be the surface area (in cm²) of the sphere?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "196π",
+      "100π",
+      "256π",
+      "144π"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "144π",
+    "solution": "Metal volume = π(4.3² − 1.1²)(50/3) = π(17.28)(50/3) = 288π cm³.\n(4/3)πR³ = 288π gives R³ = 216, so R = 6 cm.\nSurface area = 4π(36) = 144π\nAnswer: 144π"
   },
   {
     "id": "maths_mensuration_3d_222",
-    "question": "Mensuration 3d — Question 222 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A hollow metal sphere of internal and external radii 5 cm and 6 cm, respectively, is melted into a solid cone of base radius 5.2 cm. What is the height (in cm, rounded off to 1 decimal place) of the cone?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11.8",
+      "12.8",
+      "13.5",
+      "14.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "13.5",
+    "solution": "Shell volume = (4/3)π(6³ − 5³) = (4/3)π(91).\n(1/3)π(5.2)²h = (4/3)π(91) gives h = 4 × 91/27.04 = 13.46.\nRounded to one decimal place, h = 13.5\nAnswer: 13.5"
   },
   {
     "id": "maths_mensuration_3d_223",
-    "question": "Mensuration 3d — Question 223 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A hollow spherical shell is made of a metal of density 36 g/cm³. Its internal and external radii are 9 cm and 11 cm, respectively. What is the weight (in kg) of the shell? (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "92.52",
+      "90.816",
+      "87.816",
+      "92.75"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "90.816",
+    "solution": "Volume = (4/3)(22/7)(11³ − 9³) = (88/21)(602) = 2522.667 cm³.\nWeight = 2522.667 × 36 = 90816 g = 90.816 kg.\nAnswer: 90.816"
   },
   {
     "id": "maths_mensuration_3d_224",
-    "question": "Mensuration 3d — Question 224 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A spherical metallic shell with 6 cm external radius weighs 6688 g. What is the thickness of the shell if the density of the metal is 10.5 g per cm³? (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2 cm",
+      "3 cm",
+      "2 1/2 cm",
+      "4 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2 cm",
+    "solution": "Metal volume = 6688/10.5 = 636.95 cm³.\n(88/21)(216 − r³) = 636.95 gives 216 − r³ = 152, so r = 4 cm.\nThickness = 6 − 4 = 2 cm.\nAnswer: 2 cm"
   },
   {
     "id": "maths_mensuration_3d_225",
-    "question": "Mensuration 3d — Question 225 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A solid rubber sphere weighs 40 kg when its diameter is 8 cm. Using the same material, a hollow sphere is made with an outer diameter of 16 cm and inner diameter of 12 cm. What is its weight?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "80 kg",
+      "240 kg",
+      "185 kg",
+      "120 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "185 kg",
+    "solution": "Weight is proportional to volume, i.e. to the cube of the radius.\nSolid: 4³ = 64 corresponds to 40 kg; hollow: 8³ − 6³ = 296.\nWeight = 40 × 296/64 = 185 kg.\nAnswer: 185 kg"
   },
   {
     "id": "maths_mensuration_3d_226",
-    "question": "Mensuration 3d — Question 226 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The total surface area of a solid hemisphere is 166.32 sq cm. Find its curved surface area.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "55.44 sq cm",
+      "110.88 sq cm",
+      "221.76 sq cm",
+      "196.96 sq cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "110.88 sq cm",
+    "solution": "TSA = 3πr² while CSA = 2πr², so CSA is two-thirds of the TSA.\nCSA = (2/3) × 166.32 = 110.88 sq cm.\nAnswer: 110.88 sq cm"
   },
   {
     "id": "maths_mensuration_3d_227",
-    "question": "Mensuration 3d — Question 227 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Find the total surface area of the hemisphere whose radius is 27 cm and π = 3.14.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6567.18",
+      "6667.18",
+      "6867.18",
+      "6767.18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "6867.18",
+    "solution": "TSA = 3πr² = 3 × 3.14 × 729.\n3 × 3.14 = 9.42 and 9.42 × 729 = 6867.18 cm².\nAnswer: 6867.18"
   },
   {
     "id": "maths_mensuration_3d_228",
-    "question": "Mensuration 3d — Question 228 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A hemispherical bowl has radius 7.7 cm. It is to be painted from inside as well as outside. Find the cost of painting (in ₹) the bowl at ₹17 per 7 cm². (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1810.16",
+      "745.36",
+      "1025.24",
+      "1620.35"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1810.16",
+    "solution": "Painted area = 2 × 2πr² = 4 × (22/7) × 59.29 = 745.36 cm².\nCost = (745.36/7) × 17 = 106.48 × 17 = ₹1810.16.\nAnswer: 1810.16"
   },
   {
     "id": "maths_mensuration_3d_229",
-    "question": "Mensuration 3d — Question 229 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "If the diameter of a hemisphere is 63 cm, then what is the volume of the hemisphere?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "72654.5 cm³",
+      "61324.5 cm³",
+      "65488.5 cm³",
+      "69246.5 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "65488.5 cm³",
+    "solution": "r = 31.5 cm, so r³ = 31255.875.\nV = (2/3)(22/7)(31255.875) = (44/21)(31255.875) = 65488.5 cm³.\nAnswer: 65488.5 cm³"
   },
   {
     "id": "maths_mensuration_3d_230",
-    "question": "Mensuration 3d — Question 230 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The volume of a hemisphere is 2425 1/2 cm³. Find its radius. (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10 cm",
+      "9.5 cm",
+      "12 cm",
+      "10.5 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "10.5 cm",
+    "solution": "(2/3)(22/7)r³ = 2425.5 gives r³ = 2425.5 × 21/44 = 1157.625.\nr = ∛1157.625 = 10.5 cm.\nAnswer: 10.5 cm"
   },
   {
     "id": "maths_mensuration_3d_231",
-    "question": "Mensuration 3d — Question 231 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "How many litres of water can a hemispherical bowl of diameter 21 m hold? (1 m³ = 1000 L)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2100000 L",
+      "2425500 L",
+      "2322500 L",
+      "2250500 L"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2425500 L",
+    "solution": "r = 10.5 m, so V = (2/3)(22/7)(1157.625) = 2425.5 m³.\n2425.5 × 1000 = 2425500 litres.\nAnswer: 2425500 L"
   },
   {
     "id": "maths_mensuration_3d_232",
-    "question": "Mensuration 3d — Question 232 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The volume of a solid hemisphere is 19,404 cm³. Its total surface area (in cm²) is: (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2079",
+      "3465",
+      "2772",
+      "4158"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "4158",
+    "solution": "(44/21)r³ = 19404 gives r³ = 9261, so r = 21 cm.\nTSA = 3πr² = 3 × (22/7) × 441 = 4158 cm².\nAnswer: 4158"
   },
   {
     "id": "maths_mensuration_3d_233",
-    "question": "Mensuration 3d — Question 233 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The total surface area of a solid hemisphere is 1039.5 cm². The volume of the hemisphere is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2225.5",
+      "2530.6",
+      "2425.5",
+      "2525.6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2425.5",
+    "solution": "3 × (22/7) × r² = 1039.5 gives r² = 110.25, so r = 10.5 cm.\nV = (2/3)(22/7)(1157.625) = 2425.5 cm³.\nAnswer: 2425.5"
   },
   {
     "id": "maths_mensuration_3d_234",
-    "question": "Mensuration 3d — Question 234 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A hemispherical solid of radius 21 cm is melted and made into a cylinder whose height is 14 cm. The volume of the cylinder is given by (a × bᵃ × c^b)π where a, b and c are prime. Then the value of (a + b)c is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "66",
+      "42",
+      "54",
+      "35"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "35",
+    "solution": "Hemisphere volume = (2/3)π(9261) = 6174π, so π R²(14) = 6174π and R = 21 cm.\n6174 = 2 × 3² × 7³, which matches a × bᵃ × c^b with a = 2, b = 3, c = 7.\n(a + b)c = 5 × 7 = 35.\nAnswer: 35"
   },
   {
     "id": "maths_mensuration_3d_235",
-    "question": "Mensuration 3d — Question 235 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "20 identical solid hemispheres of radius 3 cm are melted to form a big solid hemisphere. What is the radius (in cm) of the biggest hemisphere formed, if 20% of the solid is wasted during the process?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3√2",
+      "6",
+      "6∛2",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "6∛2",
+    "solution": "Usable volume = 0.8 × 20 × (2/3)π(27) = (2/3)π(432).\nR³ = 432 = 216 × 2, so R = 6∛2 cm.\nAnswer: 6∛2"
   },
   {
     "id": "maths_mensuration_3d_236",
-    "question": "Mensuration 3d — Question 236 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Three toys are in the shape of a cylinder, a hemisphere and a cone. The three toys have the same base. The height of each toy is 2√2 cm. What is the ratio of the total surface areas of the cylinder, hemisphere and cone respectively?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4:3:(√2+1)",
+      "4:3:(2+√2)",
+      "2:1:(1+√2)",
+      "4:3:2√2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "4:3:(√2+1)",
+    "solution": "A hemisphere's height is its radius, so r = 2√2 cm and every height is 2√2 cm.\nCylinder TSA = 2πr(h + r) = 32π; hemisphere TSA = 3πr² = 24π.\nCone: l = √(8 + 8) = 4, so TSA = πr(l + r) = 8π(√2 + 1).\nRatio = 32 : 24 : 8(√2 + 1) = 4:3:(√2+1)"
   },
   {
     "id": "maths_mensuration_3d_237",
-    "question": "Mensuration 3d — Question 237 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A hemispherical tank full of water is emptied by a pipe at the rate of 7.7 litres per second. How much time (in hours) will it take to empty 2/3 part of the tank, if the internal radius of the tank is 10.5 m?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "185/6",
+      "175/3",
+      "185/3",
+      "175/2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "175/3",
+    "solution": "Tank volume = (2/3)(22/7)(1157.625) = 2425.5 m³ = 2425500 litres.\nTwo-thirds of it is 1617000 litres, emptied in 1617000/7.7 = 210000 seconds.\n210000/3600 = 175/3 hours.\nAnswer: 175/3"
   },
   {
     "id": "maths_mensuration_3d_238",
-    "question": "Mensuration 3d — Question 238 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A hemispherical bowl is made of 1 cm thick steel. The inside radius of the bowl is 4 cm. The volume of the steel (in cm³) used in making the bowl is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "41 4/3 π",
+      "27 1/3 π",
+      "35 1/3 π",
+      "40 2/3 π"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "40 2/3 π",
+    "solution": "Outer radius = 4 + 1 = 5 cm.\nSteel volume = (2/3)π(5³ − 4³) = (2/3)π(61) = 122π/3.\n122/3 = 40 2/3, so the volume is 40 2/3 π"
   },
   {
     "id": "maths_mensuration_3d_239",
-    "question": "Mensuration 3d — Question 239 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The internal and external radii of a hollow hemispherical vessel are 6 cm and 7 cm respectively. What is the total surface area (in cm²) of the vessel?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "177π",
+      "174π",
+      "183π",
+      "189π"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "183π",
+    "solution": "TSA = outer curved + inner curved + rim = 2πR² + 2πr² + π(R² − r²).\n= 2π(49) + 2π(36) + π(13) = 98π + 72π + 13π.\nTotal = 183π"
   },
   {
     "id": "maths_mensuration_3d_240",
-    "question": "Mensuration 3d — Question 240 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A metallic hemispherical bowl is made up of steel. The total steel used in making the bowl is 342π cm³. The bowl can hold 144π cm³ of water. What is the thickness (in cm) of the bowl and the curved surface area (in cm²) of the outer side?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6, 162π",
+      "3, 162π",
+      "6, 81π",
+      "3, 81π"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "3, 162π",
+    "solution": "(2/3)πr³ = 144π gives r³ = 216, so the inner radius is 6 cm.\n(2/3)π(R³ − 216) = 342π gives R³ = 729, so R = 9 cm and the thickness is 3 cm.\nOuter CSA = 2π(81) = 162π, so the pair is 3, 162π"
   },
   {
     "id": "maths_mensuration_3d_241",
-    "question": "Mensuration 3d — Question 241 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The internal and external diameters of a hollow hemispherical vessel are 28 cm and 32 cm, respectively. The cost incurred to paint 1 sq cm of the vessel surface is ₹2.50. Find the total cost incurred to paint the vessel all over, correct to two decimals.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs 7,574.28",
+      "Rs 7,745.28",
+      "Rs 5774.28",
+      "Rs 7547.28"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "Rs 7,574.28",
+    "solution": "r = 14 cm and R = 16 cm.\nPainted area = 2πR² + 2πr² + π(R² − r²) = π(512 + 392 + 60) = 964π = 3029.71 cm².\nCost = 3029.71 × 2.50 = Rs 7,574.28"
   },
   {
     "id": "maths_mensuration_3d_242",
-    "question": "Mensuration 3d — Question 242 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A solid cone of base radius 7 cm and height 18 cm is melted and recast into a hollow metal hemisphere of internal and external radii 20 cm and R cm, respectively. What is the value of R (in cm)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "∛8144",
+      "∛8441",
+      "∛8448",
+      "∛8568"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "∛8441",
+    "solution": "Cone volume = (1/3)π(49)(18) = 294π cm³.\n(2/3)π(R³ − 8000) = 294π gives R³ − 8000 = 441, so R³ = 8441.\nAnswer: ∛8441"
   },
   {
     "id": "maths_mensuration_3d_243",
-    "question": "Mensuration 3d — Question 243 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A toy is in the form of a cone mounted on a hemisphere. The radius of the hemisphere and that of the cone is 36 cm and the height of the cone is 105 cm. The total surface area (in cm²) of the toy is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6588 π",
+      "5240 π",
+      "6025 π",
+      "5799 π"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "6588 π",
+    "solution": "Slant height = √(36² + 105²) = √12321 = 111 cm.\nTSA = πrl + 2πr² = π(36)(111) + 2π(1296) = 3996π + 2592π.\nTotal = 6588 π"
   },
   {
     "id": "maths_mensuration_3d_244",
-    "question": "Mensuration 3d — Question 244 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "To make a toy, a hemisphere is attached to one end of a cylinder and a cone is attached to the other end of the cylinder. The common radius of the cylinder, cone and hemisphere is 4.2 cm. The height of the cylinder and the height of the cone are 7 cm each. Find the volume (in cubic cm) of the toy.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "863.25",
+      "358.8",
+      "672.672",
+      "762.255"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "672.672",
+    "solution": "Volume = (2/3)πr³ + πr²h + (1/3)πr²h with r = 4.2 cm and h = 7 cm.\n= π(49.392 + 123.48 + 41.16) = 214.032π.\n214.032 × 22/7 = 672.672"
   },
   {
     "id": "maths_mensuration_3d_245",
-    "question": "Mensuration 3d — Question 245 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The radius of the base of a solid cylinder is 7 cm and its height is 21 cm. It is melted and converted into small bullets of the same size. Each bullet consists of two parts, a cylinder and a hemisphere on one of its bases. The total height of a bullet is 3.5 cm and the radius of its base is 2.1 cm. Approximately how many complete bullets can be obtained?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "83",
+      "89",
+      "74",
+      "79"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "83",
+    "solution": "Cylinder volume = π(49)(21) = 1029π cm³.\nBullet = π(2.1)²(3.5 − 2.1) + (2/3)π(2.1)³ = 6.174π + 6.174π = 12.348π.\n1029/12.348 = 83.3, so only 83 complete bullets are possible.\nAnswer: 83"
   },
   {
     "id": "maths_mensuration_3d_246",
-    "question": "Mensuration 3d — Question 246 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A solid top is in the form of a cone surmounted by a hemisphere. If the volume of the solid is 2816 cubic cm and the radius of the hemispherical part is 8 cm, then the height of the top is: (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "26 cm",
+      "50 cm",
+      "34 cm",
+      "42 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "34 cm",
+    "solution": "(1/3)π(64)h + (2/3)π(512) = 2816 gives (22/21)(64h + 1024) = 2816.\n64h + 1024 = 2688, so the cone's height is h = 26 cm.\nTotal height = 26 + 8 = 34 cm"
   },
   {
     "id": "maths_mensuration_3d_247",
-    "question": "Mensuration 3d — Question 247 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A medicine capsule is shaped like a cylinder with two hemispheres attached to each of its ends. The length of the entire capsule is 15 mm, and its diameter is 6 mm. Calculate the surface area (in sq mm) of the capsule. (Take π = 22/7)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "286",
+      "283",
+      "280",
+      "289"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "283",
+    "solution": "r = 3 mm, so the cylindrical part is 15 − 6 = 9 mm long.\nSurface area = 2πrh + 4πr² = 54π + 36π = 90π = 282.86 sq mm.\nTo the nearest whole number this is 283"
   },
   {
     "id": "maths_mensuration_3d_248",
-    "question": "Mensuration 3d — Question 248 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The inside of a bowl is part of a sphere. When water is put into the bowl to a depth d, the water surface becomes a circle of radius 2d. What is the radius of the sphere?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2.5d",
+      "2.75d",
+      "3d",
+      "3.25 d"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2.5d",
+    "solution": "From the centre, R² = (2d)² + (R − d)².\nR² = 4d² + R² − 2Rd + d² gives 2Rd = 5d², so R = 2.5d"
   },
   {
     "id": "maths_mensuration_3d_249",
-    "question": "Mensuration 3d — Question 249 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base area, height and volume of a prism are (3√3/2)p² cm², 100√3 cm and 7200 cm³ respectively. Then find the value of p.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√3",
+      "3/2",
+      "2/√3",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "4",
+    "solution": "Volume = base area × height: (3√3/2)p² × 100√3 = 7200.\n√3 × √3 = 3, so (3 × 3/2)(100)p² = 450p² = 7200 and p² = 16.\nAnswer: 4"
   },
   {
     "id": "maths_mensuration_3d_250",
-    "question": "Mensuration 3d — Question 250 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A right prism has a triangular base with sides 13 cm, 20 cm and 21 cm. If the height of the prism is 9 cm, then find the volume of the prism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1314 cm³",
+      "1134 cm³",
+      "1413 cm³",
+      "1143 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1134 cm³",
+    "solution": "s = (13 + 20 + 21)/2 = 27, so the base area is √(27 × 14 × 7 × 6) = 126 cm².\nVolume = 126 × 9 = 1134 cm³"
   },
   {
     "id": "maths_mensuration_3d_251",
-    "question": "Mensuration 3d — Question 251 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a prism is a triangle with sides 4 cm, 13 cm and 15 cm. If the volume of the right triangular prism is 480 cm³, then find the total surface area of the prism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "688 cm²",
+      "568 cm²",
+      "752 cm²",
+      "664 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "688 cm²",
+    "solution": "s = 16, so the base area is √(16 × 12 × 3 × 1) = 24 cm² and the height is 480/24 = 20 cm.\nTSA = 2(24) + (4 + 13 + 15)(20) = 48 + 640 = 688 cm²"
   },
   {
     "id": "maths_mensuration_3d_252",
-    "question": "Mensuration 3d — Question 252 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is a triangle of perimeter 90 cm and its inradius is 4 cm. If the volume of the prism is 1200 cm³, then find its total surface area.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "840",
+      "960",
+      "1200",
+      "900"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "960",
+    "solution": "Base area = r × s = 4 × 45 = 180 cm², so the height is 1200/180 = 20/3 cm.\nTSA = 2(180) + 90(20/3) = 360 + 600 = 960"
   },
   {
     "id": "maths_mensuration_3d_253",
-    "question": "Mensuration 3d — Question 253 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is a triangle with sides 16 cm, 30 cm and 34 cm. Its height is 32 cm. The lateral surface area (in cm²) and the volume (in cm³) are, respectively:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2688 and 7680",
+      "2624 and 7040",
+      "2560 and 6400",
+      "2560 and 7680"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2560 and 7680",
+    "solution": "16² + 30² = 34², so the base is right angled with area (1/2)(16)(30) = 240 cm².\nLSA = perimeter × height = 80 × 32 = 2560 cm² and volume = 240 × 32 = 7680 cm³.\nAnswer: 2560 and 7680"
   },
   {
     "id": "maths_mensuration_3d_254",
-    "question": "Mensuration 3d — Question 254 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is a triangle with sides 20 cm, 21 cm and 29 cm. If its volume is 7560 cm³, then its lateral surface area (in cm²) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2520",
+      "2448",
+      "2556",
+      "2484"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2520",
+    "solution": "20² + 21² = 29², so the base area is (1/2)(20)(21) = 210 cm² and the height is 7560/210 = 36 cm.\nLSA = 70 × 36 = 2520"
   },
   {
     "id": "maths_mensuration_3d_255",
-    "question": "Mensuration 3d — Question 255 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is an equilateral triangle whose side is 10 cm. If the height of this prism is 10√3 cm, then what is its total surface area?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "150√3 cm²",
+      "125√3 cm²",
+      "350√3 cm²",
+      "325√3 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "350√3 cm²",
+    "solution": "Each base has area (√3/4)(100) = 25√3 cm².\nTSA = 2(25√3) + 3(10)(10√3) = 50√3 + 300√3 = 350√3 cm²"
   },
   {
     "id": "maths_mensuration_3d_256",
-    "question": "Mensuration 3d — Question 256 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is an equilateral triangle with each side measuring 4 cm. If the lateral surface area is 120 cm², find the volume (in cm³) of the prism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30√3",
+      "40√3",
+      "10√3",
+      "20√3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "40√3",
+    "solution": "LSA = perimeter × height: 12h = 120, so h = 10 cm.\nVolume = (√3/4)(16)(10) = 40√3"
   },
   {
     "id": "maths_mensuration_3d_257",
-    "question": "Mensuration 3d — Question 257 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The total surface area of a triangular prism of height 6 cm is 162√3 cm². If the base of the prism is an equilateral triangle, find its volume.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "162√3 cm³",
+      "180√3",
+      "216√3",
+      "144√3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "162√3 cm³",
+    "solution": "2(√3/4)a² + 3a(6) = 162√3 is satisfied by a = 6√3, since 54√3 + 108√3 = 162√3.\nVolume = (√3/4)(108)(6) = 162√3 cm³"
   },
   {
     "id": "maths_mensuration_3d_258",
-    "question": "Mensuration 3d — Question 258 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Let ABCDEF be a prism whose base is a right triangle whose perpendicular sides are 9 cm and 12 cm. If the cost of painting the prism is ₹151.20 at the rate of 20 paise/cm², then find the height of the prism.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "17 cm",
+      "15 cm",
+      "16 cm",
+      "18 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "18 cm",
+    "solution": "Painted area = 151.20/0.20 = 756 cm²; the base area is 54 cm² and the perimeter is 9 + 12 + 15 = 36 cm.\n2(54) + 36h = 756 gives 36h = 648, so h = 18 cm"
   },
   {
     "id": "maths_mensuration_3d_259",
-    "question": "Mensuration 3d — Question 259 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is an equilateral triangle. If the lateral surface area and volume are 120 cm² and 40√3 cm³ respectively, then the side of the base of the prism is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4cm",
+      "5cm",
+      "6cm",
+      "3cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "4cm",
+    "solution": "LSA gives 3ah = 120, i.e. ah = 40; volume gives (√3/4)a²h = 40√3, i.e. a²h = 160.\nDividing the two, a = 160/40 = 4cm"
   },
   {
     "id": "maths_mensuration_3d_260",
-    "question": "Mensuration 3d — Question 260 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a solid right prism of height 10 cm is a square and its volume is 160 cm³. What is the total surface area of the prism (in cm²)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "200",
+      "192",
+      "180",
+      "176"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "192",
+    "solution": "Base area = 160/10 = 16 cm², so the square's side is 4 cm.\nTSA = 2(16) + 4(4)(10) = 32 + 160 = 192"
   },
   {
     "id": "maths_mensuration_3d_261",
-    "question": "Mensuration 3d — Question 261 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is a square having a side of 15 cm. If its height is 8 cm, then find the total surface area.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "920 cm²",
+      "930 cm²",
+      "900 cm²",
+      "940 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "930 cm²",
+    "solution": "TSA = 2a² + 4ah = 2(225) + 4(15)(8).\n= 450 + 480 = 930 cm²"
   },
   {
     "id": "maths_mensuration_3d_262",
-    "question": "Mensuration 3d — Question 262 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The height of a right prism with a square base is 15 cm. If the area of the total surface of the prism is 608 sq cm, its volume is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "910",
+      "920",
+      "960",
+      "980"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "960",
+    "solution": "2a² + 4a(15) = 608 gives a² + 30a − 304 = 0, so a = 8 cm.\nVolume = 64 × 15 = 960"
   },
   {
     "id": "maths_mensuration_3d_263",
-    "question": "Mensuration 3d — Question 263 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A prism has a square base whose side is 8 cm. The height of the prism is 80 cm. The prism is cut into 10 identical parts by 9 cuts which are parallel to the base of the prism. What is the total surface area (in cm²) of all the 10 parts together?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4260",
+      "2560",
+      "3840",
+      "3220"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "3840",
+    "solution": "Original TSA = 2(64) + 4(8)(80) = 128 + 2560 = 2688 cm².\nEach cut exposes two fresh 64 cm² faces, so 9 cuts add 9 × 128 = 1152 cm².\nTotal = 2688 + 1152 = 3840"
   },
   {
     "id": "maths_mensuration_3d_264",
-    "question": "Mensuration 3d — Question 264 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is a rectangle in which the ratio of length to breadth is 3 : 2. If the height of the prism is 12 cm and the total surface area is 288 cm², then what is the volume of the prism?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "291 cm³",
+      "288 cm³",
+      "290 cm³",
+      "286 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "288 cm³",
+    "solution": "With sides 3x and 2x: 2(6x²) + 2(5x)(12) = 288, i.e. x² + 10x − 24 = 0, so x = 2.\nThe base is 6 cm by 4 cm, so the volume is 6 × 4 × 12 = 288 cm³"
   },
   {
     "id": "maths_mensuration_3d_265",
-    "question": "Mensuration 3d — Question 265 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is a trapezium whose parallel sides are 11 cm and 15 cm and the distance between them is 9 cm. If the volume of the prism is 1731.6 cm³, then the height (in cm) of the prism will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15.2",
+      "14.2",
+      "15.6",
+      "14.8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "14.8",
+    "solution": "Base area = (1/2)(11 + 15)(9) = 117 cm².\nHeight = 1731.6/117 = 14.8"
   },
   {
     "id": "maths_mensuration_3d_266",
-    "question": "Mensuration 3d — Question 266 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right prism is a quadrilateral ABCD, given that AB = 9 cm, BC = 14 cm, CD = 13 cm, DA = 12 cm and ∠DAB = 90°. If the volume of the prism is 2070 cm³, then the area of the lateral surface is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "720 cm²",
+      "810 cm²",
+      "1260 cm²",
+      "2070 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "720 cm²",
+    "solution": "BD = √(9² + 12²) = 15 cm, so area(ABD) = 54 cm²; triangle BCD with sides 13, 14, 15 has area 84 cm².\nBase area = 138 cm², so the height is 2070/138 = 15 cm.\nLSA = (9 + 14 + 13 + 12)(15) = 720 cm²"
   },
   {
     "id": "maths_mensuration_3d_267",
-    "question": "Mensuration 3d — Question 267 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A prism and a pyramid have the same base and the same height. Find the ratio of the volume of the prism and the pyramid.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2:3",
+      "3:1",
+      "1:3",
+      "3:2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "3:1",
+    "solution": "A pyramid holds one-third of the prism built on the same base with the same height.\nPrism : pyramid = 1 : (1/3) = 3:1"
   },
   {
     "id": "maths_mensuration_3d_268",
-    "question": "Mensuration 3d — Question 268 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The volume of a right pyramid is 45√3 cm³ and its base is an equilateral triangle with side 6 cm. What is the height (in cm) of the pyramid?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20",
+      "15",
+      "12",
+      "18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "15",
+    "solution": "Base area = (√3/4)(36) = 9√3 cm².\n(1/3)(9√3)h = 45√3 gives 3√3h = 45√3, so h = 15"
   },
   {
     "id": "maths_mensuration_3d_269",
-    "question": "Mensuration 3d — Question 269 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right pyramid is an equilateral triangle with side 8 cm, and its height is 30√3 cm. The volume (in cm³) of the pyramid is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "480",
+      "360√3",
+      "360",
+      "240√3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "480",
+    "solution": "Base area = (√3/4)(64) = 16√3 cm².\nV = (1/3)(16√3)(30√3) = (1/3)(16 × 30 × 3) = 480"
   },
   {
     "id": "maths_mensuration_3d_270",
-    "question": "Mensuration 3d — Question 270 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Find the volume of a pyramid whose base is an equilateral triangle of side 16√3 cm and whose slant height is 3 times its height.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "128√6 cm²",
+      "128√3",
+      "256√3",
+      "256√2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "128√6 cm²",
+    "solution": "The inradius of the base is 16√3/(2√3) = 8 cm, and the face slant height satisfies l² = h² + 8².\nWith l = 3h: 9h² = h² + 64, so h² = 8 and h = 2√2 cm.\nV = (1/3)(√3/4)(768)(2√2) = (1/3)(192√3)(2√2) = 128√6 cm²"
   },
   {
     "id": "maths_mensuration_3d_271",
-    "question": "Mensuration 3d — Question 271 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right pyramid is an equilateral triangle of side 10√3 cm. If the total surface area of the pyramid is 270√3 sq cm, its height is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12√3cm",
+      "10cm",
+      "12cm",
+      "10√3cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "12cm",
+    "solution": "Base area = (√3/4)(300) = 75√3, so the lateral surface is 270√3 − 75√3 = 195√3.\n(1/2)(30√3)l = 195√3 gives the face slant height l = 13 cm, and the inradius is 10√3/(2√3) = 5 cm.\nh = √(169 − 25) = 12cm"
   },
   {
     "id": "maths_mensuration_3d_272",
-    "question": "Mensuration 3d — Question 272 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right pyramid is an equilateral triangle, each side of which is 20 cm. Each slant edge is 30 cm. The vertical height (in cm) of the pyramid is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5√3",
+      "10√3",
+      "5√(23/3)",
+      "10√(23/3)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "10√(23/3)",
+    "solution": "The base's circumradius is 20/√3, and the slant edge reaches a vertex.\nh = √(30² − 400/3) = √(2300/3) = 10√(23/3)"
   },
   {
     "id": "maths_mensuration_3d_273",
-    "question": "Mensuration 3d — Question 273 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a pyramid is an equilateral triangle whose each side is 8 cm. Its slant edge is 24 cm. What is the total surface area of the pyramid?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "(24√3 + 36√35) cm²",
+      "(16√3 + 48√35) cm²",
+      "(16√3 + 24√35) cm²",
+      "(12√3 + 24√35) cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "(16√3 + 48√35) cm²",
+    "solution": "Base area = (√3/4)(64) = 16√3 cm².\nEach lateral face has base 8 and equal sides 24, so its height is √(576 − 16) = 4√35 and its area is 16√35.\nTSA = 16√3 + 3(16√35) = (16√3 + 48√35) cm²"
   },
   {
     "id": "maths_mensuration_3d_274",
-    "question": "Mensuration 3d — Question 274 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right pyramid is an equilateral triangle with area 16√3 cm². If the area of one of its lateral faces is 30 cm², then its height (in cm) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√(739/12)",
+      "√(611/12)",
+      "√(209/12)",
+      "√(643/12)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "√(611/12)",
+    "solution": "(√3/4)a² = 16√3 gives a = 8 cm, and (1/2)(8)l = 30 gives the face slant height l = 7.5 cm.\nThe inradius is 4/√3, so h² = 56.25 − 16/3 = 611/12.\nAnswer: √(611/12)"
   },
   {
     "id": "maths_mensuration_3d_275",
-    "question": "Mensuration 3d — Question 275 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right pyramid is an equilateral triangle of side 4 cm. The height of the pyramid is half of its slant height. Find the length of a slant edge and the volume of the pyramid.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2√13/3 cm & 8√3/9 cm³",
+      "4√13/3 cm & 12√3/5 cm³",
+      "5√13/3 cm & 10√3/9 cm³",
+      "None"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2√13/3 cm & 8√3/9 cm³",
+    "solution": "The inradius is 2/√3, so l² = h² + 4/3 with h = l/2 gives (3/4)l² = 4/3, l = 4/3 and h = 2/3 cm.\nThe circumradius is 4/√3, so the slant edge is √(4/9 + 16/3) = 2√13/3 cm.\nVolume = (1/3)(4√3)(2/3) = 8√3/9 cm³, i.e. 2√13/3 cm & 8√3/9 cm³"
   },
   {
     "id": "maths_mensuration_3d_276",
-    "question": "Mensuration 3d — Question 276 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The height of a pyramid is 6 m and the base of the pyramid is a square whose diagonal is √1152 m. Find the volume of the pyramid.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "144",
+      "288",
+      "576",
+      "1152"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1152",
+    "solution": "For a square, diagonal² = 2a², so a² = 1152/2 = 576 m².\nV = (1/3)(576)(6) = 1152"
   },
   {
     "id": "maths_mensuration_3d_277",
-    "question": "Mensuration 3d — Question 277 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "What is the total surface area of a pyramid whose base is a square of side 8 cm and the height of the pyramid is 3 cm?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "121 cm²",
+      "144 cm²",
+      "169 cm²",
+      "184 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "144 cm²",
+    "solution": "The apothem of the base is 4 cm, so the face slant height is √(3² + 4²) = 5 cm.\nTSA = 64 + (1/2)(32)(5) = 64 + 80 = 144 cm²"
   },
   {
     "id": "maths_mensuration_3d_278",
-    "question": "Mensuration 3d — Question 278 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a right pyramid is a square whose diagonal is 20 cm. The height of the pyramid is 20 cm. The lateral surface area of the pyramid is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "450 cm²",
+      "500 cm²",
+      "600 cm²",
+      "720 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "600 cm²",
+    "solution": "Side = 20/√2 = 10√2 cm, so the apothem is 5√2 cm and the face slant height is √(400 + 50) = 15√2 cm.\nLSA = (1/2)(40√2)(15√2) = 600 cm²"
   },
   {
     "id": "maths_mensuration_3d_279",
-    "question": "Mensuration 3d — Question 279 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The base of a pyramid is a square whose area is 324 sq cm. If the volume of the pyramid is 1296 cm³, then find the area of its lateral surface.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "432",
+      "540",
+      "1080",
+      "360"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "540",
+    "solution": "Side = 18 cm and (1/3)(324)h = 1296 gives h = 12 cm.\nThe apothem is 9 cm, so the face slant height is √(144 + 81) = 15 cm.\nLSA = (1/2)(72)(15) = 540"
   },
   {
     "id": "maths_mensuration_3d_280",
-    "question": "Mensuration 3d — Question 280 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The volume of a pyramid with a square base is 200 cm³. The height of the pyramid is 13 cm. What will be the length of the edges (i.e. the distance between the apex and any other vertex), rounded to the nearest integer?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12 cm",
+      "13cm",
+      "14 cm",
+      "15 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "14 cm",
+    "solution": "Base area = 600/13 = 46.15 cm², so the side is 6.79 cm and half the diagonal is 4.80 cm.\nEdge = √(13² + 4.80²) = √192.1 = 13.86, i.e. 14 cm"
   },
   {
     "id": "maths_mensuration_3d_281",
-    "question": "Mensuration 3d — Question 281 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A right pyramid has a square base with side of base 12 cm and the height of the pyramid is 40 cm. The pyramid is cut into four parts of equal heights by three planes parallel to its base. What is the ratio of the volume of the four parts?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1:8:27:70",
+      "1:7:19:47",
+      "1:8:27:64",
+      "1:7:19:37"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1:7:19:37",
+    "solution": "Measured from the apex the cumulative volumes are as 1³ : 2³ : 3³ : 4³ = 1 : 8 : 27 : 64.\nTaking differences, the four slices are 1:7:19:37"
   },
   {
     "id": "maths_mensuration_3d_282",
-    "question": "Mensuration 3d — Question 282 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A pyramid has a square base. The side of the square is 12 cm and the height of the pyramid is 21 cm. The pyramid is cut into 3 parts by 2 cuts parallel to its base. The cuts are at heights of 7 cm and 14 cm respectively from the base. What is the difference (in cm³) in the volume of the topmost and bottommost parts?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "672",
+      "944",
+      "427",
+      "756"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "672",
+    "solution": "V = (1/3)(144)(21) = 1008 cm³.\nThe top piece is (1/3)³V = V/27; the bottom piece is V − (2/3)³V = 19V/27.\nDifference = 18V/27 = (2/3)(1008) = 672"
   },
   {
     "id": "maths_mensuration_3d_283",
-    "question": "Mensuration 3d — Question 283 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Find the TSA of a pyramid whose base is a hexagon with side 8√3 cm and height 16 cm.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "762√3 cm²",
+      "720√3 cm²",
+      "768√3 cm²",
+      "794√3 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "768√3 cm²",
+    "solution": "Base area = (3√3/2)(8√3)² = (3√3/2)(192) = 288√3 cm², and the apothem is (√3/2)(8√3) = 12 cm.\nFace slant height = √(16² + 12²) = 20 cm, so the lateral area is (1/2)(48√3)(20) = 480√3 cm².\nTSA = 288√3 + 480√3 = 768√3 cm²"
   },
   {
     "id": "maths_mensuration_3d_284",
-    "question": "Mensuration 3d — Question 284 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "There is a pyramid on a base which is a regular hexagon of side 2a. If every slant edge of this pyramid is of length 5a/2, then the volume of this pyramid must be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3a³",
+      "3a³√2",
+      "3a³√3",
+      "6a³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "3a³√3",
+    "solution": "In a regular hexagon the circumradius equals the side, 2a, so h = √(25a²/4 − 4a²) = 3a/2.\nBase area = (3√3/2)(2a)² = 6√3a².\nV = (1/3)(6√3a²)(3a/2) = 3a³√3"
   },
   {
     "id": "maths_mensuration_3d_285",
-    "question": "Mensuration 3d — Question 285 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Find the TSA of a tetrahedron whose height is 4√2 cm.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "42√3 cm²",
+      "48√3 cm²",
+      "32√3 cm²",
+      "36√3 cm²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "48√3 cm²",
+    "solution": "For a regular tetrahedron h = a√(2/3), so a = 4√2 × √(3/2) = 4√3 cm.\nTSA = √3a² = √3(48) = 48√3 cm²"
   },
   {
     "id": "maths_mensuration_3d_286",
-    "question": "Mensuration 3d — Question 286 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "Find the volume of a tetrahedron with side 3√2 cm.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12 cm³",
+      "9 cm³",
+      "9√2 cm³",
+      "6√2 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "9 cm³",
+    "solution": "V = a³/(6√2) with a = 3√2, so a³ = 54√2.\nV = 54√2/(6√2) = 9 cm³"
   },
   {
     "id": "maths_mensuration_3d_287",
-    "question": "Mensuration 3d — Question 287 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "The volume of a tetrahedron is 18√2. Then find its TSA.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18√3",
+      "27√3",
+      "36√3",
+      "45√3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "36√3",
+    "solution": "a³/(6√2) = 18√2 gives a³ = 18 × 6 × 2 = 216, so a = 6.\nTSA = √3a² = 36√3"
   },
   {
     "id": "maths_mensuration_3d_288",
-    "question": "Mensuration 3d — Question 288 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A right circular cone has a radius of 7 cm and height of 24 cm. What is the slant height?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25 cm",
+      "30 cm",
+      "35 cm",
+      "40 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "25 cm"
   },
   {
     "id": "maths_mensuration_3d_289",
-    "question": "Mensuration 3d — Question 289 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A triangular prism has base area of 25 cm². If height is increased by 20%, what is the new volume (original height was 10 cm)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "250 cm³",
+      "275 cm³",
+      "300 cm³",
+      "225 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "300 cm³"
   },
   {
     "id": "maths_mensuration_3d_290",
-    "question": "Mensuration 3d — Question 290 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A vertical cylindrical container is filled with oil. A solid hemispherical stone of radius 7 cm is immersed completely, and the oil level rises by 3 cm. What is the radius of the cylinder?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6.29 cm",
+      "7.43 cm",
+      "8.73 cm",
+      "11.41 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "8.73 cm"
   },
   {
     "id": "maths_mensuration_3d_291",
-    "question": "Mensuration 3d — Question 291 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A cone and a hemisphere have the same volume and base radius. Find the ratio of the height of the cone to its radius.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2: 1",
+      "3: 1",
+      "5: 1",
+      "6: 1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "2: 1"
   },
   {
     "id": "maths_mensuration_3d_292",
-    "question": "Mensuration 3d — Question 292 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A solid cylinder radius 5 cm is drilled by four cylindrical holes each radius 1 cm length equal to the full height. Volume removed is approximately what percent of total?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16%",
+      "20%",
+      "32%",
+      "48%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "16%"
   },
   {
     "id": "maths_mensuration_3d_293",
-    "question": "Mensuration 3d — Question 293 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A cone is such that the area of its base equals its lateral surface area. If radius is r, find the slant height l.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "r",
+      "2r",
+      "3r",
+      "4r"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "r"
   },
   {
     "id": "maths_mensuration_3d_294",
-    "question": "Mensuration 3d — Question 294 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "If the height of a right prism is increased by 50% and base area remains the same, what is the percentage increase in volume?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25%",
+      "50%",
+      "75%",
+      "100%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "50%"
   },
   {
     "id": "maths_mensuration_3d_295",
-    "question": "Mensuration 3d — Question 295 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A cylinder (r = 4 cm, h = 10 cm) is bored through by a hole (r = 2 cm, full height). What percentage of original volume is removed?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25%",
+      "50%",
+      "75%",
+      "37.5%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "25%"
   },
   {
     "id": "maths_mensuration_3d_296",
-    "question": "Mensuration 3d — Question 296 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A metal sphere having a radius of 10 centimeters is melted down and molded into 8 identical smaller solid spheres. What is the ratio of the surface area of the original sphere to the total surface area of all 8 smaller spheres?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 2",
+      "2: 1",
+      "1: 4",
+      "1: 1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "1: 2"
   },
   {
     "id": "maths_mensuration_3d_297",
-    "question": "Mensuration 3d — Question 297 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "How many hemispheres with a radius of 3 cm can be produced by melting down a hemisphere with a radius of 12 cm?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "32",
+      "64",
+      "12",
+      "54"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "64"
   },
   {
     "id": "maths_mensuration_3d_298",
-    "question": "Mensuration 3d — Question 298 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A cylinder and hemispehre have the same radius. Their combined height 30 cm. If the cylinder and hemisphere have equal volumes, find the radius.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12 cm",
+      "15 cm",
+      "16 cm",
+      "18 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "18 cm"
   },
   {
     "id": "maths_mensuration_3d_299",
-    "question": "Mensuration 3d — Question 299 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A pyramid has a base area of 60 cm² and height 9 cm. What is its volume?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "180 cm³",
+      "280 cm³",
+      "240 cm³",
+      "160 cm³"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "180 cm³"
   },
   {
     "id": "maths_mensuration_3d_300",
-    "question": "Mensuration 3d — Question 300 (add real content in datas/maths/mensuration-3d.json)",
+    "question": "A right circular cone has radius of 7 cm and a height of 24 cm. A sphere is placed inside the cone such that it touches the base and the slanted surface of the cone. Find the radius of this inscribed sphere.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5.25 cm",
+      "4.86 cm",
+      "3.82 cm",
+      "6.24 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Mensuration 3d."
+    "correctAnswer": "5.25 cm"
   }
 ]

@@ -2060,8 +2060,8 @@
       "26 sec",
       "28 sec"
     ],
-    "correctAnswer": "28 sec",
-    "solution": "1st meeting: Rel speed = 10+40=50. Time t1 = 400/50 = 8s. New speeds: A=20, B=20. 2nd meeting: Rel speed = 20+20=40. Time t2 = 400/40 = 10s. New speeds: A=40, B=10. 3rd meeting: Rel speed = 40+10=50. Time t3 = 400/50 = 8s. Total time = 8 + 10 + 8 = 26 seconds."
+    "correctAnswer": "26 sec",
+    "solution": "**Step 1:** Opposite directions on 400 m track; A=10 m/s, B=40 m/s. On each meeting, A doubles and B halves.\n\n**1st meeting:** Rel speed = 10+40 = 50 → t1 = 400/50 = 8 s\nNew speeds: A=20, B=20\n\n**2nd meeting:** Rel speed = 20+20 = 40 → t2 = 400/40 = 10 s\nNew speeds: A=40, B=10\n\n**3rd meeting:** Rel speed = 40+10 = 50 → t3 = 400/50 = 8 s\n\n**Total time** = 8 + 10 + 8 = **26 sec**\n\n**Answer: 26 sec** ✓"
   },
   {
     "id": "maths_time_speed_distance_158",
@@ -2900,938 +2900,914 @@
   },
   {
     "id": "maths_time_speed_distance_223",
-    "question": "Time Speed Distance — Question 223 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The effective speed of a boat is 15.2 km/h against the stream and 20.8 km/h along the stream. Find the speed of the stream.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18 km/h",
+      "1.8 km/h",
+      "2.8 km/h",
+      "3 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "2.8 km/h",
+    "solution": "Speed of stream = (downstream − upstream)/2.\n= (20.8 − 15.2)/2 = 5.6/2 = 2.8 km/h.\nAnswer: 2.8 km/h"
   },
   {
     "id": "maths_time_speed_distance_224",
-    "question": "Time Speed Distance — Question 224 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat covers a certain distance downstream with speed 33 km/hr and upstream at 14 km/hr. Then find the speed of the boat in still water and also find the speed of the current.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9.5 km/hr and 23.5 km/hr",
+      "23.5 km/hr and 9.5 km/hr",
+      "28.5 km/hr and 4.5 km/hr",
+      "4.5 km/hr and 28.5 km/hr"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "23.5 km/hr and 9.5 km/hr",
+    "solution": "Boat in still water = (33 + 14)/2 = 23.5 km/hr.\nSpeed of current = (33 − 14)/2 = 9.5 km/hr.\nAnswer: 23.5 km/hr and 9.5 km/hr"
   },
   {
     "id": "maths_time_speed_distance_225",
-    "question": "Time Speed Distance — Question 225 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Rahul covers 734 km in a boat in 30 hours against the stream and he takes 12 hours with the stream. Then find the speed of the stream.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18.35 km/h",
+      "11.88 km/h",
+      "19.07 km/h",
+      "28.44 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "18.35 km/h",
+    "solution": "Upstream speed = 734/30 = 24.4667 km/h.\nDownstream speed = 734/12 = 61.1667 km/h.\nStream = (61.1667 − 24.4667)/2 = 36.7/2 = 18.35 km/h.\nAnswer: 18.35 km/h"
   },
   {
     "id": "maths_time_speed_distance_226",
-    "question": "Time Speed Distance — Question 226 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man rows 25.8 km upstream in 8.6 hours and a distance of 20 km downstream in 4 hours. Then the speed of the man in still water is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2 km/h",
+      "4 km/h",
+      "6 km/h",
+      "5 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "4 km/h",
+    "solution": "Upstream speed = 25.8/8.6 = 3 km/h.\nDownstream speed = 20/4 = 5 km/h.\nStill water = (5 + 3)/2 = 4 km/h.\nAnswer: 4 km/h"
   },
   {
     "id": "maths_time_speed_distance_227",
-    "question": "Time Speed Distance — Question 227 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A person rows a boat 11 km in 5 hours downstream and returns upstream in 7 hours. What is the speed of the stream in km/h?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11/35 km/h",
+      "11/27 km/h",
+      "11/38 km/h",
+      "11/28 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "11/35 km/h",
+    "solution": "Downstream speed = 11/5 km/h and upstream speed = 11/7 km/h.\nStream = (11/5 − 11/7)/2 = ((77 − 55)/35)/2 = (22/35)/2 = 11/35 km/h.\nAnswer: 11/35 km/h"
   },
   {
     "id": "maths_time_speed_distance_228",
-    "question": "Time Speed Distance — Question 228 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man wishes to cover 1 km distance in river water. In still water he takes 12 minutes to cover it, but in the flowing river he takes 13 minutes. The speed of the flowing water of the river is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25 km/h",
+      "5/13 km/h",
+      "22 km/h",
+      "7/12 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "5/13 km/h",
+    "solution": "Still water speed = 1 km in 12 min = 60/12 = 5 km/h.\nAgainst the flow = 1 km in 13 min = 60/13 km/h.\nStream = 5 − 60/13 = (65 − 60)/13 = 5/13 km/h.\nAnswer: 5/13 km/h"
   },
   {
     "id": "maths_time_speed_distance_229",
-    "question": "Time Speed Distance — Question 229 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man's speed in still water is 4 km/h more than the speed of the current. If the man takes a total of 10 h to cover 45 km downstream and 35 km upstream, then the speed of the man in still water is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20 km/h",
+      "18 km/h",
+      "15 km/h",
+      "22 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "20 km/h",
+    "solution": "Let the current be c, so the boat in still water is c + 4.\nDownstream = 2c + 4 and upstream = (c + 4) − c = 4 km/h.\n45/(2c + 4) + 35/4 = 10 ⇒ 45/(2c + 4) = 10 − 8.75 = 1.25 ⇒ 2c + 4 = 36 ⇒ c = 16.\nStill water speed = 16 + 4 = 20 km/h.\nAnswer: 20 km/h"
   },
   {
     "id": "maths_time_speed_distance_230",
-    "question": "Time Speed Distance — Question 230 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speed of a boat in still water is 15 km/h and the speed of the current is 9 km/h. The distance travelled by the boat downstream in 25 minutes is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8 km",
+      "10 km",
+      "12 km",
+      "9 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "10 km",
+    "solution": "Downstream speed = 15 + 9 = 24 km/h.\nDistance in 25 min = 24 × 25/60 = 10 km.\nAnswer: 10 km"
   },
   {
     "id": "maths_time_speed_distance_231",
-    "question": "Time Speed Distance — Question 231 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A person rows a distance of 3 3/4 km upstream in 1 1/2 hours and a distance of 13 km downstream in 2 hours. How much time (in hours) will the person take to row a distance of 90 km in still water?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15",
+      "20",
+      "18",
+      "24"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "20",
+    "solution": "Upstream speed = 3.75/1.5 = 2.5 km/h.\nDownstream speed = 13/2 = 6.5 km/h.\nStill water = (6.5 + 2.5)/2 = 4.5 km/h.\nTime for 90 km = 90/4.5 = 20 hours.\nAnswer: 20"
   },
   {
     "id": "maths_time_speed_distance_232",
-    "question": "Time Speed Distance — Question 232 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A person can row a boat at 10 km/h in still water. If the speed of the stream is 7 km/h, what is the time taken to row a distance of 85 km down the stream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5 hours",
+      "4 hours",
+      "6 hours",
+      "3 hours"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "5 hours",
+    "solution": "Downstream speed = 10 + 7 = 17 km/h.\nTime = 85/17 = 5 hours.\nAnswer: 5 hours"
   },
   {
     "id": "maths_time_speed_distance_233",
-    "question": "Time Speed Distance — Question 233 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat can travel at a speed of 15.5 km/h in still water. If speed of the stream is 4.5 km/h, then how much time will it take to go 76 km downstream and 104.5 km upstream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15 hours 20 minutes",
+      "13 hours 18 minutes",
+      "12 hours 30 minutes",
+      "18 hours 13 minutes"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "13 hours 18 minutes",
+    "solution": "Downstream = 15.5 + 4.5 = 20 km/h; upstream = 15.5 − 4.5 = 11 km/h.\nTime = 76/20 + 104.5/11 = 3.8 + 9.5 = 13.3 hours.\n0.3 hour = 18 minutes, so the total is 13 hours 18 minutes.\nAnswer: 13 hours 18 minutes"
   },
   {
     "id": "maths_time_speed_distance_234",
-    "question": "Time Speed Distance — Question 234 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat can travel 16.9 km downstream in 52 min. If the speed of the current is 3 km/h, then how much time (in hours) will the boat take to travel 84 km upstream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "13.5",
+      "6.22",
+      "7.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "6.22",
+    "solution": "Downstream speed = 16.9 × 60/52 = 19.5 km/h.\nBoat in still water = 19.5 − 3 = 16.5 km/h, so upstream = 16.5 − 3 = 13.5 km/h.\nTime = 84/13.5 = 6.22 hours.\nAnswer: 6.22"
   },
   {
     "id": "maths_time_speed_distance_235",
-    "question": "Time Speed Distance — Question 235 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Two boats A and B start moving towards each other from two places, 272 km apart. The speed of the boat A and B in still water are 32 km/h and 36 km/h, respectively. If A moves downstream and B moves upstream, then in how much time will they meet each other?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 hours",
+      "3 hours",
+      "5 hours",
+      "6 hours"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "4 hours",
+    "solution": "Let the stream be s. A moves downstream at 32 + s and B upstream at 36 − s.\nRelative speed = (32 + s) + (36 − s) = 68 km/h, so the stream cancels out.\nTime = 272/68 = 4 hours.\nAnswer: 4 hours"
   },
   {
     "id": "maths_time_speed_distance_236",
-    "question": "Time Speed Distance — Question 236 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The ratio of the speed of a boat to that of the current water is 35 : 8. The boat goes along with the current in 5 hours 10 minutes. What will be the time taken by the boat to come back?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5 hours 15 minutes 58 seconds",
+      "6 hours 45 minutes 10 seconds",
+      "8 hours 13 minutes 48 seconds",
+      "9 hours 30 minutes 49 seconds"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "8 hours 13 minutes 48 seconds",
+    "solution": "Downstream : upstream speed = (35 + 8) : (35 − 8) = 43 : 27.\nTime is inversely proportional to speed, so upstream time = 310 min × 43/27 ≈ 493.7 min.\n493.7 min ≈ 8 hours 13.7 minutes, matching the option 8 hours 13 minutes 48 seconds.\nAnswer: 8 hours 13 minutes 48 seconds"
   },
   {
     "id": "maths_time_speed_distance_237",
-    "question": "Time Speed Distance — Question 237 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speed of a boat in still water is 25 km/hr and the speed of the current is 7 km/hr. If a boat goes from place A to place B and returns from B to A and it takes 6 hours 40 minutes in total, find the time taken by the boat to cover twice the distance of AB downstream.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3 hours 36 minutes",
+      "4 hours 16 minutes",
+      "5 hours 12 minutes",
+      "4 hours 48 minutes"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "4 hours 48 minutes",
+    "solution": "Downstream = 32 km/h and upstream = 18 km/h.\nd/32 + d/18 = 20/3 ⇒ d × 25/288 = 20/3 ⇒ d = 76.8 km.\nTwice AB downstream = 153.6/32 = 4.8 hours = 4 hours 48 minutes.\nAnswer: 4 hours 48 minutes"
   },
   {
     "id": "maths_time_speed_distance_238",
-    "question": "Time Speed Distance — Question 238 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat covers a distance of 375 metres upstream in 30 min, and returns back to the starting point in 18 min. Find the ratio of the speed of the boat in still water and the speed of the stream.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5 : 6",
+      "7 : 13",
+      "13 : 7",
+      "4 : 1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "4 : 1",
+    "solution": "For the same distance, speed is inversely proportional to time.\nUpstream : downstream = 18 : 30 = 3 : 5, so take upstream = 3k and downstream = 5k.\nBoat = (5k + 3k)/2 = 4k and stream = (5k − 3k)/2 = k.\nRatio = 4 : 1.\nAnswer: 4 : 1"
   },
   {
     "id": "maths_time_speed_distance_239",
-    "question": "Time Speed Distance — Question 239 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat running upstream takes 8 hours and 48 mins to cover a certain distance, while it takes 4 hours to cover the same distance running downstream. The speed of the current is how much percentage less than the speed of the boat in still water?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "62.5%",
+      "60%",
+      "66.66%",
+      "58.33%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "62.5%",
+    "solution": "Upstream : downstream time = 8.8 : 4, so speeds are in the ratio 4 : 8.8 = 5 : 11.\nBoat = (11 + 5)/2 = 8 units and current = (11 − 5)/2 = 3 units.\nRequired % = (8 − 3)/8 × 100 = 62.5%.\nAnswer: 62.5%"
   },
   {
     "id": "maths_time_speed_distance_240",
-    "question": "Time Speed Distance — Question 240 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat takes one fourth time in moving a certain distance downstream than upstream. The speed of the boat in still water is how much percentage more than the speed of current?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "40%",
+      "66.66%",
+      "60%",
+      "75%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "66.66%",
+    "solution": "Downstream time = (1/4) × upstream time, so downstream speed = 4 × upstream speed.\nTake upstream = 1 and downstream = 4: boat = 2.5 and current = 1.5.\nRequired % = (2.5 − 1.5)/1.5 × 100 = 66.66%.\nAnswer: 66.66%"
   },
   {
     "id": "maths_time_speed_distance_241",
-    "question": "Time Speed Distance — Question 241 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speed of a boat in still water is 5 1/3 km/h. It is found that the boat takes thrice as much time to row up than it does to row down the same distance in the river stream. Find the speed of the river stream.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "23/27 m/sec",
+      "22/27 m/sec",
+      "20/27 m/sec",
+      "19/27 m/sec"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "20/27 m/sec",
+    "solution": "Upstream time = 3 × downstream time ⇒ downstream speed = 3 × upstream speed.\nLet upstream = u, downstream = 3u. Boat = (3u + u)/2 = 2u = 16/3 ⇒ u = 8/3.\nStream = (3u − u)/2 = u = 8/3 km/h.\nIn m/sec: (8/3) × (5/18) = 40/54 = 20/27 m/sec.\nAnswer: 20/27 m/sec"
   },
   {
     "id": "maths_time_speed_distance_242",
-    "question": "Time Speed Distance — Question 242 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat starting from point P goes downstream to point Q in 3 hours and returns back from point Q to point P in 4 hours. If the speed of the water is 3 km/h, find the speed (km/h) of the boat in still water.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12",
+      "20",
+      "21",
+      "32"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "21",
+    "solution": "Distance is the same both ways: 3(b + 3) = 4(b − 3).\n3b + 9 = 4b − 12 ⇒ b = 21 km/h.\nAnswer: 21"
   },
   {
     "id": "maths_time_speed_distance_243",
-    "question": "Time Speed Distance — Question 243 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat takes 60% more time to cover a certain distance upstream than downstream. If speed of current is 9 km/hr, then in how much time will it cover 504 km downstream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10 hr",
+      "10.5 hr",
+      "12 hr",
+      "12.5 hr"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "10.5 hr",
+    "solution": "Upstream : downstream time = 160 : 100 = 8 : 5, so speeds are in the ratio 5 : 8.\nUpstream = 5k, downstream = 8k ⇒ current = (8k − 5k)/2 = 1.5k = 9 ⇒ k = 6.\nDownstream speed = 48 km/h, so time = 504/48 = 10.5 hr.\nAnswer: 10.5 hr"
   },
   {
     "id": "maths_time_speed_distance_244",
-    "question": "Time Speed Distance — Question 244 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The time taken by a boat to go a certain distance downstream is two-third of the time taken by the boat to go the same distance upstream. If two times the speed of the boat in still water is 10 km/h more than 7 times the speed of the stream, then what is the speed (in km/h) of the stream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3 1/3",
+      "2 1/2",
+      "4",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "3 1/3",
+    "solution": "Downstream time = (2/3) upstream time ⇒ speeds are in the ratio 3 : 2.\nLet upstream = 2k and downstream = 3k: boat = 2.5k, stream = 0.5k.\n2(2.5k) = 7(0.5k) + 10 ⇒ 5k = 3.5k + 10 ⇒ k = 20/3.\nStream = 0.5 × 20/3 = 10/3 = 3 1/3 km/h.\nAnswer: 3 1/3"
   },
   {
     "id": "maths_time_speed_distance_245",
-    "question": "Time Speed Distance — Question 245 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat can cover a distance of 56 km downstream in 3.5 hours. The ratio of the speed of the boat in still water and the speed of stream is 3 : 1. How much time (in hours) will the boat take to cover a distance of 41.6 km upstream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9.1",
+      "10.5",
+      "10.4",
+      "5.2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "5.2",
+    "solution": "Downstream speed = 56/3.5 = 16 km/h.\nBoat : stream = 3 : 1, so downstream = 3x + x = 4x = 16 ⇒ x = 4.\nBoat = 12 km/h and stream = 4 km/h, so upstream = 12 − 4 = 8 km/h.\nTime = 41.6/8 = 5.2 hours.\nAnswer: 5.2"
   },
   {
     "id": "maths_time_speed_distance_246",
-    "question": "Time Speed Distance — Question 246 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man can row a boat at a speed of 10 km/h in still water. If the river is flowing at 4.5 km/h, it takes 2 hours to go to a point and come back to the starting point. At what distance (in km) is the place located (rounded off to two decimal places)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6.25",
+      "5.50",
+      "7.98",
+      "8.98"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "7.98",
+    "solution": "Downstream = 14.5 km/h and upstream = 5.5 km/h.\nd/14.5 + d/5.5 = 2 ⇒ d(0.068966 + 0.181818) = 2 ⇒ d × 0.250784 = 2.\nd = 7.975 ≈ 7.98 km.\nAnswer: 7.98"
   },
   {
     "id": "maths_time_speed_distance_247",
-    "question": "Time Speed Distance — Question 247 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat's speed in still water is 22 km/h, while the river is flowing with a speed of 8 km/h and the time taken to cover a certain distance upstream is 4 hours more than the time taken to cover the same distance downstream. Find the distance.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "105 km",
+      "110 km",
+      "115 km",
+      "125 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "105 km",
+    "solution": "Downstream = 30 km/h and upstream = 14 km/h.\nd/14 − d/30 = 4 ⇒ d(30 − 14)/420 = 4 ⇒ 16d = 1680 ⇒ d = 105 km.\nAnswer: 105 km"
   },
   {
     "id": "maths_time_speed_distance_248",
-    "question": "Time Speed Distance — Question 248 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speed of a boat in still water is 15 km/h. If it can travel 42 km downstream and 28 km upstream in the same time, then what is the speed of the stream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2.5 km/h",
+      "3 km/h",
+      "4.5 km/h",
+      "6 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "3 km/h",
+    "solution": "42/(15 + s) = 28/(15 − s).\n630 − 42s = 420 + 28s ⇒ 210 = 70s ⇒ s = 3 km/h.\nAnswer: 3 km/h"
   },
   {
     "id": "maths_time_speed_distance_249",
-    "question": "Time Speed Distance — Question 249 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The time taken by a boat to travel 13 km downstream is the same as time taken by it to travel 7 km upstream. If the speed of the stream is 3 km/h, then how much time will it take to travel a distance of 44.8 km in still water?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 12/25",
+      "5 3/5",
+      "5 2/5",
+      "4 13/25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "4 12/25",
+    "solution": "13/(b + 3) = 7/(b − 3) ⇒ 13b − 39 = 7b + 21 ⇒ 6b = 60 ⇒ b = 10 km/h.\nTime = 44.8/10 = 4.48 hours = 4 12/25 hours.\nAnswer: 4 12/25"
   },
   {
     "id": "maths_time_speed_distance_250",
-    "question": "Time Speed Distance — Question 250 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man rows to a place at a distance of 72 km and comes back in 36 hours. He finds that he can row 12 km with the stream in the same time as 4 km against the stream. The speed (in km/h) of the stream is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3.75",
+      "2.45",
+      "2.67",
+      "2.33"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "2.67",
+    "solution": "12/(b + s) = 4/(b − s) ⇒ 12b − 12s = 4b + 4s ⇒ 8b = 16s ⇒ b = 2s.\nSo downstream = 3s and upstream = s.\n72/3s + 72/s = 36 ⇒ 24/s + 72/s = 36 ⇒ 96/s = 36 ⇒ s = 2.67 km/h.\nAnswer: 2.67"
   },
   {
     "id": "maths_time_speed_distance_251",
-    "question": "Time Speed Distance — Question 251 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man rows 48 km and back in 48 hours. He can row 4 km with the stream in the same time as 3 km against the stream. The speed of the stream (in km/h) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5/21",
+      "7/21",
+      "7/24",
+      "3/29"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "7/24",
+    "solution": "4/(b + s) = 3/(b − s) ⇒ 4b − 4s = 3b + 3s ⇒ b = 7s.\nDownstream = 8s and upstream = 6s.\n48/8s + 48/6s = 48 ⇒ 6/s + 8/s = 48 ⇒ 14/s = 48 ⇒ s = 7/24 km/h.\nAnswer: 7/24"
   },
   {
     "id": "maths_time_speed_distance_252",
-    "question": "Time Speed Distance — Question 252 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speed of a boat downstream is 150% more than its speed upstream. If the time taken by the boat for going 80 km downstream and 50 km upstream is 8.2 hours, then what is the speed (in km/h) of the boat downstream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16",
+      "30",
+      "24",
+      "25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "25",
+    "solution": "Downstream = 2.5 × upstream, so take upstream = 2k and downstream = 5k.\n80/5k + 50/2k = 8.2 ⇒ 16/k + 25/k = 8.2 ⇒ 41/k = 8.2 ⇒ k = 5.\nDownstream speed = 5 × 5 = 25 km/h.\nAnswer: 25"
   },
   {
     "id": "maths_time_speed_distance_253",
-    "question": "Time Speed Distance — Question 253 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat takes total 10 hr to cover 102 km downstream and 63 km upstream. The time spent to cover 34 km downstream is equal to the time taken to cover 24 km in still water. The speed of the boat upstream is how much greater than the speed of current?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 km/hr",
+      "3 km/hr",
+      "4.5 km/hr",
+      "5 km/hr"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "3 km/hr",
+    "solution": "34/(b + s) = 24/b ⇒ 34b = 24b + 24s ⇒ 10b = 24s ⇒ b = 2.4s.\nSo downstream = 3.4s and upstream = 1.4s.\n102/3.4s + 63/1.4s = 10 ⇒ 30/s + 45/s = 10 ⇒ 75/s = 10 ⇒ s = 7.5 km/h.\nUpstream = 1.4 × 7.5 = 10.5, so the difference = 10.5 − 7.5 = 3 km/hr.\nAnswer: 3 km/hr"
   },
   {
     "id": "maths_time_speed_distance_254",
-    "question": "Time Speed Distance — Question 254 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speed of a boat downstream is 2.5 times the speed of the boat upstream. If the time taken by the boat for going 30 km downstream and the same distance upstream is 7 hours, then what is the speed (in km/h) of the boat downstream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12.5",
+      "9",
+      "15",
+      "7.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "15",
+    "solution": "Take upstream = 2k and downstream = 5k.\n30/5k + 30/2k = 7 ⇒ 6/k + 15/k = 7 ⇒ 21/k = 7 ⇒ k = 3.\nDownstream speed = 5 × 3 = 15 km/h.\nAnswer: 15"
   },
   {
     "id": "maths_time_speed_distance_255",
-    "question": "Time Speed Distance — Question 255 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat goes 112 km downstream and comes back to the starting point in 11.5 hours. If the speed of the current is 9 km/hr, then the speed (in km/hr) of the boat in still water is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "17 km/h",
+      "19 km/h",
+      "29 km/h",
+      "23 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "23 km/h",
+    "solution": "112/(b + 9) + 112/(b − 9) = 11.5.\n224b = 11.5(b² − 81) ⇒ 23b² − 448b − 1863 = 0.\nDiscriminant = 448² + 4 × 23 × 1863 = 372100, √372100 = 610.\nb = (448 + 610)/46 = 23 km/h.\nAnswer: 23 km/h"
   },
   {
     "id": "maths_time_speed_distance_256",
-    "question": "Time Speed Distance — Question 256 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speed of a stream is 6 km/h. A boat can go 56 km downstream and 39 km upstream in 7 hours. What is the speed (in km/h) of the boat in still water?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "22",
+      "15",
+      "7",
+      "13"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "15",
+    "solution": "56/(b + 6) + 39/(b − 6) = 7.\nTesting b = 15: 56/21 + 39/9 = 2.667 + 4.333 = 7. ✓\nAnswer: 15"
   },
   {
     "id": "maths_time_speed_distance_257",
-    "question": "Time Speed Distance — Question 257 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "In a stream running at 3 km/h, a motorboat goes 12 km upstream and back to the starting point in 60 min. Find the speed of the motorboat in still water.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2(2+√17)",
+      "2(4+√15)",
+      "3(4+√17)",
+      "3(2+√17)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "3(4+√17)",
+    "solution": "12/(b − 3) + 12/(b + 3) = 1 ⇒ 24b = b² − 9 ⇒ b² − 24b − 9 = 0.\nb = (24 + √(576 + 36))/2 = (24 + √612)/2 = 12 + 3√17 = 3(4 + √17).\nCheck: (12 + 3√17)² − 24(12 + 3√17) − 9 = 297 + 72√17 − 288 − 72√17 − 9 = 0. ✓\nAnswer: 3(4+√17)"
   },
   {
     "id": "maths_time_speed_distance_258",
-    "question": "Time Speed Distance — Question 258 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speed of a motorboat in still water is 20 km/h. It travels 150 km downstream and then returns to the starting point. If the round trip takes a total of 16 hours, what is the speed (in km/h) of the flow of river?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "4",
+      "8",
+      "5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "5",
+    "solution": "150/(20 + s) + 150/(20 − s) = 16.\n150 × 40 = 16(400 − s²) ⇒ 6000 = 6400 − 16s² ⇒ 16s² = 400 ⇒ s = 5 km/h.\nAnswer: 5"
   },
   {
     "id": "maths_time_speed_distance_259",
-    "question": "Time Speed Distance — Question 259 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A motorboat's speed is 16 km/h in still water. It takes 72 minutes more to go 36 km upstream than to return downstream to the same spot. The speed (in km/h) of the stream is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "10",
+      "4",
+      "5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "4",
+    "solution": "36/(16 − s) − 36/(16 + s) = 72/60 = 1.2 hours.\n36(2s) = 1.2(256 − s²) ⇒ 1.2s² + 72s − 307.2 = 0 ⇒ s² + 60s − 256 = 0.\ns = (−60 + √4624)/2 = (−60 + 68)/2 = 4 km/h.\nAnswer: 4"
   },
   {
     "id": "maths_time_speed_distance_260",
-    "question": "Time Speed Distance — Question 260 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A motorboat travelling at some speed can cover 28 km upstream and 40 km downstream in 11 hours. At the same speed it can travel 30 km downstream and 16 km upstream in 7 hours, then the speed of the stream is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2 km/h",
+      "4 km/h",
+      "3 km/h",
+      "1 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "3 km/h",
+    "solution": "Let u = 1/(upstream speed) and d = 1/(downstream speed).\n28u + 40d = 11 and 16u + 30d = 7.\nMultiplying by 3 and 4 and subtracting: 20u = 5 ⇒ u = 0.25 ⇒ upstream = 4 km/h.\nThen 40d = 11 − 7 = 4 ⇒ d = 0.1 ⇒ downstream = 10 km/h.\nCheck: 16/4 + 30/10 = 4 + 3 = 7. ✓\nStream = (10 − 4)/2 = 3 km/h.\nAnswer: 3 km/h"
   },
   {
     "id": "maths_time_speed_distance_261",
-    "question": "Time Speed Distance — Question 261 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man covers 39 km upstream and 116 km downstream in 7 hrs. He also covers 65 km upstream and 87 km downstream in 8 hrs. Find the speed of boat in still water.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "21 km/hr",
+      "27 km/hr",
+      "18 km/hr",
+      "29 km/hr"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "21 km/hr",
+    "solution": "Let u = 1/(upstream speed) and d = 1/(downstream speed).\n39u + 116d = 7 and 65u + 87d = 8.\nMultiplying by 5 and 3 and subtracting: 319d = 11 ⇒ d = 1/29 ⇒ downstream = 29 km/h.\n39u = 7 − 116/29 = 3 ⇒ u = 1/13 ⇒ upstream = 13 km/h.\nStill water = (29 + 13)/2 = 21 km/hr.\nAnswer: 21 km/hr"
   },
   {
     "id": "maths_time_speed_distance_262",
-    "question": "Time Speed Distance — Question 262 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat can go 40 km downstream and 25 km upstream in 7 hours 30 minutes. It can go 48 km downstream and 36 km upstream in 10 hours. What is the speed (in km/h) of the boat in still water?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "12",
+      "9",
+      "15"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "9",
+    "solution": "Let d = 1/(downstream speed) and u = 1/(upstream speed).\n40d + 25u = 7.5 and 48d + 36u = 10.\nMultiplying by 6 and 5 and subtracting: 30u = 5 ⇒ u = 1/6 ⇒ upstream = 6 km/h.\n40d = 7.5 − 25/6 = 10/3 ⇒ d = 1/12 ⇒ downstream = 12 km/h.\nStill water = (12 + 6)/2 = 9 km/h.\nAnswer: 9"
   },
   {
     "id": "maths_time_speed_distance_263",
-    "question": "Time Speed Distance — Question 263 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat can go 30 km downstream and 24 km upstream in 2 hours 27 minutes. Also, it can go 10 km downstream and 4 km upstream in 37 minutes. What is the speed of the boat upstream (in km/hr)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20",
+      "24",
+      "22",
+      "18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "20",
+    "solution": "Let d = 1/(downstream speed) and u = 1/(upstream speed).\n30d + 24u = 2.45 hours and 10d + 4u = 37/60 hour.\nMultiplying the second by 3: 30d + 12u = 1.85.\nSubtracting: 12u = 0.6 ⇒ u = 0.05 ⇒ upstream speed = 20 km/hr.\nAnswer: 20"
   },
   {
     "id": "maths_time_speed_distance_264",
-    "question": "Time Speed Distance — Question 264 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat can go 3 km upstream and 5 km downstream in 55 minutes. It can also go 4 km upstream and 9 km downstream in 1 hour 25 minutes. In how much time (in hours) will it go 43.2 km downstream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4.8",
+      "5.4",
+      "3.6",
+      "4.4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "3.6",
+    "solution": "Let u = 1/(upstream speed) and d = 1/(downstream speed).\n3u + 5d = 11/12 and 4u + 9d = 17/12.\nMultiplying by 4 and 3 and subtracting: 7d = 17/4 − 11/3 = 7/12 ⇒ d = 1/12 ⇒ downstream = 12 km/h.\nTime = 43.2/12 = 3.6 hours.\nAnswer: 3.6"
   },
   {
     "id": "maths_time_speed_distance_265",
-    "question": "Time Speed Distance — Question 265 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A motorboat can go 8.4 km downstream and 4.8 km upstream in 1 hour. It can go 17.5 km downstream and 9 km upstream in 2 hours. How much time (in hours) will it take to go 31.2 km in still water?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2.4",
+      "1.3",
+      "3.9",
+      "1.2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "2.4",
+    "solution": "Let d = 1/(downstream speed) and u = 1/(upstream speed).\n8.4d + 4.8u = 1 and 17.5d + 9u = 2.\nSolving: d = 1/14 ⇒ downstream = 14 km/h, and u = 1/12 ⇒ upstream = 12 km/h.\nStill water = (14 + 12)/2 = 13 km/h, so time = 31.2/13 = 2.4 hours.\nAnswer: 2.4"
   },
   {
     "id": "maths_time_speed_distance_266",
-    "question": "Time Speed Distance — Question 266 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat covers 24 km upstream and 36 km downstream in 10 hours, and 36 km upstream and 24 km downstream in 12 hours. The speed of the current is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "26/9 km/h",
+      "33/13 km/h",
+      "25/8 km/h",
+      "24/7 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "25/8 km/h",
+    "solution": "Let u = 1/(upstream speed) and d = 1/(downstream speed).\n24u + 36d = 10 and 36u + 24d = 12.\nAdding: 60u + 60d = 22 ⇒ u + d = 11/30. Subtracting: u − d = 1/6.\nu = 4/15 ⇒ upstream = 3.75 km/h; d = 1/10 ⇒ downstream = 10 km/h.\nCurrent = (10 − 3.75)/2 = 3.125 = 25/8 km/h.\nAnswer: 25/8 km/h"
   },
   {
     "id": "maths_time_speed_distance_267",
-    "question": "Time Speed Distance — Question 267 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat can go 3.6 km upstream and 5.4 km downstream in 54 minutes, while it can go 5.4 km upstream and 3.6 km downstream in 58.5 minutes. The time taken by the boat in going 10 km downstream is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "48 minutes",
+      "50 minutes",
+      "45 minutes",
+      "54 minutes"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "50 minutes",
+    "solution": "Let u = 1/(upstream speed) and d = 1/(downstream speed), with times in hours.\n3.6u + 5.4d = 0.9 and 5.4u + 3.6d = 0.975.\nAdding: u + d = 0.208333. Subtracting: u − d = 0.0416667.\nu = 0.125 ⇒ upstream = 8 km/h; d = 0.083333 ⇒ downstream = 12 km/h.\nTime for 10 km downstream = 10/12 hour = 50 minutes.\nAnswer: 50 minutes"
   },
   {
     "id": "maths_time_speed_distance_268",
-    "question": "Time Speed Distance — Question 268 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "On a river, Q is the mid-point between two points P and R on the same bank of the river. A boat can go from P to Q and back in 12 hours, and from P to R in 16 hours 40 min. How long would it take to go from R to P?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3 3/7 h",
+      "5 h",
+      "6 2/3 h",
+      "7 1/3 h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "7 1/3 h",
+    "solution": "P to R takes 50/3 hours; since it is slower it must be the upstream direction.\nPQ is half of PR, so P to Q upstream = (50/3)/2 = 25/3 hours.\nQ to P downstream = 12 − 25/3 = 11/3 hours.\nR to P is downstream over twice that distance = 2 × 11/3 = 22/3 = 7 1/3 hours.\nAnswer: 7 1/3 h"
   },
   {
     "id": "maths_time_speed_distance_269",
-    "question": "Time Speed Distance — Question 269 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "X, Y are two points in a river. Points P and Q divide the straight line XY into three equal parts. The river flows along XY and the time taken by a boat to row from X to Q and from Y to Q are in the ratio 4 : 5. The ratio of the speed of the boat downstream to that of the river current is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3 : 10",
+      "3 : 4",
+      "10 : 3",
+      "4 : 3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "10 : 3",
+    "solution": "Taking each part as 1 unit, XQ = 2 units (downstream) and YQ = 1 unit (upstream).\n(2/D) : (1/U) = 4 : 5 ⇒ 2U/D = 4/5 ⇒ U/D = 2/5, so take U = 2 and D = 5.\nCurrent = (5 − 2)/2 = 1.5 units.\nDownstream : current = 5 : 1.5 = 10 : 3.\nAnswer: 10 : 3"
   },
   {
     "id": "maths_time_speed_distance_270",
-    "question": "Time Speed Distance — Question 270 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat takes 20 hours for travelling downstream from point A to point B and comes back to a midpoint C between A and B. The speed of the stream is 5 km/h and the speed of the boat in still water is 10 km/h. Find the distance between A and B (in km).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "100",
+      "120",
+      "150",
+      "75"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "120",
+    "solution": "Downstream = 15 km/h and upstream = 5 km/h.\nd/15 + (d/2)/5 = 20 ⇒ d/15 + d/10 = 20.\nd(2 + 3)/30 = 20 ⇒ d = 120 km.\nAnswer: 120"
   },
   {
     "id": "maths_time_speed_distance_271",
-    "question": "Time Speed Distance — Question 271 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man travels by a motor boat down a river to his office and back. With the speed of the river unchanged, if he doubles the speed of his motor boat, then his travel time gets reduced by 75%. The ratio of the original speed of the motor boat to the speed of the river is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√6 : √2",
+      "√7 : 2",
+      "2√5 : 3",
+      "3 : 2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "√7 : 2",
+    "solution": "Round trip time T = 2bd/(b² − r²); after doubling, T' = 4bd/(4b² − r²).\nT' = 0.25T ⇒ 4/(4b² − r²) = 0.5/(b² − r²) ⇒ 4b² − 4r² = 2b² − 0.5r².\n2b² = 3.5r² ⇒ b²/r² = 7/4 ⇒ b : r = √7 : 2.\nAnswer: √7 : 2"
   },
   {
     "id": "maths_time_speed_distance_272",
-    "question": "Time Speed Distance — Question 272 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A boat covers a round trip journey between two points A and B in a river in T hours. If its speed in still water becomes 2 times, it would take (80/161)T hours for the same journey. Find the ratio of its speed in still water to the speed of the river.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "11 : 1",
+      "161 : 40",
+      "1 : 11",
+      "2 : 1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "11 : 1",
+    "solution": "T = 2bd/(b² − r²) and the new time = 4bd/(4b² − r²) = (80/161)T.\n4/(4b² − r²) = (160/161)/(b² − r²) ⇒ 644(b² − r²) = 160(4b² − r²).\n644b² − 644r² = 640b² − 160r² ⇒ 4b² = 484r² ⇒ b/r = 11.\nAnswer: 11 : 1"
   },
   {
     "id": "maths_time_speed_distance_273",
-    "question": "Time Speed Distance — Question 273 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man swims from A to B and back in 4 1/2 hours. A block of wood when allowed to go with the stream from A to B takes 6 hours. What is the ratio of the speed of the man in still water to that of the stream?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2:1",
+      "4:3",
+      "3:1",
+      "4:1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "3:1",
+    "solution": "A block of wood drifts at the speed of the stream, so d/r = 6 ⇒ d = 6r.\n2bd/(b² − r²) = 4.5 ⇒ 12br = 4.5(b² − r²).\nDividing by r² with k = b/r: 4.5k² − 12k − 4.5 = 0 ⇒ 3k² − 8k − 3 = 0 ⇒ (3k + 1)(k − 3) = 0.\nk = 3, so man : stream = 3 : 1.\nAnswer: 3:1"
   },
   {
     "id": "maths_time_speed_distance_274",
-    "question": "Time Speed Distance — Question 274 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A swimmer swims from a point P against the current for 6 min and then swims back along the current for next 6 min and reaches a point Q. If the distance between P and Q is 120 m then the speed of the current (in km/h) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0.4",
+      "0.2",
+      "1",
+      "0.6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "0.6",
+    "solution": "Net displacement = 6(b + r) − 6(b − r) = 12r, where speeds are per minute.\n12r = 120 m ⇒ r = 10 m/min.\nIn km/h: 10 × 60/1000 = 0.6 km/h.\nAnswer: 0.6"
   },
   {
     "id": "maths_time_speed_distance_275",
-    "question": "Time Speed Distance — Question 275 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A ship is 77 km from the shore, springs a leak which admits 2 1/4 ton of water in every 5 1/2 min. An outlet tank can throw out 12 tons of water per hour. Find at what speed it should move such that when it begins to sink a rescue ship moving with 6 km/hr escapes the passengers of the ship, if 69 ton of water is enough to sink it.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6 km/hr",
+      "8 km/hr",
+      "10 km/hr",
+      "12 km/hr"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "8 km/hr",
+    "solution": "Leak rate = (9/4) ÷ (11/2) = 9/22 ton/min = 270/11 ton/hour.\nNet inflow = 270/11 − 12 = 138/11 ton/hour.\nTime to take in 69 tons = 69 ÷ (138/11) = 5.5 hours.\nThe two ships must close 77 km in 5.5 hours: v + 6 = 77/5.5 = 14 ⇒ v = 8 km/hr.\nAnswer: 8 km/hr"
   },
   {
     "id": "maths_time_speed_distance_276",
-    "question": "Time Speed Distance — Question 276 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man rows a boat a certain distance downstream in 9 hours, while it takes 18 hours to row the same distance upstream. How many hours will it take him to row three-fifth of the same distance in still water?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9.5",
+      "7.2",
+      "10",
+      "12"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "7.2",
+    "solution": "Downstream speed = d/9 and upstream speed = d/18.\nStill water speed = (d/9 + d/18)/2 = (3d/18)/2 = d/12.\nTime for (3/5)d = (3d/5) ÷ (d/12) = 36/5 = 7.2 hours.\nAnswer: 7.2"
   },
   {
     "id": "maths_time_speed_distance_277",
-    "question": "Time Speed Distance — Question 277 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A bullet train covers a fixed distance in 30 minutes at an average speed of 240 km/h. Due to track maintenance, it needs to be diverted, increasing the distance by 20%. If the train needs to arrive at its destination on time (i.e., in 30 minutes), what should its new average speed be in km/h?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "280 km/h",
+      "300 km/h",
+      "288 km/h",
+      "320 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "288 km/h"
   },
   {
     "id": "maths_time_speed_distance_278",
-    "question": "Time Speed Distance — Question 278 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Two cars, X and Y, start from points 360 km apart and travel at constant speeds. If they move towards each other, they meet in 4 hours. If they move in the same direction, they meet in 12 hours. What is the speed of car X? (Assume X is the faster car).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "60 km/h",
+      "75 km/h",
+      "45 km/h",
+      "90 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "60 km/h"
   },
   {
     "id": "maths_time_speed_distance_279",
-    "question": "Time Speed Distance — Question 279 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A car starts from point P on a circular track and an SUV starts from point Q, which is 600 meters ahead of P in the direction of motion. The car's speed is 15 m/s, and the SUV's speed is 10 m/s. The circumference of the track is 1.5 km. How much distance will the car have travelled when it first overtakes the SUV?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "900 m",
+      "1200 m",
+      "1500 m",
+      "1800 m"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "1800 m"
   },
   {
     "id": "maths_time_speed_distance_280",
-    "question": "Time Speed Distance — Question 280 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A car travels 0.875 km in 1 minute. How far does it travel in 1 hour 45 minutes?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "91.875km",
+      "94.576 km",
+      "95.444 km",
+      "92.582 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "91.875km"
   },
   {
     "id": "maths_time_speed_distance_281",
-    "question": "Time Speed Distance — Question 281 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A car covers 40% of a certain distance at a pace of 20 km/h and the remaining distance at a pace of 30 km/ h. What is the average speed of the car for the entire journey?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24 km/h",
+      "25 km/h",
+      "26 km/h",
+      "27 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "25 km/h"
   },
   {
     "id": "maths_time_speed_distance_282",
-    "question": "Time Speed Distance — Question 282 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "An airplane travels a specific distance at a speed of 240 km/h over the course of 5 hours. To cover the same distance in 1 hr it needs to fly at a speed of:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1200 km/h",
+      "1500 km/h",
+      "1400 km/h",
+      "1600 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "1200 km/h"
   },
   {
     "id": "maths_time_speed_distance_283",
-    "question": "Time Speed Distance — Question 283 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A person travels from city A to city B. If he travels at a speed of 50 km/h, he arrives 1 hour early, if he travels at a speed of 30 km/hr he arrives 1 hour late. What is the distance (in km) between city A and city B?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "150 km",
+      "120 km",
+      "200 km",
+      "180 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "150 km"
   },
   {
     "id": "maths_time_speed_distance_284",
-    "question": "Time Speed Distance — Question 284 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A cyclist travels from City A to City B at an average speed of 20 km/h and takes 4 hours. If they want to complete the same journey in 2.5 hours, by what amount (in km/ h) should they increase their average speed?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12 km/hr",
+      "10 km/hr",
+      "15 km/hr",
+      "8 km/hr"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "12 km/hr"
   },
   {
     "id": "maths_time_speed_distance_285",
-    "question": "Time Speed Distance — Question 285 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A delivery van travels at a constant speed of 60 km/h to cover a certain route in 1 hour and 45 minutes. If traffic increases the time taken by 15 minutes, by what percentage must the van's average speed decrease to complete the route?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10.5%",
+      "12.5%",
+      "15%",
+      "20%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "12.5%"
   },
   {
     "id": "maths_time_speed_distance_286",
-    "question": "Time Speed Distance — Question 286 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A student walks from his home to school at a speed of 4 km/h and reaches 15 minutes late. If he increases his speed to 6 km/h, he reaches 5 minutes early. What is the distance (in km) from his home to school?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 km",
+      "6 km",
+      "8 km",
+      "10 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "4 km"
   },
   {
     "id": "maths_time_speed_distance_287",
-    "question": "Time Speed Distance — Question 287 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The ratio of the speeds of a car and a bus is 3: 4. If the bus covers a distance of 320 km in 4 hours, what is the speed of the car in km/h?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "60 km/h",
+      "75 km/h",
+      "80 km/h",
+      "90 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "60 km/h"
   },
   {
     "id": "maths_time_speed_distance_288",
-    "question": "Time Speed Distance — Question 288 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A thief and a police officer are 500 meters apart. If they run in the same direction, the police officer catches the thief in 10 minutes. If they run towards each other, they meet in 2 minutes. What is the speed of the thief in meters per minute?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "150 meter/minute",
+      "100 meter/minute",
+      "200 meter/minute",
+      "50 meter/minute"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "100 meter/minute"
   },
   {
     "id": "maths_time_speed_distance_289",
-    "question": "Time Speed Distance — Question 289 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A car runs 18.4 km using 2 ½ liters of petrol. What is the mileage in km per liter (rounded to 2 decimals)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7.28",
+      "7.36",
+      "7.44",
+      "7.52"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "7.36"
   },
   {
     "id": "maths_time_speed_distance_290",
-    "question": "Time Speed Distance — Question 290 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "The speeds of two motorcyclists are in the ratio 5: 3. If the slower motorcyclist has a 24 km head start, and his speed is 12 km/h, how far (in km) will the faster motorcyclist travel to overtake him?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "40 km",
+      "48 km",
+      "60 km",
+      "72 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "60 km"
   },
   {
     "id": "maths_time_speed_distance_291",
-    "question": "Time Speed Distance — Question 291 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Sachin covers half of his journey at 12 km/h and the remaining half at 3 km/h. His average speed is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5.5 km/h",
+      "4.5 km/h",
+      "4.8 km/h",
+      "5 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "4.8 km/h"
   },
   {
     "id": "maths_time_speed_distance_292",
-    "question": "Time Speed Distance — Question 292 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A car travels 13.5 km using 1.8 liters of fuel. How many kilometers does it travel per liter?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7.25 km",
+      "7.5 km",
+      "7.75 km",
+      "8.0 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "7.5 km"
   },
   {
     "id": "maths_time_speed_distance_293",
-    "question": "Time Speed Distance — Question 293 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A man covered a certain distance in 3 parts with average speeds of 30 km/h, 60 km/h, and 90 km/h. What is his average speed over the entire journey, assuming equal distances?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "52.05 km/h",
+      "60 km/h",
+      "49.09 km/h",
+      "56.25 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "49.09 km/h"
   },
   {
     "id": "maths_time_speed_distance_294",
-    "question": "Time Speed Distance — Question 294 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "An athlete runs a 300-meter race in 24 seconds. How much is his speed in km/h?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45 km/h",
+      "30 km/h",
+      "35 km/h",
+      "40 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "45 km/h"
   },
   {
     "id": "maths_time_speed_distance_295",
-    "question": "Time Speed Distance — Question 295 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "A runner completes 7.2 km in 48 minutes. What is his speed in km/h?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9 km/h",
+      "8 km/h",
+      "10 km/h",
+      "11 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "9 km/h"
   },
   {
     "id": "maths_time_speed_distance_296",
-    "question": "Time Speed Distance — Question 296 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Manoj crosses a 500 m long street in 5 minutes. What is his speed in km per hour?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5.5 km/h",
+      "5 km/h",
+      "6 km/h",
+      "7 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "6 km/h"
   },
   {
     "id": "maths_time_speed_distance_297",
-    "question": "Time Speed Distance — Question 297 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Ajay and Vijay start from the same point and walk at 4 km/h and 5 km/h respectively, in the same direction.What will be the distance between them after 2 hours?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2.5 km",
+      "3 km",
+      "2 km",
+      "4 km"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "2 km"
   },
   {
     "id": "maths_time_speed_distance_298",
-    "question": "Time Speed Distance — Question 298 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "An athlete runs a 300-meter race in 25 seconds. His speed in km/h is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "43.2 km/hr",
+      "32 km/hr",
+      "40 km/hr",
+      "38 km/hr"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "43.2 km/hr"
   },
   {
     "id": "maths_time_speed_distance_299",
-    "question": "Time Speed Distance — Question 299 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Ramesh walks at 5 km/h for 6 km and 6 km/h for 8 km. What is his average speed?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4.7 km/h",
+      "6 km/h",
+      "5 km/h",
+      "5.53 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "5.53 km/h"
   },
   {
     "id": "maths_time_speed_distance_300",
-    "question": "Time Speed Distance — Question 300 (add real content in datas/maths/time-speed-distance.json)",
+    "question": "Dhanush crosses a road 100 metres wide in 50 seconds. His speed in km/hr is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9 km/h",
+      "8.5 km/h",
+      "8 km/h",
+      "7.2 km/h"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Time Speed Distance."
+    "correctAnswer": "7.2 km/h"
   }
 ]

@@ -1678,1551 +1678,1422 @@
   },
   {
     "id": "maths_average_130",
-    "question": "Average — Question 130 (add real content in datas/maths/average.json)",
+    "question": "What is the average of all integers between 100 and 250 that are exactly divisible by 11?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "176",
+      "186",
+      "196",
+      "146"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "176"
   },
   {
     "id": "maths_average_131",
-    "question": "Average — Question 131 (add real content in datas/maths/average.json)",
+    "question": "The average of 15 numbers is 80. The average of the first 6 numbers is 72. The average of the next 6 numbers is 25% more than the average of the first 6 numbers. The 13th number is 8 more than the 15th number, and the 14th number is 10 less than the 15th number. What is the average of the 13th and 14th numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70.89",
+      "85",
+      "75.67",
+      "80.65"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "75.67"
   },
   {
     "id": "maths_average_132",
-    "question": "Average — Question 132 (add real content in datas/maths/average.json)",
+    "question": "The average of 11 numbers is 68. If the average of the first five is 63 and the average of the last five is 72, find the 6th number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "73",
+      "74",
+      "75",
+      "76"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "73"
   },
   {
     "id": "maths_average_133",
-    "question": "Average — Question 133 (add real content in datas/maths/average.json)",
+    "question": "What is the average of all integers between 300 and 450 that are exactly divisible by 13?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "277",
+      "377",
+      "477",
+      "577"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "377"
   },
   {
     "id": "maths_average_134",
-    "question": "Average — Question 134 (add real content in datas/maths/average.json)",
+    "question": "A batsman's average score for a certain number of innings is 44. If he scores 132 runs in the next innings, his average becomes 48. How many innings did he play earlier?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "21",
+      "22",
+      "23",
+      "24"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "21"
   },
   {
     "id": "maths_average_135",
-    "question": "Average — Question 135 (add real content in datas/maths/average.json)",
+    "question": "The average of 13 numbers is 70. The average of the first five numbers is 60. The average of the next five numbers is 25% higher than the average of the first five numbers. The 11th number is 6 less than the 13th number, and the 12th number is 4 greater than the 13th number. What is the average of the 11th and 12th numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "78",
+      "77",
+      "76",
+      "74"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "78"
   },
   {
     "id": "maths_average_136",
-    "question": "Average — Question 136 (add real content in datas/maths/average.json)",
+    "question": "The average salary of 24 employees is ₹40,000. The average salary of 8 senior staff is ₹60,000. What is the average salary for the other employees?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹30,000",
+      "₹40,000",
+      "₹50,000",
+      "₹60,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹30,000"
   },
   {
     "id": "maths_average_137",
-    "question": "Average — Question 137 (add real content in datas/maths/average.json)",
+    "question": "A cricketer's average in 10 innings is 58. If his highest score is excluded, the average drops to 54. What is his highest score?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "93",
+      "92",
+      "94",
+      "95"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "94"
   },
   {
     "id": "maths_average_138",
-    "question": "Average — Question 138 (add real content in datas/maths/average.json)",
+    "question": "The average age of 40 students in a class is 16 years. When a new student is admitted, the average increases by 0.2 years. What is the age of the new student?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24.2",
+      "20.2",
+      "19.2",
+      "16.2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "24.2"
   },
   {
     "id": "maths_average_139",
-    "question": "Average — Question 139 (add real content in datas/maths/average.json)",
+    "question": "The monthly average salary for 8 employees and one supervisor is Rs.15,000. If the supervisor earns Rs.25,000, what is the average salary of the 8 employees?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.14,750",
+      "Rs.13,000",
+      "Rs.13,750",
+      "Rs.13,500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "Rs.13,750"
   },
   {
     "id": "maths_average_140",
-    "question": "Average — Question 140 (add real content in datas/maths/average.json)",
+    "question": "A company has 80 employees, of whom 35% are women. The average monthly salary of the women is ₹72,000, while that of the men is ₹68,000. What is the overall average monthly salary (in ₹) of the whole workforce?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70.8",
+      "699.4",
+      "245.4",
+      "69.4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "69.4"
   },
   {
     "id": "maths_average_141",
-    "question": "Average — Question 141 (add real content in datas/maths/average.json)",
+    "question": "What is the average of all three-digit numbers divisible by 23?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "752",
+      "552",
+      "652",
+      "452"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "552"
   },
   {
     "id": "maths_average_142",
-    "question": "Average — Question 142 (add real content in datas/maths/average.json)",
+    "question": "If average weight of 12 people is 65 kg. If one person leaves and the new average becomes 64.5 kg, what is the weight of the person who left?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70.5",
+      "80.5",
+      "90.5",
+      "60.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "70.5"
   },
   {
     "id": "maths_average_143",
-    "question": "Average — Question 143 (add real content in datas/maths/average.json)",
+    "question": "What is the average of all numbers between 1000 and 1300 that are divisible by 25?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1150",
+      "1200",
+      "1575",
+      "1500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "1150"
   },
   {
     "id": "maths_average_144",
-    "question": "Average — Question 144 (add real content in datas/maths/average.json)",
+    "question": "There are 5 consecutive even numbers X1, X2, X3, X4, X5 and 4 consecutive odd numbers Y1, Y2, Y3, Y4. The average of the even numbers is 5 more than the average of the odd numbers. If the sum of the even numbers is 30 more than the sum of the odd numbers, find the average of the odd numbers.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "5"
   },
   {
     "id": "maths_average_145",
-    "question": "Average — Question 145 (add real content in datas/maths/average.json)",
+    "question": "The overall average salary for all employees in an office is ₹16,000. Officers earn an average salary of ₹28,000, while non-officers make an average of ₹10,000. If there are 15 officers, determine the number of non-officers.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "40",
+      "50",
+      "60"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "30"
   },
   {
     "id": "maths_average_146",
-    "question": "Average — Question 146 (add real content in datas/maths/average.json)",
+    "question": "The average of 9 numbers is 56. When one number is removed, the average becomes 54. What number was removed?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "52",
+      "72",
+      "82",
+      "92"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "72"
   },
   {
     "id": "maths_average_147",
-    "question": "Average — Question 147 (add real content in datas/maths/average.json)",
+    "question": "The average age of a committee of 9 members increases by 3 years when two men aged 42 and 44 years are replaced by two women. What is the average age of these two women?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "50.5 years",
+      "46.5 years",
+      "56.5 years",
+      "60.5 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "56.5 years"
   },
   {
     "id": "maths_average_148",
-    "question": "Average — Question 148 (add real content in datas/maths/average.json)",
+    "question": "There are 6 consecutive integers and 5 consecutive integers. The average of the 6 integers is 2 less than the average of the 5 integers. The sum of the 5 integers is 4 more than the sum of the 6 integers. Find the average of the 6 integers.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "5",
+      "4",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "6"
   },
   {
     "id": "maths_average_149",
-    "question": "Average — Question 149 (add real content in datas/maths/average.json)",
+    "question": "The average age of 19 students is 17 years. A teacher joins the group and the average becomes 18 years. What is the teacher's age?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "27",
+      "37",
+      "47",
+      "57"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "37"
   },
   {
     "id": "maths_average_150",
-    "question": "Average — Question 150 (add real content in datas/maths/average.json)",
+    "question": "In a team of 80 employees, the average salary is ₹62000. If 30 of them earn an average salary of ₹72000, what is the average salary of the remaining employees?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹60000",
+      "₹50000",
+      "₹86000",
+      "₹56000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹56000"
   },
   {
     "id": "maths_average_151",
-    "question": "Average — Question 151 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 30 students is 60 kg. If one student is removed, the average drops to 59.5 kg. What is the weight of the removed student?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "74.5 kg",
+      "84.5 kg",
+      "70.5 kg",
+      "16.5 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "74.5 kg"
   },
   {
     "id": "maths_average_152",
-    "question": "Average — Question 152 (add real content in datas/maths/average.json)",
+    "question": "In a group of 40 boys, the average height was initially determined to be 160 cm. However, it was later discovered that the height of one boy was incorrectly recorded as 165 cm when it should have been 156 cm. Calculate the accurate average height.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "129.675 cm",
+      "150.845 cm",
+      "159.775 cm",
+      "179.275 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "159.775 cm"
   },
   {
     "id": "maths_average_153",
-    "question": "Average — Question 153 (add real content in datas/maths/average.json)",
+    "question": "The average of a group of 8 consecutive even numbers is 41. What is the sum of the smallest and largest numbers in the group?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "78",
+      "80",
+      "82",
+      "84"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "82"
   },
   {
     "id": "maths_average_154",
-    "question": "Average — Question 154 (add real content in datas/maths/average.json)",
+    "question": "The average of a group of 11 numbers is 61. If the first six numbers have an average of 57 and the last six numbers have an average of 65, what is the sixth number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "62",
+      "61",
+      "64",
+      "60"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "61"
   },
   {
     "id": "maths_average_155",
-    "question": "Average — Question 155 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 10 boxes is 15.5 kg. If the heaviest box weighs 21 kg and the lightest weighs 10 kg, what is the average weight of the remaining boxes?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15.8 kg",
+      "15.5 kg",
+      "15.7 kg",
+      "15.3 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "15.5 kg"
   },
   {
     "id": "maths_average_156",
-    "question": "Average — Question 156 (add real content in datas/maths/average.json)",
+    "question": "The average of x and y is 30. The average of x, y, and z is 40. What is the average of x, y, and 2z?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "50",
+      "55",
+      "60",
+      "65"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60"
   },
   {
     "id": "maths_average_157",
-    "question": "Average — Question 157 (add real content in datas/maths/average.json)",
+    "question": "The average salary of 40 workers in a factory is ₹24,000. If the salary of a supervisor is added, the average rises to ₹24,500. What is the supervisor's salary?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹44,000",
+      "₹54,000",
+      "₹44,500",
+      "₹54,500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹44,500"
   },
   {
     "id": "maths_average_158",
-    "question": "Average — Question 158 (add real content in datas/maths/average.json)",
+    "question": "A trader bought 5 varieties of rice whose weights are in the ratio 2: 3: 4: 5: 6. Their respective prices per kg are ₹40, ₹42, ₹45, ₹48 and ₹50. What is the average cost per kg of the mixture?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹46.8",
+      "₹44.1",
+      "₹44.8",
+      "₹46.3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹46.3"
   },
   {
     "id": "maths_average_159",
-    "question": "Average — Question 159 (add real content in datas/maths/average.json)",
+    "question": "The average marks of 30 students in a class is 62. If the marks of one student were wrongly entered as 82 instead of 62, what is the CORRECT average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "61.33",
+      "61.67",
+      "61",
+      "60.35"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "61.33"
   },
   {
     "id": "maths_average_160",
-    "question": "Average — Question 160 (add real content in datas/maths/average.json)",
+    "question": "The average of a certain number of quantities is 45. If 5 is added to each quantity, what will be the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "50",
+      "40",
+      "55"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "50"
   },
   {
     "id": "maths_average_161",
-    "question": "Average — Question 161 (add real content in datas/maths/average.json)",
+    "question": "A group of 5 friends went to a restaurant. If 4 of them paid ₹200 each and the fifth paid ₹x, the average bill per person came out to be ₹210. What is the value of x?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹250",
+      "₹270",
+      "₹260",
+      "₹280"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹250"
   },
   {
     "id": "maths_average_162",
-    "question": "Average — Question 162 (add real content in datas/maths/average.json)",
+    "question": "A group of 6 students went on a trip and spent ₹1200 in total. If one of them spent ₹300 while the rest spent equally, what was the average spending of the other 5 students?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹180",
+      "₹200",
+      "₹220",
+      "₹240"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹180"
   },
   {
     "id": "maths_average_163",
-    "question": "Average — Question 163 (add real content in datas/maths/average.json)",
+    "question": "A student took 7 tests and had an average of 72. If his average after 8 tests increased to 73, what was his score on the 8th test?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "79",
+      "78",
+      "80",
+      "81"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "80"
   },
   {
     "id": "maths_average_164",
-    "question": "Average — Question 164 (add real content in datas/maths/average.json)",
+    "question": "The average of 5 different numbers is 24. If the smallest number is 15, what is the average of the remaining four numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "27.25",
+      "26.25",
+      "25.5",
+      "24.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "26.25"
   },
   {
     "id": "maths_average_165",
-    "question": "Average — Question 165 (add real content in datas/maths/average.json)",
+    "question": "The average score of 25 students in a test is 68. The top 5 scorers had an average of 80, and the lowest 5 had an average of 50. What is the average of the remaining 15 students?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70",
+      "68",
+      "72",
+      "66"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "70"
   },
   {
     "id": "maths_average_166",
-    "question": "Average — Question 166 (add real content in datas/maths/average.json)",
+    "question": "A cricketer has played 8 innings with an average score of 40. In the next inning, he scores 80. What will be the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "40.44",
+      "46.44",
+      "44.44",
+      "48.44"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "44.44"
   },
   {
     "id": "maths_average_167",
-    "question": "Average — Question 167 (add real content in datas/maths/average.json)",
+    "question": "In a company, the average salary of 5 junior employees is ₹30,000, and that of 4 senior employees is ₹60,000. What is the combined average salary?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹30,333.33",
+      "₹33,000.33",
+      "₹33,333.33",
+      "₹43,333.33"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹43,333.33"
   },
   {
     "id": "maths_average_168",
-    "question": "Average — Question 168 (add real content in datas/maths/average.json)",
+    "question": "In a company, the average salary of 5 engineers is Rs.60,000. If one engineer leaves and the average salary becomes Rs.58,000, what was the salary of the engineer who left?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rs.70,000",
+      "Rs.68,000",
+      "Rs.64,000",
+      "Rs.62,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "Rs.68,000"
   },
   {
     "id": "maths_average_169",
-    "question": "Average — Question 169 (add real content in datas/maths/average.json)",
+    "question": "The average of 9 numbers is 63. When one number is removed, the average becomes 60. What number was removed?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "87",
+      "90",
+      "84",
+      "78"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "87"
   },
   {
     "id": "maths_average_170",
-    "question": "Average — Question 170 (add real content in datas/maths/average.json)",
+    "question": "The average of three numbers is 35. The first number is 20% more than the second, and the third is 20% less than the second. What is the second number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "35",
+      "36",
+      "37.5",
+      "40"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "35"
   },
   {
     "id": "maths_average_171",
-    "question": "Average — Question 171 (add real content in datas/maths/average.json)",
+    "question": "If the average of ten numbers is 50 and the average of the first six numbers is 45, what is the average of the last four numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "55",
+      "62.5",
+      "60",
+      "57.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "57.5"
   },
   {
     "id": "maths_average_172",
-    "question": "Average — Question 172 (add real content in datas/maths/average.json)",
+    "question": "An investor tracks 5 stocks. Four of them have an average return of 8%. If the overall average return is 9%, what was the return on the fifth stock?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "14%",
+      "13%",
+      "12%",
+      "11%"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "13%"
   },
   {
     "id": "maths_average_173",
-    "question": "Average — Question 173 (add real content in datas/maths/average.json)",
+    "question": "The average score of a batsman in 20 innings is 42. If his highest score of 120 is excluded, what is the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "37.89",
+      "38.89",
+      "39.89",
+      "36.89"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "37.89"
   },
   {
     "id": "maths_average_174",
-    "question": "Average — Question 174 (add real content in datas/maths/average.json)",
+    "question": "The average of 8 numbers is 56. If two of them are removed and the new average becomes 54, what is the average of the two removed numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "60",
+      "61",
+      "62",
+      "63"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "62"
   },
   {
     "id": "maths_average_175",
-    "question": "Average — Question 175 (add real content in datas/maths/average.json)",
+    "question": "A class of 60 students has an average score of 75. If 5 new students are added and the class average increases by 1, what is the average score of the 5 new students?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "90",
+      "85",
+      "80",
+      "88"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "88"
   },
   {
     "id": "maths_average_176",
-    "question": "Average — Question 176 (add real content in datas/maths/average.json)",
+    "question": "The average age of 10 students in a class increases by 1 year when a 30-year-old teacher joins them. What was the original average age of the students?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18",
+      "19",
+      "20",
+      "21"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "19"
   },
   {
     "id": "maths_average_177",
-    "question": "Average — Question 177 (add real content in datas/maths/average.json)",
+    "question": "The average temperature of a city from Monday to Friday is 40°C. If the temperature on Saturday is 45°C, what will be the average temperature from Monday to Saturday?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "41.35° C",
+      "42° C",
+      "40.83° C",
+      "41° C"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "40.83° C"
   },
   {
     "id": "maths_average_178",
-    "question": "Average — Question 178 (add real content in datas/maths/average.json)",
+    "question": "The average marks of 30 students is 55. if one student who scored 40 is replaced by another who scored 70, what will be the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "56",
+      "58",
+      "60",
+      "62"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "56"
   },
   {
     "id": "maths_average_179",
-    "question": "Average — Question 179 (add real content in datas/maths/average.json)",
+    "question": "The average of 50 numbers was calculated as 38. Later it was found that two numbers were wrongly taken as 33 and 27 instead of 23 and 17. What is the correct average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "39",
+      "38.2",
+      "37.6",
+      "36"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "37.6"
   },
   {
     "id": "maths_average_180",
-    "question": "Average — Question 180 (add real content in datas/maths/average.json)",
+    "question": "If the average of 14 consecutive even numbers is 107, find the smallest number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "93",
+      "94",
+      "92",
+      "98"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "94"
   },
   {
     "id": "maths_average_181",
-    "question": "Average — Question 181 (add real content in datas/maths/average.json)",
+    "question": "The average of 8 numbers is 45. If each of the first 4 numbers is increased by 5 and each of the last 4 numbers is decreased by 3, what will be the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "47",
+      "46",
+      "48"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "46"
   },
   {
     "id": "maths_average_182",
-    "question": "Average — Question 182 (add real content in datas/maths/average.json)",
+    "question": "The average age of 20 students is 18 years. A group of 5 new students joins, increasing the average to 20 years. Find the average age of the 5 new students.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "32",
+      "28",
+      "34"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "28"
   },
   {
     "id": "maths_average_183",
-    "question": "Average — Question 183 (add real content in datas/maths/average.json)",
+    "question": "In a group of 7 students, 4 boys and 3 girls spent an average of ₹120 each. If the average spending of the boys was ₹150, what was the average spending of the girls?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹70",
+      "₹90",
+      "₹80",
+      "₹100"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹80"
   },
   {
     "id": "maths_average_184",
-    "question": "Average — Question 184 (add real content in datas/maths/average.json)",
+    "question": "The average of 11 numbers is 50. If the first six numbers have an average of 49 and the last six numbers have an average of 52, find the middle number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "47",
+      "56",
+      "53",
+      "50"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "56"
   },
   {
     "id": "maths_average_185",
-    "question": "Average — Question 185 (add real content in datas/maths/average.json)",
+    "question": "A teacher calculated the average marks of 15 students in a test as 72.4. Later, she found that the marks of one student were wrongly entered as 68.9 instead of 86.3. After correcting the error, what is the correct average mark of the class?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "73.25",
+      "73.56",
+      "72.98",
+      "73.00"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "73.56"
   },
   {
     "id": "maths_average_186",
-    "question": "Average — Question 186 (add real content in datas/maths/average.json)",
+    "question": "A student scored 20% more marks in Math than in Science. If the average of his marks in both subjects is 66, what are his marks in Science?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "62",
+      "66",
+      "58",
+      "60"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60"
   },
   {
     "id": "maths_average_187",
-    "question": "Average — Question 187 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 30 students is 60 kg. when the teacher's weight is included, the average becoms 61 kg. what is the weight of the teacher?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "91 kg",
+      "90 kg",
+      "89 kg",
+      "88 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "91 kg"
   },
   {
     "id": "maths_average_188",
-    "question": "Average — Question 188 (add real content in datas/maths/average.json)",
+    "question": "A school had 120 students with an average age of 20 years. Later, a new batch of students joined. After their inclusion, the average age dropped to 19.5 years, even though the newcomers had an average age of 18 years. Find the number of students in the new batch.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "35",
+      "40",
+      "45"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "40"
   },
   {
     "id": "maths_average_189",
-    "question": "Average — Question 189 (add real content in datas/maths/average.json)",
+    "question": "A company had 4 departments with an average of 45 employees each. Later, a fifth department was added with 90 employees. Due to restructuring, 10 employees from each of the original four departments were transferred to the new department. What is the new average number of employees per department?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "54",
+      "52",
+      "50",
+      "56"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "56"
   },
   {
     "id": "maths_average_190",
-    "question": "Average — Question 190 (add real content in datas/maths/average.json)",
+    "question": "The average marks of 15 students in a science laboratory practical were 64. Later, it was found that the marks of one student was wrongly taken as 58 instead of 85. After correcting the mistake, the average increases. Now, one new student joins whose marks are 10% more than the new average. What is the final average of the group?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "66.13",
+      "66.21",
+      "66.33",
+      "65.80"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "66.21"
   },
   {
     "id": "maths_average_191",
-    "question": "Average — Question 191 (add real content in datas/maths/average.json)",
+    "question": "The average of 15 numbers is 28. If each number is doubled and then 5 is added to each, what will be the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "58",
+      "62",
+      "61",
+      "64"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "61"
   },
   {
     "id": "maths_average_192",
-    "question": "Average — Question 192 (add real content in datas/maths/average.json)",
+    "question": "In a warehouse, there are 3 stacks of bricks. The average weight of the bricks in stack A is 112.5 kg, in stack B is 118.75 kg, and in stack C is 107.25 kg. If stack A has 12 bricks, stack B has 8 bricks, and stack C has 16 bricks, find the overall average weight of all bricks in the warehouse.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "111.55 kg",
+      "110.25 kg",
+      "113.75 kg",
+      "109.85 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "111.55 kg"
   },
   {
     "id": "maths_average_193",
-    "question": "Average — Question 193 (add real content in datas/maths/average.json)",
+    "question": "The average of 5 consecutive even number is 46. If the next 3 consecutive even numbers are added, what is the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "48",
+      "49",
+      "50",
+      "51"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "50"
   },
   {
     "id": "maths_average_194",
-    "question": "Average — Question 194 (add real content in datas/maths/average.json)",
+    "question": "The average of 20 numbers is 45. If each number is decreased by 7, what will be the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "38",
+      "40",
+      "36",
+      "34"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "38"
   },
   {
     "id": "maths_average_195",
-    "question": "Average — Question 195 (add real content in datas/maths/average.json)",
+    "question": "The average salary of employees in a company is ₹20000. If a new employee with a salary of ₹50000 joins, the average increases by ₹500. Find the number of employees originally in the company.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "59",
+      "55",
+      "60",
+      "65"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "59"
   },
   {
     "id": "maths_average_196",
-    "question": "Average — Question 196 (add real content in datas/maths/average.json)",
+    "question": "The average of 9 numbers is 63. If the average of the first 4 numbers is 60 and the average of the last 4 numbers is 66, what is the fifth number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "63",
+      "69",
+      "67",
+      "65"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "63"
   },
   {
     "id": "maths_average_197",
-    "question": "Average — Question 197 (add real content in datas/maths/average.json)",
+    "question": "A batsman typically scores 40 runs in 20 innings. To raise his average by two, how many runs does he need to score in the twenty–first inning?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "80",
+      "82",
+      "79",
+      "86"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "82"
   },
   {
     "id": "maths_average_198",
-    "question": "Average — Question 198 (add real content in datas/maths/average.json)",
+    "question": "'P', 'Q', 'R' and 'S' have different amounts. 'Q' has 2.5 times the amount 'P' has. 'S' has 40% less than 'Q'. The amount 'R' has equals the average of all four persons. If the sum of amounts 'P' and 'R' is ₹4800, find the amount 'R' has:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹5200",
+      "₹1800",
+      "₹4200",
+      "₹3000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹3000"
   },
   {
     "id": "maths_average_199",
-    "question": "Average — Question 199 (add real content in datas/maths/average.json)",
+    "question": "The average score of 36 students is 40. When a group of 12 new students joins, the average rises to 44. Find the average score of the new students.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "60",
+      "56",
+      "58",
+      "64"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "56"
   },
   {
     "id": "maths_average_200",
-    "question": "Average — Question 200 (add real content in datas/maths/average.json)",
+    "question": "The average monthly salary of employees in a company is ₹40,000. When 4 new employees with average salary ₹25,000 join, the average salary of the whole company decreases by ₹3,000. Find the original number of employees.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16",
+      "14",
+      "12",
+      "20"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "16"
   },
   {
     "id": "maths_average_201",
-    "question": "Average — Question 201 (add real content in datas/maths/average.json)",
+    "question": "In a digital learning centre, there are three types of online tests. The average score of a student in the first and second test is 82.6. The average score in the second and third test is 84.2. The average of the first and third test is 80.4. If the student scored 2.5 marks less in the third test than in the first, find the marks obtained in the second test.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "83.25",
+      "83.55",
+      "82.95",
+      "84.05"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "83.55"
   },
   {
     "id": "maths_average_202",
-    "question": "Average — Question 202 (add real content in datas/maths/average.json)",
+    "question": "The average of 8 numbers is 26. If one number is excluded, the average becomes 25. Find the excluded number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "34",
+      "40",
+      "33",
+      "32"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "33"
   },
   {
     "id": "maths_average_203",
-    "question": "Average — Question 203 (add real content in datas/maths/average.json)",
+    "question": "The average of four numbers is 44. The average of the first and second is 40, and that of the third and fourth is 48. What is the second number, if the first is 36?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44",
+      "46",
+      "40",
+      "38"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "44"
   },
   {
     "id": "maths_average_204",
-    "question": "Average — Question 204 (add real content in datas/maths/average.json)",
+    "question": "Average of 5 consecutive even numbers is 24. Find the largest number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "28",
+      "26",
+      "32"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "28"
   },
   {
     "id": "maths_average_205",
-    "question": "Average — Question 205 (add real content in datas/maths/average.json)",
+    "question": "The average score of 4 innings is 50 runs. If the difference between the highest and lowest score is 30 and the remaining two scores are 48 and 52, find the highest score.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "65",
+      "66",
+      "68",
+      "70"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "65"
   },
   {
     "id": "maths_average_206",
-    "question": "Average — Question 206 (add real content in datas/maths/average.json)",
+    "question": "Average of first 10 odd numbers is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10",
+      "11",
+      "9",
+      "12"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "10"
   },
   {
     "id": "maths_average_207",
-    "question": "Average — Question 207 (add real content in datas/maths/average.json)",
+    "question": "The average marks of 12 students in a mathematics test are 63.5. Later, it was found that one student's score was misread as 56 instead of 65. After correcting this error, another student's marks were removed for being invalid, and the average of the remaining. 11 students rose to 64.2. Find the marks of the student whose score was removed.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "63.5",
+      "64.2",
+      "64.8",
+      "65.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "64.8"
   },
   {
     "id": "maths_average_208",
-    "question": "Average — Question 208 (add real content in datas/maths/average.json)",
+    "question": "In a class of a certain number of students, if a student weighing 30 kg joins, the average weight increases by 1 kg. If another student weighing 30 kg joins, the average increases by 1.5 kg over the original average. What was the original average weight of the class?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24 kg",
+      "27 kg",
+      "29 kg",
+      "31 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "27 kg"
   },
   {
     "id": "maths_average_209",
-    "question": "Average — Question 209 (add real content in datas/maths/average.json)",
+    "question": "Average of 20 results is 35. Later, it was found one score 45 was misread as 25. What is the correct average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "36",
+      "37",
+      "38",
+      "39"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "36"
   },
   {
     "id": "maths_average_210",
-    "question": "Average — Question 210 (add real content in datas/maths/average.json)",
+    "question": "The average of the squares of the first 10 natural numbers is A. If each number is doubled first, and then squared, what is the new average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "157",
+      "148",
+      "154",
+      "152"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "154"
   },
   {
     "id": "maths_average_211",
-    "question": "Average — Question 211 (add real content in datas/maths/average.json)",
+    "question": "The average age of a group of 4 people increased by 2 years when one person aged 24 years leaves and another person joins. What is the age of the new person?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24 years",
+      "32 years",
+      "28 years",
+      "36 years"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "32 years"
   },
   {
     "id": "maths_average_212",
-    "question": "Average — Question 212 (add real content in datas/maths/average.json)",
+    "question": "The average of 9 numbers is 72. The difference between the highest and lowest number is 54. If the highest number is excluded, the average of the remaining 8 numbers drops by 3. What is the lowest number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "42",
+      "30",
+      "33",
+      "36"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "42"
   },
   {
     "id": "maths_average_213",
-    "question": "Average — Question 213 (add real content in datas/maths/average.json)",
+    "question": "If average of x, x + 2, x + 4 is 10, find x.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "8",
+      "7",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "8"
   },
   {
     "id": "maths_average_214",
-    "question": "Average — Question 214 (add real content in datas/maths/average.json)",
+    "question": "A student's average marks in 4 subjects is 75. What should be his score in the fifth subject to get an overall average of 78?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "90",
+      "93",
+      "96",
+      "99"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "90"
   },
   {
     "id": "maths_average_215",
-    "question": "Average — Question 215 (add real content in datas/maths/average.json)",
+    "question": "The average of 6 numbers is 18. If two numbers 14 and 22 are removed, what is the new average of the remaining numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18",
+      "17",
+      "16",
+      "15"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "18"
   },
   {
     "id": "maths_average_216",
-    "question": "Average — Question 216 (add real content in datas/maths/average.json)",
+    "question": "The average of 8 consecutive odd numbers starting from 11 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18",
+      "19",
+      "20",
+      "21"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "18"
   },
   {
     "id": "maths_average_217",
-    "question": "Average — Question 217 (add real content in datas/maths/average.json)",
+    "question": "At a cultural club, 4 events were organized. The average attendance for the first two events was 152.5 people. The next two events had an average of 198.5 people. Later, due to a correction, it was found that the attendance at one of the first two events was 12 more than what was originally recorded, and one of the last two events was 9 less. Find the corrected overall average attendance for all 4 events.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "175.50",
+      "176.25",
+      "174.75",
+      "177.00"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "176.25"
   },
   {
     "id": "maths_average_218",
-    "question": "Average — Question 218 (add real content in datas/maths/average.json)",
+    "question": "In a college, there are 600 faculty members, out of which 40% are females. The average height of males is 170 cm, and the average height of females is 160 cm. What is the average height of the entire faculty?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "164 cm",
+      "166 cm",
+      "169 cm",
+      "172 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "166 cm"
   },
   {
     "id": "maths_average_219",
-    "question": "Average — Question 219 (add real content in datas/maths/average.json)",
+    "question": "There are 15 numbers. The average of all 15 is 20. The average of the first 9 numbers is 18. The average of the last 7 numbers is 24. What is the 9th number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "28",
+      "24",
+      "30",
+      "32"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "30"
   },
   {
     "id": "maths_average_220",
-    "question": "Average — Question 220 (add real content in datas/maths/average.json)",
+    "question": "Five hundred real numbers have an average of zero. How many of them can be negative, at most?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "250",
+      "499",
+      "400",
+      "398"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "499"
   },
   {
     "id": "maths_average_221",
-    "question": "Average — Question 221 (add real content in datas/maths/average.json)",
+    "question": "In a warehouse, 7 crates of goods have an average weight of 84.5 kg. One of the crates, weighing 79.2 kg, is replaced by a new crate. As a result, the average weight becomes 87.1 kg. Later, 3 more crates are added, each weighing 91.3 kg. What is the weight of the new crate that replaced the old one?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "96.8 kg",
+      "98.1 kg",
+      "97.4 kg",
+      "95.7 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "97.4 kg"
   },
   {
     "id": "maths_average_222",
-    "question": "Average — Question 222 (add real content in datas/maths/average.json)",
+    "question": "A factory hired 9 workers and found that their average productivity per day was 42.75 units. Later, 3 more workers were hired. The average productivity of all 12 workers then became 45.5 units. However, one of the new 3 workers made 52.2 units daily, and another made 48.4 units daily. What is the daily productivity of the third new worker?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "59.35",
+      "60.65",
+      "61.75",
+      "63.25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60.65"
   },
   {
     "id": "maths_average_223",
-    "question": "Average — Question 223 (add real content in datas/maths/average.json)",
+    "question": "The average of 20 numbers is 45. If 50% of the numbers are increased by 4 each and the remaining 50% are decreased by 6 each, what is the new average of the numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44",
+      "46",
+      "49",
+      "47"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "44"
   },
   {
     "id": "maths_average_224",
-    "question": "Average — Question 224 (add real content in datas/maths/average.json)",
+    "question": "In a class of 50 students, the marks of 49 students are given and their average marks are 70. The teacher then added the marks of the 50th student and the new average became 71. What were the marks of the 50th student?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "100",
+      "110",
+      "120",
+      "125"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "120"
   },
   {
     "id": "maths_average_225",
-    "question": "Average — Question 225 (add real content in datas/maths/average.json)",
+    "question": "The average of five numbers is 48. When one number is removed, the average of the remaining four numbers becomes 45. what is the value of the number that was excluded?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "60",
+      "63",
+      "65",
+      "66"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "60"
   },
   {
     "id": "maths_average_226",
-    "question": "Average — Question 226 (add real content in datas/maths/average.json)",
+    "question": "The average marks of 25 students, is 48. Later, 5 new students join the group, each scoring 60 marks. After that, the teacher finds that one of the original student's marks was wrongly entered as 40 instead of 70. Find the final average marks of the class?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "52",
+      "54",
+      "51",
+      "57"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "51"
   },
   {
     "id": "maths_average_227",
-    "question": "Average — Question 227 (add real content in datas/maths/average.json)",
+    "question": "The average marks of 40 students in a class is 72. Later, it was discovered that a student's marks were recorded as 93 instead of 39. What is the correct average?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70.85",
+      "70.65",
+      "71.95",
+      "71.85"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "70.65"
   },
   {
     "id": "maths_average_228",
-    "question": "Average — Question 228 (add real content in datas/maths/average.json)",
+    "question": "The average of 7 numbers is 81. If the average of the first 3 is 87 and last 3 is 78, what is the 4th number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70",
+      "72",
+      "75",
+      "78"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "72"
   },
   {
     "id": "maths_average_229",
-    "question": "Average — Question 229 (add real content in datas/maths/average.json)",
+    "question": "The average of 5 consecutive odd natural numbers is 37. Previous 5 consecutive odd natural numbers to these 5 odd natural numbers are also included. What will be the average of newly added numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "21",
+      "23",
+      "27",
+      "19"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "27"
   },
   {
     "id": "maths_average_230",
-    "question": "Average — Question 230 (add real content in datas/maths/average.json)",
+    "question": "There are 4 numbers N1, N2, N3 and N4. Average of N1, N2 and N3 is 30. Average of N2, N3 and N4 is 26. Value of N1 is 28. What is the value of N4?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18",
+      "16",
+      "17",
+      "14"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "16"
   },
   {
     "id": "maths_average_231",
-    "question": "Average — Question 231 (add real content in datas/maths/average.json)",
+    "question": "The average of 5 consecutive odd natural numbers is 27. Previous 5 consecutive odd natural numbers to these 5 odd natural numbers are also included. What will be the average of newly added numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9",
+      "17",
+      "15",
+      "11"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "17"
   },
   {
     "id": "maths_average_232",
-    "question": "Average — Question 232 (add real content in datas/maths/average.json)",
+    "question": "Average age of group A of 20 students is 40 years. Average age of group B of 40 students is 'x' years. Combined average age of group A and group B is 50 years. What is the value of 'x'?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "55",
+      "45",
+      "48",
+      "52"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "55"
   },
   {
     "id": "maths_average_233",
-    "question": "Average — Question 233 (add real content in datas/maths/average.json)",
+    "question": "The average of 5 consecutive odd natural numbers is 47. previous 5 consecutive odd natural numbers to these 5 odd natural numbers are also include. What will be the average of newly added numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "33",
+      "39",
+      "37",
+      "35"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "37"
   },
   {
     "id": "maths_average_234",
-    "question": "Average — Question 234 (add real content in datas/maths/average.json)",
+    "question": "There are 14 players in a team. Average age of these 14 players is 'X'. 5 new players joined the team. There is no change in the average age of the team. What is the total age of these 5 players?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4X",
+      "2X",
+      "3X",
+      "5X"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "5X"
   },
   {
     "id": "maths_average_235",
-    "question": "Average — Question 235 (add real content in datas/maths/average.json)",
+    "question": "Average age of group A of 10 students is 20 years. Average age of group B of 20 students is 'x' years. Combined average age of group A and group B is 34 years. What is the value of 'x'?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44",
+      "41",
+      "45",
+      "38"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "41"
   },
   {
     "id": "maths_average_236",
-    "question": "Average — Question 236 (add real content in datas/maths/average.json)",
+    "question": "Average of consecutive even natural numbers from 2 to 'N' is 36. What is the value of 'N'? (where N is an even natural number)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "72",
+      "70",
+      "68",
+      "66"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "70"
   },
   {
     "id": "maths_average_237",
-    "question": "Average — Question 237 (add real content in datas/maths/average.json)",
+    "question": "4 numbers are in arithmetic progression. Sum of first and last number of this progression is 64. What is the average of these 4 numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "28",
+      "34",
+      "24",
+      "32"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "32"
   },
   {
     "id": "maths_average_238",
-    "question": "Average — Question 238 (add real content in datas/maths/average.json)",
+    "question": "In a community library, there are three sections: Fiction, Non-Fiction, and Children's books. The average number of books in the Fiction and Non- Fiction sections is 1,275. The average number of books in the Non-Fiction and Children's sections is 1,450. If the total number of books in all three sections is 3,900, find the number of books in the Non-Fiction section.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1600",
+      "1550",
+      "1500",
+      "1575"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "1550"
   },
   {
     "id": "maths_average_239",
-    "question": "Average — Question 239 (add real content in datas/maths/average.json)",
+    "question": "A group of 12 students appeared for a physics test. The average of the top 6 scores was 84.5, and the average of the bottom 6 scores was 72.75. Later, it was found that a decimal error had occurred, and one of the scores from the bottom half was mistakenly recorded as 58.2 instead of 85.2. What is the corrected overall average of the group?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "80.25",
+      "79.95",
+      "81.00",
+      "80.875"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "80.875"
   },
   {
     "id": "maths_average_240",
-    "question": "Average — Question 240 (add real content in datas/maths/average.json)",
+    "question": "The average of 20 numbers is 40. If the sum of the first 10 numbers is 380, what is the average of the remaining 10 numbers ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "42",
+      "40",
+      "44",
+      "38"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "42"
   },
   {
     "id": "maths_average_241",
-    "question": "Average — Question 241 (add real content in datas/maths/average.json)",
+    "question": "The average of 6 positive numbers is 10. If one number is excluded, the average becomes 9. What is the excluded number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15",
+      "14",
+      "12",
+      "16"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "15"
   },
   {
     "id": "maths_average_242",
-    "question": "Average — Question 242 (add real content in datas/maths/average.json)",
+    "question": "A student scores an average of 70 marks in the first 4 tests. What marks must he score in the 5th test to have an overall average of 75?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "90",
+      "95",
+      "85",
+      "80"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "95"
   },
   {
     "id": "maths_average_243",
-    "question": "Average — Question 243 (add real content in datas/maths/average.json)",
+    "question": "A shopkeeper sells 5 types of fruits. The average cost of each fruit is ₹40. What is the total cost of all fruits?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹210",
+      "₹180",
+      "₹200",
+      "₹220"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "₹200"
   },
   {
     "id": "maths_average_244",
-    "question": "Average — Question 244 (add real content in datas/maths/average.json)",
+    "question": "The average of 5 numbers is 20. What is the sum of these numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "90",
+      "80",
+      "100",
+      "120"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "100"
   },
   {
     "id": "maths_average_245",
-    "question": "Average — Question 245 (add real content in datas/maths/average.json)",
+    "question": "The average age of a class of 30 students is 15 years. If the teacher's age is included, the average becomes 16 years. Find the teacher's age in years.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "44",
+      "46",
+      "48",
+      "50"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "46"
   },
   {
     "id": "maths_average_246",
-    "question": "Average — Question 246 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 5 boys is 60 kg. If one boy weighing 75 kg leaves, what is the new average weight?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "56.25 kg",
+      "57.5 kg",
+      "58.75 kg",
+      "59 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "56.25 kg"
   },
   {
     "id": "maths_average_247",
-    "question": "Average — Question 247 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 7 boxes is 12 kg. What is the total weight?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "74 kg",
+      "72 kg",
+      "78 kg",
+      "84 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "84 kg"
   },
   {
     "id": "maths_average_248",
-    "question": "Average — Question 248 (add real content in datas/maths/average.json)",
+    "question": "The average age of a group of 24 students is 15 years. If a student aged 9 years leaves the group, what will be the new average age? S",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10.26",
+      "18.26",
+      "15.26",
+      "25.26"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "15.26"
   },
   {
     "id": "maths_average_249",
-    "question": "Average — Question 249 (add real content in datas/maths/average.json)",
+    "question": "The average age of a group of 8 people increases by 2 years when a person aged 14 is replaced by a new person. Find the age of the new person?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "40",
+      "50",
+      "60"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "30"
   },
   {
     "id": "maths_average_250",
-    "question": "Average — Question 250 (add real content in datas/maths/average.json)",
+    "question": "The average age of a group of 8 people increases by 2 years when a person aged 14 years is replaced by a new person. Find the age of the new person.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30",
+      "40",
+      "50",
+      "60"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "30"
   },
   {
     "id": "maths_average_251",
-    "question": "Average — Question 251 (add real content in datas/maths/average.json)",
+    "question": "The average of 5 numbers is 72. The average of the first three is 70 and the last three in 75. What is the third number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "65",
+      "75",
+      "85",
+      "95"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "75"
   },
   {
     "id": "maths_average_252",
-    "question": "Average — Question 252 (add real content in datas/maths/average.json)",
+    "question": "The mean of five consecutive odd numbers is 61. What is the smallest of these numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "57",
+      "67",
+      "97",
+      "87"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "57"
   },
   {
     "id": "maths_average_253",
-    "question": "Average — Question 253 (add real content in datas/maths/average.json)",
+    "question": "The average weight of 40 boys is 52 kg. If the weight of the teacher is added, the new average becomes 52.5 kg. What is the teacher's weight?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "272.5 kg",
+      "172.5 kg",
+      "72.5 kg",
+      "82.5 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "72.5 kg"
   },
   {
     "id": "maths_average_254",
-    "question": "Average — Question 254 (add real content in datas/maths/average.json)",
+    "question": "The average height of 30 trees in a garden is 15 feet. If the average height of 18 trees is 16 feet, what is the average height of the remaining 12 trees?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13.5 feet",
+      "25.6 feet",
+      "15.6 feet",
+      "18.9 feet"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "13.5 feet"
   },
   {
     "id": "maths_average_255",
-    "question": "Average — Question 255 (add real content in datas/maths/average.json)",
+    "question": "The average of 7 numbers is 21. If one of the numbers is increased by 14, by how much does the average increase?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "2"
   },
   {
     "id": "maths_average_256",
-    "question": "Average — Question 256 (add real content in datas/maths/average.json)",
+    "question": "The mean age of 15 people is 32. If 3 people with an average age of 30 are replaced by 3 new people, and the new average becomes 33, what is the average age of the new group of 3 people?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "38",
+      "39",
+      "40",
+      "35"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "35"
   },
   {
     "id": "maths_average_257",
-    "question": "Average — Question 257 (add real content in datas/maths/average.json)",
+    "question": "Average of consecutive natural numbers from 20 to 'N' is 44. What is the value of N. (Where N is a natural number)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "75",
+      "73",
+      "68",
+      "70"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "68"
   },
   {
     "id": "maths_average_258",
-    "question": "Average — Question 258 (add real content in datas/maths/average.json)",
+    "question": "The average of 17 consecutive natural numbers is 30. 5 previous consecutive natural numbers to these 17 natural numbers are also included. What is the smallest number among these 22 numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13",
+      "14",
+      "16",
+      "17"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Average."
+    "correctAnswer": "17"
   },
   {
     "id": "maths_average_259",

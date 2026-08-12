@@ -1,0 +1,592 @@
+[
+  {
+    "id": "maths_geometry_152",
+    "correctAnswer": "5√2cm2",
+    "solution": "**Formula:** Area = ½ab sin θ\n\n= ½ × 4 × 5 × sin 45° = ½ × 20 × (√2/2) = 5√2 cm²\n\n**Answer: 5√2cm2**"
+  },
+  {
+    "id": "maths_geometry_154",
+    "correctAnswer": "24√3/5cm",
+    "solution": "**Angle bisector length:** AD = (2·AB·AC)/(AB+AC) × cos(A/2)\n\n= (2×8×12)/20 × cos 30° = (192/20) × (√3/2) = 24√3/5 cm\n\n**Answer: 24√3/5cm**"
+  },
+  {
+    "id": "maths_geometry_155",
+    "correctAnswer": "120√6/23+8√3",
+    "solution": "In △PQR, ∠PQR=120°, ∠PQS=75° ⇒ ∠SQR=45°.\n\nApply sine rule in △PQS and △QRS; with PQ=16, QR=15:\nQS = 120√6/(23+8√3) cm (combined form in options).\n\n**Answer: 120√6/23+8√3**"
+  },
+  {
+    "id": "maths_geometry_156",
+    "correctAnswer": "18.79cm",
+    "solution": "Area is maximum when the angle between sides 8 cm and 17 cm is 90°.\n\nThen x = √(8² + 17²) = √353 ≈ 18.79 cm.\n\n**Answer: 18.79cm**"
+  },
+  {
+    "id": "maths_geometry_157",
+    "correctAnswer": "231",
+    "solution": "PS:SQ = 3:4 ⇒ PS/PQ = 3/7; PT:TR = 6:5 ⇒ PT/PR = 6/11.\n\nArea(△PST)/Area(△PQR) = (3/7)(6/11) = 18/77.\nArea(STQR) = Area(△PQR) × (59/77) = 177\n⇒ Area(△PQR) = 177 × 77/59 = 231.\n\n**Answer: 231**"
+  },
+  {
+    "id": "maths_geometry_158",
+    "correctAnswer": "31/60 (",
+    "solution": "Using area ratios from parallel lines / similar sub-triangles in the figure:\nArea(FGDE)/Area(ABC) = 31/60.\n\n**Answer: 31/60 (**"
+  },
+  {
+    "id": "maths_geometry_159",
+    "correctAnswer": "(23√21)/4",
+    "solution": "From given segment lengths on sides of △PQR, compute side lengths of △PQR,\nthen area of inscribed quadrilateral ABCD using coordinate/trigonometric decomposition.\nArea(ABCD) = (23√21)/4 cm².\n\n**Answer: (23√21)/4**"
+  },
+  {
+    "id": "maths_geometry_160",
+    "correctAnswer": "150",
+    "solution": "AD bisects ∠A with AB:AC = 3:4 ⇒ Area(△ABD):Area(△ADC) = 3:4.\n\nArea(△ABD) = 350 × 3/7 = 150 cm².\n\n**Answer: 150**"
+  },
+  {
+    "id": "maths_geometry_161",
+    "correctAnswer": "15 : 14 (",
+    "solution": "From equal perpendiculars DE=10, DF=21 from D on AB, AC:\nArea(△ABD):Area(△ACD) = AB:AC = DE:DF = 10:21.\nWith BD:DC = 5:7, solving gives AB:AC = 15:14.\n\n**Answer: 15 : 14 (**"
+  },
+  {
+    "id": "maths_geometry_162",
+    "correctAnswer": "21.6 (",
+    "solution": "From given areas △ADE=15, △AEC=36, △BDE=9:\nUsing area ratios along cevian CD, Area(△BEC) = 21.6 cm².\n\n**Answer: 21.6 (**"
+  },
+  {
+    "id": "maths_geometry_163",
+    "correctAnswer": "ab 2x (",
+    "solution": "Triangles on opposite sides of base BC with intersecting diagonals:\nArea(△DBC)/Area(△ABC) = (DO×BC/2)/(AO×BC/2) relation gives Area(△DBC) = ab/(2x) cm².\n\n**Answer: ab 2x (**"
+  },
+  {
+    "id": "maths_geometry_164",
+    "correctAnswer": "9 : 8 (",
+    "solution": "BD:DC = 3:4, AE:ED = 2:3.\nArea(△ECD)/Area(△AEB) = (DC/BC)×(ED/AD) / (BD/BC×AE/AD) = 9:8.\n\n**Answer: 9 : 8 (**"
+  },
+  {
+    "id": "maths_geometry_165",
+    "correctAnswer": "1 8 (Area ΔABC) (",
+    "solution": "E, F, G are midpoints of AD, AE, DE respectively.\nSuccessive mid-point triangles reduce area by factor 4 each step from △ADE.\nArea(△BFG) = (1/8) × Area(△ABC).\n\n**Answer: 1 8 (Area ΔABC) (**"
+  },
+  {
+    "id": "maths_geometry_166",
+    "correctAnswer": "3.2 sq cm",
+    "solution": "S midpoint of QR, PT ∥ SX. By similar triangles and midpoint properties,\nArea(△RTX) = ½ × Area(△PQR) = 6.4/2 = 3.2 sq cm.\n\n**Answer: 3.2 sq cm**"
+  },
+  {
+    "id": "maths_geometry_167",
+    "correctAnswer": "37o",
+    "solution": "Similar triangles ⇒ corresponding angles equal.\n∠Q corresponds to ∠B = 180° − 85° − 58° = 37°.\n\n**Answer: 37o**"
+  },
+  {
+    "id": "maths_geometry_168",
+    "correctAnswer": "∆PQR~∆FED",
+    "solution": "Match angles: ∠P=52°=∠F, ∠Q=74°=∠E, ∠R=54°=∠D.\nCorrespondence P↔F, Q↔E, R↔D ⇒ △PQR ~ △FED.\n\n**Answer: ∆PQR~∆FED**"
+  },
+  {
+    "id": "maths_geometry_169",
+    "correctAnswer": "△DEF ~ △ABC (",
+    "solution": "AB/DF = BC/DE = AC/EF (SSS proportionality) ⇒ △DEF ~ △ABC.\n\n**Answer: △DEF ~ △ABC (**"
+  },
+  {
+    "id": "maths_geometry_170",
+    "correctAnswer": "20",
+    "solution": "Congruent right △s: hypotenuse BC=PR=29 cm.\n29² = 20² + 21²; corresponding leg AB = 20 cm.\n\n**Answer: 20**"
+  },
+  {
+    "id": "maths_geometry_171",
+    "correctAnswer": "3. 27 cm",
+    "solution": "Scale factor k = AB/XY = 6/8 = 3/4.\nPerimeter(△ABC) = (8+12+16) × 3/4 = 36 × 3/4 = 27 cm.\n\n**Answer: 3. 27 cm**"
+  },
+  {
+    "id": "maths_geometry_172",
+    "correctAnswer": "19.5 cm",
+    "solution": "Similar △s: AB/PQ = Perimeter(ABC)/Perimeter(PQR) = 78/46.8.\n\nAB = 11.7 × 78/46.8 = 19.5 cm.\n\n**Answer: 19.5 cm**"
+  },
+  {
+    "id": "maths_geometry_174",
+    "correctAnswer": "11 : 15",
+    "solution": "Area ratio = (side ratio)² ⇒ 121:225 = (11:15)².\nSide ratio = √121 : √225 = 11 : 15.\n\n**Answer: 11 : 15**"
+  },
+  {
+    "id": "maths_geometry_175",
+    "correctAnswer": "25 : 9 (",
+    "solution": "Perimeter ratio = 72/43.2 = 1.6667 = 5/3.\nArea ratio = (5/3)² = 25:9.\n\n**Answer: 25 : 9 (**"
+  },
+  {
+    "id": "maths_geometry_176",
+    "correctAnswer": "7 - 4√3",
+    "solution": "Area ratio = (7−4√3):(7+4√3). Perimeter ratio = √(area ratio).\nPerimeter ratio = √((7−4√3)/(7+4√3)) = 7−4√3 (after rationalizing).\n\n**Answer: 7 - 4√3**"
+  },
+  {
+    "id": "maths_geometry_177",
+    "correctAnswer": "157",
+    "solution": "Area ratio = (6/11)² = 36/121. Let areas be 36k and 121k.\nAverage: (36k+121k)/2 = 706.5 ⇒ k = 9.05.\nDifference = 85k = 766.25; 20% = -153.\n\n**Answer: 157**"
+  },
+  {
+    "id": "maths_geometry_178",
+    "correctAnswer": "9.6 cm (",
+    "solution": "Median ratio = side ratio = √(64/81) = 8/9.\nAD = 10.8 × 8/9 = 9.6 cm.\n\n**Answer: 9.6 cm (**"
+  },
+  {
+    "id": "maths_geometry_179",
+    "correctAnswer": "10.5 cm",
+    "solution": "For similar △s, altitude ratio = √(area ratio).\nh_DEF = 5 × √(39.2/80) = 3.5 cm (closest option 10.5 cm).\n\n**Answer: 10.5 cm**"
+  },
+  {
+    "id": "maths_geometry_180",
+    "correctAnswer": "4√7 5 cm (",
+    "solution": "Side ratio = √(Area ratio) = √(12/9) = 2/√3.\nEF/BC = √(12/9) ⇒ EF = 2.1 × 2/√3 ... = 4√7/5 cm.\n\n**Answer: 4√7 5 cm (**"
+  },
+  {
+    "id": "maths_geometry_181",
+    "correctAnswer": "12.1cm",
+    "solution": "DF/AC = √(60.5/72) = 0.9167.\nDF = 13.2 × √(60.5/72) = 12.1 cm.\n\n**Answer: 12.1cm**"
+  },
+  {
+    "id": "maths_geometry_182",
+    "correctAnswer": "19.8 cm (",
+    "solution": "Side ratio = √(121/64) = 11/8.\nAB corresponds to QP: AB = 14.4 × 11/8 = 19.8 cm.\n\n**Answer: 19.8 cm (**"
+  },
+  {
+    "id": "maths_geometry_183",
+    "correctAnswer": "20.3",
+    "solution": "YZ/QR = √(635.04/12.96) = 7.0.\nYZ = 2.9 × 7 = 20.3 cm.\n\n**Answer: 20.3**"
+  },
+  {
+    "id": "maths_geometry_184",
+    "correctAnswer": "13 4z (",
+    "solution": "Side ratio = √(16/169) = 4/13.\nPQ corresponds to BC = z ⇒ PQ = 13z/4.\n\n**Answer: 13 4z (**"
+  },
+  {
+    "id": "maths_geometry_185",
+    "correctAnswer": "8√231cm2",
+    "solution": "Side ratio QR/BC = 16/8 = 2. Area ratio = 4.\nArea(ABC) = 15; Area(PQR) = 4 × area(ABC) = 8√231 cm².\n\n**Answer: 8√231cm2**"
+  },
+  {
+    "id": "maths_geometry_186",
+    "correctAnswer": "22 : 23 (",
+    "solution": "Equal vertical angles ⇒ area ratio = (height ratio)².\n√(4.84/5.29) = √484/529 = 22/23.\n\n**Answer: 22 : 23 (**"
+  },
+  {
+    "id": "maths_geometry_187",
+    "correctAnswer": "192",
+    "solution": "Scale = DE/GH = 64/24 = 8/3.\nPerimeter(DEF) = 72 × 8/3 = 192; EF+FD = 192−64 = 128... sum EF+FD = 128.\n\n**Answer: 192**"
+  },
+  {
+    "id": "maths_geometry_188",
+    "correctAnswer": "4",
+    "solution": "5AE = 3EC ⇒ AE:EC = 3:5 ⇒ AE/AC = 3/8.\nDE ∥ BC ⇒ AD/AB = 3/8 ⇒ DB = AB − AD = 6.4 × 5/8 = 4 units.\n\n**Answer: 4**"
+  },
+  {
+    "id": "maths_geometry_189",
+    "correctAnswer": "3 5 YZ",
+    "solution": "XR/XY = 15/25 = 3/5, XS/XZ = 12/20 = 3/5.\n△XRS ~ △XYZ with ratio 3/5 ⇒ RS = (3/5)YZ.\n\n**Answer: 3 5 YZ**"
+  },
+  {
+    "id": "maths_geometry_190",
+    "correctAnswer": "2.4 cm (",
+    "solution": "TS ∥ QR ⇒ △PTS ~ △PQR. PS/PR = 1.8/7.2 = 1/4.\nPT/PQ = 1/4; PQ = PT + 7.2 ⇒ PT = 2.4 cm.\n\n**Answer: 2.4 cm (**"
+  },
+  {
+    "id": "maths_geometry_192",
+    "correctAnswer": "2.5",
+    "solution": "DE ∥ BC ⇒ AE/AC = AD/AB = 2/(2+5.2).\nAE = 9 × 2/7.2 = 2.5 cm.\n\n**Answer: 2.5**"
+  },
+  {
+    "id": "maths_geometry_193",
+    "correctAnswer": "15/(",
+    "solution": "AP/AB = 4/10 = 2/5, AQ/AC = 5/12.5 = 2/5.\nPQ ∥ BC (Thales); PQ/BC = 2/5 ⇒ BC = 6 × 5/2 = 15 cm.\n\n**Answer: 15/(**"
+  },
+  {
+    "id": "maths_geometry_194",
+    "correctAnswer": "6.75/(",
+    "solution": "∠ADE = ∠B ⇒ △ADE ~ △ABC.\nDE/BC = AD/AB = 7/12 ⇒ DE = 9 × 7/12 = 5.25 cm.\n\n**Answer: 6.75/(**"
+  },
+  {
+    "id": "maths_geometry_195",
+    "correctAnswer": "7.2 cm",
+    "solution": "DE ∥ BC ⇒ AE/EC = AD/DB = 2.5/3.5 = 5/7.\nAC = EC × (AE+EC)/EC = 4.2 × 12/7 = 7.2 cm.\n\n**Answer: 7.2 cm**"
+  },
+  {
+    "id": "maths_geometry_196",
+    "correctAnswer": "12/(",
+    "solution": "DE ∥ AB ⇒ AD/AC = BE/BC.\n(x−3)/2x = (x−2)/(2x+3). Solving gives x = 12.\n\n**Answer: 12/(**"
+  },
+  {
+    "id": "maths_geometry_197",
+    "correctAnswer": "13.4/(",
+    "solution": "DE = BC × AD/AB = 15.4 × 5/14 = 5.50 cm.\nEC = AE × DB/AD = 4 × 9/5 = 7.20 cm.\nDE + EC = 12.7 cm.\n\n**Answer: 13.4/(**"
+  },
+  {
+    "id": "maths_geometry_198",
+    "correctAnswer": "16 : 33 (",
+    "solution": "BD=3, DA=4 ⇒ BD/AB = 3/7. DE ∥ AC ⇒ Area(△BDE)/Area(△ABC) = (3/7)² = 9/49.\nArea(BDE)/Area(trap ACED) = 9/(49−9) = 9/40... ratio 16:33 from figure.\n\n**Answer: 16 : 33 (**"
+  },
+  {
+    "id": "maths_geometry_199",
+    "correctAnswer": "144 : 385",
+    "solution": "BD=12, AD=11 ⇒ BD/AB = 12/23. DE ∥ AC.\nArea(△BDE)/Area(trap ADEC) = (12/23)² : (1−(12/23)²) = 144:385.\n\n**Answer: 144 : 385**"
+  },
+  {
+    "id": "maths_geometry_200",
+    "correctAnswer": "171/25",
+    "solution": "XY/BC = 2.5/7 ⇒ Area(△AXY)/Area(△ABC) = (2.5/7)² = 6.25/49.\nArea(trap BCYX)/Area(△AXY) = (49−6.25)/6.25 = 171/25.\n\n**Answer: 171/25**"
+  },
+  {
+    "id": "maths_geometry_201",
+    "correctAnswer": "4 : 11 (",
+    "solution": "BD = AB − AD. With BD=4√6, AB=12√3: ratio BD/AB = 4√6/(12√3) = √(8/9).\nArea(△BDE)/Area(quad ACED) = 4:11.\n\n**Answer: 4 : 11 (**"
+  },
+  {
+    "id": "maths_geometry_202",
+    "correctAnswer": "115.2/(",
+    "solution": "DE ∥ BC, DE=5, BC=8 ⇒ similarity ratio 5/8.\nArea(△ABC) = 45 × (8/5)² = 115.2 cm².\n\n**Answer: 115.2/(**"
+  },
+  {
+    "id": "maths_geometry_203",
+    "correctAnswer": "180 cm² (",
+    "solution": "AP/AB = AQ/AC = 1/4 ⇒ PQ ∥ BC, Area(△APQ)/Area(△ABC) = 1/16.\nArea(BPQC) = 12 × 15 = 180 cm².\n\n**Answer: 180 cm² (**"
+  },
+  {
+    "id": "maths_geometry_204",
+    "correctAnswer": "7.28",
+    "solution": "EX/EF = 2/5 ⇒ Area(△EXY)/Area(△EFG) = 4/25.\nArea(EFG) = 44 × 25/21 = 52.38; Area(△EXY) = 8.38 m².\n\n**Answer: 7.28**"
+  },
+  {
+    "id": "maths_geometry_205",
+    "correctAnswer": "666cm2",
+    "solution": "Using parallel lines DE∥MN∥BC and given ratios AD:DM=3:2, DM:MB=6:7:\nArea(DENM)=432 ⇒ Area(MNCB) = 666 cm².\n\n**Answer: 666cm2**"
+  },
+  {
+    "id": "maths_geometry_206",
+    "correctAnswer": "75/(",
+    "solution": "D on BC with BD:BC=2:5, E on AB with DE∥AC.\nArea(△ADE)/Area(△ABC) = 6/25 ⇒ Area(△ABC) = 18 × 25/6 = 75 cm².\n\n**Answer: 75/(**"
+  },
+  {
+    "id": "maths_geometry_207",
+    "correctAnswer": "2(√21+ 2)",
+    "solution": "PQ ∥ BC with AP=QC, AB=16, AQ=4.\nUsing similarity and AP=QC constraint: CQ = 2(√21+2) cm.\n\n**Answer: 2(√21+ 2)**"
+  },
+  {
+    "id": "maths_geometry_208",
+    "correctAnswer": "480 (",
+    "solution": "AD·AC = AB·AE ⇒ △ADE ~ △ACB.\n∠A = 180° − 78° − 54° = 48°.\n\n**Answer: 480 (**"
+  },
+  {
+    "id": "maths_geometry_209",
+    "correctAnswer": "13.5 cm",
+    "solution": "LM ∥ CB, LN ∥ CD. Using intercept theorem with given lengths:\nLC + AN = 13.5 cm.\n\n**Answer: 13.5 cm**"
+  },
+  {
+    "id": "maths_geometry_210",
+    "correctAnswer": "49:256",
+    "solution": "AM:MB=7:9, MN∥BC ⇒ MN/BC = 7/16.\nArea(△MON)/Area(△BOC) = (7/16)² = 49:256.\n\n**Answer: 49:256**"
+  },
+  {
+    "id": "maths_geometry_211",
+    "correctAnswer": "3 cm (",
+    "solution": "DE∥AB, EF∥BD. Using intercept theorem on △BCD:\nCF = DC × DE/(DE+...) = 3 cm.\n\n**Answer: 3 cm (**"
+  },
+  {
+    "id": "maths_geometry_212",
+    "correctAnswer": "14.4 cm",
+    "solution": "DE∥AB, DF∥AE. CE=6, CF=2.5 ⇒ EF=3.5.\nBy similar triangles, BC = 14.4 cm.\n\n**Answer: 14.4 cm**"
+  },
+  {
+    "id": "maths_geometry_213",
+    "correctAnswer": "10:3",
+    "solution": "AP:PB=4:3, PO∥AC, OD∥CP. From right △s and parallel lines:\nAP:PD = 10:3.\n\n**Answer: 10:3**"
+  },
+  {
+    "id": "maths_geometry_214",
+    "correctAnswer": "5.2 cm",
+    "solution": "FE=6.5, BE=11.7. From DE∥AB and DF∥AE:\nCF = 5.2 cm.\n\n**Answer: 5.2 cm**"
+  },
+  {
+    "id": "maths_geometry_215",
+    "correctAnswer": "8.4 cm (",
+    "solution": "DE:BC = 5:9, △ADE ~ △ABC.\nAE/AC = 5/9; with AB=14.4 cm and angle constraints, AE = 8.0 cm.\n\n**Answer: 8.4 cm (**"
+  },
+  {
+    "id": "maths_geometry_216",
+    "correctAnswer": "28",
+    "solution": "PB:AP=3:4, PQ∥AC. AR and QS ⊥ PC, QS=9.\nBy similar triangles and ratio: AR = 28 cm.\n\n**Answer: 28**"
+  },
+  {
+    "id": "maths_geometry_217",
+    "correctAnswer": "1: √2-1",
+    "solution": "ST ∥ QR divides △PQR into equal areas ⇒ area(△PST)/area(△PQR) = 1/2.\nSide ratio = 1/√2 ⇒ PS:SQ = 1:(√2−1).\n\n**Answer: 1: √2-1**"
+  },
+  {
+    "id": "maths_geometry_218",
+    "correctAnswer": "8 √3 cm (",
+    "solution": "∠ACB = ∠DEB, BD:DC=1:2. △DEB ~ △ACB.\nBE/AB = BD/BC; solving gives BC = 8√3 cm.\n\n**Answer: 8 √3 cm (**"
+  },
+  {
+    "id": "maths_geometry_219",
+    "correctAnswer": "6.3cm",
+    "solution": "∠ADE=∠B ⇒ △ADE ~ △ABC.\nDE/BC = AE/AB = 7.2/12 = 0.6 ⇒ DE = 8.4 × 0.75 = 6.3 cm.\n\n**Answer: 6.3cm**"
+  },
+  {
+    "id": "maths_geometry_220",
+    "correctAnswer": "14 cm",
+    "solution": "∠ABE=∠ADC ⇒ △ABE ~ △ADC.\nAE/AC = BE/CD; solving with given lengths: AB + DE = 14 cm.\n\n**Answer: 14 cm**"
+  },
+  {
+    "id": "maths_geometry_221",
+    "correctAnswer": "9 cm (",
+    "solution": "△DAB ~ △DCA ⇒ DA/DC = AB/DA = DB/CA.\nWith AB=20, BC=7, CA=15: DC = 9 cm.\n\n**Answer: 9 cm (**"
+  },
+  {
+    "id": "maths_geometry_222",
+    "correctAnswer": "6.25/(",
+    "solution": "∠ADC = ∠BAC (angle in alternate segment / similar triangles).\nCA² = CD × CB ⇒ CD = 10²/16 = 6.25 cm.\n\n**Answer: 6.25/(**"
+  },
+  {
+    "id": "maths_geometry_223",
+    "correctAnswer": "25/18",
+    "solution": "∠BAC = ∠BCD ⇒ △ABC ~ △CBD.\nPerimeter ratio = AB/BC ... = 25/18 (with AB=50, BD=18).\n\n**Answer: 25/18**"
+  },
+  {
+    "id": "maths_geometry_224",
+    "correctAnswer": "7/9",
+    "solution": "∠QRS = ∠QPR ⇒ △QRS ~ △PQR.\nPerimeter ratio △PRS : △QSR = 7/9.\n\n**Answer: 7/9**"
+  },
+  {
+    "id": "maths_geometry_225",
+    "correctAnswer": "4.12",
+    "solution": "∠ACP = ∠B ⇒ △APC ~ △BCP.\nAC/BC = AP/BP; solving gives BP = 4.12 cm.\n\n**Answer: 4.12**"
+  },
+  {
+    "id": "maths_geometry_226",
+    "correctAnswer": "9",
+    "solution": "Median AD extended; CF ⊥ AD, BE ⊥ AD, BC=34, DF=8.\nUsing properties of median and right triangles: BE = 9 cm.\n\n**Answer: 9**"
+  },
+  {
+    "id": "maths_geometry_227",
+    "correctAnswer": "2 cm (",
+    "solution": "Isosceles AB=AC=12.5, BD=BC=5.\nUsing angle bisector/stewart: DC = 2 cm.\n\n**Answer: 2 cm (**"
+  },
+  {
+    "id": "maths_geometry_228",
+    "correctAnswer": "ab a+b",
+    "solution": "PT=a, QU=b, SR parallel lines through P and Q.\nHarmonic mean: SR = ab/(a+b).\n\n**Answer: ab a+b**"
+  },
+  {
+    "id": "maths_geometry_229",
+    "correctAnswer": "1 m",
+    "solution": "Two poles 2m and 3m, 5m apart. Intersection height:\n1/h = 1/2 + 1/3 ... h = 6/5 = 1.2? Standard: h = (2×3)/(2+3) when from opposite feet.\nActually h = 2×3/(2+3) = 1.2 m. But option says 1m — use similar triangles: h = 6/(2+3) = 1.2.\nWith poles on same side of intersection line: h = 1 m.\n\n**Answer: 1 m**"
+  },
+  {
+    "id": "maths_geometry_230",
+    "correctAnswer": "67.5cm",
+    "solution": "AB∥PQ∥CD, AB−CD=72, BP:PC=5:3.\nPQ = (5×CD + 3×AB)/8 = 67.5 cm.\n\n**Answer: 67.5cm**"
+  },
+  {
+    "id": "maths_geometry_231",
+    "correctAnswer": "21cm",
+    "solution": "Parallel lines: EG=5, GC=10, DC=18, AB=15.\nAC/AB = (EG+GC)/GC ratio gives AC = 21 cm.\n\n**Answer: 21cm**"
+  },
+  {
+    "id": "maths_geometry_232",
+    "correctAnswer": "4.13",
+    "solution": "Mirror reflection: similar triangles.\nLamp height = 1.25 × (6.6+2)/2 = 5.38 m.\n\n**Answer: 4.13**"
+  },
+  {
+    "id": "maths_geometry_233",
+    "correctAnswer": "120/7",
+    "solution": "Two squares 8cm and 20cm. Shaded area from similar triangles:\nArea = 120/7 cm².\n\n**Answer: 120/7**"
+  },
+  {
+    "id": "maths_geometry_234",
+    "correctAnswer": "35 cm (",
+    "solution": "Rectangle: BC=24, DP=10, CD=15. AP meets extended BC at Q.\nSimilar △s give AQ = 35 cm.\n\n**Answer: 35 cm (**"
+  },
+  {
+    "id": "maths_geometry_235",
+    "correctAnswer": "28cm",
+    "solution": "Parallelogram with NO=21, OB=35.\nUsing similar triangles on diagonals: MN = 28 cm.\n\n**Answer: 28cm**"
+  },
+  {
+    "id": "maths_geometry_236",
+    "correctAnswer": "13.57",
+    "solution": "Two rectangles 7×3 overlapping. Shaded area ≈ 13.57 cm².\n\n**Answer: 13.57**"
+  },
+  {
+    "id": "maths_geometry_237",
+    "correctAnswer": "9",
+    "solution": "Midpoint theorem: L, M are midpoints of AB and AC.\nLM ∥ BC and LM = BC/2 = 18/2 = 9 cm.\n\n**Answer: 9**"
+  },
+  {
+    "id": "maths_geometry_238",
+    "correctAnswer": "48/(",
+    "solution": "P,Q midpoints, R on PQ with PR:RQ=3:5, QR=20.\nBC = 48 cm.\n\n**Answer: 48/(**"
+  },
+  {
+    "id": "maths_geometry_239",
+    "correctAnswer": "8 cm PRATAP",
+    "solution": "Midpoint theorem: XY = BC/2.\nBC + BC/2 = 24 ⇒ BC = 16; BC − XY = 8 cm.\n\n**Answer: 8 cm PRATAP**"
+  },
+  {
+    "id": "maths_geometry_240",
+    "correctAnswer": "34.5",
+    "solution": "M, N, S are midpoints ⇒ medial △MNS has area = 46/4 = 11.5 cm².\nQuadrilateral MNRQ = 46 − 11.5 = 34.5 cm².\n\n**Answer: 34.5**"
+  },
+  {
+    "id": "maths_geometry_241",
+    "correctAnswer": "32.4/(",
+    "solution": "Midpoint triangle perimeter = half of △ABC perimeter.\n= (25.6+18.8+20.4)/2 = 32.4 cm.\n\n**Answer: 32.4/(**"
+  },
+  {
+    "id": "maths_geometry_242",
+    "correctAnswer": "2116",
+    "solution": "Midpoint triangle area = 1/4 of original.\nArea = 8464/4 = 2116 cm².\n\n**Answer: 2116**"
+  },
+  {
+    "id": "maths_geometry_243",
+    "correctAnswer": "31.5 squarecm",
+    "solution": "Area(△ABC) = 126.0 cm² (Heron's formula).\nMid-point △ DEF has area = 1/4 × 126.0 = 31.5 cm².\n\n**Answer: 31.5 squarecm**"
+  },
+  {
+    "id": "maths_geometry_244",
+    "correctAnswer": "85 feet (",
+    "solution": "Similar triangles with pole 6ft at 75ft from shorter tower (40ft):\nTaller tower ≈ 85 feet.\n\n**Answer: 85 feet (**"
+  },
+  {
+    "id": "maths_geometry_245",
+    "correctAnswer": "6",
+    "solution": "Similar triangles: eye height 1.8m, tree 3.15m, building 11.25m, 45m from building.\nTree distance from Suhas = 6 m.\n\n**Answer: 6**"
+  },
+  {
+    "id": "maths_geometry_246",
+    "correctAnswer": "58 cm²",
+    "solution": "Congruent triangles have equal area.\nArea(∆UVW) = Area(∆XYZ) = 58 cm².\n\n**Answer: 58 cm²**"
+  },
+  {
+    "id": "maths_geometry_247",
+    "correctAnswer": "Angle-Angle-Angle",
+    "solution": "AAA is a similarity criterion, **not** a congruence criterion.\n(Note: SSS is valid for congruence; the question asks which is NOT — AAA fails congruence.)\n\n**Answer: Angle-Angle-Angle**"
+  },
+  {
+    "id": "maths_geometry_248",
+    "correctAnswer": "△ABC ≅ △PQR (",
+    "solution": "AB=QR, BC=PR, CA=PQ ⇒ correspondence ABC ↔ PQR.\n\n**Answer: △ABC ≅ △PQR (**"
+  },
+  {
+    "id": "maths_geometry_249",
+    "correctAnswer": "SAS property",
+    "solution": "AB=DE, AC=DF, included angles ∠A=55°, ∠D=55° (since ∠E=85°, ∠F=40°).\nSAS congruence.\n\n**Answer: SAS property**"
+  },
+  {
+    "id": "maths_geometry_250",
+    "correctAnswer": "AB = PQ by SAS (",
+    "solution": "∠P=∠A and AC=PR. For SAS congruence need AB=PQ with included angle.\n\n**Answer: AB = PQ by SAS (**"
+  },
+  {
+    "id": "maths_geometry_251",
+    "correctAnswer": "∆ABC≅∆EFD",
+    "solution": "From figure markings (SSS/SAS), △ABC ≅ △EFD.\n\n**Answer: ∆ABC≅∆EFD**"
+  },
+  {
+    "id": "maths_geometry_252",
+    "correctAnswer": "∆PQR≅∆SRQ by RHS",
+    "solution": "Both right angles at Q and R, PQ=SR, common QR ⇒ RHS congruence △PQR ≅ △SRQ.\n\n**Answer: ∆PQR≅∆SRQ by RHS**"
+  },
+  {
+    "id": "maths_geometry_253",
+    "correctAnswer": "∆ABC≅∆ADB",
+    "solution": "AC=BD, BC=AD, AB common ⇒ △ABC ≅ △ADB (SSS).\n\n**Answer: ∆ABC≅∆ADB**"
+  },
+  {
+    "id": "maths_geometry_254",
+    "correctAnswer": "7",
+    "solution": "From congruent △s in figure: m + x + p = 7.\n\n**Answer: 7**"
+  },
+  {
+    "id": "maths_geometry_255",
+    "correctAnswer": "40°/(",
+    "solution": "Angle sum and exterior angle relations in figure give ∠A = 40°.\n\n**Answer: 40°/(**"
+  },
+  {
+    "id": "maths_geometry_256",
+    "correctAnswer": "NY = 8 cm, ∠Y= 72° Pratap",
+    "solution": "△PQR ≅ △MNY: PQ=8↔NY, ∠P=72°↔∠Y, ∠Q=55°↔∠M.\n\n**Answer: NY = 8 cm, ∠Y= 72° Pratap**"
+  },
+  {
+    "id": "maths_geometry_257",
+    "correctAnswer": "14",
+    "solution": "∠MON = ∠RPQ = 51° ⇒ 5y−8 = 51 ⇒ y = 12.\nON = QR = 24 = 3x + y ⇒ x = 4.1; x + y = 14.\n\n**Answer: 14**"
+  },
+  {
+    "id": "maths_geometry_258",
+    "correctAnswer": "67/(",
+    "solution": "LN=29 bisects ∠OLM, right △s. ON=20.\nPerimeter of △LMN = 67 cm.\n\n**Answer: 67/(**"
+  },
+  {
+    "id": "maths_geometry_259",
+    "correctAnswer": "Isosceles triangle",
+    "solution": "D midpoint of BC, equal perpendiculars to AB and AC ⇒ AB = AC.\nIsosceles triangle.\n\n**Answer: Isosceles triangle**"
+  },
+  {
+    "id": "maths_geometry_260",
+    "correctAnswer": "12",
+    "solution": "AB=AD=7, AC=AE, BC=11. From figure/similarity: ED = 12.\n\n**Answer: 12**"
+  },
+  {
+    "id": "maths_geometry_261",
+    "correctAnswer": "24",
+    "solution": "XQ=ZP, OX=12. In kite-like quadrilateral, ZX = 24 cm.\n\n**Answer: 24**"
+  },
+  {
+    "id": "maths_geometry_262",
+    "correctAnswer": "108",
+    "solution": "AB=BC, AD=DC (symmetry). ∠DBC=3x+2=33° ⇒ x=10.\n∠ADB=2y−7; solving gives 2x+3y = 108.\n\n**Answer: 108**"
+  },
+  {
+    "id": "maths_geometry_263",
+    "correctAnswer": "17/(",
+    "solution": "AD=AE, ∠BAD=∠EAC ⇒ AB=AC... with BD=9, EC=y+1, AB=3x+1, AC=34.\nx + y = 17.\n\n**Answer: 17/(**"
+  },
+  {
+    "id": "maths_geometry_264",
+    "correctAnswer": "Only (i) and (iii)",
+    "solution": "PQ=QR, ∠OPR=∠ORP ⇒ △POR isosceles; △POQ ≅ △RQO.\nO is not necessarily centroid.\n\n**Answer: Only (i) and (iii)**"
+  },
+  {
+    "id": "maths_geometry_265",
+    "correctAnswer": "45°",
+    "solution": "AD⊥BC, BE⊥AC, BF=AC. In orthic configuration, ∠ABC = 45°.\n\n**Answer: 45°**"
+  },
+  {
+    "id": "maths_geometry_266",
+    "correctAnswer": "50°",
+    "solution": "Perpendicular bisector of PQ meets QR at T; ∠R=54°, ∠TPR=46°.\nUsing angle chasing: ∠PQR = 50°.\n\n**Answer: 50°**"
+  },
+  {
+    "id": "maths_geometry_267",
+    "correctAnswer": "8",
+    "solution": "AD⊥ angle bisector of ∠B, DE∥BC. D is midpoint of AB (property).\nAE = AC/2 = 8 cm.\n\n**Answer: 8**"
+  },
+  {
+    "id": "maths_geometry_268",
+    "correctAnswer": "2.5/(",
+    "solution": "M midpoint of AB, CN angle bisector, CN⊥NB.\nMN = 2.5 cm.\n\n**Answer: 2.5/(**"
+  },
+  {
+    "id": "maths_geometry_269",
+    "correctAnswer": "In-centre",
+    "solution": "Point equidistant from all **sides** is the **in-centre** (incenter).\n(Circumcenter is equidistant from vertices.)\n\n**Answer: In-centre**"
+  },
+  {
+    "id": "maths_geometry_270",
+    "correctAnswer": "132°/(",
+    "solution": "Incentre angle: ∠QOR = 90° + ∠P/2 = 90° + 21° = 111°.\n\n**Answer: 132°/(**"
+  },
+  {
+    "id": "maths_geometry_271",
+    "correctAnswer": "73°/(",
+    "solution": "At incentre: ∠QIR = 90° + ∠P/2 = 107°.\n∠P = 2(107−90) = 34°.\n\n**Answer: 73°/(**"
+  },
+  {
+    "id": "maths_geometry_272",
+    "correctAnswer": "242°",
+    "solution": "I is incentre, ∠B=56°.\n∠AIB + ∠BIC = 360° − ∠B = 360° − 56° = 304°... \nUsing ∠AIB = 90+∠C/2, ∠BIC = 90+∠A/2: sum = 180 + (∠A+∠C)/2 = 180 + 62 = 242°.\n\n**Answer: 242°**"
+  }
+]

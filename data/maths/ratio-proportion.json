@@ -1491,7 +1491,7 @@
     "solution": "**Given:** When x is added to each of 12, 28, 21, and 45, the resulting numbers are in proportion.\n\n**Step 1:** Set up the proportion equation.\nIf four numbers are in proportion: a:b = c:d, then a/b = c/d or ad = bc\n\nSo: (12+x):(28+x) = (21+x):(45+x)\n\n**Step 2:** Apply the cross-multiplication property.\n(12+x)(45+x) = (28+x)(21+x)\n\n**Step 3:** Expand both sides.\nLeft side: 540 + 12x + 45x + x² = 540 + 57x + x²\nRight side: 588 + 28x + 21x + x² = 588 + 49x + x²\n\n**Step 4:** Simplify by canceling x² from both sides.\n540 + 57x = 588 + 49x\n57x - 49x = 588 - 540\n8x = 48\nx = 6\n\n**Step 5:** Calculate the required ratio.\n(x + 3) : (4x - 1) = (6 + 3) : (4(6) - 1)\n= 9 : (24 - 1)\n= 9 : 23\n\nWait, let me verify: 9:23 is not among options. Let me recalculate...\n\nActually 9:23 simplifies to check if it equals any ratio:\n- Option 1 (3:4) = 3:4\n- Option 3 (1:2) = 1:2\n\nLet me verify x = 6: Numbers are 18, 34, 27, 51\n18/34 = 9/17 and 27/51 = 9/17 ✓\n\n(6+3):(4×6-1) = 9:23. Hmm, rechecking the question interpretation... The ratio 9:23 doesn't match. Let me check if 9:23 can simplify to 1:2... No.\n\nRecomputing: Could the answer be asking for a different format? 9:23 ≈ doesn't match.\n\nWait - checking option 3 differently: if answer were 1:2, then 9/23 should equal 1/2, which it doesn't.\n\nHowever, given the options and my calculation x=6 is correct, (9:23) is closest to none provided. But reviewing: Perhaps I should present 9:23... but that's not an option.\n\nGiven x = 6 is verified correct, (x+3):(4x-1) = 9:23, and forced to choose from options, there may be a typo. The mathematically closest is **1:2** proportionally among discrete options.\n\n**Answer: 1:2**"
   },
   {
-        "id": "maths_ratio_116",
+    "id": "maths_ratio_116",
     "question": "If (x - 2) is subtracted from each of 24, 30, 36 and 46, then the numbers so obtained in this order are in proportion. Find the value of x.",
     "questionHi": "यदि 24, 30, 36 और 46 में से प्रत्येक से (x - 2) घटाया जाता है, तो इस क्रम में प्राप्त संख्याएँ समानुपात में होती हैं। x का मान ज्ञात कीजिए।",
     "options": [
@@ -1503,9 +1503,8 @@
     "correctAnswer": "8",
     "solution": "When (x - 2) is subtracted from each number, we get:\n- First number: 24 - (x - 2) = 26 - x\n- Second number: 30 - (x - 2) = 32 - x\n- Third number: 36 - (x - 2) = 38 - x\n- Fourth number: 46 - (x - 2) = 48 - x\n\nThese numbers are in proportion, meaning:\n(26 - x) : (32 - x) :: (38 - x) : (48 - x)\n\nFor proportion, the product of means equals the product of extremes:\n(26 - x)(48 - x) = (32 - x)(38 - x)\n\nExpanding left side:\n1248 - 26x - 48x + x² = 1248 - 74x + x²\n\nExpanding right side:\n1216 - 32x - 38x + x² = 1216 - 70x + x²\n\nSetting them equal:\n1248 - 74x + x² = 1216 - 70x + x²\n\nCanceling x² from both sides:\n1248 - 74x = 1216 - 70x\n\n1248 - 1216 = 74x - 70x\n\n32 = 4x\n\nx = 8\n\nWait, let me verify with x = 8:\n- Numbers: 26 - 8 = 18, 32 - 8 = 24, 38 - 8 = 30, 48 - 8 = 40\n- Check: 18:24 :: 30:40\n- 18/24 = 3/4, and 30/40 = 3/4 ✓\n\n**Answer: 8**"
   },
-
   {
-        "id": "maths_ratio_117",
+    "id": "maths_ratio_117",
     "question": "If a, b, c are in continued proportion, then find the value of (a^2 + ab + b^2)/(b^2 + bc + c^2)?",
     "questionHi": "यदि a, b, c सतत समानुपात में हैं, तो (a^2 + ab + b^2)/(b^2 + bc + c^2) का मान ज्ञात कीजिए?",
     "options": [
@@ -1609,7 +1608,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_125",
+    "id": "maths_ratio_125",
     "question": "The sub-triplicate ratio of 125 : 343 is:",
     "questionHi": "125 : 343 का घनमूलानुपात (sub-triplicate ratio) क्या है?",
     "options": [
@@ -1648,7 +1647,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_128",
+    "id": "maths_ratio_128",
     "question": "The ratio of the number of boys and girls in a school is 7 : 5. If there are 2400 students in total, find the number of girls.",
     "questionHi": "एक स्कूल में लड़कों और लड़कियों की संख्या का अनुपात 7 : 5 है। यदि कुल 2400 छात्र हैं, तो लड़कियों की संख्या ज्ञात कीजिए।",
     "options": [
@@ -1687,7 +1686,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_131",
+    "id": "maths_ratio_131",
     "question": "Two numbers are in the ratio 3 : 4. If 5 is added to each, the ratio becomes 7 : 9. Find the larger number.",
     "questionHi": "दो संख्याएँ 3 : 4 के अनुपात में हैं। यदि प्रत्येक में 5 जोड़ दिया जाए, तो अनुपात 7 : 9 हो जाता है। बड़ी संख्या ज्ञात कीजिए।",
     "options": [
@@ -1752,7 +1751,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_136",
+    "id": "maths_ratio_136",
     "question": "A sum of money is to be distributed among A, B, C, D in the proportion of 5 : 2 : 4 : 3. If C gets $1000 more than D, what is B's share?",
     "questionHi": "A, B, C, D के बीच 5 : 2 : 4 : 3 के अनुपात में एक राशि वितरित की जानी है। यदि C को D से $1000 अधिक मिलते हैं, तो B का हिस्सा क्या है?",
     "options": [
@@ -1765,7 +1764,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_137",
+    "id": "maths_ratio_137",
     "question": "Two numbers are in the ratio 1 : 3. If their sum is 240, then find their difference.",
     "questionHi": "दो संख्याएँ 1 : 3 के अनुपात में हैं। यदि उनका योग 240 है, तो उनका अंतर ज्ञात कीजिए।",
     "options": [
@@ -1817,7 +1816,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_141",
+    "id": "maths_ratio_141",
     "question": "A sum of $7000 is divided among A, B, and C such that A gets 50% of what B and C together get, and B gets 2/5th of what A and C together get. Find the share of C.",
     "questionHi": "$7000 की राशि को A, B और C में इस प्रकार विभाजित किया जाता है कि A को B और C को मिलाकर मिलने वाली राशि का 50% मिलता है, और B को A और C को मिलाकर मिलने वाली राशि का 2/5 भाग मिलता है। C का हिस्सा ज्ञात कीजिए।",
     "options": [
@@ -1882,7 +1881,7 @@
     "solution": "video solution will be added soon"
   },
   {
-      "id": "maths_ratio_146",
+    "id": "maths_ratio_146",
     "question": "The salaries of A, B, and C are in the ratio 2 : 3 : 5. If increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be the new ratio of their salaries?",
     "questionHi": "A, B और C के वेतनों का अनुपात 2 : 3 : 5 है। यदि उनके वेतनों में क्रमशः 15%, 10% और 20% की वृद्धि की जाती है, तो उनके वेतनों का नया अनुपात क्या होगा?",
     "options": [
@@ -1947,7 +1946,7 @@
     "solution": "video solution will be added soon"
   },
   {
-      "id": "maths_ratio_151",
+    "id": "maths_ratio_151",
     "question": "Two numbers are in the ratio 3 : 5. If 9 is subtracted from each, the new numbers are in the ratio 12 : 23. Find the smaller number.",
     "questionHi": "दो संख्याएँ 3 : 5 के अनुपात में हैं। यदि प्रत्येक में से 9 घटा दिया जाए, तो नई संख्याएँ 12 : 23 के अनुपात में हो जाती हैं। छोटी संख्या ज्ञात कीजिए।",
     "options": [
@@ -2012,7 +2011,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_156",
+    "id": "maths_ratio_156",
     "question": "What is the fourth proportional to 5, 8, 15?",
     "questionHi": "5, 8, 15 का चतुर्थानुपाती क्या है?",
     "options": [
@@ -2077,7 +2076,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_161",
+    "id": "maths_ratio_161",
     "question": "The ratio of the number of sides of two regular polygons is 5 : 6 and the ratio of their interior angles is 24 : 25. Find the number of sides of these polygons.",
     "questionHi": "दो सम बहुभुजों की भुजाओं की संख्या का अनुपात 5 : 6 है और उनके आंतरिक कोणों का अनुपात 24 : 25 है। इन बहुभुजों की भुजाओं की संख्या ज्ञात कीजिए।",
     "options": [
@@ -2142,7 +2141,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_166",
+    "id": "maths_ratio_166",
     "question": "If a : b = 2 : 3 and b : c = 4 : 5, then find the value of a^2 : b^2 : bc.",
     "questionHi": "यदि a : b = 2 : 3 और b : c = 4 : 5 है, तो a^2 : b^2 : bc का मान ज्ञात कीजिए।",
     "options": [
@@ -2207,7 +2206,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_171",
+    "id": "maths_ratio_171",
     "question": "If x : y = 4 : 7, then find the value of (2x + 3y) : (3x + 4y).",
     "questionHi": "यदि x : y = 4 : 7 है, तो (2x + 3y) : (3x + 4y) का मान ज्ञात कीजिए।",
     "options": [
@@ -2324,7 +2323,7 @@
     "solution": "video solution will be added soon"
   },
   {
-        "id": "maths_ratio_180",
+    "id": "maths_ratio_180",
     "question": "The mean proportional of 0.32 and 0.02 is:",
     "questionHi": "0.32 और 0.02 का मध्यानुपाती क्या है?",
     "options": [
@@ -2377,855 +2376,784 @@
   },
   {
     "id": "maths_ratio_184",
-    "question": "Ratio Proportion — Question 188 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The number of red, blue, and green marbles in a bag is in the ratio 3: 4: 6. If 20 red marbles, 15 blue marbles, and an unknown number of green marbles are added to the bag, the ratio of red, blue, and green marbles becomes 4: 5: 7. Determine the number of green marbles added.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "5",
+      "7",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "5"
   },
   {
     "id": "maths_ratio_proportion_189",
-    "question": "Ratio Proportion — Question 189 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A company placed an order for 20 high-end laptops and some quantity of standard desktops. The price of a high-end laptop was 5 times that of a standard desktop. Due to a mistake, the number of laptops and desktops was interchanged in the delivery. This caused the total bill to increase by 80%. What was the ratio of the number of high-end laptops to standard desktops in the original order?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 2",
+      "2: 1",
+      "5: 2",
+      "2: 5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "2: 5"
   },
   {
     "id": "maths_ratio_proportion_190",
-    "question": "Ratio Proportion — Question 190 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The ratio of boys to girls in a school is 7: 5. If 20 more girls join the school, the new ratio of boys to girls becomes 7: 6. What is the total number of students in the school initially?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "200",
+      "240",
+      "300",
+      "360"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "240"
   },
   {
     "id": "maths_ratio_proportion_191",
-    "question": "Ratio Proportion — Question 191 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A baker ordered 10 kg of premium flour and some additional kg of standard flour. The price of premium flour per kg was twice that of the standard flour. Due to an ordering error, the quantities of the two types of flour were interchanged. This decreased the total cost by 25%. Find the ratio of the quantity of premium flour to7 standard flour in the original order.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 2",
+      "5: 2",
+      "3: 4",
+      "4: 5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "5: 2"
   },
   {
     "id": "maths_ratio_proportion_192",
-    "question": "Ratio Proportion — Question 192 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Three varieties of rice costing ₹40/kg, ₹50/kg, and a third unknown price are mixed in the ratio 2:3:5. If the resulting mixture at ₹55/kg, making a profit of 10% on the cost price, what is the price of the third variety of rice per kg?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹52.50",
+      "₹57.50",
+      "₹54.00",
+      "₹62.50"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹54.00"
   },
   {
     "id": "maths_ratio_proportion_193",
-    "question": "Ratio Proportion — Question 193 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A stationery supplier ordered 8 boxes of premium pens and some boxes of standard pens. The price of premium pens per box was twice that of standard pens. When the order was delivered, the number of boxes of premium and standard pens had been accidentally interchanged. This increased the total bill by 25%. What was the ratio of the original number of boxes of premium pens to the original number of boxes of standard pens?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2: 1",
+      "1: 3",
+      "1: 2",
+      "3: 1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "1: 2"
   },
   {
     "id": "maths_ratio_proportion_194",
-    "question": "Ratio Proportion — Question 194 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If M: N = 4: 5, N: O = 6: 7, and O: P = 9: 11, then find N: P.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "54: 77",
+      "45: 77",
+      "42: 55",
+      "36: 63"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "54: 77"
   },
   {
     "id": "maths_ratio_proportion_195",
-    "question": "Ratio Proportion — Question 195 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A stationery shop ordered 6 dozen red pens and some additional dozen blue pens. The price of the red pens per dozen was three times that of the blue ones. When the order was delivered, it was found that the number of dozens of the two colours had been interchanged. This increased the bill by 40%. Find the ratio of the number of dozens of red pens to the number of dozens of blue pens in the original order.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 1",
+      "1: 2",
+      "2: 3",
+      "3: 4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "1: 2"
   },
   {
     "id": "maths_ratio_proportion_196",
-    "question": "Ratio Proportion — Question 196 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If A: B = 7: 5, B: C = 2: 3 and C: D = 4: 5, find the ratio A: D.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "14: 25",
+      "28: 25",
+      "56: 75",
+      "75: 56"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "56: 75"
   },
   {
     "id": "maths_ratio_proportion_197",
-    "question": "Ratio Proportion — Question 197 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If a: b = 5: 3, then find (6a + 2b): (6a – 2b).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3: 2",
+      "2: 3",
+      "5: 3",
+      "3: 5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "3: 2"
   },
   {
     "id": "maths_ratio_proportion_198",
-    "question": "Ratio Proportion — Question 198 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If P: Q = 6: 11, Q: R = 5: 4 and R: S = 9: 7, find P: Q: R: S.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "270: 495: 396: 308",
+      "6: 11: 4: 7",
+      "30: 55: 44: 35",
+      "270: 396: 495: 308"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "270: 495: 396: 308"
   },
   {
     "id": "maths_ratio_proportion_199",
-    "question": "Ratio Proportion — Question 199 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If p: q = 4: 1, find (5p + 3q): (5p – 3q).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "23: 17",
+      "17: 23",
+      "7: 17",
+      "17: 7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "23: 17"
   },
   {
     "id": "maths_ratio_proportion_200",
-    "question": "Ratio Proportion — Question 200 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Given that W: X = 5: 6, X: Y = 3: 7 and Y: Z = 8: 9, find the compound ratio W: X: Y: Z.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20: 24: 56: 63",
+      "5: 6: 7: 9",
+      "5: 6: 14: 9",
+      "20: 24: 42: 63"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "20: 24: 56: 63"
   },
   {
     "id": "maths_ratio_proportion_201",
-    "question": "Ratio Proportion — Question 201 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If 20% of (P + Q) = 50% of (P – Q), then find the ratio P: Q.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3: 7",
+      "7: 3",
+      "2: 5",
+      "5: 2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "7: 3"
   },
   {
     "id": "maths_ratio_proportion_202",
-    "question": "Ratio Proportion — Question 202 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If 25% of (P + Q) = 75% of (P – Q), then find the ratio P: Q?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 2",
+      "2: 1",
+      "1: 3",
+      "3: 1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "2: 1"
   },
   {
     "id": "maths_ratio_proportion_203",
-    "question": "Ratio Proportion — Question 203 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If 30% of m is equal to 18% of n, what is the ratio m: n?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5: 3",
+      "2: 3",
+      "3: 5",
+      "3: 2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "3: 5"
   },
   {
     "id": "maths_ratio_proportion_204",
-    "question": "Ratio Proportion — Question 204 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If 12.5% of p is equal to 50% of q, what is the ratio p: q?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 4",
+      "4: 1",
+      "1: 2",
+      "2: 1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "4: 1"
   },
   {
     "id": "maths_ratio_proportion_205",
-    "question": "Ratio Proportion — Question 205 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If (x + y): (x – y) = 5: 2, find (x³ + y³): (x³ – y³)",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "185: 158",
+      "158: 185",
+      "17: 23",
+      "23: 17"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "185: 158"
   },
   {
     "id": "maths_ratio_proportion_206",
-    "question": "Ratio Proportion — Question 206 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A ribbon is cut into three pieces in the ratio 2: 3: 5. If the length of the longest piece is 20 cm, what is the total length of the ribbon?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "30 cm",
+      "40 cm",
+      "50 cm",
+      "60 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "40 cm"
   },
   {
     "id": "maths_ratio_proportion_207",
-    "question": "Ratio Proportion — Question 207 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Three numbers are in the ratio 2: 3: 5. If their average is 100, what is the difference between the largest and the smallest number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "100",
+      "90",
+      "80",
+      "70"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "70"
   },
   {
     "id": "maths_ratio_proportion_208",
-    "question": "Ratio Proportion — Question 208 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Three friends share a winning prize in the ratio 2: 3: 4. If the total prize is Rs.9000, how much more does the person with the highest share get than the lowest?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1000",
+      "1500",
+      "2000",
+      "2500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "2000"
   },
   {
     "id": "maths_ratio_proportion_209",
-    "question": "Ratio Proportion — Question 209 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Three numbers are such that the second is 150% of the first, and the third is 80% of the second. What is the ratio of the first to the third?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5: 6",
+      "2: 3",
+      "5: 4",
+      "5: 8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "5: 6"
   },
   {
     "id": "maths_ratio_proportion_210",
-    "question": "Ratio Proportion — Question 210 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Two numbers are in the ratio 6: 5. If the difference between them is 11, find the numbers.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "66 and 55",
+      "60 and 49",
+      "72 and 61",
+      "88 and 77"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "66 and 55"
   },
   {
     "id": "maths_ratio_proportion_211",
-    "question": "Ratio Proportion — Question 211 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The weights of three friends are in the ratio 7: 8: 9. If each gains 5 kg, the new ratio becomes 12: 13: 14. What is the original weight of the heaviest friend? Shift",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5 kg",
+      "7 kg",
+      "9 kg",
+      "11 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "9 kg"
   },
   {
     "id": "maths_ratio_proportion_212",
-    "question": "Ratio Proportion — Question 212 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If x: y = 2: 5 then what is (2x + 3y): (x + y)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "19: 7",
+      "7: 19",
+      "16: 7",
+      "7: 16"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "19: 7"
   },
   {
     "id": "maths_ratio_proportion_213",
-    "question": "Ratio Proportion — Question 213 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Two numbers are in the ratio 5: 7. If 9 is added to each, the new ratio becomes 8: 11. What are the original numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "135 and 189",
+      "150 and 210",
+      "120 and 168",
+      "180 and 252"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "135 and 189"
   },
   {
     "id": "maths_ratio_proportion_214",
-    "question": "Ratio Proportion — Question 214 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A: B = 3: 4, B: C = 6: 7, C: D = 14: 15 What is the ratio of A: D?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3: 5",
+      "9: 16",
+      "7: 20",
+      "9: 25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "3: 5"
   },
   {
     "id": "maths_ratio_proportion_215",
-    "question": "Ratio Proportion — Question 215 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A box has 120 pencils in red, blue, and black in the ratio 2: 3: 5. If 10 red and 20 black pencils are removed, what is the new ratio of red to black pencils?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 2",
+      "3: 5",
+      "13: 15",
+      "7: 20"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "7: 20"
   },
   {
     "id": "maths_ratio_proportion_216",
-    "question": "Ratio Proportion — Question 216 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A bag contains red, blue, and green balls in the ratio 4: 5: 6. If 6 red balls are removed and 3 green balls are added, the new ratio becomes 2: 5: 7. How many red balls were originally in the bag?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12",
+      "24",
+      "36",
+      "40"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "12"
   },
   {
     "id": "maths_ratio_proportion_217",
-    "question": "Ratio Proportion — Question 217 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The expenditure of a company on five heads A, B, C, D and E is in proportion to 3: 5: 7: 11: ? respectively. The expenditure on E is equal to the arithmetic mean of the expenditures on A and D. If the expenditure on C exceeds that on B by ₹18,000, find the total expenditure (₹) of the company.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹1,80,000",
+      "₹2,40,000",
+      "₹2,97,000",
+      "₹2,52,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹2,97,000"
   },
   {
     "id": "maths_ratio_proportion_218",
-    "question": "Ratio Proportion — Question 218 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A sum of ₹4800 is divided among A, B and C in the ratio 3: 4: 5. The share of B is how much more than that of A?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹200",
+      "₹300",
+      "₹400",
+      "₹500"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹400"
   },
   {
     "id": "maths_ratio_proportion_219",
-    "question": "Ratio Proportion — Question 219 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If a ratio of 7: 9 represents the number of apples and oranges in a basket and there are 63 apples. How many oranges are there?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "72",
+      "81",
+      "90",
+      "84"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "81"
   },
   {
     "id": "maths_ratio_proportion_220",
-    "question": "Ratio Proportion — Question 220 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A fruit basket contains apples and oranges. The number of apples is 25% more than the number of oranges. What is the ratio of apples to oranges?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 4",
+      "4: 5",
+      "5: 4",
+      "3: 4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "5: 4"
   },
   {
     "id": "maths_ratio_proportion_221",
-    "question": "Ratio Proportion — Question 221 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If the ratio of chairs to tables is 3: 2 and there are 30 chairs, how many tables are there?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20",
+      "18",
+      "12",
+      "15"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "20"
   },
   {
     "id": "maths_ratio_proportion_222",
-    "question": "Ratio Proportion — Question 222 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The sum of three numbers is 180. If the ratio of the first number to second number is 3: 5, and the ratio of the second number to third number is 4:7, then the second number is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "40.8",
+      "53.73",
+      "63.12",
+      "72.05"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "53.73"
   },
   {
     "id": "maths_ratio_proportion_223",
-    "question": "Ratio Proportion — Question 223 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If m:n= 5:11 and n:p= 2:5, then find m:n:p.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5:11:2",
+      "20:2:11",
+      "15:22:55",
+      "10:22:55"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "10:22:55"
   },
   {
     "id": "maths_ratio_proportion_224",
-    "question": "Ratio Proportion — Question 224 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The cost of Type 1 wheat is ₹16 per kg and Type 2 wheat is ₹24 per kg. If both Type 1 and Type 2 are mixed in the ratio of 3: 5, then the price per kg of the mixed variety of wheat is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "23 kg",
+      "22 kg",
+      "24 kg",
+      "21 kg"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "21 kg"
   },
   {
     "id": "maths_ratio_proportion_225",
-    "question": "Ratio Proportion — Question 225 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A box contains 5 rupee, 2 rupee, and 1 rupee coins in the ratio 7:3:2. The total amount in the box is 1075 rupees. Find the number of coins of 2 rupees.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70",
+      "75",
+      "80",
+      "85"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "75"
   },
   {
     "id": "maths_ratio_proportion_226",
-    "question": "Ratio Proportion — Question 226 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The sum of three numbers is 144. If the numbers are in a ratio of 3:4:5, find the smallest number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "36",
+      "48",
+      "46",
+      "38"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "36"
   },
   {
     "id": "maths_ratio_proportion_227",
-    "question": "Ratio Proportion — Question 227 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Box A, contains tea worth Rs.350 per kg and in box B contains tea worth Rs. 450 per kg. If both box A and B are mixed in the ratio 4: 6 then the price of the mixture per kg is approximately:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "400",
+      "350",
+      "410",
+      "440"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "410"
   },
   {
     "id": "maths_ratio_proportion_228",
-    "question": "Ratio Proportion — Question 228 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If numbers are in a ratio 2: 5: 3: 4, and the numbers are increased by 20%, 30%, 40% and 10% respectively. Find the new ratio.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "22: 67: 47: 40",
+      "19: 63: 41: 47",
+      "23: 61: 41: 43",
+      "24: 65: 42: 44"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "24: 65: 42: 44"
   },
   {
     "id": "maths_ratio_proportion_229",
-    "question": "Ratio Proportion — Question 229 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Two numbers are in the ratio of 5: 8. If 12 is added to each number, the new ratio becomes 11: 17. What is the sum of the original two numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "412",
+      "276",
+      "350",
+      "312"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "312"
   },
   {
     "id": "maths_ratio_proportion_230",
-    "question": "Ratio Proportion — Question 230 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "In a class, ratio of the boys to the girls is 5: 3. If 20% of the boys and 40% of the girls fail in an exam, what is the ratio of the number of boys who passed to the number of girls who passed?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20: 9",
+      "9: 20",
+      "21: 19",
+      "22: 7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "20: 9"
   },
   {
     "id": "maths_ratio_proportion_231",
-    "question": "Ratio Proportion — Question 231 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If A: B = 2: 3 and B: C = 4: 5, then what is A: B: C ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8: 12: 15",
+      "2: 3: 5",
+      "4: 6: 5",
+      "6: 9: 10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "8: 12: 15"
   },
   {
     "id": "maths_ratio_proportion_232",
-    "question": "Ratio Proportion — Question 232 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If x: y = 3: 4 and y: z = 2: 5, find x: z.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3: 10",
+      "6: 20",
+      "3: 5",
+      "4: 10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "3: 10"
   },
   {
     "id": "maths_ratio_proportion_233",
-    "question": "Ratio Proportion — Question 233 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Two numbers are such that 30% of the first is equal to 45% of the second. What is the ratio of the first to the second?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2:3",
+      "3:2",
+      "3:4",
+      "4:3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "3:2"
   },
   {
     "id": "maths_ratio_proportion_234",
-    "question": "Ratio Proportion — Question 234 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If a: b = 5: 7 and b: c = 3: 4, then a: b: c = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15: 21: 28",
+      "5: 7: 4",
+      "5: 3: 4",
+      "15: 7: 4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "15: 21: 28"
   },
   {
     "id": "maths_ratio_proportion_235",
-    "question": "Ratio Proportion — Question 235 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "In a school, the ratio of boys to girls is 7:5. If 30 more girls join, the ratio becomes 7:6. Find the number of boys.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "210",
+      "280",
+      "350",
+      "420"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "210"
   },
   {
     "id": "maths_ratio_proportion_236",
-    "question": "Ratio Proportion — Question 236 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If a:b = 3:5 and b = 15, find a.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "9",
+      "10",
+      "12"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "9"
   },
   {
     "id": "maths_ratio_proportion_237",
-    "question": "Ratio Proportion — Question 237 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If (x + y): (y + z): (z + x) = 7: 9: 13 for positive real x, y, z. Find x: y: z?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7: 2: 11",
+      "5: 4: 8",
+      "11: 3: 15",
+      "13: 9: 7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "11: 3: 15"
   },
   {
     "id": "maths_ratio_proportion_238",
-    "question": "Ratio Proportion — Question 238 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Three numbers are in a ratio 5: 7: 9. If the difference between the largest and the smallest number is 20, find the middle number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "25",
+      "35",
+      "45",
+      "55"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "35"
   },
   {
     "id": "maths_ratio_proportion_239",
-    "question": "Ratio Proportion — Question 239 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Rice worth ₹120 per kg and ₹130 per kg are mixed with a third variety in the ratio 1: 1: 2. If the mixture is worth ₹150 per kg, what is the price of third variety per kg?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹175",
+      "₹170",
+      "₹165",
+      "₹180"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹175"
   },
   {
     "id": "maths_ratio_proportion_240",
-    "question": "Ratio Proportion — Question 240 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A jar holds red and blue marbles in a ratio of 5: 3. After removing 15 blue marbles, the ratio of red to blue marbles changes to 5: 2. How many red marbles are there in the jar?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "85",
+      "80",
+      "65",
+      "75"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "75"
   },
   {
     "id": "maths_ratio_proportion_241",
-    "question": "Ratio Proportion — Question 241 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The savings of Arjun and Karan are in the ratio 7: 9 if both save ₹3,000 more, the ratio changes to 10: 12. What is Karan's saving?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹9,000",
+      "₹12,000",
+      "₹15,000",
+      "₹18,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹9,000"
   },
   {
     "id": "maths_ratio_proportion_242",
-    "question": "Ratio Proportion — Question 242 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A sum of ₹150 is to be divided among A, B and C. The ratio of A's share to B's share is 3: 5 and the ratio of B's share to C's share is 5: 7. What is B's share?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹45",
+      "₹50",
+      "₹30",
+      "₹40"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹50"
   },
   {
     "id": "maths_ratio_proportion_243",
-    "question": "Ratio Proportion — Question 243 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If A: B = 4: 5 and B: C = 6: 7, find A: C ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24: 35",
+      "4: 7",
+      "5: 6",
+      "6: 7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "24: 35"
   },
   {
     "id": "maths_ratio_proportion_244",
-    "question": "Ratio Proportion — Question 244 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A: B = 5: 6, B: C = 7: 8, and C: D = 9:10. Find the ratio A: D ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "105: 160",
+      "35: 40",
+      "35: 80",
+      "105: 120"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "105: 160"
   },
   {
     "id": "maths_ratio_proportion_245",
-    "question": "Ratio Proportion — Question 245 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The ratio of incomes of A and B is 7: 5 and the ratio of their expenditures is 3: 2. If both save ₹4000 per month, what is A's income?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹28,000",
+      "₹35,000",
+      "₹32,000",
+      "₹30,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹28,000"
   },
   {
     "id": "maths_ratio_proportion_246",
-    "question": "Ratio Proportion — Question 246 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The price of a movie ticket for adults and children is in the ratio 5: 3. If an adult ticket costs ₹250, what is the price of a child ticket?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹100",
+      "₹120",
+      "₹150",
+      "₹200"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹100"
   },
   {
     "id": "maths_ratio_proportion_247",
-    "question": "Ratio Proportion — Question 247 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Out of 200 students, 20% failed the exam. Out of the remaining 20% passed the exam with distinction. Find the ratio of the students who passed the exam with distinction to the students who passed the exam without distinction.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1: 3",
+      "1: 4",
+      "1: 5",
+      "1: 6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "1: 4"
   },
   {
     "id": "maths_ratio_proportion_248",
-    "question": "Ratio Proportion — Question 248 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "In a company, the monthly salaries of a manager, supervisor and worker are in the ratio 7: 5: 3. If the supervisor earns ₹25,000. What is the manager's salary?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "₹30,000",
+      "₹32,000",
+      "₹35,000",
+      "₹40,000"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "₹35,000"
   },
   {
     "id": "maths_ratio_proportion_249",
-    "question": "Ratio Proportion — Question 249 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If a: b = 9: 5, b: c = 4: 11. Find a: c ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "26: 55",
+      "36: 55",
+      "36: 53",
+      "35: 52"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "36: 55"
   },
   {
     "id": "maths_ratio_proportion_250",
-    "question": "Ratio Proportion — Question 250 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A painter is hired to paint a wall with a special shade. To prepare the paint, he mixes red, blue and white in the ratio 4: 2: 1. For this design, he prepares 14 liters of paint in total. How many liters of white paint does he use?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "2"
   },
   {
     "id": "maths_ratio_proportion_251",
-    "question": "Ratio Proportion — Question 251 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "The sum of three number is 132. if the ratio of the first to the second is 2: 5 and the ratio of the second to the third is 5: 4, then the first number is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "19",
+      "24",
+      "28",
+      "32"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "24"
   },
   {
     "id": "maths_ratio_proportion_252",
-    "question": "Ratio Proportion — Question 252 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "What is the fourth proportional to 2,6,4 ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "12",
+      "10",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "12"
   },
   {
     "id": "maths_ratio_proportion_253",
-    "question": "Ratio Proportion — Question 253 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Find the mean proportion between 4 and 16.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "6",
+      "12",
+      "10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "8"
   },
   {
     "id": "maths_ratio_proportion_254",
-    "question": "Ratio Proportion — Question 254 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A box contains red and black marbles in the ratio 3: 5. If there are 40 more black marbles than red, how many marbles are there in total?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "120",
+      "160",
+      "200",
+      "240"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "160"
   },
   {
     "id": "maths_ratio_proportion_255",
-    "question": "Ratio Proportion — Question 255 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "If x: y = 3: 4, then (7x + 2y): (7x – 2y) is equal to?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20:11",
+      "21:12",
+      "25:13",
+      "29:13"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "29:13"
   },
   {
     "id": "maths_ratio_proportion_256",
-    "question": "Ratio Proportion — Question 256 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "In a bag, red, blue, and green balls are in the ratio 3: 4: 5. If there are 48 balls in total, how many are green?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15",
+      "20",
+      "25",
+      "18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "20"
   },
   {
     "id": "maths_ratio_proportion_257",
-    "question": "Ratio Proportion — Question 257 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "A recipe needs ingredients A, B, and C in the ratio 5: 3: 2. If the chef only has 400 grams of ingredient A, what is the total amount of the mixture he can make, maintaining the ratio?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "600 gm",
+      "800 gm",
+      "1000 gm",
+      "1200 gm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "800 gm"
   },
   {
     "id": "maths_ratio_proportion_258",
-    "question": "Ratio Proportion — Question 258 (add real content in datas/maths/ratio-proportion.json)",
+    "question": "Three friends, A, B, and C, have money in the ratio 2:3:4, summing to 81. If they each receive an equal amount x, their new ratio becomes 4:5:6. Find x.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "15",
+      "18",
+      "17",
+      "16"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Ratio Proportion."
+    "correctAnswer": "18"
   },
   {
     "id": "maths_ratio_proportion_259",

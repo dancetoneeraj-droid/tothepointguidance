@@ -2482,1358 +2482,2870 @@
   },
   {
     "id": "maths_algebra_188",
-    "question": "Algebra — Question 188 (add real content in datas/maths/algebra.json)",
+    "question": "If 3^x = 4^y = 12^z, then z is equal to?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "xy",
+      "x + y",
+      "xy/(x+y)",
+      "4x + 3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "xy/(x+y)",
+    "solution": "Let 3^x = 4^y = 12^z = k.\nThen 1/x = log_k 3, 1/y = log_k 4 and 1/z = log_k 12.\nSince 12 = 3 × 4: 1/z = log_k 3 + log_k 4 = 1/x + 1/y = (x + y)/xy.\nAnswer: xy/(x+y)"
   },
   {
     "id": "maths_algebra_189",
-    "question": "Algebra — Question 189 (add real content in datas/maths/algebra.json)",
+    "question": "If 2^x = 3^y = 18^(-z), then which option is correct?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1/x + 2/y + 1/z = 0",
+      "2/x + 1/y + 1/z = 0",
+      "1/x + 2/y − 1/z = 0",
+      "1/x − 2/y + 1/z = 0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1/x + 2/y + 1/z = 0",
+    "solution": "Let 2^x = 3^y = 18^(−z) = k, so 1/x = log_k 2 and 1/y = log_k 3.\nFrom 18^(−z) = k: −1/z = log_k 18 = log_k(2 × 3²) = log_k 2 + 2 log_k 3 = 1/x + 2/y.\nHence 1/x + 2/y + 1/z = 0.\nAnswer: 1/x + 2/y + 1/z = 0"
   },
   {
     "id": "maths_algebra_190",
-    "question": "Algebra — Question 190 (add real content in datas/maths/algebra.json)",
+    "question": "If 5^a = 4^b = 100, then find 2/a + 1/b.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-1",
+      "1",
+      "2",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1",
+    "solution": "1/a = log_100 5 and 1/b = log_100 4.\n2/a + 1/b = log_100 25 + log_100 4 = log_100 100 = 1.\nAnswer: 1"
   },
   {
     "id": "maths_algebra_191",
-    "question": "Algebra — Question 191 (add real content in datas/maths/algebra.json)",
+    "question": "If 169^a = 403^(-2b) = 961^c, then find (1/a + 1/b + 1/c)^2021.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "2",
+      "-1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "0",
+    "solution": "Note 169 = 13², 961 = 31² and 403 = 13 × 31. Let the common value be k.\n1/a = 2 log_k 13, 1/c = 2 log_k 31, and from 403^(−2b) = k, 1/b = −2(log_k 13 + log_k 31).\nSo 1/a + 1/b + 1/c = 0, and 0^2021 = 0.\nAnswer: 0"
   },
   {
     "id": "maths_algebra_192",
-    "question": "Algebra — Question 192 (add real content in datas/maths/algebra.json)",
+    "question": "If x^(2a) = y^(2b) = z^(2c) ≠ 0 and x² = yz, then the value of (ab + bc + ca)/bc is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3ac",
+      "3",
+      "3ab",
+      "3bc"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "3",
+    "solution": "Let x^(2a) = y^(2b) = z^(2c) = k, so log x = L/2a, log y = L/2b, log z = L/2c where L = log k.\nx² = yz gives 2 log x = log y + log z ⇒ 1/a = 1/(2b) + 1/(2c) ⇒ 2/a = 1/b + 1/c.\n(ab + bc + ca)/bc = a/c + 1 + a/b = a(1/b + 1/c) + 1 = a(2/a) + 1 = 3.\nAnswer: 3"
   },
   {
     "id": "maths_algebra_193",
-    "question": "Algebra — Question 193 (add real content in datas/maths/algebra.json)",
+    "question": "If a, b, c are non-zero numbers and 14^a = 36^b = 84^c, then 6b(1/c − 1/a) is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "6",
+      "3",
+      "4",
+      "1.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "3",
+    "solution": "Let 14^a = 36^b = 84^c = k, so 1/a = log_k 14, 1/b = log_k 36, 1/c = log_k 84.\n1/c − 1/a = log_k(84/14) = log_k 6 = (1/2) log_k 36 = 1/(2b).\nSo 6b × 1/(2b) = 3.\nAnswer: 3"
   },
   {
     "id": "maths_algebra_194",
-    "question": "Algebra — Question 194 (add real content in datas/maths/algebra.json)",
+    "question": "If 9^x = 5^y = 75^z and z = 2xy/(y + kx), then find the value of k^(1/k).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "2",
+      "√2",
+      "2^(1/3)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "√2",
+    "solution": "Let 9^x = 5^y = 75^z = m, so 1/x = log_m 9, 1/y = log_m 5, 1/z = log_m 75.\n75 = 3 × 5², so 1/z = log_m 3 + 2 log_m 5 = 1/(2x) + 2/y = (y + 4x)/(2xy).\nThus z = 2xy/(y + 4x), giving k = 4.\nk^(1/k) = 4^(1/4) = √2.\nAnswer: √2"
   },
   {
     "id": "maths_algebra_195",
-    "question": "Algebra — Question 195 (add real content in datas/maths/algebra.json)",
+    "question": "If (5.55)^x = (0.555)^y = 1000, then the value of 1/x − 1/y is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "1",
+      "1/3",
+      "2/3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1/3",
+    "solution": "1/x = log_1000 5.55 and 1/y = log_1000 0.555.\n1/x − 1/y = log_1000 (5.55/0.555) = log_1000 10 = 1/3.\nAnswer: 1/3"
   },
   {
     "id": "maths_algebra_196",
-    "question": "Algebra — Question 196 (add real content in datas/maths/algebra.json)",
+    "question": "If 27^x = 343^y = 1331^z = 231, then find 123xyz/(xy + yz + zx).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "31",
+      "41",
+      "51",
+      "61.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "41",
+    "solution": "27 = 3³, 343 = 7³, 1331 = 11³ and 231 = 3 × 7 × 11.\n1/x = 3 log_231 3, 1/y = 3 log_231 7, 1/z = 3 log_231 11, so 1/x + 1/y + 1/z = 3 log_231 231 = 3.\n123xyz/(xy + yz + zx) = 123/(1/x + 1/y + 1/z) = 123/3 = 41.\nAnswer: 41"
   },
   {
     "id": "maths_algebra_197",
-    "question": "Algebra — Question 197 (add real content in datas/maths/algebra.json)",
+    "question": "If the x-th root of 75 equals the y-th root of 45 equals the z-th root of 15, then which of the following statements is true?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "x + y = 2z",
+      "x − y = 3z",
+      "x + y = 3z",
+      "2x + 3y = 4z"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "x + y = 3z",
+    "solution": "Let 75^(1/x) = 45^(1/y) = 15^(1/z) = k, so log 75 = x log k, log 45 = y log k, log 15 = z log k.\nSince 75 × 45 = 3375 = 15³, log 75 + log 45 = 3 log 15.\nTherefore x + y = 3z.\nAnswer: x + y = 3z"
   },
   {
     "id": "maths_algebra_198",
-    "question": "Algebra — Question 198 (add real content in datas/maths/algebra.json)",
+    "question": "If 3^a = 27^b = 81^c and abc = 144, then the value of 12(1/a + 1/(2b) + 1/(5c)) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18/120",
+      "18/10",
+      "33/10",
+      "17/120"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "33/10",
+    "solution": "3^a = 3^(3b) = 3^(4c) gives a = 3b = 4c, so take a = 12t, b = 4t, c = 3t.\nabc = 144t³ = 144 ⇒ t = 1, hence a = 12, b = 4, c = 3.\n12(1/12 + 1/8 + 1/15) = 12 × 33/120 = 33/10.\nAnswer: 33/10"
   },
   {
     "id": "maths_algebra_199",
-    "question": "Algebra — Question 199 (add real content in datas/maths/algebra.json)",
+    "question": "A and B are positive integers. If A + B + AB = 186, then what is the difference between A and B (A, B ≤ 20)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7",
+      "8",
+      "5",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "6",
+    "solution": "A + B + AB = 186 ⇒ (A + 1)(B + 1) = 187 = 11 × 17.\nSo A + 1 = 11 and B + 1 = 17, giving A = 10 and B = 16.\nDifference = 16 − 10 = 6.\nAnswer: 6"
   },
   {
     "id": "maths_algebra_200",
-    "question": "Algebra — Question 200 (add real content in datas/maths/algebra.json)",
+    "question": "If x + y + xy = 0, y + z + yz = 3 and z + x + zx = 8, then find 12xyz.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-8",
+      "-5",
+      "-10",
+      "-15"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "-10",
+    "solution": "The equations become (1+x)(1+y) = 1, (1+y)(1+z) = 4 and (1+z)(1+x) = 9.\nMultiplying: [(1+x)(1+y)(1+z)]² = 36 ⇒ (1+x)(1+y)(1+z) = 6.\nSo 1+z = 6/1 = 6, 1+x = 6/4 = 1.5, 1+y = 6/9 = 2/3, i.e. z = 5, x = 0.5, y = −1/3.\nxyz = 0.5 × (−1/3) × 5 = −5/6, so 12xyz = −10.\nAnswer: -10"
   },
   {
     "id": "maths_algebra_201",
-    "question": "Algebra — Question 201 (add real content in datas/maths/algebra.json)",
+    "question": "If a² + b² = 25, x² + y² = 17 and ax + by = 8, then ay − bx = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20",
+      "17",
+      "18",
+      "19"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "19",
+    "solution": "Using the identity (a² + b²)(x² + y²) = (ax + by)² + (ay − bx)².\n25 × 17 = 425 = 8² + (ay − bx)² = 64 + (ay − bx)².\n(ay − bx)² = 361 ⇒ ay − bx = 19.\nAnswer: 19"
   },
   {
     "id": "maths_algebra_202",
-    "question": "Algebra — Question 202 (add real content in datas/maths/algebra.json)",
+    "question": "Let a, b, x, y be real numbers such that a² + b² = 25, x² + y² = 169, and ax + by = 65. If k = ay − bx, then:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "k = 0",
+      "0 < k < 5/13",
+      "k > 5/13",
+      "k = 5/13"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "k = 0",
+    "solution": "(a² + b²)(x² + y²) = (ax + by)² + (ay − bx)².\n25 × 169 = 4225 and 65² = 4225, so (ay − bx)² = 0.\nHence k = 0.\nAnswer: k = 0"
   },
   {
     "id": "maths_algebra_203",
-    "question": "Algebra — Question 203 (add real content in datas/maths/algebra.json)",
+    "question": "If x = (√19 + √13)/(√19 − √13) and y = (√19 − √13)/(√19 + √13), then 1/(x³ + 1) + 1/(y³ + 1) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "4",
+      "1",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1",
+    "solution": "x and y are reciprocals, so y = 1/x.\n1/(y³ + 1) = 1/(1/x³ + 1) = x³/(1 + x³).\nSum = 1/(x³ + 1) + x³/(x³ + 1) = (1 + x³)/(1 + x³) = 1.\nAnswer: 1"
   },
   {
     "id": "maths_algebra_204",
-    "question": "Algebra — Question 204 (add real content in datas/maths/algebra.json)",
+    "question": "If a = (13 + 2√42) and b = √(13 − 2√42), then find 1/(a⁸ + 1) + 1/(b¹⁶ + 1).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8",
+      "4",
+      "1",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1",
+    "solution": "(13 + 2√42)(13 − 2√42) = 169 − 168 = 1, so 13 − 2√42 = 1/a.\nThen b = a^(−1/2) and b¹⁶ = a^(−8) = 1/a⁸.\n1/(a⁸ + 1) + 1/(1/a⁸ + 1) = 1/(a⁸ + 1) + a⁸/(a⁸ + 1) = 1.\nAnswer: 1"
   },
   {
     "id": "maths_algebra_205",
-    "question": "Algebra — Question 205 (add real content in datas/maths/algebra.json)",
+    "question": "If a(7 + 4√3) = b(7 − 4√3) = 1, then the value of 1/(a⁵ + 1) + 1/(b⁵ + 1) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "3",
+      "7",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1",
+    "solution": "a = 1/(7 + 4√3) = 7 − 4√3 and b = 1/(7 − 4√3) = 7 + 4√3, so ab = 1.\nWith b = 1/a: 1/(b⁵ + 1) = a⁵/(1 + a⁵).\nSum = 1/(a⁵ + 1) + a⁵/(a⁵ + 1) = 1.\nAnswer: 1"
   },
   {
     "id": "maths_algebra_206",
-    "question": "Algebra — Question 206 (add real content in datas/maths/algebra.json)",
+    "question": "If tanθ = 2019/2018, then 1/(1 + tan^2017 θ) + 1/(1 + cot^2017 θ) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "4",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1",
+    "solution": "Put t = tan^2017 θ, so cot^2017 θ = 1/t.\n1/(1 + t) + 1/(1 + 1/t) = 1/(1 + t) + t/(1 + t) = 1.\nThe value of tanθ does not matter.\nAnswer: 1"
   },
   {
     "id": "maths_algebra_207",
-    "question": "Algebra — Question 207 (add real content in datas/maths/algebra.json)",
+    "question": "Find the value of 1/(10⁻⁹ + 1) + 1/(10⁻⁸ + 1) + ... + 1/(10⁸ + 1) + 1/(10⁹ + 1).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9",
+      "8",
+      "9.5",
+      "10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "9.5",
+    "solution": "Pair the terms with exponents n and −n: 1/(10ⁿ + 1) + 1/(10⁻ⁿ + 1) = 1.\nFor n = 1 to 9 there are 9 such pairs contributing 9.\nThe middle term (n = 0) is 1/(1 + 1) = 0.5.\nTotal = 9 + 0.5 = 9.5.\nAnswer: 9.5"
   },
   {
     "id": "maths_algebra_208",
-    "question": "Algebra — Question 208 (add real content in datas/maths/algebra.json)",
+    "question": "If p + 1/p = 112, then the value of (p − 112)^15 + (1/p)^15 will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "112",
+      "-1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "0",
+    "solution": "From p + 1/p = 112 we get p − 112 = −1/p.\nSo (p − 112)^15 = (−1/p)^15 = −(1/p)^15 since 15 is odd.\nSum = −(1/p)^15 + (1/p)^15 = 0.\nAnswer: 0"
   },
   {
     "id": "maths_algebra_209",
-    "question": "Algebra — Question 209 (add real content in datas/maths/algebra.json)",
+    "question": "If (11 − 13x)/x + (11 − 13y)/y + (11 − 13z)/z = 5, then what is the value of 1/x + 1/y + 1/z?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5",
+      "13/11",
+      "13/5",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "4",
+    "solution": "Each term splits as 11/x − 13, so the sum is 11(1/x + 1/y + 1/z) − 39.\n11(1/x + 1/y + 1/z) − 39 = 5 ⇒ 11(1/x + 1/y + 1/z) = 44.\n1/x + 1/y + 1/z = 4.\nAnswer: 4"
   },
   {
     "id": "maths_algebra_210",
-    "question": "Algebra — Question 210 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 4√3/x = 5, then (x² + 7x + 4√3)/(x²(5 − x)) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√3",
+      "2√3",
+      "3√3",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "√3",
+    "solution": "From x + 4√3/x = 5 we get x² + 4√3 = 5x, and also 5 − x = 4√3/x.\nNumerator = (x² + 4√3) + 7x = 5x + 7x = 12x.\nDenominator = x² × 4√3/x = 4√3·x.\nRatio = 12x/(4√3·x) = 3/√3 = √3.\nAnswer: √3"
   },
   {
     "id": "maths_algebra_211",
-    "question": "Algebra — Question 211 (add real content in datas/maths/algebra.json)",
+    "question": "If (3x + 4y)(5x − 6y) = ax² + 2hxy + by², then what is the value of (4a − h + 2b)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13",
+      "107",
+      "108",
+      "11"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "11",
+    "solution": "(3x + 4y)(5x − 6y) = 15x² − 18xy + 20xy − 24y² = 15x² + 2xy − 24y².\nSo a = 15, 2h = 2 ⇒ h = 1, and b = −24.\n4a − h + 2b = 60 − 1 − 48 = 11.\nAnswer: 11"
   },
   {
     "id": "maths_algebra_212",
-    "question": "Algebra — Question 212 (add real content in datas/maths/algebra.json)",
+    "question": "The identity 4(z + 7)(2z − 1) = Az² + Bz + C holds for all real values of z. Find the value of A² − B − C.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-16",
+      "40",
+      "36",
+      "16"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "40",
+    "solution": "4(z + 7)(2z − 1) = 4(2z² + 13z − 7) = 8z² + 52z − 28.\nSo A = 8, B = 52, C = −28.\nA² − B − C = 64 − 52 + 28 = 40.\nAnswer: 40"
   },
   {
     "id": "maths_algebra_213",
-    "question": "Algebra — Question 213 (add real content in datas/maths/algebra.json)",
+    "question": "If (2x + 3y + 4)(2x + 3y − 5) is equivalent to (ax² + by² + 2hxy + 2gx + 2fy + C), then what is the value of {(g + f − C)/abh}?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "37/216",
+      "19/216",
+      "19/108",
+      "35/432"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "35/432",
+    "solution": "Put u = 2x + 3y: (u + 4)(u − 5) = u² − u − 20 = 4x² + 12xy + 9y² − 2x − 3y − 20.\nComparing: a = 4, b = 9, h = 6, g = −1, f = −1.5, C = −20.\n(g + f − C)/(abh) = (−1 − 1.5 + 20)/(4 × 9 × 6) = 17.5/216 = 35/432.\nAnswer: 35/432"
   },
   {
     "id": "maths_algebra_214",
-    "question": "Algebra — Question 214 (add real content in datas/maths/algebra.json)",
+    "question": "If (a + 1)/a = k, then find the value of (a² − 1)/a².",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "k − 2k²",
+      "k² + 2",
+      "k + 2",
+      "2k − k²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "2k − k²",
+    "solution": "(a + 1)/a = 1 + 1/a = k, so 1/a = k − 1.\n(a² − 1)/a² = 1 − 1/a² = 1 − (k − 1)².\n= 1 − (k² − 2k + 1) = 2k − k².\nAnswer: 2k − k²"
   },
   {
     "id": "maths_algebra_215",
-    "question": "Algebra — Question 215 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 1/x = c + 1/c, then the value of x is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "c, 1/c",
+      "c, c²",
+      "c, 2c",
+      "0, 1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "c, 1/c",
+    "solution": "x + 1/x = c + 1/c ⇒ x − c = 1/c − 1/x = (x − c)/(cx).\nSo (x − c)(1 − 1/(cx)) = 0, giving x = c or cx = 1 i.e. x = 1/c.\nAnswer: c, 1/c"
   },
   {
     "id": "maths_algebra_216",
-    "question": "Algebra — Question 216 (add real content in datas/maths/algebra.json)",
+    "question": "If x³ + 1/x³ = 65/8 and y³ + 1/y³ = 730/27, then which of the following is a value of xy?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "6",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "6",
+    "solution": "65/8 = 8 + 1/8, so x = 2 satisfies x³ + 1/x³ = 65/8.\n730/27 = 27 + 1/27, so y = 3 satisfies y³ + 1/y³ = 730/27.\nHence xy = 2 × 3 = 6.\nAnswer: 6"
   },
   {
     "id": "maths_algebra_217",
-    "question": "Algebra — Question 217 (add real content in datas/maths/algebra.json)",
+    "question": "If x^150 = (6 − √21)/(6 + √21), then x^150 + 1/x^150 = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "8.7",
+      "8.6",
+      "6.7",
+      "7.6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "7.6",
+    "solution": "Let u = (6 − √21)/(6 + √21); then 1/u = (6 + √21)/(6 − √21).\nu + 1/u = [(6 − √21)² + (6 + √21)²]/[(6 + √21)(6 − √21)] = 2(36 + 21)/(36 − 21).\n= 114/15 = 7.6.\nAnswer: 7.6"
   },
   {
     "id": "maths_algebra_218",
-    "question": "Algebra — Question 218 (add real content in datas/maths/algebra.json)",
+    "question": "If x = (√5 + 1)/(√5 − 1) and y = (√5 − 1)/(√5 + 1), then find the value of x² − y².",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√5",
+      "2√5",
+      "3√5",
+      "4√5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "3√5",
+    "solution": "x = (√5 + 1)²/4 = (6 + 2√5)/4 = (3 + √5)/2 and y = (3 − √5)/2.\nx + y = 3 and x − y = √5.\nx² − y² = (x + y)(x − y) = 3√5.\nAnswer: 3√5"
   },
   {
     "id": "maths_algebra_219",
-    "question": "Algebra — Question 219 (add real content in datas/maths/algebra.json)",
+    "question": "If the value of (3x√y + 2y√x)/(3x√y − 2y√x) − (3x√y − 2y√x)/(3x√y + 2y√x) is the same as that of √x·√y, then which relation holds?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9x − 4y = 36",
+      "9x + 4y = 24",
+      "9x + 4y = 36",
+      "9x − 4y = 24"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "9x − 4y = 24",
+    "solution": "Put P = 3x√y and Q = 2y√x; the expression is (P + Q)/(P − Q) − (P − Q)/(P + Q) = 4PQ/(P² − Q²).\nP² − Q² = 9x²y − 4xy² = xy(9x − 4y) and 4PQ = 24xy√(xy).\nSo the expression is 24√(xy)/(9x − 4y); setting this equal to √(xy) gives 9x − 4y = 24.\nAnswer: 9x − 4y = 24"
   },
   {
     "id": "maths_algebra_220",
-    "question": "Algebra — Question 220 (add real content in datas/maths/algebra.json)",
+    "question": "If A = (1 + 2x)/(1 − 2x) and B = (1 − 2x)/(1 + 2x), then the value of (A + B)/(A − B) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "x + 1/(4x)",
+      "x − 1/(4x)",
+      "1/(4x) − x",
+      "1/(4x²) + x²"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "x + 1/(4x)",
+    "solution": "A + B = [(1 + 2x)² + (1 − 2x)²]/[(1 − 2x)(1 + 2x)] = (2 + 8x²)/(1 − 4x²).\nA − B = [(1 + 2x)² − (1 − 2x)²]/(1 − 4x²) = 8x/(1 − 4x²).\n(A + B)/(A − B) = (2 + 8x²)/(8x) = 1/(4x) + x.\nAnswer: x + 1/(4x)"
   },
   {
     "id": "maths_algebra_221",
-    "question": "Algebra — Question 221 (add real content in datas/maths/algebra.json)",
+    "question": "If x = √6 + 2 and y = √6 − 2, then what is the value of (x/y + y/x)² − 3?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "42",
+      "97",
+      "35",
+      "22"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "97",
+    "solution": "xy = 6 − 4 = 2 and x² + y² = (6 + 4√6 + 4) + (6 − 4√6 + 4) = 20.\nx/y + y/x = (x² + y²)/xy = 20/2 = 10.\n(10)² − 3 = 97.\nAnswer: 97"
   },
   {
     "id": "maths_algebra_222",
-    "question": "Algebra — Question 222 (add real content in datas/maths/algebra.json)",
+    "question": "If 8r/(r² − 8r + 1) = 1/14, then the value of (r + 1/r) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "88",
+      "100",
+      "120",
+      "60"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "120",
+    "solution": "Invert: (r² − 8r + 1)/(8r) = 14 ⇒ r² − 8r + 1 = 112r.\nDivide by r: r + 1/r − 8 = 112.\nr + 1/r = 120.\nAnswer: 120"
   },
   {
     "id": "maths_algebra_223",
-    "question": "Algebra — Question 223 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 1/x = 10, then find the value of 7x/(x² + 1 − 8x).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3.5",
+      "4.5",
+      "2.5",
+      "5.5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "3.5",
+    "solution": "Divide numerator and denominator by x: 7/((x + 1/x) − 8).\n= 7/(10 − 8) = 7/2.\nAnswer: 3.5"
   },
   {
     "id": "maths_algebra_224",
-    "question": "Algebra — Question 224 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 1/x = 15, then the value of (7x² − 9x + 7)/(x² − x + 1) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-48/7",
+      "-22/7",
+      "48/7",
+      "22/7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "48/7",
+    "solution": "Divide numerator and denominator by x: (7(x + 1/x) − 9)/((x + 1/x) − 1).\n= (7 × 15 − 9)/(15 − 1) = 96/14.\n= 48/7.\nAnswer: 48/7"
   },
   {
     "id": "maths_algebra_225",
-    "question": "Algebra — Question 225 (add real content in datas/maths/algebra.json)",
+    "question": "If a² + 2/a² = 16, then find the value of 72a²/(a⁴ + 2 + 8a²).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "1",
+      "4",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "3",
+    "solution": "Divide numerator and denominator by a²: 72/((a² + 2/a²) + 8).\n= 72/(16 + 8) = 72/24.\n= 3.\nAnswer: 3"
   },
   {
     "id": "maths_algebra_226",
-    "question": "Algebra — Question 226 (add real content in datas/maths/algebra.json)",
+    "question": "If x⁸ − 32x⁴ + 256 = 0, then the positive value of (x² + 1/x²) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3.75",
+      "5.75",
+      "2.25",
+      "4.25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "4.25",
+    "solution": "Treat it as a quadratic in x⁴: x⁴ = [32 ± √(1024 − 1024)]/2 = 16.\nSo x² = 4 (positive root), i.e. x = 2.\nx² + 1/x² = 4 + 0.25 = 4.25.\nAnswer: 4.25"
   },
   {
     "id": "maths_algebra_227",
-    "question": "Algebra — Question 227 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 81/x = 18 where x > 0, then the value of x² + 162/x² is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "78",
+      "83",
+      "85",
+      "81"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "83",
+    "solution": "Multiply by x: x² − 18x + 81 = 0 ⇒ (x − 9)² = 0 ⇒ x = 9.\nx² + 162/x² = 81 + 162/81 = 81 + 2.\n= 83.\nAnswer: 83"
   },
   {
     "id": "maths_algebra_228",
-    "question": "Algebra — Question 228 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 49/(x + 48) = −34, then find (2x + 83)³ + 1/(2x + 83)³.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7",
+      "2",
+      "-2",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "2",
+    "solution": "Multiply through by (x + 48): x² + 48x + 49 = −34x − 1632.\nx² + 82x + 1681 = 0 ⇒ (x + 41)² = 0 ⇒ x = −41.\nThen 2x + 83 = 1, so 1³ + 1/1³ = 2.\nAnswer: 2"
   },
   {
     "id": "maths_algebra_229",
-    "question": "Algebra — Question 229 (add real content in datas/maths/algebra.json)",
+    "question": "If a − 24/a = 5, where a > 0, then the value of a² + 64/a² is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "56",
+      "60",
+      "65"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "65",
+    "solution": "Multiply by a: a² − 5a − 24 = 0 ⇒ (a − 8)(a + 3) = 0 ⇒ a = 8 (a > 0).\na² + 64/a² = 64 + 64/64.\n= 65.\nAnswer: 65"
   },
   {
     "id": "maths_algebra_230",
-    "question": "Algebra — Question 230 (add real content in datas/maths/algebra.json)",
+    "question": "If p = 13 + 2√42, then find (p² + 1)/(p² − 1).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13/(2√42)",
+      "13/√42",
+      "1/(2√42)",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "13/(2√42)",
+    "solution": "(13 + 2√42)(13 − 2√42) = 169 − 168 = 1, so 1/p = 13 − 2√42.\nDivide numerator and denominator by p: (p + 1/p)/(p − 1/p).\np + 1/p = 26 and p − 1/p = 4√42, so the value is 26/(4√42) = 13/(2√42).\nAnswer: 13/(2√42)"
   },
   {
     "id": "maths_algebra_231",
-    "question": "Algebra — Question 231 (add real content in datas/maths/algebra.json)",
+    "question": "If x = 10 + 3√11, then find √x + 1/√x.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4.84",
+      "4.69",
+      "5.69",
+      "3.92"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "4.69",
+    "solution": "(10 + 3√11)(10 − 3√11) = 100 − 99 = 1, so 1/x = 10 − 3√11 and x + 1/x = 20.\n(√x + 1/√x)² = x + 2 + 1/x = 22.\n√x + 1/√x = √22 ≈ 4.69.\nAnswer: 4.69"
   },
   {
     "id": "maths_algebra_232",
-    "question": "Algebra — Question 232 (add real content in datas/maths/algebra.json)",
+    "question": "If (x + 1/x) = 8.5, what is the value of (x² + 1/x²)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70.25",
+      "74.25",
+      "72.25",
+      "75.25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "70.25",
+    "solution": "x² + 1/x² = (x + 1/x)² − 2.\n= 72.25 − 2.\n= 70.25.\nAnswer: 70.25"
   },
   {
     "id": "maths_algebra_233",
-    "question": "Algebra — Question 233 (add real content in datas/maths/algebra.json)",
+    "question": "If the sum of a number and its reciprocal is 15, what is the sum of the square of the number and the square of its reciprocal?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "111 × 2 + 1",
+      "111 × 2 + 2",
+      "111 × 2 + 3",
+      "111 × 2 + 4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "111 × 2 + 1",
+    "solution": "x + 1/x = 15 ⇒ x² + 1/x² = 225 − 2 = 223.\n223 = 222 + 1 = 111 × 2 + 1.\nAnswer: 111 × 2 + 1"
   },
   {
     "id": "maths_algebra_234",
-    "question": "Algebra — Question 234 (add real content in datas/maths/algebra.json)",
+    "question": "If x^12.5 + 1/x^12.5 = 16, then x^25 + 1/x^25 = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "254",
+      "258",
+      "260",
+      "256"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "254",
+    "solution": "x^25 + 1/x^25 = (x^12.5 + 1/x^12.5)² − 2.\n= 256 − 2.\n= 254.\nAnswer: 254"
   },
   {
     "id": "maths_algebra_235",
-    "question": "Algebra — Question 235 (add real content in datas/maths/algebra.json)",
+    "question": "If (x^42 + 1)/x^21 = 7, then (x^84 + 1)/x^42 = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "51",
+      "49",
+      "53",
+      "47"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "47",
+    "solution": "The condition says x^21 + 1/x^21 = 7.\n(x^84 + 1)/x^42 = x^42 + 1/x^42 = 7² − 2.\n= 47.\nAnswer: 47"
   },
   {
     "id": "maths_algebra_236",
-    "question": "Algebra — Question 236 (add real content in datas/maths/algebra.json)",
+    "question": "If x^200/y^200 + y^200/x^200 = 8, then find x^400/y^400 + y^400/x^400.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "60",
+      "64",
+      "62",
+      "66"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "62",
+    "solution": "Let t = x^200/y^200, so t + 1/t = 8.\nt² + 1/t² = 8² − 2.\n= 62.\nAnswer: 62"
   },
   {
     "id": "maths_algebra_237",
-    "question": "Algebra — Question 237 (add real content in datas/maths/algebra.json)",
+    "question": "If 7a + 7/a = √98, then find a^17 + 1/a^25.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-√2",
+      "√2",
+      "-√1",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "√2",
+    "solution": "√98 = 7√2, so a + 1/a = √2, i.e. 2cosθ = √2 and a = e^(±iπ/4).\nThen a⁸ = 1, so a^17 = a and a^(−25) = a^(−25+32) = a⁷ = 1/a.\na^17 + 1/a^25 = a + 1/a = √2.\nAnswer: √2"
   },
   {
     "id": "maths_algebra_238",
-    "question": "Algebra — Question 238 (add real content in datas/maths/algebra.json)",
+    "question": "If √x + 1/√x = 3 and x > 0, then x²(x² − 47) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "2",
+      "-1",
+      "-2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "-1",
+    "solution": "Squaring: x + 2 + 1/x = 9 ⇒ x + 1/x = 7 ⇒ x² + 1/x² = 47.\nSo x⁴ + 1 = 47x², i.e. x⁴ − 47x² = −1.\nx²(x² − 47) = x⁴ − 47x² = −1.\nAnswer: -1"
   },
   {
     "id": "maths_algebra_239",
-    "question": "Algebra — Question 239 (add real content in datas/maths/algebra.json)",
+    "question": "If x^2019 = 11 − 2√30, then x^4038 + 1/x^4038 = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "443",
+      "439",
+      "486",
+      "482"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "482",
+    "solution": "(11 − 2√30)(11 + 2√30) = 121 − 120 = 1, so u = 11 − 2√30 has u + 1/u = 22.\nx^4038 + 1/x^4038 = u² + 1/u² = 22² − 2.\n= 482.\nAnswer: 482"
   },
   {
     "id": "maths_algebra_240",
-    "question": "Algebra — Question 240 (add real content in datas/maths/algebra.json)",
+    "question": "If P = 7 + 4√3 and PQ = 1, then what is the value of (1/P²) + (1/Q²)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "148",
+      "189",
+      "194",
+      "204"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "194",
+    "solution": "PQ = 1 means Q = 1/P, so 1/P² + 1/Q² = Q² + P².\nP + Q = (7 + 4√3) + (7 − 4√3) = 14 and PQ = 1.\nP² + Q² = 196 − 2 = 194.\nAnswer: 194"
   },
   {
     "id": "maths_algebra_241",
-    "question": "Algebra — Question 241 (add real content in datas/maths/algebra.json)",
+    "question": "If x = (√5 + 2)/(√5 − 2), then the value of x² + x⁻² is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "350",
+      "345",
+      "284",
+      "322"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "322",
+    "solution": "x = (√5 + 2)²/(5 − 4) = 9 + 4√5, so 1/x = 9 − 4√5.\nx + 1/x = 18.\nx² + 1/x² = 324 − 2 = 322.\nAnswer: 322"
   },
   {
     "id": "maths_algebra_242",
-    "question": "Algebra — Question 242 (add real content in datas/maths/algebra.json)",
+    "question": "If a = (√3 + √2)/(√3 − √2) and b = (√3 − √2)/(√3 + √2), then the value of a² + b² − ab is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "97",
+      "2√3 + 2",
+      "4√6 + 1",
+      "98"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "97",
+    "solution": "a = (√3 + √2)² = 5 + 2√6 and b = 5 − 2√6, so a + b = 10 and ab = 1.\na² + b² = 100 − 2 = 98.\na² + b² − ab = 98 − 1 = 97.\nAnswer: 97"
   },
   {
     "id": "maths_algebra_243",
-    "question": "Algebra — Question 243 (add real content in datas/maths/algebra.json)",
+    "question": "If x = (√5 − √3)/(√5 + √3) and y = (√5 + √3)/(√5 − √3), then (x² + xy + y²)/(x² − xy + y²) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "63/61",
+      "67/65",
+      "65/63",
+      "69/67"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "63/61",
+    "solution": "x = 4 − √15 and y = 4 + √15, so x + y = 8 and xy = 1.\nx² + y² = 64 − 2 = 62.\n(62 + 1)/(62 − 1) = 63/61.\nAnswer: 63/61"
   },
   {
     "id": "maths_algebra_244",
-    "question": "Algebra — Question 244 (add real content in datas/maths/algebra.json)",
+    "question": "If 1/(x − 2) + x = 8, then what is the value of 1/(x − 2)² + (x − 2)²?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "38",
+      "36",
+      "40",
+      "34"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "34",
+    "solution": "Rewrite as 1/(x − 2) + (x − 2) = 8 − 2 = 6.\nSquaring: (x − 2)² + 2 + 1/(x − 2)² = 36.\nSo the required value is 36 − 2 = 34.\nAnswer: 34"
   },
   {
     "id": "maths_algebra_245",
-    "question": "Algebra — Question 245 (add real content in datas/maths/algebra.json)",
+    "question": "If x is the fourth root of (3 + 2√2)/(3 − 2√2), then x⁸ + 1/x⁸ = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1156",
+      "1154",
+      "1152",
+      "1158"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1154",
+    "solution": "(3 + 2√2)/(3 − 2√2) = (3 + 2√2)²/(9 − 8) = 17 + 12√2, so x⁴ = 17 + 12√2.\nIts reciprocal is 17 − 12√2, so x⁴ + 1/x⁴ = 34.\nx⁸ + 1/x⁸ = 34² − 2 = 1154.\nAnswer: 1154"
   },
   {
     "id": "maths_algebra_246",
-    "question": "Algebra — Question 246 (add real content in datas/maths/algebra.json)",
+    "question": "If x + (1/x) = (√3 + 1)/2, then what is the value of x⁴ + (1/x⁴)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "(4√3 − 1)/4",
+      "(4√3 + 1)/2",
+      "(−4√3 − 1)/4",
+      "(−4√3 − 1)/2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "(−4√3 − 1)/4",
+    "solution": "x² + 1/x² = ((√3 + 1)/2)² − 2 = (4 + 2√3)/4 − 2 = (√3 − 2)/2.\nx⁴ + 1/x⁴ = ((√3 − 2)/2)² − 2 = (7 − 4√3)/4 − 2.\n= (7 − 4√3 − 8)/4 = (−4√3 − 1)/4.\nAnswer: (−4√3 − 1)/4"
   },
   {
     "id": "maths_algebra_247",
-    "question": "Algebra — Question 247 (add real content in datas/maths/algebra.json)",
+    "question": "If x = 97 + 56√3, then what is the value of the fourth root of x plus the reciprocal of the fourth root of x?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7",
+      "6",
+      "5",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "4",
+    "solution": "97² − 56² × 3 = 9409 − 9408 = 1, so 1/x = 97 − 56√3 and x + 1/x = 194.\n(√x + 1/√x)² = 194 + 2 = 196 ⇒ √x + 1/√x = 14.\n(x^(1/4) + x^(−1/4))² = 14 + 2 = 16 ⇒ the value is 4.\nAnswer: 4"
   },
   {
     "id": "maths_algebra_248",
-    "question": "Algebra — Question 248 (add real content in datas/maths/algebra.json)",
+    "question": "If p = 13 + 2√42, then the value of (p² + 1)/(p² − 1) is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13/(2√42)",
+      "1/(2√42)",
+      "13/√42",
+      "1"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "13/(2√42)",
+    "solution": "Since (13 + 2√42)(13 − 2√42) = 1, we have 1/p = 13 − 2√42.\n(p² + 1)/(p² − 1) = (p + 1/p)/(p − 1/p) after dividing by p.\n= 26/(4√42) = 13/(2√42).\nAnswer: 13/(2√42)"
   },
   {
     "id": "maths_algebra_249",
-    "question": "Algebra — Question 249 (add real content in datas/maths/algebra.json)",
+    "question": "If x − 1/x = 0.4 and x > 0, then find x² + 1/x².",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4.16",
+      "3.32",
+      "1.84",
+      "2.16"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "2.16",
+    "solution": "x² + 1/x² = (x − 1/x)² + 2.\n= 0.16 + 2.\n= 2.16.\nAnswer: 2.16"
   },
   {
     "id": "maths_algebra_250",
-    "question": "Algebra — Question 250 (add real content in datas/maths/algebra.json)",
+    "question": "If a² − 13a − 1 = 0, then find the value of a² + 1/a².",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "13",
+      "169",
+      "167",
+      "171"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "171",
+    "solution": "Divide by a: a − 1/a = 13.\na² + 1/a² = 13² + 2.\n= 171.\nAnswer: 171"
   },
   {
     "id": "maths_algebra_251",
-    "question": "Algebra — Question 251 (add real content in datas/maths/algebra.json)",
+    "question": "If x(5 − 2/x) = 5/x, then the value of x² + 1/x² is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2 4/25",
+      "2 1/25",
+      "3 4/25",
+      "2 3/25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "2 4/25",
+    "solution": "5x − 2 = 5/x ⇒ 5(x − 1/x) = 2 ⇒ x − 1/x = 2/5.\nx² + 1/x² = 4/25 + 2.\n= 2 4/25.\nAnswer: 2 4/25"
   },
   {
     "id": "maths_algebra_252",
-    "question": "Algebra — Question 252 (add real content in datas/maths/algebra.json)",
+    "question": "If x − 5√x − 1 = 0, then x² + 1/x² is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "625",
+      "731",
+      "729",
+      "727"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "727",
+    "solution": "x − 1 = 5√x; dividing by √x gives √x − 1/√x = 5.\nSo x + 1/x = 25 + 2 = 27.\nx² + 1/x² = 27² − 2 = 727.\nAnswer: 727"
   },
   {
     "id": "maths_algebra_253",
-    "question": "Algebra — Question 253 (add real content in datas/maths/algebra.json)",
+    "question": "If x² + (4 − √3)x − 1 = 0, then what is the value of x² + 1/x²?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9 − 8√3",
+      "21 − 12√3",
+      "21 − 8√3",
+      "17 − 8√3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "21 − 8√3",
+    "solution": "Divide by x: x − 1/x = −(4 − √3) = √3 − 4.\nx² + 1/x² = (√3 − 4)² + 2 = (19 − 8√3) + 2.\n= 21 − 8√3.\nAnswer: 21 − 8√3"
   },
   {
     "id": "maths_algebra_254",
-    "question": "Algebra — Question 254 (add real content in datas/maths/algebra.json)",
+    "question": "If 4·x^(9/4) − 9·x^(9/8) + 4 = 0, then x^(9/4) + x^(−9/4) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "49/16",
+      "53/20",
+      "67/32",
+      "9/4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "49/16",
+    "solution": "Put u = x^(9/8), so the equation is 4u² − 9u + 4 = 0.\nDivide by u: 4(u + 1/u) = 9 ⇒ u + 1/u = 9/4.\nx^(9/4) + x^(−9/4) = u² + 1/u² = 81/16 − 2 = 49/16.\nAnswer: 49/16"
   },
   {
     "id": "maths_algebra_255",
-    "question": "Algebra — Question 255 (add real content in datas/maths/algebra.json)",
+    "question": "If 2x/(5x² − 7x + 5) = 1/3, then x² + 1/x² = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "219/25",
+      "119/25",
+      "69/25",
+      "138/25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "119/25",
+    "solution": "6x = 5x² − 7x + 5 ⇒ 5x² − 13x + 5 = 0.\nDivide by x: 5(x + 1/x) = 13 ⇒ x + 1/x = 13/5.\nx² + 1/x² = 169/25 − 2 = 119/25.\nAnswer: 119/25"
   },
   {
     "id": "maths_algebra_256",
-    "question": "Algebra — Question 256 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 1/x = 9, then find x⁴ + 1/x⁴.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5431",
+      "6561",
+      "6156",
+      "6239"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "6239",
+    "solution": "x² + 1/x² = 81 − 2 = 79.\nx⁴ + 1/x⁴ = 79² − 2 = 6241 − 2.\n= 6239.\nAnswer: 6239"
   },
   {
     "id": "maths_algebra_257",
-    "question": "Algebra — Question 257 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 1/x = −13, what is the value of x⁴ + 1/x⁴?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "27887",
+      "27891",
+      "29243",
+      "28561"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "27887",
+    "solution": "x² + 1/x² = 169 − 2 = 167.\nx⁴ + 1/x⁴ = 167² − 2 = 27889 − 2.\n= 27887.\nAnswer: 27887"
   },
   {
     "id": "maths_algebra_258",
-    "question": "Algebra — Question 258 (add real content in datas/maths/algebra.json)",
+    "question": "If √x + 1/√x = 2√3, then what will be the value of x⁴ + 1/x⁴?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10402",
+      "9606",
+      "9602",
+      "10406"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "9602",
+    "solution": "Squaring: x + 2 + 1/x = 12 ⇒ x + 1/x = 10.\nx² + 1/x² = 100 − 2 = 98.\nx⁴ + 1/x⁴ = 98² − 2 = 9602.\nAnswer: 9602"
   },
   {
     "id": "maths_algebra_259",
-    "question": "Algebra — Question 259 (add real content in datas/maths/algebra.json)",
+    "question": "If a/(a² + 3a + 1) = 7, then find a²/(a⁴ + 3a² + 1).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "35/537",
+      "49/417",
+      "449/49",
+      "49/449"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "49/449",
+    "solution": "Inverting: a + 3 + 1/a = 1/7 ⇒ a + 1/a = 1/7 − 3 = −20/7.\n(a⁴ + 3a² + 1)/a² = a² + 1/a² + 3 = (400/49 − 2) + 3 = 449/49.\nSo a²/(a⁴ + 3a² + 1) = 49/449.\nAnswer: 49/449"
   },
   {
     "id": "maths_algebra_260",
-    "question": "Algebra — Question 260 (add real content in datas/maths/algebra.json)",
+    "question": "If √x − 1/√x = 7, then x² + 1/x² is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2599",
+      "2603",
+      "2508",
+      "2560"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "2599",
+    "solution": "Squaring: x − 2 + 1/x = 49 ⇒ x + 1/x = 51.\nx² + 1/x² = 51² − 2 = 2601 − 2.\n= 2599.\nAnswer: 2599"
   },
   {
     "id": "maths_algebra_261",
-    "question": "Algebra — Question 261 (add real content in datas/maths/algebra.json)",
+    "question": "If x^(1.08√2) − 1/x^(1.08√2) = √5, then find x^(4.32√2) + 1/x^(4.32√2).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "47",
+      "7",
+      "11"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "47",
+    "solution": "Let u = x^(1.08√2), so u − 1/u = √5 and u² + 1/u² = 5 + 2 = 7.\nSince 4.32 = 4 × 1.08, the target is u⁴ + 1/u⁴ = 7² − 2.\n= 47.\nAnswer: 47"
   },
   {
     "id": "maths_algebra_262",
-    "question": "Algebra — Question 262 (add real content in datas/maths/algebra.json)",
+    "question": "If x² − 15x + 1 = 0, then what is the value of x⁴ − 223x² + 6?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9",
+      "5",
+      "6",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "5",
+    "solution": "Divide by x: x + 1/x = 15, so x² + 1/x² = 223, i.e. x⁴ + 1 = 223x².\nx⁴ − 223x² + 6 = (x⁴ + 1) − 223x² + 5 = 5.\nAnswer: 5"
   },
   {
     "id": "maths_algebra_263",
-    "question": "Algebra — Question 263 (add real content in datas/maths/algebra.json)",
+    "question": "If x² − 11x + 1 = 0, then find x⁸ − 14159x⁴ + 11.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9",
+      "10",
+      "12",
+      "11"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "11",
+    "solution": "x + 1/x = 11 ⇒ x² + 1/x² = 119 ⇒ x⁴ + 1/x⁴ = 119² − 2 = 14159.\nSo x⁸ + 1 = 14159x⁴.\nx⁸ − 14159x⁴ + 11 = 11 − 1 + 1 = 11.\nAnswer: 11"
   },
   {
     "id": "maths_algebra_264",
-    "question": "Algebra — Question 264 (add real content in datas/maths/algebra.json)",
+    "question": "If (3x + 2/x − 4) = 10, then what is the value of (9x² + 4/x² + 24)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "214",
+      "208",
+      "256",
+      "218"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "208",
+    "solution": "3x + 2/x = 14.\nSquaring: 9x² + 12 + 4/x² = 196 ⇒ 9x² + 4/x² = 184.\nAdding 24 gives 208.\nAnswer: 208"
   },
   {
     "id": "maths_algebra_265",
-    "question": "Algebra — Question 265 (add real content in datas/maths/algebra.json)",
+    "question": "If 5x + 1/(3x) = 4, then what is the value of 9x² + 1/(25x²)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "174/125",
+      "144/125",
+      "114/25",
+      "119/25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "114/25",
+    "solution": "Multiply the condition by 3/5: 3x + 1/(5x) = 12/5.\nSquaring: 9x² + 6/5 + 1/(25x²) = 144/25.\n9x² + 1/(25x²) = 144/25 − 30/25 = 114/25.\nAnswer: 114/25"
   },
   {
     "id": "maths_algebra_266",
-    "question": "Algebra — Question 266 (add real content in datas/maths/algebra.json)",
+    "question": "If 12x² − 21x + 1 = 0, then what is the value of 9x² + (16x²)⁻¹?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "429/8",
+      "465/16",
+      "417/16",
+      "453/8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "417/16",
+    "solution": "Divide by x: 12x + 1/x = 21, so 3x + 1/(4x) = 21/4.\nSquaring: 9x² + 3/2 + 1/(16x²) = 441/16.\n9x² + 1/(16x²) = 441/16 − 24/16 = 417/16.\nAnswer: 417/16"
   },
   {
     "id": "maths_algebra_267",
-    "question": "Algebra — Question 267 (add real content in datas/maths/algebra.json)",
+    "question": "If 7b − 1/(4b) = 7, then what is the value of 16b² + 1/(49b²)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "80/49",
+      "104/7",
+      "120/7",
+      "7/2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "120/7",
+    "solution": "Multiply the condition by 4/7: 4b − 1/(7b) = 4.\nSquaring: 16b² − 8/7 + 1/(49b²) = 16.\n16b² + 1/(49b²) = 16 + 8/7 = 120/7.\nAnswer: 120/7"
   },
   {
     "id": "maths_algebra_268",
-    "question": "Algebra — Question 268 (add real content in datas/maths/algebra.json)",
+    "question": "If (2x − 3/x) = 2, then what is the value of (16x⁴ + 81/x⁴)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "184",
+      "328",
+      "180",
+      "220"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "184",
+    "solution": "Squaring: 4x² − 12 + 9/x² = 4 ⇒ 4x² + 9/x² = 16.\nSquaring again: 16x⁴ + 72 + 81/x⁴ = 256.\n16x⁴ + 81/x⁴ = 184.\nAnswer: 184"
   },
   {
     "id": "maths_algebra_269",
-    "question": "Algebra — Question 269 (add real content in datas/maths/algebra.json)",
+    "question": "If x²/y² + y²/x² = 223, then find x/y + y/x.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "±15",
+      "15",
+      "-15",
+      "√221"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "±15",
+    "solution": "Let t = x/y + y/x, so t² = (x²/y² + y²/x²) + 2 = 225.\nt = ±15, and both signs are attainable.\nAnswer: ±15"
   },
   {
     "id": "maths_algebra_270",
-    "question": "Algebra — Question 270 (add real content in datas/maths/algebra.json)",
+    "question": "If [3(x² + 1) − 7x]/(3x) = 6 with x ≠ 0, then the value of √x + 1/√x is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√(25/3)",
+      "√(31/3)",
+      "√(11/3)",
+      "√(35/3)"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "√(31/3)",
+    "solution": "3x² + 3 − 7x = 18x ⇒ 3x² + 3 = 25x.\nDivide by 3x: x + 1/x = 25/3.\n(√x + 1/√x)² = 25/3 + 2 = 31/3, so the value is √(31/3).\nAnswer: √(31/3)"
   },
   {
     "id": "maths_algebra_271",
-    "question": "Algebra — Question 271 (add real content in datas/maths/algebra.json)",
+    "question": "If x⁴ + 1/x⁴ = 3842, then the positive value of x + 1/x will be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12",
+      "8",
+      "10",
+      "6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "8",
+    "solution": "x² + 1/x² = √(3842 + 2) = √3844 = 62.\nx + 1/x = √(62 + 2) = √64.\n= 8.\nAnswer: 8"
   },
   {
     "id": "maths_algebra_272",
-    "question": "Algebra — Question 272 (add real content in datas/maths/algebra.json)",
+    "question": "If x⁴ + 1/x⁴ = 14159 and x(x − t) = −1, then the value of t is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9",
+      "12",
+      "10",
+      "11"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "11",
+    "solution": "x² + 1/x² = √(14159 + 2) = √14161 = 119, so x + 1/x = √121 = 11.\nx(x − t) = −1 gives x² + 1 = tx, i.e. t = x + 1/x.\nt = 11.\nAnswer: 11"
   },
   {
     "id": "maths_algebra_273",
-    "question": "Algebra — Question 273 (add real content in datas/maths/algebra.json)",
+    "question": "If x² + 1/x² = 51, then the value of (x² − 1)/x is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "7",
+      "6",
+      "8",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "7",
+    "solution": "(x − 1/x)² = (x² + 1/x²) − 2 = 49.\nSo x − 1/x = 7, and (x² − 1)/x = x − 1/x.\n= 7.\nAnswer: 7"
   },
   {
     "id": "maths_algebra_274",
-    "question": "Algebra — Question 274 (add real content in datas/maths/algebra.json)",
+    "question": "If 3a² + 3/a² = 54, then the value of (a² + 2a − 1)/a is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-6, -2",
+      "6, -2",
+      "-6, 2",
+      "6, 2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "6, -2",
+    "solution": "a² + 1/a² = 18, so (a − 1/a)² = 16 and a − 1/a = ±4.\n(a² + 2a − 1)/a = (a − 1/a) + 2.\n= 4 + 2 = 6 or −4 + 2 = −2.\nAnswer: 6, -2"
   },
   {
     "id": "maths_algebra_275",
-    "question": "Algebra — Question 275 (add real content in datas/maths/algebra.json)",
+    "question": "If x > 1 and x⁴ + 1/x⁴ = 79, what is the value of x − 1/x?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2√2",
+      "√7",
+      "√11",
+      "√10"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "√7",
+    "solution": "x² + 1/x² = √(79 + 2) = √81 = 9.\n(x − 1/x)² = 9 − 2 = 7.\nSince x > 1, x − 1/x = √7.\nAnswer: √7"
   },
   {
     "id": "maths_algebra_276",
-    "question": "Algebra — Question 276 (add real content in datas/maths/algebra.json)",
+    "question": "If x⁴ + 1/x⁴ = 6887, then the positive value of x − 1/x is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12",
+      "9",
+      "15",
+      "8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "9",
+    "solution": "x² + 1/x² = √(6887 + 2) = √6889 = 83.\n(x − 1/x)² = 83 − 2 = 81.\nx − 1/x = 9.\nAnswer: 9"
   },
   {
     "id": "maths_algebra_277",
-    "question": "Algebra — Question 277 (add real content in datas/maths/algebra.json)",
+    "question": "If x⁸ − 1442x⁴ + 1 = 0, then a possible value of x − 1/x is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "5",
+      "8",
+      "6",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "6",
+    "solution": "Divide by x⁴: x⁴ + 1/x⁴ = 1442.\nx² + 1/x² = √1444 = 38, so (x − 1/x)² = 36.\nx − 1/x = 6.\nAnswer: 6"
   },
   {
     "id": "maths_algebra_278",
-    "question": "Algebra — Question 278 (add real content in datas/maths/algebra.json)",
+    "question": "If x⁴ + 16/x⁴ = 27217 with x > 0, then the value of x + 2/x is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "17",
+      "11",
+      "15",
+      "13"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "13",
+    "solution": "(x² + 4/x²)² = x⁴ + 8 + 16/x⁴ = 27225, so x² + 4/x² = 165.\n(x + 2/x)² = x² + 4 + 4/x² = 169.\nx + 2/x = 13.\nAnswer: 13"
   },
   {
     "id": "maths_algebra_279",
-    "question": "Algebra — Question 279 (add real content in datas/maths/algebra.json)",
+    "question": "If x² + 1/x² = 38, then find the value of 6x(x − 1)/(x³ − x² − x + 1).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "2",
+      "3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1",
+    "solution": "Factor the denominator: x²(x − 1) − (x − 1) = (x − 1)²(x + 1).\nSo the expression is 6x/((x − 1)(x + 1)) = 6x/(x² − 1) = 6/((x² − 1)/x).\n(x − 1/x)² = 38 − 2 = 36, so (x² − 1)/x = 6 and the value is 1.\nAnswer: 1"
   },
   {
     "id": "maths_algebra_280",
-    "question": "Algebra — Question 280 (add real content in datas/maths/algebra.json)",
+    "question": "If m⁴ + 1/m⁴ = 119, then find m − 1/m.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "-5",
+      "3",
+      "11"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "3",
+    "solution": "m² + 1/m² = √(119 + 2) = √121 = 11.\n(m − 1/m)² = 11 − 2 = 9.\nm − 1/m = 3.\nAnswer: 3"
   },
   {
     "id": "maths_algebra_281",
-    "question": "Algebra — Question 281 (add real content in datas/maths/algebra.json)",
+    "question": "If x⁴ + x⁻⁴ = 119 with x > 0, then the value of (2x − 3)² is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12",
+      "13",
+      "15",
+      "14"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "13",
+    "solution": "x² + 1/x² = 11, so (x − 1/x)² = 9 and x − 1/x = 3, i.e. x² = 3x + 1.\n(2x − 3)² = 4x² − 12x + 9 = 4(3x + 1) − 12x + 9.\n= 13.\nAnswer: 13"
   },
   {
     "id": "maths_algebra_282",
-    "question": "Algebra — Question 282 (add real content in datas/maths/algebra.json)",
+    "question": "If 3x + 1/(2x) = 3, then find (3x² − 1)².",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3/2",
+      "3/4",
+      "5/6",
+      "4/3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "3/4",
+    "solution": "Multiply by 2x: 6x² − 6x + 1 = 0, so x = (3 ± √3)/6 and x² = x − 1/6.\n3x² − 1 = 3x − 1/2 − 1 = 3x − 3/2 = ±√3/2 for the two roots.\n(3x² − 1)² = 3/4.\nAnswer: 3/4"
   },
   {
     "id": "maths_algebra_283",
-    "question": "Algebra — Question 283 (add real content in datas/maths/algebra.json)",
+    "question": "If 3√x + 1/(2√x) = 3 with x > 0, then find x²(18x² − 7).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "-1/36",
+      "-2/63",
+      "-1/72",
+      "-2/81"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "-1/72",
+    "solution": "With t = √x: 6t² − 6t + 1 = 0 gives t = (3 + √3)/6, so x = t² = (2 + √3)/6.\nx² = (7 + 4√3)/36 and 18x² − 7 = (7 + 4√3)/2 − 7 = (4√3 − 7)/2.\nx²(18x² − 7) = (7 + 4√3)(4√3 − 7)/72 = (48 − 49)/72 = −1/72.\nAnswer: -1/72"
   },
   {
     "id": "maths_algebra_284",
-    "question": "Algebra — Question 284 (add real content in datas/maths/algebra.json)",
+    "question": "If m^117/n^109 − n^109/m^117 = 9, then find m^117/n^109 + n^109/m^117.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√90",
+      "√85",
+      "√10",
+      "√82"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "√85",
+    "solution": "Let u be the first ratio, so u − 1/u = 9.\n(u + 1/u)² = (u − 1/u)² + 4 = 81 + 4 = 85.\nu + 1/u = √85.\nAnswer: √85"
   },
   {
     "id": "maths_algebra_285",
-    "question": "Algebra — Question 285 (add real content in datas/maths/algebra.json)",
+    "question": "If a = 1/(a − 5) with a > 0, then the value of a + 1/a is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "√29",
+      "2√29",
+      "-√29",
+      "√21"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "√29",
+    "solution": "a(a − 5) = 1 ⇒ a − 5 = 1/a ⇒ a − 1/a = 5.\n(a + 1/a)² = 25 + 4 = 29.\nSince a > 0, a + 1/a = √29.\nAnswer: √29"
   },
   {
     "id": "maths_algebra_286",
-    "question": "Algebra — Question 286 (add real content in datas/maths/algebra.json)",
+    "question": "If (A + B)/√(AB) = 10√2, then (A − B)/√(AB) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12",
+      "14",
+      "13",
+      "9√2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "14",
+    "solution": "Let r = A/B, so √r + 1/√r = 10√2 and squaring gives r + 1/r = 200 − 2 = 198.\n((A − B)/√(AB))² = r − 2 + 1/r = 196.\nSo the value is 14.\nAnswer: 14"
   },
   {
     "id": "maths_algebra_287",
-    "question": "Algebra — Question 287 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 1/(x + 7) = 0, then x − 1/(x + 7) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3√5 − 5",
+      "3√5 − 7",
+      "3√7 − 5",
+      "3√7 − 7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "3√5 − 7",
+    "solution": "Put y = x + 7. Then (y − 7) + 1/y = 0 ⇒ y + 1/y = 7.\ny − 1/y = √(49 − 4) = 3√5.\nx − 1/(x + 7) = (y − 1/y) − 7 = 3√5 − 7.\nAnswer: 3√5 − 7"
   },
   {
     "id": "maths_algebra_288",
-    "question": "Algebra — Question 288 (add real content in datas/maths/algebra.json)",
+    "question": "If sec x − cos x = 4, then what will be the value of (1 + cos²x)/cos x?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "9/4",
+      "1/4",
+      "2√5",
+      "√5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "2√5",
+    "solution": "(1 + cos²x)/cos x = sec x + cos x.\n(sec x + cos x)² = (sec x − cos x)² + 4 = 16 + 4 = 20.\nSo the value is 2√5.\nAnswer: 2√5"
   },
   {
     "id": "maths_algebra_289",
-    "question": "Algebra — Question 289 (add real content in datas/maths/algebra.json)",
+    "question": "If x + 1/x = 8, find x² − 1/x².",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "16√15",
+      "15√15",
+      "62",
+      "10√15"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "16√15",
+    "solution": "(x − 1/x)² = 64 − 4 = 60, so x − 1/x = 2√15.\nx² − 1/x² = (x + 1/x)(x − 1/x) = 8 × 2√15.\n= 16√15.\nAnswer: 16√15"
   },
   {
     "id": "maths_algebra_290",
-    "question": "Algebra — Question 290 (add real content in datas/maths/algebra.json)",
+    "question": "If x > 1 and x² + 1/x² = 2√5, what is the value of x⁴ − 1/x⁴?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4√5",
+      "4√30",
+      "8√5",
+      "8√6"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "8√5",
+    "solution": "(x² − 1/x²)² = (2√5)² − 4 = 16, so x² − 1/x² = 4.\nx⁴ − 1/x⁴ = (x² + 1/x²)(x² − 1/x²) = 2√5 × 4.\n= 8√5.\nAnswer: 8√5"
   },
   {
     "id": "maths_algebra_291",
-    "question": "Algebra — Question 291 (add real content in datas/maths/algebra.json)",
+    "question": "If x² − 7x + 1 = 0 and 0 < x < 1, what is the value of x² − 1/x²?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "21√5",
+      "−21√5",
+      "28√5",
+      "−28√5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "−21√5",
+    "solution": "x + 1/x = 7; since 0 < x < 1 we have x < 1/x, so x − 1/x = −√(49 − 4) = −3√5.\nx² − 1/x² = (x + 1/x)(x − 1/x) = 7 × (−3√5).\n= −21√5.\nAnswer: −21√5"
   },
   {
     "id": "maths_algebra_292",
-    "question": "Algebra — Question 292 (add real content in datas/maths/algebra.json)",
+    "question": "If 3x − 1/(4x) = 6, then 4x + 1/(3x) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2√17",
+      "4√13/√3",
+      "2√15",
+      "4√17/√3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "4√13/√3",
+    "solution": "Squaring the condition: 9x² − 3/2 + 1/(16x²) = 36 ⇒ 9x² + 1/(16x²) = 75/2.\nMultiplying that by 16/9: 16x² + 1/(9x²) = (16/9)(75/2) = 200/3.\n(4x + 1/(3x))² = 200/3 + 8/3 = 208/3, so the value is √208/√3 = 4√13/√3.\nAnswer: 4√13/√3"
   },
   {
     "id": "maths_algebra_293",
-    "question": "Algebra — Question 293 (add real content in datas/maths/algebra.json)",
+    "question": "If 2x − 5/(9x) = 3, then 36x² − 25/(9x²) = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "99",
+      "119",
+      "123",
+      "101"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "99",
+    "solution": "Multiply the condition by 3: 6x − 5/(3x) = 9.\n(6x + 5/(3x))² = 81 + 4 × 10 = 121, so 6x + 5/(3x) = 11.\n36x² − 25/(9x²) = (6x − 5/(3x))(6x + 5/(3x)) = 9 × 11 = 99.\nAnswer: 99"
   },
   {
     "id": "maths_algebra_294",
-    "question": "Algebra — Question 294 (add real content in datas/maths/algebra.json)",
+    "question": "If x² − 16x + 59 = 0, then find the value of (x − 6)² + 1/(x − 6)².",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "14",
+      "18",
+      "16",
+      "20"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "18",
+    "solution": "Put y = x − 6: (y + 6)² − 16(y + 6) + 59 = y² − 4y − 1 = 0.\nDivide by y: y − 1/y = 4.\ny² + 1/y² = 16 + 2 = 18.\nAnswer: 18"
   },
   {
     "id": "maths_algebra_295",
-    "question": "Algebra — Question 295 (add real content in datas/maths/algebra.json)",
+    "question": "If x² − 12x + 33 = 0, then what is the value of (x − 4)⁴ + 1/(x − 4)⁴?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "227",
+      "326",
+      "167",
+      "194"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "194",
+    "solution": "Put y = x − 4: (y + 4)² − 12(y + 4) + 33 = y² − 4y + 1 = 0 ⇒ y + 1/y = 4.\ny² + 1/y² = 16 − 2 = 14.\ny⁴ + 1/y⁴ = 196 − 2 = 194.\nAnswer: 194"
   },
   {
     "id": "maths_algebra_296",
-    "question": "Algebra — Question 296 (add real content in datas/maths/algebra.json)",
+    "question": "If x² + 2x − 7 = 0, then (x + 4)⁴ + 1/(x + 4)⁴ = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "527",
+      "2207",
+      "1154",
+      "128"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "1154",
+    "solution": "Put y = x + 4: (y − 4)² + 2(y − 4) − 7 = y² − 6y + 1 = 0 ⇒ y + 1/y = 6.\ny² + 1/y² = 36 − 2 = 34.\ny⁴ + 1/y⁴ = 1156 − 2 = 1154.\nAnswer: 1154"
   },
   {
     "id": "maths_algebra_297",
-    "question": "Algebra — Question 297 (add real content in datas/maths/algebra.json)",
+    "question": "If x² − 22x + 111 = 0, then what is the value of (x − 8)² − 1/(x − 8)²?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "12√10",
+      "8√5",
+      "8√3",
+      "18"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "12√10",
+    "solution": "Put y = x − 8: (y + 8)² − 22(y + 8) + 111 = y² − 6y − 1 = 0 ⇒ y − 1/y = 6.\ny + 1/y = √(36 + 4) = 2√10.\ny² − 1/y² = 2√10 × 6 = 12√10.\nAnswer: 12√10"
   },
   {
     "id": "maths_algebra_298",
-    "question": "Algebra — Question 298 (add real content in datas/maths/algebra.json)",
+    "question": "If (x + 1/x) = 11/5, what is the value of (x³ + 1/x³)?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4 6/125",
+      "5 101/125",
+      "10 81/125",
+      "17 31/125"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "4 6/125",
+    "solution": "x³ + 1/x³ = (x + 1/x)³ − 3(x + 1/x).\n= 1331/125 − 33/5 = 1331/125 − 825/125 = 506/125.\n= 4 6/125.\nAnswer: 4 6/125"
   },
   {
     "id": "maths_algebra_299",
-    "question": "Algebra — Question 299 (add real content in datas/maths/algebra.json)",
+    "question": "If x^15 + 1/x^15 = 9, then x^45 + 1/x^45 = ?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "729",
+      "756",
+      "702",
+      "774"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "702",
+    "solution": "With u = x^15: u³ + 1/u³ = (u + 1/u)³ − 3(u + 1/u).\n= 729 − 27.\n= 702.\nAnswer: 702"
   },
   {
     "id": "maths_algebra_300",
-    "question": "Algebra — Question 300 (add real content in datas/maths/algebra.json)",
+    "question": "If x^0.18 + 1/x^0.18 = 8, then find x^0.54 + 1/x^0.54.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "488",
+      "536",
+      "523",
+      "62"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Algebra."
+    "correctAnswer": "488",
+    "solution": "0.54 = 3 × 0.18, so with u = x^0.18 we need u³ + 1/u³.\n= 8³ − 3 × 8.\n= 512 − 24 = 488.\nAnswer: 488"
+  },
+  {
+    "id": "maths_algebra_301",
+    "question": "If (a + b)/√(ab) = 4, then (a/b)^(3/2) + (b/a)^(3/2) = ?",
+    "options": [
+      "52",
+      "60",
+      "48",
+      "68"
+    ],
+    "correctAnswer": "52",
+    "solution": "Let t = √(a/b); then (a + b)/√(ab) = t + 1/t = 4.\nThe required value is t³ + 1/t³ = 4³ − 3 × 4.\n= 52.\nAnswer: 52"
+  },
+  {
+    "id": "maths_algebra_302",
+    "question": "If x + 1/x = 2cosθ, then x³ + 1/x³ = ?",
+    "options": [
+      "2cos2θ",
+      "cos3θ",
+      "2cos3θ",
+      "cos2θ"
+    ],
+    "correctAnswer": "2cos3θ",
+    "solution": "x³ + 1/x³ = (2cosθ)³ − 3(2cosθ) = 8cos³θ − 6cosθ.\n= 2(4cos³θ − 3cosθ).\n= 2cos3θ.\nAnswer: 2cos3θ"
+  },
+  {
+    "id": "maths_algebra_303",
+    "question": "If √x + 1/√x = 11 with x > 0, then x√x(x√x − 1298) + 11 = ?",
+    "options": [
+      "10",
+      "12",
+      "11",
+      "8"
+    ],
+    "correctAnswer": "10",
+    "solution": "Let A = x√x = x^(3/2). Then A + 1/A = (√x + 1/√x)³ − 3(√x + 1/√x) = 1331 − 33 = 1298.\nSo A² + 1 = 1298A, i.e. A(A − 1298) = −1.\nThe expression equals −1 + 11 = 10.\nAnswer: 10"
+  },
+  {
+    "id": "maths_algebra_304",
+    "question": "If √x − 1/√x = √7, then the value of x³ + 1/x³ is:",
+    "options": [
+      "679",
+      "702",
+      "756",
+      "729"
+    ],
+    "correctAnswer": "702",
+    "solution": "Squaring: x − 2 + 1/x = 7 ⇒ x + 1/x = 9.\nx³ + 1/x³ = 729 − 27.\n= 702.\nAnswer: 702"
+  },
+  {
+    "id": "maths_algebra_305",
+    "question": "If x² + 1/x² = 167 with x > 0, then the value of x³ + 1/x³ is:",
+    "options": [
+      "2171",
+      "2194",
+      "2158",
+      "2233"
+    ],
+    "correctAnswer": "2158",
+    "solution": "x + 1/x = √(167 + 2) = √169 = 13.\nx³ + 1/x³ = 13³ − 3 × 13 = 2197 − 39.\n= 2158.\nAnswer: 2158"
+  },
+  {
+    "id": "maths_algebra_306",
+    "question": "If (m^28 + 1)/m^14 = 23, then find (m^42 + 1)/m^21.",
+    "options": [
+      "110",
+      "48",
+      "25",
+      "78"
+    ],
+    "correctAnswer": "110",
+    "solution": "The condition is m^14 + 1/m^14 = 23; with u = m⁷ this is u² + 1/u² = 23, so u + 1/u = 5.\n(m^42 + 1)/m^21 = u³ + 1/u³ = 125 − 15.\n= 110.\nAnswer: 110"
+  },
+  {
+    "id": "maths_algebra_307",
+    "question": "If x√x + 1/(x√x) = 7, then x⁶ + 1/x⁶ = ?",
+    "options": [
+      "2401",
+      "2207",
+      "2399",
+      "2211"
+    ],
+    "correctAnswer": "2207",
+    "solution": "Let A = x^(3/2), so A + 1/A = 7 and A² + 1/A² = 47.\nx⁶ + 1/x⁶ = A⁴ + 1/A⁴ = 47² − 2.\n= 2207.\nAnswer: 2207"
+  },
+  {
+    "id": "maths_algebra_308",
+    "question": "If x⁴ + 1/x⁴ = 1154 with x > 0, then what is the value of x³ + 1/x³?",
+    "options": [
+      "205",
+      "214",
+      "185",
+      "198"
+    ],
+    "correctAnswer": "198",
+    "solution": "x² + 1/x² = √1156 = 34 and x + 1/x = √36 = 6.\nx³ + 1/x³ = 216 − 18.\n= 198.\nAnswer: 198"
+  },
+  {
+    "id": "maths_algebra_309",
+    "question": "If x + 1/x = 79, then find x√x + 1/(x√x).",
+    "options": [
+      "702",
+      "716",
+      "756",
+      "727"
+    ],
+    "correctAnswer": "702",
+    "solution": "(√x + 1/√x)² = 79 + 2 = 81, so √x + 1/√x = 9.\nx√x + 1/(x√x) = 9³ − 3 × 9.\n= 702.\nAnswer: 702"
+  },
+  {
+    "id": "maths_algebra_310",
+    "question": "If x = (√5 − √3)/(√5 + √3) and y is the reciprocal of x, then what is the value of (x³ + y³)?",
+    "options": [
+      "504",
+      "476",
+      "472",
+      "488"
+    ],
+    "correctAnswer": "488",
+    "solution": "x = (√5 − √3)²/2 = 4 − √15 and y = 4 + √15, so x + y = 8 and xy = 1.\nx³ + y³ = 8³ − 3 × 1 × 8.\n= 488.\nAnswer: 488"
+  },
+  {
+    "id": "maths_algebra_311",
+    "question": "If a = (√7 + √6)/(√7 − √6) and b = (√7 − √6)/(√7 + √6), then find a²/b + b²/a.",
+    "options": [
+      "17498",
+      "17550",
+      "17654",
+      "17576"
+    ],
+    "correctAnswer": "17498",
+    "solution": "a = (√7 + √6)² = 13 + 2√42 and b = 13 − 2√42, so a + b = 26 and ab = 1.\na²/b + b²/a = (a³ + b³)/ab = a³ + b³ = 26³ − 3 × 26.\n= 17576 − 78 = 17498.\nAnswer: 17498"
+  },
+  {
+    "id": "maths_algebra_312",
+    "question": "If a + 1/(a + 1) = 3, then what is the value of (a + 1)³ + 1/(a + 1)³?",
+    "options": [
+      "8",
+      "52",
+      "2",
+      "62"
+    ],
+    "correctAnswer": "52",
+    "solution": "Add 1 to both sides: (a + 1) + 1/(a + 1) = 4.\n(a + 1)³ + 1/(a + 1)³ = 4³ − 3 × 4.\n= 52.\nAnswer: 52"
+  },
+  {
+    "id": "maths_algebra_313",
+    "question": "If x² + 6x + 1 = 0, then the value of (x + 6)³ + 1/(x + 6)³ is:",
+    "options": [
+      "245",
+      "216",
+      "186",
+      "198"
+    ],
+    "correctAnswer": "198",
+    "solution": "x(x + 6) = −1 means x + 6 = −1/x, so with y = x + 6 we get 1/y = −x.\ny³ + 1/y³ = −(x³ + 1/x³), and dividing the equation by x gives x + 1/x = −6.\nx³ + 1/x³ = −216 + 18 = −198, so the answer is 198.\nAnswer: 198"
+  },
+  {
+    "id": "maths_algebra_314",
+    "question": "If x² − 6√3x + 1 = 0, then the value of x³ + 1/x³ will be:",
+    "options": [
+      "234√3",
+      "216√3",
+      "666√3",
+      "630√3"
+    ],
+    "correctAnswer": "630√3",
+    "solution": "Divide by x: x + 1/x = 6√3.\nx³ + 1/x³ = (6√3)³ − 3(6√3) = 648√3 − 18√3.\n= 630√3.\nAnswer: 630√3"
+  },
+  {
+    "id": "maths_algebra_315",
+    "question": "If x + 1/x = 17, what is the value of (x⁴ + 1/x²)/(x² − 3x + 1)?",
+    "options": [
+      "2431/7",
+      "3375/7",
+      "3375/14",
+      "3985/9"
+    ],
+    "correctAnswer": "2431/7",
+    "solution": "Divide numerator and denominator by x³: the numerator becomes x³ + 1/x³ and the denominator becomes (x + 1/x) − 3.\nx² + 1/x² = 287 and x³ + 1/x³ = 17³ − 3 × 17 = 4862.\nSo the value is 4862/(17 − 3) = 4862/14 = 2431/7.\nAnswer: 2431/7"
+  },
+  {
+    "id": "maths_algebra_316",
+    "question": "Given that x⁸ − 34x⁴ + 1 = 0 with x > 0, what is the value of (x³ + x⁻³)?",
+    "options": [
+      "5√8",
+      "6√6",
+      "5√6",
+      "6√8"
+    ],
+    "correctAnswer": "5√8",
+    "solution": "Divide by x⁴: x⁴ + 1/x⁴ = 34, so x² + 1/x² = 6 and x + 1/x = √8 = 2√2.\nx³ + x⁻³ = (2√2)³ − 3(2√2) = 16√2 − 6√2 = 10√2.\n10√2 = 5 × 2√2 = 5√8.\nAnswer: 5√8"
+  },
+  {
+    "id": "maths_algebra_317",
+    "question": "If x(x − 5) = −1, then the value of x³(x³ − 110) = ?",
+    "options": [
+      "0",
+      "-1",
+      "1",
+      "2"
+    ],
+    "correctAnswer": "-1",
+    "solution": "x² + 1 = 5x gives x + 1/x = 5, so x³ + 1/x³ = 125 − 15 = 110.\nHence x⁶ + 1 = 110x³, i.e. x⁶ − 110x³ = −1.\nx³(x³ − 110) = −1.\nAnswer: -1"
+  },
+  {
+    "id": "maths_algebra_318",
+    "question": "If x(x − 3) = −1, then find x⁵(x² − 7)(x³ − 18).",
+    "options": [
+      "0",
+      "+1",
+      "2",
+      "-1"
+    ],
+    "correctAnswer": "+1",
+    "solution": "x + 1/x = 3, so x² + 1/x² = 7 and x³ + 1/x³ = 18.\nTherefore x² − 7 = −1/x² and x³ − 18 = −1/x³.\nx⁵ × (−1/x²) × (−1/x³) = 1.\nAnswer: +1"
+  },
+  {
+    "id": "maths_algebra_319",
+    "question": "If (0.4x + 1/x) = 5, what is the value of (0.064x³ + 1/x³)?",
+    "options": [
+      "125",
+      "110",
+      "119",
+      "105"
+    ],
+    "correctAnswer": "119",
+    "solution": "0.064 = 0.4³, so we need (0.4x)³ + (1/x)³ with (0.4x)(1/x) = 0.4.\n= 5³ − 3 × 0.4 × 5.\n= 125 − 6 = 119.\nAnswer: 119"
+  },
+  {
+    "id": "maths_algebra_320",
+    "question": "If 3x + 1/(2x) = 5, then 8x³ + 1/(27x³) = ?",
+    "options": [
+      "946/27",
+      "820/27",
+      "730/27",
+      "973/27"
+    ],
+    "correctAnswer": "820/27",
+    "solution": "Multiply the condition by 2/3: 2x + 1/(3x) = 10/3, and (2x)(1/(3x)) = 2/3.\n8x³ + 1/(27x³) = (10/3)³ − 3(2/3)(10/3).\n= 1000/27 − 180/27 = 820/27.\nAnswer: 820/27"
+  },
+  {
+    "id": "maths_algebra_321",
+    "question": "If x + 1/(16x) = 3, then the value of 16x³ + 1/(256x³) is:",
+    "options": [
+      "423",
+      "414",
+      "432",
+      "441"
+    ],
+    "correctAnswer": "423",
+    "solution": "With A = x and B = 1/(16x): A + B = 3 and AB = 1/16.\nA³ + B³ = 27 − 3(1/16)(3) = 27 − 9/16 = 423/16.\n16x³ + 1/(256x³) = 16(A³ + B³) = 16 × 423/16 = 423.\nAnswer: 423"
+  },
+  {
+    "id": "maths_algebra_322",
+    "question": "If (3x² + 1/(2x²)) = 2.5, what is the value of (27x⁶ + 1/(8x⁶))?",
+    "options": [
+      "5.125",
+      "6.275",
+      "3.325",
+      "4.375"
+    ],
+    "correctAnswer": "4.375",
+    "solution": "With A = 3x² and B = 1/(2x²): A + B = 2.5 and AB = 1.5.\nA³ + B³ = 2.5³ − 3 × 1.5 × 2.5.\n= 15.625 − 11.25 = 4.375.\nAnswer: 4.375"
+  },
+  {
+    "id": "maths_algebra_323",
+    "question": "If (y² − 1)/y = 6, then the value of (y⁶ − 1)/y³ will be:",
+    "options": [
+      "234",
+      "220",
+      "254",
+      "184"
+    ],
+    "correctAnswer": "234",
+    "solution": "The condition is y − 1/y = 6.\n(y⁶ − 1)/y³ = y³ − 1/y³ = 6³ + 3 × 6.\n= 216 + 18 = 234.\nAnswer: 234"
+  },
+  {
+    "id": "maths_algebra_324",
+    "question": "If y + 1/y = 11, then the value of y³ − 1/y³ is:",
+    "options": [
+      "345√13",
+      "360√13",
+      "352√13",
+      "368√13"
+    ],
+    "correctAnswer": "360√13",
+    "solution": "(y − 1/y)² = 121 − 4 = 117, so y − 1/y = 3√13.\ny³ − 1/y³ = (3√13)³ + 3(3√13) = 351√13 + 9√13.\n= 360√13.\nAnswer: 360√13"
+  },
+  {
+    "id": "maths_algebra_325",
+    "question": "If a − 1/(a − 5) = 18, then the value of (a − 5)³ − 1/(a − 5)³ is:",
+    "options": [
+      "2236",
+      "2168",
+      "2239",
+      "2201"
+    ],
+    "correctAnswer": "2236",
+    "solution": "Put y = a − 5: (y + 5) − 1/y = 18 ⇒ y − 1/y = 13.\ny³ − 1/y³ = 13³ + 3 × 13 = 2197 + 39.\n= 2236.\nAnswer: 2236"
+  },
+  {
+    "id": "maths_algebra_326",
+    "question": "If x^12 + 1/x^12 = 10√2, then x^36 − 1/x^36 = ?",
+    "options": [
+      "2786",
+      "2702",
+      "2744",
+      "2828"
+    ],
+    "correctAnswer": "2786",
+    "solution": "Let u = x^12, so u + 1/u = 10√2 and (u − 1/u)² = 200 − 4 = 196, giving u − 1/u = 14.\nu³ − 1/u³ = 14³ + 3 × 14 = 2744 + 42.\n= 2786.\nAnswer: 2786"
+  },
+  {
+    "id": "maths_algebra_327",
+    "question": "If x²/(x⁴ + 1) = 1/83, then find x³ − 1/x³.",
+    "options": [
+      "718",
+      "756",
+      "702",
+      "765"
+    ],
+    "correctAnswer": "756",
+    "solution": "Inverting: x² + 1/x² = 83, so (x − 1/x)² = 81 and x − 1/x = 9.\nx³ − 1/x³ = 9³ + 3 × 9 = 729 + 27.\n= 756.\nAnswer: 756"
+  },
+  {
+    "id": "maths_algebra_328",
+    "question": "If p⁴ = 4354 − 1/p⁴, then the value of p³ − 1/p³ can be:",
+    "options": [
+      "536",
+      "436",
+      "416",
+      "516"
+    ],
+    "correctAnswer": "536",
+    "solution": "p⁴ + 1/p⁴ = 4354, so p² + 1/p² = √4356 = 66 and (p − 1/p)² = 64.\np − 1/p = 8, so p³ − 1/p³ = 512 + 24.\n= 536.\nAnswer: 536"
+  },
+  {
+    "id": "maths_algebra_329",
+    "question": "If x² − 5√5x + 1 = 0 with x > 0, then find x³ − 1/x³.",
+    "options": [
+      "1331",
+      "1364",
+      "1244",
+      "1298"
+    ],
+    "correctAnswer": "1364",
+    "solution": "Divide by x: x + 1/x = 5√5, so (x − 1/x)² = 125 − 4 = 121 and x − 1/x = 11.\nx³ − 1/x³ = 11³ + 3 × 11 = 1331 + 33.\n= 1364.\nAnswer: 1364"
+  },
+  {
+    "id": "maths_algebra_330",
+    "question": "If x = √3 − √2, then the value of x³ − x⁻³ is:",
+    "options": [
+      "22√3",
+      "-22√2",
+      "22√2",
+      "-22√3"
+    ],
+    "correctAnswer": "-22√2",
+    "solution": "1/x = √3 + √2, so x − 1/x = −2√2.\nx³ − 1/x³ = (−2√2)³ + 3(−2√2) = −16√2 − 6√2.\n= −22√2.\nAnswer: -22√2"
+  },
+  {
+    "id": "maths_algebra_331",
+    "question": "If x = (√3 + 1)/(√3 − 1) and y = (√3 − 1)/(√3 + 1), then what is the value of x³ − y³?",
+    "options": [
+      "60",
+      "45√3",
+      "30√3",
+      "90"
+    ],
+    "correctAnswer": "30√3",
+    "solution": "x = 2 + √3 and y = 2 − √3, so x − y = 2√3 and xy = 1.\nx³ − y³ = (x − y)³ + 3xy(x − y) = 24√3 + 6√3.\n= 30√3.\nAnswer: 30√3"
+  },
+  {
+    "id": "maths_algebra_332",
+    "question": "If 6x − 4/(9x) = 1, then 729x³ − 8/(27x³) = ?",
+    "options": [
+      "41/4",
+      "99/8",
+      "243/8",
+      "195/8"
+    ],
+    "correctAnswer": "243/8",
+    "solution": "Multiply the condition by 3/2: 9x − 2/(3x) = 3/2, with (9x)(2/(3x)) = 6.\n729x³ − 8/(27x³) = (3/2)³ + 3 × 6 × (3/2).\n= 27/8 + 27 = 243/8.\nAnswer: 243/8"
+  },
+  {
+    "id": "maths_algebra_333",
+    "question": "If 2x − 1/x = 3 with x ≠ 0, then simplify 8x⁶ − 25x³ − 1.",
+    "options": [
+      "20x³",
+      "18x³",
+      "27x³",
+      "34x³"
+    ],
+    "correctAnswer": "20x³",
+    "solution": "8x³ − 1/x³ = (2x − 1/x)³ + 3(2x)(1/x)(2x − 1/x) = 27 + 18 = 45.\nMultiplying by x³: 8x⁶ − 1 = 45x³.\n8x⁶ − 25x³ − 1 = 45x³ − 25x³ = 20x³.\nAnswer: 20x³"
+  },
+  {
+    "id": "maths_algebra_334",
+    "question": "If 2x − 5/(6x) = 3, then (32x³)/5 − 25/(54x³) = ?",
+    "options": [
+      "33.6",
+      "32",
+      "31.5",
+      "34.8"
+    ],
+    "correctAnswer": "33.6",
+    "solution": "With A = 2x and B = 5/(6x): A − B = 3 and AB = 5/3, so A³ − B³ = 27 + 3(5/3)(3) = 42.\nThat is 8x³ − 125/(216x³) = 42.\nThe target is 4/5 of this: (4/5) × 42 = 33.6.\nAnswer: 33.6"
+  },
+  {
+    "id": "maths_algebra_335",
+    "question": "If x − 1/x = 3, then what is the value of (2x⁴ + 3x³ + 13x² − 3x + 2)/(3x⁴ + 3)?",
+    "options": [
+      "1/3",
+      "2/3",
+      "4/3",
+      "5/3"
+    ],
+    "correctAnswer": "4/3",
+    "solution": "x − 1/x = 3 gives x² − 1 = 3x and x² + 1/x² = 11, so x⁴ + 1 = 11x².\nNumerator = 2(x⁴ + 1) + 3x(x² − 1) + 13x² = 22x² + 9x² + 13x² = 44x².\nDenominator = 3(x⁴ + 1) = 33x², so the ratio is 44/33 = 4/3.\nAnswer: 4/3"
+  },
+  {
+    "id": "maths_algebra_336",
+    "question": "If x² − 4x − 3 = 0, then what is the value of (x⁴ − 27/x²)/(x² + 4x − 3)?",
+    "options": [
+      "9 1/4",
+      "10 1/2",
+      "9 1/8",
+      "12 1/2"
+    ],
+    "correctAnswer": "12 1/2",
+    "solution": "Dividing the equation by x gives x − 3/x = 4, so x³ − 27/x³ = 4³ + 3 × 3 × 4 = 100.\nNumerator = x(x³ − 27/x³) = 100x, and since x² − 3 = 4x the denominator is 4x + 4x = 8x.\n100x/(8x) = 12.5.\nAnswer: 12 1/2"
+  },
+  {
+    "id": "maths_algebra_337",
+    "question": "If x² − 3x − 1 = 0, then the value of (x² + 8x − 1)(x³ + x⁻¹)⁻¹ is:",
+    "options": [
+      "3/8",
+      "8",
+      "1",
+      "3"
+    ],
+    "correctAnswer": "1",
+    "solution": "x² − 1 = 3x and x − 1/x = 3, so x² + 1/x² = 11.\nNumerator = (x² − 1) + 8x = 3x + 8x = 11x.\nDenominator = x³ + 1/x = x(x² + 1/x²) = 11x, so the ratio is 1.\nAnswer: 1"
+  },
+  {
+    "id": "maths_algebra_338",
+    "question": "If 1/a⁴ + a⁴ = 50 with a > 0, then find the value of a³ + 1/a³.",
+    "options": [
+      "√(2(1 + √13)) × (−1 − 2√13)",
+      "√(2(1 − √13)) × (−1 + 2√13)",
+      "√(2(1 + √13)) + (−1 + 2√13)",
+      "√(2(1 + √13)) × (−1 + 2√13)"
+    ],
+    "correctAnswer": "√(2(1 + √13)) × (−1 + 2√13)",
+    "solution": "a² + 1/a² = √52 = 2√13, so a + 1/a = √(2√13 + 2) = √(2(1 + √13)).\na³ + 1/a³ = (a + 1/a)[(a + 1/a)² − 3] = √(2(1 + √13)) × (2√13 + 2 − 3).\n= √(2(1 + √13)) × (2√13 − 1).\nAnswer: √(2(1 + √13)) × (−1 + 2√13)"
+  },
+  {
+    "id": "maths_algebra_339",
+    "question": "If x² − 4x + 1 = 0, then find (x³ − 26)².",
+    "options": [
+      "545",
+      "675",
+      "625",
+      "91.125"
+    ],
+    "correctAnswer": "675",
+    "solution": "x + 1/x = 4, so t = x³ satisfies t + 1/t = 4³ − 3 × 4 = 52, i.e. t² − 52t = −1.\n(t − 26)² = t² − 52t + 676 = −1 + 676.\n= 675.\nAnswer: 675"
+  },
+  {
+    "id": "maths_algebra_340",
+    "question": "If x² + x = 5, then (x + 3)³ + 1/(x + 3)³ = ?",
+    "options": [
+      "110",
+      "125",
+      "140",
+      "0"
+    ],
+    "correctAnswer": "110",
+    "solution": "Put y = x + 3: (y − 3)² + (y − 3) = y² − 5y + 6 = 5 ⇒ y² − 5y + 1 = 0.\nSo y + 1/y = 5 and y³ + 1/y³ = 125 − 15.\n= 110.\nAnswer: 110"
+  },
+  {
+    "id": "maths_algebra_341",
+    "question": "If p² − 29p + 199 = 0, find (p − 11)³ − 1/(p − 11)³.",
+    "options": [
+      "135√5",
+      "122√5",
+      "144√5",
+      "126√5"
+    ],
+    "correctAnswer": "144√5",
+    "solution": "Put y = p − 11: (y + 11)² − 29(y + 11) + 199 = y² − 7y + 1 = 0 ⇒ y + 1/y = 7.\ny − 1/y = √(49 − 4) = 3√5.\ny³ − 1/y³ = (3√5)³ + 3(3√5) = 135√5 + 9√5 = 144√5.\nAnswer: 144√5"
+  },
+  {
+    "id": "maths_algebra_342",
+    "question": "If (x − a)(x − b) = 1 and a − b + 5 = 0, then (x − a)³ − 1/(x − a)³ = ?",
+    "options": [
+      "110",
+      "1",
+      "125",
+      "140"
+    ],
+    "correctAnswer": "140",
+    "solution": "b = a + 5, so with y = x − a we have x − b = y − 5 and y(y − 5) = 1.\nThat gives y − 5 = 1/y, i.e. y − 1/y = 5.\ny³ − 1/y³ = 125 + 15 = 140.\nAnswer: 140"
+  },
+  {
+    "id": "maths_algebra_343",
+    "question": "If x² − √8x + 1 = 0, then the value of (x⁴ − 1/x⁴) is:",
+    "options": [
+      "24√6",
+      "24√2",
+      "20√2",
+      "20√6"
+    ],
+    "correctAnswer": "24√2",
+    "solution": "Divide by x: x + 1/x = √8 = 2√2, so (x − 1/x)² = 8 − 4 = 4 and x − 1/x = 2.\nx² + 1/x² = 6 and x² − 1/x² = 2√2 × 2 = 4√2.\nx⁴ − 1/x⁴ = 6 × 4√2 = 24√2.\nAnswer: 24√2"
+  },
+  {
+    "id": "maths_algebra_344",
+    "question": "If (x − 1/x) = √6 and x > 1, then what is the value of (x⁸ − 1/x⁸)?",
+    "options": [
+      "1024√15",
+      "992√15",
+      "998√15",
+      "1012√15"
+    ],
+    "correctAnswer": "992√15",
+    "solution": "x + 1/x = √(6 + 4) = √10, so x² − 1/x² = √6 × √10 = 2√15 and x² + 1/x² = 8.\nx⁴ − 1/x⁴ = 8 × 2√15 = 16√15 and x⁴ + 1/x⁴ = 64 − 2 = 62.\nx⁸ − 1/x⁸ = 62 × 16√15 = 992√15.\nAnswer: 992√15"
+  },
+  {
+    "id": "maths_algebra_345",
+    "question": "If x² − 2√5x + 1 = 0, then what is the value of x⁵ + 1/x⁵?",
+    "options": [
+      "408√5",
+      "610√5",
+      "406√5",
+      "612√5"
+    ],
+    "correctAnswer": "610√5",
+    "solution": "x + 1/x = 2√5, so x² + 1/x² = 18 and x³ + 1/x³ = 40√5 − 6√5 = 34√5.\nx⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) − (x + 1/x) = 18 × 34√5 − 2√5.\n= 612√5 − 2√5 = 610√5.\nAnswer: 610√5"
+  },
+  {
+    "id": "maths_algebra_346",
+    "question": "If X = 4 − 1/(4 − 1/(4 − 1/(4 − …))) continuing to infinity, then find X⁵ + 1/X⁵.",
+    "options": [
+      "656",
+      "548",
+      "732",
+      "724"
+    ],
+    "correctAnswer": "724",
+    "solution": "The continued fraction satisfies X = 4 − 1/X, so X + 1/X = 4.\nX² + 1/X² = 14 and X³ + 1/X³ = 64 − 12 = 52.\nX⁵ + 1/X⁵ = 14 × 52 − 4 = 728 − 4 = 724.\nAnswer: 724"
+  },
+  {
+    "id": "maths_algebra_347",
+    "question": "If x − 1/x = −6, what will be the value of x⁵ − 1/x⁵?",
+    "options": [
+      "-8898",
+      "-8896",
+      "-8886",
+      "-8892"
+    ],
+    "correctAnswer": "-8886",
+    "solution": "x² + 1/x² = 36 + 2 = 38 and x³ − 1/x³ = (−6)³ + 3(−6) = −234.\nx⁵ − 1/x⁵ = (x² + 1/x²)(x³ − 1/x³) − (x − 1/x) = 38 × (−234) + 6.\n= −8892 + 6 = −8886.\nAnswer: -8886"
+  },
+  {
+    "id": "maths_algebra_348",
+    "question": "If x² + 13x + 39 = 0, then (x + 8)⁵ − 1/(x + 8)⁵ = ?",
+    "options": [
+      "393",
+      "396",
+      "392",
+      "394"
+    ],
+    "correctAnswer": "393",
+    "solution": "Put y = x + 8: (y − 8)² + 13(y − 8) + 39 = y² − 3y − 1 = 0, so y − 1/y = 3.\ny² + 1/y² = 11 and y³ − 1/y³ = 27 + 9 = 36.\ny⁵ − 1/y⁵ = 11 × 36 − 3 = 393.\nAnswer: 393"
+  },
+  {
+    "id": "maths_algebra_349",
+    "question": "If x² − 4x + 1 = 0, then what is the value of (x⁶ + x⁻⁶)?",
+    "options": [
+      "2786",
+      "2702",
+      "2716",
+      "2744"
+    ],
+    "correctAnswer": "2702",
+    "solution": "x + 1/x = 4, so x² + 1/x² = 14 and x³ + 1/x³ = 64 − 12 = 52.\nx⁶ + 1/x⁶ = 52² − 2.\n= 2702.\nAnswer: 2702"
+  },
+  {
+    "id": "maths_algebra_350",
+    "question": "If x + 1/x = 7, then the value of x⁶ + 1/x⁶ is:",
+    "options": [
+      "113682",
+      "103682",
+      "103882",
+      "103862"
+    ],
+    "correctAnswer": "103682",
+    "solution": "x³ + 1/x³ = 343 − 21 = 322.\nx⁶ + 1/x⁶ = 322² − 2 = 103684 − 2.\n= 103682.\nAnswer: 103682"
+  },
+  {
+    "id": "maths_algebra_351",
+    "question": "If (a + 1/a) = 7√3, then what is the value of (a⁶ + a⁻⁶)?",
+    "options": [
+      "3048190",
+      "3048542",
+      "3048132",
+      "3048625"
+    ],
+    "correctAnswer": "3048190",
+    "solution": "a³ + 1/a³ = (7√3)³ − 3(7√3) = 1029√3 − 21√3 = 1008√3.\na⁶ + 1/a⁶ = (1008√3)² − 2 = 1008² × 3 − 2.\n= 3048192 − 2 = 3048190.\nAnswer: 3048190"
+  },
+  {
+    "id": "maths_algebra_352",
+    "question": "If (x − 1/x = 4), then what is the value of (x⁶ + 1/x⁶)?",
+    "options": [
+      "4689",
+      "4786",
+      "5832",
+      "5778"
+    ],
+    "correctAnswer": "5778",
+    "solution": "x³ − 1/x³ = 4³ + 3 × 4 = 76.\nx⁶ + 1/x⁶ = (x³ − 1/x³)² + 2 = 5776 + 2.\n= 5778.\nAnswer: 5778"
+  },
+  {
+    "id": "maths_algebra_353",
+    "question": "If (x + 1/x) = 5√2 and x > 1, what is the value of (x⁶ − 1/x⁶)?",
+    "options": [
+      "22970√23",
+      "23030√23",
+      "23060√23",
+      "22960√23"
+    ],
+    "correctAnswer": "23030√23",
+    "solution": "x − 1/x = √(50 − 4) = √46, so x³ + 1/x³ = 250√2 − 15√2 = 235√2.\nx³ − 1/x³ = (√46)³ + 3√46 = 49√46.\nx⁶ − 1/x⁶ = 235√2 × 49√46 = 11515√92 = 23030√23.\nAnswer: 23030√23"
+  },
+  {
+    "id": "maths_algebra_354",
+    "question": "If x > 0 and x⁴ + 1/x⁴ = 2207, then find x⁷ + 1/x⁷.",
+    "options": [
+      "710649",
+      "710647",
+      "710654",
+      "710661"
+    ],
+    "correctAnswer": "710647",
+    "solution": "x² + 1/x² = √2209 = 47 and x + 1/x = √49 = 7, so x³ + 1/x³ = 322.\nx⁷ + 1/x⁷ = (x³ + 1/x³)(x⁴ + 1/x⁴) − (x + 1/x) = 322 × 2207 − 7.\n= 710654 − 7 = 710647.\nAnswer: 710647"
+  },
+  {
+    "id": "maths_algebra_355",
+    "question": "If x⁵ − 1/x⁵ = √7, then find x³⁵ − 1/x³⁵.",
+    "options": [
+      "791√7",
+      "789√7",
+      "790√7",
+      "792√7"
+    ],
+    "correctAnswer": "791√7",
+    "solution": "With u = x⁵: u − 1/u = √7, so u² + 1/u² = 9, u³ − 1/u³ = 7√7 + 3√7 = 10√7 and u⁴ + 1/u⁴ = 79.\nu⁷ − 1/u⁷ = (u³ − 1/u³)(u⁴ + 1/u⁴) + (u − 1/u) = 10√7 × 79 + √7.\n= 791√7.\nAnswer: 791√7"
+  },
+  {
+    "id": "maths_algebra_356",
+    "question": "If x + 1/x = 4, then x⁷ − 1/x⁷ = ?",
+    "options": [
+      "5844√3",
+      "5842√3",
+      "5824√3",
+      "5822√3"
+    ],
+    "correctAnswer": "5822√3",
+    "solution": "x − 1/x = √12 = 2√3, x² + 1/x² = 14 and x⁴ + 1/x⁴ = 194.\nx³ − 1/x³ = (2√3)³ + 3(2√3) = 30√3.\nx⁷ − 1/x⁷ = (x³ − 1/x³)(x⁴ + 1/x⁴) + (x − 1/x) = 30√3 × 194 + 2√3 = 5822√3.\nAnswer: 5822√3"
+  },
+  {
+    "id": "maths_algebra_357",
+    "question": "If x + 1/x ≠ 0 and x³ + 1/x³ = 0, then the value of (x + 1/x)⁴ is:",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "16"
+    ],
+    "correctAnswer": "9",
+    "solution": "Let t = x + 1/x. Then x³ + 1/x³ = t³ − 3t = 0, so t(t² − 3) = 0.\nSince t ≠ 0, t² = 3.\nt⁴ = 9.\nAnswer: 9"
+  },
+  {
+    "id": "maths_algebra_358",
+    "question": "If x² + x(6 − √3) + 10 − 3√3 = 0, then find the value of (x + 3)^17 + 1/(x + 3)^17.",
+    "options": [
+      "√3",
+      "−√3",
+      "1",
+      "-1"
+    ],
+    "correctAnswer": "−√3",
+    "solution": "Put y = x + 3: (y − 3)² + (y − 3)(6 − √3) + 10 − 3√3 = y² − √3y + 1 = 0.\nSo y + 1/y = √3 = 2cos(π/6), giving y = e^(±iπ/6) with period 12.\n17 mod 12 = 5, so the value is 2cos(5π/6) = −√3.\nAnswer: −√3"
+  },
+  {
+    "id": "maths_algebra_359",
+    "question": "If x² − 3x + 1 = 0, then find the value of x⁹ + x⁷ + x⁻⁹ + x⁻⁷.",
+    "options": [
+      "6621",
+      "4414",
+      "9208",
+      "6069"
+    ],
+    "correctAnswer": "6621",
+    "solution": "x + 1/x = 3, so with Sₙ = xⁿ + 1/xⁿ the recurrence Sₙ = 3Sₙ₋₁ − Sₙ₋₂ gives\nS₂ = 7, S₃ = 18, S₄ = 47, S₅ = 123, S₆ = 322, S₇ = 843, S₈ = 2207, S₉ = 5778.\nS₉ + S₇ = 5778 + 843 = 6621.\nAnswer: 6621"
+  },
+  {
+    "id": "maths_algebra_360",
+    "question": "If x² − 4x + 1 = 0, then what is the value of x⁹ + x⁷ − 194x⁵ − 194x³?",
+    "options": [
+      "4",
+      "-4",
+      "1",
+      "-1"
+    ],
+    "correctAnswer": "-4",
+    "solution": "Factor: x³(x² + 1)(x⁴ − 194), and x² + 1 = 4x from the equation.\nx + 1/x = 4 gives x² + 1/x² = 14 and x⁴ + 1/x⁴ = 194, so x⁴ − 194 = −1/x⁴.\nThe expression = x³ × 4x × (−1/x⁴) = −4.\nAnswer: -4"
+  },
+  {
+    "id": "maths_algebra_361",
+    "question": "If x² − 3x + 1 = 0, then what is the value of x¹² + x⁸ − 123x⁷ − 123x³?",
+    "options": [
+      "7",
+      "-3",
+      "-7",
+      "3"
+    ],
+    "correctAnswer": "-7",
+    "solution": "Factor: x³(x⁴ + 1)(x⁵ − 123).\nx + 1/x = 3 gives x² + 1/x² = 7, so x⁴ + 1 = 7x², and x⁵ + 1/x⁵ = 123 so x⁵ − 123 = −1/x⁵.\nThe expression = x³ × 7x² × (−1/x⁵) = −7.\nAnswer: -7"
+  },
+  {
+    "id": "maths_algebra_362",
+    "question": "If x³ − 1/x³ = √(k² − 4)(k² − 1), then x² − 1/x² = ?",
+    "options": [
+      "k√(k² − 4)",
+      "k√(k² + 4)",
+      "k(k² − 4)",
+      "k(k² + 4)"
+    ],
+    "correctAnswer": "k√(k² − 4)",
+    "solution": "If x + 1/x = k then x − 1/x = √(k² − 4) and x³ − 1/x³ = (x − 1/x)[(x − 1/x)² + 3] = √(k² − 4)(k² − 1), matching the given form.\nSo x + 1/x = k.\nx² − 1/x² = (x + 1/x)(x − 1/x) = k√(k² − 4).\nAnswer: k√(k² − 4)"
+  },
+  {
+    "id": "maths_algebra_363",
+    "question": "If x√x + 3√x + 1/a³ − a³ = 0, then find (a² + 1/a² − x).",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "solution": "Rewrite as t³ + 3t = a³ − 1/a³ with t = √x, and a³ − 1/a³ = u³ + 3u where u = a − 1/a.\nSince z³ + 3z is strictly increasing, t = u, so x = (a − 1/a)² = a² + 1/a² − 2.\nTherefore a² + 1/a² − x = 2.\nAnswer: 2"
+  },
+  {
+    "id": "maths_algebra_364",
+    "question": "If x − 1/x = 1, then [1/(x − 1) − 1/(x + 1) + 1/(x² + 1) − 1/(x² − 1)] = ?",
+    "options": [
+      "±√5",
+      "2/5",
+      "±2/√5",
+      "±√5/2"
+    ],
+    "correctAnswer": "±2/√5",
+    "solution": "x² − x − 1 = 0, so x² − 1 = x and x⁴ = 3x + 2.\n1/(x − 1) − 1/(x + 1) = 2/(x² − 1) = 2/x, and 1/(x² + 1) − 1/(x² − 1) = −2/(x⁴ − 1) = −2/(3x + 1).\nWith x = (1 ± √5)/2 the total 2/x − 2/(3x + 1) evaluates to ±2/√5.\nAnswer: ±2/√5"
+  },
+  {
+    "id": "maths_algebra_365",
+    "question": "If x√x + 1/(x√x) = 110, then find x²√x + 1/(x²√x).",
+    "options": [
+      "2525",
+      "12098",
+      "140",
+      "3645"
+    ],
+    "correctAnswer": "2525",
+    "solution": "With t = √x the condition is t³ + 1/t³ = 110, and t + 1/t = 5 since 125 − 15 = 110.\nUsing Sₙ = 5Sₙ₋₁ − Sₙ₋₂: S₂ = 23, S₃ = 110, S₄ = 527, S₅ = 2525.\nx²√x + 1/(x²√x) = t⁵ + 1/t⁵ = 2525.\nAnswer: 2525"
+  },
+  {
+    "id": "maths_algebra_366",
+    "question": "If x + 1/x = 4 and x > 0, then find the value of x¹⁰ + 1/x¹⁰.",
+    "options": [
+      "524176",
+      "524174",
+      "524172",
+      "524178"
+    ],
+    "correctAnswer": "524174",
+    "solution": "Using Sₙ = 4Sₙ₋₁ − Sₙ₋₂ with S₀ = 2, S₁ = 4:\nS₂ = 14, S₃ = 52, S₄ = 194, S₅ = 724, S₆ = 2702, S₇ = 10084, S₈ = 37634, S₉ = 140452.\nS₁₀ = 4 × 140452 − 37634 = 524174.\nAnswer: 524174"
+  },
+  {
+    "id": "maths_algebra_367",
+    "question": "If K + 1/K − 2 = 0 and K > 0, then what is the value of K¹⁷ + 1/K¹²?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "12"
+    ],
+    "correctAnswer": "2",
+    "solution": "K + 1/K = 2 forces K = 1.\nK¹⁷ + 1/K¹² = 1 + 1.\n= 2.\nAnswer: 2"
+  },
+  {
+    "id": "maths_algebra_368",
+    "question": "If x + 1/x = 2, then the value of x¹¹ + 1/x²⁰ is:",
+    "options": [
+      "7",
+      "2",
+      "1",
+      "0"
+    ],
+    "correctAnswer": "2",
+    "solution": "x + 1/x = 2 forces x = 1.\nx¹¹ + 1/x²⁰ = 1 + 1.\n= 2.\nAnswer: 2"
+  },
+  {
+    "id": "maths_algebra_369",
+    "question": "If x + 1/(x − 9) = 11, then (x − 11)¹² + 1/(x − 11)¹³ = ?",
+    "options": [
+      "0",
+      "2",
+      "-2",
+      "1"
+    ],
+    "correctAnswer": "0",
+    "solution": "Subtract 9 from both sides: (x − 9) + 1/(x − 9) = 2, so x − 9 = 1 and x = 10.\nx − 11 = −1, so (−1)¹² = 1 and 1/(−1)¹³ = −1.\nThe sum is 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_370",
+    "question": "If a + 1/(a − 4) = 6, then (a − 3)⁷ + 1/(a − 7)³ = ?",
+    "options": [
+      "63 7/8",
+      "255 1/8",
+      "127 7/8",
+      "216"
+    ],
+    "correctAnswer": "127 7/8",
+    "solution": "Subtract 4: (a − 4) + 1/(a − 4) = 2, so a − 4 = 1 and a = 5.\n(a − 3)⁷ = 2⁷ = 128 and (a − 7)³ = (−2)³ = −8, so 1/(a − 7)³ = −1/8.\n128 − 1/8 = 127 7/8.\nAnswer: 127 7/8"
+  },
+  {
+    "id": "maths_algebra_371",
+    "question": "If x + 1/x = −2, then x^(2n+1) + 1/x^(2n+4) = ? (where n is an integer)",
+    "options": [
+      "2",
+      "4",
+      "-2",
+      "0"
+    ],
+    "correctAnswer": "0",
+    "solution": "x + 1/x = −2 forces x = −1.\n2n + 1 is odd so x^(2n+1) = −1, and 2n + 4 is even so 1/x^(2n+4) = 1.\nThe sum is 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_372",
+    "question": "If K + 1/K + 2 = 0 and K < 0, then what is the value of K¹⁷ + 1/K¹¹?",
+    "options": [
+      "-17",
+      "-2",
+      "-1",
+      "0"
+    ],
+    "correctAnswer": "-2",
+    "solution": "K + 1/K = −2 forces K = −1.\nK¹⁷ = −1 and 1/K¹¹ = 1/(−1) = −1.\nThe sum is −2.\nAnswer: -2"
+  },
+  {
+    "id": "maths_algebra_373",
+    "question": "If x + 1/(x + 5) = −7, then (x + 5)¹⁹ − 1/(x + 7)²⁸ = ?",
+    "options": [
+      "0",
+      "2",
+      "-2",
+      "1"
+    ],
+    "correctAnswer": "-2",
+    "solution": "Add 5: (x + 5) + 1/(x + 5) = −2, so x + 5 = −1 and x = −6.\n(x + 5)¹⁹ = (−1)¹⁹ = −1, and x + 7 = 1 so 1/(x + 7)²⁸ = 1.\n−1 − 1 = −2.\nAnswer: -2"
+  },
+  {
+    "id": "maths_algebra_374",
+    "question": "If 3x + 1/(3x) + 2 = 0, then 243x⁷ + 1/(81x²) = ?",
+    "options": [
+      "2",
+      "4",
+      "0",
+      "1"
+    ],
+    "correctAnswer": "0",
+    "solution": "3x + 1/(3x) = −2 forces 3x = −1, i.e. x = −1/3.\n243x⁷ = 243 × (−1/2187) = −1/9 and 81x² = 9, so 1/(81x²) = 1/9.\n−1/9 + 1/9 = 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_375",
+    "question": "If x/5 + 5/x = −2, then what is the value of x³?",
+    "options": [
+      "-125",
+      "-25",
+      "1/125",
+      "625"
+    ],
+    "correctAnswer": "-125",
+    "solution": "With u = x/5: u + 1/u = −2 forces u = −1, so x = −5.\nx³ = (−5)³.\n= −125.\nAnswer: -125"
+  },
+  {
+    "id": "maths_algebra_376",
+    "question": "If x/y + y/x = 1 with x, y ≠ 0, then find the value of x⁶ + y⁶ + 2x³y³.",
+    "options": [
+      "0",
+      "1",
+      "x³y³",
+      "3x³y³"
+    ],
+    "correctAnswer": "0",
+    "solution": "x/y + y/x = 1 gives x² + y² = xy, i.e. x² − xy + y² = 0.\nSo x³ + y³ = (x + y)(x² − xy + y²) = 0.\nx⁶ + y⁶ + 2x³y³ = (x³ + y³)² = 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_377",
+    "question": "If r/13 + 13/r = 1, then the value of r³ is:",
+    "options": [
+      "-2157",
+      "2197",
+      "2157",
+      "-2197"
+    ],
+    "correctAnswer": "-2197",
+    "solution": "With u = r/13: u + 1/u = 1 gives u² − u + 1 = 0, hence u³ = −1.\nr³ = (13u)³ = 2197u³.\n= −2197.\nAnswer: -2197"
+  },
+  {
+    "id": "maths_algebra_378",
+    "question": "If x + 1/x = 1, then (1 + x + x²)(1 − x − x²) = ?",
+    "options": [
+      "0",
+      "4",
+      "-2",
+      "1"
+    ],
+    "correctAnswer": "4",
+    "solution": "x² − x + 1 = 0, so x² = x − 1.\n1 + x + x² = 1 + x + x − 1 = 2x, and 1 − x − x² = 1 − x − x + 1 = 2 − 2x.\nProduct = 2x(2 − 2x) = 4x − 4x² = 4x − 4(x − 1) = 4.\nAnswer: 4"
+  },
+  {
+    "id": "maths_algebra_379",
+    "question": "If 4x² + 1/x² = 2, then find 8x³ + 1/x³.",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": "0",
+    "solution": "(2x + 1/x)² = 4x² + 4 + 1/x² = 6, so 2x + 1/x = √6.\n8x³ + 1/x³ = (2x + 1/x)³ − 3(2x)(1/x)(2x + 1/x) = 6√6 − 6√6.\n= 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_380",
+    "question": "If x + 1/x = 1, then the value of x¹² + x⁹ + x⁶ + x³ + 1 is:",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "-2"
+    ],
+    "correctAnswer": "1",
+    "solution": "x² − x + 1 = 0 means x³ + 1 = (x + 1)(x² − x + 1) = 0, so x³ = −1.\nx⁶ = 1, x⁹ = −1, x¹² = 1.\n1 − 1 + 1 − 1 + 1 = 1.\nAnswer: 1"
+  },
+  {
+    "id": "maths_algebra_381",
+    "question": "If x⁵ + 1/x⁵ = 1, then x¹⁸⁰ + x¹⁶⁵ + x¹⁴⁵ + x¹³⁰ − 2x¹⁰⁵ + x⁸⁰ + x⁷⁰ − x¹⁵ + 3 = ?",
+    "options": [
+      "3",
+      "6",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "5",
+    "solution": "With u = x⁵: u + 1/u = 1 gives u³ = −1 and u² = u − 1.\nReducing each power: x¹⁸⁰ = 1, x¹⁶⁵ = −1, x¹⁴⁵ = −u², x¹³⁰ = u², −2x¹⁰⁵ = 2, x⁸⁰ = −u, x⁷⁰ = u², −x¹⁵ = 1.\nTotal = 6 + u² − u = 6 − 1 = 5.\nAnswer: 5"
+  },
+  {
+    "id": "maths_algebra_382",
+    "question": "If (x + 2)² + 1/[(x + 2)(x + 3) − (x + 1)] = 0, then find (x² + 4x + 5)³.",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "343"
+    ],
+    "correctAnswer": "-1",
+    "solution": "(x + 2)(x + 3) − (x + 1) = x² + 4x + 5 = (x + 2)² + 1, so with y = (x + 2)² the equation is y + 1/(y + 1) = 0.\nThat gives y² + y + 1 = 0, hence y + 1 = −y² and y³ = 1.\n(x² + 4x + 5)³ = (y + 1)³ = −y⁶ = −1.\nAnswer: -1"
+  },
+  {
+    "id": "maths_algebra_383",
+    "question": "If x + 3/x = 3, then find (x − 1)⁸ + 1/(x − 1)⁸.",
+    "options": [
+      "1",
+      "-1",
+      "2",
+      "0"
+    ],
+    "correctAnswer": "-1",
+    "solution": "x² − 3x + 3 = 0; put y = x − 1 to get y² − y + 1 = 0, so y + 1/y = 1 and y³ = −1.\ny⁶ = 1, so y⁸ = y² and 1/y⁸ = 1/y².\ny² + 1/y² = 1² − 2 = −1.\nAnswer: -1"
+  },
+  {
+    "id": "maths_algebra_384",
+    "question": "If x/(5√6) + 1 = −5√6/x, then find the value of x⁵ − 750√6x² + 1.",
+    "options": [
+      "25√6",
+      "1",
+      "0",
+      "1+5√6"
+    ],
+    "correctAnswer": "1",
+    "solution": "With u = x/(5√6) the equation is u + 1 = −1/u, i.e. u² + u + 1 = 0, so u³ = 1.\nThen x³ = (5√6)³u³ = 750√6, so x³ − 750√6 = 0.\nx⁵ − 750√6x² + 1 = x²(x³ − 750√6) + 1 = 1.\nAnswer: 1"
+  },
+  {
+    "id": "maths_algebra_385",
+    "question": "If x² − 7x + 13 = 0, then (x − 3)²² + 1/(x − 3)²² = ?",
+    "options": [
+      "3",
+      "1",
+      "-1",
+      "-2"
+    ],
+    "correctAnswer": "-1",
+    "solution": "Put y = x − 3: (y + 3)² − 7(y + 3) + 13 = y² − y + 1 = 0, so y + 1/y = 1 and y³ = −1.\ny⁶ = 1 and 22 mod 6 = 4, so y²² = y⁴ = −y and 1/y²² = −1/y.\ny²² + 1/y²² = −(y + 1/y) = −1.\nAnswer: -1"
+  },
+  {
+    "id": "maths_algebra_386",
+    "question": "If a/b + b/a = −1 and a − b = 2, then the value of a³ − b³ is:",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "-1"
+    ],
+    "correctAnswer": "0",
+    "solution": "a/b + b/a = −1 gives a² + b² = −ab, i.e. a² + ab + b² = 0.\na³ − b³ = (a − b)(a² + ab + b²) = 2 × 0.\n= 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_387",
+    "question": "If 3x + 1/(2x) = √3, then find 6x² + 1/(6x²).",
+    "options": [
+      "-1",
+      "0",
+      "2",
+      "1"
+    ],
+    "correctAnswer": "0",
+    "solution": "Squaring: 9x² + 3 + 1/(4x²) = 3, so 9x² + 1/(4x²) = 0.\nMultiplying by 2/3 turns 9x² into 6x² and 1/(4x²) into 1/(6x²).\nSo 6x² + 1/(6x²) = (2/3) × 0 = 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_388",
+    "question": "If 5x + 1/(2x) = √5, then find 50x⁴ + 1/(100x⁴).",
+    "options": [
+      "-1",
+      "-1/2",
+      "-4/3",
+      "-3/2"
+    ],
+    "correctAnswer": "-3/2",
+    "solution": "Squaring: 25x² + 5 + 1/(4x²) = 5, so 25x² = −1/(4x²) and hence x⁴ = −1/100.\n50x⁴ = −1/2 and 1/(100x⁴) = 1/(−1) = −1.\nSum = −1/2 − 1 = −3/2.\nAnswer: -3/2"
+  },
+  {
+    "id": "maths_algebra_389",
+    "question": "If x² + y² = x⁻²(777 − y⁴) and x + y = x⁻¹(37 − y²), then find the value of x² + y(y − x).",
+    "options": [
+      "29",
+      "21",
+      "23",
+      "31"
+    ],
+    "correctAnswer": "21",
+    "solution": "The second condition gives x² + xy + y² = 37; the first gives x⁴ + x²y² + y⁴ = 777.\nSince x⁴ + x²y² + y⁴ = (x² + xy + y²)(x² − xy + y²), we get 37(x² − xy + y²) = 777.\nx² − xy + y² = 21, which is exactly x² + y(y − x).\nAnswer: 21"
+  },
+  {
+    "id": "maths_algebra_390",
+    "question": "If x² − xy + y² = 13 and x² + xy + y² = 37, then the value of (x⁶ − y⁶)/(x² − y²) is:",
+    "options": [
+      "481",
+      "500",
+      "520",
+      "444"
+    ],
+    "correctAnswer": "481",
+    "solution": "(x⁶ − y⁶)/(x² − y²) = x⁴ + x²y² + y⁴.\n= (x² − xy + y²)(x² + xy + y²) = 13 × 37.\n= 481.\nAnswer: 481"
+  },
+  {
+    "id": "maths_algebra_391",
+    "question": "If x⁴ + x²y² + y⁴ = 273 and x² − xy + y² = 13, then the value of xy is:",
+    "options": [
+      "4",
+      "10",
+      "6",
+      "8"
+    ],
+    "correctAnswer": "4",
+    "solution": "x⁴ + x²y² + y⁴ = (x² − xy + y²)(x² + xy + y²), so 13(x² + xy + y²) = 273 and x² + xy + y² = 21.\nSubtracting the two expressions: 2xy = 21 − 13 = 8.\nxy = 4.\nAnswer: 4"
+  },
+  {
+    "id": "maths_algebra_392",
+    "question": "If x⁴ + y⁴ + x²y² = 117 and x² + y² − xy = 3(4 + √3), then find x² + y².",
+    "options": [
+      "9",
+      "6√3",
+      "12",
+      "13√3"
+    ],
+    "correctAnswer": "12",
+    "solution": "x⁴ + x²y² + y⁴ = (x² − xy + y²)(x² + xy + y²), so 3(4 + √3)(x² + xy + y²) = 117.\nx² + xy + y² = 39/(4 + √3) = 3(4 − √3).\nx² + y² = [3(4 + √3) + 3(4 − √3)]/2 = 24/2 = 12.\nAnswer: 12"
+  },
+  {
+    "id": "maths_algebra_393",
+    "question": "If x² − xy + y² = 17 and x⁴ + x²y² + y⁴ = 425, then the value of x/y + y/x is:",
+    "options": [
+      "6.25",
+      "5.25",
+      "6.4",
+      "5.5"
+    ],
+    "correctAnswer": "5.25",
+    "solution": "425 = 17(x² + xy + y²), so x² + xy + y² = 25.\nx² + y² = (17 + 25)/2 = 21 and xy = (25 − 17)/2 = 4.\nx/y + y/x = 21/4 = 5.25.\nAnswer: 5.25"
+  },
+  {
+    "id": "maths_algebra_394",
+    "question": "If x² − xy + y² = 7 and x⁴ + x²y² + y⁴ = 105, then the value of x³/y³ + y³/x³ is:",
+    "options": [
+      "437/32",
+      "317/16",
+      "713/64",
+      "803/64"
+    ],
+    "correctAnswer": "803/64",
+    "solution": "105 = 7(x² + xy + y²), so x² + xy + y² = 15, giving x² + y² = 11 and xy = 4.\nx/y + y/x = 11/4.\nx³/y³ + y³/x³ = (11/4)³ − 3(11/4) = 1331/64 − 528/64 = 803/64.\nAnswer: 803/64"
+  },
+  {
+    "id": "maths_algebra_395",
+    "question": "If x⁴ + x²y² + y⁴ = 21/256 and x² + xy + y² = 3/16, then (x + y) = ?",
+    "options": [
+      "1/16",
+      "5/8",
+      "3/8",
+      "1/4"
+    ],
+    "correctAnswer": "1/4",
+    "solution": "(x² − xy + y²)(3/16) = 21/256 gives x² − xy + y² = 7/16.\nx² + y² = 5/16 and xy = (3/16 − 7/16)/2 = −1/8.\n(x + y)² = 5/16 − 1/4 = 1/16, so x + y = 1/4.\nAnswer: 1/4"
+  },
+  {
+    "id": "maths_algebra_396",
+    "question": "If x⁴ + y⁴ + x²y² = 17 1/16 and x² − xy + y² = 5 1/4, then one of the values of (x − y) is:",
+    "options": [
+      "5/2",
+      "3/4",
+      "5/4",
+      "3/2"
+    ],
+    "correctAnswer": "5/2",
+    "solution": "(21/4)(x² + xy + y²) = 273/16 gives x² + xy + y² = 13/4.\nx² + y² = (21/4 + 13/4)/2 = 17/4 and xy = (13/4 − 21/4)/2 = −1.\n(x − y)² = 17/4 + 2 = 25/4, so x − y = 5/2.\nAnswer: 5/2"
+  },
+  {
+    "id": "maths_algebra_397",
+    "question": "If 1 + 9r² + 81r⁴ = 256 and 1 + 3r + 9r² = 32, then find the value of 1 − 3r + 9r².",
+    "options": [
+      "8",
+      "4",
+      "16",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "solution": "(1 + 3r + 9r²)(1 − 3r + 9r²) = 1 + 9r² + 81r⁴ = 256.\nSo 32 × (1 − 3r + 9r²) = 256.\n1 − 3r + 9r² = 8.\nAnswer: 8"
+  },
+  {
+    "id": "maths_algebra_398",
+    "question": "If 16a⁴ + 36a²b² + 81b⁴ = 91 and 4a² + 9b² − 6ab = 13, then what is the value of 3ab?",
+    "options": [
+      "-3",
+      "5",
+      "3/2",
+      "-3/2"
+    ],
+    "correctAnswer": "-3/2",
+    "solution": "(4a² − 6ab + 9b²)(4a² + 6ab + 9b²) = 16a⁴ + 36a²b² + 81b⁴ = 91, so 4a² + 6ab + 9b² = 7.\nSubtracting: 12ab = 7 − 13 = −6, so ab = −1/2.\n3ab = −3/2.\nAnswer: -3/2"
+  },
+  {
+    "id": "maths_algebra_399",
+    "question": "The value of [(4.6)⁴ + (5.4)⁴ + (24.84)²]/[(4.6)² + (5.4)² + 24.84] is:",
+    "options": [
+      "24.42",
+      "25.48",
+      "24.24",
+      "25.42"
+    ],
+    "correctAnswer": "25.48",
+    "solution": "Since 4.6 × 5.4 = 24.84, this is (a⁴ + b⁴ + a²b²)/(a² + b² + ab) with a = 4.6, b = 5.4.\na⁴ + a²b² + b⁴ = (a² + ab + b²)(a² − ab + b²), so the value is a² − ab + b².\n= 21.16 + 29.16 − 24.84 = 25.48.\nAnswer: 25.48"
+  },
+  {
+    "id": "maths_algebra_400",
+    "question": "If (81m⁴ + 256n⁴ + 144m²n²)/(9m² + 16n² + 12mn) = [A√3m² + B√2n² − C√3mn], then the value of A² + B² − C² is:",
+    "options": [
+      "127",
+      "107",
+      "117",
+      "137"
+    ],
+    "correctAnswer": "107",
+    "solution": "With a = 3m and b = 4n the numerator is a⁴ + a²b² + b⁴ = (a² + ab + b²)(a² − ab + b²), so the quotient is 9m² − 12mn + 16n².\nMatching: A√3 = 9, B√2 = 16, C√3 = 12, i.e. A² = 27, B² = 128, C² = 48.\nA² + B² − C² = 27 + 128 − 48 = 107.\nAnswer: 107"
+  },
+  {
+    "id": "maths_algebra_401",
+    "question": "The value of 1/(a² + ax + x²) − 1/(a² − ax + x²) + 2ax/(a⁴ + a²x² + x⁴) = ?",
+    "options": [
+      "2",
+      "1",
+      "-1",
+      "0"
+    ],
+    "correctAnswer": "0",
+    "solution": "The first two terms combine to [(a² − ax + x²) − (a² + ax + x²)]/[(a² + ax + x²)(a² − ax + x²)].\n= −2ax/(a⁴ + a²x² + x⁴).\nAdding the third term gives 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_402",
+    "question": "Using algebraic identities, simplify the expression (x⁴ + x² + 1)/(x² + x + 1).",
+    "options": [
+      "x² − 2x + 1",
+      "x² + x + 1",
+      "x² + 2x + 1",
+      "x² − x + 1"
+    ],
+    "correctAnswer": "x² − x + 1",
+    "solution": "x⁴ + x² + 1 = (x² + 1)² − x² = (x² + x + 1)(x² − x + 1).\nCancelling the common factor leaves x² − x + 1.\nAnswer: x² − x + 1"
+  },
+  {
+    "id": "maths_algebra_403",
+    "question": "Simplify: [(0.25)⁴ + 2 × (0.25)² + 1 − (0.25)²]/[(0.25)² + 0.25 + 1]",
+    "options": [
+      "0.6755",
+      "0.9025",
+      "0.8125",
+      "0.7835"
+    ],
+    "correctAnswer": "0.8125",
+    "solution": "The numerator is x⁴ + x² + 1 with x = 0.25, which factors as (x² + x + 1)(x² − x + 1).\nCancelling x² + x + 1 leaves x² − x + 1 = 0.0625 − 0.25 + 1.\n= 0.8125.\nAnswer: 0.8125"
+  },
+  {
+    "id": "maths_algebra_404",
+    "question": "If x² + xy + y² = 119 and x − √(xy) + y = 7, then find xy.",
+    "options": [
+      "25",
+      "5",
+      "50",
+      "36"
+    ],
+    "correctAnswer": "25",
+    "solution": "x² + xy + y² = (x + y)² − xy = (x + y + √(xy))(x + y − √(xy)).\nSo 7(x + y + √(xy)) = 119, giving x + y + √(xy) = 17 while x + y − √(xy) = 7.\nSubtracting: 2√(xy) = 10, so √(xy) = 5 and xy = 25.\nAnswer: 25"
+  },
+  {
+    "id": "maths_algebra_405",
+    "question": "If a⁴ − 7a²b² + b⁴ = 84 and a² − 3ab + b² = 12, find (a³ + b³)/(a + b).",
+    "options": [
+      "26/3",
+      "31/3",
+      "43/4",
+      "59/6"
+    ],
+    "correctAnswer": "31/3",
+    "solution": "(a² − 3ab + b²)(a² + 3ab + b²) = a⁴ − 7a²b² + b⁴ = 84, so a² + 3ab + b² = 7.\nAdding gives a² + b² = 19/2; subtracting gives 6ab = −5, so ab = −5/6.\n(a³ + b³)/(a + b) = a² − ab + b² = 19/2 + 5/6 = 31/3.\nAnswer: 31/3"
+  },
+  {
+    "id": "maths_algebra_406",
+    "question": "If 9x⁴ + 20x²y² + 16y⁴ = 91 and 3x² + 2xy + 4y² = 13, then find the value of x/(4y) + y/(3x).",
+    "options": [
+      "7/12",
+      "0.625",
+      "2/3",
+      "5/9"
+    ],
+    "correctAnswer": "5/9",
+    "solution": "(3x² + 2xy + 4y²)(3x² − 2xy + 4y²) = 9x⁴ + 20x²y² + 16y⁴ = 91, so 3x² − 2xy + 4y² = 7.\nSubtracting: 4xy = 6 so xy = 3/2; adding: 3x² + 4y² = 10.\nx/(4y) + y/(3x) = (3x² + 4y²)/(12xy) = 10/18 = 5/9.\nAnswer: 5/9"
+  },
+  {
+    "id": "maths_algebra_407",
+    "question": "If a² + b² = x and ab = y, then (a⁴ + b⁴)/(a² − ab√2 + b²) = ?",
+    "options": [
+      "x + 2y",
+      "x + √2y",
+      "y + √2x",
+      "2x + y"
+    ],
+    "correctAnswer": "x + √2y",
+    "solution": "a⁴ + b⁴ = (a² + b²)² − 2a²b² = (a² + ab√2 + b²)(a² − ab√2 + b²).\nCancelling gives a² + ab√2 + b².\n= x + √2y.\nAnswer: x + √2y"
+  },
+  {
+    "id": "maths_algebra_408",
+    "question": "If a⁴ + b⁴ = 63 and a² + b² + ab√2 = 9, then find ab.",
+    "options": [
+      "1",
+      "1/√2",
+      "2",
+      "0"
+    ],
+    "correctAnswer": "1/√2",
+    "solution": "a⁴ + b⁴ = (a² + ab√2 + b²)(a² − ab√2 + b²), so 9(a² − ab√2 + b²) = 63 and a² − ab√2 + b² = 7.\nSubtracting: 2ab√2 = 9 − 7 = 2, so ab√2 = 1.\nab = 1/√2.\nAnswer: 1/√2"
+  },
+  {
+    "id": "maths_algebra_409",
+    "question": "If the semi-perimeter and area of a rectangle whose length and breadth are x and y are 12 cm and 28 cm² respectively, then find the value of x⁴ + x²y² + y⁴.",
+    "options": [
+      "6609",
+      "6906",
+      "6960",
+      "6690"
+    ],
+    "correctAnswer": "6960",
+    "solution": "x + y = 12 and xy = 28, so x² + y² = 144 − 56 = 88.\nx⁴ + x²y² + y⁴ = (x² + y²)² − x²y² = 88² − 28².\n= 7744 − 784 = 6960.\nAnswer: 6960"
+  },
+  {
+    "id": "maths_algebra_410",
+    "question": "If x⁴ + x³ + x² + x + 1 = 0, then x²⁰¹⁵ + x³⁰¹⁵ + 5 = ?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "-9"
+    ],
+    "correctAnswer": "7",
+    "solution": "Multiplying by (x − 1) gives x⁵ = 1 with x ≠ 1.\n2015 and 3015 are both multiples of 5, so x²⁰¹⁵ = x³⁰¹⁵ = 1.\n1 + 1 + 5 = 7.\nAnswer: 7"
+  },
+  {
+    "id": "maths_algebra_411",
+    "question": "If a⁹ + a⁸ + a⁷ + a⁶ + a⁵ + a⁴ + a³ + a² + a + 1 = 0, then find a²⁰²⁰ + 1/a²⁰³⁰ + a²⁰⁴⁰ + 1/a²⁰⁵⁰.",
+    "options": [
+      "1",
+      "4",
+      "0",
+      "2"
+    ],
+    "correctAnswer": "4",
+    "solution": "Multiplying by (a − 1) gives a¹⁰ = 1 with a ≠ 1.\nEach of 2020, 2030, 2040 and 2050 is a multiple of 10, so every term equals 1.\nThe sum is 4.\nAnswer: 4"
+  },
+  {
+    "id": "maths_algebra_412",
+    "question": "If y = 1 + √3 + √4, then the value of 2y⁴ − 8y³ − 6y² + 28y − 84 is:",
+    "options": [
+      "40√3",
+      "80√3",
+      "20√3",
+      "60√3"
+    ],
+    "correctAnswer": "40√3",
+    "solution": "y = 3 + √3, so y − 3 = √3 and y² − 6y + 6 = 0.\nDividing 2y⁴ − 8y³ − 6y² + 28y − 84 by y² − 6y + 6 leaves remainder 40y − 120.\n40(y − 3) = 40√3.\nAnswer: 40√3"
+  },
+  {
+    "id": "maths_algebra_413",
+    "question": "If a³ + 4a² + 16a = 1, then what is the value of a³ + (4/a)?",
+    "options": [
+      "63",
+      "65",
+      "67",
+      "68"
+    ],
+    "correctAnswer": "65",
+    "solution": "From the equation, a³ = 1 − 4a² − 16a.\na⁴ = a·a³ = a − 4a³ − 16a² = a − 4(1 − 4a² − 16a) − 16a² = 65a − 4.\na³ + 4/a = (a⁴ + 4)/a = 65a/a = 65.\nAnswer: 65"
+  },
+  {
+    "id": "maths_algebra_414",
+    "question": "If a³ + 5a² + 25a + 2 = 0, then find the value of a³ − 10/a.",
+    "options": [
+      "127",
+      "125",
+      "25",
+      "123"
+    ],
+    "correctAnswer": "123",
+    "solution": "From the equation, a³ = −5a² − 25a − 2.\na⁴ = a·a³ = −5a³ − 25a² − 2a = 25a² + 125a + 10 − 25a² − 2a = 123a + 10.\na³ − 10/a = (a⁴ − 10)/a = 123a/a = 123.\nAnswer: 123"
+  },
+  {
+    "id": "maths_algebra_415",
+    "question": "If x² + 2 = 2x, then x⁴ − x³ + x² + 2 = ?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "√2"
+    ],
+    "correctAnswer": "0",
+    "solution": "x² = 2x − 2, so x³ = 2x² − 2x = 2x − 4 and x⁴ = 2x² − 4x = −4.\nx⁴ − x³ + x² + 2 = −4 − (2x − 4) + (2x − 2) + 2.\n= 0.\nAnswer: 0"
+  },
+  {
+    "id": "maths_algebra_416",
+    "question": "If 3√((1 − a)/a) + 9 = 19 − 3√(a/(1 − a)), then what is the value of a?",
+    "options": [
+      "3/10, 7/10",
+      "1/10, 9/10",
+      "2/5, 3/5",
+      "1/5, 4/5"
+    ],
+    "correctAnswer": "1/10, 9/10",
+    "solution": "Let t = √((1 − a)/a), so √(a/(1 − a)) = 1/t and the equation becomes 3t + 3/t = 10.\n3t² − 10t + 3 = 0 gives t = 3 or t = 1/3.\nt² = (1 − a)/a gives a = 1/10 (for t = 3) and a = 9/10 (for t = 1/3).\nAnswer: 1/10, 9/10"
+  },
+  {
+    "id": "maths_algebra_417",
+    "question": "If √(x/y) + 1/√2 = √(y/x) and x + y = 18, then what is the value of xy?",
+    "options": [
+      "80",
+      "45",
+      "56",
+      "72"
+    ],
+    "correctAnswer": "72",
+    "solution": "The condition says √(y/x) − √(x/y) = 1/√2, i.e. (y − x)/√(xy) = 1/√2.\nSo ((x + y)/√(xy))² = 1/2 + 4 = 9/2, i.e. 324/xy = 9/2.\nxy = 648/9 = 72.\nAnswer: 72"
+  },
+  {
+    "id": "maths_algebra_418",
+    "question": "If √(a/b) = 8/3 + √(b/a) and (a + b) = 30, then what is the value of ab?",
+    "options": [
+      "64",
+      "28",
+      "81",
+      "26"
+    ],
+    "correctAnswer": "81",
+    "solution": "The condition says (a − b)/√(ab) = 8/3.\nSo ((a + b)/√(ab))² = 64/9 + 4 = 100/9, giving 30/√(ab) = 10/3.\n√(ab) = 9, so ab = 81.\nAnswer: 81"
+  },
+  {
+    "id": "maths_algebra_419",
+    "question": "If (x + 5)(x + 6) + 9/(x(x − 1)) = 0, then 2x² + 10x + 7 = ?",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "13"
+    ],
+    "correctAnswer": "13",
+    "solution": "Multiply by x(x − 1) and regroup as [x(x + 5)][(x − 1)(x + 6)] = −9.\nWith u = x² + 5x this is u(u − 6) = −9, i.e. (u − 3)² = 0, so u = 3.\n2x² + 10x + 7 = 2u + 7 = 13.\nAnswer: 13"
+  },
+  {
+    "id": "maths_algebra_420",
+    "question": "If x³ − 6x² + 35 = 8(x − 2), then find the value of x² + 3/(x − 6).",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "solution": "x³ − 6x² = x²(x − 6), so x²(x − 6) = 8x − 16 − 35 = 8x − 51 and x² = (8x − 51)/(x − 6).\nx² + 3/(x − 6) = (8x − 51 + 3)/(x − 6) = (8x − 48)/(x − 6).\n= 8(x − 6)/(x − 6) = 8.\nAnswer: 8"
+  },
+  {
+    "id": "maths_algebra_421",
+    "question": "Given that x, y, z are positive real numbers, if (x + y)² − z² = 130, (y + z)² − x² = 150 and (x + z)² − y² = 120, then x is:",
+    "options": [
+      "35/8",
+      "25/4",
+      "15/2",
+      "16/3"
+    ],
+    "correctAnswer": "25/4",
+    "solution": "With s = x + y + z the three conditions are s(s − 2z) = 130, s(s − 2x) = 150, s(s − 2y) = 120.\nAdding: 3s² − 2s² = s² = 400, so s = 20.\nFrom 20(20 − 2x) = 150: 20 − 2x = 7.5, so x = 25/4.\nAnswer: 25/4"
+  },
+  {
+    "id": "maths_algebra_422",
+    "question": "If x = 2 + √3, y = 2 − √3, z = 1, then what is the value of (x/yz) + (y/xz) + (z/xy) + 2[(1/x) + (1/y) + (1/z)]?",
+    "options": [
+      "25",
+      "22",
+      "17",
+      "43"
+    ],
+    "correctAnswer": "25",
+    "solution": "xy = 1 and xyz = 1, so x/(yz) = x², y/(xz) = y² and z/(xy) = z²; their sum is 14 + 1 = 15.\nAlso 1/x = y, 1/y = x and 1/z = 1, so the bracket is 4 + 1 = 5.\nTotal = 15 + 2 × 5 = 25.\nAnswer: 25"
+  },
+  {
+    "id": "maths_algebra_423",
+    "question": "If x = √5 + 1 and y = √5 − 1, then what is the value of (x²/y²) + (y²/x²) + 4(x/y) + 4(y/x) + 6?",
+    "options": [
+      "31",
+      "23√5",
+      "27√5",
+      "25"
+    ],
+    "correctAnswer": "25",
+    "solution": "xy = 4 and x² + y² = 12, so x/y + y/x = 12/4 = 3.\nx²/y² + y²/x² = 3² − 2 = 7.\nTotal = 7 + 4 × 3 + 6 = 25.\nAnswer: 25"
+  },
+  {
+    "id": "maths_algebra_424",
+    "question": "If ab/(a + b) = 1/3, bc/(b + c) = 1/4 and ca/(c + a) = 1/5, then find the value of abc/(ab + bc + ca).",
+    "options": [
+      "1/6",
+      "1/12",
+      "6",
+      "1/4"
+    ],
+    "correctAnswer": "1/6",
+    "solution": "Inverting each: 1/a + 1/b = 3, 1/b + 1/c = 4, 1/c + 1/a = 5.\nAdding: 2(1/a + 1/b + 1/c) = 12, so 1/a + 1/b + 1/c = 6.\nabc/(ab + bc + ca) = 1/(1/a + 1/b + 1/c) = 1/6.\nAnswer: 1/6"
+  },
+  {
+    "id": "maths_algebra_425",
+    "question": "If xy/(x + y) = a, xz/(x + z) = b and yz/(y + z) = c where a, b, c are all non-zero numbers, then x equals:",
+    "options": [
+      "2abc/(ab + bc − ac)",
+      "2abc/(ab + ac − bc)",
+      "2abc/(ac + bc − ab)",
+      "2abc/(ab + bc + ca)"
+    ],
+    "correctAnswer": "2abc/(ac + bc − ab)",
+    "solution": "Inverting: 1/a = 1/x + 1/y, 1/b = 1/x + 1/z, 1/c = 1/y + 1/z.\n1/a + 1/b − 1/c = 2/x, so x = 2/((bc + ac − ab)/abc).\nx = 2abc/(ac + bc − ab).\nAnswer: 2abc/(ac + bc − ab)"
+  },
+  {
+    "id": "maths_algebra_426",
+    "question": "If 2018^x + 2018^(-x) = 3, then find √[(2018^(6x) − 2018^(-6x))/(2018^x − 2018^(-x))].",
+    "options": [
+      "16",
+      "10",
+      "12",
+      "9"
+    ],
+    "correctAnswer": "12",
+    "solution": "With u = 2018^x: u + 1/u = 3, so u − 1/u = √5 and u³ + 1/u³ = 27 − 9 = 18.\nu³ − 1/u³ = 5√5 + 3√5 = 8√5, so u⁶ − 1/u⁶ = 8√5 × 18 = 144√5.\nThe ratio is 144√5/√5 = 144, whose square root is 12.\nAnswer: 12"
   }
 ]

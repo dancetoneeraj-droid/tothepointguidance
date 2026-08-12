@@ -1490,12 +1490,7 @@
           "duration": 25,
           "from": 150
         },
-        {
-          "topic": "di",
-          "questions": 25,
-          "duration": 25,
-          "from": 150
-        },
+
         {
           "topic": "mensuration-3d",
           "questions": 25,
@@ -1513,6 +1508,15 @@
         "grammarPdf": "/content/english/day7-grammar.pdf",
         "vocabPdf": "/content/english/day7-vocab.pdf",
         "comprehensionPdf": "/content/english/day7-comprehension.pdf",
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "Revision",
+            "questions": 25,
+            "duration": 10,
+            "from": 798
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 200,
@@ -1525,7 +1529,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
+        "todayTopicPdf": "https://drive.google.com/file/d/1fbm_zN_7x_xBZHnLITkqdxtTnEjLVRJT/view?usp=drive_link",
         "revisionQuiz": "revision",
         "revisionTopic": "Day 30 GK revision"
       }
@@ -1560,9 +1564,17 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day8-grammar.pdf",
-        "vocabPdf": "/content/english/day8-vocab.pdf",
-        "comprehensionPdf": "/content/english/day8-comprehension.pdf",
+        
+    
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "Revision",
+            "questions": 25,
+            "duration": 10,
+            "from": 823
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 225,
@@ -1575,7 +1587,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
+        "todayTopicPdf": "https://drive.google.com/file/d/1JlBrg-4tiIBWlHC_ND-Jw5e0IelIkhE1/view?usp=drive_link",
         "revisionQuiz": "revision",
         "revisionTopic": "Day 31 GK revision"
       }
@@ -1610,11 +1622,17 @@
         }
       ],
       "english": {
-        "grammarPdf": "/content/english/day1-grammar.pdf",
-        "vocabPdf": "/content/english/day1-vocab.pdf",
-        "comprehensionPdf": "/content/english/day1-comprehension.pdf",
-        "grammarMindmap": "/content/english/day1-grammar-mindmap.png",
-        "vocabNotes": "/content/english/day1-vocab-notes.pdf",
+  
+       
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "Revision",
+            "questions": 25,
+            "duration": 10,
+            "from": 848
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 250,
@@ -1627,11 +1645,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
-        "todayMindmap": "/content/gk/day1-history-mindmap.png",
-        "todayNotes": "/content/gk/day1-history-notes.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 32 GK revision"
+        "todayTopicPdf": "https://drive.google.com/file/d/1B1lfDrn6kOxbp8g_Nsnky-EcDiZuxluc/view?usp=drive_link"
       }
     },
     {
@@ -1655,18 +1669,21 @@
           "questions": 25,
           "duration": 25,
           "from": 200
-        },
-        {
-          "topic": "partnership",
-          "questions": 25,
-          "duration": 25,
-          "from": 175
         }
       ],
       "english": {
         "grammarPdf": "/content/english/day2-grammar.pdf",
         "vocabPdf": "/content/english/day2-vocab.pdf",
         "comprehensionPdf": "/content/english/day2-comprehension.pdf",
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "Revision",
+            "questions": 14,
+            "duration": 6,
+            "from": 873
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 275,
@@ -1679,11 +1696,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day2-geography.pdf",
-        "todayMindmap": "/content/gk/day2-geography-mindmap.png",
-        "todayNotes": "/content/gk/day2-geography-notes.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 33 GK revision"
+        "todayTopicPdf": "https://drive.google.com/file/d/1gYAnxAV_aQgJ1L9q9gK9gmMj0VLvA5Ta/view?usp=drive_link"
       }
     },
     {
@@ -1719,6 +1732,15 @@
         "grammarPdf": "/content/english/day3-grammar.pdf",
         "vocabPdf": "/content/english/day3-vocab.pdf",
         "comprehensionPdf": "/content/english/day3-comprehension.pdf",
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "SENTENCE — Set 5",
+            "questions": 25,
+            "duration": 10,
+            "from": 887
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 300,
@@ -1731,9 +1753,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day3-polity.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 34 GK revision"
+        "todayTopicPdf": "https://drive.google.com/file/d/1MNDMZTp4yjIr_fmvznQMg0syxBajgFl9/view?usp=drive_link"
       }
     },
     {
@@ -1769,6 +1789,15 @@
         "grammarPdf": "/content/english/day4-grammar.pdf",
         "vocabPdf": "/content/english/day4-vocab.pdf",
         "comprehensionPdf": "/content/english/day4-comprehension.pdf",
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "SENTENCE — Set 6",
+            "questions": 25,
+            "duration": 10,
+            "from": 912
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 325,
@@ -1781,9 +1810,7 @@
         "duration": 45
       },
       "gk": {
-        "todayTopicPdf": "/content/gk/day4-economics.pdf",
-        "revisionQuiz": "revision",
-        "revisionTopic": "Day 35 GK revision"
+        "todayTopicPdf": "https://drive.google.com/file/d/1aqqazwGPgQCPYxncY3Wv6XsDwHzHS4ii/view?usp=drive_link"
       }
     },
     {
@@ -1819,6 +1846,15 @@
         "grammarPdf": "/content/english/day5-grammar.pdf",
         "vocabPdf": "/content/english/day5-vocab.pdf",
         "comprehensionPdf": "/content/english/day5-comprehension.pdf",
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "SENTENCE — Set 7",
+            "questions": 25,
+            "duration": 10,
+            "from": 937
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 350,
@@ -1869,6 +1905,15 @@
         "grammarPdf": "/content/english/day6-grammar.pdf",
         "vocabPdf": "/content/english/day6-vocab.pdf",
         "comprehensionPdf": "/content/english/day6-comprehension.pdf",
+        "grammarQuizzes": [
+          {
+            "topic": "pronoun",
+            "label": "SENTENCE — Set 8",
+            "questions": 24,
+            "duration": 10,
+            "from": 962
+          }
+        ],
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 375,

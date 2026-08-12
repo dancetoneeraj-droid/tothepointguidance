@@ -759,7 +759,7 @@
     "solution": "# Solution: Finding remainder of 19^200 ÷ 20\n\n**Step 1: Rewrite 19 in terms of 20**\n$$19 \\equiv -1 \\pmod{20}$$\n\n**Step 2: Apply Fermat's Little Theorem concept (or direct substitution)**\n$$19^{200} \\equiv (-1)^{200} \\pmod{20}$$\n\n**Step 3: Evaluate the power**\nSince 200 is an even number:\n$$(-1)^{200} = 1$$\n\n**Step 4: Find the remainder**\n$$19^{200} \\equiv 1 \\pmod{20}$$\n\nTherefore, the remainder when 19^200 is divided by 20 is **1**.\n\n✓ **Answer confirmed: 1**"
   },
   {
-        "id": "maths_number_system_055",
+    "id": "maths_number_system_055",
     "question": "What will be the remainder when 111^2024 is divided by 112?",
     "questionHindi": "111^2024 को 112 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -797,7 +797,7 @@
       "104"
     ],
     "correctAnswer": "88",
-  "solution": "# Solution: Finding remainder when 136^58 is divided by 168\n\n**Step 1: Factor 168**\n168 = 8 × 21 = 8 × 3 × 7\n\n**Step 2: Use Chinese Remainder Theorem**\nFind 136^58 (mod 8), (mod 3), and (mod 7) separately.\n\n**Step 3: Calculate modulo each factor**\n\n- **Mod 8:** 136 ≡ 0 (mod 8) → 136^58 ≡ 0 (mod 8)\n\n- **Mod 3:** 136 ≡ 1 (mod 3) → 136^58 ≡ 1 (mod 3)\n\n- **Mod 7:** 136 ≡ 3 (mod 7)\n  - By Fermat's Little Theorem: 3^6 ≡ 1 (mod 7)\n  - 58 = 6(9) + 4\n  - 3^58 ≡ 3^4 ≡ 81 ≡ 4 (mod 7)\n\n**Step 4: Combine using CRT**\nFind x such that:\n- x ≡ 0 (mod 8)\n- x ≡ 1 (mod 3)\n- x ≡ 4 (mod 7)\n\nFrom x"
+    "solution": "# Solution: Finding remainder when 136^58 is divided by 168\n\n**Step 1: Factor 168**\n168 = 8 × 21 = 8 × 3 × 7\n\n**Step 2: Use Chinese Remainder Theorem**\nFind 136^58 (mod 8), (mod 3), and (mod 7) separately.\n\n**Step 3: Calculate modulo each factor**\n\n- **Mod 8:** 136 ≡ 0 (mod 8) → 136^58 ≡ 0 (mod 8)\n\n- **Mod 3:** 136 ≡ 1 (mod 3) → 136^58 ≡ 1 (mod 3)\n\n- **Mod 7:** 136 ≡ 3 (mod 7)\n  - By Fermat's Little Theorem: 3^6 ≡ 1 (mod 7)\n  - 58 = 6(9) + 4\n  - 3^58 ≡ 3^4 ≡ 81 ≡ 4 (mod 7)\n\n**Step 4: Combine using CRT**\nFind x such that:\n- x ≡ 0 (mod 8)\n- x ≡ 1 (mod 3)\n- x ≡ 4 (mod 7)\n\nFrom x"
   },
   {
     "id": "maths_number_system_058",
@@ -828,7 +828,7 @@
     "solution": "# Solution: Remainder when 3^255 is divided by 28\n\n**Step 1: Use Euler's Theorem**\nFirst, find φ(28):\n- 28 = 4 × 7\n- φ(28) = φ(4) × φ(7) = 2 × 6 = 12\n\nSince gcd(3, 28) = 1, by Euler's theorem: 3^12 ≡ 1 (mod 28)\n\n**Step 2: Reduce the exponent**\nExpress 255 in terms of 12:\n- 255 = 12 × 21 + 3\n- Therefore: 3^255 = 3^(12×21 + 3) = (3^12)^21 × 3^3\n\n**Step 3: Apply the congruence**\n- (3^12)^21 ≡ 1^21 ≡ 1 (mod 28)\n- So: 3^255 ≡ 1 × 3^3 ≡ 3^3 (mod 28)\n\n**Step 4: Calculate 3^3 mod 28**\n- 3^3 = 27\n- 27 = 0 × 28 + 27\n\n**Answer: 27** ✓"
   },
   {
-        "id": "maths_number_system_060",
+    "id": "maths_number_system_060",
     "question": "What will be the remainder when (5)^501 is divided by 126?",
     "questionHindi": "(5)^501 को 126 से विभाजित करने पर शेषफल क्या होगा?",
     "options": [
@@ -869,7 +869,7 @@
     "solution": "# Step-by-Step Solution\n\n**Step 1: Simplify using modular arithmetic**\nWe need to find (7^777 + 77) mod 78\n\nSince 78 = 77 + 1, we can write:\n- 7^777 + 77 ≡ 7^777 + 77 (mod 78)\n\n**Step 2: Find 7^777 mod 78**\nNotice that 7 × 11 = 77, so 7 × 11 ≡ -1 (mod 78)\n\nThis means: 7^777 ≡ 7^777 (mod 78)\n\nLet's use: 7^2 = 49, and check the pattern\n- 7^1 ≡ 7 (mod 78)\n- 7^2 ≡ 49 (mod 78)\n- 7^3 ≡ 343 ≡ 343 - 4(78) ≡ 343 - 312 ≡ 31 (mod 78)\n\n**Step 3: Use Fermat's Little Theorem approach**\nSince gcd(7, 78) = 1, and φ(78) = φ(2×3×13) = 1×2×12 = 24\n\nSo 7^24 ≡ 1 (mod 78)\n\nNow: 777 = 24 ×"
   },
   {
-        "id": "maths_number_system_063",
+    "id": "maths_number_system_063",
     "question": "Let p be the remainder when 7^84 is divided by 342 and q be the remainder when 7^84 is divided by 344. What is (p − q)?",
     "questionHindi": "मान लीजिए p शेष है जब 7^84 को 342 से विभाजित किया जाता है और q शेष है जब 7^84 को 344 से विभाजित किया जाता है। (p − q) कितना है?",
     "options": [
@@ -879,7 +879,7 @@
       "6"
     ],
     "correctAnswer": "0",
-   "solution": "**Step 1: Find p (remainder when 7^84 is divided by 342)**\n\nFactor 342 = 2 × 171 = 2 × 9 × 19\n\nUsing Chinese Remainder Theorem:\n- 7^84 mod 2 = 1\n- 7^84 mod 9: Since φ(9) = 6, and 84 = 14(6), we get 7^84 ≡ 1 (mod 9)\n- 7^84 mod 19: Since φ(19) = 18, and 84 = 4(18) + 12, we get 7^84 ≡ 7^12 (mod 19)\n\nCalculate 7^12 mod 19: 7^2 = 49 ≡ 11 (mod 19), 7^4 ≡ 121 ≡ 7 (mod 19), 7^12 ≡ 7^3 ≡ 343 ≡ 1 (mod 19)\n\nSo: p ≡ 1 (mod 2), p ≡ 1 (mod 9), p ≡ 1 (mod 19)\nTherefore, **p = 1**\n\n**Step 2: Find q (remainder when 7^84 is divided by 344)**\n\nFactor 344 = 8 × 43\n\nUsing Chinese"
+    "solution": "**Step 1: Find p (remainder when 7^84 is divided by 342)**\n\nFactor 342 = 2 × 171 = 2 × 9 × 19\n\nUsing Chinese Remainder Theorem:\n- 7^84 mod 2 = 1\n- 7^84 mod 9: Since φ(9) = 6, and 84 = 14(6), we get 7^84 ≡ 1 (mod 9)\n- 7^84 mod 19: Since φ(19) = 18, and 84 = 4(18) + 12, we get 7^84 ≡ 7^12 (mod 19)\n\nCalculate 7^12 mod 19: 7^2 = 49 ≡ 11 (mod 19), 7^4 ≡ 121 ≡ 7 (mod 19), 7^12 ≡ 7^3 ≡ 343 ≡ 1 (mod 19)\n\nSo: p ≡ 1 (mod 2), p ≡ 1 (mod 9), p ≡ 1 (mod 19)\nTherefore, **p = 1**\n\n**Step 2: Find q (remainder when 7^84 is divided by 344)**\n\nFactor 344 = 8 × 43\n\nUsing Chinese"
   },
   {
     "id": "maths_number_system_064",
@@ -934,7 +934,7 @@
       "76"
     ],
     "correctAnswer": "16",
-   "solution": "# Solution: Remainder when 2^100 is divided by 102\n\n**Step 1: Factor 102**\n102 = 2 × 51 = 2 × 3 × 17\n\n**Step 2: Find 2^100 mod 102 using Chinese Remainder Theorem**\nWe need:\n- 2^100 mod 2 = 0 (since 2^100 is even)\n- 2^100 mod 51\n- 2^100 mod 17\n\n**Step 3: Find 2^100 mod 51**\nBy Euler's theorem: φ(51) = 51(1 - 1/3)(1 - 1/17) = 32\n\nSo 2^32 ≡ 1 (mod 51)\n\n100 = 32 × 3 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 51)\n\n**Step 4: Find 2^100 mod 17**\nBy Fermat's Little Theorem: 2^16 ≡ 1 (mod 17)\n\n100 = 16 × 6 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 17)\n\n**Step 5: Apply CRT**\nWe need x such that:\n- x ≡ 0 (mod 2"
+    "solution": "# Solution: Remainder when 2^100 is divided by 102\n\n**Step 1: Factor 102**\n102 = 2 × 51 = 2 × 3 × 17\n\n**Step 2: Find 2^100 mod 102 using Chinese Remainder Theorem**\nWe need:\n- 2^100 mod 2 = 0 (since 2^100 is even)\n- 2^100 mod 51\n- 2^100 mod 17\n\n**Step 3: Find 2^100 mod 51**\nBy Euler's theorem: φ(51) = 51(1 - 1/3)(1 - 1/17) = 32\n\nSo 2^32 ≡ 1 (mod 51)\n\n100 = 32 × 3 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 51)\n\n**Step 4: Find 2^100 mod 17**\nBy Fermat's Little Theorem: 2^16 ≡ 1 (mod 17)\n\n100 = 16 × 6 + 4\n\nTherefore: 2^100 ≡ 2^4 ≡ 16 (mod 17)\n\n**Step 5: Apply CRT**\nWe need x such that:\n- x ≡ 0 (mod 2"
   },
   {
     "id": "maths_number_system_068",
@@ -1525,1196 +1525,1246 @@
     "correctAnswer": "1",
     "solution": "Video solution will be added soon"
   },
-    {
-      "id": "maths_number_system_113",
-      "question": "How many terms are there in the A.P. 7, 13, 19, ………. 205?",
-      "questionHindi": "A.P. 7, 13, 19, ............ 205 में कितने पद हैं?",
-      "options": [
-        "31",
-        "32",
-        "34",
-        "36"
-      ],
-      "correctAnswer": "34",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_114",
-      "question": "Find the number of terms in the series ………. the sum of which is 300?",
-      "questionHindi": "श्रृंखला ………. में पदों की संख्या ज्ञात कीजिए, जिसका योग 300 है?",
-      "options": [
-        "25",
-        "36",
-        "25 and 36 both",
-        "None"
-      ],
-      "correctAnswer": "25 and 36 both",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_115",
-      "question": "What is the maximum value of the sum of the numbers 36, 33, 30, 27, 24……..?",
-      "questionHindi": "संख्याओं 36, 33, 30, 27, 24…….. के योग का अधिकतम मान क्या है?",
-      "options": [
-        "240",
-        "237",
-        "234",
-        "231"
-      ],
-      "correctAnswer": "234",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_116",
-      "question": "What is the sum of all three-digit numbers divisible by 7?",
-      "questionHindi": "7 से विभाज्य सभी तीन अंकीय संख्याओं का योग क्या है?",
-      "options": [
-        "70336",
-        "70707",
-        "72000",
-        "71407"
-      ],
-      "correctAnswer": "70336",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_117",
-      "question": "What is the sum of all 3 digit numbers that give a remainder of 5 when they are divided by 50?",
-      "questionHindi": "उन सभी 3 अंकों की संख्याओं का योग क्या है जो 50 से विभाजित होने पर 5 शेषफल देती हैं?",
-      "options": [
-        "9005",
-        "9540",
-        "9600",
-        "9640"
-      ],
-      "correctAnswer": "9540",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_118",
-      "question": "What is the sum of all natural numbers between 100 and 400 which are divisible by 13?",
-      "questionHindi": "100 तथा 400 के मध्य सभी प्राकृतिक संख्याओं का योग क्या है जो 13 से विभाज्य हैं?",
-      "options": [
-        "5681",
-        "5334",
-        "5434",
-        "5761"
-      ],
-      "correctAnswer": "5681",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_119",
-      "question": "The first and last terms of an A.P. are 20 and 55. If the sum of its terms is 600, then the number of terms will be?",
-      "questionHindi": "किसी समान्तर श्रेढ़ी (A.P.) का प्रथम पद और अंतिम पद क्रमशः 20 और 55 है। यदि इसके पदों का योगफल 600 है, तो पदों की संख्या ज्ञात कीजिए।",
-      "options": [
-        "15",
-        "16",
-        "17",
-        "14"
-      ],
-      "correctAnswer": "16",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_120",
-      "question": "If 15th and 28th terms of an A.P. be 208 and 416 respectively, then its 49th term is:",
-      "questionHindi": "यदि किसी समान्तर श्रेढ़ी (A.P.) का 15वाँ तथा 28वाँ पद क्रमशः 208 तथा 416 है, तो उसका 49वाँ पद ज्ञात कीजिए।",
-      "options": [
-        "755",
-        "749",
-        "752",
-        "751"
-      ],
-      "correctAnswer": "752",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_121",
-      "question": "If the sum of first 14 terms of any A.P. is 1050 and its first term is 10, then find the 20th term.",
-      "questionHindi": "यदि किसी समान्तर श्रेणी के प्रथम 14 पदों का योग 1050 है और इसका प्रथम पद 10 है, तो 20वाँ पद ज्ञात कीजिए।",
-      "options": [
-        "200",
-        "201",
-        "203",
-        "202"
-      ],
-      "correctAnswer": "200",
-      "solution": "Video solution will be added soon"
-    },
-    {
-      "id": "maths_number_system_122",
-      "question": "Find the sum of first 32 terms of an A.P. if fifth term is 108 and 28th term is 250?",
-      "questionHindi": "एक A.P. के पहले 32 पदों का योग ज्ञात कीजिए यदि पाँचवाँ पद 108 है और 28वाँ पद 250 है।",
-      "options": [
-        "5728",
-        "5600",
-        "5278",
-        "5872"
-      ],
-      "correctAnswer": "5728",
-      "solution": "Video solution will be added soon"
-    },
-      {
-        "id": "maths_number_system_123",
-        "question": "Sum of first 25 terms of an A.P. is 525. Sum of the next 25 terms is 725. What is the common difference?",
-        "questionHindi": "किसी AP के पहले 25 पदों का योग 525 है। अगले 25 पदों का योग 725 है। सार्व अंतर क्या है?",
-        "options": [
-          "8/25",
-          "4/5",
-          "5/6",
-          "3/4"
-        ],
-        "correctAnswer": "8/25",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_124",
-        "question": "If the square of the 7th term of an arithmetic progression with positive common difference equals the product of the 3rd and 17th terms, then the ratio of the first term to the common difference is:",
-        "questionHindi": "यदि धनात्मक उभयनिष्ठ अंतर वाली समान्तर श्रेणी के 7वें पद का वर्ग तीसरे और 17वें पदों के गुणनफल के बराबर है, तो पहले पद का उभयनिष्ठ अंतर से क्या अनुपात है?",
-        "options": [
-          "2 : 3",
-          "3 : 2",
-          "3 : 4",
-          "4 : 3"
-        ],
-        "correctAnswer": "2 : 3",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_125",
-        "question": "If the sum of the first 100 terms of an arithmetic progression is 50, and the sum of the first 200 terms is 90, then what is the sum of the first 300 terms of the progression?",
-        "questionHindi": "यदि एक समान्तर श्रेणी के पहले 100 पदों का योग 50 है, और पहले 200 पदों का योग 90 है, तो श्रेणी के पहले 300 पदों का योग क्या है?",
-        "options": [
-          "140",
-          "100",
-          "130",
-          "120"
-        ],
-        "correctAnswer": "120",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_126",
-        "question": "All the page numbers from a book are added, beginning at page 1. However, one page number was added twice by mistake. The sum obtained was 1000. Which page number was added twice?",
-        "questionHindi": "किसी पुस्तक के सभी पृष्ठ संख्याएँ जोड़ दी जाती हैं, पृष्ठ 1 से शुरू होती हैं। हालाँकि, गलती से एक पृष्ठ संख्या दो बार जोड़ दी गई थी। योग 1000 प्राप्त हुआ। कौन-सी पृष्ठ संख्या दो बार जोड़ी गई थी?",
-        "options": [
-          "8",
-          "10",
-          "45",
-          "20"
-        ],
-        "correctAnswer": "10",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_127",
-        "question": "What is the sum of first 200 terms of the given series? 1 + 5 + 6 + 10 + 11 + 15 + 16 + 20 + ..........",
-        "questionHindi": "दी गई श्रृंखला 1 + 5 + 6 + 10 + 11 + 15 + 16 + 20 + .......... के पहले 200 पदों का योग क्या है?",
-        "options": [
-          "49400",
-          "49600",
-          "50100",
-          "48300"
-        ],
-        "correctAnswer": "50100",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_128",
-        "question": "If A = 1 – 10 + 3 – 12 + 5 – 14 + 7 + … upto 60 terms, then what is the value of A?",
-        "questionHindi": "यदि A = 1 – 10 + 3 – 12 + 5 – 14 + 7 + … 60 पदों तक है, तो A का मान क्या है?",
-        "options": [
-          "-360",
-          "-310",
-          "-240",
-          "-270"
-        ],
-        "correctAnswer": "-270",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_129",
-        "question": "Find 5 – 8 + 13 + 7 – 11 + 17 + 9 – 14 + 21 + …….. upto 99 terms.",
-        "questionHindi": "5 – 8 + 13 + 7 – 11 + 17 + 9 – 14 + 21 + …….. का 99 पदों तक मान ज्ञात कीजिए।",
-        "options": [
-          "1843",
-          "1749",
-          "1815",
-          "1914"
-        ],
-        "correctAnswer": "1914",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_130",
-        "question": "What is the value of 100² − 99² + 98² − 97² + 96² − 95² + 94² − 93² + ... + 12² − 11²?",
-        "questionHindi": "100² − 99² + 98² − 97² + 96² − 95² + 94² − 93² + ... + 12² − 11² का मान क्या है?",
-        "options": [
-          "5050",
-          "4985",
-          "4995",
-          "4950"
-        ],
-        "correctAnswer": "4995",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_131",
-        "question": "What is the sum of all the common terms between the given series S₁ and S₂? S₁ = 2, 9, 16,…..632 and S₂ = 7, 11, 15…..743",
-        "questionHindi": "दी गई श्रंखलाओं S₁ तथा S₂ के मध्य सभी उभयनिष्ठ पदों का योग क्या है? S₁ = 2, 9, 16,…..632 तथा S₂ = 7, 11, 15…..743",
-        "options": [
-          "6974",
-          "6860",
-          "6750",
-          "7140"
-        ],
-        "correctAnswer": "6974",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_132",
-        "question": "What is the sum of first 20 terms of the following series? 1×2 + 2×3 + 3×4 + 4×5 + …",
-        "questionHindi": "दी गई श्रृंखला 1×2 + 2×3 + 3×4 + 4×5 + … के पहले 20 पदों का योग क्या है?",
-        "options": [
-          "2940",
-          "3160",
-          "3080",
-          "3240"
-        ],
-        "correctAnswer": "3080",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_133",
-        "question": "Find the value of 32 × 32^(1/6) × 32^(1/36) × .......... ∞.",
-        "questionHindi": "32 × 32^(1/6) × 32^(1/36) × .......... ∞ का मान ज्ञात करो।",
-        "options": [
-          "68",
-          "72",
-          "74",
-          "64"
-        ],
-        "correctAnswer": "64",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_134",
-        "question": "The sum of n terms of a G.P. 2/9, −1/3, 1/2, .... is 55/72. Find the value of n.",
-        "questionHindi": "एक गुणोत्तर श्रेणी 2/9, −1/3, 1/2, .... के n पदों का योग 55/72 है, तो n का मान बताइए।",
-        "options": [
-          "5",
-          "2",
-          "3",
-          "4"
-        ],
-        "correctAnswer": "5",
-        "solution": "Video solution will be added soon"
-      },
-      {
-        "id": "maths_number_system_135",
-        "question": "The sum of 4 + 44 + 444 + .......... up to n terms is:",
-        "questionHindi": "4 + 44 + 444 + .......... का n पदों तक योग है:",
-        "options": [
-          "(40/81)(8^n − 1) − 5n/9",
-          "(40/81)(8^n − 1) − 4n/9",
-          "(40/81)(10^n − 1) − 4n/9",
-          "(40/81)(10^n − 1) − 5n/9"
-        ],
-        "correctAnswer": "(40/81)(10^n − 1) − 4n/9",
-        "solution": "Video solution will be added soon"
-      },
-        {
-          "id": "maths_number_system_137",
-          "question": "If a ball is thrown from a height of 500 m on the ground, the ball bounces a fixed fraction of its previous height every time. Find the total distance covered by the ball till it stops.",
-          "questionHindi": "यदि किसी गेंद को 500 मीटर की ऊँचाई से जमीन पर फेंका जाता है, तो गेंद प्रत्येक उछाल में अपनी पिछली ऊँचाई के एक निश्चित भाग तक उछलती है। गेंद के रुकने तक कुल दूरी ज्ञात कीजिए।",
-          "options": [
-            "4500 m",
-            "5000 m",
-            "4200 m",
-            "4000 m"
-          ],
-          "correctAnswer": "4500 m",
-          "solution": "Video solution will be added soon"
-        },
-        {
-          "id": "maths_number_system_138",
-          "question": "If the sum of the first 1743 terms of a GP is 500 and the sum of the first 3486 terms is 900, then what is the sum of the first 5229 terms?",
-          "questionHindi": "यदि किसी GP के पहले 1743 पदों का योग 500 है तथा पहले 3486 पदों का योग 900 है, तो पहले 5229 पदों का योग क्या होगा?",
-          "options": [
-            "1200",
-            "1300",
-            "1220",
-            "1330"
-          ],
-          "correctAnswer": "1220",
-          "solution": "Video solution will be added soon"
-        },
-        {
-          "id": "maths_number_system_139",
-          "question": "For two observations, the sum is S and the product is P. What is the harmonic mean of these two observations?",
-          "questionHindi": "दो अवलोकनों का योग S है तथा गुणनफल P है। इन दो अवलोकनों का हरात्मक (Harmonic) माध्य क्या होगा?",
-          "options": [
-            "P/S",
-            "S/(2P)",
-            "2P/S",
-            "2S/P"
-          ],
-          "correctAnswer": "2P/S",
-          "solution": "Video solution will be added soon"
-        },
-        {
-          "id": "maths_number_system_140",
-          "question": "If x is the harmonic mean between y and z, then which one of the following is correct?",
-          "questionHindi": "यदि x, y तथा z के बीच का हरात्मक माध्य है, तो निम्नलिखित में से कौन-सा सही है?",
-          "options": [
-            "xy + xz − yz",
-            "xy + xz − 2yz",
-            "xy + xz + yz",
-            "xy + xz − 4yz"
-          ],
-          "correctAnswer": "xy + xz − 2yz",
-          "solution": "Video solution will be added soon"
-        },
-        {
-          "id": "maths_number_system_141",
-          "question": "The harmonic mean and the geometric mean of two numbers are 10 and 12 respectively. What is their arithmetic mean?",
-          "questionHindi": "दो संख्याओं का हरात्मक माध्य 10 तथा गुणोत्तर माध्य 12 है। उनका समान्तर माध्य क्या है?",
-          "options": [
-            "25/3",
-            "√120",
-            "11",
-            "14.4"
-          ],
-          "correctAnswer": "14.4",
-          "solution": "Video solution will be added soon"
-        },
-        {
-          "id": "maths_number_system_142",
-          "question": "If arithmetic and geometric mean of x and y is 8 and 3√7 respectively, then the value of x³ + y³ is?",
-          "questionHindi": "यदि x तथा y का समान्तर माध्य 8 तथा गुणोत्तर माध्य 3√7 है, तो x³ + y³ का मान क्या है?",
-          "options": [
-            "1072",
-            "945",
-            "559",
-            "855"
-          ],
-          "correctAnswer": "1072",
-          "solution": "Video solution will be added soon"
-        },
-        
-          {
-            "id": "maths_number_system_143",
-            "question": "Find the total number of factors of 10500.",
-            "questionHindi": "10500 के कुल कितने गुणनखंड हैं?",
-            "options": ["46", "48", "50", "44"],
-            "correctAnswer": "48",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_144",
-            "question": "x³ + x² + 768 is exactly divisible by x, where x is a positive integer. The number of all such possible values of x is:",
-            "questionHindi": "x³ + x² + 768, x से पूर्णतः विभाज्य है, जहाँ x एक धनात्मक पूर्णांक है। x के ऐसे सभी संभव मानों की संख्या क्या है?",
-            "options": ["20", "16", "18", "15"],
-            "correctAnswer": "18",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_145",
-            "question": "If N = 5^13 + 5^12 + 5^11 + 5^10, then how many positive factors of N are there?",
-            "questionHindi": "यदि N = 5^13 + 5^12 + 5^11 + 5^10, तो N के कितने धनात्मक गुणनखंड हैं?",
-            "options": [
-              "132",
-              "143",
-              "92",
-              "140"
-            ],
-            "correctAnswer": "132",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_146",
-            "question": "Total number of factors of 73³ − 40³ − 33³ is:",
-            "questionHindi": "73³ − 40³ − 33³ के गुणनखंडों की कुल संख्या है:",
-            "options": [
-              "144",
-              "96",
-              "120",
-              "64"
-            ],
-            "correctAnswer": "96",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_147",
-            "question": "What is the sum of all the factors of 19600?",
-            "questionHindi": "19600 के सभी गुणनखंडों का योग क्या है?",
-            "options": ["54776", "77454", "45770", "54777"],
-            "correctAnswer": "54777",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_148",
-            "question": "Find the total number of odd factors of 2520.",
-            "questionHindi": "2520 के कुल कितने विषम गुणनखंड हैं?",
-            "options": ["12", "10", "8", "16"],
-            "correctAnswer": "12",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_149",
-            "question": "What is the sum of all the odd factors of 64800?",
-            "questionHindi": "64800 के सभी विषम गुणनखंडों का योग क्या है?",
-            "options": ["3750", "3751", "7502", "7503"],
-            "correctAnswer": "3751",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_150",
-            "question": "Find the total number of even factors of 4200.",
-            "questionHindi": "4200 के कुल कितने सम गुणनखंड हैं?",
-            "options": ["48", "42", "36", "12"],
-            "correctAnswer": "36",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_135",
-            "question": "How many factors of 2^6 × 3^4 × 5^3 × 7^2 are even?",
-            "questionHindi": "2^6 × 3^4 × 5^3 × 7^2 के कितने गुणनखंड सम (Even) हैं?",
-            "options": [
-              "40",
-              "280",
-              "320",
-              "84"
-            ],
-            "correctAnswer": "280",
-            "solution": "Video solution will be added soon"
-          },
-          {
-            "id": "maths_number_system_152",
-            "question": "Consider the given number N. Which of the following statements is/are correct?\nI. The number of odd factors of N is 60.\nII. The number of even factors of N is 720.",
-            "questionHindi": "दिए गए संख्या N पर विचार कीजिए। निम्नलिखित में से कौन-सा/से कथन सही है/हैं?\nI. N के विषम गुणनखंडों की संख्या 60 है।\nII. N के सम गुणनखंडों की संख्या 720 है।",
-            "options": [
-              "Only (i)",
-              "Only (ii)",
-              "Both (i) and (ii)",
-              "Neither (i) nor (ii)"
-            ],
-            "correctAnswer": "Both (i) and (ii)",
-            "solution": "Video solution will be added soon"
-          },
-            {
-              "id": "maths_number_system_153",
-              "question": "What is the sum of reciprocal of all factors of number 360?",
-              "questionHindi": "संख्या 360 के सभी गुणनखंडों के व्युत्क्रमों का योग क्या है?",
-              "options": ["2.65", "3.25", "3.48", "4.20"],
-              "correctAnswer": "3.25",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_154",
-              "question": "How many factors of the number 21600 are perfect squares?",
-              "questionHindi": "21600 के कितने गुणनखंड पूर्ण वर्ग हैं?",
-              "options": ["12", "6", "15", "10"],
-              "correctAnswer": "12",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_155",
-              "question": "How many factors of 2⁴ × 3⁵ × 10⁴ are perfect squares which are greater than 1?",
-              "questionHindi": "2⁴ × 3⁵ × 10⁴ के कितने गुणनखंड पूर्ण वर्ग हैं जो 1 से बड़े हैं?",
-              "options": ["42", "44", "45", "43"],
-              "correctAnswer": "44",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_156",
-              "question": "How many factors of 2³ × 3³ × 5⁴ × 7² are divisible by 50 but not by 100?",
-              "questionHindi": "2³ × 3³ × 5⁴ × 7² के कितने गुणनखंड 50 से विभाज्य हैं लेकिन 100 से नहीं?",
-              "options": ["42", "40", "36", "38"],
-              "correctAnswer": "36",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_157",
-              "question": "How many factors of 14,400 are divisible by 18 but not by 36?",
-              "questionHindi": "14,400 के कितने गुणनखंड 18 से विभाज्य हैं लेकिन 36 से नहीं?",
-              "options": ["5", "2", "4", "3"],
-              "correctAnswer": "3",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_158",
-              "question": "A natural number n divides 732 and leaves 12 as a remainder. How many values of n are possible?",
-              "questionHindi": "एक प्राकृतिक संख्या n, 732 को विभाजित करने पर 12 शेष छोड़ती है। n के कितने मान संभव हैं?",
-              "options": ["18", "20", "16", "22"],
-              "correctAnswer": "20",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_159",
-              "question": "Which one of the following is correct in respect of the statements given below?\nStatement 1: The smallest natural number having exactly 11 factors is given.\nStatement 2: The smallest natural number having exactly 12 factors is given.\nStatement 3: The smallest natural number having exactly 13 factors is given.",
-              "questionHindi": "निम्नलिखित कथनों के संबंध में सही विकल्प चुनिए:\nकथन 1: ठीक 11 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।\nकथन 2: ठीक 12 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।\nकथन 3: ठीक 13 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।",
-              "options": [
-                "None of the three statements is true",
-                "Statements 1 and 2 are true, but Statement 3 is false",
-                "Statements 1 and 3 are true, but Statement 2 is false",
-                "All the three statements are true"
-              ],
-              "correctAnswer": "Statements 1 and 3 are true, but Statement 2 is false",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_160",
-              "question": "'n' is a number such that 2n has 28 factors and 3n has 30 factors. Then 6n has how many factors?",
-              "questionHindi": "n ऐसी संख्या है कि 2n के 28 गुणनखंड हैं तथा 3n के 30 गुणनखंड हैं। तब 6n के कितने गुणनखंड होंगे?",
-              "options": ["28", "35", "25", "32"],
-              "correctAnswer": "35",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_161",
-              "question": "What is the product of all the factors of 576?",
-              "questionHindi": "576 के सभी गुणनखंडों का गुणनफल क्या है?",
-              "options": ["2^421", "2^419", "2^417", "2^420"],
-              "correctAnswer": "2^421",
-              "solution": "Video solution will be added soon"
-            },
-            {
-              "id": "maths_number_system_162",
-              "question": "How many natural numbers less than 225 have an odd number of factors?",
-              "questionHindi": "225 से कम कितनी प्राकृतिक संख्याओं के गुणनखंडों की संख्या विषम है?",
-              "options": ["12", "11", "15", "14"],
-              "correctAnswer": "14",
-              "solution": "Video solution will be added soon"
-            },
-              {
-                "id": "maths_number_system_163",
-                "question": "If there are 14 factors of N between 1 and √N, then find the total number of factors of N.",
-                "questionHindi": "यदि 1 और √N के बीच N के 14 गुणनखंड हैं, तो N के कुल गुणनखंडों की संख्या ज्ञात कीजिए।",
-                "options": ["28", "30", "31", "33"],
-                "correctAnswer": "31",
-                "solution": "Video solution will be added soon"
-              },
-              {
-                "id": "maths_number_system_164",
-                "question": "If N = 3¹⁴ + 3¹³ − 12, then what is the largest prime factor of N?",
-                "questionHindi": "यदि N = 3¹⁴ + 3¹³ − 12 है, तो N का सबसे बड़ा अभाज्य गुणनखंड ज्ञात कीजिए।",
-                "options": ["11", "79", "13", "73"],
-                "correctAnswer": "73",
-                "solution": "Video solution will be added soon"
-              },
-              {
-                "id": "maths_number_system_165",
-                "question": "How many prime numbers are included in the factorization of 6⁷ × 35³ × 11¹⁰?",
-                "questionHindi": "6⁷ × 35³ × 11¹⁰ के गुणनखंडन में कितनी अभाज्य संख्याएँ सम्मिलित हैं?",
-                "options": ["25", "20", "30", "15"],
-                "correctAnswer": "30",
-                "solution": "Video solution will be added soon"
-              },
-              {
-                "id": "maths_number_system_166",
-                "question": "The total number of 3-digit numbers which have only 3 factors will be?",
-                "questionHindi": "3 अंकों की ऐसी संख्याओं की कुल संख्या कितनी होगी, जिनके केवल 3 गुणनखंड हों?",
-                "options": ["6", "9", "45", "7"],
-                "correctAnswer": "7",
-                "solution": "Video solution will be added soon"
-              },
-              {
-                "id": "maths_number_system_167",
-                "question": "Let p, q, r and s be positive natural numbers having exactly three factors including 1 and the number itself. If q > p and both are two-digit numbers, and r > s and both are one-digit numbers, then the value of the expression (p − q − 1)/(r − s) is:",
-                "questionHindi": "मान लीजिए p, q, r तथा s धनात्मक प्राकृतिक संख्याएँ हैं, जिनके ठीक तीन गुणनखंड हैं (1 तथा स्वयं संख्या सहित)। यदि q > p तथा दोनों दो-अंकीय संख्याएँ हैं, और r > s तथा दोनों एक-अंकीय संख्याएँ हैं, तो व्यंजक (p − q − 1)/(r − s) का मान क्या होगा?",
-                "options": ["−S − 1", "S − 1", "1 − S", "S + 1"],
-                "correctAnswer": "−S − 1",
-                "solution": "Video solution will be added soon"
-              },
+  {
+    "id": "maths_number_system_113",
+    "question": "How many terms are there in the A.P. 7, 13, 19, ………. 205?",
+    "questionHindi": "A.P. 7, 13, 19, ............ 205 में कितने पद हैं?",
+    "options": [
+      "31",
+      "32",
+      "34",
+      "36"
+    ],
+    "correctAnswer": "34",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_114",
+    "question": "Find the number of terms in the series ………. the sum of which is 300?",
+    "questionHindi": "श्रृंखला ………. में पदों की संख्या ज्ञात कीजिए, जिसका योग 300 है?",
+    "options": [
+      "25",
+      "36",
+      "25 and 36 both",
+      "None"
+    ],
+    "correctAnswer": "25 and 36 both",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_115",
+    "question": "What is the maximum value of the sum of the numbers 36, 33, 30, 27, 24……..?",
+    "questionHindi": "संख्याओं 36, 33, 30, 27, 24…….. के योग का अधिकतम मान क्या है?",
+    "options": [
+      "240",
+      "237",
+      "234",
+      "231"
+    ],
+    "correctAnswer": "234",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_116",
+    "question": "What is the sum of all three-digit numbers divisible by 7?",
+    "questionHindi": "7 से विभाज्य सभी तीन अंकीय संख्याओं का योग क्या है?",
+    "options": [
+      "70336",
+      "70707",
+      "72000",
+      "71407"
+    ],
+    "correctAnswer": "70336",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_117",
+    "question": "What is the sum of all 3 digit numbers that give a remainder of 5 when they are divided by 50?",
+    "questionHindi": "उन सभी 3 अंकों की संख्याओं का योग क्या है जो 50 से विभाजित होने पर 5 शेषफल देती हैं?",
+    "options": [
+      "9005",
+      "9540",
+      "9600",
+      "9640"
+    ],
+    "correctAnswer": "9540",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_118",
+    "question": "What is the sum of all natural numbers between 100 and 400 which are divisible by 13?",
+    "questionHindi": "100 तथा 400 के मध्य सभी प्राकृतिक संख्याओं का योग क्या है जो 13 से विभाज्य हैं?",
+    "options": [
+      "5681",
+      "5334",
+      "5434",
+      "5761"
+    ],
+    "correctAnswer": "5681",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_119",
+    "question": "The first and last terms of an A.P. are 20 and 55. If the sum of its terms is 600, then the number of terms will be?",
+    "questionHindi": "किसी समान्तर श्रेढ़ी (A.P.) का प्रथम पद और अंतिम पद क्रमशः 20 और 55 है। यदि इसके पदों का योगफल 600 है, तो पदों की संख्या ज्ञात कीजिए।",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "14"
+    ],
+    "correctAnswer": "16",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_120",
+    "question": "If 15th and 28th terms of an A.P. be 208 and 416 respectively, then its 49th term is:",
+    "questionHindi": "यदि किसी समान्तर श्रेढ़ी (A.P.) का 15वाँ तथा 28वाँ पद क्रमशः 208 तथा 416 है, तो उसका 49वाँ पद ज्ञात कीजिए।",
+    "options": [
+      "755",
+      "749",
+      "752",
+      "751"
+    ],
+    "correctAnswer": "752",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_121",
+    "question": "If the sum of first 14 terms of any A.P. is 1050 and its first term is 10, then find the 20th term.",
+    "questionHindi": "यदि किसी समान्तर श्रेणी के प्रथम 14 पदों का योग 1050 है और इसका प्रथम पद 10 है, तो 20वाँ पद ज्ञात कीजिए।",
+    "options": [
+      "200",
+      "201",
+      "203",
+      "202"
+    ],
+    "correctAnswer": "200",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_122",
+    "question": "Find the sum of first 32 terms of an A.P. if fifth term is 108 and 28th term is 250?",
+    "questionHindi": "एक A.P. के पहले 32 पदों का योग ज्ञात कीजिए यदि पाँचवाँ पद 108 है और 28वाँ पद 250 है।",
+    "options": [
+      "5728",
+      "5600",
+      "5278",
+      "5872"
+    ],
+    "correctAnswer": "5728",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_123",
+    "question": "Sum of first 25 terms of an A.P. is 525. Sum of the next 25 terms is 725. What is the common difference?",
+    "questionHindi": "किसी AP के पहले 25 पदों का योग 525 है। अगले 25 पदों का योग 725 है। सार्व अंतर क्या है?",
+    "options": [
+      "8/25",
+      "4/5",
+      "5/6",
+      "3/4"
+    ],
+    "correctAnswer": "8/25",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_124",
+    "question": "If the square of the 7th term of an arithmetic progression with positive common difference equals the product of the 3rd and 17th terms, then the ratio of the first term to the common difference is:",
+    "questionHindi": "यदि धनात्मक उभयनिष्ठ अंतर वाली समान्तर श्रेणी के 7वें पद का वर्ग तीसरे और 17वें पदों के गुणनफल के बराबर है, तो पहले पद का उभयनिष्ठ अंतर से क्या अनुपात है?",
+    "options": [
+      "2 : 3",
+      "3 : 2",
+      "3 : 4",
+      "4 : 3"
+    ],
+    "correctAnswer": "2 : 3",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_125",
+    "question": "If the sum of the first 100 terms of an arithmetic progression is 50, and the sum of the first 200 terms is 90, then what is the sum of the first 300 terms of the progression?",
+    "questionHindi": "यदि एक समान्तर श्रेणी के पहले 100 पदों का योग 50 है, और पहले 200 पदों का योग 90 है, तो श्रेणी के पहले 300 पदों का योग क्या है?",
+    "options": [
+      "140",
+      "100",
+      "130",
+      "120"
+    ],
+    "correctAnswer": "120",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_126",
+    "question": "All the page numbers from a book are added, beginning at page 1. However, one page number was added twice by mistake. The sum obtained was 1000. Which page number was added twice?",
+    "questionHindi": "किसी पुस्तक के सभी पृष्ठ संख्याएँ जोड़ दी जाती हैं, पृष्ठ 1 से शुरू होती हैं। हालाँकि, गलती से एक पृष्ठ संख्या दो बार जोड़ दी गई थी। योग 1000 प्राप्त हुआ। कौन-सी पृष्ठ संख्या दो बार जोड़ी गई थी?",
+    "options": [
+      "8",
+      "10",
+      "45",
+      "20"
+    ],
+    "correctAnswer": "10",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_127",
+    "question": "What is the sum of first 200 terms of the given series? 1 + 5 + 6 + 10 + 11 + 15 + 16 + 20 + ..........",
+    "questionHindi": "दी गई श्रृंखला 1 + 5 + 6 + 10 + 11 + 15 + 16 + 20 + .......... के पहले 200 पदों का योग क्या है?",
+    "options": [
+      "49400",
+      "49600",
+      "50100",
+      "48300"
+    ],
+    "correctAnswer": "50100",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_128",
+    "question": "If A = 1 – 10 + 3 – 12 + 5 – 14 + 7 + … upto 60 terms, then what is the value of A?",
+    "questionHindi": "यदि A = 1 – 10 + 3 – 12 + 5 – 14 + 7 + … 60 पदों तक है, तो A का मान क्या है?",
+    "options": [
+      "-360",
+      "-310",
+      "-240",
+      "-270"
+    ],
+    "correctAnswer": "-270",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_129",
+    "question": "Find 5 – 8 + 13 + 7 – 11 + 17 + 9 – 14 + 21 + …….. upto 99 terms.",
+    "questionHindi": "5 – 8 + 13 + 7 – 11 + 17 + 9 – 14 + 21 + …….. का 99 पदों तक मान ज्ञात कीजिए।",
+    "options": [
+      "1843",
+      "1749",
+      "1815",
+      "1914"
+    ],
+    "correctAnswer": "1914",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_130",
+    "question": "What is the value of 100² − 99² + 98² − 97² + 96² − 95² + 94² − 93² + ... + 12² − 11²?",
+    "questionHindi": "100² − 99² + 98² − 97² + 96² − 95² + 94² − 93² + ... + 12² − 11² का मान क्या है?",
+    "options": [
+      "5050",
+      "4985",
+      "4995",
+      "4950"
+    ],
+    "correctAnswer": "4995",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_131",
+    "question": "What is the sum of all the common terms between the given series S₁ and S₂? S₁ = 2, 9, 16,…..632 and S₂ = 7, 11, 15…..743",
+    "questionHindi": "दी गई श्रंखलाओं S₁ तथा S₂ के मध्य सभी उभयनिष्ठ पदों का योग क्या है? S₁ = 2, 9, 16,…..632 तथा S₂ = 7, 11, 15…..743",
+    "options": [
+      "6974",
+      "6860",
+      "6750",
+      "7140"
+    ],
+    "correctAnswer": "6974",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_132",
+    "question": "What is the sum of first 20 terms of the following series? 1×2 + 2×3 + 3×4 + 4×5 + …",
+    "questionHindi": "दी गई श्रृंखला 1×2 + 2×3 + 3×4 + 4×5 + … के पहले 20 पदों का योग क्या है?",
+    "options": [
+      "2940",
+      "3160",
+      "3080",
+      "3240"
+    ],
+    "correctAnswer": "3080",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_133",
+    "question": "Find the value of 32 × 32^(1/6) × 32^(1/36) × .......... ∞.",
+    "questionHindi": "32 × 32^(1/6) × 32^(1/36) × .......... ∞ का मान ज्ञात करो।",
+    "options": [
+      "68",
+      "72",
+      "74",
+      "64"
+    ],
+    "correctAnswer": "64",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_134",
+    "question": "The sum of n terms of a G.P. 2/9, −1/3, 1/2, .... is 55/72. Find the value of n.",
+    "questionHindi": "एक गुणोत्तर श्रेणी 2/9, −1/3, 1/2, .... के n पदों का योग 55/72 है, तो n का मान बताइए।",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "5",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_135",
+    "question": "The sum of 4 + 44 + 444 + .......... up to n terms is:",
+    "questionHindi": "4 + 44 + 444 + .......... का n पदों तक योग है:",
+    "options": [
+      "(40/81)(8^n − 1) − 5n/9",
+      "(40/81)(8^n − 1) − 4n/9",
+      "(40/81)(10^n − 1) − 4n/9",
+      "(40/81)(10^n − 1) − 5n/9"
+    ],
+    "correctAnswer": "(40/81)(10^n − 1) − 4n/9",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_137",
+    "question": "If a ball is thrown from a height of 500 m on the ground, the ball bounces a fixed fraction of its previous height every time. Find the total distance covered by the ball till it stops.",
+    "questionHindi": "यदि किसी गेंद को 500 मीटर की ऊँचाई से जमीन पर फेंका जाता है, तो गेंद प्रत्येक उछाल में अपनी पिछली ऊँचाई के एक निश्चित भाग तक उछलती है। गेंद के रुकने तक कुल दूरी ज्ञात कीजिए।",
+    "options": [
+      "4500 m",
+      "5000 m",
+      "4200 m",
+      "4000 m"
+    ],
+    "correctAnswer": "4500 m",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_138",
+    "question": "If the sum of the first 1743 terms of a GP is 500 and the sum of the first 3486 terms is 900, then what is the sum of the first 5229 terms?",
+    "questionHindi": "यदि किसी GP के पहले 1743 पदों का योग 500 है तथा पहले 3486 पदों का योग 900 है, तो पहले 5229 पदों का योग क्या होगा?",
+    "options": [
+      "1200",
+      "1300",
+      "1220",
+      "1330"
+    ],
+    "correctAnswer": "1220",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_139",
+    "question": "For two observations, the sum is S and the product is P. What is the harmonic mean of these two observations?",
+    "questionHindi": "दो अवलोकनों का योग S है तथा गुणनफल P है। इन दो अवलोकनों का हरात्मक (Harmonic) माध्य क्या होगा?",
+    "options": [
+      "P/S",
+      "S/(2P)",
+      "2P/S",
+      "2S/P"
+    ],
+    "correctAnswer": "2P/S",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_140",
+    "question": "If x is the harmonic mean between y and z, then which one of the following is correct?",
+    "questionHindi": "यदि x, y तथा z के बीच का हरात्मक माध्य है, तो निम्नलिखित में से कौन-सा सही है?",
+    "options": [
+      "xy + xz − yz",
+      "xy + xz − 2yz",
+      "xy + xz + yz",
+      "xy + xz − 4yz"
+    ],
+    "correctAnswer": "xy + xz − 2yz",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_141",
+    "question": "The harmonic mean and the geometric mean of two numbers are 10 and 12 respectively. What is their arithmetic mean?",
+    "questionHindi": "दो संख्याओं का हरात्मक माध्य 10 तथा गुणोत्तर माध्य 12 है। उनका समान्तर माध्य क्या है?",
+    "options": [
+      "25/3",
+      "√120",
+      "11",
+      "14.4"
+    ],
+    "correctAnswer": "14.4",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_142",
+    "question": "If arithmetic and geometric mean of x and y is 8 and 3√7 respectively, then the value of x³ + y³ is?",
+    "questionHindi": "यदि x तथा y का समान्तर माध्य 8 तथा गुणोत्तर माध्य 3√7 है, तो x³ + y³ का मान क्या है?",
+    "options": [
+      "1072",
+      "945",
+      "559",
+      "855"
+    ],
+    "correctAnswer": "1072",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_143",
+    "question": "Find the total number of factors of 10500.",
+    "questionHindi": "10500 के कुल कितने गुणनखंड हैं?",
+    "options": [
+      "46",
+      "48",
+      "50",
+      "44"
+    ],
+    "correctAnswer": "48",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_144",
+    "question": "x³ + x² + 768 is exactly divisible by x, where x is a positive integer. The number of all such possible values of x is:",
+    "questionHindi": "x³ + x² + 768, x से पूर्णतः विभाज्य है, जहाँ x एक धनात्मक पूर्णांक है। x के ऐसे सभी संभव मानों की संख्या क्या है?",
+    "options": [
+      "20",
+      "16",
+      "18",
+      "15"
+    ],
+    "correctAnswer": "18",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_145",
+    "question": "If N = 5^13 + 5^12 + 5^11 + 5^10, then how many positive factors of N are there?",
+    "questionHindi": "यदि N = 5^13 + 5^12 + 5^11 + 5^10, तो N के कितने धनात्मक गुणनखंड हैं?",
+    "options": [
+      "132",
+      "143",
+      "92",
+      "140"
+    ],
+    "correctAnswer": "132",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_146",
+    "question": "Total number of factors of 73³ − 40³ − 33³ is:",
+    "questionHindi": "73³ − 40³ − 33³ के गुणनखंडों की कुल संख्या है:",
+    "options": [
+      "144",
+      "96",
+      "120",
+      "64"
+    ],
+    "correctAnswer": "96",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_147",
+    "question": "What is the sum of all the factors of 19600?",
+    "questionHindi": "19600 के सभी गुणनखंडों का योग क्या है?",
+    "options": [
+      "54776",
+      "77454",
+      "45770",
+      "54777"
+    ],
+    "correctAnswer": "54777",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_148",
+    "question": "Find the total number of odd factors of 2520.",
+    "questionHindi": "2520 के कुल कितने विषम गुणनखंड हैं?",
+    "options": [
+      "12",
+      "10",
+      "8",
+      "16"
+    ],
+    "correctAnswer": "12",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_149",
+    "question": "What is the sum of all the odd factors of 64800?",
+    "questionHindi": "64800 के सभी विषम गुणनखंडों का योग क्या है?",
+    "options": [
+      "3750",
+      "3751",
+      "7502",
+      "7503"
+    ],
+    "correctAnswer": "3751",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_150",
+    "question": "Find the total number of even factors of 4200.",
+    "questionHindi": "4200 के कुल कितने सम गुणनखंड हैं?",
+    "options": [
+      "48",
+      "42",
+      "36",
+      "12"
+    ],
+    "correctAnswer": "36",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_135",
+    "question": "How many factors of 2^6 × 3^4 × 5^3 × 7^2 are even?",
+    "questionHindi": "2^6 × 3^4 × 5^3 × 7^2 के कितने गुणनखंड सम (Even) हैं?",
+    "options": [
+      "40",
+      "280",
+      "320",
+      "84"
+    ],
+    "correctAnswer": "280",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_152",
+    "question": "Consider the given number N. Which of the following statements is/are correct?\nI. The number of odd factors of N is 60.\nII. The number of even factors of N is 720.",
+    "questionHindi": "दिए गए संख्या N पर विचार कीजिए। निम्नलिखित में से कौन-सा/से कथन सही है/हैं?\nI. N के विषम गुणनखंडों की संख्या 60 है।\nII. N के सम गुणनखंडों की संख्या 720 है।",
+    "options": [
+      "Only (i)",
+      "Only (ii)",
+      "Both (i) and (ii)",
+      "Neither (i) nor (ii)"
+    ],
+    "correctAnswer": "Both (i) and (ii)",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_153",
+    "question": "What is the sum of reciprocal of all factors of number 360?",
+    "questionHindi": "संख्या 360 के सभी गुणनखंडों के व्युत्क्रमों का योग क्या है?",
+    "options": [
+      "2.65",
+      "3.25",
+      "3.48",
+      "4.20"
+    ],
+    "correctAnswer": "3.25",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_154",
+    "question": "How many factors of the number 21600 are perfect squares?",
+    "questionHindi": "21600 के कितने गुणनखंड पूर्ण वर्ग हैं?",
+    "options": [
+      "12",
+      "6",
+      "15",
+      "10"
+    ],
+    "correctAnswer": "12",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_155",
+    "question": "How many factors of 2⁴ × 3⁵ × 10⁴ are perfect squares which are greater than 1?",
+    "questionHindi": "2⁴ × 3⁵ × 10⁴ के कितने गुणनखंड पूर्ण वर्ग हैं जो 1 से बड़े हैं?",
+    "options": [
+      "42",
+      "44",
+      "45",
+      "43"
+    ],
+    "correctAnswer": "44",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_156",
+    "question": "How many factors of 2³ × 3³ × 5⁴ × 7² are divisible by 50 but not by 100?",
+    "questionHindi": "2³ × 3³ × 5⁴ × 7² के कितने गुणनखंड 50 से विभाज्य हैं लेकिन 100 से नहीं?",
+    "options": [
+      "42",
+      "40",
+      "36",
+      "38"
+    ],
+    "correctAnswer": "36",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_157",
+    "question": "How many factors of 14,400 are divisible by 18 but not by 36?",
+    "questionHindi": "14,400 के कितने गुणनखंड 18 से विभाज्य हैं लेकिन 36 से नहीं?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "correctAnswer": "3",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_158",
+    "question": "A natural number n divides 732 and leaves 12 as a remainder. How many values of n are possible?",
+    "questionHindi": "एक प्राकृतिक संख्या n, 732 को विभाजित करने पर 12 शेष छोड़ती है। n के कितने मान संभव हैं?",
+    "options": [
+      "18",
+      "20",
+      "16",
+      "22"
+    ],
+    "correctAnswer": "20",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_159",
+    "question": "Which one of the following is correct in respect of the statements given below?\nStatement 1: The smallest natural number having exactly 11 factors is given.\nStatement 2: The smallest natural number having exactly 12 factors is given.\nStatement 3: The smallest natural number having exactly 13 factors is given.",
+    "questionHindi": "निम्नलिखित कथनों के संबंध में सही विकल्प चुनिए:\nकथन 1: ठीक 11 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।\nकथन 2: ठीक 12 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।\nकथन 3: ठीक 13 गुणनखंडों वाली सबसे छोटी प्राकृतिक संख्या दी गई है।",
+    "options": [
+      "None of the three statements is true",
+      "Statements 1 and 2 are true, but Statement 3 is false",
+      "Statements 1 and 3 are true, but Statement 2 is false",
+      "All the three statements are true"
+    ],
+    "correctAnswer": "Statements 1 and 3 are true, but Statement 2 is false",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_160",
+    "question": "'n' is a number such that 2n has 28 factors and 3n has 30 factors. Then 6n has how many factors?",
+    "questionHindi": "n ऐसी संख्या है कि 2n के 28 गुणनखंड हैं तथा 3n के 30 गुणनखंड हैं। तब 6n के कितने गुणनखंड होंगे?",
+    "options": [
+      "28",
+      "35",
+      "25",
+      "32"
+    ],
+    "correctAnswer": "35",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_161",
+    "question": "What is the product of all the factors of 576?",
+    "questionHindi": "576 के सभी गुणनखंडों का गुणनफल क्या है?",
+    "options": [
+      "24^21",
+      "24^22",
+      "576^10",
+      "576^21"
+    ],
+    "correctAnswer": "24^21",
+    "solution": "**Step 1:** Prime factorize 576\n- 576 = 2^6 × 3^2\n\n**Step 2:** Number of factors\n- τ(576) = (6+1)(2+1) = 7 × 3 = 21\n\n**Step 3:** Product of all factors of N = N^(τ(N)/2)\n- Product = 576^(21/2)\n\n**Step 4:** Since 576 = 24^2,\n- 576^(21/2) = (24^2)^(21/2) = 24^21\n\n**Answer: 24^21** ✓"
+  },
+  {
+    "id": "maths_number_system_162",
+    "question": "How many natural numbers less than 225 have an odd number of factors?",
+    "questionHindi": "225 से कम कितनी प्राकृतिक संख्याओं के गुणनखंडों की संख्या विषम है?",
+    "options": [
+      "12",
+      "11",
+      "15",
+      "14"
+    ],
+    "correctAnswer": "14",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_163",
+    "question": "If there are 14 factors of N between 1 and √N, then find the total number of factors of N.",
+    "questionHindi": "यदि 1 और √N के बीच N के 14 गुणनखंड हैं, तो N के कुल गुणनखंडों की संख्या ज्ञात कीजिए।",
+    "options": [
+      "28",
+      "30",
+      "31",
+      "33"
+    ],
+    "correctAnswer": "31",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_164",
+    "question": "If N = 3¹⁴ + 3¹³ − 12, then what is the largest prime factor of N?",
+    "questionHindi": "यदि N = 3¹⁴ + 3¹³ − 12 है, तो N का सबसे बड़ा अभाज्य गुणनखंड ज्ञात कीजिए।",
+    "options": [
+      "11",
+      "79",
+      "13",
+      "73"
+    ],
+    "correctAnswer": "73",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_165",
+    "question": "How many prime numbers are included in the factorization of 6⁷ × 35³ × 11¹⁰?",
+    "questionHindi": "6⁷ × 35³ × 11¹⁰ के गुणनखंडन में कितनी अभाज्य संख्याएँ सम्मिलित हैं?",
+    "options": [
+      "25",
+      "20",
+      "30",
+      "15"
+    ],
+    "correctAnswer": "30",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_166",
+    "question": "The total number of 3-digit numbers which have only 3 factors will be?",
+    "questionHindi": "3 अंकों की ऐसी संख्याओं की कुल संख्या कितनी होगी, जिनके केवल 3 गुणनखंड हों?",
+    "options": [
+      "6",
+      "9",
+      "45",
+      "7"
+    ],
+    "correctAnswer": "7",
+    "solution": "Video solution will be added soon"
+  },
+  {
+    "id": "maths_number_system_167",
+    "question": "Let p, q, r and s be positive natural numbers having exactly three factors including 1 and the number itself. If q > p and both are two-digit numbers, and r > s and both are one-digit numbers, then the value of the expression (p − q − 1)/(r − s) is:",
+    "questionHindi": "मान लीजिए p, q, r तथा s धनात्मक प्राकृतिक संख्याएँ हैं, जिनके ठीक तीन गुणनखंड हैं (1 तथा स्वयं संख्या सहित)। यदि q > p तथा दोनों दो-अंकीय संख्याएँ हैं, और r > s तथा दोनों एक-अंकीय संख्याएँ हैं, तो व्यंजक (p − q − 1)/(r − s) का मान क्या होगा?",
+    "options": [
+      "−S − 1",
+      "S − 1",
+      "1 − S",
+      "S + 1"
+    ],
+    "correctAnswer": "−S − 1",
+    "solution": "Video solution will be added soon"
+  },
   {
     "id": "maths_number_system_170",
-    "question": "Number System — Question 170 (add real content in datas/maths/number-system.json)",
+    "question": "A gardener organizes plants into rows to create a square formation but discovers that 15 plants are not included. If the total number of plants is 3984, then what is the number of plants in each row?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "43",
+      "45",
+      "63",
+      "65"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "63"
   },
   {
     "id": "maths_number_system_171",
-    "question": "Number System — Question 171 (add real content in datas/maths/number-system.json)",
+    "question": "Which of the following is the least 6-digit number, which is a perfect square?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "100489",
+      "100588",
+      "100688",
+      "100788"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "100489"
   },
   {
     "id": "maths_number_system_172",
-    "question": "Number System — Question 172 (add real content in datas/maths/number-system.json)",
+    "question": "If you subtract the square of a number from 4052 and then multiply the result by 15, you get 41340. What is that number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "46",
+      "36",
+      "26",
+      "86"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "36"
   },
   {
     "id": "maths_number_system_173",
-    "question": "Number System — Question 173 (add real content in datas/maths/number-system.json)",
+    "question": "What type of number is the result of multiplying a Rational Number with an Irrational Number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Always rational",
+      "Always irrational",
+      "Always integer",
+      "Sometimes rational, Sometimes irrational"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Sometimes rational, Sometimes irrational"
   },
   {
     "id": "maths_number_system_174",
-    "question": "Number System — Question 174 (add real content in datas/maths/number-system.json)",
+    "question": "What is the smallest number that must be added to 2378 to make it a perfect square?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "23",
+      "24",
+      "25",
+      "26"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "23"
   },
   {
     "id": "maths_number_system_175",
-    "question": "Number System — Question 175 (add real content in datas/maths/number-system.json)",
+    "question": "Which of the following is a non-zero number that belongs to every set: Whole, Integer, Rational, and Real?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "0",
+      "–1",
+      "2"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "1"
   },
   {
     "id": "maths_number_system_176",
-    "question": "Number System — Question 176 (add real content in datas/maths/number-system.json)",
+    "question": "A number is such that if you square it and then subtract twice the number, the result is 80. What is the number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "10",
+      "15",
+      "20",
+      "25"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "10"
   },
   {
     "id": "maths_number_system_177",
-    "question": "Number System — Question 177 (add real content in datas/maths/number-system.json)",
+    "question": "The set of real numbers includes which of the following?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Only Rational Numbers",
+      "Only Irrational Numbers",
+      "Both Rational and Irrational Numbers",
+      "Only Whole Numbers"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Both Rational and Irrational Numbers"
   },
   {
     "id": "maths_number_system_178",
-    "question": "Number System — Question 178 (add real content in datas/maths/number-system.json)",
+    "question": "Which of these numbers is neither Rational nor Integer?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "– 4",
+      "1.5",
+      "2",
+      "7"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "2"
   },
   {
     "id": "maths_number_system_179",
-    "question": "Number System — Question 179 (add real content in datas/maths/number-system.json)",
+    "question": "Which of the following statement is TRUE for Whole Numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "They include fractions.",
+      "They include negative numbers.",
+      "They include zero and positive integers.",
+      "They start from 1."
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "They include zero and positive integers."
   },
   {
     "id": "maths_number_system_180",
-    "question": "Number System — Question 180 (add real content in datas/maths/number-system.json)",
+    "question": "If the interior angle of a regular polygon is k times its exterior angle, express the number of sides (n) of the polygon in terms of k.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2k + 4",
+      "2k - 4",
+      "2k + 2",
+      "4k - 3"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "2k - 4"
   },
   {
     "id": "maths_number_system_181",
-    "question": "Number System — Question 181 (add real content in datas/maths/number-system.json)",
+    "question": "A number is increased by 120, and the result becomes a perfect square. The original number lies between two consecutive square numbers, 625 and 676. Find the original number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "626",
+      "656",
+      "664",
+      "672"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "664"
   },
   {
     "id": "maths_number_system_182",
-    "question": "Number System — Question 182 (add real content in datas/maths/number-system.json)",
+    "question": "A number when divided by 45 leaves remainder 27, and when divided by 27 leaves remainder 9. Find the smallest such number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "189",
+      "117",
+      "369",
+      "459"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "117"
   },
   {
     "id": "maths_number_system_183",
-    "question": "Number System — Question 183 (add real content in datas/maths/number-system.json)",
+    "question": "Which number is not part of natural numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "2",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "0"
   },
   {
     "id": "maths_number_system_184",
-    "question": "Number System — Question 184 (add real content in datas/maths/number-system.json)",
+    "question": "Which number is in both natural and integer sets?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "5",
+      "–5",
+      "None"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "5"
   },
   {
     "id": "maths_number_system_185",
-    "question": "Number System — Question 185 (add real content in datas/maths/number-system.json)",
+    "question": "How many perfect squares lie between 10,000 and 20,000 (Inclussive).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "32",
+      "42",
+      "52",
+      "62"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "42"
   },
   {
     "id": "maths_number_system_186",
-    "question": "Number System — Question 186 (add real content in datas/maths/number-system.json)",
+    "question": "A perfect square between 50 and 70 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "62",
+      "63",
+      "64",
+      "65"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "64"
   },
   {
     "id": "maths_number_system_187",
-    "question": "Number System — Question 187 (add real content in datas/maths/number-system.json)",
+    "question": "A number has 2 in its unit place; then its square can be:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "124",
+      "144",
+      "134",
+      "154"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "144"
   },
   {
     "id": "maths_number_system_188",
-    "question": "Number System — Question 188 (add real content in datas/maths/number-system.json)",
+    "question": "The intersection of rational and irrational numbers is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rational",
+      "Irrational",
+      "Real",
+      "Empty"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Empty"
   },
   {
     "id": "maths_number_system_189",
-    "question": "Number System — Question 189 (add real content in datas/maths/number-system.json)",
+    "question": "The number of rational numbers between any two rational numbers is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "Finite",
+      "Infinite"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Infinite"
   },
   {
     "id": "maths_number_system_190",
-    "question": "Number System — Question 190 (add real content in datas/maths/number-system.json)",
+    "question": "Which of the following is the largest three-digit number that is a perfect square?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "951",
+      "961",
+      "971",
+      "981"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "961"
   },
   {
     "id": "maths_number_system_191",
-    "question": "Number System — Question 191 (add real content in datas/maths/number-system.json)",
+    "question": "440 candies are to be distributed among 'N' number of students such that each student gets (N + 2) candies. Find the value of 'N' if all the candies are distributed.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "20",
+      "45",
+      "49",
+      "72"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "20"
   },
   {
     "id": "maths_number_system_192",
-    "question": "Number System — Question 192 (add real content in datas/maths/number-system.json)",
+    "question": "The number of perfect square number between 50 and 1000 is?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "21",
+      "22",
+      "23",
+      "24"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "24"
   },
   {
     "id": "maths_number_system_193",
-    "question": "Number System — Question 193 (add real content in datas/maths/number-system.json)",
+    "question": "A factory produces cylindrical cans and each day, it slightly increases the size of the label printed on the cans to match a design upgrade. On the first day, the label height is 1.2 cm and each day, the height increases by 0.3 cm to improve visibility. What will be the height of the label on the 10th day?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3 cm",
+      "3.6 cm",
+      "3.9 cm",
+      "4.2 cm"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "3.9 cm"
   },
   {
     "id": "maths_number_system_194",
-    "question": "Number System — Question 194 (add real content in datas/maths/number-system.json)",
+    "question": "Find the remainder on dividing (5x³ + 4x² - 10x + 1) by (2x – 4).",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "37",
+      "11",
+      "78"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "37"
   },
   {
     "id": "maths_number_system_195",
-    "question": "Number System — Question 195 (add real content in datas/maths/number-system.json)",
+    "question": "The digit in the unit's place in the square root of 15876 is?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2",
+      "4",
+      "6",
+      "8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "6"
   },
   {
     "id": "maths_number_system_196",
-    "question": "Number System — Question 196 (add real content in datas/maths/number-system.json)",
+    "question": "What is the smallest number that should be added to 1235 to make it a perfect square?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "61",
+      "71",
+      "81",
+      "9"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "61"
   },
   {
     "id": "maths_number_system_197",
-    "question": "Number System — Question 197 (add real content in datas/maths/number-system.json)",
+    "question": "The product of two rational numbers is always:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rational",
+      "Irrational",
+      "Natural",
+      "Integer"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Rational"
   },
   {
     "id": "maths_number_system_198",
-    "question": "Number System — Question 198 (add real content in datas/maths/number-system.json)",
+    "question": "If the number 900 is squared, how many zeros are in the square of the number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "2",
+      "3",
+      "4",
+      "5"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "4"
   },
   {
     "id": "maths_number_system_199",
-    "question": "Number System — Question 199 (add real content in datas/maths/number-system.json)",
+    "question": "The number of irrational numbers between 1 and 2 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "0",
+      "1",
+      "Finite",
+      "Infinite"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Infinite"
   },
   {
     "id": "maths_number_system_200",
-    "question": "Number System — Question 200 (add real content in datas/maths/number-system.json)",
+    "question": "Anita bought a square plot to build a house for his family. Each dimension of the plot is in whole numbers of yards.Which of the following can be an area (in square yards) of the plot?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "861",
+      "841",
+      "881",
+      "891"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "891"
   },
   {
     "id": "maths_number_system_201",
-    "question": "Number System — Question 201 (add real content in datas/maths/number-system.json)",
+    "question": "A number is said to be pure recurring if:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Only one digit repeats",
+      "Decimal terminates",
+      "Repeating digits start immediately after decimal",
+      "Has non–repeating part then repeating part"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Repeating digits start immediately after decimal"
   },
   {
     "id": "maths_number_system_202",
-    "question": "Number System — Question 202 (add real content in datas/maths/number-system.json)",
+    "question": "What is the smallest positive number that must be added to the product of any two consecutive even numbers to make the result a perfect square?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "3",
+      "1",
+      "2",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "1"
   },
   {
     "id": "maths_number_system_203",
-    "question": "Number System — Question 203 (add real content in datas/maths/number-system.json)",
+    "question": "The square root of any prime number is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Rational",
+      "Whole",
+      "Irrational",
+      "Integer"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Irrational"
   },
   {
     "id": "maths_number_system_204",
-    "question": "Number System — Question 204 (add real content in datas/maths/number-system.json)",
+    "question": "Which of the following numbers is not a perfect square?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "121",
+      "144",
+      "169",
+      "185"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "185"
   },
   {
     "id": "maths_number_system_205",
-    "question": "Number System — Question 205 (add real content in datas/maths/number-system.json)",
+    "question": "If the square root of a number is subtracted from the number, the result is 272. What is the number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "289",
+      "324",
+      "361",
+      "400"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "289"
   },
   {
     "id": "maths_number_system_206",
-    "question": "Number System — Question 206 (add real content in datas/maths/number-system.json)",
+    "question": "What is the smallest number that, when multiplied by 1.5, gives a whole number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "2"
   },
   {
     "id": "maths_number_system_207",
-    "question": "Number System — Question 207 (add real content in datas/maths/number-system.json)",
+    "question": "The union of rational and irrational numbers is equal to:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "Real numbers",
+      "Natural numbers",
+      "Complex numbers",
+      "Whole numbers"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "Real numbers"
   },
   {
     "id": "maths_number_system_208",
-    "question": "Number System — Question 208 (add real content in datas/maths/number-system.json)",
+    "question": "The difference between the square of a number and the square of its half is 432. What is the number?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "18",
+      "24",
+      "36",
+      "48"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "24"
   },
   {
     "id": "maths_number_system_209",
-    "question": "Number System — Question 209 (add real content in datas/maths/number-system.json)",
+    "question": "The unit digit of 7103 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "3",
+      "1",
+      "0"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "3"
   },
   {
     "id": "maths_number_system_210",
-    "question": "Number System — Question 210 (add real content in datas/maths/number-system.json)",
+    "question": "The difference between the two numbers is 1365. On dividing the larger by the smaller, the quotient is 6 and the remainder is 15. Find the smaller number.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "240",
+      "270",
+      "285",
+      "295"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "270"
   },
   {
     "id": "maths_number_system_211",
-    "question": "Number System — Question 211 (add real content in datas/maths/number-system.json)",
+    "question": "What is the total number of factors of 3600?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "45",
+      "30",
+      "35",
+      "20"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "45"
   },
   {
     "id": "maths_number_system_212",
-    "question": "Number System — Question 212 (add real content in datas/maths/number-system.json)",
+    "question": "The HCF of 24 × 32 × 53 × 7 and 23 × 5 × 7 × 11 is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "23",
+      "5",
+      "7",
+      "35"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "35"
   },
   {
     "id": "maths_number_system_213",
-    "question": "Number System — Question 213 (add real content in datas/maths/number-system.json)",
+    "question": "The ratio of two numbers is 3: 4 and their LCM is 120. what is the sum of the two numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "70",
+      "140",
+      "35",
+      "105"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "70"
   },
   {
     "id": "maths_number_system_214",
-    "question": "Number System — Question 214 (add real content in datas/maths/number-system.json)",
+    "question": "Find the smallest perfect square that is divisible by both 16 and 36.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "144",
+      "576",
+      "900",
+      "1024"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "144"
   },
   {
     "id": "maths_number_system_215",
-    "question": "Number System — Question 215 (add real content in datas/maths/number-system.json)",
+    "question": "The sum of two numbers is 84 and their HCF is 12. If the ratio of their LCM to their HCF is 12: 1, what are the two numbers?",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "36 and 48",
+      "24 and 60",
+      "12 and 72",
+      "42 and 42"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "36 and 48"
   },
   {
     "id": "maths_number_system_216",
-    "question": "Number System — Question 216 (add real content in datas/maths/number-system.json)",
+    "question": "24 mango trees, 36 apple trees, and 48 orange trees have to be planted in rows such that each row contains the same number of trees of the same variety only. The maximum number of trees in a row may be planted in is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "4",
+      "8",
+      "12",
+      "16"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "12"
   },
   {
     "id": "maths_number_system_217",
-    "question": "Number System — Question 217 (add real content in datas/maths/number-system.json)",
+    "question": "The LCM and HCF of two numbers are 84 and 21 respectively. If the ratio of the two numbers is 1: 4, the larger number is:",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "24",
+      "48",
+      "88",
+      "84"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "84"
   },
   {
     "id": "maths_number_system_218",
-    "question": "Number System — Question 218 (add real content in datas/maths/number-system.json)",
+    "question": "The ratio of three numbers is 2:5:6, and their least common multiple (LCM) is 180. Find the greatest common factor (HCF) of the numbers.",
     "options": [
-      "Option A",
-      "Option B",
-      "Option C",
-      "Option D"
+      "1",
+      "6",
+      "3",
+      "8"
     ],
-    "correctAnswer": "Option A",
-    "explanation": "Placeholder for Number System."
+    "correctAnswer": "6"
   },
   {
     "id": "maths_number_system_219",
