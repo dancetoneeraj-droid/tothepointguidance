@@ -1792,8 +1792,8 @@
       "17 cm",
       "21 cm"
     ],
-    "correctAnswer": "25 cm",
-    "explanation": "Let BC = x and AC = 90 − x. Applying the Cosine Rule at ∠B = 60° gives (90 − x)² = 80² + x² − 80x. Solving gives x = 25 or 145; only x = 25 is valid. Hence the smallest side is 25 cm.",
+    "correctAnswer": "17 cm",
+    "explanation": "Let BC = x and AC = 90 − x. Applying the Cosine Rule at ∠B = 60° gives (90 − x)² = 80² + x² − 80x. Solving gives x = 17. Sides are 17, 73 and 80 cm, so the smallest side is 17 cm.",
     "solution": "Video solution be uploaded soon*"
   },
   {
@@ -1820,8 +1820,8 @@
       "2√58 cm",
       "12√43 cm"
     ],
-    "correctAnswer": "12√43 cm",
-    "explanation": "Using the area formula to determine the included angle and then applying the Cosine Rule gives the third side as 12√43 cm.",
+    "correctAnswer": "2√58 cm",
+    "explanation": "With sides 42 and 2√58 and included obtuse angle opposite AB = 50, area = ½ × 42 × 2√58 × sin C = 294 cm², which checks. Hence the third side is 2√58 cm.",
     "solution": "Video solution be uploaded soon*"
   },
   {
@@ -1927,13 +1927,13 @@
     "question": "If the sides of a triangle are 7 cm, 8 cm and 9 cm, then find the radius of its circumcircle.",
     "questionHindi": "यदि किसी त्रिभुज की भुजाएँ 7 सेमी, 8 सेमी तथा 9 सेमी हैं, तो उसके परिवृत्त की त्रिज्या ज्ञात कीजिए।",
     "options": [
-      "63/8√5 cm",
+      "21√5/10 cm",
       "21/√5 cm",
       "63/4√5 cm",
       "9√5/4 cm"
     ],
-    "correctAnswer": "63/8√5 cm",
-    "explanation": "Using Heron's formula, Area = 12√5 cm². Circumradius R = abc/(4Δ) = (7 × 8 × 9)/(4 × 12√5) = 63/(8√5) cm.",
+    "correctAnswer": "21√5/10 cm",
+    "explanation": "Using Heron's formula, Area = 12√5 cm². Circumradius R = abc/(4Δ) = (7 × 8 × 9)/(4 × 12√5) = 504/(48√5) = 21/(2√5) = 21√5/10 cm.",
     "solution": "Video solution be uploaded soon*"
   },
   {
