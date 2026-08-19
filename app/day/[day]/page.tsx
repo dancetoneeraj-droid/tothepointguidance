@@ -22,7 +22,7 @@ import { ProgressBar } from "@/components/ui/ProgressBar";
 import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
 import { AppShell } from "@/components/layout/AppShell";
-import { getDailyPlan, isDayPublished, MAX_PUBLISHED_DAY } from "@/lib/daily-plans";
+import { getDailyPlan, isDayPublished } from "@/lib/daily-plans";
 import { hasAnyDeckForDay, hasDeckForDay } from "@/lib/study-decks";
 import { hasComprehensionForDay } from "@/lib/comprehension";
 import {
@@ -721,7 +721,9 @@ export default function DayPage({
   const dayComplete = dayProgress ? isDayFullyComplete(dayProgress) : false;
   const currentUnlockedDay = progress?.unlockedDay ?? 0;
   const canUnlockNext =
-    dayComplete && dayNum === currentUnlockedDay && dayNum < MAX_PUBLISHED_DAY;
+    dayComplete &&
+    dayNum === currentUnlockedDay &&
+    isDayPublished(dayNum + 1);
 
   const openStudyFlow = () => {
     setShowStudyFlow(true);

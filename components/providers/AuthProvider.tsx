@@ -82,7 +82,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const authAvailable = isFirebaseAuthConfigured();
 
   const isAuthenticated = Boolean(user?.uid);
-  const isPremium = isPremiumEmail(user?.email);
+  const isPremium = isPremiumEmail(user?.email ?? progress?.email);
 
   const refreshProgress = useCallback(async () => {
     const id = getActiveStudentId() ?? studentId;

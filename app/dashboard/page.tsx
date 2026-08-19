@@ -21,7 +21,7 @@ import {
   PREMIUM_UNLOCK_FEE,
   PREMIUM_WHATSAPP_URL,
 } from "@/lib/premium-access";
-import { isDayPublished, MAX_PUBLISHED_DAY } from "@/lib/daily-plans";
+import { isDayPublished } from "@/lib/daily-plans";
 import { updateLeaderboardEntry } from "@/lib/firebase/firestore";
 import { getTotalProgramTasks } from "@/lib/tasks/program-tasks";
 import {
@@ -83,13 +83,21 @@ export default function DashboardPage() {
 
     return Array.from({ length: TOTAL_DAYS }, (_, index) => {
       const day = index + 1;
-      const published = day <= MAX_PUBLISHED_DAY && isDayPublished(day);
+      const published = isDayPublished(day);
       const premiumDay = isPremiumOnlyDay(day);
       const premiumAccess = canAccessDay(day, userEmail);
+      const isPremiumUser = isPremiumEmail(userEmail);
       const freeDay = day <= FREE_ACCESS_DAYS;
       // Premium users bypass sequential unlock — all published days are accessible.
-      const unlocked = published && premiumAccess && (isPremium || day <= progress.unlockedDay);
-      const nextUp = published && premiumAccess && !isPremium && day === progress.unlockedDay + 1;
+      const unlocked =
+        published &&
+        premiumAccess &&
+        (isPremiumUser || day <= progress.unlockedDay);
+      const nextUp =
+        published &&
+        premiumAccess &&
+        !isPremiumUser &&
+        day === progress.unlockedDay + 1;
       const current = day === progress.currentDay && (unlocked || nextUp);
       const completionPct = dayProgressMap[day] ?? 0;
 
@@ -175,7 +183,7 @@ export default function DashboardPage() {
         completionPct: 0,
       };
     });
-  }, [progress, user?.email, dayProgressMap]);
+  }, [progress, user?.email, dayProgressMap, isPremium]);
 
   if (!progress) {
     return (

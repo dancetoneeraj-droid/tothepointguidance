@@ -1,6 +1,6 @@
 import { premiumUsers } from "@/lib/premiumUsers";
 
-/** Days 1–3 are public (no login). Day 4+ requires whitelisted premium login. */
+/** Days 1–3 are public (no login). Day 4+ requires sign-in; whitelist skips sequential unlock. */
 export const FREE_ACCESS_DAYS = 3;
 export const PREMIUM_SUPPORT_NUMBER = "7976395900";
 export const PREMIUM_UNLOCK_FEE = 500;
@@ -20,13 +20,13 @@ export function isPremiumEmail(email: string | null | undefined): boolean {
   return PREMIUM_SET.has(normalized);
 }
 
-/** Public days always allowed; premium days only for whitelisted logged-in email. */
+/** Public days always allowed; day 4+ requires a logged-in account. */
 export function canAccessDay(
   day: number,
   email: string | null | undefined
 ): boolean {
   if (day <= FREE_ACCESS_DAYS) return true;
-  return isPremiumEmail(email);
+  return Boolean(normalizeEmail(email));
 }
 
 export function isPremiumOnlyDay(day: number): boolean {
@@ -37,6 +37,6 @@ export function getMaxAccessibleDay(
   email: string | null | undefined,
   publishedMaxDay: number
 ): number {
-  if (isPremiumEmail(email)) return publishedMaxDay;
-  return Math.min(FREE_ACCESS_DAYS, publishedMaxDay);
+  if (!normalizeEmail(email)) return Math.min(FREE_ACCESS_DAYS, publishedMaxDay);
+  return publishedMaxDay;
 }
