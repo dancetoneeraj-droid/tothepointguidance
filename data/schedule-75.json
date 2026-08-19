@@ -44,7 +44,8 @@
           "topic": "ns",
           "questions": 25,
           "duration": 20,
-          "label": "Number Series Quiz"
+          "label": "Number Series Quiz",
+          "from": 0
         }
       ],
       "gk": {
@@ -88,7 +89,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 25,
-        "duration": 25
+        "duration": 25,
+        "from": 0
       },
       "gk": {
         "revisionQuiz": "revision",
@@ -223,7 +225,8 @@
       "reasoning": {
         "topic": "seating-arrangement",
         "questions": 15,
-        "duration": 15
+        "duration": 15,
+        "from": 0
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day5-science.pdf",
@@ -556,7 +559,8 @@
         "topic": "analogy",
         "questions": 20,
         "duration": 25,
-        "label": "Syllogism Quiz"
+        "label": "Syllogism Quiz",
+        "from": 80
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1Sy4lcoECJOG64wNnJtdmeq8TxoVZxtp5/view?usp=drive_link",
@@ -928,7 +932,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 25,
-        "duration": 25
+        "duration": 25,
+        "from": 100
       },
       "gk": {
         "revisionQuiz": "revision",
@@ -1025,7 +1030,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 73
       },
       "gk": {
         "materialsNote": "Let's revise what we have learnt so far in Polity",
@@ -1090,7 +1096,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 125
       },
       "gk": {
         "materialsNote": "Let's revise what we have learnt so far in Polity",
@@ -1155,7 +1162,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 150
       },
       "gk": {
         "materialsNote": "Let's revise what we have learnt so far in Polity",
@@ -1213,7 +1221,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 123
       },
       "gk": {
         "materialsNote": "Let's revise what we have learnt so far in Polity",
@@ -1264,7 +1273,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 175
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1MQMOlnt3f0WaXu-gVRY1L5MteGsYhaGU/view?usp=drive_link"
@@ -1274,7 +1284,6 @@
       "day": 27,
       "published": true,
       "maths": [
-      
         {
           "topic": "mensuration-3d",
           "questions": 25,
@@ -1304,7 +1313,6 @@
             "from": 698
           }
         ],
-      
         "grammarQuiz": "spelling-error",
         "grammarQuizLabel": "Spelling Error",
         "grammarQuizFrom": 100,
@@ -1314,7 +1322,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 200
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1pVlOS3e80P8bT3t5kNEqyLQ96cyWnomU/view?usp=drive_link"
@@ -1371,7 +1380,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 173
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1bGn5THKRW0WPJUH04DHAGL3ywC8JfnvV/view?usp=drive_link"
@@ -1425,7 +1435,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 225
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/14lqjpVcWRaqsmhP9XSar407jfqTGvA7e/view?usp=drive_link"
@@ -1447,7 +1458,6 @@
           "duration": 25,
           "from": 175
         },
-      
         {
           "topic": "geometry",
           "questions": 25,
@@ -1474,7 +1484,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 250
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1VO6k8Cmfy4vokv2UnTuA0m6C3w1-adGF/view?usp=drive_link"
@@ -1490,7 +1501,6 @@
           "duration": 25,
           "from": 150
         },
-
         {
           "topic": "mensuration-3d",
           "questions": 25,
@@ -1526,7 +1536,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 223
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1fbm_zN_7x_xBZHnLITkqdxtTnEjLVRJT/view?usp=drive_link",
@@ -1564,8 +1575,6 @@
         }
       ],
       "english": {
-        
-    
         "grammarQuizzes": [
           {
             "topic": "pronoun",
@@ -1584,7 +1593,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 275
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1JlBrg-4tiIBWlHC_ND-Jw5e0IelIkhE1/view?usp=drive_link",
@@ -1622,8 +1632,6 @@
         }
       ],
       "english": {
-  
-       
         "grammarQuizzes": [
           {
             "topic": "pronoun",
@@ -1642,7 +1650,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 300
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1B1lfDrn6kOxbp8g_Nsnky-EcDiZuxluc/view?usp=drive_link"
@@ -1693,7 +1702,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 273
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1gYAnxAV_aQgJ1L9q9gK9gmMj0VLvA5Ta/view?usp=drive_link"
@@ -1750,7 +1760,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 325
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1MNDMZTp4yjIr_fmvznQMg0syxBajgFl9/view?usp=drive_link"
@@ -1807,7 +1818,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 350
       },
       "gk": {
         "todayTopicPdf": "https://drive.google.com/file/d/1aqqazwGPgQCPYxncY3Wv6XsDwHzHS4ii/view?usp=drive_link"
@@ -1864,7 +1876,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 323
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day5-science.pdf",
@@ -1923,7 +1936,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 375
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
@@ -1973,7 +1987,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 400
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
@@ -2023,7 +2038,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 373
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
@@ -2075,7 +2091,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 425
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
@@ -2127,7 +2144,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 450
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day2-geography.pdf",
@@ -2179,7 +2197,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 423
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day3-polity.pdf",
@@ -2229,7 +2248,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 475
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day4-economics.pdf",
@@ -2278,7 +2298,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 500
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day5-science.pdf",
@@ -2328,7 +2349,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 473
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
@@ -2378,7 +2400,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 525
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
@@ -2428,7 +2451,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 550
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
@@ -2479,7 +2503,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 523
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
@@ -2529,7 +2554,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 575
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day2-geography.pdf",
@@ -2578,7 +2604,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 600
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day3-polity.pdf",
@@ -2628,7 +2655,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 573
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day4-economics.pdf",
@@ -2678,7 +2706,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 625
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day5-science.pdf",
@@ -2724,7 +2753,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 650
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
@@ -2770,7 +2800,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 623
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
@@ -2816,7 +2847,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 675
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
@@ -2864,7 +2896,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 700
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
@@ -2912,7 +2945,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 673
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day2-geography.pdf",
@@ -2960,7 +2994,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 725
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day3-polity.pdf",
@@ -3006,7 +3041,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 750
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day4-economics.pdf",
@@ -3052,7 +3088,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 723
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day5-science.pdf",
@@ -3098,7 +3135,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 775
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
@@ -3144,7 +3182,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 800
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
@@ -3190,7 +3229,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 773
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
@@ -3238,7 +3278,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 825
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
@@ -3286,7 +3327,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 850
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day2-geography.pdf",
@@ -3334,7 +3376,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 823
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day3-polity.pdf",
@@ -3380,7 +3423,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 875
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day4-economics.pdf",
@@ -3426,7 +3470,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 900
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day5-science.pdf",
@@ -3472,7 +3517,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 873
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day6-current-affairs.pdf",
@@ -3518,7 +3564,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 925
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day7-mixed-revision.pdf",
@@ -3564,7 +3611,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 950
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day8-full-revision.pdf",
@@ -3612,7 +3660,8 @@
       "reasoning": {
         "topic": "coding-decoding",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 923
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day1-indian-history.pdf",
@@ -3660,7 +3709,8 @@
       "reasoning": {
         "topic": "puzzle",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 975
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day2-geography.pdf",
@@ -3708,7 +3758,8 @@
       "reasoning": {
         "topic": "analogy",
         "questions": 50,
-        "duration": 45
+        "duration": 45,
+        "from": 1000
       },
       "gk": {
         "todayTopicPdf": "/content/gk/day3-polity.pdf",

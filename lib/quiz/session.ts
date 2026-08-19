@@ -1,6 +1,4 @@
 import type { Question } from "@/types";
-import { sliceQuestions } from "@/lib/quiz-loader";
-
 /**
  * Sequential progression per topic (250–300 questions across 75 days).
  * Each quiz takes the next `count` questions from the student's stored index.
@@ -10,9 +8,27 @@ export function resolveQuizSlice(
   storedIndex: number,
   count: number
 ) {
-  const setStart = storedIndex;
-  const sliced = sliceQuestions(bank, setStart, count);
-  const questions = sliced.questions.slice(0, count);
+  if (bank.length === 0) {
+    return {
+      questions: [],
+      setStart: 0,
+      endIndex: 0,
+      requestedCount: count,
+      isPartial: true,
+    };
+  }
+
+  // Wrap when the schedule offset or student cursor moves past the bank end —
+  // otherwise later reasoning days load zero questions.
+  const setStart =
+    ((storedIndex % bank.length) + bank.length) % bank.length;
+  const questions: Question[] = [];
+  let idx = setStart;
+
+  while (questions.length < count) {
+    questions.push(bank[idx % bank.length]);
+    idx++;
+  }
 
   return {
     questions,
