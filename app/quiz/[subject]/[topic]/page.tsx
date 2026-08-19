@@ -219,8 +219,6 @@ export default function QuizPage({
           ? "Mathematics"
           : subject === "english"
             ? "English"
-          : subject === "reasoning"
-            ? "Reasoning"
             : "General Knowledge",
       isPartial: slice.isPartial,
     };

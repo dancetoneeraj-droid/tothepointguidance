@@ -85,7 +85,7 @@ export default function DashboardPage() {
       const day = index + 1;
       const published = isDayPublished(day);
       const premiumDay = isPremiumOnlyDay(day);
-      const premiumAccess = canAccessDay(day, userEmail);
+      const premiumAccess = canAccessDay(day, userEmail, isGuest);
       const freeDay = day <= FREE_ACCESS_DAYS;
       const unlocked = published && premiumAccess;
       const current = day === progress.currentDay && unlocked;
@@ -146,7 +146,7 @@ export default function DashboardPage() {
           statusLabel: "Unlocked",
           interactive: true,
           href: `/day/${day}`,
-          tone: (premiumDay ? "locked" : "free") as DashboardDayCard["tone"],
+          tone: (current ? "current" : "free") as DashboardDayCard["tone"],
           completionPct,
         };
       }
@@ -161,7 +161,7 @@ export default function DashboardPage() {
         completionPct: 0,
       };
     });
-  }, [progress, user?.email, dayProgressMap]);
+  }, [progress, user?.email, dayProgressMap, isGuest]);
 
   if (!progress) {
     return (

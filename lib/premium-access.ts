@@ -28,12 +28,14 @@ export function isPremiumEmail(email: string | null | undefined): boolean {
   return PREMIUM_SET.has(normalized);
 }
 
-/** Public days always allowed; day 4+ requires a logged-in account. */
+/** Public days always allowed; day 4+ requires a real signed-in account (not guest). */
 export function canAccessDay(
   day: number,
-  email: string | null | undefined
+  email: string | null | undefined,
+  isGuest = false
 ): boolean {
   if (day <= FREE_ACCESS_DAYS) return true;
+  if (isGuest) return false;
   return Boolean(normalizeEmail(email));
 }
 
