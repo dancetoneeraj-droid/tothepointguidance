@@ -16,7 +16,7 @@ import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
 import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
-import { canAccessDay } from "@/lib/premium-access";
+import { canAccessDay, resolveStudentEmail } from "@/lib/premium-access";
 import { markEnglishSection, getComprehensionRecord, saveComprehensionRecord } from "@/lib/storage";
 import {
   getComprehensionForDay,
@@ -106,7 +106,7 @@ export default function ComprehensionPage({
 
   if (!studentId || !progress) return null;
 
-  if (!canAccessDay(dayNum, user?.email)) {
+  if (!canAccessDay(dayNum, resolveStudentEmail(user?.email, progress.email))) {
     return (
       <ProtectedRoute>
         <AppShell>

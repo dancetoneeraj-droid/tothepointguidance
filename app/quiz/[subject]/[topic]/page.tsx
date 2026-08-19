@@ -10,7 +10,7 @@ import { QuizResultScreen } from "@/components/quiz/QuizResultScreen";
 import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
 import { Card } from "@/components/ui/Card";
-import { canAccessDay } from "@/lib/premium-access";
+import { canAccessDay, resolveStudentEmail } from "@/lib/premium-access";
 import {
   clearActivePausedQuiz,
   getActivePausedQuiz,
@@ -441,7 +441,7 @@ export default function QuizPage({
     );
   }
 
-  if (!canAccessDay(day, user?.email)) {
+  if (!canAccessDay(day, resolveStudentEmail(user?.email, progress.email))) {
     return (
       <ProtectedRoute>
         <div className="min-h-screen bg-[#08080a] py-12 px-4">

@@ -86,19 +86,9 @@ export default function DashboardPage() {
       const published = isDayPublished(day);
       const premiumDay = isPremiumOnlyDay(day);
       const premiumAccess = canAccessDay(day, userEmail);
-      const isPremiumUser = isPremiumEmail(userEmail);
       const freeDay = day <= FREE_ACCESS_DAYS;
-      // Premium users bypass sequential unlock — all published days are accessible.
-      const unlocked =
-        published &&
-        premiumAccess &&
-        (isPremiumUser || day <= progress.unlockedDay);
-      const nextUp =
-        published &&
-        premiumAccess &&
-        !isPremiumUser &&
-        day === progress.unlockedDay + 1;
-      const current = day === progress.currentDay && (unlocked || nextUp);
+      const unlocked = published && premiumAccess;
+      const current = day === progress.currentDay && unlocked;
       const completionPct = dayProgressMap[day] ?? 0;
 
       if (!published) {
@@ -161,18 +151,6 @@ export default function DashboardPage() {
         };
       }
 
-      if (nextUp) {
-        return {
-          day,
-          accessLabel: premiumDay ? "Premium access" : "Free access",
-          statusLabel: "Unlocked",
-          interactive: true,
-          href: `/day/${day}`,
-          tone: (premiumDay ? "locked" : "free") as DashboardDayCard["tone"],
-          completionPct,
-        };
-      }
-
       return {
         day,
         accessLabel: premiumDay ? "Premium access" : "Free access",
@@ -183,7 +161,7 @@ export default function DashboardPage() {
         completionPct: 0,
       };
     });
-  }, [progress, user?.email, dayProgressMap, isPremium]);
+  }, [progress, user?.email, dayProgressMap]);
 
   if (!progress) {
     return (

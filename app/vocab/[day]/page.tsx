@@ -19,7 +19,7 @@ import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { ProgressBar } from "@/components/ui/ProgressBar";
-import { canAccessDay } from "@/lib/premium-access";
+import { canAccessDay, resolveStudentEmail } from "@/lib/premium-access";
 import {
   CATEGORY_META,
   getDeckForDay,
@@ -80,7 +80,7 @@ export default function VocabPage({
 
   if (!studentId || !progress) return null;
 
-  if (!canAccessDay(dayNum, user?.email)) {
+  if (!canAccessDay(dayNum, resolveStudentEmail(user?.email, progress.email))) {
     return (
       <ProtectedRoute>
         <AppShell>

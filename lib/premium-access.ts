@@ -14,6 +14,14 @@ export function normalizeEmail(email: string | null | undefined): string {
   return (email ?? "").trim().toLowerCase();
 }
 
+/** Prefer Firebase auth email, fall back to stored student profile email. */
+export function resolveStudentEmail(
+  authEmail: string | null | undefined,
+  progressEmail: string | null | undefined
+): string {
+  return normalizeEmail(authEmail) || normalizeEmail(progressEmail);
+}
+
 export function isPremiumEmail(email: string | null | undefined): boolean {
   const normalized = normalizeEmail(email);
   if (!normalized) return false;

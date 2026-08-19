@@ -124,7 +124,7 @@ export default function DayPage({
       const prev =
         dayNum > 1 ? await getDayProgress(studentId, dayNum - 1) : null;
       const access = getDayAccess(dayNum, currentProgress, prev, {
-        userEmail: user?.email,
+        userEmail: user?.email ?? currentProgress.email,
       });
 
       if (!access.canAccess && access.status === "coming_soon") return;
@@ -757,7 +757,7 @@ export default function DayPage({
   if (!progress || !studentId) return null;
 
   const dayAccess = getDayAccess(dayNum, progress, null, {
-    userEmail: user?.email,
+    userEmail: user?.email ?? progress.email,
   });
 
   if (dayAccess.status === "premium_locked") {

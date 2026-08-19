@@ -13,7 +13,7 @@ import { ProtectedRoute } from "@/components/auth/ProtectedRoute";
 import { PremiumLockCard } from "@/components/auth/PremiumLockCard";
 import { Card } from "@/components/ui/Card";
 import { useAuth } from "@/components/providers/AuthProvider";
-import { canAccessDay } from "@/lib/premium-access";
+import { canAccessDay, resolveStudentEmail } from "@/lib/premium-access";
 import { formatQuizTitle, getReasoningQuizLabel, resolveScheduledQuizFrom } from "@/lib/day-system";
 import { getDailyPlan } from "@/lib/daily-plans";
 import { loadQuizAnalytics } from "@/lib/api/ecosystem";
@@ -41,7 +41,7 @@ export default function QuizSolutionsPage({
   const fromRaw = searchParams.get("from");
   const fromParam =
     fromRaw != null && fromRaw !== "" ? parseInt(fromRaw, 10) : undefined;
-  const { studentId, user } = useAuth();
+  const { studentId, user, progress } = useAuth();
 
   const data = useMemo(() => {
     if (!studentId) return null;
@@ -74,7 +74,7 @@ export default function QuizSolutionsPage({
     return null;
   }, [studentId, day, subject, topic, fromParam]);
 
-  if (!canAccessDay(day, user?.email)) {
+  if (!canAccessDay(day, resolveStudentEmail(user?.email, progress?.email))) {
     return (
       <ProtectedRoute>
         <div className="min-h-screen bg-[#08080a] py-12 px-4">

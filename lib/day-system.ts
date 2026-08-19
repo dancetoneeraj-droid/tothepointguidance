@@ -1,5 +1,5 @@
 import type { DailyPlan, DayProgress, PendingTask, StudentProgress } from "@/types";
-import { canAccessDay, FREE_ACCESS_DAYS, isPremiumEmail } from "@/lib/premium-access";
+import { canAccessDay, FREE_ACCESS_DAYS } from "@/lib/premium-access";
 import { getDailyPlan, isDayPublished, MAX_PUBLISHED_DAY } from "./daily-plans";
 import { formatMathsTopic, getMathsTopic } from "./maths-topics";
 
@@ -51,41 +51,8 @@ export function getDayAccess(
     };
   }
 
-  // Premium users bypass sequential unlock — all published days are open.
-  if (isPremiumEmail(userEmail)) {
-    return {
-      status: "available",
-      canAccess: true,
-      requiresOverride: false,
-    };
-  }
-
-  if (day > progress.unlockedDay + 1) {
-    return {
-      status: "locked_future",
-      canAccess: false,
-      requiresOverride: false,
-      message: `Complete Day ${progress.unlockedDay} to unlock Day ${progress.unlockedDay + 1} first`,
-    };
-  }
-
-  if (day === progress.unlockedDay + 1) {
-    const prevComplete = isDayFullyComplete(previousDayProgress);
-    if (!prevComplete) {
-      return {
-        status: "locked_sequential",
-        canAccess: true,
-        requiresOverride: true,
-        message: `Complete Day ${day - 1} or use override to open Day ${day} only`,
-      };
-    }
-    return {
-      status: "available",
-      canAccess: true,
-      requiresOverride: false,
-    };
-  }
-
+  // Signed-in users can open any published day. Pacing is controlled by
+  // publish flags in the schedule, not by a sequential unlock cursor.
   return {
     status: "available",
     canAccess: true,
@@ -340,8 +307,6 @@ export function getLockedDaysPreview(
       days.push({ day: d, status: "coming_soon" });
     } else if (!canAccessDay(d, userEmail)) {
       days.push({ day: d, status: "premium" });
-    } else if (d > progress.unlockedDay) {
-      days.push({ day: d, status: "locked" });
     } else {
       days.push({ day: d, status: "available" });
     }
