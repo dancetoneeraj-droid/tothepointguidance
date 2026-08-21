@@ -28,24 +28,38 @@ export function loadStore(studentId: string): LocalStudentStore | null {
   }
 }
 
+/** Write to localStorage cache only (no cloud sync). Used during hydration. */
+export function writeLocalCache(store: LocalStudentStore): void {
+  if (!isBrowser()) return;
+  localStorage.setItem(studentDataKey(store.uid), JSON.stringify(store));
+}
+
+/**
+ * Save progress: update local cache immediately, queue reliable Firestore persist.
+ */
 export function saveStore(store: LocalStudentStore): void {
   if (!isBrowser()) return;
   store.updatedAt = new Date().toISOString();
-  localStorage.setItem(studentDataKey(store.uid), JSON.stringify(store));
+  writeLocalCache(store);
 
-  // Cloud backup — fire-and-forget so it never blocks the UI.
   if (!store.isGuest && store.uid) {
-    void import("@/lib/firebase/firestore").then(({ saveStoreToFirestore }) =>
-      saveStoreToFirestore(store)
+    void import("@/lib/firebase/firestore").then(({ queueStudentPersist }) =>
+      queueStudentPersist(store)
     );
   }
+}
+
+/** Wait until the latest queued cloud save for this student completes. */
+export async function ensureCloudSaved(studentId: string): Promise<boolean> {
+  if (!studentId) return false;
+  const { flushStudentPersistQueue } = await import("@/lib/firebase/firestore");
+  return flushStudentPersistQueue(studentId);
 }
 
 export function quizCompletionId(
   day: number,
   subject: string,
   topic: string,
-  /** When set, ties completion to this bank offset so a new `from` is a fresh quiz. */
   from?: number
 ): string {
   const base = `day${day}-${subject}-${topic}`;

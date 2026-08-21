@@ -136,12 +136,18 @@ export default function AdminPage() {
         <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-200">
           <p className="font-semibold">One-time setup required</p>
           <p className="mt-1 text-amber-300/80">
-            In Firebase Console → Firestore → Rules, add this line inside your{" "}
-            <code className="rounded bg-black/30 px-1">match /students/&#123;userId&#125;</code>{" "}
-            block:
+            Students must be able to write their own doc. In Firebase Console → Firestore →
+            Rules, use something like:
           </p>
           <pre className="mt-2 overflow-x-auto rounded bg-black/40 p-2 text-xs text-emerald-300">
-            {`allow read, write: if request.auth.token.email == 'dancetoneeraj@gmail.com';`}
+            {`match /students/{userId} {
+  allow read, write: if request.auth != null && request.auth.uid == userId;
+  allow read, write: if request.auth.token.email == 'dancetoneeraj@gmail.com';
+  match /quizReviews/{reviewId} {
+    allow read, write: if request.auth != null && request.auth.uid == userId;
+    allow read, write: if request.auth.token.email == 'dancetoneeraj@gmail.com';
+  }
+}`}
           </pre>
         </div>
 

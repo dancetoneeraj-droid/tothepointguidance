@@ -29,6 +29,7 @@ import {
   recordQuizCompletion,
   saveQuizReviewRecord,
 } from "@/lib/storage";
+import { ensureCloudSaved } from "@/lib/storage/client";
 import { getQuestionBank } from "@/lib/quiz-loader";
 import {
   loadQuizAnalytics,
@@ -366,6 +367,11 @@ export default function QuizPage({
 
       saveQuizReviewRecord(studentId, reviewRecord);
       saveQuizAnalytics(reviewRecord);
+
+      const savedToCloud = await ensureCloudSaved(studentId);
+      if (!savedToCloud) {
+        console.error("[quiz] Cloud save failed — progress cached locally and will retry");
+      }
 
       await refreshProgress();
 

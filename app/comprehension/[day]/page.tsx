@@ -18,6 +18,7 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { canAccessDay, resolveStudentEmail } from "@/lib/premium-access";
 import { markEnglishSection, getComprehensionRecord, saveComprehensionRecord } from "@/lib/storage";
+import { ensureCloudSaved } from "@/lib/storage/client";
 import {
   getComprehensionForDay,
   hasComprehensionForDay,
@@ -68,6 +69,7 @@ export default function ComprehensionPage({
       completedAt: new Date().toISOString(),
     });
     await markEnglishSection(studentId, dayNum, "comprehension");
+    await ensureCloudSaved(studentId);
     await refreshProgress();
     setRestored(false);
   };

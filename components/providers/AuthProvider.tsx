@@ -17,7 +17,7 @@ import {
   subscribeToAuthState,
   type AuthProfile,
 } from "@/lib/firebase/auth";
-import { hydrateFromFirestore } from "@/lib/firebase/firestore";
+import { hydrateFromFirestore, registerPersistOnUnload } from "@/lib/firebase/firestore";
 import { isPremiumEmail } from "@/lib/premium-access";
 import {
   activateGuestSession,
@@ -27,7 +27,7 @@ import {
   initStudentProgress,
   recordLastLogin,
 } from "@/lib/storage";
-import { loadStore, saveStore } from "@/lib/storage/client";
+import { loadStore, writeLocalCache } from "@/lib/storage/client";
 import { GUEST_STUDENT_ID } from "@/lib/storage/constants";
 import type { StudentProgress } from "@/types";
 
@@ -109,14 +109,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setUser(profile);
       setIsGuest(false);
 
-      // --- Firestore hydration ---
-      // Compare the local copy against Firestore; whichever is newer wins.
-      // This restores all progress automatically after a browser clear.
+      // Merge local cache with Firestore, persist merged result to cloud.
       try {
         const localStore = loadStore(profile.uid);
-        await hydrateFromFirestore(profile.uid, localStore, saveStore);
-      } catch {
-        // Never let a Firestore error block the login flow
+        await hydrateFromFirestore(profile.uid, localStore, writeLocalCache);
+        registerPersistOnUnload(profile.uid);
+      } catch (error) {
+        console.error("[Auth] Firestore hydration failed:", error);
       }
 
       // Load (or create) the student profile from localStorage (now up to date).
