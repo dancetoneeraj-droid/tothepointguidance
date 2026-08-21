@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { useAuth } from "@/components/providers/AuthProvider";
 import { isAdminEmail } from "@/lib/admin";
+import { resetStudentDayRange } from "@/lib/admin/reset-days";
 import { loadStoreFromFirestore, saveStoreToFirestore } from "@/lib/firebase/firestore";
 import type { LocalStudentStore } from "@/lib/storage/types";
 
@@ -40,6 +41,7 @@ export default function AdminPage() {
   const [store, setStore] = useState<LocalStudentStore | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [resetting, setResetting] = useState<string | null>(null);
+  const [resettingDays, setResettingDays] = useState<string | null>(null);
   const [resetDone, setResetDone] = useState<string[]>([]);
 
   useEffect(() => {
@@ -78,6 +80,23 @@ export default function AdminPage() {
       setError(e instanceof Error ? e.message : "Failed to load student");
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function resetDayRange(fromDay: number, toDay: number) {
+    if (!store) return;
+    const label = `days-${fromDay}-${toDay}`;
+    setResettingDays(label);
+    setError(null);
+    try {
+      const updated = resetStudentDayRange(store, fromDay, toDay);
+      await saveStoreToFirestore(updated);
+      setStore(updated);
+      setResetDone((prev) => [...prev, label]);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Day range reset failed");
+    } finally {
+      setResettingDays(null);
     }
   }
 
@@ -197,11 +216,34 @@ export default function AdminPage() {
           <>
             <div className="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 px-5 py-4">
               <User className="h-5 w-5 text-zinc-400" />
-              <div>
+              <div className="flex-1">
                 <p className="font-medium">{store.displayName}</p>
                 <p className="text-xs text-zinc-400">{store.email}</p>
                 <p className="text-xs text-zinc-500">UID: {store.uid}</p>
               </div>
+            </div>
+
+            <div className="rounded-xl border border-orange-500/30 bg-orange-500/10 px-4 py-4">
+              <p className="text-sm font-semibold text-orange-200">
+                Full day reset (retake from scratch)
+              </p>
+              <p className="mt-1 text-xs text-orange-200/80">
+                Clears quizzes, comprehension, vocabulary, and day flags for the
+                range. Student must log out and log back in afterward.
+              </p>
+              <button
+                type="button"
+                onClick={() => void resetDayRange(1, 5)}
+                disabled={resettingDays === "days-1-5"}
+                className="mt-3 flex items-center gap-1.5 rounded-lg border border-orange-500/40 bg-orange-500/15 px-3 py-2 text-xs font-medium text-orange-200 hover:bg-orange-500/25 disabled:opacity-50"
+              >
+                {resettingDays === "days-1-5" ? (
+                  <Loader2 className="h-3 w-3 animate-spin" />
+                ) : (
+                  <RotateCcw className="h-3 w-3" />
+                )}
+                Reset days 1–5 completely
+              </button>
             </div>
 
             {quizzes.length === 0 ? (

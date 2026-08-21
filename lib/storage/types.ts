@@ -41,6 +41,8 @@ export interface LocalStudentStore {
   lastStudyDate?: string;
   /** ISO timestamp of the most recent login — synced to Firestore. */
   lastLogin?: string;
+  /** When set, days 1..N were cleared by admin — local cache must not restore them on merge. */
+  adminClearedDaysThrough?: number;
   createdAt: string;
   updatedAt: string;
 }

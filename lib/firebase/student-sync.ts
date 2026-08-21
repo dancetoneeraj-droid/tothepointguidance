@@ -8,6 +8,7 @@
 
 import type { DayProgress, QuizReviewRecord } from "@/types";
 import type { LocalStudentStore } from "@/lib/storage/types";
+import { applyAdminDayClearance } from "@/lib/admin/reset-days";
 
 export const STUDENTS_COLLECTION = "students";
 export const QUIZ_REVIEWS_SUBCOLLECTION = "quizReviews";
@@ -195,17 +196,26 @@ export function mergeStudentStores(
   local: LocalStudentStore,
   cloud: LocalStudentStore
 ): LocalStudentStore {
-  const displayName = cloud.displayName || local.displayName;
-  const email = cloud.email || local.email;
+  const clearedThrough = Math.max(
+    local.adminClearedDaysThrough ?? 0,
+    cloud.adminClearedDaysThrough ?? 0
+  );
+  const localBase =
+    clearedThrough > 0 ? applyAdminDayClearance(local) : local;
+  const cloudBase =
+    clearedThrough > 0 ? applyAdminDayClearance(cloud) : cloud;
+
+  const displayName = cloudBase.displayName || localBase.displayName;
+  const email = cloudBase.email || localBase.email;
 
   const mergedReviews = mergeQuizReviewRecords(
-    local.quizReviewRecords ?? {},
-    cloud.quizReviewRecords ?? {}
+    localBase.quizReviewRecords ?? {},
+    cloudBase.quizReviewRecords ?? {}
   );
 
   const completedQuizzes = unionStrings(
-    local.completedQuizzes ?? [],
-    cloud.completedQuizzes ?? []
+    localBase.completedQuizzes ?? [],
+    cloudBase.completedQuizzes ?? []
   );
 
   // Ensure every review has a matching completion id.
@@ -214,61 +224,64 @@ export function mergeStudentStores(
   }
 
   const totalQuestionsSolved = maxNum(
-    local.totalQuestionsSolved,
-    cloud.totalQuestionsSolved
+    localBase.totalQuestionsSolved,
+    cloudBase.totalQuestionsSolved
   );
-  const totalCorrect = maxNum(local.totalCorrect, cloud.totalCorrect);
+  const totalCorrect = maxNum(localBase.totalCorrect, cloudBase.totalCorrect);
 
   return {
-    version: Math.max(local.version ?? 1, cloud.version ?? 1),
+    version: Math.max(localBase.version ?? 1, cloudBase.version ?? 1),
     uid: local.uid,
     displayName,
     email,
-    phone: cloud.phone ?? local.phone,
-    photoURL: cloud.photoURL ?? local.photoURL,
+    phone: cloudBase.phone ?? localBase.phone,
+    photoURL: cloudBase.photoURL ?? localBase.photoURL,
     isGuest: false,
-    currentDay: maxNum(local.currentDay, cloud.currentDay),
-    unlockedDay: maxNum(local.unlockedDay, cloud.unlockedDay),
+    currentDay: maxNum(localBase.currentDay, cloudBase.currentDay),
+    unlockedDay: maxNum(localBase.unlockedDay, cloudBase.unlockedDay),
     completedDays: unionNumbers(
-      local.completedDays ?? [],
-      cloud.completedDays ?? []
+      localBase.completedDays ?? [],
+      cloudBase.completedDays ?? []
     ).sort((x, y) => x - y),
     completedQuizzes,
     quizReviewRecords: mergedReviews,
     comprehensionRecords: {
-      ...(local.comprehensionRecords ?? {}),
-      ...(cloud.comprehensionRecords ?? {}),
+      ...(localBase.comprehensionRecords ?? {}),
+      ...(cloudBase.comprehensionRecords ?? {}),
     },
     vocabProgress: {
-      ...(local.vocabProgress ?? {}),
-      ...(cloud.vocabProgress ?? {}),
+      ...(localBase.vocabProgress ?? {}),
+      ...(cloudBase.vocabProgress ?? {}),
     },
     vocabDaysCompleted: unionNumbers(
-      local.vocabDaysCompleted ?? [],
-      cloud.vocabDaysCompleted ?? []
+      localBase.vocabDaysCompleted ?? [],
+      cloudBase.vocabDaysCompleted ?? []
     ).sort((x, y) => x - y),
     overrideHistory: [
-      ...(local.overrideHistory ?? []),
-      ...(cloud.overrideHistory ?? []),
+      ...(localBase.overrideHistory ?? []),
+      ...(cloudBase.overrideHistory ?? []),
     ],
     mathsProgress: mergeMaxRecords(
-      local.mathsProgress ?? {},
-      cloud.mathsProgress ?? {}
+      localBase.mathsProgress ?? {},
+      cloudBase.mathsProgress ?? {}
     ),
     reasoningProgress: mergeMaxRecords(
-      local.reasoningProgress ?? {},
-      cloud.reasoningProgress ?? {}
+      localBase.reasoningProgress ?? {},
+      cloudBase.reasoningProgress ?? {}
     ),
     englishProgress: mergeEnglishProgressMap(
-      local.englishProgress ?? {},
-      cloud.englishProgress ?? {}
+      localBase.englishProgress ?? {},
+      cloudBase.englishProgress ?? {}
     ),
-    gkProgress: mergeGkProgressMap(local.gkProgress ?? {}, cloud.gkProgress ?? {}),
+    gkProgress: mergeGkProgressMap(
+      localBase.gkProgress ?? {},
+      cloudBase.gkProgress ?? {}
+    ),
     dayProgress: mergeDayProgressMap(
-      local.dayProgress ?? {},
-      cloud.dayProgress ?? {}
+      localBase.dayProgress ?? {},
+      cloudBase.dayProgress ?? {}
     ),
-    streak: maxNum(local.streak, cloud.streak),
+    streak: maxNum(localBase.streak, cloudBase.streak),
     totalQuestionsSolved,
     totalCorrect,
     accuracy:
@@ -276,16 +289,17 @@ export function mergeStudentStores(
         ? Math.round((totalCorrect / totalQuestionsSolved) * 100)
         : 0,
     topicIndices: mergeMaxRecords(
-      local.topicIndices ?? {},
-      cloud.topicIndices ?? {}
+      localBase.topicIndices ?? {},
+      cloudBase.topicIndices ?? {}
     ),
     bookmarkedQuestions: unionStrings(
-      local.bookmarkedQuestions ?? [],
-      cloud.bookmarkedQuestions ?? []
+      localBase.bookmarkedQuestions ?? [],
+      cloudBase.bookmarkedQuestions ?? []
     ),
-    lastStudyDate: local.lastStudyDate ?? cloud.lastStudyDate,
-    lastLogin: local.lastLogin ?? cloud.lastLogin,
-    createdAt: local.createdAt ?? cloud.createdAt,
+    lastStudyDate: localBase.lastStudyDate ?? cloudBase.lastStudyDate,
+    lastLogin: localBase.lastLogin ?? cloudBase.lastLogin,
+    adminClearedDaysThrough: clearedThrough > 0 ? clearedThrough : undefined,
+    createdAt: localBase.createdAt ?? cloudBase.createdAt,
     updatedAt: new Date().toISOString(),
   };
 }
