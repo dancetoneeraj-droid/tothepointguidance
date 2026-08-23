@@ -8,7 +8,10 @@
 
 import type { DayProgress, QuizReviewRecord } from "@/types";
 import type { LocalStudentStore } from "@/lib/storage/types";
-import { applyAdminDayClearance } from "@/lib/admin/reset-days";
+import {
+  quizDayFromId,
+  stripStaleClearedDaysForMerge,
+} from "@/lib/admin/reset-days";
 import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 
 export const STUDENTS_COLLECTION = "students";
@@ -201,12 +204,15 @@ export function mergeStudentStores(
     local.adminClearedDaysThrough ?? 0,
     cloud.adminClearedDaysThrough ?? 0
   );
+  const clearedAt =
+    [local.adminClearedAt, cloud.adminClearedAt]
+      .filter(Boolean)
+      .sort()
+      .at(-1) ?? cloud.updatedAt;
 
-  // Admin day reset must win over stale phone cache — strip cleared days on BOTH sides
-  // before union merge, otherwise old localStorage quizzes reappear after reset.
   const withClearanceStamp = (store: LocalStudentStore): LocalStudentStore =>
     clearedThrough > 0
-      ? { ...applyAdminDayClearance(store), adminClearedDaysThrough: clearedThrough }
+      ? stripStaleClearedDaysForMerge(store, clearedThrough, clearedAt)
       : store;
 
   const localBase = withClearanceStamp(local);
@@ -225,8 +231,17 @@ export function mergeStudentStores(
     cloudBase.completedQuizzes ?? []
   );
 
-  // Ensure every review has a matching completion id.
+  // Ensure every review has a matching completion id (skip admin-cleared stale reviews).
   for (const quizId of Object.keys(mergedReviews)) {
+    const day = quizDayFromId(quizId);
+    if (
+      clearedThrough > 0 &&
+      day !== null &&
+      day <= clearedThrough &&
+      !completedQuizzes.includes(quizId)
+    ) {
+      continue;
+    }
     if (!completedQuizzes.includes(quizId)) completedQuizzes.push(quizId);
   }
 
@@ -306,11 +321,16 @@ export function mergeStudentStores(
     lastStudyDate: localBase.lastStudyDate ?? cloudBase.lastStudyDate,
     lastLogin: localBase.lastLogin ?? cloudBase.lastLogin,
     adminClearedDaysThrough: clearedThrough > 0 ? clearedThrough : undefined,
+    adminClearedAt: clearedThrough > 0 ? clearedAt : undefined,
     createdAt: localBase.createdAt ?? cloudBase.createdAt,
     updatedAt: new Date().toISOString(),
   };
 
-  return reconcileProgressWithCompletions(merged);
+  return reconcileProgressWithCompletions(
+    clearedThrough > 0
+      ? stripStaleClearedDaysForMerge(merged, clearedThrough, clearedAt)
+      : merged
+  );
 }
 
 export function stripReviewsForMainDoc(
@@ -349,6 +369,38 @@ export async function loadQuizReviewsFromSubcollection(
     console.error("[student-sync] Failed to load quiz reviews:", error);
     return {};
   }
+}
+
+export async function deleteQuizReviewsInDayRange(
+  uid: string,
+  fromDay: number,
+  toDay: number
+): Promise<void> {
+  const db = await getDb();
+  if (!db) return;
+
+  const low = Math.min(fromDay, toDay);
+  const high = Math.max(fromDay, toDay);
+  const { collection, getDocs, writeBatch } = await import("firebase/firestore");
+  const collRef = collection(
+    db,
+    STUDENTS_COLLECTION,
+    uid,
+    QUIZ_REVIEWS_SUBCOLLECTION
+  );
+  const existing = await getDocs(collRef);
+  const batch = writeBatch(db);
+  let pending = 0;
+
+  for (const docSnap of existing.docs) {
+    const day = quizDayFromId(docSnap.id);
+    if (day !== null && day >= low && day <= high) {
+      batch.delete(docSnap.ref);
+      pending++;
+    }
+  }
+
+  if (pending > 0) await batch.commit();
 }
 
 async function syncQuizReviewSubcollection(

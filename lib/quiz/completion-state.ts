@@ -1,5 +1,5 @@
 import type { LocalStudentStore } from "@/lib/storage/types";
-import { quizCompletionId } from "@/lib/storage/client";
+import { comprehensionRecordId, quizCompletionId } from "@/lib/storage/client";
 
 export interface ParsedQuizCompletionId {
   day: number;
@@ -83,6 +83,10 @@ export function reconcileProgressWithCompletions(
 
     const reasoningDone = dayHasSubjectQuiz(store, day, "reasoning");
     const englishQuizDone = dayHasSubjectQuiz(store, day, "english");
+    const vocabDone = (store.vocabDaysCompleted ?? []).includes(day);
+    const comprehensionDone = Boolean(
+      store.comprehensionRecords?.[comprehensionRecordId(day)]
+    );
     const gkRevisionDone = [...completed].some((id) => {
       const parsed = parseQuizCompletionId(id);
       return (
@@ -100,8 +104,9 @@ export function reconcileProgressWithCompletions(
         completed: reasoningDone,
       },
       english: {
-        ...dp.english,
-        grammar: englishQuizDone ? true : dp.english.grammar,
+        grammar: englishQuizDone,
+        vocabulary: vocabDone,
+        comprehension: comprehensionDone,
       },
       gk: {
         ...dp.gk,
@@ -111,9 +116,18 @@ export function reconcileProgressWithCompletions(
     };
   }
 
+  const englishProgress = { ...(store.englishProgress ?? {}) };
+  const gkProgress = { ...(store.gkProgress ?? {}) };
+  for (const [dayKey, dp] of Object.entries(dayProgress)) {
+    englishProgress[dayKey] = dp.english;
+    gkProgress[dayKey] = dp.gk;
+  }
+
   return {
     ...store,
     dayProgress,
+    englishProgress,
+    gkProgress,
   };
 }
 

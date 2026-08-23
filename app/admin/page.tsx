@@ -16,6 +16,7 @@ import { isAdminEmail } from "@/lib/admin";
 import { resetStudentDayRange } from "@/lib/admin/reset-days";
 import { clearQuizCompletion, reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import { loadStoreFromFirestore, saveStoreToFirestore } from "@/lib/firebase/firestore";
+import { deleteQuizReviewsInDayRange } from "@/lib/firebase/student-sync";
 import { writeLocalCache } from "@/lib/storage/client";
 import type { LocalStudentStore } from "@/lib/storage/types";
 
@@ -94,6 +95,7 @@ export default function AdminPage() {
       const updated = reconcileProgressWithCompletions(
         resetStudentDayRange(store, fromDay, toDay)
       );
+      await deleteQuizReviewsInDayRange(updated.uid, fromDay, toDay);
       await saveStoreToFirestore(updated);
       setStore(updated);
       if (user?.uid === updated.uid) {

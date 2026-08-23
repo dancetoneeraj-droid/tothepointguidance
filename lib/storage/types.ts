@@ -43,6 +43,8 @@ export interface LocalStudentStore {
   lastLogin?: string;
   /** When set, days 1..N were cleared by admin — local cache must not restore them on merge. */
   adminClearedDaysThrough?: number;
+  /** When the latest admin day-range reset happened (ISO). Used to keep retakes after reset. */
+  adminClearedAt?: string;
   createdAt: string;
   updatedAt: string;
 }

@@ -16,15 +16,60 @@ export function quizIdInDayRange(
   return day !== null && day >= fromDay && day <= toDay;
 }
 
-/**
- * Fully clears progress for days [fromDay, toDay] so the student can retake them.
- * Sets adminClearedDaysThrough so login merge does not restore these days from local cache.
- */
-export function resetStudentDayRange(
+function isDayInClearedRange(day: number, through: number): boolean {
+  return through > 0 && day >= 1 && day <= through;
+}
+
+function reviewIsAfterClear(
+  store: LocalStudentStore,
+  quizId: string,
+  clearedAt: string
+): boolean {
+  const review = store.quizReviewRecords?.[quizId];
+  if (!review?.completedAt) return false;
+  return new Date(review.completedAt).getTime() > new Date(clearedAt).getTime();
+}
+
+function filterQuizzesAfterAdminClear(
+  store: LocalStudentStore,
+  through: number,
+  clearedAt: string
+): string[] {
+  return (store.completedQuizzes ?? []).filter((id) => {
+    const day = quizDayFromId(id);
+    if (day === null || !isDayInClearedRange(day, through)) return true;
+    return reviewIsAfterClear(store, id, clearedAt);
+  });
+}
+
+function filterReviewsAfterAdminClear(
+  store: LocalStudentStore,
+  through: number,
+  clearedAt: string
+): Record<string, NonNullable<LocalStudentStore["quizReviewRecords"][string]>> {
+  return Object.fromEntries(
+    Object.entries(store.quizReviewRecords ?? {}).filter(([id]) => {
+      const day = quizDayFromId(id);
+      if (day === null || !isDayInClearedRange(day, through)) return true;
+      return reviewIsAfterClear(store, id, clearedAt);
+    })
+  );
+}
+
+function purgeDayShellProgress(
   store: LocalStudentStore,
   fromDay: number,
   toDay: number
-): LocalStudentStore {
+): Pick<
+  LocalStudentStore,
+  | "dayProgress"
+  | "englishProgress"
+  | "gkProgress"
+  | "comprehensionRecords"
+  | "vocabDaysCompleted"
+  | "vocabProgress"
+  | "completedDays"
+> {
   const low = Math.min(fromDay, toDay);
   const high = Math.max(fromDay, toDay);
 
@@ -41,22 +86,11 @@ export function resetStudentDayRange(
     delete comprehensionRecords[comprehensionRecordId(d)];
   }
 
-  const clearedThrough = Math.max(store.adminClearedDaysThrough ?? 0, high);
-
-  return reconcileProgressWithCompletions({
-    ...store,
+  return {
     dayProgress,
     englishProgress,
     gkProgress,
     comprehensionRecords,
-    completedQuizzes: (store.completedQuizzes ?? []).filter(
-      (id) => !quizIdInDayRange(id, low, high)
-    ),
-    quizReviewRecords: Object.fromEntries(
-      Object.entries(store.quizReviewRecords ?? {}).filter(
-        ([id]) => !quizIdInDayRange(id, low, high)
-      )
-    ),
     vocabDaysCompleted: (store.vocabDaysCompleted ?? []).filter(
       (d) => d < low || d > high
     ),
@@ -68,14 +102,107 @@ export function resetStudentDayRange(
     completedDays: (store.completedDays ?? []).filter(
       (d) => d < low || d > high
     ),
+  };
+}
+
+/**
+ * Fully clears progress for days [fromDay, toDay] so the student can retake them.
+ * Sets adminClearedDaysThrough so login merge does not restore these days from local cache.
+ */
+export function resetStudentDayRange(
+  store: LocalStudentStore,
+  fromDay: number,
+  toDay: number
+): LocalStudentStore {
+  const low = Math.min(fromDay, toDay);
+  const high = Math.max(fromDay, toDay);
+  const clearedAt = new Date().toISOString();
+  const clearedThrough = Math.max(store.adminClearedDaysThrough ?? 0, high);
+  const shell = purgeDayShellProgress(store, low, high);
+
+  return reconcileProgressWithCompletions({
+    ...store,
+    ...shell,
+    completedQuizzes: (store.completedQuizzes ?? []).filter(
+      (id) => !quizIdInDayRange(id, low, high)
+    ),
+    quizReviewRecords: Object.fromEntries(
+      Object.entries(store.quizReviewRecords ?? {}).filter(
+        ([id]) => !quizIdInDayRange(id, low, high)
+      )
+    ),
     adminClearedDaysThrough: clearedThrough,
-    updatedAt: new Date().toISOString(),
+    adminClearedAt: clearedAt,
+    updatedAt: clearedAt,
   });
 }
 
-/** Remove admin-cleared days from a store copy before merging with cloud. */
+/**
+ * Before merging phone + cloud: drop stale attempts in admin-cleared days,
+ * but keep quizzes the student retook after the reset timestamp.
+ */
+export function stripStaleClearedDaysForMerge(
+  store: LocalStudentStore,
+  clearedThrough: number,
+  clearedAt: string | undefined
+): LocalStudentStore {
+  if (clearedThrough <= 0 || !clearedAt) return store;
+
+  const completedQuizzes = filterQuizzesAfterAdminClear(
+    store,
+    clearedThrough,
+    clearedAt
+  );
+  const quizReviewRecords = filterReviewsAfterAdminClear(
+    store,
+    clearedThrough,
+    clearedAt
+  );
+
+  const shell = purgeDayShellProgress(store, 1, clearedThrough);
+  const keptClearedDayKeys = new Set(
+    completedQuizzes
+      .map((id) => quizDayFromId(id))
+      .filter((day): day is number => day !== null && isDayInClearedRange(day, clearedThrough))
+      .map(String)
+  );
+
+  for (const key of keptClearedDayKeys) {
+    if (store.dayProgress?.[key]) shell.dayProgress[key] = store.dayProgress[key]!;
+    if (store.englishProgress?.[key]) {
+      shell.englishProgress[key] = store.englishProgress[key]!;
+    }
+    if (store.gkProgress?.[key]) shell.gkProgress[key] = store.gkProgress[key]!;
+  }
+
+  for (let d = 1; d <= clearedThrough; d++) {
+    const compId = comprehensionRecordId(d);
+    const comp = store.comprehensionRecords?.[compId];
+    if (
+      comp &&
+      new Date(comp.completedAt).getTime() > new Date(clearedAt).getTime()
+    ) {
+      shell.comprehensionRecords[compId] = comp;
+    }
+  }
+
+  return reconcileProgressWithCompletions({
+    ...store,
+    ...shell,
+    completedQuizzes,
+    quizReviewRecords,
+    adminClearedDaysThrough: clearedThrough,
+    adminClearedAt: clearedAt,
+  });
+}
+
+/** @deprecated Use stripStaleClearedDaysForMerge during sync merge. */
 export function applyAdminDayClearance(store: LocalStudentStore): LocalStudentStore {
   const through = store.adminClearedDaysThrough ?? 0;
   if (through <= 0) return store;
-  return resetStudentDayRange(store, 1, through);
+  return stripStaleClearedDaysForMerge(
+    store,
+    through,
+    store.adminClearedAt ?? store.updatedAt
+  );
 }

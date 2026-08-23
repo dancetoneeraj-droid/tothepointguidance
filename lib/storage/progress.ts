@@ -9,6 +9,7 @@ import type {
   VocabWordProgress,
 } from "@/types";
 import { GUEST_STUDENT_ID } from "./constants";
+import { quizDayFromId } from "@/lib/admin/reset-days";
 import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import {
   getActiveStudentId,
@@ -148,9 +149,39 @@ export async function initStudentProgress(
   return storeToStudentProgress(store);
 }
 
+function emptyDayProgress(day: number): DayProgress {
+  return {
+    day,
+    maths: {},
+    english: { grammar: false, vocabulary: false, comprehension: false },
+    reasoning: { currentIndex: 0, completed: false },
+    gk: { materialsCompleted: false, revisionQuizCompleted: false },
+    completed: false,
+  };
+}
+
+function shouldUseFreshDayShell(store: LocalStudentStore, day: number): boolean {
+  const clearedThrough = store.adminClearedDaysThrough ?? 0;
+  if (clearedThrough <= 0 || day > clearedThrough) return false;
+
+  const hasQuiz = (store.completedQuizzes ?? []).some(
+    (id) => quizDayFromId(id) === day
+  );
+  const hasVocab = (store.vocabDaysCompleted ?? []).includes(day);
+  const hasComprehension = Boolean(
+    store.comprehensionRecords?.[comprehensionRecordId(day)]
+  );
+
+  return !hasQuiz && !hasVocab && !hasComprehension;
+}
+
 function ensureDayInStore(store: LocalStudentStore, day: number): DayProgress {
   const key = String(day);
   if (store.dayProgress[key]) return store.dayProgress[key]!;
+
+  if (shouldUseFreshDayShell(store, day)) {
+    return emptyDayProgress(day);
+  }
 
   const dayProgress: DayProgress = {
     day,
@@ -180,9 +211,10 @@ export async function getDayProgress(
 ): Promise<DayProgress | null> {
   const store = loadStore(studentId);
   if (!store) return null;
+  const view = reconcileProgressWithCompletions(store);
   const key = String(day);
-  if (store.dayProgress[key]) return store.dayProgress[key]!;
-  return ensureDayInStore(store, day);
+  if (view.dayProgress[key]) return view.dayProgress[key]!;
+  return ensureDayInStore(view, day);
 }
 
 export async function ensureDayProgress(
