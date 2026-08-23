@@ -202,16 +202,15 @@ export function mergeStudentStores(
     cloud.adminClearedDaysThrough ?? 0
   );
 
-  // Only strip stale local progress when cloud was reset more recently.
-  const cloudResetThrough = cloud.adminClearedDaysThrough ?? 0;
-  const cloudIsResetAuthority =
-    cloudResetThrough > 0 &&
-    new Date(cloud.updatedAt).getTime() >= new Date(local.updatedAt).getTime();
+  // Admin day reset must win over stale phone cache — strip cleared days on BOTH sides
+  // before union merge, otherwise old localStorage quizzes reappear after reset.
+  const withClearanceStamp = (store: LocalStudentStore): LocalStudentStore =>
+    clearedThrough > 0
+      ? { ...applyAdminDayClearance(store), adminClearedDaysThrough: clearedThrough }
+      : store;
 
-  const localBase = cloudIsResetAuthority
-    ? applyAdminDayClearance(local)
-    : local;
-  const cloudBase = cloud;
+  const localBase = withClearanceStamp(local);
+  const cloudBase = withClearanceStamp(cloud);
 
   const displayName = cloudBase.displayName || localBase.displayName;
   const email = cloudBase.email || localBase.email;

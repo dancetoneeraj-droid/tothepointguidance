@@ -16,6 +16,7 @@ import { isAdminEmail } from "@/lib/admin";
 import { resetStudentDayRange } from "@/lib/admin/reset-days";
 import { clearQuizCompletion, reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import { loadStoreFromFirestore, saveStoreToFirestore } from "@/lib/firebase/firestore";
+import { writeLocalCache } from "@/lib/storage/client";
 import type { LocalStudentStore } from "@/lib/storage/types";
 
 interface CompletedQuizInfo {
@@ -95,6 +96,9 @@ export default function AdminPage() {
       );
       await saveStoreToFirestore(updated);
       setStore(updated);
+      if (user?.uid === updated.uid) {
+        writeLocalCache(updated);
+      }
       setResetDone((prev) => [...prev, label]);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Day range reset failed");
@@ -111,6 +115,9 @@ export default function AdminPage() {
       const updated = clearQuizCompletion(store, quizId);
       await saveStoreToFirestore(updated);
       setStore(updated);
+      if (user?.uid === updated.uid) {
+        writeLocalCache(updated);
+      }
       setResetDone((prev) => [...prev, quizId]);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Reset failed");
@@ -190,7 +197,7 @@ export default function AdminPage() {
           <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-300">
             <CheckCircle2 className="mr-2 inline h-4 w-4" />
             {resetDone.length} reset{resetDone.length > 1 ? "s" : ""} saved to cloud.
-            Student should open the dashboard (or log out and back in) to refresh.
+            Student should open the dashboard once to refresh (same browser).
           </div>
         )}
 
@@ -212,7 +219,7 @@ export default function AdminPage() {
               </p>
               <p className="mt-1 text-xs text-orange-200/80">
                 Clears quizzes, comprehension, vocabulary, and day flags for the
-                range. Student must log out and log back in afterward.
+                range. Student opens the dashboard once on their device to sync.
               </p>
               <button
                 type="button"
