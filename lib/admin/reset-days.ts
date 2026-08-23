@@ -137,22 +137,67 @@ export function resetStudentDayRange(
   });
 }
 
+function filterStaleQuizAttemptsOnly(
+  store: LocalStudentStore,
+  clearedThrough: number,
+  clearedAt: string
+): Pick<LocalStudentStore, "completedQuizzes" | "quizReviewRecords"> {
+  if (!store.adminClearedAt && !clearedAt) {
+    return {
+      completedQuizzes: (store.completedQuizzes ?? []).filter((id) => {
+        const day = quizDayFromId(id);
+        return day === null || day > clearedThrough;
+      }),
+      quizReviewRecords: Object.fromEntries(
+        Object.entries(store.quizReviewRecords ?? {}).filter(([id]) => {
+          const day = quizDayFromId(id);
+          return day === null || day > clearedThrough;
+        })
+      ),
+    };
+  }
+
+  return {
+    completedQuizzes: filterQuizzesAfterAdminClear(
+      store,
+      clearedThrough,
+      clearedAt
+    ),
+    quizReviewRecords: filterReviewsAfterAdminClear(
+      store,
+      clearedThrough,
+      clearedAt
+    ),
+  };
+}
+
 /**
- * Before merging phone + cloud: drop stale attempts in admin-cleared days,
- * but keep quizzes the student retook after the reset timestamp.
+ * Read-path only: hide stale quiz attempts after admin reset without wiping
+ * dayProgress flags (comprehension auto-mark, PDF reads, etc.).
  */
 export function getAdminClearAwareStore(
   store: LocalStudentStore
 ): LocalStudentStore {
   const through = store.adminClearedDaysThrough ?? 0;
   if (through <= 0) return store;
-  return stripStaleClearedDaysForMerge(
+
+  const clearedAt = store.adminClearedAt ?? store.updatedAt;
+  const { completedQuizzes, quizReviewRecords } = filterStaleQuizAttemptsOnly(
     store,
     through,
-    store.adminClearedAt ?? store.updatedAt
+    clearedAt
   );
+
+  return reconcileProgressWithCompletions({
+    ...store,
+    completedQuizzes,
+    quizReviewRecords,
+    adminClearedDaysThrough: through,
+    adminClearedAt: clearedAt,
+  });
 }
 
+/** Merge-path: strip stale cleared-day data before union with cloud. */
 export function stripStaleClearedDaysForMerge(
   store: LocalStudentStore,
   clearedThrough: number,
