@@ -9,6 +9,7 @@ import type {
   VocabWordProgress,
 } from "@/types";
 import { GUEST_STUDENT_ID } from "./constants";
+import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import {
   getActiveStudentId,
   loadStore,
@@ -16,6 +17,7 @@ import {
   comprehensionRecordId,
   saveStore,
   setActiveStudentId,
+  writeLocalCache,
 } from "./client";
 import type { LocalStudentStore } from "./types";
 
@@ -96,7 +98,13 @@ export function storeToStudentProgress(store: LocalStudentStore): StudentProgres
 
 function getStore(studentId: string): LocalStudentStore {
   const existing = loadStore(studentId);
-  if (existing) return ensureStoreCollections(existing);
+  if (existing) {
+    const normalized = reconcileProgressWithCompletions(
+      ensureStoreCollections(existing)
+    );
+    writeLocalCache(normalized);
+    return normalized;
+  }
   const created = createDefaultStore(studentId, {
     displayName: studentId === GUEST_STUDENT_ID ? "Guest Student" : "Student",
     email: studentId === GUEST_STUDENT_ID ? "guest@local" : "",

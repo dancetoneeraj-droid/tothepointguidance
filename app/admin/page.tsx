@@ -14,6 +14,7 @@ import {
 import { useAuth } from "@/components/providers/AuthProvider";
 import { isAdminEmail } from "@/lib/admin";
 import { resetStudentDayRange } from "@/lib/admin/reset-days";
+import { clearQuizCompletion, reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import { loadStoreFromFirestore, saveStoreToFirestore } from "@/lib/firebase/firestore";
 import type { LocalStudentStore } from "@/lib/storage/types";
 
@@ -89,7 +90,9 @@ export default function AdminPage() {
     setResettingDays(label);
     setError(null);
     try {
-      const updated = resetStudentDayRange(store, fromDay, toDay);
+      const updated = reconcileProgressWithCompletions(
+        resetStudentDayRange(store, fromDay, toDay)
+      );
       await saveStoreToFirestore(updated);
       setStore(updated);
       setResetDone((prev) => [...prev, label]);
@@ -105,27 +108,7 @@ export default function AdminPage() {
     setResetting(quizId);
     setError(null);
     try {
-      const updated: LocalStudentStore = {
-        ...store,
-        completedQuizzes: (store.completedQuizzes ?? []).filter((id) => id !== quizId),
-        quizReviewRecords: Object.fromEntries(
-          Object.entries(store.quizReviewRecords ?? {}).filter(([k]) => k !== quizId)
-        ),
-        updatedAt: new Date().toISOString(),
-      };
-
-      // Also reset dayProgress completed flag for this quiz
-      const parts = quizId.split("-");
-      const day = parseInt((parts[0] ?? "day0").replace("day", ""), 10);
-      const topic = parts.slice(2).join("-");
-      const dayKey = String(day);
-      if (updated.dayProgress?.[dayKey]?.maths?.[topic]) {
-        updated.dayProgress[dayKey]!.maths[topic] = {
-          ...updated.dayProgress[dayKey]!.maths[topic]!,
-          completed: false,
-        };
-      }
-
+      const updated = clearQuizCompletion(store, quizId);
       await saveStoreToFirestore(updated);
       setStore(updated);
       setResetDone((prev) => [...prev, quizId]);
@@ -206,8 +189,8 @@ export default function AdminPage() {
         {resetDone.length > 0 && (
           <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-4 py-3 text-sm text-emerald-300">
             <CheckCircle2 className="mr-2 inline h-4 w-4" />
-            {resetDone.length} quiz{resetDone.length > 1 ? "zes" : ""} reset. Student must log out
-            and log back in.
+            {resetDone.length} reset{resetDone.length > 1 ? "s" : ""} saved to cloud.
+            Student should open the dashboard (or log out and back in) to refresh.
           </div>
         )}
 

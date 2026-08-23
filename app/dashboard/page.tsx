@@ -28,6 +28,7 @@ import {
   getCompletedTaskIds,
   getDayWiseProgress,
 } from "@/lib/tasks/progress-sync";
+import { pullCloudProgressIfNewer } from "@/lib/storage/cloud-pull";
 
 const TOTAL_DAYS = 75;
 
@@ -42,8 +43,19 @@ type DashboardDayCard = {
 };
 
 export default function DashboardPage() {
-  const { progress, user, isPremium, studentId, isGuest } = useAuth();
+  const { progress, user, isPremium, studentId, isGuest, refreshProgress } = useAuth();
   const [selectedLockedDay, setSelectedLockedDay] = useState<number | null>(null);
+  const [progressTick, setProgressTick] = useState(0);
+
+  // Pull admin resets / newer cloud progress without requiring logout.
+  useEffect(() => {
+    if (!studentId || isGuest) return;
+    void pullCloudProgressIfNewer(studentId).then((updated) => {
+      if (updated) {
+        void refreshProgress().then(() => setProgressTick((t) => t + 1));
+      }
+    });
+  }, [studentId, isGuest, refreshProgress]);
 
   // Write leaderboard entry directly to Firestore (client-side, Firebase already initialised)
   useEffect(() => {
@@ -74,7 +86,7 @@ export default function DashboardPage() {
     if (!studentId) return {};
     const rows = getDayWiseProgress(studentId, user?.email ?? progress?.email);
     return Object.fromEntries(rows.map((r) => [r.day, r.percent]));
-  }, [studentId, user?.email, progress?.email]);
+  }, [studentId, user?.email, progress?.email, progressTick]);
 
   const dayCards = useMemo<DashboardDayCard[]>(() => {
     if (!progress) return [];

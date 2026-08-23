@@ -1,6 +1,7 @@
 import type { DayProgress } from "@/types";
 import { getAllPublishedPlans } from "@/lib/daily-plans";
 import { canAccessDay } from "@/lib/premium-access";
+import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import { loadStore } from "@/lib/storage/client";
 import {
   getProgramTaskCatalog,
@@ -8,10 +9,15 @@ import {
   type ProgramTask,
 } from "@/lib/tasks/program-tasks";
 
+function readNormalizedStore(studentId: string) {
+  const store = loadStore(studentId);
+  return store ? reconcileProgressWithCompletions(store) : null;
+}
+
 export function collectDayProgressMap(
   studentId: string
 ): Record<number, DayProgress | null> {
-  const store = loadStore(studentId);
+  const store = readNormalizedStore(studentId);
   const map: Record<number, DayProgress | null> = {};
   if (!store) return map;
   for (const [key, dp] of Object.entries(store.dayProgress)) {

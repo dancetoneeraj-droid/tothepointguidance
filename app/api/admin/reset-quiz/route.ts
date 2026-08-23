@@ -1,13 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isAdminEmail } from "@/lib/admin";
+import { clearQuizCompletion } from "@/lib/quiz/completion-state";
 import { loadStoreFromFirestore, saveStoreToFirestore } from "@/lib/firebase/firestore";
 
 /**
  * POST /api/admin/reset-quiz
  * Body: { adminEmail: string, studentId: string, quizId: string }
- *
- * Removes the quiz from completedQuizzes + quizReviewRecords in Firestore.
- * Sets updatedAt to now so the student's next login pulls the reset data.
  */
 export async function POST(req: NextRequest) {
   const body = await req.json() as {
@@ -30,43 +28,18 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Student not found in Firestore" }, { status: 404 });
   }
 
-  // Remove quiz from completedQuizzes
-  store.completedQuizzes = (store.completedQuizzes ?? []).filter((id) => id !== quizId);
-
-  // Remove review record
-  if (store.quizReviewRecords) {
-    delete store.quizReviewRecords[quizId];
-  }
-
-  // Parse quizId: "day4-maths-trigonometry"
-  const [dayPart, subject, topic] = quizId.split("-") as [string, string, string];
-  const day = parseInt(dayPart.replace("day", ""), 10);
-
-  // Reset dayProgress entry for this quiz
-  if (store.dayProgress?.[String(day)]?.maths?.[topic]) {
-    store.dayProgress[String(day)]!.maths[topic] = {
-      currentIndex: store.dayProgress[String(day)]!.maths[topic]!.currentIndex,
-      completed: false,
-    };
-  }
-
-  // Bump updatedAt so it beats localStorage on next login
-  store.updatedAt = new Date().toISOString();
-
-  await saveStoreToFirestore(store);
+  const updated = clearQuizCompletion(store, quizId);
+  await saveStoreToFirestore(updated);
 
   return NextResponse.json({
     ok: true,
     message: `Quiz "${quizId}" reset for student ${studentId}`,
-    day,
-    subject,
-    topic,
+    quizId,
   });
 }
 
 /**
  * GET /api/admin/reset-quiz?adminEmail=...&studentId=...
- * Returns the student's completedQuizzes list for display in admin UI.
  */
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);

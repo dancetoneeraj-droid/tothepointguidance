@@ -9,6 +9,7 @@
 import type { DayProgress, QuizReviewRecord } from "@/types";
 import type { LocalStudentStore } from "@/lib/storage/types";
 import { applyAdminDayClearance } from "@/lib/admin/reset-days";
+import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 
 export const STUDENTS_COLLECTION = "students";
 export const QUIZ_REVIEWS_SUBCOLLECTION = "quizReviews";
@@ -200,10 +201,17 @@ export function mergeStudentStores(
     local.adminClearedDaysThrough ?? 0,
     cloud.adminClearedDaysThrough ?? 0
   );
-  const localBase =
-    clearedThrough > 0 ? applyAdminDayClearance(local) : local;
-  const cloudBase =
-    clearedThrough > 0 ? applyAdminDayClearance(cloud) : cloud;
+
+  // Only strip stale local progress when cloud was reset more recently.
+  const cloudResetThrough = cloud.adminClearedDaysThrough ?? 0;
+  const cloudIsResetAuthority =
+    cloudResetThrough > 0 &&
+    new Date(cloud.updatedAt).getTime() >= new Date(local.updatedAt).getTime();
+
+  const localBase = cloudIsResetAuthority
+    ? applyAdminDayClearance(local)
+    : local;
+  const cloudBase = cloud;
 
   const displayName = cloudBase.displayName || localBase.displayName;
   const email = cloudBase.email || localBase.email;
@@ -229,7 +237,7 @@ export function mergeStudentStores(
   );
   const totalCorrect = maxNum(localBase.totalCorrect, cloudBase.totalCorrect);
 
-  return {
+  const merged: LocalStudentStore = {
     version: Math.max(localBase.version ?? 1, cloudBase.version ?? 1),
     uid: local.uid,
     displayName,
@@ -302,6 +310,8 @@ export function mergeStudentStores(
     createdAt: localBase.createdAt ?? cloudBase.createdAt,
     updatedAt: new Date().toISOString(),
   };
+
+  return reconcileProgressWithCompletions(merged);
 }
 
 export function stripReviewsForMainDoc(

@@ -1,5 +1,6 @@
 import type { LocalStudentStore } from "@/lib/storage/types";
 import { comprehensionRecordId } from "@/lib/storage/client";
+import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 
 export function quizDayFromId(quizId: string): number | null {
   const match = quizId.match(/^day(\d+)-/);
@@ -42,7 +43,7 @@ export function resetStudentDayRange(
 
   const clearedThrough = Math.max(store.adminClearedDaysThrough ?? 0, high);
 
-  return {
+  return reconcileProgressWithCompletions({
     ...store,
     dayProgress,
     englishProgress,
@@ -69,7 +70,7 @@ export function resetStudentDayRange(
     ),
     adminClearedDaysThrough: clearedThrough,
     updatedAt: new Date().toISOString(),
-  };
+  });
 }
 
 /** Remove admin-cleared days from a store copy before merging with cloud. */

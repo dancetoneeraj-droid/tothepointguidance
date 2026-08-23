@@ -43,6 +43,7 @@ import {
   recordOverride,
   unlockNextDay,
 } from "@/lib/storage/progress";
+import { pullCloudProgressIfNewer } from "@/lib/storage/cloud-pull";
 import { Button } from "@/components/ui/Button";
 
 type SubjectKey = "maths" | "reasoning" | "english" | "gk";
@@ -121,6 +122,9 @@ export default function DayPage({
     const currentProgress = progress;
 
     async function init() {
+      await pullCloudProgressIfNewer(studentId);
+      await refreshProgress();
+
       const prev =
         dayNum > 1 ? await getDayProgress(studentId, dayNum - 1) : null;
       const access = getDayAccess(dayNum, currentProgress, prev, {
@@ -308,28 +312,35 @@ export default function DayPage({
     const grammarQuizDuration = plan.english.grammarQuizDuration ?? 10;
 
     return [
-      ...plan.maths.map((mathTopic, index) => ({
+      ...plan.maths.map((mathTopic, index) => {
+        const quizDone = hasCompletedQuiz(
+          studentId,
+          dayNum,
+          "maths",
+          mathTopic.topic,
+          mathTopic.from
+        );
+        return {
         id: `maths-${mathTopic.topic}`,
         label: `Maths Quiz ${index + 1}`,
         subtitle: `${formatTopic(mathTopic.topic)} · ${mathTopic.questions} questions · ${mathTopic.duration} min`,
         kind: "quiz" as const,
         subject: "maths" as const,
-        completed: dayProgress.maths[mathTopic.topic]?.completed ?? false,
+        completed: quizDone,
         actions: [
           {
             id: `maths-action-${mathTopic.topic}`,
-            label: dayProgress.maths[mathTopic.topic]?.completed
-              ? "View result"
-              : "Start quiz",
+            label: quizDone ? "View result" : "Start quiz",
             onClick: () =>
               router.push(
-                dayProgress.maths[mathTopic.topic]?.completed
-                  ? `/quiz/maths/${mathTopic.topic}?day=${dayNum}`
-                  : `/quiz/maths/${mathTopic.topic}?day=${dayNum}`
+                `/quiz/maths/${mathTopic.topic}?day=${dayNum}${
+                  mathTopic.from !== undefined ? `&from=${mathTopic.from}` : ""
+                }`
               ),
           },
         ],
-      })),
+      };
+      }),
       ...(plan.reasoning
         ? [
             {
@@ -676,19 +687,27 @@ export default function DayPage({
               subtitle: `${formatTopic(plan.gk.revisionTopic ?? "revision")} · 20 questions · 25 min`,
               kind: "revision" as const,
               subject: "gk" as const,
-              completed: dayProgress.gk.revisionQuizCompleted,
+              completed: hasCompletedQuiz(
+                studentId,
+                dayNum,
+                "gk",
+                plan.gk.revisionQuiz,
+                plan.gk.from
+              ),
               actions: [
                 {
                   id: "gk-revision-action",
-                  label: dayProgress.gk.revisionQuizCompleted
+                  label: hasCompletedQuiz(
+                    studentId,
+                    dayNum,
+                    "gk",
+                    plan.gk.revisionQuiz,
+                    plan.gk.from
+                  )
                     ? "View result"
                     : "Start quiz",
                   onClick: () =>
-                    router.push(
-                      dayProgress.gk.revisionQuizCompleted
-                        ? `/quiz/gk/revision?day=${dayNum}`
-                        : `/quiz/gk/revision?day=${dayNum}`
-                    ),
+                    router.push(`/quiz/gk/revision?day=${dayNum}`),
                 },
               ],
             },
@@ -703,6 +722,7 @@ export default function DayPage({
     openGkResource,
     plan,
     router,
+    studentId,
   ]);
 
   const pendingTasks = useMemo(
