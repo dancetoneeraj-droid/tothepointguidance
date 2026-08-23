@@ -83,10 +83,11 @@ export function reconcileProgressWithCompletions(
 
     const reasoningDone = dayHasSubjectQuiz(store, day, "reasoning");
     const englishQuizDone = dayHasSubjectQuiz(store, day, "english");
-    const vocabDone = (store.vocabDaysCompleted ?? []).includes(day);
-    const comprehensionDone = Boolean(
-      store.comprehensionRecords?.[comprehensionRecordId(day)]
-    );
+    const comprehensionDone =
+      Boolean(store.comprehensionRecords?.[comprehensionRecordId(day)]) ||
+      dp.english.comprehension;
+    const vocabDone =
+      (store.vocabDaysCompleted ?? []).includes(day) || dp.english.vocabulary;
     const gkRevisionDone = [...completed].some((id) => {
       const parsed = parseQuizCompletionId(id);
       return (
@@ -101,10 +102,10 @@ export function reconcileProgressWithCompletions(
       maths,
       reasoning: {
         ...dp.reasoning,
-        completed: reasoningDone,
+        completed: reasoningDone || dp.reasoning.completed,
       },
       english: {
-        grammar: englishQuizDone,
+        grammar: englishQuizDone || dp.english.grammar,
         vocabulary: vocabDone,
         comprehension: comprehensionDone,
       },

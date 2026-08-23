@@ -253,7 +253,26 @@ export async function getDayProgress(
   if (!view) return null;
   const key = String(day);
   if (view.dayProgress[key]) return view.dayProgress[key]!;
-  return ensureDayInStore(view, day);
+
+  if (shouldUseFreshDayShell(view, day)) {
+    return emptyDayProgress(day);
+  }
+
+  return {
+    day,
+    maths: {},
+    english: view.englishProgress[key] ?? {
+      grammar: false,
+      vocabulary: false,
+      comprehension: false,
+    },
+    reasoning: { currentIndex: 0, completed: false },
+    gk: view.gkProgress[key] ?? {
+      materialsCompleted: false,
+      revisionQuizCompleted: false,
+    },
+    completed: false,
+  };
 }
 
 export async function ensureDayProgress(

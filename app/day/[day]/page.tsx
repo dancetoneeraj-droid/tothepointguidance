@@ -173,7 +173,13 @@ export default function DayPage({
 
   // Auto-mark sections that have no resources so they don't block day completion.
   useEffect(() => {
-    if (!dayProgress || !plan || !resolvedStudentId) return;
+    if (!dayProgress || !plan || !resolvedStudentId || pageLoading) return;
+
+    let changed = false;
+    const maybeRefresh = (promise: Promise<void>) => {
+      changed = true;
+      void promise.then(() => void refreshDayState());
+    };
 
     const hasGrammarActions =
       !!plan.english.grammarPdf ||
@@ -181,9 +187,7 @@ export default function DayPage({
       !!plan.english.grammarMindmap ||
       (plan.english.grammarQuizzes?.length ?? 0) > 0;
     if (!hasGrammarActions && !dayProgress.english.grammar) {
-      void markEnglishSection(resolvedStudentId, dayNum, "grammar").then(
-        () => void refreshDayState()
-      );
+      maybeRefresh(markEnglishSection(resolvedStudentId, dayNum, "grammar"));
     }
 
     const hasVocabActions =
@@ -191,25 +195,21 @@ export default function DayPage({
       hasDeckForDay("idiom", dayNum) ||
       hasDeckForDay("ows", dayNum);
     if (!hasVocabActions && !dayProgress.english.vocabulary) {
-      void markEnglishSection(resolvedStudentId, dayNum, "vocabulary").then(
-        () => void refreshDayState()
-      );
+      maybeRefresh(markEnglishSection(resolvedStudentId, dayNum, "vocabulary"));
     }
 
     const hasComprehensionActions =
       hasComprehensionForDay(dayNum) || !!plan.english.comprehensionPdf;
     if (!hasComprehensionActions && !dayProgress.english.comprehension) {
-      void markEnglishSection(resolvedStudentId, dayNum, "comprehension").then(
-        () => void refreshDayState()
+      maybeRefresh(
+        markEnglishSection(resolvedStudentId, dayNum, "comprehension")
       );
     }
 
     const hasReasoningActions =
       !!plan.reasoning || (plan.reasoningQuizzes?.length ?? 0) > 0;
     if (!hasReasoningActions && !dayProgress.reasoning.completed) {
-      void markReasoningComplete(resolvedStudentId, dayNum).then(
-        () => void refreshDayState()
-      );
+      maybeRefresh(markReasoningComplete(resolvedStudentId, dayNum));
     }
 
     const hasGkMaterialsActions = !!(
@@ -221,22 +221,19 @@ export default function DayPage({
       plan.gk.todayNotes
     );
     if (!hasGkMaterialsActions && !dayProgress.gk.materialsCompleted) {
-      void markGkMaterials(resolvedStudentId, dayNum).then(
-        () => void refreshDayState()
-      );
+      maybeRefresh(markGkMaterials(resolvedStudentId, dayNum));
     }
 
-    // Auto-complete GK revision quiz if the day's plan has no revision quiz scheduled.
     if (
       dayNum > 1 &&
       !plan.gk.revisionQuiz &&
       !dayProgress.gk.revisionQuizCompleted
     ) {
-      void markGkRevisionComplete(resolvedStudentId, dayNum).then(
-        () => void refreshDayState()
-      );
+      maybeRefresh(markGkRevisionComplete(resolvedStudentId, dayNum));
     }
-  }, [dayNum, dayProgress, plan, resolvedStudentId, refreshDayState]);
+
+    if (!changed) return;
+  }, [dayNum, dayProgress, pageLoading, plan, resolvedStudentId, refreshDayState]);
 
   const handleUnlockNext = async () => {
     setUnlocking(true);
