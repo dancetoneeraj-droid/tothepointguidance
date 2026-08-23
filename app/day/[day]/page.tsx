@@ -43,7 +43,7 @@ import {
   recordOverride,
   unlockNextDay,
 } from "@/lib/storage/progress";
-import { pullCloudProgressIfNewer } from "@/lib/storage/cloud-pull";
+import { syncStudentProgress } from "@/lib/storage/cloud-pull";
 import { Button } from "@/components/ui/Button";
 
 type SubjectKey = "maths" | "reasoning" | "english" | "gk";
@@ -122,7 +122,7 @@ export default function DayPage({
     const currentProgress = progress;
 
     async function init() {
-      await pullCloudProgressIfNewer(studentId);
+      await syncStudentProgress(studentId);
       await refreshProgress();
 
       const prev =

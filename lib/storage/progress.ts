@@ -279,6 +279,84 @@ export async function recordQuizCompletion(
   saveStore(store);
 }
 
+/** Save completion + review in one write so they cannot get out of sync. */
+export async function recordFullQuizAttempt(
+  studentId: string,
+  day: number,
+  subject: "maths" | "reasoning" | "gk" | "english",
+  topic: string,
+  result: {
+    correct: number;
+    total: number;
+    newIndex: number;
+    score: number;
+    accuracy: number;
+  },
+  reviewRecord: QuizReviewRecord,
+  options: RecordQuizOptions = {}
+): Promise<void> {
+  const { advanceIndex = true, countInStats = true, from } = options;
+  const store = getStore(studentId);
+  const topicKey = `${subject}_${topic}`;
+  const quizId = quizCompletionId(day, subject, topic, from);
+
+  if (advanceIndex) {
+    store.topicIndices[topicKey] = result.newIndex;
+    if (subject === "maths") {
+      store.mathsProgress[topic] = result.newIndex;
+    } else if (subject === "reasoning") {
+      store.reasoningProgress[topic] = result.newIndex;
+    }
+  }
+
+  if (countInStats) {
+    store.totalQuestionsSolved += result.total;
+    store.totalCorrect += result.correct;
+    store.accuracy =
+      store.totalQuestionsSolved > 0
+        ? Math.round((store.totalCorrect / store.totalQuestionsSolved) * 100)
+        : 0;
+  }
+
+  if (!store.completedQuizzes.includes(quizId)) {
+    store.completedQuizzes.push(quizId);
+  }
+
+  const dayProgress = ensureDayInStore(store, day);
+  const scoreUpdate = {
+    lastScore: result.score,
+    lastAccuracy: result.accuracy,
+  };
+
+  if (subject === "maths") {
+    const prev = dayProgress.maths[topic];
+    dayProgress.maths[topic] = {
+      currentIndex: advanceIndex ? result.newIndex : (prev?.currentIndex ?? result.newIndex),
+      completed: true,
+      ...scoreUpdate,
+    };
+  } else if (subject === "reasoning") {
+    dayProgress.reasoning = {
+      currentIndex: advanceIndex
+        ? result.newIndex
+        : dayProgress.reasoning.currentIndex,
+      completed: true,
+      ...scoreUpdate,
+    };
+  } else if (subject === "gk") {
+    dayProgress.gk.revisionQuizCompleted = true;
+    store.gkProgress[String(day)] = dayProgress.gk;
+  } else {
+    dayProgress.english.grammar = true;
+    store.englishProgress[String(day)] = dayProgress.english;
+  }
+
+  store.dayProgress[String(day)] = dayProgress;
+  store.quizReviewRecords[quizId] = reviewRecord;
+
+  saveStore(reconcileProgressWithCompletions(store));
+}
+
 export function saveQuizReviewRecord(
   studentId: string,
   record: QuizReviewRecord
@@ -298,10 +376,17 @@ export function getQuizReviewRecord(
   const store = loadStore(studentId);
   if (!store) return null;
   const normalized = ensureStoreCollections(store);
-  return (
-    normalized.quizReviewRecords[quizCompletionId(day, subject, topic, from)] ??
-    null
-  );
+  const primaryId = quizCompletionId(day, subject, topic, from);
+  if (normalized.quizReviewRecords[primaryId]) {
+    return normalized.quizReviewRecords[primaryId]!;
+  }
+
+  const prefix = `day${day}-${subject}-${topic}`;
+  for (const [id, record] of Object.entries(normalized.quizReviewRecords)) {
+    if (id === prefix || id.startsWith(`${prefix}-f`)) return record;
+  }
+
+  return null;
 }
 
 export function saveComprehensionRecord(
@@ -340,8 +425,15 @@ export function hasCompletedQuiz(
 ): boolean {
   const store = loadStore(studentId);
   if (!store) return false;
+
   const quizId = quizCompletionId(day, subject, topic, from);
-  return store.completedQuizzes.includes(quizId);
+  if (store.completedQuizzes.includes(quizId)) return true;
+
+  // Fallback: match any bank offset for this scheduled quiz.
+  const prefix = `day${day}-${subject}-${topic}`;
+  return (store.completedQuizzes ?? []).some(
+    (id) => id === prefix || id.startsWith(`${prefix}-f`)
+  );
 }
 
 export function getVocabProgress(

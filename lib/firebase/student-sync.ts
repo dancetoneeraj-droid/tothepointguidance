@@ -411,7 +411,15 @@ export async function persistStudentStoreToCloud(
         lastLogin: store.lastLogin ?? null,
       });
 
-      await syncQuizReviewSubcollection(store.uid, reviews);
+      try {
+        await syncQuizReviewSubcollection(store.uid, reviews);
+      } catch (reviewError) {
+        // Main progress doc saved — reviews can retry on next sync.
+        console.error(
+          "[student-sync] Review subcollection sync failed (main doc saved):",
+          reviewError
+        );
+      }
 
       return { ok: true };
     } catch (error) {

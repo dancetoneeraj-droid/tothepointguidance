@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useCallback, useMemo, useRef } from "react";
+import { use, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -26,10 +26,10 @@ import {
   getTopicIndex,
   hasCompletedQuiz,
   quizCompletionId,
-  recordQuizCompletion,
-  saveQuizReviewRecord,
+  recordFullQuizAttempt,
 } from "@/lib/storage";
 import { ensureCloudSaved } from "@/lib/storage/client";
+import { syncStudentProgress } from "@/lib/storage/cloud-pull";
 import { getQuestionBank } from "@/lib/quiz-loader";
 import {
   loadQuizAnalytics,
@@ -63,6 +63,20 @@ export default function QuizPage({
     fromParam !== undefined && Number.isFinite(fromParam) ? fromParam : undefined;
   const router = useRouter();
   const { studentId, progress, refreshProgress, user } = useAuth();
+  const [progressSynced, setProgressSynced] = useState(false);
+
+  useEffect(() => {
+    if (!studentId) return;
+    let cancelled = false;
+    void syncStudentProgress(studentId).then(async () => {
+      if (cancelled) return;
+      await refreshProgress();
+      setProgressSynced(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [studentId, refreshProgress]);
 
   const subject = subjectParam as "maths" | "reasoning" | "gk" | "english";
   const plan = getDailyPlan(day);
@@ -319,21 +333,6 @@ export default function QuizPage({
         true
       );
 
-      await recordQuizCompletion(
-        studentId,
-        day,
-        subject,
-        topic,
-        {
-          correct: result.correct,
-          total: result.total,
-          newIndex,
-          score: result.score,
-          accuracy: result.accuracy,
-        },
-        { from: quizFrom }
-      );
-
       const ranking = await submitQuizToServer({
         studentId,
         displayName: progress.displayName,
@@ -365,12 +364,31 @@ export default function QuizPage({
         completedAt: new Date().toISOString(),
       };
 
-      saveQuizReviewRecord(studentId, reviewRecord);
+      await recordFullQuizAttempt(
+        studentId,
+        day,
+        subject,
+        topic,
+        {
+          correct: result.correct,
+          total: result.total,
+          newIndex,
+          score: result.score,
+          accuracy: result.accuracy,
+        },
+        reviewRecord,
+        { from: quizFrom }
+      );
+
       saveQuizAnalytics(reviewRecord);
 
       const savedToCloud = await ensureCloudSaved(studentId);
       if (!savedToCloud) {
-        console.error("[quiz] Cloud save failed — progress cached locally and will retry");
+        window.alert(
+          "Your quiz was saved on this device, but cloud backup failed. " +
+            "Please check your internet connection and open the dashboard once " +
+            "before closing the browser so your progress can sync."
+        );
       }
 
       await refreshProgress();
@@ -437,7 +455,7 @@ export default function QuizPage({
     router,
   ]);
 
-  if (!studentId || !progress) {
+  if (!studentId || !progress || !progressSynced) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-[#08080a]">
         <div className="h-8 w-8 animate-spin rounded-full border-2 border-violet-500 border-t-transparent" />

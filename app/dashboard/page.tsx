@@ -28,7 +28,7 @@ import {
   getCompletedTaskIds,
   getDayWiseProgress,
 } from "@/lib/tasks/progress-sync";
-import { pullCloudProgressIfNewer } from "@/lib/storage/cloud-pull";
+import { syncStudentProgress } from "@/lib/storage/cloud-pull";
 
 const TOTAL_DAYS = 75;
 
@@ -50,10 +50,9 @@ export default function DashboardPage() {
   // Pull admin resets / newer cloud progress without requiring logout.
   useEffect(() => {
     if (!studentId || isGuest) return;
-    void pullCloudProgressIfNewer(studentId).then((updated) => {
-      if (updated) {
-        void refreshProgress().then(() => setProgressTick((t) => t + 1));
-      }
+    void syncStudentProgress(studentId).then(async () => {
+      await refreshProgress();
+      setProgressTick((t) => t + 1);
     });
   }, [studentId, isGuest, refreshProgress]);
 
