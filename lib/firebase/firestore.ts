@@ -9,6 +9,7 @@
  */
 
 import { GUEST_STUDENT_ID } from "@/lib/storage/constants";
+import type { QuizReviewRecord } from "@/types";
 import type { LocalStudentStore } from "@/lib/storage/types";
 import {
   STUDENTS_COLLECTION,
@@ -64,7 +65,11 @@ export async function saveStoreToFirestore(
  * Loads the student store from Firestore (main doc + quiz review subcollection).
  */
 export async function loadStoreFromFirestore(
-  uid: string
+  uid: string,
+  options?: {
+    skipReviews?: boolean;
+    fallbackReviews?: Record<string, QuizReviewRecord>;
+  }
 ): Promise<LocalStudentStore | null> {
   if (!uid || uid === GUEST_STUDENT_ID) return null;
   try {
@@ -75,7 +80,9 @@ export async function loadStoreFromFirestore(
     if (!snap.exists()) return null;
 
     const main = normalizeStore(snap.data() as LocalStudentStore);
-    const subReviews = await loadQuizReviewsFromSubcollection(uid);
+    const subReviews = options?.skipReviews
+      ? (options.fallbackReviews ?? {})
+      : await loadQuizReviewsFromSubcollection(uid);
     const inlineReviews = main.quizReviewRecords ?? {};
 
     return normalizeStore({

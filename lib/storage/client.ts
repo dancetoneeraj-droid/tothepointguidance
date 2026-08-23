@@ -2,6 +2,7 @@
 
 import { ACTIVE_STUDENT_KEY, studentDataKey } from "./constants";
 import type { LocalStudentStore } from "./types";
+import { invalidateCompletionCache } from "./completion-cache";
 
 export function isBrowser(): boolean {
   return typeof window !== "undefined";
@@ -32,6 +33,7 @@ export function loadStore(studentId: string): LocalStudentStore | null {
 export function writeLocalCache(store: LocalStudentStore): void {
   if (!isBrowser()) return;
   localStorage.setItem(studentDataKey(store.uid), JSON.stringify(store));
+  invalidateCompletionCache();
 }
 
 /**

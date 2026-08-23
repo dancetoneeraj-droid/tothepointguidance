@@ -35,11 +35,12 @@ import {
 } from "@/lib/day-system";
 import {
   getDayProgress,
-  hasCompletedQuiz,
+  isQuizCompletedInView,
   markEnglishSection,
   markGkMaterials,
   markGkRevisionComplete,
   markReasoningComplete,
+  readCompletionView,
   recordOverride,
   unlockNextDay,
 } from "@/lib/storage/progress";
@@ -108,6 +109,7 @@ export default function DayPage({
   const [dayProgress, setDayProgress] = useState<Awaited<
     ReturnType<typeof getDayProgress>
   > | null>(null);
+  const [pageLoading, setPageLoading] = useState(true);
   const [showOverride, setShowOverride] = useState(false);
   const [overrideGranted, setOverrideGranted] = useState(false);
   const [loadingSection, setLoadingSection] = useState<string | null>(null);
@@ -120,10 +122,12 @@ export default function DayPage({
   useEffect(() => {
     if (!studentId || !progress) return;
     const currentProgress = progress;
+    let cancelled = false;
 
     async function init() {
+      setPageLoading(true);
       await syncStudentProgress(studentId);
-      await refreshProgress();
+      if (cancelled) return;
 
       const prev =
         dayNum > 1 ? await getDayProgress(studentId, dayNum - 1) : null;
@@ -131,8 +135,14 @@ export default function DayPage({
         userEmail: user?.email ?? currentProgress.email,
       });
 
-      if (!access.canAccess && access.status === "coming_soon") return;
-      if (!access.canAccess && access.status === "premium_locked") return;
+      if (!access.canAccess && access.status === "coming_soon") {
+        if (!cancelled) setPageLoading(false);
+        return;
+      }
+      if (!access.canAccess && access.status === "premium_locked") {
+        if (!cancelled) setPageLoading(false);
+        return;
+      }
 
       if (!access.canAccess && access.status === "locked_future") {
         router.replace(`/day/${currentProgress.unlockedDay}`);
@@ -144,11 +154,16 @@ export default function DayPage({
       }
 
       const dp = await getDayProgress(studentId, dayNum);
+      if (cancelled) return;
       setDayProgress(dp);
+      setPageLoading(false);
     }
 
     void init();
-  }, [dayNum, overrideGranted, progress, router, studentId, user?.email]);
+    return () => {
+      cancelled = true;
+    };
+  }, [dayNum, overrideGranted, router, studentId, user?.email]);
 
   const refreshDayState = useCallback(async () => {
     const dp = await getDayProgress(resolvedStudentId, dayNum);
@@ -303,6 +318,16 @@ export default function DayPage({
   const tasks = useMemo<ExecutionTask[]>(() => {
     if (!plan || !dayProgress) return [];
 
+    const completionView = readCompletionView(studentId);
+    const quizDone = (
+      subject: "maths" | "reasoning" | "gk" | "english",
+      topic: string,
+      from?: number
+    ) =>
+      completionView
+        ? isQuizCompletedInView(completionView, dayNum, subject, topic, from)
+        : false;
+
     const isDay1NounFlow = dayNum === 1 && plan.english.grammarQuiz === "noun";
     const hasInlineGrammarQuiz = !!plan.english.grammarQuiz;
     const grammarQuizLabel = formatEnglishGrammarQuizLabel(
@@ -313,24 +338,18 @@ export default function DayPage({
 
     return [
       ...plan.maths.map((mathTopic, index) => {
-        const quizDone = hasCompletedQuiz(
-          studentId,
-          dayNum,
-          "maths",
-          mathTopic.topic,
-          mathTopic.from
-        );
+        const done = quizDone("maths", mathTopic.topic, mathTopic.from);
         return {
         id: `maths-${mathTopic.topic}`,
         label: `Maths Quiz ${index + 1}`,
         subtitle: `${formatTopic(mathTopic.topic)} · ${mathTopic.questions} questions · ${mathTopic.duration} min`,
         kind: "quiz" as const,
         subject: "maths" as const,
-        completed: quizDone,
+        completed: done,
         actions: [
           {
             id: `maths-action-${mathTopic.topic}`,
-            label: quizDone ? "View result" : "Start quiz",
+            label: done ? "View result" : "Start quiz",
             onClick: () =>
               router.push(
                 `/quiz/maths/${mathTopic.topic}?day=${dayNum}${
@@ -352,9 +371,7 @@ export default function DayPage({
               subtitle: `${formatReasoningQuizLabel(plan.reasoning.topic, plan.reasoning.label)} · ${plan.reasoning.questions} questions · ${plan.reasoning.duration} min`,
               kind: "quiz" as const,
               subject: "reasoning" as const,
-              completed: hasCompletedQuiz(
-                studentId,
-                dayNum,
+              completed: quizDone(
                 "reasoning",
                 plan.reasoning.topic,
                 plan.reasoning.from
@@ -362,9 +379,7 @@ export default function DayPage({
               actions: [
                 {
                   id: "reasoning-action",
-                  label: hasCompletedQuiz(
-                    studentId,
-                    dayNum,
+                  label: quizDone(
                     "reasoning",
                     plan.reasoning.topic,
                     plan.reasoning.from
@@ -382,24 +397,18 @@ export default function DayPage({
         : []),
       // Extra reasoning quizzes (e.g. Number Series) — each gets its own card.
       ...(plan.reasoningQuizzes ?? []).map((rq) => {
-        const quizDone = hasCompletedQuiz(
-          studentId,
-          dayNum,
-          "reasoning",
-          rq.topic,
-          rq.from
-        );
+        const done = quizDone("reasoning", rq.topic, rq.from);
         return {
           id: `reasoning-${rq.topic}`,
           label: rq.label ?? formatTopic(rq.topic),
           subtitle: `${rq.questions} questions · ${rq.duration} min`,
           kind: "quiz" as const,
           subject: "reasoning" as const,
-          completed: quizDone,
+          completed: done,
           actions: [
             {
               id: `reasoning-${rq.topic}-action`,
-              label: quizDone ? "View result" : "Start quiz",
+              label: done ? "View result" : "Start quiz",
               onClick: () =>
                 router.push(`/quiz/reasoning/${rq.topic}?day=${dayNum}`),
             },
@@ -476,13 +485,7 @@ export default function DayPage({
         : []),
       // Extra English grammar quizzes (e.g. two Voice sets on the same bank).
       ...(plan.english.grammarQuizzes ?? []).map((eq) => {
-        const quizDone = hasCompletedQuiz(
-          studentId,
-          dayNum,
-          "english",
-          eq.topic,
-          eq.from
-        );
+        const done = quizDone("english", eq.topic, eq.from);
         const label = formatEnglishGrammarQuizLabel(eq.label);
         const fromQs =
           eq.from !== undefined ? `&from=${eq.from}` : "";
@@ -492,11 +495,11 @@ export default function DayPage({
           subtitle: `${eq.questions} questions · ${eq.duration} min`,
           kind: "quiz" as const,
           subject: "english" as const,
-          completed: quizDone,
+          completed: done,
           actions: [
             {
               id: `english-quiz-${eq.topic}-f${eq.from ?? "x"}-action`,
-              label: quizDone ? `View ${label}` : `Start ${label}`,
+              label: done ? `View ${label}` : `Start ${label}`,
               onClick: () =>
                 router.push(
                   `/quiz/english/${eq.topic}?day=${dayNum}${fromQs}`
@@ -687,23 +690,11 @@ export default function DayPage({
               subtitle: `${formatTopic(plan.gk.revisionTopic ?? "revision")} · 20 questions · 25 min`,
               kind: "revision" as const,
               subject: "gk" as const,
-              completed: hasCompletedQuiz(
-                studentId,
-                dayNum,
-                "gk",
-                plan.gk.revisionQuiz,
-                plan.gk.from
-              ),
+              completed: quizDone("gk", plan.gk.revisionQuiz, plan.gk.from),
               actions: [
                 {
                   id: "gk-revision-action",
-                  label: hasCompletedQuiz(
-                    studentId,
-                    dayNum,
-                    "gk",
-                    plan.gk.revisionQuiz,
-                    plan.gk.from
-                  )
+                  label: quizDone("gk", plan.gk.revisionQuiz, plan.gk.from)
                     ? "View result"
                     : "Start quiz",
                   onClick: () =>
@@ -812,7 +803,7 @@ export default function DayPage({
     );
   }
 
-  if (!dayProgress) {
+  if (pageLoading || !dayProgress) {
     return (
       <ProtectedRoute>
         <AppShell>

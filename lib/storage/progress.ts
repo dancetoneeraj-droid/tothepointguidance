@@ -12,6 +12,10 @@ import { GUEST_STUDENT_ID } from "./constants";
 import { getAdminClearAwareStore, quizDayFromId } from "@/lib/admin/reset-days";
 import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import {
+  getCachedCompletionView,
+  setCachedCompletionView,
+} from "@/lib/storage/completion-cache";
+import {
   getActiveStudentId,
   loadStore,
   quizCompletionId,
@@ -163,7 +167,36 @@ function emptyDayProgress(day: number): DayProgress {
 function readStoreForCompletion(studentId: string): LocalStudentStore | null {
   const store = loadStore(studentId);
   if (!store) return null;
-  return reconcileProgressWithCompletions(getAdminClearAwareStore(store));
+
+  const cached = getCachedCompletionView(studentId, store.updatedAt);
+  if (cached) return cached;
+
+  const view = reconcileProgressWithCompletions(getAdminClearAwareStore(store));
+  setCachedCompletionView(studentId, store.updatedAt, view);
+  return view;
+}
+
+export function readCompletionView(
+  studentId: string
+): LocalStudentStore | null {
+  return readStoreForCompletion(studentId);
+}
+
+/** Check quiz completion against an already-loaded completion view. */
+export function isQuizCompletedInView(
+  view: LocalStudentStore,
+  day: number,
+  subject: string,
+  topic: string,
+  from?: number
+): boolean {
+  const quizId = quizCompletionId(day, subject, topic, from);
+  if (view.completedQuizzes.includes(quizId)) return true;
+
+  const prefix = `day${day}-${subject}-${topic}`;
+  return view.completedQuizzes.some(
+    (id) => id === prefix || id.startsWith(`${prefix}-f`)
+  );
 }
 
 function shouldUseFreshDayShell(store: LocalStudentStore, day: number): boolean {
@@ -463,15 +496,7 @@ export function hasCompletedQuiz(
 ): boolean {
   const view = readStoreForCompletion(studentId);
   if (!view) return false;
-
-  const quizId = quizCompletionId(day, subject, topic, from);
-  if (view.completedQuizzes.includes(quizId)) return true;
-
-  // Fallback: match any bank offset for this scheduled quiz.
-  const prefix = `day${day}-${subject}-${topic}`;
-  return view.completedQuizzes.some(
-    (id) => id === prefix || id.startsWith(`${prefix}-f`)
-  );
+  return isQuizCompletedInView(view, day, subject, topic, from);
 }
 
 export function getVocabProgress(
