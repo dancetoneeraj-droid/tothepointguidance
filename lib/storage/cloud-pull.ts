@@ -18,10 +18,6 @@ function progressSnapshot(store: LocalStudentStore): string {
     adminClearedAt: store.adminClearedAt ?? null,
     completedDays: store.completedDays ?? [],
     vocabDaysCompleted: store.vocabDaysCompleted ?? [],
-    dayProgress: store.dayProgress ?? {},
-    englishProgress: store.englishProgress ?? {},
-    gkProgress: store.gkProgress ?? {},
-    comprehensionRecords: store.comprehensionRecords ?? {},
     currentDay: store.currentDay,
     unlockedDay: store.unlockedDay,
   });

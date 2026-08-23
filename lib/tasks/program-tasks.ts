@@ -1,4 +1,8 @@
 import type { DailyPlan, DayProgress } from "@/types";
+import {
+  applySectionDefaultsToDayProgress,
+  getDaySectionAvailability,
+} from "@/lib/day-section-defaults";
 import { getAllPublishedPlans } from "@/lib/daily-plans";
 import { canAccessDay } from "@/lib/premium-access";
 
@@ -99,24 +103,35 @@ export function isTaskCompleted(
 ): boolean {
   if (!dayProgress) return false;
 
+  const dp = applySectionDefaultsToDayProgress(task.day, dayProgress);
+  const avail = getDaySectionAvailability(task.day);
+
   if (task.subject === "maths") {
     const slug = task.id.match(/d\d+_maths_(.+)/)?.[1];
-    return Boolean(slug && dayProgress.maths[slug]?.completed);
+    return Boolean(slug && dp.maths[slug]?.completed);
   }
 
   if (task.subject === "english") {
-    if (task.id.endsWith("grammar")) return dayProgress.english.grammar;
-    if (task.id.endsWith("vocabulary")) return dayProgress.english.vocabulary;
-    if (task.id.endsWith("comprehension")) return dayProgress.english.comprehension;
+    if (task.id.endsWith("grammar")) {
+      return !avail.grammar || dp.english.grammar;
+    }
+    if (task.id.endsWith("vocabulary")) {
+      return !avail.vocabulary || dp.english.vocabulary;
+    }
+    if (task.id.endsWith("comprehension")) {
+      return !avail.comprehension || dp.english.comprehension;
+    }
   }
 
   if (task.subject === "reasoning") {
-    return dayProgress.reasoning.completed;
+    return !avail.reasoning || dp.reasoning.completed;
   }
 
   if (task.subject === "gk") {
-    if (task.id.endsWith("revision")) return dayProgress.gk.revisionQuizCompleted;
-    return dayProgress.gk.materialsCompleted;
+    if (task.id.endsWith("revision")) {
+      return !avail.gkRevision || dp.gk.revisionQuizCompleted;
+    }
+    return !avail.gkMaterials || dp.gk.materialsCompleted;
   }
 
   return false;

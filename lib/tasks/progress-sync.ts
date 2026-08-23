@@ -1,4 +1,5 @@
 import type { DayProgress } from "@/types";
+import { applySectionDefaultsToDayProgress } from "@/lib/day-section-defaults";
 import { getAllPublishedPlans } from "@/lib/daily-plans";
 import { canAccessDay } from "@/lib/premium-access";
 import { getAdminClearAwareStore } from "@/lib/admin/reset-days";
@@ -23,7 +24,8 @@ export function collectDayProgressMap(
   const map: Record<number, DayProgress | null> = {};
   if (!store) return map;
   for (const [key, dp] of Object.entries(store.dayProgress)) {
-    map[Number(key)] = dp;
+    const day = Number(key);
+    map[day] = applySectionDefaultsToDayProgress(day, dp);
   }
   return map;
 }

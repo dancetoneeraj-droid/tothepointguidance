@@ -1,5 +1,9 @@
 import type { LocalStudentStore } from "@/lib/storage/types";
 import { comprehensionRecordId, quizCompletionId } from "@/lib/storage/client";
+import {
+  applySectionDefaultsToDayProgress,
+  getDaySectionAvailability,
+} from "@/lib/day-section-defaults";
 
 export interface ParsedQuizCompletionId {
   day: number;
@@ -88,6 +92,7 @@ export function reconcileProgressWithCompletions(
       dp.english.comprehension;
     const vocabDone =
       (store.vocabDaysCompleted ?? []).includes(day) || dp.english.vocabulary;
+    const sectionDefaults = getDaySectionAvailability(day);
     const gkRevisionDone = [...completed].some((id) => {
       const parsed = parseQuizCompletionId(id);
       return (
@@ -102,16 +107,22 @@ export function reconcileProgressWithCompletions(
       maths,
       reasoning: {
         ...dp.reasoning,
-        completed: reasoningDone || dp.reasoning.completed,
+        completed:
+          reasoningDone || dp.reasoning.completed || !sectionDefaults.reasoning,
       },
       english: {
-        grammar: englishQuizDone || dp.english.grammar,
-        vocabulary: vocabDone,
-        comprehension: comprehensionDone,
+        grammar:
+          englishQuizDone || dp.english.grammar || !sectionDefaults.grammar,
+        vocabulary: vocabDone || !sectionDefaults.vocabulary,
+        comprehension: comprehensionDone || !sectionDefaults.comprehension,
       },
       gk: {
-        ...dp.gk,
-        revisionQuizCompleted: gkRevisionDone,
+        materialsCompleted:
+          dp.gk.materialsCompleted || !sectionDefaults.gkMaterials,
+        revisionQuizCompleted:
+          gkRevisionDone ||
+          dp.gk.revisionQuizCompleted ||
+          !sectionDefaults.gkRevision,
       },
       completed: false,
     };

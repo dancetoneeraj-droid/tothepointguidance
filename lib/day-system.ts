@@ -1,4 +1,8 @@
 import type { DailyPlan, DayProgress, PendingTask, StudentProgress } from "@/types";
+import {
+  applySectionDefaultsToDayProgress,
+  getDaySectionAvailability,
+} from "@/lib/day-section-defaults";
 import { canAccessDay, FREE_ACCESS_DAYS } from "@/lib/premium-access";
 import { getDailyPlan, isDayPublished, MAX_PUBLISHED_DAY } from "./daily-plans";
 import { formatMathsTopic, getMathsTopic } from "./maths-topics";
@@ -63,22 +67,9 @@ export function getDayAccess(
 export function isDayFullyComplete(dayProgress: DayProgress | null): boolean {
   if (!dayProgress) return false;
   if (dayProgress.completed) return true;
-
-  const englishDone =
-    dayProgress.english.grammar &&
-    dayProgress.english.vocabulary &&
-    dayProgress.english.comprehension;
-
-  const reasoningDone = dayProgress.reasoning.completed;
-  const gkDone =
-    dayProgress.gk.materialsCompleted &&
-    (dayProgress.day === 1 || dayProgress.gk.revisionQuizCompleted);
-
-  const mathsTopics = Object.values(dayProgress.maths);
-  const mathsDone =
-    mathsTopics.length > 0 && mathsTopics.every((t) => t.completed);
-
-  return englishDone && reasoningDone && gkDone && mathsDone;
+  const plan = getDailyPlan(dayProgress.day);
+  if (!plan) return false;
+  return getDayCompletionPercent(dayProgress, plan) === 100;
 }
 
 export function getDayCompletionPercent(
@@ -88,25 +79,43 @@ export function getDayCompletionPercent(
   if (!dayProgress || !plan) return 0;
   if (dayProgress.completed) return 100;
 
+  const dp = applySectionDefaultsToDayProgress(plan.day, dayProgress);
+  const avail = getDaySectionAvailability(plan.day);
+
   let total = 0;
   let done = 0;
 
   plan.maths.forEach((m) => {
     total++;
-    if (dayProgress.maths[m.topic]?.completed) done++;
+    if (dp.maths[m.topic]?.completed) done++;
   });
 
-  total += 3;
-  if (dayProgress.english.grammar) done++;
-  if (dayProgress.english.vocabulary) done++;
-  if (dayProgress.english.comprehension) done++;
+  if (avail.grammar) {
+    total++;
+    if (dp.english.grammar) done++;
+  }
+  if (avail.vocabulary) {
+    total++;
+    if (dp.english.vocabulary) done++;
+  }
+  if (avail.comprehension) {
+    total++;
+    if (dp.english.comprehension) done++;
+  }
 
-  total += 1;
-  if (dayProgress.reasoning.completed) done++;
+  if (avail.reasoning) {
+    total++;
+    if (dp.reasoning.completed) done++;
+  }
 
-  total += dayProgress.day === 1 ? 1 : 2;
-  if (dayProgress.gk.materialsCompleted) done++;
-  if (dayProgress.day > 1 && dayProgress.gk.revisionQuizCompleted) done++;
+  if (avail.gkMaterials) {
+    total++;
+    if (dp.gk.materialsCompleted) done++;
+  }
+  if (avail.gkRevision) {
+    total++;
+    if (dp.gk.revisionQuizCompleted) done++;
+  }
 
   return total > 0 ? Math.round((done / total) * 100) : 0;
 }
@@ -118,9 +127,13 @@ export function getPendingTasks(
   if (!plan) return [];
   const tasks: PendingTask[] = [];
   const day = plan.day;
+  const dp = dayProgress
+    ? applySectionDefaultsToDayProgress(day, dayProgress)
+    : null;
+  const avail = getDaySectionAvailability(day);
 
   plan.maths.forEach((m) => {
-    if (!dayProgress?.maths[m.topic]?.completed) {
+    if (!dp?.maths[m.topic]?.completed) {
       tasks.push({
         id: `maths-${m.topic}`,
         day,
@@ -131,7 +144,7 @@ export function getPendingTasks(
     }
   });
 
-  if (!dayProgress?.english.grammar) {
+  if (avail.grammar && !dp?.english.grammar) {
     tasks.push({
       id: "english-grammar",
       day,
@@ -140,7 +153,7 @@ export function getPendingTasks(
       type: "reading",
     });
   }
-  if (!dayProgress?.english.vocabulary) {
+  if (avail.vocabulary && !dp?.english.vocabulary) {
     tasks.push({
       id: "english-vocab",
       day,
@@ -149,7 +162,7 @@ export function getPendingTasks(
       type: "reading",
     });
   }
-  if (!dayProgress?.english.comprehension) {
+  if (avail.comprehension && !dp?.english.comprehension) {
     tasks.push({
       id: "english-comp",
       day,
@@ -159,17 +172,17 @@ export function getPendingTasks(
     });
   }
 
-  if (plan.reasoning && !dayProgress?.reasoning.completed) {
+  if (avail.reasoning && !dp?.reasoning.completed) {
     tasks.push({
       id: "reasoning-quiz",
       day,
       subject: "reasoning",
-      label: `Reasoning: ${formatTopic(plan.reasoning.topic)}`,
+      label: `Reasoning: ${formatTopic(plan.reasoning!.topic)}`,
       type: "quiz",
     });
   }
 
-  if (!dayProgress?.gk.materialsCompleted) {
+  if (avail.gkMaterials && !dp?.gk.materialsCompleted) {
     tasks.push({
       id: "gk-materials",
       day,
@@ -178,7 +191,7 @@ export function getPendingTasks(
       type: "reading",
     });
   }
-  if (day > 1 && !dayProgress?.gk.revisionQuizCompleted) {
+  if (avail.gkRevision && !dp?.gk.revisionQuizCompleted) {
     tasks.push({
       id: "gk-revision",
       day,

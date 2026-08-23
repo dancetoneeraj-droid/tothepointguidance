@@ -38,8 +38,6 @@ import {
   isQuizCompletedInView,
   markEnglishSection,
   markGkMaterials,
-  markGkRevisionComplete,
-  markReasoningComplete,
   readCompletionView,
   recordOverride,
   unlockNextDay,
@@ -126,37 +124,31 @@ export default function DayPage({
 
     async function init() {
       setPageLoading(true);
-      await syncStudentProgress(studentId);
-      if (cancelled) return;
+      try {
+        void syncStudentProgress(studentId);
 
-      const prev =
-        dayNum > 1 ? await getDayProgress(studentId, dayNum - 1) : null;
-      const access = getDayAccess(dayNum, currentProgress, prev, {
-        userEmail: user?.email ?? currentProgress.email,
-      });
+        const access = getDayAccess(dayNum, currentProgress, null, {
+          userEmail: user?.email ?? currentProgress.email,
+        });
 
-      if (!access.canAccess && access.status === "coming_soon") {
+        if (!access.canAccess && access.status === "coming_soon") return;
+        if (!access.canAccess && access.status === "premium_locked") return;
+
+        if (!access.canAccess && access.status === "locked_future") {
+          router.replace(`/day/${currentProgress.unlockedDay}`);
+          return;
+        }
+
+        if (access.requiresOverride && !overrideGranted) {
+          setShowOverride(true);
+        }
+
+        const dp = await getDayProgress(studentId, dayNum);
+        if (cancelled) return;
+        setDayProgress(dp);
+      } finally {
         if (!cancelled) setPageLoading(false);
-        return;
       }
-      if (!access.canAccess && access.status === "premium_locked") {
-        if (!cancelled) setPageLoading(false);
-        return;
-      }
-
-      if (!access.canAccess && access.status === "locked_future") {
-        router.replace(`/day/${currentProgress.unlockedDay}`);
-        return;
-      }
-
-      if (access.requiresOverride && !overrideGranted) {
-        setShowOverride(true);
-      }
-
-      const dp = await getDayProgress(studentId, dayNum);
-      if (cancelled) return;
-      setDayProgress(dp);
-      setPageLoading(false);
     }
 
     void init();
@@ -168,72 +160,7 @@ export default function DayPage({
   const refreshDayState = useCallback(async () => {
     const dp = await getDayProgress(resolvedStudentId, dayNum);
     setDayProgress(dp);
-    await refreshProgress();
-  }, [dayNum, refreshProgress, resolvedStudentId]);
-
-  // Auto-mark sections that have no resources so they don't block day completion.
-  useEffect(() => {
-    if (!dayProgress || !plan || !resolvedStudentId || pageLoading) return;
-
-    let changed = false;
-    const maybeRefresh = (promise: Promise<void>) => {
-      changed = true;
-      void promise.then(() => void refreshDayState());
-    };
-
-    const hasGrammarActions =
-      !!plan.english.grammarPdf ||
-      !!plan.english.grammarQuiz ||
-      !!plan.english.grammarMindmap ||
-      (plan.english.grammarQuizzes?.length ?? 0) > 0;
-    if (!hasGrammarActions && !dayProgress.english.grammar) {
-      maybeRefresh(markEnglishSection(resolvedStudentId, dayNum, "grammar"));
-    }
-
-    const hasVocabActions =
-      hasDeckForDay("vocab", dayNum) ||
-      hasDeckForDay("idiom", dayNum) ||
-      hasDeckForDay("ows", dayNum);
-    if (!hasVocabActions && !dayProgress.english.vocabulary) {
-      maybeRefresh(markEnglishSection(resolvedStudentId, dayNum, "vocabulary"));
-    }
-
-    const hasComprehensionActions =
-      hasComprehensionForDay(dayNum) || !!plan.english.comprehensionPdf;
-    if (!hasComprehensionActions && !dayProgress.english.comprehension) {
-      maybeRefresh(
-        markEnglishSection(resolvedStudentId, dayNum, "comprehension")
-      );
-    }
-
-    const hasReasoningActions =
-      !!plan.reasoning || (plan.reasoningQuizzes?.length ?? 0) > 0;
-    if (!hasReasoningActions && !dayProgress.reasoning.completed) {
-      maybeRefresh(markReasoningComplete(resolvedStudentId, dayNum));
-    }
-
-    const hasGkMaterialsActions = !!(
-      plan.gk.todayTopicPdf ||
-      plan.gk.todayTopicPdf2 ||
-      plan.gk.todayTopicPdf3 ||
-      plan.gk.todayTopicPdf4 ||
-      plan.gk.todayMindmap ||
-      plan.gk.todayNotes
-    );
-    if (!hasGkMaterialsActions && !dayProgress.gk.materialsCompleted) {
-      maybeRefresh(markGkMaterials(resolvedStudentId, dayNum));
-    }
-
-    if (
-      dayNum > 1 &&
-      !plan.gk.revisionQuiz &&
-      !dayProgress.gk.revisionQuizCompleted
-    ) {
-      maybeRefresh(markGkRevisionComplete(resolvedStudentId, dayNum));
-    }
-
-    if (!changed) return;
-  }, [dayNum, dayProgress, pageLoading, plan, resolvedStudentId, refreshDayState]);
+  }, [dayNum, resolvedStudentId]);
 
   const handleUnlockNext = async () => {
     setUnlocking(true);

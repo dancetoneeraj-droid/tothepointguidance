@@ -10,10 +10,11 @@ import type {
 } from "@/types";
 import { GUEST_STUDENT_ID } from "./constants";
 import { getAdminClearAwareStore, quizDayFromId } from "@/lib/admin/reset-days";
-import { hasComprehensionForDay } from "@/lib/comprehension";
-import { getDailyPlan } from "@/lib/daily-plans";
+import {
+  applySectionDefaultsToDayProgress,
+  createEmptyDayProgress,
+} from "@/lib/day-section-defaults";
 import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
-import { hasAnyDeckForDay } from "@/lib/study-decks";
 import {
   getCachedCompletionView,
   setCachedCompletionView,
@@ -157,23 +158,11 @@ export async function initStudentProgress(
 }
 
 function emptyDayProgress(day: number): DayProgress {
-  const plan = getDailyPlan(day);
-  const noComprehension =
-    !hasComprehensionForDay(day) && !plan?.english.comprehensionPdf;
-  const noVocab = !hasAnyDeckForDay(day);
+  return createEmptyDayProgress(day);
+}
 
-  return {
-    day,
-    maths: {},
-    english: {
-      grammar: false,
-      vocabulary: noVocab,
-      comprehension: noComprehension,
-    },
-    reasoning: { currentIndex: 0, completed: false },
-    gk: { materialsCompleted: false, revisionQuizCompleted: false },
-    completed: false,
-  };
+function finalizeDayProgress(day: number, dp: DayProgress): DayProgress {
+  return applySectionDefaultsToDayProgress(day, dp);
 }
 
 function readStoreForCompletion(studentId: string): LocalStudentStore | null {
@@ -264,13 +253,15 @@ export async function getDayProgress(
   const view = readStoreForCompletion(studentId);
   if (!view) return null;
   const key = String(day);
-  if (view.dayProgress[key]) return view.dayProgress[key]!;
+  if (view.dayProgress[key]) {
+    return finalizeDayProgress(day, view.dayProgress[key]!);
+  }
 
   if (shouldUseFreshDayShell(view, day)) {
     return emptyDayProgress(day);
   }
 
-  return {
+  return finalizeDayProgress(day, {
     day,
     maths: {},
     english: view.englishProgress[key] ?? {
@@ -284,7 +275,7 @@ export async function getDayProgress(
       revisionQuizCompleted: false,
     },
     completed: false,
-  };
+  });
 }
 
 export async function ensureDayProgress(
