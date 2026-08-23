@@ -9,7 +9,7 @@ import type {
   VocabWordProgress,
 } from "@/types";
 import { GUEST_STUDENT_ID } from "./constants";
-import { quizDayFromId } from "@/lib/admin/reset-days";
+import { getAdminClearAwareStore, quizDayFromId } from "@/lib/admin/reset-days";
 import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import {
   getActiveStudentId,
@@ -160,11 +160,18 @@ function emptyDayProgress(day: number): DayProgress {
   };
 }
 
+function readStoreForCompletion(studentId: string): LocalStudentStore | null {
+  const store = loadStore(studentId);
+  if (!store) return null;
+  return reconcileProgressWithCompletions(getAdminClearAwareStore(store));
+}
+
 function shouldUseFreshDayShell(store: LocalStudentStore, day: number): boolean {
   const clearedThrough = store.adminClearedDaysThrough ?? 0;
   if (clearedThrough <= 0 || day > clearedThrough) return false;
 
-  const hasQuiz = (store.completedQuizzes ?? []).some(
+  const view = getAdminClearAwareStore(store);
+  const hasQuiz = (view.completedQuizzes ?? []).some(
     (id) => quizDayFromId(id) === day
   );
   const hasVocab = (store.vocabDaysCompleted ?? []).includes(day);
@@ -209,9 +216,8 @@ export async function getDayProgress(
   studentId: string,
   day: number
 ): Promise<DayProgress | null> {
-  const store = loadStore(studentId);
-  if (!store) return null;
-  const view = reconcileProgressWithCompletions(store);
+  const view = readStoreForCompletion(studentId);
+  if (!view) return null;
   const key = String(day);
   if (view.dayProgress[key]) return view.dayProgress[key]!;
   return ensureDayInStore(view, day);
@@ -405,16 +411,16 @@ export function getQuizReviewRecord(
   topic: string,
   from?: number
 ): QuizReviewRecord | null {
-  const store = loadStore(studentId);
-  if (!store) return null;
-  const normalized = ensureStoreCollections(store);
+  const view = readStoreForCompletion(studentId);
+  if (!view) return null;
+
   const primaryId = quizCompletionId(day, subject, topic, from);
-  if (normalized.quizReviewRecords[primaryId]) {
-    return normalized.quizReviewRecords[primaryId]!;
+  if (view.quizReviewRecords[primaryId]) {
+    return view.quizReviewRecords[primaryId]!;
   }
 
   const prefix = `day${day}-${subject}-${topic}`;
-  for (const [id, record] of Object.entries(normalized.quizReviewRecords)) {
+  for (const [id, record] of Object.entries(view.quizReviewRecords)) {
     if (id === prefix || id.startsWith(`${prefix}-f`)) return record;
   }
 
@@ -455,15 +461,15 @@ export function hasCompletedQuiz(
   topic: string,
   from?: number
 ): boolean {
-  const store = loadStore(studentId);
-  if (!store) return false;
+  const view = readStoreForCompletion(studentId);
+  if (!view) return false;
 
   const quizId = quizCompletionId(day, subject, topic, from);
-  if (store.completedQuizzes.includes(quizId)) return true;
+  if (view.completedQuizzes.includes(quizId)) return true;
 
   // Fallback: match any bank offset for this scheduled quiz.
   const prefix = `day${day}-${subject}-${topic}`;
-  return (store.completedQuizzes ?? []).some(
+  return view.completedQuizzes.some(
     (id) => id === prefix || id.startsWith(`${prefix}-f`)
   );
 }

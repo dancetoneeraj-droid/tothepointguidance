@@ -1,6 +1,7 @@
 import type { DayProgress } from "@/types";
 import { getAllPublishedPlans } from "@/lib/daily-plans";
 import { canAccessDay } from "@/lib/premium-access";
+import { getAdminClearAwareStore } from "@/lib/admin/reset-days";
 import { reconcileProgressWithCompletions } from "@/lib/quiz/completion-state";
 import { loadStore } from "@/lib/storage/client";
 import {
@@ -11,7 +12,8 @@ import {
 
 function readNormalizedStore(studentId: string) {
   const store = loadStore(studentId);
-  return store ? reconcileProgressWithCompletions(store) : null;
+  if (!store) return null;
+  return reconcileProgressWithCompletions(getAdminClearAwareStore(store));
 }
 
 export function collectDayProgressMap(

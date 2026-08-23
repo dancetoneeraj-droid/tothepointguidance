@@ -141,22 +141,56 @@ export function resetStudentDayRange(
  * Before merging phone + cloud: drop stale attempts in admin-cleared days,
  * but keep quizzes the student retook after the reset timestamp.
  */
+export function getAdminClearAwareStore(
+  store: LocalStudentStore
+): LocalStudentStore {
+  const through = store.adminClearedDaysThrough ?? 0;
+  if (through <= 0) return store;
+  return stripStaleClearedDaysForMerge(
+    store,
+    through,
+    store.adminClearedAt ?? store.updatedAt
+  );
+}
+
 export function stripStaleClearedDaysForMerge(
   store: LocalStudentStore,
   clearedThrough: number,
   clearedAt: string | undefined
 ): LocalStudentStore {
-  if (clearedThrough <= 0 || !clearedAt) return store;
+  if (clearedThrough <= 0) return store;
+
+  const effectiveClearedAt = clearedAt ?? store.adminClearedAt ?? store.updatedAt;
+
+  // Legacy docs: adminClearedDaysThrough set but no timestamp — hard-drop cleared days.
+  if (!store.adminClearedAt && !clearedAt) {
+    const shell = purgeDayShellProgress(store, 1, clearedThrough);
+    return reconcileProgressWithCompletions({
+      ...store,
+      ...shell,
+      completedQuizzes: (store.completedQuizzes ?? []).filter((id) => {
+        const day = quizDayFromId(id);
+        return day === null || day > clearedThrough;
+      }),
+      quizReviewRecords: Object.fromEntries(
+        Object.entries(store.quizReviewRecords ?? {}).filter(([id]) => {
+          const day = quizDayFromId(id);
+          return day === null || day > clearedThrough;
+        })
+      ),
+      adminClearedDaysThrough: clearedThrough,
+    });
+  }
 
   const completedQuizzes = filterQuizzesAfterAdminClear(
     store,
     clearedThrough,
-    clearedAt
+    effectiveClearedAt
   );
   const quizReviewRecords = filterReviewsAfterAdminClear(
     store,
     clearedThrough,
-    clearedAt
+    effectiveClearedAt
   );
 
   const shell = purgeDayShellProgress(store, 1, clearedThrough);
@@ -180,7 +214,7 @@ export function stripStaleClearedDaysForMerge(
     const comp = store.comprehensionRecords?.[compId];
     if (
       comp &&
-      new Date(comp.completedAt).getTime() > new Date(clearedAt).getTime()
+      new Date(comp.completedAt).getTime() > new Date(effectiveClearedAt).getTime()
     ) {
       shell.comprehensionRecords[compId] = comp;
     }
@@ -192,7 +226,7 @@ export function stripStaleClearedDaysForMerge(
     completedQuizzes,
     quizReviewRecords,
     adminClearedDaysThrough: clearedThrough,
-    adminClearedAt: clearedAt,
+    adminClearedAt: store.adminClearedAt ?? effectiveClearedAt,
   });
 }
 
