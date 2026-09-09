@@ -1674,7 +1674,7 @@
       "2,14,500",
       "1,56,000"
     ],
-    "correctAnswer": "1,43,000",
+    "correctAnswer": "1,56,000",
     "solution": "Case 1: Compounded annually for 1.5 years at 20%.\nEffective rate = $20 + 10 + \\frac{20 \\times 10}{100} = 32\\%$.\nCase 2: Compounded half-yearly for 1.5 years (3 periods) at 10%.\nEffective rate = $33.1\\%$.\nDifference in rate = $33.1\\% - 32\\% = 1.1\\%$.\nGiven, $1.1\\% \\text{ of } P = 1716 \\Rightarrow P = \\frac{1716}{1.1} \\times 100 = 156000$. (Wait, recalculating: $1716 / 1.1 = 1560$, so 156,000. Correct option is D)."
   },
   {
@@ -1687,7 +1687,7 @@
       "6,500",
       "7,200"
     ],
-    "correctAnswer": "5,000",
+    "correctAnswer": "6,000",
     "solution": "Time = 2.5 years at 10% p.a.\nRate for 1st year = 10%, 2nd year = 10%, last 0.5 year = 5%.\nEffective rate for 2 years at 10% = 21%.\nTotal effective rate = $21 + 5 + \\frac{21 \\times 5}{100} = 26 + 1.05 = 27.05\\%$.\nGiven, $27.05\\% \\text{ of } P = 1623 \\Rightarrow P = \\frac{1623}{27.05} \\times 100 = 6000$."
   },
   {
@@ -1739,7 +1739,7 @@
       "4,439",
       "4,394"
     ],
-    "correctAnswer": "4,394",
+    "correctAnswer": "4,296",
     "solution": "Time = 2 years and $\\frac{5}{7}$ year. Rates: 14%, 14%, and $\\frac{5}{7} \\times 14\\% = 10\\%$.\nEffective rate for 2 years at 14% = $14 + 14 + 1.96 = 29.96\\%$.\nTotal effective rate = $29.96 + 10 + \\frac{29.96 \\times 10}{100} = 39.96 + 2.996 = 42.956\\%$.\nCI = $10000 \\times 42.956\\% = 4295.6 \\approx 4296$."
   },
   {
@@ -1752,7 +1752,7 @@
       "₹3,960",
       "₹3,997"
     ],
-    "correctAnswer": "₹4,205",
+    "correctAnswer": "₹3,997",
     "solution": "Time = 2 years + $\\frac{2}{5}$ year. Rates: 20%, 20%, and $\\frac{2}{5} \\times 20\\% = 8\\%$.\nEffective rate for 2 years at 20% = 44%.\nTotal effective rate = $44 + 8 + \\frac{44 \\times 8}{100} = 52 + 3.52 = 55.52\\%$.\nCompound Interest ($CI$) = $7200 \\times 55.52\\% = 3997.44 \\approx 3997$. Let's recheck options: D is 3997."
   },
   {
@@ -1843,7 +1843,7 @@
       "₹1,634",
       "₹1,735"
     ],
-    "correctAnswer": "₹1,640",
+    "correctAnswer": "₹1,634",
     "solution": "Time = 15 months = 3 periods of 5 months.\nRate = $15 \\times \\frac{5}{12} = 6.25\\% = \\frac{1}{16}$.\nAmount = $8192 \\times (\\frac{17}{16})^3 = 8192 \\times \\frac{4913}{4096} = 2 \\times 4913 = 9826$.\nCI = $9826 - 8192 = 1640$."
   },
   {
